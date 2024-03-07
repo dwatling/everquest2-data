@@ -1,0 +1,613 @@
+{
+  "name": "The Caves",
+  "name_sortable": "caves",
+  "region": "Karan",
+  "zonerect": "-93.00,-171.00,78.00,32.00",
+  "levels": "10-15",
+  "maps": [
+    {
+      "name": "Lower"
+    },
+    {
+      "name": "Upper"
+    }
+  ],
+  "connections": [
+    {
+      "key": "qey_catacomb01"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "an alabaster behemoth",
+      "name_sortable": "alabasterbehemoth",
+      "utterances": [
+        null
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1994939444 -48636944:impure chunk of arcane stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 467810091 -703431601:a golem obedience chain\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 527044354 1657123123:advanced craftsman volume 12\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "an alabaster golem",
+      "name_sortable": "alabastergolem",
+      "utterances": [
+        null
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -272717028 -2050908586:Blackened Iron Tulwar\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1956828486 234429739:a golem animating force\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1214901854 2074147517:glimmering stone fragment\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 467810091 -703431601:a golem obedience chain\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -61203924 -290617416:a golem sentience leash\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 307526400 1745667756:a golem motive prism\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1699957654 -220990493:a golem corporeal shell\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1994939444 -48636944:impure chunk of arcane stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 538775320 1158209847:impure chunk of arcane stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an albino arachnid",
+      "name_sortable": "albinoarachnid",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a cave serpent",
+      "name_sortable": "caveserpent",
+      "locations": [
+        "5.85,2.75,-24.93",
+        "12.00,12.22,-48.93",
+        "9.43,2.51,-15.00",
+        "-2.91,3.63,-34.87"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 947828686 -1926162362:tanned leather bracers\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1987642321 423420640:Far Seas Direct Requisition Order CVS0431\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -614927293 143399234:Caramels\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Consul Bree",
+      "name_sortable": "consulbree",
+      "utterances": [
+        "Have you collected the materials?",
+        "Then I have all I need. I will make the staff of summoning now. Do not be alarmed, the skeleton that adorns it is not a recent one. With this staff Zen'Durath will be summoned. Are you ready?",
+        "Good. Take this staff to the large skull on the northern end one level above this one. Once there place the staff in the skull, this will bring forth Zen'Durath. Return to me when he is dead.",
+        "And be careful. Zen'Durath will not be pleased to see you.",
+        "Is Zen'Durath dead?",
+        "Then it is done, and the Rockpaw shall soon fall. I am very relieved. I am lucky to have you, <player name>. Please, take this as a sign of my thanks, and the thanks of the Queen. You have earned it.",
+        "I am glad you are here.",
+        "I was here on my own a short time ago. These Caves are home to a few gnoll clans: the Dustpaw, the Mudpaw and the Rockpaw. Previously they had fought amongst themselves. After a series of strange reports from a few of the areas that surround Qeynos, I was sent here to investigate a possible link.",
+        "A strong link. Among the Rockpaw gnolls a new leader has come, High Shaman Zen'Durath. He's smart, smarter than any other gnoll I know of. He rallied the Rockpaw gnolls and brought them victory over the other two clans. He then reestablished ties with Blackburrow. Blackburrow provided him with some contacts. Through these contacts Zen'Durath got in touch with a few Freeportian engineers, Fluwkowir and Fulkoir Haggleton.",
+        "There had been gnoll sightings in the Forest Ruins, the Oakmyst Forest and the Peat Bog. That alone is very strange. There were also reports of gnolls possessing strange machines. The purpose of most of these machines has yet to be deciphered. A couple, however, are known to us. One is meant to dig, and the other is meant to poison. When I arrived here things were quiet, for a time. Now that is no longer the case.",
+        "The gnolls have brought an expert smithy from Blackburrow. They've been creating armor to outfit an army for some time now. And that isn't the only source of noise... The Haggletons have provided these gnolls with massive digging machines. When I was last down here the plans were not finalized, but it looked like they were going to tunnel directly into Qeynos. This is why we must act discreetly. Panic would only complicate things at this point.",
+        "I believe so, though not directly.",
+        "To begin with you can help me retrieve an updated copy of the gnoll field book. My copy is more than a few weeks old and these gnolls are more organized than one would like to credit their race capable of. The leaders of each clan of gnolls within these caves will have the order book. There is a Dustpaw gnoll camp west of here, on this level. Retrieve their field book. It may be encoded. If you see a small symbol of a paw held to an eye, then it is encoded. If it is, then you must find the key to the cipher; this could be carried by any gnoll. Once you have the key, bring it and the book back to me so I can study it.",
+        "And be wary of the Dustpaw. They didn't have the strength to beat the Rockpaw, but that doesn't mean they're docile."
+      ]
+    },
+    {
+      "name": "The Devoured",
+      "name_sortable": "devoured",
+      "utterances": [
+        "Your death will please the clan!",
+        "I'll rip your throat open!"
+      ]
+    },
+    {
+      "name": "Dustcaller Sleg",
+      "name_sortable": "dustcallersleg",
+      "locations": [
+        "26.83,19.90,-126.29"
+      ],
+      "utterances": [
+        "I'll hunt you down for that!"
+      ],
+      "drop_coin_min": 28,
+      "drop_coin_max": 28
+    },
+    {
+      "name": "a Dustpaw armorer",
+      "name_sortable": "dustpawarmorer",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 35,
+      "drop_coin_max": 35
+    },
+    {
+      "name": "a Dustpaw guard",
+      "name_sortable": "dustpawguard",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1537370945 993864962:tanned leather gloves\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 14,
+      "drop_coin_max": 14
+    },
+    {
+      "name": "a Dustpaw lookout",
+      "name_sortable": "dustpawlookout",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Emma Torque",
+      "name_sortable": "emmatorque",
+      "utterances": [
+        "Well?",
+        "Sure. Be careful with it. I don't think it will explode and kill you, but I also don't want you using it anywhere near me.",
+        "Most precise! I heard the explosions from here, I am glad you were not in them and that they were in the proper spots--they WERE in the proper spots, right?",
+        "Great! Consul Bree will be very pleased. You have done the Qeynos Guard a great service, <player name>. Take this, please. And thank you.",
+        "Great job!"
+      ]
+    },
+    {
+      "name": "Fulkoir Haggleton",
+      "name_sortable": "fulkoirhaggleton",
+      "utterances": [
+        "I cannot believe my horrible luck!"
+      ]
+    },
+    {
+      "name": "Gelerth Bucklebrow",
+      "name_sortable": "gelerthbucklebrow",
+      "locations": [
+        "-34.80,33.35,-52.00",
+        "-9.86,3.48,-25.42"
+      ],
+      "utterances": [
+        "What do I need to do here?",
+        "Hello again, adventurer.",
+        "Oh, you betcha! This'll be fun!",
+        "Sorry. I am ready for my first lesson."
+      ]
+    },
+    {
+      "name": "Geologist Quardifle",
+      "name_sortable": "geologistquardifle",
+      "utterances": [
+        "These rocks here are interesting... I'm not sure where they came from.  It's rather strange... they simply don't fit this area at all...",
+        "Oooo, pass them here! These samples are remarkable!  These will occupy my time for quite a while! Really, you're a natural! If you find more unique rocks on your journey, return them to me and I'll reimburse you. Here, take this coin for your first discovery!",
+        "The geography of the area isn't suitable for forming this kind of rock. I'm merely curious I suppose, but understanding the world we live in often unseats presumptions we have about our existence.",
+        "I'll tell you what. If you want to learn more, and help me out at the same time, I can give you something to do that might whet your appetite for more - what do you say to that?",
+        "Great! You'll find that these caves are largely unexplored.  Seek out intricate areas of these caves and bring me back some unique rock samples and I'll be happy!"
+      ]
+    },
+    {
+      "name": "a gnoll guardian",
+      "name_sortable": "gnollguardian",
+      "locations": [
+        "-38.99,33.32,-51.35"
+      ],
+      "utterances": [
+        "Bite! Show sharp teeth!",
+        "More meat!"
+      ]
+    },
+    {
+      "name": "High Shaman Zen'Durath",
+      "name_sortable": "highshamanzendurath",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Kahla Ulno",
+      "name_sortable": "kahlaulno",
+      "utterances": [
+        "Greetings! I don't suppose you have some time to help an information-hungry kerra like myself, do you?",
+        "Well, I'm very interested in the creatures that inhabit these caves. I am trying to catalog these creatures so I can better compare them with their cousins found elsewhere. But I've run into a problem.",
+        "The amount of information I can get from living specimens is minimal. I tried to kill some, but I am no fighter. If I could get a number of dead specimens it would be a huge boon to my work.",
+        "You can? That would be great. I think four of the spiders, four of the bats, and four of the flying serpents would be enough for me to get most of my research done.",
+        "Great! I'll be here when you're done.",
+        "Did you get the creatures?",
+        "Perfect! Thank you so much! This will help me a great deal."
+      ]
+    },
+    {
+      "name": "Lieutenant Delsun",
+      "name_sortable": "lieutenantdelsun",
+      "utterances": [
+        "Have you done as I asked?",
+        "Good. Though we may not directly attack their production as Consul Bree does, we've done a great part in thinning out their armies. Take this, the Qeynos Guard puts aside such things for times like this. I believe you deserve it.",
+        "You make Qeynos proud, soldier.",
+        "Well met. If you're here it's probably because you can help. I'm Lieutenant Delsun of the Qeynos Guard.",
+        "Well. Consul Bree has a plan of attack that she may need help with. So speak to her if you want to offer your services. As for me, I am more interested in the gnolls than their plans. If you want to help me by taking some of them out, I will gladly accept it.",
+        "That is good to hear. I'd like you to help me take out the gnollish fighting force. Slay thirty gnolls within the caves. Make sure two of 'em are the Dustpaw armorers from the level above us, and five of 'em are the Rockpaw guards from the level above that. From the same level as the Rockpaw guards, take out five of the gnoll guardians known as alabaster behemoths. Return to me when you're done.",
+        "Once you've done this return to me. The city of Qeynos will want to thank you properly."
+      ]
+    },
+    {
+      "name": "a Mudpaw guard",
+      "name_sortable": "mudpawguard",
+      "locations": [
+        "30.82,19.89,-127.33"
+      ],
+      "utterances": [
+        null,
+        "Spin, weave, dodge, attack!!!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2117239122 2115474395:Miner's Ring\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 33,
+      "drop_coin_max": 33
+    },
+    {
+      "name": "a Mudpaw lookout",
+      "name_sortable": "mudpawlookout",
+      "locations": [
+        "10.17,12.43,-51.03"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1543838002 2091384456:tanned leather tunic\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1537370945 993864962:tanned leather gloves\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1493644228 574369999:Charm II (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1698232697 159043196:Chirannite Threat Totem\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 29,
+      "drop_coin_max": 29
+    },
+    {
+      "name": "a river behemoth",
+      "name_sortable": "riverbehemoth",
+      "utterances": [
+        null
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1994939444 -48636944:impure chunk of arcane stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1214901854 2074147517:glimmering stone fragment\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Rockpaw guard",
+      "name_sortable": "rockpawguard",
+      "utterances": [
+        null,
+        "Not allowed here!",
+        "Bite! Show sharp teeth!",
+        "That one never mate!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 295026780 -1433839586:a gnoll paw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 16,
+      "drop_coin_max": 37
+    },
+    {
+      "name": "a Rockpaw scout",
+      "name_sortable": "rockpawscout",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 24,
+      "drop_coin_max": 248
+    },
+    {
+      "name": "a Rockpaw stonemaster",
+      "name_sortable": "rockpawstonemaster",
+      "utterances": [
+        "Spin, weave, dodge, attack!!!"
+      ],
+      "drop_coin_min": 32,
+      "drop_coin_max": 32
+    },
+    {
+      "name": "a Rockpaw striker",
+      "name_sortable": "rockpawstriker",
+      "drop_coin_min": 17,
+      "drop_coin_max": 23
+    },
+    {
+      "name": "a shale bat",
+      "name_sortable": "shalebat",
+      "locations": [
+        "0.81,12.79,-52.03",
+        "-6.23,12.81,-55.64"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1127098598 -837078682:a bat ear\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Slaverjaw",
+      "name_sortable": "slaverjaw",
+      "locations": [
+        "-15.33,38.49,-49.94"
+      ]
+    },
+    {
+      "name": "a terra bat",
+      "name_sortable": "terrabat",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1537370945 993864962:tanned leather gloves\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Warmonger Gurne",
+      "name_sortable": "warmongergurne",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 37,
+      "drop_coin_max": 37
+    },
+    {
+      "name": "a white spider",
+      "name_sortable": "whitespider",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1163703835 1698426441:bone cudgel\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a white spiderling",
+      "name_sortable": "whitespiderling",
+      "locations": [
+        "5.76,2.75,-33.68",
+        "8.00,2.75,-26.82"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1597999582 -1680139941:a poison gland\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1202278372 1384654712:advanced craftsman volume 10\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 947828686 -1926162362:tanned leather bracers\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1963727073 1172430953:Nature's Embrace II (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -754783456 936122982:Taunting Blow II (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1863899816 1337605406:tanned leather boots\\/a",
+          "chest": true
+        }
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1832140126 1193284294:chipped shard of abjuration\\/a",
+      "locations": [
+        "18.25,13.00,-61.13"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a",
+      "locations": [
+        "33.62,13.00,-114.01"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1827919267 674824625:plain purple butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1450331100 1954652540:plain yellow butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1880258538 332036934:regal violet butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -686869063 575531348:shattered barbarian bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -672434816 285511061:shattered dark elf bone fragment\\/a",
+      "locations": [
+        "22.28,4.00,-18.09"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1389794325 228147189:shattered dwarf bone fragment\\/a",
+      "locations": [
+        "31.37,4.00,-45.09"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 211153600 994283553:shattered erudite bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1234627898 -64928650:spotted violet butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1810895498 719705793:striped blue butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -140875129 -569972932:striped purple butterfly\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the creature den",
+      "name_sortable": "creatureden"
+    },
+    {
+      "name": "the dusky ore",
+      "name_sortable": "duskyore"
+    },
+    {
+      "name": "the natural garden",
+      "name_sortable": "naturalgarden"
+    },
+    {
+      "name": "the rigid stone",
+      "name_sortable": "rigidstone"
+    },
+    {
+      "name": "the variety of fish",
+      "name_sortable": "varietyoffish"
+    }
+  ]
+}

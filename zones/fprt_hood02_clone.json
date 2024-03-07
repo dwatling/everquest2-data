@@ -1,0 +1,38 @@
+{
+  "name": "Stonestair Byway",
+  "name_sortable": "stonestairbyway",
+  "region": "D'Lere",
+  "zonerect": "-167.84, -157.10, 164.91, 89.21",
+  "type": "village",
+  "connections": [
+    {
+      "key": "freeport_combined"
+    },
+    {
+      "key": "fprt_sewer01"
+    },
+    {
+      "key": "fprt_tradeskill01_hood02"
+    },
+    {
+      "key": "fprt_adv02_graveyard"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Innkeeper Zahar",
+      "name_sortable": "innkeeperzahar",
+      "utterances": [
+        "Greetings, friend! Please look around. You won't find better homes in all of Freeport ..."
+      ]
+    },
+    {
+      "name": "a seething kerra",
+      "name_sortable": "seethingkerra",
+      "utterances": [
+        "Take care, friend.  Tempers and claws have been sharpened to a fine point, lately.",
+        "It is high time that the kin of Erud be shown just how sharp our claws can be!"
+      ]
+    }
+  ]
+}

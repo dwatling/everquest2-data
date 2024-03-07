@@ -1,0 +1,27 @@
+{
+  "name": "The Estate of Unrest",
+  "name_sortable": "estateofunrest",
+  "region": "Faydwer",
+  "zonerect": "-175.00,-110.00,169.00,291.00",
+  "levels": "70+",
+  "type": "instance",
+  "maps": [
+    {
+      "name": "Main Floor"
+    },
+    {
+      "name": "Basement"
+    },
+    {
+      "name": "Upper Floor"
+    },
+    {
+      "name": "Rooftop"
+    }
+  ],
+  "connections": [
+    {
+      "key": "exp03_rgn_butcherblock"
+    }
+  ]
+}

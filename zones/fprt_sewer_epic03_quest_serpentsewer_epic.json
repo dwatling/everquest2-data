@@ -1,0 +1,89 @@
+{
+  "name": "The Serpent's Lair",
+  "name_sortable": "serpentslair",
+  "region": "D'Lere",
+  "zonerect": "-27.00,,-32.00,27.00,32.00",
+  "levels": "22-25",
+  "type": "instance",
+  "access_quests": [
+    2283075350
+  ],
+  "connections": [
+    {
+      "key": "fprt_sewer02"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a Crazed Architect",
+      "name_sortable": "crazedarchitect",
+      "locations": [
+        "17.79,0.34,-6.84"
+      ],
+      "utterances": [
+        "Get the guards, quickly!",
+        "No fair!  They have better weapons."
+      ]
+    },
+    {
+      "name": "a crazed Gnome builder",
+      "name_sortable": "crazedgnomebuilder",
+      "locations": [
+        "16.02,-0.01,2.08",
+        "13.38,-0.56,-5.56"
+      ],
+      "utterances": [
+        "No fair!  They have better weapons.",
+        "Run away before we all die!",
+        "Summon all the members. I'll deal with the intruders."
+      ],
+      "drop_coin_min": 113,
+      "drop_coin_max": 113
+    },
+    {
+      "name": "a Murkwater Kingpin",
+      "name_sortable": "murkwaterkingpin",
+      "locations": [
+        "-17.22,0.27,-7.51"
+      ],
+      "utterances": [
+        "Greetings, friend. How would you like to die, friend?",
+        "Should've escaped while I had the chance."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Murkwater thief",
+      "name_sortable": "murkwaterthief",
+      "locations": [
+        "-12.96,-0.00,-9.22",
+        "-14.54,-0.00,-2.84"
+      ],
+      "utterances": [
+        "Being sneaky isn't very nice.",
+        "Greetings, friend. How would you like to die, friend?",
+        "Overhear my plansies? Gore you I will!",
+        "Should've escaped while I had the chance."
+      ]
+    },
+    {
+      "name": "Putrid",
+      "name_sortable": "putrid",
+      "locations": [
+        "15.40,-0.01,0.59"
+      ]
+    },
+    {
+      "name": "Putrid's broodling",
+      "name_sortable": "putridsbroodling",
+      "locations": [
+        "11.68,-0.00,5.77"
+      ]
+    }
+  ]
+}

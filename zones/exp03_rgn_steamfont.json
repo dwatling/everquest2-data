@@ -1,0 +1,70 @@
+{
+  "name": "Steamfont Mountains",
+  "name_sortable": "steamfontmountains",
+  "region": "Faydwer",
+  "description": "These ancient hills full of geysers and hotsprings are home to the gnomes and their mechanical creations. The Mines of Meldrath and the city of Klak'Anon lie within these hills.",
+  "zonerect": "-470.72,259.11,1707.27,1889.73",
+  "levels": "35-50",
+  "connections": [
+    {
+      "key": "exp03_rgn_loping_plains"
+    },
+    {
+      "key": "exp03_rgn_butcherblock"
+    },
+    {
+      "key": "exp03_rgn_greater_faydark"
+    },
+    {
+      "key": "exp03_dun_klakanon"
+    },
+    {
+      "key": "exp03_rgn_steamfont_epic01_mines"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Finbert Lintzig",
+      "name_sortable": "finbertlintzig",
+      "utterances": [
+        "Don't touch that please! Your primitive intellect wouldn't understand alloys and compositions, things with mechanamagical structures.",
+        "Eugene, please take these mana couplings to Hodgemottin and be very careful with them. They are delicate mechanamagical instruments and it would be a shame to have to refabricate them.",
+        "Good job Eugene, that is all for now."
+      ]
+    },
+    {
+      "name": "Professor What",
+      "name_sortable": "professorwhat",
+      "utterances": [
+        "You there!  You have a burning interest in gnomish history, do you not?",
+        "Perfect!  I knew I would find like-minded kin during Tinkerfest!  I'm Andipholitz Whatzzit, but my friends call me Professor What... I bet.",
+        "Correct!  I'm a professor of gnomish histories.  Perhaps you've been to one of my presentations on fabled city of Klick'Anon, or Meldrath the Malignant?  Maybe you've read one of my journals on Tinmizer, or the unfortunate rise of Klak'Anon?",
+        "No?  Oh, no matter, no matter!  You can still assist me.  I've found what I suspect is a long closed off section of Klak'Anon.  I'm hoping that you can find some abandoned, gnomish objects left over from when it was the paradise of Ak'Anon.",
+        "You'll be using an exhaust port on one of the bluffs above the main Klak'Anon gate.  That is, once you open it up to fit.",
+        "And I've got the perfect way for you, too!  Capture one of them unstable boom burbles, running around here, and release it near the entrance.  It should blow the port Overland high!  Just be sure to capture the burble before it has a chance to explode on you!",
+        "History is exciting, isn't it!?"
+      ]
+    },
+    {
+      "name": "Rizo Voombin",
+      "name_sortable": "rizovoombin",
+      "utterances": [
+        "Hey you Number Two! Watch out where you point that torch!"
+      ]
+    },
+    {
+      "name": "Tomker",
+      "name_sortable": "tomker",
+      "utterances": [
+        "Oh dear, where is that courier?"
+      ]
+    },
+    {
+      "name": "Waynil Garwater",
+      "name_sortable": "waynilgarwater",
+      "utterances": [
+        "Well hello there! Welcome to Gnomeland Security Headquarters!"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,804 @@
+{
+  "name": "The Graveyard",
+  "name_sortable": "graveyard",
+  "region": "D'Lere",
+  "levels": "5-10",
+  "connections": [
+    {
+      "key": "commonlands"
+    },
+    {
+      "key": "fprt_hood02_clone"
+    },
+    {
+      "key": "fprt_adv01_sunken"
+    },
+    {
+      "key": "fprt_hood05_clone"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a boneyard watcher",
+      "name_sortable": "boneyardwatcher",
+      "utterances": [
+        null
+      ]
+    },
+    {
+      "name": "a brittle skeleton",
+      "name_sortable": "brittleskeleton",
+      "utterances": [
+        "As I rise from the grave,  you will now take my place!",
+        "You cannot eliminate us!",
+        "Seek death and it finds you.",
+        "You've shaken the dust from my bones.",
+        "That pile of bones was my friend!",
+        "Final death comes at last.",
+        "Brains! It's what's for dinner.",
+        "To the grave with you!",
+        "Your blood calls to me.",
+        "Your eyes are so pretty.",
+        "Rest in peace.",
+        "Dying didn't feel good the first time."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 31
+    },
+    {
+      "name": "a contagious rat",
+      "name_sortable": "contagiousrat"
+    },
+    {
+      "name": "a crumbling skeleton",
+      "name_sortable": "crumblingskeleton",
+      "utterances": [
+        "Seek death and it finds you.",
+        "To the grave with you!",
+        "You've shaken the dust from my bones.",
+        "As I rise from the grave,  you will now take my place!",
+        "Dying didn't feel good the first time.",
+        "Brains! It's what's for dinner.",
+        "Your eyes are so pretty.",
+        "Final death comes at last.",
+        "I'm shattered and broken."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 549628887 -1812218170:oak-handled great spear\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 7
+    },
+    {
+      "name": "Custodian Zaddar Sullissia",
+      "name_sortable": "custodianzaddarsullissia",
+      "utterances": [
+        "Hmmmm, and who might you be? Come forward so I can look upon you, stranger.",
+        "You mean to tell me you've never heard of me? Well, I shouldn't expect a common adventurer such as you to associate with people of my social status, so I guess I shouldn't be surprised.",
+        "Allow me to introduce myself. I am Zaddar, herald of the arcane, necromancer and custodian to the great library within the Academy of Arcane Science. I can assure you that you will meet none greater, no matter where your various exploits take you on Norrath.",
+        "This is not just a simple graveyard, mind you. There are more than just Freeport citizens buried here; this is where the enemies of the Overlord are entombed as well. You mean to tell me you were not aware of this?",
+        "I wouldn't trust anyone but a loyal follower of the Overlord with the task before me, I'm sure you understand. Normally I'd take care of such things myself, but these duties are far below my level of expertise and intellect. What do you say?",
+        "Good, I knew you would make the smart choice. Go check on the tombs of the fallen knights, make sure they're all still sealed and that grave robbers have not disturbed any of the mausoleums.",
+        "The Overlord will have us both executed if he finds out anyone has been tampering with the tombs in his graveyard! Report back with what you discover.",
+        "Back so soon? I certainly hope you didn't just sneak off somewhere and take a nap. The Overlord is not to be trifled with!",
+        "I am pleased to hear that you fulfilled my request. Was there any trouble?",
+        "Skeleton attacks are not uncommon in the Graveyard, as you have discovered. I presume this was just some ordinary fiend?",
+        "Fascinating! The Overlord was wise to have us check on the security of the tombs. I wonder if Varacus realizes what is transpiring here in the Graveyard.",
+        "Varacus T`Kur is the leader of the Keepers of Ethernere here in the Graveyard. He has some pages of an ancient tome that should help in my research. Tell him that I sent you, and if he gives you any trouble, remind him that this errand comes from the Overlord himself, passed down through the Academy.",
+        "Go now, and return when you have the pages from Varacus.",
+        "Have you found the Book of the Dead?",
+        "Look at how the parchment pages you retrieved are binding themselves inside the Book of the Dead! It truly is a mysterious and powerful tome. I will use the Staff of Ethernere during the ritual to focus the power of the spell we cast.",
+        "I will tell you the ancient words of binding. You chant them, and I will repeat them after you. Only by working together can we complete the spell and save Freeport. Understood?",
+        "I must read the words from the pages of parchment that are now within the Book of the Dead. They are difficult to decipher, even with my skills. Give me a moment to study them.",
+        "I've managed to translate the words from the ancient pages you've obtained for me. Shall we begin?",
+        "The first words are \"Graddah, Shollamak, Hakah.\" Ready?",
+        "Let the ritual begin!",
+        "Graddah, Shollamak, Hakah!",
+        "Something is wrong. The incantation will not take effect!",
+        "Are you certain that all of the tombs of the Knights of Truth were sealed? If even one of them remains opened, it might prevent the binding ward from taking hold.",
+        "<player name>, you must go to the tombs at once and verify that each seal is intact. This is the only way we can complete the ritual and renew the ward upon the Graveyard to keep the undead at bay. Hurry! The fate of Freeport is in your hands!",
+        "The second set of words are, \"Golotu, Quandar, Gunoo.\"  Ready?",
+        "Proceed!",
+        "Golotu, Quandar, Gunoo!",
+        "The final set of words are the most important. \"Waktana, Shollamak, Quandar, Hakah.\"  Here we go!",
+        "Recite the words, <player name>.",
+        "Waktana, Shollamak, Quandar, Hakah!",
+        "Exellent job, <player name>! I think we've done it! I must admit, I doubt even I could have accomplished this task without your help.",
+        "The enemies of the Overlord are thwarted, and the Knights of Truth shall remain bound to this graveyard for the rest of time.",
+        "Your reward is well-deserved. You have my thanks. Your name will be well known within the Academy of Arcane Science.",
+        "Your assistance to the Academy of Arcane Science and Freeport has been invaluable. But now more help is needed from you. Freeport is not out of danger! You must take the knowledge you have learned here and travel to the Ruins. Are you willing?",
+        "An outlying district of Freeport known as the Ruins is under attack. You must make your way there and report to Captain Arellius of the Freeport Militia. She will guide your efforts to help save our city.",
+        "Make your way to the Ruins by using any of the city's mariner's bells. You should find Captain Arellius nearby. Hurry, hero of Freeport. There is no time to waste!",
+        "Your help in the Ruins is desperately needed. Do not delay too long, for our great city of Freeport is in peril!",
+        "Ah, <player name>, I see you have returned. Have you brought back the pages you obtained from Varacus of the Keepers of Ethernere?",
+        "Excellent work! Please give me the pages at once. There is no time to waste.",
+        "Interested in hearing more of my tale, are you? As you recall, the fallen Knights of Truth are buried here in the Graveyard.",
+        "Recently grave robbers have invaded the cemetery by night, breaking open the seals placed on the graves of the knights. This has enabled some of those cursed souls to rise and walk the land again.",
+        "It does indeed. But there is a greater concern we must face, which is why I needed these pages.",
+        "Long ago, our Overlord commanded the Foci and the priests of the Dismal Rage to place a powerful ward upon this graveyard. It bound the spirits of those buried here to this place, so that even if they escaped their tombs, they would be unable to leave the Graveyard.",
+        "The binding spell was lost long ago. But the increase in undead activity may mean that someone loyal to Mithaniel Marr, or even the god himself, might be trying to shatter the ward and let the undead travel beyond these walls into the city itself.",
+        "True, but Mithaniel Marr also destroyed the entire city of Grobb by unleashing his blessed Frogloks. I find it best not to underestimate the gods. Now, it could be some fanatical follower of Marr behind this, or even those savages from the decrepit Kingdom of Qeynos.",
+        "I'm sure some of the corrupt citizens of Qeynos are still loyal to Marr. By breaking the binding ward, the fallen Knights of Truth would be free to rise and seek revenge on our beloved Overlord. This cannot come to pass!",
+        "Of course the Overlord and the Freeport Militia could handle the undead army. But the chaos caused by their presence would afford the cowardly legions of Antonia Bayle the chance to launch a sneak attack on our city. That wretched queen is just waiting for a chance to strike.",
+        "Qeynosians are cowards, to be sure. They are afraid of open war with the Overlord. However, striking at us through this graveyard is just the kind of tactic they would use.",
+        "Casting another ward while the first one is in effect may have unforeseen consequences. We don't want to risk that.",
+        "I was sent here to complete two tasks. First, to obtain these pages so they did not fall into the wrong hands. Second, to determine if the ward still holds or if the spell must be cast again.",
+        "I only know of one way to be sure, but it's somewhat risky. Do you feel up to the challenge? You've served me well in the past, so I have faith that you will be able to accomplish this for me as well.",
+        "Good, this is what I need done. I want you to take this ancient relic to the ruins of the Tower of Marr and place it in the doorway. The relic has been stained with the blood of the Knights of Truth and has been in the keeping of the Academy of Arcane Science since the day of that final battle.",
+        "Yes, the remains of that tower still serve as a tribute to Mithaniel Marr. Such a relic would be seen as an abomination to him.",
+        "Do not worry. The binding ward that keeps the undead here also prevents outside influences from entering the Graveyard and keeps any lingering energies in check. So long as the ward holds, you should be safe when you place that relic in the doorway.",
+        "What could possibly go wrong? You have proven yourself to be a brave hero of Freeport. Do not waver now!",
+        "Spoken like a true citizen of Freeport! Listen, if you help me with this, I'll be sure you are rewarded for your efforts. The Academy will take notice of us both!",
+        "Just take the relic and place it in the doorway. And whatever you do, don't lose it! It is an ancient artifact, and neither the Academy nor the Overlord would be pleased if it was misplaced.",
+        "Welcome back, <player name>. I assume you concluded your investigation and found that the ward is still intact?",
+        "This is dark news indeed. Marr blessed that tower long ago, and if some of that energy is now bleeding through, the ward is certainly weak. Fortunately I've already begun translating the parchment pages you found for me in case they were needed. Oh, I'll need that artifact back, by the way.",
+        "While I finish the translation, I need you to help me once more. Are you willing?",
+        "It is up to the two of us to restore the ward that keeps the undead confined to the Graveyard. This is our chance to save Freeport!",
+        "There is no time to waste. True heroes must be prepared to rise to the occasion and embrace their destiny. You have a bold future ahead of you, <player name>. Now is the time to act!",
+        "Fame and fortune, of course! The Academy is sure to take notice of you when I report to them of what has occurred here today. You may even be noticed by the Overlord himself, <player name>.",
+        "I want you to go back to Varacus and the Keepers of Ethernere. Tell him that we need to restore the ward and that we need the Staff of Ethernere.",
+        "This staff has runes carved along its length that ward off the undead. It is often used by the Keepers of Ethernere during purifying rituals.",
+        "The Staff of Ethernere, when used along with the arcane power contained in the Book of the Dead, will help me repair the ward.",
+        "Time is of the essence, <player name>. The ward may be fading faster than we realize and we must repair it!",
+        "Have you obtained the Staff of Ethernere?",
+        "Well done! I'm sure it was difficult to convince Varacus to part with it. But this is indeed the Staff of Ethernere.",
+        "Do you see these runes inscribed upon it? They are written in the language of the dead. When spoken to the living, this language sounds like mere whispers, but to the undead it sounds as clear as how you and I are speaking now.",
+        "Confront the local grave robbers and determine if one of them has obtained the Book of the Dead. The grave robbers tend to work at night, so begin your search then.",
+        "Excellent. Return to me when you have found it.",
+        "Excellent work, <player name>! I must say, you are turning out to be quite a useful aide. You've done almost as well as if I had done this task myself! Now, quickly, hand me the book.",
+        "I do not like to repeat myself, so please lend me an ear as I speak. Judging by your appearance, you haven't been here too long, so this might teach you a thing or two.",
+        "Many ages ago, the land where this graveyard now stands was once the northern part of Freeport. It was home to a corrupt order of knights that was blindly loyal to an ancient god called Mithaniel Marr.",
+        "This order of heretics was known as the Knights of Truth. They were a group of confused and dangerous men that stood in the way of Freeport's progress. Are you paying attention? ",
+        "As time passed, the Freeport Militia and others loyal to the Overlord grew in power and number. The Overlord conceived a plan to liberate his great city from the clutches of the fanatical followers of Marr.",
+        "The Overlord called forth the brave Freeport Militia and led his great army to drive out the twisted followers of Marr from our city once and for all. The people cheered to see that the hour of their liberation was at hand!",
+        "Indeed he is! As the army of the Overlord approached, many members of the Knights of Truth abandoned their posts in fear and fled deep into an ancient citadel known as Befallen. Are you listening to me? I really don't have time to waste, you know!",
+        "As I was saying... The Overlord was determined to free his people from the oppression of the Knights of Truth. He marched his forces to the gates of North Freeport, very near where we now stand.",
+        "Calling forth his mighty siege machines, the Overlord's armies burst through the gates and confronted the cowardly Knights of Truth.",
+        "The fighting went on for days as the Knights of Truth tried every desperate measure they could to retain their grip on Freeport's people. But these tyrants were no match for the Overlord's might!",
+        "One by one the Knights of Truth fell to the liberating blades of the Overlord's freedom fighters, the Freeport Militia. It must have been a grand battle to behold!",
+        "In the final hour of battle, the Freeport Militia encircled the remaining Knights of Truth. The captain of the wicked followers of Marr, Sir Haligan, looked up to see the mighty figure of the Overlord moving toward him.",
+        "Realizing his cause was lost, Sir Haligan tried one last desperate attack against the Overlord, but it was to no avail. The minions of the Overlord rushed in with blades ready and struck true, extinguishing the foul Sir Haligan, leader of the oppressors.",
+        "This graveyard now houses the bones of the fallen Knights of Truth, buried where they once fought all those long years ago. It is said that the echoes of that ancient battle can still be heard in the deep, dark night.",
+        "By order of the Overlord, the tombs of the knights slain that day were sealed with mortar and chains, trapping their bodies beneath the soil forevermore.",
+        "Personally, I believe that the Overlord had the tombs sealed for fear that Mithaniel Marr might resurrect his fallen knights to do battle once more. But if you would be so kind, please don't repeat that speculation.",
+        "Custodian indeed, but I'm sure an adventurer such as you can fathom just what that entails within the walls of the Academy of Arcane Science. I'll have you know that I'm here conducting research of my own as well.",
+        "Should I take this interest as genuine or some sort of feint? Well regardless, I love listening to myself speak. I sound great, don't I? The library sent me here to check on the tombs of the fallen Knights of Truth.",
+        "I imagine that The Overlord may be concerned because it's been nearly four-hundred years to the day of that great battle, and spirits trapped in this world are always longing for vengeance.",
+        "The Academy has commanded me to research a long-lost spell. I believe that this incantation is from an ancient tome, dating back to the time the Knights of Truth were slain and the people of Freeport were liberated.",
+        "To be blunt, <player name>, I need someone with your skills. Only a true hero can help me with this task. The Overlord himself demanded that the Academy complete this spell, and we must not disappoint him.",
+        "If we work together, we can both prosper and increase our standing here in Freeport. But before collecting the pages, I have a task that needs doing, and I think you are the one to do it."
+      ]
+    },
+    {
+      "name": "a durable skeleton",
+      "name_sortable": "durableskeleton",
+      "utterances": [
+        "As I rise from the grave,  you will now take my place!",
+        "Dying didn't feel good the first time.",
+        "To the grave with you!",
+        "You cannot eliminate us!",
+        "Seek death and it finds you.",
+        "Your eyes are so pretty.",
+        "Brains! It's what's for dinner."
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4
+    },
+    {
+      "name": "Durkix Kizzkin",
+      "name_sortable": "durkixkizzkin",
+      "utterances": [
+        "Fragments to dust. I'm a genius!",
+        "A bonemud golem! Or maybe a mudbone golem. I'll be famous!",
+        "No, no, no! A golem made from mud that has ground bones in it! Maybe it will increase the potency of the creature, or maybe it will make it more resistant to certain attacks! Or maybe it won't do anything at all! I need some bone fragments to grind up!",
+        "Exactly! You should help me, then you can be famous too.",
+        "Great! Get me one hundred bone fragments. That should be enough. Don't bring me anything fresh, either. I need brittle bones so I can grind them... just bring me back bones from anything undead, that should do the trick.",
+        "Great! I'll be summoning these things in no time! Be quick!",
+        "Did you get the fragments?",
+        "Excellent! Now I just need some mud! I think I can collect that myself! I am quite familiar with mud! Thanks for your help! If I ever get rich and famous I'll let you know!"
+      ]
+    },
+    {
+      "name": "an Ethernere caretaker",
+      "name_sortable": "ethernerecaretaker",
+      "utterances": [
+        "Be gone! I have work to do."
+      ]
+    },
+    {
+      "name": "an Ethernere defender",
+      "name_sortable": "etherneredefender",
+      "utterances": [
+        "What are you looking at?"
+      ]
+    },
+    {
+      "name": "an Ethernere guard",
+      "name_sortable": "ethernereguard",
+      "locations": [
+        "-19.67,-8.60,84.47"
+      ],
+      "utterances": [
+        "There is no escape for you now!",
+        "Hail, Citizen!",
+        "Freeport has need of your services.  Will you fulfill your duty?",
+        "Ancient spirits have recently awoken, their graves disturbed by the graverobbers in this area.  The graverobbers have taken ancient holy relics from them and they wander in search of that which was taken.",
+        "You must recover these holy relics and return them to the graves of the awakened spirits for them to find rest again.",
+        "You'll pay for that one, peon!",
+        "I will have vengeance!",
+        "Were you successful in your mission?",
+        "Excellent, thank you for your service to Freeport and the Keepers of Ethernere!  Please, take this for your trouble.",
+        "If you see any graverobbers, come tell me immediately.",
+        "How dare you!"
+      ],
+      "drop_coin_min": 10,
+      "drop_coin_max": 10,
+      "faction_changes": [
+        {
+          "name": "The Academy of Arcane Science",
+          "name_sortable": "academyofarcanescience",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a fiendish ghoul",
+      "name_sortable": "fiendishghoul",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Guard Detlev",
+      "name_sortable": "guarddetlev",
+      "utterances": [
+        "Hail, citizen."
+      ]
+    },
+    {
+      "name": "Guard Kludd",
+      "name_sortable": "guardkludd",
+      "utterances": [
+        "Safe travels."
+      ]
+    },
+    {
+      "name": "Guard L'Sek",
+      "name_sortable": "guardlsek",
+      "utterances": [
+        "Turn around, this way is closed by order of the Overlord."
+      ]
+    },
+    {
+      "name": "Guard T'Crit",
+      "name_sortable": "guardtcrit",
+      "utterances": [
+        "This way is closed by order of the Overlord! ",
+        "Turn around, this way is closed by order of the Overlord."
+      ]
+    },
+    {
+      "name": "Keeper Varacus T`Kur",
+      "name_sortable": "keepervaracustkur",
+      "utterances": [
+        "Yes, what is it?",
+        "Well, that all depends. Who are you?",
+        "Zaddar sent you, eh? Far be it from him to get his hands dirty in the Graveyard, I suppose!",
+        "Though we Keepers of Ethernere must answer to the Academy of Arcane Science, ours is a grave responsibility. We watch over the tombs of Norrath and ensure that the spirits of the dead make their journey to the afterlife. You have no doubt seen our guards patrolling the Graveyard roads, and perhaps noticed the boneyard watchers we summon to watch for disturbances.",
+        "The Keepers of Ethernere come from a proud tradition of service to the House of the Dead in our ancient Teir'Dal city of Neriak. Ethernere is a dark realm of agony where spirits of the dead must travel. It is said that when a Norrathian dies, the bell in Deathtoll Tower at the heart of Ethernere rings to signal their spirit's arrival.",
+        "Ah yes, you seek the tome pages. Unfortunately, however, they have gone missing. They may be scattered about the Graveyard, or some might have fallen into the hands of the undead. Such creatures are drawn to objects of arcane power. I have other duties to attend to, so you will need to conduct your own search for the pages here in the Graveyard.",
+        "I had no idea this matter was so urgent to the Overlord! Please, hero of Freeport, you must find those pages. If not, I think all of us may face our master's wrath. Please let me know when you have found them.",
+        "You will be well compensated for your efforts."
+      ]
+    },
+    {
+      "name": "a novice graverobber",
+      "name_sortable": "novicegraverobber",
+      "utterances": [
+        "Greetings friend, how would you like to die?",
+        "Overhear my plansies. Gore you I will!",
+        "Should have escaped while I had the chance.",
+        "That wasn't very nice to do, friend.",
+        "Take my secrets to my grave, I shall."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -196651399 -421473663:a dirty graverobber note\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 6,
+      "drop_coin_max": 6
+    },
+    {
+      "name": "a plague rat",
+      "name_sortable": "plaguerat",
+      "locations": [
+        "-45.76,-10.19,52.39",
+        "-56.00,-11.59,40.00",
+        "-63.28,-11.56,14.72"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 610256078 -369843498:tarnished brass ring\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a putrid zombie",
+      "name_sortable": "putridzombie"
+    },
+    {
+      "name": "a rotting zombie",
+      "name_sortable": "rottingzombie"
+    },
+    {
+      "name": "R'Tok",
+      "name_sortable": "rtok",
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item.",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor, are you?",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ]
+    },
+    {
+      "name": "a scourge bat",
+      "name_sortable": "scourgebat",
+      "locations": [
+        "-16.52,-8.35,81.80"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 421411360 -1091731321:a bat ear\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Sir Haligan",
+      "name_sortable": "sirhaligan",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1460452271 877485774:Blade of the Traitor\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Sir Haligan, Captain of the Knights of Truth",
+      "name_sortable": "sirhaligancaptainoftheknightsoftruth",
+      "locations": [
+        "-76.36,-15.53,20.11"
+      ],
+      "utterances": [
+        "Who dares disturb my slumber?!",
+        "Seek death and it finds you.",
+        "Final death comes at last.",
+        "Your eyes are so pretty."
+      ]
+    },
+    {
+      "name": "Sir Ollin",
+      "name_sortable": "sirollin",
+      "utterances": [
+        "Seek death and it finds you.",
+        "I'm shattered and broken.",
+        "Final death comes at last."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1673875626 1163613356:Bulwark of Marr\\/a",
+          "chest": true
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "name_sortable": "spiritsofmarr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Sir Penan",
+      "name_sortable": "sirpenan",
+      "utterances": [
+        "Your blood calls to me.",
+        "Final death comes at last."
+      ]
+    },
+    {
+      "name": "Sir Xantille",
+      "name_sortable": "sirxantille",
+      "locations": [
+        "-51.97,-11.57,33.11"
+      ],
+      "utterances": [
+        "You've shaken the dust from my bones."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1673875626 1163613356:Bulwark of Marr\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 944365900 -1571599303:Bloodcoil (Adept)\\/a",
+          "chest": true
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "name_sortable": "spiritsofmarr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a small spider",
+      "name_sortable": "smallspider"
+    },
+    {
+      "name": "an undead battlepriest",
+      "name_sortable": "undeadbattlepriest",
+      "locations": [
+        "-51.02,-11.52,54.23",
+        "-47.05,-11.20,40.88",
+        "-49.11,-11.26,63.02",
+        "-43.72,-10.48,54.95",
+        "-17.10,-8.38,87.15",
+        "-20.18,-8.67,80.00"
+      ],
+      "utterances": [
+        "As I rise from the grave,  you will now take my place!",
+        "To the grave with you!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1225232718 802813239:Dissolve II (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1314876081 -1879151183:oxidized copper axe\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1399953986 1780527766:black spider silk\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 9,
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "name_sortable": "spiritsofmarr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an undead crusader",
+      "name_sortable": "undeadcrusader",
+      "utterances": [
+        "As I rise from the grave,  you will now take my place!",
+        "To the grave with you!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "name_sortable": "spiritsofmarr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an undead fighter",
+      "name_sortable": "undeadfighter",
+      "locations": [
+        "-46.41,-11.33,-21.11",
+        "-76.54,-15.53,18.45",
+        "-1.03,-7.39,103.26"
+      ],
+      "utterances": [
+        "Seek death and it finds you.",
+        "Final death comes at last.",
+        "Your blood calls to me.",
+        "Rest in peace.",
+        "Your eyes are so pretty."
+      ],
+      "drop_coin_min": 3,
+      "drop_coin_max": 8,
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "name_sortable": "spiritsofmarr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an undead knight",
+      "name_sortable": "undeadknight",
+      "utterances": [
+        "Your blood calls to me.",
+        "I'm shattered and broken.",
+        "Final death comes at last.",
+        "Seek death and it finds you.",
+        "Your eyes are so pretty.",
+        "Rest in peace.",
+        "You've shaken the dust from my bones."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 5,
+      "drop_coin_max": 5,
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "name_sortable": "spiritsofmarr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an undead lancer",
+      "name_sortable": "undeadlancer",
+      "utterances": [
+        "As I rise from the grave,  you will now take my place!",
+        "That pile of bones was my friend!",
+        "To the grave with you!",
+        "Dying didn't feel good the first time.",
+        "You cannot eliminate us!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1314876081 -1879151183:oxidized copper axe\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 7,
+      "drop_coin_max": 36,
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "name_sortable": "spiritsofmarr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an undead pikeman",
+      "name_sortable": "undeadpikeman",
+      "locations": [
+        "-16.39,-8.28,85.90"
+      ],
+      "utterances": [
+        "To the grave with you!",
+        "I didn't need those bones anyway.",
+        "That pile of bones was my friend!",
+        "As I rise from the grave,  you will now take my place!",
+        "Dying didn't feel good the first time.",
+        "Brains! It's what's for dinner.",
+        "You cannot eliminate us!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "name_sortable": "spiritsofmarr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an undead priest",
+      "name_sortable": "undeadpriest",
+      "utterances": [
+        "Your eyes are so pretty.",
+        "You've shaken the dust from my bones.",
+        "Rest in peace.",
+        "Seek death and it finds you.",
+        "Final death comes at last.",
+        "Nightmares are not only for slumber.",
+        "I'm shattered and broken."
+      ],
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "name_sortable": "spiritsofmarr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an undead squire",
+      "name_sortable": "undeadsquire",
+      "locations": [
+        "-10.36,-7.93,95.21",
+        "-43.38,-11.56,-20.30"
+      ],
+      "utterances": [
+        "Your eyes are so pretty.",
+        "Rest in peace.",
+        "You've shaken the dust from my bones.",
+        "Your blood calls to me.",
+        "Seek death and it finds you.",
+        "Final death comes at last."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 549628887 -1812218170:oak-handled great spear\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 6,
+      "drop_coin_max": 6,
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "name_sortable": "spiritsofmarr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Volusa Tuditania",
+      "name_sortable": "volusatuditania",
+      "utterances": [
+        "Be on your way, traveler.  Tread carefully, too."
+      ]
+    },
+    {
+      "name": "a wooly spider",
+      "name_sortable": "woolyspider",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1554869237 -862558788:dread spider fang\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Zekvila Dizelk",
+      "name_sortable": "zekviladizelk",
+      "utterances": [
+        "You are not who I was expecting.  What game are you playing with me?",
+        "Gyah! How dare you speak to me with a sharp tongue! Who do you think you are, fool? You do not bear the dark instrument; therefore, I've no need for you. Unless ... yes ... yes ... unless my emissary failed at his task. Yes, you shall succeed where the emissary failed. Trust me - it is in your best interest to agree with me.",
+        "You choose wisely, friend. I shall use the lessons taught to the Iksar by our dead emperor, Venril Sathir. This is where you come in ... the magic of the dead will put a stop to Ithelz's pompous belief that he is our new ruler.  I will tell you only once: take the crystal, go to the graveyard, and kill the undead knights. As the beasts die, hold out the crystal and collect their souls. Return when you fill the crystal.",
+        "Give me the crystal. Ah, yes, it's filled.  With these souls, Ithelz's puppet barbarians cannot prevent me from ruling over the district. You served me well, servant. Take this coin as a token of my gratitude."
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1868197541 -626008118:chipped shard of conjuration\\/a",
+      "locations": [
+        "-50.95,-11.00,-22.12"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 956491458 -50916358:plain black moth\\/a",
+      "locations": [
+        "-21.37,-8.00,79.69"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1526825307 2113563307:shattered human bone fragment\\/a",
+      "locations": [
+        "3.28,-6.00,109.63"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1526825307 -1323670149:shattered human bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1321366674 1325276780:chipped shard of evocation\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -2008154588 1880837041:scuffed shard of evocation\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -672434816 -519027784:shattered dark elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 2013405720 831809963:shattered orc bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1576919798 -605338864:shattered ratonga bone fragment\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the creature den",
+      "name_sortable": "creatureden"
+    },
+    {
+      "name": "the dismal ore",
+      "name_sortable": "dismalore"
+    },
+    {
+      "name": "the exhumed stones",
+      "name_sortable": "exhumedstones"
+    },
+    {
+      "name": "the moldy roots",
+      "name_sortable": "moldyroots"
+    },
+    {
+      "name": "the ravaged natural garden",
+      "name_sortable": "ravagednaturalgarden"
+    },
+    {
+      "name": "the withered arbor",
+      "name_sortable": "witheredarbor"
+    }
+  ]
+}

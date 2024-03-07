@@ -1,0 +1,40 @@
+{
+  "name": "The Stalwart Township",
+  "name_sortable": "stalwarttownship",
+  "region": "Karan",
+  "connections": [
+    {
+      "key": "qey_village03_clone"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Everstock",
+      "name_sortable": "everstock",
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+      ]
+    },
+    {
+      "name": "Gimal Evership",
+      "name_sortable": "gimalevership",
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Jacob Thornblade",
+      "name_sortable": "jacobthornblade",
+      "utterances": [
+        "Hello, friend!  I'm here to teach interested people a little bit about how to harvest crafting materials, and how to craft tradeskilled items.  Are you interested?"
+      ]
+    },
+    {
+      "name": "Raknis Denav",
+      "name_sortable": "raknisdenav",
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    }
+  ]
+}

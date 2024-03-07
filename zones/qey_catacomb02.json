@@ -1,0 +1,577 @@
+{
+  "name": "Vermin's Snye",
+  "name_sortable": "verminssnye",
+  "region": "Karan",
+  "zonerect": "-276.00,-273.00,34.00,84.00",
+  "levels": "10-18",
+  "connections": [
+    {
+      "key": "qey_catacomb01"
+    },
+    {
+      "key": "qey_catacomb_epic02"
+    },
+    {
+      "key": "qey_catacomb03"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Aleth'Rillix the Festering Seer",
+      "name_sortable": "alethrillixthefesteringseer",
+      "locations": [
+        "-14.13,-0.15,-113.39"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1509313505 763279144:Riana's Relentless Tune II (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1153421550 -744426290:Mace of Twilight\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Aleyna McMallon",
+      "name_sortable": "aleynamcmallon",
+      "utterances": [
+        "Yes!? What do you want?",
+        "Well, then, you best watch your back. This place is crawling with death and the festering plague."
+      ]
+    },
+    {
+      "name": "Ayamia the Rat Queen",
+      "name_sortable": "ayamiatheratqueen",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 763253293 2030737030:Scourge Warrior Leggings\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1612489550 1696341370:a burial shroud\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a Bloodsaber proficient",
+      "name_sortable": "bloodsaberproficient",
+      "locations": [
+        "97.26,-0.08,-180.81",
+        "92.00,-0.32,-182.00",
+        "95.38,-0.08,-174.96"
+      ],
+      "utterances": [
+        null,
+        "We need help!  I can't hold them.",
+        "There's nothing you can do to make me defy the Lord!",
+        "If they report back to the city, we're finished!",
+        "I hope you put your affairs in order.",
+        "Don't waste any time.  Kill them!",
+        "Stand your ground!  You're just as dead if you leave.",
+        "Quickly, shift to another target and press the attack!",
+        "You'll pay for that one, peon!",
+        "I will have vengeance!",
+        "We may die, but I won't let them all escape!",
+        "I have no time for meddlers.  Destroy them!",
+        "Who are you?",
+        "How dare you strike me!",
+        "You may escape, but we will find you!",
+        "Look what strolled into the spider's web!",
+        "Fall back, order a tactical retreat!",
+        "Hold them and I'll return with help!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -316576098 422144074:roughspun pantaloons\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1136651119 1578780024:intricately carved acorn\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -179275446 1122447901:maple buckler\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1627573543 -1966055113:bride's promise\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 698721607 886726209:Bloodsaber Adept Coin\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 19,
+      "drop_coin_max": 254
+    },
+    {
+      "name": "a Bloodsaber specialist",
+      "name_sortable": "bloodsaberspecialist",
+      "locations": [
+        "90.00,-0.70,-182.72"
+      ],
+      "utterances": [
+        null,
+        "Don't waste any time.  Kill them!",
+        "We need help!  I can't hold them.",
+        "Stand your ground!  You're just as dead if you leave.",
+        "Hold them and I'll return with help!",
+        "You'll pay for that one, peon!",
+        "Welcome to torment and destruction!",
+        "You may escape, but we will find you!",
+        "How dare you strike me!",
+        "Fall back, order a tactical retreat!",
+        "If they report back to the city, we're finished!",
+        "I have no time for meddlers.  Destroy them!",
+        "Who are you?",
+        "I hope you put your affairs in order.",
+        "How dare you!",
+        "Silence their screams!",
+        "There's nothing you can do to make me defy the Lord!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 434546212 1048087633:ravenous report\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 17,
+      "drop_coin_max": 192
+    },
+    {
+      "name": "Brawler Bently",
+      "name_sortable": "brawlerbently",
+      "utterances": [
+        "Lika the Tortured has sent many starry eyed young adventurers to their early doom.  Good to hear you put her to rest once and for all!  So what did you loot from her remains?",
+        "This bone is very strong.  Urgh!  It won't even flex or crack when I try to bend it!  This would make a great weapon! Take it to Dylan Ironforge in North Qeynos.  He'll craft something out of it.  Besides, he owes me a favor. HAHA!"
+      ]
+    },
+    {
+      "name": "Brother Garvis",
+      "name_sortable": "brothergarvis",
+      "utterances": [
+        "The Prime Healer is still among us!  Who will assist me with his work?",
+        "We must continue curing afflictions and healing wounds.  It's the will of the Prime Healer.",
+        "Excellent!  Excellent!  However, I must warn you.  We have a lot of hard work ahead of us. The catacombs are dangerous, and I don't want someone volunteering unwittingly.",
+        "Excellent!  These will go a long way to curing the sick.  You served the Prime Healer well.  Take this as a token of our appreciation.  Your work is appreciated.",
+        "Very good.  I know you can or I wouldn't have asked. I need you to collect venom sacs from poisonous serpents down in the catacombs.  This deed serves the healers two fold. You will eliminate the threat the snakes pose and will provide us with venom to create a serum for combating the snakes' deadly toxins."
+      ]
+    },
+    {
+      "name": "a crumbling tomb guard",
+      "name_sortable": "crumblingtombguard",
+      "locations": [
+        "-10.98,0.00,-116.46"
+      ],
+      "utterances": [
+        "Your eyes are so pretty.",
+        "You've shaken the dust from my bones.",
+        "As I rise from the grave,  you will now take my place!",
+        "Dying didn't feel good the first time.",
+        "Seek death and it finds you.",
+        "Brains! It's what's for dinner.",
+        "That pile of bones was my friend!",
+        "Your blood calls to me.",
+        "Final death comes at last.",
+        "To the grave with you!",
+        "I didn't need those bones anyway.",
+        "I'm shattered and broken.",
+        "You cannot eliminate us!",
+        "Rest in peace."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 213982004 -1184282192:Carrion Warding (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1225141396 1027670627:Advanced Scholar Volume 15\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1876370097 952575299:Tomb Guard's Broken Chair\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 18,
+      "drop_coin_max": 223
+    },
+    {
+      "name": "a crumbling tomb priest",
+      "name_sortable": "crumblingtombpriest",
+      "utterances": [
+        "Your eyes are so pretty.",
+        "Brains! It's what's for dinner.",
+        "Dying didn't feel good the first time.",
+        "I didn't need those bones anyway."
+      ]
+    },
+    {
+      "name": "a crumbling tomb sentry",
+      "name_sortable": "crumblingtombsentry",
+      "utterances": [
+        "To the grave with you!",
+        "As I rise from the grave,  you will now take my place!",
+        "That pile of bones was my friend!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Cryptcleaner Remy",
+      "name_sortable": "cryptcleanerremy",
+      "utterances": [
+        "Why did I volunteer to clean up down here? It's so dark and spooky. "
+      ]
+    },
+    {
+      "name": "a festering zombie",
+      "name_sortable": "festeringzombie",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1876370097 952575299:Tomb Guard's Broken Chair\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1660014060 1614064333:Hold the Line II (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 157,
+      "drop_coin_max": 157
+    },
+    {
+      "name": "a giant burrower",
+      "name_sortable": "giantburrower",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 906123002 -2098653621:cordovan gloves\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2099484175 183962497:Advanced Outfitter Volume 13\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -849848324 -1463719270:nuisance notice\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Gillin Blackfist",
+      "name_sortable": "gillinblackfist",
+      "utterances": [
+        "The goblins swim quickly across the Tranquil Sea, eh?",
+        "'Sat you Ronicus? The wee zealot says the key to the Sepulcher can be found in one of the catacomb receptacles. Now where's me coin? Funny ... I thought you'd look a bit nastier.",
+        "Huh? Yer not Ronicus! Blast! I told them that password was too obvious! Ronicus and his Red Raiders are gonna' have me head if this happens again. Ehem ... forget what I said, if you know what's best."
+      ]
+    },
+    {
+      "name": "a grave scorpius",
+      "name_sortable": "gravescorpius",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -397583782 -2261665:roughspun scarf\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -849848324 -1463719270:nuisance notice\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1439043884 -940934384:woven cordovan tunic\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -851892125 418243326:a scorpion stinger\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1645593804 327234561:throwing dagger covered with zombie rot\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1010574162 803672050:Half Bottle of Bloodsaber Brew\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 698721607 886726209:Bloodsaber Adept Coin\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1876370097 952575299:Tomb Guard's Broken Chair\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "an infected grave scorpius",
+      "name_sortable": "infectedgravescorpius"
+    },
+    {
+      "name": "an infected tomb vermin",
+      "name_sortable": "infectedtombvermin",
+      "locations": [
+        "41.10,-0.34,-131.60",
+        "-6.67,-0.14,-149.64",
+        "27.07,1.22,-141.41"
+      ]
+    },
+    {
+      "name": "a large tomb vermin",
+      "name_sortable": "largetombvermin",
+      "locations": [
+        "52.86,-0.34,-137.11",
+        "46.64,-0.34,-146.00",
+        "46.73,-0.34,-136.42",
+        "28.78,1.22,-140.70",
+        "47.73,0.04,-129.86"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 388526029 -1598303486:maple round shield\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Lika the Tortured",
+      "name_sortable": "likathetortured",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 763253293 2030737030:Scourge Warrior Leggings\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 337669599 -1918581612:Calcified Bone of the Tortured\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 33,
+      "drop_coin_max": 33
+    },
+    {
+      "name": "Mehatrin the Festering Brute",
+      "name_sortable": "mehatrinthefesteringbrute",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 763253293 2030737030:Scourge Warrior Leggings\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a rabid shriller",
+      "name_sortable": "rabidshriller",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1439043884 -940934384:woven cordovan tunic\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1127098598 -837078682:a bat ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 311260705 1508543682:little vermin notice\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a ravenous cube",
+      "name_sortable": "ravenouscube",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 199752622 -60057131:a vial of viscid slime\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1618070079 1523523032:advanced craftsman volume 14\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 462189661 1165457727:burlap sash\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1295578389 927787154:specialist outlaw notice\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 18,
+      "drop_coin_max": 181
+    },
+    {
+      "name": "a tomb vermin",
+      "name_sortable": "tombvermin",
+      "locations": [
+        "47.20,-0.34,-136.69",
+        "48.01,-0.34,-144.90",
+        "32.32,-0.34,-131.87",
+        "23.47,-0.34,-131.83",
+        "17.33,1.21,-144.87",
+        "27.39,1.21,-144.93",
+        "23.16,-0.16,-160.19",
+        "28.60,-0.07,-160.40",
+        "-6.99,0.01,-146.57",
+        "-12.02,-0.24,-149.99",
+        "39.92,-0.34,-137.83",
+        "-1.88,-0.43,-145.54",
+        "55.11,-0.34,-134.54"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 311260705 1508543682:little vermin notice\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1751990164 1953018519:advanced craftsman volume 13\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 186665103 1678272418:scrap of paper\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1295578389 927787154:specialist outlaw notice\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 388526029 -1598303486:maple round shield\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -849848324 -1463719270:nuisance notice\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "X'Loitl the Bloodsaber Fanatic",
+      "name_sortable": "xloitlthebloodsaberfanatic",
+      "locations": [
+        "95.92,-0.08,-182.78"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 34,
+      "drop_coin_max": 34
+    },
+    {
+      "name": "Zaen Kalystir",
+      "name_sortable": "zaenkalystir",
+      "utterances": [
+        "Blasted beetles, snakes, undead, and Bloodsabers!  Now you? Outta here!",
+        "Who are you, and why are you interrupting my work?  As if it's not bad enough in the catacombs, beset by beasts on all sides, I have to listen to your prattle as well?",
+        "That depends ... I have need of someone, but I do not know if I can trust you ... perhaps if you prove you're trustworthy then I can speak with you of more important events and their significance. I suppose I should actually introduce myself, though. I am Zaen Kalystir, a ... long time ... resident ... of Qeynos.",
+        "There is an ancient crypt just north of Qeynos, which held a once-powerful lich named Varsoon. If you go to this place, it is said the dead will speak with the living about events past and present. Mostly believed to be a rumor, I now think there may be more to this than was previously thought.  Go, and go quickly. Do not forget what is said. "
+      ]
+    }
+  ]
+}

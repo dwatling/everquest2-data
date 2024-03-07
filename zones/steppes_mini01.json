@@ -1,0 +1,185 @@
+{
+  "name": "Heroic: Rumbler Caves",
+  "name_sortable": "heroicrumblercaves",
+  "region": "Karan",
+  "type": "instance",
+  "connections": [
+    {
+      "key": "steppes"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a rubble eater",
+      "name_sortable": "rubbleeater",
+      "level": 25,
+      "difficulty": "heroic",
+      "locations": [
+        "884.05,-18.31,1045.52",
+        "864.14,-11.59,1035.19",
+        "849.55,-10.86,1028.77",
+        "841.83,-11.84,1028.96",
+        "836.66,-12.79,1027.96",
+        "830.40,-14.12,1031.11",
+        "823.10,-13.49,1024.00",
+        "822.86,-17.62,1042.38",
+        "823.56,-14.93,1036.09",
+        "817.97,-24.55,1061.09",
+        "822.65,-26.39,1069.47",
+        "832.63,-29.07,1073.63",
+        "853.65,-32.06,1068.77",
+        "861.17,-12.96,1105.87",
+        "851.58,-13.96,1101.76",
+        "885.43,-19.99,1137.88",
+        "890.06,-21.21,1143.57",
+        "894.42,-23.03,1150.96",
+        "887.84,-20.02,1171.81"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1088142744 1275684369:fragmented stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a rubble eater magus",
+      "name_sortable": "rubbleeatermagus",
+      "level": 26,
+      "difficulty": "heroic",
+      "locations": [
+        "883.91,-18.47,1040.77",
+        "855.59,-10.31,1026.71",
+        "828.28,-13.31,1030.27",
+        "841.83,-31.02,1073.77",
+        "874.47,-17.61,1120.47",
+        "856.43,-12.94,1102.70"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1088142744 1275684369:fragmented stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a rubble eater pastor",
+      "name_sortable": "rubbleeaterpastor",
+      "level": 26,
+      "difficulty": "heroic",
+      "locations": [
+        "861.03,-10.90,1032.46",
+        "856.28,-32.45,1063.09",
+        "891.02,-22.85,1160.70"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1088142744 1275684369:fragmented stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a rubble rumbler",
+      "name_sortable": "rubblerumbler",
+      "level": 25,
+      "difficulty": "heroic",
+      "locations": [
+        "912.06,-21.42,1094.76",
+        "914.62,-20.23,1080.20",
+        "901.80,-21.06,1085.57",
+        "892.32,-24.28,1072.71",
+        "885.05,-26.16,1069.10",
+        "885.46,-17.61,1065.53",
+        "887.28,-17.69,1092.13",
+        "882.15,-17.67,1115.21",
+        "890.20,-16.68,1113.07",
+        "879.53,-18.00,1129.05",
+        "883.35,-17.91,1123.15"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1088142744 1275684369:fragmented stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a rubble rumbler adept",
+      "name_sortable": "rubblerumbleradept",
+      "level": 25,
+      "difficulty": "heroic",
+      "locations": [
+        "896.34,-20.31,1086.31"
+      ]
+    },
+    {
+      "name": "a rubble rumbler elder",
+      "name_sortable": "rubblerumblerelder",
+      "level": 25,
+      "difficulty": "heroic",
+      "locations": [
+        "905.18,-20.64,1087.56",
+        "885.23,-17.66,1075.64",
+        "892.00,-23.24,1076.00",
+        "884.50,-17.91,1111.77",
+        "884.24,-18.08,1126.97"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1088142744 1275684369:fragmented stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an under rumbler",
+      "name_sortable": "underrumbler",
+      "level": 24,
+      "difficulty": "heroic",
+      "locations": [
+        "930.64,-25.51,1186.39",
+        "915.55,-29.12,1170.93",
+        "912.45,-27.47,1148.50",
+        "914.81,-29.43,1156.69",
+        "914.49,-24.44,1134.15",
+        "917.97,-22.73,1105.70",
+        "901.34,-18.95,1120.83"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1088142744 1275684369:fragmented stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an under rumbler curate",
+      "name_sortable": "underrumblercurate",
+      "level": 24,
+      "difficulty": "heroic",
+      "locations": [
+        "917.53,-28.80,1174.19",
+        "915.24,-27.71,1149.39"
+      ]
+    },
+    {
+      "name": "an under rumbler sage",
+      "name_sortable": "underrumblersage",
+      "level": 24,
+      "difficulty": "heroic",
+      "locations": [
+        "933.48,-25.61,1188.50",
+        "908.87,-23.01,1130.68",
+        "918.53,-23.11,1108.81",
+        "902.31,-20.86,1125.23"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1088142744 1275684369:fragmented stone\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ]
+}

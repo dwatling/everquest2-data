@@ -1,0 +1,228 @@
+{
+  "name": "Edgewater Drains",
+  "name_sortable": "edgewaterdrains",
+  "region": "D'Lere",
+  "zonerect": "-220.00,-165.00,22.00,120.00",
+  "levels": "20-25",
+  "maps": [
+    {
+      "name": "Upper"
+    },
+    {
+      "name": "Middle"
+    },
+    {
+      "name": "Lower"
+    }
+  ],
+  "connections": [
+    {
+      "key": "fprt_sewer02"
+    },
+    {
+      "key": "fprt_sewer_epic03_murkwater_nook"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Bendik Jonkers",
+      "name_sortable": "bendikjonkers",
+      "locations": [
+        "138.39,31.31,-104.86"
+      ],
+      "utterances": [
+        "Unless you've got the wit to help me, leave me be.",
+        "I am not unfriendly by nature.  It's just that...I'm on an important mission and only those of a certain caliber would be able to help.  I like to weed out the riff-raff right at the start.  So, have you wit enough to help?",
+        "...and the second one said to the first, \"Ouch! That hurt!\"  I've heard that one plenty of times.  Well, you could be useful, even if you haven't much wit.",
+        "Have you heard of Bodwin Zevuwickle?",
+        "Zevuwickle's a gnome, same as me, an inventor.  He did some, shall we say, unauthorized work down in the sewers which he thinks has removed any traces of his discarded inventions.",
+        "My sources tell me that some pieces of one of his unfinished projects are still here for the taking in the catacombs.  I've gathered seven pieces so far on my own but there's five other pieces that I haven't been able to locate.",
+        "Yep.  This is what's left:  an ancient sieve, some copper wire, a rusted iron bracket, a length of corroded chain, and a set of nesting cogwheels.  Pretty pedestrian stuff. Dunno what he was making, but I know what I'll do with this.",
+        "Now, now, I can't be telling you my secrets.  Can you help me out?",
+        "Wonderful!  My sources say these items are most likely still in the Edgewater Drains, submerged, or even caught on other debris.  There's a reward in this for you, if you bring all five items to me.",
+        "Have you got the five items I need?",
+        "Very fortunate, very fortunate indeed, eh?  Thanks.",
+        "Did I say there'd be a reward for helping me?  You must be mistaken.",
+        "Now, now, no need to get testy.  Fact is I haven't got what I was going to give you on me.  While I was waiting for you -- quite the long wait, if you don't mind me saying -- one of those Murkwater henchmen snuck up and swiped it.",
+        "Yes, I'm afraid so.  Now, you don't have to go claim it if you don't want to, but it was a rather nice bit.  If you want to claim your reward, I'm afraid there's a bit of work to do.",
+        "Well, it's up to you.  You can probably convince one of the Murkwater henchmen to cough up a key to their hideout.  Then you can take up the matter of their thievery with the head of their gang, Madame Kisa.  She's their top dog.  Er, rat...onga.",
+        "All ratonga look alike to me, so I wouldn't know which Murkwater henchman has a key.  Madame Kisa keeps them on a pretty short leash, as it were, so not all of them have one.  Good luck!"
+      ]
+    },
+    {
+      "name": "a bile toad forager",
+      "name_sortable": "biletoadforager",
+      "locations": [
+        "115.30,16.00,-96.16",
+        "93.80,16.00,-93.28",
+        "87.88,16.23,-72.52",
+        "41.56,16.00,42.16",
+        "37.78,16.00,51.44",
+        "50.50,16.00,23.73",
+        "47.92,16.00,7.87",
+        "51.45,16.46,-18.47"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1948596219 770737570:a vial of frog blood\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a brittle remanence",
+      "name_sortable": "brittleremanence",
+      "locations": [
+        "104.75,32.50,19.91"
+      ],
+      "utterances": [
+        "Seek death and it finds you."
+      ]
+    },
+    {
+      "name": "Brother Lasca",
+      "name_sortable": "brotherlasca",
+      "utterances": [
+        "Hello there!"
+      ]
+    },
+    {
+      "name": "a frantic globule",
+      "name_sortable": "franticglobule",
+      "locations": [
+        "111.88,25.36,-140.12"
+      ]
+    },
+    {
+      "name": "a garbage grinder",
+      "name_sortable": "garbagegrinder",
+      "locations": [
+        "106.09,31.98,-99.22"
+      ],
+      "utterances": [
+        "Kill it, quick!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2023639542 250772830:a stained braided belt\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a gigantic sewer goo",
+      "name_sortable": "giganticsewergoo",
+      "locations": [
+        "114.80,26.16,-137.20"
+      ]
+    },
+    {
+      "name": "a massive needletooth",
+      "name_sortable": "massiveneedletooth",
+      "locations": [
+        "138.70,1.49,-107.74"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1851189358 -677167464:a fish meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Murkwater fanatic",
+      "name_sortable": "murkwaterfanatic",
+      "locations": [
+        "144.64,31.31,-105.19",
+        "93.08,19.97,-143.76"
+      ],
+      "utterances": [
+        "Not very nice of you to be all sneaky."
+      ]
+    },
+    {
+      "name": "a Murkwater henchman",
+      "name_sortable": "murkwaterhenchman",
+      "locations": [
+        "80.67,34.25,-100.21",
+        "107.64,17.09,-116.29",
+        "123.02,17.40,-111.41",
+        "144.13,17.09,-143.28",
+        "104.09,17.40,-132.16",
+        "102.70,17.40,-110.94"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -898368698 -1285985171:strange dark powder\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Murkwater onlooker",
+      "name_sortable": "murkwateronlooker",
+      "locations": [
+        "151.44,31.31,-138.38",
+        "124.87,27.31,-141.79",
+        "116.35,17.40,-135.39"
+      ],
+      "utterances": [
+        "Being sneaky isn't very nice.",
+        "Should've escaped while I had the chance.",
+        "Not very nice of you to be all sneaky."
+      ],
+      "drop_coin_min": 1287,
+      "drop_coin_max": 1287
+    },
+    {
+      "name": "a Murkwater vigilant",
+      "name_sortable": "murkwatervigilant",
+      "locations": [
+        "140.02,16.60,-142.31",
+        "106.33,17.09,-113.33"
+      ],
+      "utterances": [
+        "Over hear my plansies? Gore you I will!",
+        "Greetings, friend. How would you like to die, friend?"
+      ]
+    },
+    {
+      "name": "a ravenous piranha",
+      "name_sortable": "ravenouspiranha",
+      "locations": [
+        "219.39,0.01,42.49"
+      ]
+    },
+    {
+      "name": "a rotting sewerfin",
+      "name_sortable": "rottingsewerfin",
+      "locations": [
+        "224.23,1.50,38.89"
+      ]
+    },
+    {
+      "name": "Vasiliy",
+      "name_sortable": "vasiliy",
+      "utterances": [
+        "Leaves me be!  Vasiliy much too busy for the likes of yous!"
+      ]
+    },
+    {
+      "name": "a vile toad",
+      "name_sortable": "viletoad",
+      "locations": [
+        "33.49,16.00,62.71"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1948596219 770737570:a vial of frog blood\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Rogues Gallery",
+  "name_sortable": "roguesgallery",
+  "region": "D'Lere",
+  "connections": [
+    {
+      "key": "freeport_combined"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Clot Bloodreaver, the Ever-living",
+      "name_sortable": "clotbloodreavertheeverliving",
+      "utterances": [
+        "I... fight. You... pay."
+      ]
+    },
+    {
+      "name": "Guard Grizelda",
+      "name_sortable": "guardgrizelda",
+      "utterances": [
+        "Move it or lose it!"
+      ]
+    },
+    {
+      "name": "Katastra Vilehex",
+      "name_sortable": "katastravilehex",
+      "utterances": [
+        "You smell of weakness and fear. Begone."
+      ]
+    },
+    {
+      "name": "Lady Gretta Cheroon",
+      "name_sortable": "ladygrettacheroon",
+      "utterances": [
+        "Do you require guarding, <player name>?"
+      ]
+    },
+    {
+      "name": "Personal Avatar",
+      "name_sortable": "personalavatar",
+      "utterances": [
+        "Can you see me?"
+      ]
+    },
+    {
+      "name": "Scrut Eagle-Eye",
+      "name_sortable": "scruteagleeye",
+      "utterances": [
+        "I saw you coming from a mile away."
+      ]
+    },
+    {
+      "name": "Sneerio Backlash",
+      "name_sortable": "sneeriobacklash"
+    }
+  ]
+}

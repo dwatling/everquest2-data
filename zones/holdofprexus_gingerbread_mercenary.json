@@ -1,0 +1,33 @@
+{
+  "name": "Holiday Mercenary Gallery",
+  "name_sortable": "holidaymercenarygallery",
+  "region": "D'Lere",
+  "connections": [
+    {
+      "key": "holdofprexus_mercenary"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Delicious Gingerdread Archon",
+      "name_sortable": "deliciousgingerdreadarchon",
+      "utterances": [
+        "Hello, <player name>. I have a joke for you!"
+      ]
+    },
+    {
+      "name": "Molasses Gingerbread Archon",
+      "name_sortable": "molassesgingerbreadarchon",
+      "utterances": [
+        "Hello, <player name>. How are you today?"
+      ]
+    },
+    {
+      "name": "The Ninjabread Man",
+      "name_sortable": "ninjabreadman",
+      "utterances": [
+        "Heeeeya! Wooooooo! Greetings <player name>."
+      ]
+    }
+  ]
+}

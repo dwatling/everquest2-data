@@ -1,0 +1,220 @@
+{
+  "name": "The Baubbleshire: Vale's Shadow",
+  "name_sortable": "baubbleshirevalesshadow",
+  "region": "Karan",
+  "zonerect": "-1202.29,-731.03,-545.37,-218.19",
+  "type": "instance",
+  "access_quests": [
+    2026982326
+  ],
+  "connections": [
+    {
+      "key": "qeynos_combined02"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Algan Tinmizer",
+      "name_sortable": "algantinmizer",
+      "locations": [
+        "858.54,-11.79,-418.23"
+      ]
+    },
+    {
+      "name": "Almin Jumroller",
+      "name_sortable": "alminjumroller",
+      "locations": [
+        "909.31,-16.52,-475.3"
+      ]
+    },
+    {
+      "name": "a Baubbleshire defender",
+      "name_sortable": "baubbleshiredefender",
+      "locations": [
+        "836.27,-18.54,-507.52",
+        "824.22,-17.47,-506.82",
+        "871.05,-17.29,-513.68",
+        "869.54,-16.63,-524.71",
+        "944.41,-18.03,-436.75"
+      ],
+      "utterances": [
+        "I hope you are ready for a fight?",
+        "We must hold!",
+        "We must hold them back!",
+        "You are my hero!",
+        "I thought I was doomed, thank you!",
+        "Thank you for clearing the way!"
+      ]
+    },
+    {
+      "name": "a Baubbleshire engineer",
+      "name_sortable": "baubbleshireengineer",
+      "locations": [
+        "821.95,-20.56,-520.58",
+        "855.42,-18.22,-516.5"
+      ],
+      "utterances": [
+        "I must make these parts right away!"
+      ]
+    },
+    {
+      "name": "a Baubbleshire volunteer",
+      "name_sortable": "baubbleshirevolunteer",
+      "locations": [
+        "841.64,-18.69,-515.73",
+        "820.73,-20.49,-517.34"
+      ],
+      "utterances": [
+        "I will do my best to help the engineers, please help our defenders."
+      ]
+    },
+    {
+      "name": "Blint Tizzlespring",
+      "name_sortable": "blinttizzlespring",
+      "locations": [
+        "838.89,-19.23,-517.88"
+      ],
+      "utterances": [
+        "Blasted nightblood!  They might think they are all big and frightening, but wait until I get these clockworks working... they'll give those beasties the what for!"
+      ]
+    },
+    {
+      "name": "Dondl Fuzzlecutter",
+      "name_sortable": "dondlfuzzlecutter",
+      "locations": [
+        "882.51,-13.4,-439.77"
+      ]
+    },
+    {
+      "name": "an invading lamia",
+      "name_sortable": "invadinglamia",
+      "locations": [
+        "824.00,-16.53,-503.82",
+        "830.28,-18.06,-502.40",
+        "839.71,-18.10,-484.69",
+        "838.95,-17.80,-478.74",
+        "843.34,-17.72,-470.09",
+        "874.68,-15.89,-524.37",
+        "875.05,-16.32,-519.30",
+        "892.19,-15.45,-530.81",
+        "875.18,-16.89,-514.01",
+        "888.00,-13.73,-438.74",
+        "864.00,-12.36,-418.70",
+        "915.00,-8.09,-470.00",
+        "920.64,-17.69,-440.70",
+        "888.05,-18.68,-470.28"
+      ],
+      "utterances": [
+        "I will feast on your energy tonight!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2133334332 -889331980:Advanced Woodworker Volume 46\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1531089260 -1943160485:Mark of Divinity III (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -721608203 579820744:a vial of fiendish blood\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 2348,
+      "drop_coin_max": 2348
+    },
+    {
+      "name": "an invading lamia castigator",
+      "name_sortable": "invadinglamiacastigator",
+      "locations": [
+        "829.59,-4.63,-488.23",
+        "871.93,-9.12,-479.06",
+        "879.02,-6.24,-522.27",
+        "889.89,-5.64,-504.00",
+        "888.89,-5.76,-446.44",
+        "858.78,-9.29,-446.46"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -721608203 579820744:a vial of fiendish blood\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1513698845 782894655:large polished bone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 2382,
+      "drop_coin_max": 2382
+    },
+    {
+      "name": "an invading nightblood",
+      "name_sortable": "invadingnightblood",
+      "locations": [
+        "832.53,-17.82,-482.56",
+        "847.64,-18.29,-468.00",
+        "837.00,-13.36,-470.00",
+        "824.00,-15.84,-502.43",
+        "868.56,-18.45,-482.44",
+        "874.22,-16.65,-516.54",
+        "874.73,-15.83,-525.07",
+        "890.00,-13.76,-539.21",
+        "893.24,-16.88,-508.60",
+        "901.71,-18.00,-471.87",
+        "893.81,-18.19,-469.11",
+        "932.12,-17.69,-438.48",
+        "863.92,-18.86,-464.39",
+        "859.41,-18.94,-451.46",
+        "810.53,-4.62,-471.37"
+      ],
+      "utterances": [
+        "Fear me!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1480045534 1423962330:Advanced Tailor Volume 46\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -191103087 1035556020:Ebon Storm Gem\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2012537469 908465009:a vial of insidious blood\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 13445,
+      "drop_coin_max": 19256
+    },
+    {
+      "name": "Lyza Bethan",
+      "name_sortable": "lyzabethan",
+      "locations": [
+        "895.09,-15.49,-530.08"
+      ],
+      "utterances": [
+        "I must be honest, the robots kinda freak me out!",
+        "I used to play pranks on some of these gnomes and halflings trying to save us in here... I wish I could take it all back! I am such a horrible person!",
+        "The moment this emergency started the gnomes jumped right into action. I just love gnomes!"
+      ]
+    },
+    {
+      "name": "a trapped citizen",
+      "name_sortable": "trappedcitizen",
+      "locations": [
+        "909.04,-17.45,-491.03",
+        "861.97,-12.46,-411.95",
+        "813.63,-15.04,-453.56"
+      ]
+    },
+    {
+      "name": "Yola Sindlefop",
+      "name_sortable": "yolasindlefop",
+      "locations": [
+        "808.56,-4.42,-466.77"
+      ]
+    }
+  ]
+}

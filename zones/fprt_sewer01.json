@@ -1,0 +1,385 @@
+{
+  "name": "The Thieves' Way",
+  "name_sortable": "thievesway",
+  "region": "D'Lere",
+  "zonerect": "-42.00,-34.00,202.00,248.00",
+  "levels": "5-10",
+  "connections": [
+    {
+      "key": "fprt_sewer02"
+    },
+    {
+      "key": "fprt_sewer_epic04_quest_darkblade_epic"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a corruptor",
+      "name_sortable": "corruptor",
+      "level": 11,
+      "locations": [
+        "-30,0,197"
+      ],
+      "utterances": [
+        "As I rise from the grave,  you will now take my place!",
+        "I didn't need those bones anyway.",
+        "I'm shattered and broken.",
+        "Your blood calls to me.",
+        "Seek death and it finds you.",
+        "You've shaken the dust from my bones.",
+        "You cannot eliminate us!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 40,
+      "drop_coin_max": 298
+    },
+    {
+      "name": "a Darkblade bodyguard",
+      "name_sortable": "darkbladebodyguard",
+      "level": 11,
+      "locations": [
+        "-103,1,133"
+      ]
+    },
+    {
+      "name": "a Darkblade brigand",
+      "name_sortable": "darkbladebrigand",
+      "level": 9,
+      "locations": [
+        "0,1,140",
+        "-60.95,1.00,89.05"
+      ],
+      "utterances": [
+        null,
+        "No where to run, craven!",
+        "Thanks!  I always hated that one!"
+      ]
+    },
+    {
+      "name": "a Darkblade fury",
+      "name_sortable": "darkbladefury",
+      "level": 9,
+      "locations": [
+        "0,1,140"
+      ]
+    },
+    {
+      "name": "a Darkblade maiden",
+      "name_sortable": "darkblademaiden",
+      "level": 9,
+      "locations": [
+        "-83,1,115"
+      ]
+    },
+    {
+      "name": "a Darkblade noble",
+      "name_sortable": "darkbladenoble",
+      "level": 9,
+      "locations": [
+        "-76,0,106"
+      ]
+    },
+    {
+      "name": "a Darkblade scout",
+      "name_sortable": "darkbladescout",
+      "level": 9,
+      "locations": [
+        "-24,1,114"
+      ]
+    },
+    {
+      "name": "a diseased ratonga",
+      "name_sortable": "diseasedratonga",
+      "level": 9,
+      "locations": [
+        "-152.61,1.34,60.98",
+        "-175.13,1.22,61.18",
+        "19.93,1.34,46.92"
+      ],
+      "utterances": [
+        "Startle us, you did! We'll remedy that.",
+        "Sees us, did we? Must not let you talk then.",
+        "Don't hurt us! We're no threat to your mightiness.",
+        "Time to leave, yes. Definitely time to leave.",
+        "Take my secrets to my grave, I shall."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a drowned protector",
+      "name_sortable": "drownedprotector",
+      "level": 12,
+      "locations": [
+        "-30,0,197"
+      ]
+    },
+    {
+      "name": "a fallen crusader",
+      "name_sortable": "fallencrusader",
+      "level": 11,
+      "locations": [
+        "-30,0,197"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a juvenile mucus",
+      "name_sortable": "juvenilemucus",
+      "level": 6
+    },
+    {
+      "name": "Krakamen",
+      "name_sortable": "krakamen",
+      "level": 9,
+      "difficulty": "heroic",
+      "locations": [
+        "-165,0,178"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 284686259 1348802406:Provoke III (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1557061661 -130709509:Outlaw's Spear\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Lady Darkblade",
+      "name_sortable": "ladydarkblade",
+      "level": 11,
+      "locations": [
+        "-122,1,154"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -727464254 1888290491:copper hoop\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "M`Polo Danukh",
+      "name_sortable": "m`polodanukh",
+      "locations": [
+        "-31,1,154"
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Marius Darkblade",
+      "name_sortable": "mariusdarkblade",
+      "level": 12,
+      "locations": [
+        "-123,1,152"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1638835026 413298385:Flash of Steel III (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1553018005 -24868568:tin spear\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1461102860 1061991594:Splintering Elm Cudgel\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Mikela Osa",
+      "name_sortable": "mikelaosa",
+      "locations": [
+        "-28,1,152"
+      ]
+    },
+    {
+      "name": "M`Polo Danukh",
+      "name_sortable": "mpolodanukh",
+      "locations": [
+        "-31,1,154"
+      ],
+      "utterances": [
+        "Don't fret, the smell can be easily washed out of anything you buy from me."
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "a Murkwater Infiltrator",
+      "name_sortable": "murkwaterinfiltrator",
+      "level": 11,
+      "locations": [
+        "-76,0,160",
+        "-128,1,148"
+      ]
+    },
+    {
+      "name": "a netherot chanter",
+      "name_sortable": "netherotchanter",
+      "level": 8,
+      "locations": [
+        "-79,1,112"
+      ]
+    },
+    {
+      "name": "Nikho Tambolo",
+      "name_sortable": "nikhotambolo",
+      "locations": [
+        "-25,1,155"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "a ravenous cube",
+      "name_sortable": "ravenouscube",
+      "level": 7,
+      "locations": [
+        "-34,0,107",
+        "-113.85,0.00,78.35"
+      ]
+    },
+    {
+      "name": "a refuse roach",
+      "name_sortable": "refuseroach",
+      "level": 6,
+      "locations": [
+        "-117,1,78",
+        "-124.27,1.00,54.26"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Sali Va`ah",
+      "name_sortable": "saliva`ah",
+      "locations": [
+        "-33,1,156"
+      ],
+      "store_template": "armorsmith"
+    },
+    {
+      "name": "a sewage rat",
+      "name_sortable": "sewagerat",
+      "level": 6,
+      "locations": [
+        "-117,1,78",
+        "-103.90,1.00,79.43",
+        "-106.89,1.00,74.32",
+        "-129.08,1.00,55.18",
+        "-4.10,1.34,19.97"
+      ]
+    },
+    {
+      "name": "a sewer rat",
+      "name_sortable": "sewerrat",
+      "level": 5,
+      "locations": [
+        "-117,1,78"
+      ]
+    },
+    {
+      "name": "a sewer slime",
+      "name_sortable": "sewerslime",
+      "level": 6,
+      "locations": [
+        "-4,0,98",
+        "-127.44,0.00,61.72"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1791809415 -329822486:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Shift Boss Local 858",
+      "name_sortable": "shiftbosslocal858",
+      "level": 8,
+      "difficulty": "heroic",
+      "locations": [
+        "-51,0,-23"
+      ]
+    },
+    {
+      "name": "a sludgewalker hatchling",
+      "name_sortable": "sludgewalkerhatchling",
+      "level": 6,
+      "locations": [
+        "-25,0,50",
+        "-119.32,1.00,74.47"
+      ]
+    },
+    {
+      "name": "a trash hopper",
+      "name_sortable": "trashhopper",
+      "level": 6,
+      "locations": [
+        "-181,0,177",
+        "-7.18,1.34,18.24"
+      ]
+    },
+    {
+      "name": "a union member Local 858",
+      "name_sortable": "unionmemberlocal858",
+      "level": 8,
+      "locations": [
+        "-115,1,57"
+      ],
+      "utterances": [
+        "Get the guards, quickly!"
+      ]
+    },
+    {
+      "name": "a union mender Local 858",
+      "name_sortable": "unionmenderlocal858",
+      "level": 8,
+      "locations": [
+        "-91,1,20",
+        "-117.81,0.00,58.08"
+      ],
+      "utterances": [
+        "Run away before we all die!"
+      ]
+    },
+    {
+      "name": "Zatzy",
+      "name_sortable": "zatzy",
+      "locations": [
+        "-1,0,-7"
+      ],
+      "utterances": [
+        "Go!  Get away from me!  I'm in hiding!",
+        "I told you to leave!  I don't want to draw attention to myself!  Go, go away!",
+        "I told you to leave me alone! If they finds me, they'll kill me!  They've already killed everyone else. I'm the only one left.  They killed them, and there was nothing I could do.  What was I supposed to do?  I'm just a small ratonga, little, so little.  ",
+        "The Darkblades did it! They're all killers!  You find them in the sewers; it's a fitting place for filth.  You do me favor and kill them, kill them all, and I'll tell you where their secret den is.  You can find much wealth there. ",
+        "You will do this for me?  Even though I am so very small?  They took my trinket. You bring it back to me, and I'll tell you where their secret den is.  You do this, okay?",
+        "You're back!  Did you kill them all?  Are they all dead?  Did you find the trinket?",
+        "This is very good news for little me, but very bad news for you.  That's no trinket, you fool!  It's the key to the Darkblades' den, and now they're all dead! I can plunder to my little black heart's content."
+      ]
+    }
+  ]
+}

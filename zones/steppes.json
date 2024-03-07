@@ -1,0 +1,4393 @@
+{
+  "name": "The Thundering Steppes",
+  "name_sortable": "thunderingsteppes",
+  "region": "Karan",
+  "description": "The remains of the Plains of Karana are now the home of Thundermist Village and the Ruins of Varsoon.",
+  "levels": "20-30",
+  "connections": [
+    {
+      "key": "antonica"
+    },
+    {
+      "key": "varsoon"
+    },
+    {
+      "key": "varsoon_fabled"
+    },
+    {
+      "key": "steppes_epic01_cove"
+    },
+    {
+      "key": "steppes_epic01_cove_presige"
+    },
+    {
+      "key": "steppes_epic01_cove_raid"
+    },
+    {
+      "key": "steppes_mini01_solo"
+    },
+    {
+      "key": "steppes_mini01_undead_solo"
+    },
+    {
+      "key": "steppes_mini01_undead"
+    },
+    {
+      "key": "steppes_mini01"
+    },
+    {
+      "key": "steppes_mini01_pirate"
+    },
+    {
+      "key": "steppes_mini01_pirate_solo"
+    },
+    {
+      "key": "adv02_dun_sundered_foreshadow2"
+    },
+    {
+      "key": "adv02_dun_sundered_splitpaw_playground"
+    },
+    {
+      "key": "obelisk_of_lostsouls"
+    },
+    {
+      "key": "exile_city"
+    },
+    {
+      "key": "exp03_rgn_butcherblock"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "an accursed rock heap",
+      "name_sortable": "accursedrockheap",
+      "locations": [
+        "-50.05,-8.29,984.14",
+        "15.14,-12.96,1056.88"
+      ]
+    },
+    {
+      "name": "Alliam Brohne",
+      "name_sortable": "alliambrohne",
+      "level": 30,
+      "difficulty": "heroic^2",
+      "locations": [
+        "-445.57,-18.14,-425.72"
+      ],
+      "utterances": [
+        "These docks sprang to life after the establishment of Bridge Keep and Thundermist Village.  They need supplies often in these dangerous lands."
+      ]
+    },
+    {
+      "name": "an alluring siren",
+      "name_sortable": "alluringsiren",
+      "locations": [
+        "1422.04,-7.76,84.57",
+        "1470.33,-8.40,192.03",
+        "1472.45,-21.68,241.38",
+        "1466.20,-23.43,232.11",
+        "1494.40,-28.02,233.71",
+        "1493.02,-23.12,239.67",
+        "1502.34,-29.06,235.09",
+        "1499.60,-30.21,259.99",
+        "1490.96,-24.74,263.18",
+        "1488.02,-15.58,248.02",
+        "1482.19,-15.15,248.08",
+        "1481.05,-15.61,255.32",
+        "1487.40,-16.11,255.57",
+        "1470.82,-22.93,259.50",
+        "1471.55,-26.60,267.61",
+        "1465.76,-25.07,259.90",
+        "1475.53,-9.93,52.79"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1460933134 -1511590904:a strand of golden hair\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -151171484 1525557672:a vocal nerve\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 75,
+      "drop_coin_max": 154
+    },
+    {
+      "name": "an Amazon archer",
+      "name_sortable": "amazonarcher",
+      "level": 26,
+      "locations": [
+        "656.68,16.43,391.79",
+        "572.78,9.20,457.37",
+        "-109.73,1.90,36.51",
+        "86.69,-19.28,1175.73",
+        "94.15,-20.28,1192.55",
+        "118.21,7.09,1280.86",
+        "149.55,3.01,1279.71",
+        "188.52,-0.46,1279.35",
+        "199.93,-6.65,1261.67",
+        "191.21,-2.25,1349.25",
+        "291.92,-22.06,1260.07"
+      ],
+      "utterances": [
+        "I shall seek vengeance for my fallen sister.",
+        "Noooo!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1095054225 -1136000494:a centaur hoof\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 117,
+      "drop_coin_max": 117,
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "an Amazon gatherer",
+      "name_sortable": "amazongatherer",
+      "locations": [
+        "619.38,23.74,394.30",
+        "592.76,20.79,417.89"
+      ],
+      "utterances": [
+        "I shall seek vengeance for my fallen sister.",
+        "Noooo!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "an Amazon hedgewitch",
+      "name_sortable": "amazonhedgewitch",
+      "locations": [
+        "1219.41,1.27,438.74",
+        "1196.88,2.79,366.55"
+      ],
+      "utterances": [
+        "I shall seek vengeance for my fallen sister."
+      ],
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "an Amazon huntress",
+      "name_sortable": "amazonhuntress",
+      "locations": [
+        "642.37,19.15,381.63",
+        "625.17,24.19,373.06",
+        "572.65,8.56,458.91",
+        "406.99,-0.13,366.79"
+      ],
+      "utterances": [
+        "I shall seek vengeance for my fallen sister."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1354018115 2012604226:a centaur hand\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "an Amazon priestess",
+      "name_sortable": "amazonpriestess",
+      "locations": [
+        "1069.43,5.03,482.78",
+        "1144.89,-1.01,266.26"
+      ],
+      "utterances": [
+        "I shall seek vengeance for my fallen sister."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1354018115 2012604226:a centaur hand\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "an Amazon sharpshooter",
+      "name_sortable": "amazonsharpshooter",
+      "level": 28,
+      "locations": [
+        "38.70,0.01,1299.75",
+        "123.51,0.20,1367.34",
+        "127.15,0.89,1387.84",
+        "98.46,3.34,1327.28",
+        "87.90,4.19,1299.98"
+      ],
+      "utterances": [
+        "Noooo!",
+        "I shall seek vengeance for my fallen sister."
+      ],
+      "drop_coin_min": 97,
+      "drop_coin_max": 97,
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "an Amazon spearmaiden",
+      "name_sortable": "amazonspearmaiden",
+      "locations": [
+        "1253.07,-0.58,398.18"
+      ],
+      "utterances": [
+        "I shall seek vengeance for my fallen sister."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -552132504 -1273712733:a jagged metal cluster\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 154,
+      "drop_coin_max": 154,
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Amy Bhorgese",
+      "name_sortable": "amybhorgese",
+      "locations": [
+        "-226.8,-0.38,32.76"
+      ],
+      "utterances": [
+        "Hello there!",
+        "I hate to impose, but I'm looking for someone who can help me find my sister.",
+        "No, nothing like that.  You see, she's my half-sister.  I was raised in Qeynos by our father; Kitty's mother lives in Freeport.  That's her name, Kitty.  Kitty Valencia.  Maybe you already know her?"
+      ]
+    },
+    {
+      "name": "an arisen evoker",
+      "name_sortable": "arisenevoker",
+      "locations": [
+        "-357.70,1.20,822.30",
+        "-483.54,-21.12,893.55",
+        "-487.59,-19.67,906.91",
+        "-419.41,-23.96,875.13",
+        "-441.95,-18.53,803.13",
+        "-588.90,-4.95,942.67",
+        "-533.61,-1.89,992.81",
+        "-486.92,-1.17,989.75",
+        "-425.85,3.33,968.54"
+      ],
+      "utterances": [
+        "Final death comes at last.",
+        "That pile of bones was my friend!",
+        "You cannot eliminate us!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 80,
+      "drop_coin_max": 147
+    },
+    {
+      "name": "an arisen inducer",
+      "name_sortable": "ariseninducer",
+      "level": 26,
+      "locations": [
+        "-490.53,1.58,638.00",
+        "-370.80,-1.02,450.79",
+        "-504.96,-10.20,584.36",
+        "-560.65,-11.02,450.14",
+        "-656.95,-4.78,812.77",
+        "-578.47,-6.98,765.50",
+        "-555.38,-9.00,767.42",
+        "-475.76,-18.31,697.69",
+        "-485.97,-14.86,726.57",
+        "-430.73,-23.26,691.81",
+        "-403.28,-22.57,683.56",
+        "-318.08,4.84,695.66",
+        "-347.90,0.93,883.72",
+        "-492.86,-18.05,861.72",
+        "-527.62,-16.02,876.50",
+        "-410.71,-21.96,882.02",
+        "-417.46,-22.58,808.05",
+        "-487.46,-13.35,827.52",
+        "-406.01,2.38,938.38"
+      ],
+      "utterances": [
+        "That pile of bones was my friend!",
+        "Final death comes at last.",
+        "Rest in peace.",
+        "You cannot eliminate us!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 68,
+      "drop_coin_max": 1202
+    },
+    {
+      "name": "Bando Danforge",
+      "name_sortable": "bandodanforge",
+      "utterances": [
+        "I run information between the mine and Thundermist."
+      ]
+    },
+    {
+      "name": "The Banished",
+      "name_sortable": "banished",
+      "locations": [
+        "747.58,-0.79,1080.04",
+        "915.33,4.26,1102.24",
+        "805.70,5.95,1044.44"
+      ],
+      "utterances": [
+        "I shall avenge you brother!",
+        "I shall bring you down like the dog you are!",
+        "For that, you shall pay in blood!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 809501274 97439107:small bag of muriate of potash\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a beach clamper",
+      "name_sortable": "beachclamper",
+      "locations": [
+        "-332.13,-23.13,-246.45",
+        "-356.43,-23.45,-272"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 512790155 320744539:crab meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Blerton Blumble",
+      "name_sortable": "blertonblumble",
+      "locations": [
+        "-473.54,-18.38,-417.1"
+      ],
+      "utterances": [
+        "Oh, hey. Uh, could you maybe just run along and go bother someone else? Thanks a bunch...",
+        "A letter from Matsy? Uh oh, here we go again. Well, I'd guess you won't go bury it somewhere under a rock for me, so I suppose you'd better hand it over. I wonder what hideous banshee she's trying to set me up with now... The last one had a face like a minotaur with a skin condition and her breath smelled like feet! Let's see here...hah, she's given up on that at least. Eww, well that does explain her breath. That's just disgusting. Oh no, not again!",
+        "It looks like old Grandpa Blumble has gotten lost again. Crazy old fool! I don't want to go off searching for him now.  Hey, you look like an adventurous sort... Do you think you could find him for me?",
+        "Thank you very much. Grandpa sometimes gets it into his head to go searching for pirate treasure. None of us are quite sure why, but the whole family worries about him. He has a knack for getting lost. Last time we found him he had fallen asleep digging over on the beach to the north of the docks here and we've been wondering when he'd try it again. You can't miss it, he always marks his dig with a big \"X\"."
+      ]
+    },
+    {
+      "name": "Bloodtalon",
+      "name_sortable": "bloodtalon",
+      "locations": [
+        "1028.01,23.71,443.91"
+      ]
+    },
+    {
+      "name": "a Bloodtooth forestrunner",
+      "name_sortable": "bloodtoothforestrunner",
+      "locations": [
+        "606.56,1.86,-367.27"
+      ],
+      "utterances": [
+        "Another member of the pack down!"
+      ],
+      "drop_coin_min": 81,
+      "drop_coin_max": 81
+    },
+    {
+      "name": "Boulden Smitestone",
+      "name_sortable": "bouldensmitestone",
+      "locations": [
+        "-570.98,-20.98,-398.06"
+      ]
+    },
+    {
+      "name": "Brant Omannus",
+      "name_sortable": "brantomannus",
+      "locations": [
+        "-435.82,-18.38,-418.78"
+      ],
+      "utterances": [
+        "Hail, stranger!  Can you spare a moment? "
+      ]
+    },
+    {
+      "name": "Bruuhl Firerock",
+      "name_sortable": "bruuhlfirerock",
+      "locations": [
+        "530.92,-12.60,1017.14"
+      ],
+      "utterances": [
+        "Ohhh! They be tasty after we smoosh you!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Captain Abella Coranis",
+      "name_sortable": "captainabellacoranis",
+      "locations": [
+        "-265.94,-20.36,-416.1"
+      ],
+      "utterances": [
+        "Yes, yes.  Hail to you as well.  My crew has a lot to do, and I don't need you getting in the way. ",
+        "I anchored my ship in a hidden cove away from harm and the last thing I need is... What in Thule?",
+        "That was a close call.  I don't know how much longer I can elude these orcs.",
+        "Allow me to introduce myself.  I'm Abella Coranis, the Captain of the Prize of Prexus.  Please forgive my rudeness earlier, but as you can see I've reason to be cautious.",
+        "That's your second question and I don't even know your name.",
+        "Aye, that's better, nice to meet you. Thanks again for watching my stern.  The orcs that attacked are from the same ship that meddled with us out in the Sea of Crossed Swords. They bear the markings of the Deathfist.",
+        "Their pursuit was brutal. If it weren't for my engineer's modifications to the Prize of Prexus, we'd be sleeping with the fishes!  Listen, I'll be upfront with you.  We don't have much time before they find where my ship is anchored. And, and... ",
+        "We have a lot to do before the Prize of Prexus can set sail, and we can use all the help we can get. From what I've seen, you're just what the priest ordered.  What do you say?",
+        "I won't know until we get back to the Sea of the Crossed Swords, but I believe I was about to come across the Isle of Zek.  Now, tell me, are you willing to help?",
+        "Excellent!  You can start by aiding our supply runners in Antonica.  They're bringing materials to repair the hull of our vessel.  Make sure they're safe from orc marauders."
+      ]
+    },
+    {
+      "name": "Captain Duranas",
+      "name_sortable": "captainduranas",
+      "locations": [
+        "1159.64,11.00,530.78"
+      ],
+      "utterances": [
+        "You will pay for that, two leg!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Captain Sturman",
+      "name_sortable": "captainsturman",
+      "locations": [
+        "185.31,-1.02,-171.76"
+      ],
+      "utterances": [
+        "Be careful out in these lands, adventurer. There are many factions in the Thundering Steppes that are not friendly to outsiders.",
+        "A message from Eitoa you say? From the looks of you, you're not a soldier in the Qeynos militia. Why would she send you with an official communique?",
+        "I see that you do. I hope you've brought word from the city that more troops are arriving. We're desperate for more help. Let me see what the message says:  What is this?! This is not what I wanted to hear...",
+        "It says that the bloody officers in the city are unable to spare reinforcement troops to relieve my weary men! We're constantly looking out for gnoll and centaur attacks. And, for some reason, we're seeing an increasing number of undead. I routinely send men over to Thunder Mist because of the raids against the village. The villagers have started taking refuge here at Bridge Keep and we just don't have the room. And Karana forbid I forget about the giants! ",
+        "Thank you. We'll make do for now, and we'll hold the area as long as we can. I just don't know how long that will be."
+      ]
+    },
+    {
+      "name": "a carrion gorger",
+      "name_sortable": "carriongorger",
+      "locations": [
+        "-12.41,-17.49,994.42"
+      ]
+    },
+    {
+      "name": "Cassondra",
+      "name_sortable": "cassondra",
+      "locations": [
+        "1207.34,2.93,337.77"
+      ],
+      "utterances": [
+        "Keep your distance, Outlander.  I don't trust your kind."
+      ]
+    },
+    {
+      "name": "Chief Derrog",
+      "name_sortable": "chiefderrog",
+      "locations": [
+        "415.75,-1.0,1013.65"
+      ],
+      "utterances": [
+        "You travel among many goliaths.  This is noted.",
+        "You're very brave, friend.  Not many small ones have the courage to speak to a giant.  But I wonder how long your courage will last?"
+      ]
+    },
+    {
+      "name": "Clint Gilcrush",
+      "name_sortable": "clintgilcrush",
+      "locations": [
+        "-443.26,-18.38,-448.5"
+      ],
+      "utterances": [
+        "Tell me, why do you submit to the will of a government that cares nothing for you?"
+      ]
+    },
+    {
+      "name": "Coldtooth",
+      "name_sortable": "coldtooth",
+      "locations": [
+        "809.48,-1.04,1209.61"
+      ]
+    },
+    {
+      "name": "Consul Bree",
+      "name_sortable": "consulbree",
+      "utterances": [
+        "Have you gotten the gnollish order book?",
+        "Great! This will prove to be very useful I am certain... Yes, their plans are as we suspected. <player name>, we need to put an immediate halt to their production! Are you ready to act again?",
+        "The gnolls are creating an army that will be used to invade Qeynos. I had Emma whip up some explosives just for times like this. Take these charges. I need you to destroy the forge in the armory; it's on the level above this one. The gnolls also have a number of machine parts scattered around. These are not the two, main digging machines that they are using, but they are still part of the gnoll war machine and should be destroyed.",
+        "Thank you. The gnolls may not recover from this.",
+        "Have you done as I asked?",
+        "Wonderful. A setback like this will cost them dearly. They may not have proper time to recoup. I do not intend to give them that chance.",
+        "Zen'Durath. If we take him out now the Rockpaw gnolls will appear weak. The Mudpaw and Dustpaw gnolls will exploit that weakness, and the gnollish plans for Qeynos will never be realized.",
+        "I know enough of these gnolls. I did stay here for quite some time, hidden but among them, you realize. The Rockpaw have a ritual they use when they wish to speak with Zen'Durath. If we mimic that ritual he will show.",
+        "First you must collect the necessary items. You will need five crown scales from the albino pythons. You will also need some of the Rockpaw shaman's incantation powder, you can find this in the Rockpaw camps. Finally, you will need a river stone from the river behemoths. These can all be found on the uppermost level here. However, the river stone may be difficult to get.",
+        "Speak with Emma about the river stone. I believe she has been working on something."
+      ]
+    },
+    {
+      "name": "a corpse feeder",
+      "name_sortable": "corpsefeeder",
+      "locations": [
+        "-15.07,-18.06,989.56"
+      ]
+    },
+    {
+      "name": "Coy Baomar",
+      "name_sortable": "coybaomar",
+      "level": 30,
+      "difficulty": "heroic^3",
+      "locations": [
+        "-534.86,-21.03,-407.1"
+      ],
+      "utterances": [
+        "I have come to the Steppes in search of blood.  My brother was killed on a supply run to Thundermist Village.  The centaurs of this land will pay for their villainy!"
+      ]
+    },
+    {
+      "name": "a crag writher",
+      "name_sortable": "cragwrither",
+      "locations": [
+        "-71.47,-21.77,941.74",
+        "-43.16,-3.64,992.03",
+        "-4.18,-5.74,959.31",
+        "27.18,-12.26,1018.57",
+        "29.34,-13.92,1079.99",
+        "43.10,-10.64,1102.13"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 698551597 1880340343:an insect antenna\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a crater fish",
+      "name_sortable": "craterfish",
+      "locations": [
+        "1127.39,-13.42,-243.22",
+        "271.11,-13.19,1106.18",
+        "261.78,-14.01,1124.11",
+        "540.00,-22.61,968.27",
+        "527.03,-23.13,942.69",
+        "560.31,-22.86,958.23"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1851189358 -677167464:a fish meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a creeping dead",
+      "name_sortable": "creepingdead",
+      "level": 22,
+      "difficulty": "heroic",
+      "locations": [
+        "1337.99,-3.49,-79.06",
+        "1331.95,-3.97,-82.05",
+        "1347.03,-2.46,-82.09"
+      ],
+      "drop_coin_min": 73,
+      "drop_coin_max": 135
+    },
+    {
+      "name": "a Dead River knight",
+      "name_sortable": "deadriverknight",
+      "locations": [
+        "-80.58,-14.98,973.10",
+        "37.99,-9.50,1084.23",
+        "28.42,-14.13,1100.90"
+      ],
+      "utterances": [
+        "Rest in peace.",
+        "Final death comes at last."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Dead River manes",
+      "name_sortable": "deadrivermanes",
+      "locations": [
+        "-70.71,-19.73,963.60",
+        "2.44,-16.67,989.59",
+        "-10.64,-17.72,974.73",
+        "1.58,-15.00,1020.57",
+        "48.79,-15.26,1141.62"
+      ],
+      "utterances": [
+        "Final death comes at last.",
+        "Rest in peace.",
+        "That pile of bones was my friend!"
+      ]
+    },
+    {
+      "name": "a Deathfist marauder",
+      "name_sortable": "deathfistmarauder",
+      "locations": [
+        "-262.88,-19.67,-410.83"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 156,
+      "drop_coin_max": 156
+    },
+    {
+      "name": "Defender Alistar",
+      "name_sortable": "defenderalistar",
+      "locations": [
+        "552.32,-6.87,-33.39"
+      ]
+    },
+    {
+      "name": "Defender Ashnock",
+      "name_sortable": "defenderashnock",
+      "locations": [
+        "566.43,-1.39,-58.15"
+      ]
+    },
+    {
+      "name": "Defender Bolaris",
+      "name_sortable": "defenderbolaris",
+      "locations": [
+        "585.7,1.84,-170.78"
+      ]
+    },
+    {
+      "name": "Defender Braden",
+      "name_sortable": "defenderbraden",
+      "locations": [
+        "561.1,-6.72,-30.29"
+      ]
+    },
+    {
+      "name": "Defender Rowan",
+      "name_sortable": "defenderrowan",
+      "locations": [
+        "580.28,1.56,-172.97"
+      ]
+    },
+    {
+      "name": "a Dire Wolf",
+      "name_sortable": "direwolf",
+      "locations": [
+        "505.64,-1.02,480.78"
+      ]
+    },
+    {
+      "name": "a distraught survivor",
+      "name_sortable": "distraughtsurvivor",
+      "utterances": [
+        "Tidal wave cracked some of the dock pylons and supports, and it destroyed many of the boats our little village has come to rely on.",
+        "Can you imagine if this had happened closer to Qeynos!?"
+      ]
+    },
+    {
+      "name": "a distressed merchant",
+      "name_sortable": "distressedmerchant",
+      "locations": [
+        "9.08,0.4,-760.34"
+      ],
+      "utterances": [
+        "I beg of you to help me.  These foul beasts have blocked off my escape.  Help me out and I'll help you in return."
+      ]
+    },
+    {
+      "name": "a dress merchant",
+      "name_sortable": "dressmerchant",
+      "locations": [
+        "-461.55,-18.13,-424.68"
+      ]
+    },
+    {
+      "name": "Dreyd Flurven",
+      "name_sortable": "dreydflurven",
+      "utterances": [
+        "I am running word between the crater mine and Bridge Keep."
+      ]
+    },
+    {
+      "name": "Drinna the Pirate",
+      "name_sortable": "drinnathepirate",
+      "locations": [
+        "754.80,-20.63,949.41"
+      ],
+      "utterances": [
+        "We must withdraw before we all die!"
+      ]
+    },
+    {
+      "name": "a drowned captain",
+      "name_sortable": "drownedcaptain",
+      "level": 23,
+      "locations": [
+        "-94.27,-13.44,882.32",
+        "549.43,-22.41,194.23"
+      ],
+      "utterances": [
+        "You cannot eliminate us!",
+        "That pile of bones was my friend!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 83,
+      "drop_coin_max": 83
+    },
+    {
+      "name": "a drowned commander",
+      "name_sortable": "drownedcommander",
+      "locations": [
+        "602.98,-15.59,533.20"
+      ],
+      "utterances": [
+        "That pile of bones was my friend!"
+      ],
+      "drop_coin_min": 83,
+      "drop_coin_max": 83
+    },
+    {
+      "name": "a drowned trooper",
+      "name_sortable": "drownedtrooper",
+      "level": 23,
+      "locations": [
+        "-99.21,-10.29,883.41",
+        "726.50,-20.78,1000.02",
+        "681.73,-19.01,1033.42"
+      ],
+      "utterances": [
+        "As I rise from the grave,  you will now take my place!",
+        "That pile of bones was my friend!",
+        "You cannot eliminate us!"
+      ]
+    },
+    {
+      "name": "a drowned veteran",
+      "name_sortable": "drownedveteran",
+      "level": 25,
+      "locations": [
+        "-95.59,-12.55,875.39",
+        "740.85,-20.60,995.58",
+        "686.61,-18.39,1037.97",
+        "608.47,-27.10,581.57",
+        "628.58,-18.93,523.06",
+        "639.82,-14.68,513.67",
+        "751.90,-16.62,532.52",
+        "690.96,-29.67,573.35",
+        "698.95,-31.59,617.35"
+      ],
+      "utterances": [
+        "That pile of bones was my friend!",
+        "Rest in peace.",
+        "You cannot eliminate us!",
+        "Final death comes at last."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -289215874 -2114663629:The Treaty for Treasure\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 81,
+      "drop_coin_max": 150
+    },
+    {
+      "name": "Duggin Brandywine",
+      "name_sortable": "dugginbrandywine",
+      "purpose": "Dock Worker",
+      "locations": [
+        "-467.32,-21.03,-406.15"
+      ],
+      "utterances": [
+        "I'm just taking a short break for elevenses, I'll be back on the job in a moment!",
+        "Oh, I'm sorry, I thought you were the supervisor.  I'm supposed to be loading up these crates ready for the shipment to Butcherblock Mountains, but a halfling can't work on an empty stomach.",
+        "I'm glad you understand how it is!  I wish my supervisor were as understanding.  It's always work, work, work, and not even any afternoon snacks kept on hand!",
+        "Well, if you could just bring me a little food, I'd be ever so grateful, and happy to pay you what I can afford for your time.  I only need a little tiny bit, enough for me to cook up some lunch in an hour or so."
+      ]
+    },
+    {
+      "name": "a Dustpaw guard",
+      "name_sortable": "dustpawguard",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -277851541 330281355:Far Seas Direct Requisition Order CVS0276\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 18,
+      "drop_coin_max": 18
+    },
+    {
+      "name": "a Dustpaw lookout",
+      "name_sortable": "dustpawlookout",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1255926754 -1670363261:Advanced Scholar Volume 10\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "an earth rumbler",
+      "name_sortable": "earthrumbler",
+      "locations": [
+        "754.96,-20.38,1194.39",
+        "752.91,-18.55,1182.71",
+        "762.43,-17.49,1185.84",
+        "734.58,-18.06,1191.05",
+        "746.39,-16.89,1165.06",
+        "749.04,-26.33,1075.18",
+        "836.53,-16.26,1101.61",
+        "884.10,-18.10,1126.89",
+        "898.30,-20.99,1080.97",
+        "913.91,-26.60,1145.23",
+        "972.88,-22.73,1192.39",
+        "973.95,-21.95,1181.18"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1088142744 1275684369:fragmented stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Edmund Slezaf",
+      "name_sortable": "edmundslezaf",
+      "locations": [
+        "-477.4,-20.83,-381.5"
+      ]
+    },
+    {
+      "name": "an elder hawk",
+      "name_sortable": "elderhawk",
+      "locations": [
+        "103.20,9.72,1272.43"
+      ]
+    },
+    {
+      "name": "an elderly hermit",
+      "name_sortable": "elderlyhermit",
+      "utterances": [
+        "Who are you?  What do you want?  Have you come to pester me like the others?"
+      ]
+    },
+    {
+      "name": "Elowys Laceleaf",
+      "name_sortable": "elowyslaceleaf",
+      "locations": [
+        "-561.54,-15.08,-479.92"
+      ],
+      "utterances": [
+        "Say! Are you a collector, too?  I'm having the worst luck!",
+        "I can't believe how difficult collecting is!  Have you ever tried it?",
+        "Then you know how frustrating it is, huh?  I'm stuck on finding some butterflies to finish my collection.  Do you think you can help me get the last few?",
+        "Terrific!  I'm looking for a blue striped butterfly and that should do it! Well, and a violet striped one.  That's only two more butterflies and I'm done!"
+      ]
+    },
+    {
+      "name": "Emma Torque",
+      "name_sortable": "emmatorque",
+      "utterances": [
+        "Is that the information I need? This is most precise!",
+        "I have almost everything I need! You know, most of my people are so preoccupied with creation that they forget to see the value in proper destruction.",
+        "Oh? Are you a fan of destruction? The elegant need for precise calculation is unobserved to many, but demolitions are not something suited to an ogre mind. Real demolitions, I mean. Sure an ogre can smash all he wants, but with a fraction of that effort a correctly placed explosive charge can render far more damage. That is why I am here.",
+        "Consul Bree asked for me. Well, not me specifically, but the Engineering Guild knew I was perfect for the job. These gnolls have come across some terrible machines, <player name>.",
+        "Devices that can be used to tunnel through rock with the speed of dynamite, but the subtlety of manual labor. I have reason to believe that these machines--among others--were provided to the gnolls by Freeportians. A pair of gnomes: Fulkoir and Fluwkowir Haggleton. Consul Bree has seen the machines, that is why she has called for me. And I'm almost ready to move.",
+        "As soon as I get a large enough collection of blasting powder. I have enough for the smaller devices, those that Consul Bree will be able to take care of--my precision won't really be needed. But the Freeportian gnomes have finished construction on two monstrous machines. Those machines are here, now in the Caves. And it falls to me to destroy them. But I need help.",
+        "All around here are the wasteful remnants of previous dig projects. You will find copious amounts of blasting powder among the ignored, powdered mineral that is spit out by their digging machines. Collect this powder for me.",
+        "The explosive potential is... amazing! I can't wait!",
+        "Have you collected the powder?",
+        "Ah, yes. She had me studying those a while back. Very complicated procedure to draw the stone from a river behemoth. You need to kill one and then, from its remains, you can draw the stone to the surface. After that it is as simple as grabbing it. You'll need a Drawing Ray--one of my inventions--to get it.",
+        "Sure. Be careful with it. I don't think it will explode and kill you, but I also don't want you using it anywhere near me.",
+        "Most precise! This will be enough to create both charges. Are you ready to help me again?",
+        "When you find the machines, the 2830 series DDBDs, there should be two of them. For our purposes they are \"A\" and \"B.\" I doubt they'll even be labeled, but you should know them when you see them. It is important that you place these explosives on the main drive shaft, which is external to the inner workings. It will be outside the hardwood casing, it shouldn't be hard to spot. Consul Bree's information suggests that one of the two gnomes responsible for bringing this technology here is already dead. The remaining gnome, Fulkoir Haggleton, must be stopped. He will be near the Rockpaws, though he may be in hiding. Destroying his machines will certainly draw him out. Can you do this?",
+        "Good. The machines are likely a couple of levels up from this one. I'm sure I'll hear the explosions from here. I do hope you enjoy yourself, hah hah!"
+      ]
+    },
+    {
+      "name": "Engineer Ximmix Wobblecog",
+      "name_sortable": "engineerximmixwobblecog",
+      "locations": [
+        "-481.75,-20.83,-383.28"
+      ]
+    },
+    {
+      "name": "a Fallen Ancient",
+      "name_sortable": "fallenancient",
+      "locations": [
+        "656.87,-31.58,580.87"
+      ],
+      "utterances": [
+        "Your Death will cost them two."
+      ]
+    },
+    {
+      "name": "a fallen giant",
+      "name_sortable": "fallengiant",
+      "locations": [
+        "687.64,-19.03,510.95",
+        "722.09,-27.61,524.01",
+        "692.55,-30.18,578.14",
+        "681.38,-31.55,595.09",
+        "630.08,-25.57,635.47",
+        "653.63,-26.64,623.85"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 165,
+      "drop_coin_max": 165
+    },
+    {
+      "name": "a fallen goliath",
+      "name_sortable": "fallengoliath",
+      "locations": [
+        "727.12,-26.24,635.78",
+        "652.29,-31.54,576.84",
+        "666.07,-31.13,568.74",
+        "645.05,-30.74,568.89",
+        "683.01,-30.49,561.90",
+        "634.80,-29.72,615.94",
+        "624.46,-20.35,647.01",
+        "682.67,-18.29,511.99"
+      ],
+      "utterances": [
+        "What have you done?  You will die now.",
+        "Your Death will cost them two."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 68,
+      "drop_coin_max": 156
+    },
+    {
+      "name": "a Firerock Ancient",
+      "name_sortable": "firerockancient",
+      "locations": [
+        "668.65,-31.26,570.48"
+      ],
+      "utterances": [
+        "As I rise from the grave,  you will now take my place!",
+        "You cannot eliminate us!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Firerock giant",
+      "name_sortable": "firerockgiant",
+      "locations": [
+        "344.43,-1.17,1002.96",
+        "489.44,-5.60,1028.01",
+        "522.20,-10.69,1021.93",
+        "530.92,-12.60,1017.14",
+        "513.25,-9.11,1024.44",
+        "535.71,-4.20,1049.58",
+        "626.34,-0.84,961.36",
+        "685.14,-1.16,950.27",
+        "692.67,-1.25,913.00",
+        "597.20,-1.52,856.99",
+        "535.29,-0.89,854.98",
+        "686.30,-22.03,857.30",
+        "716.58,-19.99,884.98",
+        "738.78,-22.26,886.28",
+        "722.36,-1.60,1059.90",
+        "854.32,3.29,1151.61",
+        "696.07,0.08,775.99",
+        "862.61,17.81,626.30",
+        "936.37,-0.45,571.31",
+        "947.33,-0.76,526.59",
+        "868.62,17.98,629.62",
+        "745.46,14.06,733.57",
+        "714.63,-21.17,877.56",
+        "731.15,-21.95,880.19",
+        "804.66,-7.86,938.79",
+        "815.34,-18.50,906.92",
+        "836.28,3.70,1150.04",
+        "728.51,-1.25,1142.91",
+        "476.22,-2.46,1025.04",
+        "445.64,-0.30,1046.53",
+        "506.57,-8.95,1015.38",
+        "704.53,-2.12,915.00",
+        "606.73,-1.00,890.91",
+        "483.01,-0.96,854.12",
+        "202.20,-0.95,573.78",
+        "198.10,-1.01,580.55",
+        "135.85,-1.02,544.85",
+        "86.85,-0.98,540.39",
+        "129.32,-0.99,506.07",
+        "66.99,-0.68,437.39"
+      ],
+      "utterances": [
+        "Ohhh! They be tasty after we smoosh you!",
+        "Muahahaha!",
+        "Ahh!!! Graaahhh!!!",
+        "Smush, crush!",
+        "Drink the blood from your bones!",
+        "Welcome battle!  Stomp shorties!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -953055295 -1080640652:a giants beard\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -289215874 -2114663629:The Treaty for Treasure\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1729241156 -2110506842:a giant finger\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 31755782 1098695081:a giant tooth\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 86,
+      "drop_coin_max": 124
+    },
+    {
+      "name": "a Firerock goliath",
+      "name_sortable": "firerockgoliath",
+      "locations": [
+        "513.25,-9.11,1024.44",
+        "790.37,8.12,1097.31",
+        "859.81,4.71,1105.27",
+        "906.11,3.29,1123.73",
+        "848.04,5.70,1136.12",
+        "868.57,7.73,1066.55",
+        "484.53,-5.10,1036.37",
+        "510.09,-13.68,1000.80",
+        "518.22,-8.76,1030.39",
+        "198.10,-1.01,580.55"
+      ],
+      "utterances": [
+        "Ohhh! They be tasty after we smoosh you!",
+        "Muahahaha!",
+        "Welcome battle!  Stomp shorties!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430136575 -2121467061:a giant ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 88,
+      "drop_coin_max": 98
+    },
+    {
+      "name": "a Firerock guardian",
+      "name_sortable": "firerockguardian",
+      "locations": [
+        "620.17,-28.53,579.44",
+        "676.13,-17.29,513.60",
+        "739.41,-18.95,519.13",
+        "665.78,-23.73,628.54"
+      ],
+      "utterances": [
+        "We're all just bones in the end.",
+        "That pile of bones was my friend!",
+        "My bones will rattle and break you!",
+        "You cannot eliminate us!"
+      ],
+      "drop_coin_min": 77,
+      "drop_coin_max": 77
+    },
+    {
+      "name": "a Firerock scout",
+      "name_sortable": "firerockscout",
+      "locations": [
+        "538.88,-10.24,1027.78",
+        "518.22,-8.76,1030.39",
+        "515.01,-6.83,1040.07",
+        "611.93,-22.35,821.23",
+        "719.41,-0.62,796.41",
+        "709.96,-0.90,801.01",
+        "637.81,0.04,722.29",
+        "644.26,0.39,718.45",
+        "841.81,21.19,631.82",
+        "866.34,21.99,639.15",
+        "977.27,-1.00,549.40",
+        "976.87,-1.00,561.52",
+        "901.82,-1.01,531.60",
+        "868.62,17.98,629.62",
+        "725.18,-0.70,793.04",
+        "740.67,-0.89,797.46",
+        "495.18,-6.39,1029.98",
+        "518.30,-13.99,1006.60",
+        "356.24,-0.59,761.27",
+        "317.30,-1.01,673.72",
+        "198.10,-1.01,580.55",
+        "186.74,-1.02,588.85",
+        "10.46,-0.75,484.92",
+        "-79.69,-1.36,522.56"
+      ],
+      "utterances": [
+        "Muahahaha!",
+        "Ohhh! They be tasty after we smoosh you!",
+        "Drink the blood from your bones!",
+        "Smush, crush!",
+        "One crushed, too weak to survive!",
+        "Ahh!!! Graaahhh!!!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 942338143 -894051179:application for citizenship\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 86,
+      "drop_coin_max": 86
+    },
+    {
+      "name": "a fledgling antelope",
+      "name_sortable": "fledglingantelope",
+      "level": 22,
+      "locations": [
+        "1266.93,-2.99,-283.10",
+        "1252.47,-2.72,-290.46",
+        "991.83,-1.00,-366.79",
+        "986.67,-0.97,-357.41"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1571899808 57715728:antler\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "General Linarius",
+      "name_sortable": "generallinarius",
+      "locations": [
+        "-351.03,0.81,887.25",
+        "-341.99,0.67,810.15",
+        "-366.91,5.07,775.13",
+        "-320.63,3.78,715.86",
+        "-307.51,-0.2,661.78",
+        "-339.34,-0.25,621.5",
+        "-394.14,-2.34,510.14",
+        "-451.87,-0.4,490.7",
+        "-520.01,2.27,509.1",
+        "-591.83,-7.34,492.86",
+        "-624.48,-7.4,522.98",
+        "-626.6,-2.9,574.91",
+        "-592.56,2.97,604.49",
+        "-574.71,4.59,629.06",
+        "-474.98,3.3,635.13",
+        "-417.16,-6.18,623.21",
+        "-418.11,-23.03,696.3",
+        "-521.97,3.48,811.85",
+        "-466.96,-14.75,816.05",
+        "-428.47,-24.33,824.64",
+        "-438.18,-23.4,872.49",
+        "-487.31,-18.09,920.14",
+        "-473.2,-8.31,955.91",
+        "-415.26,0.21,953.66",
+        "-366.43,1.33,904.26"
+      ],
+      "utterances": [
+        "That pile of bones was my friend!"
+      ],
+      "drop_coin_min": 88,
+      "drop_coin_max": 88
+    },
+    {
+      "name": "a Gigglegibber Goblin Gamblin' Game Vendor",
+      "name_sortable": "gigglegibbergoblingamblingamevendor",
+      "locations": [
+        "-596.72,-23.46,-395.66"
+      ],
+      "utterances": [
+        "Buy ticket, you!  Only ten shiny coins! You give just ten shiny coins and maybe you get um... many shinier coins!"
+      ]
+    },
+    {
+      "name": "a gleam goblin",
+      "name_sortable": "gleamgoblin",
+      "level": 30,
+      "difficulty": "heroic",
+      "locations": [
+        "-486.70,1.18,1028.72",
+        "-501.13,0.93,1036.83"
+      ],
+      "utterances": [
+        "We no can win, must flee!",
+        "Attack! Attack!  Kill everything!"
+      ]
+    },
+    {
+      "name": "a glimmer goblin",
+      "name_sortable": "glimmergoblin",
+      "level": 29,
+      "difficulty": "heroic",
+      "locations": [
+        "-502.92,3.03,1041.09",
+        "-485.68,2.25,1030.86",
+        "-493.04,0.12,1031.39"
+      ],
+      "utterances": [
+        "Run away! These ones too strong!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -959107685 1296290369:a goblin ear\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 96,
+      "drop_coin_max": 96
+    },
+    {
+      "name": "Googegguta",
+      "name_sortable": "googegguta",
+      "locations": [
+        "-92.81,-3.32,1010.79"
+      ],
+      "utterances": [
+        "Hey!  You there!  Come here so mees can looks at you!",
+        "Yous looks fats enough for this.  I have job for you if yous interested.  Yes, yous can help me get some fishes!",
+        "Me and the whole tribe is starving!  They send me here to get some fishes, they know that the big stupid inside has many good fishes.  He is smart enough to protect fishes from me, he sees me taking his fishes and chase me out!",
+        "Yous can help!  Yous go inside and takes the fishes for me!  Yes yes!  The fishes are big and many, I only need two or three to take back to my tribe.  ",
+        "Can you help!?  I have only fishes to pay you, but if the big stupid has treasure, you can keep!  I only needs the fishes!",
+        "You will help!?  Oh thank you, thank you, thank you!  This good news!  Yes, very good indeed!  Go in there and then I will sneak after and get the fishes!  ",
+        "The big stupid is strong and would take many of my tribe to kill him, maybe one hundred at the least!  He can bash very well, so you will need some friends me thinks.  Yes, friends indeed!",
+        "Good good!  I'm so hungry!  Thank you!"
+      ]
+    },
+    {
+      "name": "a granite rumbler",
+      "name_sortable": "graniterumbler",
+      "locations": [
+        "783.60,-20.21,1050.51",
+        "782.82,-17.67,1101.90",
+        "882.96,-18.00,1055.48",
+        "844.01,-11.81,1027.18",
+        "827.43,-27.56,1072.00"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1088142744 1275684369:fragmented stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a grassland beetle",
+      "name_sortable": "grasslandbeetle",
+      "locations": [
+        "-21.68,-0.97,-798.56",
+        "-28.79,-0.94,-789.46",
+        "-30.11,-0.97,-794.55"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -416781365 309151293:an insect antenna\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2084762773 -1302763349:an insect shell\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Grathe McMerrin",
+      "name_sortable": "grathemcmerrin",
+      "utterances": [
+        "Here to lend your support of the Dead River Docks recovery, are you?",
+        "The fishing community here was devastated by the impact and the dock was damaged. There's plenty of need for new dinghies and replacement planks. And you wouldn't need to be limited by the type of wood, either, as long as you use the ethereal condensate. It hardens any wood!",
+        "It does! Check the woodworkers' crate near me to see which we're low on, right now. Every little bit helps!"
+      ]
+    },
+    {
+      "name": "a gratified merchant",
+      "name_sortable": "gratifiedmerchant",
+      "locations": [
+        "3.86,1.27,-763.24"
+      ],
+      "utterances": [
+        "That was very brave of you!  I need to leave soon, but I can offer my services in the meantime."
+      ]
+    },
+    {
+      "name": "a Greater Tunneler",
+      "name_sortable": "greatertunneler",
+      "locations": [
+        "808.70,0.28,1199.40",
+        "805.43,-1.19,1208.70",
+        "812.41,-1.49,1213.72"
+      ]
+    },
+    {
+      "name": "a griffawn",
+      "name_sortable": "griffawn",
+      "level": 23,
+      "locations": [
+        "1270.20,3.63,-18.02",
+        "1244.92,9.40,-170.20",
+        "1142.42,17.40,330.77"
+      ]
+    },
+    {
+      "name": "a griffin",
+      "name_sortable": "griffin",
+      "locations": [
+        "1236.67,7.71,-99.24",
+        "1243.87,7.63,-14.80",
+        "1246.43,8.26,-160.98",
+        "1253.74,2.73,-239.91",
+        "1055.16,16.11,56.90",
+        "1057.03,15.88,437.26",
+        "1047.86,10.94,523.38",
+        "1014.42,14.30,526.74"
+      ]
+    },
+    {
+      "name": "a griffin tamer",
+      "name_sortable": "griffintamer",
+      "locations": [
+        "-396.95,-23.34,-423.95"
+      ],
+      "utterances": [
+        "Welcome to the Docks station! What can I do for you?",
+        "It's been a real treat watching this tower be built by all the artisans. They've done a marvelous job getting it ready for our flying friends.",
+        "These towers were built very fast, and we were unable to get the griffin stock up to what it should be. This has made scheduling flights very difficult.",
+        "Oh, certainly. But they've got to be trained properly from birth, really. I'll tell you what, if you grab an unhatched griffin egg and return it to any of us tamers, you will be rewarded handsomely. How's that sound?"
+      ]
+    },
+    {
+      "name": "Harbormaster Stonebender",
+      "name_sortable": "harbormasterstonebender",
+      "locations": [
+        "-610.15,-23.23,-395.86"
+      ],
+      "utterances": [
+        "The Storm Breaker is currently in Butcherblock Mountains.",
+        "The Storm Breaker will be arriving from Butcherblock Mountains shortly."
+      ]
+    },
+    {
+      "name": "a highland bloodpaw",
+      "name_sortable": "highlandbloodpaw",
+      "locations": [
+        "1011.59,-1.02,-281.23",
+        "1003.67,-1.01,-336.82",
+        "1003.44,-1.02,-303.57",
+        "977.05,-0.67,-243.04"
+      ]
+    },
+    {
+      "name": "a highland huntress",
+      "name_sortable": "highlandhuntress",
+      "level": 23,
+      "locations": [
+        "1280.85,-2.34,-102.63",
+        "1028.67,-2.53,80.67",
+        "1141.17,0.91,330.85"
+      ]
+    },
+    {
+      "name": "a highland lion cub",
+      "name_sortable": "highlandlioncub",
+      "level": 21,
+      "locations": [
+        "1233.37,-1.94,-271.50",
+        "1034.57,-0.97,-254.24",
+        "1010.63,-1.02,-284.60",
+        "1280.44,-2.30,-102.99",
+        "-138.09,5.56,48.49",
+        "1090.23,-0.98,93.64"
+      ]
+    },
+    {
+      "name": "a highland matriarch",
+      "name_sortable": "highlandmatriarch",
+      "level": 26,
+      "difficulty": "heroic",
+      "locations": [
+        "1280.99,-2.39,-103.01",
+        "-140.99,6.23,51.38"
+      ]
+    },
+    {
+      "name": "a highland patriarch",
+      "name_sortable": "highlandpatriarch",
+      "level": 26,
+      "locations": [
+        "1273.02,-0.75,-101.36"
+      ]
+    },
+    {
+      "name": "a highland stalker",
+      "name_sortable": "highlandstalker",
+      "level": 26,
+      "difficulty": "heroic",
+      "locations": [
+        "1107.05,-0.84,-77.63",
+        "1111.75,-0.94,-97.65",
+        "1157.97,-3.57,-98.38",
+        "1280.52,-2.29,-102.70",
+        "1283.96,-3.04,-160.90",
+        "1044.29,-2.53,78.12",
+        "1140.69,-0.52,316.63"
+      ]
+    },
+    {
+      "name": "Holly Messer",
+      "name_sortable": "hollymesser",
+      "utterances": [
+        "James is a good man, and is very protective of me.  I trust that our lives will be safe in his hands."
+      ]
+    },
+    {
+      "name": "a hovering deathclaw",
+      "name_sortable": "hoveringdeathclaw",
+      "level": 23,
+      "locations": [
+        "1135.16,9.63,-109.31",
+        "1153.56,8.00,-108.37",
+        "1214.28,3.83,-78.48",
+        "1220.71,3.13,-69.24",
+        "1300.44,5.88,-91.99",
+        "1283.96,6.40,-137.17",
+        "1246.20,5.10,-171.20",
+        "1254.98,9.40,-161.43",
+        "1283.76,13.24,-161.46"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -675214701 -862965574:a feline meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a hungry wolf",
+      "name_sortable": "hungrywolf",
+      "locations": [
+        "510.57,-1.48,489.39",
+        "503.35,-1.73,491.20",
+        "501.38,-1.27,484.10",
+        "508.51,-1.09,482.25"
+      ]
+    },
+    {
+      "name": "an immature weald wolf",
+      "name_sortable": "immaturewealdwolf",
+      "level": 22,
+      "locations": [
+        "515.96,1.59,433.65",
+        "-225.89,-0.93,833.45"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -286383351 718658131:canine saliva\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Incaulebis the Maleficent",
+      "name_sortable": "incaulebisthemaleficent",
+      "locations": [
+        "-466.68,-20.83,858.06"
+      ],
+      "utterances": [
+        "That pile of bones was my friend!"
+      ],
+      "drop_coin_min": 397,
+      "drop_coin_max": 397
+    },
+    {
+      "name": "Jacques",
+      "name_sortable": "jacques",
+      "locations": [
+        "235.02,32.63,-1031.21"
+      ],
+      "utterances": [
+        "Do you need any mail delivered, friend? You can't trust just anyone with an important message. You need only the best. Me! Why, not many can survive the dangers of the Thundering Steppes. Many are devoured by bears, slaughtered by centaurs, robbed by gnolls, or flattened by giants!",
+        "Indeed! Why, nothing could deter me from my duties here. I fear nothing! Though...I umm... have pressing business here at the moment and could use a new assistant to deliver a few things for me.",
+        "Ahh, wonderful! You look like a good runner. Welcome to the exciting world of professional mail delivery! Danger! Excitement! Angry dogs! You might even earn some money. Not as much as me, of course, but we all have to start somewhere.",
+        "For your first delivery, please take this letter to a halfling named Blerton Blumble. He can usually be found at the docks. It's from his cousin, Matsy. Now that you work for me, feel free to read any letters you deliver. I always do. It's just about the only fun to be found out here. After you've delivered it, bring me back any mail he has to send."
+      ]
+    },
+    {
+      "name": "James Messer",
+      "name_sortable": "jamesmesser",
+      "utterances": [
+        "Holly and I enjoy the thrill of living here.  We knew it would be dangerous, but we feel we can handle our own."
+      ]
+    },
+    {
+      "name": "Jiana Waterway",
+      "name_sortable": "jianawaterway",
+      "locations": [
+        "-648.55,-8.07,685.72"
+      ],
+      "utterances": [
+        "Too many dark entities down in the dungeon. I'm not equipped to handle so many of them!",
+        "Yes, I was down in the dungeon fighting the dark creatures. Evil beings lurk beneath our feet.",
+        "For some reason, the dark creatures from below are coming to the surface and terrorizing the locals. I decided to take the matter into my own hands. I went down to the dungeon to destroy those creatures before they do any more harm on the surface. I seriously underestimated those beasts of the dark and almost didn't make it out alive!",
+        "You look brave. Why don't you venture down there and take care of the fiends? We can't let them hurt any more people!",
+        "Like I said, you look brave, and you're certainly more capable of dealing with those monstrosities than I am. More creatures lurk beneath. I hope you can help us again ... soon!"
+      ]
+    },
+    {
+      "name": "a juvenile hawk",
+      "name_sortable": "juvenilehawk",
+      "level": 23,
+      "locations": [
+        "-122.37,9.41,42.98",
+        "1138.59,5.33,260.73",
+        "1292.21,3.72,-7.67"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 509310624 -1924355139:a bird beak\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Kerath McMarrin",
+      "name_sortable": "kerathmcmarrin",
+      "locations": [
+        "-470.22,-18.38,-448.77"
+      ],
+      "utterances": [
+        "Oi, 'ello there!  Har har har!  Sorry, didn't see ya!",
+        "To Prexus' Hold with Hadden!  Where'd he stash that damnable trinket?",
+        "Oh, ain't nothin'.  Just a bit of a family heirloom that's been misplaced.  Not worth troubling a fine adventurer such as yerself!",
+        "Oh, I don't know!  I've been tracing back my lineage, and it seems that one of my ancestors possessed a rare and valuable earring that allowed him to breathe underwater.",
+        "More than that!  It's true!  I found an old diary from a wizard who spent quite some time in the hills north of Qeynos.  It appears that one day he decided to kill my ancestor for his earring.  Can you imagine?  Killing a poor fisherman just to take his earring?",
+        "I'm too settled in my ways to search for the long lost earring, but if you find it, I'd be indebted to ya for life!",
+        "Great! Why don't you take the diary?  Perhaps you can retrace the steps of the mangy wizard who murdered my relative.  May Prexus watch over you on your journey!"
+      ]
+    },
+    {
+      "name": "Koreg Baelstrom",
+      "name_sortable": "koregbaelstrom",
+      "level": 30,
+      "difficulty": "heroic^3",
+      "locations": [
+        "-428.65,-21.03,-406"
+      ],
+      "utterances": [
+        "Out of the way if you ain't gonna help.  I gotta clear these barrels from the docks and ready them for shipment to Thundermist."
+      ]
+    },
+    {
+      "name": "a large shore crab",
+      "name_sortable": "largeshorecrab",
+      "level": 25,
+      "locations": [
+        "1415.87,-4.07,-25.55",
+        "764.84,-18.35,1231.81",
+        "746.92,-20.56,1254.91",
+        "995.44,-18.49,1188.77",
+        "1003.38,-18.84,1192.05",
+        "1028.22,-19.26,1142.01"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 512790155 320744539:crab meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Lessa Gentare",
+      "name_sortable": "lessagentare",
+      "locations": [
+        "-430.34,-21.03,-396.97"
+      ]
+    },
+    {
+      "name": "Liets Rolyat",
+      "name_sortable": "lietsrolyat",
+      "locations": [
+        "-439.94,-18.38,-437.51"
+      ],
+      "utterances": [
+        "Psst ... I'm cutting you in on the deal of a lifetime."
+      ]
+    },
+    {
+      "name": "Logen Fayler",
+      "name_sortable": "logenfayler",
+      "utterances": [
+        "I hear there was once a great battle just to the south.  Now the area is plagued with the spirits of those who lost their lives there.  I would not go there if I were you."
+      ]
+    },
+    {
+      "name": "a lowland forestcrawler",
+      "name_sortable": "lowlandforestcrawler",
+      "locations": [
+        "457.68,-0.73,-467.25"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 407461553 -118536594:Advanced Jeweler Volume 20\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Madame Leona",
+      "name_sortable": "madameleona",
+      "locations": [
+        "-450.12,-18.13,-439.12"
+      ],
+      "utterances": [
+        "It's time to respond. Send us a message from somewhere beyond...",
+        "You need not fear me or the arts I wield, traveler. Join the seance, and lend your sympathetic vibrations. Together we will call in the spirits, wherever they're at!",
+        "I welcome all those who've met their demise. I commune with the happy haunts, the grim ghosts, and restless bones, alike. There's no foretelling which will materialize!",
+        "You have in hand my spirit board, through which the dead can converse. An essential tool for those who cannot vocalize. It was lost to me following a seance with one of the aforementioned grim ghosts. They answered my call, determined to terrorize. They left this hut, chaos in their wake.",
+        "You put a stop to their haunting spree! May they rest in peace, and thank you for the return of my tools.",
+        "Call in the spirits, wherever they're at!"
+      ]
+    },
+    {
+      "name": "Maestra Orlita",
+      "name_sortable": "maestraorlita",
+      "purpose": "The Chaos Orchestra",
+      "locations": [
+        "51.04,0.88,1392.12"
+      ],
+      "utterances": [
+        "There are no songs to share with you.",
+        "Inside this heart I am trapped with the sight of beautiful colors.",
+        "All memories of your love, they attack me with full might.",
+        "You left me here in this garden of gray, never to see the true colors of the happiness of day.",
+        "Here in my heart I sit and I cry. You have left me alone and my colors have all died.",
+        "Let the orchestra pit of the Windspirit's Song be filled with beautiful chaos.",
+        "Let the patrons of Kelkarn dance in a chaotic flurry."
+      ]
+    },
+    {
+      "name": "a mature antelope",
+      "name_sortable": "matureantelope",
+      "level": 24,
+      "locations": [
+        "982.95,-0.92,-357.13",
+        "991.35,-1.00,-356.55",
+        "992.69,-1.00,-369.71",
+        "1270.82,-2.89,-188.32",
+        "76.97,-1.80,1250.58",
+        "186.50,2.25,1315.67"
+      ]
+    },
+    {
+      "name": "a mature hawk",
+      "name_sortable": "maturehawk",
+      "level": 24,
+      "locations": [
+        "-122.72,9.42,42.99",
+        "84.34,-0.53,1234.72",
+        "93.54,-1.14,1225.14",
+        "193.43,3.64,1350.04",
+        "194.50,3.69,1365.00",
+        "199.60,3.52,1355.56",
+        "1135.99,5.13,259.47",
+        "1289.16,-4.24,1.35"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1849005594 -1995514244:a bird skull\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 509310624 -1924355139:a bird beak\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Merchant Aedmarr",
+      "name_sortable": "merchantaedmarr",
+      "purpose": "General Goods",
+      "locations": [
+        "-478.99,-20.83,-378.03"
+      ],
+      "utterances": [
+        "Many strange items have been retrieved from the Steppes in recent days.  Do you have anything for sale that you have found?"
+      ]
+    },
+    {
+      "name": "Merchant Dunham",
+      "name_sortable": "merchantdunham",
+      "purpose": "General Goods",
+      "locations": [
+        "210.55,-0.77,-151.27"
+      ],
+      "utterances": [
+        "Buying and selling, that's why I'm here.  See what I've got.  It's quality gear."
+      ]
+    },
+    {
+      "name": "Merchant Hadsby",
+      "name_sortable": "merchanthadsby",
+      "purpose": "General Goods",
+      "locations": [
+        "205.39,-0.77,-163.06"
+      ],
+      "utterances": [
+        "I can always use new goods, let's see what you've got."
+      ]
+    },
+    {
+      "name": "Merchant Stoker",
+      "name_sortable": "merchantstoker",
+      "purpose": "Provisioner",
+      "locations": [
+        "-448.32,-18.16,-431.63"
+      ],
+      "utterances": [
+        "Buy something, would ya?  Some of my profits are shipped to Thundermist in the form of supplies to help keep the Village safe."
+      ]
+    },
+    {
+      "name": "Merchant Valemist",
+      "name_sortable": "merchantvalemist",
+      "purpose": "Provisioner",
+      "locations": [
+        "216.80,-0.77,-156.83"
+      ]
+    },
+    {
+      "name": "Merchant Vembath",
+      "name_sortable": "merchantvembath",
+      "utterances": [
+        "If it's something special you are looking for, look no further."
+      ]
+    },
+    {
+      "name": "a mighty griffin",
+      "name_sortable": "mightygriffin",
+      "level": 26,
+      "locations": [
+        "1304.82,8.32,-42.75",
+        "999.63,10.97,484.08"
+      ]
+    },
+    {
+      "name": "Miner Razcsko",
+      "name_sortable": "minerrazcsko",
+      "locations": [
+        "982.69,-22.9,1198.83"
+      ],
+      "utterances": [
+        "Whew! Is about time I am stopping to take a break!"
+      ]
+    },
+    {
+      "name": "a Mudpaw lookout",
+      "name_sortable": "mudpawlookout",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 295026780 -1433839586:a gnoll paw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 20,
+      "drop_coin_max": 20
+    },
+    {
+      "name": "Obsid Boulderboom",
+      "name_sortable": "obsidboulderboom",
+      "locations": [
+        "876.92,5.09,1138.22"
+      ],
+      "utterances": [
+        "Tarby!  Tarby Boulderboom!  Where are you boy?  Come here Tarby!"
+      ]
+    },
+    {
+      "name": "Outland Sentry Adrick",
+      "name_sortable": "outlandsentryadrick",
+      "purpose": "Guard",
+      "level": 30,
+      "locations": [
+        "-139.43,4.27,822.84"
+      ]
+    },
+    {
+      "name": "Outland Sentry Amion",
+      "name_sortable": "outlandsentryamion",
+      "locations": [
+        "143.98,-0.74,-120.29"
+      ]
+    },
+    {
+      "name": "Outland Sentry Amward",
+      "name_sortable": "outlandsentryamward",
+      "locations": [
+        "246.96,35.02,-1042.53"
+      ]
+    },
+    {
+      "name": "Outland Sentry Carthaigh",
+      "name_sortable": "outlandsentrycarthaigh",
+      "locations": [
+        "-228.87,0.12,45.71"
+      ]
+    },
+    {
+      "name": "Outland Sentry Cuillinn",
+      "name_sortable": "outlandsentrycuillinn",
+      "locations": [
+        "143.55,-0.35,-96.46"
+      ]
+    },
+    {
+      "name": "Outland Sentry Dunand",
+      "name_sortable": "outlandsentrydunand",
+      "locations": [
+        "-385.68,-23.89,-392.25"
+      ]
+    },
+    {
+      "name": "Outland Sentry Gunther",
+      "name_sortable": "outlandsentrygunther",
+      "locations": [
+        "242.04,33.44,-1038.85"
+      ]
+    },
+    {
+      "name": "Outland Sentry Landers",
+      "name_sortable": "outlandsentrylanders",
+      "locations": [
+        "82.35,2.07,-574.38"
+      ]
+    },
+    {
+      "name": "Outland Sentry Mullen",
+      "name_sortable": "outlandsentrymullen",
+      "locations": [
+        "156.25,-3,-784.08"
+      ]
+    },
+    {
+      "name": "Outland Sentry Orvin",
+      "name_sortable": "outlandsentryorvin",
+      "locations": [
+        "182.32,-1.02,-149.71"
+      ]
+    },
+    {
+      "name": "Outland Sentry Talthar",
+      "name_sortable": "outlandsentrytalthar",
+      "locations": [
+        "-238.16,-0.58,40.36"
+      ]
+    },
+    {
+      "name": "a pack leader",
+      "name_sortable": "packleader",
+      "locations": [
+        "-228.06,-0.70,839.72",
+        "-220.26,-0.93,836.80"
+      ]
+    },
+    {
+      "name": "a pig",
+      "name_sortable": "pig",
+      "locations": [
+        "562.52,2.54,-115.69"
+      ]
+    },
+    {
+      "name": "a pirate",
+      "name_sortable": "pirate",
+      "locations": [
+        "753.63,-21.41,929.91"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a plains lurker",
+      "name_sortable": "plainslurker",
+      "locations": [
+        "1274.76,-1.23,251.16",
+        "1302.09,-1.01,284.72"
+      ]
+    },
+    {
+      "name": "a plains serpent",
+      "name_sortable": "plainsserpent",
+      "locations": [
+        "1277.57,-3.78,-150.82",
+        "46.42,-0.05,1288.35",
+        "754.85,2.26,1095.84"
+      ]
+    },
+    {
+      "name": "a plains snake",
+      "name_sortable": "plainssnake",
+      "locations": [
+        "1280.10,-3.18,-155.82",
+        "-18.36,0.57,-12.80",
+        "-11.92,-0.96,-797.68",
+        "-31.41,-0.95,-788.06"
+      ]
+    },
+    {
+      "name": "Quint Cerlius M.E.",
+      "name_sortable": "quintcerliusme",
+      "locations": [
+        "-572.97,-15.08,-498.03"
+      ]
+    },
+    {
+      "name": "Ranis Duarry",
+      "name_sortable": "ranisduarry",
+      "locations": [
+        "215.83,-0.77,-160.34"
+      ],
+      "utterances": [
+        "I am an explorer of these lands.  I have seen many places and creatures that you would only believe by seeing yourself.  Be careful out there, and watch your back."
+      ]
+    },
+    {
+      "name": "a reef stalker",
+      "name_sortable": "reefstalker",
+      "locations": [
+        "1674.91,-51.89,150.39",
+        "1660.92,-45.59,152.04"
+      ]
+    },
+    {
+      "name": "Reinkor McCollin",
+      "name_sortable": "reinkormccollin",
+      "locations": [
+        "-462.48,-18.38,-415.51"
+      ],
+      "utterances": [
+        "If I were with them, this never would have happened. The fiends who did this will pay, I tell you ... they'll pay dearly!",
+        "I'm a local merchant in this area. The couriers who deliver my goods were attacked while making their last delivery. By the time I got to the scene of the crime, my couriers were dead and the merchandise they were carrying was gone. It's terrible!",
+        "I'm guessing it was the dark creatures. I've seen them creeping around here. We need to deal with those evil beasts once and for all.",
+        "You seem resourceful. Can I get you to go kill those dark creatures for what they did to my men? I'll pay you for your help."
+      ]
+    },
+    {
+      "name": "Rellinn",
+      "name_sortable": "rellinn",
+      "purpose": "Wisened Fisherman",
+      "locations": [
+        "-560.43,-15.08,-500.91"
+      ]
+    },
+    {
+      "name": "a revenant scout",
+      "name_sortable": "revenantscout",
+      "locations": [
+        "424.82,-23.10,258.65"
+      ],
+      "utterances": [
+        "That pile of bones was my friend!"
+      ],
+      "drop_coin_min": 134,
+      "drop_coin_max": 134
+    },
+    {
+      "name": "a roaming dead",
+      "name_sortable": "roamingdead",
+      "level": 22,
+      "difficulty": "heroic",
+      "locations": [
+        "1345.67,-2.81,-78.06",
+        "1344.86,-2.29,-88.46",
+        "1355.28,-2.66,-65.09"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Rockpaw guard",
+      "name_sortable": "rockpawguard",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a roekillik digger",
+      "name_sortable": "roekillikdigger",
+      "locations": [
+        "746.46,-16.93,1164.93",
+        "745.21,-16.12,1159.91"
+      ],
+      "utterances": [
+        "All I ever get is the run-around.",
+        "If we don't find it, the winged ones will eat us!",
+        "Time to leave, yes. Definitely time to leave.",
+        "Sees us, did we? Must not let you talk then.",
+        "How do you put up with all this light?"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a roekillik excavator",
+      "name_sortable": "roekillikexcavator",
+      "locations": [
+        "745.28,-14.62,1150.34"
+      ],
+      "utterances": [
+        "Ratonga?  They give me the creeps!",
+        "Work, work, work!",
+        "If we don't find it, the winged ones will eat us!",
+        "Flee and take care of them later.",
+        "Sees us, did we? Must not let you talk then.",
+        "How do you put up with all this light?"
+      ],
+      "drop_coin_min": 717,
+      "drop_coin_max": 717
+    },
+    {
+      "name": "a roekillik miner",
+      "name_sortable": "roekillikminer",
+      "locations": [
+        "975.62,-21.85,1188.58"
+      ],
+      "utterances": [
+        "It is awfully bright outside the mines.",
+        "Winged ones are always searching for things.",
+        "The Wheel of Vaniki goes round and round!",
+        "Flee and take care of them later.",
+        "Time to leave, yes. Definitely time to leave."
+      ],
+      "drop_coin_min": 66,
+      "drop_coin_max": 155
+    },
+    {
+      "name": "a rowdy dwarf",
+      "name_sortable": "rowdydwarf",
+      "locations": [
+        "-580.69,-15.08,-490.68"
+      ],
+      "utterances": [
+        "I swear if that cur says one more thing about me height, I'll shorten him!"
+      ]
+    },
+    {
+      "name": "a rowdy human",
+      "name_sortable": "rowdyhuman",
+      "locations": [
+        "-583.28,-15.08,-488.49"
+      ],
+      "utterances": [
+        "Would you tell the bearded beer barrel here to stop molting?"
+      ]
+    },
+    {
+      "name": "a rubble writher",
+      "name_sortable": "rubblewrither",
+      "locations": [
+        "-68.56,-21.62,949.68",
+        "4.30,-12.42,1045.02",
+        "60.20,-10.35,1122.36"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 698551597 1880340343:an insect antenna\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth diviner",
+      "name_sortable": "sabertoothdiviner",
+      "locations": [
+        "1390.75,-0.92,-396.17",
+        "1322.01,13.90,-404.50",
+        "1331.36,0.96,-342.27"
+      ],
+      "utterances": [
+        "Spin, weave, dodge, attack!!!",
+        "You gonna pay for that.",
+        "That one will never mate!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 158,
+      "drop_coin_max": 158,
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth forager",
+      "name_sortable": "sabertoothforager",
+      "locations": [
+        "1174.57,-5.07,-263.75",
+        "1169.23,-7.37,-266.35"
+      ],
+      "utterances": [
+        "That one died."
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth harvester",
+      "name_sortable": "sabertoothharvester",
+      "locations": [
+        "1171.53,-7.35,-270.12",
+        "1099.81,-6.54,-259.37",
+        "1107.76,-8.56,-258.37",
+        "1101.34,-8.51,-269.09"
+      ],
+      "utterances": [
+        "That one died.",
+        "I must fight for Sabertooth pride.",
+        "You gonna pay for that."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 977,
+      "drop_coin_max": 977,
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth hunter",
+      "name_sortable": "sabertoothhunter",
+      "locations": [
+        "1000.80,-26.89,-93.24",
+        "995.44,-26.85,-97.00",
+        "979.19,-26.36,-87.12"
+      ],
+      "utterances": [
+        "That one will never mate!",
+        "You gonna pay for that.",
+        "You're stronger than me."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth lookout",
+      "name_sortable": "sabertoothlookout",
+      "locations": [
+        "118.34,-25.32,-710.76",
+        "1381.88,-0.94,-389.39",
+        "1332.41,13.87,-410.25",
+        "1322.75,13.90,-407.85",
+        "1330.98,0.96,-343.42",
+        "1331.33,0.99,-314.45",
+        "-8.86,0.35,-989.18",
+        "-24.26,-0.65,-992.64"
+      ],
+      "utterances": [
+        "That one never mate!",
+        "Another member of the pack down!",
+        "You gonna pay for that.",
+        "Not allowed here!",
+        "That one died.",
+        "You gonna die so fast!",
+        "Kill it!  Kill it!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -658420854 385425044:ancient copper coin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -380209937 1983585223:small disk of metal\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 81,
+      "drop_coin_max": 768,
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth looter",
+      "name_sortable": "sabertoothlooter",
+      "locations": [
+        "119.79,-24.99,-714.84",
+        "1424.13,3.13,-403.22",
+        "1388.14,-0.91,-398.44",
+        "1391.40,-0.95,-391.21",
+        "1381.71,-0.90,-397.25",
+        "1365.12,4.71,-402.07",
+        "1321.90,13.90,-407.34",
+        "1338.63,0.98,-332.53"
+      ],
+      "utterances": [
+        "Bite! Show sharp teeth!",
+        "That one will never mate!",
+        "Grrrrrrrrrr! Yip!",
+        "Spin, weave, dodge, attack!!!",
+        "Kill it!  Kill it!",
+        "Another member of the pack down!",
+        "You gonna pay for that.",
+        "That one died.",
+        "That one never mate!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 75,
+      "drop_coin_max": 142,
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth scout",
+      "name_sortable": "sabertoothscout",
+      "locations": [
+        "970.43,4.62,-218.32"
+      ],
+      "utterances": [
+        "You gonna pay for that."
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth soothsayer",
+      "name_sortable": "sabertoothsoothsayer",
+      "locations": [
+        "1006.44,-26.97,-97.48",
+        "984.45,-26.36,-94.61"
+      ],
+      "utterances": [
+        "That one died.",
+        "That one will never mate!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth spotter",
+      "name_sortable": "sabertoothspotter",
+      "locations": [
+        "1002.51,-26.94,-96.78"
+      ],
+      "utterances": [
+        "Another member of the pack down!",
+        "That one died."
+      ],
+      "drop_coin_min": 133,
+      "drop_coin_max": 133,
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth tower guard",
+      "name_sortable": "sabertoothtowerguard",
+      "locations": [
+        "1325.54,1.10,-344.86"
+      ],
+      "utterances": [
+        "Another member of the pack down!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth tracker",
+      "name_sortable": "sabertoothtracker",
+      "level": 20,
+      "difficulty": "heroic",
+      "locations": [
+        "1206.63,0.17,-256.66"
+      ],
+      "utterances": [
+        "I must fight for Sabertooth pride."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 66,
+      "drop_coin_max": 66,
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth warrior",
+      "name_sortable": "sabertoothwarrior",
+      "locations": [
+        "996.99,-26.91,-103.28",
+        "979.38,-26.20,-91.26"
+      ],
+      "utterances": [
+        "That one died.",
+        "You gonna pay for that."
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Sage Elrendir",
+      "name_sortable": "sageelrendir",
+      "purpose": "Alchemist",
+      "locations": [
+        "-570.35,-14.85,-489.41"
+      ],
+      "utterances": [
+        "I am here to fulfill orders of food and medical supplies to those that choose to live in the heart of these dangerous lands.  I am quite busy, as you may have guessed."
+      ]
+    },
+    {
+      "name": "a savage weald wolf",
+      "name_sortable": "savagewealdwolf",
+      "locations": [
+        "754.08,-0.39,1077.39",
+        "742.25,-1.02,1081.74",
+        "921.54,4.12,1102.70",
+        "913.37,3.99,1104.83",
+        "801.59,5.59,1044.55"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 378859816 -772347181:canine saliva\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Scholar Milnik",
+      "name_sortable": "scholarmilnik",
+      "locations": [
+        "-550.91,-16.46,-429.93"
+      ],
+      "utterances": [
+        "All day I sit here and watch the boats leave.  I long for the days when I was younger, and could accomplish such journeys myself.  In fact, I'd be willing to part with some of my old gear just to learn the tales of these new discoveries and adventures.  Have you been on any of these boats?  Tell me a tale."
+      ]
+    },
+    {
+      "name": "a seagull",
+      "name_sortable": "seagull",
+      "locations": [
+        "-595.32,-22.93,-408.05",
+        "-485.05,-20.99,-388.51",
+        "-435.49,-17.33,-414.64",
+        "-579.9,-15.08,-486.37",
+        "-554.26,-16.8,-426.68"
+      ]
+    },
+    {
+      "name": "Sentry Captain Garland",
+      "name_sortable": "sentrycaptaingarland",
+      "locations": [
+        "253.81,33.35,-1027.93",
+        "273.44,22.14,-991.53",
+        "261.5,16.6,-970.3",
+        "245.88,13.59,-961.14",
+        "177.32,11.84,-959.48",
+        "168.25,9.99,-937.5",
+        "177.52,4.96,-907.18",
+        "192.03,3.32,-875.4",
+        "148.03,-2.75,-791.59",
+        "112.86,-1.83,-781.96",
+        "70.98,-2.34,-767.74",
+        "48.49,-1.63,-739.4",
+        "37.65,-1.35,-714.51",
+        "38.12,-1.46,-669.29",
+        "65.82,-1.32,-628.42",
+        "167.78,-2.93,-587.84",
+        "207.91,-1.82,-557.86",
+        "250.15,-1.7,-548.89",
+        "288.37,-0.9,-547.06",
+        "330.18,8.94,-536.8",
+        "351.45,11.87,-527.35",
+        "363.58,11.41,-509.41"
+      ]
+    },
+    {
+      "name": "Sentry Captain Pierce",
+      "name_sortable": "sentrycaptainpierce",
+      "locations": [
+        "-225.95,0.93,53.36",
+        "-193.09,-1.06,22.07",
+        "-158.76,-0.97,7.68",
+        "-133.53,-1.04,3.89",
+        "-36.65,-0.17,6.71",
+        "9.75,-1.02,-0.31",
+        "50.71,-1.01,-40.86",
+        "54.01,-0.96,-92.1",
+        "74.58,-0.99,-105.89",
+        "145.17,-1.2,-109.24",
+        "173.76,-1.25,-123.02"
+      ]
+    },
+    {
+      "name": "a shallows fish",
+      "name_sortable": "shallowsfish",
+      "locations": [
+        "1459.78,-14.31,217.41",
+        "1654.37,-34.89,144.80",
+        "1654.37,-34.52,138.02",
+        "1471.25,-13.54,51.43"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1851189358 -677167464:a fish meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a shore crab",
+      "name_sortable": "shorecrab",
+      "level": 23,
+      "locations": [
+        "-304.17,-22.52,-393.62",
+        "-321.96,-24.09,-416.34",
+        "-318.35,-23.88,-411.1",
+        "1401.95,-1.20,-74.51",
+        "1405.96,-1.86,-59.43",
+        "1419.91,-5.37,-29.73",
+        "1403.49,-2.22,60.48",
+        "1399.87,-2.93,101.38",
+        "1399.62,-2.53,115.01",
+        "1405.36,-3.51,122.53",
+        "1408.77,-3.18,178.11",
+        "1414.64,-4.59,188.47",
+        "1412.30,-4.25,255.40",
+        "1398.72,-2.47,254.82"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 512790155 320744539:crab meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2136398151 1163100270:a crab claw\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a skeletal captain",
+      "name_sortable": "skeletalcaptain",
+      "level": 28,
+      "difficulty": "heroic",
+      "locations": [
+        "-634.90,-2.67,822.81",
+        "-404.75,-22.92,669.16",
+        "-376.75,1.91,915.35",
+        "-474.15,-20.36,864.93",
+        "-578.19,-12.09,878.12",
+        "-573.73,-11.79,892.72"
+      ],
+      "utterances": [
+        "Rest in peace.",
+        "You cannot eliminate us!",
+        "Seek death and it finds you.",
+        "Final death comes at last."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 140,
+      "drop_coin_max": 3275
+    },
+    {
+      "name": "a skeletal commander",
+      "name_sortable": "skeletalcommander",
+      "level": 28,
+      "difficulty": "heroic",
+      "locations": [
+        "-473.59,-18.34,703.82"
+      ],
+      "utterances": [
+        "Final death comes at last."
+      ]
+    },
+    {
+      "name": "a skeletal footsoldier",
+      "name_sortable": "skeletalfootsoldier",
+      "level": 25,
+      "locations": [
+        "-636.58,-6.36,562.05",
+        "-622.17,-1.58,413.53",
+        "-630.08,-1.02,395.60",
+        "-578.68,-2.26,379.84",
+        "-530.67,-1.56,381.99",
+        "-461.13,-4.28,432.71",
+        "-480.72,-3.59,423.32",
+        "-467.51,-5.68,467.78",
+        "-383.79,-1.51,444.85",
+        "-370.55,-1.03,457.19",
+        "-374.35,1.41,432.37",
+        "-393.99,2.79,407.46",
+        "-400.80,2.39,407.78",
+        "-505.29,-0.78,491.36",
+        "-498.59,-7.02,472.87",
+        "-554.99,-11.02,465.65",
+        "-582.40,0.15,821.05",
+        "-577.85,-3.04,809.46",
+        "-574.87,-1.22,814.77",
+        "-588.29,-4.41,754.02",
+        "-481.81,-17.95,674.39",
+        "-472.24,-19.30,677.27",
+        "-418.98,-22.93,711.31",
+        "-366.23,6.37,767.37",
+        "-373.27,2.14,909.24",
+        "-379.96,4.37,907.89"
+      ],
+      "utterances": [
+        "You cannot eliminate us!",
+        "That pile of bones was my friend!",
+        "Final death comes at last.",
+        "Rest in peace.",
+        "To the grave with you!",
+        "Seek death and it finds you.",
+        "Your eyes are so pretty."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1019381428 -593234954:bag of bone dust\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 90,
+      "drop_coin_max": 90
+    },
+    {
+      "name": "a skeletal lieutenant",
+      "name_sortable": "skeletallieutenant",
+      "level": 25,
+      "difficulty": "heroic",
+      "locations": [
+        "-532.34,-0.13,667.02",
+        "-540.00,-4.12,651.00",
+        "-557.97,-4.97,647.62",
+        "-364.91,10.31,380.69",
+        "-425.05,-5.45,480.50",
+        "-579.76,-3.88,805.93",
+        "-575.17,-0.45,817.11",
+        "-569.92,0.38,821.45",
+        "-527.09,-9.17,785.23",
+        "-478.51,-18.09,696.96",
+        "-483.11,-18.13,683.12",
+        "-471.49,-19.42,677.99",
+        "-380.77,4.22,753.97",
+        "-366.03,6.36,761.80",
+        "-378.11,2.83,912.08",
+        "-379.27,4.49,906.70",
+        "-407.40,-18.06,894.47",
+        "-461.37,-18.07,820.02"
+      ],
+      "utterances": [
+        "Final death comes at last.",
+        "You cannot eliminate us!",
+        "That pile of bones was my friend!",
+        "Rest in peace.",
+        "As I rise from the grave,  you will now take my place!",
+        "Your blood calls to me.",
+        "To the grave with you!"
+      ],
+      "drop_coin_min": 73,
+      "drop_coin_max": 676
+    },
+    {
+      "name": "a skeletal trooper",
+      "name_sortable": "skeletaltrooper",
+      "level": 27,
+      "locations": [
+        "-593.53,-3.47,636.00",
+        "-600.52,-3.59,633.19",
+        "-597.83,-6.44,659.88",
+        "-609.29,-6.49,669.99",
+        "-640.96,-7.00,552.13",
+        "-662.89,-0.61,582.33",
+        "-670.87,-1.88,532.30",
+        "-643.05,-4.36,480.33",
+        "-646.47,-2.72,466.92",
+        "-635.60,-1.13,442.40",
+        "-456.89,1.94,400.04",
+        "-427.81,-1.10,417.82",
+        "-438.80,-2.26,424.48",
+        "-427.88,-2.63,435.26",
+        "-344.50,7.07,416.49",
+        "-570.02,-11.02,448.26",
+        "-575.38,-10.95,440.19",
+        "-656.21,-4.56,788.75",
+        "-607.70,0.09,818.59",
+        "-574.13,-8.57,732.12",
+        "-542.32,-9.50,775.89",
+        "-494.60,-6.30,786.70",
+        "-522.91,-9.61,777.99",
+        "-521.98,-14.12,731.20",
+        "-536.72,-13.48,730.92",
+        "-524.78,-15.08,717.20",
+        "-505.22,-16.18,709.23",
+        "-478.52,-18.56,687.53",
+        "-410.66,-22.82,693.79",
+        "-382.12,-22.41,701.38",
+        "-363.01,-18.54,707.39",
+        "-351.49,-18.98,667.93",
+        "-405.76,-18.34,641.24",
+        "-386.43,-22.11,653.17",
+        "-365.37,4.77,778.03",
+        "-346.68,0.75,857.71",
+        "-513.67,-16.50,920.70",
+        "-474.93,-21.40,904.57",
+        "-410.13,-25.27,850.31",
+        "-520.28,-6.73,834.54",
+        "-555.21,-1.03,1032.79"
+      ],
+      "utterances": [
+        "Final death comes at last.",
+        "Rest in peace.",
+        "You cannot eliminate us!",
+        "That pile of bones was my friend!",
+        "As I rise from the grave,  you will now take my place!",
+        "To the grave with you!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 101,
+      "drop_coin_max": 164
+    },
+    {
+      "name": "a skeletal veteran",
+      "name_sortable": "skeletalveteran",
+      "level": 28,
+      "difficulty": "heroic",
+      "locations": [
+        "-439.04,-22.94,691.48",
+        "-412.98,-22.67,678.49",
+        "-388.20,-22.59,701.57",
+        "-372.82,5.59,759.66",
+        "-345.25,0.44,845.38",
+        "-376.69,2.80,910.85",
+        "-467.42,-20.89,863.58",
+        "-419.54,-24.81,816.20",
+        "-430.99,-22.37,807.99",
+        "-437.51,-23.90,829.08",
+        "-499.29,-2.99,811.24",
+        "-591.86,-8.94,874.36",
+        "-598.69,-3.01,861.61",
+        "-524.67,-1.69,999.94",
+        "-514.00,-2.00,996.06",
+        "-483.91,-0.15,972.95",
+        "-455.66,-0.66,975.99",
+        "-423.02,1.61,963.85",
+        "-420.99,0.49,952.29",
+        "-563.40,-1.60,1025.30"
+      ],
+      "utterances": [
+        "Final death comes at last.",
+        "That pile of bones was my friend!",
+        "You cannot eliminate us!",
+        "Rest in peace."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 67,
+      "drop_coin_max": 148
+    },
+    {
+      "name": "a Skindancer corruptor",
+      "name_sortable": "skindancercorruptor",
+      "locations": [
+        "365.84,2.04,1158.28"
+      ],
+      "utterances": [
+        "Another member of the pack down!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Skindancer defiler",
+      "name_sortable": "skindancerdefiler",
+      "locations": [
+        "309.71,0.76,1192.07",
+        "352.67,2.92,1209.37",
+        "435.57,-1.43,1156.63",
+        "394.26,-1.03,1124.17",
+        "330.79,0.00,1126.29",
+        "306.20,1.35,1101.81"
+      ],
+      "utterances": [
+        "That one died.",
+        "You gonna pay for that.",
+        "Another member of the pack down!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 295026780 -1433839586:a gnoll paw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 114,
+      "drop_coin_max": 749,
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Skindancer knight",
+      "name_sortable": "skindancerknight",
+      "locations": [
+        "333.66,2.60,1188.39",
+        "356.59,3.68,1180.84",
+        "346.28,3.38,1182.29",
+        "350.47,4.89,1191.45",
+        "359.75,4.86,1186.23",
+        "380.52,1.50,1208.71",
+        "307.91,0.51,1118.45"
+      ],
+      "utterances": [
+        "That one will never mate!",
+        "You gonna pay for that."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -658420854 385425044:ancient copper coin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 75,
+      "drop_coin_max": 700,
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Skindancer legionnaire",
+      "name_sortable": "skindancerlegionnaire",
+      "locations": [
+        "261.64,-1.25,1208.61",
+        "355.94,5.30,1188.76",
+        "408.20,-0.72,1207.18",
+        "423.17,-1.11,1174.22",
+        "454.81,-3.09,1148.47"
+      ],
+      "utterances": [
+        "Another member of the pack down!",
+        "You gonna pay for that.",
+        "That one died."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 150,
+      "drop_coin_max": 150,
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Skindancer sentry",
+      "name_sortable": "skindancersentry",
+      "locations": [
+        "340.81,-1.29,1082.54",
+        "328.14,-1.69,1076.31",
+        "339.16,-0.91,1070.05"
+      ],
+      "utterances": [
+        "Another member of the pack down!",
+        "That one will never mate!",
+        "That one died."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 68,
+      "drop_coin_max": 143,
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a small shore crab",
+      "name_sortable": "smallshorecrab",
+      "locations": [
+        "-340.2,-24.08,-408.47",
+        "-329.03,-23.66,-265.89"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -2136398151 1163100270:a crab claw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 512790155 320744539:crab meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Soril Isaran",
+      "name_sortable": "sorilisaran",
+      "level": 30,
+      "difficulty": "heroic^3",
+      "locations": [
+        "-532.16,-21.03,-405.35"
+      ],
+      "utterances": [
+        "I am going with Coy to help him on his mission.  He has paid me well, and the chance for even greater wealth lies in the possession of the centaurs."
+      ]
+    },
+    {
+      "name": "a spirited orb",
+      "name_sortable": "spiritedorb",
+      "level": 26,
+      "locations": [
+        "-608.63,-2.00,685.55",
+        "-438.19,-0.81,461.01",
+        "-507.91,-3.00,530.16",
+        "-511.17,-6.97,554.38",
+        "-515.73,-0.15,531.46",
+        "-505.95,-1.74,585.64",
+        "-513.61,-4.80,599.60",
+        "-450.53,-9.24,605.25",
+        "-405.54,0.69,597.66",
+        "-401.63,-1.27,584.19",
+        "-413.21,-7.15,549.27",
+        "-429.42,-2.84,525.32",
+        "-557.07,-3.78,448.00",
+        "-546.46,-7.47,441.84",
+        "-593.84,-8.39,535.31",
+        "-571.19,-7.84,601.68"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -486559289 -1607777479:a flickering lightstone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Steelhoof forager",
+      "name_sortable": "steelhoofforager",
+      "locations": [
+        "615.39,25.59,393.42",
+        "609.47,11.67,441.27"
+      ],
+      "utterances": [
+        "You will pay for that, two leg!",
+        "You shall not die in vain!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Steelhoof hunter",
+      "name_sortable": "steelhoofhunter",
+      "locations": [
+        "736.43,-1.00,368.13",
+        "580.29,5.81,474.46",
+        "314.69,-0.89,357.76",
+        "242.36,-1.15,365.88",
+        "237.17,-1.03,359.25",
+        "266.95,-3.13,1298.10"
+      ],
+      "utterances": [
+        "You will pay for that, two leg!",
+        "You shall not die in vain!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -910295815 -1007541021:a centaur eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -289215874 -2114663629:The Treaty for Treasure\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 155,
+      "drop_coin_max": 155,
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Steelhoof marauder",
+      "name_sortable": "steelhoofmarauder",
+      "level": 27,
+      "locations": [
+        "91.55,-5.38,1239.85",
+        "61.28,0.59,1389.04",
+        "154.05,0.59,1270.34",
+        "264.22,-2.79,1299.33",
+        "236.30,-5.71,1272.84"
+      ],
+      "utterances": [
+        "You shall not die in vain!",
+        "You will pay for that, two leg!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -380209937 1983585223:small disk of metal\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1223917500 -959190015:a centaur mane\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -898368698 -1285985171:strange dark powder\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 78,
+      "drop_coin_max": 581,
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Steelhoof mystic",
+      "name_sortable": "steelhoofmystic",
+      "locations": [
+        "413.67,-0.26,379.88",
+        "395.48,-1.02,382.23",
+        "1181.22,7.44,545.85",
+        "1191.47,4.75,544.85",
+        "1181.31,-0.87,650.52",
+        "1225.71,-0.49,597.10",
+        "1171.98,8.85,520.19",
+        "1243.88,-0.98,502.31"
+      ],
+      "utterances": [
+        "You will pay for that, two leg!",
+        "You shall not die in vain!",
+        "You started this. I will finish it!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 97,
+      "drop_coin_max": 97,
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Steelhoof pariah",
+      "name_sortable": "steelhoofpariah",
+      "locations": [
+        "238.78,-1.04,372.51",
+        "230.84,-1.01,369.87",
+        "1226.02,-0.82,582.81",
+        "1165.33,10.36,526.40",
+        "1255.25,2.59,477.08"
+      ],
+      "utterances": [
+        "You shall not die in vain!",
+        "You will pay for that, two leg!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1354018115 2012604226:a centaur hand\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Steelhoof prophet",
+      "name_sortable": "steelhoofprophet",
+      "level": 31,
+      "difficulty": "heroic",
+      "locations": [
+        "61.33,0.00,1324.61",
+        "87.50,0.00,1346.39",
+        "76.78,0.00,1356.75",
+        "72.03,1.20,1387.43"
+      ],
+      "utterances": [
+        "You shall not die in vain!",
+        "You will pay for that, two leg!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 666082773 -1237489991:a centaur ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 149792389 1916384666:Gel Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 386,
+      "drop_coin_max": 547,
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Steelhoof raider",
+      "name_sortable": "steelhoofraider",
+      "locations": [
+        "63.05,-0.34,1256.78",
+        "21.86,0.31,1314.44",
+        "63.35,0.00,1331.14",
+        "90.73,0.00,1363.49",
+        "44.31,0.00,1356.62",
+        "103.90,-0.06,1359.96",
+        "51.31,0.00,1380.04"
+      ],
+      "utterances": [
+        "You shall not die in vain!",
+        "You will pay for that, two leg!"
+      ],
+      "drop_coin_min": 622,
+      "drop_coin_max": 622,
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Steelhoof seer",
+      "name_sortable": "steelhoofseer",
+      "locations": [
+        "179.33,3.56,1303.94",
+        "211.24,0.65,1296.36",
+        "270.57,-20.73,1252.10"
+      ],
+      "utterances": [
+        "You will pay for that, two leg!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1354018115 2012604226:a centaur hand\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 133,
+      "drop_coin_max": 133,
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a steppe beetle",
+      "name_sortable": "steppebeetle",
+      "level": 24,
+      "locations": [
+        "1240.58,-4.88,-41.18",
+        "1265.99,-2.80,-197.39",
+        "1264.25,-3.34,-166.14",
+        "1022.29,-1.96,46.38",
+        "924.67,-0.57,18.65",
+        "914.53,-0.93,11.57"
+      ]
+    },
+    {
+      "name": "Stiletto",
+      "name_sortable": "stiletto",
+      "level": 25,
+      "difficulty": "heroic",
+      "locations": [
+        "580.05,-12.92,987.56",
+        "579.97,-16.73,972.95",
+        "595.85,2.61,944.9",
+        "628.59,-0.97,930.28",
+        "628.34,-0.91,943.91",
+        "628.42,-0.85,959.02",
+        "612.53,0.13,985.69",
+        "612.28,0.13,972.51"
+      ],
+      "utterances": [
+        "Flee and take care of them later."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 806555197 841396774:Stiletto's Orders\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a swarm beetle",
+      "name_sortable": "swarmbeetle",
+      "level": 24,
+      "difficulty": "heroic",
+      "locations": [
+        "1179.70,1.22,347.64",
+        "1256.19,-1.12,238.69",
+        "1258.28,-1.20,233.48",
+        "1347.76,-1.24,183.46",
+        "1342.45,-1.41,183.27",
+        "1280.90,-1.32,16.52",
+        "-18.53,-0.88,-791.78",
+        "-21.22,-0.97,-797.61"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -2084762773 -1302763349:an insect shell\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a tamed griffin",
+      "name_sortable": "tamedgriffin",
+      "locations": [
+        "-399.24,-23.42,-418.61"
+      ]
+    },
+    {
+      "name": "Tarby Boulderboom",
+      "name_sortable": "tarbyboulderboom",
+      "locations": [
+        "505.75,-1.35,486.02"
+      ],
+      "utterances": [
+        "...??",
+        "...!!",
+        "..."
+      ]
+    },
+    {
+      "name": "Tarnael",
+      "name_sortable": "tarnael",
+      "purpose": "Mender",
+      "locations": [
+        "-484.12,-20.99,-392.97"
+      ],
+      "utterances": [
+        "For you, a special price!"
+      ]
+    },
+    {
+      "name": "Taskmaster Deldrin",
+      "name_sortable": "taskmasterdeldrin",
+      "locations": [
+        "-486.19,-21.03,-407.11"
+      ],
+      "utterances": [
+        "I'm sorry, but I only hand out special contracts.  If you're interested in performing duties for the Far Seas Trading Company, please view the bulletin of outstanding orders."
+      ]
+    },
+    {
+      "name": "a Tesch Mal abductor",
+      "name_sortable": "teschmalabductor",
+      "level": 26,
+      "difficulty": "heroic",
+      "locations": [
+        "1273.56,-3.19,-163.97"
+      ],
+      "utterances": [
+        "He was weak. We shall feed on him."
+      ]
+    },
+    {
+      "name": "a Tesch Mal scrapper",
+      "name_sortable": "teschmalscrapper",
+      "level": 20,
+      "difficulty": "heroic",
+      "locations": [
+        "1023.27,-1.01,-258.48",
+        "1263.94,-2.91,-216.05"
+      ]
+    },
+    {
+      "name": "a Tesch Mas brute",
+      "name_sortable": "teschmasbrute",
+      "level": 26,
+      "difficulty": "heroic",
+      "locations": [
+        "1019.80,-1.02,-250.67",
+        "1020.49,-1.02,-256.47",
+        "1275.03,-3.00,-209.98",
+        "1264.93,-2.91,-213.14",
+        "1269.96,-2.91,-199.09"
+      ],
+      "utterances": [
+        "Feeding on his flesh will make us stronger.",
+        "He was weak. We shall feed on him.",
+        "Overlanders must die."
+      ]
+    },
+    {
+      "name": "a tide octopus",
+      "name_sortable": "tideoctopus",
+      "locations": [
+        "1578.12,-28.91,256.76",
+        "1483.90,-14.37,52.31"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -2006369093 1993173615:ink sack\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Tish Tickers",
+      "name_sortable": "tishtickers",
+      "locations": [
+        "-227.6,9.77,31.57"
+      ],
+      "utterances": [
+        "Would you people leave me alone?! I don't have your money! Oh, umm. Haha... Sorry about that, I thought you were someone else."
+      ]
+    },
+    {
+      "name": "Trapper Borgus",
+      "name_sortable": "trapperborgus",
+      "locations": [
+        "224.24,12.05,-949.19"
+      ],
+      "utterances": [
+        "Oh me achin' back!  Give an old dwarf a hand?",
+        "Me family sent me out for provisions, and I hurt me back lifting me pack!  I come from a family o' miners n' boulder bashers, I would never hear the end of it!  Can you help me kill enough beasts to get the provisions I need?",
+        "I thank yeh, and me back thanks yeh!  I just need several of each kind o' Steppes beasts that wander in these parts, they should provide enough food for the coming months!  Slay them n' bring their bodies to me.",
+        "That's not enough beasts to fill me bags!  I need more Steppes beasts for my provisions!"
+      ]
+    },
+    {
+      "name": "Uma Drandamir",
+      "name_sortable": "umadrandamir",
+      "level": 30,
+      "difficulty": "heroic^3",
+      "locations": [
+        "-469.97,-18.38,-445.73"
+      ],
+      "utterances": [
+        "The safest way to Bridge Keep is around the mountains to the northwest.  Taking the road is always yer best bet."
+      ]
+    },
+    {
+      "name": "an unbound familiar",
+      "name_sortable": "unboundfamiliar",
+      "level": 27,
+      "locations": [
+        "-618.38,-2.17,741.28",
+        "-663.69,-4.35,815.93",
+        "-651.64,-4.45,767.48"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 413961486 2097183985:stone debris\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an undead farmer",
+      "name_sortable": "undeadfarmer",
+      "locations": [
+        "6.94,0.87,-782.41",
+        "23.33,-0.24,-754.54",
+        "32.61,-0.36,-752.74",
+        "29.01,0.58,-771.89",
+        "-14.70,0.56,-749.16",
+        "-10.08,0.77,-774.66"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -612798970 943460484:a decomposing zombie organ\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an Undead Overseer",
+      "name_sortable": "undeadoverseer",
+      "locations": [
+        "-2.63,1.28,-829.96"
+      ],
+      "utterances": [
+        "Back to work boys!  We don't have all eternity to get this done.",
+        "Now you've made me hungry!"
+      ]
+    },
+    {
+      "name": "an undead settler",
+      "name_sortable": "undeadsettler",
+      "locations": [
+        "10.37,0.02,-768.54",
+        "26.31,-0.26,-753.02",
+        "27.30,0.34,-767.17"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an undead worker",
+      "name_sortable": "undeadworker",
+      "locations": [
+        "-1.79,1.26,-826.95",
+        "-2.65,-1.02,-832.83",
+        "6.93,-1.02,-832.12"
+      ]
+    },
+    {
+      "name": "an unearthed settler",
+      "name_sortable": "unearthedsettler",
+      "locations": [
+        "-324.16,-21.22,-308.7"
+      ]
+    },
+    {
+      "name": "an unearthed villager",
+      "name_sortable": "unearthedvillager",
+      "locations": [
+        "-361.56,-23.44,-266.01"
+      ],
+      "drop_coin_min": 106,
+      "drop_coin_max": 106
+    },
+    {
+      "name": "an unsanctified rock heap",
+      "name_sortable": "unsanctifiedrockheap",
+      "locations": [
+        "19.78,-13.54,1038.57"
+      ]
+    },
+    {
+      "name": "a Varsoon apprentice",
+      "name_sortable": "varsoonapprentice",
+      "level": 25,
+      "locations": [
+        "-600.30,-6.44,672.94",
+        "-591.48,-4.75,683.49",
+        "-649.77,-4.52,610.88",
+        "-640.78,-6.54,596.71",
+        "-675.34,-1.18,721.57",
+        "-682.50,-1.11,716.63",
+        "-706.23,-0.92,730.10",
+        "-658.68,-2.28,726.88",
+        "-630.19,-4.55,730.65",
+        "-646.70,-4.74,751.38"
+      ],
+      "utterances": [
+        "You must do its work now.",
+        "The work is postponed."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 70,
+      "drop_coin_max": 155
+    },
+    {
+      "name": "a wandering dead",
+      "name_sortable": "wanderingdead",
+      "level": 22,
+      "difficulty": "heroic",
+      "locations": [
+        "1352.75,-1.45,-91.06"
+      ],
+      "drop_coin_min": 883,
+      "drop_coin_max": 883
+    },
+    {
+      "name": "a warlock orb",
+      "name_sortable": "warlockorb",
+      "locations": [
+        "-522.32,-5.13,894.27",
+        "-513.07,-2.53,924.17",
+        "-457.22,-16.99,900.15",
+        "-425.74,-10.12,881.99",
+        "-419.76,-18.13,864.70",
+        "-415.44,-12.22,840.48",
+        "-446.81,-18.01,836.98",
+        "-532.25,-7.10,874.62",
+        "-478.11,-0.12,970.38",
+        "-468.60,-0.71,990.45",
+        "-458.44,4.00,970.29",
+        "-550.35,2.63,1023.58"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -486559289 -1607777479:a flickering lightstone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Watcher of the Fields",
+      "name_sortable": "watcherofthefields",
+      "locations": [
+        "1355.96,-0.51,265.42"
+      ],
+      "utterances": [
+        "You travel far from your lands, two-legs.  It is not common for a two-legger to come pay homage to the Great Chiefs.  Is this why you're here?",
+        "I no longer have a name, for I am now only a Watcher of the Fields.  It is my duty to calm the Great Chiefs of past ages so that they do not haunt the living.  Now speak!  Are you here to pay your respects?",
+        "Though you do not know our customs, the Chiefs know what is in your heart.  These markers are all that remain of the Chiefs within the solid world.  Although dead, they remember the echoes of life.  To pay your respect to the dead Chief, present an offering to their marker that resonates of what they enjoyed in life.",
+        "Speak to me the name of the Great Chief you wish to know of, and I shall tell you of their life.  If you lay the offering at the base of the marking and the Chief's spirit is pleased, you will see what you laid down change into a blessing.  Now speak to me the name of the Chief you wish to know."
+      ]
+    },
+    {
+      "name": "Waylon March",
+      "name_sortable": "waylonmarch",
+      "locations": [
+        "-246.86,-0.57,57.26"
+      ],
+      "utterances": [
+        "Shoo, ponies! Shoo! Shoo!",
+        "Those ponies on the road give me the creeps!  I need to finish mamma's errands, but I can't with those ponies roamin' around!"
+      ]
+    },
+    {
+      "name": "a weald wolf",
+      "name_sortable": "wealdwolf",
+      "level": 24,
+      "locations": [
+        "-228.32,-0.89,834.32",
+        "-222.15,-0.96,833.40",
+        "1219.70,1.22,438.64",
+        "1213.25,1.91,433.20",
+        "1258.81,-0.89,419.06",
+        "1267.98,-0.81,409.33"
+      ]
+    },
+    {
+      "name": "a weald wolf pup",
+      "name_sortable": "wealdwolfpup",
+      "locations": [
+        "-222.59,-0.93,835.63",
+        "-230.62,-0.84,834.77",
+        "1266.31,-0.71,420.03",
+        "1271.36,-0.46,423.24"
+      ]
+    },
+    {
+      "name": "a white spider",
+      "name_sortable": "whitespider",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1537370945 993864962:tanned leather gloves\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Windfeather",
+      "name_sortable": "windfeather",
+      "level": 28,
+      "difficulty": "heroic",
+      "locations": [
+        "1373.25,4.00,-97.00",
+        "1371.26,-3.02,17.92",
+        "1357.99,13.26,-159.41"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1849005594 -1995514244:a bird skull\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a woodland bear",
+      "name_sortable": "woodlandbear",
+      "locations": [
+        "736.42,-1.02,387.21"
+      ]
+    },
+    {
+      "name": "a woodland bear cub",
+      "name_sortable": "woodlandbearcub",
+      "locations": [
+        "1164.19,4.07,586.86",
+        "1159.94,1.43,618.97",
+        "1219.17,1.25,503.51",
+        "741.14,-1.02,382.14"
+      ]
+    },
+    {
+      "name": "a young antelope",
+      "name_sortable": "youngantelope",
+      "locations": [
+        "994.49,-1.01,-365.04",
+        "987.60,-0.98,-361.35",
+        "932.57,-0.27,26.32"
+      ]
+    },
+    {
+      "name": "a young timber badger",
+      "name_sortable": "youngtimberbadger",
+      "locations": [
+        "1322.94,-1.50,-141.32"
+      ]
+    },
+    {
+      "name": "a young woodland bear",
+      "name_sortable": "youngwoodlandbear",
+      "locations": [
+        "719.04,-0.34,372.52"
+      ]
+    },
+    {
+      "name": "a young woodland kodiak",
+      "name_sortable": "youngwoodlandkodiak",
+      "level": 25,
+      "locations": [
+        "366.42,10.91,-504.48",
+        "360.41,10.09,-504.27",
+        "357.89,10.8,-509.41",
+        "1244.57,-2.14,-289.51",
+        "1250.49,-2.52,-294.29",
+        "1340.45,-1.02,105.91",
+        "734.81,-0.84,-307.17"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1241011086 -1583820418:Bear Claw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1539682772 -549950132:Righteousness II (Adept)\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Zail the Smoothmane",
+      "name_sortable": "zailthesmoothmane",
+      "locations": [
+        "1321.42,-0.19,315.60"
+      ],
+      "utterances": [
+        "You shall not die in vain!"
+      ],
+      "drop_coin_min": 155,
+      "drop_coin_max": 155,
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1616045308 336031839:plain blue ant\\/a",
+      "locations": [
+        "620.84,-20.00,832.93"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1409523777 -275052899:unscathed half elf bone fragment\\/a",
+      "locations": [
+        "-140.68,4.00,290.91"
+      ]
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the beast den",
+      "name_sortable": "beastden"
+    },
+    {
+      "name": "the felled high plains arbor",
+      "name_sortable": "felledhighplainsarbor"
+    },
+    {
+      "name": "the high plains shrubbery",
+      "name_sortable": "highplainsshrubbery"
+    },
+    {
+      "name": "the mesquite catch weed",
+      "name_sortable": "mesquitecatchweed"
+    },
+    {
+      "name": "a mob of fish",
+      "name_sortable": "moboffish"
+    },
+    {
+      "name": "the stonecrest ore",
+      "name_sortable": "stonecrestore"
+    },
+    {
+      "name": "the wind swept stones",
+      "name_sortable": "windsweptstones"
+    }
+  ]
+}

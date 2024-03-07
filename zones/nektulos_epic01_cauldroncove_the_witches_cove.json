@@ -1,0 +1,251 @@
+{
+  "name": "The Witches' Cove",
+  "name_sortable": "witchescove",
+  "region": "D'Lere",
+  "zonerect": "-1042.00,-672.00,-847.00,-446.00",
+  "levels": "20-25",
+  "type": "instance",
+  "access_quests": [
+    1196338355
+  ],
+  "npcs": [
+    {
+      "name": "Master D'Vaen",
+      "name_sortable": "masterdvaen",
+      "level": 25,
+      "difficulty": "heroic",
+      "locations": [
+        "1013.69,10.15,-513.65"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Shivantris the Wailing",
+      "name_sortable": "shivantristhewailing",
+      "level": 25,
+      "difficulty": "heroic",
+      "locations": [
+        "976.71,8.19,-621.21"
+      ]
+    },
+    {
+      "name": "a vile scoundrel",
+      "name_sortable": "vilescoundrel",
+      "level": 25,
+      "difficulty": "heroic",
+      "locations": [
+        "895.77,8.19,-511.35",
+        "922.28,10.15,-513.66",
+        "969.58,8.19,-508.67",
+        "1009.55,8.19,-519.21",
+        "1014.21,10.15,-511.56",
+        "946.96,8.12,-561.59",
+        "896.81,8.19,-588.69",
+        "890.40,8.19,-566.65",
+        "885.21,10.06,-568.09",
+        "922.63,8.19,-610.34",
+        "949.02,8.19,-611.42",
+        "945.46,10.00,-621.05",
+        "988.92,10.06,-607.34",
+        "995.47,8.19,-585.69",
+        "991.89,8.19,-541.69",
+        "996.02,10.11,-550.69"
+      ],
+      "utterances": [
+        "Hold them and I'll return with help!",
+        "Fall back, order a tactical retreat!",
+        "Look what strolled into the spider's web!",
+        "No matter what I promise, you will not survive!",
+        "There is no escape for you now!",
+        "I will have vengeance!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 102,
+      "drop_coin_max": 1308
+    },
+    {
+      "name": "a vile summoner",
+      "name_sortable": "vilesummoner",
+      "level": 25,
+      "difficulty": "heroic",
+      "locations": [
+        "896.33,8.19,-509.09",
+        "927.77,8.19,-517.10",
+        "966.95,8.19,-511.32",
+        "979.64,10.13,-506.13",
+        "1011.66,8.19,-520.88",
+        "892.96,10.05,-596.66",
+        "889.98,8.19,-568.33",
+        "883.88,10.06,-561.13",
+        "921.23,8.19,-610.10",
+        "909.55,10.08,-618.95",
+        "917.57,10.08,-620.23",
+        "977.52,8.19,-609.54"
+      ],
+      "utterances": [
+        "Fall back, order a tactical retreat!",
+        "Hold them and I'll return with help!",
+        "I will have vengeance!",
+        "No matter what I promise, you will not survive!",
+        "I hope you put your affairs in order."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 71,
+      "drop_coin_max": 71
+    },
+    {
+      "name": "a vile witchdoctor",
+      "name_sortable": "vilewitchdoctor",
+      "level": 25,
+      "difficulty": "heroic",
+      "locations": [
+        "897.08,8.02,-510.62",
+        "891.09,9.96,-508.13",
+        "974.98,10.13,-502.63",
+        "949.17,8.10,-558.61",
+        "947.50,8.10,-610.02",
+        "943.63,10.00,-621.81",
+        "979.41,8.19,-608.18",
+        "985.20,10.06,-611.56",
+        "992.45,8.14,-585.33",
+        "1003.38,10.01,-585.16",
+        "991.82,8.19,-543.25"
+      ],
+      "utterances": [
+        "No matter what I promise, you will not survive!",
+        "Fall back, order a tactical retreat!",
+        "Hold them and I'll return with help!",
+        "I will have vengeance!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1596355065 1021048920:foggy globe\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 104,
+      "drop_coin_max": 854
+    },
+    {
+      "name": "a wailing spirit",
+      "name_sortable": "wailingspirit",
+      "level": 24,
+      "difficulty": "heroic",
+      "locations": [
+        "948.37,8.19,-491.49",
+        "942.00,8.19,-494.42",
+        "958.55,14.00,-494.48",
+        "985.26,8.22,-486.41",
+        "1026.31,8.19,-529.41",
+        "997.82,8.19,-531.94",
+        "875.96,8.19,-525.92",
+        "870.03,12.00,-538.57",
+        "870.51,9.75,-584.25",
+        "906.69,7.83,-585.48",
+        "918.36,8.19,-580.17",
+        "930.68,8.21,-629.15",
+        "877.63,8.19,-630.61",
+        "903.55,11.89,-637.72",
+        "992.68,8.25,-640.42",
+        "980.71,8.19,-621.80",
+        "1013.11,8.23,-611.79",
+        "1013.05,8.19,-565.64",
+        "965.28,8.19,-569.96",
+        "966.28,7.86,-595.34"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -671644311 964395107:a plagued eyeball\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2030107986 712908976:cranial nerve\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a witchbone skeleton",
+      "name_sortable": "witchboneskeleton",
+      "level": 24,
+      "difficulty": "heroic",
+      "locations": [
+        "888.96,7.86,-485.00",
+        "892.89,8.11,-497.04",
+        "909.35,8.11,-517.58",
+        "914.66,8.19,-517.45",
+        "971.07,8.19,-486.93",
+        "973.73,8.19,-538.24",
+        "958.79,8.19,-531.02",
+        "945.08,7.98,-547.32",
+        "947.82,7.89,-552.39",
+        "935.57,8.19,-545.94",
+        "926.59,8.19,-555.83",
+        "925.64,8.19,-550.78",
+        "899.79,8.19,-533.76",
+        "879.70,8.19,-589.66",
+        "964.63,8.19,-603.41",
+        "986.98,8.16,-586.48",
+        "956.70,8.19,-548.79",
+        "971.61,8.19,-549.80"
+      ],
+      "utterances": [
+        "You cannot eliminate us!",
+        "That pile of bones was my friend!",
+        "Final death comes at last.",
+        "Rest in peace."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1699090909 -1328714666:Broken Vessel\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 85,
+      "drop_coin_max": 131
+    }
+  ]
+}

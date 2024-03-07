@@ -1,0 +1,455 @@
+{
+  "name": "Butcherblock Mountains",
+  "name_sortable": "butcherblockmountains",
+  "region": "Faydwer",
+  "description": "Ancestral homeland of the dwarves of Kaladim.",
+  "zonerect": "-1822.26,-765.30,1242.99,1647.32",
+  "levels": "20-35",
+  "connections": [
+    {
+      "key": "steppes"
+    },
+    {
+      "key": "nektulos"
+    },
+    {
+      "key": "exp03_dun_estate_of_unrest"
+    },
+    {
+      "key": "exp03_rgn_lesser_faydark"
+    },
+    {
+      "key": "exp03_rgn_steamfont"
+    },
+    {
+      "key": "exp03_dun_kaladim_stormguard_hall_mar12"
+    },
+    {
+      "key": "exp03_rgn_greater_faydark"
+    },
+    {
+      "key": "exp03_dun_kaladim"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Almar Shi'iz",
+      "name_sortable": "almarshiiz",
+      "locations": [
+        "716.14,24.68,604.4"
+      ],
+      "utterances": [
+        "Be on your way.  I have matters to attend to."
+      ]
+    },
+    {
+      "name": "An'dil Siriion",
+      "name_sortable": "andilsiriion",
+      "locations": [
+        "767.57,26.03,596.57"
+      ],
+      "utterances": [
+        "Good day to you, how goes the adventure?",
+        "Ahh, another able-bodied adventurer! Good hunting out there!"
+      ]
+    },
+    {
+      "name": "Assistant Deldry",
+      "name_sortable": "assistantdeldry",
+      "locations": [
+        "703.41,24.0,581.99"
+      ],
+      "utterances": [
+        "There are plenty of duties to tend to around here, and I aim to see they all get done."
+      ]
+    },
+    {
+      "name": "Belinda MacLellan",
+      "name_sortable": "belindamaclellan",
+      "locations": [
+        "742.49,25.91,585.82"
+      ],
+      "utterances": [
+        "Hello, traveler!"
+      ]
+    },
+    {
+      "name": "Bellenda Drunkdrinker",
+      "name_sortable": "bellendadrunkdrinker",
+      "locations": [
+        "670.98,24.0,591.15"
+      ],
+      "utterances": [
+        "Go ahead, have another round!"
+      ]
+    },
+    {
+      "name": "Bimini Bowchaser",
+      "name_sortable": "biminibowchaser",
+      "locations": [
+        "668.38,22.0,566.58"
+      ],
+      "utterances": [
+        "Oooooh, what do ya do wit' a drunken halfling? What do ya do wit' a drunken' halfling? What do ya do wit' meeee.... *hick-up*."
+      ]
+    },
+    {
+      "name": "Captain Stonnacky",
+      "name_sortable": "captainstonnacky",
+      "locations": [
+        "652.98,24.0,525.9"
+      ],
+      "utterances": [
+        "Yarr! An' after I asked if he wanted ta kiss the captain's daughter, he closed his eyes an' puckered up. Well, naturally I let the cat out o' the bag then! Har har har..."
+      ]
+    },
+    {
+      "name": "Cordelia Galeston",
+      "name_sortable": "cordeliagaleston",
+      "locations": [
+        "698.58,24.08,580.89"
+      ],
+      "utterances": [
+        "Good day and safe travels!"
+      ]
+    },
+    {
+      "name": "Dannard Cliffcarver",
+      "name_sortable": "dannardcliffcarver",
+      "locations": [
+        "735.86,25.91,580.96"
+      ],
+      "utterances": [
+        "Hullo thar, younin'! Welcome ta the busiest dock in all of Faydwer!"
+      ]
+    },
+    {
+      "name": "Darious Stonemaul",
+      "name_sortable": "dariousstonemaul",
+      "locations": [
+        "713.28,24.08,595.35"
+      ],
+      "utterances": [
+        "Good day, friend.  Sorry about the prices, but I have to make a living."
+      ]
+    },
+    {
+      "name": "Dockmaster Waulon",
+      "name_sortable": "dockmasterwaulon",
+      "locations": [
+        "744.74,25.88,559.67"
+      ],
+      "utterances": [
+        "Ahoy there, newcomer! Welcome to the Butcherblock Mountains! I'm Dockmaster Waulon Highpebble. You can just call me Waulon though. I'm sorry I can't spend more time chatting wit' ya, but keepin' track o' every box, crate an' person that arrives here is more than one dwarf can handle!",
+        "Aye, that would be wonderful. I could use your help in takin' care of several pests that have been makin' a big mess here. What do you say?"
+      ]
+    },
+    {
+      "name": "Dockworker Alesford",
+      "name_sortable": "dockworkeralesford",
+      "locations": [
+        "715.82,24.0,609.34"
+      ],
+      "utterances": [
+        "Ole Mizzen is telling one of his adventures again. A life at sea sounds perilous!"
+      ]
+    },
+    {
+      "name": "Dockworker Brawley",
+      "name_sortable": "dockworkerbrawley",
+      "locations": [
+        "736.15,25.91,577.51",
+        "696.23,24.0,602.01",
+        "679.69,24.0,600.74",
+        "670.48,24.0,611.72"
+      ],
+      "utterances": [
+        "If you're looking for something to do, go see Dockmaster Waulon. Brell knows he has enough work for me to do.",
+        "Welcome to the Butcherblock Docks. Now, grab a hammer and make yourself useful."
+      ]
+    },
+    {
+      "name": "Dockworker Kelson",
+      "name_sortable": "dockworkerkelson",
+      "locations": [
+        "644.49,25.91,565.35"
+      ],
+      "utterances": [
+        "Welcome to the Butcherblock Docks. Now, grab a hammer and make yourself useful.",
+        "If those rustfiends eat another one of my tools, I'll have to hammer those nails in with my fist!"
+      ]
+    },
+    {
+      "name": "Dockworker Ogilby",
+      "name_sortable": "dockworkerogilby",
+      "locations": [
+        "712.75,24.0,612.71"
+      ],
+      "utterances": [
+        "Mizzen says he has actually done time in the Hold of Prexus!",
+        "I love Mizzen's story. There's always a happy ending!"
+      ]
+    },
+    {
+      "name": "Dockworker Seeley",
+      "name_sortable": "dockworkerseeley",
+      "locations": [
+        "712.13,24.0,600.24"
+      ],
+      "utterances": [
+        "Best of luck to you, adventurer. These lands are sure to offer more than your share of excitement."
+      ]
+    },
+    {
+      "name": "Fishmonger Usharaz",
+      "name_sortable": "fishmongerusharaz",
+      "locations": [
+        "653.98,24.0,540.91"
+      ],
+      "utterances": [
+        "Have a look at the catch of the day!"
+      ]
+    },
+    {
+      "name": "a griffin tamer",
+      "name_sortable": "griffintamer",
+      "locations": [
+        "752.02,26.0,572.35"
+      ],
+      "utterances": [
+        "Greetings, traveler.  How can I assist you today?"
+      ]
+    },
+    {
+      "name": "Griss Brumbaugh",
+      "name_sortable": "grissbrumbaugh",
+      "locations": [
+        "679.52,24.0,595.21"
+      ],
+      "utterances": [
+        "Hail? Where I come from you simply say, 'Hello' to a passing stranger."
+      ]
+    },
+    {
+      "name": "Guard Banning",
+      "name_sortable": "guardbanning",
+      "locations": [
+        "595.06,24.4,589.64",
+        "626.05,25.91,590.29",
+        "623.94,25.91,564.48",
+        "653.18,25.91,565.55",
+        "667.11,24.0,577.35",
+        "740.33,25.91,576.57"
+      ]
+    },
+    {
+      "name": "Guard Daarwyn",
+      "name_sortable": "guarddaarwyn",
+      "locations": [
+        "774.67,25.91,564.06"
+      ],
+      "utterances": [
+        "Blast those beasts.  As if we don't have few enough supplies, they sneak into our camp and steal what little we have!  It is maddening!",
+        "The goblins!  They creep up from the water in the night, and take anything that is close to the edge of the camp.  We have to post guards all around at all hours, which puts a further strain on our already thin numbers.  If I could, I would hunt them down myself!",
+        "Eager to get into the fight, are you?  Well, I won't stop you, then... have at them.  I'll even give you a bounty for clearing some of the wretches out.  Bring me their ears as proof.  Come back to me when you've finished up, and we'll see how you do.  Now get to it."
+      ]
+    },
+    {
+      "name": "Guard Gasden",
+      "name_sortable": "guardgasden",
+      "locations": [
+        "595.06,24.4,589.64",
+        "626.05,25.91,590.29",
+        "623.94,25.91,564.48",
+        "653.18,25.91,565.55",
+        "667.11,24.0,577.35",
+        "740.33,25.91,576.57"
+      ]
+    },
+    {
+      "name": "Guard Tellik",
+      "name_sortable": "guardtellik",
+      "locations": [
+        "780.34,25.91,581.23"
+      ],
+      "utterances": [
+        "So this is Faydwer.  There have always been stories in Gorowyn about this place, but I never thought I would see it.  It's no Timorous Deep of course, but it is beautiful in its own right.  Coming here was a challenge all by itself, but it has proven to be quite difficult to remain here.",
+        "A myriad of reasons, but not the least of which is the dwarves. They claim much of the Butcherblock Mountains and are loath to allow anyone they consider to be intruders on their lands.  They haven't been openly hostile as of yet, but sending out patrols at this point would certainly not be a good plan, given our small numbers. If the dwarves view us as trespassers, it could be disastrous for us.",
+        "It may be imperative to our continued presence here that we establish some kind of cooperation with the dwarves.  Unfortunately, our numbers here are fairly small, and we don't have anyone who might be able to begin the negotiations necessary.  I know this probably isn't normally what you do, but might you be available for hire?",
+        "Something like that, yes.  All I really need you to do is speak with the assistant dockmaster, and give her a note from us.  I know she has worked with Emissary Raghuntha, and might be more amicable to our offer.  Perhaps if you can perform deeds for others on the docks, it will show the dwarves that we are serious about our offer for cooperation.  And I'm sure there will be plenty of reward in it for you, too."
+      ]
+    },
+    {
+      "name": "Harbormaster Ironmend",
+      "name_sortable": "harbormasterironmend",
+      "locations": [
+        "743.47,24.0,513.34"
+      ],
+      "utterances": [
+        "The Journey's End will be leaving for Nektulos Forest in 73 seconds.",
+        "The Journey's End will be arriving from Nektulos Forest shortly."
+      ]
+    },
+    {
+      "name": "Harbormaster Steelstrike",
+      "name_sortable": "harbormastersteelstrike",
+      "locations": [
+        "646.58,24.0,512.94"
+      ],
+      "utterances": [
+        "The Storm Breaker will be leaving for The Thundering Steppes in 34 seconds."
+      ]
+    },
+    {
+      "name": "Hessek Thornton",
+      "name_sortable": "hessekthornton",
+      "locations": [
+        "595.06,24.4,589.64",
+        "626.05,25.91,590.29",
+        "623.94,25.91,564.48",
+        "653.18,25.91,565.55",
+        "667.11,24.0,577.35",
+        "740.33,25.91,576.57"
+      ],
+      "utterances": [
+        "Stay vigilant. Many dangers lurk along the beach."
+      ]
+    },
+    {
+      "name": "Mizzen Staysail",
+      "name_sortable": "mizzenstaysail",
+      "locations": [
+        "715.97,24.0,613.57"
+      ],
+      "utterances": [
+        "So there I was! Surrounded by a marauding band of... Undead... Elemental... Orc pirates! Armed with only a flanger-poozle and frak-fork! So I says to 'em..."
+      ]
+    },
+    {
+      "name": "Opus Froth",
+      "name_sortable": "opusfroth",
+      "locations": [
+        "695.14,24.0,603.86"
+      ],
+      "utterances": [
+        "Well met!"
+      ]
+    },
+    {
+      "name": "Philosopher Rhimes",
+      "name_sortable": "philosopherrhimes",
+      "locations": [
+        "673.85,24.0,584.26"
+      ],
+      "utterances": [
+        "Hello there! I'm sure you've heard all the hubbub about the deities coming back to us! Some people think it's grand, others not so much."
+      ]
+    },
+    {
+      "name": "Raghunatha",
+      "name_sortable": "raghunatha",
+      "locations": [
+        "696.25,24.08,583.37"
+      ],
+      "utterances": [
+        "Greetings, stranger. I'm sure you're wondering what a sarnak like myself is doing all the way here in the Butcherblock Mountains.",
+        "A small delegation of Gorwynian citizens have traveled across the Timorous Deep to enlist the help of the dwarves of Butcherblock and Kaladim. Our first concern was that the blasted Haoaerans would rouse the Kragploom aviaks into action and cause them to join their cause.",
+        "So far, no. Our allies have prevented the two aviak tribes from conspiring with one another, though convincing the dwarves to assist us has proved more difficult than we originally anticipated.",
+        "Not exactly. The dwarves here are actually sympathetic to our plight. Afterall, they know firsthand what it's like to have an enemy encroach upon your ancestral lands.",
+        "Simply put, it is a matter of resources. The dwarves here in this outpost are an extremely busy lot. As much as they would like to assist us, they need to take care of their own problems first. A most frustrating dilemma for our cause, I'm sure you can imagine.",
+        "You would be willing to assist us? Marvelous! Yes, please, I've taken it upon myself to assist the dwarves in their own problems in hope that with enough assistance, they would be able to return the favor. Would you be willing to speak with several of the dwarves around these lands, and help them in their duties?"
+      ]
+    },
+    {
+      "name": "Researcher Eruwun",
+      "name_sortable": "researchereruwun",
+      "locations": [
+        "782.58,25.99,576.25"
+      ],
+      "utterances": [
+        "Ah, you might be just who I was hoping for.  I am assuming you are here looking for some work, are you not?",
+        "Excellent.  I am looking to research some of the more unique creatures to Faydwer, and one in particular is fascinating to me.  The rust creatures that wander the beach can turn metal into rust in very short order, and then consume the corrosion as sustenance.  With all the activity on the docks and what comes up on the beaches, they never seem to have a shortage of food.",
+        "I want to know how they turn metal into rust so quickly.  I imagine this has something to do with their saliva, and I want to study it.  Bring me a few of their saliva glands, if you can extract them without damaging them.  I will, of course, pay you for your time."
+      ]
+    },
+    {
+      "name": "Researcher Kiman",
+      "name_sortable": "researcherkiman",
+      "locations": [
+        "781.49,25.99,569.63"
+      ],
+      "utterances": [
+        "There is much to research here.  Information we find here could very well provide insight into studies back in Gorowyn."
+      ]
+    },
+    {
+      "name": "Sala Maki",
+      "name_sortable": "salamaki",
+      "locations": [
+        "760.19,26.6,600.89"
+      ],
+      "utterances": [
+        "Greetings traveler, have you come seeking enlightenment into the path of transmuting and adorning?",
+        "Well then I hope that your studies are passing well.  Peace be with you! And remember, one traveler's junk is a transmuter's treasure!"
+      ]
+    },
+    {
+      "name": "Schmitty McEricson",
+      "name_sortable": "schmittymcericson",
+      "locations": [
+        "609.98,20.85,574.04"
+      ],
+      "utterances": [
+        "Oh, what? You wanna fight er somethin'?",
+        "Ah, jeez. I'm sorry, friend. I didn't mean ta come at ya like that. You see, I'm just a poor fisherman who's fallen on hard times and is lookin' to blame everyone else for me problems besides meself.",
+        "Oh no, the fishing is great. It's just... well, it may seem silly ta you but... I've gone and lost me sandals.",
+        "I dunno! One moment I'm standing here, doin' my job. You know, fishing and making sure the ale hasn't been poisoned. Next thing I know, I'm looking down at my bare feet. Twas the strangest thing.",
+        "I appreciate the offer friend, but I've looked all over for 'em wit no luck at all. You know... I think I could use your help! I'll just make me some new sandals! Haha!"
+      ]
+    },
+    {
+      "name": "Tally Topgallant",
+      "name_sortable": "tallytopgallant",
+      "locations": [
+        "605.0,59.77,607.22"
+      ],
+      "utterances": [
+        "Aye, wot do we got 'ere? Some land lubber think they can git the drop on ol' Tally Topgallant? Ha ha! I think not!"
+      ]
+    },
+    {
+      "name": "Thark Keycairn",
+      "name_sortable": "tharkkeycairn",
+      "locations": [
+        "667.69,24.0,597.86"
+      ],
+      "utterances": [
+        "Ahoy there, traveler! The Butcherblock Mountains are just as dangerous as they've always been. Best not to travel with broken equipment. Give me a moment and I'll fix you right up!"
+      ]
+    },
+    {
+      "name": "Trader Darmlin",
+      "name_sortable": "traderdarmlin",
+      "locations": [
+        "670.22,24.0,589.46"
+      ]
+    },
+    {
+      "name": "a trained griffin",
+      "name_sortable": "trainedgriffin",
+      "locations": [
+        "755.93,26.0,572.08"
+      ]
+    },
+    {
+      "name": "Tyla Maki",
+      "name_sortable": "tylamaki",
+      "locations": [
+        "762.42,26.0,600.81"
+      ],
+      "utterances": [
+        "We've all the basic supplies that you'll ever need.  Are you looking for anything specific?"
+      ]
+    }
+  ]
+}

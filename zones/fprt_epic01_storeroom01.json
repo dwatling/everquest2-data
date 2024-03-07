@@ -1,0 +1,31 @@
+{
+  "name": "The Chamber of Suffering",
+  "name_sortable": "chamberofsuffering",
+  "region": "D'Lere",
+  "levels": "10-15",
+  "access_quests": [
+    4133302910
+  ],
+  "connections": [
+    {
+      "key": "commonlands"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a Decomposed Suitor",
+      "name_sortable": "decomposedsuitor",
+      "level": 20
+    },
+    {
+      "name": "a flesh appellant",
+      "name_sortable": "fleshappellant",
+      "level": 20
+    },
+    {
+      "name": "a foul spook",
+      "name_sortable": "foulspook",
+      "level": 20
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "name": "The Wailing Caves",
+  "name_sortable": "wailingcaves",
+  "region": "D'Lere",
+  "levels": "10-20",
+  "maps": [
+    {
+      "name": "West"
+    },
+    {
+      "name": "East"
+    }
+  ],
+  "connections": [
+    {
+      "key": "commonlands"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Cog Burn",
+      "name_sortable": "cogburn",
+      "utterances": [
+        "How fortunate for me!  More adventurers!  Whee!  Come now, come here.",
+        "You're just in time!  Yes, yes, just in time to help me continue my research.  With the popping and smoke, poofing!  So, so very exciting!  All you have to do is fetch me the smashed remains of these undead orcs.",
+        "Of course you have to smash them before they're any good to me.  Nothing worse than components trying to eliminate the tinker! We don't want that to happen again, I'm telling you.  I was not amused.",
+        "Good, good!  I'm glad we agree. You fetch me what I need, and I'll see what I can do for you.  You can trust me ... can't you?  Oh, no matter.  ",
+        "Marvelous!  Just fine, most satisfactory, absolutely acceptable.  Hmm!  Not bad even ... What?  What is it?  What are you looking at!? ",
+        "Hello again! Lovely day for a bit of doom, wouldn't you say?"
+      ]
+    },
+    {
+      "name": "Garreg Stonecrusher",
+      "name_sortable": "garregstonecrusher",
+      "utterances": [
+        "A spy is in our midst, kill them!",
+        "Full retreat!  Regroup in the caves!"
+      ]
+    },
+    {
+      "name": "a lurid crawler",
+      "name_sortable": "luridcrawler",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a lurid creeper",
+      "name_sortable": "luridcreeper",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a primordial menace",
+      "name_sortable": "primordialmenace",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2038039599 -1763622889:a mucous encrusted tendril\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Shin",
+      "name_sortable": "shin",
+      "drop_coin_min": 17,
+      "drop_coin_max": 166
+    },
+    {
+      "name": "a strongbox deceiver",
+      "name_sortable": "strongboxdeceiver",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 19,
+      "drop_coin_max": 294
+    }
+  ]
+}

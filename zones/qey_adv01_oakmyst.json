@@ -1,0 +1,996 @@
+{
+  "name": "Oakmyst Forest",
+  "name_sortable": "oakmystforest",
+  "region": "Karan",
+  "zonerect": "-1177.50,-462.25,-605.39,-33.11",
+  "levels": "5-10",
+  "connections": [
+    {
+      "key": "qey_village03_clone"
+    },
+    {
+      "key": "qey_village04_clone"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Adalin Emerael",
+      "name_sortable": "adalinemerael",
+      "locations": [
+        "745.14,10.59,-202.18"
+      ],
+      "utterances": [
+        "Good day to you."
+      ]
+    },
+    {
+      "name": "Akeera Sneakshot",
+      "name_sortable": "akeerasneakshot",
+      "level": 10,
+      "locations": [
+        "893.78,2.26,-315.92",
+        "872.88,1.26,-304.91",
+        "861.18,1.95,-305.32",
+        "862.07,1.94,-323.15",
+        "847.72,4.36,-322.9",
+        "826.7,7.27,-295.98",
+        "821.99,6.68,-282.91",
+        "793.62,13.15,-259.3",
+        "783.1,13.35,-256.7",
+        "781.83,13.66,-240.63",
+        "813.97,10.05,-264.92"
+      ],
+      "utterances": [
+        "Cover me while we regroup!"
+      ]
+    },
+    {
+      "name": "Ambassador Jalanderra",
+      "name_sortable": "ambassadorjalanderra",
+      "level": 11,
+      "difficulty": "heroic",
+      "locations": [
+        "870.59,14.08,-232.42"
+      ],
+      "utterances": [
+        "She didn't have to die!"
+      ]
+    },
+    {
+      "name": "Ambassador Kialee",
+      "name_sortable": "ambassadorkialee",
+      "level": 11,
+      "difficulty": "heroic",
+      "locations": [
+        "867.46,10.20,-248.14"
+      ],
+      "utterances": [
+        "Why must it come to this?"
+      ]
+    },
+    {
+      "name": "Aundor Singingsword",
+      "name_sortable": "aundorsingingsword",
+      "locations": [
+        "972.7,3.52,-204.84"
+      ],
+      "utterances": [
+        "The forest's blessing to you. It is a good day to practice sword play, is it not? "
+      ]
+    },
+    {
+      "name": "a badger cub",
+      "name_sortable": "badgercub",
+      "level": 6,
+      "locations": [
+        "953.18,2.27,-344.01",
+        "964.46,2.29,-342.61",
+        "929.21,2.28,-354.58",
+        "882.35,10.51,-295.35",
+        "883.45,10.06,-285.13",
+        "878.06,10.87,-287.44"
+      ]
+    },
+    {
+      "name": "Bardrian Vorsuth",
+      "name_sortable": "bardrianvorsuth",
+      "locations": [
+        "1073.08,-10.0,-383.93"
+      ],
+      "utterances": [
+        "Busy... Go away."
+      ]
+    },
+    {
+      "name": "a bear cub",
+      "name_sortable": "bearcub",
+      "level": 9,
+      "locations": [
+        "929.22,4.45,-299.28",
+        "930.13,2.37,-290.44",
+        "948.71,3.84,-286.55",
+        "948.02,2.92,-281.51",
+        "983.74,2.39,-238.93",
+        "967.52,2.66,-248.59",
+        "945.00,2.23,-260.28"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 76939361 988324560:Weakened Bear Claw\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Cailee Bluesheaf",
+      "name_sortable": "caileebluesheaf",
+      "locations": [
+        "890.36,2.4,-336.98"
+      ],
+      "utterances": [
+        "We train to be the best!",
+        "Blessings to you and your kin!"
+      ]
+    },
+    {
+      "name": "Calla Badgerbane",
+      "name_sortable": "callabadgerbane",
+      "purpose": "Harvesting and Collections",
+      "locations": [
+        "977.5,2.61,-341.02"
+      ],
+      "utterances": [
+        "I am able to answer any questions you have about collections or harvesting.",
+        "Harvestables are natural resources that can be found around most parts of the outdoors.  You have harvesting skills that allow you collect them. These can be seen by opening your Character window (C), clicking on the Skills tab, and selecting the General skills. Rocks increase mining, logs increase foresting, dens increase trapping, fish increase fishing, and shrubs increase gathering.",
+        "The items found through harvesting are the basic building blocks of tradeskills.  They cannot be sold to vendors, but they can be traded or sold to other players who need them for their respective tradeskill professions.  Some components that can be found through harvesting are very rare and can be worth quite a bit of money to tradeskillers.",
+        "The skill required to harvest in a given area increases along with the difficulty of the area.  If you find that you are unable to harvest in an area you should return to a less difficult area and practice.",
+        "Collectibles are seen as a glow rising from the ground. If you're close enough, you'll notice a question mark above it. Double-click or right-click the glow and select \"harvest.\" The item you gather will go into your inventory. You can examine this item in your inventory.",
+        "Your quest journal will open up automatically to the Collections tab. Use the Add button to add that item to a collection. As you travel through Norrath, you'll find different collectibles in different areas of the world. Some items can be part of more than one collection.",
+        "Continue to gather and examine all the items you find until all the icons of that collection are highlighted in your quest journal. Then you'll be able to turn the completed collection in to a collector who will reward you with some experience. If you already have a collectible in all collections that call for it, you can sell it to a merchant or trade it to another player."
+      ]
+    },
+    {
+      "name": "a clearwater frog",
+      "name_sortable": "clearwaterfrog",
+      "level": 8,
+      "locations": [
+        "978.29,2.51,-200.93",
+        "988.30,0.93,-204.13",
+        "977.32,2.35,-205.96",
+        "979.21,1.79,-214.87",
+        "972.65,1.64,-230.72",
+        "966.33,1.04,-236.39",
+        "990.88,2.22,-221.85"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1329575188 870687383:a vial of frog blood\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1422687184 118862859:a frog tongue\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a corrupted dryad",
+      "name_sortable": "corrupteddryad",
+      "level": 8,
+      "locations": [
+        "897.18,3.17,-200.68",
+        "950.82,4.98,-197.57",
+        "944.08,5.88,-195.32",
+        "944.23,5.00,-202.08",
+        "916.08,17.36,-186.84",
+        "907.94,15.69,-183.49",
+        "918.67,12.57,-168.34",
+        "926.33,13.48,-161.45",
+        "928.13,11.62,-170.95",
+        "937.53,12.28,-171.49"
+      ],
+      "utterances": [
+        "Only I shall foul up this land. ",
+        "Our darkness spreads. ",
+        "You are indeed strong, but you cannot stop our scourge.",
+        "My blood will continue to taint this land. ",
+        "My death only furthers my goals.",
+        "Going for a nice walk in the woods? ",
+        "Bet you didn't think you'd run into me here. "
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -129683591 -2085397801:a vial of dryad blood\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 230350572 1446145038:a vial of dryad blood\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Empress Anassa",
+      "name_sortable": "empressanassa",
+      "locations": [
+        "1006.99,13.22,-320.4"
+      ],
+      "utterances": [
+        "Greetings and welcome to our hallowed grove. What is it you seek?",
+        "You're the one Eunomia speaks of so highly. You served us well, but the corruption spoiling this forest still looms. We must destroy it!",
+        "The evil calls itself Rotweed and lurks in the darkness of Teardrop Cave. It buries itself in the cave walls and exudes corruption upon this woodland. ",
+        "In this age, all woodlands fight a silent battle. The forces of nature have become twisted and tormented. Rotweed is one of these corrupted creations that taints the woodlands of Norrath.",
+        "This is good, but others like Rotweed shall return someday. We will watch and defend. We of this woodland thank you."
+      ],
+      "quests": [
+        {
+          "id": 3408322286,
+          "name": "Destroy the Corruption",
+          "previous_quest": {
+            "id": 1011215585,
+            "name": "Judgement of the Dryads"
+          },
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "name": "Ferith`Anar",
+      "name_sortable": "ferithanar",
+      "level": 11,
+      "difficulty": "heroic",
+      "locations": [
+        "860.80,12.14,-274.22",
+        "867.55,1.43,-187.01",
+        "874.43,6.91,-205.79",
+        "880.64,12.32,-221.96",
+        "877.66,4.19,-238.57",
+        "865.46,11.29,-229.75"
+      ]
+    },
+    {
+      "name": "a glowmyst beetle",
+      "name_sortable": "glowmystbeetle",
+      "level": 6,
+      "locations": [
+        "777.16,8.35,-209.79",
+        "769.55,9.93,-210.76",
+        "761.33,10.28,-209.87",
+        "748.74,10.46,-207.70",
+        "765.32,10.19,-194.47",
+        "794.44,7.08,-200.13",
+        "804.36,6.70,-208.02",
+        "811.30,5.54,-195.78",
+        "793.40,7.17,-221.35"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1819652885 1717248412:an insect antenna\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a gnoll assassin",
+      "name_sortable": "gnollassassin",
+      "drop_coin_min": 36,
+      "drop_coin_max": 36
+    },
+    {
+      "name": "Grubdigger",
+      "name_sortable": "grubdigger",
+      "level": 15,
+      "difficulty": "heroic",
+      "locations": [
+        "935.33,2.26,-350.98",
+        "932.24,2.82,-328.3",
+        "903.74,2.26,-328.0",
+        "865.71,1.59,-319.57",
+        "846.18,4.42,-317.81",
+        "821.95,7.74,-291.15",
+        "829.14,4.76,-268.54",
+        "849.04,2.92,-249.8",
+        "886.62,0.65,-244.66",
+        "907.22,3.12,-218.74",
+        "937.01,2.26,-237.6",
+        "926.42,0.16,-264.09",
+        "953.67,5.48,-288.7",
+        "973.47,12.32,-285.45",
+        "939.92,2.36,-331.44"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1334143121 -690497671:Lightning Strike III (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -69637194 1554026544:Grubdigger's Paw\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Henk Newfield",
+      "name_sortable": "henknewfield",
+      "purpose": "Mender",
+      "locations": [
+        "992.43,2.25,-350.04"
+      ],
+      "utterances": [
+        "At peace or at war, my work must go on."
+      ]
+    },
+    {
+      "name": "Huntmaster Krell",
+      "name_sortable": "huntmasterkrell",
+      "locations": [
+        "910.55,2.23,-306.2",
+        "937.63,2.3,-332.26",
+        "942.22,2.22,-351.68",
+        "962.21,2.28,-351.98",
+        "985.66,2.13,-348.73",
+        "903.14,2.2,-312.71",
+        "886.34,1.86,-330.08",
+        "869.23,1.8,-329.46"
+      ]
+    },
+    {
+      "name": "Jemila",
+      "name_sortable": "jemila",
+      "purpose": "General Goods",
+      "utterances": [
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Welcome! What can I help you with?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516:a torch\\/a",
+          "price": 60
+        },
+        {
+          "gamelink": "\\aITEM -101702825 -210262797:flask of murky water\\/a",
+          "price": 7
+        },
+        {
+          "gamelink": "\\aITEM 2208995 -860442438:dried bread\\/a",
+          "price": 7
+        },
+        {
+          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a",
+          "price": 63
+        }
+      ]
+    },
+    {
+      "name": "Judge Eunomia",
+      "name_sortable": "judgeeunomia",
+      "locations": [
+        "1008.88,13.28,-318.91"
+      ],
+      "utterances": [
+        "Justice is our only recourse when the forests are torn asunder.",
+        "You are the one who aided our sapling. You can help me execute my judgment. Twisted, disloyal imposters live in the woodland. They hide amongst the noble, but they don't fool me or my sisters.",
+        "They're corrupted fayfolke--bright with beauty but twisted and corrupted to the core. They're called the sunshimmer sprites.  You must destroy them.",
+        "You proved your devotion to the dryads of this forest. The Empress has taken note of your good deeds. She awaits you."
+      ],
+      "quests": [
+        {
+          "id": 1011215585,
+          "name": "Judgement of the Dryads",
+          "previous_quest": {
+            "id": 1814316317,
+            "name": "Feed the Sapling"
+          },
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "name": "Lieutenant Charlin",
+      "name_sortable": "lieutenantcharlin",
+      "locations": [
+        "789.06,7.83,-200.36"
+      ],
+      "utterances": [
+        "Did you interrupt the meeting?",
+        "What did you discover?",
+        "Gnolls? Then all the reports were right. And that Gilrix. He was mentioned in one of the materials we obtained concerning this whole mess. But we may be a step ahead of them for once.",
+        "The book we obtained had lots of notes and plans. The book you've provided to us has all their contingency plans. If you've disrupted the meeting then the gnolls won't know precisely what happened and will fall to one of their backup plans. This gives us an excellent opportunity to strike.",
+        "Well, with this book we've got the locations where the gnoll lieutenants will be in hiding while they await orders from Gilrix. While they wait, they are vulnerable. One will be near here--take the path west and turn north before you go under the bridge, that should put you very near him, he's hiding in an alcove.",
+        "Another will be on the rocky hill south east of Clearwater Pond. The last will be in a small alcove just north west of the Western Falls.",
+        "Taking them out will be a huge victory for us here, good luck.",
+        "Have you taken out the lieutenants?",
+        "This is great news! With their lieutenants dead the gnoll presence here will be in shambles. Those that don't flee will easily be captured. You have done a great, great thing.",
+        "This land and our people owe you. Thank you.",
+        "Be careful out there, citizen.",
+        "Oh, I don't know, what was it last time I checked? Poachers maybe, or corruption spreading through the forest, I even heard some guy mention a gnoll. Things are bad, don't let me convince you otherwise, but don't believe the people who say the Oakmyst Forest is in serious danger.",
+        "Well... I do get nervous when the Tunarian Alliance steps in. It's probably nothing, but they requested a stronger Qeynos Guard presence here. I think they know more than I do.  Still, the danger Oakmyst Forest is in is pretty minor.",
+        "Minor danger. Sure, we can use help, but it's not an emergency like some might have you believe. Would you care to volunteer?",
+        "Good, glad to hear it. Even without all this \"supposed\" stuff going on I've got my share of duties. An adventurer was slain recently in these parts. Our initial report back seems to suggest poison. The problem is we have no idea what kind of poison. We know that certain animals in the forest use poison. We suspect that the poachers also use it.",
+        "Well, the poachers are spry enough to avoid detection, so we can't get a sample of their poison from them. We can, however, collect poison samples from some of the wildlife here and use that as a starting point. At most, we can find out what caused the death, and at the least we eliminate some possibilities. What do you say?",
+        "Good. Collect some poison samples from frogs, mystail rats, and the spiders. They can all be found in Oakmyst."
+      ]
+    },
+    {
+      "name": "Lieutenant Scyn",
+      "name_sortable": "lieutenantscyn",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 18,
+      "drop_coin_max": 18
+    },
+    {
+      "name": "Lulien Leafven",
+      "name_sortable": "lulienleafven",
+      "locations": [
+        "885.97,2.48,-338.75"
+      ],
+      "utterances": [
+        "Another day, another bullseye!",
+        "Practice makes perfect!",
+        "I've been here so long, that I don't even have to look at the target to hit it!"
+      ]
+    },
+    {
+      "name": "Madeline ",
+      "name_sortable": "madeline",
+      "purpose": "Guard",
+      "level": 25,
+      "difficulty": "heroic",
+      "utterances": [
+        "I hate the night shift!  If the gnolls don't attack now, I may die of boredom.",
+        "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out."
+      ]
+    },
+    {
+      "name": "a mature bear cub",
+      "name_sortable": "maturebearcub",
+      "locations": [
+        "925.14,2.95,-296.39",
+        "945.00,2.23,-260.28"
+      ]
+    },
+    {
+      "name": "a molting spider",
+      "name_sortable": "moltingspider",
+      "level": 7,
+      "locations": [
+        "918.16,15.59,-200.02"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Monteh Furthread",
+      "name_sortable": "montehfurthread",
+      "level": 10,
+      "locations": [
+        "804.51,11.36,-271.03",
+        "824.67,6.13,-269.94",
+        "853.43,2.55,-244.58",
+        "892.5,0.73,-258.33",
+        "903.08,2.14,-284.64",
+        "919.65,2.26,-290.19",
+        "938.63,2.27,-282.72",
+        "955.91,6.37,-290.92",
+        "933.03,2.24,-286.14",
+        "813.71,9.42,-271.05"
+      ],
+      "utterances": [
+        "To arms!",
+        "Flee now or meet this one's fate.",
+        "All hands retreat!"
+      ],
+      "drop_coin_min": 18,
+      "drop_coin_max": 18
+    },
+    {
+      "name": "a mystail matriarch",
+      "name_sortable": "mystailmatriarch",
+      "level": 5,
+      "locations": [
+        "877.03,0.53,-187.42",
+        "861.24,8.11,-207.08"
+      ]
+    },
+    {
+      "name": "a mystail yearling",
+      "name_sortable": "mystailyearling",
+      "level": 5,
+      "locations": [
+        "840.79,3.17,-242.21",
+        "844.69,8.04,-202.81"
+      ]
+    },
+    {
+      "name": "an Oakmyst doe",
+      "name_sortable": "oakmystdoe",
+      "level": 7,
+      "locations": [
+        "848.89,4.12,-320.47",
+        "820.27,6.90,-269.63",
+        "772.74,13.35,-248.89",
+        "785.64,13.83,-233.85",
+        "783.88,13.35,-251.21",
+        "783.55,13.39,-243.89",
+        "847.13,13.45,-301.57",
+        "851.15,13.38,-312.08",
+        "838.01,13.16,-287.59"
+      ]
+    },
+    {
+      "name": "an Oakmyst fairy",
+      "name_sortable": "oakmystfairy",
+      "level": 8,
+      "locations": [
+        "863.40,13.08,-217.82",
+        "859.57,12.79,-233.67",
+        "874.53,13.58,-216.87"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1525376366 -1417116168:azure charm\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4
+    },
+    {
+      "name": "an Oakmyst fawn",
+      "name_sortable": "oakmystfawn",
+      "level": 6,
+      "locations": [
+        "843.05,2.89,-238.81",
+        "847.66,3.00,-248.87",
+        "863.88,1.67,-241.96",
+        "855.95,2.26,-243.76",
+        "894.05,3.12,-192.32",
+        "844.07,8.79,-219.67"
+      ]
+    },
+    {
+      "name": "an Oakmyst great bear",
+      "name_sortable": "oakmystgreatbear",
+      "level": 10,
+      "locations": [
+        "967.34,8.27,-300.11",
+        "980.05,2.04,-237.75",
+        "964.44,2.25,-246.06",
+        "987.78,13.71,-283.00",
+        "1013.93,13.64,-288.96",
+        "997.63,12.88,-250.05",
+        "966.68,14.80,-264.52"
+      ]
+    },
+    {
+      "name": "an Oakmyst royal defender",
+      "name_sortable": "oakmystroyaldefender",
+      "level": 10,
+      "locations": [
+        "1008.04,12.95,-305.13",
+        "1013.26,13.21,-306.15",
+        "1002.68,13.19,-309.61"
+      ]
+    },
+    {
+      "name": "an Oakmyst spider",
+      "name_sortable": "oakmystspider",
+      "level": 8,
+      "locations": [
+        "930.35,2.26,-228.28",
+        "929.94,2.26,-233.67",
+        "936.92,3.83,-232.65",
+        "922.23,2.42,-225.40",
+        "942.42,3.05,-223.08",
+        "943.76,4.93,-204.55",
+        "947.03,5.08,-194.58",
+        "936.65,4.84,-202.69",
+        "933.00,7.98,-197.53"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an Oakmyst spirit",
+      "name_sortable": "oakmystspirit",
+      "level": 9,
+      "locations": [
+        "1017.90,13.71,-307.45",
+        "1002.35,15.97,-302.94",
+        "975.32,17.31,-255.93",
+        "974.34,15.59,-267.24",
+        "976.51,11.52,-301.83",
+        "975.87,16.96,-301.06",
+        "979.26,13.74,-308.97"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Observer Galadn",
+      "name_sortable": "observergaladn",
+      "locations": [
+        "975.57,2.26,-214.29"
+      ],
+      "utterances": [
+        "And you, adventurer."
+      ]
+    },
+    {
+      "name": "Rinduil Flintflight",
+      "name_sortable": "rinduilflintflight",
+      "locations": [
+        "899.28,2.59,-336.88"
+      ],
+      "utterances": [
+        "Can you not see that I'm concentrating?"
+      ]
+    },
+    {
+      "name": "Rotweed Thistle",
+      "name_sortable": "rotweedthistle",
+      "level": 13,
+      "difficulty": "heroic",
+      "locations": [
+        "932.00,12.00,-168.00"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 984980240 -1574956445:wooden splinter\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -766477602 -1953057581:Blackroot Club\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1812842445 -1314872285:Tangled Weed Belt\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Scholar Neola",
+      "name_sortable": "scholarneola",
+      "locations": [
+        "1012.2,13.22,-312.15"
+      ],
+      "utterances": [
+        "Why do you tread upon the fertile ground? Doing so taints the lustrous blades that our young sapling needs to grow.",
+        "The young sapling is still weak. It feeds upon the mana of this thicket but needs greater nutrients to prosper in this woodland.",
+        "I cannot leave this woodland, but you can. Within the City of Qeynos an alchemist has created a powerful nutrient that will aid the sapling. Retrieve this prized item and feed it to the growing tree. ",
+        "The sapling has a long battle ahead to become a timber lord. Your help brings it closer to this goal. Now you must seek out the Judge. She awaits those who aid this forest. "
+      ],
+      "quests": [
+        {
+          "id": 1814316317,
+          "name": "Feed the Sapling",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "name": "a shady furrier",
+      "name_sortable": "shadyfurrier",
+      "level": 6,
+      "locations": [
+        "831.57,4.47,-276.32",
+        "825.51,5.15,-279.16",
+        "806.44,11.94,-264.16",
+        "807.35,10.20,-276.17",
+        "781.08,13.35,-257.61",
+        "758.98,13.35,-230.30",
+        "761.71,13.53,-244.72",
+        "746.52,13.77,-230.87"
+      ],
+      "utterances": [
+        "Look alive! We have visitors!",
+        "Your overconfidence will be your undoing.",
+        "We must withdraw before we all die!",
+        "Cover me while we regroup!",
+        "Keep up the assault, no matter what the cost in lives!"
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 8
+    },
+    {
+      "name": "Solas",
+      "name_sortable": "solas",
+      "purpose": "Guard",
+      "level": 25,
+      "difficulty": "heroic",
+      "locations": [
+        "755.1,11.61,-189.31"
+      ]
+    },
+    {
+      "name": "Steward Tredo",
+      "name_sortable": "stewardtredo",
+      "locations": [
+        "1005.62,13.07,-261.18"
+      ],
+      "utterances": [
+        "Oh no! Poacher! Poacher! I can tell! I can tell!",
+        "Not a poacher, I see. Thank the misty winds! Sorry for thinking otherwise. With all the babble of poachers lurking Oakmyst, I thought for sure your strange face would be the last sight I'd see!"
+      ]
+    },
+    {
+      "name": "Stormbrace",
+      "name_sortable": "stormbrace",
+      "purpose": "Guard",
+      "level": 25,
+      "difficulty": "heroic",
+      "utterances": [
+        "I hate working this shift!  If the gnolls don't attack now I may die of boredom."
+      ]
+    },
+    {
+      "name": "a sunshimmer sprite",
+      "name_sortable": "sunshimmersprite",
+      "level": 8,
+      "locations": [
+        "874.71,15.54,-281.47",
+        "876.83,11.06,-286.86",
+        "886.19,13.17,-295.92",
+        "886.51,11.74,-284.87",
+        "850.89,17.54,-286.63",
+        "857.91,12.95,-281.88"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1385603239 -898323231:a vial of fairy blood\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4
+    },
+    {
+      "name": "Toppa Doppster",
+      "name_sortable": "toppadoppster",
+      "locations": [
+        "776.47,8.87,-196.41"
+      ],
+      "utterances": [
+        "You'll be a hero among my friends!",
+        "You there! Do you think you can help me?",
+        "My friends sent me out to collect some glowmyst juice from the beetles here in Oakmyst. You see, we're trying to start our own tavern and we're working on our craft. I was sent out here to collect some glowmyst juice, but...",
+        "These bugs are so disgusting! I can't stand touching them. Don't even get me started on extracting their fluid sacs.",
+        "Would you? That would be wonderful! I need ten glowmyst fluid sacs."
+      ]
+    },
+    {
+      "name": "Tracker Galera",
+      "name_sortable": "trackergalera",
+      "locations": [
+        "797.41,6.87,-207.99",
+        "841.0,3.79,-188.85",
+        "868.97,1.19,-187.86",
+        "891.78,2.75,-201.1"
+      ],
+      "utterances": [
+        "The beauty of Oakmyst sometimes overwhelms me but not as much as the sight of Ferith'Anar!",
+        "Ferith'Anar is only the most illustrious and sacred creature that trots these woods! She is a unicorn ... far from her home in the sovereign forests of Faydark."
+      ]
+    },
+    {
+      "name": "a treant sapling",
+      "name_sortable": "treantsapling",
+      "locations": [
+        "1007.0,12.97,-268.49"
+      ],
+      "utterances": [
+        "..."
+      ]
+    },
+    {
+      "name": "Truesteel",
+      "name_sortable": "truesteel",
+      "locations": [
+        "867.55,1.43,-187.01"
+      ]
+    },
+    {
+      "name": "a vicious badger",
+      "name_sortable": "viciousbadger",
+      "level": 7,
+      "locations": [
+        "954.70,2.29,-339.74",
+        "923.52,3.37,-355.39",
+        "889.54,10.58,-298.07"
+      ]
+    },
+    {
+      "name": "a young mystail rat",
+      "name_sortable": "youngmystailrat",
+      "level": 5,
+      "locations": [
+        "817.60,5.04,-219.82",
+        "886.29,1.79,-201.23",
+        "892.14,2.92,-203.36",
+        "879.23,0.48,-198.35",
+        "831.87,6.79,-209.62",
+        "837.70,7.54,-209.94",
+        "860.01,10.23,-223.57",
+        "853.20,9.38,-223.69",
+        "856.35,8.04,-204.77",
+        "864.66,7.67,-208.00"
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1832140126 1193284294:chipped shard of abjuration\\/a",
+      "locations": [
+        "878.46,2.00,-326.18"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1868197541 -626008118:chipped shard of conjuration\\/a",
+      "locations": [
+        "880.26,1.00,-244.94",
+        "924.63,4.00,-241.63"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 732206996 486779589:eagle feather\\/a",
+      "locations": [
+        "891.66,4.00,-198.78",
+        "823.80,6.00,-200.38"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1971617133 813591611:falcon feather\\/a",
+      "locations": [
+        "846.42,4.00,-237.06"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 2066139239 418255418:hawk feather\\/a",
+      "locations": [
+        "842.31,4.00,-235.46",
+        "877.26,1.00,-187.62",
+        "825.86,6.00,-198.78"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -327615186 -1572251097:plain violet butterfly\\/a",
+      "locations": [
+        "831.60,7.00,-296.89"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 722279990 -215234753:scuffed shard of divination\\/a",
+      "locations": [
+        "850.41,5.00,-322.01"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -2008154588 1880837041:scuffed shard of evocation\\/a",
+      "locations": [
+        "865.92,2.00,-316.81"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -686869063 2018792859:shattered barbarian bone fragment\\/a",
+      "locations": [
+        "822.19,7.00,-268.98"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 211153600 898123469:shattered erudite bone fragment\\/a",
+      "locations": [
+        "987.71,3.00,-348.85"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1306389734 1869011176:shattered froglok bone fragment\\/a",
+      "locations": [
+        "979.43,11.00,-299.00"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1526825307 2113563307:shattered human bone fragment\\/a",
+      "locations": [
+        "866.09,3.00,-333.17"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 736208268 -898305246:shattered iksar bone fragment\\/a",
+      "locations": [
+        "769.33,11.00,-204.08"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1433267108 -1162128573:shattered kerra bone fragment\\/a",
+      "locations": [
+        "752.44,11.00,-202.08"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -140875129 -614209625:striped purple butterfly\\/a",
+      "locations": [
+        "935.92,3.00,-354.72"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -853805826 -343823822:striped yellow butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1971617133 476040311:falcon feather\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1321366674 1325276780:chipped shard of evocation\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1832140126 2119420903:chipped shard of abjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1370134449 1141233630:duck feather\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1827919267 674824625:plain purple butterfly\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the compound ore",
+      "name_sortable": "compoundore"
+    },
+    {
+      "name": "the creature den",
+      "name_sortable": "creatureden"
+    },
+    {
+      "name": "the grizzled arbor",
+      "name_sortable": "grizzledarbor"
+    },
+    {
+      "name": "the moss encased stone",
+      "name_sortable": "mossencasedstone"
+    },
+    {
+      "name": "the muddy roots",
+      "name_sortable": "muddyroots"
+    },
+    {
+      "name": "the natural garden",
+      "name_sortable": "naturalgarden"
+    }
+  ]
+}

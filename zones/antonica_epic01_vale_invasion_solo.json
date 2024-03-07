@@ -1,0 +1,228 @@
+{
+  "name": "Invasion of the Vale",
+  "name_sortable": "invasionofthevale",
+  "region": "Karan",
+  "zonerect": "2340.00,-205.00,2616.00,114.00",
+  "levels": "16-20",
+  "type": "instance",
+  "access_quests": [
+    3612093370
+  ],
+  "connections": [
+    {
+      "key": "antonica"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a Black Magi elder",
+      "name_sortable": "blackmagielder",
+      "locations": [
+        "-2542.62,15.67,-39.71",
+        "-2528.05,15.67,-31.59",
+        "-2513.12,15.67,-46.24",
+        "-2524.43,15.67,-58.98",
+        "-2540.17,15.67,-55.55",
+        "-2518.94,15.67,-59.32"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1272105143 -1983635321:Sneak Attack II (Adept)\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 28,
+      "drop_coin_max": 28
+    },
+    {
+      "name": "a Black Magi initiate",
+      "name_sortable": "blackmagiinitiate",
+      "locations": [
+        "-2572.89,16.64,-31.62",
+        "-2573.06,16.75,-38.76",
+        "-2579.46,17.02,-24.81",
+        "-2587.91,17.6,-31.26"
+      ]
+    },
+    {
+      "name": "a Black Magi visionary",
+      "name_sortable": "blackmagivisionary",
+      "locations": [
+        "-2516.38,15.67,-21.54",
+        "-2535.98,15.67,-21.26",
+        "-2544.87,16.53,-26.18",
+        "-2508.48,16.83,-30.92",
+        "-2506.15,15.67,-56.91",
+        "-2510.78,15.67,-65.91",
+        "-2529.98,15.67,-70.78",
+        "-2552.71,15.67,-50.83"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a giantslayer basher",
+      "name_sortable": "giantslayerbasher",
+      "locations": [
+        "-2425.26,12.15,-74.24",
+        "-2481.82,17.61,-50.19",
+        "-2483.06,16.54,-21.98"
+      ],
+      "utterances": [
+        "I'm gonna squosh you!",
+        "I'm going to make you hurt so bad!"
+      ],
+      "drop_coin_min": 22,
+      "drop_coin_max": 22
+    },
+    {
+      "name": "a giantslayer brute",
+      "name_sortable": "giantslayerbrute",
+      "locations": [
+        "-2481.16,15.98,-64.54",
+        "-2502.05,15.82,-8.95",
+        "-2486.14,15.77,-90.19",
+        "-2520.99,15.76,-92.66",
+        "-2500.65,15.86,-101.83",
+        "-2500.56,15.67,-18.08"
+      ],
+      "drop_coin_min": 311,
+      "drop_coin_max": 311
+    },
+    {
+      "name": "a Giantslayer leasher",
+      "name_sortable": "giantslayerleasher",
+      "locations": [
+        "-2461.46,16.54,-66.24",
+        "-2468.98,15.68,-82.8",
+        "-2460.81,16.33,-9.57",
+        "-2458.69,16.66,-3.45",
+        "-2458.15,17.23,16.62"
+      ],
+      "utterances": [
+        "Giantslayers, take no prisoners!",
+        "No!  I can't be defeated!  Not by you!",
+        "There's no escaping my might!"
+      ],
+      "drop_coin_min": 34,
+      "drop_coin_max": 34
+    },
+    {
+      "name": "a giantslayer thug",
+      "name_sortable": "giantslayerthug",
+      "locations": [
+        "-2370.21,10.94,-54.91",
+        "-2487.35,17,-51.34",
+        "-2500.89,16.04,-4.72",
+        "-2487.08,15.88,-102.27",
+        "-2561.64,16.17,-29.62",
+        "-2458.52,16.97,10.07"
+      ],
+      "utterances": [
+        "This battle will be the end of you!",
+        "The Giantslayers will avenge me!",
+        "There's no escaping my might!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 18,
+      "drop_coin_max": 41
+    },
+    {
+      "name": "a Giantslayer tracker",
+      "name_sortable": "giantslayertracker",
+      "locations": [
+        "-2503.34,15.67,-82.75"
+      ],
+      "utterances": [
+        "There's no escaping my might!",
+        "The Giantslayers will avenge me!"
+      ]
+    },
+    {
+      "name": "a hunting mongrel",
+      "name_sortable": "huntingmongrel",
+      "locations": [
+        "-2459.84,16.41,-67.08",
+        "-2467.35,15.68,-82.48",
+        "-2460.11,16.53,-6.38",
+        "-2505.21,15.67,-80.32",
+        "-2455.76,16.54,5.28",
+        "-2460.03,17.2,14.2",
+        "-2462.72,17.81,26.18",
+        "-2458.27,17.9,31.87",
+        "-2467.85,18.27,32.47",
+        "-2452.8,18.22,32.37"
+      ]
+    },
+    {
+      "name": "a Portal Abhorrent",
+      "name_sortable": "portalabhorrent",
+      "locations": [
+        "-2529.18,15.67,-45.61"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1018180572 693570904:Abhorrent's Woven Mittens\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a Portal Abomination",
+      "name_sortable": "portalabomination",
+      "locations": [
+        "-2529.49,15.67,-45.33"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -459384718 -174115038:Abominations Silk Shawl\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a Portal Atrocity",
+      "name_sortable": "portalatrocity",
+      "locations": [
+        "-2529.47,15.67,-45.43"
+      ],
+      "utterances": [
+        "Just when it was starting to get dull.",
+        "Vengeance will be mine."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1849840489 2012139044:Abominations Runebraided Wristband\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "an unlucky adventurer",
+      "name_sortable": "unluckyadventurer",
+      "locations": [
+        "-2373.28,10.93,-56.37"
+      ]
+    },
+    {
+      "name": "a Windstalker grizzly",
+      "name_sortable": "windstalkergrizzly",
+      "locations": [
+        "-2471.89,16.93,-60.34"
+      ]
+    }
+  ]
+}

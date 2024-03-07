@@ -1,0 +1,25 @@
+{
+  "name": "Crushbone Keep",
+  "name_sortable": "crushbonekeep",
+  "region": "Faydwer",
+  "levels": "20-30",
+  "maps": [
+    {
+      "name": "Main Floor"
+    },
+    {
+      "name": "Basement"
+    },
+    {
+      "name": "Upper Floor"
+    }
+  ],
+  "connections": [
+    {
+      "key": "exp03_rgn_greater_faydark"
+    },
+    {
+      "key": "exp03_dun_crushbone_keep_epic01_throne"
+    }
+  ]
+}

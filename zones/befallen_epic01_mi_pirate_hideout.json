@@ -1,0 +1,77 @@
+{
+  "name": "The Buccaneer's Rest",
+  "name_sortable": "buccaneersrest",
+  "region": "Karan",
+  "zonerect": "-7.00,-71.00,52.00,-29.00",
+  "levels": "10-12",
+  "type": "instance",
+  "access_quests": [
+    3466224843
+  ],
+  "connections": [
+    {
+      "key": "antonica"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a Thexian brine contaminator",
+      "name_sortable": "thexianbrinecontaminator",
+      "level": 10,
+      "locations": [
+        "-33.46,-45.79,-51.85",
+        "-22.91,-45.79,-54.52"
+      ]
+    },
+    {
+      "name": "a Thexian commander",
+      "name_sortable": "thexiancommander",
+      "level": 12,
+      "difficulty": "heroic",
+      "locations": [
+        "-46.45,-45.28,-45.46"
+      ]
+    },
+    {
+      "name": "a Thexian corsair",
+      "name_sortable": "thexiancorsair",
+      "level": 12,
+      "difficulty": "heroic",
+      "locations": [
+        "-40.26,-45.79,-45.19",
+        "-30.78,-45.8,-54.31",
+        "-20.38,-45.79,-51.78",
+        "-11.51,-45.79,-53.67",
+        "-3.99,-45.71,-44.83",
+        "2.18,-45.79,-53.87",
+        "-32.42,-45.79,-49.10"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 22,
+      "drop_coin_max": 26
+    },
+    {
+      "name": "a Thexian corsair recruit",
+      "name_sortable": "thexiancorsairrecruit",
+      "level": 12,
+      "locations": [
+        "-43.49,-45.79,-45.43"
+      ]
+    },
+    {
+      "name": "a Thexian wave crasher",
+      "name_sortable": "thexianwavecrasher",
+      "level": 10,
+      "locations": [
+        "-33.87,-45.79,-54.4",
+        "-22.99,-45.79,-47.29",
+        "-33.01,-45.79,-46.89"
+      ]
+    }
+  ]
+}

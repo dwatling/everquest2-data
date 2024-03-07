@@ -1,0 +1,119 @@
+{
+  "name": "Gobblerock's Hideout",
+  "name_sortable": "gobblerockshideout",
+  "region": "D'Lere",
+  "zonerect": "-20.00,-200.00,290.00,164.00",
+  "levels": "25-40",
+  "type": "instance",
+  "access_quests": [
+    2828355062
+  ],
+  "connections": [
+    {
+      "key": "commonlands"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Boss Gobblerock",
+      "name_sortable": "bossgobblerock",
+      "level": 30,
+      "locations": [
+        "1.46,1.26,-140.24"
+      ]
+    },
+    {
+      "name": "Cookie",
+      "name_sortable": "cookie",
+      "level": 29,
+      "locations": [
+        "-38.85,1.26,-75.72"
+      ]
+    },
+    {
+      "name": "The Gobbler",
+      "name_sortable": "gobbler",
+      "level": 33,
+      "locations": [
+        "-3.40,-0.08,-110.38"
+      ]
+    },
+    {
+      "name": "Gobblerock brute",
+      "name_sortable": "gobblerockbrute",
+      "level": 27
+    },
+    {
+      "name": "Gobblerock butcher",
+      "name_sortable": "gobblerockbutcher",
+      "level": 27
+    },
+    {
+      "name": "Gobblerock grunt",
+      "name_sortable": "gobblerockgrunt",
+      "level": 27
+    },
+    {
+      "name": "Gobblerock haruspex",
+      "name_sortable": "gobblerockharuspex",
+      "level": 27
+    },
+    {
+      "name": "Gobblerock hooligan",
+      "name_sortable": "gobblerockhooligan",
+      "level": 27
+    },
+    {
+      "name": "Gobblerock prophet",
+      "name_sortable": "gobblerockprophet",
+      "level": 27
+    },
+    {
+      "name": "Gobblerock shaman",
+      "name_sortable": "gobblerockshaman",
+      "level": 27
+    },
+    {
+      "name": "Gobblerock swindler",
+      "name_sortable": "gobblerockswindler",
+      "level": 27
+    },
+    {
+      "name": "Gobblerock trickster",
+      "name_sortable": "gobblerocktrickster",
+      "level": 27
+    },
+    {
+      "name": "Gugrut",
+      "name_sortable": "gugrut",
+      "level": 28,
+      "locations": [
+        "-14.15,0.91,47.69"
+      ]
+    },
+    {
+      "name": "Lieutenant Charg",
+      "name_sortable": "lieutenantcharg",
+      "level": 29,
+      "locations": [
+        "-50.09,2.19,-55.03"
+      ]
+    },
+    {
+      "name": "a trained slug",
+      "name_sortable": "trainedslug",
+      "level": 28,
+      "locations": [
+        "36.91,0.00,-1.90"
+      ]
+    },
+    {
+      "name": "Trainer Mukluk",
+      "name_sortable": "trainermukluk",
+      "level": 29,
+      "locations": [
+        "-48.88,0.81,1.30"
+      ]
+    }
+  ]
+}

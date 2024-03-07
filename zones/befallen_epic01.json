@@ -1,0 +1,41 @@
+{
+  "name": "The Tomb of Valor",
+  "name_sortable": "tombofvalor",
+  "region": "Karan",
+  "zonerect": "-7.00,-71.00,52.00,-29.00",
+  "levels": "25-35",
+  "type": "instance",
+  "access_quests": [
+    1001408625
+  ],
+  "connections": [
+    {
+      "key": "befallen"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Lord Chesgard",
+      "name_sortable": "lordchesgard",
+      "utterances": [
+        "What a foolish servant to have fallen so."
+      ]
+    },
+    {
+      "name": "a restless stormlord",
+      "name_sortable": "restlessstormlord",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 93,
+      "drop_coin_max": 1197
+    }
+  ]
+}

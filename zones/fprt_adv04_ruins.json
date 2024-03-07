@@ -1,0 +1,514 @@
+{
+  "name": "The Ruins",
+  "name_sortable": "ruins",
+  "region": "D'Lere",
+  "levels": "10-15",
+  "connections": [
+    {
+      "key": "fprt_adv03_sprawl"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Arms Dealer Nylzs",
+      "name_sortable": "armsdealernylzs",
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 807551990 2029829026:maple sorcerer's staff\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1008
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 162537265 76960024:maple wand\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1008
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "a Brokentusk crusher",
+      "name_sortable": "brokentuskcrusher",
+      "utterances": [
+        "Help! Intruders are here to kill us all.",
+        "Perfect! This one has some nice things.",
+        "Run!  They'll kill us all.",
+        "Help!  I can't feel my arm."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Brokentusk guard",
+      "name_sortable": "brokentuskguard",
+      "utterances": [
+        "Everyone, over here. Kill them and take their boots!",
+        "Quick, get them off me!",
+        "Uh ohhhhhhhhh!",
+        "Help! Intruders are here to kill us all.",
+        "Run!  They'll kill us all.",
+        "Perfect! This one has some nice things."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -555489665 -128620306:Advanced Scholar Volume 11\\/a",
+          "chest": true
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Brokentusk overseer",
+      "name_sortable": "brokentuskoverseer",
+      "utterances": [
+        "Perfect! This one has some nice things.",
+        "Uh ohhhhhhhhh!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 17,
+      "drop_coin_max": 17,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Brokentusk pawn",
+      "name_sortable": "brokentuskpawn",
+      "utterances": [
+        "Perfect! This one has some nice things.",
+        "Help! Intruders are here to kill us all.",
+        "Run!  They'll kill us all.",
+        "Everyone, over here. Kill them and take their boots!",
+        "Help!  I can't feel my arm.",
+        "Uh ohhhhhhhhh!",
+        "I can handle this one.",
+        "Quick, get them off me!",
+        "I think we should just run!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 353672532 -1527805147:gurgold axe\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1271892118 40390487:Supernatural Orb\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1328289081 -1699088314:an orc spine\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1866084608 -680619012:broken block of ore\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 636718322 -1641997668:Dark Pyre (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1403161520 697071981:Misfortune's Kiss II (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1414719550 -1201546633:Scout Grandmaster Recipes Volume II\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1202278372 1384654712:advanced craftsman volume 10\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1525376366 -1417116168:azure charm\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 71,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Brokentusk pounder",
+      "name_sortable": "brokentuskpounder",
+      "utterances": [
+        "Help! Intruders are here to kill us all."
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Brokentusk prophet",
+      "name_sortable": "brokentuskprophet",
+      "utterances": [
+        "Help!  I can't feel my arm.",
+        "Perfect! This one has some nice things.",
+        "Run!  They'll kill us all.",
+        "Everyone, over here. Kill them and take their boots!",
+        "Quick, get them off me!",
+        "Help! Intruders are here to kill us all."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1045062603 1859248762:shoreside padded helmet\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 19,
+      "drop_coin_max": 22
+    },
+    {
+      "name": "a Brokentusk shaman",
+      "name_sortable": "brokentuskshaman",
+      "utterances": [
+        "Don't hide behind me, coward!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Brokentusk warrior",
+      "name_sortable": "brokentuskwarrior",
+      "utterances": [
+        "Help!  I can't feel my arm.",
+        "Uh ohhhhhhhhh!",
+        "Everyone, over here. Kill them and take their boots!",
+        "So fragile, so...funny!",
+        "Dance little one!",
+        "Dance, or I give you to HIM!",
+        "Perfect! This one has some nice things.",
+        "Quick, get them off me!"
+      ],
+      "drop_coin_min": 17,
+      "drop_coin_max": 29,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Captain Arellius",
+      "name_sortable": "captainarellius",
+      "utterances": [
+        "Stand your ground! I will defend Freeport to my dying breath! Are you friend or foe?",
+        "You've entered a war zone, citizen. The Freeport Militia is here in force to defend our city. Two orc clans seem to be working together in an attempt to take over the Ruins and use it as a staging ground to attack Freeport.",
+        "You seem inexperienced.  Perhaps if you delivered something for me in the Commonlands, the journey would better prepare you for what lies beyond these walls. ",
+        "Both tribes have been lurking in the Ruins for some time, but they've never been this aggressive before. They seem to have become more organized and have obtained better weapons and armor.",
+        "The weaker of the two tribes is called the Brokentusk. The stronger clan is known as the Lonetusk. I don't know much about their background personally, but my lieutenants stationed in the field may have more information.",
+        "Take a few steps inside the archway and you'll see why. This is an old section of Freeport that has long been abandoned. Its once stately manors and exclusive boutiques are now burned-out shells and broken walls.",
+        "Oh yes. What we now call the Ruins was once known as Shoreside, an expensive and very exclusive residential district. It was favored by the wealthy for its ocean view and isolation from the hustle and bustle of the city, but the irony is that those very qualities led to its downfall.",
+        "Freeport has come under attack many times, and our Militia maintains a strong presence in the Commonlands to fend off the Bloodskull orcs. During one particularly fierce battle, the bulk of our forces were committed to a frontal assault on the city gates.",
+        "In an unusually clandestine move, the Brokentusk and Lonetusk tribes seized the opportunity to sneak into the Shoreside docks by nightfall. The cowardly beasts overpowered the small garrison left to defend the district, then proceeded to burn and pillage everything they found. Many noble citizens of Freeport died in that conflict.",
+        "As I said, most of our troops were busy fighting in the Commonlands. By the time reinforcements could be sent, the damage had been done. Since Shoreside was isolated and difficult to defend, it was decided that there was no sense in rebuilding it. The Sprawl serves as a buffer between the Ruins and the city proper, so Freeport remains secure. Still, there was a heavy price to be paid.",
+        "Even though the invaders were defeated, War Duke Eutarius, the high-ranking Militia officer who had been charged with the city's defense, was executed in the plaza for his incompetence and failure. The Overlord does not tolerate mistakes.",
+        "The once exclusive Shoreside became the Ruins, a broken-down home to beggars and squatters. Some remnants of the orc tribes remained as well, but they were so weak and disorganized that they posed little threat. In fact, this was a relatively calm area until quite recently.",
+        "I do not know, adventurer. Perhaps that is something you can help discover. But we must act quickly, lest these orcs rise up and do to the rest of Freeport what they once did to Shoreside.",
+        "I must remain here to give assignments to incoming troops. Go through the archway and report to one of my lieutenants, Argosian. He will tell you how you can best serve our cause.",
+        "Good. Oh, be sure to pay homage to the statue of our beloved Overlord. It would prove most beneficial for you to bask in the wisdom of his visage.",
+        "Lieutenant Argosian at the first outpost will be responsible for your initial training. Do not return to me until he has ordered you to do so.",
+        "The Freeport Militia will make a stand against these orcs!",
+        "Hail, citizen of Freeport. I am told that you are currently in the service of Enforcer Kurdek, the Dreadnaught who dwells in the Sprawl.",
+        "Kurdek informed me how you helped him keep the rival gangs of the Sprawl in check. The help of true heroes of Freeport like you is needed if we are to defend our city against this attack.",
+        "Take this letter to Mooshga, an ogre who works in the Commonlands. Are you familiar with the area?",
+        "Use the bell here on the docks to travel within Freeport and choose the City of Freeport as your destination. From there, travel through the city until you arrive at the main gate that leads to the Commonlands.",
+        "Remember that the Commonlands can be a dangerous place. Judge your battles carefully, <player name>. When you gather allies and are ready to undertake the fight against the Lonetusk orcs, return here.",
+        "More recruits are needed to man the barricades!",
+        "Hail, Citizen of Freeport. I have been informed that you are in the service of Custodian Zaddar, that haughty Erudite from the Graveyard.",
+        "Zaddar informed me how crucial your help was in repairing the ward in the Graveyard. The help of true heroes of Freeport like you is needed if we are to defend our city against this attack.",
+        "To arms! The Ruins must be defended against these mindless brutes!",
+        "Have you completed your assignments for Lieutenant Argosian at the first outpost?",
+        "Good work! Did you find out what's behind this increase in orc activity?",
+        "At least we can rule that out, but clearly further investigation is required. Here, help yourself to your choice of equipment from our supply chests. You should find something that will be of use in our continued efforts against the orc uprising.",
+        "The next step in our investigation will be an arduous one. Although to this point you could journey alone, some parts of the Ruins can be deadly for the lone adventurer.",
+        "I knew you were daring!  My advice is to gather some comrades and form a group. There is safety in numbers, especially in places like this. As you venture further out into the world, you will find groups to be extremely helpful in achieving your goals.",
+        "To be honest, I could tell that the Brokentusk were too weak to be behind the recent attacks. They have always followed the lead of their more powerful brethren, the Lonetusk orcs.",
+        "Yes, the Lonetusk are much more deadly. They are more inclined to work together, and this will require a strong group of adventurers to stand against them.",
+        "I need you to report to Lieutenant Imperidus, who is stationed at the second Militia outpost deeper in the Ruins. It is located to the west of here, near the gate to the Sprawl. She is heading up the Lonetusk investigation.",
+        "Again, keep in mind that even travel to the second outpost will be dangerous. Travel with companions to ensure your safety. Do not report back to me until you have followed the lieutenant's orders.",
+        "Hail, citizen of Freeport. I've heard that you have been sent here by Inquisitor Thorson, the officer of the Dismal Rage who is stationed in the Sunken City.",
+        "Thorson informed me how you helped uncover Curfeld's plot to destroy Freeport. The help of true heroes of Freeport like you is needed if we are to defend our city against this attack."
+      ]
+    },
+    {
+      "name": "a courageous defender",
+      "name_sortable": "courageousdefender",
+      "utterances": [
+        "The sons of Zek are a curse upon us all!"
+      ]
+    },
+    {
+      "name": "Ernest Ironthumb",
+      "name_sortable": "ernestironthumb",
+      "utterances": [
+        "I am able to answer any questions you have about collections or harvesting.",
+        "Harvestables are natural resources that can be found around most parts of the outdoors.  You have harvesting skills that allow you collect them. These can be seen by opening your Character window (C), clicking on the Skills tab, and selecting the General skills. Rocks increase mining, logs increase foresting, dens increase trapping, fish increase fishing, and shrubs increase gathering.",
+        "The items found through harvesting are the basic building blocks of tradeskills.  They cannot be sold to vendors, but they can be traded or sold to other players who need them for their respective tradeskill professions.  Some components that can be found through harvesting are very rare and can be worth quite a bit of money to tradeskillers.",
+        "The skill required to harvest in a given area increases along with the difficulty of the area.  If you find that you are unable to harvest in an area you should return to a less difficult area and practice.",
+        "Collectibles are seen as a glow rising from the ground. If you're close enough, you'll notice a question mark above it. Double-click or right-click the glow and select \"harvest.\" The item you gather will go into your inventory. You can examine this item in your inventory.",
+        "Your quest journal will open up automatically to the Collections tab. Use the Add button to add that item to a collection. As you travel through Norrath, you'll find different collectibles in different areas of the world. Some items can be part of more than one collection.",
+        "Continue to gather and examine all the items you find until all the icons of that collection are highlighted in your quest journal. Then you'll be able to turn the completed collection in to a collector who will reward you with some experience. If you already have a collectible in all collections that call for it, you can sell it to a merchant or trade it to another player.",
+        "Excellent work learning about harvesting!  As a reward, allow me to offer you this box for storing harvested items.  It's quite heavy, so I suggest you put it in your bank rather than carrying it, but it has plenty of storage room for harvests."
+      ]
+    },
+    {
+      "name": "Fangtarn",
+      "name_sortable": "fangtarn",
+      "utterances": [
+        "At peace or at war, my work must go on.",
+        "Greetings!  I noticed you harvesting out there.  Are you interested in trying your hand at making something out of them?",
+        "Nay, not hard at all once you wrap your head around it.  But I'm not one to keep talking all day.  Why don't you just jump in and try it?",
+        "Pick up a copy of my lucky charm recipe over there beside me, and scribe it into your recipe book.  Then grab some coal from the sack.  You'll also need one of the tin clusters and lead clusters that you harvested earlier, and make sure you have them with you in your bags.",
+        "How did you make out?  Was my recipe simple enough?",
+        "Congratulations!  You seem to have a right knack for crafting things, if I do say so.  If you're interested in learning more about crafting, you should look up a professional tradeskill tutor who can tell you all the details."
+      ]
+    },
+    {
+      "name": "Lieutenant Argosian",
+      "name_sortable": "lieutenantargosian",
+      "utterances": [
+        "There's no time for chatting. I need to mobilize my forces to take care of these cursed orcs!",
+        "Good, we can always use more recruits to help our cause. Freeport must be defended.",
+        "The Ruins are being overrun, and it's time for us to take a stand. We must ensure that the orcs don't infiltrate the rest of the city.",
+        "We haven't uncovered that yet, and frankly I don't have time to play detective. Are you willing to help the Freeport Militia turn back this tide of aggression?",
+        "Excellent! It looks like the captain was wise to send you to me. Our outpost here is being beset on both sides by the Brokentusk clan of orcs. Once they were pathetically weak, but they seem to be training for a larger offensive.",
+        "A large number of Brokentusk pawns have been seen gathering to the south. Go up the stairs and help my troops strike some fear into them.",
+        "I mean make them DEAD! Look, if this is too much for you, move along, because I've got other recruits to train. Will you help us or not?",
+        "Good! Let's test your mettle against the pawns. Kill at least ten of those beasts before you dare return to me. If you succeed, I'll gain some confidence in your abilities.",
+        "Get to work, citizen. You have your orders, now carry them out.",
+        "We will make our stand against the Brokentusk and erase them from our city.",
+        "Hello, recruit. Did you fulfill your duty to Freeport against the Brokentusk pawns?",
+        "Well, nice work. It's almost as if you've killed orc pawns before! Maybe I can trust you with a more challenging task.",
+        "Those pawns were child's play, really. I just wanted to test your dedication to our cause. Now I need you to take on some tougher members of the Brokentusk clan.",
+        "Some more formidable Brokentusk orcs are gathering to the north. They've taken up residence in some of the abandoned ruins there, and I've gotten reports that they have captured some of the vagrant squatters that used to reside there.",
+        "After Shoreside was abandoned and became known as the Ruins, groups of vagrant beggars moved in here and seemed to coexist with the orcs. Our patrols have discovered that the Brokentusk recently killed most of the squatters, however, and are keeping a few as captives.",
+        "Even though the squatters are not citizens, the Overlord will not tolerate unsanctioned violence within his borders. I need you to head north and teach the Brokentusk a lesson. Take special care to rid the area of any overseers you notice holding prisoners.",
+        "I knew I could count on you. Return to me when the orcs have paid for their crimes.",
+        "See you're back. Have you taught the Brokentusk a lesson?",
+        "My confidence in you is growing, adventurer! The time has come to see if we can find out what exactly is behind this orc uprising.",
+        "Based on the change that has come over these orcs, I think something is afoot.",
+        "The Militia didn't pay much attention to the Brokentusk until very recently. They were a pathetically weak clan, made up of mostly outcasts of the Bloodskull orcs in the Commonlands. But it seems they have new armor and stronger weapons, and seem to be on the move.",
+        "Not yet. My scouts have reported overhearing the orcs say that their prophets are guarding some kind of shrine deeper in the Ruins. I'd like to rule out any sort of divine influence, so I need you to find out whether or not this shrine actually exists. Are you willing?",
+        "Glad to hear we can count on you, adventurer. Rumor has it that this shrine may be located past the ruins to the north, though I don't have a precise location. When you find it, be sure to get close and examine it carefully.",
+        "Be sure to dispose of as many of those prophets as you can, and their warriors as well. If you find this shrine, try to determine that it is the source of their increased strength. Be careful though, there may be powerful forces protecting it.",
+        "Go now, and report back when your duty is done.",
+        "Hello again, orc slayer. Did you find the shrine I ordered you to look for?",
+        "Well, good work in any case. What is the purpose of the shrine?",
+        "I guess no one ever accused the Brokentusk of being too bright. Unfortunately, that means we haven't uncovered any evidence that explains why they are rising up.",
+        "Thank you for your assistance. I have already informed Captain Arellius what you have done for the Militia. She will happily reward you for your efforts.",
+        "You are welcome to stay and help us clear out more of these Brokentusks, but you really should report back to the captain to see if she has new orders for you. It's been a pleasure working with you.",
+        "Travel safely, citizen of Freeport."
+      ]
+    },
+    {
+      "name": "Lieutenant Imperidus",
+      "name_sortable": "lieutenantimperidus",
+      "utterances": [
+        "There is no peace to be had with orcs! Destroy them!",
+        "You've entered dangerous territory, traveler. Unless you have been ordered to report for duty, I recommend you go back from whence you came.",
+        "Ah, you must be the one Argosian told me about. He says you have done some fine work in controlling the Brokentusk.",
+        "Well, you can forget all that! The Lonetusk makes the Brokentusk look like weak infants. My Militia officers must work in teams to defeat them, as too many have perished alone. You would do well to follow the same advice.",
+        "That is good to hear. It would be beneficial for your companions to have received orders from Captain Arellius. That way I can assign you all the same duties and you can be rewarded for performing the same tasks.",
+        "In the future, you should remember that your group mates can progress together most efficiently if you undertake the same quests at the same time.",
+        "Now, on to the matter at hand. We must put the Lonetusk in their place and determine where their improved weapons and armor are coming from.",
+        "The first thing we must do is demoralize them. We've noticed that the Lonetusk have brought in statues, either to worship or merely to inspire them. Even orcs need their morale boosted, it seems.",
+        "Our surest path to victory is to take the fight out of them. Go out there and face the Lonetusk, and deface any statues you see. Seek out their supplies of food and drink and spoil them. Without symbols of victory to inspire them and food in their bellies, their spirits will crumble and they will become easy pickings for us.",
+        "How dare you question an officer of the Freeport Militia! I have engineered a campaign of demoralization which cannot fail."
+      ]
+    },
+    {
+      "name": "a Lonetusk sentry",
+      "name_sortable": "lonetusksentry",
+      "utterances": [
+        "Incoming! Summon the warriors.",
+        "I can't see!  Where are they?"
+      ]
+    },
+    {
+      "name": "a Lonetusk warrior",
+      "name_sortable": "lonetuskwarrior",
+      "utterances": [
+        "Those are nice boots!",
+        "I can't see!  Where are they?"
+      ]
+    },
+    {
+      "name": "Mardyp Prunt",
+      "name_sortable": "mardypprunt",
+      "utterances": [
+        "Respect enemies!",
+        "If enemies strong, respect them!",
+        "Orc strong! Not THAT strong, but strong enough for respect! Mardyp talk to friend in Big Bend. Friend tell Mardyp that something in orc tusks make orcs more fierce, more strong! Mardyp killing orcs fine, but crushing fangs to eat takes time. You help Mardyp?",
+        "Get more fangs while Mardyp crush ones I already have. All orcs have fangs. Mardyp need 20!",
+        "Good! Mardyp go back to crushing.",
+        "Orc fangs?",
+        "Good! Mardyp very happy! Soon Mardyp make these into soup or drink or something! Unless that too much work, then Mardyp just eat it."
+      ]
+    },
+    {
+      "name": "Pitrova",
+      "name_sortable": "pitrova",
+      "utterances": [
+        "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor, are you?",
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ]
+    },
+    {
+      "name": "Visage of the Overlord",
+      "name_sortable": "visageoftheoverlord",
+      "utterances": [
+        "In story and legend, the sons of Zek are said to be stupid and disorganized. No more. The ancient curse that clouded their minds has been lifted, and today, the sons of Zek are as disciplined as any soldier of Qeynos. But now they face the warriors of Freeport: show them what this means. ",
+        "But there are those among you who know little of my past and my glorious deed. I am Lucan D'Lere, and it is my will and steel that brought Freeport safely through the Age of Cataclysms. Even before the land was broken, I was renowned as a warrior, and I was chosen to rule this glorious city."
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1868197541 -1710679381:chipped shard of conjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 164202245 -1101324040:chipped shard of divination\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -576796482 987236999:plain brown moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 736208268 -407626886:shattered iksar bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1744325928 182650452:shattered ogre bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1020901006 -59096212:striped brown moth\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the gangly arbor",
+      "name_sortable": "ganglyarbor"
+    },
+    {
+      "name": "the pale roots",
+      "name_sortable": "paleroots"
+    },
+    {
+      "name": "the ravaged natural garden",
+      "name_sortable": "ravagednaturalgarden"
+    },
+    {
+      "name": "the rugged ore",
+      "name_sortable": "ruggedore"
+    },
+    {
+      "name": "the rustic stone",
+      "name_sortable": "rusticstone"
+    }
+  ]
+}

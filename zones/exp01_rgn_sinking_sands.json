@@ -1,0 +1,43 @@
+{
+  "name": "The Sinking Sands",
+  "name_sortable": "sinkingsands",
+  "region": "Desert of Ro",
+  "description": "Once known as the Desert of Ro, it is home to the city of Maj'dul, as well as many tribes of fierce gnolls and nomads. The ruins of the Silent City, the Living Tombs, and other ancient ruins are buried among the desert sands",
+  "levels": "50-60",
+  "connections": [
+    {
+      "key": "exp01_rgn_pillars_of_flame"
+    },
+    {
+      "key": "exp01_dun_clefts_of_rujark"
+    },
+    {
+      "key": "exp01_dun_living_tombs"
+    },
+    {
+      "key": "exp01_rgn_sinking_sands_epic01_lockjaw_dorns_cache"
+    },
+    {
+      "key": "exp01_dun_shimmering_citadel_epic01_bottle"
+    },
+    {
+      "key": "exp01_dun_silent_city"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Honest Ali",
+      "name_sortable": "honestali",
+      "utterances": [
+        "Come look at my exotic goods!  Buy something to show the family back home!  You won't find better deals in the city, I can tell you that!"
+      ]
+    },
+    {
+      "name": "a nomadic carpet keeper",
+      "name_sortable": "nomadiccarpetkeeper",
+      "utterances": [
+        "Greetings traveler, how can I assist you today?"
+      ]
+    }
+  ]
+}

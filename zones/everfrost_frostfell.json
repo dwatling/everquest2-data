@@ -1,0 +1,1266 @@
+{
+  "name": "Frostfell Wonderland Village",
+  "name_sortable": "frostfellwonderlandvillage",
+  "region": "Everfrost",
+  "zonerect": "-699.00,-1873.00,73.00,-1099.00",
+  "connections": [
+    {
+      "key": "live_frostfell_workshop"
+    },
+    {
+      "key": "permafrost_frostfell_crafting"
+    },
+    {
+      "key": "permafrost_frostfell"
+    },
+    {
+      "key": "permafrost_frostfell_heroic"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Acorn Kornelius",
+      "name_sortable": "acornkornelius",
+      "locations": [
+        "396.33,-36.39,-1257.04"
+      ]
+    },
+    {
+      "name": "Aildiun Mawdrun",
+      "name_sortable": "aildiunmawdrun",
+      "purpose": "League of Freethinkers",
+      "locations": [
+        "51.13,-4.09,-1179.25"
+      ],
+      "utterances": [
+        "What reasons do you have interrupting me here? Can you not see you are blocking my view?",
+        "What would give you that impression?",
+        "Well, unless you happen to have some skills of stealth you cannot help me.",
+        "There is an event that recently came to our attention that we need to get a bit more insight into what's going on. We need someone to sneak in and place listening devices so that we may learn the truth behind it all.",
+        "It is an ice fortress where we believe an ice dragon egg is being kept.",
+        "You would need to get out safely. We would like to know the mission is a success without having to scrape you up with a shovel.",
+        "If you are up for the task I will leave it in your hands, but you will have to find your own way of sneaking in... Conventional methods have not seemed to work thus far. Are you up for the challenge?",
+        "Very well then. Return to me with news of your success or do not bother returning at all. ",
+        "You have returned! I must say I am a bit surprised to see you return in one piece. But... what is that awful smell?!",
+        "Very creative but I fear that smell will not go away for a while. Did you at least place all 10 of the devices?",
+        "Outstanding! Here, take this for your efforts. You should see if you can find out more about this event. I assure you this will change the world as you see it."
+      ]
+    },
+    {
+      "name": "a candymaker",
+      "name_sortable": "candymaker",
+      "locations": [
+        "85.83,-34.85,-1625.93",
+        "77.84,-34.85,-1631.99"
+      ]
+    },
+    {
+      "name": "Ceufroy Bilberry",
+      "name_sortable": "ceufroybilberry",
+      "locations": [
+        "260.39,-38.97,-1440.57"
+      ],
+      "utterances": [
+        "Coming through!"
+      ]
+    },
+    {
+      "name": "a drakerfly",
+      "name_sortable": "drakerfly",
+      "locations": [
+        "479.16,4.83,-1562.42"
+      ]
+    },
+    {
+      "name": "Frestishan",
+      "name_sortable": "frestishan",
+      "purpose": "Candy Cane Committee",
+      "locations": [
+        "421.83,71.69,-1556.7"
+      ],
+      "utterances": [
+        "Oh, no! This is just... terrible! Our candy cane surplus! It's been... stolen! By E'ci cubes!",
+        "I don't know! It's like the essence of E'ci has gone mad! Just went and slurped all the candy canes up!",
+        "Well chum, I think there is something you can do. Return to the frozen waters below, and chase those candy-stealing E'ci cubes down! Just know that the essence of E'ci is only revealing a few of the cubes at a time.",
+        "Oh, and watch out! Earlier I saw some Humbugs leaving gifts upon the ice. I'm not sure if they'll help or hinder you, so be sure to approach them with care!",
+        "Fantastic! Go on down to the ramp leading to the ice, over near the Icy Keep. There's a present I left down there. It may give you just the boost you need to grab all those frozen treats, before they melt away!"
+      ]
+    },
+    {
+      "name": "a frostfell cube",
+      "name_sortable": "frostfellcube",
+      "locations": [
+        "460.46,-38.97,-1403.33",
+        "44.23,-38.97,-1275.73"
+      ]
+    },
+    {
+      "name": "a Frostfell elf miner",
+      "name_sortable": "frostfellelfminer",
+      "locations": [
+        "36.91,-3.52,-1210.88",
+        "42.34,-3.46,-1227.35",
+        "37.46,-3.57,-1233.81"
+      ]
+    },
+    {
+      "name": "a Frostfell faun",
+      "name_sortable": "frostfellfaun",
+      "locations": [
+        "71.14,-4.23,-1220.69",
+        "76.33,-4.45,-1214.46",
+        "78.58,-5.53,-1221.45"
+      ]
+    },
+    {
+      "name": "Gardy Ex-Giftgiver",
+      "name_sortable": "gardyexgiftgiver"
+    },
+    {
+      "name": "Garsleblat Gigglegibber",
+      "name_sortable": "garsleblatgigglegibber",
+      "purpose": "Frostfell Vendor",
+      "locations": [
+        "125.1,-3.7,-1153.47"
+      ],
+      "utterances": [
+        "Gots good gifties, I do!",
+        "Get yours Frostfells Shopping Bags here! Made from the finest ingredients!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 204506867 -1608891934:Frostfell Greeting Card\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -499193889 -919955962:Frostfell Wishes Greeting Card\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gasher",
+      "name_sortable": "gasher",
+      "purpose": "Santa Glug's helper",
+      "locations": [
+        "253.12,-29.83,-1368.76"
+      ],
+      "utterances": [
+        "Glug, the Gigglegibber gifter, is much better than elf gifter.",
+        "Glug gives you gifties!"
+      ]
+    },
+    {
+      "name": "Gate Captain H'Bri",
+      "name_sortable": "gatecaptainhbri",
+      "locations": [
+        "-0.7,0.63,-60.29"
+      ]
+    },
+    {
+      "name": "Gerbi Frostfoot",
+      "name_sortable": "gerbifrostfoot",
+      "locations": [
+        "177.66,-36.75,-1313.01"
+      ],
+      "utterances": [
+        "Yous not gained the Frostfootses trust yets... Talk to Snarf to sees what yous can do for da Frostfootses!"
+      ]
+    },
+    {
+      "name": "Giddlenerf Gigglegibber",
+      "name_sortable": "giddlenerfgigglegibber",
+      "purpose": "Fuel Merchant",
+      "locations": [
+        "123.57,-18.52,-1528.75"
+      ],
+      "utterances": [
+        "Frostfell Blessings!",
+        "Merry Frostfell!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -478586457 835586169:Elven Magic\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 24
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -551181291 1254410137:Frostfell Shopping Bag\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 240
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -761345668 1345435784:Holiday Cheer\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 24
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1480193548 496275584:Holiday Spirit\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Giffle Gigglegibber",
+      "name_sortable": "gifflegigglegibber",
+      "purpose": "Mender",
+      "locations": [
+        "129.19,-3.22,-1154.9"
+      ]
+    },
+    {
+      "name": "Giggawat Gigglegibber",
+      "name_sortable": "giggawatgigglegibber",
+      "purpose": "Frostfell Vendor",
+      "locations": [
+        "139.31,-9.11,-1240.43"
+      ],
+      "utterances": [
+        "Mes gots good gifties and at good prices, I do!",
+        "Get yours Frostfell Shopping Bags here!",
+        "Merry Frostfell!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1201265711 -139227935:Frostfell Feasts and Decorative Crafts\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2034920612 878341230:Frostfell Feasts and Decorative Crafts II\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1989159312 -999008798:Frostfell Feasts and Decorative Crafts III\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2286619 -1715557285:Frostfell Feasts and Decorative Crafts IV\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1706065173 -1768591866:Frostfell Feasts and Decorative Crafts IX\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1678396794 -408712135:Frostfell Feasts and Decorative Crafts V\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -314081523 -742690887:Frostfell Feasts and Decorative Crafts VI\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1999247869 -124083672:Frostfell Feasts and Decorative Crafts VII\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 26793078 -948568390:Frostfell Feasts and Decorative Crafts VIII\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -318943392 -159995680:Frostfell Feasts and Decorative Crafts X\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1977895242 -1342411292:Frostfell Feasts and Decorative Crafts XI\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 56001729 -1463278792:Frostfell Feasts and Decorative Crafts XII\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -122351297 665487753:Frostfell Feasts and Decorative Crafts XIII\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1912087372 633351885:Frostfell Feasts and Decorative Crafts XIV\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 365988393 586440721:Frostfell Feasts and Decorative Crafts XV\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1667385250 1704078758:Frostfell Feasts and Decorative Crafts XVI\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1451692487 450726911:Frostfell Outfits You Can Make\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 147276983 -2117712821:Frostfell Outfits You Can Make II\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1279028319 379817342:Frostfell Outfits You Can Make III\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -891201181 -296773511:Frostfell Outfits You Can Make IV\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -334438827 -689136977:Frostfell Outfits You Can Make IX\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1695088538 1533951044:Frostfell Outfits You Can Make V\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 472528218 58729785:Frostfell Outfits You Can Make VI\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 987476588 900392107:Frostfell Outfits You Can Make VII\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1140422832 39882598:Frostfell Outfits You Can Make VIII\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1791880041 1351182090:Frostfell Outfits You Can Make X\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1577856967 -276457139:Frostfell Outfits You Can Make XI\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 657384709 125976960:Frostfell Outfits You Can Make XII\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1007062665 -490735531:Frostfell Outfits You Can Make XIII\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1160004683 -1970647947:Frostfell Outfits You Can Make XIV\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -355605840 1653445816:Frostfell Outfits You Can Make XV\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1813043084 -891793634:Frostfell Outfits You Can Make XVI\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1997729581 -485855969:Green Frostfell Gift Box\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 960
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2142141024 413639837:Joyless Snowman\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1336740819 2046783868:Leather Wrapped Prefabricated Gift Boxes\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 960
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1971975297 1140758254:Majestic Stag Ice Sculpture\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 60000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -80058582 181367857:Mended Red Frostfell Stocking\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 960
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -293764084 -2133142936:Mended Red and Gold Frostfell Stocking\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 960
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 624425256 -153351937:Norrathian Holiday Candles\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 583821245 316152662:Prefabricated Glorious Frostfell Candles\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -154223358 1028690046:Premixed Mama's Eggnog\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 960
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 627396008 816386233:Purple Wrapped Prefabricated Gift Boxes\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 960
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 581768828 1595977032:Qeynos Castle Snowglobe\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 60000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1812997899 -467063490:Red and Gold Frostfell Gift Box\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 960
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -640616584 -10763142:Red and White Frostfell Gift Box\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 960
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1847695580 -1992585623:Red Frostfell Elf Cap\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 187
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -875361869 1769337959:Red Frostfell Gift Box\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 960
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -906968191 -1478465941:Scholarly Pursuits for a Festive Frostfell\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -680892512 1602696872:Scholarly Pursuits for a Festive Frostfell II\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1117979747 -1021186185:Scholarly Pursuits for a Festive Frostfell III\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -163895293 -2039174513:Scholarly Pursuits for a Festive Frostfell IV\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -579005288 1370142263:Scholarly Pursuits for a Festive Frostfell IX\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 731077793 -325871011:Scholarly Pursuits for a Festive Frostfell V\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1626640191 -699526390:Scholarly Pursuits for a Festive Frostfell VI\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1270002596 -710900832:Scholarly Pursuits for a Festive Frostfell VII\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 13983802 -1994365743:Scholarly Pursuits for a Festive Frostfell VIII\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1776630010 503721371:Scholarly Pursuits for a Festive Frostfell X\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1947112018 1757656533:Scholarly Pursuits for a Festive Frostfell XI\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1063862736 -103736102:Scholarly Pursuits for a Festive Frostfell XII\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2057727699 1778324450:Scholarly Pursuits for a Festive Frostfell XIII\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -834780493 1960382767:Scholarly Pursuits for a Festive Frostfell XIV\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 328611345 -439633888:Scholarly Pursuits for a Festive Frostfell XV\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1492247951 881529412:Scholarly Pursuits for a Festive Frostfell XVI\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284147159 924239216:Small Red and Gold Prefabricated Present\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 960
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1435985852 -508067370:Small Stack of Prefabricated Presents\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 960
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 862046718 12465461:Stack of Prefabricated Presents\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 960
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 213042168 1147540751:Blue and White Frostfell Gift Box\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 960
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "a Gigglegibber Goblin Gamblin' Game Vendor",
+      "name_sortable": "gigglegibbergoblingamblingamevendor",
+      "locations": [
+        "89.27,-2.98,-1170.74"
+      ],
+      "utterances": [
+        "Buy ticket, you!  Only ten shiny coins! You give just ten shiny coins and maybe you get um... many shinier coins!",
+        "Lord who? I's never met no one named Bowspit.",
+        "Oh... Well, um, I's still don't know nothing about that elf.",
+        "Noes, noes, you can't do that! Fine, I'll tells you everything. We have Bowspit at the super secret hideout, but you can't go there. No way.",
+        "You gonna gets me in a lot of trouble, you know. I'll tells you, but I don't exactly remember where it is. All I remember is the entrance is at the bottom of the water, under the docks, where the halfies and fairies play. We all haves to take the boat to get there. That's all I'm telling you! Now goes away."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -814112407 -360587482:a Gigglegibber goblin gamblin' game token\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "a Gigglegibber miner",
+      "name_sortable": "gigglegibberminer",
+      "locations": [
+        "38.24,-3.51,-1229.24",
+        "28.54,-3.59,-1229.41",
+        "30.61,-3.56,-1222.51"
+      ]
+    },
+    {
+      "name": "Glank Gigglegibber",
+      "name_sortable": "glankgigglegibber",
+      "purpose": "Banker",
+      "locations": [
+        "139.86,-9.33,-1232.1"
+      ]
+    },
+    {
+      "name": "Glargle Gigglegibber",
+      "name_sortable": "glarglegigglegibber",
+      "purpose": "Fuel Merchant",
+      "locations": [
+        "327.81,-23.78,-1511.28"
+      ],
+      "utterances": [
+        "Frostfell Blessings!"
+      ]
+    },
+    {
+      "name": "Glitzen",
+      "name_sortable": "glitzen",
+      "purpose": "Santa Glug's helper",
+      "locations": [
+        "246.63,-29.54,-1366.59"
+      ],
+      "utterances": [
+        "Glug, the Gigglegibber gifter, is much better than elf gifter."
+      ]
+    },
+    {
+      "name": "a Guardian of D'Ina",
+      "name_sortable": "guardianofdina",
+      "locations": [
+        "109.54,6.89,-80.15",
+        "-83.08,15.85,-70.57",
+        "-30.04,19.94,-65.78",
+        "-115.6,19.93,-187.56"
+      ]
+    },
+    {
+      "name": "Guhtosle Gigglegibber",
+      "name_sortable": "guhtoslegigglegibber",
+      "purpose": "Fuel Merchant",
+      "locations": [
+        "86.53,-35.12,-1622.2"
+      ],
+      "utterances": [
+        "Ya want fuels to make good crafties?"
+      ]
+    },
+    {
+      "name": "Ice Maiden D'Ina",
+      "name_sortable": "icemaidendina",
+      "utterances": [
+        "Do not make me come down there myself!  Incompetent fools!",
+        "These intruders anger me!",
+        "Hold your ground! Do not let these fools enter the keep!"
+      ]
+    },
+    {
+      "name": "an Icy Shard",
+      "name_sortable": "icyshard",
+      "locations": [
+        "-76.13,0.63,-135.1",
+        "-66.1,0.63,-162.5",
+        "27.73,2.01,-131.91"
+      ]
+    },
+    {
+      "name": "Jarith Icewing",
+      "name_sortable": "jarithicewing",
+      "purpose": "Frostfell Apprentice",
+      "locations": [
+        "333.31,-23.78,-1511.07"
+      ],
+      "utterances": [
+        "Hello, traveler, happy Frostfell! I don't suppose you feel like helping an apprentice frostfell fae?",
+        "Ever since I came to the Frostfell Village, I've been having dreams of a sad gnome girl. I wish I could take her a present to cheer her up, but I haven't learned giftgiving yet. Maybe you could help?",
+        "Unfortunately, I don't know! I haven't learned gift selection yet, either. But if you go to the Frostfell Workshop, I bet the gift supply manager can find the perfect gift for us to give her."
+      ]
+    },
+    {
+      "name": "Jingle",
+      "name_sortable": "jingle",
+      "utterances": [
+        "Oh, goodness! What has befallen our Frostfell Wonderland!?",
+        "I was late to arrive, having been delayed, only to find that the land has been transformed... beautifully.",
+        "No, not that I am aware of. If it was, well then it went very wrong.  So many that were here are now frozen with it! They need to be saved, first and foremost!",
+        "Good thinking, <player name>! It'll take some potent Frostfell magic to melt the arcane deep freeze that they are gripped by.  I'll need some living burning embers and living ice crystals.  Can you obtain them for me?",
+        "Great! The burning embers should be found on a living blaze in Lavastorm, and the ice crystals can be obtained from a living snow flurry in Everfrost."
+      ]
+    },
+    {
+      "name": "Kastus",
+      "name_sortable": "kastus",
+      "locations": [
+        "-98.56,26.31,-85.03"
+      ]
+    },
+    {
+      "name": "Kaylie Brianne",
+      "name_sortable": "kayliebrianne",
+      "locations": [
+        "187.69,-38.97,-1241.49"
+      ],
+      "utterances": [
+        "Whoa... whoa... Oh no!!"
+      ]
+    },
+    {
+      "name": "Mr. McScroogle",
+      "name_sortable": "mrmcscroogle"
+    },
+    {
+      "name": "Nathan Ironforge",
+      "name_sortable": "nathanironforge",
+      "locations": [
+        "40.45,-3.57,-1203.13"
+      ],
+      "utterances": [
+        "mmmnnthm mthmmnnn!!",
+        "Coulth you gef me some hop wawer?"
+      ]
+    },
+    {
+      "name": "Pilip Mumbletoes",
+      "name_sortable": "pilipmumbletoes",
+      "locations": [
+        "282.19,-23.36,-1567.26"
+      ],
+      "utterances": [
+        "Oh, glory. Oh, glory. Oh, glory. No, I mustn't worry. She is capable of handling herself, right? Yes, I – Oh, who am I kidding?! She's no more capable than I am!",
+        "Uh... Oh! my sister, Lottie. She's obsessed with the myths and lives of the Valkyrie. Well, she has yet to return here, after her expedition to the frozen land of Everfrost.",
+        "I'm afraid so! She was gifted a map of Icespire, complete with secret crags and passages. She couldn't help herself. Had to go right away.",
+        "She had on her thick furs – Oh, that's not what you mean, huh? You'll help her, won't you?",
+        "My sister is stubborn; takes after pa. The chances you can just convince her to return, if you find her, will be unlikely unless she's ready."
+      ]
+    },
+    {
+      "name": "a reindeer",
+      "name_sortable": "reindeer",
+      "locations": [
+        "410.27,-36.38,-1441.42",
+        "398.38,-32.06,-1396.18",
+        "385.79,-32.06,-1384.26",
+        "345.29,-30.01,-1419.09",
+        "409.78,-32.09,-1348.39",
+        "248.83,-35.17,-1250.41",
+        "215.79,-35.01,-1274.97",
+        "55.0,-36.19,-1393.15",
+        "26.99,-35.79,-1405.73",
+        "72.25,-36.68,-1465.88"
+      ]
+    },
+    {
+      "name": "Santa Glug",
+      "name_sortable": "santaglug",
+      "purpose": "Frostfell Giftgiver",
+      "locations": [
+        "247.34,-29.43,-1368.65"
+      ],
+      "utterances": [
+        "Happy Frostfell, <player name>!!  I have gifties galore!  I have one special for you!",
+        "Here you go, buddy-friend.  Have a wonderful Frostfell.",
+        "Ho, ho, ho!  Jolly-time Frostfell for all!",
+        "Sorry, buddy-friend, but I don't have a new gifty for you yet.  You come back one day from when you got last gifty.  Then I give another!  Happy Frostfell!",
+        "Ho, ho, ho!"
+      ]
+    },
+    {
+      "name": "Sogs Frostfoot",
+      "name_sortable": "sogsfrostfoot",
+      "purpose": "Crafting Recruiter",
+      "locations": [
+        "199.14,-36.68,-1315.37"
+      ],
+      "utterances": [
+        "Happy, happy Frostfell time!",
+        "I bet you have craftys fingers!  You good with making pretties, yes?",
+        "I knews it!  Frostfoots be all toes when crafty bits be the task.  I be sent to get someones who could helps us!",
+        "Help with most wonderful task of all – Frostfell vengeance!",
+        "May you gets what you is wanting from Santa Glug!"
+      ]
+    },
+    {
+      "name": "Sugarbow",
+      "name_sortable": "sugarbow",
+      "locations": [
+        "41.1,-3.45,-1225.71"
+      ],
+      "utterances": [
+        "I couldn't possibly accept your help until my fellow Frostfell elves are thawed. Speak with Jingle right away!"
+      ]
+    },
+    {
+      "name": "a tamed yeti",
+      "name_sortable": "tamedyeti",
+      "locations": [
+        "-110.03,0.63,-48.63",
+        "-130.25,0.63,-155.05",
+        "-102.43,0.63,-162.72",
+        "-104.5,0.63,-130.91",
+        "-95.35,0.63,-129.96",
+        "-23.99,0.42,-194.5",
+        "-25.9,0.63,-52.17"
+      ]
+    },
+    {
+      "name": "Tamer Nicoli",
+      "name_sortable": "tamernicoli",
+      "locations": [
+        "-99.94,0.63,-138.36"
+      ]
+    },
+    {
+      "name": "Tinsel",
+      "name_sortable": "tinsel",
+      "purpose": "sweatermaker",
+      "locations": [
+        "119.8,-18.52,-1522.64"
+      ],
+      "utterances": [
+        "Happy Frostfell, adventurer!"
+      ]
+    },
+    {
+      "name": "a toymaker",
+      "name_sortable": "toymaker",
+      "locations": [
+        "322.18,-23.78,-1512.75",
+        "299.28,-23.29,-1540.91"
+      ]
+    },
+    {
+      "name": "Twine",
+      "name_sortable": "twine",
+      "purpose": "sweatermaker",
+      "locations": [
+        "128.09,-18.52,-1542.79"
+      ],
+      "utterances": [
+        "May your days be merry and bright!"
+      ]
+    },
+    {
+      "name": "a unicorn",
+      "name_sortable": "unicorn",
+      "locations": [
+        "478.76,4.45,-1554.43"
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM 1319216435 -148547198:Carved Horse Mask\\/a",
+      "locations": [
+        "226.11,-36.08,-1448.83",
+        "196.92,-36.96,-1309.37"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 730582447 326407265:Carved Reindeer\\/a",
+      "locations": [
+        "196.92,-36.96,-1309.37",
+        "409.97,-32.41,-1376.92",
+        "189.23,-34.67,-1620.54"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 230718275 -150497724:Frost-bitten Barbarian toe\\/a",
+      "locations": [
+        "259.73,-38.97,-1489.47",
+        "420.15,-38.97,-1476.71"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 57787261 1363778335:Frost-bitten Human toe\\/a",
+      "locations": [
+        "278.52,-38.97,-1435.09",
+        "388.01,-38.97,-1443.43",
+        "595.46,-38.97,-1420.25",
+        "115.50,-38.97,-1615.90",
+        "171.29,-38.97,-1589.11",
+        "39.65,-38.97,-1269.89"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1938941868 1851310631:Frost-bitten Iksar toe\\/a",
+      "locations": [
+        "584.48,-38.97,-1356.32",
+        "379.04,-38.97,-1668.61"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1580415651 -1375752194:Furry frost-bitten Ratonga toe\\/a",
+      "locations": [
+        "375.17,-38.97,-1356.82",
+        "406.53,-38.97,-1494.27",
+        "186.22,-38.97,-1524.09"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1078007849 1132000807:Green frost-bitten Goblin toe\\/a",
+      "locations": [
+        "248.04,-38.97,-1519.91",
+        "462.80,-38.97,-1248.01"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 883683844 808697450:Poppyseed Rugelach\\/a",
+      "locations": [
+        "432.19,-21.78,-1506.46",
+        "260.00,-36.69,-1481.62",
+        "95.17,-5.80,-1208.51",
+        "83.45,-4.06,-1197.40"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -374241211 -1274496277:Redcurrant Linzer Cookie\\/a",
+      "locations": [
+        "504.09,-26.90,-1536.59",
+        "81.29,-36.75,-1484.96"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -783357410 1651182278:Stitched Stocking\\/a",
+      "locations": [
+        "426.40,16.59,-1602.40",
+        "435.72,-24.92,-1491.55"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -359237645 -1896445676:Straw Wreath\\/a",
+      "locations": [
+        "128.07,-19.07,-1564.69"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -2054338184 304731289:Tangle of Ribbons\\/a",
+      "locations": [
+        "204.20,-36.08,-1448.27",
+        "348.20,-36.37,-1328.71",
+        "411.84,-24.40,-1509.23",
+        "176.38,-29.15,-1395.76"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1549968508 -878394600:Thumbprint Cookies\\/a",
+      "locations": [
+        "128.07,-19.07,-1564.69",
+        "294.10,-24.49,-1515.65",
+        "471.38,7.33,-1583.00"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1054525144 2000466959:Tiny frost-bitten Gnome toe\\/a",
+      "locations": [
+        "548.57,-38.97,-1563.51"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1263139911 -1245476432:Tiny frost-bitten Halfling toe\\/a",
+      "locations": [
+        "39.65,-38.97,-1269.89",
+        "517.73,-38.97,-1287.41",
+        "544.65,-38.97,-1405.74"
+      ]
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the present",
+      "name_sortable": "present"
+    }
+  ]
+}

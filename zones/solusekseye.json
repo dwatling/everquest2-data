@@ -1,0 +1,327 @@
+{
+  "name": "Solusek's Eye",
+  "name_sortable": "solusekseye",
+  "region": "Lavastorm",
+  "zonerect": "-155.00,-252.00,351.00,336.00",
+  "levels": "45-55",
+  "maps": [
+    {
+      "name": "Level 1"
+    },
+    {
+      "name": "Level 2"
+    },
+    {
+      "name": "Level 3"
+    },
+    {
+      "name": "Level 4"
+    },
+    {
+      "name": "Level 5"
+    },
+    {
+      "name": "Level 6"
+    },
+    {
+      "name": "Level 7"
+    },
+    {
+      "name": "Level 8"
+    }
+  ],
+  "connections": [
+    {
+      "key": "lavastorm"
+    },
+    {
+      "key": "lavastorm_epic01_sanctum_draconic"
+    },
+    {
+      "key": "solusekseye_epic01_nagafen"
+    },
+    {
+      "key": "solusekseye_epic02_bastion"
+    },
+    {
+      "key": "solusekseye_epic03_thyr"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a Bastion keeper",
+      "name_sortable": "bastionkeeper",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1732138595 876795643:a vial of flaming blood\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Bastion steward",
+      "name_sortable": "bastionsteward",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1732138595 876795643:a vial of flaming blood\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "The Castigator",
+      "name_sortable": "castigator",
+      "drop_coin_min": 1480,
+      "drop_coin_max": 1480
+    },
+    {
+      "name": "a defender of Thyr",
+      "name_sortable": "defenderofthyr",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -405190422 1002205688:giant meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1513698845 782894655:large polished bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 31755782 1098695081:a giant tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1367502138 2106162060:flask of fresh water\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 1204,
+      "drop_coin_max": 2449
+    },
+    {
+      "name": "an efreeti soulslaver",
+      "name_sortable": "efreetisoulslaver",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1732138595 876795643:a vial of flaming blood\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 1885,
+      "drop_coin_max": 1885
+    },
+    {
+      "name": "an expedition explorer",
+      "name_sortable": "expeditionexplorer",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -257105619 335124310:Ebon Relic\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an expedition mender",
+      "name_sortable": "expeditionmender",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1110807881 -1515777724:a small humanoid femur\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a fallen Solusek miner",
+      "name_sortable": "fallensolusekminer",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2054979481 1438895382:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 2342,
+      "drop_coin_max": 2382
+    },
+    {
+      "name": "a fallen Solusek orebender",
+      "name_sortable": "fallensolusekorebender",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2054979481 1438895382:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 13233,
+      "drop_coin_max": 13233
+    },
+    {
+      "name": "a fallen Solusek tinkerer",
+      "name_sortable": "fallensolusektinkerer",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2054979481 1438895382:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 1912,
+      "drop_coin_max": 1912
+    },
+    {
+      "name": "a flamelord of Thyr",
+      "name_sortable": "flamelordofthyr",
+      "utterances": [
+        "You reckless mortals, you know not the power you meddle with!",
+        "How!? This is impossible!",
+        "You reckless mortals. You know not the power you meddle with!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1983900838 -453918736:giant meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a guardian of Thyr",
+      "name_sortable": "guardianofthyr",
+      "utterances": [
+        "How!? This is impossible!",
+        "You reckless mortals. You know not the power you meddle with!",
+        "Who dares to tread our halls?"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1983900838 -453918736:giant meat\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 2074,
+      "drop_coin_max": 2695
+    },
+    {
+      "name": "Keortor Talyse",
+      "name_sortable": "keortortalyse",
+      "utterances": [
+        "Salutations, traveler. It has been said that you are an experienced adventurer. Our great Lord Nagafen has ordered me to provide our services to adventurers such as yourself who can acquire the needed components from the Awakened in the Overrealm.",
+        "Which piece of armor are you interested in?",
+        "For your type of armor, that will require one Relic Silk Robe and three Pristine Chrysoberyls.",
+        "The fires of Solusek's Eye offer a unique source of heat and magic not found anywhere else on Norrath. You are fortunate Lord Nagafen has deemed you worthy of wearing this armor in return for proving your mettle by collecting the necessary components from our enemies, the Awakened.",
+        "For your type of armor, that will require one Relic Silk Pantaloons and three Immaculate Bloodstones.",
+        "For your type of armor, that will require one Relic Silk Cowl and three Immaculate Nephrites.",
+        "For your type of armor, that will require one Relic Silk Cuffs and three Immaculate Gold Beryls.",
+        "For your type of armor, that will require one Relic Silk Cap and three Immaculate Sapphires.",
+        "For your type of armor, that will require one Relic Silk Gloves and three Immaculate Garnets.",
+        "For your type of armor, that will require one Relic Silk Slippers and three Immaculate Amethysts."
+      ]
+    },
+    {
+      "name": "a lava duct crawler",
+      "name_sortable": "lavaductcrawler",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -666230690 1307520790:an arachnid leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 263446533 791164203:a poison gland\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a magmatic golem",
+      "name_sortable": "magmaticgolem",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 974512545 1555701326:glimmering stone fragment\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -375081333 -243621650:impure chunk of arcane stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a magmatic sentry",
+      "name_sortable": "magmaticsentry",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -375081333 -243621650:impure chunk of arcane stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 974512545 1555701326:glimmering stone fragment\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 438839939 2010864568:Ruby Scrying Stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a pyreduke of Thyr",
+      "name_sortable": "pyredukeofthyr",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1145282108 1009728907:a giants beard\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 1854,
+      "drop_coin_max": 2401
+    },
+    {
+      "name": "a quetzsol",
+      "name_sortable": "quetzsol",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1858399673 1285532000:a sharp spine\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a scorching ember",
+      "name_sortable": "scorchingember",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 496056793 1014762846:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an underworld guard",
+      "name_sortable": "underworldguard",
+      "utterances": [
+        "You reckless mortals. You know not the power you meddle with!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1983900838 -453918736:giant meat\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 3440,
+      "drop_coin_max": 3440
+    }
+  ]
+}

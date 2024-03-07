@@ -1,0 +1,210 @@
+{
+  "name": "The Crypt of Betrayal",
+  "name_sortable": "cryptofbetrayal",
+  "region": "Karan",
+  "zonerect": "-194.00,-235.00,48.00,46.00",
+  "levels": "18-26",
+  "connections": [
+    {
+      "key": "qey_catacomb02"
+    },
+    {
+      "key": "qey_catacomb_epic03_deathly_scarab_hive"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Adun",
+      "name_sortable": "adun",
+      "utterances": [
+        "There is no rest amongst the dead and those who seem dead.  A miserable existence.",
+        "I'm Adun the Unfortunate, former lieutenant under Captain Vegalys Keldrane.  We were like brothers, Keldrane and I.  Until the War, that is.",
+        "Keldrane sent my wife and daughters out of the city to certain death.  He claimed to be protecting them, saving them from the pestilence sweeping the lands.  I learned of their deaths in the plague mere hours before my own death.",
+        "Keldrane is to blame, may he rot forever.  My family's suffering was nothing to him, the lives of the citizens were nothing.  Everything Keldrane did was for the glory of his own family. He rose in power on the backbones of stout-hearted men like me, who trusted him.",
+        "Betray him?  And become what he was - a miserable leader and a sorrier excuse for a Guard Captain?  No, whatever his fate, I had no hand in it -- much as I now regret that he died before I could tell him how my family died.",
+        "Keldrane made many enemies amongst his former friends.  My spirit needs rest, but his bitterness keeps me here.  If you find who betrayed Keldrane, you also set me free, so I am eager to help.  Why don't you speak with Vargon? Or with Borthen?",
+        "Vargon thought Keldrane could do no wrong, to his own similar misfortune.  I hear his spirit, lost and confused, abandoned as we all were when Keldrane died.  Speak with Vargon about the day we drew our last breaths, side by side.  Borthen was another of our closest friends; I sense his spirit in this cursed lair, too."
+      ]
+    },
+    {
+      "name": "an Archaic Fury",
+      "name_sortable": "archaicfury",
+      "drop_coin_min": 146,
+      "drop_coin_max": 146
+    },
+    {
+      "name": "a Bloodsaber ruffian",
+      "name_sortable": "bloodsaberruffian",
+      "utterances": [
+        "We may die, but I won't let them all escape!",
+        "Fall back, order a tactical retreat!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1376104843 2106154336:a sullied illegible note\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 112,
+      "drop_coin_max": 112
+    },
+    {
+      "name": "a Bloodsaber sentinel",
+      "name_sortable": "bloodsabersentinel",
+      "utterances": [
+        "Stand your ground!  You're just as dead if you leave."
+      ]
+    },
+    {
+      "name": "Borthen",
+      "name_sortable": "borthen",
+      "utterances": [
+        "Why do you disturb me, now that it's too late?",
+        "I'm haunted by thoughts of my betrothed.  Are you bringing me news of her at last?  Where has she gone that I cannot follow?  Did she find her way safely to another city?  Did she perish?  All I have left are questions.",
+        "Yes, her father sent you! I loved Verilys from the moment I saw her.  Where has she gone?  In this forsaken place, I feel many things, yet never have I felt Verilys - and for that, I am thankful.  A woman of her grace does not belong among these horrors.",
+        "Vegalys Keldrane was my commanding officer.  He did me a great honor, allowing his daughter to return my affections.  We were to be married, but the War intervened.  Keldrane ordered the women who did not bear arms away from the city as the plague approached.  Verilys went with them.",
+        "To see Verilys leave was to see my heart break.  Yet, I do not blame Keldrane for this.  He did what he felt was best for the city.  Always, the city was his first love and he died fighting for it.  Tell me, why did he send you to me?",
+        "I'm glad that to the end he thought of me as his friend.  Keldrane was more my friend, more than my beloved's father.  When Vargon told me Keldrane was dead, I could not believe it.  Keldrane, the invincible - dead?  Yet here I am, too.  Dead and unsung.",
+        "Yes, Vargon came to me, pulling our friend Adun behind him, screaming at me to drop my weapons and flee.  \"Keldrane is lost!\" he cried, \"And now we will all perish!\"  His warning was prophetic, but untimely.",
+        "All time is eternity without Verilys, yet if Keldrane's spirit would be at peace, I know I would rest as well.  Fulfill whatever quest Keldrane has set you upon; even in death, I would follow his guidance."
+      ]
+    },
+    {
+      "name": "Cryptkeeper Maglus",
+      "name_sortable": "cryptkeepermaglus",
+      "utterances": [
+        "Two ... no, no ... five more.  Wait, seven more ... I keep losing track!",
+        "Ah, how convenient for me!  Give me a moment to think.  Yes, I definitely need five more sets of wings.",
+        "I'm preparing the ingredients for a potion, and with all the running around I have to do, I lose track now and then.  Now, where was I? Oh, yes.  Wings.  One, two, four... that can't be right!",
+        "Yes, thanks for offering! I need ten more wings from some of these shrillers.  Can you help me?",
+        "Perfect!  That's fifteen ... no, ten! Yes, ten more shriller wings!  They're easy pickings in these catacombs.  Thanks!",
+        "Good to see you again! Did you get those wings?",
+        "Glad you stumbled across me when you did. I sure need those wings.  These'll come in handy.  Thanks!",
+        "Your timing is impeccable! You see, this potion I'm concocting is very volatile. It can explode at any minute! Ka-BOOM! And then where would we be, eh?",
+        "Ha! You find this amusing, do you? If I don't finish this potion soon, the volatility will only increase. If you can spare some time, perhaps you could gather another component for me? Please?",
+        "Splendid! This saves me gobs of time, you have no idea! The recipe calls for fifteen deadly scarab antennae. Disgusting creatures. You can't help but find these scarabs throughout these catacombs. Handy, isn't it?",
+        "Perfect! I'll just stand here, quietly hoping not to, you know, Ka-BOOM!",
+        "Oh, no! Now I need something else for this potion!",
+        "Breathe slowly, carefully now ...  Ah, hello again! Have you got the deathly scarab antennae?",
+        "This is great! Well ... Wait ... No!",
+        "I realized after you walked off, that I made a mistake. And, of course, it's not a small one. You see, these aren't from the right type of deathly scarab, that's why I stopped collecting them myself.",
+        "Oh ... no. They're not the same at all. There's the common deathly scarab, and then there's another type. Looks almost exactly the same, but its chemical composition is radically different. And that means...",
+        "...Ka-BOOM! Exactly! Hmm, you know? There's a reason these other deathly scarabs are showing up more frequently down here. I bet the ones we need are back protecting the Queen in her lair.",
+        "That would make things much safer around here. I mean, one wrong component in this potion, and well ... it wouldn't be pretty. Since these look-alike deadly scarabs are here in the catacombs, I assume the ones I need are in their nest.",
+        "Every bug nest has its queen. If you destroy their queen, the number of abnormal deadly scarabs will reduce to nothing. Here, take this key and enter the doorway at the top of the staircase. The tunnels will lead to her chambers."
+      ]
+    },
+    {
+      "name": "a crypt tempest",
+      "name_sortable": "crypttempest",
+      "utterances": [
+        "This Victory was stolen with dishonor!",
+        "All warriors eventually know Death, and I do not fear mine!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 734706114 359842552:minotaur hoof\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1988895970 -1250637977:polished horn\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 135,
+      "drop_coin_max": 135
+    },
+    {
+      "name": "a deathly scarab",
+      "name_sortable": "deathlyscarab",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -2084762773 -1302763349:an insect shell\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an ire minion",
+      "name_sortable": "ireminion",
+      "utterances": [
+        "You stoked the wrong flames!"
+      ]
+    },
+    {
+      "name": "an ire warlock",
+      "name_sortable": "irewarlock",
+      "utterances": [
+        "You stoked the wrong flames!"
+      ]
+    },
+    {
+      "name": "The Specter of Ire",
+      "name_sortable": "specterofire",
+      "drop_coin_min": 86,
+      "drop_coin_max": 86
+    },
+    {
+      "name": "Spike",
+      "name_sortable": "spike",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 734706114 359842552:minotaur hoof\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Torg Bramblehair",
+      "name_sortable": "torgbramblehair",
+      "utterances": [
+        "Have you seen a minotaur about this tall with horns?  Well, they're all about this tall with horns. Try again, Torg ... Have you seen Spike?",
+        "Spike's not like the other minotaurs, nooooo, sir!  I raised him by hand, my own self! But he's run off and got himself in a real mess this time.  Can you help me?",
+        "Aw, would ya?  Spike's my pal, and he's too small to last long in this place.  I always tell him not to play down here, but you know minotaurs -- they're kind of bull-headed.",
+        "I'm thinking he's too scared to come back, with all them undead minotaurs and things in here.  If you killed ten of them nasty crypt tempests, he'll come back out on his own.  That would do the trick.",
+        "I hand raised him, see?  Kind of shy of folks and all.  He'll come back to his Papa if he feels safe.",
+        "Spike! Where are you?  Have you seen him?",
+        "There he is!  Spike! Here, boy! I said, here, boy! Spike!"
+      ]
+    },
+    {
+      "name": "Vargon",
+      "name_sortable": "vargon",
+      "utterances": [
+        "Why am I still held fast to this world?",
+        "I do not remember my name.  Everything is clouded and obscure.  I must flee! But I cannot! I'm trapped, trapped like a rat in a cage! Why are you here?",
+        "Keldrane? Keldrane? The name fills me with dread and loathing, though I do not know why.  If you are his minion, leave me alone! I wish only for rest and I find none here.  Why am I still held fast to this world?",
+        "What's to remember?  Keldrane? Only a name now.  All one brings to the world of the dead are one's emotions and thoughts.  And I ... I'm left with only emotions.  Unhappiness.  Sorrow.  Betrayal.  Why do these feelings haunt me? Go, now, I do not want to feel any longer!",
+        "No! Keldrane means nothing to me.  All that is left is pain.  And despair."
+      ]
+    },
+    {
+      "name": "Vegalys Keldrane",
+      "name_sortable": "vegalyskeldrane",
+      "utterances": [
+        "The air is filled with misery and despair.  I add my voice to those tortured and unable to rest, for I do not belong here.",
+        "Dead, yes, and loyal till the end.  Unlike the one who betrayed me.  My forefathers fought for Qeynos, and for me to be surrounded by my enemies in life is everlasting torment.",
+        "My name is Vegalys Keldrane of the Qeynos' Guard.  During the War, I led my troops through the Catacombs to destroy those who bring plague to the city.  Surprise was our strongest weapon.",
+        "Three lieutenants fought beside me; I loved them as brothers.  We divided our teams and set forth in secret, only to be destroyed.  Who else would have known my strategies? Who else would have known the moment to strike my team unawares?  I fear one of my friends betrayed me.",
+        "The spirits of my former lieutenants are also within these wretched catacombs.  Adun, Borthen and Vargon are their names.  I feel their presence in these catacombs, yet cannot sense which one tells the entire truth about that final day.  Can you find them and learn what they know?",
+        "Good.  Perhaps within their tales, we can set truth apart from lies.",
+        "You return... did you speak with Adun, Borthen and Vargon?",
+        "Tell me what they said.",
+        "Ah, so they perished?  I deeply regret that decision, but all choices that day were filled with peril.  If they stayed in the city and the Guard failed, they would have met no easier end.  I grieve for his loss.  What else did you learn?",
+        "Verilys, Verilys - my beloved daughter!  How could I have let her stay?  And how could I see her go?  She must have perished with Adun's daughters, in whose company I sent her forth.  This fills me with unbearable pain!  My only daughter!  What of Vargon, to add to my sorrow?",
+        "He remembers nothing?  What did he say?",
+        "Alas, Vargon!  I see now through the veil of years what I did not know before.  Vargon lived for the Guard, even more than I did.  When I ordered some citizens to leave Qeynos, he alone opposed me.  Sending them away was tantamount to admitting failure, he said.  A sign of my weakness as a leader.",
+        "I suspect he did not think that we could fail, even if the enemy knew our strategy in advance.  And we did not fail immediately, for the Guard is strong! He hoped to show me that I was wrong, but at a terrible cost.",
+        "I must consider all my options.  Thank you for bringing me this news.  My spirit may rest now, more than it has been able to in the past."
+      ]
+    }
+  ]
+}

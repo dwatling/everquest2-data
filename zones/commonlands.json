@@ -1,0 +1,3749 @@
+{
+  "name": "The Commonlands",
+  "name_sortable": "commonlands",
+  "region": "D'Lere",
+  "description": "This battle-scarred savanna is home to the City of Freeport, the Wailing Caves and Fallen Gate.",
+  "zonerect": "-1751.35,-1300.12,1671.39,1289.76",
+  "levels": "10-20",
+  "connections": [
+    {
+      "key": "freeport_combined"
+    },
+    {
+      "key": "darklight_wood"
+    },
+    {
+      "key": "nektulos"
+    },
+    {
+      "key": "fallengate"
+    },
+    {
+      "key": "wailingcaves"
+    },
+    {
+      "key": "cmmn_epic01_orc_excavation"
+    },
+    {
+      "key": "cmmn_epic02_mage"
+    },
+    {
+      "key": "cmmn_epic02_mage_mage_valley_solo"
+    },
+    {
+      "key": "fprt_adv03_sprawl"
+    },
+    {
+      "key": "commonlands_sewer01"
+    },
+    {
+      "key": "fprt_adv02_graveyard"
+    },
+    {
+      "key": "exp05_dun_befallen_forsaken"
+    },
+    {
+      "key": "exp05_dun_befallen_asylum"
+    },
+    {
+      "key": "exp05_dun_befallen_cavern_raid"
+    },
+    {
+      "key": "exp05_dun_befallen_cavern"
+    },
+    {
+      "key": "obelisk_of_lostsouls"
+    },
+    {
+      "key": "qey_catacomb_epic02_mi_undead_easy"
+    },
+    {
+      "key": "fprt_epic01_storeroom01",
+      "accessible": false
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Aether Racing Referee",
+      "name_sortable": "aetherracingreferee",
+      "utterances": [
+        "Hi there! Want to help me test my new Cognatically Reinforced Aetheric Sprocket Hoverpad? It can fly!",
+        "Alright! Get to the start platform and I'll equip you with the machine shortly. Try to beat the other test dumm-, err, test pilots around the track!"
+      ]
+    },
+    {
+      "name": "Amoora",
+      "name_sortable": "amoora",
+      "locations": [
+        "-195.59,-47.83,163.64"
+      ],
+      "utterances": [
+        "Every day is the same, now that he's gone.",
+        "How did you know? Do you know him? Is he here? Father will kill him if he is!",
+        "How sweet of him. There is just no talking sense into my father, Jaharin. He will hear nothing of our love. I am afraid I have been forbidden to see Ferink.",
+        "It's you! Thank you so much!  Fenrik and I are to be wed in the spring!"
+      ]
+    },
+    {
+      "name": "Amulius Ramio",
+      "name_sortable": "amuliusramio",
+      "utterances": [
+        "Quiet you!  Can't you see I'm trying to avoid being seen?  Get down here before an orc spots you!",
+        "Get down and wait a moment, I think I hear an orc passing.",
+        "Alright listen, the Overlord passed down orders to have me find out where these orcs have been staging their attacks from.  As you can see, this looks like an orc forward base if I ever saw one.  I don't have time to get back to Freeport to get some extra troops, so I'm going to have to ask for your help on this.  What say you?",
+        "I'm really not supposed to share this information with you, but I have no choice since I can't get help from the city.  It's like this; the orcs have been assaulting Freeport for quite sometime now and the Overlord wants to strike the enemy hard and fast, so he's come up with a plan to assassinate their field commander, Overseer Maulic.  The orders state that the scouts say he should be lightly guarded and vulnerable to an assassination attempt.  That's where you come in.    ",
+        "Excellent.  You are going to need to gather several able bodied adventurers, eighteen or so if I was to venture a guess.  I can't be too sure though, I know that some of you adventurer types wield some pretty powerful magic.  If you are ready, I'll give you this makeshift key I fabricated out of scrap orc weapons - this should get you past that door once the guards have been cleared.",
+        "Okay, here you go.  I'll make for Freeport as soon as you head in and pass the word that you've begun the assassination attempt.  During the confusion of Maulic's assassination, we'll press the attack from the Freeport gates crushing these foul creatures in the name of the Overlord!",
+        "What's the hold up?  Get in there and take care of Maulic, I can't do it alone."
+      ]
+    },
+    {
+      "name": "Anders Blackhammer",
+      "name_sortable": "andersblackhammer",
+      "locations": [
+        "-521.99,-44.04,-301.5"
+      ]
+    },
+    {
+      "name": "an apprentice of the Dismal Rage",
+      "name_sortable": "apprenticeofthedismalrage",
+      "locations": [
+        "-1308.79,-78.79,-274.2"
+      ]
+    },
+    {
+      "name": "Arconicus",
+      "name_sortable": "arconicus",
+      "locations": [
+        "-481.85,-45.14,-304.76"
+      ],
+      "utterances": [
+        "What do you want? Please don't tell me you're another one of these country bumpkins who has never seen a mage before.",
+        "Yes, these will do the job. As promised, here is your payment. Now if you don't mind, I need to start working on these growth potions and you're distracting me. Good bye.",
+        "I am conducting research on the qualities of certain natural reagents in the surrounding area. Perhaps you  can help me? If you help gather some of these resources, then I might be able to pay you for your time, hmm?",
+        "I am currently gathering the remains of what is left once a wisp is destroyed. It's difficult to see it at first, but if you know what to look for, you'll see it everytime. Once a wisp is killed, all that's left is very fine dust, and not much of it either. I need you to gather me a half-vial of wisp dust. Once you have it, bring it back and I'll pay you for it.",
+        "Let me see it... yes, this is exactly what I needed. Here is your payment. If you're still interested, I am in need of other ingredients as well. Shall we continue doing business?",
+        "It has come to my attention that I've run out of the standard catalyst I use in order to process the magical properties of this wisp dust. All I need is a small little piece of flesh found within the skull of a sentient creature. Fortunately, there are a number of zombies near the graveyard that  have these 'glands'. Gather me some of these 'glands' and I will pay you for your time."
+      ]
+    },
+    {
+      "name": "Arnisu Tobian",
+      "name_sortable": "arnisutobian",
+      "utterances": [
+        "Go away!",
+        "Ah, I see. Well, take this envelope then. It has what Tecera needs. Tell her I don't plan on staying much longer and I will see her soon.",
+        "They're experimenting with necromancy, in a way.",
+        "Well, I don't think they're just looking to reanimate corpses or control spirits. I think they're looking into actual resurrection, though they are going about it the wrong way.",
+        "I honestly don't know. Please, take this information to Tecera."
+      ]
+    },
+    {
+      "name": "Assistant D'Verin",
+      "name_sortable": "assistantdverin",
+      "utterances": [
+        "How did you make it past the servants?!  Please don't tell me that I'll have to raise them all again.",
+        "They spoke with you?! They refuse to answer a single question I put to them!  Hah!  Well, out with it! What did they tell you?  Head to the south and head to the west, and you will find the finger pointing to where the tower exists.  Or perhaps, where it doesn't...",
+        "Hahaha! Fool! You're standing in it! This is Zarvonn's tower!  But I think you really want to know about Zarvonn himself. Am I right?",
+        "If I did, I wouldn't be the servant to that witch upstairs. She's convinced that Zarvonn is still around here somewhere. I assist her in return for the necromantic magic she sparingly doles out to me. Now, tell me, did the nomads tell you where to find him?",
+        "What? I have no idea what that means! Wait ... Siege. There are orcish skeletons around the old siege ruins. My mistress claims that she didn't raise them. It must be Zarvonn! That hag was saying that Zarvonn raised them! ",
+        "Who knows? Let's find out. If you go to the ruins, and bring back some bones from the odder-looking skeletons, I can find out if there's any trace of Zarvonn's magic left within them. If you do this, I'll tell the Mistress you wish to speak with her. She may tell you more about Zarvonn, though she'll probably do it a little bit at a time, over many months, while you run around doing chores for her.",
+        "Travel to the east until you reach the ruins of the orcs most successful attempt at besieging Freeport. I'll need skulls from the more powerful undead you'll find there, and make sure the skulls aren't damaged."
+      ]
+    },
+    {
+      "name": "a Blackshield assassin",
+      "name_sortable": "blackshieldassassin",
+      "locations": [
+        "-406.32,-47.76,-817.65",
+        "-475.9,-48.04,-762.51",
+        "-472.14,-48.04,-769.79",
+        "-475.58,-47.38,-721.1"
+      ],
+      "utterances": [
+        "To arms!",
+        "Prepare to face your doom, meddler.",
+        "Cover me while we regroup!",
+        "Summon help!  We have invaders!"
+      ],
+      "drop_coin_min": 20,
+      "drop_coin_max": 25
+    },
+    {
+      "name": "a Blackshield brute",
+      "name_sortable": "blackshieldbrute",
+      "locations": [
+        "-372.42,-50.36,-861.81",
+        "-370.04,-50.64,-869.68",
+        "-407.48,-47.88,-855.51",
+        "-419.88,-47.98,-856.84"
+      ]
+    },
+    {
+      "name": "a Blackshield dockhand",
+      "name_sortable": "blackshielddockhand",
+      "utterances": [
+        "This a calm seas kind'a deal.  You don't ask questions about it.",
+        "I can.  I got gold for ale and beddin'.  That's all I care for.",
+        "Finally.  Come 'ere courier, and take this message to the rendezvous.",
+        "Should be.  Now see to it this message gets to the rendezvous at Pride Lake, and be quick about it!",
+        "You unloaded that quick.  Good job.",
+        "I don't.  I like the profit that lines the Blackshield coffers."
+      ]
+    },
+    {
+      "name": "a Blackshield dock officer",
+      "name_sortable": "blackshielddockofficer",
+      "utterances": [
+        "We've got prices you can't beat. What can I do for you today?",
+        "... ah... Grah Grobar, is it?",
+        "No... but you do carry his receipt.",
+        "I uh... well, very well. You have the receipt, the shipment is yours. Go ahead and grab it. It's on the docks, right over there."
+      ]
+    },
+    {
+      "name": "a Blackshield recruit",
+      "name_sortable": "blackshieldrecruit",
+      "utterances": [
+        "Nice set ups, though don't yous think?",
+        "I knows, but I can't help to wonders who the client is.",
+        "Yous don't ever wond... Hey, there ya are.",
+        "Betters get there faster then yous got here!",
+        "Thanks you!  Is find it odd to unpack goods and repack thems to be sold, though. ",
+        "Profits is always good.  Such contracts to get rid of sellable goods is nices."
+      ]
+    },
+    {
+      "name": "a Blackshield smuggler",
+      "name_sortable": "blackshieldsmuggler",
+      "locations": [
+        "-409.98,-47.84,-847.62"
+      ]
+    },
+    {
+      "name": "a Blackshield thug",
+      "name_sortable": "blackshieldthug",
+      "utterances": [
+        "Summon help!  We have invaders!",
+        "Prepare to face your doom, meddler.",
+        "Cover me while we regroup!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a black wolf",
+      "name_sortable": "blackwolf",
+      "locations": [
+        "-474.24,-46.82,-702.09",
+        "-486.45,-47.48,-698.58",
+        "-500.74,-46.09,-644.53",
+        "-474.37,-45.89,-587.7",
+        "-456.4,-47.62,-539.12",
+        "-447.52,-47.8,-526.13",
+        "-405.96,-46.74,-471.68",
+        "-351.82,-45.48,-432.37",
+        "-378.67,-43.28,-432.65"
+      ]
+    },
+    {
+      "name": "a Bloodskull mason",
+      "name_sortable": "bloodskullmason",
+      "utterances": [
+        "Time to meet your end, intruder."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 16,
+      "drop_coin_max": 16,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Bloodskull mystic",
+      "name_sortable": "bloodskullmystic",
+      "utterances": [
+        "Sound the alarm. Destroy all trespassers!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 31,
+      "drop_coin_max": 31
+    },
+    {
+      "name": "a Bloodskull orc",
+      "name_sortable": "bloodskullorc",
+      "utterances": [
+        "Intruders! Destroy them all!",
+        "Back fools, there are too many!",
+        "Welcome to your death, lesser being!",
+        "Retreat! We are undone!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 16,
+      "drop_coin_max": 34
+    },
+    {
+      "name": "a Bloodskull priest",
+      "name_sortable": "bloodskullpriest",
+      "utterances": [
+        "Time to meet your end, intruder.",
+        "You should have left when you had a chance.",
+        "Fall back and get us a shaman!",
+        "Sound the alarm. Destroy all trespassers!",
+        "I cannot hold them much longer.",
+        "There are too many!  We must regroup."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 20,
+      "drop_coin_max": 40
+    },
+    {
+      "name": "a Bloodskull shaman",
+      "name_sortable": "bloodskullshaman",
+      "utterances": [
+        "Retreat! We are undone!",
+        "Intruders! Destroy them all!",
+        "Back fools, there are too many!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Bloodskull soldier",
+      "name_sortable": "bloodskullsoldier",
+      "utterances": [
+        "Sound the alarm. Destroy all trespassers!",
+        "You should have left when you had a chance."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Bloodskull tamer",
+      "name_sortable": "bloodskulltamer",
+      "utterances": [
+        "There are too many!  We must regroup."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1294750651 -1669415379:a dull wedge\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a Bloodskull tower guard",
+      "name_sortable": "bloodskulltowerguard",
+      "utterances": [
+        "They spotted us! Kill the witnesses!",
+        "Back fools, there are too many!"
+      ]
+    },
+    {
+      "name": "a Bloodskull warrior",
+      "name_sortable": "bloodskullwarrior",
+      "locations": [
+        "-414.83,-48.04,472.00",
+        "-435.40,-48.04,461.42",
+        "-412.95,-48.04,531.88",
+        "-415.91,-48.04,537.01",
+        "-421.83,-48.04,537.01",
+        "-480.41,-47.99,466.24",
+        "-409.00,-48.04,526.78",
+        "-487.13,-48.04,430.97",
+        "-500.28,-48.04,430.52",
+        "-439.17,-48.04,468.01",
+        "-438.70,-48.04,453.97",
+        "-475.22,-47.60,613.03",
+        "-498.89,-47.21,615.24",
+        "-493.01,-47.37,616.38"
+      ],
+      "utterances": [
+        "Intruders! Destroy them all!",
+        "Back fools, there are too many!",
+        "They spotted us! Kill the witnesses!",
+        "Retreat! We are undone!",
+        "I cannot hold them much longer.",
+        "There are too many!  We must regroup.",
+        "I will hold them.  Fall back and get us help!",
+        "Fall back and get us a shaman!",
+        "You should have left when you had a chance.",
+        "Welcome to your death, lesser being!",
+        "Time to meet your end, intruder.",
+        "Sound the alarm. Destroy all trespassers!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1994384884 -601719179:Far Seas Requisition - FG 073\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 17,
+      "drop_coin_max": 41,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a blue widow spider",
+      "name_sortable": "bluewidowspider",
+      "locations": [
+        "-131.65,-42.17,-873.74",
+        "-164.72,-45.13,-867.86"
+      ]
+    },
+    {
+      "name": "Brandus Levine",
+      "name_sortable": "branduslevine",
+      "utterances": [
+        "Hrmmm... You do have the look of a citizen about you.  You're not just random rabble from the streets.  I could use your help.",
+        "You do realize I can find someone else.  And maybe you'll just fade into obscurity.  But, since you've at least shown some interest then perhaps I can use you.",
+        "I've been waiting on a very special shipment to arrive.  It was due here three days ago and there has been no sign of the individuals who were supposed to bring it.  I've had to send the boat to the Freeport docks and every day it sits there it's costing me money.  I need you to find out what happened to my shipment or why they are so late.",
+        "That little bit of information you don't need to know.  All I'm asking for is that you find my missing cargo.",
+        "Fine, if I have to hold your hand through everything.  You might start with Nethet near the main gates of Freeport.  He watches most of who enter or leave the city.  If anyone knows anything about where my missing cargo went it would likely be him.",
+        "Watch your coin around his type.",
+        "What did Nethet tell you?  That rat had better have known something or I'm back where I started.  That will not make me a happy man.",
+        "Don't tell me your whining stories about what other people had you do.  He could have made you shovel pig dung for all I care, did you get the information or not?",
+        "The dervishes stole it!?  You can't be serious.  Argh!!  I'm tired of those lowlifes messing with my business.  I need you to do me a favor and kill a few dozen of them.",
+        "That's exactly what I wanted to hear.  Once you've thinned out the number of the dervishes for me I have a feeling they might be willing to negotiate a deal afterwards.  I want them to learn a lesson in fouling my business.  You can find one of the larger encampments on the far Western end of the Commonlands.",
+        "You'll be back when THEY'RE done, heh.",
+        "That was faster than I expected, you're quite the dangerous one aren't you?  Well done, I applaud you and your efforts in our partnership here.  Keep it up and we might get very rich together.  Tell me, how many did you get rid of before coming back?",
+        "I understand what you mean perfectly.  Here is the first of your profits, if you keep doing such excellent work there is a lot more where this came from.",
+        "Shall we continue our business venture, partner?",
+        "Good.  The dervishes are still not willing to negotiate.  I'm guessing they have either become more foolish than normal or they no longer have my shipment.",
+        "Yes, but I have another source that we might be able to use to our advantage.  Another militia guard by the name of Captain Vertas is stationed out in the Crossroads.  He has no love for the dervishes and keeps a close eye on them.",
+        "Hrm, you have?  Then what can you tell me about the dervishes that you learned from him?",
+        "Yes, see what information he has on the dervishes and what we might be able to use. ",
+        "He may have some other work for you while I try to find my sorcerer partner.",
+        "Have you spoken with captain Vertas?",
+        "The Deathfist?  You cannot be serious.  Bah!  That's probably where my shipment went, there's no way I'm getting that back by now.  The orcs also have to pay for this, they had to know that shipment was mine.  Do you mind playing enforcer again?",
+        "Good, then I need you to find out what the connection is with with dervishes and the orcs.  If you watch carefully you can sometimes see orc runners near the encampments in the Southern part of the Commonlands.  I want the information they might be carrying.  Let me know what you find.",
+        "It's good to see you again.  What did you learn from the orcs?",
+        "Hrmmm.  So they are having a meeting are they?  Let me look into this and verify it isn't a trap.  Come back when you're ready to crash their meeting.",
+        "Ah yes, your reward.  Here it is.  Remember that I have more work and more rewards when you return.",
+        "Good, good, I like to see such eagerness in a citizen of Freeport."
+      ]
+    },
+    {
+      "name": "a brittle skeleton",
+      "name_sortable": "brittleskeleton",
+      "locations": [
+        "-1347.97,-69.5,323.25",
+        "-1354.87,-69.55,326.66",
+        "-1308.63,-69.2,324.42",
+        "-1312.96,-69.25,317.18",
+        "-1313.6,-69.43,360.75",
+        "-1304.52,-69.38,362.83",
+        "-1334.63,-69.47,346.07",
+        "-1353.1,-69.67,361.85",
+        "-1344.89,-69.64,367.07",
+        "-1352.99,-69.82,369.89"
+      ],
+      "utterances": [
+        "As I rise from the grave,  you will now take my place!",
+        "You cannot eliminate us!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1262149691 443101017:Bone Beaded Bangle\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 22,
+      "drop_coin_max": 22
+    },
+    {
+      "name": "a burly armadillo",
+      "name_sortable": "burlyarmadillo",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1357887229 802173436:Far Seas Requisition - FG 016\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a calcified skeleton",
+      "name_sortable": "calcifiedskeleton",
+      "locations": [
+        "-1257.85,-70.66,288.26",
+        "-1333.96,-71.89,295.95",
+        "-1373.23,-75.10,301.73",
+        "-1383.85,-75.44,337.34",
+        "-1410.43,-77.80,372.23",
+        "-1337.50,-70.23,396.14",
+        "-1291.08,-69.62,411.64"
+      ],
+      "utterances": [
+        "Your blood calls to me.",
+        "Final death comes at last.",
+        "Seek death and it finds you.",
+        "Your eyes are so pretty.",
+        "You've shaken the dust from my bones.",
+        "Rest in peace."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 966154019 1295163645:Peanut Brittle\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 125,
+      "drop_coin_max": 748
+    },
+    {
+      "name": "Cannix Silverflame",
+      "name_sortable": "cannixsilverflame",
+      "locations": [
+        "-311.42,-47.28,-361.35"
+      ],
+      "utterances": [
+        "Greetings to you as well, traveler.  Now if you'll excuse me, I must remain vigilant while this time is appointed unto me.",
+        "A guard? No. I suppose if I have a title, you can call me a ... a pilgrim.  Yes, just a pilgrim looking for the light of truth.  Aren't we all seeking a little truth in these turbulent times?",
+        "No, I'm sorry.  I'm not interested in any local treasures ... wait ... let me see that lightstone.  You're right! This isn't like the other lightstones in these lands.  In fact, I've never seen one like it. Could it be?  Is it beginning?  It's possible, but I must be sure. Will you do something for me?",
+        "Good, good.  You didn't come upon this item by chance. You must be the one to set out on this quest. Seek out both the Mourned and the Forgotten.  One has fallen among brethren, the other alone. Both were valorous on the field of battle. Touch this stone to them and honor both.",
+        "The stone you have is glowing again.  This proves the lightstone you have is very unique.  I can show you how to increase its power.  ",
+        "Listen carefully:  The lion has always been a symbol of valor on the battlefield, never retreating from a foe, always protecting his charges. The great beast Rama'nai walks these lands at the head of his pride.  Slay him in honorable combat and dip the stone in his blood.  Return to me when you're done.",
+        "I see you did as you were told. The stone continues to glow brighter.  To increase its power, you must right some wrongs.  Find the orc captains Gaer and Ogof.  They routinely direct their troops to destroy and rob the graves of the ancient Knights of Truth. You must avenge this defilement of the graves; doing so will increase the power of your stone.",
+        "Excellent.  Greedy orc scavengers will no longer disturb the buried dead. Your stone grows brighter with each deed done in valor.  There is another soul in these lands who needs releasing from the eternal torment that chains him to this realm.  Will you free him?",
+        "Long ago the Priests of Marr and the Knights of Truth administered to the people of these lands.  The current ruler of Freeport despised these people and managed to kill most of them long before the Shattering. The High Priest at the time was first cursed, then executed and then his corpse was tossed out in these lands for the scavengers to feast on.  His soul hasn't found deserved rest for centuries.",
+        "Yes, you now bear an object that hasn't been seen on Norrath for centuries.  You hold the essence of the Greater Lightstone.  Defeat the cursed High Priest in battle while the lightstone is in his presence.  The powers of Valor and Truth imbued within will free him from his curse.  ",
+        "Your lightstone glows brilliantly!  Your quest is almost over.  I must ask you to complete a final task. If you do this, I can fully imbue your lightstone.",
+        "The elite among the Knights of Truth wielded the magical Swords of Truth. These weapons have been lost for many decades.  News has surfaced that an orc holds the hilt and broken edge of one of these lost blades; you must retrieve its remnants. With these ancient saber pieces I shall complete your Greater Lightstone.",
+        "He's a leader among the Bloodskull clan of orcs.  Rumors state his camp lies in a hidden valley close to here.  Unfortunately, I don't know the location of the camp.  You must help me get this sword back into the proper hands; it's sacrilege for such a creature to possess it.",
+        "I hoped when we met again you would bear the sword the orc leader possesses.  Please, recover the sword from that creature.",
+        "You did it!  Now hand me the broken sword and your lightstone, and I will completely empower the stone.",
+        "There!  The Great Lightstone is fully empowered with the essence of Valor, Truth, and Light!  I am truly sorry to have deceived you into thinking you could keep this stone. You must understand, it must stay with my Order. He's returning soon and we must preserve his artifacts to hasten his arrival.  It has truly pained me to speak untruthfully to you. I hope you understand the importance of this matter.",
+        "You've been exceptionally brave and valorous in this quest.  If it weren't for the dire need of my order to possess this stone, I'd gladly hand it over to you.  You must understand ... what was that?",
+        "Look alive! We have visitors!"
+      ]
+    },
+    {
+      "name": "Captain Feralis",
+      "name_sortable": "captainferalis",
+      "locations": [
+        "-427.97,-44.09,-280.43"
+      ],
+      "utterances": [
+        "Yes?",
+        "Of course. Rainus mentioned you. Somehow I guessed you would be bigger. No matter. Thank you for acting courier, that will be all.",
+        "Oh... so that's your angle. I know your type. I got enough of you in the city before I was transferred out here. Still, I suppose you serve a purpose. Sure, I've got something you can do.",
+        "Head down to that small ratonga and kerran community south west of here and collect their taxes. You'll need to collect from every house owner. Normally they place the money in their mailbox, on the front of their houses. Sometimes they forget... when that happens you remind them, understood?",
+        "Good. I've had too many softies under my watch. Here's a list of their names and how much they owe. I'll be here when you're done.",
+        "Well?",
+        "Nice work, here's your cut. While you were out another job came up, interested?",
+        "Yeah, that's what I thought. Ventar T'Kal is a man of mine. You can find him north west of here, in the company of nomads. I need you to deliver these Bloodskull Frenzy Root samples to him. They've already been treated... so don't eat them.",
+        "Good. And thanks.",
+        "Gee, were you stuck under a house or something?",
+        "I don't care about Ventar and I don't have time to be angry with you. Tecera Valnos has been working from the outpost south of the Ruins of Val'marr. Originally I had planned on her helping deal with the orcs, but as of late she has had her hands full. I need you to report to her and give her whatever assistance you can.",
+        "It might be quickest to take the griffin down from the Freeport Station.",
+        "Tecera sent word. I am very pleased with your work, <player name>. You've been a great asset, right when we needed it, too. The Overlord will be glad to hear it as well.",
+        "Better than you know. Please, take this, the city of Freeport thanks you.",
+        "No, thank you.",
+        "Good work. The Overlord will hear of you.",
+        "Orcs, Undead... I'm more worried about what the Dervish Cutthroats are up to."
+      ]
+    },
+    {
+      "name": "Captain Gaer",
+      "name_sortable": "captaingaer",
+      "utterances": [
+        "Here comes dinner."
+      ]
+    },
+    {
+      "name": "Captain Garglass",
+      "name_sortable": "captaingarglass",
+      "locations": [
+        "-353.38,-47.62,-788.01",
+        "-305.98,-47.81,-752.46",
+        "-318.2,-48.04,-791.79",
+        "-354.76,-47.98,-799.5"
+      ],
+      "utterances": [
+        "You made your final mistake.",
+        "It's only a minor setback."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1813437771 -590015568:Bramblewood Round Shield\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 22,
+      "drop_coin_max": 22
+    },
+    {
+      "name": "Captain Ista",
+      "name_sortable": "captainista",
+      "locations": [
+        "-1318.47,-51.94,589.15"
+      ],
+      "utterances": [
+        "Glad you could make it. Now how about doing a little something for Freeport?",
+        "Freeport needs you to follow the trail of slime outside of the Sewer System to the north of here. You will need to slay the oversized sliding lump of refuse known as the Gobbler.",
+        "Of course you do... that's the same thing the last group of adventurers said and look here, I still need to get this job done. Hurry along now, Freeport does not like to wait."
+      ]
+    },
+    {
+      "name": "Captain Ogof",
+      "name_sortable": "captainogof",
+      "utterances": [
+        "Looks like we have visitors!"
+      ]
+    },
+    {
+      "name": "Captain Vertas",
+      "name_sortable": "captainvertas",
+      "locations": [
+        "-517.22,-43.44,-284.93"
+      ],
+      "utterances": [
+        "Hail. What have you to report?",
+        "I knew it! Excellent work, soldier. You have earned your first insignia. If you keep up the good work, you just might make something of yourself.",
+        "Oh good, you've returned. Thank you for the information you have gathered. You seem trustworthy, but you will now need to prove your worth to the Militia and to the Overlord of Freeport.",
+        "Yes, it is time you prove your worth to me... err... to Freeport and to the Overlord. Stop asking so many questions! I have a special mission for you.",
+        "Good to hear. That is the attitude we want to see in young recruits. I need you to travel back to the camp to the west. There you will need to remove some of the dervishes from the land of the living. ",
+        "Let me give you a list. Make sure to crush them thoroughly. Dervish heretics, outlanders, cutthroats, and thaumaturges. Go now! Hurry back.",
+        "You had better.",
+        "Pah, the orcs and the dervish... Listen, the Freeport Militia requires your help. Will you do a service for the Militia?",
+        "Pay... PAY? You insolent pig, you should be bowing down at my feet asking me for forgiveness. You ought to  be paying homage to the Overlord for all he has given you!",
+        "You will be compensated for your time. There have been reports of a growing threat in the Commonlands. The militia requires you to travel to the west to the road beyond the druid ring to find the orc emissary.   Our reports tell us the emissary is the one who is passing stolen information to the Deathfist Empire.",
+        "Deal with him by any means necessary! Bring back to me any evidence you may find.",
+        "I know you will. Return to me immediately once this is complete.",
+        "Note? Indeed, this is interesting. You were right to bring this to me. Well done, soldier.",
+        "This note you brought me provided us with some good information. Did you show it to anyone else?",
+        "Good. Very good to hear. Careful, kid, the dervishes have spies everywhere. Whatever you do, do not trust anyone because they might be a spy. Just last week, we had to put two people to death because we suspected them of being spies. Are you sure you're not a spy?",
+        "I guess not. You don't look like a spy. A spy wouldn't look so foolish. I need you to go scout out the dervish camps in the southwest area of The Commonlands. The note says they've set up camp in that area. Go there now and investigate it.",
+        "Bring back any information you may find. Why are you still here?",
+        "Really? Well, you may not be as useless as I first thought.",
+        "For one so young, you have done well thus far. I still have more for you to do before I can let you go. Are you up to some undercover work?",
+        "I like you, kid. What I need you to do is travel to their forward command camp and infiltrate their defenses. You will take this set of orders and switch them for their current list of orders.",
+        "Oh, sorry sport. Will you take this mission or not? It will be dangerous. Something I'm sure is right up your alley.  If it's not, well... we'll have to send the medics, I guess.",
+        "Great, hurry back! And try to come back in one piece.",
+        "Very well done. Impressive, in fact. You have earned another rank on your insignia.",
+        "You've done well up to this point, cadet. The information you have gathered so far has helped our cause. Now it's time I give you a real mission.",
+        "You are now required to perform an important task for the Militia. Because of the fake orders you delivered, we were able to pinpoint the highest ranking officer in this regiment. Now, you must go and eliminate him.",
+        "Shh...  Not so loud! I'll whisper it to you.  This type of information we do not speak in open areas. You never know who is listening. One spy hearing the wrong bit of information can ruin just about everything.",
+        "May your path be silent, and your blade be true.",
+        "I knew you had it in you, soldier. You have earned my highest respect. Take this insignia and wear it proudly as a symbol of your bravery as a member of the Militia.",
+        "Hail, good to see you again soldier!"
+      ]
+    },
+    {
+      "name": "a carrion hawk",
+      "name_sortable": "carrionhawk"
+    },
+    {
+      "name": "a carrion hound",
+      "name_sortable": "carrionhound",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1211035744 439759271:canine incisor\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Commander Du'Nar",
+      "name_sortable": "commanderdunar",
+      "utterances": [
+        "His death means little."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -635309253 1818309229:Lucanic Stalker's Strap\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Commander Grik'Sna",
+      "name_sortable": "commandergriksna",
+      "locations": [
+        "-484.17,-47.88,478.43",
+        "-442.44,-48.04,459.88"
+      ],
+      "utterances": [
+        "Back fools, there are too many!",
+        "Ungh!  Not fall!",
+        "Death of the weak not important.",
+        "They spotted us! Kill the witnesses!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Commander Ralio",
+      "name_sortable": "commanderralio",
+      "utterances": [
+        "All hands retreat!"
+      ],
+      "drop_coin_min": 78,
+      "drop_coin_max": 78
+    },
+    {
+      "name": "a cow",
+      "name_sortable": "cow",
+      "locations": [
+        "-1289.55,-87.86,33.16"
+      ]
+    },
+    {
+      "name": "Dalar R'taan",
+      "name_sortable": "dalarrtaan",
+      "utterances": [
+        "Finding Odus should bring a wealth of new research and knowledge."
+      ]
+    },
+    {
+      "name": "Darathar",
+      "name_sortable": "darathar",
+      "locations": [
+        "-611.84,-48.04,-352.16"
+      ],
+      "utterances": [
+        "This is how the fight begins! Keep going, let me be inspired by your heroism!",
+        "And so your weapons have scarred me, keep fighting, let me see your inspiration!",
+        "You can do it, show me the heroes you are!"
+      ]
+    },
+    {
+      "name": "a dearly departed",
+      "name_sortable": "dearlydeparted",
+      "utterances": [
+        "My love... I... am... coming..."
+      ]
+    },
+    {
+      "name": "a Dervish assassin",
+      "name_sortable": "dervishassassin",
+      "utterances": [
+        "Your only chance is to run!",
+        "You think that's going to stop me?",
+        "I've been looking forward to this for hours.",
+        "Everyone fall back and meet at the hideout!",
+        "I can hold them, and I'll take some of them with me!",
+        "I was going to let you live, but now I want you to suffer!",
+        "Tear them apart!",
+        "Ready ... now!",
+        "Away!  Get away from our weapons!",
+        "Die!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1669633344 -431690929:Far Seas Requisition - WC 002\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 17,
+      "drop_coin_max": 27,
+      "faction_changes": [
+        {
+          "name": "The Dervish Cutthroats",
+          "name_sortable": "dervishcutthroats",
+          "value": -100
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Dervish craftsman",
+      "name_sortable": "dervishcraftsman",
+      "utterances": [
+        "I only do business with Dervs. Go away!",
+        "Who would ever think that a Smithson would end up being an anvil pounder to the bandits.",
+        "This is Dervish territory. Leave while you still can."
+      ]
+    },
+    {
+      "name": "a Dervish cutthroat",
+      "name_sortable": "dervishcutthroat",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -104417454 1827733456:Plainsman Bracelet\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1862335373 50588349:advanced craftsman volume 17\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 26,
+      "drop_coin_max": 80,
+      "faction_changes": [
+        {
+          "name": "The Dervish Cutthroats",
+          "name_sortable": "dervishcutthroats",
+          "value": -100
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Dervish go-between",
+      "name_sortable": "dervishgobetween"
+    },
+    {
+      "name": "a Dervish heretic",
+      "name_sortable": "dervishheretic",
+      "utterances": [
+        "The Highwayman will hear of this, mark my words!",
+        "There is no escape! Surrender and I'll kill you quickly!",
+        "Fall back. We can let this band go!",
+        "Attack!",
+        "You fell into our trap rather nicely.",
+        "Don't touch what doesn't belong to you!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -738456813 540695488:Shortsword of the Fray\\/a",
+          "chest": true
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Dervish Cutthroats",
+          "name_sortable": "dervishcutthroats",
+          "value": -100
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Dervish outlander",
+      "name_sortable": "dervishoutlander",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738456813 540695488:Shortsword of the Fray\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 21,
+      "drop_coin_max": 41,
+      "faction_changes": [
+        {
+          "name": "The Dervish Cutthroats",
+          "name_sortable": "dervishcutthroats",
+          "value": -100
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Dervish ruffian",
+      "name_sortable": "dervishruffian",
+      "utterances": [
+        "I can hold them, and I'll take some of them with me!",
+        "Ready ... now!",
+        "I was going to let you live, but now I want you to suffer!",
+        "Everyone fall back and meet at the hideout!",
+        "Your only chance is to run!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 610874452 1997196792:Boon of the Damned (Adept)\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 19,
+      "drop_coin_max": 19,
+      "faction_changes": [
+        {
+          "name": "The Dervish Cutthroats",
+          "name_sortable": "dervishcutthroats",
+          "value": -100
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Dervish thaumaturge",
+      "name_sortable": "dervishthaumaturge",
+      "utterances": [
+        "They'll kill us all!",
+        "They're after us. We must kill them!",
+        "Don't let them hit me!",
+        "I don't have time for this nonsense!",
+        "Here, I'll lead the charge!",
+        "Not the head! Not the head!",
+        "Somebody find a way to get us out of here!",
+        "Away!  Get away from our weapons!",
+        "What now? More distractions? Great!",
+        "Don't touch what doesn't belong to you!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 34,
+      "drop_coin_max": 110,
+      "faction_changes": [
+        {
+          "name": "The Dervish Cutthroats",
+          "name_sortable": "dervishcutthroats",
+          "value": -100
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Dervish thug",
+      "name_sortable": "dervishthug",
+      "utterances": [
+        "Someone get some help, fast!",
+        "Fall back before we're all killed!",
+        "Welcome to the party!",
+        "Make sure they die quietly!",
+        "I need help over here!",
+        "There they are! Get them!",
+        "Don't touch what doesn't belong to you!",
+        "Away!  Get away from our weapons!",
+        "Die!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 17,
+      "drop_coin_max": 289
+    },
+    {
+      "name": "a Dervish zealot",
+      "name_sortable": "dervishzealot",
+      "utterances": [
+        "Fall back!  We'll meet again.",
+        "Everyone makes one mistake. That one was your last.",
+        "The iksar fear nothing!",
+        "You wanted my attention?  Now you have it!",
+        "Now, prepare to face an eternity of fear.",
+        "Welcome to a lifetime of slavery.",
+        "Welcome to the party!",
+        "Someone get some help, fast!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738456813 540695488:Shortsword of the Fray\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1756516814 -2137737252:Breeze (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 49021708 328512049:Acid III (Adept)\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 31,
+      "drop_coin_max": 31,
+      "faction_changes": [
+        {
+          "name": "The Dervish Cutthroats",
+          "name_sortable": "dervishcutthroats",
+          "value": -100
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Diana Heartstrings",
+      "name_sortable": "dianaheartstrings",
+      "locations": [
+        "-1098.71,-59.14,51.37"
+      ],
+      "utterances": [
+        "I greet you, great adventurer!  Isn't it wonderful!?",
+        "Our lost goddess of love has returned to us!  I was heartbroken by the news of her demise, but now that she has returned, love and compassion can take a grander hold upon us all.",
+        "Isn't it wondrous?  Love has proven that it cannot be conquered by death!  I feel like celebrating.  Don't you?",
+        "I was thinking that we could perform some grand miracles of love in Norrath.  The resulting emotions will then be released -emotions, like love and compassion, giving glory and strengthening our Lady of Love.  Would you like to help me perform these miracles of love?",
+        "Delightful!  I know of several in town that could truly benefit from the glow of love within their lives, and others that have come to me looking for help finding that special someone.",
+        "Isn't it exciting!?  I'll give you the names of the townsfolk that you should speak to.  Talk with them a while and find out who would be best coupled together, based upon what they say.",
+        "Have you spoken to each of the townsfolk, <player name>?",
+        "Ah, this is turning out to be a particularly splendid Erollisi Day!  Now that you know a bit about each person, you can help me match them up!  I have already narrowed down some of the matches, but I needed your help for the final step.",
+        "Who should Zak be matched up with?",
+        "Who would be best for Tyluna?",
+        "Who should Amund be with?",
+        "Who would Marjorie be happiest with?",
+        "Let me meditate on your choices a while, <player name>.  We do not want to be steered wrong in this!  Speak to me again, in a moment.",
+        "I feel harmony within your choices!  The love we have helped to blossom this day is a miracle performed in the name of Erollisi Marr.  Bless us upon this humble world, Holy Goddess.",
+        "You know, if you are interested, there may be more work for one as dedicated to love, as you.  I would suggest you venture to New Halas in Frostfang Sea and speak with Priest Swornlove.  He is there with the sisterhood of Erollisi."
+      ]
+    },
+    {
+      "name": "a digger wasp",
+      "name_sortable": "diggerwasp",
+      "locations": [
+        "-601.84,-39.84,-369.33"
+      ]
+    },
+    {
+      "name": "a dregs sneak",
+      "name_sortable": "dregssneak",
+      "utterances": [
+        "Startle us, you did. We'll have to remedy that."
+      ]
+    },
+    {
+      "name": "Durio Caepio",
+      "name_sortable": "duriocaepio",
+      "locations": [
+        "392.61,-47.71,-797.2"
+      ],
+      "utterances": [
+        "Nice to have a healer here."
+      ]
+    },
+    {
+      "name": "a dusty cadaver",
+      "name_sortable": "dustycadaver",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -612798970 943460484:a decomposing zombie organ\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1072498694 1172754859:Far Seas Requisition - FG 244\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 18,
+      "drop_coin_max": 24
+    },
+    {
+      "name": "D'za",
+      "name_sortable": "dza",
+      "locations": [
+        "-1324.79,-87.89,35.97"
+      ]
+    },
+    {
+      "name": "an earthen tumbler",
+      "name_sortable": "earthentumbler",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -989003161 1420590974:a fragment of terrain\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an elephant",
+      "name_sortable": "elephant",
+      "locations": [
+        "-302.87,-47.58,-518.6",
+        "-274.84,-47.77,-523.69",
+        "-265.95,-47.31,-555.7"
+      ]
+    },
+    {
+      "name": "an Ember Elemental",
+      "name_sortable": "emberelemental",
+      "locations": [
+        "92.86,-42.58,-830.77"
+      ],
+      "drops": [
+        {
+          "id": 2567422056,
+          "name": "Coin of Ember",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Engineer Klaaska",
+      "name_sortable": "engineerklaaska",
+      "locations": [
+        "-18.86,-39.67,-889.82"
+      ],
+      "utterances": [
+        "I am terribly busy! Terribly busy!  Come later when I have time to talk!",
+        "Quick, then, or the winged ones will roast me alive for sure.  What is your question?",
+        "An expression, merely an expression we use.  Rich ones who are providing us funding for our venture.  Look around you, are there room for wings here? No! Naturally not.",
+        "I thought you had but one question!  I am too busy to talk.  Terribly busy!"
+      ]
+    },
+    {
+      "name": "Entui",
+      "name_sortable": "entui",
+      "locations": [
+        "-219.86,-47,122.15"
+      ],
+      "utterances": [
+        "The rats across the river annoy my neighbors to no end, but I think they're kind of cute.",
+        "The fishing here isn't as good as I would have hoped."
+      ]
+    },
+    {
+      "name": "Executioner Selindi",
+      "name_sortable": "executionerselindi",
+      "locations": [
+        "-1341.62,-69.53,337.95"
+      ]
+    },
+    {
+      "name": "a fallen apostle",
+      "name_sortable": "fallenapostle",
+      "utterances": [
+        "Your presence enrages me!",
+        "Now you too are lost!",
+        "You inflict damage not pain!",
+        "Death is nothing new to us!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -214340711 2003617483:Bootstrutter's Field Guide to the Commonlands\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -622687454 1705625455:Advanced Outfitter Volume 17\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a fallen champion",
+      "name_sortable": "fallenchampion",
+      "utterances": [
+        "Your eyes are so pretty.",
+        "Seek death and it finds you.",
+        "Final death comes at last."
+      ]
+    },
+    {
+      "name": "a fallen crusader",
+      "name_sortable": "fallencrusader",
+      "utterances": [
+        "Now you too are lost!",
+        "You can only do so much damage!",
+        "You shouldn't be here!",
+        "Your presence enrages me!",
+        "Death is nothing new to us!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 37,
+      "drop_coin_max": 37
+    },
+    {
+      "name": "a fallen defender",
+      "name_sortable": "fallendefender",
+      "utterances": [
+        "You inflict damage not pain!",
+        "Now you too are lost!",
+        "You can only do so much damage!",
+        "Your presence enrages me!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 89,
+      "drop_coin_max": 89
+    },
+    {
+      "name": "a fallen diplomat",
+      "name_sortable": "fallendiplomat",
+      "utterances": [
+        "Your presence enrages me!",
+        "It takes more than Death to stop the undead."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a fallen disciple",
+      "name_sortable": "fallendisciple",
+      "utterances": [
+        "Your presence enrages me!",
+        "Death is nothing new to us!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a fallen guardian",
+      "name_sortable": "fallenguardian",
+      "utterances": [
+        "Now you too are lost!",
+        "It takes more than Death to stop the undead."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2001152374 -156740137:advanced craftsman volume 19\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Ferink",
+      "name_sortable": "ferink",
+      "utterances": [
+        "Oh whys oh whys can't we be together?  Oh whys oh whys. My true love, the loves of my life is locked away on the other sides of the river and I can't be with her. Oh whys does it has to be this ways? It's not fair, not fair at all. Something must be done!",
+        "Amoora, my love. She is the love of my life, the shining beacon of my heart, my passion, my preciouses Amoora has my heart and holds it captive. I aches so when I can't be nears her, when I can't smell her sweet smelling fur.",
+        "Oh, just because I'm a ratonga doesn't means I can't be with the loves of my life. No, it does not! This is just not right! I should go to her now! But I can't;  her parents don't like me. I don't know why... I'm a nice person, right?  Oh, my Amoora.",
+        "Go to her! Tell her I loves her! Tell her I'll give anything to be with her! Tell her...  just tell her I loves her for me.  My Amoora.",
+        "My Amoora...",
+        "Sob!... Sniffle! ...",
+        "She was?  Oh my Amoora! I am lost without her.",
+        "I must gets her back! Did you see her? Did you... did you tell her I loves her?  Did you? Answer me!  ",
+        "How was she? What did she say to you? You must tells me. You see why I loves her so... her voice, her beauty, even the day seems brighter when she's nearby. ",
+        "More beautiful than anyone! I has an idea... maybe if you talks to her father and my mother... If you talks to them they might agree to let us be together. Yes, will you do this for me?  My Amoora!",
+        "Oh good... You will need to go to the ratongas and talks to my mother. You will needs to go to the kerra and talk to her father. Yes, you tells them we love each other and wants to spend our lives together for ever and always. You go tell them, all right?",
+        "Thanks you, thanks you!",
+        "I know! It's awful! I haves to think of something.",
+        "Oh my heart aches, I needs my Amoora. Our parents are set in the old ways. It seems like there is nothing that will change their minds about us. Wait, I haves an idea!  Will you do me a favor?",
+        "You go find my friend. My friend's name is Jojo.  He'll knows what to do. He always knows what to do.",
+        "My friend Jojo Karanja rests in the Seafarer's Roost in the City of Freeport. Jojo is very smart. Yes, he knows what to do. He help Amoora and mes.  He knows!",
+        "You'll do that for me? Oh thank you; you are a good friend. I will be grateful to you always!  Her fur is so soft... ",
+        "Wonderful! I knews you could do it. Now, if somehow we can convice Jaharin.",
+        "Danger! There is much danger now. You came just in time to help me! She is in danger! You must helps me defend my Amoora.",
+        "The orcses! They're coming to hurts my Amoora. Oh, I couldn't let anything happens to my Amoora, my love, the passions of my life. No I would just die inside if anything were to happens to my Amoora. You will help me, yes?",
+        "When the orcses come, you fight them away. The orcses are coming to hurts Amoora and her family! We must not let them! We keep the orcses away!",
+        "The orcses are coming now. Quickly now, cross the river to her huts! We must stop the orcs from hurting my Amoora! I'll meets you there!",
+        "Well, I was right behind you... I was about to charge into the battle, but then I thoughts of Amoora and how upset she would be if I got hurt... Anyways, you were amazing! Thank you so much! Now I can be with my Amoora again! Here, takes this as a small token of my appreciation."
+      ]
+    },
+    {
+      "name": "a freshwater crab",
+      "name_sortable": "freshwatercrab",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -2005436878 2046850352:crab meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Frund the Big Grin",
+      "name_sortable": "frundthebiggrin"
+    },
+    {
+      "name": "General Vhar'Taug",
+      "name_sortable": "generalvhartaug",
+      "utterances": [
+        "Intruders! Destroy them all!",
+        "Retreat! We are undone!",
+        "Welcome to your death, lesser being!",
+        "Back fools, there are too many!"
+      ]
+    },
+    {
+      "name": "Gersberms Gigglegibber",
+      "name_sortable": "gersbermsgigglegibber",
+      "utterances": [
+        "Happy Nights of the Dead!  I bet you're no scaredy-pants.  You wanna see how many creepsy ghosts you can collect?",
+        "Don't get scaredy!  Get to the Ghost Hunter starter pad, and you'll ride a holiday cloud.  Race around on it, collecting as many creepsy ghosts as possible!",
+        "Good job!  You caught a lot of ghosties!  Now I to count them, and give you reward!"
+      ]
+    },
+    {
+      "name": "Gerun Pontian",
+      "name_sortable": "gerunpontian",
+      "utterances": [
+        "Gerun Pontian of the Militia. I watch the gates. I assure you a more dreary job does not exist in all of D'Lere.",
+        "Who attacks the gates of Freeport? Orcs? Dervish Cutthroats? Qeynosians? Hah! The only good thing about this post is it gives me a lot of time. And even the most daft of fools knows that time equals money.",
+        "Like I said, I've got free time. So while I'm out here I can acquire commodities that I can then sell to the merchants of Freeport. If I can't be out there earning glory, I'll stay back here and earn coin. Care to help?",
+        "Venom has been selling quite nicely. There are quite a few speckled rattlers around here. They're a great source of venom. If you bring me back the venom from eight of them I'll give you a portion of what the profit will be. Sound good?",
+        "Great! I'll be here, of course.",
+        "Did you get the venom?",
+        "Great! This will fetch a nice amount. There's more where that came from if you're interested.",
+        "Nah, this will take a while to sell. If I have more venom I risk driving down my own price. But there's plenty of wildlife around here that is willing to be exploited for our benefit! The shells of the small emerald beetles around here are very commonly used in jewelry. If you collect six of their shells I'll have enough to make a bulk sale. What do you say?",
+        "Excellent. Make sure they aren't cracked or anything!",
+        "Do you have the shells?",
+        "Great! Are you tired yet or can you do more?",
+        "All right. I've got some buyers lined up for some armadillo hides. You can find some if you follow the road west and along the wall that stretches to the north. I need ten of their hides.",
+        "I'm sure you will.",
+        "Did you get the hides?",
+        "Good work. You've made us both quite a bit of coin. Thanks for the help. I'm sorry that my tasks have been so dull. It's hard to pull the important missions when you're a lowly gate patrol.",
+        "I do have something a bit more exciting if you're interested.",
+        "Well, a while back I got a low priority assignment to take care of the ghostly orcs north of here in the Siegelands. I've been putting it off. I hate orcs almost as much as I hate ghosts. If you take care of these ghostly orcs for me I'll pay you what I was slated to receive. What do you say?",
+        "Great, that's a relief to hear. Don't worry about the spectral defenders. Like the ghostly orcs, they imagine they are in some never-ending war. I don't think they even realize they're dead. It's sad, really. Anyway, ghostly orcs: take out ten of them, those were my orders.",
+        "Are the orcs dead?",
+        "Ah, most excellent. Thank you very much. Listen... they sent you to me to see if you were able to get things done. I know I've been sending you around doing menial stuff, but you seem to follow orders quite well. If you're interested in working for us, and increasing your exposure--even to the Overlord himself--I have someone I can put you in contact with. Interested?",
+        "I thought you might be. He won't be sending you after any armadillos either! Go south of here, past the Turmoil Cemetery. There is an old, ruined tower where you can find Rainus Canton. He will have tasks for you, without a doubt.",
+        "May the Overlord hasten your path, <player name>."
+      ]
+    },
+    {
+      "name": "a ghast beetle",
+      "name_sortable": "ghastbeetle",
+      "locations": [
+        "-159.13,-45.42,-863.43"
+      ]
+    },
+    {
+      "name": "a ghostly orc",
+      "name_sortable": "ghostlyorc",
+      "utterances": [
+        "I embrace Death.",
+        "At last, a chance for battle again.",
+        "Why does this always happen to me?",
+        "I see live people. "
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 39,
+      "drop_coin_max": 39
+    },
+    {
+      "name": "a giant grove wisp",
+      "name_sortable": "giantgrovewisp",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a giant spider",
+      "name_sortable": "giantspider",
+      "locations": [
+        "-1219.7,-67.9,275.34",
+        "-1196.2,-65.27,280.15",
+        "-1190.27,-63.6,309.97",
+        "-1137.94,-48.05,365.27",
+        "-1054.64,-48.47,300.84",
+        "-1080.75,-51.01,273.86",
+        "-1134.53,-58.8,256.26",
+        "-1141.78,-52,276.77",
+        "-984.26,-41.1,388.8",
+        "-964.35,-39.77,426.57",
+        "-927.33,-33.46,423.52",
+        "-885.81,-30.25,409.43",
+        "-874.21,-35.15,382.71"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1883221997 1788663479:Borderland Bounty for Dervish Cutthroats\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Gierasa Kulnovich",
+      "name_sortable": "gierasakulnovich",
+      "locations": [
+        "409.86,-47.73,-805.54"
+      ],
+      "utterances": [
+        "Come in, child, come in.  You must be so tired from your journeys.  Come, rest here.",
+        "Yes... the cards said you would come to us.  They said that time will no longer keep what is hidden from the eyes of the seeker.  They also said that death will be ascendant, but not for whom.  Yes... yes, you are the one.",
+        "I cannot deny the fate that the cards show me, errant one.  This is a world of worms, and death is but one of its kings.  You will find one who pledges her fealty to a single incarnation of this ruler, yet she seeks another incarnation instead.  Seek out the tower of the angry one and speak with the new house-souls.",
+        "Even though Zarvonn's tower is no longer here, it is easily found.  Within its spire you will find a woman who has many masters, but only acknowledges one.  Tell her that if she seeks Zarvonn's realm, she will surely find it.  She can see it evidenced within the siege of time.  Head to the south and head to the west and you will find the finger pointing to where Zarvonn exists... or perhaps... it doesn't.",
+        "Oh, I am just an old woman who has seen far too many years.  My companions and I  travel these lands.  We have been exiled from Freeport, and don't really like to settle in one spot, you know.  Too many parts of the world left to see.",
+        "Oh, there are many places left to visit, child.  The lands are not all gone, they are just a little hard to find.  You'll see, my dear.  I have a good feeling you'll find your way to them."
+      ]
+    },
+    {
+      "name": "a Gigglegibber Goblin Gamblin' Game Vendor",
+      "name_sortable": "gigglegibbergoblingamblingamevendor",
+      "locations": [
+        "-487.87,-45.57,-321.81"
+      ],
+      "utterances": [
+        "Buy ticket, you!  Only ten shiny coins! You give just ten shiny coins and maybe you get um... many shinier coins!",
+        "Gigglegibber goblins not kill people! War no fun at all.  Gigglegibber goblins like shiny coins and funny things! We like frogs, fluffy kittens, potatoes... You have potatoes?",
+        "They tasty! Not funny!... though Gribbik carved funny face in a potato once.  That was funny until he eated it.  Hey! No try to tricks me with talk about potatoes.  You still pays ten shiny coins for ticket!  Buy many tickets! If you buys more maybe you win more than many shiny coins!"
+      ]
+    },
+    {
+      "name": "Gimble Cognoggin",
+      "name_sortable": "gimblecognoggin",
+      "locations": [
+        "-223.41,-47.35,-548.24",
+        "-224.9,-47.38,-479.07",
+        "-254.88,-46.63,-430.68",
+        "-221.95,-47.31,-636.84",
+        "-215.92,-47.25,-660.38",
+        "-207.8,-47.28,-666.14",
+        "-195.19,-47.36,-669.8",
+        "-151.81,-47.37,-669.81",
+        "-101.1,-47.52,-658.19"
+      ],
+      "utterances": [
+        "No, no, that won't do.  Oh, whatever shall I do, it's too dangerous for me to do.  But need those reagents I do!   Why are you bothering me?  Can't you see I'm busy thinking?  No, too oblivious for that I'm sure!  You oaf!",
+        "Hmm ...  yes, yes, yes!  You CAN help me!  But what would it cost, I wonder ... I would have to divulge the components ... but I suppose I have no other choice.  Will you help me or not?",
+        "Folks are so greedy these days.  I suppose I don't blame them.  In recent years, it's become every gnome for himself.  I need you to venture into the Wailing Caves and retrieve some reagents. I can't tell you why I need them, but I will reward you well if you return with the ingredients. Here, let me write in your journal what I need.",
+        "YES! I'll be the first gnome to create this potion! You don't know what this means to me! And I suppose you don't really care. Fine then. Here's your payment. Let it never be said that Gimble Cognoggin welshed on a deal!"
+      ]
+    },
+    {
+      "name": "Grandma Twirlwhizzer",
+      "name_sortable": "grandmatwirlwhizzer",
+      "locations": [
+        "-507.38,-43.24,-264.41"
+      ],
+      "utterances": [
+        "Oh dear me, who are you?"
+      ]
+    },
+    {
+      "name": "a grove wisp",
+      "name_sortable": "grovewisp",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a grunt of Ree",
+      "name_sortable": "gruntofree",
+      "locations": [
+        "92.95,-39.18,-852.3"
+      ],
+      "utterances": [
+        "Smash them!",
+        "Full retreat!  Regroup in the caves!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Guard Asellio",
+      "name_sortable": "guardasellio",
+      "locations": [
+        "-1259.08,-87.86,56.96"
+      ]
+    },
+    {
+      "name": "Guard Bellicus",
+      "name_sortable": "guardbellicus",
+      "locations": [
+        "-572.92,-43.34,-249.03"
+      ],
+      "utterances": [
+        "All praises to the Overlord.  The Militia protects loyal citizens of Freeport."
+      ]
+    },
+    {
+      "name": "Guard Calog",
+      "name_sortable": "guardcalog",
+      "locations": [
+        "-585.1,-43.9,-260.13"
+      ],
+      "utterances": [
+        "Do not challenge my authority, citizen.  In Freeport, the Overlord's word is law!"
+      ]
+    },
+    {
+      "name": "Guard Fimi",
+      "name_sortable": "guardfimi",
+      "locations": [
+        "-427.67,-44.97,-218.54"
+      ],
+      "utterances": [
+        "Do you have business with the Freeport Militia?"
+      ]
+    },
+    {
+      "name": "Guard Laurio",
+      "name_sortable": "guardlaurio",
+      "utterances": [
+        "All praises to the Overlord.  The Militia protects loyal citizens of Freeport.",
+        "Do you have business with the Freeport Militia?"
+      ]
+    },
+    {
+      "name": "Guard Navera",
+      "name_sortable": "guardnavera",
+      "locations": [
+        "-446.68,-45.93,-267.29"
+      ],
+      "utterances": [
+        "The Overlord commands me to work the night shift and so I must accept.",
+        "All praises to the Overlord.  The Militia protects loyal citizens of Freeport."
+      ]
+    },
+    {
+      "name": "Guard N'Garen",
+      "name_sortable": "guardngaren",
+      "locations": [
+        "-538.21,-44.88,-371.35"
+      ],
+      "utterances": [
+        "I'm tired of Safiya, that Kerra tires me with her madness."
+      ]
+    },
+    {
+      "name": "Guard N'Ican",
+      "name_sortable": "guardnican",
+      "locations": [
+        "-401.14,-43.12,-341.22"
+      ],
+      "utterances": [
+        "The Overlord commands me to work the night shift and so I must accept.",
+        "All praises to the Overlord.  The Militia protects loyal citizens of Freeport."
+      ]
+    },
+    {
+      "name": "Guard Pascentius",
+      "name_sortable": "guardpascentius",
+      "locations": [
+        "-401.14,-43.12,-341.22"
+      ],
+      "utterances": [
+        "Do you have business with the Freeport Militia?",
+        "All praises to the Overlord.  The Militia protects loyal citizens of Freeport."
+      ]
+    },
+    {
+      "name": "Guard Pokul",
+      "name_sortable": "guardpokul",
+      "locations": [
+        "-1443.09,-81.35,411.66"
+      ],
+      "utterances": [
+        "Do you have business with the Freeport Militia?"
+      ]
+    },
+    {
+      "name": "Guard Quintix",
+      "name_sortable": "guardquintix",
+      "utterances": [
+        "The Overlord commands me to work the night shift and so I must accept."
+      ]
+    },
+    {
+      "name": "Guard Senna",
+      "name_sortable": "guardsenna",
+      "locations": [
+        "-1443.83,-81.03,423.77"
+      ]
+    },
+    {
+      "name": "Guard Trimalchio",
+      "name_sortable": "guardtrimalchio",
+      "locations": [
+        "-441.37,-45.22,-291.74"
+      ],
+      "utterances": [
+        "The Overlord commands me to patrol this area, and so I must."
+      ]
+    },
+    {
+      "name": "Guard Vindex",
+      "name_sortable": "guardvindex",
+      "locations": [
+        "-1257.84,-87.85,31.07"
+      ]
+    },
+    {
+      "name": "Guard Viridix",
+      "name_sortable": "guardviridix",
+      "locations": [
+        "-484.8,-44.82,-309.41"
+      ],
+      "utterances": [
+        "Do not challenge my authority, citizen.  In Freeport, the Overlord's word is law!",
+        "The Overlord commands me to patrol this area, and so I must."
+      ]
+    },
+    {
+      "name": "Gubta",
+      "name_sortable": "gubta",
+      "locations": [
+        "-505.91,-43.35,-257.22"
+      ]
+    },
+    {
+      "name": "Halcien",
+      "name_sortable": "halcien",
+      "locations": [
+        "-1332.32,-53.23,579.15"
+      ]
+    },
+    {
+      "name": "Hanif",
+      "name_sortable": "hanif",
+      "locations": [
+        "377.35,-46.75,-807.93"
+      ],
+      "utterances": [
+        "Those spared personal pain feel themselves called to assist the pain of others.  We must all carry our share of the misery which lies upon the world.  Wouldn't you agree?",
+        "That is a narrow outlook, but expected in this day.  I myself, have felt a calling to tend to the suffering of these unfortunate souls.",
+        "Indeed.  I follow the doctrines of the ancient Springview Healers.  A grand house of healers that felt themselves called to help attend to the pain of others.  I am able to ease the suffering of these outcasts, and that is rewarding.",
+        "What if I offered such crude rewards for your assistance?",
+        "Get me some medicinal aids to alleviate some of their discomfort.  The medicine can help alleviate the pain, as well as lengthen the patient's life."
+      ]
+    },
+    {
+      "name": "Harbormaster D'Vey",
+      "name_sortable": "harbormasterdvey",
+      "utterances": [
+        "The Overlord's Edge has left for Kylong Plains, it will be returning soon.",
+        "The Overlord's Edge will be leaving for Kylong Plains in 33 seconds."
+      ]
+    },
+    {
+      "name": "Heron Cogcarrier",
+      "name_sortable": "heroncogcarrier",
+      "utterances": [
+        "Ahoy ye bilge rat! Wha' ye be doing 'ere?",
+        "Avast! Ye not know who I be? I be ze dread piratess Heron... an' who migh' ye be?",
+        "Blimey!? Ye actually interested in 'elping? Well, me cap'ain and me crew seem ta be in a spo' of trouble, we do.",
+        "Arr, not so sure me trus' ye yet. Me needs ya ta dig up a treasure me pappy lef' ahind fa me.",
+        "Great! Bucko, take tha' multidirectional aerospanning locationater over there ta locate me treasure... Gar! And don' ye be forgetting me trusted shovel. Fair winds ta ye!",
+        "Did ye get the treasure yet?",
+        "Ye hand it over then and let me inspect ze treasure... Hrmm... Not going ta be able ta open this up 'ere. Ye let me know when ye ready ta board ze Sinking Sod II, tis a short ride ou' ta ze Smarmy Sprocket.",
+        "I've packed all me things.  Just hop in me dinghy when ye be ready ta set sail, <player name>."
+      ]
+    },
+    {
+      "name": "Impelia Abettus",
+      "name_sortable": "impeliaabettus",
+      "locations": [
+        "-431.62,-44.09,-275.69"
+      ],
+      "utterances": [
+        "Please.  Don't come near me.  I'm very sick right now, and I don't want to harm anyone else.  Let me just pass.  In peace.",
+        "There ... maybe I can talk for a few minutes without coughing up a lung.  I don't know what I have, but I know where I got it.  The irony is that I was looking for information about the source of one threat, and wound up learning more about a completely different, yet just as deadly, menace.",
+        "I have been ... commissioned ... to find out what happened to Zarvonn, the Mad Mage.  Several hundred years ago, before Necromancy was widely accepted as a scholarly pursuit, Zarvonn explored the mysteries of the dead.  As a matter of fact, much of his initial research is still being taught at the Academy of Arcane Sciences.",
+        "He was kicked out of the Academy for his practices and vowed revenge upon all of Freeport.  He ventured out into the Commonlands and continued his research, taking up residence in a tower made from bone.  As time went on, he eventually remodeled the tower into a more contemporary design, one fashioned from old stones he specially selected.",
+        "Not exactly.  A hundred years ago, undead started appearing in much greater frequency in the Commonlands.  This alarmed the Academy to the point that they convinced the Militia to stop his threat by force.  When they arrived at his tower, he was gone.  The story goes, that when they searched the place, they found evidence proving he had been gone for a number of decades.",
+        "Or so the Academy believed ... they just wrote it off to the undead venturing out from the Kithicor Forest.  There was once a forest to the west of the Commonlands before the Shattering.  Now that a decade has passed since the Shattering ended, my... benefactors... wish to continue their research into the mysterious disappearance of Zarvonn.",
+        "It would be best if I didn't mention them.  The less you know, the safer you are.  I hate them with a seething passion, and if I still had my strength I'd slit every one of their throats ... who am I kidding ... I'm powerless against them. They own me more than any thrall could ever be owned.",
+        "Yes, back to what I was saying.  They feel that Zarvonn is still around ... somewhere.  According to the information I was given, they think there is truth to his promise, and that he will return.  The recent return of the undead is making them think he's still alive and is about to follow through with his vow.",
+        "I found an old manuscript of his that detailed his attempts at reanimating dead bodies, which ultimately led me to a dark, dark place.  Unfortunately, it was a false lead.  All I gained from that place was this wasting sickness. But I do believe the nomads may know more.",
+        "The nomads have been in the Commonlands longer than anyone can remember, at least four hundred years, according to my research.  I found an old scroll that hinted that they may have come from the Thundering Steppes.  Their oral tradition of history through story telling may reveal more.  I have no plans on pursuing this matter anymore, though.  I accept my fate, and don't expect to leave this tower until I've taken my final breath.",
+        "While I was pursuing my original assignment, I came across an old manuscript that I traced back to being penned by Zarvonn, the Mad Mage.  It took me a great while to translate it, but it seems he was researching how to reanimate dead bodies using the flesh of others.",
+        "I'm not too sure about that anymore.  I think he was trying to make something different, but wound up using Necromancy rather than whatever other force he was using to create his original versions.  In his research, he was using specimens that already existed, but weren't undead.  I can attest to that from first hand experience.",
+        "I tracked down where he found his original test subjects, and it led me into the Nektulos Forest.  It seems the \"golems\" he was originally using were coming from a mysterious manor, more a castle, actually.  I wasn't able to find out too much about the origins of the place, but it surely wasn't Teir'Dal in origin.",
+        "There's a rather lengthy story to the whole place, but I'm not sure what to believe anymore, considering what I saw in there.  Apparently, the place is called Nektropos Castle, and was originally built by someone named Everling.  This was so long ago that the facts have been lost through time.  Maybe some of the Teir'Dal that live in that dark forest might know more, but I already know more than I want to.",
+        "I wasn't able to find out if Zarvonn ever moved to Nektropos Castle, but if he did, he'd be dead by now.  That place is crawling with golems, and I'm certain malevolent spirits roam those halls.  I don't know if my sickness came from those golems, the spirits, or even something more ... frightening.  Look, I don't want to talk about this anymore.  If my benefactors want to know more about Zarvonn's tower, they can go speak with the nomads.",
+        "I don't know where we can find them.They have a tendency of moving around for whatever crazy reason they have in their heads.  The last I heard, they set up camp in the north.  Mind you, there are two different tribes that roam the Commonlands.  The ones I find to be a bit more friendly are led by an old woman by the name of Gierasa.  Now leave me to die in peace."
+      ]
+    },
+    {
+      "name": "Importer Strathcona",
+      "name_sortable": "importerstrathcona",
+      "locations": [
+        "-1228.53,-84.51,34.16"
+      ],
+      "utterances": [
+        "Where is that courier?"
+      ]
+    },
+    {
+      "name": "Inquisitor Irizan",
+      "name_sortable": "inquisitoririzan",
+      "locations": [
+        "-442.64,-43.76,-303.54"
+      ],
+      "utterances": [
+        "Stop! Get over here, now!",
+        "If you wish to incur the wrath of Freeport's might, by all means, don't do what you're told.  Complete these demands or bear the consequences.",
+        "I don't believe we've met. I am the Overlord's chief inquisitor. Oh, don't be nervous--that is, unless you have something to be nervous about.  ",
+        "Sure you're not and everyone in Freeport is a perfect angel, downright model citizens they are.  I have ways of finding out what I want.  Whether it's fact or fiction, that's what I get paid to decide.",
+        "Yes!  Indeed. What do I want?  You're a quick one. You'll serve me well, and if you don't I'll mark you as traitor to Freeport and our Overlord.  Is that understood?",
+        "I'm pleased that we've come to an understanding so quickly. My request is quite simple. I need you to recover a few items for me. That's it. Merchant Edmond is your contact; he'll tell you what you need to do. Is this clear?"
+      ]
+    },
+    {
+      "name": "Jaharin",
+      "name_sortable": "jaharin",
+      "locations": [
+        "-191.2,-47.39,139.61"
+      ],
+      "utterances": [
+        "What are you doing in here?",
+        "Ferink? Oh you mean the rat? Don't bother. Amoora needs a proper feline fellow, not some ... snack.",
+        "Love? Bah, I care not for the feelings of some mouse. Amoora will get over it.",
+        "The truth? The truth is my patience is at an end. Leave my home before I need to get... nasty.",
+        "Such a battle! We were barely able to hold them off the north hut. I saw what you did for us.",
+        "You are too modest a warrior. We are in your debt.",
+        "Yes, yes... I suppose so.",
+        "Well, I suppose that if he does care for Amoora enough to risk his scrawny little neck for us, then he can't be all bad.",
+        "Of course, go tell the rat... er... Ferink that he is welcome to feast this evening... Oh, and it won't be rat on the menu...",
+        "Thank you again for defending our home."
+      ]
+    },
+    {
+      "name": "Janus Fieri",
+      "name_sortable": "janusfieri",
+      "locations": [
+        "-462.02,-45.03,-335.87"
+      ],
+      "utterances": [
+        "Greetings.  Janus Fieri, at your service."
+      ]
+    },
+    {
+      "name": "Jereth Blackshield",
+      "name_sortable": "jerethblackshield",
+      "utterances": [
+        "I expected that rat Nethet to show up in order to save his friend.  It seems he sent a different sort of vermin in his place.",
+        "What do you want messenger?  This had better be good or I'll let the rest of the crew here have some fun with you.",
+        "Let me see that. ... ... hrm... ... the little rat does make an interesting offer.  I accept the bet.",
+        "Haha!  Why, the bet that you can beat my boys here in a fight to the death.  If you win I'll call off the contract on Nikora, if you lose I get double what Nikora owes me.  Judging by your looks I think I'm in for watching my boys deliver a good beating.",
+        "This time we get to kill the messenger."
+      ]
+    },
+    {
+      "name": "Jerimiah Halstetter",
+      "name_sortable": "jerimiahhalstetter",
+      "locations": [
+        "-1335.49,-53.32,576.09"
+      ],
+      "utterances": [
+        "Hey. Are you looking for something to do?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -827043034 514388817:a goblin's notebook - The Hideout\\/a",
+          "price": 4000
+        }
+      ]
+    },
+    {
+      "name": "J.P. Feterman",
+      "name_sortable": "jpfeterman",
+      "locations": [
+        "-476.19,-44.77,-253.86"
+      ]
+    },
+    {
+      "name": "Jyrok the Stone",
+      "name_sortable": "jyrokthestone",
+      "utterances": [
+        "I cannot hold them much longer."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 41864799 615376752:Daughter of the Sky\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Kadek",
+      "name_sortable": "kadek",
+      "utterances": [
+        "Don't hurts! Money in mailbox outside.",
+        "...nnng..."
+      ]
+    },
+    {
+      "name": "Karmen the Swindler",
+      "name_sortable": "karmentheswindler",
+      "locations": [
+        "-1339.67,-53.38,578.96"
+      ],
+      "utterances": [
+        "Hey you! I got something you might be interested in...",
+        "Hello there! What can I do for you?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 2121963653 348813561:an old key\\/a",
+          "price": 6400
+        },
+        {
+          "gamelink": "\\aITEM 1618656513 -631993083:Antonia Ale (Alcoholic)\\/a",
+          "price": 500
+        },
+        {
+          "gamelink": "\\aITEM 502648298 -366828437:canteen of pond water\\/a",
+          "price": 38
+        },
+        {
+          "gamelink": "\\aITEM 1281187795 -495418410:Dwarven Ale (Alcoholic)\\/a",
+          "price": 2500
+        },
+        {
+          "gamelink": "\\aITEM -692542167 450719094:Elven Wine (Alcoholic)\\/a",
+          "price": 3000
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a",
+          "price": 19
+        },
+        {
+          "gamelink": "\\aITEM 1608751314 -1346962995:Gnomish Spirits (Alcoholic)\\/a",
+          "price": 3500
+        },
+        {
+          "gamelink": "\\aITEM -1424677497 801220853:Lucan's Lager (Alcoholic)\\/a",
+          "price": 500
+        },
+        {
+          "gamelink": "\\aITEM 1199073772 520539661:Oggok Swill (Alcoholic)\\/a",
+          "price": 5000
+        },
+        {
+          "gamelink": "\\aITEM 1383852152 -1014417461:Teir'dal Blood Wine (Alcoholic)\\/a",
+          "price": 4500
+        }
+      ]
+    },
+    {
+      "name": "Kason Withershadow",
+      "name_sortable": "kasonwithershadow",
+      "locations": [
+        "-379.58,-47.99,-255.2"
+      ],
+      "utterances": [
+        "Just fishing my cares away! You should pick up a pole and give it a whirl!"
+      ]
+    },
+    {
+      "name": "Keerah",
+      "name_sortable": "keerah",
+      "locations": [
+        "-185.96,-47.59,113.39"
+      ],
+      "utterances": [
+        "What do you want?  I highly doubt my victims are coming to me nowadays just to hand me their valuables, so you must want something from me.",
+        "You'd live out here too if the Militia wanted your pelt.  Lift one bag of platinum from a tax collector and they get all up in a huff.  They didn't seem to mind when it was just foreigners who were losing things.",
+        "Now, that's an intelligent question.  How did the guards know?  Perhaps they employ a clairvoyant who saw me take it?  Maybe I tripped over my tail, the tax collector caught me, and I made a daring escape?  No!  Someone ratted me out!  When I find out who, I'll claw their eyes out!"
+      ]
+    },
+    {
+      "name": "a kerran rogue",
+      "name_sortable": "kerranrogue",
+      "locations": [
+        "-170.36,-46.32,67.92",
+        "-161.28,-47.23,79.93",
+        "-194.4,-47.42,80.46",
+        "-206.54,-47.89,106.15",
+        "-185.77,-47.45,105.6",
+        "-187.15,-48.04,123.4",
+        "-178.81,-47.25,129.46",
+        "-195,-47.28,144.58",
+        "-217.99,-48.04,135.98",
+        "-213.7,-47.57,123.66",
+        "-231.78,-47.43,139.79",
+        "-230.63,-47.28,148.12",
+        "-218.02,-48.04,143",
+        "-192.05,-47.4,158.23"
+      ],
+      "utterances": [
+        "You seem to believe in hopeless causes.",
+        "You'll never live to tell our tale!",
+        "Obviously not worthy of pack status.",
+        "Feel the searing pain of my claws!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 17,
+      "drop_coin_max": 17
+    },
+    {
+      "name": "a kerran vagrant",
+      "name_sortable": "kerranvagrant",
+      "locations": [
+        "-193.56,-45,58.7",
+        "-178.36,-45.94,50.53",
+        "-222.83,-48.37,74.25",
+        "-228.41,-47.41,84.03"
+      ],
+      "utterances": [
+        "Feel the searing pain of my claws!",
+        "You'll never live to tell our tale!",
+        "Obviously not worthy of pack status."
+      ]
+    },
+    {
+      "name": "Kraofla",
+      "name_sortable": "kraofla",
+      "locations": [
+        "426.91,-24.9,-895.16"
+      ],
+      "utterances": [
+        "Withdraw, fine comrades. I shall remain."
+      ],
+      "drop_coin_min": 343,
+      "drop_coin_max": 343
+    },
+    {
+      "name": "Lady Anyanka Polevshi",
+      "name_sortable": "ladyanyankapolevshi",
+      "utterances": [
+        "Wait for me in the abyss, my comrade.",
+        "You shall pay for disturbing my eternal rest!",
+        "Even in undeath there is a final demise."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 915367656 636238602:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 114,
+      "drop_coin_max": 136
+    },
+    {
+      "name": "Leldwana",
+      "name_sortable": "leldwana",
+      "locations": [
+        "-196.52,-47.3,143.41"
+      ],
+      "utterances": [
+        "What do you want?",
+        "Oh no! I forgot! I'm so sorry. Here, take it, I have it right here.",
+        "I would invite you to stay, but...",
+        "You are not welcome to stay here, if that is what you were thinking."
+      ]
+    },
+    {
+      "name": "Lieutenant Vrah'Kna",
+      "name_sortable": "lieutenantvrahkna",
+      "utterances": [
+        "Break your bones and eat your flesh!",
+        "Their death serves our cause.",
+        "Welcome to your death, lesser being!",
+        "They spotted us! Kill the witnesses!",
+        "Retreat! We are undone!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Lightbringer Wisp",
+      "name_sortable": "lightbringerwisp",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1266774612 -154220882:burned out lightstone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a lost soul",
+      "name_sortable": "lostsoul",
+      "locations": [
+        "-1354.58,-69.59,337.83",
+        "-1313.94,-69.38,347.85"
+      ]
+    },
+    {
+      "name": "Lucanic Knight Initiate",
+      "name_sortable": "lucanicknightinitiate",
+      "locations": [
+        "-309.76,-47.47,-364.87"
+      ],
+      "utterances": [
+        "This time there will be no escape!  Your kind is extinct and you will join them soon!",
+        "To arms!"
+      ]
+    },
+    {
+      "name": "Lucretias Domna",
+      "name_sortable": "lucretiasdomna",
+      "utterances": [
+        "You are disturbing my studies here.  Begone, before I make you a walking cadaver!"
+      ]
+    },
+    {
+      "name": "Lucy Lovewing",
+      "name_sortable": "lucylovewing",
+      "locations": [
+        "-1243.2,-86.64,30.07"
+      ],
+      "utterances": [
+        "There are lovely red roses blooming in the Enchanted Lands and New Halas!  It must be due to Erollisi Day.",
+        "Don't you just love Erollisi Day?"
+      ]
+    },
+    {
+      "name": "Madam Vi",
+      "name_sortable": "madam06",
+      "locations": [
+        "-470.6,-44.9,-292.73"
+      ],
+      "utterances": [
+        "I need some assistance. Would you be willing to aid me?",
+        "The heat out here is ridiculous and I am parched. I would do anything for some nice cool water. The water around here gets so filthy from the livestock. Even as hot as it is, I can't just drink any water, you know? Do you think you could go out and fill each of these flasks with clean water from the lake and river for me? Oh, and I will also need one of them filled from the sea. Mooshga always needs more salt for curing her specialties.",
+        "Do make sure there are no parasites in the water.",
+        "Hello again. Any news?",
+        "Excellent work!",
+        "Hello again. Do you have any further time to spare?",
+        "A section of my entourage seems to be lost out there. I need you to find them, give them the water you collected earlier, and relay their location to me.",
+        "Head out to the northwest. They have been missing for quite some time.",
+        "I wonder if they've set up camp yet.",
+        "Great news! Nothing like an ice cold drink on a hot day.",
+        "Hello, friend. My companions are rehydrated and back to themselves, thanks to you.",
+        "Wha..distracted? Hmm, well I suppose you are correct, but please do keep your observations to yourself in the future. ",
+        "There is a gem that I truly desire which has evaded me.  I heard that it can be found by breaking open clumps of rocks inside the Wailing Caves to the west. Look for dull stone outcroppings near the vibrant blue rocks found inside.",
+        "Be careful, those caves are dangerous!",
+        "Have you completed your task?"
+      ]
+    },
+    {
+      "name": "Maharai",
+      "name_sortable": "maharai",
+      "locations": [
+        "-182.74,-47.61,112.54"
+      ],
+      "utterances": [
+        "Something really needs to be done about our rat problem.",
+        "The gnawing, and the screeching, and the clawing... they're so NOISY."
+      ]
+    },
+    {
+      "name": "Marcus",
+      "name_sortable": "marcus",
+      "locations": [
+        "674.25,-52.65,438.27"
+      ],
+      "utterances": [
+        "Hello theres, hows can I helps you today?",
+        "Why yes, indeed, that poster is mine.  Yous are interested in the offer then?",
+        "Wells you see, just a short time ago a group of Rogue Magi came by here.  From the continent of Antonica they were...",
+        "Yes, Antonica.  Theys seemed to be fleeing something, banishments perhaps.  No matter though, you sees that rockpile over there?  It is actually the entrance to an ancient valley, one which holds a great many secrets...",
+        "Yes, that valley is where the magi have gone.  With my helps of course.  They had devised a potion that would allows them to pass through the rock unharmed....a Potion of Earthwalking if yous will.  In so doing theys required my assistance of course, for I am Marcus.",
+        "The potion that they had devised required certain ingredients....some of which they did not have in their possession.  Not knowing the area well they contracted me to assist them in gathering these items, for a fee, of course.  In the course of gathering their ingredients I was able to discern the secrets to creating this potion myself.",
+        "The magi, they depleted my stores you see, and I am out of a few key ingredients at this time.  If you were to gather them for me I would give you a potion, free of charge.",
+        "That's a nice book you have there, let me see it.  Yes, I'll jot down for you now the items I wills be needing.  Come see me again when you have them all.",
+        "Excellent, yous have gathered whats I need!  Gives them here...and yes, heres is your potion as I promised.  Marcus always stays true to his word, he does.",
+        "Yes, but it's a special potion.  Anyway, before you goes in theres, a words of warning for yous.  That valley is very dangerous and very old.  I know not whats has happened since the Magi have entered but terrible sounds have come from the valley in recent nights, howling, wretched sounds they are.",
+        "Ahh yess, but the treasures there, I am sure that they are amazing.  These are not the first magi to enter that valley you know, no's, they are not.",
+        "Oh yes, one last thing.  The potion, there is enough to cover three in a bottle but once opened it will only work once.  If you needs to go back for some reason, you know who to talk to."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516:a torch\\/a",
+          "price": 60
+        },
+        {
+          "gamelink": "\\aITEM 2037451968 -1554449979:Acidic Goo\\/a",
+          "price": 144
+        },
+        {
+          "gamelink": "\\aITEM 2084246562 -626331382:Acidic Massage\\/a",
+          "price": 144
+        },
+        {
+          "gamelink": "\\aITEM -1134242107 -1996491909:Anti-Venin\\/a",
+          "price": 72
+        },
+        {
+          "gamelink": "\\aITEM -690121607 1202074247:Blight of the Eventide\\/a",
+          "price": 144
+        },
+        {
+          "gamelink": "\\aITEM 398705441 134851183:Caress of the Phantom\\/a",
+          "price": 144
+        },
+        {
+          "gamelink": "\\aITEM 1021041208 -1438464221:Crypt Sludge\\/a",
+          "price": 144
+        },
+        {
+          "gamelink": "\\aITEM -278086179 1135729178:Elemental Ointment\\/a",
+          "price": 72
+        },
+        {
+          "gamelink": "\\aITEM -708906406 -399850333:Enigmatic Formula\\/a",
+          "price": 72
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a",
+          "price": 19
+        },
+        {
+          "gamelink": "\\aITEM 621368354 1922001657:Gust of Insight\\/a",
+          "price": 72
+        },
+        {
+          "gamelink": "\\aITEM -1347014509 -1543938383:plain bread\\/a",
+          "price": 19
+        },
+        {
+          "gamelink": "\\aITEM 1220255882 166959947:Potion of Earthwalking\\/a",
+          "price": 0
+        },
+        {
+          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a",
+          "price": 81
+        },
+        {
+          "gamelink": "\\aITEM 1570285900 1124058293:Remedy of the Field\\/a",
+          "price": 72
+        },
+        {
+          "gamelink": "\\aITEM -763453791 -1701345003:Salve\\/a",
+          "price": 72
+        },
+        {
+          "gamelink": "\\aITEM -182855303 1419465232:softly glowing pearl\\/a",
+          "price": 18000
+        }
+      ]
+    },
+    {
+      "name": "a massive emerald beetle",
+      "name_sortable": "massiveemeraldbeetle",
+      "locations": [
+        "-472.09,-48.44,-172.05"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Master Jaedra",
+      "name_sortable": "masterjaedra",
+      "locations": [
+        "-1326.66,-51.55,594.37"
+      ],
+      "utterances": [
+        "Why does one like yourself feel the need to bug someone like me?",
+        "Mmmm... I could use some assistance with something I have been working on for the last few days. I need someone to go into the sewer system to the north of here and retrieve some stolen supplies from the goblins there.",
+        "Well, then let me know when you have collected everything."
+      ]
+    },
+    {
+      "name": "Master of the Hunt",
+      "name_sortable": "masterofthehunt",
+      "utterances": [
+        "Stay clear of that lot down there.",
+        "What is it?  Did Iziran send you to check up on me?",
+        "That's the first lot of good news I've heard all day.  These undead orcs have no strategy, no rhyme or reason to their actions; they just continue to relentlessly, albeit feebly, attack our city. Huh?  Say, since Iziran didn't send you, are your skills for hire?",
+        "Splendid. A ratonga stole my hunting journal, the little wretch.  Find him, kill him, and return with my journal.  Is that understood?",
+        "You have my journal, yes?  Ahh, I am in your debt.  When you are ready, I will show you what it means to be the Master of the Hunt!",
+        "Why, when you're ready of course."
+      ]
+    },
+    {
+      "name": "Merchant Edmond",
+      "name_sortable": "merchantedmond",
+      "locations": [
+        "-492.26,-43.89,-261.98"
+      ],
+      "utterances": [
+        "Are you looking for something in particular? ",
+        "So, you're the one he sent, huh?  I take it you want your assignment.",
+        "No, no you don't.  And don't go getting any funny ideas.  A bit of free advice, stranger: Don't cross Irizan.  That is one man you don't want on your bad side.  Got it?",
+        "All right. Find the dark elf at the other side of this here crossroads.  You can't miss her; just listen for the whiny little wretch.  You're going to lend her a hand.  Do what ever you can to help.  Your future is at stake.  Don't screw this up.  And whatever you find while aiding her, you return to me.  Understand?",
+        "Listen, pallie: either you do what I say or Iziran will send someone else to do this.  And if someone else has to do it, that's because you're dead.  Got it!?"
+      ]
+    },
+    {
+      "name": "Merchant Valary",
+      "name_sortable": "merchantvalary",
+      "locations": [
+        "-527.89,-44.13,-302.02"
+      ],
+      "utterances": [
+        "My wares are the finest in the land. Won't you look?"
+      ]
+    },
+    {
+      "name": "Merchant William",
+      "name_sortable": "merchantwilliam",
+      "locations": [
+        "-527.68,-44.13,-311.61"
+      ],
+      "utterances": [
+        "Buy here!  Buy now!  Best goods you'll find in all the land."
+      ]
+    },
+    {
+      "name": "a Militia guard",
+      "name_sortable": "militiaguard",
+      "locations": [
+        "-307.25,-47.55,-365.13"
+      ],
+      "drop_coin_min": 258,
+      "drop_coin_max": 258
+    },
+    {
+      "name": "Mindblaster Kander",
+      "name_sortable": "mindblasterkander",
+      "utterances": [
+        "Rock on! NOSTALGIA!!"
+      ]
+    },
+    {
+      "name": "Mnemir",
+      "name_sortable": "mnemir",
+      "utterances": [
+        "What yous want?",
+        "What?! That's a lie!",
+        "I won't! I don't have it! I won't give you anything! You can't make me do anything!",
+        "OW!",
+        "...ugh!",
+        "..."
+      ]
+    },
+    {
+      "name": "a moon wisp",
+      "name_sortable": "moonwisp",
+      "locations": [
+        "-177.54,-47.89,-470.6",
+        "-120.01,-48.04,-421.32",
+        "-85.83,-48.04,-398.82",
+        "-128.46,-47.35,-391.59",
+        "-173.64,-48.04,-427.14"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2129749343 -119286990:advanced craftsman volume 15\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Mooshga",
+      "name_sortable": "mooshga",
+      "locations": [
+        "-1272.59,-87.82,28.21"
+      ],
+      "utterances": [
+        "So, you be adventurer sent by Militia to help Mooshga? You look like you hungry! Mooshga feed you good!",
+        "Mooshga is greatest baker in all Commonlands! You want Mooshga make somethin' for you?",
+        "Mooshga hungry for jerky. Plus Mooshga try to make old secret recipe of famous ancestor chef. You go collect pieces for jerky so Mooshga can figure out recipe! It made from hyena meat. Get carrion hound ears for Mooshga.",
+        "Good...Yes, Mooshga make Hyena Jerky for you.",
+        "You back so quick! What you have for Mooshga?",
+        "Oh, thanks you! You make Mooshga happy Ogre.",
+        "You still look hungry! You hungry? Mooshga knows when people hungry. Mooshga will feed you but you do something for Mooshga first.",
+        "Mooshga make special surprise today. Mooshga needs claws for surprise recipe she figure out.",
+        "Mooshga need special claws from crabs. The HUGE ones. You find crabs in southeast. They live in freshwater. Near old tower there is good spot. You go find crabs and snap tasty claws off, then bring back to Mooshga.",
+        "Mooshga will make seafood surprise for you!",
+        "Mooshga makes you some too. Here you go.",
+        "The pot! Mooshga not believe what happened.",
+        "Well...  Mooshga was cooking. After put water in Moosgha's cooking pot when fire was really hot, tasty squirrel run by. Mooshga thought would make tasty appetizer for dinner. Mooshga chased tasty and forgot about boiling pot.",
+        "No, squirrel got away. When Mooshga return, all water was boiled away and pot got too hot. Mooshga tried put more water in pot, but pot cracked. Now Mooshga can't cook. Maybe you can help Mooshga fix pot?",
+        "Okay! You go harvest the iron clusters for Mooshga and then can fix pot!",
+        "Oooo... good! Mooshga gets back to making her goodies again. Mooshga don't need all iron to fix pot. You keep rest of iron.",
+        "You hungry now? Mooshga has idea for next meal. Come close so Mooshga not let others know secret of ancestor's recipe.",
+        "Mooshga knows what you like. Do you know of old statue on way to docks at sea?",
+        "Good. Go to statue and find wisps. You bash them and bring back some for Mooshga. Mooshga make something good for you. You go get wisp essences for Mooshga! Mooshga will make yummy wisp tofu for you.",
+        "Wisp tofu is delicious!",
+        "Mooshga very happy. Try some tasty Mooshga made.",
+        "Mmmmm... You smell that? Mooshga gets ready to bake muffins. You want some?",
+        "Mooshga's favorite! Rhino muffins! Mooshga have no parts to next batch. If you want try muffins, you need get Mooshga ingredients.",
+        "Mooshga need three-toed rhino feets. You go get three-toed rhino feets for Mooshga, then will make best muffins for you!",
+        "Yes. Rhino muffins very crunchy. Go collect for Mooshga.",
+        "Just what Mooshga need. This good for big batch.",
+        "You come to help Mooshga again?"
+      ]
+    },
+    {
+      "name": "Mylitta",
+      "name_sortable": "mylitta",
+      "utterances": [
+        "Your eyes are so pretty."
+      ]
+    },
+    {
+      "name": "a mysterious contact",
+      "name_sortable": "mysteriouscontact",
+      "utterances": [
+        "Hmm.  The time had past.  Luck is that I am forgiving. ",
+        "A point of such truths.  I am to relay that the next shipment is ready.",
+        "Good.  So far, the leader has been impressed.  Do see that it continues."
+      ]
+    },
+    {
+      "name": "Nethet",
+      "name_sortable": "nethet",
+      "locations": [
+        "-1272.75,-87.82,61.64"
+      ],
+      "utterances": [
+        "Yous comes to Nethet to speaks of things yes?  What's it that you wants to knows?",
+        "He's lookings for his precious cargoes now is he?  That's what one gets for dealings with others than ratonga, we is always reliables, yes?",
+        "I don't knows... yet, but I cans finds out I promises.",
+        "I can't just gives my secrets aways for free now cans I?   Maybe if you do me a favors I helps try to find out for you hrm?  We have a deals?",
+        "I has a friends whos in troubles with the Blackshield smugglers.  He went to speaks with thems but I'm not sures they wanted to chat.  I'm thinkin' he's needin' a hand from someones likes you.  If you helps him I'll be thinkin of where Brandus' cargo might be.",
+        "He wents north along the coast.  He says the Blackshield have their own dock to do their business just northwest of the flying griffin tower.  Makes sure you come in from the land, they watches the docks carefully and its dangerous.  Look for anothers ratonga, his names is Nikora.",
+        "I knows.",
+        "Yous is back.  Whats did you learn of my friend?",
+        "The Blackshields you say?  Hrm... this is no goods, we can't haves any fightings with thems.  Can you takes this notes to Jereth Blackshield?  He is nones friendly and you'll have to gets close to him through his guards but he should takes it.",
+        "Yes, yes, of courses.  You do favors for Nethet, he does favors for you.  Pleases goes now, and gives the notes to Jereth.",
+        "It's good to see yous again, whats did Jereth have to say about my offers?",
+        "Oh, no, no, no!  That's not true, I only gaves Jereth options.  I can't helps if he chooses ones you don't likes.   You were the winner weren't yous?  See, I knows what I'm doings.",
+        "They aren't so importants.  Other coins, secrets I knows he wants, special other thingses.  He seems to wants to sees blood this days, not my faults.",
+        "Yes, yes, I knows, but you wins and you gets what Nikora owed hims.  It's yours now, here.  That make things all betters now, yes?",
+        "I remembers what yous lookings for.  Yes, I keeps promises, bad for businesses not to.  I spoke to manys contacts and finds information on your friends missings cargo.",
+        "He was not dealings with peoples he shoulds.  And his cargoes was not somethings loyal citizens of Freeport should be having.  He was bringings in refugees to haves shipped back outs to sea.",
+        "Nots untils he has a sorcerer friend wipes or changes their memories and gives them overs to a captain in the Far Seas Trading Company to take to the Outpost of the Overlord.  He gets a cuts of the coins that Freeport pays for the refugees... twice or maybe even three or more times.",
+        "Yes, yes, backs to business, I'm sorrys for wanderings in my speakings.  The Dervish Cutthroats has thems now, and the sorcerer friend of Brandus.  They be trying to takings his businesses I'm guessings."
+      ]
+    },
+    {
+      "name": "Nikora",
+      "name_sortable": "nikora",
+      "utterances": [
+        "What are you doing?  Get down!  They'll see you!",
+        "Shhh!  Quiet, I'm trying to listen to this.  And I said, get down!  We'll talk in a minute.",
+        "Now, what is it that they are up to I wonder...",
+        "I assume Nethet sent you?",
+        "That's true I'm in a bit of a bind.  If you can help me then I'll put in a good word to Nethet to help you out with whatever you need.  I can't very much make a deal with these smugglers if they are trying to kill me.",
+        "Are you insane?  No, I just need the assassins they've sent after me to disappear if you know what I mean.  If they can't do the job then I can live long enough to have Nethet smooth all this misunderstanding out.",
+        "Many thanks friend, I'll let Nethet know about this, he should help you out with whatever you need.  I'm going to stay here a while longer and see if the Blackshields have anything else up their sleeves."
+      ]
+    },
+    {
+      "name": "Nosno",
+      "name_sortable": "nosno",
+      "locations": [
+        "-196.4,-47.71,56.22"
+      ],
+      "utterances": [
+        "The Overlord's might casts a great shadow over these lands. It is wise of Qeynos to stay far, we would crush them.",
+        "I was once small and weak. I have grown."
+      ]
+    },
+    {
+      "name": "Ohrgran Foulgore",
+      "name_sortable": "ohrgranfoulgore",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -833968652 -953746999:Elder's Spaulders of the Intuitive\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "an orc emissary",
+      "name_sortable": "orcemissary",
+      "utterances": [
+        "Intruders! Destroy them all!",
+        "Back fools, there are too many!"
+      ]
+    },
+    {
+      "name": "Orc ghost",
+      "name_sortable": "orcghost",
+      "utterances": [
+        "The living come to try their luck.",
+        "At last, a chance for battle again.",
+        "This is not the end of the journey.",
+        "I embrace Death.",
+        "Why does this always happen to me?",
+        "I'm already dead, how bad can it be?"
+      ]
+    },
+    {
+      "name": "an orc runner",
+      "name_sortable": "orcrunner",
+      "utterances": [
+        "Intruders! Destroy them all!",
+        "Back fools, there are too many!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Orc skeleton",
+      "name_sortable": "orcskeleton"
+    },
+    {
+      "name": "Orwen Neovra",
+      "name_sortable": "orwenneovra",
+      "locations": [
+        "391.89,-47.43,-811.22"
+      ],
+      "utterances": [
+        "She's gone! There was nothing I could do. Once I finish this cutter, that will all change. I got a few scars that I need to return to their dealers.",
+        "My wife, Ariana.  Bleeding in the dust, I watched the orcs drag her away. But when I finish this blade, I'll retrieve her from the grasp of those evil orcs!"
+      ]
+    },
+    {
+      "name": "Overseer Melicinn",
+      "name_sortable": "overseermelicinn",
+      "utterances": [
+        "Yes... you'll do nicely.",
+        "Thanks to some other foolish adventurers, I've found a way to get to Zarvonn and the power he possess.  In order for me to obtain what I'm after, he must be destroyed.  This is where you come in.",
+        "Silence!  Listen to me fellow Freeportian!  You would do well to use the two ears you have and close your one mouth!  Muster some fellow adventurers of like mind and strength then delve into Zarvonn's domain.  Once inside, destroy him and his minions, but do not spoil nor take what you find, for it will be that which you do not understand.  I will see to those... personally.",
+        "Because the Overlord demands it!  Do I need to tell you twice?  The last adventurer I had to tell twice is now a mindless undead servant.  Care to join him?",
+        "Much better, it pleases me to see you have come to your senses.  Gather as many people as you can, for you will need more than six to defeat Zarvonn, that much is certain.  When you are ready to travel into his domain, I will cast a spell which will allow you to use the portal before you.",
+        "Now don't run off, this will only take a moment."
+      ]
+    },
+    {
+      "name": "a parched nomad",
+      "name_sortable": "parchednomad",
+      "locations": [
+        "-153.43,-47.87,-819.12",
+        "-137.56,-48,-810.25"
+      ],
+      "utterances": [
+        "Sure is a hot one today. How do you fare, traveler?",
+        "Oh really? What might that be?",
+        "Oh excellent! Just what the doctor ordered, so to speak. The others will appreciate this also. The Crossroads, you say? I think we can get word to her there. Thank you again for you kindness.",
+        "Hello again!  The water was wonderful, hit the spot.",
+        "Mighty hot out here in the Commonlands, one can build up quite a thirst.  Have you seen a Madam Vi perhaps?  We seem to have lost her."
+      ]
+    },
+    {
+      "name": "Petronax",
+      "name_sortable": "petronax",
+      "locations": [
+        "-1324.92,-87.87,54.16"
+      ]
+    },
+    {
+      "name": "a pig",
+      "name_sortable": "pig",
+      "locations": [
+        "-1290.3,-87.84,31.14",
+        "-517.69,-42.87,-263.69",
+        "-525.18,-45.21,-319.19"
+      ]
+    },
+    {
+      "name": "a pirate of Gunthak",
+      "name_sortable": "pirateofgunthak",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a putrid cadaver",
+      "name_sortable": "putridcadaver",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Qeynosian protector",
+      "name_sortable": "qeynosianprotector",
+      "locations": [
+        "421.07,-24.83,-896.14",
+        "429.34,-24.88,-895.12"
+      ],
+      "utterances": [
+        "Keep up the assault, no matter what the cost in lives!"
+      ]
+    },
+    {
+      "name": "a Qeynosian scout",
+      "name_sortable": "qeynosianscout",
+      "locations": [
+        "421.33,-33.91,-874.32",
+        "410.5,-26.15,-900.91",
+        "451.54,-20.58,-893.61"
+      ],
+      "utterances": [
+        "My friend may have fallen like a rotten tree but I will not.",
+        "You cannot kill us all, despoiler!"
+      ],
+      "drop_coin_min": 165,
+      "drop_coin_max": 165
+    },
+    {
+      "name": "Rainus Canton",
+      "name_sortable": "rainuscanton",
+      "locations": [
+        "-1315.84,-51.23,598.69"
+      ],
+      "utterances": [
+        "The orcs?",
+        "Wonderful job, <player name>! The orcs will be feeling this for a while. In theory we could harry them endlessly if their leader never returned. That would make an interesting study to return home with. Speaking of that, I got word back on the orc roots.",
+        "That the orcs are more stupid than we thought. The elixir they create is triggered whenever the orc's adrenaline gets high enough. When this happens it actually eats away at the orc's brain! This damages the orc permanently. This is, of course, perfect.",
+        "If it's good enough for one clan of orcs why not others? I'd like you to deliver some of these treated roots to Captain Feralis at the Crossroads for me.",
+        "Good, good. He may have work for you once you get there. Once again, great work out there!",
+        "Rainus Canton, a once wandering sword now bound in service to the Overlord. And yourself?",
+        "<player name>, indeed. Your name has graced the lips of many I have had the fortune--or misfortune--to listen to. It is a, ehm--a pleasure to meet you. Are you out here in the service of the Overlord as well?",
+        "Splendid. Perhaps you would care to join me in earning his favor.",
+        "Captain Feralis has been tasked with re-confirming the orc threat to Freeport. No, that doesn't mean we fear they could ever bring the city down, but even a gnat can annoy and pester. Feralis has asked me to help him, and I have agreed.",
+        "Harassing the Bloodskulls, of course! And in doing so learning of their strengths and weaknesses. I've found them typical, so far. But one thing does stand out, their reliance on a thick root that grows around here.",
+        "Bloodskull Frenzy Root. The Bloodskull shamans provide their orcs with a solution that combines with the root to create an elixir that sends the orcs into a rage once they're in combat. All the tests we've run on the weed have so far turned up nothing and we've run out of samples. Care to lend a hand?",
+        "Head west of here. Once you find the orcs, pay your respects to the Overlord: kill some of the Bloodskull warriors and priests. However, and this is the important part, I would also like some samples of the Frenzy Root. The shaman mixture we have, don't worry about that, but bring me at least five root samples.",
+        "Return to me once this is done, I'll have more work for you.",
+        "Have you done as I asked?",
+        "Good work, <player name>. I'll get these to our alchemist for study.",
+        "That's right. I believe the orcs in this region are acting without new orders, they seem to be somewhat stagnant, or at the very least slow. They either have an inept leader or an absent one. I'd like you to head to the ruined towers west of here. There are some Bloodskull tower guards, kill them and search the corpses for the standing orders for these Bloodskull orcs. I'd like to see what they're working toward, if anything.",
+        "While you do that maybe we can figure out how better to unlock the power of this root. Good luck!",
+        "Did you slay the orcs and get the orders?",
+        "Wonderful. Unfortunately we still don't have any word on the root.",
+        "Give me a moment, the orcs aren't known for their grammar.",
+        "It looks like these are orders to build up a \"cha nu durk.\" Which is--I think--the minimum size of a orc fighting unit.",
+        "Carnage, no doubt. Orcs always wear their hearts upon their sleeves. The only thing a force that small would be useful for is routing civilians... Maybe a hit and run force for the Crossroads... ah hah!",
+        "I read the orcs as books. They've two camps south-west of the Crossroads, just south of the kerran and ratonga villages. The orcs of these two camps will likely make up the cha nu durk... Kill the orcs and destroy their supplies. If they have a siege tower, destroy it as well.",
+        "It's just a theory, but if they harass the kerrans and ratongans enough it may attract some militia attention. If that is their goal, perhaps they're looking to attack the Crossroads. If that isn't their plan, I am near certain they are going after the villagers, so put a stop to them regardless. We can't have the orcs killing civilians, who would we tax otherwise, eh?"
+      ]
+    },
+    {
+      "name": "Reetusk",
+      "name_sortable": "reetusk",
+      "locations": [
+        "-336.4,-46.56,-500.43"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 930355548 1690325059:Elephant Hide Belt\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a rhinoceros",
+      "name_sortable": "rhinoceros",
+      "locations": [
+        "332.05,-48.04,-574.94",
+        "342.72,-48.04,-630.17"
+      ]
+    },
+    {
+      "name": "Riki",
+      "name_sortable": "riki",
+      "utterances": [
+        "What do you want?",
+        "Yes? I'm sorry, we don't need any more supplies until the end of the month. Good day.",
+        "Ferink? What about him? Is he still moping by the river about that cat?",
+        "Don't say her name to me! It's ridiculous, really, being in love with a killer for goodness' sakes!",
+        "Love? Children know nothing of love! It's out of the question! Now, since you are wasting both of our time here, please leave me be. I have the day's chores to see to.",
+        "You again? You just don't get it, do you?",
+        "I highly doubt you have anything I would find interesting.",
+        "I'm listening...",
+        "Duia... Duia... oh... well, yes but he was an exception... I mean, they are not all like him. Such a kind man, er, cat... Well, you know what I mean.",
+        "A rememberance necklace! Oh, it's just gorgeous. I must send him my thanks.  Sigh... I suppose sometimes the wisdom of children is overlooked by the ways of the elders. I will give this Amoora a chance. Tell Ferink he has my blessing."
+      ]
+    },
+    {
+      "name": "Rilkrik",
+      "name_sortable": "rilkrik",
+      "locations": [
+        "-520.42,-44.13,-306.37"
+      ],
+      "utterances": [
+        "Not everything I have for sale is useful to everyone. Keep that in mind.",
+        "Hah, guess you've got no idea who you're talking to. Rilkrik here. I'm somewhat of an orc scholar, in all honesty.",
+        "By Argorym's blade!",
+        "A saying among orc scholars... I guess it's sort of elitist, Raegnir isn't that widely known, but the blade is and Raegnir held it. Knowledge of obscure trivia helps make one feel special. Anyway, this is part of the blade from which that saying originates: Argorym's blade.",
+        "Argorym is an orc of legend about whom little is known. Feared in combat, immortal to his enemies, and so on. Raegnir was one of many Deathfist outcasts who came to live in the Commonlands. He rallied orcs under his banner. Unlike most orc leaders he never sought to create a massive army of orcs.",
+        "Raegnir sought only the strongest, fiercest orcs. His army--squad may be a better word to describe it--was quite feared once. He led a mission within the walls of Freeport--can you imagine that? An orc INSIDE Freeport--and was killed by orcs who thought a few shots from a catapult might help his mission. They brought down a building on Raegnir's entire crew and an unlucky guard captain. If you've found a part of his blade then perhaps you can be the one to return it to him.",
+        "Not exactly, but his grief is known to all who know him. He was no mere orc, <player name>. To respect the memory of a fierce warrior is neither shameful nor treasonous.",
+        "Gather the remnants of his sword. Legend says it was broken down, the blade and the two jewels: the children of the sky. The leather wrap has long since rotted, I am certain, but that is less important than the blade and the jewels. Once you have collected these items travel to the Siege Lands.",
+        "Find the spirit of Raegnir and offer the blade pieces to him. Whatever gods you worship and wherever your alliances stand, Raegnir will appreciate the offer.",
+        "Good, gather all the pieces: Argorym's blade, the Daughter of the Sky, and the Son of the Sky. With these Raegnir's memory will be honored.",
+        "Good luck!"
+      ]
+    },
+    {
+      "name": "a rock lion",
+      "name_sortable": "rocklion",
+      "locations": [
+        "364.29,-46.01,-737.12",
+        "261.31,-44.86,-812.84"
+      ]
+    },
+    {
+      "name": "a roekillik digger",
+      "name_sortable": "roekillikdigger",
+      "locations": [
+        "68.53,-32.86,-887.41"
+      ],
+      "utterances": [
+        "Work, work, work!"
+      ]
+    },
+    {
+      "name": "Ronam Olansk",
+      "name_sortable": "ronamolansk",
+      "locations": [
+        "-157.2,-47.8,-828.57"
+      ],
+      "utterances": [
+        "Please stay away from here! The dead souls of orcs callout for vengeance, and I'll not put you or the rest of my people in danger.",
+        "I'm not so certain...  but I suppose there's no harm in letting you risk your own life trying.  If you kill enough of the skeletons inside the cave, the skeletons outside may return to their resting place.  My people and I will scrape together what little we have to pay for your services.",
+        "I know the task will not be easy.The halls of the Wailing Caves are haunted with the angry, tormented ghosts of orcs left to a grisly death by the members of the Freeport Militia.  I imagine quite a few will need to fall before any progress can be made.",
+        "Thank you for what you have done for our camp here.  We nomads are not the most wealthy of individuals, but here is a token of our appreciation for your assistance in the matter.  I fear that the dead shall rise again all too quickly.  Perhaps it will be better to just move on..."
+      ]
+    },
+    {
+      "name": "Rootka",
+      "name_sortable": "rootka",
+      "utterances": [
+        "What you wants with Rootka?",
+        "Someone takes them, then! Tries to make Rootka looks bad!",
+        "Fine, fine! Rootka understands. How much?",
+        "Here, take it. Rootka likes living more than money anyway."
+      ]
+    },
+    {
+      "name": "a rotting cadaver",
+      "name_sortable": "rottingcadaver",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -612798970 943460484:a decomposing zombie organ\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 39,
+      "drop_coin_max": 181
+    },
+    {
+      "name": "a runner of Ree",
+      "name_sortable": "runnerofree",
+      "utterances": [
+        "Smash them!",
+        "Full retreat!  Regroup in the caves!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 331,
+      "drop_coin_max": 331
+    },
+    {
+      "name": "a sandstone giant",
+      "name_sortable": "sandstonegiant",
+      "locations": [
+        "1226.82,-51.37,-364.68",
+        "1213.22,-31.89,-261.79",
+        "1398.25,-49.70,-39.78",
+        "1451.27,-39.18,25.66",
+        "1465.91,-31.13,117.98",
+        "1456.27,-31.43,117.94",
+        "1345.98,-40.45,-183.71",
+        "1178.13,-34.36,-273.49"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1364962873 -2054359050:an elemental binding rune\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1189922624 134728149:Far Seas Requisition - WC 124\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -382271913 550690500:Borderland Bounty for Bloodskull warriors\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1041976406 1193510754:an elemental planar seed\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a scrub rat",
+      "name_sortable": "scrubrat",
+      "locations": [
+        "-1268.46,-69.64,406.21",
+        "-1244.48,-68.04,421.03",
+        "-1180.71,-51.8,443.82",
+        "-1219.13,-46.57,515.74",
+        "-1241.98,-49.26,527.32",
+        "-1247.68,-49.85,538.31",
+        "-1282.98,-58,499.09",
+        "-1309.73,-63.3,496.11",
+        "-1328.2,-68.52,460.42"
+      ]
+    },
+    {
+      "name": "a seagull",
+      "name_sortable": "seagull",
+      "locations": [
+        "-478.39,-44.4,-330.03"
+      ]
+    },
+    {
+      "name": "Sergeant Borus",
+      "name_sortable": "sergeantborus",
+      "locations": [
+        "-1324.50,-52.19,581.22"
+      ],
+      "utterances": [
+        "You best watch your step out here!"
+      ]
+    },
+    {
+      "name": "a shadowy stag",
+      "name_sortable": "shadowystag",
+      "locations": [
+        "-739.72,-47.45,-178.50",
+        "-743.01,-47.33,-184.21"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1611629912 -2012559103:a strangely marked hide\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 15564315 -1468797977:Advanced Carpenter Volume 24\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a Shin",
+      "name_sortable": "shin",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 19,
+      "drop_coin_max": 221
+    },
+    {
+      "name": "a Shin`Ree avenger",
+      "name_sortable": "shin`reeavenger",
+      "locations": [
+        "-322.78,-48.01,-802.77",
+        "-319.8,-48.02,-774.41",
+        "-305.8,-47.92,-746.36",
+        "-308.84,-47.56,-740.88",
+        "-325.08,-48.63,-918.62",
+        "-296.07,-36.57,-939.06",
+        "-280.31,-37.69,-956",
+        "-304.17,-47.52,-994.4",
+        "-319.12,-47.02,-988.05",
+        "-347.4,-47.06,-997.2",
+        "-251,-48.02,-945.51",
+        "-221.61,-48.04,-927.69",
+        "-259.57,-48.01,-870.94",
+        "-212.1,-45.59,-898.3",
+        "-229.5,-48.04,-934.16",
+        "-252.27,-48.03,-939.06",
+        "-240.75,-46.18,-952.52",
+        "-249.71,-47.61,-970.86",
+        "-276.65,-47.6,-987.52",
+        "-281.67,-46.18,-973.61",
+        "-287.75,-37.33,-961.59",
+        "-296.36,-36.76,-930.39",
+        "-297.22,-40.93,-914.61",
+        "-271.27,-38.69,-905.77",
+        "-275.09,-48.01,-857.41",
+        "-284.49,-48.02,-852.01",
+        "-285.1,-47.39,-789.59",
+        "-302.38,-47.86,-753.75",
+        "-248.12,-48.04,-750.02",
+        "-349.91,-49.1,-955.14",
+        "-372.32,-48.26,-971.98",
+        "-355.25,-47.46,-993.76",
+        "-330.19,-47.29,-978.38",
+        "-298.53,-47.78,-1000.15",
+        "-326.31,-47.85,-955.86"
+      ]
+    },
+    {
+      "name": "a Shin`Ree avenger",
+      "name_sortable": "shinreeavenger",
+      "utterances": [
+        "The living wander too close.",
+        "It's only a minor setback.",
+        "You made your final mistake.",
+        "Ahhhiiiheeeee!",
+        "Going somewhere?",
+        "The dead don't feel pain.",
+        "There can be no end to us. "
+      ]
+    },
+    {
+      "name": "a small bluegill",
+      "name_sortable": "smallbluegill",
+      "locations": [
+        "-232.01,-49.97,60.4",
+        "-349.61,-51.2,-471.16"
+      ]
+    },
+    {
+      "name": "a small emerald beetle",
+      "name_sortable": "smallemeraldbeetle",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a small pike",
+      "name_sortable": "smallpike",
+      "locations": [
+        "-230.33,-49.8,65.47",
+        "-360.88,-49.97,-479.33"
+      ]
+    },
+    {
+      "name": "a speckled rattler",
+      "name_sortable": "speckledrattler",
+      "locations": [
+        "-1336.98,-69.56,356.84",
+        "-1017.09,-49.07,244.38",
+        "-1014.75,-48.54,234.51",
+        "-1051.55,-49.48,173.58",
+        "-1116.52,-56.54,159.37",
+        "-1111.61,-56.59,179.09",
+        "-1119.9,-60.12,107.82",
+        "-1111.45,-60.54,88.24",
+        "-1191.62,-74.56,-23.55",
+        "-1199.19,-77.03,-4.05",
+        "-1187.38,-75.38,8.98",
+        "-1179.3,-72.65,58.13",
+        "-1236.14,-82.35,106.46",
+        "-1219.32,-82.42,24.89"
+      ]
+    },
+    {
+      "name": "Spirit of Raegnir",
+      "name_sortable": "spiritofraegnir",
+      "utterances": [
+        "My pain is eternal.",
+        "Why do you bother me?",
+        "My blade! I thought I had lost it in that blasted city.",
+        "No. I am unable to rest because I was betrayed.",
+        "By my own people! I got the crazy idea in my head that we could sneak into Freeport at night and take out a guard captain. The captain's head would be merely a worthless trophy, we had dozens already. But the fact that we stole it from his very shoulders while he slept... THAT was to be the real prize. But it all went wrong...",
+        "No one knew of our plan that wasn't of orc blood. Orcs aren't known for their smarts, but we don't talk. Some might, sure, if they were captured. But I specifically toned down our presence so as to avoid any capture. And we did avoid it. We had not a single orc unaccounted for in two weeks, completely unheard of. But the Militia had set a trap for us.",
+        "We crept into the house of the guard captain. We had gone not three steps when there came a terrible crashing from all around us. The guard in his bed? Probably just some pillows under the covers. They had set the entire house up as a trap, and it worked. Every last one of us they got, crushed under that falling mess of stone...",
+        "Who knew? Not a single orc captured or missing. And ONLY us orcs knew. One of them told the Militia... I bet they gave him enough gold to keep him happy for a day or two and then killed him. Why not? He's just an orc, ya know? And a traitor at that. Betrayal hurts... more than any wound a sword or axe can give.",
+        "What do you mean?",
+        "... they hit the house of the guard captain?",
+        "Hah hah hah. So we sneak into Freeport to kill some guard captain, get killed, and the poor guy dies anyway? Hah hah hah! Oh, the world works in interesting ways.",
+        "No. No they did not. You bring me my weapon and my peace. I think I will leave now. Thank you."
+      ]
+    },
+    {
+      "name": "Squire Hadley",
+      "name_sortable": "squirehadley",
+      "utterances": [
+        "The curse of Gynok torments us all! Who will be brave enough to lift this wretched taint and free the Order of Marr's Fist?"
+      ]
+    },
+    {
+      "name": "a stone beetle",
+      "name_sortable": "stonebeetle",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1883221997 1788663479:Borderland Bounty for Dervish Cutthroats\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1010661454 1680206675:Lead Weighted Hammer\\/a",
+          "chest": true
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Academy of Arcane Science",
+          "name_sortable": "academyofarcanescience",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Surveyor Menak",
+      "name_sortable": "surveyormenak",
+      "locations": [
+        "44.22,-22.93,-883.81"
+      ],
+      "utterances": [
+        "Yes?  You are asking a question to be answered?",
+        "I am looking at things.  Looking closely.  All this land unused!  Unused!  That is a waste.  We will fix that.  We know our way around dirt!  Dig up some here, push dirt aside there.  Yes, yes; this is perfect.",
+        "Nothing stands in the way of progress!  They may stay or they may go.  Might be better if they go, so the dra...drafts do not upset them.  Digging goes on, very drafty.",
+        "Wind blowing.  Smell that? That is why we are good at this: our noses are very sensitive.  The littlest change in the air and we know.  Some things are here at our feet.  Other things are farther away.",
+        "One thing we smell is that which we seek.  Our investors tell us what we must seek.  It is underground and so we dig.  Our engineer studies how to get what we seek.  Ask the engineer about the dirty work. The other thing we smell is that which we want.  Your legs are long.  Can you help us find what we want?",
+        "Excellent!  I know this is not nice to say about those we do not know, but there is a village in the Commonlands full of little ones.  They took the Wheel and we must get it back.  Go there, look around.  They are not nice.  The Wheel is ours!",
+        "A tour?  I am afraid that I cannot.  You might check directly with one of the miners.  Yes, that is the best thing for you to do.  Perhaps Razcsko can direct you; he knows all the miners.  Yes, ask Razcsko.  He is usually at the mines in the Steppes."
+      ]
+    },
+    {
+      "name": "Taskmaster's Assistant Koz'ma",
+      "name_sortable": "taskmastersassistantkozma",
+      "locations": [
+        "-489.94,-43.93,-261.24"
+      ],
+      "utterances": [
+        "Bring your FSR's to me.  If you don't have them, then I don't want to talk to you.",
+        "Where's your requisition? Only those who filled requisitions should speak to me.",
+        "Lets me see ... Yes, yes! Here we are. This order is overdue, and the Far Seas Trading Company never pays full price for late orders. Consider yourself lucky that you get paid at all.  Thank you, come again.",
+        "Why are you wasting my time? The Far Seas Trading Company pays huntsmen to track down various items and beasts. Sometimes the huntsmen inadvertently feed the beasts and never return. Too bad ... for them.",
+        "No! No, no, no! We have plenty of huntsmen!  No more huntsmen! And that means you!  Okay?  Got it?  ... That is, unless of course, you happen to find an unfilled order. Get it?"
+      ]
+    },
+    {
+      "name": "Tecera Valnos",
+      "name_sortable": "teceravalnos",
+      "utterances": [
+        "Make it quick, I am quite busy.",
+        "It's about time he sent help. I've nearly lost the band of Bloodskulls I'm tracking and now this business with the Ruins of Val'marr.",
+        "We got new orders a while back. We were to keep a close watch on the undead north of here. So we started to watch. So far... nothing, yet we continue to waste resources.",
+        "It is not our job to question our orders, only to follow them. In dealing with these undead we set up some arcanic sentries about the ruins. Now those have been disabled and we're left with far less than what we started with. Meanwhile I'm working hard to keep my scouts on top of the Bloodskulls we had been tracking before. Needless to say things are hectic around here.",
+        "That's what I like to hear! We need the arcanic sentries back in action. The undead are too stupid to have taken them out--perhaps that's why our superiors are so interested in this area. The sentries are equipped with rudimentary magic that can conceal their location from future attacks, however. Before that will work they need to be repaired.",
+        "We've got supplies cached in the houses south of the ruins. Some of those crates will contain essence injectors. You only need one. Once you have one, head into the ruins. The undead that are destroyed rot into undeath... and that can be reaped. Collect an essence of undeath from one of the fallen undead and use it with the injector to repair one of the sentries. After that collect another essence and repair the next one.",
+        "There are six: two above the road that runs east and west, and four below it. They are all on the outskirts of the ruins. Think you can do it?",
+        "Good. Return to me once they're all repaired.",
+        "Are the sentries repaired?",
+        "Great work! This is going to save us a lot of scouting time. Thank you, <player name>.",
+        "We got another lucky break. Our scouts report that the Bloodskulls we had been following have settled down and are doing some strange research.",
+        "Something having to do with the ghostly treants they've set up camp near. They're orcs so I doubt it's very advanced... still, I would like you to get rid of some of the shamans doing the research. The less the orcs have to work with the better off we are.",
+        "They have two leaders: Vurog Ma'gar and Jyrok the Stone. Take them out. Then find Arnisu Tobian. He is posing as their prisoner. Get his report on their studies and bring it back to me. This strike will be enough for our needs, but will not force the Bloodskulls into an action we won't be ready to deal with.",
+        "From the southern most branch of the river it is south. There will be a small path leading into the mountainous area. That path will lead to their camp. It is on the southern edge of the Commonlands, east of the entrance to Bloodskull Valley.",
+        "Thank you, and be careful.",
+        "Have you done it all?",
+        "Great! Finally things are coming under control. You've done a lot for us, <player name>, thank you.",
+        "Hmm... orcs raising the dead. Perhaps this is the missing bit of information that connects the Bloodskulls to the Shin'Ree.",
+        "At this point you're better off not knowing. If you are needed you will be called upon. For now, I would return to Feralis if I were you. I'm sure he'll want to thank you personally.",
+        "Thanks again. Goodbye."
+      ]
+    },
+    {
+      "name": "a Thexian dragoon",
+      "name_sortable": "thexiandragoon",
+      "utterances": [
+        "There is no escape for you now!"
+      ]
+    },
+    {
+      "name": "a Thexian excavator",
+      "name_sortable": "thexianexcavator",
+      "utterances": [
+        "I hope you put your affairs in order.",
+        "More intruders to deal with?  Stop them!",
+        "I have no time for meddlers.  Destroy them!",
+        "There is no escape for you now!",
+        "Welcome to torment and destruction!"
+      ]
+    },
+    {
+      "name": "a Thexian rebel",
+      "name_sortable": "thexianrebel",
+      "utterances": [
+        "I will have vengeance!",
+        "Hold them and I'll return with help!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -636291851 -1051593857:Advanced Scholar Volume 12\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 26,
+      "drop_coin_max": 209
+    },
+    {
+      "name": "a thresh bat",
+      "name_sortable": "threshbat",
+      "locations": [
+        "-1419.29,-51.73,311.94",
+        "-1395.46,-50.45,299.83",
+        "-1406.89,-50.57,303",
+        "-1374.88,-55.29,302.42",
+        "-1366.32,-47.76,283.89",
+        "-1338.58,-50.33,303.98",
+        "-1325.84,-47.42,316.95",
+        "-1327.83,-53.92,341.04",
+        "-1370.97,-48.63,352.81",
+        "-1374.19,-50.56,367",
+        "-1403.37,-66.61,358.23"
+      ]
+    },
+    {
+      "name": "Tiff Squeelunkle",
+      "name_sortable": "tiffsqueelunkle",
+      "locations": [
+        "-228.41,-44.82,-847.58"
+      ],
+      "utterances": [
+        "Psst!  You there!  C'mere and give me a hand.",
+        "You are a perfect fit!  No doubt of that cog being wrong sized, nuh uh.",
+        "I have need of you!  I'm a member of the Seafury Buccaneers, and we... I know what you're thinking, but I am very useful at sea!  Any mechanical whos-its break down durin' travel and Tiff is on it like stink on a sewer rat.",
+        "Uh... Oh, yes.  You're useful 'n smart!  we're to investigate these smugglers 'ere and see what and who is behind their recent growth in number 'n purse. 'Nfringin' on our teritry, they are.  I have the clothes of a courier 'ere for you to wear when you go in.",
+        "Huh?  Keep up 'ere!  I need you to go to the smuggler's camp.  I'll reward you, naturally.  I promise!  Break my gears, and curse my mind!  It's just that I've been spotted by 'em several times snoopin' around 'n if I get snagged again they'll sure as Prexxus take my other hand, too!",
+        "Do not distract me from the matter.  You're the one that wanted to help me!",
+        "Clues, of course!  Who is funding 'em.  What're they shippin'.  That kinda' stuff.",
+        "Now wear this outfit so they will not suspect you.  They are the clothes of the last courier to have come through.  Careful, they're worn through in parts.",
+        "Back all ready!?  What 'cha find?",
+        "I knew it!  What have you for me?",
+        "Oh, what luck!  I hadn't expected this.  Too good!  What are you to do with it?",
+        "No.  It's magically sealed, and if broken the scroll will combust.  What did they want you to do with it?",
+        "Too good, 'ndeed!  'Ere let me sprinkle it with tracking powder, and then deliver it.",
+        "A magical concoction that will allow us to track the scroll to its destination.",
+        "Quite, quite.  Now 'urry along, less we miss our chance!",
+        "Do tell, do tell!  What 'appened?",
+        "Excellent!  'Ere.  Take this for your troubles.",
+        "Now we can track the scroll to 'elp us learn who is involved, but there's more gears turnin' in this clockwork then meets the eye.",
+        "Aye, there is!  What's bein' shipped, where?  What dark elves wanna help others?  Trackin' the items is key!  'Cept, it's too bad I'm out of the trackin' powder.",
+        "Sassy!  Talk'n like that is how I lost my tongue, you know.  At sea, they don't take kindly to such.  Wait!  You could get me sa' more.  Good idea!",
+        "Get me five wisp embers to make the potion, and we'll be all set.",
+        "I 'ave the potion all set.  You've got the wisp embers?",
+        "Good, good!  There we go.  Now take this pouch of trackin' powder, and sprinkle it on any of 'em empty crates that are in the Blackshield Smugglers' outpost.  'Urry now.  Don't dawdle!",
+        "Ack!  You startled me!  Don't you know better than to sneak up on someone?!",
+        "Didn't mean to jump.  I think I was just distracted.  I was busy watchin' the scroll you delivered earlier.  So far, it's traveled southeast followin' the river towards Freeport.",
+        "Yes.  I must keep my good eye on that while you're gone.",
+        "Don't know.  But the map does!  Follow the crates' movement and see where they go.  Here, you take the map.",
+        "Oh... No matter!  You can keep an eye on it as you follow the crates.",
+        "You seem a wee out'a breath.  Somethin' wrong?",
+        "Do tell!  Where did the crates end up?  What did you finds?",
+        "Hmm.  That is curious.  I was of thinkin' that they were only in Nektulos.",
+        "What of the scroll?  What's the map show you of it?",
+        "Longshadow Alley?  What could be there?  Lemme see the map.",
+        "You sure it was in Longshadow Alley?  It is gone now!",
+        "Spell must have been brok'n or the scroll destroyed.  Oh, lookee!  The crates are back at the smugglin' dock.  What luck!",
+        "Oh, wonderful idea!  I'm almost thinkin' you from Qeynos the way you are so obligin'.",
+        "Did'n you find somethin'?  Anythin'?",
+        "Stop with the suspense!",
+        "Wha?  Then they are fundin' the smugglin' with the shipments, themselves.  Payment is the shipment of gems 'n ore.",
+        "Oh!  So sneaky.  They been fundin' the smugglers as a diversion.  That is why we had not realized their growth and activities in the Commonlands!",
+        "We Buccaneers may be able to break in on this 'n extract a bit of that profit.  Either by attacks at sea or by gettin' protection taxes from the smugglers themselves, now that we know the plans, too.",
+        "I know, ya' rapscallion!  Here is the payment.  You earned it.",
+        "I appreciated your 'elp investigatin' the Smuggler's activites."
+      ]
+    },
+    {
+      "name": "a Tortured Maid",
+      "name_sortable": "torturedmaid",
+      "utterances": [
+        "Mortal agony is nothing compared to the torment that awaits you!",
+        "You cannot run from death, mortal!",
+        "You will see us again in your nightmares!",
+        "You cannot kill what is already dead!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a tortured soul",
+      "name_sortable": "torturedsoul",
+      "utterances": [
+        "You will see us again in your nightmares!",
+        "I will show you the true pain of death!",
+        "You cannot kill what is already dead!",
+        "You cannot run from death, mortal!",
+        "Mortal agony is nothing compared to the torment that awaits you!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -211262820 88743151:a ghost ethereal strand\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -704384670 1077323225:an ethereal nerve\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -86102345 -151067204:a ghost vile plasm \\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2073079286 -33985810:a ghost phantasmal echo\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1867521536 -523124861:Savannah Bleached Shoulderpads\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 472806346 -1877249332:Inlaid Stone Earrings\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1409721994 -1246992863:Far Seas Requisition - FG 212\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1784754982 -1802704099:a ghost emotion resonance\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1189922624 134728149:Far Seas Requisition - WC 124\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2001152374 -156740137:advanced craftsman volume 19\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -755419959 -1407654822:Far Seas Requisition - FG 158\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 493224880 -714950344:a ghost remnant memory\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 128098823 602113696:A Broken Harness\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 162353543 -1729178264:Far Seas Requisition - WC 154\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1434976134 1508506194:Advanced Scholar Volume 17\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 18,
+      "drop_coin_max": 134,
+      "faction_changes": [
+        {
+          "name": "The Dismal Rage",
+          "name_sortable": "dismalrage",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Tundis N`oxyle",
+      "name_sortable": "tundisnoxyle",
+      "utterances": [
+        "Do not interrupt what is undoubtedly the most important discovery in the past three hundred years.  Be gone, I have much work to attend to here.",
+        "Is that so? First you must prove yourself. Strength of mind and body is required in the deep halls. The weak are worthless to us.",
+        "As you wish.  There are giants in this valley made from the living rock. Bring me five stones from the bodies of these creatures, and I will know that you are strong enough to be one of us.",
+        "So you have.  In order to become a member of the Thexian loyalists, you will need to be ordained and formally welcomed to our ranks.  You will join our group at the meeting in Freeport and receive a key to the Gate. Now, leave me to continue my research."
+      ]
+    },
+    {
+      "name": "Twienel Marcannum",
+      "name_sortable": "twienelmarcannum",
+      "locations": [
+        "-1296.7,-87.85,32.45"
+      ]
+    },
+    {
+      "name": "a twitching cadaver",
+      "name_sortable": "twitchingcadaver",
+      "drop_coin_min": 328,
+      "drop_coin_max": 328
+    },
+    {
+      "name": "Ventar T'Kal",
+      "name_sortable": "ventartkal",
+      "locations": [
+        "-153.43,-47.87,-819.12"
+      ],
+      "utterances": [
+        "Are you <player name>?",
+        "Good, good. That means Feralis thinks you're able to help me.",
+        "The orcs of Ree, living and dead alike.",
+        "I don't know the specifics, but the orcs of Ree inhabit this land and so do their skeletons. Only recently, however, have the living emerged from the Wailing Caves. They are becoming bolder.",
+        "Poison them. When I heard of Rainus' roots I smelled an opportunity.",
+        "My intent is to get you to do work for me while I continue dealing with these nomads. What do I intend you to do on my behalf? I'd like you to travel west of here with the root, they have an encampment there. When you reach the orcs, place it near them. Let them consume it. From there I'm sure nature will take its course.",
+        "If they get as addicted as Rainus claims the Bloodskull orcs are, this may be the key to drawing the strength of the Ree orcs out from underground. Press your advantages, <player name>, that's what I always say. Speaking of which, while you're there I would like you to find the Ree encampment. Once there, find a current copy of their orders. I'd like to be as up to date as possible.",
+        "Is it done?",
+        "Nice, very nice. Give me a moment while I read over these orders.",
+        "Interesting, quite interesting. I may have been wrong on their intentions.",
+        "I had thought the Ree orcs to be attempting to expand outward from the Wailing Caves. That may still be their intent, but this specific group of orcs is not here for that reason.",
+        "Treasure hunting. Their orders are to seek out some sort of ancient Shin'Ree box. It appears one of their agents already had it in his possession. He buried it for safe keeping but was slain. However, it would seem he expected death and had word delivered to his people, though he didn't mention its exact location.",
+        "They list it simply as \"useful.\" I don't know what that means to the orcs specifically, but I would prefer they didn't have it. The orders mention a shipment landing at the Blackshield Docks. I imagine the shipment will lead us to this package before the orcs...",
+        "Two ways, both involving the orc courier. I am not sure precisely how old these orders are, but the sooner we act the better. Find the runner of Ree. If he is on his way to the docks then kill him and take the shipping receipt. Use it to get the package from the docks. If you catch the runner on the way from the docks then he will have the shipment, in which case you can take it directly from him. He'll be somewhere between the Ree camp west of here and the docks.",
+        "I know you will. Bring me the shipment as soon as you have it.",
+        "Did you get the shipment?",
+        "Excellent work.  If I am right this will tell us where the orc buried this \"useful\" treasure. Give me a moment, please.",
+        "Perfect. It's somewhere near the Nektulos Station griffin tower, west of here. Go find it, dig it up, and bring it back to me.",
+        "\"Useful,\" bah, my illiterate grandmother could write better than that.",
+        "Did you get it?",
+        "Aye. I've read more of the Ree orders. This is an old relic from the Shin'Ree clan. Apparently the \"key\" to opening it was, \"...a Shin'Ree orc with bloodied hand.\"",
+        "I'm afraid it's not that simple.",
+        "Well, orc magic is simplistic but it isn't something we can simply ignore. If the key to this chest is the bloodied hand of a Shin'Ree orc then that is what we must find. The skeletal orcs outside of the Wailing Caves are what's left of the Shin'Ree orcs. Among them you can find blood stained bones... which means hands. Unfortunately I doubt any of the skeletal orcs have preserved their bloody hands for us. But there is still a way.",
+        "We can build a bloody hand ourselves! Slay the Shin'Ree orcs. Among their fallen bones collect the bloodied fingers--enough to form a hand. That will fulfill the needs of this orc spell, I am certain.",
+        "Indeed you will, then you will see what spoils we reap in such jobs as these.",
+        "Do you have the fingers?",
+        "Yeah, yeah. Maybe next time we won't be so unlucky. Anyway, I neglected to mention this earlier--after all I wanted to get as much from you as I could--but Feralis has been asking for you. You should go speak with him, I believe he has another underling who could use your help.",
+        "Hurry off now, Feralis has been expecting you.",
+        "I've heard of your deeds. Good show. You learn fast, I can tell.",
+        "These nomads can be quite pleasant to deal with.",
+        "Overlord protect us!",
+        "Good, good... Opening it should be as simple as... yes! A sash?... worthless. And under it? ...paper... The Code of the Shin'Ree? Useful? USEFUL? It's nothing but PAPER!Still, I suppose it isn't a complete waste. I guess some historian would part with some gold to have it. Alas, <player name>, I am sorry for the disappointment. Here, maybe you can find use of this sash."
+      ]
+    },
+    {
+      "name": "a virulent leper",
+      "name_sortable": "virulentleper",
+      "locations": [
+        "394.98,-47.66,-806.56",
+        "404.95,-47.93,-797.38",
+        "401.11,-47.34,-788.07",
+        "383.6,-45.52,-772.31",
+        "417.55,-43.82,-828.06",
+        "430.55,-39.44,-840.12",
+        "446.75,-43.18,-828.76"
+      ]
+    },
+    {
+      "name": "V'tal Narin",
+      "name_sortable": "vtalnarin",
+      "locations": [
+        "-479.76,-45.47,-333.94"
+      ],
+      "utterances": [
+        "Why hasn't my brother written me? What happened to him? Citizen, why are you bothering me?",
+        "You ridicule my loss as well!",
+        "You haven't heard about my brother's failed expedition into Fallen Gate?",
+        "Three months ago, my brother left on an expedition to look for an old family heirloom in Fallen Gate. About two weeks ago he stopped writing me, and I'm afraid he lost the heirloom. I would look for it but I must take care of important matters here.",
+        "If you find the heirloom, I will pay for your services. If you can, find out what happened to my worthless brother.",
+        "Excellent ... in the last letter I received from him, he said he found my family's heirloom and was returning with it.  I have not heard from him since.",
+        "That is information you need not know.  My brother took a small lockbox to carry the item.  When you find him, he should have the box.",
+        "If that is so, then bring me just the box. It is made of dark wood and has a falcon engraved on its lid.",
+        "Get away from me! You're like the others!"
+      ]
+    },
+    {
+      "name": "Vurog Ma'gar",
+      "name_sortable": "vurogmagar",
+      "utterances": [
+        "Welcome to your death, lesser being!",
+        "Back fools, there are too many!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1970929353 -1964109827:Son of the Sky\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -574308862 103844073:Crusade (Adept)\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Watcher Ommo",
+      "name_sortable": "watcherommo",
+      "locations": [
+        "-1437.62,-80.42,422.48"
+      ],
+      "utterances": [
+        "Your service is required, citizen.",
+        "Whatever He desires. You will give your service to the Commonlands in His name and report to Gerun Pontian here in the Commonlands at the gates to the City of Freeport.",
+        "Serve the Overlord well, citizen. May you have all the luck you require."
+      ]
+    },
+    {
+      "name": "Wounded Scout",
+      "name_sortable": "woundedscout",
+      "utterances": [
+        "All of them dead... we never had a chance...",
+        "The orcs got everyone... the whole expedition was wiped out... I'm all that's left of a score of soldiers.  You've got to get this magic band to the others.... my wounds are too great for me to travel much longer...",
+        "Take this... Obtain the gems from the local orc officers... Socket that band with them and then take it to the Freep..."
+      ]
+    },
+    {
+      "name": "Yrrey Burbridge",
+      "name_sortable": "yrreyburbridge",
+      "locations": [
+        "-497.68,-43.71,-263.95"
+      ],
+      "utterances": [
+        "I'm not looking to hire any more hands, if that's what you're asking.",
+        "What?! Oh, my Ethernaut charms! I thought I'd never see this again.",
+        "But you didn't find the Roadyle Yerethe Tol charm?",
+        "Fitting to have lost that one, isn't it? Thank you for returning this. It means a great deal to me."
+      ]
+    },
+    {
+      "name": "ZaZa Lenska",
+      "name_sortable": "zazalenska",
+      "utterances": [
+        "Have you seen my husband, Valeri?  He leaves home too often. He comes and goes as he pleases, and I never know where he is! I've had other husbands, and I know the signs of a cheater.",
+        "He's tall and slim with jet black fur and three hoops in his left ear. He's handsome, oh, so handsome!  Surely you could not have missed him!  Unless, perhaps, his visits are in a ... private home.",
+        "Oh, to think of Valeri--my sweet, precious husband--in the arms of another!  No!  I cannot bear it!  I must know the truth!  And I know just the way.  Mama's potion will show me whether he's faithful to his ZaZa, or not.  Can you help this poor, unhappy wife?",
+        "I need ingredients for my potion.  Not too many and they must be fresh. I need to spread this potion on my Valeri's clothes ... and then I will have the answers I need.  Let me write this down for you; it's complex.",
+        "I'm trusting you with the happiness of my marriage.  You are most kind to help poor ZaZa.  I will see you again ... soon."
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -416322056 1294650281:Bloodskull Mark\\/a",
+      "locations": [
+        "-582.22,-47.27,-319.52",
+        "-572.30,-47.25,-343.79",
+        "-567.02,-47.46,-358.41",
+        "-618.39,-47.43,-383.27",
+        "-581.43,-47.64,-341.56",
+        "-601.00,-47.97,-355.11",
+        "-577.46,-47.72,-351.65",
+        "-557.21,-46.65,-348.80"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1424402151 -1053334447:chipped shard of alteration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1331551958 515627370:chipped shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1868197541 -1710679381:chipped shard of conjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 164202245 -601729183:chipped shard of divination\\/a",
+      "locations": [
+        "-724.06,-55.00,-684.89"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1321366674 1325276780:chipped shard of evocation\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1609830741 751110846:commonlands shrub yellow leaf\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1518761661 -1817126979:cracked high elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 728453195 -1104844676:cracked human bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1545792971 2005925826:Mark of Blackburrow\\/a",
+      "locations": [
+        "-556.06,-47.16,-359.69",
+        "-600.07,-47.94,-294.85",
+        "-588.32,-47.94,-340.15",
+        "-617.97,-48.02,-308.94",
+        "-597.50,-47.77,-365.07"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1838761957 -694987579:scuffed shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 794244308 865159586:scuffed shard of conjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1185753733 1391894927:shattered high elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1526825307 -1323670149:shattered human bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 2013405720 831809963:shattered orc bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1464794927 -809516526:Sootfoot Mark\\/a",
+      "locations": [
+        "-597.34,-48.01,-335.83",
+        "-598.28,-48.03,-308.63",
+        "-574.33,-47.79,-361.96",
+        "-617.97,-48.02,-308.94",
+        "-586.24,-47.53,-378.45",
+        "-575.32,-47.15,-334.71",
+        "-636.18,-48.04,-313.82",
+        "-556.06,-47.16,-359.69"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -517034753 697646490:spotted tan moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -2062863415 328058215:spotted yellow ant\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 164202245 -1101324040:chipped shard of divination\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1832140126 2119420903:chipped shard of abjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1535866014 503544685:cracked iksar bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 491367518 -1346774644:Mark of the Kromise\\/a",
+      "locations": [
+        "-574.33,-47.79,-361.96"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 2041055964 1709117635:Ivory Rose Petal\\/a",
+      "locations": [
+        "-1258.87,-88.59,41.06",
+        "-1200.06,-79.23,40.68",
+        "-1157.79,-69.16,90.19",
+        "-603.70,-46.95,-271.43",
+        "-471.84,-44.99,-289.88",
+        "-1284.06,-88.16,49.53"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 699234980 -855475702:Sunset Chrysanthemum Petal\\/a",
+      "locations": [
+        "-1202.03,-75.60,115.60",
+        "-1118.32,-58.89,117.81",
+        "-1018.63,-50.22,16.55",
+        "-740.62,-47.43,-177.21",
+        "-636.86,-47.99,-233.17",
+        "-1258.87,-88.59,41.06"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -196955907 250027482:Royal Rose Petal\\/a",
+      "locations": [
+        "-1162.90,-69.65,-2.72",
+        "-954.56,-48.43,-1.50",
+        "-922.33,-47.81,-20.30",
+        "-891.37,-47.55,-27.55",
+        "-684.71,-48.09,-206.51",
+        "-571.82,-45.50,-232.44",
+        "-513.79,-44.54,-310.08",
+        "-740.62,-47.43,-177.21",
+        "-607.24,-49.87,-636.64"
+      ]
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "a band of fish",
+      "name_sortable": "bandoffish"
+    },
+    {
+      "name": "the cloven ore",
+      "name_sortable": "clovenore"
+    },
+    {
+      "name": "the oasis shrubbery",
+      "name_sortable": "oasisshrubbery"
+    }
+  ]
+}

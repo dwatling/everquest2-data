@@ -1,0 +1,49 @@
+{
+  "name": "The Drowned Caverns: Outer Grotto",
+  "name_sortable": "drownedcavernsoutergrotto",
+  "region": "Karan",
+  "connections": [
+    {
+      "key": "adv02_dun_sundered_splitpaw_hub"
+    },
+    {
+      "key": "adv02_dun_drowned_caverns_fissure"
+    },
+    {
+      "key": "adv02_dun_drowned_caverns_exploding"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a Blotch Pal lyrist",
+      "name_sortable": "blotchpallyrist",
+      "utterances": [
+        "No! you can't defeat one of us.",
+        "He has failed us."
+      ]
+    },
+    {
+      "name": "a Garatch Pal vindicator",
+      "name_sortable": "garatchpalvindicator",
+      "utterances": [
+        "No! you can't defeat one of us.",
+        "He has failed us."
+      ]
+    },
+    {
+      "name": "an Underpaw angler",
+      "name_sortable": "underpawangler",
+      "utterances": [
+        "No! you can't defeat one of us.",
+        "He has failed us."
+      ]
+    },
+    {
+      "name": "a Zulretch Pal zealot",
+      "name_sortable": "zulretchpalzealot",
+      "utterances": [
+        "He has failed us."
+      ]
+    }
+  ]
+}

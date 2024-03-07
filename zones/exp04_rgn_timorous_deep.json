@@ -1,0 +1,431 @@
+{
+  "name": "Timorous Deep",
+  "name_sortable": "timorousdeep",
+  "region": "Kunark",
+  "description": "Once a secret laboratory to develop an army, the city of Gorowyn is now home to the sarnak race. Nestled within the belly of an extinct volcano, the sarnak work to discover the mysterious origins of their creation, and wage war against the aggressive Haoaeran race.",
+  "zonerect": "-3264.41,-956.91,730.29,2041.62",
+  "levels": "1-20",
+  "connections": [
+    {
+      "key": "exp04_rgn_kylong_plains"
+    },
+    {
+      "key": "live_irontoes"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Aimee",
+      "name_sortable": "aimee",
+      "locations": [
+        "2576.92,9.43,1161.12"
+      ],
+      "utterances": [
+        "Is not easy, being ratongas around heres!",
+        "Ratongas should never have come outs from the Underfoots, is too depressing out heres",
+        "I's so depressed ... even cheese doesn't helps!"
+      ]
+    },
+    {
+      "name": "Al'Zeem",
+      "name_sortable": "alzeem",
+      "locations": [
+        "2408.86,18.68,1415.35"
+      ],
+      "utterances": [
+        "There is much to study here.  Not only do the sarnak have a unique view of the world, but they also have the most unusual magical devices within their own city."
+      ]
+    },
+    {
+      "name": "Ambassador Godwin",
+      "name_sortable": "ambassadorgodwin",
+      "locations": [
+        "2418.3,25.08,1283.53"
+      ]
+    },
+    {
+      "name": "Aruzek",
+      "name_sortable": "aruzek",
+      "locations": [
+        "2586.02,8.39,1244.67"
+      ]
+    },
+    {
+      "name": "Behry Wavehand",
+      "name_sortable": "behrywavehand",
+      "locations": [
+        "2404.76,18.68,1416.18"
+      ],
+      "utterances": [
+        "I'm not here to provide conversation for bored passersby.  Be on your way."
+      ]
+    },
+    {
+      "name": "Bhaltair Tanicus",
+      "name_sortable": "bhaltairtanicus",
+      "locations": [
+        "2678.08,4.62,1236.78"
+      ],
+      "utterances": [
+        "Have yourself a happy Frostfell!"
+      ]
+    },
+    {
+      "name": "Burrin Vor'Ork",
+      "name_sortable": "burrinvorork",
+      "locations": [
+        "2388.49,18.68,1371.01"
+      ],
+      "utterances": [
+        "Welcome to Gorowyn."
+      ]
+    },
+    {
+      "name": "Chelzyk Gi'rul",
+      "name_sortable": "chelzykgirul",
+      "utterances": [
+        "Greetings traveler, how can I assist you today?"
+      ]
+    },
+    {
+      "name": "Dima Fahim",
+      "name_sortable": "dimafahim",
+      "locations": [
+        "2440.76,23.8,1261.08"
+      ],
+      "utterances": [
+        "Enjoy the festivities!"
+      ]
+    },
+    {
+      "name": "a disreputable boatman",
+      "name_sortable": "disreputableboatman",
+      "locations": [
+        "2331.42,14.13,1403.78"
+      ],
+      "utterances": [
+        "I've no business with you today."
+      ]
+    },
+    {
+      "name": "Dockworker Aridek",
+      "name_sortable": "dockworkeraridek",
+      "locations": [
+        "2327.34,14.13,1400.26"
+      ]
+    },
+    {
+      "name": "Dockworker Talzukal",
+      "name_sortable": "dockworkertalzukal",
+      "locations": [
+        "2383.75,18.68,1405.79"
+      ]
+    },
+    {
+      "name": "Dughall Macleod",
+      "name_sortable": "dughallmacleod",
+      "locations": [
+        "2343.31,14.21,1358.03"
+      ],
+      "utterances": [
+        "Merry Frostfell!"
+      ]
+    },
+    {
+      "name": "Dvorzyk",
+      "name_sortable": "dvorzyk",
+      "locations": [
+        "2533.7,10.71,1227.68"
+      ]
+    },
+    {
+      "name": "Eredykil Zum'tok",
+      "name_sortable": "eredykilzumtok",
+      "locations": [
+        "2406.83,18.68,1372.49"
+      ],
+      "utterances": [
+        "Books and scrolls for sale!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1315639159 818715669:Gorwish Language Primer\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 2000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -124194618 913831986:Oggish Language Primer\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 2000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -776851233 -2128175469:Ratongan Language Primer\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 2000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1877438680 -513953858:Sebilisian Language Primer\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 2000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 510408638 -1891621725:Thexian Language Primer\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 2000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 804047334 1567999877:Ykeshan Language Primer\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 2000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Finnes Larcious",
+      "name_sortable": "finneslarcious",
+      "locations": [
+        "2387.71,18.68,1386.43"
+      ],
+      "utterances": [
+        "Ha ha!  I should be able to earn a years worth of wages back in Freeport selling even a few of these trinkets I found here!"
+      ]
+    },
+    {
+      "name": "Gh'lad Tydingz Gigglegibber",
+      "name_sortable": "ghladtydingzgigglegibber",
+      "locations": [
+        "2566.4,8.39,1228.84"
+      ],
+      "utterances": [
+        "You bring back the items I need, then I will be of making more gifts.  Hurry!"
+      ]
+    },
+    {
+      "name": "G'shugahplum Gigglegibber",
+      "name_sortable": "gshugahplumgigglegibber",
+      "locations": [
+        "2567.7,8.39,1234.14"
+      ]
+    },
+    {
+      "name": "Gutten Gigglegibber",
+      "name_sortable": "guttengigglegibber",
+      "purpose": "Frostfell tree handler",
+      "locations": [
+        "2668.87,4.62,1227.79"
+      ],
+      "utterances": [
+        "Happy Frostfell for you!  Yes, yes!  You wants one of Gutten's special holiday trees.",
+        "Yes!  Course you do!  You no chop or bought such trees anywhere like Gutten's.",
+        "You want frosty Frostfell tree!",
+        "This Gigglegibber make happy to deal make with you!  Frostfell days of happy time and sharing happy smiles with others.  You share happy with others in city.",
+        "Perfect good!  You put up sparklies, color bright bits, in the city!",
+        "Yes, yes!  You grab the badger by the tail!  Decorate the city dark areas.  I gives you sparklies and you puts them  in blah spots."
+      ]
+    },
+    {
+      "name": "Joren Kalth",
+      "name_sortable": "jorenkalth",
+      "utterances": [
+        "Hello! You look like a capable adventurer, come speak with me!"
+      ]
+    },
+    {
+      "name": "Lesharra",
+      "name_sortable": "lesharra",
+      "locations": [
+        "2416.36,23.8,1268.58"
+      ],
+      "utterances": [
+        "From the old stories I have heard of the sarnak race, I would have expected a brutal, sadistic society here.  However, these creatures are far from that... at least from what I have seen."
+      ]
+    },
+    {
+      "name": "Nariib",
+      "name_sortable": "nariib",
+      "locations": [
+        "2438.51,23.8,1263.79"
+      ],
+      "utterances": [
+        "Looking for anything in particular?"
+      ]
+    },
+    {
+      "name": "Poisonous froad",
+      "name_sortable": "poisonousfroad",
+      "locations": [
+        "2651.56,4.73,1197.68"
+      ]
+    },
+    {
+      "name": "Sarheid",
+      "name_sortable": "sarheid",
+      "locations": [
+        "2426.59,23.8,1268.22"
+      ],
+      "utterances": [
+        "There must be lost magic knowledge in abundance on these islands, and on the continent beyond."
+      ]
+    },
+    {
+      "name": "Sentry Arezak",
+      "name_sortable": "sentryarezak",
+      "locations": [
+        "2509.29,12.29,1225.14"
+      ]
+    },
+    {
+      "name": "Sentry Gorodekil",
+      "name_sortable": "sentrygorodekil",
+      "locations": [
+        "2518.27,12.08,1239.84"
+      ]
+    },
+    {
+      "name": "Sentry Tokor",
+      "name_sortable": "sentrytokor",
+      "locations": [
+        "2669.12,10.75,1301.06"
+      ]
+    },
+    {
+      "name": "Sentry Virak",
+      "name_sortable": "sentryvirak",
+      "locations": [
+        "2663.63,12.54,1306.98"
+      ]
+    },
+    {
+      "name": "Tadal Blurdcog",
+      "name_sortable": "tadalblurdcog",
+      "locations": [
+        "2417.04,24.23,1284.53"
+      ],
+      "utterances": [
+        "Ah, the machines here are fantastic!  Genuine feats of engineering, to be sure.  I find it hard to believe that a gnome had nothing to do with their design!"
+      ]
+    },
+    {
+      "name": "Thulkanil Shai'lin",
+      "name_sortable": "thulkanilshailin",
+      "utterances": [
+        "Thank you for your service to the City of Gorowyn."
+      ]
+    },
+    {
+      "name": "Verdek",
+      "name_sortable": "verdek",
+      "locations": [
+        "2669.6,13.83,1324.12"
+      ]
+    },
+    {
+      "name": "Verkaera Myr'zok",
+      "name_sortable": "verkaeramyrzok",
+      "utterances": [
+        "I have mounts brought from across the world.  Take a look, and see if you find one that you might like."
+      ]
+    },
+    {
+      "name": "Welza Bittlescope",
+      "name_sortable": "welzabittlescope",
+      "locations": [
+        "2403.04,18.68,1423.01"
+      ],
+      "utterances": [
+        "Much to see, much to do!  And the scenery here is just beautiful, too!"
+      ]
+    },
+    {
+      "name": "Zilzykla",
+      "name_sortable": "zilzykla",
+      "locations": [
+        "2667.14,13.65,1319.73"
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1627905743 89469979:Almond Snowdrops\\/a",
+      "locations": [
+        "2566.24,8.39,1220.82",
+        "2397.79,21.23,1352.92"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 332101994 877687752:Carved Owlbear\\/a",
+      "locations": [
+        "2476.70,12.05,1245.85",
+        "2703.03,5.17,1211.67",
+        "2509.98,13.53,1208.90"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1686447585 -1157557813:Cranberry Garland\\/a",
+      "locations": [
+        "2509.98,13.53,1208.90",
+        "2566.24,8.39,1220.82"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1043760057 877568113:Dark Goat Horn\\/a",
+      "locations": [
+        "2559.14,8.49,1200.17",
+        "2655.42,4.91,1197.40"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1351429340 2130881161:Painted Nutcracker\\/a",
+      "locations": [
+        "2324.25,15.78,1355.14",
+        "2667.60,5.17,1184.88"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1085245164 248461978:Pecan Roll-Ups\\/a",
+      "locations": [
+        "2374.79,8.93,1438.25",
+        "2387.72,20.71,1320.89",
+        "2576.25,13.28,1286.26"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1498904707 -916017101:Threshed Straw\\/a",
+      "locations": [
+        "2341.87,14.13,1369.32",
+        "2377.77,21.76,1335.37"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -613180471 1660696516:Wet Soot\\/a",
+      "locations": [
+        "2350.65,6.79,1404.12",
+        "2687.63,4.62,1221.89"
+      ]
+    }
+  ]
+}

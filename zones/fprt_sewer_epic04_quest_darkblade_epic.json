@@ -1,0 +1,53 @@
+{
+  "name": "The Darkblade Den of Assassins",
+  "name_sortable": "darkbladedenofassassins",
+  "region": "D'Lere",
+  "zonerect": "-28.00,-32.00,29.00,35.00",
+  "levels": "8-10",
+  "type": "instance",
+  "access_quests": [
+    48146532
+  ],
+  "connections": [
+    {
+      "key": "fprt_sewer01"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a Darkblade assassin",
+      "name_sortable": "darkbladeassassin",
+      "level": 10,
+      "utterances": [
+        "Sees us, did we? Must not let you talk then.",
+        "Flee and take care of them later."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 25,
+      "drop_coin_max": 41
+    },
+    {
+      "name": "Sinyaz V'rix",
+      "name_sortable": "sinyazvrix",
+      "level": 10,
+      "difficulty": "heroic",
+      "drop_coin_min": 39,
+      "drop_coin_max": 39
+    },
+    {
+      "name": "Zaynis V'rix",
+      "name_sortable": "zaynisvrix",
+      "level": 10,
+      "difficulty": "heroic"
+    }
+  ]
+}

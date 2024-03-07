@@ -1,0 +1,607 @@
+{
+  "name": "Outpost of the Overlord",
+  "name_sortable": "outpostoftheoverlord",
+  "region": "Other",
+  "levels": "2-8",
+  "connections": [
+    {
+      "key": "fprt_tradeskill01_island"
+    },
+    {
+      "key": "tutorial_island02_epic01_evil_island"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Ashir",
+      "name_sortable": "ashir",
+      "utterances": [
+        "Mmm, fish!"
+      ]
+    },
+    {
+      "name": "Assassin Vamir",
+      "name_sortable": "assassinvamir",
+      "utterances": [
+        "We's gonna cut off their resources to weaken them in the long terms, settings up our major attack after they are weakened.  If we take out their picks of the wild animals, they'll have nothing to train.",
+        "They trains the bears, hawks, and wolves on the island.  The wolves are a bits too deep to touch now, but the bears and hawks are nearby so we starts with those.  First, head north up the slope into the Wilderwood or west into Cliffdiver Canyon and lay down some bears.  Returns when you are done.",
+        "The bears are dead?  Good.  Nows for a tricky task, so pay attention!  The hawks you will now hunt reside high on the cliffs in Cliffdiver Canyon to the west of here.  Untils now, we've been unable to get to them.",
+        "The cliffdiver hawks perch high up and watch for foods to attack below. I's got some food for them right here, hahahaha! Take these mole rats and when you think you are in a good position below the hawks, examine them in your inventory and release one. Return if you needs more.",
+        "Excellent job!  I think we's done a good job stoppings any new recruits for the Tunarians.  Here, this note was just delivered to us.  I believe it is from Tayil.",
+        "The Tunarians won't have many animals to train because of you.  Nice works!  Return to me if you ever needs more mole rats.",
+        "Is he that guy with the bad comb-over?",
+        "Hellos <player name>, Tayil sent word you were comings.  I's been scouting out the nearby areas, trying to get a better feels of what we's up against.  Beastmasters these Tunarians are, training the wild animals of the island to fight for them!"
+      ]
+    },
+    {
+      "name": "an average sparring partner",
+      "name_sortable": "averagesparringpartner",
+      "utterances": [
+        "Well done!",
+        "Okay, who's next?"
+      ]
+    },
+    {
+      "name": "Bladefin",
+      "name_sortable": "bladefin",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1149044188 -1785755604:Aquatic Research Notebook\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1290674712 523118281:Shark Jaw Scimitar\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Bobble Whirlwidget",
+      "name_sortable": "bobblewhirlwidget",
+      "utterances": [
+        "How am I going to collect these lugsnibbets?  I can't swim, but that won't matter when the ship is done.",
+        "Shhhhh!  I need to keep this as quiet as possible, the Overlord demands it.  But I'm wizzlewogged here on my research and could use some help.",
+        "Okay, word has it that the Wobblecog family of Qeynos is on the verge of perfecting a ship that can travel underwater. The Overlord cannot let Qeynos get the upper hand, so I have been tasked with figuring out the process for creating these ships.",
+        "I've discovered a creature called the nautilus that uses air chambers within its shell to keep itself buoyant, similar to the pogflume dialator I've been working on. I believe that if I can get some of these specimens, I should be able to figure out the mechanism and apply it to a ship.",
+        "Good!  I'll be up here observing.  Hurry now, the Overlord awaits!",
+        "Holy snogratchets, that was quick!",
+        "Excellent!  This ship is gonna be magnificent.  Here take this for your efforts."
+      ]
+    },
+    {
+      "name": "Callus Magnus",
+      "name_sortable": "callusmagnus",
+      "utterances": [
+        "Have a stout for Freeport!"
+      ]
+    },
+    {
+      "name": "Captain Pinious",
+      "name_sortable": "captainpinious",
+      "utterances": [
+        "I've met many great heroes of the Overlord since arriving at the outpost, but I can't recall anyone by that name.",
+        "Hello there, <player name>. So you're the new addition to the outpost that we've been hearing about. I've been stationed here by the Overlord to instruct you in ways that you can interact with the world around you."
+      ]
+    },
+    {
+      "name": "Captain Tyreth",
+      "name_sortable": "captaintyreth",
+      "utterances": [
+        "Ah, you were the one who coerced these sentries out of the area before the attack. Nicely done! It is time to complete our domination. The Militia are advancing and beginning to clear the area. It is time to strike, quickly!",
+        "Take this torch. Work your way in and set fire to two of the nearby tents. Others have begun the razing as well. If another's flame fails, make sure you finish the job. This island will soon be ours!",
+        "The rising smoke reveals your courage, but are you ready to finish what we have started?",
+        "We believe that the leader of these elves waits atop a tree house, located through the archway to the east. It is certain that the flames have been spotted, so we need to act quickly. You must travel to the top of this tree house and finish the battle.",
+        "So, Adrium is dead. I take it you found the key?",
+        "Of course it is, but there is something more. You know that mine that you took the samples from? The samples were packed with precious lapis lazuli, more so than any other source near Freeport.",
+        "We've been\"questioning\" some captives and had scouts follow the Tunarian haulers from the mine to a cave near the back of Adrium's tree house. We believe that this cave holds the true leaders of the elves, known as the Circle of Elders.",
+        "Ha ha, good form! You sound like a Freeport citizen already! The loot should be in the cave. Nothing has left the island for months, we've had it completely surrounded. Head in there and take care of the elders.",
+        "Hahaha! The attack has begun and the enemy shall fall! You must be <player name>, here to take part in the festivities.",
+        "You still have much to learn <player name>, but I'll let you in on a little secret. Sometimes things are best left unsaid until they reveal themselves. We have been watching your every move, and you have proven quite worthy of our true goal.",
+        "No <player name>, you've been training. Training for the final confrontation you are about to take part in. You think Tayil couldn't have just done this all herself? Prove to us you are ready to become an esteemed citizen of Freeport and share in the wealth."
+      ]
+    },
+    {
+      "name": "Captain Varlos",
+      "name_sortable": "captainvarlos",
+      "utterances": [
+        "So, ye ready ta go ashore matey? I can take ye all the way to Freeport or just as far as Neriak.",
+        "Ya' best be sure ta' explore the whole island, ya' hear!  Norrath can be a dangerous place ya' know?",
+        "Yar! That's what we be needin'.  Okay then, off to Freeport!",
+        "Don't ya' mind, we get paid ta' do that."
+      ]
+    },
+    {
+      "name": "Charles Arker",
+      "name_sortable": "charlesarker",
+      "utterances": [
+        "Your reputation precedes you -- as will mine, someday soon.  When I return to Freeport, my prestige will bring honor to my family.  I came here to make a name for myself, but it's been difficult to stand out in the crowd.  I have a new assignment and it's puzzling me.  Would you help me unravel it?",
+        "There's a lot of undercover work here, which means even if you do well, the higher-ups may not know it's you doing the work.  Some of my best work was claimed by someone else and I mean to fix that.  Not long ago, I intercepted part of a note one of the Tunarian spies was delivering.  They've hidden the remaining pieces.  We need to get them all back to learn more of what they're doing.",
+        "A word of warning: be wary of those wood elves.  They're more cunning than others may realize.",
+        "Have you found more of the missing pieces?",
+        "As you know, I came here to make more of a name for myself.  When I return home, my marriage will take place.  I've been betrothed since birth to a lady from a good family.  The match will elevate my family's status.  Unfortunately, my betrothed has the face of a horse.",
+        "Also, unfortunately, I've found myself unnaturally attracted to one of those Tunarian spies.  A wood elf...she's graceful, beautiful and deadly.  Nothing must come of this fancy of mine.  I cannot let my reputation be sullied by even the merest hint of a romance with one of their kind.",
+        "Find Laena.  Kill her.  I'd do it myself, but I fear that seeing her again might weaken my resolve.  She could be anywhere on this island.  Once she's out of the way, I won't be tempted again and my family's honor will not be stained.  For all I know, she was put here specifically to entice men like me to falter.",
+        "There's no time like the present.",
+        "What's that? You found more of the parchment?",
+        "I can't speak of it here.  It is very important that we draw no attention to ourselves.  Meet me in the Wilderwood.  There's a shallow alcove known as \"the Nook\" beyond the trees, along the northern wall.",
+        "Is she...dead?",
+        "I don't care for details.  I...just want to make sure she died with honor.",
+        "That note...do you have all of it?",
+        "Good. I wrote this note -- that's probably what puzzled you. It contained a hidden message to Laena. I was...planning to meet her secretly.Then I realized how foolish that would be,but I had already sent her the note.",
+        "By the Overlord, no! I waited for her here, as pre-arranged.  She did not come and next thing you know, one of the other men gave me part of the note and told me to investigate the Tunarians.  I couldn't tell if he knew my secret or not.",
+        "What is it with you and killing?  No! I was grateful for the chance to find the rest of my note and destroy it before anyone else realized I had signed it! I thought Laena might still have the rest of it...and you proved that she at least had some of it still.",
+        "Perhaps a jealous lover, or maybe she was torn apart by the wilderbears.  You must keep this secret.  My family will never understand the...indiscretion...I showed.  Nothing happened between Laena and me, so it's best forgotten.  Get rid of these scraps for me.  I must go back before I'm missed.",
+        "You're that new recruit I keep hearing about. <player name>, isn't it?",
+        "I appreciate it, <player name>.  Whatever glory comes of this, we'll share in the credit.  I'm sure this will more than make up for the work I've done that others have taken credit for.",
+        "The Tunarian note is still incomplete, but this may be enough to advance our prestige, <player name>. You know, you're very good at this kind of thing. Tell me, would you be interested in helping me on a more personal level?",
+        "I see.  I hadn't expected that.  The main thing is that Laena will no longer...bother me.  I wonder, though...who could've killed her?  We may never know...and I can marry my betrothed in peace. Thank you, <player name>.  "
+      ]
+    },
+    {
+      "name": "Chef Gorga",
+      "name_sortable": "chefgorga",
+      "utterances": [
+        "Need to wait for stew to be done, no firsties!  Many Militia to feed, your mouth no bigger than the rest.",
+        "Seaside Stew!  Only a couple things we still needs to get.  First is the buzzers, buggin' Gorga they are.  Not sure how they taste, but less of 'em is better.  Be sure to pluck out the wings slowly, the last buzz is the best buzz.",
+        "Heeheehee!  Toss 'em in the pot.  The next yummies are the main pot filler, livers!  Those elks are eatin' up all the eatin' plants anyways, so we kill two halflings with one stone.  Bring back the elk livers when you're done.",
+        "Heeheehee!  Toss 'em in and smell the Gorga magic.  The stew is done now!  Head back to Tayil, she's waitin' for ya.",
+        "Mmm, this stew is yums.  Livers!",
+        "Gorga not cook someone by that name. Not yet.",
+        "Ahh yes, <player name>, Tayil said you were comin'.  Good then, Gorga can stir the pot while you goes to collect more ingredients.  Heeheehee!"
+      ]
+    },
+    {
+      "name": "Coercer Zlith",
+      "name_sortable": "coercerzlith",
+      "utterances": [
+        "Head in there and sstir up the hornet's nest. Take out sssome of their miners, and while you're at it, grab some of the loose ore around the mine. Tayil wants to know what it is that they're mining.",
+        "Nice work! As you probably noticed, there are additional Tunarian horse sentriesss being sssent into the Wilderwood to check on the mine. We need another distraction to thin out the Qeynosian forces even more. It's time to deal with those meddling sentriesss once and for all.",
+        "Head back into the Wilderwood and take out sssome of these horse sentries. The more you slay, the more Qeynosians will be sent to investigate, which will provide our chance to attack. Return to me when the deed is done. By the way, I'll take those ore samples and make ssssure they find their way to Tayil.",
+        "Sssso <player name>, ready for a little sabotage? The mine is inside the Wilderwood in the far eastern corner.",
+        "You have done enough, <player name>. Tunarian reinforcementsss are on their way to the Wilderwood. Our time for attack is now! Tayil will be glad to hear of your work. Speaking of Tayil, take these sssealed orders. She sssent them for you, and if I were you I would not ignore them."
+      ]
+    },
+    {
+      "name": "Ebb Tide",
+      "name_sortable": "ebbtide",
+      "utterances": [
+        "Welcome to Ebb Tide's Alehouse.",
+        "Got any goods for sale from your adventures?"
+      ]
+    },
+    {
+      "name": "an elk calf",
+      "name_sortable": "elkcalf",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1792642557 386945135:hoof\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1524412914 -338403869:Antler Plated Chestguard\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Falconer Lithkeen",
+      "name_sortable": "falconerlithkeen",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1918107535 1672045426:Lithkeen's Spear\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 3,
+      "drop_coin_max": 3
+    },
+    {
+      "name": "a Field Investigator",
+      "name_sortable": "fieldinvestigator",
+      "utterances": [
+        "You! I saw you put something into the fire! Come here!",
+        "The fire burns hot, hiding all tracesss of what's inssside.",
+        "Just curious.  I know you've been ssssseen ssspeaking with Charlesss Arker lately.",
+        "This task is not too difficult.  His fiancee's family would like ssome information.  Casually chat up some of the other Freeportians around here to see if any of them say anything.  Complete this task and you will be rewarded.",
+        "Exssssss-cellent.",
+        "What have you discovered?",
+        "Interesting.  Charles had been sending word that he is very popular and renowned for his exploits.  Well, I suppose a little bragging beats a little infidelity.  The marriage will proceed as planned.",
+        "Defiant, aren't we? Well, <player name> -- don't look so surprised, of course I know your name -- there are those who would like more information about Mr. Arker's activites. I am Field Investigator Zherran Tzizzink. Can you help me?"
+      ]
+    },
+    {
+      "name": "a formidable sparring partner",
+      "name_sortable": "formidablesparringpartner",
+      "utterances": [
+        "You can attack me whenever you're ready. You can do that by double-clicking me, by right clicking me and selecting \"attack,\" by using an offensive ability while you have me targeted, or by turning on auto attack by pressing the ~ key while you have me targeted."
+      ]
+    },
+    {
+      "name": "Gethe Huggs",
+      "name_sortable": "gethehuggs",
+      "utterances": [
+        "Hello there!  If you have any collections that you've completed, I can take them off your hands and reward you for your time.  I'm just crazy for collections!",
+        "This is a magnificent find! Here, take this for all your hard work."
+      ]
+    },
+    {
+      "name": "Greshar",
+      "name_sortable": "greshar",
+      "utterances": [
+        "Hello there, <player name>. Menders like me repair your equipment after it gets damaged due to death. To learn more about repairs, speak to Trainer Vissa Sathliss nearby. I'll fix your gear for a small fee, but menders in Freeport won't be quite so generous!"
+      ]
+    },
+    {
+      "name": "Hogga Irongut",
+      "name_sortable": "hoggairongut",
+      "utterances": [
+        "Have an ale!"
+      ]
+    },
+    {
+      "name": "Jonas Rollings",
+      "name_sortable": "jonasrollings",
+      "utterances": [
+        "One too many Coagulated Surprises last night is my guess.",
+        "I've got a sour taste in my mouth.  I shouldn't have bought my ale from Saryl."
+      ]
+    },
+    {
+      "name": "Kurgle Frogbane",
+      "name_sortable": "kurglefrogbane",
+      "utterances": [
+        "Chumpy swings like an elf!"
+      ]
+    },
+    {
+      "name": "Laena",
+      "name_sortable": "laena",
+      "utterances": [
+        "Die, Freeport scum!"
+      ]
+    },
+    {
+      "name": "a Militia patroller",
+      "name_sortable": "militiapatroller",
+      "utterances": [
+        "That blade is a bit dull.  Be sure to sharpen it when our shift is over.",
+        "I should be out on the front lines!",
+        "I can't wait to get back and hit the Seafarer's Roost for an ale."
+      ]
+    },
+    {
+      "name": "Murg Leechtongue",
+      "name_sortable": "murgleechtongue",
+      "utterances": [
+        "Filthy elves!"
+      ]
+    },
+    {
+      "name": "Nogg Dreadscar",
+      "name_sortable": "noggdreadscar",
+      "utterances": [
+        "Charles Barker? Larker? Jarker? Nope, never heard of him.",
+        "Well met, <player name>."
+      ]
+    },
+    {
+      "name": "Oolar Omafa",
+      "name_sortable": "oolaromafa",
+      "utterances": [
+        "By will of the Overlord!"
+      ]
+    },
+    {
+      "name": "Overseer Adrium",
+      "name_sortable": "overseeradrium",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1078206763 -479014764:Adrium's Guard\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4
+    },
+    {
+      "name": "Priestess Xaliea",
+      "name_sortable": "priestessxaliea",
+      "utterances": [
+        "The life of a priestess isn't all posies and butterflies, you know? We aren't just here to heal and give you blessings.",
+        "No! There's so much more to our way of life. We constantly battle against the ever rising ranks of the undead. If it wasn't for us, you'd all have your brains sucked out by a legion of zombies!",
+        "I can't leave my post.",
+        "Hmm, but you can get around freely, can't you? Maybe you could help an old priestess relive her glory days?",
+        "Go find these skeletons and slay them. If you bring me three bone chips from them, I'll make this all worth your while.",
+        "I can hear them, out there in the distance. Their bones are rattling and crackling. Oh! How I want to feel them crumble beneath my grasp. Hurry up, bring me those bone chips!",
+        "Ah, the sweet smell of death! They're so dry and brittle, just like I remembered. Thank you.",
+        "Here, take these coins. This should be more than what the merchant would give you for these beauties."
+      ]
+    },
+    {
+      "name": "Pruk Skullpound",
+      "name_sortable": "prukskullpound",
+      "utterances": [
+        "Bring em back!  We'll pound em into the dirt.",
+        "Burn the tents!"
+      ]
+    },
+    {
+      "name": "a sand tortoise",
+      "name_sortable": "sandtortoise",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1852418953 1450020491:turtle meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Saryl Scarscale",
+      "name_sortable": "sarylscarscale",
+      "utterances": [
+        "All the way back to the days of Cabilis, my family has provided goods to those in need."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a",
+          "price": 54
+        }
+      ]
+    },
+    {
+      "name": "a shipwrecked explorer",
+      "name_sortable": "shipwreckedexplorer",
+      "utterances": [
+        "Brains! It's what's for dinner.",
+        "That pile of bones was my friend!",
+        "Your eyes are so pretty.",
+        "Rest in peace."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a shipwrecked swashbuckler",
+      "name_sortable": "shipwreckedswashbuckler",
+      "utterances": [
+        "To the grave with you!",
+        "You cannot eliminate us!",
+        "That pile of bones was my friend!"
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 2
+    },
+    {
+      "name": "Sirsi Rissar",
+      "name_sortable": "sirsirissar",
+      "utterances": [
+        "Ever heard of the dreaded Bladefin?"
+      ]
+    },
+    {
+      "name": "a soldier bee",
+      "name_sortable": "soldierbee",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 935426583 818928065:an insect wing\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Tayil N'Velex",
+      "name_sortable": "tayilnvelex",
+      "utterances": [
+        "I am Tayil N'Velex, attendant and confidante of the Overlord. I am here to ensure that our operation on this island is successful. You, on the other hand, will be assisting us with some field work to help prepare you for life as a citizen of Freeport.",
+        "Freeport is the center of power and commerce on Norrath. The city sits on the eastern edge of the continent of D'Lere. This grand city shall be your home here on Norrath, should you prove yourself worthy. If not, you can cower and beg for shelter at the gates of Qeynos.",
+        "Remember to always keep the will of the Overlord foremost in your thoughts and you will go far. The city of Freeport is a power unrivaled on Norrath, no matter what you might hear from Qeynosian riffraff. You must pledge yourself to this power and become part of it. Do this and I will reward you handsomely.",
+        "Excellent! There is indeed much potential in you. I think it is time to begin your training.",
+        "You must be strong if you wish to serve properly. Northwest of here you can find Trainer Darg Frostwind. Speak with him about combat training and do as he tells you.",
+        "In case you forget, I've written down his name and location in your quest journal.",
+        "This outpost was recently established as a training ground for potential citizens of Freeport to hone their skills. Our first scouts on the island reported it as being uninhabited, perfect for our needs. It soon became clear that the initial reports were incorrect, and those scouts have been permanently reassigned to the bottom of the bay. Such is the price of failure.",
+        "The intruders are a sect of the Tunarian Alliance, a lowly order of vermin originating from Qeynos. As a true servant of the Overlord, your duty is to eliminate them. This should prove extremely useful in preparing you for the challenges that lie ahead after you leave the outpost.",
+        "Go talk to Chef Gorga just past the west archway. She needs help gathering supplies to feed the members of the Freeport Militia who guard this outpost, which should provide a chance to test your combat skills. There is more to hunt on this island than just Qeynosians.",
+        "Report back to me when your duties with Chef Gorga are done.",
+        "Did you enjoy your hunting in the Seaside Glade with Chef Gorga?",
+        "Good, now listen closely. Though a direct attack upon your enemy can be quite satisfying, there are often more subtle means of inflicting damage. Cut off the feet and the head is sure to follow, if you get my meaning.",
+        "Indeed, cunning and subtlety are often effective. And who is more cunning and subtle than an assassin? We've established a camp through the archway to the west, at the far end of Seaside Glade. Go and speak to Assassin Vamir, who has devised a plan to strike at the heart of the Tunarians.",
+        "Assassin Vamir will explain the details.  Good luck.",
+        "Ah, there you are, <player name>. I have been expecting you. There is much work ahead of us in establishing Freeport's dominance over this island. The Overlord's troops have secured the outpost, but there is a growing nuisance on the other side of the island that must be addressed. That is where you come in.",
+        "The Overlord is the fiercely courageous ruler of Freeport. A statue of his glorious visage graces the pond in the center of the outpost. Though he is merciless to his enemies, he is generous to those who serve him. Pray you never do anything to fall from his grace, <player name>.",
+        "The city of Qeynos is the enemy of Freeport. It is a weak land ruled by an incompetent queen, Antonia Bayle. I've had my share of battles with her and her pet kerra, I assure you. Qeynosians try to spread lies about the Overlord and portray him as some kind of power-mad tyrant. Don't believe their propaganda, <player name>!",
+        "So, <player name>, are you ready to learn more about the outpost and perform your first service for the Overlord?",
+        "Not just yet, <player name>. You will strike against those Qeynosian scum when the time is right. First we need to see if that weapon of yours is working! Are you ready for your first test?",
+        "Gorga was impressed with your handiwork. I'm sure the outpost Militia guards will be pleased with her stew, though I can't stomach troll cooking myself. You show potential indeed, <player name>. As promised, here is your reward.",
+        "So, <player name>, are you ready to prove your worth again?"
+      ]
+    },
+    {
+      "name": "a trained wolf",
+      "name_sortable": "trainedwolf",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -384518907 -1424034998:Undead Knight (Adept)\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Trainer Anna Winston",
+      "name_sortable": "trainerannawinston",
+      "utterances": [
+        "You seem to have potential, adventurer. I think you shall make a great champion of the Overlord some day. As you begin your training here at the Outpost, it is important that you learn how to gauge the capabilities of your adversary."
+      ]
+    },
+    {
+      "name": "Trainer Arthur Merrin",
+      "name_sortable": "trainerarthurmerrin",
+      "utterances": [
+        "Greetings, brave hero of the Overlord! It is my responsibility to explain how crafting and tradeskills can bring prosperity to the kingdom of Freeport. I hope I can encourage your participation in helping our city flourish. We can beat those hapless Qeynosians through our superior commerce!"
+      ]
+    },
+    {
+      "name": "Trainer Corx Knickknack",
+      "name_sortable": "trainercorxknickknack",
+      "utterances": [
+        "Sorry, never met that person. You should see me about some training, though.",
+        "Good day, <player name>. I've been stationed here at the outpost to teach the Overlord's newest recruits about equipment and inventory space. Good equipment is one of the most important aspects of any adventurer!"
+      ]
+    },
+    {
+      "name": "Trainer Darg Frostwind",
+      "name_sortable": "trainerdargfrostwind",
+      "utterances": [
+        "Well, what do you want to know? Something basic or something more advanced?",
+        "Very well. The nearby sparring partners to my left are all looking to fight.  They may hurt you, but they won't kill you. Return to me once you've bested one of them in combat.",
+        "Have you defeated the sparring partner yet?",
+        "Good. The stronger you are the more use you are to us.",
+        "I'm sure of it! Go speak with Tayil N'Velex, she is just south of Sythor's Spire.",
+        "I've trained the greatest champions on this island. I've never heard of anyone by that name.",
+        "Greetings, <player name>. I've been stationed here at the outpost to teach new recruits the finer points of combat. After all, it's our duty to honor the Overlord by achieving legendary victories in his glorious name.",
+        "You'll learn many advanced combat techniques over time. There's no substitute for experience, <player name>! I'd be happy to discuss a few of these advanced aspects, such as selecting the right opponent, knowing your surroundings, and using your abilities."
+      ]
+    },
+    {
+      "name": "Trainer Jayla Surfrider",
+      "name_sortable": "trainerjaylasurfrider",
+      "utterances": [
+        "Even the mightiest hero of the Overlord will meet an untimely end on occasion. Let me teach you the consequences of death and how you can recover properly.",
+        "Just keep an eye on your health bar, the green line located beneath your name in the upper left of your screen. At least...you hope it's green.",
+        "Green means you're healthy. As your health diminishes, the bar turns yellow, then orange, and finally red. If the bar is empty, you die. You pay the debt which cancels all others, if you get my meaning.",
+        "Your spirit lays trapped in your fallen body, unable to move. At this point, you have a choice: wait for a nearby ally to revive you, or choose a location from the window in the center of your screen at which to reappear. In some cases you'll have a single choice, in others multiple choices.",
+        "Fortunately for all of us, death in Norrath is a temporary thing. If another adventurer revives you, you reappear at the spot of your death. If you choose a location to revive, you will appear at that spot. There are consequences to death, however.",
+        "There are three results of death. First, you incur some experience debt which can be paid off by earning more XP. Second, you suffer a revive sickness that lowers your abilities for a short time, which leaves you temporarily vulnerable and less effective. Finally, all your equipped items take damage that will eventually have to be repaired.",
+        "Experience debt is indicated by a red line on your XP bar. As you earn experience going forward, part of your XP will go toward paying off your debt while the rest will continue to advance you toward your next level. Mousing over your XP bar also tells how much debt you have.",
+        "You'll see an icon for revive sickness in your spell effects window. Mousing over the icon will tell you how long it will remain. The type of sickness you have depends on how you were revived, but no matter what there will be a negative effect. Don't worry, it passes soon enough.",
+        "You will need to see a mender, someone who is able to repair your items back to 100% durability. Speak to Trainer Vissa Sathliss to learn more about repairing your gear. Should your equipment take damage here at the outpost, Mender Greshar at the forge can make repairs for you.",
+        "Sorry, never heard of him. Did he die recently?",
+        "Death can come in many ways: being bested on the field of battle, falling from great heights, drowning in water, falling into lava, standing too close to an exploding chest, and so on. It's a dangerous world out there, <player name>.",
+        "Your equipped items usually take about 10% wear with each death. When they are down to zero durability, you no longer receive any benefit from them. Don't let your equipment ever get into such poor condition, <player name>!"
+      ]
+    },
+    {
+      "name": "Trainer Kasha Yitski",
+      "name_sortable": "trainerkashayitski",
+      "utterances": [
+        "Come closer, adventurer. Ah yes, I can see it in your eyes: the desire to best your foes in glorious battle! Well, lucky for you I have knowledge that can aid you in your quest. If you pay close attention, I can teach you how to use a powerful technique called Heroic Opportunities."
+      ]
+    },
+    {
+      "name": "Trainer Sythor the All-Seeing",
+      "name_sortable": "trainersythortheall-seeing",
+      "utterances": [
+        "Welcome to the service of the Overlord. Our great leader has sent me here to explain something very important: how your Spells, Combat Arts, and Abilities work, as well as how to improve them. Listen and learn from the mighty Sythor the All-Seeing!",
+        "I knew I shouldn't have sent such a tasty looking gnome into dangerous waters.  Ludz will be slightly missed...  Anyways, here is the reward I was going to give him, but I guess it's yours now."
+      ]
+    },
+    {
+      "name": "Trainer Vella N'Dur",
+      "name_sortable": "trainervellandur",
+      "utterances": [
+        "Come closer if you want me to answer any questions you have about collections or harvesting!",
+        "Sorry, but I can't say that I know this person."
+      ]
+    },
+    {
+      "name": "Trainer Vissa Sathliss",
+      "name_sortable": "trainervissasathliss",
+      "utterances": [
+        "I am here to tell you all about mending and banking! Banking and mending! Which do you want to hear about?"
+      ]
+    },
+    {
+      "name": "a Tunarian fisher",
+      "name_sortable": "tunarianfisher",
+      "drop_coin_min": 3,
+      "drop_coin_max": 3
+    },
+    {
+      "name": "a Tunarian horse sentry",
+      "name_sortable": "tunarianhorsesentry",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1463685657 612992231:Horse Sentry Pauldrons\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1394743414 -90333821:Necrotic Reconstruction (Adept)\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a Tunarian miner",
+      "name_sortable": "tunarianminer",
+      "drop_coin_min": 2,
+      "drop_coin_max": 2
+    },
+    {
+      "name": "a Tunarian protector",
+      "name_sortable": "tunarianprotector",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Tunarian scout",
+      "name_sortable": "tunarianscout",
+      "drop_coin_min": 2,
+      "drop_coin_max": 2
+    },
+    {
+      "name": "a vicious sandstalker",
+      "name_sortable": "vicioussandstalker",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1533459695 1256560616:Sandstalker Legplates\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a weak sparring partner",
+      "name_sortable": "weaksparringpartner",
+      "utterances": [
+        "You can attack me whenever you're ready. You can do that by double-clicking me, by right clicking me and selecting \"attack,\" by using an offensive ability while you have me targeted, or by turning on auto attack by pressing the ~ key while you have me targeted."
+      ]
+    },
+    {
+      "name": "Whizratchet",
+      "name_sortable": "whizratchet",
+      "utterances": [
+        "As a banker it is my job to hold items and coin for you for safe-keeping. If you would like to learn more, speak with Trainer Vissa Sathliss. She is just east of me, around the corner."
+      ]
+    },
+    {
+      "name": "a wilderwolf",
+      "name_sortable": "wilderwolf",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 641537398 409580744:Weakened Blood of the Wolf\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Wix Wimblewick",
+      "name_sortable": "wixwimblewick",
+      "utterances": [
+        "Wimblewick's the name, Wimblewickin is what I do.  What that means, I have no idea!"
+      ]
+    },
+    {
+      "name": "Zito Graban",
+      "name_sortable": "zitograban",
+      "utterances": [
+        "You've got to be deviant to survive in Freeport."
+      ]
+    }
+  ]
+}

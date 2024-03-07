@@ -1,0 +1,23 @@
+{
+  "name": "The Icy Keep (Hard)",
+  "name_sortable": "icykeephard",
+  "region": "Everfrost",
+  "zonerect": "-334.00,-519.00,313.00,230.00",
+  "type": "instance",
+  "maps": [
+    {
+      "name": "Main Floor"
+    },
+    {
+      "name": "Towers"
+    },
+    {
+      "name": "Basement"
+    }
+  ],
+  "connections": [
+    {
+      "key": "everfrost_frostfell"
+    }
+  ]
+}

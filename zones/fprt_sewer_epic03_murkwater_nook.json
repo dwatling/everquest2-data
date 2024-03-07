@@ -1,0 +1,58 @@
+{
+  "name": "The Murkwater Nook",
+  "name_sortable": "murkwaternook",
+  "region": "D'Lere",
+  "zonerect": "-27.00,-32.00,27.00,32.00",
+  "levels": "21-27",
+  "type": "instance",
+  "access_quests": [
+    3224346642
+  ],
+  "connections": [
+    {
+      "key": "fprt_sewer03"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Madame Kisa",
+      "name_sortable": "madamekisa",
+      "locations": [
+        "0.29,0.61,17.66"
+      ],
+      "utterances": [
+        "Greetings, friend. How would you like to die, friend?",
+        "Take my secrets to my grave I shall."
+      ]
+    },
+    {
+      "name": "a Murkwater thief",
+      "name_sortable": "murkwaterthief",
+      "locations": [
+        "6.68,-0.97,-5.40",
+        "2.24,0.60,18.21"
+      ],
+      "utterances": [
+        "Greetings, friend. How would you like to die?",
+        "Should've escaped while I had the chance.",
+        "Not very nice of you to be all sneaky.",
+        "Greetings, friend. How would you like to die, friend?",
+        "Take my secrets to my grave I shall."
+      ]
+    },
+    {
+      "name": "a Murkwater warrior",
+      "name_sortable": "murkwaterwarrior",
+      "locations": [
+        "-2.78,0.49,15.98",
+        "3.46,0.49,15.97"
+      ],
+      "utterances": [
+        "Overhear my plansies? Gore you I will!",
+        "Over hear my plansies? Gore you I will!",
+        "That wasn't very nice, friend.",
+        "Should've escaped while I had the chance."
+      ]
+    }
+  ]
+}

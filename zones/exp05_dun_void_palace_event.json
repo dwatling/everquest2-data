@@ -1,0 +1,158 @@
+{
+  "name": "A Memory of Nothingness",
+  "name_sortable": "memoryofnothingness",
+  "region": "",
+  "zonerect": "-900.00,-900.00,800.00,459.00",
+  "connections": [
+    {
+      "key": "qeynos_combined01"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a drachnid guardian",
+      "name_sortable": "drachnidguardian",
+      "locations": [
+        "-16.09,13.26,-22.61",
+        "11.09,13.26,-1.62",
+        "15.55,13.26,16.94"
+      ],
+      "utterances": [
+        "Another host for our offspring!",
+        "Noooooo...",
+        "Your corpse will be used to feed our young!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 528193409 280931073:Ruby Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 438839939 2010864568:Ruby Scrying Stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a phantom guardian",
+      "name_sortable": "phantomguardian",
+      "locations": [
+        "-47.58,12.53,-1.43",
+        "35.02,24.68,85.24",
+        "23.11,17.90,-116.62",
+        "-43.74,13.59,-11.39",
+        "-37.50,13.26,4.39",
+        "38.07,24.64,91.54",
+        "25.43,17.90,-107.91"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1363479934 640750925:Statuette of Satrinah\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 438839939 2010864568:Ruby Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -842920968 -359403442:ancient note of runes\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -257105619 335124310:Ebon Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1337121251 -1782339120:seared cog\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 528193409 280931073:Ruby Amulet\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a troll guardian",
+      "name_sortable": "trollguardian",
+      "locations": [
+        "-90.80,3.00,-12.84",
+        "-88.88,3.13,-6.32",
+        "41.52,19.20,-2.11",
+        "-78.84,7.71,-13.31",
+        "-78.15,7.71,-5.46",
+        "41.99,18.46,-9.98",
+        "-96.93,1.53,-9.30"
+      ],
+      "utterances": [
+        "I am one of many!",
+        "You can't escape!",
+        "We will rule!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 528193409 280931073:Ruby Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1337121251 -1782339120:seared cog\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 438839939 2010864568:Ruby Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1363479934 640750925:Statuette of Satrinah\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -842920968 -359403442:ancient note of runes\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -257105619 335124310:Ebon Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 488244403 1296734171:exquisite burnt silk sash\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a voidbeast guardian",
+      "name_sortable": "voidbeastguardian",
+      "locations": [
+        "21.19,25.05,116.96",
+        "67.42,19.57,-135.21"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1785005889 1276620983:a darkened antenna\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 438839939 2010864568:Ruby Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1157150272 -555252316:a vial of darkness\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ]
+}

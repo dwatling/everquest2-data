@@ -1,0 +1,26 @@
+{
+  "name": "Sundered Splitpaw: Upper Tunnels",
+  "name_sortable": "sunderedsplitpawuppertunnels",
+  "region": "Karan",
+  "type": "instance",
+  "connections": [
+    {
+      "key": "steppes"
+    },
+    {
+      "key": "adv02_dun_sundered_splitpaw_hub"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a sedimentary trembler",
+      "name_sortable": "sedimentarytrembler",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -412301464 1517978432:fragmented stone\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ]
+}

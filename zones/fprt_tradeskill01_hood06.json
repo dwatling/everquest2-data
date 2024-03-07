@@ -1,0 +1,41 @@
+{
+  "name": "The War Hagglers",
+  "name_sortable": "warhagglers",
+  "region": "D'Lere",
+  "connections": [
+    {
+      "key": "fprt_hood06_clone"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Edalene Spiritrunner",
+      "name_sortable": "edalenespiritrunner",
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Skeld Brewbeard",
+      "name_sortable": "skeldbrewbeard",
+      "utterances": [
+        "Hello, friend!  I'm here to teach interested people a little bit about how to harvest crafting materials, and how to craft tradeskilled items.  Are you interested?"
+      ]
+    },
+    {
+      "name": "Taubius Nyeus",
+      "name_sortable": "taubiusnyeus",
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Wholesaler Kiora Shiverstone",
+      "name_sortable": "wholesalerkiorashiverstone",
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "You show interest in the crafting trade, good.  Freeport can always use talented artisans within the walls of our great city.  I can help you get started and offer you some of the basic recipes at no charge.  Would you be interested?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Great Divide",
+  "name_sortable": "greatdivide",
+  "region": "Velious",
+  "description": "Venture through the frozen wastes of the Great Divide, home of the Coldain dwarves, Kromrif giants, and the mighty Tizmak!",
+  "zonerect": "-2960.00,-1316.00,1745.00,2132.00",
+  "levels": "87-93",
+  "connections": [
+    {
+      "key": "exp07_rgn_thurgadin_velious"
+    },
+    {
+      "key": "exp07_rgn_eastern_wastes"
+    },
+    {
+      "key": "exp07_dun_tower_of_frozen_shadow"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Fenwick",
+      "name_sortable": "fenwick",
+      "locations": [
+        "1292.8,-540.25,473.58"
+      ],
+      "utterances": [
+        "Ahoy thar!"
+      ]
+    },
+    {
+      "name": "Momo",
+      "name_sortable": "momo",
+      "locations": [
+        "1335.26,-540.25,494.35"
+      ],
+      "utterances": [
+        "Hello hello, my friend!  Come, come see what Momo has to offer!  I have many things - MANY THINGS - to help you be stronger!  Momo has trinkets, and jewelry, and curios from all over the Great Divide and Eastern Wastes!"
+      ]
+    },
+    {
+      "name": "Stomper",
+      "name_sortable": "stomper",
+      "locations": [
+        "1337.84,-540.25,492.25"
+      ]
+    }
+  ]
+}

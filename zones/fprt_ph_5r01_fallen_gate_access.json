@@ -1,0 +1,218 @@
+{
+  "name": "the Thexian Meeting",
+  "name_sortable": "thexianmeeting",
+  "region": "D'Lere",
+  "levels": "13",
+  "access_quests": [
+    4271476089
+  ],
+  "npcs": [
+    {
+      "name": "a conjured fire elemental",
+      "name_sortable": "conjuredfireelemental",
+      "locations": [
+        "18.76,-5.5,2.95"
+      ]
+    },
+    {
+      "name": "a dark Thexian ritualist",
+      "name_sortable": "darkthexianritualist",
+      "locations": [
+        "20.88,-5.5,6.81"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Inana's honor guardian",
+      "name_sortable": "inanashonorguardian",
+      "locations": [
+        "19.79,12.51,3.67",
+        "19.9,12.51,-2.1"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Inana V'Sorn",
+      "name_sortable": "inanavsorn",
+      "locations": [
+        "22.41,12.51,0.92"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 18,
+      "drop_coin_max": 18
+    },
+    {
+      "name": "Kanos X'aphon",
+      "name_sortable": "kanosxaphon",
+      "utterances": [
+        "You mean nothing to me, whelp. I seek one with ability enough to do my bidding.  Now, back out the door whence you came with your tail between your legs before I disembowel you and leave your entrails for the vermin infesting this filthy human city.",
+        "Well done! You served me well. I'll have more work for you in the future. In the meantime, go far from here.  I will clean up this mess and make certain that no one hears of what transpired today ... so long as you continue to do my bidding, of course."
+      ]
+    },
+    {
+      "name": "a Thexian evoker",
+      "name_sortable": "thexianevoker",
+      "locations": [
+        "21.15,-5.5,-1.46"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1136651119 1578780024:intricately carved acorn\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Thexian grand inquisitor",
+      "name_sortable": "thexiangrandinquisitor",
+      "locations": [
+        "13.38,-5.5,1.94"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Thexian guard",
+      "name_sortable": "thexianguard",
+      "locations": [
+        "9.31,-1.0,-1.37",
+        "10.45,-0.5,5.08",
+        "3.78,-0.5,4.72",
+        "27.32,-0.5,5.85",
+        "14.73,6.0,-9.88",
+        "20.03,6.0,-2.19"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 31,
+      "drop_coin_max": 31
+    },
+    {
+      "name": "a Thexian honor guard",
+      "name_sortable": "thexianhonorguard",
+      "locations": [
+        "-1.63,12.5,3.43",
+        "5.62,12.5,3.22",
+        "11.65,-5.5,-9.22"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1627573543 -1966055113:bride's promise\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 29,
+      "drop_coin_max": 29
+    },
+    {
+      "name": "a Thexian inquisitor",
+      "name_sortable": "thexianinquisitor",
+      "locations": [
+        "22.49,-0.5,0.99"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 21,
+      "drop_coin_max": 21
+    },
+    {
+      "name": "Tyvalis V'Sorn",
+      "name_sortable": "tyvalisvsorn",
+      "locations": [
+        "19.48,-5.5,-7.32",
+        "14.10,-5.50,-10.16"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 37,
+      "drop_coin_max": 37
+    }
+  ]
+}

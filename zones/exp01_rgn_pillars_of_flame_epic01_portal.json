@@ -1,0 +1,21 @@
+{
+  "name": "Portal to the Past: Southern Desert of Ro",
+  "name_sortable": "portaltothepastsoutherndesertofro",
+  "region": "Desert of Ro",
+  "zonerect": "-73.00,-10.00,108.00,200.00",
+  "levels": "75",
+  "connections": [
+    {
+      "key": "live_chronoportal_hub"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a desert madman",
+      "name_sortable": "desertmadman",
+      "utterances": [
+        "Hahaha! It's my lucky day!"
+      ]
+    }
+  ]
+}

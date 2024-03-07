@@ -1,0 +1,615 @@
+{
+  "name": "Greater Faydark",
+  "name_sortable": "greaterfaydark",
+  "region": "Faydwer",
+  "description": "The greatest living forest on Norrath is home to the city of Kelethin, ancestral home of the wood elves and home of the fae.",
+  "zonerect": "-908.35,-920.20,1552.50,926.59",
+  "levels": "1-20",
+  "connections": [
+    {
+      "key": "exp03_rgn_butcherblock"
+    },
+    {
+      "key": "exp03_rgn_loping_plains"
+    },
+    {
+      "key": "exp03_rgn_steamfont"
+    },
+    {
+      "key": "exp03_dun_felwithe"
+    },
+    {
+      "key": "exp03_dun_crushbone_keep"
+    },
+    {
+      "key": "exp03_rgn_lesser_faydark"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Aimee",
+      "name_sortable": "aimee",
+      "locations": [
+        "238.63,112.3,397.11"
+      ],
+      "utterances": [
+        "Ratongas should never have come outs from the Underfoots, is too depressing out heres",
+        "I's so depressed ... even cheese doesn't helps!",
+        "I thinks maybe I dyes my whiskers blacks...",
+        "Maybes I dyes my fur black..."
+      ]
+    },
+    {
+      "name": "Ambassador Gibrien Marsden",
+      "name_sortable": "ambassadorgibrienmarsden",
+      "locations": [
+        "457.05,88.99,229.29"
+      ],
+      "utterances": [
+        "Interested in moving to Kelethin?",
+        "What would you like more information about?",
+        "Are you now? There are a couple of administrative tasks we need to take care of before you can get started.  First off, where are you currently considered a citizen?  Or are you currently in exile?",
+        "Your city and ours are are respectful of each other's sovereignty, but also realize that all citizens sometimes wish to experience a different way of life.  Your transition will change things for you, but the way is not so difficult.",
+        "The first thing Queen Amree requests is that you familiarize yourself with the community before you make any commitments that you cannot reverse.  Please speak with Nimess Sessi, a courtier in the Royal Court.  He only speaks Faerlie, so before you speak with him, if you haven't done so already Miella Maarsitotts will teach you."
+      ]
+    },
+    {
+      "name": "Barbfin",
+      "name_sortable": "barbfin",
+      "locations": [
+        "-421.8,-72.05,-774.23"
+      ]
+    },
+    {
+      "name": "Breezebloom",
+      "name_sortable": "breezebloom",
+      "locations": [
+        "-131.11,-45.59,-810.9"
+      ],
+      "utterances": [
+        "One fae's trash is another fae's treasure, that's what I always say!",
+        "My job is to meet the equipment needs of the newly awakened fae."
+      ]
+    },
+    {
+      "name": "a clawsnap",
+      "name_sortable": "clawsnap",
+      "locations": [
+        "-245.22,-63.25,-713.99",
+        "-314.24,-58.47,-813.53",
+        "-370.65,-66.62,-864.72",
+        "-380.79,-68.1,-646.53",
+        "-391.11,-67.7,-649.05",
+        "-499.57,-64.93,-656.79",
+        "-502.32,-64.75,-662.04",
+        "-529.22,-66.36,-711.37",
+        "-573.49,-67.55,-695.01"
+      ]
+    },
+    {
+      "name": "Derek Travllor",
+      "name_sortable": "derektravllor",
+      "locations": [
+        "458.9,88.99,229.05"
+      ],
+      "utterances": [
+        "This is such a lovely city."
+      ]
+    },
+    {
+      "name": "Dissigna Razehl",
+      "name_sortable": "dissignarazehl",
+      "locations": [
+        "-347.59,-60.67,-843.88"
+      ],
+      "utterances": [
+        "Not even I can resist the draw of the ocean during this lively celebration."
+      ]
+    },
+    {
+      "name": "Elaana Wingleaf",
+      "name_sortable": "elaanawingleaf",
+      "utterances": [
+        "It seems that things have changed everywhere in Norrath."
+      ]
+    },
+    {
+      "name": "a fallen Tuwasp forager",
+      "name_sortable": "fallentuwaspforager",
+      "locations": [
+        "-201.71,-44.35,-767.25"
+      ]
+    },
+    {
+      "name": "Flip Frostwing",
+      "name_sortable": "flipfrostwing",
+      "locations": [
+        "226.24,112.3,395.42"
+      ],
+      "utterances": [
+        "Hi there! If you want to visit the Frostfell Wonderland Village just hop on into the closet of wonder. Have a Happy Frostfell!"
+      ]
+    },
+    {
+      "name": "Glitterpuff",
+      "name_sortable": "glitterpuff",
+      "locations": [
+        "-122.92,-45.22,-812"
+      ],
+      "utterances": [
+        "Welcome to the Spirit Bloom Nursery branch of the Kelethin First Regional Bank!",
+        "Don't carry around all that extra weight!  Let us hold it for you!"
+      ]
+    },
+    {
+      "name": "a grobin polluter",
+      "name_sortable": "grobinpolluter",
+      "locations": [
+        "-29.82,-50.35,-673.14",
+        "-21.61,-50.26,-669.94",
+        "-43.44,-50.42,-659.13",
+        "-42.21,-50.83,-667.6",
+        "-37.62,-50.38,-647.12",
+        "-30.7,-51.18,-636.43",
+        "-21.24,-51.07,-633.12"
+      ]
+    },
+    {
+      "name": "a grobin scout",
+      "name_sortable": "grobinscout",
+      "locations": [
+        "-43.84,-47.41,-684.28",
+        "-35.7,-49.42,-677.54",
+        "-50.91,-47.68,-674.17",
+        "-26.13,-50.6,-624.87",
+        "-35.08,-51.54,-610.96",
+        "-53.5,-50.84,-608.24",
+        "-66.8,-54.06,-620.32",
+        "-74.22,-51.21,-599.92",
+        "-88.95,-49.47,-625.95"
+      ]
+    },
+    {
+      "name": "Grull Silverstump",
+      "name_sortable": "grullsilverstump",
+      "locations": [
+        "-119.24,-45.65,-805.29"
+      ],
+      "utterances": [
+        "At peace or at war, my work must go on.",
+        "Greetings!  I noticed you harvesting out there.  Are you interested in trying your hand at making something out of them?"
+      ]
+    },
+    {
+      "name": "a hostile Tuwasp forager",
+      "name_sortable": "hostiletuwaspforager",
+      "locations": [
+        "-195.93,-44.5,-765.81",
+        "-145.86,-48.6,-726.92"
+      ]
+    },
+    {
+      "name": "Innkeeper Twiggy",
+      "name_sortable": "innkeepertwiggy",
+      "utterances": [
+        "All this running around is likely to whittle me away to nothing!"
+      ]
+    },
+    {
+      "name": "Kippy",
+      "name_sortable": "kippy",
+      "locations": [
+        "-370.06,-69.14,-805.23"
+      ],
+      "utterances": [
+        "<player name>, thank the Ocean Lord you've come!",
+        "A group of ulthork followed us here, and have been attacking celebrators and destroying our shrines to Prexus!",
+        "They are, but sadly a commonality like one's creator is not enough for some to set aside spear and net, and too often it has been used as a rationale to take up arms.",
+        "It is why you must put a stop to it. Go, defeat their attack force, I beg you.",
+        "You did it, <player name>! You drove the ulthork back to the sea!",
+        "It does this othmir good to see such bravery in Norrath. Don't let the evils of this world corrupt that spark within you."
+      ]
+    },
+    {
+      "name": "a line breaker",
+      "name_sortable": "linebreaker",
+      "locations": [
+        "-439.87,-72.05,-755.65"
+      ]
+    },
+    {
+      "name": "Matron of the Nursery",
+      "name_sortable": "matronofthenursery",
+      "locations": [
+        "-121.67,-43.94,-791.03"
+      ],
+      "utterances": [
+        "Please!  We need your help!",
+        "I am so pleased that you answered my summons.  Look at what has become of the Nursery!  These shrumblers appeared suddenly, and have been devouring the roots of our precious flowers!  The flowers could all wither and perish!",
+        "Look around the bases of the flowers here in the Nursery.  Destroy any of the shrumbler hatchlings you find!",
+        "Ah, wonderful!  We will need to begin healing the flowers as soon as possible, then.  I'm glad you returned quickly, for I have terrible news!",
+        "I'm hearing that the flowers themselves are more damaged than I had imagined.  We need to make a mulch to help protect and heal the flowers before it's too late!  Even with the shrumblers taken care of, the flowers could still die and the unborn fae with them!",
+        "An herb named faeicia grows here in the Nursery.  When used as mulch, this herb's nutrients can repair injured flowers.  Please, find several sprigs of faeicia and bring them to me!",
+        "Ah!  These faeicia plants are exactly what I needed!  You have done wonderfully, <player name>, and have helped save the lives of many unborn fae.  However, there is still much to be done.",
+        "Sentry Talvee's report contained some troubling news.  Apparently, a swarm of bixies has constructed a hive near the spirit blooms, and this does not bode well for our unborn fae.",
+        "Follow the path south.  Sentry Talvee is stationed near the fork in the road.  Good luck, <player name>.  I will not forget what you've done for the Nursery.",
+        "Thank you again for all your help!"
+      ]
+    },
+    {
+      "name": "Missantra the Stylist",
+      "name_sortable": "missantrathestylist",
+      "utterances": [
+        "Change is good! You should get one!"
+      ]
+    },
+    {
+      "name": "a needle tooth",
+      "name_sortable": "needletooth",
+      "locations": [
+        "-468.08,-72.03,-742.47"
+      ]
+    },
+    {
+      "name": "a nursery defender",
+      "name_sortable": "nurserydefender",
+      "locations": [
+        "-195.7,-44.44,-767.29",
+        "-145.87,-48.53,-728.48"
+      ]
+    },
+    {
+      "name": "an Oceansfull celebrator",
+      "name_sortable": "oceansfullcelebrator",
+      "locations": [
+        "-367.31,-66.94,-825.86"
+      ],
+      "utterances": [
+        "Swim with the currents and you'll go further, but swim against them and you'll get stronger.",
+        "Join the celebration!",
+        "Search the waters nearby for evidence of Prexus' generosity.",
+        "Give thanks to Prexus for all he provides, above and beneath the waves!"
+      ]
+    },
+    {
+      "name": "an ocean terror",
+      "name_sortable": "oceanterror",
+      "locations": [
+        "-449.41,-72.03,-749.26",
+        "-427.06,-72.04,-764.22"
+      ]
+    },
+    {
+      "name": "a sand sifter",
+      "name_sortable": "sandsifter",
+      "locations": [
+        "-333.02,-59.81,-832.5",
+        "-342.36,-60.77,-832.82",
+        "-378.47,-68.26,-830.52",
+        "-373.4,-67.36,-872.95",
+        "-374.67,-67.45,-879.61",
+        "-397.24,-66.6,-635.17",
+        "-426.33,-69.63,-686.26",
+        "-511.41,-66.29,-681.77",
+        "-555.51,-69.21,-719.56"
+      ]
+    },
+    {
+      "name": "Sentry Talvee",
+      "name_sortable": "sentrytalvee",
+      "utterances": [
+        "I hope you were sent by the Matron.  We have no time to lose in fending off the bixies!",
+        "I'm so glad you've come.  A bixie colony has constructed a new hive near here, and they are stealing the spirit blooms from the Nursery!  We need to do all we can to try to save the unborn fae!",
+        "Well, first we need to stop them before they abscond with all of the spirit blooms.  The Tuwasp foragers are the ones behind the thefts.  The fewer foragers there are, the fewer blooms the Tuwasp can steal.",
+        "Ah, you have returned!  Were you able to fight off the Tuwasp foragers?",
+        "Ha ha!  Take that, you thieving saps!  That will help protect the spirit blooms still in the Nursery, but we need to recover the ones that have been stolen!",
+        "It's a safe bet that they're planning to offer the spirit blooms as food to their queen.  Therefore, the blooms can probably be found near the Tuwasp hive.  We need to get them back, and quickly, before they are consumed!",
+        "I hope you found the spirit blooms!  I don't want them showing up in the dining hall for their queen!",
+        "And not a moment too soon, <player name>.  We need to replant these quickly, or they could perish.  I'll send for someone to pick them up.",
+        "We need to clear the Tuwasp out and make sure they know they're not welcome here.  Invading our Nursery and stealing our blooms!  How dare they!?",
+        "I have a vial of Tunare's Breath.  If you open it near the hive, the vial should release a cloud of thick smoke that will choke out the Tuwasp bixies and force them to abandon their plans to establish a hive here.  The trick is getting close enough to their hive to use it.",
+        "Did I see smoke near the hive?  What happened?",
+        "That will show them not to mess with the fae!  I'm so glad we have brave people like you to help us protect the Nursery from pilferers like the Tuwasp!  But the question remains:  why did the bixies come here?",
+        "One of my fellow Sentries, Trillis, sent me a report that said he saw a Tuwasp conversing with a grobin not too far from here.  I think there might be an even bigger threat behind the scenes.  Can you imagine what would happen if the grobins and the bixies were working together against us?",
+        "Follow the road to the west, and you won't be able to miss him.  Sentry Trillis is at the base of a scouting post that's positioned high on one of the trees, which overlooks the Amethyst Pond.  Best of luck to you.  I hope the two of you can figure this mystery out!"
+      ]
+    },
+    {
+      "name": "a shrumbler",
+      "name_sortable": "shrumbler",
+      "locations": [
+        "-22.25,-52.4,-664.93"
+      ]
+    },
+    {
+      "name": "a shrumbler hatchling",
+      "name_sortable": "shrumblerhatchling",
+      "locations": [
+        "-156.57,-43.72,-800.55",
+        "-160.36,-43.94,-792.06",
+        "-167.65,-44.54,-772.85",
+        "-169.86,-44.69,-765.7",
+        "-175.54,-44.98,-780.12",
+        "-182.77,-44.78,-798.59",
+        "-92.63,-36.99,-790.49",
+        "-89.68,-36.2,-799.6",
+        "-83.88,-34.69,-786.6",
+        "-48.21,-41.51,-807.85",
+        "-42.22,-40.64,-811.38",
+        "-39.05,-39.97,-827.63",
+        "-52.23,-39.78,-823.81",
+        "-88.75,-36.24,-831.42",
+        "-81.77,-34.65,-820.42",
+        "-79.8,-34.65,-805.95",
+        "-92.89,-37.21,-805.94"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 880384696 448792397:fragmented stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a stranded pirate",
+      "name_sortable": "strandedpirate",
+      "locations": [
+        "-502.2,-64.93,-649.86",
+        "-510.65,-66.21,-648.25",
+        "-514.84,-66.02,-654.78"
+      ]
+    },
+    {
+      "name": "Trainer Eivarra Laceleaf",
+      "name_sortable": "trainereivarralaceleaf",
+      "locations": [
+        "-144.45,-43.73,-802.02",
+        "-154.34,-43.63,-804.08"
+      ],
+      "utterances": [
+        "I'm hurrying!  Don't rush me.",
+        "Don't be shy! Come closer, m'dear, and I'd be happy to answer any questions you have about collections or harvesting!",
+        "Collectibles are seen as a glow rising from the ground. If you're close enough, you'll notice a question mark above it. Double-click or right-click the glow and select \"harvest.\" The item you gather will go into your inventory. You can examine this item in your inventory.",
+        "Your quest journal will open up automatically to the Collections tab. Use the Add button to add that item to a collection. As you travel through Norrath, you'll find different collectibles in different areas of the world. Some items can be part of more than one collection.",
+        "Continue to gather and examine all the items you find until all the icons of that collection are highlighted in your quest journal. Then you'll be able to turn the completed collection in to a collector who will reward you with some experience. If you already have a collectible in all collections that call for it, you can sell it to a merchant or trade it to another player.",
+        "Harvestables come in five forms, each tied to its own respective skill. These skills can be seen by opening your character window by pressing the C key, clicking on the Skills tab and selecting your General skills. Rocks increase mining, logs increase foresting, dens increase trapping, fish increase fishing, and plants increase gathering.",
+        "The items found through harvesting are the basic building blocks of tradeskills.  They cannot be sold to vendors, but they can be traded or sold to other players who need them for their respective tradeskill professions.  Some components that can be found through harvesting are very rare and can be worth quite a bit of money to tradeskillers.",
+        "The skill required to harvest in a given area increases along with the difficulty of the area.  If you find that you are unable to harvest in an area you should return to a less difficult area and practice.",
+        "Excellent work learning about harvesting!  As a reward, allow me to offer you this box for storing harvested items.  It's quite heavy, so I suggest you put it in your bank rather than carrying it, but it has plenty of storage room for harvests."
+      ]
+    },
+    {
+      "name": "Trainer Kaali Saarinen",
+      "name_sortable": "trainerkaalisaarinen",
+      "locations": [
+        "-118.84,-45.65,-810.28"
+      ],
+      "utterances": [
+        "I can tell you all about mending and banking! Banking and mending! Which do you want to hear about?"
+      ]
+    },
+    {
+      "name": "Trainer Leianna Teiampa",
+      "name_sortable": "trainerleiannateiampa",
+      "locations": [
+        "-111.97,-43.89,-800.38"
+      ],
+      "utterances": [
+        "Even the bravest defender of Queen Amree will meet an untimely end on occasion. Let me teach you the consequences of death and how you can recover properly.",
+        "Death can come in many ways: being bested on the field of battle, falling from great heights, drowning in water, falling into lava, standing too close to an exploding chest, and so on.  It's a dangerous world out there.",
+        "Just keep an eye on your health bar, the green line located beneath your name in the upper left of your screen. At least...you hope it's green.",
+        "Green means you're healthy. As your health diminishes, the bar turns yellow, then orange, and finally red. If the bar is empty, you die. You pay the debt, which cancels all others, if you get my meaning.",
+        "Your spirit lays trapped in your fallen body, unable to move. At this point, you have a choice: wait for a nearby ally to revive you, or choose a location from the window in the center of your screen at which to reappear. In some cases you'll have a single choice, in others multiple choices.",
+        "Fortunately for all of us, death in Norrath is a temporary thing. If another adventurer revives you, you reappear at the spot of your death. If you choose a location to revive, you will appear at that spot. There are consequences to death, however.",
+        "There are three results of death. First, you incur some experience debt which can be paid off by earning more XP (experience points). Second, you suffer a revive sickness that lowers your abilities for a short time, which leaves you temporarily vulnerable and less effective. Finally, all your equipped items take damage that will eventually have to be repaired.",
+        "Experience debt is indicated by a red line on your XP bar. As you earn experience going forward, part of your XP will go toward paying off your debt while the rest will continue to advance you toward your next level. Mousing over your XP bar also tells how much debt you have.",
+        "You'll see an icon for revive sickness in your spell effects window. Mousing over the icon will tell you how long it will remain. The type of sickness you have depends on how you were revived, but no matter what there will be a negative effect. Don't worry, it passes soon enough.",
+        "Your equipped items usually take about 10% wear with each death. When they are down to zero durability, you no longer receive any benefit from them. Don't let your equipment ever get into such poor condition, <player name>!",
+        "You will need to see a mender, someone who is able to repair your items back to 100% durability. Speak to Trainer Kaali to learn more about repairing your gear. Should your equipment take damage, Mender Kaarlo at Gearheart's Forge in Kelethin can repair things for you."
+      ]
+    },
+    {
+      "name": "Trainer Tahvolo Viljaan",
+      "name_sortable": "trainertahvoloviljaan",
+      "locations": [
+        "-114.95,-43.89,-796.63"
+      ],
+      "utterances": [
+        "Welcome, adventurer! I sense that you will fight many battles and that you will one day be known as a great hero of Kelethin. But remember, we all have to start somewhere. The first thing you need to know to be successful in combat is how to size up your adversary.",
+        "You must learn to use both your eyes and your instincts as you consider friends and foes alike in Norrath. There are two excellent tools you should use to judge their capabilities: what you can tell from their name and what you can learn by targeting them.",
+        "If something has a red border around its name, that target is aggressive toward you and will attack if you get too close to it. You should be especially careful of creatures that roam around, because if they notice you they won't hesitate to strike.",
+        "All you need to do is move your mouse pointer over what you want to target and click. You will see the name of your opponent in the Target window in the upper left corner of the screen, and a large arrow will appear above its head. If arrows also appear above the heads of nearby creatures, it means all of them are linked together and will attack as one.",
+        "Sometimes multiple creatures will work together to form a single encounter. These opponents will act as a team, and usually won't stop fighting until all of them are defeated.",
+        "The Target window tells you several important facts, which collectively form what is referred to as the \"con\" (overall challenge) of the opponent. It shows you the numerical level of the creature you have targeted, a color to indicate its relative level range, up or down arrows to indicate toughness, and indicators that tell you if the encounter is normal, heroic, or epic.",
+        "As you adventure through Norrath, you will gain experience and increase your level. The opponents you will face in combat have levels as well. To be victorious, you will usually want to face foes that are close to your level.",
+        "You gain more experience by defeating higher-level opponents, but they will also be tougher to beat. Conversely, if you defeat foes much lower than your level, they will not be nearly as rewarding.",
+        "The color of your opponent's name indicates how challenging the encounter is. It is very useful as a quick indicator of whether or not you should be fighting a target. The more danger its color indicates, the greater the threat it represents.",
+        "Grey names mean the fight is below your abilities and will give no experience or reward. Green names mean the opponent is very easy. Blue names mean an easy fight. White names indicate the opponent is even with your abilities. Yellow names mean the fight will be challenging. Orange names indicate a difficult encounter. Red names mean the battle could be deadly.",
+        "Targets with grey names will not attack you, even if they would be aggressive to someone closer to their level. In other words, you won't be attacked by anything that won't give you some reward for defeating it.",
+        "No arrow by the target's name indicates an average opponent for a lone adventurer. A single down arrow means it is a below average opponent. Two down arrows tell you it's a weak opponent, and three down arrows means it is very weak. Be careful though, because if multiple weak opponents are working together they can still represent quite a challenge.",
+        "Up arrows indicate increased difficulty. A single up arrow means an above average opponent. Two up arrows show a strong opponent, while three up arrows means a very tough fight. If you look at the sparring partners next to us, you will see that they have different arrow indicators. Feel free to practice fighting them to feel what effect the arrows have.",
+        "As a general rule of thumb, if you see an enemy with one up arrow, it's a good idea to team up with another player to take it on. If you see an enemy with two up arrows, add two members to your group. If you see an opponent with three up arrows, add three members to your group. A lone adventurer will likely want to face targets with no arrows or down arrows.",
+        "A normal opponent has no indicator and is intended to be fought by a solo adventurer or small group. A heroic encounter is intended for a larger group of up to six adventurers. An epic opponent should only be attempted by a raid force of multiple groups working together.",
+        "All the elements I've explained will affect the outcome of a battle and whether or not you will need allies to win. Pay close attention to the lessons I have taught you, and apply them to challenges you face throughout your journeys in Norrath. Learn well and you will indeed become the great champion I know you can be!"
+      ]
+    },
+    {
+      "name": "a Tuwasp forager",
+      "name_sortable": "tuwaspforager",
+      "locations": [
+        "-136.16,-53.66,-617.4",
+        "-131.05,-54.2,-607.32",
+        "-174.89,-55.52,-684.73"
+      ],
+      "utterances": [
+        "If we devour the blooms, the fae will surely leave.",
+        "The souls of the unborn fae will make sweet nectar.",
+        "The young of the fae will become a feast for our queen."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1961261609 -872122557:a sharp spine\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1483381617 -2005256287:Cloth Shirt\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Tuwasp soldier",
+      "name_sortable": "tuwaspsoldier",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 53909830 -951854558:a bixie wing\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1961261609 -872122557:a sharp spine\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -560957052 -243324246:Cloth Cuffs\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -315033494 817341629:a bixie stinger\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Tuwasp worker",
+      "name_sortable": "tuwaspworker",
+      "utterances": [
+        "AHHHHHHHH!",
+        "What is this smoke?  I can't breathe!",
+        "*cough* *cough* I'm getting out of here!"
+      ]
+    },
+    {
+      "name": "an ulthork attacker",
+      "name_sortable": "ulthorkattacker",
+      "locations": [
+        "-376.38,-68.89,-672.21",
+        "-368.21,-66.68,-656.69",
+        "-421.19,-66.19,-648.67",
+        "-450.37,-66.27,-674.32",
+        "-529.68,-69.96,-727.16",
+        "-544.27,-67.95,-718.11",
+        "-576.57,-67.87,-691.8"
+      ]
+    },
+    {
+      "name": "Venla Vaara",
+      "name_sortable": "venlavaara",
+      "utterances": [
+        "Hello there!  If you have any collections that you've completed, I can take them off your hands and reward you for your time.  I love collecting things!",
+        "This is a magnificent find! Here, take this for all your hard work."
+      ]
+    },
+    {
+      "name": "a water thrasher",
+      "name_sortable": "waterthrasher",
+      "locations": [
+        "-475.32,-72.05,-737.63"
+      ]
+    },
+    {
+      "name": "Yellowjacket",
+      "name_sortable": "yellowjacket",
+      "locations": [
+        "-155.84,-49.46,-584.63"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1961261609 -872122557:a sharp spine\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1627905743 89469979:Almond Snowdrops\\/a",
+      "locations": [
+        "339.88,109.04,159.80",
+        "201.90,111.49,145.45"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -2007108236 -1909336206:bloody Fae bone\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1992107427 259467993:Chocolate Peppermint Drops\\/a",
+      "locations": [
+        "234.83,112.30,402.13"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1838089029 -693193968:click beetle\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1043760057 877568113:Dark Goat Horn\\/a",
+      "locations": [
+        "323.16,109.04,129.06",
+        "290.68,109.04,107.90"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1608856916 -2117962698:pristine kobold bone\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -545307336 1925195397:stag beetle\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the crumbled stones",
+      "name_sortable": "crumbledstones",
+      "locations": [
+        "-126.99,-43.94,-788.32",
+        "-134.19,-41.06,-836.87"
+      ]
+    },
+    {
+      "name": "the exposed ore",
+      "name_sortable": "exposedore",
+      "locations": [
+        "-135.48,-41.25,-836.41"
+      ]
+    },
+    {
+      "name": "the fallen branch",
+      "name_sortable": "fallenbranch",
+      "locations": [
+        "-145.24,-43.68,-811.02",
+        "-159.47,-43.65,-816.94"
+      ]
+    },
+    {
+      "name": "the natural garden",
+      "name_sortable": "naturalgarden",
+      "locations": [
+        "-141.33,-43.83,-819.92",
+        "-111.69,-43.94,-821.74"
+      ]
+    },
+    {
+      "name": "the rodent den",
+      "name_sortable": "rodentden",
+      "locations": [
+        "-42.34,-40.68,-812.8"
+      ]
+    }
+  ]
+}

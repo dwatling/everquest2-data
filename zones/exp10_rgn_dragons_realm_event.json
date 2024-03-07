@@ -1,0 +1,62 @@
+{
+  "name": "A Memory of Vesspyr Isles",
+  "name_sortable": "memoryofvesspyrisles",
+  "region": "",
+  "connections": [
+    {
+      "key": "freeport_combined"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a draconic soullight",
+      "name_sortable": "draconicsoullight",
+      "locations": [
+        "697.63,374.00,164.00",
+        "653.00,372.00,238.00"
+      ]
+    },
+    {
+      "name": "a Vesspyr drakota",
+      "name_sortable": "vesspyrdrakota",
+      "locations": [
+        "667.42,365.68,113.57",
+        "633.44,363.20,121.45",
+        "716.75,363.49,124.23",
+        "692.54,365.20,216.28"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1592134338 -1258667707:a drakota eye\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Vesspyr sentinel",
+      "name_sortable": "vesspyrsentinel",
+      "locations": [
+        "696.64,354.46,41.70"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1956828486 234429739:a golem animating force\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Vesspyr wyvern",
+      "name_sortable": "vesspyrwyvern",
+      "locations": [
+        "660.96,373.70,172.04"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -13961965 654133425:brilliant wyvern wing\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ]
+}

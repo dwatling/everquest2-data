@@ -1,0 +1,415 @@
+{
+  "name": "The Serpent Sewer",
+  "name_sortable": "serpentsewer",
+  "region": "D'Lere",
+  "zonerect": "-20.00,-200.00,290.00,164.00",
+  "levels": "15-20",
+  "connections": [
+    {
+      "key": "fprt_sewer01"
+    },
+    {
+      "key": "fprt_sewer03"
+    },
+    {
+      "key": "fprt_sewer_epic03_quest_serpentsewer_epic"
+    },
+    {
+      "key": "fprt_adv03_sprawl"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "an Ancient Dasher",
+      "name_sortable": "ancientdasher",
+      "level": 20,
+      "locations": [
+        "-271,0,140"
+      ]
+    },
+    {
+      "name": "Bilzik Fuzzlethorp",
+      "name_sortable": "bilzikfuzzlethorp",
+      "level": 20,
+      "locations": [
+        "-1,1,-139"
+      ]
+    },
+    {
+      "name": "Cicero Puer",
+      "name_sortable": "ciceropuer",
+      "locations": [
+        "-202,0,149"
+      ],
+      "utterances": [
+        "Say, I've never seen you down here before.  Perhaps you would help me?  Yes, yes?",
+        "Yes, yes indeed!  I need a disguise.  Don't ask why; I won't tell, but I need the clothes the Murkwaters wear.  You will help me, yes, yes?  I will pay you good, yes!",
+        "Excellent!  Hurry now, there isn't much time!  The Murkwaters are down in the Serpent Sewers. I can smell them."
+      ]
+    },
+    {
+      "name": "a crazed channel mender",
+      "name_sortable": "crazedchannelmender",
+      "level": 19,
+      "locations": [
+        "-25,1,-75",
+        "-37.27,0.74,-49.82"
+      ],
+      "utterances": [
+        "Looks like it's time to move on!",
+        "What now? More distractions? Great!",
+        "Somebody find a way to get us out of here!",
+        "They're after us. We must kill them!",
+        "They'll kill us all!",
+        "I don't have time for this nonsense!",
+        "Back up before we all die!",
+        "However you got in here, you'll never leave alive!",
+        "You'll never steal my experiment!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 610874452 1997196792:Boon of the Damned (Adept)\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 21,
+      "drop_coin_max": 34
+    },
+    {
+      "name": "a crazed mender",
+      "name_sortable": "crazedmender",
+      "level": 20,
+      "difficulty": "heroic",
+      "locations": [
+        "-13,0,65"
+      ]
+    },
+    {
+      "name": "Crazy Peepers",
+      "name_sortable": "crazypeepers",
+      "level": 20,
+      "difficulty": "heroic",
+      "locations": [
+        "-13,0,65"
+      ]
+    },
+    {
+      "name": "a drudge globule",
+      "name_sortable": "drudgeglobule",
+      "level": 20,
+      "locations": [
+        "-117,0,-123",
+        "-145.33,0.33,-128.09",
+        "-106.43,-0.30,-124.67",
+        "-84.54,1.34,-119.03"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1365385384 1432105181:an accumulation of plasma\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1505689836 610626589:Advanced Woodworker Volume 20\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2005032882 -984577434:iron chainmail bracers\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a filthy moccasin",
+      "name_sortable": "filthymoccasin",
+      "level": 16,
+      "locations": [
+        "-213,0,-111"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1400309371 -844719488:Cleave Flesh (Adept)\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a fragmented globule",
+      "name_sortable": "fragmentedglobule",
+      "level": 19,
+      "locations": [
+        "-118,-1,-132"
+      ]
+    },
+    {
+      "name": "Gurtha Tings",
+      "name_sortable": "gurthatings",
+      "locations": [
+        "-104,0,7"
+      ],
+      "utterances": [
+        "Hello there! Find any good things down here?  Gurtha is buying."
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Hired Guard Gazzuk",
+      "name_sortable": "hiredguardgazzuk",
+      "level": 30,
+      "locations": [
+        "-98,0,12"
+      ]
+    },
+    {
+      "name": "an immature sludgewater",
+      "name_sortable": "immaturesludgewater",
+      "level": 16,
+      "drops": [
+        {
+          "gamelink": "\\aITEM -392376538 -274558298:pet report\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Kerik Lorn",
+      "name_sortable": "keriklorn",
+      "locations": [
+        "-113,0,17"
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "Marcus Puer",
+      "name_sortable": "marcuspuer",
+      "locations": [
+        "-37,0,-7"
+      ],
+      "utterances": [
+        "Just who I was looking for!  Come here, come here!",
+        "It's difficult enough trying to do my work down here.  Must you bother me as well?",
+        "So you survived an encounter with that serpent, eh?",
+        "Ah, isn't that a beauty.  I bet I could fashion that into a nasty poker with the right materials.  I'd be willing to do that for you since you helped me out earlier.  I  just need a few things found in the area.",
+        "All right, here is a list of things to collect.  You can find all of them down here in the Serpent Sewer.  Come back to me when you have all the materials.",
+        "I just can't complete my studies unless you return with the key materials."
+      ]
+    },
+    {
+      "name": "a measly filthy moccasin",
+      "name_sortable": "measlyfilthymoccasin",
+      "level": 16,
+      "drops": [
+        {
+          "gamelink": "\\aITEM 795592345 -735735222:iron lance\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1225141396 1027670627:Advanced Scholar Volume 15\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a Murkwater abettor",
+      "name_sortable": "murkwaterabettor",
+      "level": 21,
+      "locations": [
+        "-224,0,-9"
+      ]
+    },
+    {
+      "name": "a Murkwater induct",
+      "name_sortable": "murkwaterinduct",
+      "level": 21,
+      "locations": [
+        "-268,0,-7"
+      ]
+    },
+    {
+      "name": "a Murkwater steward",
+      "name_sortable": "murkwatersteward",
+      "level": 20,
+      "locations": [
+        "-250,1,-12"
+      ]
+    },
+    {
+      "name": "The Murkwater Villain",
+      "name_sortable": "murkwatervillain",
+      "level": 21,
+      "locations": [
+        "-236,1,2"
+      ]
+    },
+    {
+      "name": "a pestilent ratonga",
+      "name_sortable": "pestilentratonga",
+      "level": 20,
+      "locations": [
+        "-122,0,-113"
+      ]
+    },
+    {
+      "name": "a refuse toad",
+      "name_sortable": "refusetoad",
+      "level": 16,
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1089833149 460321312:a vial of frog blood\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Rix Tah'Reh",
+      "name_sortable": "rixtahreh",
+      "locations": [
+        "-104,0,17"
+      ],
+      "utterances": [
+        "Hrmmf, hurry up and buy something or don't... I have to get back to the surface soon."
+      ],
+      "store_template": "armorsmith"
+    },
+    {
+      "name": "a segmented globule",
+      "name_sortable": "segmentedglobule",
+      "level": 19,
+      "locations": [
+        "-118,-1,-132"
+      ]
+    },
+    {
+      "name": "a sewage nuisance",
+      "name_sortable": "sewagenuisance",
+      "level": 16,
+      "locations": [
+        "-8,1,79"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1700581584 -1564337946:an accumulation of plasma\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2005032882 -984577434:iron chainmail bracers\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a sewage vermin",
+      "name_sortable": "sewagevermin",
+      "level": 16
+    },
+    {
+      "name": "a sift dasher",
+      "name_sortable": "siftdasher",
+      "level": 180,
+      "locations": [
+        "-238,0,120"
+      ]
+    },
+    {
+      "name": "Skeleton of Gord Smith",
+      "name_sortable": "skeletonofgordsmith",
+      "drop_coin_min": 98,
+      "drop_coin_max": 98
+    },
+    {
+      "name": "a sludge mucus",
+      "name_sortable": "sludgemucus",
+      "level": 17,
+      "locations": [
+        "-160",
+        "0",
+        "35"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1914625227 -1984027051:Encase (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1881103067 836659828:a vial of mucus\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Stench",
+      "name_sortable": "stench",
+      "level": 17,
+      "locations": [
+        "-84,1,-116"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1048400360 2091807454:steel platemail helm\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1106202717 739058315:Lay on Hands (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1578651030 577264165:cuirboilli leather wristguards\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -849373482 -1176889462:Stench's Fang\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 34077879 -1207375267:Blackened Iron Crescent Axe\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Tula Mawh",
+      "name_sortable": "tulamawh",
+      "locations": [
+        "-113,0,7"
+      ],
+      "utterances": [
+        "Trudging deep in the filth eh?  Might you be interested in some of my wares?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1820414129 -364127075:sliced orange\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 29
+            }
+          ]
+        }
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "an Unstable Globule",
+      "name_sortable": "unstableglobule",
+      "level": 20,
+      "locations": [
+        "-118,-1,-132"
+      ]
+    }
+  ]
+}

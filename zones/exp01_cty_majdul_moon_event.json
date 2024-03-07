@@ -1,0 +1,81 @@
+{
+  "name": "A Memory of Sand",
+  "name_sortable": "memoryofsand",
+  "region": "",
+  "connections": [
+    {
+      "key": "qeynos_combined01"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a djinn guardian",
+      "name_sortable": "djinnguardian",
+      "locations": [
+        "-7.33,13.89,3.79",
+        "0.84,14.07,9.86",
+        "6.23,13.90,8.60"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1800845328 -102736544:a djinn humerus\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 366957296 1594223753:Glass Orb\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1637476311 1104779957:tarnished shackle\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -257105619 335124310:Ebon Relic\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 1437,
+      "drop_coin_max": 1437
+    },
+    {
+      "name": "a mummy guardian",
+      "name_sortable": "mummyguardian",
+      "locations": [
+        "-2.17,-0.16,7.13"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -2010259845 -189514917:blue scarab amulet\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a naga guardian",
+      "name_sortable": "nagaguardian",
+      "locations": [
+        "2.07,28.10,11.63",
+        "-5.28,27.94,11.93",
+        "-6.52,24.14,6.84"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1642110438 1888425874:glimmering naga scale\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 139915923 1812738269:a naga's bitterness\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -10875919 -197736667:broken crystal mirror\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ]
+}

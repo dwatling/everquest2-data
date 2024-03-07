@@ -1,0 +1,114 @@
+{
+  "name": "A Memory of Sky",
+  "name_sortable": "memoryofsky",
+  "type": "instance",
+  "connections": [
+    {
+      "key": "qeynos_combined01"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "an aviak guardian",
+      "name_sortable": "aviakguardian",
+      "locations": [
+        "-3.98,39.20,-37.73",
+        "2.20,39.20,-32.10",
+        "1.70,-0.23,-9.30",
+        "1.56,39.20,-39.17"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 528193409 280931073:Ruby Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1050692095 1346907879:golden emblem\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 438839939 2010864568:Ruby Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1655667007 179755908:an aviak talon\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -257105619 335124310:Ebon Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a drake guardian",
+      "name_sortable": "drakeguardian",
+      "locations": [
+        "7.59,-0.22,-6.78"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -235442875 -1254086966:a vial of drake blood\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1361165273 -992290640:a drake scale\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 702626388 1143391596:a drakota scale\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a droag guardian",
+      "name_sortable": "droagguardian",
+      "locations": [
+        "2.63,1.28,-112.78",
+        "-2.61,1.28,-111.16"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 438839939 2010864568:Ruby Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -257105619 335124310:Ebon Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 607737597 1092925800:Advanced Adornments Volume 5\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a golem guardian",
+      "name_sortable": "golemguardian",
+      "locations": [
+        "-3.00,40.00,-9.33",
+        "4.74,1.68,-44.99",
+        "-2.69,1.75,-42.57"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 582067004 1287486892:a metal shard\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1531276461 -177578084:a vial of adipose liquid\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ]
+}

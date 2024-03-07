@@ -1,0 +1,120 @@
+{
+  "name": "Dire Hollow: Infernal Echoes",
+  "name_sortable": "direhollowinfernalechoes",
+  "region": "D'Lere",
+  "zonerect": "-95.00,-4.00,10.00,112.00",
+  "levels": "50-55",
+  "type": "instance",
+  "access_quests": [
+    595483768,
+    29893935
+  ],
+  "connections": [
+    {
+      "key": "nektulos"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a disturbed fossil",
+      "name_sortable": "disturbedfossil",
+      "level": 55,
+      "difficulty": "heroic",
+      "locations": [
+        "8.67,-12.21,20.00",
+        "38.55,-14.48,42.42",
+        "56.62,-13.83,29.53",
+        "55.06,-14.30,39.32",
+        "43.93,-9.70,63.39",
+        "68.83,-9.66,69.10",
+        "76.82,-9.98,71.09",
+        "65.22,-11.53,81.69",
+        "62.05,-9.66,94.37"
+      ],
+      "utterances": [
+        "Rest in peace.",
+        "That pile of bones was my friend!",
+        "Final death comes at last.",
+        "You cannot eliminate us!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1809022634 -46070857:flask of pure water\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 2402,
+      "drop_coin_max": 3834
+    },
+    {
+      "name": "a stone sniper",
+      "name_sortable": "stonesniper",
+      "level": 54,
+      "difficulty": "heroic",
+      "locations": [
+        "79.11,-15.55,42.34",
+        "71.23,-14.67,28.52",
+        "78.08,-15.58,27.43",
+        "77.04,-7.45,102.90",
+        "13.05,-16.02,64.56",
+        "5.28,-14.88,68.30",
+        "84.52,-5.85,65.29",
+        "80.97,-6.04,58.14",
+        "23.97,-11.34,52.75",
+        "30.73,-10.32,57.96",
+        "24.97,-10.34,15.66"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -412301464 1517978432:fragmented stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an undergoyle",
+      "name_sortable": "undergoyle",
+      "level": 53,
+      "difficulty": "heroic",
+      "locations": [
+        "36.08,-14.14,25.49",
+        "41.52,-14.30,28.37",
+        "56.52,-10.36,53.61",
+        "51.19,-9.77,55.21",
+        "34.59,-9.86,70.56",
+        "57.00,-8.68,74.73",
+        "62.87,-9.91,76.72",
+        "64.44,-9.60,71.04",
+        "79.24,-9.57,91.69",
+        "81.23,-9.68,84.77",
+        "44.31,-9.70,103.61",
+        "33.43,-9.87,100.82",
+        "11.35,-14.20,94.88",
+        "-5.50,-15.08,86.57",
+        "-3.03,-14.85,92.49",
+        "-3.11,-14.20,80.83",
+        "17.96,-12.23,82.18",
+        "1.55,-12.53,75.23",
+        "11.94,-13.03,78.31"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1373206301 -1189155627:stone debris\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -828547253 615914939:Indicolite Relic\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a writhing viscera",
+      "name_sortable": "writhingviscera",
+      "level": 53,
+      "locations": [
+        "2.84,-16.15,59.50"
+      ]
+    }
+  ]
+}

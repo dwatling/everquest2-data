@@ -1,0 +1,44 @@
+{
+  "name": "Moors of Ykesha",
+  "name_sortable": "moorsofykesha",
+  "region": "Moors of Ykesha",
+  "description": "This huge ancient swamp is the chief base of operations for the Gunthak Pirates, and the ancestral homeland for the frogloks of Norrath. Places of legend, such as the ruins of Guk and the city of Grobb can be found here, as well as anchors to the alternate dimension known as the Void.",
+  "zonerect": "-2951.74,-1581.67,3193.58,3002.03",
+  "levels": "75-80",
+  "maps": [
+    {
+      "name": "Bottom"
+    },
+    {
+      "name": "Top"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Skymaster Akiz Hoopster",
+      "name_sortable": "skymasterakizhoopster",
+      "locations": [
+        "1906.88,453.19,1015.19"
+      ],
+      "utterances": [
+        "The Skystrider will be arriving from the The Sinking Sands shortly.",
+        "The Skystrider will be leaving for the The Sinking Sands in 62 seconds.",
+        "The Skystrider has left for the The Sinking Sands, it will be returning soon.",
+        "The Skystrider is currently in the The Sinking Sands."
+      ]
+    }
+  ],
+  "quests": [
+    {
+      "id": 4057865259,
+      "related_npcs": [
+        {
+          "name": "Scrounger Lumph"
+        },
+        {
+          "name": "Shipwright Ythkaz"
+        }
+      ]
+    }
+  ]
+}

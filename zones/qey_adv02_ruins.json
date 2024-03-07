@@ -1,0 +1,1538 @@
+{
+  "name": "The Forest Ruins",
+  "name_sortable": "forestruins",
+  "region": "Karan",
+  "zonerect": "-1463.14,-1000.01,-675.87,-415.73",
+  "levels": "5-10",
+  "connections": [
+    {
+      "key": "qey_village05_clone"
+    },
+    {
+      "key": "qey_village06_clone"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Acting Lieutenant Germain",
+      "name_sortable": "actinglieutenantgermain",
+      "locations": [
+        "899.46,-15.06,-576.16"
+      ],
+      "utterances": [
+        "Have you destroyed the tools?",
+        "Good, good. I've been going over this book of theirs. These gnolls seem to be only one group of many on the move. I believe we can stop the ones here if we take out their leader. We can worry about the others later, or never. I've sent word to Qeynos, it is unlikely they will require any assistance from us. For now, how would you like to attempt something important?",
+        "I know you can. A gnoll named Malox seems to be leading the gnolls around here. If we take him out, the rest will scatter. He will likely be near their hidden camp. They know we're on to them, but they will not have had time to move their camp yet. Go there and light their tent on fire, that ought to bring Malox out! Once he emerges, kill him.",
+        "Be safe.",
+        "Malox?",
+        "Good. Very good. Well done. This is a huge relief. With Malox gone the other gnolls won't last much longer, at least the ones here won't. <player name>, Qeynos has sent word back. The Rockpaw Gnolls are responsible for what has happened here. It is time to move.",
+        "Any news of Del Varun?",
+        "Only his satchel? I was afraid of this. I wish we had some leads, he may yet be alive.",
+        "Ah, good thinking. Did you see the glowing too? Perhaps it was a transitory thing.",
+        "Incredible. Please, take this to Poko Zing over there. Have him analyze it for us.",
+        "I don't know, but I'm hoping Poko will be able to tell us.",
+        "Welcome back. Are you ready for some more work?",
+        "It was part of an illusion. Poko made up some kind of dust that he says can dispel the illusion for short periods of time. So, it's time for us to figure out what someone has been trying to hide.",
+        "Find out what those plants are hiding. I'd like you to take Poko's dust and go sprinkle it on the plants. Try to bring back some kind of clue if at all possible, I doubt it will all be nailed down.",
+        "Plans would help the most. Some paper or a book or something of the kind.",
+        "Well?",
+        "Gnolls... was there anything else other than the book?",
+        "That is quite unfortunate. The diagrams in this book look like they involve digging tools and machines. Thi- wait a minute! According to these plans the gnolls have digging tools stored all over the place! They are probably under the same magical veil as the camp.",
+        "No, but we need to stop them. I need you to go back out around the ruins. Find these hidden digging tools, sprinkle some of Poko's powder on them, and destroy them.",
+        "We'll drive these gnolls out yet!  Thanks for helping.",
+        "Come back once you've gotten a bit stronger.",
+        "Welcome, citizen. Please be careful around here.",
+        "Yes, quite dangerous. We have been getting reports, strange reports, over the past few days. Nobody is sure exactly what is going on, and we don't have the manpower to find out once and for all. I've got scouts but even they can only do so much. We've got so few people that it's hard to take care of all the little things.  Ever since the pirates landed the Concordium has been asking for more and more protection.",
+        "More than you know. With dead-end investigations, big threats, little threats, and vague orders from the Qeynos Guard AND the Concordium I'm amazed this place hasn't been put under siege by the hawks yet. I'm sorry for complaining to you. Listen, how would you like to help me out?",
+        "Good, that's great news. The first thing I'd like you to do is help me locate a missing scout. Del Varun was assigned to the small pond on the western side of the ruins. He hasn't checked back in and hasn't been spotted in a few days. I'd like you to head that direction and see if you can find him.",
+        "Don't be foolish. Don't get yourself hurt, but if you notice anything that might lead us to him, please let me know.",
+        "What is it, citizen?",
+        "I recognize this design... I hope this doesn't mean what I think it means. The gnolls may be on the move. Proof of this would spur Qeynos to move, but a single arrow is not proof."
+      ],
+      "quests": [
+        {
+          "id": 2436558414,
+          "name": "Favors",
+          "hidden": false
+        },
+        {
+          "id": 2019117947,
+          "name": "Uncover the Caches",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "name": "Aedre",
+      "name_sortable": "aedre",
+      "locations": [
+        "898.47, -14.35, -563.55"
+      ],
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Welcome! What can I help you with?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a",
+          "server_prices": [
+            {
+              "server": "Varsoon",
+              "price": 81
+            }
+          ]
+        }
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Ahnrisk",
+      "name_sortable": "ahnrisk",
+      "locations": [
+        "992.31,-13.98,-698.14"
+      ]
+    },
+    {
+      "name": "an Antonican hawk",
+      "name_sortable": "antonicanhawk",
+      "level": 7,
+      "locations": [
+        "1156.30,-21.64,-754.68",
+        "984.47,-20.04,-573.06",
+        "949.45,-16.40,-651.76",
+        "1091.98,-17.61,-819.55",
+        "1111.74,-17.66,-806.16",
+        "1136.28,-17.48,-795.44",
+        "1152.67,-17.30,-746.66",
+        "1149.28,-14.91,-728.18",
+        "1101.55,-18.61,-623.97",
+        "1063.36,-17.61,-589.02"
+      ]
+    },
+    {
+      "name": "The Basalt Watcher",
+      "name_sortable": "basaltwatcher",
+      "locations": [
+        "1036.58,-8.96,-677.59"
+      ]
+    },
+    {
+      "name": "a Blackfurl deckhand",
+      "name_sortable": "blackfurldeckhand",
+      "level": 10,
+      "locations": [
+        "973.00,-23.35,-847.00",
+        "951.55,-26.45,-869.29",
+        "968.27,-26.80,-889.61",
+        "1006.65,-25.49,-897.16",
+        "1037.90,-27.70,-912.00",
+        "1044.21,-24.58,-894.56",
+        "971.25,-24.71,-868.78",
+        "973.14,-21.60,-817.75"
+      ],
+      "utterances": [
+        "Summon help!  We have invaders!",
+        "Me going to eat your kidney first.",
+        "Not nice to interrupt dinner.",
+        "How dare you!",
+        "Hold them and I'll return with help!",
+        "All hands retreat!",
+        "Come back you coward! I'm not dead yet.",
+        "I will have vengeance!",
+        "You'll pay for that one, peon!",
+        "Is this supposed to hurt?"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 812378501 -1056832727:Wolf-hide Boots\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1255926754 -1670363261:Advanced Scholar Volume 10\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Blackfurl lubber",
+      "name_sortable": "blackfurllubber",
+      "level": 10,
+      "locations": [
+        "1083.76,-10.25,-672.90",
+        "1027.26,-9.81,-766.42",
+        "1065.26,-9.72,-786.21",
+        "1031.20,-9.84,-777.75",
+        "1064.12,-9.87,-793.34"
+      ],
+      "utterances": [
+        "I will have vengeance!",
+        "Hold them and I'll return with help!"
+      ],
+      "drop_coin_min": 16,
+      "drop_coin_max": 16
+    },
+    {
+      "name": "a Blackfurl medic",
+      "name_sortable": "blackfurlmedic",
+      "level": 10,
+      "locations": [
+        "1087.10,-10.14,-674.76",
+        "1031.20,-9.84,-777.75",
+        "1064.12,-9.87,-793.34",
+        "1029.27,-9.83,-767.50",
+        "1057.90,-9.88,-794.34"
+      ],
+      "utterances": [
+        "Come back you coward! I'm not dead yet.",
+        "Feel kinda sleepy. Whacha do to me?"
+      ],
+      "drop_coin_min": 32,
+      "drop_coin_max": 32
+    },
+    {
+      "name": "a Blackfurl oarcaller",
+      "name_sortable": "blackfurloarcaller",
+      "level": 10,
+      "locations": [
+        "1023.58,-25.29,-895.21",
+        "1062.89,-24.11,-896.21",
+        "1067.83,-25.69,-909.66",
+        "1009.24,-10.25,-707.66",
+        "1039.28,-10.25,-753.86"
+      ],
+      "utterances": [
+        "Didn't expect to run into me, did you?",
+        "Now I'm really angry!",
+        "Enemies approach. Kill them all!",
+        "You'll pay for that!",
+        "Combat withdrawal! Follow me!"
+      ]
+    },
+    {
+      "name": "a Blackfurl scout",
+      "name_sortable": "blackfurlscout",
+      "level": 10,
+      "locations": [
+        "937.53,-25.81,-864.25",
+        "931.94,-25.06,-861.53",
+        "1027.53,-24.62,-892.27",
+        "1058.63,-24.27,-895.37",
+        "1069.07,-24.96,-904.65",
+        "1101.63,-21.09,-716.02",
+        "1036.01,-19.01,-653.98",
+        "1009.49,-19.00,-657.98",
+        "996.56,-10.25,-701.68",
+        "1002.18,-10.25,-699.99",
+        "1000.91,-10.25,-713.25",
+        "1025.84,-10.25,-710.15",
+        "1040.50,-10.25,-756.33",
+        "1041.38,-9.92,-772.13",
+        "1110.65,-10.25,-723.57",
+        "1106.87,-9.25,-744.21",
+        "1112.05,-9.25,-758.87",
+        "1108.32,-9.25,-749.43",
+        "1114.19,-8.37,-742.70"
+      ],
+      "utterances": [
+        "You're not as sneaky as you thought.",
+        "Startle us, you did! We'll remedy that.",
+        "Sees us, did we? Must not let you talk then.",
+        "That patch of fur will never grow back, you know.",
+        "Time to leave, yes. Definitely time to leave.",
+        "Greetings friend, how would you like to die?",
+        "Flee and take care of them later.",
+        "Not very nice of you to be all sneaky.",
+        "Don't hurt us! We're no threat to your mightiness.",
+        "Should have escaped while I had the chance.",
+        "Take my secrets to my grave, I shall."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 21,
+      "drop_coin_max": 264
+    },
+    {
+      "name": "a Blackfurl swabbie",
+      "name_sortable": "blackfurlswabbie",
+      "level": 10,
+      "locations": [
+        "931.12,-25.99,-867.23",
+        "1023.47,-24.15,-889.31",
+        "1031.89,-26.66,-906.01",
+        "1061.34,-23.36,-891.34",
+        "1072.17,-25.35,-909.55",
+        "999.43,-10.25,-706.20",
+        "1085.56,-10.25,-670.92",
+        "1059.32,-10.25,-671.54",
+        "1050.44,-10.25,-760.05",
+        "1039.14,-10.09,-758.92",
+        "1029.27,-9.83,-767.50",
+        "1040.81,-9.45,-777.57",
+        "1057.90,-9.88,-794.34",
+        "1112.48,-7.65,-743.78",
+        "1046.24,-9.91,-773.84",
+        "1039.21,-10.25,-767.63",
+        "1065.26,-9.72,-786.21",
+        "964.15,-25.34,-865.44"
+      ],
+      "utterances": [
+        "That patch of fur will never grow back, you know.",
+        "Enemies approach. Kill them all!",
+        "Now I'm really angry!",
+        "Combat withdrawal! Follow me!",
+        "You're not as sneaky as you thought.",
+        "Time to leave, yes. Definitely time to leave.",
+        "Prepare to face your doom, meddler.",
+        "All hands retreat!",
+        "To arms!",
+        "I can't hold them forever!",
+        "Sees us, did we? Must not let you talk then.",
+        "Cover me while we regroup!",
+        "Fall back and regroup.  The enemy has the upper hand!",
+        "Flee and take care of them later.",
+        "Feel kinda sleepy. Whacha do to me?",
+        "Come back you coward! I'm not dead yet."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 347909080 -1870992907:waxed skullcap\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 17,
+      "drop_coin_max": 214
+    },
+    {
+      "name": "a bonecutter fish",
+      "name_sortable": "bonecutterfish",
+      "level": 6,
+      "locations": [
+        "1130.61,-28.06,-675.56",
+        "981.05,-24.84,-796.54",
+        "982.98,-24.93,-780.42",
+        "993.85,-22.50,-775.66",
+        "988.64,-23.75,-779.00",
+        "1133.07,-27.11,-681.81"
+      ]
+    },
+    {
+      "name": "a bound watcher",
+      "name_sortable": "boundwatcher",
+      "level": 10,
+      "locations": [
+        "1055.33,-15.03,-732.23",
+        "1027.48,-15.05,-718.00",
+        "1040.57,-14.94,-715.50",
+        "1044.89,-15.05,-747.21"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 42170032 -1866821051:a globe of water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1080130292 -1709324196:Bronze Hatchet\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1264913566 511431544:Brainshock II (Adept)\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a bristly tarantula",
+      "name_sortable": "bristlytarantula",
+      "level": 5,
+      "locations": [
+        "1100.00,-21.60,-625.84",
+        "1090.76,-20.61,-619.55",
+        "1082.00,-21.36,-600.00",
+        "1083.04,-19.06,-634.13",
+        "1091.28,-20.62,-625.33",
+        "1085.68,-20.08,-616.84"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a brittle accountant",
+      "name_sortable": "brittleaccountant",
+      "level": 10,
+      "locations": [
+        "1077.39,-10.25,-670.06",
+        "1070.01,-10.10,-673.18",
+        "1072.06,-10.11,-686.53"
+      ],
+      "utterances": [
+        "My progress will not be halted!",
+        "It is not over!",
+        "Do not disturb me!",
+        "A proper test!",
+        "You cannot defeat us all!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 7,
+      "drop_coin_max": 7
+    },
+    {
+      "name": "a centipede",
+      "name_sortable": "centipede",
+      "level": 8,
+      "locations": [
+        "980.97,-18.54,-697.56",
+        "964.81,-20.52,-690.34",
+        "957.88,-21.77,-693.81",
+        "975.84,-19.12,-705.85",
+        "950.77,-21.85,-672.02",
+        "953.80,-22.09,-682.18",
+        "959.47,-21.22,-687.83",
+        "960.08,-22.04,-705.87"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 14920725 1871977281:Rotted Kite Shield\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1569006869 1387402648:a venom gland\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1890619312 1429455608:Bronze Harpoon\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1560357389 1897618518:an insect antenna\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Colonel Belaridonis",
+      "name_sortable": "colonelbelaridonis",
+      "locations": [
+        "886.29,-12.13,-556.81"
+      ],
+      "utterances": [
+        "Careful, citizen.  The Willow Wood nearby is overrun with gnolls and The Baubbleshire is battling demons!  The protection within these lands is spread thin.  We're fighting on two fronts here.",
+        "Jendan you say?  Three fronts?!  What news do you bring on his behalf?",
+        "Oh that!  Not to worry citizen, I sent my Koada'Dal elite guard into the castle just this morning to scout it out.  If there are gnolls about my guard will handle them easily.",
+        "I see.  Perhaps The Willow Wood's invasion was a diversion.  Thanks for the tip, Feir'Dal.",
+        "Didn't you listen?  I said I sent my Koada'Dal elites in this morning.",
+        "What I think and what my soldiers do is none of your concern, Feir'Dal.  Know your place.  My soldiers are fine.  If they haven't come back there's a good reason for it.  I'm not worried, so neither should you."
+      ]
+    },
+    {
+      "name": "a deep lurker",
+      "name_sortable": "deeplurker",
+      "level": 6,
+      "locations": [
+        "1130.02,-27.00,-674.00",
+        "1132.75,-24.17,-704.95",
+        "1137.91,-30.00,-701.85",
+        "1130.98,-30.00,-700.74"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 14920725 1871977281:Rotted Kite Shield\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a devoted follower",
+      "name_sortable": "devotedfollower",
+      "utterances": [
+        "No!  I must see the coming of the Flamepaw!",
+        "Leave this area now!",
+        "For Flamepaw!",
+        "You will disturb the master!",
+        "The work will continue.",
+        "I will not fall!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 18,
+      "drop_coin_max": 173
+    },
+    {
+      "name": "Dig Supervisor T'narl",
+      "name_sortable": "digsupervisortnarl",
+      "level": 11,
+      "difficulty": "heroic",
+      "locations": [
+        "1083.38,-0.92,-776.12"
+      ],
+      "utterances": [
+        "Look what strolled into the spider's web!",
+        "How dare you!",
+        "I hope you put your affairs in order.",
+        "Hold them and I'll return with help!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2056514007 -661217797:T'narl's Dagger\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1329104420 -935035637:Hunter's Instinct (Adept)\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Elvic Garrett",
+      "name_sortable": "elvicgarrett",
+      "locations": [
+        "914.34,-19.57,-573.17"
+      ],
+      "utterances": [
+        "The changes to this land scare me."
+      ],
+      "quests": [
+        {
+          "id": 3656481881,
+          "name": "For Qeynos",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "name": "a fiery forgotten guardian",
+      "name_sortable": "fieryforgottenguardian",
+      "level": 8,
+      "locations": [
+        "969.00,-18.66,-647.05",
+        "980.58,-18.34,-645.56",
+        "1053.69,-18.47,-611.59",
+        "1020.22,-18.90,-626.20",
+        "1009.86,-18.82,-631.09",
+        "1015.61,-19.01,-648.98"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1925395467 -1686408835:charred tinder\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1045585543 1169903901:charred tinder\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1226603712 634580495:an elemental fascination rune\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Findle Gimblesled",
+      "name_sortable": "findlegimblesled",
+      "locations": [
+        "1069.17,-22.97,-853.94"
+      ]
+    },
+    {
+      "name": "a Flamepaw loyalist",
+      "name_sortable": "flamepawloyalist",
+      "utterances": [
+        "Leave this area now!",
+        "You will disturb the master!",
+        "For Flamepaw!",
+        "I will not fall!",
+        "My blade serves the Flamepaw!",
+        "No!  I must see the coming of the Flamepaw!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a fleshless martyr",
+      "name_sortable": "fleshlessmartyr",
+      "level": 11,
+      "difficulty": "heroic",
+      "locations": [
+        "1075.19,-1.67,-773.23"
+      ]
+    },
+    {
+      "name": "a fleshless stormer",
+      "name_sortable": "fleshlessstormer",
+      "level": 11,
+      "difficulty": "heroic",
+      "locations": [
+        "1076.35,-3.31,-774.40",
+        "1086.60,-1.67,-767.88"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a forgotten guardian",
+      "name_sortable": "forgottenguardian",
+      "level": 8,
+      "locations": [
+        "992.35,-18.95,-632.55",
+        "1007.98,-19.29,-623.50",
+        "1020.22,-18.90,-626.20",
+        "1009.86,-18.82,-631.09",
+        "1024.79,-19.01,-648.98"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 821228530 691737450:a fragment of terrain\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1784369501 -1609277764:worn chain bracelet\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a gossamer groundskeeper",
+      "name_sortable": "gossamergroundskeeper",
+      "level": 10,
+      "locations": [
+        "1060.10,-10.25,-674.92",
+        "1051.24,-10.25,-677.11",
+        "1017.87,-10.25,-687.41"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 39,
+      "drop_coin_max": 39
+    },
+    {
+      "name": "Grekin",
+      "name_sortable": "grekin",
+      "locations": [
+        "885.54,-13.66,-573.67"
+      ],
+      "utterances": [
+        "Sorry, friend. I don't think you can help me.",
+        "Come close!  Come close!  See what I have to offer today!",
+        "My requisition! I've waited for this for far too long. You would think a local requisition could be filled much quicker! Take your fee and be off."
+      ],
+      "store_template": "bowyer"
+    },
+    {
+      "name": "Grrosh",
+      "name_sortable": "grrosh",
+      "utterances": [
+        "You cannot defeat the Rockpaws!  We are a single pack.  Not divided and biting at one another like men of Qeynos.  You attack us, but it was your pack brothers that gave us idea and metal tools to dig with!"
+      ]
+    },
+    {
+      "name": "Ilaen Lilac",
+      "name_sortable": "ilaenlilac",
+      "locations": [
+        "966.33,-21.22,-811.49"
+      ],
+      "utterances": [
+        "If we do not work to save this land there are no others who will.",
+        "If you have not felt it yet you will soon. The movement, the sudden interest in this place by multiple parties, and the strange deaths of this land's inhabitants.",
+        "I do not believe this land's problems are enough to interest the Qeynos Guard, not yet lestways. But any child of Tunare who spends time here soon realizes there is something sinister in these lands. The deer of these parts are being slain at an alarming rate. Most of their deaths are obviously the cause of wolves or other predators, natural causes, but some of their bodies are left dead and intact.",
+        "I do not know, but I believe they are being hunted for sport. They have wounds consistent with arrow fire, but I have yet to recover any clues. Would you be willing to help me search for a clue?",
+        "Good. Go find the deer bodies that litter these lands. Ignore the bodies killed by predators, seek out only the intact bodies. Search them for clues: weapons, specific types of scars, anything that will help determine who is beind their death.",
+        "May you do so without coming to harm.",
+        "Have you found a clue yet?",
+        "You found this arrow here? You are certain?",
+        "This arrow is of gnollish make. It may have gotten here by innocent means, or a gnoll may have brought it here. If the gnolls are moving in then the Qeynos Guard will be very interested. I want you to take this arrow to Lieutenant Germain. Tell him where you found it, he will be most interested to hear this."
+      ],
+      "quests": [
+        {
+          "id": 2803330793,
+          "name": "Unnatural Causes",
+          "ends_at_npc": "Acting Lieutenant Germain",
+          "hidden": false,
+          "related_items": [
+            {
+              "id": 612207850
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ingraham",
+      "name_sortable": "ingraham",
+      "level": 25,
+      "locations": [
+        "889.08,-12.08,-553.48"
+      ]
+    },
+    {
+      "name": "Kinloc Flamepaw's Remains",
+      "name_sortable": "kinlocflamepawsremains",
+      "utterances": [
+        "Coming here was your first mistake."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1114811548 467564743:Flame Forged Hauberk\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a lake swarmer",
+      "name_sortable": "lakeswarmer",
+      "level": 6,
+      "locations": [
+        "1108.63,-22.70,-670.31",
+        "1150.74,-16.63,-719.65",
+        "1121.53,-16.16,-665.26",
+        "1126.24,-18.05,-660.08",
+        "1136.69,-16.45,-667.30"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1633297914 396025219:an insect wing\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a leathershell snapper",
+      "name_sortable": "leathershellsnapper",
+      "level": 6,
+      "locations": [
+        "977.95,-30.00,-601.18",
+        "973.89,-30.00,-612.22",
+        "973.95,-29.00,-618.90",
+        "957.09,-28.85,-602.39"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 345112318 805644505:turtle meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a molting scavenger",
+      "name_sortable": "moltingscavenger",
+      "level": 8,
+      "locations": [
+        "991.25,-14.33,-696.00"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a necrotic archaeologist",
+      "name_sortable": "necroticarchaeologist",
+      "level": 11,
+      "difficulty": "heroic",
+      "locations": [
+        "1081.55,-3.03,-779.54",
+        "1080.84,-3.03,-774.07"
+      ],
+      "drop_coin_min": 31,
+      "drop_coin_max": 31
+    },
+    {
+      "name": "Outlander Vaughn",
+      "name_sortable": "outlandervaughn",
+      "locations": [
+        "946.52,-20.70,-644.52",
+        "1181.84,-23.33,-768.16"
+      ],
+      "utterances": [
+        "Am I ever in a bind! Will you please help me?",
+        "Those wretched Blackfurl deckhands stole my satchel!  It had everything that was important to me. Please, recover my satchel!",
+        "What's that you have? You found my stuff!  That's fantastic!  I can't thank you enough.",
+        "Thank you so very much for finding my dear possessions! Can you help me with one more small favor?",
+        "I need you to take this letter to Hunter Forestdeep. You'll find him in the province district of Qeynos."
+      ],
+      "quests": [
+        {
+          "id": 3769006108,
+          "name": "Letter for Hunter Forestdeep",
+          "hidden": false
+        },
+        {
+          "id": 2041522598,
+          "name": "Vaughn's Stuff",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "name": "Poko Zing",
+      "name_sortable": "pokozing",
+      "locations": [
+        "887.75,-12.87,-563"
+      ],
+      "utterances": [
+        "How come nobody seems to realize how busy I am? Let me guess, you want me to do something very boring for your benefit, am I right?",
+        "Analyze? Why wo- ooh, is it glowing? This is an amazing find. Where DID you find it?",
+        "How precise! Er, well I can do these tests but I'm going to need you to finish what I was working on in the interim.",
+        "I'm looking for a reason for the activity around here lately, the sudden interest. Who knows, maybe this leaf will prove to be that reason. But, I won't abandon my other theories. As such I'd like you to collect bark samples from the trees around here. My theory is--well that's not important. I need bark samples from trees both outside and inside the ruins, as well as from both north and south of the river that runs through them. I would also like some rock samples from the ruins.",
+        "Do you have my requested materials yet?",
+        "Good, give them to me.",
+        "Oh, right. The leaf wasn't real at all. It was part of some sort of illusion. The plant it came from was meant to hide something. I've already told all of this to Lieutenant Germain, go talk to him, I'm busy.",
+        "I am very, very busy. Please respect that."
+      ]
+    },
+    {
+      "name": "a prowler pup",
+      "name_sortable": "prowlerpup",
+      "level": 4,
+      "locations": [
+        "1175.42,-19.89,-791.49",
+        "1174.18,-22.63,-806.96",
+        "1178.91,-23.28,-774.72"
+      ]
+    },
+    {
+      "name": "a Rabid Badger",
+      "name_sortable": "rabidbadger",
+      "level": 6,
+      "locations": [
+        "1020.00,-21.99,-577.00",
+        "1016.20,-22.53,-601.72",
+        "1004.20,-23.42,-584.30"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 7014402 874665795:Badger Skin Belt\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1466305269 1655146994:silver cluster\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1564630001 1075925754:Badger Hide Cap\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1853059425 1932165374:Armor of Seasons (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1790226715 -1295267523:Badgerbite Dirk\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Reconnoiterer Malox",
+      "name_sortable": "reconnoiterermalox",
+      "utterances": [
+        "Kill it!"
+      ]
+    },
+    {
+      "name": "Remmy Tumbub",
+      "name_sortable": "remmytumbub",
+      "locations": [
+        "1013.54,-22.38,-577.77"
+      ],
+      "utterances": [
+        "I rate pies in both scent and flavor. A pie with a delicious flavor can win over a lady's heart, but a pie with a delicious scent can lure even the most steadfast guard away from their post."
+      ],
+      "quests": [
+        {
+          "id": 2569200347,
+          "name": "Clearing Remmy's Name",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "name": "a rock adder",
+      "name_sortable": "rockadder",
+      "level": 6,
+      "locations": [
+        "1014.22,-22.48,-603.84",
+        "1024.02,-20.67,-606.00",
+        "1019.66,-22.84,-590.29",
+        "1025.84,-22.03,-582.29",
+        "1033.71,-21.57,-588.75",
+        "1030.36,-21.67,-593.81",
+        "1040.03,-21.12,-592.61",
+        "1031.44,-19.79,-599.89"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -117919123 1826588280:bronze knotted club\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -2059754501 -1803583786:a poison gland\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Rockpaw thug",
+      "name_sortable": "rockpawthug",
+      "utterances": [
+        "Attack!"
+      ]
+    },
+    {
+      "name": "a rotting pathfinder",
+      "name_sortable": "rottingpathfinder",
+      "level": 11,
+      "difficulty": "heroic",
+      "locations": [
+        "1090.91,-1.67,-776.78"
+      ],
+      "utterances": [
+        "Seek death and it finds you.",
+        "Your eyes are so pretty.",
+        "You've shaken the dust from my bones.",
+        "Final death comes at last."
+      ],
+      "drop_coin_min": 33,
+      "drop_coin_max": 33
+    },
+    {
+      "name": "a ruins prowler",
+      "name_sortable": "ruinsprowler",
+      "level": 7,
+      "locations": [
+        "1149.93,-19.90,-768.00",
+        "1146.94,-22.10,-806.50",
+        "1154.12,-20.79,-787.23",
+        "1176.52,-19.49,-799.03",
+        "1174.13,-22.76,-804.60",
+        "1179.75,-23.33,-776.58"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -982875894 -747549538:canine saliva\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Sergeant at Arms Uthros",
+      "name_sortable": "sergeantatarmsuthros",
+      "locations": [
+        "894.2,-13.66,-564.93",
+        "894.49,-14.43,-573.03"
+      ],
+      "utterances": [
+        "Watch your step, friend. Many adventurers get injured because they don't know the dangers that lurk here. These grounds are home to the ruins of the old mage academy.  It was destroyed during the wars that raged centuries ago.  And aside from the already dangerous inhabitants of these ruins,  elemental servants of mages lurk about. Scared yet? ... If you're intent on staying in Qeynos, I suppose we can use your help.",
+        "Well, then, make yourself useful and kill some of the nasty vermin who live in this area.   And if you need something to do later, come on back, I always need help!",
+        "Hey! Great work on the vermin.  Can you spare more time to help Qeynos?",
+        "Great! Then go and kill more vermin."
+      ],
+      "quests": [
+        {
+          "id": 2815070672,
+          "name": "Forest Ruins Volunteer",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "name": "a skittering scavenger",
+      "name_sortable": "skitteringscavenger",
+      "level": 8,
+      "locations": [
+        "1064.69,-19.02,-645.57",
+        "1057.74,-19.03,-647.00",
+        "1071.41,-19.00,-659.82",
+        "1061.67,-19.01,-660.60",
+        "989.31,-18.30,-662.62",
+        "997.58,-21.67,-675.09"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a slabshell snapper",
+      "name_sortable": "slabshellsnapper",
+      "level": 9,
+      "locations": [
+        "1036.45,-24.00,-727.73",
+        "1081.90,-24.00,-705.95"
+      ]
+    },
+    {
+      "name": "Sleeble Gimblesled",
+      "name_sortable": "sleeblegimblesled",
+      "locations": [
+        "1072.50,-23.43,-840.76"
+      ]
+    },
+    {
+      "name": "a sleepless one",
+      "name_sortable": "sleeplessone",
+      "level": 10,
+      "locations": [
+        "1085.56,-10.25,-670.92",
+        "1020.22,-10.25,-708.54",
+        "1008.62,-10.25,-708.20"
+      ],
+      "utterances": [
+        "No, must recall studies!",
+        "You cannot defeat us all!",
+        "Do not disturb me!",
+        "I am weakening!",
+        "A proper test!",
+        "It is not over!",
+        "My progress will not be halted!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 6,
+      "drop_coin_max": 10
+    },
+    {
+      "name": "a sodden victim",
+      "name_sortable": "soddenvictim",
+      "level": 10,
+      "locations": [
+        "936.46,-29.05,-880.24",
+        "936.07,-30.80,-888.70",
+        "968.99,-29.65,-899.99",
+        "1050.08,-30.17,-940.32",
+        "1029.34,-31.57,-922.83"
+      ],
+      "utterances": [
+        "As I rise from the grave,  you will now take my place!",
+        "That pile of bones was my friend!",
+        "Seek death and it finds you.",
+        "Brains! It's what's for dinner.",
+        "I'm shattered and broken.",
+        "To the grave with you!",
+        "Rest in peace.",
+        "You cannot eliminate us!",
+        "Final death comes at last."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 40
+    },
+    {
+      "name": "The Spectral Headmaster",
+      "name_sortable": "spectralheadmaster",
+      "level": 10,
+      "difficulty": "heroic",
+      "locations": [
+        "1083.38,-0.92,-776.12"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a spectral instructor",
+      "name_sortable": "spectralinstructor",
+      "level": 10,
+      "locations": [
+        "1088.00,-9.29,-746.39",
+        "1079.02,-1.67,-783.27",
+        "1076.35,-3.31,-774.40",
+        "1090.91,-1.67,-776.78",
+        "1033.18,-9.45,-757.65",
+        "1041.82,-10.25,-767.20",
+        "1027.89,-9.45,-772.41",
+        "1040.81,-9.45,-777.57"
+      ],
+      "utterances": [
+        "You invoke my wrath.",
+        "Face the might of the dead!",
+        "Thou shall soon see that death is only the beginning!",
+        "I hope you have a good plan for this.",
+        "I will not miss a second time!",
+        "Run, now, while you still can walk.",
+        "My comrade hath found peace, perhaps so shall I.",
+        "Your assault is feeble.",
+        "What is after Death for my comrade?",
+        "They will rise again. They always do.",
+        "Thy fate will not go unavenged!",
+        "I'll be back for you."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -86102345 -151067204:a ghost vile plasm \\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a spectral student",
+      "name_sortable": "spectralstudent",
+      "level": 10,
+      "locations": [
+        "1016.56,-10.25,-705.42",
+        "1014.55,-10.25,-698.84",
+        "1002.18,-10.25,-699.99",
+        "999.43,-10.25,-706.20",
+        "1000.91,-10.25,-713.25",
+        "1010.56,-10.25,-706.51",
+        "1039.28,-10.25,-753.86",
+        "1039.14,-10.09,-758.92",
+        "1041.38,-9.92,-772.13",
+        "1031.20,-9.84,-777.75",
+        "1029.27,-9.83,-767.50",
+        "1065.26,-9.72,-786.21",
+        "1057.90,-9.88,-794.34",
+        "1064.12,-9.87,-793.34"
+      ],
+      "utterances": [
+        "Just because I am dead doesn't mean you can ransack my things!",
+        "You don't have good ideas often, do you?",
+        "You shall suffer for this trespass.",
+        "Guess they get to explore what lies beyond.",
+        "I'll be back for you.",
+        "I don't know where they'll go from here.",
+        "I wonder if the abyss is interesting.",
+        "May you sleep restfully, my comrade.",
+        "Those who are already dead merely fade.",
+        "You should have left us to everlasting sleep!",
+        "Eh, just a temporary setback.",
+        "What is after Death for my comrade?",
+        "Time to teach you a lesson about disturbing the dead!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -211262820 88743151:a ghost ethereal strand\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -704384670 1077323225:an ethereal nerve\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 19,
+      "drop_coin_max": 258
+    },
+    {
+      "name": "a stoneshell snapper",
+      "name_sortable": "stoneshellsnapper",
+      "level": 6,
+      "locations": [
+        "985.13,-23.62,-584.71",
+        "977.29,-26.56,-588.89",
+        "986.14,-26.57,-609.20",
+        "974.25,-25.70,-630.00",
+        "966.45,-25.51,-635.49",
+        "947.18,-25.62,-577.64",
+        "1137.95,-22.47,-723.82",
+        "1120.40,-18.95,-712.58",
+        "1111.95,-23.75,-694.20",
+        "1099.96,-23.79,-701.33",
+        "1128.23,-23.17,-660.48",
+        "1112.32,-23.36,-673.60"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1852418953 1450020491:turtle meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a sun beetle",
+      "name_sortable": "sunbeetle",
+      "level": 6,
+      "locations": [
+        "971.92,-22.35,-763.20",
+        "975.05,-18.68,-686.41",
+        "978.00,-18.90,-696.64",
+        "970.94,-20.92,-714.07",
+        "981.00,-19.47,-713.12",
+        "970.95,-21.96,-732.97",
+        "959.90,-22.71,-740.31",
+        "964.93,-22.25,-734.08",
+        "972.82,-21.12,-721.94",
+        "993.78,-20.19,-750.38"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a tarantula hawk",
+      "name_sortable": "tarantulahawk",
+      "level": 6,
+      "locations": [
+        "1078.25,-20.98,-598.67",
+        "1048.00,-16.25,-596.89",
+        "1054.85,-15.58,-597.10"
+      ]
+    },
+    {
+      "name": "a tattered spellbook",
+      "name_sortable": "tatteredspellbook",
+      "level": 10,
+      "locations": [
+        "1112.96,-9.25,-740.36",
+        "1108.69,-4.61,-745.48",
+        "1114.47,-7.97,-766.40",
+        "1119.63,-8.06,-749.91"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1890619312 1429455608:Bronze Harpoon\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1789422850 813018423:a ripped enchanted page\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Thenatren Lightarrow",
+      "name_sortable": "thenatrenlightarrow",
+      "locations": [
+        "933.36,-15.51,-581.85"
+      ],
+      "utterances": [
+        "Careful near those ruins, friend!  It's a magical place and full of danger!",
+        "Watch yourself near those ruins. They are dangerous!"
+      ]
+    },
+    {
+      "name": "Therven Senshun",
+      "name_sortable": "thervensenshun",
+      "locations": [
+        "944.94,-22.09,-573.56"
+      ],
+      "utterances": [
+        "Hello there! Have you got time to lend a hand?",
+        "Well, I'm trying some new leather tanning methods and in my work I've found that some of my techniques create an amazingly soft product when used on turtle shells. Amazing, I know! I'm not sure what use it may have, but I'd like to perfect the process anyway.",
+        "Well, this process is delicate and requires a lot of time. That means that I'm unable to hunt the turtles around here. If you could hunt them for me I would be grateful.",
+        "Excellent! If you could get me six leathershell snapper shells and six stoneshell snapper shells I think that would be enough to finalize this process. You can find them in the pond northwest of here.",
+        "Bring them back as soon as you get them!",
+        "Did you get the shells?",
+        "Thanks! I appreciate it! You've really helped me a lot."
+      ],
+      "quests": [
+        {
+          "id": 2609752943,
+          "name": "Snapper Shells",
+          "hidden": false
+        }
+      ]
+    },
+    {
+      "name": "a timber deer",
+      "name_sortable": "timberdeer",
+      "level": 6,
+      "locations": [
+        "1006.01,-20.22,-779.98",
+        "999.58,-21.29,-795.55",
+        "1101.61,-23.12,-830.06",
+        "1109.83,-21.93,-818.63",
+        "1115.39,-22.04,-819.84",
+        "1149.76,-20.05,-782.50"
+      ]
+    },
+    {
+      "name": "a timber fawn",
+      "name_sortable": "timberfawn",
+      "level": 4,
+      "locations": [
+        "1008.31,-22.24,-572.41",
+        "966.73,-23.95,-557.64",
+        "1005.97,-21.85,-565.04",
+        "992.32,-24.45,-581.40",
+        "1112.73,-22.45,-825.07"
+      ]
+    },
+    {
+      "name": "Tinshen Brinth's Remains",
+      "name_sortable": "tinshenbrinthsremains",
+      "utterances": [
+        "Final death comes at last."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -396473352 -575378048:Sun Bleached Pike\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1454290935 2038916471:Primal Reflexes (Adept)\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a tireless student",
+      "name_sortable": "tirelessstudent",
+      "level": 10,
+      "locations": [
+        "1039.29,-23.62,-725.09",
+        "1042.24,-21.61,-744.58",
+        "1074.86,-23.33,-704.91"
+      ],
+      "utterances": [
+        "Do not disturb me!",
+        "A proper test!",
+        "It is not over!",
+        "No, must recall studies!",
+        "My progress will not be halted!",
+        "I am weakening!",
+        "You cannot defeat us all!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 347909080 -1870992907:waxed skullcap\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 8,
+      "drop_coin_max": 33
+    },
+    {
+      "name": "Winterburn",
+      "name_sortable": "winterburn",
+      "level": 25,
+      "locations": [
+        "890.14,-14.03,-572.28"
+      ]
+    },
+    {
+      "name": "a woodland badger",
+      "name_sortable": "woodlandbadger",
+      "level": 5,
+      "locations": [
+        "947.26,-20.99,-560.58",
+        "954.99,-23.09,-564.32",
+        "973.87,-24.92,-567.03",
+        "997.73,-24.64,-589.16",
+        "985.49,-25.09,-567.57",
+        "996.69,-22.40,-559.36",
+        "1011.08,-23.47,-594.70",
+        "1023.39,-22.13,-571.66",
+        "1015.24,-22.91,-584.88",
+        "994.57,-24.46,-583.62",
+        "1008.71,-23.00,-605.25"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1753327823 1032961193:Far Seas Trading Requisition FRN0378\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Yestura Rhamrey's Remains",
+      "name_sortable": "yesturarhamreysremains",
+      "locations": [
+        "1018.08,-10.25,-708.26"
+      ],
+      "utterances": [
+        "Final death comes at last."
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1770462429 -1506854305:abalone shell\\/a",
+      "locations": [
+        "963.36,-25.00,-870.03"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 164202245 -601729183:chipped shard of divination\\/a",
+      "locations": [
+        "941.93,-20.00,-637.84"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1612899270 -1960681747:conch shell\\/a",
+      "locations": [
+        "987.27,-25.00,-891.33",
+        "1029.12,-26.00,-904.12"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1450331100 1726103362:plain yellow butterfly\\/a",
+      "locations": [
+        "973.48,-20.00,-723.31"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1880258538 -1100483940:regal violet butterfly\\/a",
+      "locations": [
+        "955.21,-21.00,-678.72"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1981956052 -733463829:scuffed shard of alteration\\/a",
+      "locations": [
+        "966.84,-18.00,-675.00"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1838761957 -806141222:scuffed shard of channeling\\/a",
+      "locations": [
+        "1154.63,-20.00,-777.23"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1997619724 -2076063132:striped violet butterfly\\/a",
+      "locations": [
+        "1007.73,-20.00,-808.64"
+      ]
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the aged arbor",
+      "name_sortable": "agedarbor"
+    },
+    {
+      "name": "the blemished ore",
+      "name_sortable": "blemishedore"
+    },
+    {
+      "name": "the creature den",
+      "name_sortable": "creatureden"
+    },
+    {
+      "name": "the damp roots",
+      "name_sortable": "damproots"
+    },
+    {
+      "name": "the natural garden",
+      "name_sortable": "naturalgarden"
+    },
+    {
+      "name": "the unearthed stones",
+      "name_sortable": "unearthedstones"
+    }
+  ]
+}

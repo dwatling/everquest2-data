@@ -1,0 +1,135 @@
+{
+  "name": "Stormhold",
+  "name_sortable": "stormhold",
+  "region": "Karan",
+  "levels": "16-27",
+  "maps": [
+    {
+      "name": "Top Floor"
+    },
+    {
+      "name": "Quarters"
+    },
+    {
+      "name": "Dungeon"
+    },
+    {
+      "name": "Cavern"
+    }
+  ],
+  "connections": [
+    {
+      "key": "antonica"
+    },
+    {
+      "key": "befallen_epic01"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Archaeologist Elurad",
+      "name_sortable": "archaeologistelurad",
+      "utterances": [
+        "Hail adventurer!  You wouldn't happen to be interested in fortune and glory, would you?"
+      ]
+    },
+    {
+      "name": "The Char Fiend",
+      "name_sortable": "charfiend",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "The Corpse Hunter",
+      "name_sortable": "corpsehunter",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a defiled keeper",
+      "name_sortable": "defiledkeeper",
+      "utterances": [
+        "Final death comes at last."
+      ]
+    },
+    {
+      "name": "a defiled locksmith",
+      "name_sortable": "defiledlocksmith",
+      "utterances": [
+        "Feed on the fallen after we are victorious.",
+        "I will  slowly strip the fleshy tissue from your body!"
+      ],
+      "drop_coin_min": 32,
+      "drop_coin_max": 32
+    },
+    {
+      "name": "a defiled sentry",
+      "name_sortable": "defiledsentry",
+      "utterances": [
+        "Your eyes are so pretty.",
+        "Your blood calls to me.",
+        "Rest in peace.",
+        "I'm shattered and broken.",
+        "Final death comes at last."
+      ]
+    },
+    {
+      "name": "a defiled squire",
+      "name_sortable": "defiledsquire",
+      "utterances": [
+        "Final death comes at last.",
+        "That pile of bones was my friend!",
+        "You cannot eliminate us!",
+        "Brains! It's what's for dinner."
+      ]
+    },
+    {
+      "name": "Locksmith Jarl",
+      "name_sortable": "locksmithjarl",
+      "utterances": [
+        "You cannot stop us all!"
+      ]
+    },
+    {
+      "name": "Lord Androus",
+      "name_sortable": "lordandrous",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -86102345 -151067204:a ghost vile plasm \\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Quartermaster Berlon",
+      "name_sortable": "quartermasterberlon",
+      "utterances": [
+        "Vengeance ... who will avenge us?..."
+      ]
+    },
+    {
+      "name": "Sir Valinayle",
+      "name_sortable": "sirvalinayle",
+      "utterances": [
+        "This way, fair adventurer!  I hold the key to the riddle of hidden treasure.",
+        "Well, glad you made it finally.  I was beginning to wonder if you were going to show up at all!",
+        "Why do you think I called out to you?  I had foreseen your arrival, and now I must share my knowledge with you.  Are you not the great defender of Norrath?",
+        "Patience, my brave adventurer, patience. Soon, all of the riches of Stormhold will be yours. I ask that you perform a simple service on my behalf. Is that too much for one as powerful as you?",
+        "Wonderful! I knew you were my savior! Those ridiculous fire things are at it again!  They've destroyed everything with their evil hands.  My precious books were lost to them in a fire, and I want vengeance!",
+        "Thank you, my friend, thank you.  After you have vanquished them, please return to me, and the secret of the treasure of Befallen shall be yours! Did I say Befallen? I meant Stormhold... Ah how I miss Befallen... these places are so similar I keep getting them confused."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "A Secret Meeting",
+  "name_sortable": "secretmeeting",
+  "region": "Karan",
+  "zonerect": "-28.00,-17.00,27.00,15.00",
+  "type": "instance",
+  "access_quests": [
+    3870678549
+  ],
+  "connections": [
+    {
+      "key": "qey_catacomb01"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a highwayman",
+      "name_sortable": "highwayman",
+      "locations": [
+        "-4.36,-0.39,2.46"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 316935679 -843172065:Bayberry Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 2690,
+      "drop_coin_max": 2690
+    },
+    {
+      "name": "a highwayman conspirator",
+      "name_sortable": "highwaymanconspirator",
+      "locations": [
+        "14.93,1.17,1.12"
+      ],
+      "utterances": [
+        "There they are! We will slay you where you stand!",
+        "The trap worked, get em!"
+      ]
+    },
+    {
+      "name": "a highwayman meeting guard",
+      "name_sortable": "highwaymanmeetingguard",
+      "locations": [
+        "-14.65,-0.39,-8.13"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1890812893 1610908502:Advanced Carpenter Volume 49\\/a",
+          "chest": true
+        }
+      ]
+    }
+  ]
+}

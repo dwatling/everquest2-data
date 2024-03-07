@@ -1,0 +1,59 @@
+{
+  "name": "Big Bend",
+  "name_sortable": "bigbend",
+  "region": "D'Lere",
+  "zonerect": "-268.73,-156.94,241.76,233.74",
+  "type": "village",
+  "connections": [
+    {
+      "key": "freeport_combined"
+    },
+    {
+      "key": "fprt_adv03_sprawl"
+    },
+    {
+      "key": "fprt_tradeskill01_hood01"
+    },
+    {
+      "key": "fprt_sewer01"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Barch",
+      "name_sortable": "barch",
+      "utterances": [
+        "I love to barsh!"
+      ]
+    },
+    {
+      "name": "Hurska",
+      "name_sortable": "hurska",
+      "utterances": [
+        "Why are you botherin' Hurska?"
+      ]
+    },
+    {
+      "name": "Kroota Gukbutcher",
+      "name_sortable": "krootagukbutcher",
+      "utterances": [
+        "I have no time to waste on pleasantries."
+      ]
+    },
+    {
+      "name": "Molg",
+      "name_sortable": "molg",
+      "utterances": [
+        "Molg here!  Things for sale!  Buy!  Buy!  Buy!  Things!",
+        "All kinds of things!  Big things, little things, shiny things, even dull things!  But not so much the dull things.  Molg also buys things you know.  But Molg is a discriminating shopper.  Buy things!"
+      ]
+    },
+    {
+      "name": "Uggruk",
+      "name_sortable": "uggruk",
+      "utterances": [
+        "I am no city guide. Find your idle chat from some runt race, not from a son of Oggok. Begone before you find my rage!"
+      ]
+    }
+  ]
+}

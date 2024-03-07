@@ -1,0 +1,388 @@
+{
+  "name": "Bar of Brell",
+  "name_sortable": "barofbrell",
+  "region": "Other",
+  "maps": [
+    {
+      "name": "Basement"
+    },
+    {
+      "name": "Main Floor"
+    }
+  ],
+  "connections": [
+    {
+      "key": "tutorial_island02_epic02_serellian_bar"
+    },
+    {
+      "key": "antonica"
+    },
+    {
+      "key": "halas"
+    },
+    {
+      "key": "exp03_rgn_greater_faydark"
+    },
+    {
+      "key": "exile_city"
+    },
+    {
+      "key": "commonlands"
+    },
+    {
+      "key": "exp04_rgn_timorous_deep"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Balin Copperfoot",
+      "name_sortable": "balincopperfoot",
+      "purpose": "Merchant",
+      "locations": [
+        "331.79,-20.99,138.31"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -199767560 1856995189:Brewday Accoutrements to Craft XV\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6090
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 935753550 -1081133924 0 0 0:Brewday Party Fireworks Launcher\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "currency": [
+                {
+                  "gamelink": "\\aITEM -364189726 2052492544 0 0 0:Beer Token\\/a",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1693328161 -803170838 0 0 0:Claws of the Stone Sculpture\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "currency": [
+                {
+                  "gamelink": "\\aITEM -364189726 2052492544 0 0 0:Beer Token\\/a",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1583800243 855827166 0 0 0:Drinking Dhalgar Skeleton Plushie\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "currency": [
+                {
+                  "gamelink": "\\aITEM -364189726 2052492544 0 0 0:Beer Token\\/a",
+                  "amount": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1560014143 713396151 0 0 0:Emerald Zelniak\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "currency": [
+                {
+                  "gamelink": "\\aITEM -364189726 2052492544 0 0 0:Beer Token\\/a",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -196047632 601150509 0 0 0:Petamorph Wand: Krausen Wisp\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "currency": [
+                {
+                  "gamelink": "\\aITEM -364189726 2052492544 0 0 0:Beer Token\\/a",
+                  "amount": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1547376083 2116596810 0 0 0:Wall-embedded Keg\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "currency": [
+                {
+                  "gamelink": "\\aITEM -364189726 2052492544 0 0 0:Beer Token\\/a",
+                  "amount": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blingo",
+      "name_sortable": "blingo",
+      "purpose": "The Burglars",
+      "locations": [
+        "359.38,-21.0,137.53"
+      ]
+    },
+    {
+      "name": "Bouncer McGattle",
+      "name_sortable": "bouncermcgattle",
+      "locations": [
+        "327.0,-20.99,144.12"
+      ]
+    },
+    {
+      "name": "Buzzed",
+      "name_sortable": "buzzed",
+      "purpose": "Snoogle's Portable Flying Kegerator",
+      "locations": [
+        "335.5,-20.01,136.17"
+      ],
+      "utterances": [
+        "Dispense Ale?",
+        "*BZZZT* Error. Mechanical malfunction. Run self-diagnostic?",
+        "Self-diagnostic complete. Multiple part failure. Replacement of parts required.",
+        "Feysteel * BZZZT ZZZAP* acquired in Gnomeland Security. Incarnadine * ZZZAP BZZZT * acquired in Dropship Landing Zone."
+      ]
+    },
+    {
+      "name": "Colonel Mutt Fiddletwang",
+      "name_sortable": "colonelmuttfiddletwang",
+      "locations": [
+        "349.69,-21.0,141.13"
+      ]
+    },
+    {
+      "name": "Digret Runebrand",
+      "name_sortable": "digretrunebrand",
+      "purpose": "Merchant",
+      "locations": [
+        "354.25,-20.99,137.1"
+      ]
+    },
+    {
+      "name": "Dustaine",
+      "name_sortable": "dustaine",
+      "purpose": "The Burglars",
+      "locations": [
+        "360.93,-21.0,139.4"
+      ]
+    },
+    {
+      "name": "Edvan",
+      "name_sortable": "edvan",
+      "purpose": "The Burglars",
+      "locations": [
+        "357.6,-21.0,137.03"
+      ]
+    },
+    {
+      "name": "Gergy Gigglegibber",
+      "name_sortable": "gergygigglegibber",
+      "locations": [
+        "357.43,-20.99,146.39"
+      ],
+      "utterances": [
+        "Happy, happy Brelly Day!"
+      ]
+    },
+    {
+      "name": "Gilin Rockbreath",
+      "name_sortable": "gilinrockbreath",
+      "locations": [
+        "356.38,-21.0,142.01"
+      ],
+      "utterances": [
+        "Grab yerself a pint and enjoy the day, <player name>!  Who knows ye just might find a pretty young thing to grapple with by the end of it.",
+        "You bet it... Whoa!  Speak of the demon.  She is a looker!  Be still me hammerin' heart!  What mines has she been hidin' in all me life?!",
+        "That vision of perfection, over yonder.  The amber haired beauty, that's who!",
+        "What?!  Me eyes are keen, and I ain't drunk enough to see what ain't there.  Wait one gods forsaken moment!",
+        "Do you see anyone over yonder, standing in the corner?",
+        "Don't ya talk about me love like that!",
+        "Aaagh!  Damned gnome gadgetry!  Ye can never trust ‘em!  I should just be thankful that them goggles didn't simply blow up in me face, especially while I was enjoying those gorgeous ladies abroad.",
+        "Oh, blessed Brell!  What if those ladies weren't as lovely as I thought?  But I can't show me face around them again if'n they be hideous.  You can do it for me!",
+        "Go back and find each lass and let me know if'n they be hot or not.  Take the goggles and be sure you find the exact filly I saw.  Tell them whatever ya will, but don't ya dare say that yer checkin' them out for me!"
+      ]
+    },
+    {
+      "name": "Groden",
+      "name_sortable": "groden",
+      "purpose": "The Burglars",
+      "locations": [
+        "357.81,-21.0,139.5"
+      ]
+    },
+    {
+      "name": "Mraugl Stonecrusher",
+      "name_sortable": "mrauglstonecrusher",
+      "purpose": "Bartender",
+      "locations": [
+        "351.0,-20.99,151.23"
+      ],
+      "utterances": [
+        "Oi there! You hear that racket?"
+      ]
+    },
+    {
+      "name": "Oldar Foambeard",
+      "name_sortable": "oldarfoambeard",
+      "locations": [
+        "330.95,-20.99,143.49"
+      ],
+      "utterances": [
+        "Well met!  What brings ya to this mystical watering hole?",
+        "Ya'd win that wager, fer certain.  Though yer gonna be disappointed if'n ya like anything stronger than fermented river water.",
+        "The amount of swill that's passed me lips over me many years is great, and what they've got here ranks amongst the better, I must admit.  But Thurgadin Ice Brew is still the best there be!  Punch ya in the gut and leave ya head in tomorrow, it will!",
+        "Good thinking!  I like the way your mind works, <player name>.  Get us some Dwarven Ale from the bartender."
+      ]
+    },
+    {
+      "name": "a patron",
+      "name_sortable": "patron",
+      "locations": [
+        "345.94,-20.51,142.86",
+        "351.99,-20.99,135.05",
+        "358.77,-21.0,142.23",
+        "336.82,-20.58,152.15"
+      ],
+      "utterances": [
+        "Good day to you!"
+      ]
+    },
+    {
+      "name": "Rasel Alechaser",
+      "name_sortable": "raselalechaser",
+      "purpose": "Brewer",
+      "locations": [
+        "353.05,-20.99,148.01"
+      ],
+      "utterances": [
+        "Another ale!",
+        "Hey you! Ye look like ya know a good drink... Ye should help me out with somethin'.",
+        "Yer a funny one... It's Brewday, ye should be a bit more respectaful to your elders. Now if you're done flapping your gums, I'll present my offer to ya.",
+        "I'm the most respectaficated brewer since me great, great, great grandfather's uncle's nephew, Barnaby Beerswiller. Me old ancestor Barnaby is most famous for brewing Brell's Everlasting Brew. No one 'ere believes the brew exists, but I know it does!",
+        "Barnaby passed on the recipe from Brell's hands down to our family. I have it, but finding the ingredients is just a little beyond me at the moment. If ye agree to help me, I'll give ye a keg of the brew. What do ya say?"
+      ]
+    },
+    {
+      "name": "Snoogle Blitzed",
+      "name_sortable": "snoogleblitzed",
+      "purpose": "Inventor",
+      "locations": [
+        "336.91,-20.99,137.39"
+      ],
+      "utterances": [
+        "The only thing more fun than being in Brell's Bar is having you with me, Buzzed.",
+        "I wonder why they won't let us down stairs?",
+        "Give me another one Buzz, or I'll take your bolts out.",
+        "We have such a good time together.",
+        "Once again, you follow me here. Some day I will leave you alone.",
+        "Well, hello there!",
+        "Oh, I did. Well then, you must need a drink.",
+        "Hey Buzzer, pour this one some of your special stuff.",
+        "Sure you do! It is a most wonderful clockwork concoction.",
+        "Oh, I am sorry we must have already met. See I am just so lost in thought.",
+        "Well, yes I am that too. I must remember where I left them and what I did, and I was on my way to Brell's bar when I think I left them.",
+        "I have, over the years of INTENSELY studying Brewday, come up with four objects that hold great power during the Brewday festival.",
+        "Oh no, I could be, but I have a huge presentation tomorrow about the very subject, and if I drink the Gnomish Spirits required to be in the state where the powers show themselves, I will never make the presentation.",
+        "Yes, yes. And if you drink from it, you will be able to see the objects of great power.",
+        "I am not sure I can trust you with it. If you knew, you could give the presentation to the council. And then where would I be?",
+        "Oh, you're a tricky one you are.",
+        "Well, hello there.",
+        "Help with what?",
+        "I did? Well, you will need this then. It's my flask. If you lose it I will be very angry. But let me tell you a secret. These things you are after, you can only see them once you've taken a sip from my flask!",
+        "The first object of power lies in the savanna, but it can only be seen under the right circumstances. It follows its own kind, although much smaller in size.",
+        "The next flies in the sky above its home. It seems silly to its siblings and to the ones it knows. Even the dead around cannot help but laugh when it oinks.",
+        "Hello, did you bring that for me?",
+        "Oh, silly that. It's small and fast and has a tail, but when you catch it you will know its power. I last saw it on a beach coloring its scales. But it ran away too fast for me to gather.",
+        "It talks to you and yet it should not. It goes great with corned beef and a brew. But when it talks to you... ewww...",
+        "Oh yeah, it grows in a very enchanted place, and the one with the tail lives on the outskirts of the jungle. The flying one lives above a small village in the hills, and I think I told you where to find the first one.",
+        "Well, hello there! Take my flask, I think I forgot to give it to you earlier. You remember how to use it don't you? It's so wonderful.",
+        "How many more pints do you have Buzzed? .... Really? Well I should get to drinking then.",
+        "I love you my best mechanical buddy, Buzzed!"
+      ]
+    },
+    {
+      "name": "Steinmaster Borric",
+      "name_sortable": "steinmasterborric",
+      "purpose": "a cleric of Serillis",
+      "locations": [
+        "339.9,-20.99,140.27"
+      ],
+      "utterances": [
+        "You'll wanna' grab another ale. The Duke of Below's altar I'm assemblin' ain't quite ready for yer prayers, just yet.",
+        "I'm lookin' to incorporate different items from a slew of Brell's creations. Whether we wanna' admit it or not, he's had his hand in sculptin' a great many of us into being.",
+        "You and your Agents wanna' help me gather up the items? I'll light a candle for ya, when it's done."
+      ]
+    },
+    {
+      "name": "Tellar Blackswell",
+      "name_sortable": "tellarblackswell",
+      "locations": [
+        "332.54,-20.99,147.36"
+      ],
+      "utterances": [
+        "Well met!  Oh, wow.  Is the room spinning for you too?",
+        "You're right about that!  Ha ha ha!  I was on my way somewhere... when the sound of intoxicated dwarven mirth called me to the Bar of Brell.  Where was I going?",
+        "I'm in no shape to leave now, that's for sure!  But maybe if I was sober I would remember where I was going and what I was doing.",
+        "There's a wondrous tonic sold by Eurkon Al'ouz, a sarnak in Gorowyn.  I tell you, his Gorowyn Pepper Swill always sobers me right up!"
+      ]
+    },
+    {
+      "name": "Valla Brewhammer",
+      "name_sortable": "vallabrewhammer",
+      "locations": [
+        "339.15,-20.99,151.19"
+      ],
+      "utterances": [
+        "Ya'd never believe what I can brew!",
+        "Ya definitely get carried away with what I can brew.",
+        "Oh, ya think I'll spill me secrets as simple as that, eh?  I know how to hold me drink and me secrets!",
+        "HA!  Ya got a good wit about ya, I'll give ya that, <player name>!",
+        "I'll tell ya what, bring me the right items and I'll brew ya up a nice reward.  That'll answer yur question, for sure!",
+        "I'll tell ya in riddle.  Ya gotta figure it out and get me the items."
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1880231903 -448458293:Somborn Sanguine Ale\\/a",
+      "locations": [
+        "333.85,-20.99,145.61"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1930407733 1874842855:Miner's Milk\\/a",
+      "locations": [
+        "339.41,-20.99,142.82"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1156858540 -845604802:Bog Water Brew\\/a",
+      "locations": [
+        "328.57,-20.07,143.21"
+      ]
+    }
+  ]
+}

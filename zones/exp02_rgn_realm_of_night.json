@@ -1,0 +1,29 @@
+{
+  "name": "The Bonemire",
+  "name_sortable": "bonemire",
+  "region": "Overrealm",
+  "description": "This volcanic region of the Overrealm sits in eternal darkness, and holds the most secure secrets of the Empire of the Awakened. Deep within the islands may be found the Halls of Fate, the Blackscale Sepulcher, the Den of the Devourer, the Laboratory of Lord Vyemm, and even the feared Deathtoll.",
+  "levels": "65-70",
+  "connections": [
+    {
+      "key": "exp02_dun_halls_of_fate"
+    },
+    {
+      "key": "exp02_dun_halls_of_fate_epic01_sepulcher"
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1574591262 -1608280997:broken abomination incisor\\/a",
+      "locations": [
+        "-138.91,65.00,566.21"
+      ]
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the weathered geode",
+      "name_sortable": "weatheredgeode"
+    }
+  ]
+}

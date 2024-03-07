@@ -1,0 +1,287 @@
+{
+  "name": "The Cove of Decay: A Treaty for Treasure",
+  "name_sortable": "coveofdecayatreatyfortreasure",
+  "region": "Karan",
+  "zonerect": "46.00,990.00,405.00,1406.00",
+  "levels": "20-30",
+  "type": "instance",
+  "access_quests": [
+    915766997
+  ],
+  "connections": [
+    {
+      "key": "steppes"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a Bloodsaber diver",
+      "name_sortable": "bloodsaberdiver",
+      "level": 26,
+      "difficulty": "heroic",
+      "locations": [
+        "-248.45,-26.08,1312.76",
+        "-281.63,-42.76,1291.30",
+        "-260.03,-29.67,1309.37",
+        "-274.03,-43.77,1326.19",
+        "-265.02,-24.80,1320.03",
+        "-287.04,-41.81,1344.45",
+        "-280.43,-48.01,1349.06",
+        "-284.82,-47.38,1362.53",
+        "-268.37,-24.66,1337.86",
+        "-174.11,-26.31,1273.67"
+      ],
+      "utterances": [
+        "We may die, but I won't let them all escape!",
+        "Stand your ground!  You're just as dead if you leave.",
+        "If they report back to the city, we're finished!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 104,
+      "drop_coin_max": 121
+    },
+    {
+      "name": "a Bloodsaber elite guard",
+      "name_sortable": "bloodsabereliteguard",
+      "level": 27,
+      "difficulty": "heroic",
+      "locations": [
+        "-143.97,-21.95,1189.01"
+      ],
+      "utterances": [
+        "Stand your ground!  You're just as dead if you leave."
+      ]
+    },
+    {
+      "name": "a Bloodsaber emissary",
+      "name_sortable": "bloodsaberemissary",
+      "level": 27,
+      "difficulty": "heroic",
+      "locations": [
+        "-155.84,-22.30,1176.69"
+      ],
+      "utterances": [
+        "Stand your ground!  You're just as dead if you leave."
+      ]
+    },
+    {
+      "name": "a Bloodsaber guard",
+      "name_sortable": "bloodsaberguard",
+      "level": 27,
+      "difficulty": "heroic",
+      "locations": [
+        "-116.97,-11.05,1047.01",
+        "-127.17,-18.57,1045.22",
+        "-136.28,-21.56,1063.23",
+        "-200.43,-19.95,1119.45",
+        "-157.80,-22.25,1169.11"
+      ],
+      "utterances": [
+        "Stand your ground!  You're just as dead if you leave.",
+        "We may die, but I won't let them all escape!"
+      ]
+    },
+    {
+      "name": "a Bloodsaber laborer",
+      "name_sortable": "bloodsaberlaborer",
+      "level": 24,
+      "difficulty": "heroic",
+      "locations": [
+        "-133.86,-21.20,1070.35",
+        "-181.35,-22.71,1080.77",
+        "-164.06,-15.97,1093.26"
+      ],
+      "utterances": [
+        "We may die, but I won't let them all escape!",
+        "Stand your ground!  You're just as dead if you leave."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 942338143 -894051179:application for citizenship\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Bloodsaber medic",
+      "name_sortable": "bloodsabermedic",
+      "level": 24,
+      "difficulty": "heroic",
+      "locations": [
+        "-180.52,-22.84,1077.55",
+        "-162.99,-21.55,1100.93"
+      ],
+      "drop_coin_min": 139,
+      "drop_coin_max": 609
+    },
+    {
+      "name": "a Bloodsaber surveyor",
+      "name_sortable": "bloodsabersurveyor",
+      "level": 26,
+      "difficulty": "heroic",
+      "locations": [
+        "-202.81,-19.93,1117.93"
+      ]
+    },
+    {
+      "name": "a Steelhoof defender",
+      "name_sortable": "steelhoofdefender",
+      "level": 27,
+      "difficulty": "heroic",
+      "locations": [
+        "-235.68,-21.58,1180.60",
+        "-270.41,-21.43,1172.52",
+        "-152.89,-22.38,1167.85",
+        "-158.49,-22.22,1173.57"
+      ],
+      "utterances": [
+        "You will pay for that, two leg!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 140,
+      "drop_coin_max": 140,
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Steelhoof inspector",
+      "name_sortable": "steelhoofinspector",
+      "level": 26,
+      "difficulty": "heroic",
+      "locations": [
+        "-192.39,-22.42,1130.03",
+        "-203.32,-22.50,1135.87",
+        "-113.45,-20.50,1194.61",
+        "-120.11,-22.90,1200.57"
+      ],
+      "utterances": [
+        "You will pay for that, two leg!",
+        "You shall not die in vain!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1135046242 1869217096:a medium key\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Steelhoof planner",
+      "name_sortable": "steelhoofplanner",
+      "level": 26,
+      "difficulty": "heroic",
+      "locations": [
+        "-277.62,-21.91,1178.54"
+      ],
+      "utterances": [
+        "You shall not die in vain!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Steelhoof taskmaster",
+      "name_sortable": "steelhooftaskmaster",
+      "level": 27,
+      "difficulty": "heroic",
+      "locations": [
+        "-203.03,-21.37,1123.82"
+      ],
+      "utterances": [
+        "You will pay for that, two leg!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Steppes Settlers",
+          "name_sortable": "steppessettlers",
+          "value": 50
+        },
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": -100
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a tide octopus",
+      "name_sortable": "tideoctopus",
+      "level": 24,
+      "difficulty": "heroic",
+      "locations": [
+        "-225.78,-39.98,1274.52",
+        "-247.02,-35.47,1301.73"
+      ]
+    }
+  ]
+}

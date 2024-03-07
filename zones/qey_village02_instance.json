@@ -1,0 +1,111 @@
+{
+  "name": "Starcrest Commune: Shattered Sanctum",
+  "name_sortable": "starcrestcommuneshatteredsanctum",
+  "region": "Karan",
+  "zonerect": "-994.10,133.09,-534.37,477.61",
+  "type": "village",
+  "connections": [
+    {
+      "key": "qeynos_combined01"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Gelerth Bucklebrow",
+      "name_sortable": "gelerthbucklebrow",
+      "utterances": [
+        "We sure showed them who's boss!",
+        "Yeah! We got em!",
+        "Nice kill!",
+        "That was easy!",
+        "HOLY!!! I'm outta here!",
+        "Whoa, that was close!",
+        "Ummm... I was utilizing my scout skills to escape when I am outmatched... Yeah, that's it!",
+        "I knew you could handle it.",
+        "[Sigh] Likewise..."
+      ]
+    },
+    {
+      "name": "a ghastly knight",
+      "name_sortable": "ghastlyknight",
+      "locations": [
+        "714.55,-20.31,256.86",
+        "713.44,-19.93,277.45",
+        "716.73,-19.50,271.50",
+        "766.31,-25.02,332.66",
+        "769.94,-25.52,349.78",
+        "768.47,-26.24,357.7",
+        "792.12,-25.2,327.4",
+        "796.99,-25.39,317.63",
+        "784.6,-20.51,291.03",
+        "794.79,-20.5,286.17",
+        "803.7,-20.42,284.92"
+      ],
+      "utterances": [
+        "Your life...surrendered...to me!"
+      ]
+    },
+    {
+      "name": "a ghastly specter",
+      "name_sortable": "ghastlyspecter",
+      "locations": [
+        "711.58,-20.02,274.62",
+        "803.82,-20.37,254.89",
+        "785.65,-20.39,246.68",
+        "762.51,-20.32,245.68"
+      ]
+    },
+    {
+      "name": "Kyth",
+      "name_sortable": "kyth",
+      "locations": [
+        "704.9,-20.39,263.29"
+      ],
+      "utterances": [
+        "How goes it, <player name>?"
+      ]
+    },
+    {
+      "name": "a portal guardian",
+      "name_sortable": "portalguardian",
+      "locations": [
+        "736.08,-20.43,304.63",
+        "749.03,-24.67,340.07",
+        "811.15,-25.88,319.48",
+        "783.07,-20.59,277.95",
+        "810.19,-20.51,261.13",
+        "749.33,-20.63,276.1"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -375081333 -243621650:impure chunk of arcane stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Portal Taskmaster",
+      "name_sortable": "portaltaskmaster",
+      "locations": [
+        "711.57,-20.27,268.21"
+      ]
+    },
+    {
+      "name": "a Starcrest citizen",
+      "name_sortable": "starcrestcitizen",
+      "locations": [
+        "710.03,-20.16,271.33",
+        "729.90,-20.42,279.53",
+        "713.4,-20.34,260.45",
+        "725.84,-20.43,306.02",
+        "763.61,-25.14,337.73",
+        "789.6,-20.57,288.08"
+      ],
+      "utterances": [
+        "We must protect Qeynos from these monsters!",
+        "We must do everything possible to close the portals!",
+        "Destroy the foul beasts!"
+      ]
+    }
+  ]
+}

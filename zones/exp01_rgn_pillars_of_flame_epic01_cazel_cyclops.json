@@ -1,0 +1,78 @@
+{
+  "name": "Cazel's Mesa",
+  "name_sortable": "cazelsmesa",
+  "region": "Desert of Ro",
+  "zonerect": "-73.00,-10.00,108.00,200.00",
+  "connections": [
+    {
+      "key": "exp01_rgn_pillars_of_flame"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Darantar the Revived",
+      "name_sortable": "darantartherevived",
+      "utterances": [
+        "Pick on something your own size!"
+      ]
+    },
+    {
+      "name": "Darantar the Tamer",
+      "name_sortable": "darantarthetamer",
+      "utterances": [
+        "Pick on something your own size!"
+      ]
+    },
+    {
+      "name": "a Dunefury bandit",
+      "name_sortable": "dunefurybandit",
+      "utterances": [
+        "Down I go!",
+        "I'll crush you!"
+      ]
+    },
+    {
+      "name": "a Dunefury Mystic",
+      "name_sortable": "dunefurymystic",
+      "utterances": [
+        "Down I go!"
+      ]
+    },
+    {
+      "name": "Fotar",
+      "name_sortable": "fotar",
+      "drop_coin_min": 2641,
+      "drop_coin_max": 2641
+    },
+    {
+      "name": "Rarantar",
+      "name_sortable": "rarantar",
+      "utterances": [
+        "Down I go!"
+      ]
+    },
+    {
+      "name": "Venom Tail",
+      "name_sortable": "venomtail",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1302319962 -301144667:scorpion venom sac\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Votar",
+      "name_sortable": "votar",
+      "utterances": [
+        "Down I go!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1161478048 1688638915:The Desert Beasts - Page 12\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ]
+}

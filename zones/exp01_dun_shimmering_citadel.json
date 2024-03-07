@@ -1,0 +1,44 @@
+{
+  "name": "The Shimmering Citadel",
+  "name_sortable": "shimmeringcitadel",
+  "region": "Desert of Ro",
+  "zonerect": "-188.00,-316.00,303.00,254.00",
+  "levels": "50-60",
+  "maps": [
+    {
+      "name": "Upper Basement"
+    },
+    {
+      "name": "Lower Basement"
+    },
+    {
+      "name": "Palace"
+    }
+  ],
+  "connections": [
+    {
+      "key": "exp01_rgn_pillars_of_flame"
+    },
+    {
+      "key": "exp01_dun_pedestal_of_sky"
+    },
+    {
+      "key": "exp01_dun_poets_palace"
+    },
+    {
+      "key": "exp01_dun_shimmering_citadel_epic02_prism"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "an Aravu watchmistress",
+      "name_sortable": "aravuwatchmistress",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -828547253 615914939:Indicolite Relic\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ]
+}

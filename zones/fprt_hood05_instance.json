@@ -1,0 +1,60 @@
+{
+  "name": "Longshadow Alley: Daeneth Cloister",
+  "name_sortable": "longshadowalleydaenethcloister",
+  "region": "D'Lere",
+  "zonerect": "-185.63,-147.51,165.21,126.03",
+  "type": "village",
+  "connections": [
+    {
+      "key": "freeport_combined"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a Freeblood savage",
+      "name_sortable": "freebloodsavage",
+      "utterances": [
+        "Nooo...can't stop the thirst...Arrrggg!",
+        "Arrrgg...the pain...must feed..."
+      ]
+    },
+    {
+      "name": "Kora N'Vaxin",
+      "name_sortable": "koranvaxin"
+    },
+    {
+      "name": "a loyal worshiper",
+      "name_sortable": "loyalworshiper",
+      "utterances": [
+        "What do you want?",
+        "Unh...it's not possible."
+      ]
+    },
+    {
+      "name": "a Nerian guard",
+      "name_sortable": "nerianguard",
+      "utterances": [
+        "Say nothing of what you see, or else!",
+        "All Thexian hearts belong to the queen; beating or not."
+      ]
+    },
+    {
+      "name": "a Thexian rebel",
+      "name_sortable": "thexianrebel",
+      "utterances": [
+        "Look what strolled into the spider's web!",
+        "Hold them and I'll return with help!",
+        "There is no escape for you now!",
+        "I will have vengeance!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 8,
+      "drop_coin_max": 8
+    }
+  ]
+}

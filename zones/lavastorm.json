@@ -1,0 +1,333 @@
+{
+  "name": "Lavastorm",
+  "name_sortable": "lavastorm",
+  "region": "Lavastorm",
+  "description": "Lavastorm is home to the great volcano of Mount Solusek, and caverns of Solusek's Eye within its shadow. Here too are found the remains of the Temple of Solusek Ro, long fallen from its former glory.",
+  "zonerect": "-797.12,-822.96,1328.66,745.33",
+  "levels": "40-55",
+  "connections": [
+    {
+      "key": "solusekseye"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "an acolyte of flame",
+      "name_sortable": "acolyteofflame",
+      "utterances": [
+        "Where would you like the mount to take you?"
+      ]
+    },
+    {
+      "name": "a molten fragment",
+      "name_sortable": "moltenfragment",
+      "locations": [
+        "-253.11,-111.91,246.88",
+        "-268.72,-102.64,247.14",
+        "-206.10,-110.44,210.12",
+        "-228.08,-112.14,213.00",
+        "-230.22,-110.94,190.26",
+        "-251.66,-129.09,374.99",
+        "-194.98,-121.57,298.38",
+        "-204.69,-123.09,309.24",
+        "-199.63,-131.47,310.36",
+        "-260.68,-104.19,236.92"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 496056793 1014762846:an accumulation of plasma\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1560255258 2107391623:Devious Evasion III (Adept)\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a molten wormling",
+      "name_sortable": "moltenwormling",
+      "locations": [
+        "-296.26,-117.64,293.43"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 988035218 -981957323:reptile meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Sootfoot gatherer",
+      "name_sortable": "sootfootgatherer",
+      "locations": [
+        "-241.50,-130.00,310.16",
+        "-294.01,-130.44,343.58",
+        "-268.00,-130.06,349.83",
+        "-283.56,-130.02,373.11",
+        "-252.22,-131.01,336.60",
+        "-184.70,-129.98,325.24",
+        "-190.84,-129.86,335.05",
+        "-166.91,-129.86,345.29",
+        "-155.18,-130.07,330.91",
+        "-158.55,-128.99,293.56",
+        "-180.07,-115.03,221.13",
+        "-185.71,-114.60,222.83",
+        "-158.03,-114.00,228.57",
+        "-160.62,-114.00,220.14",
+        "-153.58,-114.00,209.71",
+        "-158.86,-114.00,206.55",
+        "-259.79,-112.43,168.61",
+        "-259.39,-111.30,176.00",
+        "-254.01,-130.00,307.10",
+        "-253.84,-130.00,296.68",
+        "-287.60,-112.52,302.77",
+        "-262.32,-130.00,306.96"
+      ],
+      "utterances": [
+        "Help! Help! Big ones coming!",
+        "Run away! These ones too strong!",
+        "We no can win, must flee!",
+        "Drag this one into the fire!",
+        "They want to kill us all! Charge!",
+        "Attack! Attack!  Kill everything!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1608285217 265160279:a goblin tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -507171440 -535378746:Hard Rock Blocker\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1052843420 -1153096017:Advanced Tailor Volume 45\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1513698845 782894655:large polished bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1311630067 965320946:a goblin eye\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Sootfoot harvester",
+      "name_sortable": "sootfootharvester",
+      "locations": [
+        "-349.70,-130.00,363.69",
+        "-348.89,-131.01,354.96",
+        "-252.76,-112.26,242.99",
+        "-201.46,-114.09,231.89",
+        "-228.71,-130.00,349.55",
+        "-216.90,-130.32,343.06",
+        "-235.93,-114.00,233.18"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 685460663 -56890563:a goblin claw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Sootfoot laborer",
+      "name_sortable": "sootfootlaborer",
+      "locations": [
+        "-264.43,-131.01,333.77",
+        "-245.51,-113.87,224.17",
+        "-234.94,-113.86,228.76"
+      ]
+    },
+    {
+      "name": "a Sootfoot peon",
+      "name_sortable": "sootfootpeon",
+      "locations": [
+        "-250.60,-113.32,215.25"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Sootfoot rockpicker",
+      "name_sortable": "sootfootrockpicker",
+      "locations": [
+        "-177.09,-127.54,285.02",
+        "-180.13,-130.42,309.21",
+        "-168.13,-130.23,300.10",
+        "-242.39,-130.00,315.89"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -959107685 1296290369:a goblin ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Sootfoot trixter",
+      "name_sortable": "sootfoottrixter",
+      "locations": [
+        "-262.75,-114.61,232.38"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Sootfoot warrior",
+      "name_sortable": "sootfootwarrior",
+      "locations": [
+        "-253.27,-112.37,239.76",
+        "-276.73,-111.87,232.65",
+        "-250.33,-113.90,227.10"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Sootfoot whelp",
+      "name_sortable": "sootfootwhelp",
+      "locations": [
+        "-173.05,-127.98,287.41",
+        "-161.60,-114.00,214.17",
+        "-253.32,-114.00,263.24"
+      ],
+      "utterances": [
+        "They want to kill us all! Charge!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an uninterested Sootfoot sentry",
+      "name_sortable": "uninterestedsootfootsentry",
+      "locations": [
+        "-290.27,-130.87,344.51"
+      ]
+    },
+    {
+      "name": "a young Sootfoot",
+      "name_sortable": "youngsootfoot",
+      "utterances": [
+        "Me not know you.  Me thinks you new!  You go see Blisterzonk.  He in tent past Fennin's Pass.",
+        "Blisterzonk be the goblin for you!  He in tent past Fennin's Pass.  Go now!"
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM 552335731 1402573205:Fiery Goo Residue\\/a",
+      "locations": [
+        "-319.22,-129.00,387.01"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1155600027 -1868723128:Lava Crawler Antenna\\/a",
+      "locations": [
+        "-285.49,-113.00,253.87"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 514009515 -1473778314:Lava Crawler Carapace\\/a",
+      "locations": [
+        "-173.08,-127.00,288.91"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1957257109 1819923658:Shard of the Quickest Lightning\\/a",
+      "locations": [
+        "-178.70,-130.00,323.94"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -890083009 1261925957:Shard of the Unknown Earth\\/a",
+      "locations": [
+        "-246.15,-129.00,309.93"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -131244171 174397418:Symbol of the Drunkard\\/a",
+      "locations": [
+        "-251.77,-113.00,260.88"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 439988451 -655285017:Tag of the Gapers\\/a",
+      "locations": [
+        "-223.66,-112.00,232.85"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -855693621 -1129986415:Void-Touched Scale\\/a",
+      "locations": [
+        "-201.18,-129.00,330.95"
+      ]
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the blackened animal den",
+      "name_sortable": "blackenedanimalden"
+    },
+    {
+      "name": "the blackened shrubbery",
+      "name_sortable": "blackenedshrubbery"
+    },
+    {
+      "name": "the decrepit arbor",
+      "name_sortable": "decrepitarbor"
+    },
+    {
+      "name": "the flame licked ore",
+      "name_sortable": "flamelickedore"
+    },
+    {
+      "name": "the metamorphic stone",
+      "name_sortable": "metamorphicstone"
+    },
+    {
+      "name": "the paltry roots",
+      "name_sortable": "paltryroots"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Enchanted Lands",
+  "name_sortable": "enchantedlands",
+  "region": "The Enchanted Lands",
+  "description": "Home to the merry halflings of Rivervale and the wretched goblins of Runnyeye.",
+  "zonerect": "-919.73,-1398.81,1263.92,238.36",
+  "levels": "30-40",
+  "connections": [
+    {
+      "key": "runnyeye"
+    },
+    {
+      "key": "rivervale"
+    },
+    {
+      "key": "enchanted_mini01"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Kelbri Mossborn",
+      "name_sortable": "kelbrimossborn",
+      "utterances": [
+        "Greetings, traveler. Have you come from the far off lands?"
+      ]
+    },
+    {
+      "name": "Shaydra the Wicked",
+      "name_sortable": "shaydrathewicked",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -456313925 -1059117105:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ]
+}

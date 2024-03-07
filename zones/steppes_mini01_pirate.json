@@ -1,0 +1,115 @@
+{
+  "name": "Heroic: A Pirate's Hidden Stash",
+  "name_sortable": "heroicapirateshiddenstash",
+  "region": "Karan",
+  "zonerect": "-920.00,1021.00,-816.00,1139.00",
+  "levels": "20-25",
+  "type": "instance",
+  "connections": [
+    {
+      "key": "steppes"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a cave forager",
+      "name_sortable": "caveforager",
+      "level": 22,
+      "difficulty": "heroic",
+      "locations": [
+        "843.17,-11.98,1026.26",
+        "859.98,-10.73,1031.72",
+        "884.49,-17.85,1075.01",
+        "897.79,-20.76,1082.92",
+        "919.53,-22.96,1108.88",
+        "914.53,-24.23,1132.65",
+        "857.62,-12.78,1104.20"
+      ]
+    },
+    {
+      "name": "an intoxicated pirate",
+      "name_sortable": "intoxicatedpirate",
+      "level": 24,
+      "difficulty": "heroic",
+      "locations": [
+        "914.43,-20.25,1079.96"
+      ],
+      "utterances": [
+        "Fall back and regroup.  The enemy has the upper hand!"
+      ]
+    },
+    {
+      "name": "a pirate guard",
+      "name_sortable": "pirateguard",
+      "level": 25,
+      "difficulty": "heroic",
+      "locations": [
+        "894.96,-16.45,1116.53",
+        "882.52,-18.91,1135.89",
+        "829.83,-15.67,1099.44",
+        "823.83,-15.38,1097.95"
+      ],
+      "utterances": [
+        "Keep up the assault, no matter what the cost in lives!",
+        "All hands retreat!",
+        "Cover me while we regroup!",
+        "I'll eat your heart for your cowardice!",
+        "Looks like it's time to move on!",
+        "Fall back in formation, and regroup at the rendezvous.",
+        "Somebody find a way to get us out of here!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1596355065 1021048920:foggy globe\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 1146,
+      "drop_coin_max": 1146
+    },
+    {
+      "name": "a treasure hoarder",
+      "name_sortable": "treasurehoarder",
+      "level": 26,
+      "difficulty": "heroic",
+      "locations": [
+        "840.84,-19.30,1064.75"
+      ],
+      "utterances": [
+        "Keep up the assault, no matter what the cost in lives!",
+        "Do not surrender to the invaders!",
+        "They'll kill us all!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a treasure sorter",
+      "name_sortable": "treasuresorter",
+      "level": 23,
+      "difficulty": "heroic",
+      "locations": [
+        "884.71,-17.68,1051.21",
+        "884.60,-17.49,1098.23"
+      ],
+      "utterances": [
+        "Looks like it's time to move on!",
+        "Somebody find a way to get us out of here!",
+        "They'll kill us all!",
+        "Back up before we all die!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 74,
+      "drop_coin_max": 85
+    }
+  ]
+}

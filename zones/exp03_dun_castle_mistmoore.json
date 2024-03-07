@@ -1,0 +1,418 @@
+{
+  "name": "Castle Mistmoore",
+  "name_sortable": "castlemistmoore",
+  "region": "Faydwer",
+  "zonerect": "-173.00,-158.00,100.00,158.00",
+  "levels": "70",
+  "maps": [
+    {
+      "name": "Main Floor"
+    },
+    {
+      "name": "Upper Floor"
+    },
+    {
+      "name": "Basement"
+    }
+  ],
+  "connections": [
+    {
+      "key": "exp03_rgn_loping_plains"
+    },
+    {
+      "key": "exp03_dun_mistmoore_catacombs"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Arimei V'Dhiver",
+      "name_sortable": "arimeivdhiver",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 397113180 -284265364:small bag of compost\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Arivar Z'Devzha",
+      "name_sortable": "arivarzdevzha",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -977204729 -1733118177:Emerald Amulet\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Divar B'Ingker",
+      "name_sortable": "divarbingker",
+      "drop_coin_min": 4329,
+      "drop_coin_max": 4329
+    },
+    {
+      "name": "Drela K'Tazinez",
+      "name_sortable": "drelaktazinez",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1133033886 1112751626:Emerald Scrying Stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Dzhower S'Vinimi",
+      "name_sortable": "dzhowersvinimi",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1871773141 25375289:Faywax Sealed Document\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a gypsy musician",
+      "name_sortable": "gypsymusician",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1133033886 1112751626:Emerald Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1186025986 -1217159832:Beryllium Relic\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Irinez K'Tyrimi",
+      "name_sortable": "irinezktyrimi",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2064770571 1318583467:statue of Veeshan\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Ixhrez Z'Vezilhi",
+      "name_sortable": "ixhrezzvezilhi",
+      "drop_coin_min": 38782,
+      "drop_coin_max": 38782
+    },
+    {
+      "name": "a jeering gargoyle",
+      "name_sortable": "jeeringgargoyle",
+      "drop_coin_min": 4729,
+      "drop_coin_max": 4729
+    },
+    {
+      "name": "Jravar V'Vezimei",
+      "name_sortable": "jravarvvezimei",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 728229990 1181299130:a vampiric incisor\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 4038,
+      "drop_coin_max": 4038
+    },
+    {
+      "name": "Jylevzha Z'Dwivar",
+      "name_sortable": "jylevzhazdwivar",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 728229990 1181299130:a vampiric incisor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1133033886 1112751626:Emerald Scrying Stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Jzipoz T'Vininek",
+      "name_sortable": "jzipoztvininek",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 204190846 1133292751:war fist\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Kreque Z'Qhomer",
+      "name_sortable": "krequezqhomer",
+      "drop_coin_min": 4931,
+      "drop_coin_max": 4931
+    },
+    {
+      "name": "Krivizh D'Xyla",
+      "name_sortable": "krivizhdxyla",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -977204729 -1733118177:Emerald Amulet\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Kzeque Z'Jylevar",
+      "name_sortable": "kzequezjylevar",
+      "drop_coin_min": 3615,
+      "drop_coin_max": 3615
+    },
+    {
+      "name": "Kzever T'Vythiver",
+      "name_sortable": "kzevertvythiver",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1133033886 1112751626:Emerald Scrying Stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a leering gargoyle",
+      "name_sortable": "leeringgargoyle",
+      "drop_coin_min": 5158,
+      "drop_coin_max": 8728
+    },
+    {
+      "name": "Nhivzha K'Nzhexi",
+      "name_sortable": "nhivzhaknzhexi",
+      "drop_coin_min": 6232,
+      "drop_coin_max": 6232
+    },
+    {
+      "name": "Oxanez K'Kvhiwer",
+      "name_sortable": "oxanezkkvhiwer",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 728229990 1181299130:a vampiric incisor\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Ozimi H'Izhame",
+      "name_sortable": "ozimihizhame",
+      "drop_coin_min": 8772,
+      "drop_coin_max": 8772
+    },
+    {
+      "name": "Qhepoz V'Dwiwer",
+      "name_sortable": "qhepozvdwiwer",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 728229990 1181299130:a vampiric incisor\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Qhovzha J'Setime",
+      "name_sortable": "qhovzhajsetime",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 728229990 1181299130:a vampiric incisor\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 7515,
+      "drop_coin_max": 7515
+    },
+    {
+      "name": "Rethiver Z'Rzhezsi",
+      "name_sortable": "rethiverzrzhezsi",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1133033886 1112751626:Emerald Scrying Stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Rhila D'Athelhi",
+      "name_sortable": "rhiladathelhi",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -348783277 -2030041114:large meaty bone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a silverfang warrior",
+      "name_sortable": "silverfangwarrior",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1871773141 25375289:Faywax Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 7300,
+      "drop_coin_max": 7660
+    },
+    {
+      "name": "Szela Z'Qhovar",
+      "name_sortable": "szelazqhovar",
+      "drop_coin_min": 5133,
+      "drop_coin_max": 5133
+    },
+    {
+      "name": "Szeme T'Athever",
+      "name_sortable": "szemetathever",
+      "drop_coin_min": 7491,
+      "drop_coin_max": 7491
+    },
+    {
+      "name": "Tazime Z'Szeque",
+      "name_sortable": "tazimezszeque",
+      "drop_coin_min": 7893,
+      "drop_coin_max": 7893
+    },
+    {
+      "name": "Tyhamer Z'Vythinek",
+      "name_sortable": "tyhamerzvythinek",
+      "drop_coin_min": 6108,
+      "drop_coin_max": 6108
+    },
+    {
+      "name": "Vala S'Vuevar",
+      "name_sortable": "valasvuevar",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1186025986 -1217159832:Beryllium Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -977204729 -1733118177:Emerald Amulet\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Vethinez V'Zaxi",
+      "name_sortable": "vethinezvzaxi",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1871773141 25375289:Faywax Sealed Document\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a vigilant Mistmoore guardian",
+      "name_sortable": "vigilantmistmooreguardian",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 941781269 543692388:ethereal strand\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1186025986 -1217159832:Beryllium Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1133033886 1112751626:Emerald Scrying Stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Vinipoz Z'Rethiver",
+      "name_sortable": "vinipozzrethiver",
+      "drop_coin_min": 36924,
+      "drop_coin_max": 36924
+    },
+    {
+      "name": "Vinixi B'Rxolhi",
+      "name_sortable": "vinixibrxolhi",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 397113180 -284265364:small bag of compost\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Vzhime D'Drexi",
+      "name_sortable": "vzhimeddrexi",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 728229990 1181299130:a vampiric incisor\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a watchful Mistmoore protector",
+      "name_sortable": "watchfulmistmooreprotector",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1186025986 -1217159832:Beryllium Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 941781269 543692388:ethereal strand\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1133033886 1112751626:Emerald Scrying Stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Xawer Y'Zsiwer",
+      "name_sortable": "xaweryzsiwer",
+      "drop_coin_min": 6032,
+      "drop_coin_max": 6032
+    },
+    {
+      "name": "Xivar V'Vuewer",
+      "name_sortable": "xivarvvuewer",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1871773141 25375289:Faywax Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 65065,
+      "drop_coin_max": 65065
+    },
+    {
+      "name": "Zala K'Zsiker",
+      "name_sortable": "zalakzsiker",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -977204729 -1733118177:Emerald Amulet\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Zawer D'Aripoz",
+      "name_sortable": "zawerdaripoz",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 728229990 1181299130:a vampiric incisor\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Zimer Y'Dfazsi",
+      "name_sortable": "zimerydfazsi",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1186025986 -1217159832:Beryllium Relic\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ]
+}

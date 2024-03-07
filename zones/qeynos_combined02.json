@@ -1,0 +1,4486 @@
+{
+  "name": "Qeynos Province District",
+  "name_sortable": "qeynosprovincedistrict",
+  "region": "Karan",
+  "zonerect": "-1284.00,-579.00,-48.00,337.00",
+  "type": "city",
+  "maps": [
+    {
+      "name": "Harbor"
+    },
+    {
+      "name": "Elddar Grove"
+    }
+  ],
+  "connections": [
+    {
+      "key": "qeynos_combined01"
+    },
+    {
+      "key": "qey_catacomb01"
+    },
+    {
+      "key": "qey_village05_clone"
+    },
+    {
+      "key": "qey_village05_instance"
+    },
+    {
+      "key": "qey_epic11_l10_arbor_wood_elf"
+    },
+    {
+      "key": "qey_village06_clone"
+    },
+    {
+      "key": "qey_village06_instance"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Adrianna",
+      "name_sortable": "adrianna",
+      "purpose": "Provisioner",
+      "locations": [
+        "709.42,-17.06,-309.79"
+      ],
+      "utterances": [
+        "Hello there!  Can I interest you in any wares for your travels?"
+      ]
+    },
+    {
+      "name": "Aerinleaf",
+      "name_sortable": "aerinleaf",
+      "purpose": "Broker",
+      "locations": [
+        "707.08,-17.06,-317.29"
+      ],
+      "utterances": [
+        "Don't worry, friend, if it's not on our lists then the goods do not exist.",
+        "Here is what the city has to offer, my friend. If you have any questions at all about the stock, please don't hesitate to ask."
+      ]
+    },
+    {
+      "name": "Alexander Kerr",
+      "name_sortable": "alexanderkerr",
+      "purpose": "Bowyer",
+      "locations": [
+        "683.78,-21.34,-98.89"
+      ],
+      "utterances": [
+        "Welcome to my humble shop.  We have quite a selection of weapons to choose from.  See for yourself...",
+        "Is there something you need to have custom made?  I can see if I can get one of my lads to look into it!"
+      ]
+    },
+    {
+      "name": "Aliindar",
+      "name_sortable": "aliindar",
+      "purpose": "Broker",
+      "locations": [
+        "883.85,-25.46,54.24"
+      ],
+      "utterances": [
+        "Greetings and salutations, my fair patron.  So, what is it within the confines of majestic Qeynos that I may provide for you?",
+        "The Ironforge Exchange?  The Far Seas Trading Company?  Insects of industry, my friend, waiting to be crushed beneath my boot heel!"
+      ]
+    },
+    {
+      "name": "Alissa Cleeway",
+      "name_sortable": "alissacleeway",
+      "purpose": "General Goods",
+      "locations": [
+        "914.86,-25.49,61.44"
+      ],
+      "utterances": [
+        "Browse the docks all you want, I guarantee you won't find better fish than mine."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 297271877 2096316751:a market bulletin board\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516:a torch\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1471324481 408449869:airy bread\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 2208995 -860442438:dried bread\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 892342736 -1741980157:fish\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1163716381 1887167111:flask of airy water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -665207155 1028674112:flask of filtered water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -2073169521 -471598411:flask of glacial water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -101702825 -210262797:flask of murky water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1693809351 1953525968:flask of oasis water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -952186309 -1182080420:flask of river water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -2072004030 261793975:fresh bread\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -131783375 -1453951184:jungle nut bread\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -739463200 -1375970167:peach bread\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1347014509 -1543938383:plain bread\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1513853867 -157354818:purified river water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 2088446864 1902033818:sun-baked bread\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 736640562 750306668:sweet bread\\/a"
+        }
+      ]
+    },
+    {
+      "name": "Angelia Clayton",
+      "name_sortable": "angeliaclayton",
+      "locations": [
+        "939.66,-19.55,6.55"
+      ],
+      "utterances": [
+        "Hello to you!  If you enjoy my dancing please be sure to leave a tip on the counter!"
+      ]
+    },
+    {
+      "name": "Arbuthnot Jumroller",
+      "name_sortable": "arbuthnotjumroller",
+      "locations": [
+        "785.24,-22.52,-527.98"
+      ],
+      "utterances": [
+        "Well, then, what can I do for you?"
+      ]
+    },
+    {
+      "name": "an archery instructor",
+      "name_sortable": "archeryinstructor",
+      "locations": [
+        "532.93,-17.92,-359.93"
+      ],
+      "utterances": [
+        "Many of our finest rangers have gotten there training here at Elddar Grove.",
+        "Elddar Grove has been a great training ground for all our new recruits."
+      ]
+    },
+    {
+      "name": "an arena champion",
+      "name_sortable": "arenachampion",
+      "locations": [
+        "725.54,-19.36,2.85"
+      ],
+      "utterances": [
+        "To be a champion, you first have to think like a champion!",
+        "To become the ultimate fighter in the arena, you will have to strive to be the best of the best."
+      ]
+    },
+    {
+      "name": "an arena contestant",
+      "name_sortable": "arenacontestant",
+      "utterances": [
+        "I hope you find the day to your liking.",
+        "I've seen it all. Now I just want to relax in the comfort of the city.",
+        "Oh! You snuck up on me. Good to see you.",
+        "I prefer the dark, freshly dug tunnels underground, but I guess this city will do.",
+        "I've got a good mind to go in the tavern and never come out."
+      ]
+    },
+    {
+      "name": "Ashilda MacHinry",
+      "name_sortable": "ashildamachinry",
+      "locations": [
+        "950.88,-25.5,35.16"
+      ],
+      "utterances": [
+        "There is always a way, if desire is coupled with courage.",
+        "I'm as nervous as a kerran in a room full of rocking chairs.",
+        "Strength and honor will serve you better than gold."
+      ]
+    },
+    {
+      "name": "Averniss",
+      "name_sortable": "averniss",
+      "locations": [
+        "809.95,-23.77,57.09"
+      ]
+    },
+    {
+      "name": "an awestruck Qeynos resident",
+      "name_sortable": "awestruckqeynosresident",
+      "locations": [
+        "739.19,-21.19,-32.5",
+        "801.12,-23.35,114.64",
+        "648.67,-18.26,-166.86",
+        "533.18,-20.96,-304.2",
+        "740.5,-19.79,-461.93",
+        "695.66,-11.25,-394.99"
+      ],
+      "utterances": [
+        "We must not doubt Queen Antonia. We owe much to her leadership!",
+        "Luclin represents an end to the war, an end to the Awakened. We must thank her.",
+        "Freeportians will learn the errors of their ways, one day.",
+        "Look upon our great city! Threatened time and time again, but Qeynos still stands.",
+        "May the gods continue to bless us.",
+        "We can all breathe a sigh of relief. Norrath now has a new friend in the sky, and she keeps us safe from Kerafyrm's wrath.",
+        "The night sky is so different now, I love it!",
+        "I heard some have found a way to Luclin. It is a new beginning for us now!",
+        "I know there are those who wish harm upon Qeynos, but I just feel sorry for them.",
+        "Kerafyrm is still up there... trapped, but for how long?",
+        "Luclin is whole again... I never thought I'd see such a thing.",
+        "See! We never needed Freeport's help! Queen Antonia can do it all on her own!",
+        "Luclin shines so bright...",
+        "I can look up at Luclin and know I will never see Kerafyrm's shadow again.",
+        "Even if the shissar found a way off Luclin, Queen Antonia wouldn't let any harm come to us.",
+        "Luclin... it kind of looks like an egg now, doesn't it? I hope Kerafyrm cannot get free...",
+        "If we can make Luclin whole, then there is nothing that Qeynos can't accomplish!",
+        "Luclin is so beautiful... but it's terrifying to know what she harbors within."
+      ]
+    },
+    {
+      "name": "Barmaid Ceilia Abbot",
+      "name_sortable": "barmaidceiliaabbot",
+      "purpose": "Provisioner",
+      "locations": [
+        "817.8,-23.27,52.25"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1230680062 1846598759 0 0 0:aerated mineral water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1793046727 374059509:cocoa\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 444185263 -652129761:cream cheese\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1901169081 231047307:dough\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -72718082 1138320361:milk\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -682581044 1413174528:sugar\\/a"
+        }
+      ],
+      "store_template": "kindling"
+    },
+    {
+      "name": "Barmaid Drinna",
+      "name_sortable": "barmaiddrinna",
+      "locations": [
+        "786.91,-23.22,85.48"
+      ],
+      "utterances": [
+        "Can I help you?"
+      ]
+    },
+    {
+      "name": "a Baubbleshire defender",
+      "name_sortable": "baubbleshiredefender",
+      "locations": [
+        "798.92,-21.96,-528.39"
+      ]
+    },
+    {
+      "name": "Bdorn Alehammer",
+      "name_sortable": "bdornalehammer",
+      "purpose": "Interceptor Mercenary",
+      "locations": [
+        "804.4,-23.77,61.12"
+      ],
+      "utterances": [
+        "Hail to ye, <player name>! How might I help ya?",
+        "Tis' simple, friend! My following requires me to spread the great word of Brell and to smite th' unclean! Getting a wee bit 'o coin in the process helps pay me' way!",
+        "Yup! I trained under the Stonefathers of Brell to start my path of the mysteries of the Lord of Below. One can only get so far in th' trainin' before they're sent out.",
+        "Haha! No. To hone yer' priestly craft, one needs to travel to see the world and, Brell willing, to seek out evil and crush it!"
+      ]
+    },
+    {
+      "name": "Belle Madson",
+      "name_sortable": "bellemadson",
+      "locations": [
+        "808.81,-23.77,59.97"
+      ],
+      "utterances": [
+        "Aye, drinkin's the life!"
+      ]
+    },
+    {
+      "name": "Bildi Pieflinger",
+      "name_sortable": "bildipieflinger",
+      "purpose": "Spellslinger Mercenary",
+      "locations": [
+        "814.04,-23.27,60.24"
+      ],
+      "utterances": [
+        "Well hello, <player name>! Is there something I can help with?",
+        "All stories have a beginning... My beginning was in Baubbleshire! I grew up learning the stories and songs of Misty Thicket and the city of Rivervale.",
+        "I left Baubbleshire after I was... *cough* dismissed from the Deepmug Tavern. I assure you, to this day I do not know how that riot started!",
+        "What better choice could there be for a halfling lass that travels the roads and byways of Norrath to entertain to earn a bit of coin?"
+      ]
+    },
+    {
+      "name": "Birney Abbot",
+      "name_sortable": "birneyabbot",
+      "purpose": "Bartender",
+      "locations": [
+        "804.87,-23.77,53.77"
+      ],
+      "utterances": [
+        "Feel free to browse my wares.",
+        "What can I get for ya?",
+        "Greetings, always nice to see new faces."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1230680062 1846598759 0 0 0:aerated mineral water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1618656513 -631993083:Antonia Ale (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 502648298 -366828437:canteen of pond water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1793046727 374059509:cocoa\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 444185263 -652129761:cream cheese\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1901169081 231047307:dough\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1281187795 -495418410:Dwarven Ale (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -692542167 450719094:Elven Wine (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1608751314 -1346962995:Gnomish Spirits (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1424677497 801220853:Lucan's Lager (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -72718082 1138320361:milk\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1199073772 520539661:Oggok Swill (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -682581044 1413174528:sugar\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1383852152 -1014417461:Teir'dal Blood Wine (Alcoholic)\\/a"
+        }
+      ],
+      "store_template": "kindling"
+    },
+    {
+      "name": "a Bloodsaber assassin",
+      "name_sortable": "bloodsaberassassin",
+      "locations": [
+        "746.18,-22.31,-473.36"
+      ],
+      "utterances": [
+        "Get them!"
+      ]
+    },
+    {
+      "name": "a Bloodsaber defiler",
+      "name_sortable": "bloodsaberdefiler",
+      "locations": [
+        "745.57,-22.31,-474.66"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -257105619 335124310:Ebon Relic\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 18847,
+      "drop_coin_max": 18847
+    },
+    {
+      "name": "a Bloodsaber shadowknight",
+      "name_sortable": "bloodsabershadowknight",
+      "locations": [
+        "747.84,-22.31,-472.91"
+      ]
+    },
+    {
+      "name": "Borach Anvilstrike",
+      "name_sortable": "borachanvilstrike",
+      "purpose": "Master Armorer",
+      "locations": [
+        "877.13,-24.54,-52.47"
+      ]
+    },
+    {
+      "name": "Borden Mannus",
+      "name_sortable": "bordenmannus",
+      "purpose": "Bartender",
+      "locations": [
+        "936.01,-19.55,10.16"
+      ],
+      "utterances": [
+        "Listen here,  this ain't no public brew hall! The Mermaid's Lure is for Marauders only. ",
+        "It's one of you! If it wasn't for the Captain's love of this froth, we woulda' run you out of this city just like it was the Age of Turmoil!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1230680062 1846598759 0 0 0:aerated mineral water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1618656513 -631993083:Antonia Ale (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 502648298 -366828437:canteen of pond water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1793046727 374059509:cocoa\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 444185263 -652129761:cream cheese\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1901169081 231047307:dough\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1281187795 -495418410:Dwarven Ale (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -692542167 450719094:Elven Wine (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1608751314 -1346962995:Gnomish Spirits (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1424677497 801220853:Lucan's Lager (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -72718082 1138320361:milk\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1199073772 520539661:Oggok Swill (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -682581044 1413174528:sugar\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1383852152 -1014417461:Teir'dal Blood Wine (Alcoholic)\\/a"
+        }
+      ],
+      "store_template": "kindling"
+    },
+    {
+      "name": "Boulden Smitestone",
+      "name_sortable": "bouldensmitestone",
+      "locations": [
+        "935.13,-25.53,27.01"
+      ],
+      "utterances": [
+        "We can't take any chances that the Rallosian Empire will rebuild itself.  Who will heed my call!?",
+        "Now is the time we must band together and find what's left of the Feerrott!",
+        "Some call me daft and say that it will never happen.  I wonder how many said the same before the rise of the second Rallosian Empire?",
+        "I've sent a few adventurers such as you on expeditions to recover signs that may lead me to the Feerrott, but I've had little luck. That is until I learned of an alliance between the Rallosian army and the Deathfist orcs.",
+        "Go to the Orcish Wastes and find artifacts that will lead us to the Feerrott: maps, journals, whatever you can find!"
+      ]
+    },
+    {
+      "name": "Breeno Messpie",
+      "name_sortable": "breenomesspie",
+      "locations": [
+        "554.65,-17,-412.61"
+      ],
+      "utterances": [
+        "I just need enough to tide me over until I need more."
+      ]
+    },
+    {
+      "name": "a brightened Qeynos resident",
+      "name_sortable": "brightenedqeynosresident",
+      "locations": [
+        "858.54,-25.52,34.86",
+        "702.8,-19.74,1.72",
+        "693.72,-20.96,-115.69",
+        "730.51,-19.41,-360.45"
+      ],
+      "utterances": [
+        "If we can make Luclin whole, then there is nothing that Qeynos can't accomplish!",
+        "We can all breathe a sigh of relief. Norrath now has a new friend in the sky, and she keeps us safe from Kerafyrm's wrath.",
+        "I can look up at Luclin and know I will never see Kerafyrm's shadow again.",
+        "I heard some have found a way to Luclin. It is a new beginning for us now!",
+        "Luclin shines so bright...",
+        "The night sky is so different now, I love it!",
+        "Freeportians will learn the errors of their ways, one day.",
+        "Luclin... it kind of looks like an egg now, doesn't it? I hope Kerafyrm cannot get free...",
+        "Kerafyrm is still up there... trapped, but for how long?",
+        "Even if the shissar found a way off Luclin, Queen Antonia wouldn't let any harm come to us.",
+        "Luclin is whole again... I never thought I'd see such a thing.",
+        "Look upon our great city! Threatened time and time again, but Qeynos still stands.",
+        "I know there are those who wish harm upon Qeynos, but I just feel sorry for them.",
+        "Luclin represents an end to the war, an end to the Awakened. We must thank her.",
+        "See! We never needed Freeport's help! Queen Antonia can do it all on her own!",
+        "Luclin is so beautiful... but it's terrifying to know what she harbors within.",
+        "May the gods continue to bless us."
+      ]
+    },
+    {
+      "name": "Bryson",
+      "name_sortable": "bryson",
+      "locations": [
+        "556.15,-16.52,-428.03"
+      ],
+      "utterances": [
+        "Now, if you hope to be as fine an archer as me, you should be off practicing instead of talking to me!"
+      ]
+    },
+    {
+      "name": "Bungle Proudfoot",
+      "name_sortable": "bungleproudfoot",
+      "purpose": "Halfling Mentor",
+      "locations": [
+        "693.11,-14,-421.55"
+      ],
+      "utterances": [
+        "Eh, e... xcuse me? What? Huh? Can I help you? No.. No... Too much to do. Arrrgg!"
+      ]
+    },
+    {
+      "name": "Buresh",
+      "name_sortable": "buresh",
+      "purpose": "Guard",
+      "level": 35,
+      "locations": [
+        "810.07,-20.95,143.05"
+      ],
+      "utterances": [
+        "I hate working this shift!  If the gnolls don't attack now I may die of boredom."
+      ]
+    },
+    {
+      "name": "a canine watcher",
+      "name_sortable": "caninewatcher",
+      "level": 35,
+      "locations": [
+        "974.45,-25.52,21.51",
+        "835.09,-25.31,-53",
+        "674.21,-20.32,-11",
+        "664.51,-19.38,-122.03",
+        "794.11,-21,136.93",
+        "644.74,-18.67,-253.34",
+        "516.11,-20.87,-294.5",
+        "611.98,-35.24,-226.99",
+        "779.44,-22.19,-514.17"
+      ]
+    },
+    {
+      "name": "Captain Gerafaltis",
+      "name_sortable": "captaingerafaltis",
+      "purpose": "Qeynos Guard",
+      "locations": [
+        "694.63,-21.05,-83.83"
+      ],
+      "utterances": [
+        "Good day to you, adventurer.  I hope you have been keeping yourself safe."
+      ]
+    },
+    {
+      "name": "Captain Hanstock",
+      "name_sortable": "captainhanstock",
+      "purpose": "Guard",
+      "level": 38,
+      "difficulty": "epic^3",
+      "locations": [
+        "894.52,-25.36,-50.09",
+        "863.62,-25.36,-66.54",
+        "907.59,-25.37,-9.43"
+      ],
+      "utterances": [
+        "Good day to you, citizen. All preserve Queen Antonia."
+      ]
+    },
+    {
+      "name": "Captain Salty",
+      "name_sortable": "captainsalty",
+      "locations": [
+        "795.69,-23.37,48.08"
+      ]
+    },
+    {
+      "name": "Captain Sellia",
+      "name_sortable": "captainsellia",
+      "purpose": "Skipper of the Blue Sunrise",
+      "locations": [
+        "966.31,-25.47,8.09"
+      ],
+      "utterances": [
+        "Out on the open sea, you can taste true freedom.  There is nothing like it."
+      ]
+    },
+    {
+      "name": "Captain Warland",
+      "name_sortable": "captainwarland",
+      "purpose": "Guard",
+      "level": 38,
+      "difficulty": "epic",
+      "locations": [
+        "709.65,-21.03,-36.01"
+      ],
+      "utterances": [
+        "I hate working this shift!  If the gnolls don't attack now, I may die of boredom.",
+        "Duty above all else, citizen, except honor!"
+      ]
+    },
+    {
+      "name": "Carolyn Wu",
+      "name_sortable": "carolynwu",
+      "locations": [
+        "799.63,-18.52,-379.11"
+      ]
+    },
+    {
+      "name": "Carpenter Paddock",
+      "name_sortable": "carpenterpaddock",
+      "locations": [
+        "944.13,-25.27,99.72"
+      ]
+    },
+    {
+      "name": "Carrik Burnsides",
+      "name_sortable": "carrikburnsides",
+      "purpose": "Bruiser Trainer",
+      "locations": [
+        "772.24,-19.26,-368.84"
+      ],
+      "utterances": [
+        "Idle chat is useless.  If you are not here to train, then leave."
+      ]
+    },
+    {
+      "name": "Casiopiea Dorfwife",
+      "name_sortable": "casiopieadorfwife",
+      "locations": [
+        "787.74,-23.22,104.38"
+      ],
+      "utterances": [
+        "Hello!  Such a mischievous day, is it not?"
+      ]
+    },
+    {
+      "name": "a Castleview resident",
+      "name_sortable": "castleviewresident",
+      "locations": [
+        "719.94,-20.37,-89.54",
+        "707.53,-20.44,-113.51"
+      ],
+      "utterances": [
+        "If you don't have any official business in Castleview, please return at another time."
+      ]
+    },
+    {
+      "name": "a chi practitioner",
+      "name_sortable": "chipractitioner",
+      "locations": [
+        "740.99,-21.32,-400.8"
+      ],
+      "utterances": [
+        "Welcome...welcome traveler, to the fair city of Qeynos! My, isn't it a magnificent day?",
+        "Hail, pleasure to meet you.",
+        "As a citizen of the mighty city, Qeynos, I greet you openly.",
+        "Greetings visitor, I'm glad to meet you.",
+        "Those gnolls don't scare me!  Well, maybe just a little.",
+        "It is better to swallow your pride than to lose your life."
+      ]
+    },
+    {
+      "name": "a Circle of Ten Militia guard",
+      "name_sortable": "circleoftenmilitiaguard",
+      "locations": [
+        "899.7,-25.41,-18.66",
+        "771.29,-20.64,-18.84"
+      ]
+    },
+    {
+      "name": "Commander Fluffy",
+      "name_sortable": "commanderfluffy",
+      "purpose": "Alehouse Mascot",
+      "locations": [
+        "805.74,-22.82,55.85"
+      ]
+    },
+    {
+      "name": "Commander Meldraggelien",
+      "name_sortable": "commandermeldraggelien",
+      "purpose": "Guard",
+      "level": 95,
+      "difficulty": "epic^4",
+      "utterances": [
+        "Good day to you, citizen. All preserve Queen Antonia.",
+        "I hate working this shift!  If the gnolls don't attack now, I may die of boredom."
+      ]
+    },
+    {
+      "name": "Constable Arathur",
+      "name_sortable": "constablearathur",
+      "locations": [
+        "779.97,-20.64,-14.4"
+      ],
+      "utterances": [
+        "Hail, Qeynosian. Please be on the lookout for any illicit trade activities. We must all do our part to keep corruption from creeping into our fair city. ",
+        "Some reported seeing such a coin strung about the necks of noble undead who lurk within the dark and dangerous recesses of the Down Below.",
+        "Tavern tales claim it's the key to unlocking a secret hive of thieves in the Down Below. What I wouldn't give to gain access to such a place. ",
+        "You can help the guards repel the flow of illegal libations into this city. Should you ever gain access into the hive, surely there must be evidence of the smugglers and their associates who break our laws.",
+        "The Qeynos Guard would pay a great bounty for evidence such as a list detailing what merchants in our fair city deal in illegal trade.  We must punish these Qeynosians for their illicit acts.",
+        "Excellent work, Qeynosian! The Qeynos Guard thanks you. Now we may properly fine these merchants for their illegal activities. "
+      ]
+    },
+    {
+      "name": "Crazy Charlene",
+      "name_sortable": "crazycharlene",
+      "locations": [
+        "878.58,-25.44,36.21",
+        "834.22,-23.31,43.2"
+      ]
+    },
+    {
+      "name": "Dajor Botswein",
+      "name_sortable": "dajorbotswein",
+      "locations": [
+        "984.17,-25.47,2.02"
+      ],
+      "utterances": [
+        "Don't let the pretty waves fool you; life at sea is no holiday, what with serpents, sirens and pirates.",
+        "She's beautiful, isn't she?  And deadly.",
+        "What?  Oh, no, not her, though she is rather good looking! I mean the sea... she's my mistress, my wife, my love.  Deadly, too, like all women.",
+        "Captured young, I was and never will be the same, no matter what happens.  None of us fought back the first time and them pirates moved so quick, by the time we could move they were gone.  If I see them again, I'll protect the ship as I should.  If she means for me to be sliced through by a pirate's blade, aye, then so be it.",
+        "Pirates as boarded our ship.  Do you not keep up with the news?  Stole from us they did...but not just from our ship.  Odd things they took, too.  Cap'n thinks they've brought them to Qeynos Harbor, though I think their hideout is further away from the city.  I'm going to get back those stolen trinkets, I am.",
+        "Perhaps you can.  Dunno what's going on, but them pirates have been taking spars, sails and lamps off all sorts of old ships.  Like I said, maybe some things are stashed here, but the pirates' hideout is likely out to the Steppes. The Company's put out a reward for finding them, I hear.  We can split it.",
+        "I'm having no luck with my search.  How's it going for you?",
+        "That's terrific!  I'll just stow that while you keep up the good work!  There's more out there, I'm sure of it.",
+        "Found all the missing pieces, you say?  Tell me what you found.",
+        "A short spar, a sail and a map, eh?  Very odd collection.  All we're missing is the lamp off the \"Far Talon\" and then we can claim our reward!  I've heard rumors of pirates being sighted in the Thundering Steppes; perhaps we're getting close to their hideout.",
+        "Aye.  I'm sure they won't have that lamp in any obvious location, but it might be hidden someplace where they can easily get to it again.  I'd look along the shores.  Keep an eye out for the pirates!"
+      ]
+    },
+    {
+      "name": "Dalluk Granitehand",
+      "name_sortable": "dallukgranitehand",
+      "purpose": "Graystone Guild",
+      "locations": [
+        "764.04,-19.26,-372.26"
+      ],
+      "utterances": [
+        "Ah, hello, there! Come to see the workout regimen of our stalwart bruiser trainees? Look at them have a go! THAT'S RIGHT LADS!  Dodge and counter! Take a hit to give a bigger hit!",
+        "Haha! You're not far off! As you can see, we're deep in training here. Being a bruiser requires us to put our bodies through rigorous toughening practices.",
+        "What better way to train yourself than to get right into it? Trust me, once you've taken a few square to the jaw, you learn how to take it and stand, or don't take it and fall. There aren't a lot of other choices there!",
+        "Not at all! We aren't in this simply to break bones and bruise flesh. This is about using the strength we have to help look out for and protect others. We don't need spears and swords to combat our enemies – we train our fists and bodies as weapons, ready to defend our allies at any moment.",
+        "I wouldn't call what we do, \"brutality.\" We use our strength effectively. It's important to cripple or crush an enemy as effectively as possible in any mortal struggle. Along with that is the ability to demoralize an enemy by any means possible. Yes, this is intimidation, but we use it as a tool to protect those who need it.",
+        "Hahaha! You can say that it was a bit of an umm... underground operation, if you will.",
+        "It's simple! You see, there's a couple of things in Graystone Yard that most everyone liked to do; drink, and fight. And many of us like to do both quite a bit. It's part of the reason you might have a hard time finding an intact, standing table anywhere in the Yard back in the day.",
+        "Of course! Well, it seemed that not everyone appreciated the noise that might be generated when these two pastimes are intermingled. In fact, we apparently racked ourselves up a fair amount of complaints from the harbor and from people here in the Elddar Grove.",
+        "The city guard began to break up the events, making it so that it was nearly impossible for us to enjoy our favorite pastimes. We were constantly under their watch.",
+        "It was! It all stopped for a while, but we got restless. Those of us who found the brawls we had therapeutic began to meet in secret. We decided to try and find a place where we could drink and brawl all we wanted, without the possibility of disturbing our uppity neighbors.",
+        "We did. It so happened that the wine cellar under the inn was well insulated, and proved to dampen out the sound sufficiently. The innkeeper was more than happy to have us meet down there, as long as we were careful with the wine barrels, and paid for what we busted.",
+        "Well, as I'm sure you could imagine, we ended up spending quite a bit on broken barrels of wine. It was worth it to us, though. After a time, we found that we were getting quite good at our brawling. We began to hold contests, and share technique ideas with one another, which benefited the group as a whole.",
+        "Well, as I said, we have always wanted to use our skills to help protect those around us. It was a tough sell, however. The monks here were not impressed with our capabilities, and the guard considered us a nuisance. However, once we were able to gain their respect through our actions, they allowed us to purchase an old building, and set up the Graystone Guild as an official guild within Qeynos.",
+        "Well, once the ruckus in the Graystone Yard started, we did what we could to stem the violence, but members of our guild were turning on each other, becoming enraged themselves! We couldn't stay in there any longer, and needed to find a new place to train. The monks were kind enough to let us join with them here, which is quite beneficial for all of our students!",
+        "Just one – tell everyone about the Graystone Guild! We want everyone to know we're here, and were ready to help when we're needed!"
+      ]
+    },
+    {
+      "name": "Danaera Ironheart",
+      "name_sortable": "danaeraironheart",
+      "locations": [
+        "974.48,-25.45,9.81"
+      ],
+      "utterances": [
+        "You've got the look of someone new to the city if I ever done seen one!",
+        "It can be overwhelmin', 'specially if'n ya come from some place sparser. You'll get used to it in no time, I assure ya!",
+        "I've got someone you should speak with. They'll help you settle in 'n feel a bit more at home, I guarantee it!",
+        "That they are. Name's Trelly Greenthorn. You'll find 'em in the Elddar Grove section of Qeynos Province District.",
+        "It's nothin' to be 'shamed of! In fact, it's rather nice for me to be reminded of the wonder and potential of this city when it is seen through the eyes of someone new. You'll get used to it in no time, I assure ya!",
+        "That they are. Name's Patricia Benson. You'll find 'em in the South Qeynos section of Qeynos Capitol District.",
+        "Take my advice, you'll settle in 'n feel at home here in no time!"
+      ]
+    },
+    {
+      "name": "Daylia the Vigil",
+      "name_sortable": "dayliathevigil",
+      "purpose": "Eye of Bayle",
+      "locations": [
+        "662.13,12.18,-372.36"
+      ],
+      "utterances": [
+        "I was wondering when you might come to speak to me.  I welcome you.",
+        "I did. Nothing escapes my notice in this city.  I have had my eye on you since you got here.",
+        "It is our duty to watch the shadows, to ensure that Qeynos remains safe even from that which lurks where it can't be seen.  When those threats are found, it is our duty to see that it is dealt with.",
+        "I am Daylia.  I am the Vigil of the Eye of Bayle, and it is I who directs the actions of our guild.  We have emerged from the shadows to take a more active role in the defense of Qeynos and of the Bayle bloodline.",
+        "To give that answer is to give you background on the Eye of Bayle themselves.  You see, the Eye was formed after the sudden death of Antonius Bayle the first.  His passing was unexpected, and there were whispers of an assassination.  Although there was no evidence to prove this to be the case, enough of the court believed it, even if in secret.",
+        "They surmised that if indeed there was an assassination, it was unlikely the assassin would ever be caught, and even if they were, the assassination was already done.  They felt that it was best to attempt to head these threats off before they happened.  To wage a war with the shadows in the shadows, to fight them on their ground.",
+        "Correct.  We were created to meet these dark threats head on, out of sight from the rest of the world.  We conducted our work in secret, keeping all knowledge of our existence only to ourselves and to select members of the Council.  It was imperative that the populace at large was unaware of our existence, for many would find our methods less than palatable.",
+        "We were caught off guard during the attempted kidnapping of Antonia Bayle.  Our order was powerless to stop the attempt, and had it not been for the intervention of others, it's likely that she would have been taken from us.  Our contacts in the Council were not pleased, and we wore the blame for the kidnapping attempt for not having stopped it.",
+        "They threatened to disband us, and have us arrested as assassins.  They said that we were no longer a necessary part of the protection of the Bayle line, as others had proven themselves more capable.  We argued that there was no way to prevent what happened, given the nature of the attempt, but there was no give.  They were going to do what they were going to do.",
+        "Little did we know, Antonia herself had overheard part of the conversation, and she entered the room.  She demanded an explanation, which we were bound to give.  She was shocked to learn of our existence, and asked question after question trying to learn all that she could.  When we were finished, she dismissed everyone save me.",
+        "She told me that she could not protect the order as things were.  As long as we remained hidden, the Councilors could have us dismantled from the inside, and no one would ever miss us – we never existed.  She felt that the Eye of Bayle was a necessary functioning part of Qeynos's security, and did not want to see us disbanded.  Thus, she made a bold decision.",
+        "That is correct.  She recognized that there may be some political backlash from the assassins coming forth – the word \"assassin\" itself conjures up thoughts of villainy and shadowy deeds.  However, nothing could be further from the truth.  We operate under a strict code of behavior, which all of our number are required to adhere to.  We work to protect not only the Queen, but the citizens as well.  We are the first and last line of defense against the shadows.",
+        "So that they might know the truth.  We are not hidden any more.  Whether we are honored or hated, we now want it to be for honest reasons.  We will continue to operate in the shadows, but the citizens will know, for good or ill, that we walk among them, ever vigilant in the unseen war.",
+        "I have been expecting you, <player name>.",
+        "Not much escapes the Eye of Bayle.  It's one of the reasons we are so trusted by Her Majesty.",
+        "I do.  Here is the report that Vishra expects.",
+        "Hello, <player name>.",
+        "I know many things. I have seen your accomplishments and your shortcomings.",
+        "Do not be offended. I mean no offense. We all have shortcomings. I must say yours are few  and far between, but to not acknowledge them would be a weakness and I doubt you are weak.",
+        "I do. You were sent by Master Gladewalker. I have your mission details but you will need to keep them quiet.",
+        "Good. Your task is to crash a secret meeting we have learned about between two factions  of the highwaymen. The meeting is set to take place within the Down Below. The rumor is that there might be a plot against Qeynos and we need to find out what it is.",
+        "I know they won't tell you but you have proven your skills in stealth. I want you to  eavesdrop on the meeting and find out the plot. Once you do you will need to deliver my message to the members of the meeting.",
+        "Death. They plot against Qeynos and I have permission to get rid of them for good. But  not before you find out the plot so we can act against it.",
+        "Good luck, return to me after the meeting and let me know how it went.",
+        "Greetings, <player name>. I assume all went well? What information were you able to gather?",
+        "We will not stand for this. You must go and track down this assassin. I would start your search in North Qeynos. You will likely need to lean heavily on your tracking skills.",
+        "Because that is where I would stay if I were waiting for the Queen to show herself.",
+        "You have full authority to take the assassin out. In fact, I encourage it. We do not  want them getting away and attempting this again!",
+        "I heard of your heroics. It was quite a battle.",
+        "I have eyes everywhere in this city. It is very difficult to hide things from me. Regardless, your heroics are commendable. Please report back to Master Rysian Gladewalker. I will ensure he knows of your heroics. Do you have any questions?",
+        "What is it?",
+        "What is your request? Is it gold you want? I should have known this was too good to be true.",
+        "Saving one life does not make up for the misdeeds of an enemy of Qeynos.",
+        "Go on...",
+        "That is true. I had not gotten any information on such a plot unfolding within the gates of Qeynos. I will put in a good word with the jury when his time comes to face his punishment. I will make sure he still gets his shot at becoming a citizen, though he may have to start over.",
+        "The Eye of Bayle is very proud of your service, <player name>."
+      ]
+    },
+    {
+      "name": "Delma Messpie",
+      "name_sortable": "delmamesspie",
+      "locations": [
+        "705.43,-17.39,-292.24"
+      ],
+      "utterances": [
+        "Laziness is nothing more than the habit of resting before you get tired.",
+        "Be on the lookout, friend!  I just spoke to the guards.  I've no doubt gnolls are scouting the nearby area."
+      ]
+    },
+    {
+      "name": "Diggin Diggs",
+      "name_sortable": "diggindiggs",
+      "locations": [
+        "576.41,-18.16,-416.17"
+      ],
+      "utterances": [
+        "You're looking a might shabby there.  You look like you can use some repair work.  My partner here, Steelguard, can mend any damaged piece of armor or weapons you might have, all for an outrageously low, low price!  We live for the community!",
+        "So, you're a worker with no task, eh?  If you're itchin' to fill your pockets with heavy coin, then I have a task for you.  Are you interested in hunting?",
+        "Then prepare for a hunting trip in the Forest Ruins.  I'll pay you handsomely for a bundle of badger pelts.  I may even toss in a bit of Diggs' finest armor."
+      ]
+    },
+    {
+      "name": "Dockworker Brond",
+      "name_sortable": "dockworkerbrond",
+      "locations": [
+        "932.22,-25.27,92.06"
+      ],
+      "utterances": [
+        "Well met! What can I do ye fer?",
+        "Egads! You have perfect timin. My hammer was just about on its last leg too! Thanks so  much!"
+      ]
+    },
+    {
+      "name": "Dockworker Juin'l",
+      "name_sortable": "dockworkerjuinl",
+      "locations": [
+        "956.82,-25.27,116.2"
+      ],
+      "utterances": [
+        "How can I help you? ",
+        "Um, what?",
+        "I am a half elf.",
+        "Alright look, joker... I don't have time for this.",
+        "[Sigh] Whatever..."
+      ]
+    },
+    {
+      "name": "Dockworker Kuint",
+      "name_sortable": "dockworkerkuint",
+      "locations": [
+        "965.75,-26.23,70.29"
+      ],
+      "utterances": [
+        "Oh hello there, adventurer.",
+        "Man... Just when the fish started bitin! Now I don't have an excuse to be fishin. Well, I guess it's par for the course. Thanks for the supplies."
+      ]
+    },
+    {
+      "name": "Dockworker Quint",
+      "name_sortable": "dockworkerquint",
+      "locations": [
+        "948.33,-25.44,90.68"
+      ],
+      "utterances": [
+        "Ello there! Have you seen my quantum capacitor? ",
+        "Capacitor... You don't know what that is?",
+        "Oh, excellent. I hope there is a capacitor in there. "
+      ]
+    },
+    {
+      "name": "Dortha",
+      "name_sortable": "dortha",
+      "purpose": "Mount Merchant",
+      "utterances": [
+        "Whoa! Watch your fingers! Some of the livestock haven't eaten all day.",
+        "Mounts fuuuur sale! Mounts fuuuur sale!",
+        "Down, boy! Down, boy!",
+        "Buy today and you'll receive a free feed bag!"
+      ]
+    },
+    {
+      "name": "a dragonfly",
+      "name_sortable": "dragonfly",
+      "locations": [
+        "609.73,-23.09,-294.52"
+      ]
+    },
+    {
+      "name": "a dragonfly",
+      "name_sortable": "dragonfly",
+      "locations": [
+        "609.73,-23.09,-294.52"
+      ]
+    },
+    {
+      "name": "a drunk sailor",
+      "name_sortable": "drunksailor",
+      "locations": [
+        "928.19,-25.56,62.65"
+      ],
+      "utterances": [
+        "Admiral Ravensthorpe left port on the Far Destiny a few days ago. The miserable blighter refused to tell me his ship's destination!",
+        "I've heard word of a massive flotilla of ships blocking access to some of the established trade routes! Who do they think they are?! Do the Far Seas Traders have the audacity to think they own the seas?",
+        "I've heard the Far Seas Trading Company no longer honors the Pact of Tserrin.",
+        "I don't know what to tell you, mate. If the Traders haven't found your brother by now, I'm afraid he's probably gone to the Hold of Prexus.",
+        "It's been a long time since we've seen any refugees from the Queen's Colony. Have they all been rescued?",
+        "I'm beginning to miss those young adventurers running about town, solving everyone's problems. Good work is hard to find!",
+        "Captain Rothwell and his men left port for the Queen's Colony several moons ago. Neither he, nor his ship, the Banshee Wind, has been seen since!"
+      ]
+    },
+    {
+      "name": "a duck",
+      "name_sortable": "duck",
+      "locations": [
+        "784.18,-18.72,-78.41",
+        "891.29,-25.36,-57.32",
+        "753.06,-20.69,-333.98",
+        "730.79,-18.14,-329.47"
+      ]
+    },
+    {
+      "name": "Duvo",
+      "name_sortable": "duvo",
+      "purpose": "Alchemist",
+      "locations": [
+        "654.8,10.91,-391.17"
+      ],
+      "utterances": [
+        "I'm sorry. I cannot help you.",
+        "My apologies, friend. I did not see you there ... What is it you need?"
+      ]
+    },
+    {
+      "name": "Eireneith Alannia",
+      "name_sortable": "eireneithalannia",
+      "purpose": "High Elf Mentor",
+      "locations": [
+        "694.05,-21.1,-85.8"
+      ],
+      "utterances": [
+        "Now, I'm quite busy ignoring you, so if you'll please move along..."
+      ]
+    },
+    {
+      "name": "Elddar kestrel",
+      "name_sortable": "elddarkestrel",
+      "locations": [
+        "630.95,-19.66,-248.81",
+        "558.69,-21.75,-320.14",
+        "532.19,-17.53,-385.76",
+        "599.68,-17.5,-397.94",
+        "752.62,-16.6,-310.85",
+        "779.12,-19.03,-332.68",
+        "686.61,-20.2,-313.05",
+        "710.93,-15.55,-406.55"
+      ]
+    },
+    {
+      "name": "an elddar steed",
+      "name_sortable": "elddarsteed",
+      "locations": [
+        "591.83,-18.36,-399.85"
+      ]
+    },
+    {
+      "name": "Elderstrike",
+      "name_sortable": "elderstrike",
+      "purpose": "Guard",
+      "level": 35,
+      "locations": [
+        "675.05,-20.63,-12.99"
+      ],
+      "utterances": [
+        "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out."
+      ]
+    },
+    {
+      "name": "Elendia Starleaf",
+      "name_sortable": "elendiastarleaf",
+      "purpose": "Ranger Trainer",
+      "locations": [
+        "655.59,12.22,-375.93"
+      ],
+      "utterances": [
+        "Good day, fellow ranger!  It is always nice to meet others that chose this rewarding profession.",
+        "First and foremost, be in control of the range of any fights you are involved in.  Release a deadly volley of arrows from a distance, and if your foe survives long enough to engage in hand to hand combat, remember that you are also skilled at wielding daggers and swords.",
+        "Some of our most effective hand to hand attacks are positional, meaning you need to be behind or beside an opponent for that attack to work.  So you must be aware of situations in which there are multiple foes, and avoid becoming the center of attention, as positional attacks are of little use when you're surrounded!",
+        "Last but not least, obtain items that add to your agility or stamina, when you find them!  Agility affects both your ability to inflict damage and avoid taking damage from others.  Your stamina affects your health.  This is crucial.",
+        "Hello there, you seek woodlore do you?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -322263290 -1657258067:Packaged Ranger's Armor Set\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "an entrance guard",
+      "name_sortable": "entranceguard",
+      "locations": [
+        "864.1,-25.45,-87.27"
+      ],
+      "utterances": [
+        "There is a whole lot of brawling in there. Best not to enter if you don't want to get hurt!",
+        "Chaos has taken over Graystone. No one is allowed to enter for your own safety.",
+        "It is advised that you do not enter Graystone until the dust has cleared."
+      ]
+    },
+    {
+      "name": "Erwin Rohand",
+      "name_sortable": "erwinrohand",
+      "purpose": "Provisioner",
+      "locations": [
+        "938.44,-25.55,8.29"
+      ],
+      "utterances": [
+        "Your kindness is appreciated. These wolf hides are premium wares and will fetch a handsome price.",
+        "It won't be too long now, before I can see her again! Thanks again, friend.",
+        "Are you looking to help me out? Sailors are always looking for ways to keep warm on the high seas. Wolf hides offer warmth and protection from the bone chilling waters. If you could bring me some sleek hides, the money I make selling them, will bring me closer to finding my love.",
+        "Thank you!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1230680062 1846598759 0 0 0:aerated mineral water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1271224269 -1219423686:Basic Kindling\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1011039667 1098225960:bear ribs\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 461
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 591078534 -1721374077:canteen of filtered water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 614
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2131716996 127882451:canteen of glacial water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 2458
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1506707861 -1393875592:carp poppers\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 461
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -81685109 642771507:chopped cashews\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 461
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1029602735 1440930934:chopped kiola nut\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1843
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1793046727 374059509:cocoa\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 12
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 444185263 -652129761:cream cheese\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1901169081 231047307:dough\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 12
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -665207155 1028674112:flask of filtered water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 307
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2073169521 -471598411:flask of glacial water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1229
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1001935775 -223279666:manticore ribs\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1843
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -736862678 547557890:manticore stroganoff\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1843
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -72718082 1138320361:milk\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -739463200 -1375970167:peach bread\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1229
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 388014574 1249777890:sliced apple\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 461
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -282841028 -1795905464:sliced peach\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1843
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1072771658 -638211933:smoked trout\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1843
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 739299320 1614314316:stuffed pasta puffs\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 461
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -682581044 1413174528:sugar\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 736640562 750306668:sweet bread\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 307
+            }
+          ]
+        }
+      ],
+      "store_template": "kindling"
+    },
+    {
+      "name": "Evenwood",
+      "name_sortable": "evenwood",
+      "purpose": "Guard",
+      "level": 35,
+      "locations": [
+        "664.51,-19.38,-122.03"
+      ],
+      "utterances": [
+        "Good day to you, citizen. All preserve Queen Antonia."
+      ]
+    },
+    {
+      "name": "Far'Saethe Dom",
+      "name_sortable": "farsaethedom",
+      "purpose": "Proven Merchant",
+      "locations": [
+        "746.98,-20.68,-73.61"
+      ]
+    },
+    {
+      "name": "Firus Scorchtouch",
+      "name_sortable": "firusscorchtouch",
+      "purpose": "Arcanist Mercenary",
+      "locations": [
+        "804.03,-23.27,69.04"
+      ],
+      "utterances": [
+        "Hello, <player name>. Is there something my greatness may assist?",
+        "I seek higher knowledge and to train my skills. Sadly, some of my skills are quite destructive and can not be trained safely indoors.",
+        "Indeed you have, and I shall someday be named in the ranks of the very best. As seen by my lineage, I am destined for greatness!",
+        "By the bells of Tunaria, how would you of heard of that incident? Let us just drop the subject, shall we?"
+      ]
+    },
+    {
+      "name": "Flizzle Cogplume",
+      "name_sortable": "flizzlecogplume",
+      "purpose": "Swashbuckler Trainer",
+      "locations": [
+        "667.42,12.19,-374.71"
+      ],
+      "utterances": [
+        "Well, well, what have we here?"
+      ]
+    },
+    {
+      "name": "Foorog Gallantblade",
+      "name_sortable": "fooroggallantblade",
+      "locations": [
+        "717.51,-20.3,-102.6"
+      ],
+      "utterances": [
+        "Are you intending to volunteer for service or have you come to speak of more troubles?",
+        "Already providing us aid then.  Thank Marr!  Let her know that all able bodied frogloks have been dispatched to assist where needed.  The high elves within Castleview Hamlet have been very accommodating as to tell us where we are needed!"
+      ]
+    },
+    {
+      "name": "Fosur",
+      "name_sortable": "fosur",
+      "purpose": "Guard",
+      "level": 35,
+      "locations": [
+        "702.23,-20.59,-113.16"
+      ],
+      "utterances": [
+        "I hate the night shift!  If the gnolls don't attack now I may die of boredom."
+      ]
+    },
+    {
+      "name": "a freelancer",
+      "name_sortable": "freelancer",
+      "locations": [
+        "832.03,-23.35,60.44"
+      ],
+      "utterances": [
+        "Almost time to stop and have an ale, isn't it?"
+      ]
+    },
+    {
+      "name": "a Frostfell elf",
+      "name_sortable": "frostfellelf",
+      "locations": [
+        "731.32,-21.39,-39.38"
+      ]
+    },
+    {
+      "name": "Frup Groaak",
+      "name_sortable": "frupgroaak",
+      "locations": [
+        "722.49,-20.14,-90.25"
+      ],
+      "utterances": [
+        "Any of them at all? We were wandering through the vast green lands beyond these walls, when we were set upon by brigands!",
+        "Indeed, I should think not. I was very surprised to see other of our kind around here. I and my brothers managed to make our way here from far to the south.",
+        "In the depths of the Feerrott. I cannot explain more now - trust is something which must be won, and our home cannot be revealed to those who might wish us harm.",
+        "Then perhaps you'll wish to help.",
+        "The other I came to these shores with, Giidib, set out from the beach in the opposite direction as I.",
+        "I apologize, I do not know the names of places here. T'was quite a ways south east of here, however. There was a great forest situated on the banks above.",
+        "Frooooaaaak! Have you seen any of my brothers?",
+        "I would like to see Giidib join me here in Qeynos while I plead our case to your illustrious Queen."
+      ]
+    },
+    {
+      "name": "Gelerth Bucklebrow",
+      "name_sortable": "gelerthbucklebrow",
+      "locations": [
+        "565.74,-17.8,-408.84"
+      ],
+      "utterances": [
+        "Hello again, adventurer.",
+        "Oh, you betcha! This'll be fun!",
+        "Sorry. I am ready for my first lesson.",
+        "Bullseye! Nice shot!",
+        "<player name>, how good it is to see you again.",
+        "I appreciate the offer, however I'm afraid I haven't been completely honest with you.",
+        "First, let me tell you that I have come to love this city. You see, I was a refugee and some very nice people took me in and made sure I survived. My parents were killed at sea.",
+        "Thank you. But, you see... Those people that took me in were highwaymen. They despise Qeynos. They sent me here to infiltrate the Tunarian Alliance and to lead which ever hero they chose away from their plans.",
+        "Like I said at the beginning, I have come to love Qeynos. Everyone here has been so kind. I didn't have a problem carrying out my task until you came along. You went out of your way to teach me. You didn't have to do that. You didn't ask questions, you just took me under your wing and I don't want anything bad to happen to you.",
+        "I know about the secret meeting they are sending you to. It's a trap. Once you get inside and make it past their guards they will turn on you and attempt to kill you. You shouldn't go to the meeting.",
+        "Yes, but that's okay. I am a member of Qeynos now.This is my home and I need to defend it like any other. I know of a plot the highwaymen are trying to distract you from. They have hired an assassin to make an attempt on Queen Antonia. ",
+        "Yes, I am prepared for that. In fact, when you leave me now I am going to go and turn myself in to Master Rysian.",
+        "I hope so. Regardless, I will take my punishment if it means I can earn my way to becoming a free citizen of the city.",
+        "Oh, thank you so much! You are very kind. I know I told you that you shouldn't go to the meeting, but if you do, you should teach them a lesson. There are five of them waiting for you, so be prepared."
+      ]
+    },
+    {
+      "name": "a Gigglegibber Goblin Gamblin' Game Vendor",
+      "name_sortable": "gigglegibbergoblingamblingamevendor",
+      "locations": [
+        "861.67,-25.37,106.85"
+      ],
+      "utterances": [
+        "Buy ticket, you!  Only ten shiny coins! You give just ten shiny coins and maybe you get um... many shinier coins!",
+        "Gigglegibber goblins not kill people! War no fun at all.  Gigglegibber goblins like shiny coins and funny things! We like frogs, fluffy kittens, potatoes... You have potatoes?",
+        "They tasty! Not funny!... though Gribbik carved funny face in a potato once.  That was funny until he eated it.  Hey! No try to tricks me with talk about potatoes.  You still pays ten shiny coins for ticket!  Buy many tickets! If you buys more maybe you win more than many shiny coins!"
+      ]
+    },
+    {
+      "name": "Gildas Cedartree",
+      "name_sortable": "gildascedartree",
+      "locations": [
+        "727.63,-19.68,-405.15"
+      ],
+      "utterances": [
+        "The varied paths of magic are not for everyone.  Are you here to learn mystical lessons, or can I help you with something else?",
+        "Why, thank you! A friend of mine in Qeynos tailored this for me. Perhaps I can see if she has time to make an extra set for you--if you help me with a few favors.",
+        "As a Qeynosian wizard, I'm often asked to defend the city with my magical might. Unfortunately, prior commitments require I stay in the city for the next several weeks. If you help with my responsibilities that take me outside the city, I'd be very thankful. "
+      ]
+    },
+    {
+      "name": "Gild Stonebreaker",
+      "name_sortable": "gildstonebreaker",
+      "purpose": "Barbarian Mentor",
+      "locations": [
+        "868.12,-25.54,-78.03"
+      ],
+      "utterances": [
+        "A fine day for a brawl, eh friend?"
+      ]
+    },
+    {
+      "name": "Gilp Jadefist",
+      "name_sortable": "gilpjadefist",
+      "locations": [
+        "792.32,-19.17,-405.94"
+      ],
+      "utterances": [
+        "May your path always be clear."
+      ]
+    },
+    {
+      "name": "Gimmie Gigglegibber",
+      "name_sortable": "gimmiegigglegibber",
+      "locations": [
+        "725.49,-21.39,-34.32"
+      ],
+      "utterances": [
+        "Have a gifty good time!"
+      ]
+    },
+    {
+      "name": "Gornit Penwiggle",
+      "name_sortable": "gornitpenwiggle",
+      "locations": [
+        "830.74,-23.55,124.86"
+      ],
+      "utterances": [
+        "Can't you see I'm busy doing something you can't even begin to fathom?",
+        "Looking for my coin? I earned that coin in a grand battle. I was taking on ten of the fiercest and nastiest rats, armed only with me trusty pen and no place to run so I...",
+        "Trade, eh? I guess that coin can be passed on for a price, right? I didn't go down into the dark of the Down Below for a coin. Here's a list of items I need from there. Fill my list and the coin is yours. ",
+        "Grand! Thanks a bunch, but I have some bad news 'bout your coin. ",
+        "Well, now...I was sitting here shining the little trinket, when a fellow collector snatched it from me. Said he knew the rightful owners and that I oughta' forget all 'bout it.",
+        "Sorry, mate. Trade is my life, and if I off and told you his name, I'd never be able to do business at the Collector's Trove again. Wait ... forget I said Collector's Trove will ya? ",
+        "Ah! Yes, of course ... I need to sign for that quill delivery. Yep! That's all it is. Simple ... legal ... quills. ",
+        "I agree! But what's a stout to do? My grandparents granted me this atrocious name. They say it was the name of a ferocious giant, a pirate even! Saw it on a journey once, they say. Even spoke to him! Tall tales I say."
+      ]
+    },
+    {
+      "name": "Gowan Macgillivray",
+      "name_sortable": "gowanmacgillivray",
+      "locations": [
+        "714.87,-17.06,-312.25"
+      ],
+      "utterances": [
+        "Have you the nerve to disturb this mighty Halasian?!",
+        "You cannot distract me from my duties!  More impressive individuals than you have tried, and they have failed just like you.  Leave!",
+        "Merry Frostfell!",
+        "Ahh.  What now?",
+        "Oh!  That is very nice of you.",
+        "Ah, Merry Frostfell!"
+      ]
+    },
+    {
+      "name": "Gra'Tuxan Dom",
+      "name_sortable": "gratuxandom",
+      "purpose": "Essentials Merchant",
+      "locations": [
+        "756.58,-20.75,-71.05"
+      ]
+    },
+    {
+      "name": "a Graystone Guild bruiser",
+      "name_sortable": "graystoneguildbruiser",
+      "locations": [
+        "768.75,-19.26,-375.77",
+        "768.99,-19.26,-370.26",
+        "775.11,-19.26,-371.77"
+      ],
+      "utterances": [
+        "I've better things to do than hear you cry about society being unfair.",
+        "I wish I had the ability to keep the plants in my home happy.",
+        "I've heard of you before.  Impressive.  Most impressive.",
+        "May your hair, such that it is, never fall out.",
+        "I'm not used to this weather, but my people can adapt to any change in order to survive.",
+        "I'd invite you to drink some dwarven ale with me, but I don't think you could keep it in.",
+        "It's a great day to be alive and be in Qeynos."
+      ]
+    },
+    {
+      "name": "a Graystone resident",
+      "name_sortable": "graystoneresident",
+      "locations": [
+        "853.56,-25.61,-71.63"
+      ]
+    },
+    {
+      "name": "Gregor Earthstride",
+      "name_sortable": "gregorearthstride",
+      "locations": [
+        "576.6,-18.16,-408.79"
+      ],
+      "utterances": [
+        "I can't ever seem to find the arrows I need! Nightbow's shop here is good, but it's a bit pricey."
+      ]
+    },
+    {
+      "name": "Grisvane Stonearm",
+      "name_sortable": "grisvanestonearm",
+      "purpose": "Banker",
+      "locations": [
+        "677.55,-19.42,-43.46"
+      ],
+      "utterances": [
+        "Hello there.  I'll take care of your coin and goods if they need safekeeping."
+      ]
+    },
+    {
+      "name": "Groban",
+      "name_sortable": "groban",
+      "purpose": "Guard",
+      "level": 38,
+      "difficulty": "epic",
+      "locations": [
+        "719.87,-21.38,-45.75"
+      ],
+      "utterances": [
+        "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out.",
+        "I hate working this shift!  If the gnolls don't attack now I may die of boredom."
+      ]
+    },
+    {
+      "name": "a grove deer",
+      "name_sortable": "grovedeer",
+      "locations": [
+        "634.02,-19.41,-258.59",
+        "719.23,-21.06,-456.94"
+      ]
+    },
+    {
+      "name": "Gruffin Goldtooth",
+      "name_sortable": "gruffingoldtooth",
+      "locations": [
+        "752.09,-16.22,-290.89"
+      ],
+      "utterances": [
+        "Hey there, young 'in.  Don't mind ol' Gruffin.  I'm just inspecting these here mineral veins.  This bedrock is going to be especially useful for building new homes for refugees and citizens alike.",
+        "Sure, sure.  I'm always happy to help out a fellow rock hound.  Hmm... I don't recognize this type of stone... and believe me I know my rocks.  It could be described in the books I have back home.  If you would be willing to let me hold on to this for a bit I'll see what I can find out for you.",
+        "Great. I'll go check it out right after finishing up work here.  Oh!  I have to collect those rock samples out in the Thundering Steppes!  I forgot all about that!  Could you do me a favor and collect those samples for me while I study this stone of yours?  I'll even pay you some coin for the extra work.",
+        "You young people are all so helpful around here.  It's good to see that from the younger generations ya know.  Be careful when you go out to the Steppes.  That place can be mighty dangerous for young adventurers.  Don't going rushin' out there if you are not ready.  Be sure to get enough adventurer experience first."
+      ]
+    },
+    {
+      "name": "Guard Delin",
+      "name_sortable": "guarddelin",
+      "purpose": "Fae Royal Guard",
+      "locations": [
+        "708.64,-17.08,-280.47"
+      ],
+      "utterances": [
+        "Our Queen sends her greetings!"
+      ]
+    },
+    {
+      "name": "Guard Dravin",
+      "name_sortable": "guarddravin",
+      "locations": [
+        "809.58,-22.75,71.94"
+      ]
+    },
+    {
+      "name": "Guard Kaladenth",
+      "name_sortable": "guardkaladenth",
+      "purpose": "Guard",
+      "level": 35,
+      "locations": [
+        "538.84,-20.98,-303.44"
+      ],
+      "utterances": [
+        "Duty above all else, citizen, except honor!",
+        "Good day to you, citizen. All preserve Queen Antonia.",
+        "I hate working this shift!  If the gnolls don't attack now, I may die of boredom."
+      ]
+    },
+    {
+      "name": "Guard Laelyth",
+      "name_sortable": "guardlaelyth",
+      "purpose": "Fae Mentor",
+      "locations": [
+        "614.22,-35.54,-228.88"
+      ],
+      "utterances": [
+        "Tunare's blessings!"
+      ]
+    },
+    {
+      "name": "Guard Morlo",
+      "name_sortable": "guardmorlo",
+      "purpose": "Guard",
+      "level": 35,
+      "locations": [
+        "644.74,-18.67,-253.34"
+      ],
+      "utterances": [
+        "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out."
+      ]
+    },
+    {
+      "name": "Guard Scheln",
+      "name_sortable": "guardscheln",
+      "locations": [
+        "789.42,-22.3,-534.36"
+      ],
+      "utterances": [
+        "Halt!  State your business here.",
+        "We are seeking out a fugitive implicated in several acts of rebellious behavior against the Queen.  She must be caught and brought to justice.",
+        "What do you know about the woman that was here?  If you have any information, by order of the Qeynos Guard, you must cooperate with our investigation.",
+        "Leave that to the Qeynos Guard to decide.  In the meantime, make your way out of here - you're impeding an investigation, and I'll arrest you for further questioning if I need to."
+      ]
+    },
+    {
+      "name": "Guard Stonefist",
+      "name_sortable": "guardstonefist",
+      "purpose": "Guard",
+      "level": 35,
+      "locations": [
+        "611.98,-35.24,-226.99"
+      ],
+      "utterances": [
+        "I hate working this shift!  If the gnolls don't attack now I may die of boredom."
+      ]
+    },
+    {
+      "name": "Guard Tolar",
+      "name_sortable": "guardtolar",
+      "purpose": "Guard",
+      "level": 35,
+      "locations": [
+        "514.67,-20.86,-291.42"
+      ],
+      "utterances": [
+        "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out."
+      ]
+    },
+    {
+      "name": "Guard Valmont",
+      "name_sortable": "guardvalmont",
+      "purpose": "Guard",
+      "level": 35,
+      "locations": [
+        "779.44,-22.19,-514.17"
+      ],
+      "utterances": [
+        "I hate the night shift!  If the gnolls don't attack now, I may die of boredom."
+      ]
+    },
+    {
+      "name": "Hagric Skolvein",
+      "name_sortable": "hagricskolvein",
+      "purpose": "Graystone Guild",
+      "utterances": [
+        "Hello, friend. I am Hagric Skolvein of the Graystone Guild. Have you come here to train with us?",
+        "That it is!  It's here we spend time teaching others the techniques we developed and honed, both from fighting each other, and from observation of others who were trained as brawlers. We've all worked together to help perfect our art, and now the Guild, under the direction of Dalluk, is looking to teach others what we've learned.",
+        "He is. He is the best of us, without question. It was his idea to start the guild as well, and ultimately through him that we were able to overcome the apathy we were greeted with from those around us.",
+        "So, as I'm sure you can imagine, we didn't all always just come here to fight. We had trades and duties, and Dalluk was no exception. He is a merchant by trade, selling and buying items from his contacts in Kelethin. The nightly brawls were his way, as with all of us, of a manner of relaxation. It might sound strange that fighting might be relaxing, but we found that you really get to know others and yourself in a brawl.",
+        "Dalluk was far and away the best of us. He seemed to have a sixth sense about fighting, and even when outnumbered three-to-one, he nearly always came out on top, and when he didn't, he would just laugh and say that he clearly hadn't had enough ale. He was able to watch any of us in a fight, and immediately know our weaknesses and how to counter our moves.",
+        "It happened that on one of those trips to Faydwer, he came across a young elf mage under attack from aviaks in Butcherblock Mountains. Without hesitation, he jumped into the fray, and began fighting them as he might fight one of us. He claims he remembers little of it, except that once it was over, he was standing, and the aviaks were not. Using the skills we developed here, he was able to defeat armed, deadly creatures.",
+        "It was! When he returned, he excitedly relayed the story, and insisted that we could use these skills to help others, just as he had helped the mage back in Faydwer. We were dubious – the residents here were none too pleased with our activities, and the word of a drunken dwarf and a single elven mage wasn't going to change anyone's minds.",
+        "Dalluk had an idea. He reckoned that if we were to receive backing from the monks here in Qeynos, our operation could be legitimized and we could become officially recognized within the city. So, with almost the same vigor that he used to confront the aviaks, he made his way to Elddar to speak with the monks.",
+        "Not hardly. We were nearly laughed out.  They believed us undisciplined and unfocused, saying that we would be more of a harm than a help to anyone. The worst of the bunch was Sensei Shoda's right hand, Karuda.  He berated our art, and Dalluk in particular. Finally, Dalluk had enough, and challenged him.",
+        "Karuda didn't believe it at first, and waved us off. But Dalluk didn't move, and said he wasn't leaving without the fight. Karuda refused, and turned to walk away, but Sensei Shoda was there behind him. He ordered Karuda to honor Dalluk's request, and fight him.",
+        "Karuda was furious. He immediately turned and squared off with Dalluk, and both waited for Sensei Shoda to call the start of the fight. After a few tense seconds, the call came to begin, and Karuda immediately attacked Dalluk. I wish I could have slowed time at that moment. Dalluk simply pulled back his fist, waited for the monk to come close, and then, caught Karuda square in the jaw with his fist. It was over in one punch.",
+        "He was, but not with us. He said that it was clear that Karuda let his emotions cloud his view, and that he should always take an opponent seriously. The whole exercise was a lesson for Karuda. Sensei Shoda said he saw strength within us, and told Dalluk that he would offer his backing for our guild. With his support, we received our recognition."
+      ]
+    },
+    {
+      "name": "Halc Emberstone",
+      "name_sortable": "halcemberstone",
+      "locations": [
+        "809.84,-23.28,65.29"
+      ],
+      "utterances": [
+        "Sorry about my buddy there. He's had a feeeew too many!"
+      ]
+    },
+    {
+      "name": "Harbor pincher",
+      "name_sortable": "harborpincher",
+      "locations": [
+        "939.56,-33.06,30.54",
+        "947.46,-33.03,16.76",
+        "976.75,-32.89,26.37",
+        "996.78,-31.64,35.98",
+        "993.99,-31.58,77.08",
+        "1015.79,-28.43,17.2",
+        "964.96,-32.54,43.34",
+        "977.17,-28.98,44.91",
+        "986.11,-31.40,126.32"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -399607368 757409935:crab meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Hargrove Leafsway",
+      "name_sortable": "hargroveleafsway",
+      "purpose": "Qeynos Guard",
+      "locations": [
+        "806.82,-21.24,-563.03"
+      ],
+      "utterances": [
+        "I'm sorry citizen, but it is unsafe to enter The Willow Wood just now. A well organized group of gnolls has invaded and we are awaiting reinforcements from the Queen."
+      ]
+    },
+    {
+      "name": "Harkam Nubbytoe",
+      "name_sortable": "harkamnubbytoe",
+      "locations": [
+        "793.74,-21.63,-543.69"
+      ],
+      "utterances": [
+        "Oh, I was not prepared for these types of injuries. No, no.",
+        "Hello, adventurer!  Have we met before?  I usually have a keen eye for faces.",
+        "Ah!  Well, I am usually in the castle, so that may explain it.  I see to the wishes of Queen Antonia and her guests.  That's why I'm here.",
+        "Yes!  I was sent here to tend to the burns and wounds inflicted upon the Willow Wood citizens, due to the gnoll attack.",
+        "As impossible as it may sound, it is true!  Burns and gnoll bites I was prepared for, but this...?!",
+        "I am not prepared to deal with void tainted wounds like these!",
+        "Yes, the wounded that have escaped the Baubbleshire speak of an attack of nightbloods in there!  I need a strong arcane salve to heal their wounds.",
+        "A priest at the Temple of Life should be able to provide you with a strong arcane salve.",
+        "Oh, such a relief!  I was starting to worry for you, <player name>.",
+        "Thank you greatly!  Apply it to the wounded Baubbleshire defender.",
+        "Dear gods!  What was that?!",
+        "That didn't help at all!  That only made matters worse!  Oh dear, oh dear, oh dear.",
+        "I... I don't know what could have gone so wrong!  That was a contagion agent, not a healing salve.  No Celestial Watch priest would have ever created such a thing knowingly.",
+        "Wait.  What medic was this?  Didn't you get this salve from a priest?",
+        "That was no medic of the Celestial Watch!  A superior healing salve could only have been made by a priest.  This was a purposeful act!",
+        "Around Qeynos, there is only one group capable of carrying out such a heinous act - the Bloodsabers.",
+        "If the rumors hold any truth, they are under our very feet.  Seems the decaying catacombs below our fair city serves as both resting ground for our dearly departed and breeding ground for pestilence.",
+        "Nothing good, I assure you, <player name>.  I implore you to venture Down Below and find out.  Locate their lair, and put a stop to their damnable plot.",
+        "You'll find an entrance to the Down Below along the eastern most wall, here within the Elddar Grove, past the In Range archery shop.",
+        "<player name>, you are back!  What did you find of the Bloodsabers?",
+        "Were you able to destroy it?",
+        "They hold mummified organs, and upon each jar is etched the ancient symbol of the house of Bayle.  Oh, that is not good!",
+        "These could only be the canopic jars of Kane Bayle, the traitor.  A secret worshiper of Bertoxxulous and member of the Bloodsabers.  He was put to death due to his involvement with a failed assassination attempt on his brother, Antonius IV.",
+        "I don't know.  But I do know that we cannot let them fall into the wrong hands.  I'll have to consult others about them.",
+        "Priest Ian Turner stopped by while you were away.  He provided the real Superior Salve of Nife that we needed for the wounded.",
+        "And he confirmed that it was a band of Bloodsabers that had attacked him.  He was concerned for you, too!  I will send word to him of your findings in the catacombs, and see what advice he has about the canopic jars you brought back.",
+        "Oh, no!  There are more pressing things for you, right now.  I saw a few gnolls run into Elddar Grove from the Willow Wood as some citizens were making their escape.  Find them and remove them!",
+        "You're looking a bit scuffed, but you've survived, <player name>!  For that, I am grateful!",
+        "No.  They should not have tried to attack our fair city!  Thank you for smiting those ravaging beasts!",
+        "Spoken like a true hero.  Ah, while you were away I received a message back from Priest Ian Turner concerning Kane's canopic jars.",
+        "We must be careful to properly dispose of them.  If they were disposed of carelessly, it could cause a plague of unimaginable proportions to spread throughout Qeynos!",
+        "Very true!  I know that you can be trusted with such a delicate matter, so I'm asking you to deliver it to Baron Kaedrin Ironforge at the Ironforge Exchange.  He has crafted the proper arcane objects to destroy it.",
+        "Did you find Baron Kaedrin Ironforge at the Ironforge Exchange?",
+        "Oh, that's a relief!  I cringe to think what horrible fate we have averted on this day.  You truly are a hero of Qeynos!",
+        "It's such a relief to know that those canopic jars didn't fall into the wrong hands.  In the name of Antonia and Qeynos, thank you for all of your help!",
+        "Ah good, there you are.  I've been waiting for you.",
+        "Indeed, and I think I know what you're looking for, too!",
+        "I do, but I could not follow her myself.  She asked me to tell you that she had escaped safely, and had made her way through the sewers.",
+        "There are a lot of places to hide down there.  She'll be safe enough.",
+        "Ah yes, the hero until the end, is it?  Very well, make your way into the Down Below.  She didn't leave too long ago.  If you're swift, you can catch her."
+      ]
+    },
+    {
+      "name": "Harron Griswald",
+      "name_sortable": "harrongriswald",
+      "purpose": "General Goods",
+      "locations": [
+        "948.07,-25.55,7.55"
+      ],
+      "utterances": [
+        "Ah now Kara, settle down. They were probably just big Iksar...",
+        "If you're looking for the bar, it's upstairs. Be careful of the Coldwind Marauders ... they really enjoy their drink."
+      ]
+    },
+    {
+      "name": "Highgold",
+      "name_sortable": "highgold",
+      "purpose": "Guard",
+      "level": 38,
+      "difficulty": "epic",
+      "locations": [
+        "709.65,-21.03,-36.01"
+      ],
+      "utterances": [
+        "Good day to you, citizen! All preserve Queen Antonia.",
+        "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out.",
+        "Duty above all else, citizen, except honor!"
+      ]
+    },
+    {
+      "name": "Hilldon",
+      "name_sortable": "hilldon",
+      "purpose": "Guard",
+      "level": 35,
+      "locations": [
+        "910.85,-25.36,85.12",
+        "928.98,-25.46,20.36",
+        "906.37,-25.28,47.3"
+      ],
+      "utterances": [
+        "Duty above all else, citizen, except honor!"
+      ]
+    },
+    {
+      "name": "a hungry Baubbleshire citizen",
+      "name_sortable": "hungrybaubbleshirecitizen",
+      "locations": [
+        "795.7,-21.35,-508.39",
+        "780.19,-22.32,-523.27",
+        "783.52,-22.16,-532.34"
+      ]
+    },
+    {
+      "name": "Hunter Lathar Forestdeep",
+      "name_sortable": "hunterlatharforestdeep",
+      "locations": [
+        "618.58,-14.6,-387.61"
+      ],
+      "utterances": [
+        "What do you need? I'm very busy.",
+        "Yes, yes, that's fine.  I suppose it would be rude of me not to offer you anything in return. It's not much, but it's something."
+      ]
+    },
+    {
+      "name": "Ian Cathlan",
+      "name_sortable": "iancathlan",
+      "locations": [
+        "792.12,-20.8,-46.08"
+      ],
+      "utterances": [
+        "I'm sorry. I don't know who ye are.  If ye'd be so kind as ta leave me to my business, I'd appreciate it.  Good day ta ye."
+      ]
+    },
+    {
+      "name": "Inim Candychewer",
+      "name_sortable": "inimcandychewer",
+      "locations": [
+        "733.01,-21.39,-30.09"
+      ],
+      "utterances": [
+        "Hello, my friend. Are you here to learn about Frostfell?",
+        "Are you kidding? Frostfell is the most special-est, best-est time of the whole year! It's the most fun you've ever had! Everyone is happy and cheery and everyone loves everyone else! The first day of Frostfell is Kinship Day, and then there is Feasting Day, then the best day of all, Gifting Day and then there's Frostfell Day!",
+        "A long time ago, when everyone was sad and hungry, suddenly a lot of happiness and food just showed up at everyone's house. That's where Frostfell comes from.",
+        "That's all I care about.",
+        "What do you want to know?",
+        "Kinship Day is the day devoted to the love of family and friends. Everyone gets together and hugs and tells each other how much they love each other. It is a really beautiful day, all those people being super happy and spending time with each other!",
+        "Feasting Day is when everyone gets together and cooks up the best foods you can imagine; Vulrich casserole, manticore surprise, chocolate covered lion tails. It's great!",
+        "Gifting Day is easily the best day of all! That's when everyone gives each other gifts! It's so incredibly super. Every year Lord Bowsprite knits us all these great sweaters.",
+        "Frostfell Day marks the last day of Frostfell. The day is filled with sincere good byes and well wishes. Everyone sings and dances and there is usually a grand parade. It is the bestest end to any celebration ever!"
+      ]
+    },
+    {
+      "name": "Initiate Lo Fan",
+      "name_sortable": "initiatelofan",
+      "locations": [
+        "765.09,-19.26,-385.97"
+      ]
+    },
+    {
+      "name": "Initiate Lunaru",
+      "name_sortable": "initiatelunaru",
+      "locations": [
+        "768.85,-19.26,-384.75"
+      ],
+      "utterances": [
+        "Sorry, I can't speak now.  I must prepare for my sparring exercises."
+      ]
+    },
+    {
+      "name": "Initiate Tara",
+      "name_sortable": "initiatetara",
+      "locations": [
+        "772.84,-19.26,-383.45"
+      ],
+      "utterances": [
+        "Tread softly and speak your purpose."
+      ]
+    },
+    {
+      "name": "an injured Baubbleshire citizen",
+      "name_sortable": "injuredbaubbleshirecitizen",
+      "locations": [
+        "788.91,-22.15,-505.67",
+        "795.71,-21.36,-508.52",
+        "780.74,-22.32,-521.81",
+        "779.55,-22.24,-515.77",
+        "785.4,-22.15,-533.23",
+        "789.9,-21.04,-545.21",
+        "795.78,-21.01,-549.65",
+        "806.37,-21.79,-547.04",
+        "805.95,-20.23,-539.58"
+      ],
+      "utterances": [
+        "Ugh... it all hurts.  I hope this isn't the end for me...",
+        "Oh, thank you!  I feel much better already!"
+      ]
+    },
+    {
+      "name": "Innkeeper Galsway",
+      "name_sortable": "innkeepergalsway",
+      "purpose": "General Goods",
+      "locations": [
+        "810.62,-17.27,48.01"
+      ],
+      "utterances": [
+        "What is it you need, traveler? If it's reasonable rates, fine food and ale you desire, you've come to the right inn."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 297271877 2096316751:a market bulletin board\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516:a torch\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1471324481 408449869:airy bread\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 2208995 -860442438:dried bread\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1163716381 1887167111:flask of airy water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -665207155 1028674112:flask of filtered water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -2073169521 -471598411:flask of glacial water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -101702825 -210262797:flask of murky water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1693809351 1953525968:flask of oasis water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -952186309 -1182080420:flask of river water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -2072004030 261793975:fresh bread\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -131783375 -1453951184:jungle nut bread\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -739463200 -1375970167:peach bread\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1347014509 -1543938383:plain bread\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1513853867 -157354818:purified river water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 2088446864 1902033818:sun-baked bread\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 736640562 750306668:sweet bread\\/a"
+        }
+      ]
+    },
+    {
+      "name": "Investigator Keklem",
+      "name_sortable": "investigatorkeklem",
+      "purpose": "Qeynos Guard",
+      "locations": [
+        "780.39,-20.64,-34.9"
+      ],
+      "utterances": [
+        "I have a lot of work to do, so please be on your way.",
+        "Ah look, another adventurer has barged their way into the guard quarters.  Is there something I can do for you?",
+        "Oh goodie.  I'm surprised you didn't just solve the problem with your axe or spiked club or whatever it is that you're hauling around.  This might call for a new holiday.  \"Adventurers Actually Let Someone Else Do Something For Once Day.\"  I love the sound of that.",
+        "Very well... what is the nature of your report?",
+        "Oh?  And how did you come to this conclusion?",
+        "I see... that is very interesting.  May I see this note?",
+        "Yes yes... this will help our investigation.  You've done a good service for Qeynos.  Please go with our thanks, and tell this... Rinna, was it?  Tell her thank you from us, too."
+      ]
+    },
+    {
+      "name": "Jarek O'Kelly",
+      "name_sortable": "jarekokelly",
+      "utterances": [
+        "I just got a shipment in from the Far Sea's Trading Company.  I don't just show anybody this stuff so, shhhh!  "
+      ]
+    },
+    {
+      "name": "Jendan Greenthorn",
+      "name_sortable": "jendangreenthorn",
+      "utterances": [
+        "Ah Brunn!  I see my sister finally cured you.  I understand, though, that you cured yourself!",
+        "Well, hopefully that someone will continue watching your back.  Now, I asked Trelly to have you speak with me about something urgent as soon as you got better.",
+        "While I was captured, the gnolls guarding me spoke about another operation in the Forest Ruins.  Apparently this invasion of theirs isn't going as smoothly as they'd hoped.",
+        "Exactly.  The bad news, however, is that they're digging a tunnel within the ruined castle with the Capitol District as their target.  I guess this is their \"Plan B.\"",
+        "The Qeynos Guard will have to step in here, as I and the rest of us within the Tunarian Alliance are still dealing with the gnolls in The Willow Wood.  They've yet to hear my scouting report.",
+        "A Colonel Belaridonis.  He's a high elf who I've worked with in the past.  He's stationed inside the Forest Ruin near the gate.  Relay what I've told you to him.  I warn you, though, even for a high elf he's exceptionally contemptuous of anyone non-Koada'Dal.",
+        "Ah <player name>!  I see my sister finally cured you.  I understand, though, that you cured yourself!"
+      ]
+    },
+    {
+      "name": "Jennis Proudhilt",
+      "name_sortable": "jennisproudhilt",
+      "locations": [
+        "816.79,-23.41,66.91",
+        "752.3,-16.17,-296.78"
+      ],
+      "utterances": [
+        "Blessings to you <player name>. How may I be of service?",
+        "To be a Paladin requires far more than most are able to pay, be that monetarily, physically or spiritually. Coming from a high-ranking family in Qeynos, the cash and the time were easy. ",
+        "Ah, that is another matter entirely. One must build their soul through tests of courage and piety, to be a perfect weapon for their faith.",
+        "I assure you, I am well worth my fee and it shall indeed be paid. The money I acquire though, goes to the faith first and foremost.",
+        "I shall defend you with my life... Or until you run out of coin..."
+      ]
+    },
+    {
+      "name": "Jerben Sleepwell",
+      "name_sortable": "jerbensleepwell",
+      "locations": [
+        "955.29,-25.55,15.09"
+      ],
+      "utterances": [
+        "It's been so long since I've had one of my wife's special desserts! I want some crunchies! Will you help me get more crunchies?",
+        "Hello fellow patron!",
+        "Oh, I was just reminiscing about how my lovely wife would bake white batwing crunchies--everyone loved those crunchy treats, but we've run out of albino batwings to make them.",
+        "Really? You'd help me, friend? That's wonderful. I've not had the crunchies in so long; I forget what they taste like. You'll find the albino bats living in the caves near here. Bring back several wings and I'll be forever in your debt."
+      ]
+    },
+    {
+      "name": "Jumpa-Lope",
+      "name_sortable": "jumpalope",
+      "locations": [
+        "904.38,-25.37,81.13"
+      ],
+      "utterances": [
+        "?",
+        "...",
+        "Snort ..."
+      ]
+    },
+    {
+      "name": "Jumpa-Lope",
+      "name_sortable": "jumpalope",
+      "utterances": [
+        "..."
+      ]
+    },
+    {
+      "name": "Kaldin Deeppockets",
+      "name_sortable": "kaldindeeppockets",
+      "purpose": "General Goods",
+      "locations": [
+        "806.31,-20.43,-525.22"
+      ],
+      "utterances": [
+        "I used to be one of the most famous brewmasters in Qeynos... till the gnolls burnt down me pub!",
+        "Pleased to meet you, I'd be, if circumstances weren't so dire."
+      ],
+      "store": [
+        {
+          "item_id": 1867785218
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1347014509 -1543938383:plain bread\\/a"
+        }
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Kanni Darkrock",
+      "name_sortable": "kannidarkrock",
+      "purpose": "Graystone Guild Bartender",
+      "locations": [
+        "764.37,-19.26,-369.78"
+      ]
+    },
+    {
+      "name": "Karg Icemoore",
+      "name_sortable": "kargicemoore",
+      "locations": [
+        "818.43,-17.27,54.57"
+      ],
+      "utterances": [
+        "Welcome to Fish's Alehouse and Inn, finest brewhall in all of Qeynos -- no -- finest brewhall in all of Norrath!!  Belly up to Birney.  He'll get yer order.",
+        "Brell save me! Keep that book lowered. I don't need the Guard marchin' in and findin' me doing business with yer type. "
+      ]
+    },
+    {
+      "name": "Kashi Schoj",
+      "name_sortable": "kashischoj",
+      "purpose": "Beastlord Trainer",
+      "locations": [
+        "662.92,10.91,-390.41"
+      ],
+      "utterances": [
+        "Psst ... I'm cutting you in on the deal of a lifetime.",
+        "I have to dump this stuff and move out tonight. Staying one step ahead of my, uh, happy customers.",
+        "Don't let these deals slip through your fingers.",
+        "Of course we deliver! I'll just need an address, key, and the times when you won't be home."
+      ],
+      "store": [
+        {
+          "item_id": -901218914
+        }
+      ]
+    },
+    {
+      "name": "Kelia Spiritward",
+      "name_sortable": "keliaspiritward",
+      "locations": [
+        "720.5,-18.4,-417.99"
+      ],
+      "utterances": [
+        "This river is beautiful, is it not?  I love watching the water flow through it."
+      ]
+    },
+    {
+      "name": "Kell Silentfang",
+      "name_sortable": "kellsilentfang",
+      "purpose": "Martial Mercenary",
+      "locations": [
+        "810.9,-23.27,43.31"
+      ],
+      "utterances": [
+        "Yes <player name>, is there something I can help you with?",
+        "I am fully devoted to my home city of Qeynos, however apparently living a life of meditation and inner calm does not pay very well. In order to keep the life I am accustomed to I must adapt to such a life that I can pay for the roof over my head and floor beneath my feet.",
+        "I am not a violent person but I do consider myself to be a protective person. If I can fill that role with you and make some extra coin on the side it could be advantageous for the both of us!"
+      ]
+    },
+    {
+      "name": "Khai Lightfall",
+      "name_sortable": "khailightfall",
+      "purpose": "Monk Trainer",
+      "locations": [
+        "768.52,-19.26,-380.88"
+      ],
+      "utterances": [
+        "May yourr life be uneventful frriend."
+      ]
+    },
+    {
+      "name": "Kitty",
+      "name_sortable": "kitty",
+      "locations": [
+        "537.67,-17.1,-396.33"
+      ]
+    },
+    {
+      "name": "Kizmit",
+      "name_sortable": "kizmit",
+      "purpose": "Banker",
+      "locations": [
+        "682.89,-19.41,-39.64"
+      ],
+      "utterances": [
+        "Greetings, would you like to open an account or is there something else I can help with?"
+      ]
+    },
+    {
+      "name": "a koi",
+      "name_sortable": "koi",
+      "locations": [
+        "762.76,-25.96,-401.23",
+        "763.06,-25.96,-387.63",
+        "763.48,-26.21,-374.24",
+        "789.28,-27.3,-393.5",
+        "776.71,-27.3,-413.46",
+        "753.55,-26.88,-424.61"
+      ]
+    },
+    {
+      "name": "Kwa Stalwart",
+      "name_sortable": "kwastalwart",
+      "locations": [
+        "872.71,-25.51,-69.27"
+      ],
+      "utterances": [
+        "Hath Marr forsaken us?!  What plagues will befall our great city next?!",
+        "Use care when forming your next words, lest ye may find speaking without a tongue challenging!",
+        "Were you behind this?  A criminal returning to the scene, ye are!",
+        "I must purge the city of your ilk!",
+        "Thank ye!  I am recovered now, my brave friend.",
+        "I will not.  I... I am unsure of what had taken over my mind.  I felt such a burning... rage.  Oh!",
+        "I must have been affected by the warfare fever malady afflicting the citizens of Graystone Yard.  It was a blessing that I had not tarried in there for long, lest the rage taken a permanent root.",
+        "Marr be praised!  Yes.  Inform her of the warfare fever within Graystone Yard."
+      ]
+    },
+    {
+      "name": "Kyla Pursglove",
+      "name_sortable": "kylapursglove",
+      "purpose": "Assassin Trainer",
+      "locations": [
+        "651.64,10.91,-390.11"
+      ],
+      "utterances": [
+        "To attack from the shadows is the greatest of advantages.  An enemy cannot defend against an attack it can never see."
+      ]
+    },
+    {
+      "name": "Kyren Darkcloud",
+      "name_sortable": "kyrendarkcloud",
+      "purpose": "Ruffian Mercenary",
+      "locations": [
+        "812.39,-23.27,58.09"
+      ],
+      "utterances": [
+        "Hail and good day to you, <player name>!",
+        "What more enriching life is there? Adventure around every corner and I get to be paid for my services, no matter what the Qeynos guard might say!",
+        "Oh, tis' but a footnote in my story, good friend! Tis' amazing what they consider \"against the rules\"! I assure you, if you pay me well, no such troubles may arise.",
+        "Together, we shall emblazon our names across legend and gain more fame than the very gods themselves!"
+      ]
+    },
+    {
+      "name": "Kyth",
+      "name_sortable": "kyth",
+      "locations": [
+        "808.81,-23.77,59.97"
+      ],
+      "utterances": [
+        "How goes it, <player name>?"
+      ]
+    },
+    {
+      "name": "Lambent",
+      "name_sortable": "lambent",
+      "purpose": "City Merchant",
+      "locations": [
+        "715.19,-17.06,-321.73"
+      ],
+      "utterances": [
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Welcome! What can I help you with?",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+      ]
+    },
+    {
+      "name": "Leila Fleetfoot",
+      "name_sortable": "leilafleetfoot",
+      "locations": [
+        "810.86,-23.27,61.15"
+      ],
+      "utterances": [
+        "Just a nipper before I head home!"
+      ]
+    },
+    {
+      "name": "Lerad Boilfist",
+      "name_sortable": "leradboilfist",
+      "locations": [
+        "943.09,-25.27,108.4"
+      ],
+      "utterances": [
+        "These walls won't fix themselves!  If you don't have business with me, then you'd best be on your way."
+      ]
+    },
+    {
+      "name": "Lieoonlioo Croosinian",
+      "name_sortable": "lieoonlioocroosinian",
+      "purpose": "Troubador Trainer",
+      "locations": [
+        "659.26,10.91,-393.06"
+      ],
+      "utterances": [
+        "Well met, <player name>.  What brings you to the Elddar Grove this fine day?"
+      ]
+    },
+    {
+      "name": "Lieutenant Oakheart",
+      "name_sortable": "lieutenantoakheart",
+      "purpose": "Guard",
+      "level": 38,
+      "difficulty": "epic^2",
+      "locations": [
+        "684.36,-19.52,-277.75",
+        "649.86,-19.44,-272.39",
+        "699,-18.09,-305.69"
+      ]
+    },
+    {
+      "name": "Linst Tincobble",
+      "name_sortable": "linsttincobble",
+      "locations": [
+        "549.52,-17.02,-420.06"
+      ],
+      "utterances": [
+        "Why 'ello there!  Have you a little something for me?",
+        "Has nothing to do with time.  I was bound to catch her eye what with my new beard growing.  I knew she couldn't resist it!",
+        "Happy Frostfell!",
+        "Yes?",
+        "Oh, my!  Thank you!",
+        "I hope you enjoy the season!",
+        "Oh, my!  This is perfect!"
+      ]
+    },
+    {
+      "name": "a local patron",
+      "name_sortable": "localpatron",
+      "locations": [
+        "925.43,-25.49,42.98",
+        "928.68,-25.41,48.84",
+        "805.03,-23.37,29.62"
+      ],
+      "utterances": [
+        "The time for ego must be set aside.  Your faith in a higher power will preserve you in the times ahead.",
+        "If we focus on the higher truths that govern our actions, we fathom the underlying power within them.",
+        "Nothing like sea breeze and a mug of ale in your hand!",
+        "Cheers!",
+        "Sometime ale tastes better outdoor don't you think?",
+        "I don't care what they say. I have a lovely singing voice.",
+        "I'm trying to find a new seasoning for my dried fish.",
+        "You won't see me near any of those fountains.",
+        "Will you quit pestering me?  Don't force me to summon the guards!",
+        "Hail, pleasure to meet you.",
+        "Get on now!  There's plenty of work to be done.  Maybe you should lend a hand, if you feel up to it.",
+        "Nostalgia isn't what it used to be."
+      ]
+    },
+    {
+      "name": "Logan Camerus",
+      "name_sortable": "logancamerus",
+      "purpose": "Royal Antonican Guard",
+      "locations": [
+        "809.61,-23.27,69.03"
+      ],
+      "utterances": [
+        "Queen Antonia is watching over you."
+      ]
+    },
+    {
+      "name": "Lyricist Kuehja",
+      "name_sortable": "lyricistkuehja",
+      "purpose": "The Chaos Orchestra",
+      "locations": [
+        "817.54,-14.24,37.03"
+      ],
+      "utterances": [
+        "Within an era not found, but lost. We students of discord were shunned and tossed. Tossed from halls, taverns and boats. Those once considered ilk refuse to honor our chaotic notes.",
+        "Shun the chaos and shun the growth. Ignore us and perfect insanity will be ours to boast.",
+        "Gathering lutes and gathering flutes. Pick up your pace we're off to a musical roost.",
+        "Long long ago where wordly harmony became a grove. That's where they met and danced in the musical webs we wove.",
+        "Finally, the Chaos Orchestra has reformed to bring you fine people fine song."
+      ]
+    },
+    {
+      "name": "Lyricist Trucci",
+      "name_sortable": "lyricisttrucci",
+      "locations": [
+        "828.69,-24.68,-23.26"
+      ],
+      "utterances": [
+        "Ladies and lords, Ro has frozen over. The Chaos Orchestra has returned to Norrath!",
+        "Now, gnoll, you howl a pretty good tune, but let's make a deal that can give you a magic lute or give this demon his due."
+      ]
+    },
+    {
+      "name": "Lyssia Faren-Delnara",
+      "name_sortable": "lyssiafaren-delnara",
+      "utterances": [
+        "Ring human?  Who could that be?",
+        "We couldn't have chosen a more appropriate Ayr'Dal role model for our daughter.  Thank you!  Your actions have spoken much louder than our words on the subject ever could.  We are so grateful for your help!",
+        "We couldn't have chosen a more appropriate Ayr'Dal role model for our daughter.  Thank you!",
+        "May the gods watch over you this day."
+      ]
+    },
+    {
+      "name": "Lyssia Faren-Delnara",
+      "name_sortable": "lyssiafarendelnara",
+      "utterances": [
+        "Ring human?  Who could that be?",
+        "We couldn't have chosen a more appropriate Ayr'Dal role model for our daughter.  Thank you!  Your actions have spoken much louder than our words on the subject ever could.  We are so grateful for your help!",
+        "We couldn't have chosen a more appropriate Ayr'Dal role model for our daughter.  Thank you!"
+      ]
+    },
+    {
+      "name": "Madam Istynia",
+      "name_sortable": "madamistynia",
+      "purpose": "Alchemist",
+      "locations": [
+        "793.81,-23.26,96.47"
+      ],
+      "utterances": [
+        "Blast it! Who keeps taking all of the parchment?  ",
+        "Be careful, it's best not to read the scrolls.  If you want to know what they are, just ask me.",
+        "Ah, a student of the arcane.  Is there something I can help you find?",
+        "All right where is my pen?  How am I supposed to scribe anything without my pen?"
+      ]
+    },
+    {
+      "name": "Marius Ironflint",
+      "name_sortable": "mariusironflint",
+      "purpose": "Ian's Assisstant",
+      "locations": [
+        "794.8,-20.85,-47.35"
+      ],
+      "utterances": [
+        "Good day to you citizen.  If you've got any of that armor from ol' Ian here, I'd be happy to offer ya some of the newer stuff."
+      ]
+    },
+    {
+      "name": "Markus",
+      "name_sortable": "markus",
+      "purpose": "Ironforge Exchange Merchant",
+      "locations": [
+        "917.95,-25.39,12.51"
+      ],
+      "utterances": [
+        "Please feel free to look around and make use of the equipment.",
+        "My items are only available for members in good standing with the Ironforge Exchange."
+      ]
+    },
+    {
+      "name": "Marshal Surefoot",
+      "name_sortable": "marshalsurefoot",
+      "locations": [
+        "689.66,-12.78,-409.05"
+      ],
+      "utterances": [
+        "Stand stout! You'd make a fine deputy.",
+        "Aha!  A mercenary!  I can use your mettle for testing the strengths of the enemy.  Can you overcome the titans of the forest?  What do ya say, soldier?",
+        "Then stand firm and venture to the Forest Ruins.  The foes act as Forgotten Guardians.  They prey upon the people ... stand tall, soldier!  Crush a few and return with a tale of victory!",
+        "Good! Return when you've bested them.",
+        "What bravery!  You laughed in the face of death! You are a true protector of the forest realms.  I shall seek you out when I recruit my force of Leatherfoot deputies.  You are relieved for now."
+      ]
+    },
+    {
+      "name": "Marv Boilfist",
+      "name_sortable": "marvboilfist",
+      "locations": [
+        "812.96,-21.03,-533.85"
+      ],
+      "utterances": [
+        "We need to help the residents of Baubbleshire however we can!"
+      ]
+    },
+    {
+      "name": "Mary Dillon",
+      "name_sortable": "marydillon",
+      "locations": [
+        "802.33,-22.98,60.18"
+      ],
+      "utterances": [
+        "Just leave me alone. Please!",
+        "What?"
+      ]
+    },
+    {
+      "name": "Master Archer Nightbow",
+      "name_sortable": "masterarchernightbow",
+      "purpose": "Bowyer",
+      "locations": [
+        "573.06,-18.16,-409.76"
+      ],
+      "utterances": [
+        "Welcome! What can I help you with?",
+        "What is it you need, traveler?",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ]
+    },
+    {
+      "name": "Master Rysian Gladewalker",
+      "name_sortable": "masterrysiangladewalker",
+      "locations": [
+        "670.24,10.91,-391.21"
+      ],
+      "utterances": [
+        "Hello, <player name>. I have heard a good bit about your skills. More specifically your talents in rescuing Gelerth. He has been a bit of a community project within the Tunarian Alliance. We will make a fine scout out of him yet! I wonder if you would mind taking on the task we originally gave to him?",
+        "Good, I like your attitude. He was tracking down a thief who had stolen some goods that were intended for the dockworkers in Qeynos Harbor. The dockmaster has stated that if they don't get those supplies soon they will fall horribly behind on their deadlines. ",
+        "I'm afraid it's a bit more complicated than that. This thief is a crafty one. He has hidden the supplies very well. You will need to first track him down, then follow him to where he has stashed the supplies. If he sees you he will not go anywhere near the supplies.",
+        "Yes. However, once you know where the supplies are you have full authority to make sure he  never steals again.",
+        "I'm sure you can be creative.",
+        "Take them to the dockworkers in Qeynos Harbor.",
+        "Welcome back, <player name>. How did it go?",
+        "Oh, you met him? I know exactly who you are talking about.",
+        "Excellent. Well, I'm afraid I am a bit out of tasks at the moment.",
+        "No, its a bit tough to find the time to get him good training with all the side projects our group is doing. Why do you ask?",
+        "Blessed Tunare, that would be outstanding!",
+        "He just needs a crash course in the basics. Ranged attacks, stealth, and combat.",
+        "I think last I saw, he was hanging out at the archery range just watching the archers.",
+        "Welcome back, <player name>. How did the lessons go?",
+        "I can't say how impressed I am with you. In fact, I am going to assign you to a very important task. A task that is in need of someone just like you.",
+        "I'm afraid I can't really go into details right now. Instead, I am going to send you to  the head of our assassin guild for details. Her name is Daylia and she can be found just outside this building here in Elddar Grove. She will fill you in with the rest of the mission details.",
+        "Welcome back, <player name>. I heard of your battle with the assassin. The city is in your debt. You  have proven yourself time and time again. We are blessed to have you on our side.",
+        "Be well, <player name>. There may come a time where we or your city needs you again."
+      ]
+    },
+    {
+      "name": "Master Scribe Phonetia",
+      "name_sortable": "masterscribephonetia",
+      "purpose": "Linguist",
+      "locations": [
+        "829.61,-23.55,126.06"
+      ],
+      "utterances": [
+        "There is no language that is too hard to understand. ",
+        "Have a local dialect you need to learn? I have got you covered!",
+        "I will have you learn a new language in no time!"
+      ],
+      "store_template": "linguist"
+    },
+    {
+      "name": "Mav Boilfist",
+      "name_sortable": "mavboilfist",
+      "purpose": "Dwarf Mentor",
+      "locations": [
+        "855.05,-25.44,-79.65"
+      ],
+      "utterances": [
+        "Sorry, I'm terribly busy right now. No time to chat."
+      ]
+    },
+    {
+      "name": "a medic",
+      "name_sortable": "medic",
+      "locations": [
+        "519.58,-18.74,-414.18"
+      ],
+      "utterances": [
+        "Oh, hello there!  You must be who I was sent to meet.",
+        "He was called away.  He has a great many demands upon his time.  He left me here to provide you with the salve you desire.",
+        "And here is the salve that you were promised.  Be sure to put it on as many wounded as possible!"
+      ]
+    },
+    {
+      "name": "Mervos Stadrin",
+      "name_sortable": "mervosstadrin",
+      "purpose": "Collector",
+      "locations": [
+        "825.31,-23.55,32.79"
+      ],
+      "utterances": [
+        "Hello, traveler!  How I envy you.  What I wouldn't give to journey the world as I did in my youth.   Alas, my days of adventuring are long past, but at least I can occupy myself with my various trinkets and collections that I picked up in my travels.",
+        "This is a magnificent find! Here, take this for all your hard work.",
+        "Why, any sort of collection. There's so much out there to  find! Just open your eyes and peek under the rocks.  If you find anything interesting, let me have a look. Collecting is the only way I seem to relive my youth! "
+      ]
+    },
+    {
+      "name": "Messenger Tibeld",
+      "name_sortable": "messengertibeld",
+      "locations": [
+        "859.32,-25.51,46.87"
+      ],
+      "utterances": [
+        "Let me see... no... nope, I don't have anything for you right now.  Perhaps another time."
+      ]
+    },
+    {
+      "name": "Milo Faren",
+      "name_sortable": "milofaren",
+      "utterances": [
+        "<player name>, you have returned to us!  Speak to me friend, what did you find in the Forest Ruins?",
+        "The pirates were behind it?!",
+        "What?!  A Qeynosian may have had a hand in the attack?  Such behavior is expected in Freeport, not here!  ",
+        "You are a credit to all Ayr'Dal, and all Qeynosians, everywhere!",
+        "When you find the gnoll tunneling site within the Forest Ruins, shut it down.  If we're lucky, you'll also learn of their accomplices."
+      ]
+    },
+    {
+      "name": "Minda Broadfeet",
+      "name_sortable": "mindabroadfeet",
+      "locations": [
+        "735.94,-20.81,-6.6"
+      ],
+      "utterances": [
+        "I have goods here; general goods. Bags, bread and more."
+      ]
+    },
+    {
+      "name": "Mirthmire",
+      "name_sortable": "mirthmire",
+      "purpose": "City Merchant",
+      "locations": [
+        "713.53,-17.06,-321.68"
+      ],
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
+      ]
+    },
+    {
+      "name": "Molly Daysun",
+      "name_sortable": "mollydaysun",
+      "locations": [
+        "532.19,-17.53,-385.76",
+        "552.41,-17.13,-384.11"
+      ],
+      "utterances": [
+        "Stop, Kitty!  Come back here!"
+      ]
+    },
+    {
+      "name": "a monk initiate",
+      "name_sortable": "monkinitiate",
+      "locations": [
+        "777.35,-18.99,-380.93"
+      ],
+      "utterances": [
+        "Ah, what have we here? Glad to see you endured the journey here, adventurer.",
+        "I'm confident that the merchants of our city will fill all equipment needs with the utmost hospitality."
+      ]
+    },
+    {
+      "name": "Murrar Shar",
+      "name_sortable": "murrarshar",
+      "purpose": "Emissary of Queen Antonia Bayle",
+      "locations": [
+        "872.11,-25.4,54.85"
+      ],
+      "utterances": [
+        "Ah, <player name>.  I'm glad you have come.  I've been waiting for you.",
+        "I have been well, thank you.  And I'm glad to see you doing well, too.  Welcome to Qeynos, city of light, and the beacon of hope on Norrath.",
+        "Indeed there has.  Queen Antonia has ordered some work done throughout Qeynos, primarily to address issues such as aging structures and basic improvements.",
+        "The Queen has paid for this largely from her own coffers.  She has petitioned the Circle of Ten for more support, as there is more work that needs to be done, especially to improve the battlements and harbors.  Unfortunately, not everyone agrees with her that the work is necessary.",
+        "Indeed she could, but Queen Antonia believes in the rule of Law, and prefers to act within civil guidelines whenever possible.  She will only assert her sovereign right when she feels it is critical to the safety of Qeynos and its citizens.",
+        "Ah, perhaps you heard about our involvement with the New Combine?  That was entirely Queen Antonia's decision.  She did not consult the Circle of Ten when she agreed to Lucan's terms and joined the alliance.",
+        "Overall, the Queen enjoys the support of the people of Qeynos, and does what she can to help them, even through tough times such as these.  Sometimes her decisions can lead to discontent, which is something she accepts.  Perhaps, though, you would be best served to see how she is received yourself.",
+        "Speak with a few of the people around the city.  Here, I'll give you the names of a few.  See what they have to say, then come back to me.",
+        "Ah, welcome back, <player name>.  How did your discussions go?",
+        "Indeed there are, which is why I wanted you to speak with those three.  I've heard many people talk about the Queen and Qeynos, and I can certainly understand how those citizens come to believe as they do.  But those who say that the Queen isn't trying to help the city are wrong - she works tirelessly to help out all of Qeynos.",
+        "Queen Antonia does whatever she can to help.  Unfortunately, each of the situations in the neighborhoods is unique, and is something that would require the full attention of the guard all by themselves.  Having all of these issues coming up all at once is disturbing... for a few reasons.",
+        "Perhaps.  If you'd like, why don't you meet with Harkam Nubbytoe down near the Baubbleshire?  He is looking to help refugees from there that have been driven out of their homes.  See if there's something you can do for him.",
+        "Welcome back!  If you haven't yet, I suggest that you speak with Kwipp Stalwart.  Oh, and Harkam Nubbytoe said that his friend still needed help, although he wouldn't go into any other detail... you might want to look into that."
+      ]
+    },
+    {
+      "name": "Musician Zwena",
+      "name_sortable": "musicianzwena",
+      "locations": [
+        "703.2,-15.8,-287.06"
+      ],
+      "utterances": [
+        "Perhaps I could entertain you with a song?"
+      ]
+    },
+    {
+      "name": "Nalon Messpie",
+      "name_sortable": "nalonmesspie",
+      "locations": [
+        "553.92,-16.97,-414.87"
+      ],
+      "utterances": [
+        "Just want you to know I had nothing to do with that barstool collapsing underneath you the other day.  Honest!",
+        "So, do you look at a tankard and consider it half full?  Or half empty?"
+      ]
+    },
+    {
+      "name": "Nathan Ironforge",
+      "name_sortable": "nathanironforge",
+      "utterances": [
+        "Have you been inside the castle? I want to go there someday!",
+        "Have you seen a Gnoll before?",
+        "I want to join the Qeynos Guard when I grow up!"
+      ]
+    },
+    {
+      "name": "Naturalist Tummyfill",
+      "name_sortable": "naturalisttummyfill",
+      "locations": [
+        "670.54,10.93,-382.92"
+      ],
+      "utterances": [
+        "Hello again, my friend.  It seems that things are worse than they appear. We need to deliver the fight directly to our enemies.  Go speak to Shepherd Sell'ar when you have a chance.  He'll fill you in on the details."
+      ]
+    },
+    {
+      "name": "Nelis Greenpocket",
+      "name_sortable": "nelisgreenpocket",
+      "purpose": "Tailor",
+      "utterances": [
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "Welcome! What can I help you with?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1700261000 1245163492:Traveler's Guide of the Tailor Volume 3\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1296732960 652792631:Traveler's Guide of the Tailor Volume 4\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 125048939 1892162285:Traveler's Guide of the Tailor Volume 5\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -795437005 1441607865:Traveler's Guide of the Tailor Volume 6\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1941970586 856876540:Traveler's Guide of the Tailor Volume 7\\/a"
+        }
+      ],
+      "store_template": "filament"
+    },
+    {
+      "name": "a Nights of the Dead celebrator",
+      "name_sortable": "nightsofthedeadcelebrator",
+      "locations": [
+        "637.33,-16.97,-326.69"
+      ],
+      "utterances": [
+        "Buck up, adventure seeker!  This be a time for celebratin'!",
+        "The Nights of the Dead are here!  So many frights, decorations and illusions.  So many changing faces!  Because you know, we haven't always enjoyed such a frivolous night of beasts and masks.",
+        "Too true, mighty one!  But it is on these nights that instead we enjoy midnight banquets and parades of costumes in observation of the undead assault upon the streets of Maj'Dul.",
+        "Relax and enjoy the treats, excitable one, for the attack upon Maj'Dul happened long ago in the early days of the Age of Destiny.",
+        "A story that leaves more questions than answers.  'Twas a clear and still night in the desert.  A shambling army of undead inundated the city of Maj'Dul.  The city hid themselves from the walking dead, for fear of what this force was there to do.  Kill?  Kidnap?  Desecrate?  Feed?  And those that did not huddle in fear battled the innumerable undead to defend their city.",
+        "Quite different!  The citizens soon took notice that the decaying bodies were not harming anyone, except for those that stood in their way.  The ghastly figures would break down doors, and rummage through all of a person's possessions, smashing anything open that was otherwise latched or sealed.",
+        "This was to last a week, when as mysteriously as they came, they departed.  They turned in mid action, and shuffled back to the sands from which they came, as if answering a ghoulish cry.  The people of Maj'Dul never learned what it was that the undead were looking for, nor what they finally found.  But we commemorate that week of monsters and frights in search of goodies in old Maj'Dul with our own week of beasts and treats.",
+        "Be on the lookout for ghouls and ghoulies, my friend!"
+      ]
+    },
+    {
+      "name": "Noble Taig Rhul",
+      "name_sortable": "nobletaigrhul",
+      "purpose": "Loyalty Realtor",
+      "locations": [
+        "899.62,-25.39,52.82"
+      ]
+    },
+    {
+      "name": "Noble Tark Validus",
+      "name_sortable": "nobletarkvalidus",
+      "purpose": "Loyalty Merchant",
+      "locations": [
+        "901.91,-25.34,52.42"
+      ]
+    },
+    {
+      "name": "Noble Toowik Mclure",
+      "name_sortable": "nobletoowikmclure",
+      "purpose": "Loyalty Outfitter",
+      "locations": [
+        "900.76,-25.36,53.04"
+      ]
+    },
+    {
+      "name": "Oakhall",
+      "name_sortable": "oakhall",
+      "locations": [
+        "907.59,-25.37,-9.43"
+      ],
+      "utterances": [
+        "I hate working this shift!  If the gnolls don't attack now, I may die of boredom."
+      ]
+    },
+    {
+      "name": "Ocron",
+      "name_sortable": "ocron",
+      "locations": [
+        "620.48,-20.31,-225.99"
+      ]
+    },
+    {
+      "name": "Old Michem",
+      "name_sortable": "oldmichem",
+      "purpose": "Overseer Quartermaster",
+      "locations": [
+        "980.47,-25.56,85.22"
+      ]
+    },
+    {
+      "name": "Olvene Kettershot",
+      "name_sortable": "olvenekettershot",
+      "locations": [
+        "730.63,-20.87,-69.85"
+      ],
+      "utterances": [
+        "Why hello!  Welcome to Qeynos!  So glad to meet you!",
+        "And why wouldn't I be?  I've got a good life, and a good home.  Sure, there are problems around, but the Queen will fix them - I'm sure of it!",
+        "What do you mean?  She cares about this city like no one else.  She works hard to make sure that we are safe, and in her time as queen, has made some hard decisions.  I wouldn't want to be in her shoes, that's for sure!",
+        "Oh, most certainly!  She's done a fabulous job of looking after Qeynos, and I'm sure she will continue to do so for years to come!"
+      ]
+    },
+    {
+      "name": "an onlooker",
+      "name_sortable": "onlooker",
+      "utterances": [
+        "The more the merrier, I always say.",
+        "Will you quit pestering me?  Don't force me to summon the guards!",
+        "Welcome...welcome traveler, to the fair city of Qeynos! My, isn't it a magnificent day?",
+        "How sweet my Tom is to leave such a gift at my door step. ",
+        "It's a good day for a drink. Just like every other day."
+      ]
+    },
+    {
+      "name": "Outrider Bernd",
+      "name_sortable": "outriderbernd",
+      "purpose": "Tunarian Alliance Grove Warden",
+      "locations": [
+        "654.77,-10.11,-376.14"
+      ]
+    },
+    {
+      "name": "Paavali Dewshine",
+      "name_sortable": "paavalidewshine",
+      "locations": [
+        "737.03,-21.29,-390.64"
+      ],
+      "utterances": [
+        "'Tis a glorious day, wouldn -- Pardon my curiosity... is that a tattoo I see poking out from your armor?",
+        "Oh!  I am an admirer of the art that I see some have placed upon their bodies.  Many of my saplings look down upon such \"impurity\" upon a body, but I think it rather grand.",
+        "Happy Frostfell!",
+        "Good day!",
+        "Mother Tunare, how nice of you!",
+        "Thank you."
+      ]
+    },
+    {
+      "name": "a pacified Qeynos resident",
+      "name_sortable": "pacifiedqeynosresident",
+      "locations": [
+        "881.89,-25.38,65.8",
+        "702.13,-20.89,-60.58",
+        "636.57,-13.29,-413.02"
+      ],
+      "utterances": [
+        "We must not doubt Queen Antonia. We owe much to her leadership!",
+        "The night sky is so different now, I love it!",
+        "Luclin... it kind of looks like an egg now, doesn't it? I hope Kerafyrm cannot get free...",
+        "I heard some have found a way to Luclin. It is a new beginning for us now!",
+        "If we can make Luclin whole, then there is nothing that Qeynos can't accomplish!",
+        "Even if the shissar found a way off Luclin, Queen Antonia wouldn't let any harm come to us.",
+        "Kerafyrm is still up there... trapped, but for how long?",
+        "Luclin shines so bright...",
+        "Luclin is so beautiful... but it's terrifying to know what she harbors within.",
+        "Luclin is whole again... I never thought I'd see such a thing.",
+        "I know there are those who wish harm upon Qeynos, but I just feel sorry for them.",
+        "Luclin represents an end to the war, an end to the Awakened. We must thank her.",
+        "Look upon our great city! Threatened time and time again, but Qeynos still stands.",
+        "We can all breathe a sigh of relief. Norrath now has a new friend in the sky, and she keeps us safe from Kerafyrm's wrath."
+      ]
+    },
+    {
+      "name": "Palax",
+      "name_sortable": "palax",
+      "locations": [
+        "754.66,-20.64,12.32"
+      ]
+    },
+    {
+      "name": "Palla Jhal",
+      "name_sortable": "pallajhal",
+      "locations": [
+        "672.75,-21.17,-296.11"
+      ],
+      "utterances": [
+        "True beauty has no age."
+      ]
+    },
+    {
+      "name": "Patrolman Edward",
+      "name_sortable": "patrolmanedward",
+      "purpose": "Guard",
+      "level": 38,
+      "difficulty": "epic^2",
+      "locations": [
+        "684.36,-19.52,-277.75",
+        "649.86,-19.44,-272.39",
+        "699,-18.09,-305.69"
+      ],
+      "utterances": [
+        "Ah, what have we here? Glad to see you endured the journey here, adventurer.",
+        "Welcome to Qeynos, friend."
+      ]
+    },
+    {
+      "name": "Patrolman Fanthis",
+      "name_sortable": "patrolmanfanthis",
+      "locations": [
+        "650.47,-11.6,-397.4"
+      ]
+    },
+    {
+      "name": "Patrolman Ly'stan",
+      "name_sortable": "patrolmanlystan",
+      "purpose": "Guard",
+      "level": 38,
+      "difficulty": "epic^2",
+      "locations": [
+        "684.59,-19.23,-276.19",
+        "649.86,-19.44,-272.39",
+        "699,-18.09,-305.69"
+      ]
+    },
+    {
+      "name": "Patrolwoman Varna",
+      "name_sortable": "patrolwomanvarna",
+      "locations": [
+        "650.47,-11.6,-397.4"
+      ]
+    },
+    {
+      "name": "Pearl Honeywine",
+      "name_sortable": "pearlhoneywine",
+      "locations": [
+        "695.81,-20.58,-56.14"
+      ],
+      "utterances": [
+        "I wonder whether they've simply been here all along and we didn't see them?  Or is there some new way these creatures are reaching civilization?  The possibilities are endless and interesting!",
+        "My apologies! I was lost in thought for a moment.  The return of the roekilliks has taken me and my colleagues quite by surprise.  They are such an ancient race; this is very exciting information!",
+        "Some people call them \"ratmen\" which is descriptive but not very useful to social anthropologists such as myself.  Some say they're ancestral relatives of the ratonga, but no ratonga will confirm this for me.  I've been thinking of what might have brought the roekillik into the open.  They've resisted my attempts to interview them.",
+        "They're practically legendary creatures!  This is an anthropologist's dream: to find they still exist! Yet it seems they are unwilling to be \"studied\" by me.  I need to find another way to get information about them."
+      ]
+    },
+    {
+      "name": "Pelle Shinkicker",
+      "name_sortable": "pelleshinkicker",
+      "locations": [
+        "732.56,-18.19,-336.16"
+      ],
+      "utterances": [
+        "Oh, what is it now?  Bristlebane's no doubt playing tricks on me again, causing all this interruption!  Is there something meaningful I can help you with, or are you just going to gawk?"
+      ]
+    },
+    {
+      "name": "Phen Domlinson",
+      "name_sortable": "phendomlinson",
+      "purpose": "Bowyer",
+      "locations": [
+        "867.35,-25.29,-53.13"
+      ],
+      "utterances": [
+        "Fresh supplies every week! Step up and see for yourself."
+      ]
+    },
+    {
+      "name": "Pinchy Presentpeeler",
+      "name_sortable": "pinchypresentpeeler",
+      "locations": [
+        "735.65,-21.39,-44.31"
+      ],
+      "utterances": [
+        "Golly, I'm so glad you showed up, <player name>. Hopefully, you can save our leader and our home. We are starting to get real sad.",
+        "We need you because our leader, Lord Bowsprite, has disappeared and our home has been taken over! We have no idea what to do without his strong leadership. He is the most honorable, noblest of elves. He takes care of all of us, tells us what to do when we are sad, or confused and he makes us laugh. He is the bestest leader, ever! With the meanie pants green fella living in our home and Lord Bowsprite missing we have no clue what to do!",
+        "We know for sure it was those mean goblins, but we don't know where they took him or why. The greenie goblin that took over our home just showed up the other day. We tried to hug him, but he got really cross and yelled at us. Then our home suddenly became downright freezing and there are all these strange monsters roaming around. We all got very, very scared. We think maybe that mean old goblin brought them. We need Lord Bowsprite to tell us what to do.",
+        "We don't know. There are so many tribes of them, the Fubbyfuzzers, the Hammyhousers, the Runnyeyes, the Snickysniffers, the Pickclaws, the Gigglegibbers, the Swammyswimmers... I just don't know. The only clue I have is the greenie that has taken over our land kept talking about making gold and strange schemes. He wasn't very smart neither.",
+        "Let me think... He said something like, \"Spinning numbers, spin real fast, they lose lots of moneys and then they gasp. Gold, silver, platinum please, if you win then we sneeze.\" We thought it was the silliest song. It made us all laugh real hard, so we started singing it with him and dancing around, but I think it made him madder. Greenie gobbys are so weird.",
+        "Hurry quick and let us know when you find our beloved Lord Bowsprite."
+      ]
+    },
+    {
+      "name": "Porter",
+      "name_sortable": "porter",
+      "purpose": "Guard",
+      "level": 35,
+      "utterances": [
+        "Duty above all else, citizen, except honor!",
+        "Good day to you, citizen. All preserve Queen Antonia."
+      ]
+    },
+    {
+      "name": "Pottsby",
+      "name_sortable": "pottsby",
+      "purpose": "City Merchant",
+      "locations": [
+        "895.17,-25.47,53.55"
+      ],
+      "utterances": [
+        "Welcome! What can I help you with?"
+      ]
+    },
+    {
+      "name": "a practicing contender",
+      "name_sortable": "practicingcontender",
+      "locations": [
+        "782.99,-20.64,12.24"
+      ],
+      "utterances": [
+        "Me and my friends have all agreed to be non-conformists.",
+        "I'm only happy when it rains.  Well.. I like sunny days too.  Okay... I'm actually happy all the time.",
+        "I'm so depressed!  I had to work all day!",
+        "As soon as I get my own boat, I'm outta here!",
+        "I've seen it all. Now I just want to relax in the comfort of the city.",
+        "It's good to always have a sharp axe and a full belly.",
+        "Ale may be the life's blood, but fighting is the soul of my existence!"
+      ]
+    },
+    {
+      "name": "Praxum",
+      "name_sortable": "praxum"
+    },
+    {
+      "name": "Preservationist Reynolds",
+      "name_sortable": "preservationistreynolds",
+      "purpose": "Tunarian Alliance Grove Warden",
+      "locations": [
+        "664.32,10.93,-380.54"
+      ],
+      "utterances": [
+        "Many thanks to you and your guild for your continued efforts.",
+        "I haven't heard anything from the last scout party.  They're a tough bunch. I hope they're all right.",
+        "..."
+      ]
+    },
+    {
+      "name": "Proprietor Blagard",
+      "name_sortable": "proprietorblagard",
+      "locations": [
+        "827.28,-13.99,33.41"
+      ],
+      "utterances": [
+        "Step right up and peruse the antiquities, my friend.  Never has coin been better spent. ",
+        "You'd be wise to forget about that coin. It'll lead you to nothing but trouble and a one-way ticket to the tower of Ethernere. ",
+        "My associates said you'd be persistent. They instructed me to tell you that if you ever procure another coin, they'll be waiting for you beyond the hand in the Down Below.   ",
+        "I prefer to keep my supply of rarities flowing, so I'll keep my mouth shut about that. As far as I know, you might be a mole of Constable Arathur.    ",
+        "You again! I see the Hand has made use of you rather than making a training dummy outta you. Now, shove off before the guards come waltzing over to see what all the hush hush is about."
+      ]
+    },
+    {
+      "name": "a Qeynos citizen",
+      "name_sortable": "qeynoscitizen",
+      "locations": [
+        "955,-25.56,66.59",
+        "691.41,-20.69,-76.75",
+        "834.26,-23.39,39.4",
+        "822.25,-23.36,107.47"
+      ],
+      "utterances": [
+        "Have you seen them?  I've heard that ratonga have been spotted in the city!",
+        "Are they here as spies?  Are they planning an attack?",
+        "Argh, it's not enough that they filthy up Freeport, now they've come here to spread their disease and muck around our city?  PAH!"
+      ]
+    },
+    {
+      "name": "a Qeynos monk",
+      "name_sortable": "qeynosmonk",
+      "locations": [
+        "960.43,-25.46,14.26"
+      ],
+      "utterances": [
+        "One's intelligence must follow faith, never precede it, and never destroy it.",
+        "Breath is the bridge that connects life to consciousness, which unites your body to your thoughts."
+      ]
+    },
+    {
+      "name": "a Qeynos monk",
+      "name_sortable": "qeynosmonk",
+      "locations": [
+        "960.43,-25.46,14.26"
+      ],
+      "utterances": [
+        "One's intelligence must follow faith, never precede it, and never destroy it.",
+        "Breath is the bridge that connects life to consciousness, which unites your body to your thoughts."
+      ]
+    },
+    {
+      "name": "a Qeynos resident",
+      "name_sortable": "qeynosresident",
+      "utterances": [
+        "I'm itching for a good fight!  Are those goblins back yet?",
+        "Warm days like this remind me of my old traveling days.",
+        "Well met, traveler. Has your journey to our village been a troublesome one?",
+        "It's been a long day.  I could use an ale or six.",
+        "Hail, noble. It is with jubilation that I while away this time speaking with you.",
+        "It brings comfort to my heart to see you come to us in safety.",
+        "Patience they say, is a virtue.  It has taken a lot of patience to rebuild our lives so far from home.",
+        "The greatest enemy a community can face is hubris.  Always remember, we must work together for peace.",
+        "I never thought it would be so difficult to carry on.  I have no songs left in my heart.",
+        "As with all relationships in life sometimes desire can lead to misfortune.  I strive to temper love and discipline.",
+        "We must remain steady against the influence of evil.  Only with perseverance will Qeynos survive!",
+        "So much blood and so many lost.  I never believed it would end this way.",
+        "The city is nice, but It feels a bit chilly up here.",
+        "Oh! You snuck up on me. Good to see you.",
+        "I still dream of the good old days, digging up gems and gold.  ",
+        "Remember to be brave while adventuring.  The brave are most handsomely rewarded.",
+        "Keep up your good work.  I can tell, you got character.",
+        "I've found that the right amount of patience and enthusiasm can open almost any door.",
+        "Ah, it brings me happiness to see so many newcomers arriving to the exalted city of Qeynos.",
+        "The more the merrier, I always say.",
+        "Where are you going?  It's impolite to go off and fight without inviting me!",
+        "I only dream of short days and long nights in the tavern.",
+        "The winds carry voices of powerful foes and dragons of unimaginable strength and magic.",
+        "Hail and welcome, I do hope your stay here is uplifting."
+      ]
+    },
+    {
+      "name": "a Qeynos resident",
+      "name_sortable": "qeynosresident",
+      "utterances": [
+        "I'm itching for a good fight!  Are those goblins back yet?",
+        "Warm days like this remind me of my old traveling days.",
+        "Well met, traveler. Has your journey to our village been a troublesome one?",
+        "It's been a long day.  I could use an ale or six.",
+        "Hail, noble. It is with jubilation that I while away this time speaking with you.",
+        "It brings comfort to my heart to see you come to us in safety.",
+        "Patience they say, is a virtue.  It has taken a lot of patience to rebuild our lives so far from home.",
+        "The greatest enemy a community can face is hubris.  Always remember, we must work together for peace.",
+        "I never thought it would be so difficult to carry on.  I have no songs left in my heart.",
+        "As with all relationships in life sometimes desire can lead to misfortune.  I strive to temper love and discipline.",
+        "We must remain steady against the influence of evil.  Only with perseverance will Qeynos survive!",
+        "So much blood and so many lost.  I never believed it would end this way.",
+        "The city is nice, but It feels a bit chilly up here.",
+        "Oh! You snuck up on me. Good to see you.",
+        "I still dream of the good old days, digging up gems and gold.  ",
+        "Remember to be brave while adventuring.  The brave are most handsomely rewarded.",
+        "Keep up your good work.  I can tell, you got character.",
+        "I've found that the right amount of patience and enthusiasm can open almost any door."
+      ]
+    },
+    {
+      "name": "Rabbleson",
+      "name_sortable": "rabbleson",
+      "purpose": "City Merchant",
+      "locations": [
+        "898.11,-25.42,52.94"
+      ],
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+      ]
+    },
+    {
+      "name": "Randal Gromoe",
+      "name_sortable": "randalgromoe",
+      "locations": [
+        "975.73,-25.56,95.65"
+      ],
+      "utterances": [
+        "It's been a while since I've felt this carefree."
+      ]
+    },
+    {
+      "name": "Rarezut",
+      "name_sortable": "rarezut",
+      "locations": [
+        "795.35,-23.22,74.35"
+      ]
+    },
+    {
+      "name": "Rask Helstot",
+      "name_sortable": "raskhelstot",
+      "locations": [
+        "787.64,-21.66,-419.65"
+      ],
+      "utterances": [
+        "Welcome to the Elddar grove, young one.  Enjoy the shelter which the trees provide.",
+        "Though it's the only remaining tree of its kind, the Elddar grows ever larger.  Perhaps a symbol of Qeynos and her people even more fitting than the Claymore itself.",
+        "I don't believe I've met you before, young one.  I should introduce myself.  I am Rask Helstot, a druid, and one of the last followers of Karana you're likely to meet!  If you're amiable to a task, I wouldn't mind finding out what you're made of.  I could use someone to investigate some things for me, but I need to be certain you're up to the challenge.",
+        "Of late, two groups have been exposed that could hinder the growth of our fair city.  On the one hand, we've got the wild and savage gnolls.  Filthy and wild, they prey on the weak and unprepared.  On the other, the Bloodsabers have been said to be stalking the outskirts of the city, and perhaps even have agents in the catacombs.  If you were to choose one evil to fight, which would it be?",
+        "Very good!  If Fippy had not returned to a wilder state after his adventuring days, I'm certain the gnolls habits would be much different.  Alas, that is neither a story for now, nor does it do much good to dwell on the past.  Perhaps some other time I can tell you that tale... For now though, prove your worth by killing ten of the beasts for me.",
+        "You did?  You don't look too much the worse for wear.  I suppose you're ready for a journey then.  Throughout the history of Norrath, the druids have held clandestine gatherings away from the eyes of others.  Many of these were held at the ancient druid stones, most of which have been lost now.  The circle closest to Qeynos has been blocked for an age untold, but I would like you to venture to it.",
+        "Against the far hills, north of the path leading to the Steppes, you will find a small trail leading into the mountains.  Stay alert, the area is besieged with bandits and worse.  The actual path itself is cleverly hidden, by my reckoning it lies just three to four hundred cogs north of the old Blackburrow entrance.  Return here when you've had a look at the pass."
+      ]
+    },
+    {
+      "name": "a rat",
+      "name_sortable": "rat",
+      "locations": [
+        "837.28,-23.5,130.36",
+        "832.99,-24.98,-61.63"
+      ]
+    },
+    {
+      "name": "Ratscallion Attamilgad",
+      "name_sortable": "ratscallionattamilgad",
+      "purpose": "the Unscrupulous Merchant",
+      "locations": [
+        "911.54,-25.38,58.05"
+      ],
+      "utterances": [
+        "Cloakses! Get your cloakses, here!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1114301454 -512346161:Cloak of the Compendious\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1425456837 -689566834:Cloak of the Eccentric\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -603033171 -1696935179:Cloak of the Fervorous\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 838865025 -1277173728:Cloak of the Imperceptible\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 896390296 -2037102279:Cloak of the Lithesome\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -614222412 840500830:Cloak of the Meanderer\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1158094871 -910053788:Cloak of the Vivacious\\/a"
+        }
+      ]
+    },
+    {
+      "name": "Rebik Sprocketrock",
+      "name_sortable": "rebiksprocketrock",
+      "locations": [
+        "824.92,-14.05,35.25"
+      ],
+      "utterances": [
+        "Well met, good friend!  I'm  busy working on this new lock here!  I think it'll be unpickable once I'm done!"
+      ]
+    },
+    {
+      "name": "a reclusive monk",
+      "name_sortable": "reclusivemonk",
+      "locations": [
+        "529.99,-17.66,-407.7"
+      ],
+      "utterances": [
+        "This is the spot I will stay and no longer shall the Graystone Guild disturb my peace.",
+        "Please leave me be. I need to be in the absolute state of tranquility.",
+        "One important element of our training is to reach inner peace with our mind and soul. This however, has been most difficult task since the arrival of the Graystone Guild..."
+      ]
+    },
+    {
+      "name": "a relieved Qeynos resident",
+      "name_sortable": "relievedqeynosresident",
+      "locations": [
+        "900.98,-25.56,-55.81",
+        "821.35,-21.04,-70.22",
+        "832.03,-23.35,60.44",
+        "795.27,-21,137.4",
+        "611.74,-14.44,-377.89"
+      ],
+      "utterances": [
+        "I heard some have found a way to Luclin. It is a new beginning for us now!",
+        "Luclin... it kind of looks like an egg now, doesn't it? I hope Kerafyrm cannot get free...",
+        "Even if the shissar found a way off Luclin, Queen Antonia wouldn't let any harm come to us.",
+        "We can all breathe a sigh of relief. Norrath now has a new friend in the sky, and she keeps us safe from Kerafyrm's wrath.",
+        "If we can make Luclin whole, then there is nothing that Qeynos can't accomplish!",
+        "I know there are those who wish harm upon Qeynos, but I just feel sorry for them.",
+        "Kerafyrm is still up there... trapped, but for how long?",
+        "Luclin shines so bright...",
+        "Look upon our great city! Threatened time and time again, but Qeynos still stands.",
+        "Luclin represents an end to the war, an end to the Awakened. We must thank her.",
+        "Luclin is whole again... I never thought I'd see such a thing.",
+        "Freeportians will learn the errors of their ways, one day.",
+        "I can look up at Luclin and know I will never see Kerafyrm's shadow again.",
+        "Luclin is so beautiful... but it's terrifying to know what she harbors within.",
+        "May the gods continue to bless us.",
+        "We must not doubt Queen Antonia. We owe much to her leadership!",
+        "The night sky is so different now, I love it!",
+        "See! We never needed Freeport's help! Queen Antonia can do it all on her own!"
+      ]
+    },
+    {
+      "name": "Renee Atherton",
+      "name_sortable": "reneeatherton",
+      "locations": [
+        "770.08,-20.66,-33.79"
+      ],
+      "utterances": [
+        "I bet you have some stories, eh?  Adventuring must be an exciting life!"
+      ]
+    },
+    {
+      "name": "Rinna",
+      "name_sortable": "rinna",
+      "locations": [
+        "787.04,-21.88,-537.05"
+      ],
+      "utterances": [
+        "I wonder what Qeynos will be like years from now.  This city has seen its fair share of changes, that is for certain.",
+        "Are you hurt?  Is there something you need?  Please rest here, and I will tend to you as soon as I can.  Just give me a few moments...",
+        "Oh!  Oh, thank goodness.  That is a relief... there is so much to do here, and any help I can get is very appreciated.",
+        "Indeed, and they need our help badly.  They've been pushed from their homes, many are injured, and all are hungry.  I've been doing what I can to tend to their needs, but we keep getting new arrivals from the neighborhood, and I am hard-pressed to get to them all...",
+        "Oh, thank you, thank you!  I need to get them some medical supplies and some food quickly.  Can you collect some supplies from those crates and distribute them?",
+        "Oh, I'm sorry - I didn't see you come up.  How did it go?",
+        "Yes... I know.  We are dreadfully short on supplies here.  I had expected to get more, but there haven't been any forthcoming.  It's frustrating, but I don't have the time to spare to go and see what the hold up is.",
+        "The Ironforge Exchange was supposed to send them over.  I know some requisition lists were sent to them, and that they were supposed to send back the supplies once those were received, but we haven't heard anything back here.",
+        "Speak with Accountant Melet.  She's in the Ironforge Exchange building near the palace.",
+        "Oh, hello again, my friend.  Did you find out what happened to those requisition lists?",
+        "Wait... stolen??  Did you get them back?  What happened?",
+        "Oh!  Well... I'm... I'm sure she just didn't know yet.  But you got them back, right?",
+        "Wait, there's not enough food?",
+        "Oh no... this is bad.  We need that food.  I need to get out to the farms and figure out what is keeping them...",
+        "I know, but we need to ration food as it is already.  If we don't have enough, then these poor citizens won't get enough to eat.",
+        "Oh, thank you!  You are too kind.  Yes, let me know what they say, and if there's anything I can do to help.",
+        "Oh!  You're back!  And just in time, too - people here are getting hungry.  Did you find what happened to the food?",
+        "Wait... not good?  What happened?",
+        "That's... that's preposterous!  How do they not have their payment??",
+        "HASN'T RECEIVED... what??  That's impossible!  Of course they have authorization!",
+        "Is that so?  Okay... well... I have an idea, if you're willing to help.",
+        "Antonia's courier is a fae by the name of Laventy.  About this time of day, Laventy should be near the city offices in the Capitol District.  Head down that way, and see if perhaps you can find out what became of the authorization.",
+        "Oh good, I've been waiting for you.  Did you find Laventy?",
+        "Oh, really?  What happened?",
+        "Really?  That seems... strange.  What happened then?",
+        "You... you were attacked?  I'm... I'm so very sorry.  I'm glad you weren't hurt, at least.  You've helped out a lot, <player name>.",
+        "We need to find out what happened with the clerk you were working with.  I think you were indeed set up to be silenced, and we need to know why.",
+        "Now, I understand that you'd want to even the score a bit with that clerk, but please, remember that Qeynos is a city with laws.  No one here is above those laws, so please go to the guard if you need help.",
+        "Ah, you've returned.  Hopefully you were able to speak to the clerk and reach a peaceful agreement?",
+        "Oh, no - you were jumped again?",
+        "I... I see.  Did you find out anything?",
+        "This... this is the seal of the Ironforge family!  Are they really tangled up with the Bloodsabers somehow?",
+        "This is incredible... but we must allow the law to take over in this case.  I need to take this down to the guard and have them see what is going on...",
+        "That is a good idea.  The food has just gotten here, so I'll make sure it is being distributed properly.  Come back to me once you've talked to the guard - speak with Investigator Keklem in the guard.  He should be able to help with something like this."
+      ]
+    },
+    {
+      "name": "Robert Newbury",
+      "name_sortable": "robertnewbury",
+      "purpose": "Banker",
+      "locations": [
+        "677.81,-19.42,-49.47"
+      ],
+      "utterances": [
+        "I'll take care of your coin and goods if they need safekeeping."
+      ]
+    },
+    {
+      "name": "a Rockpaw gnoll",
+      "name_sortable": "rockpawgnoll",
+      "locations": [
+        "748.04,-20.61,-459.84",
+        "686.93,-15.53,-450.36",
+        "675.95,-14.76,-425.45",
+        "587.26,-18.50,-418.00",
+        "595.62,-19.70,-385.00",
+        "536.85,-18.13,-375.53",
+        "678.98,-17.14,-334.92",
+        "768.26,-17.94,-313.02"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -842920968 -359403442:ancient note of runes\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1513698845 782894655:large polished bone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 1483,
+      "drop_coin_max": 1708
+    },
+    {
+      "name": "Ronald Gleneed",
+      "name_sortable": "ronaldgleneed",
+      "purpose": "Lore Token Merchant",
+      "locations": [
+        "904.94,-25.4,77.71"
+      ]
+    },
+    {
+      "name": "Rosalina Goodfallow",
+      "name_sortable": "rosalinagoodfallow",
+      "purpose": "Steward of Antonia Bayle",
+      "locations": [
+        "942.89,-25.54,26.76"
+      ],
+      "utterances": [
+        "I often see to our Antonia's business outside of the castle. She trusts me implicitly.",
+        "<player name>, Queen Antonia wishes to see you. She says it is of the utmost importance!",
+        "I haven't a clue! She didn't say why, and I didn't think it my place to ask, either. I'm sure she'll tell you though! Just walk straight on up to the doors of the castle in North Qeynos. You've been permitted entry."
+      ]
+    },
+    {
+      "name": "Rothun",
+      "name_sortable": "rothun",
+      "purpose": "Guard",
+      "level": 35,
+      "locations": [
+        "794.21,-20.64,-29.62"
+      ],
+      "utterances": [
+        "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out."
+      ]
+    },
+    {
+      "name": "Rupert Valorbound",
+      "name_sortable": "rupertvalorbound",
+      "purpose": "Froglok Mentor",
+      "locations": [
+        "717.51,-20.3,-102.6"
+      ],
+      "utterances": [
+        "For Valor and Love, my friend!"
+      ]
+    },
+    {
+      "name": "Sarbith Plegnog",
+      "name_sortable": "sarbithplegnog",
+      "locations": [
+        "725.95,-20.81,-74.65"
+      ],
+      "utterances": [
+        "Isn't the Ak'Anon Clock beautiful!  Certainly it should be admired for its genius and complexity."
+      ]
+    },
+    {
+      "name": "a scarecrow",
+      "name_sortable": "scarecrow",
+      "locations": [
+        "654.01,-17.91,-256.35"
+      ]
+    },
+    {
+      "name": "Scout of Discord",
+      "name_sortable": "scoutofdiscord",
+      "locations": [
+        "867.59,-25.45,32.89"
+      ],
+      "utterances": [
+        "I am here to sow the seeds of discord. Chaos and death!"
+      ]
+    },
+    {
+      "name": "a scout trainee",
+      "name_sortable": "scouttrainee",
+      "locations": [
+        "541.38,-19.63,-358"
+      ],
+      "utterances": [
+        "The destructive methods of the Qeynos Guard will ravage that which it seeks to defend."
+      ]
+    },
+    {
+      "name": "Sean Wellfayer",
+      "name_sortable": "seanwellfayer",
+      "locations": [
+        "997.06,-25.08,14.64"
+      ],
+      "utterances": [
+        "I don't think fishing interests you. Perhaps you should be on your way.",
+        "If fishing doesn't interest you, perhaps bait does!"
+      ]
+    },
+    {
+      "name": "Senior Initiate Delvin",
+      "name_sortable": "seniorinitiatedelvin",
+      "locations": [
+        "783.93,-19.63,-362.81",
+        "756.82,-19.63,-364.23",
+        "783.29,-19.63,-393.74"
+      ],
+      "utterances": [
+        "It must be my lucky day to run into you here.",
+        "I'm honored to make your acquaintance!  My home is your home, should you ever need a place to rest.",
+        "I've met and made many friends here in Qeynos, and so shall you."
+      ]
+    },
+    {
+      "name": "Senior Initiate Karuda",
+      "name_sortable": "seniorinitiatekaruda",
+      "locations": [
+        "756.02,-19.63,-363.19"
+      ],
+      "utterances": [
+        "I still feel shame over my defeat.  However, through that defeat, I have learned much about how far even I have to go in my discipline."
+      ]
+    },
+    {
+      "name": "Sergeant Delve",
+      "name_sortable": "sergeantdelve",
+      "purpose": "Royal Antonican Guard",
+      "locations": [
+        "904.54,-25.33,86.22"
+      ],
+      "utterances": [
+        "I wonder what Qeynos will be like years from now.  This city has seen its fair share of changes, that is for certain."
+      ]
+    },
+    {
+      "name": "Sergeant Quackers",
+      "name_sortable": "sergeantquackers",
+      "locations": [
+        "784.18,-18.72,-78.41",
+        "803.77,-20.66,-60.16",
+        "891.29,-25.36,-57.32",
+        "877,-25.47,-41.31"
+      ]
+    },
+    {
+      "name": "Shakan Notebend",
+      "name_sortable": "shakannotebend",
+      "purpose": "Dirge Trainer",
+      "locations": [
+        "666.91,10.92,-388.09"
+      ],
+      "utterances": [
+        "Well met, <player name>.  What brings you to the Elddar Grove this fine day?"
+      ]
+    },
+    {
+      "name": "Sheldon Lamport",
+      "name_sortable": "sheldonlamport",
+      "utterances": [
+        "All right where is my pen?  How am I supposed to scribe anything without my pen?"
+      ]
+    },
+    {
+      "name": "Shepherd Sell'ar",
+      "name_sortable": "shepherdsellar",
+      "purpose": "Tunarian Alliance Grove Warden",
+      "locations": [
+        "652.07,10.91,-388.51"
+      ],
+      "utterances": [
+        "Thank you and thank you for your continued selfless service to Tunare and her followers.  I'm afraid that your service to the city has become invaluable. You need to speak to Preservationist Reynolds.  She can direct you in what we'll need for the time ahead.  Good luck."
+      ]
+    },
+    {
+      "name": "Shiharra Veldin",
+      "name_sortable": "shiharraveldin",
+      "purpose": "Chronomagi Tasker",
+      "locations": [
+        "893.2,-25.43,16.65",
+        "893.76,-25.52,25.42"
+      ],
+      "utterances": [
+        "The adventurers of Norrath have proven themselves as heroes among heroes, and through their actions they have helped change the course of our history itself.  However, in order to perform these deeds, they must constantly test themselves, and find strength where they were unaware that it existed.  Through our chronomancy, we can help you find that strength.",
+        "We can set you back to a time in your life when your strength was still growing.  A time of learning the bounds of your abilities, of your skill, of your courage.  In doing this, you may find you've always possessed strength you were unaware existed, and conquer enemies that once would have proven deadly."
+      ]
+    },
+    {
+      "name": "Shiningleaf",
+      "name_sortable": "shiningleaf",
+      "purpose": "Guard",
+      "level": 35,
+      "locations": [
+        "835.09,-25.31,-53"
+      ],
+      "utterances": [
+        "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out."
+      ]
+    },
+    {
+      "name": "Shireen Faren-Delnara",
+      "name_sortable": "shireenfaren-delnara",
+      "purpose": "Half Elf Mentor",
+      "locations": [
+        "718.26,-20.4,-445.13"
+      ],
+      "utterances": [
+        "You're a very brave, Ayr'Dal.",
+        "Ayr'Dal are brave, even when we are scared."
+      ]
+    },
+    {
+      "name": "Shireen Faren-Delnara",
+      "name_sortable": "shireenfarendelnara",
+      "utterances": [
+        "You're a very brave, Ayr'Dal.",
+        "Ayr'Dal are brave, even when we are scared."
+      ]
+    },
+    {
+      "name": "Sinphinus",
+      "name_sortable": "sinphinus",
+      "purpose": "Concordium Merchant",
+      "locations": [
+        "950.29,-25.55,15.08"
+      ],
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ]
+    },
+    {
+      "name": "Sir Aidan Godard",
+      "name_sortable": "siraidangodard",
+      "locations": [
+        "689.5,-20.85,3.4"
+      ],
+      "utterances": [
+        "Before you stands the Hall of Steel.  Within these walls is the birthplace of the Steel Warriors, the greatest fighters in all of Norrath."
+      ]
+    },
+    {
+      "name": "Smith Holgren",
+      "name_sortable": "smithholgren",
+      "utterances": [
+        "I just got a shipment in from the Far Sea's Trading Company.  I don't just show anybody this stuff so, shhhh!  "
+      ]
+    },
+    {
+      "name": "Soldier of Discord",
+      "name_sortable": "soldierofdiscord",
+      "purpose": "Event Server Merchant",
+      "locations": [
+        "873.28,-25.43,33.44"
+      ],
+      "utterances": [
+        "I am here to sow the seeds of discord. Chaos and death!"
+      ]
+    },
+    {
+      "name": "Sprockfuddle",
+      "name_sortable": "sprockfuddle",
+      "utterances": [
+        "I need a ledger to track what she skims from my profits!",
+        "There's a better life out there.  A much better life.",
+        "Stupid taxes!"
+      ]
+    },
+    {
+      "name": "Squire Moorford",
+      "name_sortable": "squiremoorford",
+      "purpose": "Qeynos Guard",
+      "locations": [
+        "974.45,-25.52,21.51"
+      ],
+      "utterances": [
+        "Hello!  How can I help you? It's my proud duty to help keep this harbor safe!"
+      ]
+    },
+    {
+      "name": "Standar Yorden",
+      "name_sortable": "standaryorden",
+      "purpose": "Role Advisor",
+      "locations": [
+        "875.22,-25.37,56.84"
+      ],
+      "utterances": [
+        "Ah, a young acolyte looking for work.  You've come to the wrong place, or the right place.  Well, wrong and right.  I don't have work for you, but I know someone who does.  Bellengere the Three at the Concordium.  Now go hit your books!"
+      ]
+    },
+    {
+      "name": "Stanley Parnem",
+      "name_sortable": "stanleyparnem",
+      "purpose": "Administrator Agent",
+      "locations": [
+        "972.46,-20.69,90.8"
+      ]
+    },
+    {
+      "name": "Steelguard",
+      "name_sortable": "steelguard",
+      "purpose": "Mender",
+      "locations": [
+        "578.35,-18.16,-414.31"
+      ]
+    },
+    {
+      "name": "Taburg",
+      "name_sortable": "taburg",
+      "purpose": "Guard",
+      "level": 35,
+      "locations": [
+        "675.17,-20.64,-26.3"
+      ],
+      "utterances": [
+        "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out."
+      ]
+    },
+    {
+      "name": "Tacklemaster Moyna",
+      "name_sortable": "tacklemastermoyna",
+      "locations": [
+        "1004.47,-25.9,26.63"
+      ],
+      "utterances": [
+        "The harbor here is great for fishing...when the boats aren't in that is!  What brings you out this way?  Taking a trip, or just enjoying the scenery?",
+        "You're in luck. I need more bait.  If you're interested, you could fetch me some centipede meat. Sean and Ashilda catch all the fish from the pier, and I always need more bait.",
+        "It'll pay but not too well.  The bait business is decent next to the pier, but the stuff isn't exactly worth its weight in platinum, if you know what I mean.  I need you to gather some centipede meat for me from the Forest Ruins.",
+        "What's taking you so long, friend? I don't have all day! Fetch me my centipedes!",
+        "How goes the centipede hunt?",
+        "Thank you!  With this supply, I can keep my bait buckets filled for at least another day or two. Well done. Here's your reward as promised."
+      ]
+    },
+    {
+      "name": "Tairiel Oakshade",
+      "name_sortable": "tairieloakshade",
+      "purpose": "The Tunarian Alliance",
+      "locations": [
+        "657.81,-10.16,-391.83"
+      ],
+      "utterances": [
+        "Hello adventurer! Are you here to serve the Tunarian Alliance? We find ourselves in need of some dedicated scouts who can help us with a few tasks.",
+        "Great! We are in need of someone with excellent ranged skills. Are you such a scout?",
+        "I'm glad you asked! We currently have an outstanding task that needs carrying out with the Baubbleshire. It seems the gnomes and halflings are doing fairly well against the portal creatures that have arrived there. However, they are struggling against certain creatures that are out of their reach.",
+        "Yes, yes, please do! Oh! While you are in there we got a request from the Concordium to grab samples of the portals within the zone. They are working on something in order to close the portals for good, but need fragments of them for their testing. If you bring them back to me I can get them into the right hands.",
+        "Make sure to get fragments of the portals appearing in Baubbleshire while you are taking out the creatures around the skies.",
+        "I see you've returned, how did it go?",
+        "Outstanding work! I'm actually glad you came back when you did. We got a rather urgent  report that we need someone to act on immediately.",
+        "The residents of Nettleville have reported that the Circle of Ten have been setting traps in and around their homes in an attempt to catch blood crazed freeblood. The problem is the  traps cannot tell between a blood crazed freeblood and a normal innocent citizen.",
+        "No, actually, I believe there are other organizations working on that front. We need to protect the people in other ways.",
+        "Well, the whole situation with the Circle of Ten is a touchy one. If we go in there and just destroy the traps, it will look like an act of aggression against the Circle of Ten, and thats the last thing we need right now.",
+        "I assume you are well versed in disarming traps... So, go in and disarm them, then tamper with the trigger pin so they do not go off. The Circle of Ten will just assume they are a bad batch of traps and hopefully abandon the use of them altogether.",
+        "Yes, indeed they do. They are just as dangerous as the traps are to the citizens. If you run into any of them make sure to dispose of them.",
+        "Did you take care of those traps? You didn't get caught did you?",
+        "Good point! Are you ready for something else? It just so happens I have another task here that needs done and I think you have the skills needed for this.",
+        "While you were gone I gave a task to one of our less skilled scouts, Gelerth Bucklebrow.  It was just a routine supply retrieval from a thief in the Graystone Yard. I'm afraid he hasn't checked in, and knowing his skill level, I'm afraid something may have happened to him.  How are your skills with tracking?",
+        "Good to hear. You will likely need those skills in order to find him. There is quite a brawl that seems to be happening in the Graystone Yard at the moment. In fact, I hear the Qeynos Guard has had quite a time of getting them under control.",
+        "Yes, they do. Your primary goal there is to find Gelerth but if you see a brawl breaking out feel free to teach them a lesson!",
+        "Return to me once you have him safe.",
+        "Is Gelerth safe?",
+        "Excellent. I commend you on your actions. I'm not sure he would have lasted long in that situation. Luckily you were around to save him.",
+        "Oh yes, we plan to get him trained up a bit more before sending him anywhere else.  Speaking of training, I'm afraid there is no more that I can teach you as your skill level might even rival my own. In fact, I am fairly certain your skill level rivals my own. I would like you to go and speak to one of the masters of our order, Master Rysian Gladewalker.",
+        "He can be found within the Arbos the Elddar Tree. You will need to take the lift up to  the top."
+      ]
+    },
+    {
+      "name": "Takk",
+      "name_sortable": "takk",
+      "locations": [
+        "699.51,-17.12,-335.57"
+      ],
+      "utterances": [
+        "This is a good spot for meditation, and for listening to the spirits speak."
+      ]
+    },
+    {
+      "name": "Tala McMorgan",
+      "name_sortable": "talamcmorgan",
+      "purpose": "Shieldsmith",
+      "locations": [
+        "858.66,-25.33,-53.88"
+      ],
+      "utterances": [
+        "Coin is no object when gaining protection from your enemies.  What price can be put on your safety? ",
+        "You can never be too careful when it comes to protection.  Here, try on one of these."
+      ]
+    },
+    {
+      "name": "Telandra",
+      "name_sortable": "telandra",
+      "locations": [
+        "559.2,-16.69,-426.3"
+      ],
+      "utterances": [
+        "You could not know what it is to lose your home.  I know you try, but you cannot know.",
+        "I don't understand the need for piercings, but they look fine on you.",
+        "To be among the highest leaves and branches of a tree is to feel free."
+      ]
+    },
+    {
+      "name": "Telgard",
+      "name_sortable": "telgard",
+      "purpose": "Qeynos Guard Merchant",
+      "locations": [
+        "926.71,-25.17,32.88"
+      ],
+      "utterances": [
+        "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out.",
+        "Duty above all else, citizen, except honor!",
+        "I hate working this shift!  If the gnolls don't attack now, I may die of boredom.",
+        "Good day to you, citizen. All preserve Queen Antonia."
+      ]
+    },
+    {
+      "name": "Thabit Kalila",
+      "name_sortable": "thabitkalila",
+      "locations": [
+        "651.55,10.91,-389.38"
+      ],
+      "utterances": [
+        "Salutations.  You are lucky you caught me during a momentary distraction from my studies.  Else I would not be so accommodating.",
+        "Painfully.  A wretched Halfling went bumbling by.  She looked so foolish, and reminded me of a friend long gone.  How I miss her companionship, our talks over her homemade pie.  Anyway...",
+        "Enjoy the festivities!",
+        "Hello, again!",
+        "I did not require anything."
+      ]
+    },
+    {
+      "name": "Thomas Dedry",
+      "name_sortable": "thomasdedry",
+      "locations": [
+        "813.16,-23.27,63.87"
+      ],
+      "utterances": [
+        "I doeshn't talk with *hic* shhhtrangershh!"
+      ]
+    },
+    {
+      "name": "Timeless Chronomage",
+      "name_sortable": "timelesschronomage",
+      "locations": [
+        "892.09,-25.43,18.22"
+      ],
+      "utterances": [
+        "Greetings! Would you like me to chronolock you? For a small fee of course..."
+      ]
+    },
+    {
+      "name": "Timeless Trader",
+      "name_sortable": "timelesstrader",
+      "purpose": "Chronomagic Reward Merchant",
+      "locations": [
+        "890.52,-25.43,20.43"
+      ]
+    },
+    {
+      "name": "Tom Sterling",
+      "name_sortable": "tomsterling",
+      "locations": [
+        "805.11,-23.77,60.17"
+      ],
+      "utterances": [
+        "Nothing like drowning your troubles at the end of a long day!"
+      ]
+    },
+    {
+      "name": "Trainer Alega Masseri",
+      "name_sortable": "traineralegamasseri",
+      "locations": [
+        "773.6,-19.26,-374.32"
+      ]
+    },
+    {
+      "name": "a training strider",
+      "name_sortable": "trainingstrider",
+      "locations": [
+        "589.04,-21.24,-314.71"
+      ],
+      "utterances": [
+        "The destructive methods of the Qeynos Guard will ravage that which it seeks to defend."
+      ]
+    },
+    {
+      "name": "Traylo Leafsway",
+      "name_sortable": "trayloleafsway",
+      "purpose": "Gildas' Assisstant",
+      "locations": [
+        "729.11,-20.07,-406.82"
+      ],
+      "utterances": [
+        "Greetings citizen.  Please see me if you have any armor from Gildas that you wish to be rid of, I have some newer armor that may interest you. "
+      ]
+    },
+    {
+      "name": "Trelly Greenthorn",
+      "name_sortable": "trellygreenthorn",
+      "purpose": "Wood Elf Mentor",
+      "locations": [
+        "799.54,-21.06,-519.3"
+      ],
+      "utterances": [
+        "Thankfully, it's still peaceful here in the Province District, but the same can't be said for my home within the Willow Wood.",
+        "Please, leave me...",
+        "I'm sorry.  I'm just...distraught.  There's nothing you can do.",
+        "I see you won't give up.  I'm Trelly Greenthorn.",
+        "It's my brother, Jendan.  He died in The Willow Wood when the gnolls invaded.",
+        "Thank you.  I just don't know what else to do now.  I have no other relatives here in Qeynos.  I should probably just go back to Kelethin...",
+        "Yes, but I can't just leave now, not without at least burying my only brother.  I just can't get that last image out of my mind, of him yelling for me to run as the gnolls surrounded him...",
+        "Yes, but that was days ago.  And there were so many gnolls.  The look in his eyes when he told me to run...then they swarmed him...",
+        "If this was just today, then maybe...but, I don't know...and the Qeynos Guard around here don't know a thing and are too busy keeping the gnolls from penetrating into the Province District!",
+        "A lot like me, actually.  He's a ranger for the Tunarian Alliance, so wears the garb of one attuned with the forest...why?",
+        "Oh thank you!  Thank you!  Thank you!",
+        "Yes.  He's in fine health too!  You were right, don't ever count us Feir'Dal out.",
+        "He wanted to apologize for leaving in such haste.  He had to bring word of what he discovered in The Willow Wood back to the Tunarian Alliance.",
+        "You're poisoned!  It's probably gnoll-make.  I better cure it fast before it takes you entirely!",
+        "Oh thank Tunare you're awake!",
+        "What do you mean?",
+        "Probably the effect of the gnoll poison.  It was quite severe.  My cure-all failed miserably so I had you brought here to the Tunarian Alliance, but we still had trouble curing you.",
+        "It was strange.  You spoke in your sleep at times, but only to tell me the name of an herb.",
+        "Yes!  I don't know what happened, but you gave me the right ingredients.  From there we were able to mix them properly and cure you.  The poison quickly subsided.",
+        "Don't thank me.  It was you who led me to the cure.  Oh!  Jendan has some news about the gnolls you might want to hear.  He's just inside the arbor here.",
+        "Actually no, I'll be heading back near The Willow Wood helping any injured soldiers.  If you need anything else you'll find me there.",
+        "I hope you're able to help Jendan with whatever he has for you.",
+        "I'd like to know what happened to him, so thank you, <player name>, whatever you find out.",
+        "<player name>?  You're starting to look as pale as a Koada'Dal!",
+        "Focus on me, <player name>...",
+        "It's a travesty what has become of The Willow Wood."
+      ]
+    },
+    {
+      "name": "Trillium",
+      "name_sortable": "trillium",
+      "purpose": "Tunarian Alliance Merchant",
+      "locations": [
+        "-653.56,10.93,-380.36"
+      ],
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Welcome! What can I help you with?",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
+      ]
+    },
+    {
+      "name": "a Tunarian scout",
+      "name_sortable": "tunarianscout",
+      "locations": [
+        "601.84,-19.77,-368.59",
+        "590.69,-21.8,-269.65",
+        "710.49,-20.29,-448.84"
+      ],
+      "utterances": [
+        "I fear that the Concordium is unable to control its disciples. If corrupted the sorcerers would surely bring harm to the woodlands and their creatures.",
+        "While the land suffers and cries out for immediate protection the Celestial Watch is content to look to myths and superstitions for our salvation.",
+        "The destructive methods of the Qeynos Guard will ravage that which it seeks to defend.",
+        "The Tunarian Alliance preserves our memories of the breathing trees and singing streams of Jaggedpine.",
+        "The mechanical beasts of the Ironforge Exchange belch forth black clouds to choke out life within the forests."
+      ]
+    },
+    {
+      "name": "Umli Grayfist",
+      "name_sortable": "umligrayfist",
+      "purpose": "Bartender",
+      "locations": [
+        "923.48,-25.49,44.46"
+      ],
+      "utterances": [
+        "Have I got a bargain for you!  Come now, step up, I don't bite.  Check my goods and see if we can't make a whale of a deal! Ha ha ha ha ...Whale of a deal, get it?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1230680062 1846598759 0 0 0:aerated mineral water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1618656513 -631993083:Antonia Ale (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 502648298 -366828437:canteen of pond water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1793046727 374059509:cocoa\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 444185263 -652129761:cream cheese\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1901169081 231047307:dough\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1281187795 -495418410:Dwarven Ale (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -692542167 450719094:Elven Wine (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1608751314 -1346962995:Gnomish Spirits (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1424677497 801220853:Lucan's Lager (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -72718082 1138320361:milk\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1199073772 520539661:Oggok Swill (Alcoholic)\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -682581044 1413174528:sugar\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1383852152 -1014417461:Teir'dal Blood Wine (Alcoholic)\\/a"
+        }
+      ],
+      "store_template": "kindling"
+    },
+    {
+      "name": "Velnia",
+      "name_sortable": "velnia",
+      "purpose": "Salty Sailor",
+      "locations": [
+        "911.33,-25.3,94.25"
+      ],
+      "utterances": [
+        "Ah, the lure of the sea.  How can anyone avoid the call to sail the sea's waters, to explore, to be free?"
+      ]
+    },
+    {
+      "name": "Velwich",
+      "name_sortable": "velwich",
+      "purpose": "Guard",
+      "level": 35,
+      "utterances": [
+        "Good day to you, citizen. All preserve Queen Antonia."
+      ]
+    },
+    {
+      "name": "Vernon Tinworthy",
+      "name_sortable": "vernontinworthy",
+      "purpose": "Bar Patron",
+      "locations": [
+        "808.88,-14.27,43.3"
+      ],
+      "utterances": [
+        "What do you want?"
+      ]
+    },
+    {
+      "name": "a veteran pathfinder",
+      "name_sortable": "veteranpathfinder",
+      "locations": [
+        "574.66,-21.57,-315.66"
+      ],
+      "utterances": [
+        "The mechanical beasts of the Ironforge Exchange belch forth black clouds to choke out life within the forests."
+      ]
+    },
+    {
+      "name": "Vida Sweeps",
+      "name_sortable": "vidasweeps",
+      "locations": [
+        "947.66,-25.27,103.9"
+      ],
+      "utterances": [
+        "So much to do!  So little time! I must finish my sweeping, but I need a new broom. Perhaps you'll help me in return for a precious stone?",
+        "So much to do!  So little time!  I must get these tents in order, and all this sweeping is giving me blisters.  It wouldn't be so bad if there weren't all these little rocks about.",
+        "These stones on the ground, of course ... I guess I swept away most of the pebbles, but I did keep one strange blue rock that I found in the dust.  If you agree to help me, I'll give you the precious stone as payment. Unfortunately, I'm short on coin."
+      ]
+    },
+    {
+      "name": "a visiting traveler",
+      "name_sortable": "visitingtraveler",
+      "locations": [
+        "840.54,-25.47,105.74"
+      ],
+      "utterances": [
+        "Please, I am in the midst of solving a very complex problem and must not be interrupted.",
+        "I have learned that it is best to trust to your own wisdom rather than the weaponry of your acquaintances."
+      ]
+    },
+    {
+      "name": "Vorin",
+      "name_sortable": "vorin",
+      "purpose": "Celestial Watch Merchant",
+      "locations": [
+        "939.6,-25.55,16.49"
+      ]
+    },
+    {
+      "name": "Wanderer Greencoast",
+      "name_sortable": "wanderergreencoast",
+      "purpose": "Tunarian Alliance Grove Warden",
+      "locations": [
+        "665.05,-10.08,-392.81"
+      ],
+      "utterances": [
+        "...",
+        "Well, you've done incredibly well. You saved countless innocent lives with your selflessness. I think you're ready to help us in the battle out there.  Go speak with Naturalist Tummyfill near the treehouse, and he'll give you your next assignment."
+      ]
+    },
+    {
+      "name": "Wanderer Raegen Truthshadow",
+      "name_sortable": "wandererraegentruthshadow",
+      "purpose": "Tunarian Alliance Grove Warden",
+      "locations": [
+        "674,-10.36,-384.47"
+      ],
+      "utterances": [
+        "You have exposed a great deal of information about the Overrealm that has proved to be invaluable. Many thanks to you and your guild for your continued efforts."
+      ]
+    },
+    {
+      "name": "Warble Wildmane",
+      "name_sortable": "warblewildmane",
+      "utterances": [
+        "Shh!  Old Treebark's talking!",
+        "Oh, sorry I forget most people can't talk to trees.  Treebark and I were discussing the merits of various soils.  I favor a rich Rivervale loam while tree bark here thinks New Antonican sod can't be beat.",
+        "Yea, I spent most of my time with the Heartwood tree until the Heartwood matron forbade it.  It needs help and I can't even approach it.  Could you try?",
+        "Take this pendant and find the Heartwood tree.  It's located in the center of this grove.  Once there clasp the pendant in one hand and touch the tree with the other.",
+        "Thank you!"
+      ]
+    },
+    {
+      "name": "Wesaelan Brookshadow",
+      "name_sortable": "wesaelanbrookshadow",
+      "locations": [
+        "661.02,10.91,-393.01"
+      ],
+      "utterances": [
+        "Hail traveler!  All friends of the Elddar are welcome.",
+        "I've uncovered the location of a tome hidden by Karana's  followers long before the gods left this world.  I recently discovered its location with the aid of Duvos.  My duties here do not permit the time to recover the tome. I can charge you with recovering this treasure - if you're capable of such an invaluable task.",
+        "You will need to venture to the great oak in the fields outside the city where the tome has been hidden for many decades. You must thoroughly search the tree. Remember, the tome has been missing for many years. Use care when handling this precious treasure. ",
+        "Brigands!  How would they find the location of the tome? I don't believe mere bandits could achieve such a task. What did these fiends look like? Did they speak of anything peculiar?",
+        "Please, say it isn't so ... Could they be attempting to raise an ancient Bloodsaber leader? How would this tome aid them in this task? To my knowledge, the tome is only a written historical record. Indeed, this requires further investigation! You've served us well, good friend. Take this coin with my blessing.",
+        "I do thank you. I'm very glad you've returned, for I have an urgent matter to discuss with you. The Bloodsabers have been active. I know it's hard to believe, but the evidence cannot be denied.",
+        "According to the rumors, the more active members are lurking in the catacombs under the city. It's hard to find good help in the Down Below. We need you to penetrate the Vermin Snye and find out what the Bloodsabers' orders are. Can you do it? ",
+        "Then go to the Snye and return to me with any information you can find on the Bloodsabers. We must put an end to this menace. We're counting on you, friend.",
+        "Take it to Captain Eitoa at once. The duty to stop this resurgence of the Bloodsabers has fallen on her shoulders. She's been watching their suspicious movements and will certainly welcome this piece of intelligence. The Bloodsabers will cease their scheming once and for all!"
+      ]
+    },
+    {
+      "name": "Willama",
+      "name_sortable": "willama",
+      "purpose": "Tunarian Alliance Merchant",
+      "locations": [
+        "903.83,-25.47,-56.26"
+      ],
+      "utterances": [
+        "Welcome! What can I help you with?",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
+      ]
+    },
+    {
+      "name": "a Willow Wood defender",
+      "name_sortable": "willowwooddefender",
+      "locations": [
+        "799.69,-21.43,-550.08"
+      ],
+      "utterances": [
+        "Thank you for the assistance, <player name>."
+      ]
+    },
+    {
+      "name": "a wonderstruck Qeynos resident",
+      "name_sortable": "wonderstruckqeynosresident",
+      "locations": [
+        "951.02,-25.5,20.04",
+        "542.9,-20.58,-290.99"
+      ],
+      "utterances": [
+        "Luclin... it kind of looks like an egg now, doesn't it? I hope Kerafyrm cannot get free...",
+        "See! We never needed Freeport's help! Queen Antonia can do it all on her own!",
+        "Luclin shines so bright...",
+        "Kerafyrm is still up there... trapped, but for how long?",
+        "We must not doubt Queen Antonia. We owe much to her leadership!",
+        "Freeportians will learn the errors of their ways, one day.",
+        "I can look up at Luclin and know I will never see Kerafyrm's shadow again.",
+        "Luclin is whole again... I never thought I'd see such a thing.",
+        "Look upon our great city! Threatened time and time again, but Qeynos still stands.",
+        "The night sky is so different now, I love it!",
+        "I heard some have found a way to Luclin. It is a new beginning for us now!",
+        "Luclin is so beautiful... but it's terrifying to know what she harbors within.",
+        "May the gods continue to bless us."
+      ]
+    },
+    {
+      "name": "a wounded Baubbleshire defender",
+      "name_sortable": "woundedbaubbleshiredefender",
+      "locations": [
+        "791.91,-21.5,-543.26"
+      ]
+    },
+    {
+      "name": "Wyrmdon",
+      "name_sortable": "wyrmdon",
+      "locations": [
+        "920.25,-25.49,56.35",
+        "910.85,-25.36,85.12",
+        "928.98,-25.46,20.36",
+        "906.37,-25.28,47.3"
+      ],
+      "utterances": [
+        "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out."
+      ]
+    },
+    {
+      "name": "Xau'Unda Dom",
+      "name_sortable": "xauundadom",
+      "purpose": "Champion Merchant",
+      "locations": [
+        "751.13,-20.79,-70.92"
+      ]
+    },
+    {
+      "name": "Yarwick",
+      "name_sortable": "yarwick",
+      "purpose": "Guard",
+      "level": 35,
+      "locations": [
+        "802.01,-20.64,-69.31"
+      ],
+      "utterances": [
+        "I hate the night shift!  If the gnolls don't attack now, I may die of boredom."
+      ]
+    },
+    {
+      "name": "Zara",
+      "name_sortable": "zara",
+      "purpose": "Alchemist Assistant",
+      "locations": [
+        "794.65,-23.26,107.51"
+      ],
+      "utterances": [
+        "All right where is my pen?  How am I supposed to scribe anything without my pen?",
+        "Be careful, it's best not to read the scrolls.  If you want to know what they are, just ask me.",
+        "Blast it! Who keeps taking all of the parchment?  "
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 2037451968 -1554449979:Acidic Goo\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 2084246562 -626331382:Acidic Massage\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1134242107 -1996491909:Anti-Venin\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -690121607 1202074247:Blight of the Eventide\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 398705441 134851183:Caress of the Phantom\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1021041208 -1438464221:Crypt Sludge\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -278086179 1135729178:Elemental Ointment\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -708906406 -399850333:Enigmatic Formula\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 621368354 1922001657:Gust of Insight\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1570285900 1124058293:Remedy of the Field\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -763453791 -1701345003:Salve\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -182855303 1419465232:softly glowing pearl\\/a"
+        }
+      ],
+      "store_template": "candle+incense"
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM 46085298 -116961816:Aura of Foreboding\\/a",
+      "locations": [
+        "665.98,-10.08,-387.81",
+        "633.75,-17.06,-325.29",
+        "674.03,-20.49,-131.95"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 781768553 1850534947:Bough of Holly\\/a",
+      "locations": [
+        "691.90,-13.74,-370.53"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 253857309 -1285220478:Buttery Spritz Cookies\\/a",
+      "locations": [
+        "974.26,-25.46,12.18"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -390413350 -2127254410:Cadaverous Breath\\/a",
+      "locations": [
+        "667.96,-10.32,-391.35",
+        "651.74,-11.10,-388.23",
+        "644.57,-12.43,-374.49",
+        "636.62,-15.06,-338.03",
+        "653.98,-18.72,-159.95",
+        "679.43,-20.72,-122.68",
+        "991.79,-25.12,16.58",
+        "645.97,-13.23,-360.05"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -59052107 -1075832499:Chestnut Garland\\/a",
+      "locations": [
+        "691.13,-11.17,-392.17",
+        "676.28,-12.21,-364.97",
+        "653.76,-10.13,-380.14"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1729614145 -393139656:Chocolate Buttons\\/a",
+      "locations": [
+        "645.24,-19.19,-269.09",
+        "625.98,-15.50,-337.48"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 2106803051 -1585298617:Cupcake\\/a",
+      "locations": [
+        "644.82,-12.88,-367.77"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1597408866 -122030321:drop of mixed blood\\/a",
+      "locations": [
+        "652.53,10.93,-383.02"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 883795308 1592893874:fine Ro sand\\/a",
+      "locations": [
+        "652.53,10.93,-383.02"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1941607806 2083974491:Frosted Shortbread\\/a",
+      "locations": [
+        "909.01,-25.41,-17.77"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1938554041 1572844433:Gingersnaps\\/a",
+      "locations": [
+        "649.73,-21.07,-311.49",
+        "878.18,-25.38,56.67",
+        "691.13,-11.17,-392.17"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -400327165 1327163556:Gumdrops\\/a",
+      "locations": [
+        "690.35,-20.10,-122.20"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 728826092 272685218:Jelly Beans\\/a",
+      "locations": [
+        "640.05,-16.35,-331.05"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1915575573 -606522529:living root\\/a",
+      "locations": [
+        "572.85,-18.01,-389.46"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1241141830 704830130:Lollipop\\/a",
+      "locations": [
+        "630.55,-15.96,-331.97"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -42682271 -1161873542:lost imperial coin\\/a",
+      "locations": [
+        "659.74,-14.98,-341.64",
+        "620.52,-16.32,-336.45",
+        "603.63,-20.95,-307.16"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1734035368 798371612:Mistletoe Sprig\\/a",
+      "locations": [
+        "756.50,-21.32,-43.92"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 966154019 1295163645:Peanut Brittle\\/a",
+      "locations": [
+        "653.98,-18.72,-159.95"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -839935954 -1815450550:piece of cloud\\/a",
+      "locations": [
+        "576.15,-20.47,-280.68"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1466361711 -68860504:Popcorn Ball\\/a",
+      "locations": [
+        "650.89,-17.94,-197.11"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -218380927 -2024552337:Qeynos envelope\\/a",
+      "locations": [
+        "898.67,-23.45,-35.70",
+        "656.81,-20.29,-285.81",
+        "735.33,-20.95,-409.12"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 682740466 1404913890:Qeynos letterhead\\/a",
+      "locations": [
+        "676.48,-20.13,-82.78"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1192633671 -658587412:Qeynos notepaper\\/a",
+      "locations": [
+        "692.24,-14.03,-423.24"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 171367185 -1641206515:Qeynos postmark\\/a",
+      "locations": [
+        "710.39,-17.32,-297.32"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 527203470 1155621890:Qeynos sealing wax\\/a",
+      "locations": [
+        "686.11,-19.64,-66.03",
+        "692.24,-14.03,-423.24",
+        "668.82,-10.09,-387.14",
+        "696.50,-17.30,-334.53"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1424798816 1988801906:scuffed dragon scale\\/a",
+      "locations": [
+        "620.52,-16.32,-336.45"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1332740019 74653259:shed amphibian skin\\/a",
+      "locations": [
+        "659.74,-14.98,-341.64"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1411748553 -161889116:shed fairy wing\\/a",
+      "locations": [
+        "777.87,-20.64,-27.83"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 343261263 -1718749056:Straw Goat\\/a",
+      "locations": [
+        "865.33,-25.51,35.51"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1684104963 1853554159:Zephyrswell Charm\\/a",
+      "locations": [
+        "741.78,-19.94,-357.07"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Crow's Resting Place",
+  "name_sortable": "crowsrestingplace",
+  "region": "Karan",
+  "zonerect": "-28.00,-17.00,27.00,15.00",
+  "levels": "8-15",
+  "type": "instance",
+  "access_quests": [
+    974565471
+  ],
+  "connections": [
+    {
+      "key": "qey_catacomb01"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a circle initiate",
+      "name_sortable": "circleinitiate",
+      "level": 10
+    },
+    {
+      "name": "a circle intiate",
+      "name_sortable": "circleintiate",
+      "utterances": [
+        "To arms!",
+        "I can't hold them forever!",
+        "Is that all you have?"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Fippy Darkpaw, the 4th",
+      "name_sortable": "fippydarkpawthe4th",
+      "locations": [
+        "3,1,1"
+      ],
+      "utterances": [
+        "What took you so long? You nearly lost me some coin.",
+        "Dear me ... you're right! Did you hear that Rollus ... I'm a gnoll! Call the guard at once! Please! You allow frogs and felines to wander about without a second glance, and you get all jumpy at the sight of me?",
+        "You just won me heavy coin. I knew you would find us, especially after seeing you tear through those Bloodsabers in the Down Below.",
+        "Of course I was watching, watching from the dark. You're lucky I saw good coin in you, or you never would've made it here.",
+        "No. I spread the crumbs out for you to follow. The only thing you can lay claim to is disposing of my lackeys, worthless as they were.",
+        "Please! Don't make me laugh. You may have earned my respect, but you haven't earned my trust. ",
+        "I'll make a deal with you, scuffler ... you perform a little task for me,  and I'll feed you a few more crumbs to whet your appetite.",
+        "Take this manifest. Our Qeynosian clients must sign it! The manifest contains all the information you need to complete your task. Return it to me when you're done. Now off with ya!",
+        "Good work. Maybe someday you'll earn coin but not today. Now run along ... back to the safety of the city streets.",
+        "Oh! I forgot to mention ... we took the liberty of forging your signature on the merchant manifest. Many a day in the dungeons for you, should they ever find it. "
+      ]
+    },
+    {
+      "name": "Rollus the Sly",
+      "name_sortable": "rollusthesly",
+      "level": 12,
+      "difficulty": "heroic",
+      "locations": [
+        "5,1,6"
+      ],
+      "utterances": [
+        "To the void with you! You made me coin purse lighter!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1348569876 1213410775:Motley Merchant Manifest\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "an Unseen Hand initiate",
+      "name_sortable": "unseenhandinitiate",
+      "level": 10,
+      "locations": [
+        "9,0,9"
+      ]
+    },
+    {
+      "name": "an Unseen Hand taskmaster",
+      "name_sortable": "unseenhandtaskmaster",
+      "level": 10,
+      "difficulty": "heroic",
+      "locations": [
+        "-9,0,-2"
+      ],
+      "utterances": [
+        "Ahh, you must be the new initiates, make yourselves useful and start cleaning up some of the debris. And be quick about it!",
+        "Did you not hear me, I told you to clean. ",
+        "They are waiting for you, go ahead  back."
+      ]
+    },
+    {
+      "name": "Velia Truesight",
+      "name_sortable": "veliatruesight",
+      "locations": [
+        "-9,0,7"
+      ]
+    }
+  ]
+}

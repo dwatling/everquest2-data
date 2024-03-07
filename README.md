@@ -9,5 +9,4 @@ I'm not entirely happy with the layout of the files, so they might change at som
 3. Faction data (name, description)
 
 Known issues:
-1. Item prices isn't always accurate. Need to break it out by server.
-2. `npc.utterances` should be renamed to `npc.dialog` and it should include the text from the player. It is captured and it could add some context to dialogs.
+1. Full dialogs between player and NPC are not captured. NPC dialog is the only thing recorded. 

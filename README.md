@@ -10,3 +10,4 @@ I'm not entirely happy with the layout of the files, so they might change at som
 
 Known issues:
 1. Full dialogs between player and NPC are not captured. NPC dialog is the only thing recorded. 
+2. Some NPCs have the same name, but different purpose, and are completely separate entities. The current format doesn't support this. Example: "a mysterious Quellithulian" in Moors of Ykesha (exp05_rgn_innothule)

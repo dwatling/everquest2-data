@@ -15,6 +15,36 @@
   ],
   "npcs": [
     {
+      "name": "a Chronomage",
+      "name_sortable": "chronomage",
+      "locations": [
+        "1878.87,452.56,934.35",
+        "1871.42,453.27,954.74"
+      ],
+      "utterances": [
+        "Step on in to the Chronoweave, adventurer. Do not be nervous. We have stabilized the chronoportals, I assure you.",
+        "We've come to a strong enough understanding of the ebb and flow of the chrono stream, after years of study, to recognize this as the annual phase in which the barrier to the stream of the past is the thinnest."
+      ]
+    },
+    {
+      "name": "Gabblin Bittlegrip",
+      "name_sortable": "gabblinbittlegrip",
+      "utterances": [
+        "Look at all the magnificent things we've already found in this short time!  There must be so much more out in the Moors just waiting to be discovered!"
+      ]
+    },
+    {
+      "name": "a mysterious Quellithulian",
+      "name_sortable": "mysteriousquellithulian",
+      "locations": [
+        "1675.9,452.56,888.54"
+      ],
+      "utterances": [
+        "You needn't ask how I acquired these items. Be thankful I offer them up to you at such reasonable prices.",
+        "Remarkable items can be manufactured from these void shards.  I will be happy to take any off your hands."
+      ]
+    },
+    {
       "name": "Skymaster Akiz Hoopster",
       "name_sortable": "skymasterakizhoopster",
       "locations": [
@@ -38,6 +68,26 @@
         {
           "name": "Shipwright Ythkaz"
         }
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM 711588525 888748322:Crackling Residue\\/a",
+      "locations": [
+        "1887.08,453.51,904.70"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1156858540 -845604802:Bog Water Brew\\/a",
+      "locations": [
+        "1674.96,453.79,928.85"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1930407733 1874842855:Miner's Milk\\/a",
+      "locations": [
+        "1686.47,452.56,937.19"
       ]
     }
   ]

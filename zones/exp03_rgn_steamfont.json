@@ -24,12 +24,45 @@
   ],
   "npcs": [
     {
+      "name": "a Chronomage",
+      "name_sortable": "chronomage",
+      "locations": [
+        "17.72,93.86,1288.62",
+        "34.9,93.33,1291.26",
+        "16.38,93.76,1307.79"
+      ],
+      "utterances": [
+        "We've come to a strong enough understanding of the ebb and flow of the chrono stream, after years of study, to recognize this as the annual phase in which the barrier to the stream of the past is the thinnest.",
+        "Step on in to the Chronoweave, adventurer. Do not be nervous. We have stabilized the chronoportals, I assure you."
+      ]
+    },
+    {
       "name": "Finbert Lintzig",
       "name_sortable": "finbertlintzig",
       "utterances": [
         "Don't touch that please! Your primitive intellect wouldn't understand alloys and compositions, things with mechanamagical structures.",
         "Eugene, please take these mana couplings to Hodgemottin and be very careful with them. They are delicate mechanamagical instruments and it would be a shame to have to refabricate them.",
         "Good job Eugene, that is all for now."
+      ]
+    },
+    {
+      "name": "Fresa Wealgear",
+      "name_sortable": "fresawealgear",
+      "locations": [
+        "-594.75,174.93,1080.08"
+      ],
+      "utterances": [
+        "What are you doing way up here?"
+      ]
+    },
+    {
+      "name": "Jin Findintide",
+      "name_sortable": "jinfindintide",
+      "locations": [
+        "-598.59,174.93,1082.47"
+      ],
+      "utterances": [
+        "Hello there. You haven't seen Sergi's brother anywhere nearby have you? He's soooo rude!"
       ]
     },
     {
@@ -53,6 +86,20 @@
       ]
     },
     {
+      "name": "Sergi Voombin",
+      "name_sortable": "sergivoombin",
+      "locations": [
+        "-597.34,175.54,1084.83"
+      ],
+      "utterances": [
+        "Hi there. I saw you eyeing my marvelous invention... yeah, that's right, don't be bashful. I'd be happy to tell you about the Anas Mechanica Arcana, also known as the clockwork duck! Fascinating thing, isn't it? And it looks so real!",
+        "Wouldn't you be? Look at the detail in the feathers and the realistic shine of the bill. And just listen to it! It sounds so real!",
+        "By using my dizzying intellect of course! And these steady and skilled hands! And my dashing good looks! And... and.. actually, could you help me with a little problem?",
+        "Well, you see, I used to have four other fine feathered friends, but I've lost them recently. See, at the request of our esteemed Regent Waynil Garwater, I sent them out to do some reconnaissance. Something about monitoring the movements of the Klak'Anon clockworks. Anyway, they haven't returned and I'm a little worried about them.",
+        "I'd go out and do it myself you know, but well, I have this little fella here to take care of. I'd hate to lose my last one! Anyway, all I really need are their Mechanamagical Recording Boxes. I can rebuild their bodies. So what do you say?"
+      ]
+    },
+    {
       "name": "Tomker",
       "name_sortable": "tomker",
       "utterances": [
@@ -65,6 +112,27 @@
       "utterances": [
         "Well hello there! Welcome to Gnomeland Security Headquarters!"
       ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1968653330 -1657972376:Chronological Ripple\\/a",
+      "locations": [
+        "-1.22,93.81,1299.97"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 285687365 1486884596:Condensed Energy\\/a",
+      "locations": [
+        "23.54,92.97,1343.22",
+        "19.60,92.40,1273.67"
+      ]
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the burnished stone",
+      "name_sortable": "burnishedstone"
     }
   ]
 }

@@ -163,7 +163,13 @@
         "Dispense Ale?",
         "*BZZZT* Error. Mechanical malfunction. Run self-diagnostic?",
         "Self-diagnostic complete. Multiple part failure. Replacement of parts required.",
-        "Feysteel * BZZZT ZZZAP* acquired in Gnomeland Security. Incarnadine * ZZZAP BZZZT * acquired in Dropship Landing Zone."
+        "Feysteel * BZZZT ZZZAP* acquired in Gnomeland Security. Incarnadine * ZZZAP BZZZT * acquired in Dropship Landing Zone.",
+        "Maintenance required. Must obtain replacement parts.",
+        "Affirmative. Now performing self-maintenance. Please wait.",
+        "Maintenance concluded. Dispense Ale?",
+        "Error. Ale level too low.",
+        "Awaiting Seamist malt and Haoaera pepper.",
+        "Ingredients confirmed and added. Brewing successful!"
       ]
     },
     {
@@ -222,7 +228,18 @@
         "Don't ya talk about me love like that!",
         "Aaagh!  Damned gnome gadgetry!  Ye can never trust ‘em!  I should just be thankful that them goggles didn't simply blow up in me face, especially while I was enjoying those gorgeous ladies abroad.",
         "Oh, blessed Brell!  What if those ladies weren't as lovely as I thought?  But I can't show me face around them again if'n they be hideous.  You can do it for me!",
-        "Go back and find each lass and let me know if'n they be hot or not.  Take the goggles and be sure you find the exact filly I saw.  Tell them whatever ya will, but don't ya dare say that yer checkin' them out for me!"
+        "Go back and find each lass and let me know if'n they be hot or not.  Take the goggles and be sure you find the exact filly I saw.  Tell them whatever ya will, but don't ya dare say that yer checkin' them out for me!",
+        "I'll be eternally grateful to you for findin' out if those lasses be sweet on me eyes or not.",
+        "Am I glad to see you, <player name>!  Tell me, were any of those lasses as gorgeous as I thought they were.",
+        "The Dwarf lass with the crimson mane?",
+        "Ye've made my heart sing once more, <player name>!  And I'll steer clear of them other fillies from this day forward.  Thank you, and take this as a token of me appreciations."
+      ]
+    },
+    {
+      "name": "Goober",
+      "name_sortable": "goober",
+      "utterances": [
+        "Still working!  Need more patiences from you."
       ]
     },
     {
@@ -286,6 +303,14 @@
       ]
     },
     {
+      "name": "a rowdy patron",
+      "name_sortable": "rowdypatron",
+      "locations": [
+        "336.23,-26.99,149.39",
+        "343.42,-26.99,149.9"
+      ]
+    },
+    {
       "name": "Snoogle Blitzed",
       "name_sortable": "snoogleblitzed",
       "purpose": "Inventor",
@@ -320,7 +345,13 @@
         "Oh yeah, it grows in a very enchanted place, and the one with the tail lives on the outskirts of the jungle. The flying one lives above a small village in the hills, and I think I told you where to find the first one.",
         "Well, hello there! Take my flask, I think I forgot to give it to you earlier. You remember how to use it don't you? It's so wonderful.",
         "How many more pints do you have Buzzed? .... Really? Well I should get to drinking then.",
-        "I love you my best mechanical buddy, Buzzed!"
+        "I love you my best mechanical buddy, Buzzed!",
+        "Who are you again?",
+        "Well, hello there! Enjoying my Flying Kegerator, are you?",
+        "Out already!? I was working on a new ale porter. It must have been a very popular clockwork concoction if Buzzed is empty already!",
+        "I've got everything needed to brew some more, except Seamist malt and Haoaera pepper.",
+        "Oh my, yes! But don't you worry, I'll get Buzzed filled with the other components. We're just counting on you!",
+        "Once you get the malt and pepper just add 'em to Buzzed and my Flying Kegerator will do the rest!"
       ]
     },
     {
@@ -333,7 +364,8 @@
       "utterances": [
         "You'll wanna' grab another ale. The Duke of Below's altar I'm assemblin' ain't quite ready for yer prayers, just yet.",
         "I'm lookin' to incorporate different items from a slew of Brell's creations. Whether we wanna' admit it or not, he's had his hand in sculptin' a great many of us into being.",
-        "You and your Agents wanna' help me gather up the items? I'll light a candle for ya, when it's done."
+        "You and your Agents wanna' help me gather up the items? I'll light a candle for ya, when it's done.",
+        "I trust you and your capable Agents will help obtain the different items I seek for the altar."
       ]
     },
     {
@@ -347,6 +379,13 @@
         "You're right about that!  Ha ha ha!  I was on my way somewhere... when the sound of intoxicated dwarven mirth called me to the Bar of Brell.  Where was I going?",
         "I'm in no shape to leave now, that's for sure!  But maybe if I was sober I would remember where I was going and what I was doing.",
         "There's a wondrous tonic sold by Eurkon Al'ouz, a sarnak in Gorowyn.  I tell you, his Gorowyn Pepper Swill always sobers me right up!"
+      ]
+    },
+    {
+      "name": "Toast",
+      "name_sortable": "toast",
+      "utterances": [
+        "*neigh*"
       ]
     },
     {
@@ -369,19 +408,28 @@
     {
       "gamelink": "\\aITEM -1880231903 -448458293:Somborn Sanguine Ale\\/a",
       "locations": [
-        "333.85,-20.99,145.61"
+        "333.85,-20.99,145.61",
+        "339.41,-20.99,142.82",
+        "328.57,-20.07,143.21",
+        "345.92,-26.99,151.12",
+        "340.63,-26.99,148.84"
       ]
     },
     {
       "gamelink": "\\aITEM -1930407733 1874842855:Miner's Milk\\/a",
       "locations": [
-        "339.41,-20.99,142.82"
+        "339.41,-20.99,142.82",
+        "341.76,-20.99,153.38"
       ]
     },
     {
       "gamelink": "\\aITEM -1156858540 -845604802:Bog Water Brew\\/a",
       "locations": [
-        "328.57,-20.07,143.21"
+        "328.57,-20.07,143.21",
+        "342.54,-14.49,151.00",
+        "333.85,-20.99,145.61",
+        "335.47,-26.99,147.50",
+        "339.41,-20.99,142.82"
       ]
     }
   ]

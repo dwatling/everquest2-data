@@ -199,6 +199,13 @@
       ]
     },
     {
+      "name": "a huge spider",
+      "name_sortable": "hugespider",
+      "locations": [
+        "-120.72,23.53,220.91"
+      ]
+    },
+    {
       "name": "Innkeeper Twiggy",
       "name_sortable": "innkeepertwiggy",
       "utterances": [
@@ -228,6 +235,13 @@
         "It is why you must put a stop to it. Go, defeat their attack force, I beg you.",
         "You did it, <player name>! You drove the ulthork back to the sea!",
         "It does this othmir good to see such bravery in Norrath. Don't let the evils of this world corrupt that spark within you."
+      ]
+    },
+    {
+      "name": "a large brown-claw bear",
+      "name_sortable": "largebrownclawbear",
+      "locations": [
+        "-135.07,18.13,205.04"
       ]
     },
     {
@@ -261,6 +275,16 @@
       "name_sortable": "missantrathestylist",
       "utterances": [
         "Change is good! You should get one!"
+      ]
+    },
+    {
+      "name": "The Mushroom King",
+      "name_sortable": "mushroomking",
+      "locations": [
+        "-145.6,-9.19,141.87"
+      ],
+      "utterances": [
+        "Have you ever noticed how sad it is when you are not the King?"
       ]
     },
     {
@@ -312,6 +336,16 @@
         "-426.33,-69.63,-686.26",
         "-511.41,-66.29,-681.77",
         "-555.51,-69.21,-719.56"
+      ]
+    },
+    {
+      "name": "a scorched skeletal wizard",
+      "name_sortable": "scorchedskeletalwizard",
+      "locations": [
+        "-447.25,75.53,324.67"
+      ],
+      "utterances": [
+        "I will return."
       ]
     },
     {
@@ -550,6 +584,13 @@
       ]
     },
     {
+      "name": "an underwood fae drake",
+      "name_sortable": "underwoodfaedrake",
+      "locations": [
+        "-134.45,14.90,188.61"
+      ]
+    },
+    {
       "name": "Venla Vaara",
       "name_sortable": "venlavaara",
       "utterances": [
@@ -617,9 +658,25 @@
     },
     {
       "gamelink": "\\aITEM -545307336 1925195397:stag beetle\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -319003151 -1188012536:diseased bugbear bone\\/a",
+      "locations": [
+        "159.36,3.00,-51.61"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1635084486 -653542682:skinny grub\\/a",
+      "locations": [
+        "-481.93,72.00,322.56"
+      ]
     }
   ],
   "resourceNodes": [
+    {
+      "name": "the a bush",
+      "name_sortable": "abush"
+    },
     {
       "name": "the bountiful Brewday garden",
       "name_sortable": "bountifulbrewdaygarden"
@@ -631,6 +688,10 @@
         "-126.99,-43.94,-788.32",
         "-134.19,-41.06,-836.87"
       ]
+    },
+    {
+      "name": "the eroded rock",
+      "name_sortable": "erodedrock"
     },
     {
       "name": "the exposed ore",
@@ -646,6 +707,10 @@
         "-145.24,-43.68,-811.02",
         "-159.47,-43.65,-816.94"
       ]
+    },
+    {
+      "name": "the growing roots",
+      "name_sortable": "growingroots"
     },
     {
       "name": "the natural garden",

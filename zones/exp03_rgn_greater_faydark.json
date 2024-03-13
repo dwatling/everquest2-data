@@ -61,6 +61,16 @@
       ]
     },
     {
+      "name": "Blinik Belestro",
+      "name_sortable": "blinikbelestro",
+      "locations": [
+        "-906.56,118.06,217.39"
+      ],
+      "utterances": [
+        "Hello, hello! Very very busy! Sorry!"
+      ]
+    },
+    {
       "name": "Breezebloom",
       "name_sortable": "breezebloom",
       "locations": [
@@ -69,6 +79,13 @@
       "utterances": [
         "One fae's trash is another fae's treasure, that's what I always say!",
         "My job is to meet the equipment needs of the newly awakened fae."
+      ]
+    },
+    {
+      "name": "Burgef Steelwright",
+      "name_sortable": "burgefsteelwright",
+      "locations": [
+        "-1163.67,124.63,58.61"
       ]
     },
     {
@@ -84,6 +101,255 @@
         "-502.32,-64.75,-662.04",
         "-529.22,-66.36,-711.37",
         "-573.49,-67.55,-695.01"
+      ]
+    },
+    {
+      "name": "a Crushbone centurion",
+      "name_sortable": "crushbonecenturion",
+      "locations": [
+        "-1169.24,124.63,59.07",
+        "-1150.86,124.32,63.16",
+        "-1100.57,124.43,59.26",
+        "-1106.88,124.25,34.23",
+        "-1107.24,124.43,46.94",
+        "-1081.20,115.41,163.12",
+        "-1118.06,115.35,223.84",
+        "-1417.81,115.24,223.17",
+        "-1421.89,115.12,217.22",
+        "-1380.73,114.34,226.35",
+        "-1470.43,118.99,206.25",
+        "-1713.43,56.29,54.41",
+        "-1544.78,83.13,98.86",
+        "-1558.03,109.20,97.55",
+        "-1258.50,115.88,55.79"
+      ],
+      "utterances": [
+        "No one may trespass on the lands of Clan Crushbone!",
+        "No! I have failed the empire!",
+        "You'll go no further!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 36,
+      "drop_coin_max": 154,
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Crushbone conscript",
+      "name_sortable": "crushboneconscript",
+      "locations": [
+        "-1095.83,124.43,67.80",
+        "-1117.92,123.75,89.28",
+        "-1104.03,122.92,130.53",
+        "-1073.19,123.13,124.71",
+        "-1073.88,115.31,173.25",
+        "-1106.60,115.31,184.48",
+        "-1119.05,115.31,161.76",
+        "-1145.28,115.34,142.18",
+        "-1144.40,122.36,91.77",
+        "-1314.69,125.04,127.71",
+        "-1316.56,131.94,144.78",
+        "-1404.04,116.83,173.11",
+        "-1385.47,115.24,217.49",
+        "-1403.10,114.34,238.75"
+      ],
+      "utterances": [
+        "I've failed.",
+        "You should run away!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 26,
+      "drop_coin_max": 148,
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Crushbone emissary",
+      "name_sortable": "crushboneemissary",
+      "locations": [
+        "-1085.55,125.75,56.72",
+        "-1110.12,115.31,201.85",
+        "-1118.39,115.31,201.77",
+        "-1151.00,115.41,144.00",
+        "-1389.98,114.34,215.68",
+        "-1469.62,119.04,192.34"
+      ],
+      "utterances": [
+        "You may have won this battle, but your end will come soon enough.",
+        "You're a fool to challenge me!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -658420854 385425044:ancient copper coin\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 155,
+      "drop_coin_max": 155,
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Crushbone guard",
+      "name_sortable": "crushboneguard",
+      "locations": [
+        "-1083.58,115.31,203.27",
+        "-1395.43,116.85,183.59",
+        "-1390.87,116.86,173.44"
+      ],
+      "utterances": [
+        "Argh, I should have trained harder!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 35,
+      "drop_coin_max": 35
+    },
+    {
+      "name": "a Crushbone oracle",
+      "name_sortable": "crushboneoracle",
+      "locations": [
+        "-1098.52,124.43,37.20",
+        "-1113.68,115.31,170.24",
+        "-1099.49,115.35,221.48",
+        "-1465.21,120.06,180.83"
+      ],
+      "utterances": [
+        "I will crush your body and enslave your spirit!",
+        "The spirits of my people will avenge me!"
+      ],
+      "drop_coin_min": 29,
+      "drop_coin_max": 29,
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Crushbone trainer",
+      "name_sortable": "crushbonetrainer",
+      "locations": [
+        "-1106.94,124.32,76.45",
+        "-1098.18,122.79,142.05",
+        "-1102.57,115.35,223.86",
+        "-1097.55,115.35,212.53",
+        "-1154.51,115.36,146.76",
+        "-1149.29,115.39,136.53",
+        "-1409.82,114.34,217.76",
+        "-1404.76,114.34,235.16",
+        "-1452.18,119.61,158.02",
+        "-1459.27,120.05,167.97"
+      ],
+      "utterances": [
+        "You're a fool to challenge me!",
+        "You may have won this battle, but your end will come soon enough."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 27,
+      "drop_coin_max": 1106,
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Crushbone watchman",
+      "name_sortable": "crushbonewatchman",
+      "locations": [
+        "-1169.86,124.63,49.87",
+        "-1104.40,124.43,49.45",
+        "-1077.68,123.13,133.13",
+        "-1138.73,115.35,219.08",
+        "-1441.21,119.29,148.49"
+      ],
+      "utterances": [
+        "No! I have failed the empire!",
+        "No one may trespass on the lands of Clan Crushbone!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
       ]
     },
     {
@@ -114,6 +380,35 @@
       ]
     },
     {
+      "name": "Elonca Nusback",
+      "name_sortable": "eloncanusback",
+      "locations": [
+        "-914.19,117.81,223.23"
+      ]
+    },
+    {
+      "name": "an expedition guard",
+      "name_sortable": "expeditionguard",
+      "locations": [
+        "-920.49,117.54,233.07",
+        "-902.05,118.19,214.08"
+      ],
+      "utterances": [
+        "Glad to see more adventurers taking on these blasted orcs!",
+        "Shhhhhh! Don't give away our position!",
+        "Don't disturb us! We 'ave work to do!",
+        "We'll get our kin away from them orcs!",
+        "We'll teach those orcs a lesson!"
+      ]
+    },
+    {
+      "name": "Eyre Evermend",
+      "name_sortable": "eyreevermend",
+      "locations": [
+        "-909.2,118.27,226.5"
+      ]
+    },
+    {
       "name": "a fallen Tuwasp forager",
       "name_sortable": "fallentuwaspforager",
       "locations": [
@@ -128,6 +423,13 @@
       ],
       "utterances": [
         "Hi there! If you want to visit the Frostfell Wonderland Village just hop on into the closet of wonder. Have a Happy Frostfell!"
+      ]
+    },
+    {
+      "name": "Gargnarg",
+      "name_sortable": "gargnarg",
+      "locations": [
+        "-1172.42,115.56,124.48"
       ]
     },
     {
@@ -188,6 +490,30 @@
       "utterances": [
         "At peace or at war, my work must go on.",
         "Greetings!  I noticed you harvesting out there.  Are you interested in trying your hand at making something out of them?"
+      ]
+    },
+    {
+      "name": "Guardmaster Grush'ul",
+      "name_sortable": "guardmastergrushul",
+      "locations": [
+        "-1070.58,123.13,129.11"
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Gullon Brigade warsmith",
+      "name_sortable": "gullonbrigadewarsmith",
+      "locations": [
+        "-1392.62,116.86,173.39"
+      ],
+      "utterances": [
+        "I've failed."
       ]
     },
     {
@@ -324,6 +650,13 @@
       ]
     },
     {
+      "name": "a punished magi apprentice",
+      "name_sortable": "punishedmagiapprentice",
+      "locations": [
+        "-1619.02,48.21,-30.78"
+      ]
+    },
+    {
       "name": "a sand sifter",
       "name_sortable": "sandsifter",
       "locations": [
@@ -434,6 +767,21 @@
       ]
     },
     {
+      "name": "a strongbox guardian",
+      "name_sortable": "strongboxguardian",
+      "locations": [
+        "-1082.50,115.31,202.10",
+        "-1388.35,116.85,176.80"
+      ]
+    },
+    {
+      "name": "a Tallon Brigade warsmith",
+      "name_sortable": "tallonbrigadewarsmith",
+      "locations": [
+        "-1084.03,115.31,203.10"
+      ]
+    },
+    {
       "name": "Trainer Eivarra Laceleaf",
       "name_sortable": "trainereivarralaceleaf",
       "locations": [
@@ -505,6 +853,13 @@
         "As a general rule of thumb, if you see an enemy with one up arrow, it's a good idea to team up with another player to take it on. If you see an enemy with two up arrows, add two members to your group. If you see an opponent with three up arrows, add three members to your group. A lone adventurer will likely want to face targets with no arrows or down arrows.",
         "A normal opponent has no indicator and is intended to be fought by a solo adventurer or small group. A heroic encounter is intended for a larger group of up to six adventurers. An epic opponent should only be attempted by a raid force of multiple groups working together.",
         "All the elements I've explained will affect the outcome of a battle and whether or not you will need allies to win. Pay close attention to the lessons I have taught you, and apply them to challenges you face throughout your journeys in Norrath. Learn well and you will indeed become the great champion I know you can be!"
+      ]
+    },
+    {
+      "name": "Turgo Bargedown",
+      "name_sortable": "turgobargedown",
+      "locations": [
+        "-906.2,118.0,223.26"
       ]
     },
     {
@@ -591,6 +946,13 @@
       ]
     },
     {
+      "name": "Vargorn the Historian",
+      "name_sortable": "vargornthehistorian",
+      "locations": [
+        "-1320.92,116.12,54.39"
+      ]
+    },
+    {
       "name": "Venla Vaara",
       "name_sortable": "venlavaara",
       "utterances": [
@@ -670,6 +1032,18 @@
       "locations": [
         "-481.93,72.00,322.56"
       ]
+    },
+    {
+      "gamelink": "\\aITEM 82119463 -1133295770:striped grub\\/a",
+      "locations": [
+        "-1379.12,116.00,114.92"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1882136833 -2000299959:long-horn beetle\\/a",
+      "locations": [
+        "-1411.18,116.00,254.60"
+      ]
     }
   ],
   "resourceNodes": [
@@ -711,6 +1085,10 @@
     {
       "name": "the growing roots",
       "name_sortable": "growingroots"
+    },
+    {
+      "name": "the moss covered ore",
+      "name_sortable": "mosscoveredore"
     },
     {
       "name": "the natural garden",

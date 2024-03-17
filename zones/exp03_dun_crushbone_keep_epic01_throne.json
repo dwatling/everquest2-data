@@ -1,12 +1,451 @@
 {
-  "name": "D'Vinnian Throne",
+  "name": "The D'Vinnian Throne",
   "name_sortable": "dvinnianthrone",
   "region": "Faydwer",
+  "zonerect": "-99.00,-212.00,95.00,18.00",
   "levels": "30-35",
   "type": "instance",
   "connections": [
     {
       "key": "exp03_dun_crushbone_keep"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a conscripted Feir'Dal",
+      "name_sortable": "conscriptedfeirdal",
+      "locations": [
+        "-71.62,-9.83,-61.58",
+        "-49.83,-8.74,-75.54"
+      ]
+    },
+    {
+      "name": "a conscripted Koada'Dal",
+      "name_sortable": "conscriptedkoadadal",
+      "locations": [
+        "-58.79,-10.08,-65.84"
+      ]
+    },
+    {
+      "name": "a Crushbone centurion",
+      "name_sortable": "crushbonecenturion",
+      "locations": [
+        "51.47,-4.07,-52.51",
+        "48.06,-6.43,-30.1",
+        "60.15,-6.64,-26.05",
+        "-29.0,-4.12,-42.79",
+        "-61.34,-9.87,-160.72"
+      ]
+    },
+    {
+      "name": "a Crushbone emissary",
+      "name_sortable": "crushboneemissary",
+      "locations": [
+        "65.15,-6.55,-20.95"
+      ]
+    },
+    {
+      "name": "a Crushbone gladiator",
+      "name_sortable": "crushbonegladiator",
+      "locations": [
+        "-64.1,-9.87,-174.84",
+        "-74.63,-9.87,-174.45",
+        "-57.54,-9.87,-180.83"
+      ]
+    },
+    {
+      "name": "a Crushbone legionnaire",
+      "name_sortable": "crushbonelegionnaire",
+      "locations": [
+        "28.47,-4.07,-43.01",
+        "44.7,-6.43,-31.32",
+        "60.58,-6.43,-30.59",
+        "-64.1,-9.8,-131.48"
+      ],
+      "utterances": [
+        "You're no match for a legionnaire!"
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Crushbone thaumaturgist",
+      "name_sortable": "crushbonethaumaturgist",
+      "locations": [
+        "-61.35,-10.07,-60.79",
+        "-52.24,-9.83,-59.34"
+      ]
+    },
+    {
+      "name": "a Crushbone trainer",
+      "name_sortable": "crushbonetrainer",
+      "locations": [
+        "27.26,-4.07,-46.76",
+        "48.95,-4.06,-69.09",
+        "44.92,-6.43,-28.39",
+        "63.05,-6.55,-29.0",
+        "-28.99,-4.12,-46.16",
+        "-61.1,-9.87,-183.8"
+      ],
+      "utterances": [
+        "You're a fool to challenge me!",
+        "Time to teach you a lesson in pain!"
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Crushbone watchman",
+      "name_sortable": "crushbonewatchman",
+      "locations": [
+        "33.11,-4.06,-67.57",
+        "52.09,-6.43,-38.18"
+      ],
+      "utterances": [
+        "No one may trespass on the lands of Clan Crushbone!"
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Dreadguard knight",
+      "name_sortable": "dreadguardknight",
+      "locations": [
+        "-64.03,-9.8,-103.49",
+        "-33.29,-9.8,-102.81",
+        "-64.17,-9.8,-115.03",
+        "-52.43,-9.85,-145.6",
+        "-24.38,-9.82,-142.92",
+        "52.44,-9.78,-95.84"
+      ]
+    },
+    {
+      "name": "a D'Vinnian ambusher",
+      "name_sortable": "dvinnianambusher",
+      "locations": [
+        "41.73,-8.55,-116.96"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1317754168 1332130336:Opal Amulet\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a D'Vinnian deathmage",
+      "name_sortable": "dvinniandeathmage",
+      "locations": [
+        "-47.44,-8.69,-79.31"
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a D'Vinnian dragoon",
+      "name_sortable": "dvinniandragoon",
+      "locations": [
+        "-3.73,-4.14,-67.73",
+        "2.52,-9.81,-89.2",
+        "-30.91,-9.8,-99.56",
+        "-3.77,-10.03,-120.69",
+        "4.05,-10.03,-118.87",
+        "13.95,-9.84,-113.73",
+        "4.1,-9.78,-105.7",
+        "58.59,-9.78,-89.12"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1555822525 859721010:Opal Scrying Stone\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a D'Vinnian elite dragoon",
+      "name_sortable": "dvinnianelitedragoon",
+      "locations": [
+        "-29.59,-6.18,-68.50",
+        "-28.24,-9.8,-103.29",
+        "-51.83,-9.85,-139.48",
+        "-0.12,-10.03,-104.85"
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a D'Vinnian guardian",
+      "name_sortable": "dvinnianguardian",
+      "locations": [
+        "48.32,-9.77,-162.95",
+        "54.10,-9.87,-160.00"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 533267475 -267148878:ethereal strand\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1890461229 -956429012:large stained steam-scoured stone\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a D'Vinnian sorcerer",
+      "name_sortable": "dvinniansorcerer",
+      "locations": [
+        "-58.76,-10.07,-62.77",
+        "-49.54,-9.83,-58.2",
+        "-1.77,-9.83,-141.67",
+        "17.02,-9.78,-122.26"
+      ]
+    },
+    {
+      "name": "Emperor D'Vinn",
+      "name_sortable": "emperordvinn",
+      "locations": [
+        "54.19,-9.54,-165.02"
+      ],
+      "utterances": [
+        "Ah, so these are the outsiders who trespass within my castle.",
+        "Then it is time to teach them the error of their ways. Face your destruction, interlopers!",
+        "You think this was a victory? Ha! Those conjured apparitions were only a distraction meant to keep you busy until my champion was properly prepared.",
+        "Now, outsiders, you face the mightiest warrior within Crushbone Keep, the legendary Vindicator Crush!",
+        "I should have known better than to trust my security to an orc! I won't make the same mistake next time, I assure you. We'll meet again, outsiders! Come, my beloved, we will leave these fools to their hollow victory."
+      ]
+    },
+    {
+      "name": "General V'Narr",
+      "name_sortable": "generalvnarr",
+      "locations": [
+        "18.64,-10.03,-98.36"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1555822525 859721010:Opal Scrying Stone\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Jabartik",
+      "name_sortable": "jabartik",
+      "locations": [
+        "-48.98,-8.73,-77.38"
+      ]
+    },
+    {
+      "name": "Lady Elizara D'Kush",
+      "name_sortable": "ladyelizaradkush",
+      "locations": [
+        "1.03,-4.31,-39.48",
+        "50.39,-9.54,-164.72"
+      ],
+      "utterances": [
+        "Yes, I told them they were about to face their doom. The fools ignored my warning and have dared enter your presence.",
+        "I am yours to command, my liege. I will go and tend to your heir."
+      ]
+    },
+    {
+      "name": "Lieutenant B'Oreth",
+      "name_sortable": "lieutenantboreth",
+      "locations": [
+        "19.68,-10.03,-100.78"
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Lieutenant D'Bryth",
+      "name_sortable": "lieutenantdbryth",
+      "locations": [
+        "2.3,-10.03,-102.39",
+        "15.84,-10.03,-99.16"
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Ograf the Deft",
+      "name_sortable": "ografthedeft",
+      "locations": [
+        "-75.85,-9.87,-184.30"
+      ],
+      "utterances": [
+        "Crush!"
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a summoned shadow",
+      "name_sortable": "summonedshadow",
+      "locations": [
+        "13.86,-4.06,-33.15",
+        "-0.68,-4.31,-37.27",
+        "19.65,-4.07,-43.12",
+        "-41.8,-9.81,-65.64",
+        "2.52,-9.81,-89.2",
+        "-67.14,-9.83,-80.62",
+        "-66.79,-9.86,-91.48",
+        "3.5,-9.85,-130.22",
+        "37.7,-9.78,-98.57",
+        "38.62,-9.78,-113.02",
+        "48.88,-9.54,-134.68",
+        "42.7,-9.79,-147.72",
+        "45.55,-9.54,-159.62"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1890461229 -956429012:large stained steam-scoured stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1555822525 859721010:Opal Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 533267475 -267148878:ethereal strand\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a summoned watcher",
+      "name_sortable": "summonedwatcher",
+      "locations": [
+        "-19.93,-4.12,-48.11",
+        "-10.59,-9.81,-105.57",
+        "-19.75,-9.84,-140.65",
+        "24.59,-9.78,-116.29",
+        "37.66,-9.78,-93.53",
+        "50.37,-9.79,-122.29",
+        "56.38,-9.54,-134.48",
+        "63.0,-9.79,-144.78",
+        "56.16,-9.77,-156.78"
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an unfortunate victim",
+      "name_sortable": "unfortunatevictim",
+      "locations": [
+        "45.01,-6.43,-28.08",
+        "59.57,-6.55,-18.8",
+        "58.61,-5.65,-34.64"
+      ]
+    },
+    {
+      "name": "Vindicator Crush",
+      "name_sortable": "vindicatorcrush",
+      "locations": [
+        "48.95,-9.77,-155.34"
+      ],
+      "utterances": [
+        "Your previous victories mean nothing. Now the real battle begins!",
+        "My emperor... I have failed you."
+      ]
+    },
+    {
+      "name": "a watchful sentry",
+      "name_sortable": "watchfulsentry",
+      "locations": [
+        "57.45,-6.43,-15.65",
+        "-68.57,-9.83,-59.14",
+        "61.85,-9.78,-95.93"
+      ],
+      "utterances": [
+        "No one may trespass on the lands of Clan Crushbone!"
+      ],
+      "faction_changes": [
+        {
+          "name": "Clan Crushbone",
+          "name_sortable": "clancrushbone",
+          "value": -100
+        }
+      ]
     }
   ]
 }

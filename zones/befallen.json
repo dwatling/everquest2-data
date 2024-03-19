@@ -78,6 +78,30 @@
       ]
     },
     {
+      "name": "Battlepriest Alexandria",
+      "name_sortable": "battlepriestalexandria",
+      "level": 23,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-49.29,-24.82,-74.68"
+      ],
+      "utterances": [
+        "Seek Death and it finds you."
+      ]
+    },
+    {
+      "name": "Battlepriest Greyhorn",
+      "name_sortable": "battlepriestgreyhorn",
+      "level": 23,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-40.08,-24.49,-75.32"
+      ],
+      "utterances": [
+        "Your eyes are so pretty."
+      ]
+    },
+    {
       "name": "a blackblood ooze",
       "name_sortable": "blackbloodooze",
       "level": 27,
@@ -106,6 +130,13 @@
           "gamelink": "\\aITEM 1810729564 1777972798:reptile meat\\/a",
           "chest": false
         }
+      ]
+    },
+    {
+      "name": "Blacksmith Brigg",
+      "name_sortable": "blacksmithbrigg",
+      "locations": [
+        "-133.00,-1.06,-46.99"
       ]
     },
     {
@@ -199,6 +230,19 @@
       ]
     },
     {
+      "name": "a caveroot horror",
+      "name_sortable": "caveroothorror",
+      "locations": [
+        "6.96,-24.86,-120.64"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1950789536 -565531029:wooden splinter\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "The Char Fiend",
       "name_sortable": "charfiend",
       "level": 17,
@@ -215,6 +259,35 @@
           "gamelink": "\\aITEM 1925395467 -1686408835:charred tinder\\/a",
           "chest": false
         }
+      ]
+    },
+    {
+      "name": "a Chest Terror",
+      "name_sortable": "chestterror",
+      "level": 24,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-97.89,-32.00,-162.72"
+      ]
+    },
+    {
+      "name": "a condensed mist",
+      "name_sortable": "condensedmist",
+      "locations": [
+        "23.33,-24.80,-120.00"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1365385384 1432105181:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a cornered kohlrat",
+      "name_sortable": "corneredkohlrat",
+      "locations": [
+        "-116.50,1.97,-85.19"
       ]
     },
     {
@@ -240,12 +313,121 @@
       ]
     },
     {
+      "name": "a crazed kohlrat ",
+      "name_sortable": "crazedkohlrat",
+      "locations": [
+        "-128.85,4.99,-110.00"
+      ]
+    },
+    {
+      "name": "a crushed librarian",
+      "name_sortable": "crushedlibrarian",
+      "locations": [
+        "-105.62,-32.0,-157.8"
+      ]
+    },
+    {
+      "name": "a defiled acolyte",
+      "name_sortable": "defiledacolyte",
+      "level": 24,
+      "difficulty": "heroic^^",
+      "locations": [
+        "77.50,-16.57,-18.10",
+        "85.40,-16.57,-10.20",
+        "97.37,-16.57,-8.55",
+        "91.47,-16.08,-5.97",
+        "70.82,-21.57,17.88",
+        "44.08,-21.57,23.49",
+        "121.40,-24.72,-12.65"
+      ],
+      "utterances": [
+        "Your blood calls to me.",
+        "Your eyes are so pretty.",
+        "Final death comes at last.",
+        "You've shaken the dust from my bones.",
+        "Seek death and it finds you.",
+        "I'm shattered and broken."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "a defiled bishop",
       "name_sortable": "defiledbishop",
       "level": 20,
       "difficulty": "heroic",
       "locations": [
         "67.28,5.00,-77.33"
+      ]
+    },
+    {
+      "name": "a defiled blacksmith",
+      "name_sortable": "defiledblacksmith",
+      "locations": [
+        "-134.77,-1.03,-43.14",
+        "-134.00,-1.11,-50.00"
+      ],
+      "utterances": [
+        "I will  slowly strip the fleshy tissue from your body!",
+        "Now you've made me hungry!",
+        "You cannot stop us all!"
+      ]
+    },
+    {
+      "name": "a defiled cavalier",
+      "name_sortable": "defiledcavalier",
+      "level": 24,
+      "difficulty": "heroic^^",
+      "locations": [
+        "44.73,-24.82,-55.61",
+        "39.32,-24.82,-53.78",
+        "44.48,-24.82,-64.39",
+        "79.15,-16.57,-19.89",
+        "81.61,-16.57,-13.98",
+        "73.63,-16.57,-27.54",
+        "87.11,-16.57,-11.96",
+        "70.94,-21.57,23.05",
+        "48.06,-21.57,19.52",
+        "112.91,-18.72,-29.98",
+        "121.80,-24.72,-20.78",
+        "120.80,-24.72,-11.63"
+      ],
+      "utterances": [
+        "You've shaken the dust from my bones.",
+        "Your blood calls to me.",
+        "Your eyes are so pretty.",
+        "Seek death and it finds you.",
+        "Final death comes at last.",
+        "Rest in peace."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a defiled crusader",
+      "name_sortable": "defiledcrusader",
+      "level": 23,
+      "difficulty": "heroic",
+      "locations": [
+        "23.32,-24.82,-56.04",
+        "-90.11,-24.74,-69.05"
+      ],
+      "utterances": [
+        "Your blood calls to me."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -281,13 +463,34 @@
       "locations": [
         "76.96,5.00,-87.80",
         "83.15,5.02,-108.96",
-        "84.33,5.00,-102.87"
+        "84.33,5.00,-102.87",
+        "-155.00,-16.02,-91.00",
+        "-100.85,4.00,-93.47",
+        "-54.66,8.60,-78.91",
+        "-45.84,7.60,-86.63",
+        "-84.22,4.59,-67.00",
+        "-78.00,4.59,-67.00"
       ],
       "utterances": [
         "Your eyes are so pretty.",
         "Seek death and it finds you.",
         "Rest in peace.",
         "Final death comes at last."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a defiled lancer",
+      "name_sortable": "defiledlancer",
+      "locations": [
+        "-114.96,-0.01,-88.00",
+        "-56.22,5.00,-110.76",
+        "-48.87,1.99,-94.62"
       ]
     },
     {
@@ -299,6 +502,23 @@
       ],
       "drop_coin_min": 32,
       "drop_coin_max": 32
+    },
+    {
+      "name": "a defiled protector",
+      "name_sortable": "defiledprotector",
+      "locations": [
+        "-74.42,4.91,-157.49",
+        "-69.24,4.91,-157.63"
+      ],
+      "utterances": [
+        "Rest in peace."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        }
+      ]
     },
     {
       "name": "a defiled sentry",
@@ -334,6 +554,30 @@
         },
         {
           "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a defiled squall",
+      "name_sortable": "defiledsquall",
+      "level": 23,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-71.65,-32.00,-137.88",
+        "-107.60,-32.00,-164.00"
+      ],
+      "utterances": [
+        "Your eyes are so pretty.",
+        "Seek death and it finds you."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
           "chest": false
         }
       ]
@@ -410,6 +654,22 @@
       ]
     },
     {
+      "name": "a defiled torrent",
+      "name_sortable": "defiledtorrent",
+      "locations": [
+        "-58.59,-25.85,-58.00",
+        "-53.56,-24.79,-157.05",
+        "-56.87,-24.8,-128.03",
+        "-56.39,-24.79,-121.65",
+        "-44.17,-24.79,-121.02",
+        "-44.23,-24.79,-127.93",
+        "-42.11,-24.79,-115.06"
+      ],
+      "utterances": [
+        "Your blood calls to me."
+      ]
+    },
+    {
       "name": "a deranged tormentor",
       "name_sortable": "derangedtormentor",
       "locations": [
@@ -421,6 +681,13 @@
       "name_sortable": "dirtcrawler",
       "locations": [
         "73.84,-43.00,-69.40"
+      ]
+    },
+    {
+      "name": "a dust crawler",
+      "name_sortable": "dustcrawler",
+      "locations": [
+        "-103.89,4.99,-110.06"
       ]
     },
     {
@@ -463,6 +730,20 @@
       ]
     },
     {
+      "name": "a feign zombie",
+      "name_sortable": "feignzombie",
+      "level": 23,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "62.31,-16.57,-47.51",
+        "60.69,-16.57,-30.85",
+        "0.3,-24.8,-137.51",
+        "8.31,-24.82,-138.53",
+        "0.73,-24.82,-103.55",
+        "8.85,-24.8,-103.91"
+      ]
+    },
+    {
       "name": "a fetid goo",
       "name_sortable": "fetidgoo",
       "locations": [
@@ -478,12 +759,54 @@
       ]
     },
     {
+      "name": "a gelatinous cube",
+      "name_sortable": "gelatinouscube",
+      "locations": [
+        "-28.14,-24.79,-121.42",
+        "-24.16,-24.79,-127.34"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "a ghoul canite",
       "name_sortable": "ghoulcanite",
       "locations": [
         "36.00,-47.00,-142.05",
         "68.43,-51.24,-169.98",
         "13.73,-47.03,-89.43"
+      ]
+    },
+    {
+      "name": "Guard Captain Hess",
+      "name_sortable": "guardcaptainhess",
+      "locations": [
+        "-71.63,5.16,-159.38"
+      ],
+      "utterances": [
+        "Seek Death and it finds you."
+      ]
+    },
+    {
+      "name": "a guardian writ",
+      "name_sortable": "guardianwrit",
+      "level": 24,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-107.88,-31.00,-139.00",
+        "-113.03,-31.17,-156.73",
+        "-124.13,-32.00,-170.12",
+        "-105.19,-31.99,-178.92"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -609966514 -849741780:a wrinkled enchanted page\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -497,8 +820,19 @@
       ]
     },
     {
+      "name": "Hephinntari the Scion of Destruction",
+      "name_sortable": "hephinntarithescionofdestruction",
+      "level": 25,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-68.22,-24.82,-97.86"
+      ]
+    },
+    {
       "name": "a horde knight",
       "name_sortable": "hordeknight",
+      "level": 23,
+      "difficulty": "heroic^^",
       "locations": [
         "74.25,-43.00,-95.63",
         "94.57,-38.00,-96.45",
@@ -512,6 +846,23 @@
       "drops": [
         {
           "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an ice storm",
+      "name_sortable": "icestorm",
+      "locations": [
+        "118.67,-24.49,2.90"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -137237487 -1986448147:a broken-tipped javelin\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2136571386 -285379860:fragmented metal\\/a",
           "chest": false
         }
       ]
@@ -546,8 +897,12 @@
     {
       "name": "Locksmith Jarl",
       "name_sortable": "locksmithjarl",
+      "locations": [
+        "-69.29,4.80,-50.10"
+      ],
       "utterances": [
-        "You cannot stop us all!"
+        "You cannot stop us all!",
+        "I will  slowly strip the fleshy tissue from your body!"
       ]
     },
     {
@@ -570,6 +925,40 @@
       ]
     },
     {
+      "name": "The Maelstrom",
+      "name_sortable": "maelstrom",
+      "utterances": [
+        "Look into the storm for your power and strength.",
+        "The power of the storm has subsided"
+      ]
+    },
+    {
+      "name": "Magnimaclus",
+      "name_sortable": "magnimaclus",
+      "level": 30,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "121.45,-24.49,7.93"
+      ]
+    },
+    {
+      "name": "Marksman Trainer Quintos",
+      "name_sortable": "marksmantrainerquintos",
+      "level": 23,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "13.22,-24.82,-77.12"
+      ]
+    },
+    {
+      "name": "a mimic",
+      "name_sortable": "mimic",
+      "locations": [
+        "-98.03,-32.00,-166.17",
+        "-92.55,-32.00,-162.58"
+      ]
+    },
+    {
       "name": "The Orator",
       "name_sortable": "orator",
       "level": 27,
@@ -582,10 +971,50 @@
       ]
     },
     {
+      "name": "Qelinatias the Scion of Pain",
+      "name_sortable": "qelinatiasthescionofpain",
+      "locations": [
+        "-6.75,-25.30,-120.97"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1365385384 1432105181:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "Quartermaster Berlon",
       "name_sortable": "quartermasterberlon",
       "utterances": [
         "Vengeance ... who will avenge us?..."
+      ]
+    },
+    {
+      "name": "a rot zombie",
+      "name_sortable": "rotzombie",
+      "level": 20,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "56.44,-19.57,15.27",
+        "69.63,-19.57,15.36"
+      ]
+    },
+    {
+      "name": "a sand storm",
+      "name_sortable": "sandstorm",
+      "locations": [
+        "119.67,-24.51,5.90"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1041976406 1193510754:an elemental planar seed\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1555822525 859721010:Opal Scrying Stone\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -627,6 +1056,17 @@
       ]
     },
     {
+      "name": "a sealed strongbox",
+      "name_sortable": "sealedstrongbox",
+      "level": 24,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-89.17,-24.75,-75.07",
+        "-74.02,-32.00,-171.93",
+        "-76.32,-32.00,-183.92"
+      ]
+    },
+    {
       "name": "Sir Valinayle",
       "name_sortable": "sirvalinayle",
       "locations": [
@@ -640,6 +1080,13 @@
         "Wonderful! I knew you were my savior! Those ridiculous fire things are at it again!  They've destroyed everything with their evil hands.  My precious books were lost to them in a fire, and I want vengeance!",
         "Thank you, my friend, thank you.  After you have vanquished them, please return to me, and the secret of the treasure of Befallen shall be yours! Did I say Befallen? I meant Stormhold... Ah how I miss Befallen... these places are so similar I keep getting them confused.",
         "I'm afraid I cannot offer you anything yet, my friend.  Now, quit wasting my time and finish what you've begun!"
+      ]
+    },
+    {
+      "name": "a skeleton archer",
+      "name_sortable": "skeletonarcher",
+      "locations": [
+        "5.90,-24.82,-73.47"
       ]
     },
     {
@@ -663,12 +1110,44 @@
       ]
     },
     {
+      "name": "Tome of Deceit",
+      "name_sortable": "tomeofdeceit",
+      "locations": [
+        "-122.23,-30.98,-135.83"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -609966514 -849741780:a wrinkled enchanted page\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "Tumarinan the Scion of Suffering",
       "name_sortable": "tumarinanthescionofsuffering",
       "level": 27,
       "difficulty": "heroic^^^",
       "locations": [
         "28.71,-51.26,12.57"
+      ]
+    },
+    {
+      "name": "a tunneling zombie",
+      "name_sortable": "tunnelingzombie",
+      "locations": [
+        "-83.97,3.28,-116.54",
+        "-78.50,3.65,-118.94",
+        "-51.38,5.00,-118.98",
+        "-94.55,5.00,-78.58",
+        "-77.10,8.87,-85.56",
+        "-104.64,8.59,-67.06"
+      ]
+    },
+    {
+      "name": "a wandering ghoul",
+      "name_sortable": "wanderingghoul",
+      "locations": [
+        "-118.53,0.82,-56.53"
       ]
     },
     {
@@ -685,6 +1164,65 @@
           "chest": false
         }
       ]
+    },
+    {
+      "name": "a water storm",
+      "name_sortable": "waterstorm",
+      "locations": [
+        "120.67,-24.49,7.90",
+        "120.30,-24.72,-3.12",
+        "115.67,-24.72,1.90"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1592928225 1406414422:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a zombie handmaiden",
+      "name_sortable": "zombiehandmaiden",
+      "locations": [
+        "-101.02,-25.16,-72.39"
+      ],
+      "utterances": [
+        "Why do you pester me?",
+        "I will  slowly strip the fleshy tissue from your body!"
+      ]
+    },
+    {
+      "name": "a zombie knight",
+      "name_sortable": "zombieknight",
+      "locations": [
+        "-104.51,4.99,-125.30",
+        "-106.88,4.91,-143.77",
+        "-110.00,4.91,-150.00",
+        "-94.09,4.91,-153.15",
+        "-94.47,4.91,-139.04",
+        "-65.01,4.91,-152.00",
+        "-79.32,4.91,-146.32",
+        "-65.06,4.91,-131.93",
+        "-71.39,5.00,-125.66"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        }
+      ]
     }
   ],
   "shinies": [
@@ -698,13 +1236,15 @@
     {
       "gamelink": "\\aITEM 794780686 1818657285:unscathed high elf bone fragment\\/a",
       "locations": [
-        "-15.73,11.00,-84.58"
+        "-15.73,11.00,-84.58",
+        "125.67,-24.00,3.90"
       ]
     },
     {
       "gamelink": "\\aITEM 82494251 1603283083:weathered ogre bone fragment\\/a",
       "locations": [
-        "-17.73,9.50,-112.14"
+        "-17.73,9.50,-112.14",
+        "126.67,-24.00,0.90"
       ]
     },
     {
@@ -724,6 +1264,31 @@
       "gamelink": "\\aITEM 4143156 -1829155952:weathered gnome bone fragment\\/a",
       "locations": [
         "28.14,4.50,14.00"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1578966196 228827806:spotted red spider\\/a",
+      "locations": [
+        "120.67,-24.00,3.90",
+        "-17.73,9.50,-57.01"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -2064923497 207187187:plain blue spider\\/a",
+      "locations": [
+        "-109.64,-28.00,-170.18"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1663224442 1807596273:unscathed troll bone fragment\\/a",
+      "locations": [
+        "-121.64,-31.00,-168.02"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1642303140 1492039782:unscathed barbarian bone fragment\\/a",
+      "locations": [
+        "57.63,5.50,-92.61"
       ]
     }
   ]

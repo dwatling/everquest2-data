@@ -17,13 +17,31 @@
     {
       "name": "Lord Chesgard",
       "name_sortable": "lordchesgard",
+      "level": 30,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "1.52,-45.79,-49.48"
+      ],
       "utterances": [
-        "What a foolish servant to have fallen so."
+        "What a foolish servant to have fallen so.",
+        "You will show respect to your liege."
       ]
     },
     {
       "name": "a restless stormlord",
       "name_sortable": "restlessstormlord",
+      "level": 25,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-1.82,-45.79,-50.05",
+        "-12.32,-45.79,-49.58",
+        "-19.15,-45.79,-50.48",
+        "-24.36,-45.79,-48.79",
+        "-42.39,-45.79,-48.87",
+        "-32.00,-45.79,-48.00",
+        "-48.00,-45.79,-50.48",
+        "-6.96,-45.79,-48.00"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
@@ -31,6 +49,30 @@
         },
         {
           "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -612798970 943460484:a decomposing zombie organ\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
           "chest": false
         }
       ],

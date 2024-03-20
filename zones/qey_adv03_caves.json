@@ -21,8 +21,14 @@
     {
       "name": "an alabaster behemoth",
       "name_sortable": "alabasterbehemoth",
-      "utterances": [
-        null
+      "level": 12,
+      "locations": [
+        "31.47,38.74,-64.11",
+        "-3.92,37.91,-81.51",
+        "5.15,37.79,-82.62",
+        "-47.31,16.22,-125.53",
+        "-39.29,16.14,-124.08",
+        "-60.25,18.34,-129.86"
       ],
       "drops": [
         {
@@ -46,8 +52,13 @@
     {
       "name": "an alabaster golem",
       "name_sortable": "alabastergolem",
-      "utterances": [
-        null
+      "level": 10,
+      "locations": [
+        "-15.99,12.09,-56.07",
+        "13.36,13.56,-85.01",
+        "48.98,13.00,-121.15",
+        "53.99,13.00,-112.75",
+        "57.54,12.32,-105.11"
       ],
       "drops": [
         {
@@ -95,6 +106,11 @@
     {
       "name": "an albino arachnid",
       "name_sortable": "albinoarachnid",
+      "level": 11,
+      "locations": [
+        "-1.26,37.87,-58.08",
+        "-3.39,37.87,-40.37"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
@@ -103,13 +119,40 @@
       ]
     },
     {
+      "name": "an albino python",
+      "name_sortable": "albinopython",
+      "locations": [
+        "20.55,37.87,-23.25",
+        "28.00,37.87,-29.63",
+        "28.01,37.87,-24.00",
+        "37.80,37.87,-30.04",
+        "33.58,37.87,-35.35"
+      ]
+    },
+    {
+      "name": "Atramentor",
+      "name_sortable": "atramentor",
+      "level": 14,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-44.41,16.14,-127.07"
+      ]
+    },
+    {
       "name": "a cave serpent",
       "name_sortable": "caveserpent",
+      "level": 10,
       "locations": [
         "5.85,2.75,-24.93",
         "12.00,12.22,-48.93",
         "9.43,2.51,-15.00",
-        "-2.91,3.63,-34.87"
+        "-2.91,3.63,-34.87",
+        "15.95,3.38,-45.79",
+        "15.67,5.33,-15.02",
+        "41.56,3.52,-51.49",
+        "46.83,3.38,-72.66",
+        "35.70,3.38,-72.56",
+        "-12.25,12.97,-51.52"
       ],
       "drops": [
         {
@@ -129,6 +172,10 @@
     {
       "name": "Consul Bree",
       "name_sortable": "consulbree",
+      "purpose": "Qeynos Guard",
+      "locations": [
+        "0.03,3.62,-34.77"
+      ],
       "utterances": [
         "Have you collected the materials?",
         "Then I have all I need. I will make the staff of summoning now. Do not be alarmed, the skeleton that adorns it is not a recent one. With this staff Zen'Durath will be summoned. Are you ready?",
@@ -147,8 +194,43 @@
       ]
     },
     {
+      "name": "a desperate defender",
+      "name_sortable": "desperatedefender",
+      "level": 13,
+      "locations": [
+        "0.00,37.87,-18.00",
+        "-9.93,37.90,-22.77",
+        "9.35,37.87,-20.04",
+        "14.38,37.87,-19.55"
+      ],
+      "utterances": [
+        "I'll eat your heart for your cowardice!",
+        "Dying upon the field is glory!",
+        "Sentries, alarm!",
+        "Don't break! Hold the line!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Qeynos Guard",
+          "name_sortable": "qeynosguard",
+          "value": -100
+        }
+      ]
+    },
+    {
       "name": "The Devoured",
       "name_sortable": "devoured",
+      "level": 13,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "18.68,37.79,-50.59"
+      ],
       "utterances": [
         "Your death will please the clan!",
         "I'll rip your throat open!"
@@ -157,6 +239,8 @@
     {
       "name": "Dustcaller Sleg",
       "name_sortable": "dustcallersleg",
+      "level": 11,
+      "difficulty": "heroic^^",
       "locations": [
         "26.83,19.90,-126.29"
       ],
@@ -169,6 +253,16 @@
     {
       "name": "a Dustpaw armorer",
       "name_sortable": "dustpawarmorer",
+      "level": 11,
+      "locations": [
+        "58.39,13.20,-74.12",
+        "67.54,12.40,-69.27"
+      ],
+      "utterances": [
+        "That one never mate!",
+        "Another member of the pack down!",
+        "That one will never mate!"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
@@ -181,6 +275,16 @@
     {
       "name": "a Dustpaw guard",
       "name_sortable": "dustpawguard",
+      "level": 10,
+      "locations": [
+        "19.42,4.96,-58.97",
+        "23.95,5.12,-75.92",
+        "56.75,12.38,-84.52"
+      ],
+      "utterances": [
+        "That one never mate!",
+        "Another member of the pack down!"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -1537370945 993864962:tanned leather gloves\\/a",
@@ -197,6 +301,15 @@
     {
       "name": "a Dustpaw lookout",
       "name_sortable": "dustpawlookout",
+      "level": 10,
+      "locations": [
+        "23.04,4.92,-67.06",
+        "56.66,12.38,-81.61"
+      ],
+      "utterances": [
+        "Not allowed here!",
+        "Spin, weave, dodge, attack!!!"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
@@ -207,6 +320,10 @@
     {
       "name": "Emma Torque",
       "name_sortable": "emmatorque",
+      "purpose": "Field Engineer",
+      "locations": [
+        "-18.19,3.66,-34.8"
+      ],
       "utterances": [
         "Well?",
         "Sure. Be careful with it. I don't think it will explode and kill you, but I also don't want you using it anywhere near me.",
@@ -216,29 +333,11 @@
       ]
     },
     {
-      "name": "Fulkoir Haggleton",
-      "name_sortable": "fulkoirhaggleton",
-      "utterances": [
-        "I cannot believe my horrible luck!"
-      ]
-    },
-    {
-      "name": "Gelerth Bucklebrow",
-      "name_sortable": "gelerthbucklebrow",
-      "locations": [
-        "-34.80,33.35,-52.00",
-        "-9.86,3.48,-25.42"
-      ],
-      "utterances": [
-        "What do I need to do here?",
-        "Hello again, adventurer.",
-        "Oh, you betcha! This'll be fun!",
-        "Sorry. I am ready for my first lesson."
-      ]
-    },
-    {
       "name": "Geologist Quardifle",
       "name_sortable": "geologistquardifle",
+      "locations": [
+        "-7.03,3.63,-25.67"
+      ],
       "utterances": [
         "These rocks here are interesting... I'm not sure where they came from.  It's rather strange... they simply don't fit this area at all...",
         "Oooo, pass them here! These samples are remarkable!  These will occupy my time for quite a while! Really, you're a natural! If you find more unique rocks on your journey, return them to me and I'll reimburse you. Here, take this coin for your first discovery!",
@@ -248,19 +347,12 @@
       ]
     },
     {
-      "name": "a gnoll guardian",
-      "name_sortable": "gnollguardian",
-      "locations": [
-        "-38.99,33.32,-51.35"
-      ],
-      "utterances": [
-        "Bite! Show sharp teeth!",
-        "More meat!"
-      ]
-    },
-    {
       "name": "High Shaman Zen'Durath",
       "name_sortable": "highshamanzendurath",
+      "level": 14,
+      "locations": [
+        "25,15,-110"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
@@ -271,6 +363,9 @@
     {
       "name": "Kahla Ulno",
       "name_sortable": "kahlaulno",
+      "locations": [
+        "0.49,3.62,-23.01"
+      ],
       "utterances": [
         "Greetings! I don't suppose you have some time to help an information-hungry kerra like myself, do you?",
         "Well, I'm very interested in the creatures that inhabit these caves. I am trying to catalog these creatures so I can better compare them with their cousins found elsewhere. But I've run into a problem.",
@@ -284,6 +379,10 @@
     {
       "name": "Lieutenant Delsun",
       "name_sortable": "lieutenantdelsun",
+      "purpose": "Qeynos Guard",
+      "locations": [
+        "0.21,4.34,-31.64"
+      ],
       "utterances": [
         "Have you done as I asked?",
         "Good. Though we may not directly attack their production as Consul Bree does, we've done a great part in thinning out their armies. Take this, the Qeynos Guard puts aside such things for times like this. I believe you deserve it.",
@@ -297,12 +396,17 @@
     {
       "name": "a Mudpaw guard",
       "name_sortable": "mudpawguard",
+      "level": 11,
       "locations": [
-        "30.82,19.89,-127.33"
+        "30.82,19.89,-127.33",
+        "57.14,12.35,-103.84",
+        "45.75,11.97,-87.78"
       ],
       "utterances": [
-        null,
-        "Spin, weave, dodge, attack!!!"
+        "Spin, weave, dodge, attack!!!",
+        "That one will never mate!",
+        "Bite! Show sharp teeth!",
+        "That one never mate!"
       ],
       "drops": [
         {
@@ -324,6 +428,10 @@
         {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 33,
@@ -332,8 +440,20 @@
     {
       "name": "a Mudpaw lookout",
       "name_sortable": "mudpawlookout",
+      "level": 10,
       "locations": [
-        "10.17,12.43,-51.03"
+        "10.17,12.43,-51.03",
+        "4.87,13.86,-67.29",
+        "15.34,13.48,-94.49",
+        "30.82,19.89,-127.33",
+        "43.82,11.98,-84.28"
+      ],
+      "utterances": [
+        "Another member of the pack down!",
+        "That one will never mate!",
+        "Spin, weave, dodge, attack!!!",
+        "That one never mate!",
+        "Not allowed here!"
       ],
       "drops": [
         {
@@ -370,13 +490,34 @@
         }
       ],
       "drop_coin_min": 29,
-      "drop_coin_max": 29
+      "drop_coin_max": 35
+    },
+    {
+      "name": "a pale adder",
+      "name_sortable": "paleadder",
+      "level": 12,
+      "locations": [
+        "-29.65,33.84,-37.40",
+        "-29.69,33.62,-43.93"
+      ]
+    },
+    {
+      "name": "The Pale Broodmother",
+      "name_sortable": "palebroodmother",
+      "level": 10,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "56.90,0.97,-102.94"
+      ]
     },
     {
       "name": "a river behemoth",
       "name_sortable": "riverbehemoth",
-      "utterances": [
-        null
+      "level": 13,
+      "difficulty": "heroic^^",
+      "locations": [
+        "29.38,37.52,-126.27",
+        "19.13,38.06,-125.45"
       ],
       "drops": [
         {
@@ -392,11 +533,21 @@
     {
       "name": "a Rockpaw guard",
       "name_sortable": "rockpawguard",
+      "level": 13,
+      "locations": [
+        "51.77,38.00,-69.57",
+        "45.94,37.55,-101.42",
+        "47.28,37.85,-112.57",
+        "52.73,37.99,-119.19",
+        "21.08,37.89,-112.97",
+        "19.66,38.20,-104.55",
+        "-30.53,21.10,-88.89"
+      ],
       "utterances": [
-        null,
         "Not allowed here!",
         "Bite! Show sharp teeth!",
-        "That one never mate!"
+        "That one never mate!",
+        "Spin, weave, dodge, attack!!!"
       ],
       "drops": [
         {
@@ -418,6 +569,18 @@
     {
       "name": "a Rockpaw scout",
       "name_sortable": "rockpawscout",
+      "level": 13,
+      "locations": [
+        "46.72,37.49,-98.67",
+        "47.56,38.52,-117.29",
+        "21.68,37.87,-109.78",
+        "-23.20,21.27,-99.45"
+      ],
+      "utterances": [
+        "That one will never mate!",
+        "Not allowed here!",
+        "Another member of the pack down!"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
@@ -425,6 +588,10 @@
         },
         {
           "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         }
       ],
@@ -434,6 +601,10 @@
     {
       "name": "a Rockpaw stonemaster",
       "name_sortable": "rockpawstonemaster",
+      "level": 15,
+      "locations": [
+        "-40.19,16.14,-122.56"
+      ],
       "utterances": [
         "Spin, weave, dodge, attack!!!"
       ],
@@ -443,15 +614,25 @@
     {
       "name": "a Rockpaw striker",
       "name_sortable": "rockpawstriker",
+      "level": 13,
+      "locations": [
+        "-4.77,37.87,-22.75",
+        "27.28,38.04,-113.78"
+      ],
       "drop_coin_min": 17,
-      "drop_coin_max": 23
+      "drop_coin_max": 40
     },
     {
       "name": "a shale bat",
       "name_sortable": "shalebat",
+      "level": 10,
       "locations": [
         "0.81,12.79,-52.03",
-        "-6.23,12.81,-55.64"
+        "-6.23,12.81,-55.64",
+        "41.79,7.42,-57.94",
+        "43.61,6.43,-70.48",
+        "21.33,16.65,-61.64",
+        "-3.73,17.84,-76.53"
       ],
       "drops": [
         {
@@ -461,8 +642,29 @@
       ]
     },
     {
+      "name": "a silverfish",
+      "name_sortable": "silverfish",
+      "level": 10,
+      "locations": [
+        "-22.39,0.96,-23.38",
+        "-28.20,0.97,-31.21",
+        "-22.87,0.05,-30.42",
+        "34.26,0.00,-13.43",
+        "20.39,-1.00,-8.66",
+        "44.26,0.00,-28.43"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -595786562 -1168539999:a fish meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "Slaverjaw",
       "name_sortable": "slaverjaw",
+      "level": 16,
+      "difficulty": "heroic^^^",
       "locations": [
         "-15.33,38.49,-49.94"
       ]
@@ -470,16 +672,29 @@
     {
       "name": "a terra bat",
       "name_sortable": "terrabat",
+      "level": 12,
+      "locations": [
+        "18.81,37.41,-85.10",
+        "48.77,40.69,-82.00",
+        "26.20,40.96,-112.18",
+        "40.69,40.73,-100.00"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -1537370945 993864962:tanned leather gloves\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1127098598 -837078682:a bat ear\\/a",
+          "chest": false
         }
       ]
     },
     {
       "name": "Warmonger Gurne",
       "name_sortable": "warmongergurne",
+      "level": 14,
+      "difficulty": "heroic^^^",
       "drops": [
         {
           "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
@@ -492,19 +707,45 @@
     {
       "name": "a white spider",
       "name_sortable": "whitespider",
+      "level": 10,
+      "locations": [
+        "20.81,3.32,-44.18",
+        "51.96,2.76,-96.86",
+        "51.96,0.51,-106.86",
+        "27.18,12.38,-52.64",
+        "-7.13,12.80,-55.16",
+        "-21.73,12.86,-66.70"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -1163703835 1698426441:bone cudgel\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1597999582 -1680139941:a poison gland\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
+          "chest": false
         }
       ]
     },
     {
       "name": "a white spiderling",
       "name_sortable": "whitespiderling",
+      "level": 10,
       "locations": [
         "5.76,2.75,-33.68",
-        "8.00,2.75,-26.82"
+        "8.00,2.75,-26.82",
+        "16.18,3.38,-29.32",
+        "20.41,3.75,-23.62",
+        "17.47,3.38,-43.84",
+        "28.21,3.84,-39.35",
+        "33.32,3.93,-39.27",
+        "41.74,3.83,-57.81",
+        "52.41,3.38,-63.72",
+        "39.40,3.83,-65.22"
       ],
       "drops": [
         {
@@ -586,6 +827,36 @@
     },
     {
       "gamelink": "\\aITEM -140875129 -569972932:striped purple butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1827919267 -43288604:plain purple butterfly\\/a",
+      "locations": [
+        "14.71,4.00,-40.09"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1744325928 1349035949:shattered ogre bone fragment\\/a",
+      "locations": [
+        "10.16,3.50,-35.09"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -904347364 2060228601:regal yellow butterfly\\/a",
+      "locations": [
+        "25.08,13.00,-102.44"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 518819436 909311260:plain blue butterfly\\/a",
+      "locations": [
+        "30.72,40.00,-94.04"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a",
+      "locations": [
+        "-4.63,38.00,-73.72"
+      ]
     }
   ],
   "resourceNodes": [
@@ -596,6 +867,10 @@
     {
       "name": "the dusky ore",
       "name_sortable": "duskyore"
+    },
+    {
+      "name": "the fetid arbor",
+      "name_sortable": "fetidarbor"
     },
     {
       "name": "the natural garden",

@@ -394,7 +394,8 @@
         "48.06,-21.57,19.52",
         "112.91,-18.72,-29.98",
         "121.80,-24.72,-20.78",
-        "120.80,-24.72,-11.63"
+        "120.80,-24.72,-11.63",
+        "34.27,-20.82,-46.91"
       ],
       "utterances": [
         "You've shaken the dust from my bones.",
@@ -402,14 +403,21 @@
         "Your eyes are so pretty.",
         "Seek death and it finds you.",
         "Final death comes at last.",
-        "Rest in peace."
+        "Rest in peace.",
+        "I'm shattered and broken."
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
         }
-      ]
+      ],
+      "drop_coin_min": 159,
+      "drop_coin_max": 159
     },
     {
       "name": "a defiled crusader",
@@ -469,7 +477,8 @@
         "-54.66,8.60,-78.91",
         "-45.84,7.60,-86.63",
         "-84.22,4.59,-67.00",
-        "-78.00,4.59,-67.00"
+        "-78.00,4.59,-67.00",
+        "-82.51,-24.82,-98.04"
       ],
       "utterances": [
         "Your eyes are so pretty.",
@@ -482,7 +491,9 @@
           "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
           "chest": false
         }
-      ]
+      ],
+      "drop_coin_min": 103,
+      "drop_coin_max": 103
     },
     {
       "name": "a defiled lancer",
@@ -911,7 +922,8 @@
       "level": 20,
       "difficulty": "heroic^^^",
       "locations": [
-        "64.97,5.00,-77.13"
+        "64.97,5.00,-77.13",
+        "71.81,5.00,-79.85"
       ],
       "drops": [
         {
@@ -921,6 +933,10 @@
         {
           "gamelink": "\\aITEM -86102345 -151067204:a ghost vile plasm \\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1534061037 -1167709766:a rusted iron belt\\/a",
+          "chest": true
         }
       ]
     },
@@ -1288,7 +1304,20 @@
     {
       "gamelink": "\\aITEM -1642303140 1492039782:unscathed barbarian bone fragment\\/a",
       "locations": [
-        "57.63,5.50,-92.61"
+        "57.63,5.50,-92.61",
+        "126.67,-20.00,7.90"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 792439665 1688635161:weathered wood elf bone fragment\\/a",
+      "locations": [
+        "-28.73,9.50,-75.96"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -428349703 805739470:striped red spider\\/a",
+      "locations": [
+        "39.17,5.50,-90.61"
       ]
     }
   ]

@@ -2,14 +2,17 @@
   "name": "The Caves",
   "name_sortable": "caves",
   "region": "Karan",
-  "zonerect": "-93.00,-171.00,78.00,32.00",
   "levels": "10-15",
   "maps": [
     {
-      "name": "Lower"
+      "name": "Lower",
+      "index": 0,
+      "zonerect": "-93.00,-171.00,78.00,32.00"
     },
     {
-      "name": "Upper"
+      "name": "Upper",
+      "index": 1,
+      "zonerect": "-94.00,-168.00,78.00,32.00"
     }
   ],
   "connections": [
@@ -28,7 +31,9 @@
         "5.15,37.79,-82.62",
         "-47.31,16.22,-125.53",
         "-39.29,16.14,-124.08",
-        "-60.25,18.34,-129.86"
+        "-60.25,18.34,-129.86",
+        "-60.39,18.14,-124.53",
+        "38.39,37.87,-44.42"
       ],
       "drops": [
         {
@@ -46,6 +51,14 @@
         {
           "gamelink": "\\aITEM 527044354 1657123123:advanced craftsman volume 12\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1956828486 234429739:a golem animating force\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -61203924 -290617416:a golem sentience leash\\/a",
+          "chest": false
         }
       ]
     },
@@ -58,7 +71,10 @@
         "13.36,13.56,-85.01",
         "48.98,13.00,-121.15",
         "53.99,13.00,-112.75",
-        "57.54,12.32,-105.11"
+        "57.54,12.32,-105.11",
+        "51.76,12.38,-104.36",
+        "8.95,13.36,-114.37",
+        "15.08,13.04,-102.63"
       ],
       "drops": [
         {
@@ -100,6 +116,10 @@
         {
           "gamelink": "\\aITEM 538775320 1158209847:impure chunk of arcane stone\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1995435705 -1921232873:glimmering stone fragment\\/a",
+          "chest": false
         }
       ]
     },
@@ -109,7 +129,8 @@
       "level": 11,
       "locations": [
         "-1.26,37.87,-58.08",
-        "-3.39,37.87,-40.37"
+        "-3.39,37.87,-40.37",
+        "-6.15,38.72,-47.45"
       ],
       "drops": [
         {
@@ -207,7 +228,8 @@
         "I'll eat your heart for your cowardice!",
         "Dying upon the field is glory!",
         "Sentries, alarm!",
-        "Don't break! Hold the line!"
+        "Don't break! Hold the line!",
+        "Charge!!!!"
       ],
       "drops": [
         {
@@ -245,9 +267,10 @@
         "26.83,19.90,-126.29"
       ],
       "utterances": [
-        "I'll hunt you down for that!"
+        "I'll hunt you down for that!",
+        "Intruder!"
       ],
-      "drop_coin_min": 28,
+      "drop_coin_min": 27,
       "drop_coin_max": 28
     },
     {
@@ -256,16 +279,31 @@
       "level": 11,
       "locations": [
         "58.39,13.20,-74.12",
-        "67.54,12.40,-69.27"
+        "67.54,12.40,-69.27",
+        "64.17,12.57,-76.83"
       ],
       "utterances": [
         "That one never mate!",
         "Another member of the pack down!",
-        "That one will never mate!"
+        "That one will never mate!",
+        "Bite! Show sharp teeth!",
+        "Not allowed here!"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         }
       ],
@@ -308,11 +346,20 @@
       ],
       "utterances": [
         "Not allowed here!",
-        "Spin, weave, dodge, attack!!!"
+        "Spin, weave, dodge, attack!!!",
+        "Another member of the pack down!"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
           "chest": false
         }
       ]
@@ -400,13 +447,16 @@
       "locations": [
         "30.82,19.89,-127.33",
         "57.14,12.35,-103.84",
-        "45.75,11.97,-87.78"
+        "45.75,11.97,-87.78",
+        "23.12,20.27,-127.98"
       ],
       "utterances": [
         "Spin, weave, dodge, attack!!!",
         "That one will never mate!",
         "Bite! Show sharp teeth!",
-        "That one never mate!"
+        "That one never mate!",
+        "Not allowed here!",
+        "Another member of the pack down!"
       ],
       "drops": [
         {
@@ -446,7 +496,11 @@
         "4.87,13.86,-67.29",
         "15.34,13.48,-94.49",
         "30.82,19.89,-127.33",
-        "43.82,11.98,-84.28"
+        "43.82,11.98,-84.28",
+        "-2.31,14.70,-73.30",
+        "6.36,14.61,-74.62",
+        "19.40,12.59,-86.25",
+        "20.88,12.58,-97.17"
       ],
       "utterances": [
         "Another member of the pack down!",
@@ -490,7 +544,7 @@
         }
       ],
       "drop_coin_min": 29,
-      "drop_coin_max": 35
+      "drop_coin_max": 40
     },
     {
       "name": "a pale adder",
@@ -541,13 +595,16 @@
         "52.73,37.99,-119.19",
         "21.08,37.89,-112.97",
         "19.66,38.20,-104.55",
-        "-30.53,21.10,-88.89"
+        "-30.53,21.10,-88.89",
+        "47.74,37.85,-80.03"
       ],
       "utterances": [
         "Not allowed here!",
         "Bite! Show sharp teeth!",
         "That one never mate!",
-        "Spin, weave, dodge, attack!!!"
+        "Spin, weave, dodge, attack!!!",
+        "Another member of the pack down!",
+        "That one will never mate!"
       ],
       "drops": [
         {
@@ -561,10 +618,14 @@
         {
           "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 16,
-      "drop_coin_max": 37
+      "drop_coin_max": 229
     },
     {
       "name": "a Rockpaw scout",
@@ -579,7 +640,8 @@
       "utterances": [
         "That one will never mate!",
         "Not allowed here!",
-        "Another member of the pack down!"
+        "Another member of the pack down!",
+        "That one never mate!"
       ],
       "drops": [
         {
@@ -595,7 +657,7 @@
           "chest": false
         }
       ],
-      "drop_coin_min": 24,
+      "drop_coin_min": 20,
       "drop_coin_max": 248
     },
     {
@@ -603,10 +665,12 @@
       "name_sortable": "rockpawstonemaster",
       "level": 15,
       "locations": [
-        "-40.19,16.14,-122.56"
+        "-40.19,16.14,-122.56",
+        "-33.67,16.95,-122.29"
       ],
       "utterances": [
-        "Spin, weave, dodge, attack!!!"
+        "Spin, weave, dodge, attack!!!",
+        "That one never mate!"
       ],
       "drop_coin_min": 32,
       "drop_coin_max": 32
@@ -617,7 +681,11 @@
       "level": 13,
       "locations": [
         "-4.77,37.87,-22.75",
-        "27.28,38.04,-113.78"
+        "27.28,38.04,-113.78",
+        "37.25,38.01,-113.82"
+      ],
+      "utterances": [
+        "Not allowed here!"
       ],
       "drop_coin_min": 17,
       "drop_coin_max": 40
@@ -666,7 +734,28 @@
       "level": 16,
       "difficulty": "heroic^^^",
       "locations": [
-        "-15.33,38.49,-49.94"
+        "-15.33,38.49,-49.94",
+        "18.32,38.16,-114.32",
+        "29.54,38.44,-89.31",
+        "41.21,37.87,-77.21",
+        "55.2,38.15,-70.0",
+        "77.33,35.52,-71.39",
+        "68.72,28.13,-53.41",
+        "57.87,24.29,-70.26",
+        "62.77,19.37,-81.65",
+        "49.17,12.2,-90.33",
+        "27.17,11.93,-99.13",
+        "5.75,12.31,-108.31",
+        "3.46,12.28,-98.06",
+        "-17.12,12.09,-91.97",
+        "-16.24,12.14,-73.73",
+        "7.02,13.61,-67.77",
+        "20.78,12.38,-65.98",
+        "17.78,12.38,-76.96",
+        "15.75,12.96,-98.61",
+        "27.44,16.64,-118.78",
+        "51.25,13.0,-113.25",
+        "60.51,12.34,-103.68"
       ]
     },
     {
@@ -677,7 +766,10 @@
         "18.81,37.41,-85.10",
         "48.77,40.69,-82.00",
         "26.20,40.96,-112.18",
-        "40.69,40.73,-100.00"
+        "40.69,40.73,-100.00",
+        "37.07,38.14,-114.62",
+        "25.06,41.19,-88.28",
+        "45.69,42.26,-87.10"
       ],
       "drops": [
         {
@@ -695,6 +787,12 @@
       "name_sortable": "warmongergurne",
       "level": 14,
       "difficulty": "heroic^^^",
+      "locations": [
+        "-23.77,21.17,-90.12"
+      ],
+      "utterances": [
+        "Another member of the pack down!"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
@@ -714,7 +812,8 @@
         "51.96,0.51,-106.86",
         "27.18,12.38,-52.64",
         "-7.13,12.80,-55.16",
-        "-21.73,12.86,-66.70"
+        "-21.73,12.86,-66.70",
+        "-8.68,13.19,-62.90"
       ],
       "drops": [
         {
@@ -789,7 +888,8 @@
     {
       "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a",
       "locations": [
-        "33.62,13.00,-114.01"
+        "33.62,13.00,-114.01",
+        "-9.06,15.00,-72.70"
       ]
     },
     {
@@ -807,7 +907,8 @@
     {
       "gamelink": "\\aITEM -672434816 285511061:shattered dark elf bone fragment\\/a",
       "locations": [
-        "22.28,4.00,-18.09"
+        "22.28,4.00,-18.09",
+        "30.20,13.00,-100.79"
       ]
     },
     {
@@ -857,6 +958,42 @@
       "locations": [
         "-4.63,38.00,-73.72"
       ]
+    },
+    {
+      "gamelink": "\\aITEM -920795723 769305171:spotted purple butterfly\\/a",
+      "locations": [
+        "38.74,13.00,-99.14"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1039265482 989022440:shattered half elf bone fragment\\/a",
+      "locations": [
+        "8.97,39.00,-76.26"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -327615186 -1572251097:plain violet butterfly\\/a",
+      "locations": [
+        "14.84,14.00,-84.26"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -140875129 -614209625:striped purple butterfly\\/a",
+      "locations": [
+        "-4.63,40.00,-45.78"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1997619724 -2076063132:striped violet butterfly\\/a",
+      "locations": [
+        "18.25,13.00,-69.39"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1838761957 -806141222:scuffed shard of channeling\\/a",
+      "locations": [
+        "25.08,14.00,-105.75"
+      ]
     }
   ],
   "resourceNodes": [
@@ -879,6 +1016,10 @@
     {
       "name": "the rigid stone",
       "name_sortable": "rigidstone"
+    },
+    {
+      "name": "the stodgy roots",
+      "name_sortable": "stodgyroots"
     },
     {
       "name": "the variety of fish",

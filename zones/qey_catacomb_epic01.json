@@ -15,24 +15,41 @@
   ],
   "npcs": [
     {
-      "name": "a circle initiate",
-      "name_sortable": "circleinitiate",
-      "level": 10
-    },
-    {
       "name": "a circle intiate",
       "name_sortable": "circleintiate",
+      "level": 10,
+      "difficulty": "heroic",
+      "locations": [
+        "-12.00,-0.39,3.13",
+        "-11.16,-0.39,-6.02"
+      ],
       "utterances": [
         "To arms!",
         "I can't hold them forever!",
-        "Is that all you have?"
+        "Is that all you have?",
+        "Summon help!  We have invaders!",
+        "Alarm!  Skirmishers approaching!"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
         }
-      ]
+      ],
+      "drop_coin_min": 247,
+      "drop_coin_max": 247
     },
     {
       "name": "Fippy Darkpaw, the 4th",
@@ -59,7 +76,8 @@
       "level": 12,
       "difficulty": "heroic",
       "locations": [
-        "5,1,6"
+        "5,1,6",
+        "15.00,1.17,-2.00"
       ],
       "utterances": [
         "To the void with you! You made me coin purse lighter!"
@@ -72,11 +90,11 @@
       ]
     },
     {
-      "name": "an Unseen Hand initiate",
-      "name_sortable": "unseenhandinitiate",
+      "name": "an Unseen Hand intiate",
+      "name_sortable": "unseenhandintiate",
       "level": 10,
       "locations": [
-        "9,0,9"
+        "8.88,0.12,9.00"
       ]
     },
     {
@@ -90,15 +108,11 @@
       "utterances": [
         "Ahh, you must be the new initiates, make yourselves useful and start cleaning up some of the debris. And be quick about it!",
         "Did you not hear me, I told you to clean. ",
-        "They are waiting for you, go ahead  back."
-      ]
-    },
-    {
-      "name": "Velia Truesight",
-      "name_sortable": "veliatruesight",
-      "locations": [
-        "-9,0,7"
-      ]
+        "They are waiting for you, go ahead  back.",
+        "How dare you strike me, kill them."
+      ],
+      "drop_coin_min": 35,
+      "drop_coin_max": 35
     }
   ]
 }

@@ -102,7 +102,8 @@
         "-32.65,-0.18,-171.25",
         "21.37,-0.14,-163.63",
         "47.72,-4.16,-139.02",
-        "49.81,-4.16,-182.92"
+        "49.81,-4.16,-182.92",
+        "-30.39,-0.80,-181.00"
       ],
       "utterances": [
         "Look what strolled into the spider's web!",
@@ -113,7 +114,9 @@
         "More intruders to deal with?  Stop them!",
         "Don't waste any time.  Kill them!",
         "Welcome to torment and destruction!",
-        "No matter what I promise, you will not survive!"
+        "No matter what I promise, you will not survive!",
+        "If they report back to the city, we're finished!",
+        "We need help!  I can't hold them."
       ],
       "drops": [
         {
@@ -131,7 +134,8 @@
         "27.76,-0.16,-163.20",
         "33.92,-0.16,-160.61",
         "40.62,-0.16,-155.56",
-        "51.87,-0.15,-168.28"
+        "51.87,-0.15,-168.28",
+        "0.81,-0.21,-146.42"
       ],
       "utterances": [
         "Who are you?",
@@ -160,7 +164,8 @@
         "-13.34,-0.04,-179.53",
         "21.35,-0.12,-159.10",
         "53.40,-0.16,-168.30",
-        "46.77,-4.16,-184.21"
+        "46.77,-4.16,-184.21",
+        "-32.00,-0.30,-184.00"
       ],
       "utterances": [
         "More intruders to deal with?  Stop them!",
@@ -170,7 +175,13 @@
         "There is no escape for you now!",
         "I hope you put your affairs in order.",
         "I have no time for meddlers.  Destroy them!",
-        "We may die, but I won't let them all escape!"
+        "We may die, but I won't let them all escape!",
+        "We need help!  I can't hold them.",
+        "If they report back to the city, we're finished!",
+        "Who are you?",
+        "There's nothing you can do to make me defy the Lord!",
+        "Stand your ground!  You're just as dead if you leave.",
+        "You'll pay for that one, peon!"
       ],
       "drops": [
         {
@@ -189,12 +200,16 @@
       "level": 25,
       "locations": [
         "2.79,6.93,-17.84",
-        "-13.25,-0.15,-36.10"
+        "-13.25,-0.15,-36.10",
+        "5.57,-0.05,-9.21",
+        "19.35,-0.02,3.04"
       ],
       "utterances": [
         "I hope you put your affairs in order.",
         "There is no escape for you now!",
-        "Who are you?"
+        "Who are you?",
+        "More intruders to deal with?  Stop them!",
+        "There's nothing you can do to make me defy the Lord!"
       ],
       "drops": [
         {
@@ -228,7 +243,8 @@
         "56.70,-0.78,-29.18",
         "17.63,-0.08,-2.65",
         "6.11,-0.05,-11.51",
-        "15.96,-0.08,-46.79"
+        "15.96,-0.08,-46.79",
+        "-2.22,6.87,-18.63"
       ],
       "utterances": [
         "We may die, but I won't let them all escape!",
@@ -236,7 +252,9 @@
         "How dare you!",
         "You may escape, but we will find you!",
         "If they report back to the city, we're finished!",
-        "I hope you put your affairs in order."
+        "I hope you put your affairs in order.",
+        "Who are you?",
+        "Don't waste any time.  Kill them!"
       ],
       "drops": [
         {
@@ -349,7 +367,11 @@
         "-24.22,6.86,-18.77",
         "-4.98,6.81,-36.22",
         "8.54,6.83,-43.15",
-        "26.59,7.14,-44.39"
+        "26.59,7.14,-44.39",
+        "72.31,-0.07,-32.70",
+        "94.11,5.48,-25.33",
+        "13.70,6.14,-44.16",
+        "-15.33,6.99,-24.66"
       ],
       "utterances": [
         "This Victory was stolen with dishonor!",
@@ -447,7 +469,9 @@
         "-19.56,-0.18,-147.31",
         "-31.15,-0.18,-167.78",
         "-28.18,-0.18,-173.41",
-        "33.21,-0.16,-161.6"
+        "33.21,-0.16,-161.6",
+        "-25.00,-0.18,-180.38",
+        "-32.54,0.32,-181.00"
       ],
       "drops": [
         {
@@ -531,7 +555,8 @@
         "61.58,6.98,-57.70",
         "57.52,5.93,-65.60",
         "54.00,-0.06,-48.46",
-        "45.70,3.94,-68.56"
+        "45.70,3.94,-68.56",
+        "45.91,0.11,-48.03"
       ],
       "drops": [
         {
@@ -628,6 +653,9 @@
       "name_sortable": "spike",
       "level": 27,
       "difficulty": "heroic^^^",
+      "locations": [
+        "-26.34,6.81,-15.89"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 734706114 359842552:minotaur hoof\\/a",

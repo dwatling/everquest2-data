@@ -9,13 +9,17 @@
       "key": "qey_catacomb02"
     },
     {
-      "key": "qey_catacomb_epic03_deathly_scarab_hive"
+      "key": "qey_catacomb_epic03_deathly_scarab_hive",
+      "location": "175.86,13.92,-198.89"
     }
   ],
   "npcs": [
     {
       "name": "Adun",
       "name_sortable": "adun",
+      "locations": [
+        "127.92,8.47,15.83"
+      ],
       "utterances": [
         "There is no rest amongst the dead and those who seem dead.  A miserable existence.",
         "I'm Adun the Unfortunate, former lieutenant under Captain Vegalys Keldrane.  We were like brothers, Keldrane and I.  Until the War, that is.",
@@ -27,14 +31,26 @@
       ]
     },
     {
+      "name": "Ankhefemut",
+      "name_sortable": "ankhefemut",
+      "level": 22,
+      "locations": [
+        "159.89,11.31,-209.78",
+        "148.63,9.47,-202.97"
+      ]
+    },
+    {
       "name": "an Archaic Fury",
       "name_sortable": "archaicfury",
+      "level": 23,
+      "difficulty": "heroic^^^",
       "drop_coin_min": 146,
       "drop_coin_max": 146
     },
     {
       "name": "a Bloodsaber ruffian",
       "name_sortable": "bloodsaberruffian",
+      "level": 25,
       "utterances": [
         "We may die, but I won't let them all escape!",
         "Fall back, order a tactical retreat!"
@@ -51,13 +67,37 @@
     {
       "name": "a Bloodsaber sentinel",
       "name_sortable": "bloodsabersentinel",
+      "level": 25,
       "utterances": [
         "Stand your ground!  You're just as dead if you leave."
       ]
     },
     {
+      "name": "Bodyguard Greiwolv",
+      "name_sortable": "bodyguardgreiwolv",
+      "locations": [
+        "168.01,6.89,-187.5"
+      ],
+      "utterances": [
+        "Hey! Step back afore I throw you into the drink down there! Talk to Cryptkeeper Maglus if you be looking for work!"
+      ]
+    },
+    {
+      "name": "Bodyguard Harn",
+      "name_sortable": "bodyguardharn",
+      "locations": [
+        "172.62,6.89,-193.45"
+      ],
+      "utterances": [
+        "I hate coming down into these catacombs. But what are you going to do? Got to make money. If you are looking for work, Cryptkeeper Maglus might have something for you to do."
+      ]
+    },
+    {
       "name": "Borthen",
       "name_sortable": "borthen",
+      "locations": [
+        "156.87,8.49,9.25"
+      ],
       "utterances": [
         "Why do you disturb me, now that it's too late?",
         "I'm haunted by thoughts of my betrothed.  Are you bringing me news of her at last?  Where has she gone that I cannot follow?  Did she find her way safely to another city?  Did she perish?  All I have left are questions.",
@@ -72,6 +112,9 @@
     {
       "name": "Cryptkeeper Maglus",
       "name_sortable": "cryptkeepermaglus",
+      "locations": [
+        "169.93,6.89,-188.78"
+      ],
       "utterances": [
         "Two ... no, no ... five more.  Wait, seven more ... I keep losing track!",
         "Ah, how convenient for me!  Give me a moment to think.  Yes, I definitely need five more sets of wings.",
@@ -97,6 +140,7 @@
     {
       "name": "a crypt tempest",
       "name_sortable": "crypttempest",
+      "level": 25,
       "utterances": [
         "This Victory was stolen with dishonor!",
         "All warriors eventually know Death, and I do not fear mine!"
@@ -121,6 +165,37 @@
     {
       "name": "a deathly scarab",
       "name_sortable": "deathlyscarab",
+      "level": 23,
+      "locations": [
+        "150.52,9.17,-200.85",
+        "161.97,11.65,-210.76",
+        "171.78,13.37,-203.79",
+        "165.57,7.04,-176.53",
+        "176.62,6.97,-155.66",
+        "170.67,6.83,-146.00",
+        "148.40,7.09,-137.26",
+        "149.91,6.33,-154.25",
+        "128.45,6.31,-150.23",
+        "131.43,7.00,-167.71",
+        "116.81,7.00,-124.35",
+        "122.23,7.00,-117.47",
+        "119.71,7.00,-99.12",
+        "132.47,7.00,-99.13",
+        "130.77,7.00,-109.95",
+        "114.7,7.0,-87.55",
+        "119.25,6.82,-69.16",
+        "71.31,6.89,-58.45",
+        "144.04,6.93,-70.65",
+        "179.72,7.00,-161.00",
+        "132.61,7.00,-115.43",
+        "120.00,7.00,-87.76",
+        "152.01,6.99,-29.69",
+        "157.19,6.99,-30.41",
+        "146.89,6.99,-20.38",
+        "145.55,6.99,-6.11",
+        "135.13,6.99,5.79",
+        "122.38,6.99,7.77"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -2084762773 -1302763349:an insect shell\\/a",
@@ -129,28 +204,152 @@
       ]
     },
     {
+      "name": "a diseased corpse",
+      "name_sortable": "diseasedcorpse",
+      "level": 22,
+      "locations": [
+        "152.61,8.10,-193.02",
+        "129.56,7.00,-126.34",
+        "117.58,7.00,-125.28",
+        "120.18,7.00,-111.52",
+        "118.33,7.00,-117.49",
+        "112.12,7.00,-120.27",
+        "131.75,7.00,-91.73",
+        "123.54,7.00,-97.72",
+        "130.70,7.00,-120.11"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -658420854 385425044:ancient copper coin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 137,
+      "drop_coin_max": 137
+    },
+    {
+      "name": "Faylia the Dark",
+      "name_sortable": "fayliathedark",
+      "locations": [
+        "157.34,6.99,-43.31"
+      ]
+    },
+    {
+      "name": "a forsaken shriller",
+      "name_sortable": "forsakenshriller",
+      "level": 22,
+      "locations": [
+        "154.19,7.80,-192.65",
+        "157.73,13.50,-209.68",
+        "164.78,6.91,-176.86",
+        "179.59,6.90,-157.40",
+        "149.21,7.11,-134.79",
+        "150.75,8.50,-154.26",
+        "127.99,8.50,-145.91",
+        "116.63,6.94,-73.70",
+        "116.92,7.13,-57.64",
+        "140.97,8.50,-72.67"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1384243284 1942572763:a bat ear\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a grotesque mass",
+      "name_sortable": "grotesquemass",
+      "level": 20,
+      "locations": [
+        "61.58,6.98,-57.70",
+        "57.52,5.93,-65.60",
+        "54.00,-0.06,-48.46",
+        "45.70,3.94,-68.56"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1365385384 1432105181:an accumulation of plasma\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1296364617 1592738683:a mucous encrusted tendril\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "an ire minion",
       "name_sortable": "ireminion",
+      "level": 25,
+      "locations": [
+        "167.00,6.88,-150.00",
+        "120.19,6.91,-43.84",
+        "83.75,6.89,-69.71",
+        "138.58,6.89,-77.90",
+        "165.37,6.89,-51.95"
+      ],
       "utterances": [
-        "You stoked the wrong flames!"
-      ]
+        "You stoked the wrong flames!",
+        "You cannot put out my fire!",
+        "I'm glad you're here. I'm starving!",
+        "His fire has gone out and now yours will too!",
+        "My bones shall never extinguish."
+      ],
+      "drop_coin_min": 141,
+      "drop_coin_max": 141
     },
     {
       "name": "an ire warlock",
       "name_sortable": "irewarlock",
+      "level": 25,
+      "locations": [
+        "171.00,6.88,-154.00"
+      ],
       "utterances": [
-        "You stoked the wrong flames!"
+        "You stoked the wrong flames!",
+        "My bones shall never extinguish.",
+        "His fire has gone out and now yours will too!"
+      ]
+    },
+    {
+      "name": "a restless corpse",
+      "name_sortable": "restlesscorpse",
+      "level": 22,
+      "locations": [
+        "165.82,7.01,-176.35",
+        "176.57,6.87,-152.60",
+        "150.91,6.76,-138.28",
+        "114.75,7.00,-128.55",
+        "124.67,7.00,-99.04",
+        "131.24,7.0,-86.13"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        }
       ]
     },
     {
       "name": "The Specter of Ire",
       "name_sortable": "specterofire",
+      "level": 25,
+      "locations": [
+        "171.00,6.88,-154.00"
+      ],
       "drop_coin_min": 86,
       "drop_coin_max": 86
     },
     {
       "name": "Spike",
       "name_sortable": "spike",
+      "level": 27,
+      "difficulty": "heroic^^^",
       "drops": [
         {
           "gamelink": "\\aITEM 734706114 359842552:minotaur hoof\\/a",
@@ -176,6 +375,44 @@
       ]
     },
     {
+      "name": "a tortured essence",
+      "name_sortable": "torturedessence",
+      "locations": [
+        "151.27,6.99,-41.83",
+        "157.22,6.99,-45.84",
+        "156.95,6.99,-28.61",
+        "141.09,6.99,-21.87",
+        "148.64,6.99,-10.52",
+        "150.31,6.99,1.62",
+        "142.19,6.99,0.03",
+        "145.61,6.99,8.32",
+        "147.26,6.99,15.70",
+        "136.96,6.99,17.17",
+        "120.19,6.99,12.66",
+        "124.74,6.99,6.69"
+      ],
+      "utterances": [
+        "Brains! It's what's for dinner.",
+        "Final death comes at last.",
+        "You cannot eliminate us!",
+        "Your eyes are so pretty.",
+        "To the grave with you!",
+        "Dying didn't feel good the first time.",
+        "Your blood calls to me.",
+        "As I rise from the grave,  you will now take my place!",
+        "Rest in peace.",
+        "Seek death and it finds you."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -658420854 385425044:ancient copper coin\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 78,
+      "drop_coin_max": 164
+    },
+    {
       "name": "Vargon",
       "name_sortable": "vargon",
       "utterances": [
@@ -189,6 +426,9 @@
     {
       "name": "Vegalys Keldrane",
       "name_sortable": "vegalyskeldrane",
+      "locations": [
+        "123.83,8.46,-93.97"
+      ],
       "utterances": [
         "The air is filled with misery and despair.  I add my voice to those tortured and unable to rest, for I do not belong here.",
         "Dead, yes, and loyal till the end.  Unlike the one who betrayed me.  My forefathers fought for Qeynos, and for me to be surrounded by my enemies in life is everlasting torment.",

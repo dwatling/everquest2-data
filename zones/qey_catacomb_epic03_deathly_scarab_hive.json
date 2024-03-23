@@ -17,13 +17,25 @@
     {
       "name": "a deathly scarab",
       "name_sortable": "deathlyscarab",
+      "level": 23,
+      "difficulty": "heroic^^^",
       "locations": [
         "-20.85,3.07,14.49"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -2084762773 -1302763349:an insect shell\\/a",
+          "chest": false
+        }
       ]
     },
     {
       "name": "a deathly scarab broodling",
       "name_sortable": "deathlyscarabbroodling",
+      "level": 25,
+      "locations": [
+        "-30.72,1.54,0.84"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -2084762773 -1302763349:an insect shell\\/a",
@@ -34,12 +46,21 @@
     {
       "name": "a deathly scarab hatchling",
       "name_sortable": "deathlyscarabhatchling",
+      "level": 10,
       "locations": [
-        "-25.4,-0.93,-12.26"
+        "-25.4,-0.93,-12.26",
+        "-30.91,-0.93,5.68",
+        "-37.83,-0.93,0.90",
+        "-31.20,1.30,-2.29",
+        "-35.49,-0.70,-7.90"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
           "chest": false
         }
       ]
@@ -47,9 +68,13 @@
     {
       "name": "a deathly scarab worker",
       "name_sortable": "deathlyscarabworker",
+      "level": 24,
+      "difficulty": "heroic",
       "locations": [
         "-0.29,-0.93,0.53",
-        "-39.02,-0.93,0.49"
+        "-39.02,-0.93,0.49",
+        "-32.00,1.03,2.00",
+        "-17.50,-0.93,-21.16"
       ],
       "drops": [
         {
@@ -59,15 +84,43 @@
       ]
     },
     {
+      "name": "Guardian Ankhemaufut",
+      "name_sortable": "guardianankhemaufut",
+      "level": 25,
+      "difficulty": "heroic^^",
+      "locations": [
+        "-25.03,3.07,5.56"
+      ]
+    },
+    {
+      "name": "Guardian Ankhentaris",
+      "name_sortable": "guardianankhentaris",
+      "level": 25,
+      "difficulty": "heroic^^",
+      "locations": [
+        "-14.41,3.07,5.62"
+      ]
+    },
+    {
       "name": "Guardian Ankhrenlai",
       "name_sortable": "guardianankhrenlai",
+      "level": 25,
+      "difficulty": "heroic^^",
       "locations": [
-        "-12.87,3.07,-5.19"
+        "-12.87,3.07,-5.19",
+        "-24.84,3.07,-5.42",
+        "-21.97,3.37,0.00"
       ]
     },
     {
       "name": "Guardian Ankhumyal",
       "name_sortable": "guardianankhumyal",
+      "level": 25,
+      "difficulty": "heroic^^",
+      "locations": [
+        "-14.06,3.07,-4.94",
+        "-14.77,3.07,3.65"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -2084762773 -1302763349:an insect shell\\/a",
@@ -78,8 +131,11 @@
     {
       "name": "Queen Ankhestara",
       "name_sortable": "queenankhestara",
+      "level": 25,
+      "difficulty": "heroic^^^",
       "locations": [
-        "-19.37,-0.93,-17.26"
+        "-19.37,-0.93,-17.26",
+        "-30.00,2.01,-1.58"
       ]
     }
   ]

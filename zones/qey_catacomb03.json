@@ -33,6 +33,7 @@
     {
       "name": "an agonized essence",
       "name_sortable": "agonizedessence",
+      "level": 25,
       "locations": [
         "-3.97,0.66,-72.55",
         "0.53,-0.09,-77.84",
@@ -42,7 +43,12 @@
         "-3.06,0.66,-114.12",
         "8.81,-0.09,-122.04",
         "26.53,-0.09,-123.23",
-        "17.85,0.66,-116.50"
+        "17.85,0.66,-116.50",
+        "-10.70,-0.09,-65.83",
+        "1.95,-0.09,-84.63",
+        "-10.09,-0.09,-110.44",
+        "-12.73,-0.09,-123.22",
+        "15.50,0.66,-110.82"
       ],
       "utterances": [
         "To the grave with you!",
@@ -50,7 +56,10 @@
         "As I rise from the grave,  you will now take my place!",
         "I'm shattered and broken.",
         "Your eyes are so pretty.",
-        "I didn't need those bones anyway."
+        "I didn't need those bones anyway.",
+        "Your blood calls to me.",
+        "Seek death and it finds you.",
+        "Final death comes at last."
       ],
       "drops": [
         {
@@ -59,6 +68,14 @@
         },
         {
           "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
           "chest": false
         }
       ]
@@ -80,7 +97,8 @@
       "level": 22,
       "locations": [
         "159.89,11.31,-209.78",
-        "148.63,9.47,-202.97"
+        "148.63,9.47,-202.97",
+        "127.13,6.33,-147.40"
       ]
     },
     {
@@ -88,6 +106,10 @@
       "name_sortable": "archaicfury",
       "level": 23,
       "difficulty": "heroic^^^",
+      "locations": [
+        "108.48,6.82,6.75",
+        "122.37,6.87,-79.09"
+      ],
       "drop_coin_min": 146,
       "drop_coin_max": 146
     },
@@ -103,7 +125,8 @@
         "21.37,-0.14,-163.63",
         "47.72,-4.16,-139.02",
         "49.81,-4.16,-182.92",
-        "-30.39,-0.80,-181.00"
+        "-30.39,-0.80,-181.00",
+        "14.94,-0.16,-161.11"
       ],
       "utterances": [
         "Look what strolled into the spider's web!",
@@ -135,14 +158,16 @@
         "33.92,-0.16,-160.61",
         "40.62,-0.16,-155.56",
         "51.87,-0.15,-168.28",
-        "0.81,-0.21,-146.42"
+        "0.81,-0.21,-146.42",
+        "44.92,-4.16,-139.96"
       ],
       "utterances": [
         "Who are you?",
         "If they report back to the city, we're finished!",
         "Don't waste any time.  Kill them!",
         "You may escape, but we will find you!",
-        "There's nothing you can do to make me defy the Lord!"
+        "There's nothing you can do to make me defy the Lord!",
+        "There is no escape for you now!"
       ],
       "drops": [
         {
@@ -165,7 +190,9 @@
         "21.35,-0.12,-159.10",
         "53.40,-0.16,-168.30",
         "46.77,-4.16,-184.21",
-        "-32.00,-0.30,-184.00"
+        "-32.00,-0.30,-184.00",
+        "13.94,-0.16,-161.11",
+        "47.80,-4.16,-139.02"
       ],
       "utterances": [
         "More intruders to deal with?  Stop them!",
@@ -191,6 +218,10 @@
         {
           "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
         }
       ]
     },
@@ -202,14 +233,19 @@
         "2.79,6.93,-17.84",
         "-13.25,-0.15,-36.10",
         "5.57,-0.05,-9.21",
-        "19.35,-0.02,3.04"
+        "19.35,-0.02,3.04",
+        "7.21,0.86,8.78",
+        "8.62,-0.05,-3.35"
       ],
       "utterances": [
         "I hope you put your affairs in order.",
         "There is no escape for you now!",
         "Who are you?",
         "More intruders to deal with?  Stop them!",
-        "There's nothing you can do to make me defy the Lord!"
+        "There's nothing you can do to make me defy the Lord!",
+        "Look what strolled into the spider's web!",
+        "We need help!  I can't hold them.",
+        "Don't waste any time.  Kill them!"
       ],
       "drops": [
         {
@@ -219,6 +255,10 @@
         {
           "gamelink": "\\aITEM -1376104843 2106154336:a sullied illegible note\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
         }
       ]
     },
@@ -231,7 +271,14 @@
         "44.47,-1.15,-163.65",
         "52.64,-4.16,-142.62",
         "60.30,-4.16,-167.68",
-        "53.75,-4.16,-178.51"
+        "53.75,-4.16,-178.51",
+        "66.37,-4.16,-156.77"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -898368698 -1285985171:strange dark powder\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -244,7 +291,10 @@
         "17.63,-0.08,-2.65",
         "6.11,-0.05,-11.51",
         "15.96,-0.08,-46.79",
-        "-2.22,6.87,-18.63"
+        "-2.22,6.87,-18.63",
+        "2.89,6.87,-19.82",
+        "8.62,-0.05,-3.35",
+        "9.53,0.57,7.71"
       ],
       "utterances": [
         "We may die, but I won't let them all escape!",
@@ -254,7 +304,9 @@
         "If they report back to the city, we're finished!",
         "I hope you put your affairs in order.",
         "Who are you?",
-        "Don't waste any time.  Kill them!"
+        "Don't waste any time.  Kill them!",
+        "I have no time for meddlers.  Destroy them!",
+        "Welcome to torment and destruction!"
       ],
       "drops": [
         {
@@ -268,6 +320,10 @@
         {
           "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 112,
@@ -280,12 +336,27 @@
       "locations": [
         "19.25,-0.08,-2.69",
         "5.86,-0.05,-7.31",
-        "-7.99,5.51,-4.22"
+        "-7.99,5.51,-4.22",
+        "1.54,6.92,-17.53",
+        "-7.11,-0.13,-32.28",
+        "-14.31,-0.13,-37.22",
+        "19.35,-0.02,3.04"
       ],
       "utterances": [
         "Stand your ground!  You're just as dead if you leave.",
         "More intruders to deal with?  Stop them!",
-        "Hold them and I'll return with help!"
+        "Hold them and I'll return with help!",
+        "Who are you?",
+        "Welcome to torment and destruction!",
+        "Look what strolled into the spider's web!",
+        "How dare you strike me!",
+        "I hope you put your affairs in order."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -350,7 +421,8 @@
         "Oh ... no. They're not the same at all. There's the common deathly scarab, and then there's another type. Looks almost exactly the same, but its chemical composition is radically different. And that means...",
         "...Ka-BOOM! Exactly! Hmm, you know? There's a reason these other deathly scarabs are showing up more frequently down here. I bet the ones we need are back protecting the Queen in her lair.",
         "That would make things much safer around here. I mean, one wrong component in this potion, and well ... it wouldn't be pretty. Since these look-alike deadly scarabs are here in the catacombs, I assume the ones I need are in their nest.",
-        "Every bug nest has its queen. If you destroy their queen, the number of abnormal deadly scarabs will reduce to nothing. Here, take this key and enter the doorway at the top of the staircase. The tunnels will lead to her chambers."
+        "Every bug nest has its queen. If you destroy their queen, the number of abnormal deadly scarabs will reduce to nothing. Here, take this key and enter the doorway at the top of the staircase. The tunnels will lead to her chambers.",
+        "This potion is great! Thank you for helping me!"
       ]
     },
     {
@@ -371,7 +443,9 @@
         "72.31,-0.07,-32.70",
         "94.11,5.48,-25.33",
         "13.70,6.14,-44.16",
-        "-15.33,6.99,-24.66"
+        "-15.33,6.99,-24.66",
+        "73.07,0.40,-38.48",
+        "94.13,4.69,-31.27"
       ],
       "utterances": [
         "This Victory was stolen with dishonor!",
@@ -493,7 +567,13 @@
         "112.12,7.00,-120.27",
         "131.75,7.00,-91.73",
         "123.54,7.00,-97.72",
-        "130.70,7.00,-120.11"
+        "130.70,7.00,-120.11",
+        "119.34,6.83,-69.66",
+        "114.97,7.00,-96.44",
+        "132.90,7.00,-113.12",
+        "129.67,6.11,-145.88",
+        "127.48,6.66,-153.39",
+        "149.95,6.94,-128.46"
       ],
       "drops": [
         {
@@ -503,10 +583,23 @@
         {
           "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 137,
       "drop_coin_max": 137
+    },
+    {
+      "name": "Draemeth the Bleak",
+      "name_sortable": "draemeththebleak",
+      "level": 25,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-4.09,0.66,-89.83"
+      ]
     },
     {
       "name": "Faylia the Dark",
@@ -603,7 +696,8 @@
         "171.00,6.88,-154.00",
         "51.11,-0.17,-14.41",
         "30.64,-0.17,-41.58",
-        "0.87,-0.05,-188.10"
+        "0.87,-0.05,-188.10",
+        "169.80,6.87,-148.90"
       ],
       "utterances": [
         "You stoked the wrong flames!",
@@ -620,6 +714,52 @@
       ]
     },
     {
+      "name": "Irisor the Insane",
+      "name_sortable": "irisortheinsane",
+      "level": 25,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "83.67,6.84,-71.59"
+      ],
+      "utterances": [
+        "Nooo, you cannot hear their songs!  Get away from here or die!"
+      ]
+    },
+    {
+      "name": "Misery",
+      "name_sortable": "misery",
+      "level": 26,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "70.57,-4.16,-161.16"
+      ],
+      "utterances": [
+        "Your anguish will not suffice, you must die!",
+        "There is no sadness for the fallen."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -612798970 943460484:a decomposing zombie organ\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Redgar the Rotten",
+      "name_sortable": "redgartherotten",
+      "level": 23,
+      "locations": [
+        "113.46,7.00,-128.12",
+        "133.27,7.00,-87.22"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "a restless corpse",
       "name_sortable": "restlesscorpse",
       "level": 22,
@@ -629,11 +769,35 @@
         "150.91,6.76,-138.28",
         "114.75,7.00,-128.55",
         "124.67,7.00,-99.04",
-        "131.24,7.0,-86.13"
+        "131.24,7.0,-86.13",
+        "145.97,6.96,-70.75",
+        "119.31,6.88,-73.51",
+        "117.14,7.00,-86.81",
+        "126.77,7.00,-126.15",
+        "129.83,7.00,-118.37",
+        "114.00,7.00,-100.04",
+        "132.86,7.00,-126.28",
+        "124.55,7.00,-114.72"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
           "chest": false
         }
       ]
@@ -686,6 +850,7 @@
     {
       "name": "a tortured essence",
       "name_sortable": "torturedessence",
+      "level": 25,
       "locations": [
         "151.27,6.99,-41.83",
         "157.22,6.99,-45.84",
@@ -698,7 +863,8 @@
         "147.26,6.99,15.70",
         "136.96,6.99,17.17",
         "120.19,6.99,12.66",
-        "124.74,6.99,6.69"
+        "124.74,6.99,6.69",
+        "-3.12,0.66,-92.22"
       ],
       "utterances": [
         "Brains! It's what's for dinner.",
@@ -715,6 +881,10 @@
       "drops": [
         {
           "gamelink": "\\aITEM -658420854 385425044:ancient copper coin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
           "chest": false
         }
       ],

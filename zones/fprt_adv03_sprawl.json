@@ -24,18 +24,168 @@
     {
       "name": "Arcanist Tikkeri",
       "name_sortable": "arcanisttikkeri",
+      "locations": [
+        "35.12,2.26,104.81"
+      ],
       "utterances": [
         "We will strike when they least expect it!",
         "Why do you approach me, outsider? You could never understand the ways of the Black Magi. Move along.",
         "That would be telling. We want... information. If you have nothing of value, you are useless to me.",
         "You speak of this currency, yet give no indication of its worth. Tell me what you know, and I will judge you fairly.",
         "The Wheel? You know of the Wheel? Tell me what you know! The Marked must obtain this information. By hook or by crook, we will!",
-        "Crafty outsider. If you truly knew of the Wheel, you would not ask such a question. Begone, and trouble me no more."
+        "Crafty outsider. If you truly knew of the Wheel, you would not ask such a question. Begone, and trouble me no more.",
+        "Soon the Black Magi will control all of the Sprawl!",
+        "Our plan is sound, yes. It cannot fail."
+      ]
+    },
+    {
+      "name": "a Black Magi anarchist",
+      "name_sortable": "blackmagianarchist",
+      "level": 11,
+      "difficulty": "heroic",
+      "locations": [
+        "-5.12,-2.67,20.60",
+        "4.40,-2.67,37.38",
+        "-2.16,-2.52,26.63",
+        "-0.64,-0.64,80.43",
+        "19.39,3.33,82.11",
+        "26.04,2.13,88.87",
+        "63.33,2.24,84.38",
+        "65.01,2.22,76.98",
+        "64.06,2.25,68.36",
+        "58.03,2.25,71.80",
+        "36.08,2.13,70.36",
+        "49.54,2.22,100.27"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 16,
+      "drop_coin_max": 256,
+      "faction_changes": [
+        {
+          "name": "The Marked",
+          "name_sortable": "marked",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Black Magi dissident",
+      "name_sortable": "blackmagidissident",
+      "level": 11,
+      "locations": [
+        "1.31,-2.67,34.29",
+        "6.49,-2.67,33.92",
+        "-3.07,-2.67,28.82",
+        "-22.39,-2.63,50.20",
+        "18.34,2.13,70.16",
+        "67.64,2.34,75.13",
+        "-36.73,-2.67,98.01",
+        "46.17,2.30,100.06",
+        "44.26,2.30,106.53"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 22,
+      "drop_coin_max": 32,
+      "faction_changes": [
+        {
+          "name": "The Marked",
+          "name_sortable": "marked",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Black Magi fanatic",
+      "name_sortable": "blackmagifanatic",
+      "level": 10,
+      "locations": [
+        "-14.74,-2.52,31.46",
+        "-29.45,-2.67,48.07",
+        "26.24,2.17,84.11",
+        "49.54,2.22,100.27",
+        "58.41,2.64,68.83"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Marked",
+          "name_sortable": "marked",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Black Magi guard",
+      "name_sortable": "blackmagiguard",
+      "level": 11,
+      "locations": [
+        "64.99,2.13,90.53"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Marked",
+          "name_sortable": "marked",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Black Magi insurgent",
+      "name_sortable": "blackmagiinsurgent",
+      "level": 11,
+      "difficulty": "heroic",
+      "locations": [
+        "-5.92,-2.66,13.32",
+        "-6.94,-2.67,22.40",
+        "-5.22,-2.60,57.72",
+        "-0.36,-0.94,76.32",
+        "28.64,2.27,92.81",
+        "43.74,2.30,110.23",
+        "69.06,2.25,78.39",
+        "65.82,2.25,70.48",
+        "45.45,2.23,67.92",
+        "63.33,2.24,84.38"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 26,
+      "drop_coin_max": 26,
+      "faction_changes": [
+        {
+          "name": "The Marked",
+          "name_sortable": "marked",
+          "value": -100
+        }
       ]
     },
     {
       "name": "Brutemaster Tarden",
       "name_sortable": "brutemastertarden",
+      "purpose": "Dreadnaught",
+      "locations": [
+        "-45.86,-4.28,-41.49",
+        "-21.56,-2.61,-51.31",
+        "-11.42,-2.51,-53.89"
+      ],
       "utterances": [
         "Who owns the Sprawl?  WE own the Sprawl!",
         "No one from the Militia can boss us around!",
@@ -54,8 +204,37 @@
       ]
     },
     {
+      "name": "a  captured dwarf agitator",
+      "name_sortable": "captureddwarfagitator",
+      "level": 8,
+      "locations": [
+        "62.52,2.47,96.21"
+      ]
+    },
+    {
+      "name": "a captured halfling upstart",
+      "name_sortable": "capturedhalflingupstart",
+      "level": 8,
+      "locations": [
+        "64.13,2.47,98.64"
+      ]
+    },
+    {
+      "name": "a captured wood elf scout",
+      "name_sortable": "capturedwoodelfscout",
+      "level": 8,
+      "locations": [
+        "66.91,2.43,98.00"
+      ],
+      "drop_coin_min": 9,
+      "drop_coin_max": 9
+    },
+    {
       "name": "Crispin Luvinius",
       "name_sortable": "crispinluvinius",
+      "locations": [
+        "-83.18,-4.42,-51.2"
+      ],
       "utterances": [
         "Do you have a problem? You're gonna have one soon if you don't keep walking.",
         "I knew you'd take care of 'em! Good show! Oh, and here's a bit-o-coin for all your hard work. Heh, heh.",
@@ -71,7 +250,20 @@
     {
       "name": "a Dervish crook",
       "name_sortable": "dervishcrook",
-      "drop_coin_min": 47,
+      "level": 9,
+      "locations": [
+        "-73.43,-4.23,90.98",
+        "-67.35,-4.42,84.55",
+        "-77.63,-4.42,116.66",
+        "-90.74,-4.24,107.86",
+        "-88.72,-4.41,101.92",
+        "-97.07,-4.30,124.54",
+        "-113.17,-4.22,110.83",
+        "-111.59,-4.41,119.06",
+        "-121.31,-4.30,116.09",
+        "-121.82,-4.23,123.20"
+      ],
+      "drop_coin_min": 4,
       "drop_coin_max": 47,
       "faction_changes": [
         {
@@ -89,6 +281,18 @@
     {
       "name": "a Dervish hoodlum",
       "name_sortable": "dervishhoodlum",
+      "level": 7,
+      "locations": [
+        "-63.01,-4.42,90.62",
+        "-64.65,-4.42,79.24",
+        "-68.77,-4.42,60.31",
+        "-80.51,-4.24,59.25",
+        "-87.39,-4.08,69.36",
+        "-102.05,-3.99,59.20",
+        "-66.70,-4.26,42.42",
+        "-88.23,-4.24,46.56",
+        "-87.66,-4.35,40.84"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 483754019 -176619963:bloodstained bat fang\\/a",
@@ -97,6 +301,10 @@
         {
           "gamelink": "\\aITEM -693205793 -1139182362:guttersnipe great axe\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1621503125 -1275295656:black stone\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 5,
@@ -117,12 +325,80 @@
     {
       "name": "a Dervish hooligan",
       "name_sortable": "dervishhooligan",
+      "level": 5,
+      "locations": [
+        "-93.87,-4.42,32.95",
+        "-75.26,-4.42,31.29",
+        "-85.76,-4.24,18.30",
+        "-73.36,-4.41,12.05",
+        "-92.64,-4.31,11.32",
+        "-104.50,-4.30,9.46",
+        "-98.83,-4.30,17.89",
+        "-102.49,-4.13,-3.53",
+        "-93.57,-4.49,-10.30",
+        "-82.86,-5.11,-15.48",
+        "-77.55,-5.26,-11.04"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1399953986 1780527766:black spider silk\\/a",
+          "chest": false
+        }
+      ],
       "drop_coin_min": 5,
-      "drop_coin_max": 5
+      "drop_coin_max": 10,
+      "faction_changes": [
+        {
+          "name": "The Dervish Cutthroats",
+          "name_sortable": "dervishcutthroats",
+          "value": -100
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a distraught farmer",
+      "name_sortable": "distraughtfarmer",
+      "locations": [
+        "-2.46,-2.35,-47.59"
+      ],
+      "utterances": [
+        "They defile my land and steal my crops!",
+        "They may be bad, but the walking rats are worse...",
+        "Please brave one, drive them away!"
+      ]
+    },
+    {
+      "name": "a dune scorpion",
+      "name_sortable": "dunescorpion",
+      "level": 4,
+      "locations": [
+        "-74.71,-5.31,-32.75",
+        "-64.77,-5.17,-32.16",
+        "-69.16,-4.75,-39.33"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1024256564 -1967900500:a scorpion stinger\\/a",
+          "chest": false
+        }
+      ]
     },
     {
       "name": "Enforcer Kurdek",
       "name_sortable": "enforcerkurdek",
+      "purpose": "Dreadnaught",
+      "locations": [
+        "-83.78,-4.68,-36.07"
+      ],
       "utterances": [
         "Every gang in Freeport will work for us!",
         "The Dreadnaughts control the streets!",
@@ -178,6 +454,10 @@
     {
       "name": "Gatekeeper Malora",
       "name_sortable": "gatekeepermalora",
+      "purpose": "Freeport Militia",
+      "locations": [
+        "24.58,-2.67,22.69"
+      ],
       "utterances": [
         "Beyond this gate lies a warzone! Beware!",
         "Danger lies ahead! Beware!",
@@ -185,8 +465,24 @@
       ]
     },
     {
+      "name": "Gatekeeper Malren",
+      "name_sortable": "gatekeepermalren",
+      "purpose": "Freeport Militia",
+      "locations": [
+        "-131.63,-4.27,94.26"
+      ]
+    },
+    {
       "name": "a Giantslayer thug",
       "name_sortable": "giantslayerthug",
+      "level": 9,
+      "locations": [
+        "-18.06,-2.67,-22.14",
+        "-21.27,-2.32,-17.12",
+        "-31.25,-2.51,-5.87",
+        "-29.03,-2.43,3.68",
+        "-5.39,-2.67,6.00"
+      ],
       "utterances": [
         "Work, work, work... Those Dreadnaughts are slavedrivers, I tell ya!"
       ],
@@ -211,42 +507,371 @@
         },
         {
           "name": "The Dreadnaughts",
-          "name_sortable": "dreadnaughts",
+          "name_sortable": "Dreadnaught",
           "value": -100
         }
       ]
     },
     {
       "name": "Gloomstalker",
-      "name_sortable": "gloomstalker"
+      "name_sortable": "gloomstalker",
+      "level": 11,
+      "locations": [
+        "-15.81,-2.53,12.49",
+        "-9.59,-2.67,-17.95",
+        "3.47,-2.67,-18.99",
+        "18.18,-2.65,-10.85",
+        "40.15,-2.63,-25.14",
+        "45.33,-2.56,-41.37",
+        "32.81,-2.66,-52.18",
+        "-21.02,-2.51,-53.42",
+        "-42.68,-4.35,-40.69",
+        "-56.59,-4.28,-33.57",
+        "-56.43,-4.52,-13.5",
+        "-56.26,-2.63,8.7",
+        "-43.81,-2.59,19.39",
+        "-34.26,-2.67,24.97",
+        "-23.82,-2.61,37.42",
+        "-23.14,-2.67,46.86",
+        "-38.47,-2.66,59.74",
+        "-43.96,-2.67,71.62",
+        "-42.94,-2.63,83.93",
+        "-34.47,-2.56,90.29",
+        "-17.89,-2.05,83.32",
+        "-10.73,-1.51,79.24",
+        "-6.85,-2.59,61.8",
+        "-24.1,-2.53,25.17",
+        "-12.92,-2.53,4.75"
+      ]
+    },
+    {
+      "name": "a gravel viper",
+      "name_sortable": "gravelviper",
+      "level": 7,
+      "locations": [
+        "-63.71,-4.42,77.96",
+        "-73.49,-4.42,75.75",
+        "-76.49,-4.42,50.89",
+        "-90.15,-4.26,33.26",
+        "-95.32,-4.42,31.44",
+        "-85.00,-4.24,31.46"
+      ]
+    },
+    {
+      "name": "Liege Aquila",
+      "name_sortable": "liegeaquila",
+      "locations": [
+        "-124.76,-4.42,88.9"
+      ]
     },
     {
       "name": "Loria",
       "name_sortable": "loria",
+      "purpose": "Provisions",
+      "locations": [
+        "-96.05,-4.3,-62.73"
+      ],
       "utterances": [
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
-        "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor, are you?"
+        "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor, are you?",
+        "The stuff's over there.  Just let me know if you find anything you like."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1618656513 -631993083:Antonia Ale (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 180
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 502648298 -366828437:canteen of pond water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 38
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1281187795 -495418410:Dwarven Ale (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 900
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -692542167 450719094:Elven Wine (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1080
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 19
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1608751314 -1346962995:Gnomish Spirits (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1260
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1424677497 801220853:Lucan's Lager (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 180
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1199073772 520539661:Oggok Swill (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1383852152 -1014417461:Teir'dal Blood Wine (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1620
+            }
+          ]
+        }
       ]
     },
     {
       "name": "L`Unt",
       "name_sortable": "lunt",
+      "purpose": "Guard",
+      "locations": [
+        "-97.94,-6.81,-31.49"
+      ],
       "utterances": [
         "This way is closed by order of the Overlord! ",
         "Turn around, this way is closed by order of the Overlord."
       ]
     },
     {
+      "name": "Niklaus Kauppen",
+      "name_sortable": "niklauskauppen",
+      "level": 8,
+      "locations": [
+        "-97.93,-3.95,65.16"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Dervish Cutthroats",
+          "name_sortable": "dervishcutthroats",
+          "value": -100
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a rioting basher",
+      "name_sortable": "riotingbasher",
+      "purpose": "Dreadnaught",
+      "locations": [
+        "-11.51,-2.6,-49.83",
+        "-13.2,-2.64,-59.47"
+      ],
+      "utterances": [
+        "I've had it with the Militia.  The Dreadnaughts have more respect than this."
+      ]
+    },
+    {
+      "name": "a rioting brute",
+      "name_sortable": "riotingbrute",
+      "purpose": "Dreadnaught",
+      "locations": [
+        "7.51,-2.67,-42.83",
+        "10.72,-2.67,-53.47",
+        "20.01,-2.61,-49.94",
+        "34.28,-2.44,-53.61",
+        "50.46,-2.12,-43.43",
+        "38.76,-2.67,-38.64",
+        "38.96,-2.36,-27.45",
+        "14.98,-2.6,-13.6"
+      ],
+      "utterances": [
+        "The Militia have gone too far this time!",
+        "The Militia beat my brother bloody.  It's payback time.",
+        "We should storm the Militia house, when Hazran least expects it.",
+        "We've got to teach those Militia scum a lesson."
+      ]
+    },
+    {
+      "name": "a rioting thug",
+      "name_sortable": "riotingthug",
+      "purpose": "Dreadnaught",
+      "locations": [
+        "38.96,-2.36,-27.45",
+        "41.83,-2.53,-5.5",
+        "22.98,-2.33,-5.96",
+        "-7.11,-2.37,-20.95"
+      ]
+    },
+    {
       "name": "Sasha",
       "name_sortable": "sasha",
+      "purpose": "Alchemist",
       "utterances": [
         "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor, are you?",
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 2037451968 -1554449979 0 0 0:Acidic Goo\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2084246562 -626331382 0 0 0:Acidic Massage\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1134242107 -1996491909 0 0 0:Anti-Venin\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 72
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -690121607 1202074247 0 0 0:Blight of the Eventide\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 398705441 134851183 0 0 0:Caress of the Phantom\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1021041208 -1438464221 0 0 0:Crypt Sludge\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -278086179 1135729178 0 0 0:Elemental Ointment\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 72
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -708906406 -399850333 0 0 0:Enigmatic Formula\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 72
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 621368354 1922001657 0 0 0:Gust of Insight\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 72
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1570285900 1124058293 0 0 0:Remedy of the Field\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 72
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -763453791 -1701345003 0 0 0:Salve\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 72
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -182855303 1419465232 0 0 0:softly glowing pearl\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 18000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "a shoreside asp",
+      "name_sortable": "shoresideasp",
+      "level": 4,
+      "locations": [
+        "-71.67,-5.30,-32.13",
+        "-72.68,-5.31,-25.72",
+        "-49.18,-4.35,-30.41"
       ]
     },
     {
       "name": "Talmudius",
       "name_sortable": "talmudius",
+      "purpose": "Guard",
+      "locations": [
+        "-100.09,-4.28,-51.98"
+      ],
       "utterances": [
         "This way is closed by order of the Overlord! ",
         "Turn around, this way is closed by order of the Overlord."
@@ -255,6 +880,10 @@
     {
       "name": "Trainer Durbok",
       "name_sortable": "trainerdurbok",
+      "purpose": "Dreadnaught",
+      "locations": [
+        "-23.99,-2.67,-12.3"
+      ],
       "utterances": [
         "Tarden's laziness has been rubbing off on you Giantslayers!",
         "Hey! Can't you see I'm busy training these recruits how to fight?",
@@ -264,14 +893,31 @@
         "I recommend that we strike a little fear into Tarden so that he remembers who's really in charge around here. Tell Enforcer Kurdek that it's time to teach that lazy Giantslayer a lesson he won't soon forget.",
         "Dominate your enemies through force!",
         "Ah, you again. What brings you back to this part of the Sprawl?",
-        "Aye, some of the rival gangs are interfering with my ability to train the Giantslayers. I'd pay you well if you would get rid of some of them for me."
+        "Aye, some of the rival gangs are interfering with my ability to train the Giantslayers. I'd pay you well if you would get rid of some of them for me.",
+        "That's right, bob and weave."
       ]
     },
     {
       "name": "a wild dog",
       "name_sortable": "wilddog",
+      "level": 8,
       "locations": [
-        "1.14,-2.67,18.73"
+        "1.14,-2.67,18.73",
+        "-8.67,-2.67,-5.90",
+        "-2.09,-2.67,3.90",
+        "-25.97,-2.55,30.26",
+        "-23.47,-2.67,46.31",
+        "23.57,2.26,75.96",
+        "50.30,2.26,86.02",
+        "-23.99,-2.60,88.00",
+        "-38.45,-2.62,83.91",
+        "44.59,2.26,92.95"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1402163711 -869818169:canine incisor\\/a",
+          "chest": false
+        }
       ]
     }
   ],
@@ -279,7 +925,8 @@
     {
       "gamelink": "\\aITEM 732206996 486779589:eagle feather\\/a",
       "locations": [
-        "-68.03,-5.00,-24.83"
+        "-68.03,-5.00,-24.83",
+        "-55.43,-4.00,-25.83"
       ]
     },
     {
@@ -344,6 +991,30 @@
     },
     {
       "gamelink": "\\aITEM 666527502 842875039:striped black moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 2066139239 418255418:hawk feather\\/a",
+      "locations": [
+        "-60.68,-4.00,-20.83"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 164202245 -601729183:chipped shard of divination\\/a",
+      "locations": [
+        "-60.38,-3.00,80.60"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1497650870 -1065330247:striped tan moth\\/a",
+      "locations": [
+        "-69.01,-4.00,67.48"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 723338470 896860375:sparrow feather\\/a",
+      "locations": [
+        "-51.23,-4.00,-38.83"
+      ]
     }
   ],
   "resourceNodes": [
@@ -354,6 +1025,14 @@
     {
       "name": "the dusty ore",
       "name_sortable": "dustyore"
+    },
+    {
+      "name": "the excavated stone",
+      "name_sortable": "excavatedstone"
+    },
+    {
+      "name": "the felled arbor",
+      "name_sortable": "felledarbor"
     },
     {
       "name": "the ravaged natural garden",

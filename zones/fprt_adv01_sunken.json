@@ -10,12 +10,34 @@
   ],
   "npcs": [
     {
+      "name": "a Blackshield marauder",
+      "name_sortable": "blackshieldmarauder",
+      "level": 10,
+      "locations": [
+        "37.28,1.16,-6.02",
+        "57.97,1.26,-42.72",
+        "40.93,1.04,32.06"
+      ],
+      "utterances": [
+        "Fall back, order a tactical retreat!",
+        "Hold them and I'll return with help!"
+      ]
+    },
+    {
       "name": "a Blackshield pillager",
       "name_sortable": "blackshieldpillager",
+      "level": 10,
+      "locations": [
+        "38.47,1.02,-18.77",
+        "88.00,1.02,-48.23",
+        "40.70,1.02,34.13"
+      ],
       "utterances": [
         "There is no escape for you now!",
         "I have no time for meddlers.  Destroy them!",
-        "Fall back, order a tactical retreat!"
+        "Fall back, order a tactical retreat!",
+        "No matter what I promise, you will not survive!",
+        "Hold them and I'll return with help!"
       ],
       "drop_coin_min": 36,
       "drop_coin_max": 36
@@ -23,20 +45,40 @@
     {
       "name": "a Blackshield pirate",
       "name_sortable": "blackshieldpirate",
+      "level": 10,
+      "locations": [
+        "40.27,1.57,-3.32",
+        "73.46,2.35,-32.99"
+      ],
       "utterances": [
         "What smells so good?",
         "I'll take their share.",
-        "I'll rend you limb from limb."
+        "I'll rend you limb from limb.",
+        "Come back you coward! I'm not dead yet."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
+          "chest": false
+        }
       ]
     },
     {
       "name": "a Blackshield plunderer",
       "name_sortable": "blackshieldplunderer",
+      "level": 10,
+      "locations": [
+        "39.47,1.55,-5.71",
+        "59.00,1.02,-46.00",
+        "85.57,1.88,-6.00"
+      ],
       "utterances": [
         "Here they come!",
         "Enemies approach. Kill them all!",
         "You'll pay for that!",
-        "Alert the commander that intruders are here!"
+        "Alert the commander that intruders are here!",
+        "Do not surrender to the invaders!",
+        "Combat withdrawal! Follow me!"
       ],
       "drops": [
         {
@@ -48,16 +90,28 @@
     {
       "name": "a Blackshield raider",
       "name_sortable": "blackshieldraider",
+      "level": 10,
+      "locations": [
+        "106.18,1.88,24.00",
+        "73.49,2.33,-36.47"
+      ],
       "utterances": [
         "I'm gonna give you a smile like ol' one tooth!",
         "I'll rend you limb from limb.",
         "Feel kinda sleepy. Whacha do to me?",
-        "That'll grow back."
+        "That'll grow back.",
+        "I'll take their share.",
+        "Not nice to interrupt dinner."
       ]
     },
     {
       "name": "a Blackshield ravager",
       "name_sortable": "blackshieldravager",
+      "level": 10,
+      "locations": [
+        "65.00,1.05,0.93",
+        "87.67,1.02,-50.00"
+      ],
       "utterances": [
         "Here they come!",
         "Do not surrender to the invaders!",
@@ -65,7 +119,8 @@
         "Now I'm really angry!",
         "Combat withdrawal! Follow me!",
         "Feel the might of Rallos!",
-        "Agggggh!  There is no pain only death and failure!"
+        "Agggggh!  There is no pain only death and failure!",
+        "Fall back and regroup.  The enemy has the upper hand!"
       ],
       "drops": [
         {
@@ -75,8 +130,54 @@
       ]
     },
     {
+      "name": "Bouncer Ugbar",
+      "name_sortable": "bouncerugbar",
+      "locations": [
+        "57.00,1.02,-45.00"
+      ]
+    },
+    {
       "name": "a brine sifter",
       "name_sortable": "brinesifter",
+      "level": 4,
+      "locations": [
+        "-0.57,-0.24,-64.44",
+        "-8.05,-0.47,-53.25",
+        "-9.38,-0.37,-10.29",
+        "-46.15,-0.57,32.47",
+        "-24.84,-0.57,22.68",
+        "-30.78,-0.56,37.79",
+        "-55.19,-0.60,-42.63",
+        "-55.14,-0.57,-67.40",
+        "-67.69,-0.51,-72.79",
+        "-73.26,-0.58,-40.09",
+        "-74.51,-0.60,-47.59",
+        "-70.16,-0.34,-2.23",
+        "-88.86,-0.46,-5.71",
+        "-87.44,-0.11,7.60",
+        "-84.23,-0.23,20.95",
+        "-41.32,-0.46,23.61"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -97902171 1945672283:crab meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1553699289 -57499566:a crab claw\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a bulky brine sifter",
+      "name_sortable": "bulkybrinesifter",
+      "level": 5,
+      "locations": [
+        "3.43,0.05,-61.44",
+        "-40.97,-0.18,-1.35",
+        "-81.87,-0.30,9.00"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -97902171 1945672283:crab meat\\/a",
@@ -85,21 +186,40 @@
       ]
     },
     {
+      "name": "Captain Deaythan",
+      "name_sortable": "captaindeaythan",
+      "locations": [
+        "-85.41,-0.50,-57.41"
+      ]
+    },
+    {
       "name": "a cursed corpsman",
       "name_sortable": "cursedcorpsman",
+      "locations": [
+        "-83.01,-0.52,-46.46"
+      ],
       "utterances": [
-        "Brains! It's what's for dinner."
+        "Brains! It's what's for dinner.",
+        "That pile of bones was my friend!"
       ]
     },
     {
       "name": "a cursed cutthroat",
       "name_sortable": "cursedcutthroat",
+      "locations": [
+        "-31.32,-0.50,-72.96",
+        "-76.83,-0.58,-62.65",
+        "-81.22,-0.59,-39.14"
+      ],
       "utterances": [
         "To the grave with you!",
         "Seek death and it finds you.",
         "Dying didn't feel good the first time.",
         "Your eyes are so pretty.",
-        "As I rise from the grave,  you will now take my place!"
+        "As I rise from the grave,  you will now take my place!",
+        "Final death comes at last.",
+        "That pile of bones was my friend!",
+        "You cannot eliminate us!"
       ],
       "drops": [
         {
@@ -111,13 +231,29 @@
       "drop_coin_max": 8
     },
     {
+      "name": "a cursed Darkfathom",
+      "name_sortable": "curseddarkfathom",
+      "locations": [
+        "0.34,-0.16,-65.58",
+        "0.91,-0.35,-43.06"
+      ]
+    },
+    {
       "name": "a cursed scout",
       "name_sortable": "cursedscout",
+      "locations": [
+        "-57.54,-0.66,-58.52",
+        "-83.35,-0.49,-74.72",
+        "-84.05,-0.51,-58.75",
+        "-70.50,-0.57,-23.78"
+      ],
       "utterances": [
         "To the grave with you!",
         "As I rise from the grave,  you will now take my place!",
         "Seek death and it finds you.",
-        "Brains! It's what's for dinner."
+        "Brains! It's what's for dinner.",
+        "You cannot eliminate us!",
+        "Rest in peace."
       ],
       "drops": [
         {
@@ -133,18 +269,122 @@
       "drop_coin_max": 8
     },
     {
+      "name": "a decaying Darkfathom",
+      "name_sortable": "decayingdarkfathom",
+      "locations": [
+        "10.95,-0.64,-29.25",
+        "14.72,0.06,-50.67",
+        "8.64,0.19,-59.98",
+        "1.43,-0.05,-68.44",
+        "1.22,-0.08,-74.23",
+        "14.97,0.27,-69.68",
+        "-16.89,-0.70,-69.36",
+        "-16.13,-0.60,-58.21",
+        "0.95,-0.26,-51.25",
+        "-5.05,-0.46,-43.25",
+        "-14.44,-0.51,-39.56",
+        "-10.23,-0.47,-28.92",
+        "-6.42,-0.43,-53.12"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a drowned citizen",
+      "name_sortable": "drownedcitizen",
+      "level": 7,
+      "locations": [
+        "-10.02,-0.38,-3.45",
+        "-25.36,-0.58,7.30",
+        "-44.16,-0.60,5.63",
+        "-58.39,-0.58,-16.56",
+        "-55.91,-0.58,-34.76",
+        "-28.89,-0.58,-30.03",
+        "-24.83,-0.58,-11.61"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a drowned squatter",
+      "name_sortable": "drownedsquatter",
+      "level": 4,
+      "locations": [
+        "-50.76,-0.55,16.48",
+        "-26.19,-0.54,26.90"
+      ]
+    },
+    {
+      "name": "a dusk shark",
+      "name_sortable": "duskshark",
+      "level": 6,
+      "locations": [
+        "-48.93,-8.00,61.69",
+        "-56.73,-7.07,62.52",
+        "-54.81,-7.17,69.42",
+        "-72.26,-8.16,70.34",
+        "-80.09,-10.17,73.43",
+        "-75.90,-6.78,56.64",
+        "-67.53,-8.28,45.41"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 766677749 -1357541301:shark tooth\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "an excavator of Prexian artifacts",
       "name_sortable": "excavatorofprexianartifacts",
+      "purpose": "Dismal Rage",
+      "locations": [
+        "42.85,1.02,50.56",
+        "7.98,1.02,63.6"
+      ],
       "utterances": [
-        "I hope you put your affairs in order."
+        "I hope you put your affairs in order.",
+        "These artifacts are very interesting, judging by what I see here...",
+        "It seems an ancient cult once resided in this district.",
+        "Look what strolled into the spider's web!",
+        "There is no escape for you now!"
       ]
     },
     {
       "name": "a forgotten resident",
       "name_sortable": "forgottenresident",
+      "locations": [
+        "-45.37,-0.57,20.44",
+        "-39.43,-0.49,23.09",
+        "-42.49,-0.62,4.88",
+        "-33.66,-0.60,0.89",
+        "-54.10,-0.54,-25.44",
+        "-38.22,-0.54,-28.17",
+        "-27.63,-0.58,0.83"
+      ],
       "utterances": [
         "Mortal agony is nothing compared to the torment that awaits you!",
-        "I will show you the true pain of death!"
+        "I will show you the true pain of death!",
+        "You will see us again in your nightmares!",
+        "You cannot kill what is already dead!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 220303815 -2092524802:a vial of spectral essence\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -330112270 -513586860:an ethereal nerve\\/a",
+          "chest": false
+        }
       ],
       "drop_coin_min": 4,
       "drop_coin_max": 4
@@ -152,6 +392,9 @@
     {
       "name": "Gerbard the Snitch",
       "name_sortable": "gerbardthesnitch",
+      "locations": [
+        "-36.17,0.05,-7.26"
+      ],
       "utterances": [
         "Oh no! I did it again!  The boys back on the boat are gonna kill me!",
         "I blew all my coins on a game of dice.  I just need a few more pirate coins to throw in, and I'll earn back my money in no time! Will you help me out? My crew will toss me overboard if they find out how much money I lost!",
@@ -162,6 +405,10 @@
     {
       "name": "Inquisitor Thorson",
       "name_sortable": "inquisitorthorson",
+      "purpose": "Dismal Rage",
+      "locations": [
+        "-54.74,-0.11,49.51"
+      ],
       "utterances": [
         "We must all act to defend Freeport.",
         "Greetings, adventurer. What business do you have here?",
@@ -206,12 +453,17 @@
         "Splendid work! I cannot express how pleased I am with all you have done for us. Your name shall be known within the Dismal Rage as a true hero. I would not be surprised if the Overlord himself hears of your actions this day. Please, take this reward as a token of thanks.",
         "I must remain here to finish my report for the Dismal Rage. However, I would like you to journey to the Freeport Ruins and seek out an acquaintance of mine named Captain Arellius. I have heard that your help is much needed there. I will send word that you are coming, hero of Freeport.",
         "The fastest route to the Ruins is to use the mariner's bell at the end of the dock for traveling outside the city proper. This will summon transportation to take you to the Ruins, where Captain Arellius of the Freeport Militia will be awaiting your assistance.",
-        "You can speak to Custodian Zaddar in the Graveyard and Enforcer Kurdek in the Sprawl. They could both use assistance from an able adventurer."
+        "You can speak to Custodian Zaddar in the Graveyard and Enforcer Kurdek in the Sprawl. They could both use assistance from an able adventurer.",
+        "Thank you for all your help, my friend. I will speak favorably of you to my superiors."
       ]
     },
     {
       "name": "Investigator Curfeld",
       "name_sortable": "investigatorcurfeld",
+      "purpose": "Dismal Rage",
+      "locations": [
+        "101.37,0.91,60.44"
+      ],
       "utterances": [
         "I'm very busy. What is it that you want from me?",
         "Thorson, eh? He mentioned a newly arrived hero of Freeport was coming. State your business quickly, for my time is valuable.",
@@ -242,14 +494,98 @@
     {
       "name": "an investigator of Prexian artifacts",
       "name_sortable": "investigatorofprexianartifacts",
+      "purpose": "Dismal Rage",
+      "locations": [
+        "52.22,0.78,70.39",
+        "39.9,1.02,49.51",
+        "21.42,1.15,49.38",
+        "7.98,1.02,63.6"
+      ],
       "utterances": [
         "Summon help!  We have invaders!",
-        "Prepare to face your doom, meddler."
+        "Prepare to face your doom, meddler.",
+        "To arms!"
+      ]
+    },
+    {
+      "name": "Lukur",
+      "name_sortable": "lukur",
+      "purpose": "General Goods",
+      "locations": [
+        "-42.78,0.45,-9.26"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 297271877 2096316751:a market bulletin board\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 48
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516:a torch\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 60
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2208995 -860442438:dried bread\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 2
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -101702825 -210262797:flask of murky water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 2
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 19
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1347014509 -1543938383:plain bread\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 19
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 54
+            }
+          ]
+        }
       ]
     },
     {
       "name": "Manius Galla",
       "name_sortable": "maniusgalla",
+      "locations": [
+        "92.89,0.9,55.06"
+      ],
       "utterances": [
         "Mind your own business. If you keep gawking, you'll be walking away with a limp. And that's only because I'm in a good mood today.",
         "Did you hear that, boys? This runt wants to join our gang! HA HA HA HA! You couldn't fight your way out of a wet parchment bag, let alone join us. HA HA HA! We keep people safe inside the city districts!  You're better off paying us for protection, runt.",
@@ -259,8 +595,106 @@
       ]
     },
     {
+      "name": "Muck Raker",
+      "name_sortable": "muckraker",
+      "level": 7,
+      "locations": [
+        "23.82,0.32,14.38",
+        "49.34,0.8,13.27",
+        "59.44,1.02,-22.01",
+        "67.21,1.65,-30.56",
+        "77.8,1.54,-41.07",
+        "79.06,1.55,-30.61",
+        "81.88,1.18,-24.26",
+        "82.61,1.88,-10.0",
+        "101.31,1.49,18.77",
+        "80.12,1.88,25.02",
+        "61.04,1.08,27.55",
+        "53.37,1.11,31.28",
+        "60.75,1.02,35.56",
+        "60.56,1.03,48.59",
+        "56.52,0.58,57.13",
+        "46.12,0.71,55.84",
+        "38.53,0.93,58.58",
+        "12.69,0.91,61.18",
+        "6.25,0.61,28.63",
+        "9.35,0.32,5.28",
+        "-4.75,-0.42,-49.02",
+        "-11.7,-0.79,-71.46",
+        "11.71,0.26,-72.4",
+        "9.92,0.17,-58.3",
+        "12.28,-0.54,-14.09",
+        "20.03,0.40,3.05"
+      ]
+    },
+    {
+      "name": "a new recruit",
+      "name_sortable": "newrecruit",
+      "locations": [
+        "88.23,0.9,54.75"
+      ]
+    },
+    {
+      "name": "a perished citizen",
+      "name_sortable": "perishedcitizen",
+      "level": 7,
+      "locations": [
+        "22.98,0.20,-6.62",
+        "-5.21,0.20,23.01"
+      ]
+    },
+    {
+      "name": "a restless resident",
+      "name_sortable": "restlessresident",
+      "level": 6,
+      "locations": [
+        "21.07,0.45,8.99",
+        "10.24,0.90,16.77",
+        "0.16,-0.09,7.84",
+        "-3.79,-0.09,-1.00",
+        "-2.95,-0.23,-6.88"
+      ],
+      "utterances": [
+        "I will not lose count, and you will suffer the lot!",
+        "They will rise again. They always do."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 220303815 -2092524802:a vial of spectral essence\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -330112270 -513586860:an ethereal nerve\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "The Revenant of Prexus",
+      "name_sortable": "revenantofprexus",
+      "locations": [
+        "-3.51,-0.37,-52.14"
+      ]
+    },
+    {
+      "name": "a rust monster",
+      "name_sortable": "rustmonster",
+      "level": 6,
+      "locations": [
+        "23.50,0.31,5.44",
+        "4.64,0.41,13.86",
+        "-51.38,-0.58,6.00",
+        "-47.87,0.22,-16.80",
+        "-30.92,-0.53,-40.89",
+        "-36.32,0.18,-15.82"
+      ]
+    },
+    {
       "name": "Saydith Yarr",
       "name_sortable": "saydithyarr",
+      "locations": [
+        "-42.33,-0.53,18.38"
+      ],
       "utterances": [
         "Searched this place, I have.  Seen the dark and the light.  Know the stories and the tragedies.",
         "Things change here when it gets cold and dark.  Zombies crawl from the shadows to drag the living back with them to their watery grave.  Search for the cross if you are looking for death.",
@@ -269,10 +703,97 @@
       ]
     },
     {
+      "name": "a small rust monster",
+      "name_sortable": "smallrustmonster",
+      "locations": [
+        "-75.55,-0.56,-66.57",
+        "-74.09,-0.58,-44.34",
+        "-79.85,-0.26,7.16"
+      ]
+    },
+    {
+      "name": "a small scorpion",
+      "name_sortable": "smallscorpion",
+      "level": 8,
+      "difficulty": "heroic",
+      "locations": [
+        "104.02,0.90,50.54",
+        "86.22,0.90,81.12",
+        "101.52,0.90,77.32",
+        "52.11,0.25,64.43",
+        "37.31,1.02,71.91",
+        "62.66,1.05,52.40",
+        "-4.11,1.02,44.00",
+        "7.98,1.02,63.6",
+        "0.42,1.02,64.67",
+        "-3.09,1.02,59.05",
+        "20.80,1.02,38.70"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1024256564 -1967900500:a scorpion stinger\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "a spectral denizen",
       "name_sortable": "spectraldenizen",
+      "level": 8,
+      "locations": [
+        "89.51,1.01,65.56",
+        "94.51,0.90,79.15",
+        "51.00,0.68,69.00",
+        "13.59,0.87,60.76",
+        "46.27,0.81,53.91",
+        "17.11,1.03,50.44",
+        "5.26,1.00,63.20"
+      ],
       "utterances": [
-        "I will show you the true pain of death!"
+        "I will show you the true pain of death!",
+        "You cannot kill what is already dead!",
+        "You will see us again in your nightmares!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a spectral resident",
+      "name_sortable": "spectralresident",
+      "level": 10,
+      "locations": [
+        "56.16,1.15,29.47",
+        "59.22,1.24,-2.20",
+        "49.23,1.40,24.64",
+        "39.81,1.38,-10.46",
+        "89.69,2.00,-9.30",
+        "101.73,2.17,-1.53",
+        "97.00,2.36,5.60",
+        "61.91,1.54,-42.71",
+        "45.10,1.52,0.27"
+      ],
+      "utterances": [
+        "They will rise again. They always do.",
+        "I will not lose count, and you will suffer the lot!",
+        "No. I'm unrest and you will suffer."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -288,12 +809,56 @@
     },
     {
       "gamelink": "\\aITEM -1711639388 -1541580519:mussel shell\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1331551958 -1699344718:chipped shard of channeling\\/a",
+      "locations": [
+        "69.94,3.00,-28.58"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -672434816 285511061:shattered dark elf bone fragment\\/a",
+      "locations": [
+        "95.57,2.00,23.60"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 86571365 -1773479319:spotted white moth\\/a",
+      "locations": [
+        "21.53,1.00,11.32"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 956491458 -50916358:plain black moth\\/a",
+      "locations": [
+        "10.14,1.00,23.60"
+      ]
     }
   ],
   "resourceNodes": [
     {
       "name": "a collection of fish",
       "name_sortable": "collectionoffish"
+    },
+    {
+      "name": "the creature den",
+      "name_sortable": "creatureden"
+    },
+    {
+      "name": "the cruddy ore",
+      "name_sortable": "cruddyore"
+    },
+    {
+      "name": "the decomposed arbor",
+      "name_sortable": "decomposedarbor"
+    },
+    {
+      "name": "the ravaged natural garden",
+      "name_sortable": "ravagednaturalgarden"
+    },
+    {
+      "name": "the stale roots",
+      "name_sortable": "staleroots"
     }
   ]
 }

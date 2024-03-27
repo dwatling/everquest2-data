@@ -477,7 +477,8 @@
         "These artifacts are very interesting, judging by what I see here...",
         "It seems an ancient cult once resided in this district.",
         "Look what strolled into the spider's web!",
-        "There is no escape for you now!"
+        "There is no escape for you now!",
+        "Get up! Death isn't good enough for you!"
       ]
     },
     {
@@ -922,7 +923,8 @@
       "utterances": [
         "I will show you the true pain of death!",
         "You cannot kill what is already dead!",
-        "You will see us again in your nightmares!"
+        "You will see us again in your nightmares!",
+        "You cannot run from death, mortal!"
       ],
       "drops": [
         {
@@ -1003,6 +1005,16 @@
       ]
     },
     {
+      "name": "Tilzak N`Lim",
+      "name_sortable": "tilzaknlim",
+      "locations": [
+        "-68.48,-0.12,63.21"
+      ],
+      "utterances": [
+        "These are my fish so you can't have them! Go... go find your own!"
+      ]
+    },
+    {
       "name": "Ulrich the Kingpin",
       "name_sortable": "ulrichthekingpin",
       "level": 10,
@@ -1064,6 +1076,12 @@
       "gamelink": "\\aITEM -1278528964 -238418132:plain tan moth\\/a",
       "locations": [
         "67.09,2.00,-43.93"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -576796482 1310961989:plain brown moth\\/a",
+      "locations": [
+        "12.98,2.00,60.43"
       ]
     }
   ],

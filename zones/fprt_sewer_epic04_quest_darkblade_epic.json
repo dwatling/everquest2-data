@@ -18,6 +18,12 @@
       "name": "a Darkblade assassin",
       "name_sortable": "darkbladeassassin",
       "level": 10,
+      "locations": [
+        "-0.84,-0.28,13.90",
+        "4.78,-0.28,14.37",
+        "12.03,-0.59,-6.10",
+        "9.82,-0.28,-12.75"
+      ],
       "utterances": [
         "Sees us, did we? Must not let you talk then.",
         "Flee and take care of them later."
@@ -40,14 +46,28 @@
       "name_sortable": "sinyazvrix",
       "level": 10,
       "difficulty": "heroic",
-      "drop_coin_min": 39,
+      "locations": [
+        "-7.33,-1.28,9.17"
+      ],
+      "drop_coin_min": 24,
       "drop_coin_max": 39
     },
     {
       "name": "Zaynis V'rix",
       "name_sortable": "zaynisvrix",
       "level": 10,
-      "difficulty": "heroic"
+      "difficulty": "heroic",
+      "locations": [
+        "-10.33,-1.28,11.17"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 27,
+      "drop_coin_max": 27
     }
   ]
 }

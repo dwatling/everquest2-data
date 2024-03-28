@@ -18,7 +18,13 @@
       "name_sortable": "corruptor",
       "level": 11,
       "locations": [
-        "-30,0,197"
+        "-30,0,197",
+        "-115.49,0.55,189.14",
+        "-107.78,0.22,190.01",
+        "-100.01,0.66,190.38",
+        "-89.75,0.65,194.72",
+        "-43.21,0.12,210.02",
+        "-30.22,0.00,190.20"
       ],
       "utterances": [
         "As I rise from the grave,  you will now take my place!",
@@ -27,15 +33,26 @@
         "Your blood calls to me.",
         "Seek death and it finds you.",
         "You've shaken the dust from my bones.",
-        "You cannot eliminate us!"
+        "You cannot eliminate us!",
+        "Final death comes at last.",
+        "Your eyes are so pretty.",
+        "That pile of bones was my friend!"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 705602020 -966949899:cracked iron stein\\/a",
+          "chest": false
         }
       ],
-      "drop_coin_min": 40,
+      "drop_coin_min": 19,
       "drop_coin_max": 298
     },
     {
@@ -43,8 +60,25 @@
       "name_sortable": "darkbladebodyguard",
       "level": 11,
       "locations": [
-        "-103,1,133"
-      ]
+        "-103,1,133",
+        "-107.63,0.64,156.62"
+      ],
+      "utterances": [
+        "Thanks!  I always hated that one!",
+        "No matter what I promise, you will not survive!",
+        "I will have vengeance!",
+        "Hold them and I'll return with help!",
+        "Now who will pick the locks?!",
+        "Hrmmm... This isn't going as planned."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1052565751 400117804:An old Darkblade dagger\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 36,
+      "drop_coin_max": 36
     },
     {
       "name": "a Darkblade brigand",
@@ -52,29 +86,69 @@
       "level": 9,
       "locations": [
         "0,1,140",
-        "-60.95,1.00,89.05"
+        "-60.95,1.00,89.05",
+        "-24.76,1.31,128.79",
+        "-9.11,1.31,156.01",
+        "-52.12,1.00,131.12",
+        "-82.02,1.31,128.51",
+        "-74.53,1.00,130.74",
+        "-84.05,0.59,148.16",
+        "-61.11,0.63,152.14",
+        "-126.65,0.53,140.20",
+        "-101.86,0.02,147.02",
+        "-2.84,1.31,133.73"
       ],
       "utterances": [
         null,
         "No where to run, craven!",
-        "Thanks!  I always hated that one!"
-      ]
+        "Thanks!  I always hated that one!",
+        "Now who will pick the locks?!",
+        "Now who is going to pick the locks?!",
+        "That just improves my cut of the loot!",
+        "Time to leave, yes. Definitely time to leave."
+      ],
+      "drop_coin_min": 6,
+      "drop_coin_max": 8
     },
     {
       "name": "a Darkblade fury",
       "name_sortable": "darkbladefury",
       "level": 9,
       "locations": [
-        "0,1,140"
-      ]
+        "0,1,140",
+        "-85.19,1.00,150.60",
+        "-77.79,1.31,128.56",
+        "-50.67,1.27,128.97",
+        "-60.39,1.03,156.11"
+      ],
+      "utterances": [
+        "Now who will pick the locks?!",
+        "That just improves my cut of the loot!",
+        "Now who is going to pick the locks?!",
+        "Come on out, taffer!"
+      ],
+      "drop_coin_min": 10,
+      "drop_coin_max": 10
     },
     {
       "name": "a Darkblade maiden",
       "name_sortable": "darkblademaiden",
       "level": 9,
       "locations": [
-        "-83,1,115"
-      ]
+        "-83,1,115",
+        "-83.90,1.00,54.36",
+        "-97.00,0.39,78.16",
+        "-59.49,1.31,108.79",
+        "-101.86,0.02,147.02",
+        "-126.65,0.53,140.20"
+      ],
+      "utterances": [
+        "Fall back, order a tactical retreat!",
+        "Now who will pick the locks?!",
+        "That just improves my cut of the loot!"
+      ],
+      "drop_coin_min": 8,
+      "drop_coin_max": 8
     },
     {
       "name": "a Darkblade noble",
@@ -89,8 +163,39 @@
       "name_sortable": "darkbladescout",
       "level": 9,
       "locations": [
-        "-24,1,114"
-      ]
+        "-24,1,114",
+        "-83.26,1.31,115.48",
+        "-16.17,1.31,115.20",
+        "-27.10,1.00,130.70",
+        "-24.82,0.00,139.31",
+        "-24.46,0.00,146.65",
+        "-3.08,1.00,138.78",
+        "-34.77,-0.37,137.51",
+        "-52.48,1.31,129.09",
+        "-61.30,0.58,131.51",
+        "-80.99,0.02,138.91",
+        "-76.78,0.00,148.78",
+        "-58.05,1.31,155.78",
+        "-84.05,0.59,148.16",
+        "-84.01,1.31,129.43",
+        "-74.53,1.00,130.74",
+        "-66.84,0.91,133.04"
+      ],
+      "utterances": [
+        "Should have escaped while I had the chance.",
+        "Now who will pick the locks?!",
+        "Now who is going to pick the locks?!",
+        "That just improves my cut of the loot!",
+        "Come on out, taffer!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 41
     },
     {
       "name": "a diseased ratonga",
@@ -117,7 +222,11 @@
         "-152.00,-1.13,175.73",
         "-127.78,-0.56,176.98",
         "-181.57,0.20,209.82",
-        "-158.25,0.00,217.15"
+        "-158.25,0.00,217.15",
+        "-143.11,-0.76,186.05",
+        "-143.70,0.06,158.97",
+        "-163.87,0.06,91.20",
+        "19.65,1.40,22.26"
       ],
       "utterances": [
         "Startle us, you did! We'll remedy that.",
@@ -126,16 +235,21 @@
         "Time to leave, yes. Definitely time to leave.",
         "Take my secrets to my grave, I shall.",
         "Flee and take care of them later.",
-        "You're not as sneaky as you thought."
+        "You're not as sneaky as you thought.",
+        "Should have escaped while I had the chance."
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 4,
-      "drop_coin_max": 43
+      "drop_coin_max": 80
     },
     {
       "name": "a drowned protector",
@@ -150,14 +264,25 @@
       "name_sortable": "fallencrusader",
       "level": 11,
       "locations": [
-        "-30,0,197"
+        "-30,0,197",
+        "-81.11,0.11,193.00",
+        "-60.61,0.00,188.82",
+        "-61.26,0.00,196.96",
+        "-28.82,0.08,221.10",
+        "-31.10,0.00,204.09"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
+          "chest": false
         }
-      ]
+      ],
+      "drop_coin_min": 20,
+      "drop_coin_max": 27
     },
     {
       "name": "a juvenile mucus",
@@ -171,7 +296,13 @@
         "-151.15,1.68,1.60",
         "-144.15,2.98,58.08",
         "-180.07,0.70,196.91",
-        "-158.84,0.49,219.91"
+        "-158.84,0.49,219.91",
+        "-183.49,0.39,153.70",
+        "-179.57,0.52,107.12",
+        "-128.95,1.87,86.53",
+        "-88.02,1.00,8.30",
+        "-31.30,1.00,113.24",
+        "16.45,1.98,126.14"
       ],
       "drops": [
         {
@@ -186,7 +317,8 @@
       "level": 9,
       "difficulty": "heroic",
       "locations": [
-        "-165,0,178"
+        "-165,0,178",
+        "-122.77,-0.18,182.61"
       ],
       "drops": [
         {
@@ -216,10 +348,66 @@
     {
       "name": "M`Polo Danukh",
       "name_sortable": "m`polodanukh",
+      "purpose": "General Goods",
       "locations": [
         "-31,1,154"
       ],
-      "store_template": "general_goods"
+      "store": [
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 60
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2208995 -860442438 0 0 0:dried bread\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 7
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -101702825 -210262797 0 0 0:flask of murky water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 7
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855 0 0 0:flask of pond water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 19
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1347014509 -1543938383 0 0 0:plain bread\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 19
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1241081646 1326260278 0 0 0:rawhide leather rucksack\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 81
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Marius Darkblade",
@@ -241,11 +429,14 @@
           "gamelink": "\\aITEM -1461102860 1061991594:Splintering Elm Cudgel\\/a",
           "chest": true
         }
-      ]
+      ],
+      "drop_coin_min": 229,
+      "drop_coin_max": 229
     },
     {
       "name": "Mikela Osa",
       "name_sortable": "mikelaosa",
+      "purpose": "Weaponsmith",
       "locations": [
         "-28,1,152"
       ]
@@ -275,16 +466,106 @@
       "name_sortable": "netherotchanter",
       "level": 8,
       "locations": [
-        "-79,1,112"
+        "-79,1,112",
+        "-101.86,0.02,147.02",
+        "-126.65,0.53,140.20"
+      ],
+      "utterances": [
+        "Keep up the assault, no matter what the cost in lives!",
+        "Take my secrets to my grave, I shall.",
+        "Looks like it's time to move on!"
       ]
     },
     {
       "name": "Nikho Tambolo",
       "name_sortable": "nikhotambolo",
+      "purpose": "Provisioner",
       "locations": [
         "-25,1,155"
       ],
-      "store_template": "provisioner"
+      "store": [
+        {
+          "gamelink": "\\aITEM 1618656513 -631993083 0 0 0:Antonia Ale (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 180
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 502648298 -366828437 0 0 0:canteen of pond water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 38
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1281187795 -495418410 0 0 0:Dwarven Ale (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 900
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -692542167 450719094 0 0 0:Elven Wine (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1080
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855 0 0 0:flask of pond water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 19
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1608751314 -1346962995 0 0 0:Gnomish Spirits (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1260
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1424677497 801220853 0 0 0:Lucan's Lager (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 180
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1199073772 520539661 0 0 0:Oggok Swill (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1383852152 -1014417461 0 0 0:Teir'dal Blood Wine (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1620
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "a ravenous cube",
@@ -294,15 +575,22 @@
         "-34,0,107",
         "-113.85,0.00,78.35",
         "-113.80,-0.00,88.34",
-        "-125.41,0.00,63.72"
+        "-125.41,0.00,63.72",
+        "-98.98,0.00,9.63",
+        "-96.97,0.00,15.65",
+        "-96.96,0.01,-0.34"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM -1955109996 138277739:a vial of viscid slime\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
+          "chest": false
         }
       ],
-      "drop_coin_min": 5,
+      "drop_coin_min": 4,
       "drop_coin_max": 5
     },
     {
@@ -314,7 +602,16 @@
         "-124.27,1.00,54.26",
         "-105.17,1.00,75.72",
         "-108.19,0.00,81.90",
-        "-134.12,1.31,55.11"
+        "-134.12,1.31,55.11",
+        "-73.73,1.00,30.93",
+        "-117.85,1.00,27.24",
+        "-89.04,1.00,-8.32",
+        "-65.48,0.91,109.60",
+        "-35.52,1.00,100.10",
+        "-41.53,1.00,99.06",
+        "3.50,1.00,104.08",
+        "2.75,1.00,91.91",
+        "-11.82,1.00,88.44"
       ],
       "drops": [
         {
@@ -326,10 +623,21 @@
     {
       "name": "Sali Va`ah",
       "name_sortable": "saliva`ah",
+      "purpose": "Armorsmith",
       "locations": [
         "-33,1,156"
       ],
       "store_template": "armorsmith"
+    },
+    {
+      "name": "Sali Va`ah",
+      "name_sortable": "salivaah",
+      "locations": [
+        "-33.97,1.04,155.46"
+      ],
+      "utterances": [
+        "Isn't it dark down here?"
+      ]
     },
     {
       "name": "a sewage rat",
@@ -352,7 +660,15 @@
         "-182.28,0.00,120.35",
         "-179.04,0.00,138.96",
         "-183.49,0.39,153.70",
-        "-109.67,1.28,215.20"
+        "-109.67,1.28,215.20",
+        "-179.80,0.05,94.08",
+        "-45.46,0.02,-1.15",
+        "-28.04,1.00,113.42",
+        "-12.49,0.70,109.97",
+        "-7.44,0.90,112.96",
+        "-14.93,1.00,98.56",
+        "20.75,1.34,70.09",
+        "21.05,1.34,130.31"
       ]
     },
     {
@@ -381,7 +697,28 @@
         "-148.97,0.24,217.09",
         "-136.85,0.00,217.27",
         "-119.75,0.00,220.85",
-        "-95.93,0.00,217.02"
+        "-95.93,0.00,217.02",
+        "-182.50,0.00,165.50",
+        "-182.04,0.00,137.07",
+        "-182.04,0.00,121.15",
+        "-143.06,0.06,91.15",
+        "-97.61,1.00,33.73",
+        "-85.14,0.00,27.86",
+        "-79.32,0.00,27.04",
+        "-62.11,0.00,0.91",
+        "-53.73,0.00,0.91",
+        "-30.91,0.00,1.41",
+        "-85.81,0.00,59.23",
+        "-87.98,0.00,78.10",
+        "-77.76,1.00,84.90",
+        "-95.47,1.00,96.62",
+        "-62.76,1.00,94.42",
+        "-12.69,0.00,107.88",
+        "-11.02,1.34,20.29",
+        "2.70,1.34,20.25",
+        "20.90,1.34,41.82",
+        "19.78,1.34,81.08",
+        "17.14,1.34,109.49"
       ],
       "drops": [
         {
@@ -412,7 +749,25 @@
         "-119.32,1.00,74.47",
         "-127.10,1.00,55.18",
         "-105.01,1.00,70.69",
-        "-182.75,0.00,103.91"
+        "-182.75,0.00,103.91",
+        "-74.68,1.00,34.89",
+        "-33.21,0.71,77.66",
+        "-33.16,-0.46,66.84",
+        "-22.17,0.06,66.48",
+        "-13.46,0.71,51.68",
+        "-10.81,0.84,59.5",
+        "-12.49,0.66,64.95",
+        "-12.73,0.71,71.53",
+        "-15.5,0.36,76.56",
+        "-25.63,0.71,74.37",
+        "-39.49,0.71,75.6",
+        "-40.88,0.71,69.31",
+        "-42.97,0.71,61.54",
+        "-37.78,0.1,57.13",
+        "-28.92,0.09,58.21",
+        "-18.75,0.46,55.87",
+        "-31.43,-0.09,50.03",
+        "-36.83,0.71,47.65"
       ],
       "drops": [
         {
@@ -428,7 +783,9 @@
       "locations": [
         "-181,0,177",
         "-7.18,1.34,18.24",
-        "-181.61,0.00,204.94"
+        "-181.61,0.00,204.94",
+        "-34.87,0.00,1.53",
+        "20.75,1.34,73.09"
       ],
       "drops": [
         {
@@ -456,11 +813,25 @@
       "locations": [
         "-91,1,20",
         "-117.81,0.00,58.08",
-        "-112.54,0.00,58.02"
+        "-112.54,0.00,58.02",
+        "-97.03,0.00,18.35",
+        "-102.96,0.00,26.21",
+        "-96.20,1.00,33.72",
+        "-49.47,0.00,25.58",
+        "-52.33,0.07,31.74",
+        "-52.13,0.00,19.30",
+        "-83.78,0.0,90.34",
+        "-76.38,0.0,102.3",
+        "-79.56,0.84,109.44",
+        "-90.29,0.99,109.91",
+        "-92.34,0.95,86.51"
       ],
       "utterances": [
         "Run away before we all die!",
-        "No fair!  They have better weapons."
+        "No fair!  They have better weapons.",
+        "Hey! You're not in the union.",
+        "Get the guards, quickly!",
+        "Summon all the members. I'll deal with the intruders."
       ]
     },
     {

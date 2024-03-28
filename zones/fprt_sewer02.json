@@ -32,7 +32,11 @@
       "name_sortable": "bilzikfuzzlethorp",
       "level": 20,
       "locations": [
-        "-1,1,-139"
+        "-1,1,-139",
+        "-11.18,0.32,-137.22"
+      ],
+      "utterances": [
+        "Looks like it's time to move on!"
       ]
     },
     {
@@ -53,7 +57,14 @@
       "level": 19,
       "locations": [
         "-25,1,-75",
-        "-37.27,0.74,-49.82"
+        "-37.27,0.74,-49.82",
+        "-17.55,0.29,-71.75",
+        "-10.69,0.65,-87.15",
+        "8.94,0.96,-130.11",
+        "-11.37,0.96,-131.00",
+        "-17.41,0.96,-124.37",
+        "-18.18,-0.29,-98.29",
+        "-32.16,0.29,-77.12"
       ],
       "utterances": [
         "Looks like it's time to move on!",
@@ -86,6 +97,10 @@
         {
           "gamelink": "\\aITEM 610874452 1997196792:Boon of the Damned (Adept)\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 21,
@@ -159,17 +174,56 @@
     {
       "name": "Gurtha Tings",
       "name_sortable": "gurthatings",
+      "purpose": "General Goods",
       "locations": [
         "-104,0,7"
       ],
       "utterances": [
         "Hello there! Find any good things down here?  Gurtha is buying."
       ],
-      "store_template": "general_goods"
+      "store": [
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 60
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855 0 0 0:flask of pond water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 19
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1347014509 -1543938383 0 0 0:plain bread\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 19
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1241081646 1326260278 0 0 0:rawhide leather rucksack\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 90
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Hired Guard Gazzuk",
       "name_sortable": "hiredguardgazzuk",
+      "purpose": "Guard",
       "level": 30,
       "locations": [
         "-98,0,12"
@@ -179,6 +233,10 @@
       "name": "an immature sludgewater",
       "name_sortable": "immaturesludgewater",
       "level": 16,
+      "locations": [
+        "-185.03,0.09,-137.90",
+        "-87.00,1.72,-96.05"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -392376538 -274558298:pet report\\/a",
@@ -189,6 +247,7 @@
     {
       "name": "Kerik Lorn",
       "name_sortable": "keriklorn",
+      "purpose": "Weaponsmith",
       "locations": [
         "-113,0,17"
       ],
@@ -213,6 +272,9 @@
       "name": "a measly filthy moccasin",
       "name_sortable": "measlyfilthymoccasin",
       "level": 16,
+      "locations": [
+        "-81.66,1.62,-84.37"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 795592345 -735735222:iron lance\\/a",
@@ -262,12 +324,29 @@
       "level": 20,
       "locations": [
         "-122,0,-113"
+      ],
+      "utterances": [
+        "Should've escaped while I had the chance.",
+        "Take my secrets to my grave I shall."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "chest": false
+        }
       ]
     },
     {
       "name": "a refuse toad",
       "name_sortable": "refusetoad",
       "level": 16,
+      "locations": [
+        "-148.86,0.24,-131.28"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -1089833149 460321312:a vial of frog blood\\/a",
@@ -278,6 +357,7 @@
     {
       "name": "Rix Tah'Reh",
       "name_sortable": "rixtahreh",
+      "purpose": "Armorsmith",
       "locations": [
         "-104,0,17"
       ],
@@ -299,7 +379,10 @@
       "name_sortable": "sewagenuisance",
       "level": 16,
       "locations": [
-        "-8,1,79"
+        "-8,1,79",
+        "-5.17,2.59,-77.87",
+        "11.65,2.52,-117.97",
+        "-17.02,2.49,-138.71"
       ],
       "drops": [
         {
@@ -309,13 +392,20 @@
         {
           "gamelink": "\\aITEM 2005032882 -984577434:iron chainmail bracers\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2038039599 -1763622889:a mucous encrusted tendril\\/a",
+          "chest": false
         }
       ]
     },
     {
       "name": "a sewage vermin",
       "name_sortable": "sewagevermin",
-      "level": 16
+      "level": 16,
+      "locations": [
+        "-179.98,0.19,-153.45"
+      ]
     },
     {
       "name": "a sift dasher",
@@ -356,7 +446,8 @@
       "name_sortable": "stench",
       "level": 17,
       "locations": [
-        "-84,1,-116"
+        "-84,1,-116",
+        "-84.60,1.34,-93.86"
       ],
       "drops": [
         {
@@ -384,6 +475,7 @@
     {
       "name": "Tula Mawh",
       "name_sortable": "tulamawh",
+      "purpose": "Provisioner",
       "locations": [
         "-113,0,7"
       ],
@@ -392,11 +484,83 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM -1820414129 -364127075:sliced orange\\/a",
+          "gamelink": "\\aITEM 1618656513 -631993083 0 0 0:Antonia Ale (Alcoholic)\\/a",
           "server_prices": [
             {
               "server": "Skyfire",
-              "price": 29
+              "price": 200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 502648298 -366828437 0 0 0:canteen of pond water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 38
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1281187795 -495418410 0 0 0:Dwarven Ale (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -692542167 450719094 0 0 0:Elven Wine (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855 0 0 0:flask of pond water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 19
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1608751314 -1346962995 0 0 0:Gnomish Spirits (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1424677497 801220853 0 0 0:Lucan's Lager (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1199073772 520539661 0 0 0:Oggok Swill (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 2000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1383852152 -1014417461 0 0 0:Teir'dal Blood Wine (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1800
             }
           ]
         }

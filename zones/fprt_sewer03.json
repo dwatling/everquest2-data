@@ -124,11 +124,20 @@
       "name_sortable": "brittleremanence",
       "level": 25,
       "locations": [
-        "104.75,32.50,19.91"
+        "104.75,32.50,19.91",
+        "48.30,32.98,46.93",
+        "62.90,32.50,44.63",
+        "100.63,32.75,32.86",
+        "109.94,32.55,50.16"
       ],
       "utterances": [
-        "Seek death and it finds you."
-      ]
+        "Seek death and it finds you.",
+        "I'm shattered and broken.",
+        "Dying didn't feel good the first time.",
+        "I didn't need those bones anyway."
+      ],
+      "drop_coin_min": 116,
+      "drop_coin_max": 116
     },
     {
       "name": "Broken Beak",
@@ -209,7 +218,14 @@
         "113.83,32.5,-0.96",
         "106.68,32.5,18.05",
         "33.66,32.50,74.23",
-        "28.52,32.55,57.32"
+        "28.52,32.55,57.32",
+        "27.52,32.50,63.14",
+        "55.47,32.50,43.07",
+        "101.08,32.50,30.52",
+        "114.19,33.50,-6.19",
+        "119.56,32.60,-20.97",
+        "112.31,32.73,-15.97",
+        "31.40,32.50,3.01"
       ],
       "drops": [
         {
@@ -371,7 +387,8 @@
       "name_sortable": "giganticsewergoo",
       "level": 23,
       "locations": [
-        "114.80,26.16,-137.20"
+        "114.80,26.16,-137.20",
+        "51.00,32.50,91.97"
       ]
     },
     {
@@ -465,7 +482,8 @@
         "48.13,32.50,90.27"
       ],
       "utterances": [
-        "Take my secrets to my grave I shall."
+        "Take my secrets to my grave I shall.",
+        "Greetings, friend. How would you like to die?"
       ],
       "drops": [
         {
@@ -524,7 +542,9 @@
         "84.59,33.02,76.11",
         "60.85,32.02,107.34",
         "66.75,32.02,104.45",
-        "62.90,32.93,94.40"
+        "62.90,32.93,94.40",
+        "57.03,32.75,113.34",
+        "78.64,32.02,76.10"
       ],
       "utterances": [
         "Flee and take care of them later.",
@@ -536,6 +556,14 @@
       "drops": [
         {
           "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
           "chest": false
         }
       ],
@@ -551,7 +579,9 @@
         "106.33,17.09,-113.33",
         "102.21,17.33,86.14",
         "79.01,33.02,72.33",
-        "70.82,33.02,103.73"
+        "70.82,33.02,103.73",
+        "61.79,32.35,110.55",
+        "80.60,33.24,65.92"
       ],
       "utterances": [
         "Over hear my plansies? Gore you I will!",
@@ -560,7 +590,13 @@
         "Should've escaped while I had the chance.",
         "Take my secrets to my grave I shall."
       ],
-      "drop_coin_min": 1017,
+      "drops": [
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 979,
       "drop_coin_max": 1017
     },
     {
@@ -593,7 +629,11 @@
         "105.86,32.50,-17.77",
         "118.39,32.50,-17.06",
         "116.27,32.5,-7.98",
-        "26.62,32.50,62.30"
+        "26.62,32.50,62.30",
+        "30.51,32.50,71.33",
+        "97.93,32.50,41.17",
+        "99.95,32.5,-17.22",
+        "37.30,32.50,4.98"
       ],
       "drops": [
         {
@@ -614,6 +654,19 @@
         "218.74,0.50,36.07",
         "221.83,0.50,44.06",
         "186.22,0.01,-95.04"
+      ]
+    },
+    {
+      "name": "a rotting skeleton",
+      "name_sortable": "rottingskeleton",
+      "level": 25,
+      "locations": [
+        "112.18,32.55,45.11",
+        "116.68,33.07,53.54"
+      ],
+      "utterances": [
+        "Rest in peace.",
+        "I'm shattered and broken."
       ]
     },
     {

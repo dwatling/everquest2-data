@@ -58,6 +58,12 @@
     {
       "name": "a Darkblade bodyguard",
       "name_sortable": "darkbladebodyguard",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "level": 11,
       "locations": [
         "-103,1,133",
@@ -69,7 +75,8 @@
         "I will have vengeance!",
         "Hold them and I'll return with help!",
         "Now who will pick the locks?!",
-        "Hrmmm... This isn't going as planned."
+        "Hrmmm... This isn't going as planned.",
+        "That just improves my cut of the loot!"
       ],
       "drops": [
         {
@@ -83,6 +90,14 @@
     {
       "name": "a Darkblade brigand",
       "name_sortable": "darkbladebrigand",
+      "race": [
+        "human",
+        "ratonga",
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "level": 9,
       "locations": [
         "0,1,140",
@@ -96,7 +111,8 @@
         "-61.11,0.63,152.14",
         "-126.65,0.53,140.20",
         "-101.86,0.02,147.02",
-        "-2.84,1.31,133.73"
+        "-2.84,1.31,133.73",
+        "-85.02,1.31,153.24"
       ],
       "utterances": [
         null,
@@ -105,27 +121,38 @@
         "Now who will pick the locks?!",
         "Now who is going to pick the locks?!",
         "That just improves my cut of the loot!",
-        "Time to leave, yes. Definitely time to leave."
+        "Time to leave, yes. Definitely time to leave.",
+        "Flee and take care of them later."
       ],
-      "drop_coin_min": 6,
+      "drop_coin_min": 5,
       "drop_coin_max": 8
     },
     {
       "name": "a Darkblade fury",
       "name_sortable": "darkbladefury",
+      "race": [
+        "ratonga",
+        "human",
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "level": 9,
       "locations": [
         "0,1,140",
         "-85.19,1.00,150.60",
         "-77.79,1.31,128.56",
         "-50.67,1.27,128.97",
-        "-60.39,1.03,156.11"
+        "-60.39,1.03,156.11",
+        "-8.86,1.0,152.53"
       ],
       "utterances": [
         "Now who will pick the locks?!",
         "That just improves my cut of the loot!",
         "Now who is going to pick the locks?!",
-        "Come on out, taffer!"
+        "Come on out, taffer!",
+        "Nowhere to run, craven!"
       ],
       "drop_coin_min": 10,
       "drop_coin_max": 10
@@ -153,14 +180,34 @@
     {
       "name": "a Darkblade noble",
       "name_sortable": "darkbladenoble",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "level": 9,
       "locations": [
-        "-76,0,106"
+        "-76,0,106",
+        "-92.99,1.00,111.99",
+        "-92.75,1.0,97.67"
+      ],
+      "utterances": [
+        "Now who is going to pick the locks?!"
       ]
     },
     {
       "name": "a Darkblade scout",
       "name_sortable": "darkbladescout",
+      "race": [
+        "human",
+        "ratonga",
+        "half elf"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
       "level": 9,
       "locations": [
         "-24,1,114",
@@ -179,7 +226,10 @@
         "-84.05,0.59,148.16",
         "-84.01,1.31,129.43",
         "-74.53,1.00,130.74",
-        "-66.84,0.91,133.04"
+        "-66.84,0.91,133.04",
+        "-11.77,1.0,153.3",
+        "-30.71,0.0,143.61",
+        "-101.86,0.02,147.02"
       ],
       "utterances": [
         "Should have escaped while I had the chance.",
@@ -200,6 +250,12 @@
     {
       "name": "a diseased ratonga",
       "name_sortable": "diseasedratonga",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
       "level": 9,
       "locations": [
         "-152.61,1.34,60.98",
@@ -226,7 +282,9 @@
         "-143.11,-0.76,186.05",
         "-143.70,0.06,158.97",
         "-163.87,0.06,91.20",
-        "19.65,1.40,22.26"
+        "19.65,1.40,22.26",
+        "20.52,1.6,78.96",
+        "20.08,1.34,96.36"
       ],
       "utterances": [
         "Startle us, you did! We'll remedy that.",
@@ -334,6 +392,12 @@
     {
       "name": "Lady Darkblade",
       "name_sortable": "ladydarkblade",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "level": 11,
       "locations": [
         "-122,1,154"
@@ -412,6 +476,12 @@
     {
       "name": "Marius Darkblade",
       "name_sortable": "mariusdarkblade",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "level": 12,
       "locations": [
         "-123,1,152"
@@ -436,6 +506,12 @@
     {
       "name": "Mikela Osa",
       "name_sortable": "mikelaosa",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Weaponsmith",
       "locations": [
         "-28,1,152"
@@ -444,6 +520,12 @@
     {
       "name": "M`Polo Danukh",
       "name_sortable": "mpolodanukh",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-31,1,154"
       ],
@@ -455,30 +537,57 @@
     {
       "name": "a Murkwater Infiltrator",
       "name_sortable": "murkwaterinfiltrator",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
       "level": 11,
       "locations": [
         "-76,0,160",
-        "-128,1,148"
+        "-128,1,148",
+        "-101.33,0.66,137.56"
+      ],
+      "utterances": [
+        "Time to leave, yes. Definitely time to leave."
       ]
     },
     {
       "name": "a netherot chanter",
       "name_sortable": "netherotchanter",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
       "level": 8,
       "locations": [
         "-79,1,112",
         "-101.86,0.02,147.02",
-        "-126.65,0.53,140.20"
+        "-126.65,0.53,140.20",
+        "-83.07,0.53,68.1",
+        "-83.17,1.00,61.67"
       ],
       "utterances": [
         "Keep up the assault, no matter what the cost in lives!",
         "Take my secrets to my grave, I shall.",
-        "Looks like it's time to move on!"
+        "Looks like it's time to move on!",
+        "Cover me while we regroup!",
+        "All hands retreat!"
       ]
     },
     {
       "name": "Nikho Tambolo",
       "name_sortable": "nikhotambolo",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Provisioner",
       "locations": [
         "-25,1,155"
@@ -632,6 +741,12 @@
     {
       "name": "Sali Va`ah",
       "name_sortable": "salivaah",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-33.97,1.04,155.46"
       ],
@@ -809,6 +924,12 @@
     {
       "name": "a union mender Local 858",
       "name_sortable": "unionmenderlocal858",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
       "level": 8,
       "locations": [
         "-91,1,20",

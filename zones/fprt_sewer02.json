@@ -25,6 +25,12 @@
       "level": 20,
       "locations": [
         "-271,0,140"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1968300802 -935180340:reptile meat\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -42,6 +48,12 @@
     {
       "name": "Cicero Puer",
       "name_sortable": "ciceropuer",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-202,0,149",
         "-197.2,0.69,95.66"
@@ -71,7 +83,9 @@
         "-19.45,1.00,86.75",
         "-19.72,0.75,65.42",
         "-143.17,-1.21,25.10",
-        "-180.64,0.84,92.10"
+        "-180.64,0.84,92.10",
+        "2.79,0.65,-135.35",
+        "-29.51,0.78,72.81"
       ],
       "utterances": [
         "Looks like it's time to move on!",
@@ -108,10 +122,14 @@
         {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
         }
       ],
-      "drop_coin_min": 21,
-      "drop_coin_max": 34
+      "drop_coin_min": 16,
+      "drop_coin_max": 252
     },
     {
       "name": "a crazed mender",
@@ -306,7 +324,8 @@
         "-165.57,0.01,-27.21",
         "-209.32,0.00,67.96",
         "-198.10,0.09,87.08",
-        "-252.69,0.00,59.02"
+        "-252.69,0.00,59.02",
+        "-40.00,0.00,-38.16"
       ],
       "drops": [
         {
@@ -338,7 +357,8 @@
       "locations": [
         "-268,0,-7",
         "-268.73,1.22,-22.86",
-        "-216.42,0.00,37.16"
+        "-216.42,0.00,37.16",
+        "-268.73,1.19,-12.16"
       ],
       "utterances": [
         "Take my secrets to my grave I shall.",
@@ -353,11 +373,14 @@
       "locations": [
         "-250,1,-12",
         "-248.56,1.00,-17.16",
-        "-238.18,1.00,10.09"
+        "-238.18,1.00,10.09",
+        "-237.60,1.00,3.85",
+        "-235.71,1.00,-18.77"
       ],
       "utterances": [
         "Greetings, friend. How would you like to die, friend?",
-        "Take my secrets to my grave I shall."
+        "Take my secrets to my grave I shall.",
+        "Being sneaky isn't very nice."
       ],
       "drops": [
         {
@@ -487,7 +510,9 @@
         "-247.15,-0.21,126.97",
         "-261.60,-1.22,117.63",
         "-257.92,-0.21,112.00",
-        "-253.31,1.41,103.08"
+        "-253.31,1.41,103.08",
+        "-211.86,0.00,113.89",
+        "-234.33,-0.21,126.75"
       ],
       "drops": [
         {

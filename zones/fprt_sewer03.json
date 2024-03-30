@@ -27,8 +27,8 @@
     {
       "name": "Bendik Jonkers",
       "name_sortable": "bendikjonkers",
-      "race": "gnome",
-      "gender": "male",
+      "race": ["gnome"],
+      "gender": ["male"],
       "locations": [
         "138.39,31.31,-104.86"
       ],
@@ -694,7 +694,7 @@
     {
       "name": "Pestilence",
       "name_sortable": "pestilence",
-      "race": "human",
+      "race": ["human"],
       "level": 25,
       "locations": [
         "112.06,32.55,57.36"

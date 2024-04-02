@@ -54,6 +54,8 @@
     {
       "name": "a debris scavenger",
       "name_sortable": "debrisscavenger",
+      "level": 14,
+      "difficulty": "heroic^^",
       "locations": [
         "-35.50,-14.12,-108.76",
         "-59.11,-12.69,-119.34",
@@ -63,6 +65,9 @@
     {
       "name": "a dervish cutthroat",
       "name_sortable": "dervishcutthroat",
+      "level": 17,
+      "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "-109.40,-51.31,-63.38"
       ],
@@ -79,6 +84,9 @@
     {
       "name": "Druhdak Shin`Ree",
       "name_sortable": "druhdakshinree",
+      "level": 15,
+      "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-66.86,-51.72,-178.47"
       ]
@@ -86,6 +94,9 @@
     {
       "name": "Garreg Stonecrusher",
       "name_sortable": "garregstonecrusher",
+      "level": 15,
+      "difficulty": "heroic",
+      "aggressive": true,
       "utterances": [
         "A spy is in our midst, kill them!",
         "Full retreat!  Regroup in the caves!"
@@ -94,6 +105,9 @@
     {
       "name": "a hoard hound",
       "name_sortable": "hoardhound",
+      "level": 15,
+      "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-42.39,-33.11,-92.70",
         "-42.73,-33.11,-85.40",
@@ -111,6 +125,9 @@
     {
       "name": "Kyllik the Fated",
       "name_sortable": "kyllikthefated",
+      "level": 17,
+      "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-125.16,-50.75,-61.78"
       ],
@@ -128,6 +145,9 @@
     {
       "name": "a loyal attendant",
       "name_sortable": "loyalattendant",
+      "level": 17,
+      "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "-119.68,-50.75,-62.28",
         "-125.30,-50.75,-52.67"
@@ -149,6 +169,8 @@
     {
       "name": "a lurid crawler",
       "name_sortable": "luridcrawler",
+      "level": 13,
+      "aggressive": true,
       "locations": [
         "-36.69,-3.97,-16.05",
         "-43.68,-3.78,-25.05",
@@ -166,6 +188,8 @@
     {
       "name": "a lurid creeper",
       "name_sortable": "luridcreeper",
+      "level": 14,
+      "aggressive": true,
       "locations": [
         "36.24,-14.11,-62.04",
         "26.46,-14.13,-64.92",
@@ -184,6 +208,9 @@
     {
       "name": "a lurid feeder",
       "name_sortable": "luridfeeder",
+      "level": 15,
+      "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "52.09,-13.13,-19.39",
         "51.85,-13.69,-24.99"
@@ -198,6 +225,9 @@
     {
       "name": "a lurid ripper",
       "name_sortable": "luridripper",
+      "level": 14,
+      "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "36.14,-15.45,-29.45",
         "53.49,-14.18,-29.37"
@@ -212,6 +242,9 @@
     {
       "name": "a lurid shadowlurker",
       "name_sortable": "luridshadowlurker",
+      "level": 17,
+      "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-214.52,-47.00,-79.97",
         "-202.54,-46.56,-84.96",
@@ -228,6 +261,8 @@
     {
       "name": "Mess Sergeant Slogg",
       "name_sortable": "messsergeantslogg",
+      "level": 16,
+      "difficulty": "heroic^^^",
       "locations": [
         "-45.08,-26.34,-43.89"
       ],
@@ -242,6 +277,7 @@
     {
       "name": "a primordial menace",
       "name_sortable": "primordialmenace",
+      "level": 14,
       "locations": [
         "9.64,-10.94,-70.80",
         "9.67,-12.11,-77.78",
@@ -261,6 +297,7 @@
     {
       "name": "a primordial seep",
       "name_sortable": "primordialseep",
+      "level": 13,
       "locations": [
         "-12.04,-7.37,-50.89",
         "-28.56,-5.74,-61.25",
@@ -276,6 +313,9 @@
     {
       "name": "Punisher Kharg",
       "name_sortable": "punisherkharg",
+      "level": 16,
+      "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-69.90,-26.34,-7.53"
       ],
@@ -298,6 +338,9 @@
     {
       "name": "a raider of Ree",
       "name_sortable": "raiderofree",
+      "level": 16,
+      "difficulty": "heroicvv",
+      "aggressive": true,
       "locations": [
         "-54.45,-13.64,-110.29",
         "-56.09,-13.64,-123.93",
@@ -325,6 +368,9 @@
     {
       "name": "a raid leader",
       "name_sortable": "raidleader",
+      "level": 17,
+      "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "-110.40,-51.31,-60.26"
       ],
@@ -339,6 +385,9 @@
     {
       "name": "a raid schemer",
       "name_sortable": "raidschemer",
+      "level": 17,
+      "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "-104.23,-51.31,-57.76"
       ],
@@ -359,6 +408,9 @@
     {
       "name": "a Ree armorer",
       "name_sortable": "reearmorer",
+      "level": 15,
+      "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-63.43,-33.15,-97.13",
         "-73.55,-33.15,-81.68",
@@ -377,6 +429,9 @@
     {
       "name": "a Ree channeler",
       "name_sortable": "reechanneler",
+      "level": 16,
+      "difficulty": "heroicvv",
+      "aggressive": true,
       "locations": [
         "-97.22,-33.26,-141.64",
         "-110.36,-33.32,-136.34"
@@ -398,6 +453,9 @@
     {
       "name": "a Ree defender",
       "name_sortable": "reedefender",
+      "level": 15,
+      "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-37.95,-26.34,-16.33",
         "-41.74,-26.34,-21.68",
@@ -440,6 +498,9 @@
     {
       "name": "a Ree jailer",
       "name_sortable": "reejailer",
+      "level": 16,
+      "difficulty": "heroic^^",
+      "aggressive": true,
       "locations": [
         "-68.90,-26.34,-17.54",
         "-72.78,-26.34,-7.46",
@@ -476,6 +537,9 @@
     {
       "name": "a Ree protector",
       "name_sortable": "reeprotector",
+      "level": 16,
+      "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "-60.81,-33.15,-86.10",
         "-86.27,-48.57,-52.00",
@@ -507,6 +571,9 @@
     {
       "name": "a Ree recruit",
       "name_sortable": "reerecruit",
+      "level": 15,
+      "difficulty": "heroic^",
+      "aggressive": true,
       "locations": [
         "-34.82,-26.34,-4.90",
         "-47.50,-26.34,-8.98",
@@ -539,6 +606,9 @@
     {
       "name": "a Ree spiritkeeper",
       "name_sortable": "reespiritkeeper",
+      "level": 16,
+      "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-163.98,-55.56,-32.12",
         "-179.31,-56.21,-38.25",
@@ -567,6 +637,9 @@
     {
       "name": "a Ree steelworker",
       "name_sortable": "reesteelworker",
+      "level": 16,
+      "difficulty": "heroicvv",
+      "aggressive": true,
       "locations": [
         "-110.36,-33.32,-136.34",
         "-100.65,-33.28,-142.86",
@@ -585,6 +658,9 @@
     {
       "name": "a Ree underguard",
       "name_sortable": "reeunderguard",
+      "level": 17,
+      "difficulty": "heroic^^",
+      "aggressive": true,
       "locations": [
         "-96.39,-50.75,-44.92",
         "-106.30,-50.75,-46.99",
@@ -634,6 +710,9 @@
     {
       "name": "a Ree weaponsmith",
       "name_sortable": "reeweaponsmith",
+      "level": 15,
+      "difficulty": "heroicv",
+      "aggressive": true,
       "locations": [
         "-104.00,-33.29,-141.27"
       ],
@@ -648,6 +727,9 @@
     {
       "name": "a scout of Ree",
       "name_sortable": "scoutofree",
+      "level": 14,
+      "difficulty": "heroic^",
+      "aggressive": true,
       "locations": [
         "3.04,-15.09,-112.40",
         "-4.85,-15.10,-114.97",
@@ -667,6 +749,9 @@
     {
       "name": "a sentry of Ree",
       "name_sortable": "sentryofree",
+      "level": 15,
+      "difficulty": "heroic^^",
+      "aggressive": true,
       "locations": [
         "-50.19,-14.91,-147.67",
         "-73.87,-13.81,-169.14",
@@ -723,14 +808,11 @@
       ]
     },
     {
-      "name": "a Shin",
-      "name_sortable": "shin",
-      "drop_coin_min": 17,
-      "drop_coin_max": 166
-    },
-    {
       "name": "a Shin`Ree aggressor",
       "name_sortable": "shinreeaggressor",
+      "level": 15,
+      "difficulty": "heroic^",
+      "aggressive": true,
       "locations": [
         "-59.36,-51.80,-161.05",
         "-65.28,-51.79,-174.70",
@@ -746,6 +828,8 @@
     {
       "name": "a Shin`Ree apprentice",
       "name_sortable": "shinreeapprentice",
+      "level": 13,
+      "aggressive": true,
       "locations": [
         "-24.02,-5.12,-28.57",
         "-45.58,-3.74,-42.91",
@@ -762,6 +846,9 @@
     {
       "name": "a Shin`Ree augur",
       "name_sortable": "shinreeaugur",
+      "level": 15,
+      "difficulty": "heroicv",
+      "aggressive": true,
       "locations": [
         "-64.00,-51.75,-177.02",
         "-69.59,-51.81,-156.57",
@@ -775,6 +862,8 @@
     {
       "name": "a Shin`Ree avenger",
       "name_sortable": "shinreeavenger",
+      "level": 14,
+      "aggressive": true,
       "locations": [
         "-1.96,-7.77,-64.66",
         "3.92,-9.46,-67.42",
@@ -792,6 +881,9 @@
     {
       "name": "a Shin`Ree pawn",
       "name_sortable": "shinreepawn",
+      "level": 13,
+      "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "-36.77,-3.75,-22.14",
         "-34.01,-4.77,-37.61",
@@ -806,6 +898,9 @@
     {
       "name": "a Shin'Ree spirit",
       "name_sortable": "shinreespirit",
+      "level": 17,
+      "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-177.12,-57.47,-27.02",
         "-188.97,-57.49,-19.24",
@@ -821,6 +916,8 @@
     {
       "name": "a Shin`Ree spiritist",
       "name_sortable": "shinreespiritist",
+      "level": 14,
+      "aggressive": true,
       "locations": [
         "-0.73,-7.81,-60.97",
         "34.84,-14.05,-89.57",
@@ -836,6 +933,9 @@
     {
       "name": "a Shin`Ree stalker",
       "name_sortable": "shinreestalker",
+      "level": 15,
+      "difficulty": "heroicv",
+      "aggressive": true,
       "locations": [
         "-67.95,-51.82,-174.02",
         "-69.99,-51.81,-163.93",
@@ -849,6 +949,7 @@
     {
       "name": "a spectral shriller",
       "name_sortable": "spectralshriller",
+      "level": 14,
       "locations": [
         "-37.65,-2.91,-18.78",
         "-51.55,-0.42,-36.00",
@@ -875,6 +976,9 @@
     {
       "name": "a storeroom laborer",
       "name_sortable": "storeroomlaborer",
+      "level": 15,
+      "difficulty": "heroic^",
+      "aggressive": true,
       "locations": [
         "-35.85,-33.11,-96.36",
         "-43.70,-33.11,-89.41",
@@ -911,6 +1015,9 @@
     {
       "name": "a strongbox deceiver",
       "name_sortable": "strongboxdeceiver",
+      "level": 15,
+      "difficulty": "heroic^^",
+      "aggressive": true,
       "locations": [
         "-58.15,-12.55,-124.69",
         "-49.94,-13.51,-122.44",

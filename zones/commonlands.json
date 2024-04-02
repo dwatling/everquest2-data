@@ -153,29 +153,72 @@
     {
       "name": "a Blackshield assassin",
       "name_sortable": "blackshieldassassin",
+      "level": 14,
       "locations": [
         "-406.32,-47.76,-817.65",
         "-475.9,-48.04,-762.51",
         "-472.14,-48.04,-769.79",
-        "-475.58,-47.38,-721.1"
+        "-475.58,-47.38,-721.1",
+        "-518.08,-48.04,-808.45",
+        "-441.52,-48.04,-817.11",
+        "-418.42,-47.98,-789.01",
+        "-462.67,-48.04,-791.77",
+        "-485.77,-48.04,-753.88",
+        "-500.63,-48.04,-774.76",
+        "-463.99,-47.79,-733.65",
+        "-439.46,-47.75,-722.42",
+        "-471.05,-47.01,-708.03",
+        "-483.80,-47.31,-695.43",
+        "-501.53,-46.98,-737.34",
+        "-455.60,-47.31,-716.61",
+        "-496.57,-47.80,-699.59"
       ],
       "utterances": [
         "To arms!",
         "Prepare to face your doom, meddler.",
         "Cover me while we regroup!",
-        "Summon help!  We have invaders!"
+        "Summon help!  We have invaders!",
+        "All hands retreat!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
       ],
       "drop_coin_min": 20,
-      "drop_coin_max": 25
+      "drop_coin_max": 41,
+      "faction_changes": [
+        {
+          "name": "The Blackshield Smugglers",
+          "name_sortable": "blackshieldsmugglers",
+          "value": -100
+        }
+      ]
     },
     {
       "name": "a Blackshield brute",
       "name_sortable": "blackshieldbrute",
+      "level": 15,
       "locations": [
         "-372.42,-50.36,-861.81",
         "-370.04,-50.64,-869.68",
         "-407.48,-47.88,-855.51",
-        "-419.88,-47.98,-856.84"
+        "-419.88,-47.98,-856.84",
+        "-384.39,-48.35,-855.28"
+      ],
+      "utterances": [
+        "Prepare to face your doom, meddler.",
+        "All hands retreat!",
+        "Cover me while we regroup!",
+        "You must flee!  I'll try to hold them."
+      ],
+      "faction_changes": [
+        {
+          "name": "The Blackshield Smugglers",
+          "name_sortable": "blackshieldsmugglers",
+          "value": -100
+        }
       ]
     },
     {
@@ -215,8 +258,21 @@
     {
       "name": "a Blackshield smuggler",
       "name_sortable": "blackshieldsmuggler",
+      "level": 15,
       "locations": [
-        "-409.98,-47.84,-847.62"
+        "-409.98,-47.84,-847.62",
+        "-375.62,-53.08,-877.80"
+      ],
+      "utterances": [
+        "Cover me while we regroup!",
+        "All hands retreat!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Blackshield Smugglers",
+          "name_sortable": "blackshieldsmugglers",
+          "value": -100
+        }
       ]
     },
     {
@@ -237,6 +293,7 @@
     {
       "name": "a black wolf",
       "name_sortable": "blackwolf",
+      "level": 14,
       "locations": [
         "-474.24,-46.82,-702.09",
         "-486.45,-47.48,-698.58",
@@ -246,7 +303,34 @@
         "-447.52,-47.8,-526.13",
         "-405.96,-46.74,-471.68",
         "-351.82,-45.48,-432.37",
-        "-378.67,-43.28,-432.65"
+        "-378.67,-43.28,-432.65",
+        "-487.45,-48.04,-751.40",
+        "-479.49,-47.07,-711.06",
+        "-469.95,-47.20,-714.43",
+        "-457.04,-46.70,-694.76",
+        "-415.70,-47.36,-715.14",
+        "-394.24,-48.04,-751.40",
+        "-454.80,-47.57,-725.36",
+        "-475.43,-48.04,-756.43",
+        "-508.85,-45.64,-732.07",
+        "-493.99,-47.54,-679.59",
+        "-486.20,-46.72,-673.47",
+        "-507.08,-46.09,-667.05",
+        "-503.81,-44.72,-605.3",
+        "-459.01,-46.43,-563.41",
+        "-465.27,-46.27,-554.95",
+        "-507.08,-46.07,-639.57",
+        "-471.53,-47.55,-593.57",
+        "-394.33,-46.72,-462.92",
+        "-383.15,-46.17,-447.57",
+        "-361.17,-44.47,-428.39",
+        "-455.5,-45.76,-522.92"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1024480043 347122643:canine saliva\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -657,15 +741,19 @@
     {
       "name": "Captain Garglass",
       "name_sortable": "captaingarglass",
+      "level": 14,
+      "difficulty": "heroic^^",
       "locations": [
         "-353.38,-47.62,-788.01",
         "-305.98,-47.81,-752.46",
         "-318.2,-48.04,-791.79",
-        "-354.76,-47.98,-799.5"
+        "-354.76,-47.98,-799.5",
+        "-338.90,-44.71,-757.47"
       ],
       "utterances": [
         "You made your final mistake.",
-        "It's only a minor setback."
+        "It's only a minor setback.",
+        "There can be no end to us. "
       ],
       "drops": [
         {
@@ -1199,6 +1287,33 @@
       ]
     },
     {
+      "name": "a duststinger",
+      "name_sortable": "duststinger",
+      "level": 11,
+      "locations": [
+        "-911.62,-79.90,-617.30",
+        "-896.28,-78.85,-614.57",
+        "-861.87,-77.21,-604.92",
+        "-859.86,-77.20,-588.58",
+        "-882.93,-77.21,-591.93",
+        "-877.55,-77.21,-602.25",
+        "-791.68,-78.45,-628.89",
+        "-792.03,-76.24,-660.09",
+        "-772.68,-66.33,-696.81",
+        "-794.08,-71.39,-691.02",
+        "-761.21,-71.17,-634.61",
+        "-738.30,-59.94,-667.09",
+        "-714.90,-55.28,-678.89",
+        "-695.27,-54.93,-655.00"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1396990207 -1815344834:manticore meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "a dusty cadaver",
       "name_sortable": "dustycadaver",
       "drops": [
@@ -1242,10 +1357,12 @@
     {
       "name": "an elephant",
       "name_sortable": "elephant",
+      "level": 14,
       "locations": [
         "-302.87,-47.58,-518.6",
         "-274.84,-47.77,-523.69",
-        "-265.95,-47.31,-555.7"
+        "-265.95,-47.31,-555.7",
+        "-395.65,-45.46,-524.75"
       ]
     },
     {
@@ -1948,8 +2065,7 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM -827043034 514388817:a goblin's notebook - The Hideout\\/a",
-          "price": 4000
+          "gamelink": "\\aITEM -827043034 514388817:a goblin's notebook - The Hideout\\/a"
         }
       ]
     },
@@ -1997,44 +2113,34 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM 2121963653 348813561:an old key\\/a",
-          "price": 6400
+          "gamelink": "\\aITEM 2121963653 348813561:an old key\\/a"
         },
         {
-          "gamelink": "\\aITEM 1618656513 -631993083:Antonia Ale (Alcoholic)\\/a",
-          "price": 500
+          "gamelink": "\\aITEM 1618656513 -631993083:Antonia Ale (Alcoholic)\\/a"
         },
         {
-          "gamelink": "\\aITEM 502648298 -366828437:canteen of pond water\\/a",
-          "price": 38
+          "gamelink": "\\aITEM 502648298 -366828437:canteen of pond water\\/a"
         },
         {
-          "gamelink": "\\aITEM 1281187795 -495418410:Dwarven Ale (Alcoholic)\\/a",
-          "price": 2500
+          "gamelink": "\\aITEM 1281187795 -495418410:Dwarven Ale (Alcoholic)\\/a"
         },
         {
-          "gamelink": "\\aITEM -692542167 450719094:Elven Wine (Alcoholic)\\/a",
-          "price": 3000
+          "gamelink": "\\aITEM -692542167 450719094:Elven Wine (Alcoholic)\\/a"
         },
         {
-          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a",
-          "price": 19
+          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a"
         },
         {
-          "gamelink": "\\aITEM 1608751314 -1346962995:Gnomish Spirits (Alcoholic)\\/a",
-          "price": 3500
+          "gamelink": "\\aITEM 1608751314 -1346962995:Gnomish Spirits (Alcoholic)\\/a"
         },
         {
-          "gamelink": "\\aITEM -1424677497 801220853:Lucan's Lager (Alcoholic)\\/a",
-          "price": 500
+          "gamelink": "\\aITEM -1424677497 801220853:Lucan's Lager (Alcoholic)\\/a"
         },
         {
-          "gamelink": "\\aITEM 1199073772 520539661:Oggok Swill (Alcoholic)\\/a",
-          "price": 5000
+          "gamelink": "\\aITEM 1199073772 520539661:Oggok Swill (Alcoholic)\\/a"
         },
         {
-          "gamelink": "\\aITEM 1383852152 -1014417461:Teir'dal Blood Wine (Alcoholic)\\/a",
-          "price": 4500
+          "gamelink": "\\aITEM 1383852152 -1014417461:Teir'dal Blood Wine (Alcoholic)\\/a"
         }
       ]
     },
@@ -2120,6 +2226,22 @@
       ],
       "drop_coin_min": 343,
       "drop_coin_max": 343
+    },
+    {
+      "name": "Kurzol Bonegnash",
+      "name_sortable": "kurzolbonegnash",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-628.67,-49.53,-668.12"
+      ],
+      "utterances": [
+        "You ever ridez bovoch, instead of eatin' it?"
+      ]
     },
     {
       "name": "Lady Anyanka Polevshi",
@@ -2272,72 +2394,55 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM 1659182822 2099621516:a torch\\/a",
-          "price": 60
+          "gamelink": "\\aITEM 1659182822 2099621516:a torch\\/a"
         },
         {
-          "gamelink": "\\aITEM 2037451968 -1554449979:Acidic Goo\\/a",
-          "price": 144
+          "gamelink": "\\aITEM 2037451968 -1554449979:Acidic Goo\\/a"
         },
         {
-          "gamelink": "\\aITEM 2084246562 -626331382:Acidic Massage\\/a",
-          "price": 144
+          "gamelink": "\\aITEM 2084246562 -626331382:Acidic Massage\\/a"
         },
         {
-          "gamelink": "\\aITEM -1134242107 -1996491909:Anti-Venin\\/a",
-          "price": 72
+          "gamelink": "\\aITEM -1134242107 -1996491909:Anti-Venin\\/a"
         },
         {
-          "gamelink": "\\aITEM -690121607 1202074247:Blight of the Eventide\\/a",
-          "price": 144
+          "gamelink": "\\aITEM -690121607 1202074247:Blight of the Eventide\\/a"
         },
         {
-          "gamelink": "\\aITEM 398705441 134851183:Caress of the Phantom\\/a",
-          "price": 144
+          "gamelink": "\\aITEM 398705441 134851183:Caress of the Phantom\\/a"
         },
         {
-          "gamelink": "\\aITEM 1021041208 -1438464221:Crypt Sludge\\/a",
-          "price": 144
+          "gamelink": "\\aITEM 1021041208 -1438464221:Crypt Sludge\\/a"
         },
         {
-          "gamelink": "\\aITEM -278086179 1135729178:Elemental Ointment\\/a",
-          "price": 72
+          "gamelink": "\\aITEM -278086179 1135729178:Elemental Ointment\\/a"
         },
         {
-          "gamelink": "\\aITEM -708906406 -399850333:Enigmatic Formula\\/a",
-          "price": 72
+          "gamelink": "\\aITEM -708906406 -399850333:Enigmatic Formula\\/a"
         },
         {
-          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a",
-          "price": 19
+          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a"
         },
         {
-          "gamelink": "\\aITEM 621368354 1922001657:Gust of Insight\\/a",
-          "price": 72
+          "gamelink": "\\aITEM 621368354 1922001657:Gust of Insight\\/a"
         },
         {
-          "gamelink": "\\aITEM -1347014509 -1543938383:plain bread\\/a",
-          "price": 19
+          "gamelink": "\\aITEM -1347014509 -1543938383:plain bread\\/a"
         },
         {
-          "gamelink": "\\aITEM 1220255882 166959947:Potion of Earthwalking\\/a",
-          "price": 0
+          "gamelink": "\\aITEM 1220255882 166959947:Potion of Earthwalking\\/a"
         },
         {
-          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a",
-          "price": 81
+          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a"
         },
         {
-          "gamelink": "\\aITEM 1570285900 1124058293:Remedy of the Field\\/a",
-          "price": 72
+          "gamelink": "\\aITEM 1570285900 1124058293:Remedy of the Field\\/a"
         },
         {
-          "gamelink": "\\aITEM -763453791 -1701345003:Salve\\/a",
-          "price": 72
+          "gamelink": "\\aITEM -763453791 -1701345003:Salve\\/a"
         },
         {
-          "gamelink": "\\aITEM -182855303 1419465232:softly glowing pearl\\/a",
-          "price": 18000
+          "gamelink": "\\aITEM -182855303 1419465232:softly glowing pearl\\/a"
         }
       ]
     },
@@ -2426,6 +2531,15 @@
       "name_sortable": "mindblasterkander",
       "utterances": [
         "Rock on! NOSTALGIA!!"
+      ]
+    },
+    {
+      "name": "a mith deer",
+      "name_sortable": "mithdeer",
+      "level": 11,
+      "locations": [
+        "-738.21,-61.08,-699.35",
+        "-624.40,-49.51,-677.80"
       ]
     },
     {
@@ -3045,6 +3159,38 @@
     {
       "name": "a Shin`Ree avenger",
       "name_sortable": "shinreeavenger",
+      "race": [
+        "human"
+      ],
+      "level": 13,
+      "locations": [
+        "-270.44,-37.82,-908.49",
+        "-241.98,-48.02,-877.21",
+        "-229.12,-48.04,-934.97",
+        "-255.24,-48.02,-954.32",
+        "-245.43,-46.91,-974.68",
+        "-303.58,-47.54,-997.16",
+        "-313.49,-47.13,-999.12",
+        "-319.79,-47.05,-985.26",
+        "-301.83,-47.00,-976.19",
+        "-327.63,-47.56,-970.70",
+        "-347.32,-48.05,-975.10",
+        "-353.71,-48.62,-968.11",
+        "-343.01,-49.13,-949.48",
+        "-372.21,-48.41,-970.19",
+        "-346.68,-47.53,-985.25",
+        "-324.64,-48.61,-920.59",
+        "-298.36,-47.82,-802.18",
+        "-288.01,-47.52,-802.06",
+        "-269.72,-47.25,-801.66",
+        "-236.87,-47.79,-802.15",
+        "-298.15,-48.04,-835.58",
+        "-283.93,-47.42,-761.98",
+        "-294.05,-48.04,-749.09",
+        "-271.29,-44.98,-771.97",
+        "-248.51,-48.03,-883.20",
+        "-212.00,-44.66,-893.60"
+      ],
       "utterances": [
         "The living wander too close.",
         "It's only a minor setback.",
@@ -3273,6 +3419,12 @@
     {
       "name": "Tiff Squeelunkle",
       "name_sortable": "tiffsqueelunkle",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-228.41,-44.82,-847.58"
       ],
@@ -3730,6 +3882,31 @@
         "-740.62,-47.43,-177.21",
         "-607.24,-49.87,-636.64"
       ]
+    },
+    {
+      "gamelink": "\\aITEM -686869063 2018792859:shattered barbarian bone fragment\\/a",
+      "locations": [
+        "-606.58,-49.00,-668.67"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1148412677 -1260596269:striped yellow ant\\/a",
+      "locations": [
+        "-287.11,-47.00,-879.03"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -947864952 157624624:cracked orc bone fragment\\/a",
+      "locations": [
+        "-263.61,-45.00,-956.66",
+        "-329.41,-47.00,-874.94"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 666527502 2081562652:striped black moth\\/a",
+      "locations": [
+        "-443.05,-47.00,-736.59"
+      ]
     }
   ],
   "resourceNodes": [
@@ -3742,8 +3919,16 @@
       "name_sortable": "clovenore"
     },
     {
+      "name": "the desert roots",
+      "name_sortable": "desertroots"
+    },
+    {
       "name": "the oasis shrubbery",
       "name_sortable": "oasisshrubbery"
+    },
+    {
+      "name": "the wind swept rock",
+      "name_sortable": "windsweptrock"
     }
   ]
 }

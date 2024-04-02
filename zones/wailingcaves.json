@@ -18,8 +18,30 @@
   ],
   "npcs": [
     {
+      "name": "Ariana Neovra",
+      "name_sortable": "ariananeovra",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-66.22,-26.34,-5.24"
+      ]
+    },
+    {
       "name": "Cog Burn",
       "name_sortable": "cogburn",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-3.38,0.37,-14.18"
+      ],
       "utterances": [
         "How fortunate for me!  More adventurers!  Whee!  Come now, come here.",
         "You're just in time!  Yes, yes, just in time to help me continue my research.  With the popping and smoke, poofing!  So, so very exciting!  All you have to do is fetch me the smashed remains of these undead orcs.",
@@ -27,6 +49,38 @@
         "Good, good!  I'm glad we agree. You fetch me what I need, and I'll see what I can do for you.  You can trust me ... can't you?  Oh, no matter.  ",
         "Marvelous!  Just fine, most satisfactory, absolutely acceptable.  Hmm!  Not bad even ... What?  What is it?  What are you looking at!? ",
         "Hello again! Lovely day for a bit of doom, wouldn't you say?"
+      ]
+    },
+    {
+      "name": "a debris scavenger",
+      "name_sortable": "debrisscavenger",
+      "locations": [
+        "-35.50,-14.12,-108.76",
+        "-59.11,-12.69,-119.34",
+        "-56.07,-13.61,-127.98"
+      ]
+    },
+    {
+      "name": "a dervish cutthroat",
+      "name_sortable": "dervishcutthroat",
+      "locations": [
+        "-109.40,-51.31,-63.38"
+      ],
+      "drop_coin_min": 16,
+      "drop_coin_max": 16,
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Druhdak Shin`Ree",
+      "name_sortable": "druhdakshinree",
+      "locations": [
+        "-66.86,-51.72,-178.47"
       ]
     },
     {
@@ -38,8 +92,70 @@
       ]
     },
     {
+      "name": "a hoard hound",
+      "name_sortable": "hoardhound",
+      "locations": [
+        "-42.39,-33.11,-92.70",
+        "-42.73,-33.11,-85.40",
+        "-79.10,-33.14,-89.85",
+        "-89.43,-33.14,-97.65"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Kyllik the Fated",
+      "name_sortable": "kyllikthefated",
+      "locations": [
+        "-125.16,-50.75,-61.78"
+      ],
+      "utterances": [
+        "I don't understand what happened!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a loyal attendant",
+      "name_sortable": "loyalattendant",
+      "locations": [
+        "-119.68,-50.75,-62.28",
+        "-125.30,-50.75,-52.67"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
       "name": "a lurid crawler",
       "name_sortable": "luridcrawler",
+      "locations": [
+        "-36.69,-3.97,-16.05",
+        "-43.68,-3.78,-25.05",
+        "-40.66,-3.75,-38.02",
+        "-18.95,-5.70,-54.59",
+        "-17.01,-6.06,-62.47"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
@@ -50,6 +166,14 @@
     {
       "name": "a lurid creeper",
       "name_sortable": "luridcreeper",
+      "locations": [
+        "36.24,-14.11,-62.04",
+        "26.46,-14.13,-64.92",
+        "26.25,-15.25,-50.19",
+        "34.06,-15.30,-49.48",
+        "33.64,-16.80,-42.77",
+        "36.68,-16.46,-36.31"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
@@ -58,12 +182,514 @@
       ]
     },
     {
+      "name": "a lurid feeder",
+      "name_sortable": "luridfeeder",
+      "locations": [
+        "52.09,-13.13,-19.39",
+        "51.85,-13.69,-24.99"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a lurid ripper",
+      "name_sortable": "luridripper",
+      "locations": [
+        "36.14,-15.45,-29.45",
+        "53.49,-14.18,-29.37"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a lurid shadowlurker",
+      "name_sortable": "luridshadowlurker",
+      "locations": [
+        "-214.52,-47.00,-79.97",
+        "-202.54,-46.56,-84.96",
+        "-210.24,-42.44,-102.14",
+        "-228.47,-40.33,-104.17"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Mess Sergeant Slogg",
+      "name_sortable": "messsergeantslogg",
+      "locations": [
+        "-45.08,-26.34,-43.89"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
       "name": "a primordial menace",
       "name_sortable": "primordialmenace",
+      "locations": [
+        "9.64,-10.94,-70.80",
+        "9.67,-12.11,-77.78",
+        "14.47,-13.50,-86.61"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 2038039599 -1763622889:a mucous encrusted tendril\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1700581584 -1564337946:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a primordial seep",
+      "name_sortable": "primordialseep",
+      "locations": [
+        "-12.04,-7.37,-50.89",
+        "-28.56,-5.74,-61.25",
+        "-17.71,-6.46,-64.44"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1700581584 -1564337946:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Punisher Kharg",
+      "name_sortable": "punisherkharg",
+      "locations": [
+        "-69.90,-26.34,-7.53"
+      ],
+      "drop_coin_min": 20,
+      "drop_coin_max": 20,
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a raider of Ree",
+      "name_sortable": "raiderofree",
+      "locations": [
+        "-54.45,-13.64,-110.29",
+        "-56.09,-13.64,-123.93",
+        "-105.96,-33.30,-139.50",
+        "-54.48,-26.34,-43.27",
+        "-60.80,-26.34,-39.65"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 41,
+      "drop_coin_max": 41,
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a raid leader",
+      "name_sortable": "raidleader",
+      "locations": [
+        "-110.40,-51.31,-60.26"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a raid schemer",
+      "name_sortable": "raidschemer",
+      "locations": [
+        "-104.23,-51.31,-57.76"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Ree armorer",
+      "name_sortable": "reearmorer",
+      "locations": [
+        "-63.43,-33.15,-97.13",
+        "-73.55,-33.15,-81.68",
+        "-68.46,-33.15,-102.17"
+      ],
+      "drop_coin_min": 21,
+      "drop_coin_max": 21,
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Ree channeler",
+      "name_sortable": "reechanneler",
+      "locations": [
+        "-97.22,-33.26,-141.64"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Ree defender",
+      "name_sortable": "reedefender",
+      "locations": [
+        "-37.95,-26.34,-16.33",
+        "-41.74,-26.34,-21.68",
+        "-43.75,-33.11,-70.43",
+        "-39.08,-33.11,-63.75",
+        "-40.32,-33.11,-48.70",
+        "-26.03,-29.98,-32.05",
+        "-40.71,-26.34,-30.74",
+        "-47.55,-26.34,-23.49",
+        "-25.49,-33.11,-46.30"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1328289081 -1699088314:an orc spine\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 17,
+      "drop_coin_max": 26,
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Ree jailer",
+      "name_sortable": "reejailer",
+      "locations": [
+        "-68.90,-26.34,-17.54",
+        "-72.78,-26.34,-7.46"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 40,
+      "drop_coin_max": 40,
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Ree protector",
+      "name_sortable": "reeprotector",
+      "locations": [
+        "-60.81,-33.15,-86.10",
+        "-86.27,-48.57,-52.00",
+        "-66.52,-39.81,-70.31",
+        "-56.71,-39.81,-63.33",
+        "-69.17,-39.81,-63.54",
+        "-59.36,-39.81,-70.49"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 26,
+      "drop_coin_max": 32,
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Ree recruit",
+      "name_sortable": "reerecruit",
+      "locations": [
+        "-34.82,-26.34,-4.90",
+        "-47.50,-26.34,-8.98",
+        "-32.58,-26.34,-9.99"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 27,
+      "drop_coin_max": 36,
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Ree spiritkeeper",
+      "name_sortable": "reespiritkeeper",
+      "locations": [
+        "-163.98,-55.56,-32.12",
+        "-179.31,-56.21,-38.25",
+        "-184.46,-55.43,-5.91"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -245200041 58246959:an old dagger\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 17,
+      "drop_coin_max": 17,
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Ree steelworker",
+      "name_sortable": "reesteelworker",
+      "locations": [
+        "-110.36,-33.32,-136.34",
+        "-100.65,-33.28,-142.86"
+      ],
+      "drop_coin_min": 25,
+      "drop_coin_max": 25,
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Ree underguard",
+      "name_sortable": "reeunderguard",
+      "locations": [
+        "-96.39,-50.75,-44.92",
+        "-106.30,-50.75,-46.99",
+        "-134.09,-50.75,-46.07",
+        "-134.10,-50.75,-74.27",
+        "-96.47,-50.75,-75.10",
+        "-143.01,-51.80,-58.89",
+        "-205.95,-53.60,2.69",
+        "-240.81,-49.72,-21.90",
+        "-234.25,-49.84,-26.33",
+        "-232.00,-50.04,-50.37",
+        "-266.27,-49.63,-36.96",
+        "-224.04,-48.01,-71.34"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -783499979 1684659895:a ring blank\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2096053587 1975965991:intricate metal bowl\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 17,
+      "drop_coin_max": 18,
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Ree weaponsmith",
+      "name_sortable": "reeweaponsmith",
+      "locations": [
+        "-104.00,-33.29,-141.27"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a scout of Ree",
+      "name_sortable": "scoutofree",
+      "locations": [
+        "3.04,-15.09,-112.40",
+        "-4.85,-15.10,-114.97",
+        "-24.14,-14.52,-119.30",
+        "-74.89,-14.09,-166.18"
+      ],
+      "drop_coin_min": 20,
+      "drop_coin_max": 20,
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a sentry of Ree",
+      "name_sortable": "sentryofree",
+      "locations": [
+        "-50.19,-14.91,-147.67",
+        "-73.87,-13.81,-169.14",
+        "-53.29,-14.53,-197.44",
+        "-46.90,-14.62,-197.95",
+        "-37.44,-20.51,-173.97",
+        "-50.16,-30.42,-154.06",
+        "-67.49,-37.13,-167.44",
+        "-58.71,-17.30,-210.87",
+        "-58.70,-17.36,-217.35",
+        "-97.47,-17.42,-217.24",
+        "-96.41,-19.60,-193.61",
+        "-90.61,-23.25,-175.93",
+        "-97.62,-23.82,-174.22",
+        "-88.50,-30.62,-142.33",
+        "-89.48,-28.97,-151.60",
+        "-66.71,-33.35,-114.32",
+        "-78.91,-33.27,-106.93",
+        "-100.53,-33.23,-114.87",
+        "-95.07,-33.19,-119.26",
+        "-39.41,-33.35,-119.51"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 37,
+      "drop_coin_max": 37,
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
         }
       ]
     },
@@ -74,16 +700,233 @@
       "drop_coin_max": 166
     },
     {
+      "name": "a Shin`Ree aggressor",
+      "name_sortable": "shinreeaggressor",
+      "locations": [
+        "-59.36,-51.80,-161.05",
+        "-65.28,-51.79,-174.70",
+        "-71.45,-51.79,-160.08",
+        "-51.41,-51.79,-182.24",
+        "-42.53,-51.78,-171.05"
+      ],
+      "utterances": [
+        "Steel and stone will break my bones, but death can never hurt me!",
+        "Do not let them end our immortality."
+      ]
+    },
+    {
+      "name": "a Shin`Ree apprentice",
+      "name_sortable": "shinreeapprentice",
+      "locations": [
+        "-24.02,-5.12,-28.57",
+        "-45.58,-3.74,-42.91",
+        "-54.55,-3.74,-22.15",
+        "-12.38,-6.60,-45.59",
+        "-22.62,-4.90,-67.78",
+        "-38.89,-4.68,-55.48"
+      ],
+      "utterances": [
+        "Steel and stone will break my bones, but death can never hurt me!",
+        "Do not let them end our immortality."
+      ]
+    },
+    {
+      "name": "a Shin`Ree augur",
+      "name_sortable": "shinreeaugur",
+      "locations": [
+        "-64.00,-51.75,-177.02",
+        "-69.59,-51.81,-156.57",
+        "-48.59,-51.86,-180.49"
+      ],
+      "utterances": [
+        "Steel and stone will break my bones, but death can never hurt me!",
+        "Do not let them end our immortality."
+      ]
+    },
+    {
+      "name": "a Shin`Ree avenger",
+      "name_sortable": "shinreeavenger",
+      "locations": [
+        "-1.96,-7.77,-64.66",
+        "3.92,-9.46,-67.42",
+        "21.53,-13.41,-82.20",
+        "43.22,-14.07,-79.16",
+        "50.25,-14.09,-80.19",
+        "34.53,-14.18,-67.86",
+        "-12.30,-14.89,-99.08"
+      ],
+      "utterances": [
+        "Steel and stone will break my bones, but death can never hurt me!",
+        "Do not let them end our immortality."
+      ]
+    },
+    {
+      "name": "a Shin`Ree pawn",
+      "name_sortable": "shinreepawn",
+      "locations": [
+        "-36.77,-3.75,-22.14",
+        "-34.01,-4.77,-37.61",
+        "-39.50,-3.68,-29.29",
+        "-19.59,-5.43,-69.97"
+      ],
+      "utterances": [
+        "Steel and stone will break my bones, but death can never hurt me!",
+        "Do not let them end our immortality."
+      ]
+    },
+    {
+      "name": "a Shin'Ree spirit",
+      "name_sortable": "shinreespirit",
+      "locations": [
+        "-177.12,-57.47,-27.02",
+        "-188.97,-57.49,-19.24",
+        "-168.02,-58.00,-4.99"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -704384670 1077323225:an ethereal nerve\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Shin`Ree spiritist",
+      "name_sortable": "shinreespiritist",
+      "locations": [
+        "-0.73,-7.81,-60.97",
+        "34.84,-14.05,-89.57",
+        "21.76,-14.47,-123.72",
+        "8.43,-14.47,-131.75",
+        "-15.19,-14.47,-101.47"
+      ],
+      "utterances": [
+        "Steel and stone will break my bones, but death can never hurt me!",
+        "Do not let them end our immortality."
+      ]
+    },
+    {
+      "name": "a Shin`Ree stalker",
+      "name_sortable": "shinreestalker",
+      "locations": [
+        "-67.95,-51.82,-174.02",
+        "-69.99,-51.81,-163.93",
+        "-45.48,-51.76,-181.48"
+      ],
+      "utterances": [
+        "Do not let them end our immortality.",
+        "Steel and stone will break my bones, but death can never hurt me!"
+      ]
+    },
+    {
+      "name": "a spectral shriller",
+      "name_sortable": "spectralshriller",
+      "locations": [
+        "-37.65,-2.91,-18.78",
+        "-51.55,-0.42,-36.00",
+        "-45.73,-1.93,-41.02",
+        "10.01,-13.22,-132.76",
+        "2.09,-12.50,-135.70",
+        "-0.56,-13.50,-95.88",
+        "-5.59,-12.78,-93.25",
+        "-16.33,-14.00,-119.65"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1784754982 -1802704099:a ghost emotion resonance\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 40,
+      "drop_coin_max": 320
+    },
+    {
+      "name": "a storeroom laborer",
+      "name_sortable": "storeroomlaborer",
+      "locations": [
+        "-35.85,-33.11,-96.36",
+        "-43.70,-33.11,-89.41",
+        "-86.43,-33.14,-99.53",
+        "-94.24,-33.14,-99.17",
+        "-85.56,-33.14,-84.34",
+        "-36.39,-33.11,-82.72",
+        "-47.10,-33.11,-95.15"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1051274710 851941877:a stylized dagger\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 19,
+      "drop_coin_max": 39,
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
       "name": "a strongbox deceiver",
       "name_sortable": "strongboxdeceiver",
+      "locations": [
+        "-58.15,-12.55,-124.69",
+        "-49.94,-13.51,-122.44",
+        "-49.51,-12.44,-132.23",
+        "-40.30,-13.54,-126.91",
+        "-47.57,-30.48,-105.62"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
       "drop_coin_min": 19,
       "drop_coin_max": 294
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -947864952 157624624:cracked orc bone fragment\\/a",
+      "locations": [
+        "-43.92,-2.50,-32.70"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -2111307785 -670906888:plain black beetle\\/a",
+      "locations": [
+        "-9.92,-14.00,-111.24"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1826682885 -703488576:weathered orc bone fragment\\/a",
+      "locations": [
+        "-42.66,-13.00,-129.19"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -389659555 1748141945:plain blue beetle\\/a",
+      "locations": [
+        "-93.16,-21.00,-181.09"
+      ]
     }
   ]
 }

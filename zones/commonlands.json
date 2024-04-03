@@ -64,6 +64,44 @@
   ],
   "npcs": [
     {
+      "name": "an advanced scout of Ree",
+      "name_sortable": "advancedscoutofree",
+      "level": 15,
+      "aggressive": true,
+      "locations": [
+        "68.88,-47.43,-755.89",
+        "72.61,-47.66,-747.97",
+        "72.78,-47.47,-764.49"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 29,
+      "drop_coin_max": 29,
+      "faction_changes": [
+        {
+          "name": "The Ree Orcs",
+          "name_sortable": "reeorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
       "name": "Aether Racing Referee",
       "name_sortable": "aetherracingreferee",
       "utterances": [
@@ -324,12 +362,28 @@
         "-394.33,-46.72,-462.92",
         "-383.15,-46.17,-447.57",
         "-361.17,-44.47,-428.39",
-        "-455.5,-45.76,-522.92"
+        "-455.5,-45.76,-522.92",
+        "-25.16,-48.04,-565.23",
+        "-55.80,-48.04,-555.93",
+        "-56.09,-48.04,-543.39",
+        "-49.28,-48.04,-544.89",
+        "-99.76,-47.69,-628.32",
+        "41.00,-47.99,-584.62",
+        "63.20,-45.34,-515.91",
+        "110.26,-48.04,-538.20",
+        "124.07,-48.04,-571.15",
+        "110.24,-48.04,-587.25",
+        "140.48,-48.04,-584.77",
+        "149.11,-48.04,-602.60"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 1024480043 347122643:canine saliva\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1294750651 -1669415379:a dull wedge\\/a",
+          "chest": true
         }
       ]
     },
@@ -1362,7 +1416,9 @@
         "-302.87,-47.58,-518.6",
         "-274.84,-47.77,-523.69",
         "-265.95,-47.31,-555.7",
-        "-395.65,-45.46,-524.75"
+        "-395.65,-45.46,-524.75",
+        "-137.48,-47.78,-774.66",
+        "-134.50,-47.83,-784.95"
       ]
     },
     {
@@ -1759,13 +1815,35 @@
     {
       "name": "a grunt of Ree",
       "name_sortable": "gruntofree",
+      "level": 15,
+      "aggressive": true,
       "locations": [
-        "92.95,-39.18,-852.3"
+        "92.95,-39.18,-852.3",
+        "-74.59,-48.03,-775.44",
+        "-41.69,-47.47,-775.20",
+        "-35.19,-46.11,-821.57",
+        "118.85,-42.96,-830.71",
+        "102.03,-47.92,-783.38",
+        "103.03,-47.25,-798.39",
+        "83.48,-47.86,-760.74",
+        "88.76,-48.03,-759.82"
       ],
       "utterances": [
         "Smash them!",
         "Full retreat!  Regroup in the caves!"
       ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 28,
+      "drop_coin_max": 37,
       "faction_changes": [
         {
           "name": "The Ree Orcs",
@@ -2518,6 +2596,18 @@
       ]
     },
     {
+      "name": "a mere guardian",
+      "name_sortable": "mereguardian",
+      "level": 16,
+      "aggressive": true,
+      "locations": [
+        "-0.98,-52.74,-699.35",
+        "-24.26,-52.74,-712.68",
+        "-32.56,-50.31,-614.24",
+        "-3.48,-50.99,-608.42"
+      ]
+    },
+    {
       "name": "a Militia guard",
       "name_sortable": "militiaguard",
       "locations": [
@@ -2773,6 +2863,33 @@
       ]
     },
     {
+      "name": "a patchcraft howler",
+      "name_sortable": "patchcrafthowler",
+      "locations": [
+        "325.45,-48.04,-606.34"
+      ]
+    },
+    {
+      "name": "a patchcraft keeper",
+      "name_sortable": "patchcraftkeeper",
+      "locations": [
+        "326.08,-48.04,-638.12"
+      ],
+      "utterances": [
+        "Hey, you hit me with something I want NOW!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -683627470 474706795:Amber Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2012937669 719397286:Fool's Gold Coin\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
       "name": "Petronax",
       "name_sortable": "petronax",
       "locations": [
@@ -2885,7 +3002,8 @@
       "name_sortable": "rhinoceros",
       "locations": [
         "332.05,-48.04,-574.94",
-        "342.72,-48.04,-630.17"
+        "342.72,-48.04,-630.17",
+        "518.72,-45.01,-571.35"
       ]
     },
     {
@@ -2927,9 +3045,65 @@
     {
       "name": "a rock lion",
       "name_sortable": "rocklion",
+      "level": 16,
       "locations": [
         "364.29,-46.01,-737.12",
-        "261.31,-44.86,-812.84"
+        "261.31,-44.86,-812.84",
+        "226.19,-49.25,-739.08",
+        "256.59,-48.49,-736.19",
+        "311.74,-45.66,-721.33",
+        "318.53,-45.29,-701.01",
+        "353.07,-46.01,-726.97",
+        "352.17,-46.11,-716.48",
+        "278.72,-47.55,-775.44",
+        "246.93,-47.88,-778.25",
+        "237.11,-47.78,-781.35",
+        "237.77,-46.96,-793.19",
+        "231.61,-49.10,-756.74",
+        "485.47,-47.75,-710.45",
+        "519.31,-47.96,-723.95",
+        "537.39,-47.78,-697.35",
+        "544.18,-48.04,-730.19",
+        "560.52,-47.85,-718.85",
+        "559.84,-47.83,-767.10",
+        "482.84,-47.97,-729.58",
+        "525.70,-46.71,-587.78",
+        "554.41,-47.25,-582.53",
+        "710.48,-47.00,-549.59",
+        "681.04,-47.25,-572.12",
+        "808.81,-46.20,-578.88"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 120321400 -1280297114:a lock of feline mane\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a rock lion cub",
+      "name_sortable": "rocklioncub",
+      "level": 16,
+      "locations": [
+        "217.29,-49.02,-705.53"
+      ]
+    },
+    {
+      "name": "a rock lioness",
+      "name_sortable": "rocklioness",
+      "level": 16,
+      "locations": [
+        "218.45,-49.15,-711.88",
+        "223.19,-48.85,-702.88",
+        "257.94,-48.07,-705.45",
+        "441.64,-47.71,-711.58",
+        "557.03,-47.94,-623.59"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1216700927 281880562:feline meat\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -3043,6 +3217,29 @@
           "gamelink": "\\aITEM 1041976406 1193510754:an elemental planar seed\\/a",
           "chest": false
         }
+      ]
+    },
+    {
+      "name": "a savanna lion",
+      "name_sortable": "savannalion",
+      "level": 18,
+      "locations": [
+        "796.06,-46.51,-406.41",
+        "780.56,-54.49,-352.71"
+      ]
+    },
+    {
+      "name": "a savanna lioness",
+      "name_sortable": "savannalioness",
+      "level": 18,
+      "locations": [
+        "657.08,-45.62,-412.74",
+        "625.04,-44.33,-372.92",
+        "645.22,-45.96,-357.43",
+        "674.89,-47.24,-361.70",
+        "709.75,-47.10,-381.44",
+        "720.87,-46.07,-404.73",
+        "739.40,-46.88,-452.29"
       ]
     },
     {
@@ -3204,9 +3401,20 @@
     {
       "name": "a small bluegill",
       "name_sortable": "smallbluegill",
+      "level": 12,
       "locations": [
         "-232.01,-49.97,60.4",
-        "-349.61,-51.2,-471.16"
+        "-349.61,-51.2,-471.16",
+        "15.37,-51.53,-709.22",
+        "-45.02,-51.20,-705.34",
+        "-50.61,-51.00,-645.33",
+        "-9.26,-50.50,-610.48"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -595786562 -1168539999:a fish meat\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -3230,9 +3438,18 @@
     {
       "name": "a small pike",
       "name_sortable": "smallpike",
+      "level": 12,
       "locations": [
         "-230.33,-49.8,65.47",
-        "-360.88,-49.97,-479.33"
+        "-360.88,-49.97,-479.33",
+        "-40.23,-49.88,-632.16",
+        "-47.24,-49.06,-621.38"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1928599602 -991468335:a broken barracuda fang\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -3303,6 +3520,14 @@
           "name_sortable": "academyofarcanescience",
           "value": 50
         }
+      ]
+    },
+    {
+      "name": "a strangely stitched zombie",
+      "name_sortable": "strangelystitchedzombie",
+      "level": 18,
+      "locations": [
+        "927.73,-44.32,-604.94"
       ]
     },
     {
@@ -3906,6 +4131,42 @@
       "gamelink": "\\aITEM 666527502 2081562652:striped black moth\\/a",
       "locations": [
         "-443.05,-47.00,-736.59"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 721330325 -211567629:spotted brown moth\\/a",
+      "locations": [
+        "-88.38,-47.00,-595.04"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1740421467 1340305692:Orc tail\\/a",
+      "locations": [
+        "-99.94,-47.00,-603.00"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1497650870 -1065330247:striped tan moth\\/a",
+      "locations": [
+        "436.95,-47.00,-778.34"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 488511049 409354024:skeleton pocket\\/a",
+      "locations": [
+        "475.46,-46.00,-611.51"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1913161908 -135970516:Kerra scales\\/a",
+      "locations": [
+        "935.46,-42.00,-546.94"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1832140126 1193284294:chipped shard of abjuration\\/a",
+      "locations": [
+        "916.39,-43.00,-548.12"
       ]
     }
   ],

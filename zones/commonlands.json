@@ -389,8 +389,62 @@
       ]
     },
     {
+      "name": "a Bloodskull lumberjack",
+      "name_sortable": "bloodskulllumberjack",
+      "locations": [
+        "-11.23,-48.04,501.83",
+        "-25.65,-48.04,513.36",
+        "-42.67,-48.04,523.77",
+        "0.75,-48.04,533.72",
+        "26.29,-48.03,538.84",
+        "52.69,-48.04,540.20",
+        "29.16,-48.03,511.09",
+        "-0.54,-47.88,554.90",
+        "-0.60,-47.73,569.09",
+        "-24.83,-47.40,568.00",
+        "-82.15,-47.47,552.85",
+        "-94.99,-47.14,557.23",
+        "-126.85,-47.93,543.42",
+        "-125.63,-48.04,517.43",
+        "-100.50,-48.04,509.66"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 29,
+      "drop_coin_max": 39,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
       "name": "a Bloodskull mason",
       "name_sortable": "bloodskullmason",
+      "locations": [
+        "-317.88,-48.43,539.33",
+        "-327.67,-46.84,526.30",
+        "-307.70,-44.68,596.61",
+        "-378.82,-47.96,476.38"
+      ],
       "utterances": [
         "Time to meet your end, intruder."
       ],
@@ -398,10 +452,18 @@
         {
           "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 16,
-      "drop_coin_max": 16,
+      "drop_coin_max": 19,
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
@@ -413,6 +475,9 @@
     {
       "name": "a Bloodskull mystic",
       "name_sortable": "bloodskullmystic",
+      "locations": [
+        "-660.63,-47.96,455.09"
+      ],
       "utterances": [
         "Sound the alarm. Destroy all trespassers!"
       ],
@@ -420,14 +485,31 @@
         {
           "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 31,
-      "drop_coin_max": 31
+      "drop_coin_max": 36,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
+      ]
     },
     {
       "name": "a Bloodskull orc",
       "name_sortable": "bloodskullorc",
+      "locations": [
+        "-255.13,-48.47,339.98",
+        "-266.76,-48.27,334.10",
+        "-278.85,-47.81,335.61",
+        "-270.38,-48.34,358.66"
+      ],
       "utterances": [
         "Intruders! Destroy them all!",
         "Back fools, there are too many!",
@@ -438,6 +520,10 @@
         {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 16,
@@ -446,6 +532,15 @@
     {
       "name": "a Bloodskull priest",
       "name_sortable": "bloodskullpriest",
+      "locations": [
+        "-1159.20,-47.01,581.81",
+        "-1089.88,-46.56,610.33",
+        "-1082.09,-46.51,598.21",
+        "-1138.78,-48.04,642.82",
+        "-1148.77,-48.04,641.68",
+        "-1188.69,-48.04,634.26",
+        "-1193.49,-47.62,617.77"
+      ],
       "utterances": [
         "Time to meet your end, intruder.",
         "You should have left when you had a chance.",
@@ -474,10 +569,25 @@
         {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 20,
-      "drop_coin_max": 40
+      "drop_coin_max": 40,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
+      ]
     },
     {
       "name": "a Bloodskull shaman",
@@ -505,6 +615,9 @@
     {
       "name": "a Bloodskull soldier",
       "name_sortable": "bloodskullsoldier",
+      "locations": [
+        "-657.59,-47.93,457.42"
+      ],
       "utterances": [
         "Sound the alarm. Destroy all trespassers!",
         "You should have left when you had a chance."
@@ -514,11 +627,29 @@
           "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
       ]
     },
     {
       "name": "a Bloodskull tamer",
       "name_sortable": "bloodskulltamer",
+      "locations": [
+        "47.98,-46.84,428.47",
+        "41.60,-47.77,429.55",
+        "20.29,-48.04,446.84",
+        "-6.70,-48.04,467.00",
+        "-134.40,-47.64,573.51",
+        "-267.42,-47.27,473.49",
+        "-300.26,-48.43,508.21",
+        "-341.79,-47.97,564.71",
+        "-326.69,-46.30,596.97"
+      ],
       "utterances": [
         "There are too many!  We must regroup."
       ],
@@ -526,12 +657,45 @@
         {
           "gamelink": "\\aITEM -1294750651 -1669415379:a dull wedge\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1189922624 134728149:Far Seas Requisition - WC 124\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 156,
+      "drop_coin_max": 156,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
         }
       ]
     },
     {
       "name": "a Bloodskull tower guard",
       "name_sortable": "bloodskulltowerguard",
+      "locations": [
+        "-333.46,-48.43,546.36",
+        "-394.64,-47.91,456.01"
+      ],
       "utterances": [
         "They spotted us! Kill the witnesses!",
         "Back fools, there are too many!"
@@ -554,7 +718,23 @@
         "-438.70,-48.04,453.97",
         "-475.22,-47.60,613.03",
         "-498.89,-47.21,615.24",
-        "-493.01,-47.37,616.38"
+        "-493.01,-47.37,616.38",
+        "146.69,-48.00,582.99",
+        "153.14,-48.02,588.31",
+        "-365.73,-47.97,441.49",
+        "-449.82,-48.04,527.56",
+        "-455.78,-48.04,527.75",
+        "-446.27,-48.04,521.87",
+        "-693.76,-46.20,497.47",
+        "-1162.58,-46.86,578.03",
+        "-1131.33,-47.07,566.91",
+        "-1096.15,-47.86,568.32",
+        "-1098.19,-47.94,585.84",
+        "-1086.18,-48.04,591.11",
+        "-1098.21,-47.90,578.13",
+        "-1098.08,-48.04,616.62",
+        "-1124.48,-48.04,612.76",
+        "-1216.64,-47.02,627.54"
       ],
       "utterances": [
         "Intruders! Destroy them all!",
@@ -614,10 +794,22 @@
         {
           "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1555036024 -1987479682:Far Seas Requisition - WC 077\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 17,
-      "drop_coin_max": 41,
+      "drop_coin_max": 185,
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
@@ -848,13 +1040,20 @@
     {
       "name": "Captain Ista",
       "name_sortable": "captainista",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-1318.47,-51.94,589.15"
       ],
       "utterances": [
         "Glad you could make it. Now how about doing a little something for Freeport?",
         "Freeport needs you to follow the trail of slime outside of the Sewer System to the north of here. You will need to slay the oversized sliding lump of refuse known as the Gobbler.",
-        "Of course you do... that's the same thing the last group of adventurers said and look here, I still need to get this job done. Hurry along now, Freeport does not like to wait."
+        "Of course you do... that's the same thing the last group of adventurers said and look here, I still need to get this job done. Hurry along now, Freeport does not like to wait.",
+        "You can leave me alone now..."
       ]
     },
     {
@@ -862,8 +1061,18 @@
       "name_sortable": "captainogof",
       "level": 14,
       "difficulty": "heroic",
+      "locations": [
+        "-654.83,-47.91,457.28"
+      ],
       "utterances": [
         "Looks like we have visitors!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
       ]
     },
     {
@@ -929,6 +1138,9 @@
     {
       "name": "Commander Du'Nar",
       "name_sortable": "commanderdunar",
+      "locations": [
+        "153.15,-47.85,595.26"
+      ],
       "utterances": [
         "His death means little."
       ],
@@ -937,6 +1149,15 @@
           "gamelink": "\\aITEM -635309253 1818309229:Lucanic Stalker's Strap\\/a",
           "chest": true
         }
+      ],
+      "drop_coin_min": 32,
+      "drop_coin_max": 32,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
       ]
     },
     {
@@ -944,7 +1165,8 @@
       "name_sortable": "commandergriksna",
       "locations": [
         "-484.17,-47.88,478.43",
-        "-442.44,-48.04,459.88"
+        "-442.44,-48.04,459.88",
+        "-450.83,-48.04,517.24"
       ],
       "utterances": [
         "Back fools, there are too many!",
@@ -1027,7 +1249,6 @@
     {
       "name": "a Dervish assassin",
       "name_sortable": "dervishassassin",
-      "level": 18,
       "race": [
         "ogre"
       ],
@@ -1035,6 +1256,7 @@
         "male",
         "female"
       ],
+      "level": 18,
       "locations": [
         "1340.87,-30.38,14.58",
         "1254.98,-34.54,-130.27",
@@ -1125,13 +1347,13 @@
     {
       "name": "a Dervish cutthroat",
       "name_sortable": "dervishcutthroat",
-      "level": 18,
       "race": [
         "half elf"
       ],
       "gender": [
         "female"
       ],
+      "level": 18,
       "locations": [
         "1293.52,-29.02,-36.27",
         "1414.38,-34.73,163.90",
@@ -1186,7 +1408,6 @@
     {
       "name": "a Dervish go-between",
       "name_sortable": "dervishgobetween",
-      "level": 17,
       "race": [
         "human"
       ],
@@ -1194,6 +1415,7 @@
         "female",
         "male"
       ],
+      "level": 17,
       "locations": [
         "1370.78,-33.89,147.34",
         "1369.52,-33.53,116.38",
@@ -1208,13 +1430,13 @@
         "1015.89,-46.75,106.06",
         "1020.23,-46.71,92.5",
         "1025.92,-46.01,86.03",
-        "1054.97,-41.7,19.93"
+        "1054.97,-41.7,19.93",
+        "952.08,-44.04,417.8"
       ]
     },
     {
       "name": "a Dervish heretic",
       "name_sortable": "dervishheretic",
-      "level": 18,
       "race": [
         "dark elf"
       ],
@@ -1222,6 +1444,7 @@
         "female",
         "male"
       ],
+      "level": 18,
       "locations": [
         "1259.92,-44.24,144.79",
         "1249.21,-41.46,223.68",
@@ -1271,13 +1494,13 @@
     {
       "name": "a Dervish outlander",
       "name_sortable": "dervishoutlander",
-      "level": 18,
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
+      "level": 18,
       "locations": [
         "1235.37,-25.72,412.83",
         "1195.82,-33.76,442.50",
@@ -1329,13 +1552,13 @@
     {
       "name": "a Dervish ruffian",
       "name_sortable": "dervishruffian",
-      "level": 18,
       "race": [
         "ogre"
       ],
       "gender": [
         "female"
       ],
+      "level": 18,
       "locations": [
         "1259.21,-44.26,193.71",
         "1328.21,-40.60,177.39",
@@ -1387,13 +1610,13 @@
     {
       "name": "a Dervish thaumaturge",
       "name_sortable": "dervishthaumaturge",
-      "level": 18,
       "race": [
         "gnome"
       ],
       "gender": [
         "female"
       ],
+      "level": 18,
       "locations": [
         "1361.26,-34.65,92.05",
         "1287.91,-32.02,-21.17",
@@ -1442,13 +1665,13 @@
     {
       "name": "a Dervish thug",
       "name_sortable": "dervishthug",
-      "level": 18,
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
+      "level": 18,
       "locations": [
         "1244.27,-42.07,-90.12",
         "1232.22,-41.52,-112.03",
@@ -1503,13 +1726,13 @@
     {
       "name": "a Dervish zealot",
       "name_sortable": "dervishzealot",
-      "level": 18,
       "race": [
         "iksar"
       ],
       "gender": [
         "female"
       ],
+      "level": 18,
       "locations": [
         "1281.17,-41.30,122.13",
         "1227.34,-42.46,228.53",
@@ -1598,8 +1821,8 @@
       "name": "drakota adept",
       "name_sortable": "drakotaadept",
       "level": 22,
-      "difficulty": "heroic^^",
       "aggressive": true,
+      "difficulty": "heroic^^",
       "locations": [
         "1156.84,-32.37,-294.05"
       ]
@@ -1608,8 +1831,8 @@
       "name": "a drakota adjutant",
       "name_sortable": "drakotaadjutant",
       "level": 22,
-      "difficulty": "heroic^^",
       "aggressive": true,
+      "difficulty": "heroic^^",
       "locations": [
         "1159.12,-32.12,-292.19"
       ]
@@ -1855,8 +2078,8 @@
       "name": "a fallen champion",
       "name_sortable": "fallenchampion",
       "level": 20,
-      "difficulty": "heroic",
       "aggressive": true,
+      "difficulty": "heroic",
       "utterances": [
         "Your eyes are so pretty.",
         "Seek death and it finds you.",
@@ -1868,12 +2091,20 @@
       "name_sortable": "fallencrusader",
       "level": 17,
       "aggressive": true,
+      "locations": [
+        "650.14,-55.67,357.63",
+        "611.43,-54.08,376.55",
+        "572.71,-51.92,382.40",
+        "483.29,-55.96,424.36"
+      ],
       "utterances": [
         "Now you too are lost!",
         "You can only do so much damage!",
         "You shouldn't be here!",
         "Your presence enrages me!",
-        "Death is nothing new to us!"
+        "Death is nothing new to us!",
+        "It takes more than death to stop the undead.",
+        "It takes more than Death to stop the undead."
       ],
       "drops": [
         {
@@ -1941,9 +2172,15 @@
       "name_sortable": "fallenguardian",
       "level": 20,
       "aggressive": true,
+      "locations": [
+        "625.84,-55.49,376.64",
+        "577.22,-55.02,363.95",
+        "459.49,-51.13,558.26"
+      ],
       "utterances": [
         "Now you too are lost!",
-        "It takes more than Death to stop the undead."
+        "It takes more than Death to stop the undead.",
+        "Death is nothing new to us!"
       ],
       "drops": [
         {
@@ -1962,7 +2199,9 @@
           "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
           "chest": false
         }
-      ]
+      ],
+      "drop_coin_min": 28,
+      "drop_coin_max": 28
     },
     {
       "name": "Ferink",
@@ -2022,6 +2261,17 @@
       "name": "a freshwater crab",
       "name_sortable": "freshwatercrab",
       "level": 14,
+      "locations": [
+        "-1268.77,-47.53,591.01",
+        "-1256.59,-48.15,607.15",
+        "-1267.55,-49.19,628.92",
+        "-1271.19,-54.97,648.65",
+        "-1282.87,-47.48,630.50",
+        "-1263.73,-46.60,603.98",
+        "-1245.27,-48.70,592.96",
+        "-1214.07,-50.23,563.86",
+        "-1152.66,-47.73,563.90"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -2005436878 2046850352:crab meat\\/a",
@@ -2032,13 +2282,13 @@
     {
       "name": "Frund the Big Grin",
       "name_sortable": "frundthebiggrin",
-      "level": 18,
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
+      "level": 18,
       "locations": [
         "1237.01,-40.82,338.56"
       ],
@@ -2053,11 +2303,29 @@
       "name": "General Vhar'Taug",
       "name_sortable": "generalvhartaug",
       "level": 14,
+      "locations": [
+        "-556.36,-31.39,418.28"
+      ],
       "utterances": [
         "Intruders! Destroy them all!",
         "Retreat! We are undone!",
         "Welcome to your death, lesser being!",
         "Back fools, there are too many!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 25,
+      "drop_coin_max": 25,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
       ]
     },
     {
@@ -2467,6 +2735,9 @@
     {
       "name": "Halcien",
       "name_sortable": "halcien",
+      "race": [
+        "human"
+      ],
       "locations": [
         "-1332.32,-53.23,579.15"
       ]
@@ -2612,6 +2883,13 @@
     {
       "name": "Jerimiah Halstetter",
       "name_sortable": "jerimiahhalstetter",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Weaponsmith",
       "locations": [
         "-1335.49,-53.32,576.09"
       ],
@@ -2660,6 +2938,13 @@
     {
       "name": "Karmen the Swindler",
       "name_sortable": "karmentheswindler",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Provisioner",
       "locations": [
         "-1339.67,-53.38,578.96"
       ],
@@ -2815,6 +3100,9 @@
       "name": "Lady Anyanka Polevshi",
       "name_sortable": "ladyanyankapolevshi",
       "level": 20,
+      "locations": [
+        "462.87,-54.42,502.14"
+      ],
       "utterances": [
         "Wait for me in the abyss, my comrade.",
         "You shall pay for disturbing my eternal rest!",
@@ -2846,6 +3134,9 @@
       "name": "Lieutenant Vrah'Kna",
       "name_sortable": "lieutenantvrahkna",
       "level": 19,
+      "locations": [
+        "-403.03,-47.91,456.20"
+      ],
       "utterances": [
         "Break your bones and eat your flesh!",
         "Their death serves our cause.",
@@ -2857,6 +3148,17 @@
         {
           "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1718827623 754545517:Far Seas Requisition - WC 045\\/a",
+          "chest": true
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
         }
       ]
     },
@@ -2949,6 +3251,13 @@
     {
       "name": "Marcus",
       "name_sortable": "marcus",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "General Goods",
       "locations": [
         "674.25,-52.65,438.27"
       ],
@@ -3037,6 +3346,12 @@
     {
       "name": "Master Jaedra",
       "name_sortable": "masterjaedra",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1326.66,-51.55,594.37"
       ],
@@ -3270,10 +3585,20 @@
       "name": "Ohrgran Foulgore",
       "name_sortable": "ohrgranfoulgore",
       "level": 16,
+      "locations": [
+        "-1218.51,-47.50,610.56"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -833968652 -953746999:Elder's Spaulders of the Intuitive\\/a",
           "chest": true
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
         }
       ]
     },
@@ -3281,9 +3606,19 @@
       "name": "an orc emissary",
       "name_sortable": "orcemissary",
       "level": 15,
+      "locations": [
+        "-324.81,-47.58,539.34"
+      ],
       "utterances": [
         "Intruders! Destroy them all!",
         "Back fools, there are too many!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
+        }
       ]
     },
     {
@@ -3303,7 +3638,14 @@
     {
       "name": "an orc runner",
       "name_sortable": "orcrunner",
+      "race": [
+        "orc"
+      ],
       "level": 14,
+      "locations": [
+        "228.35,-48.04,403.52",
+        "202.27,-47.91,394.60"
+      ],
       "utterances": [
         "Intruders! Destroy them all!",
         "Back fools, there are too many!"
@@ -3320,6 +3662,13 @@
         {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "name_sortable": "bloodskullorcs",
+          "value": -100
         }
       ]
     },
@@ -3371,17 +3720,20 @@
       "name": "a patchcraft howler",
       "name_sortable": "patchcrafthowler",
       "locations": [
-        "325.45,-48.04,-606.34"
+        "325.45,-48.04,-606.34",
+        "-309.18,-48.76,399.26"
       ]
     },
     {
       "name": "a patchcraft keeper",
       "name_sortable": "patchcraftkeeper",
       "locations": [
-        "326.08,-48.04,-638.12"
+        "326.08,-48.04,-638.12",
+        "-299.84,-48.04,426.86"
       ],
       "utterances": [
-        "Hey, you hit me with something I want NOW!"
+        "Hey, you hit me with something I want NOW!",
+        "For Bristlebane! He likes me best."
       ],
       "drops": [
         {
@@ -3489,6 +3841,13 @@
     {
       "name": "Rainus Canton",
       "name_sortable": "rainuscanton",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Hunter of Orcs",
       "locations": [
         "-1315.84,-51.23,598.69"
       ],
@@ -3857,6 +4216,12 @@
     {
       "name": "Sergeant Borus",
       "name_sortable": "sergeantborus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1324.50,-52.19,581.22"
       ],
@@ -3938,6 +4303,19 @@
       ]
     },
     {
+      "name": "a silt eater",
+      "name_sortable": "silteater",
+      "locations": [
+        "870.34,-42.45,414.90",
+        "929.00,-43.85,420.40",
+        "976.25,-37.42,475.44",
+        "982.49,-35.53,490.26",
+        "966.96,-28.77,520.27",
+        "964.00,-24.42,543.91",
+        "799.99,-48.06,417.44"
+      ]
+    },
+    {
       "name": "a small bluegill",
       "name_sortable": "smallbluegill",
       "level": 12,
@@ -3983,7 +4361,9 @@
         "-230.33,-49.8,65.47",
         "-360.88,-49.97,-479.33",
         "-40.23,-49.88,-632.16",
-        "-47.24,-49.06,-621.38"
+        "-47.24,-49.06,-621.38",
+        "284.66,-49.94,456.16",
+        "282.08,-48.67,432.31"
       ],
       "drops": [
         {
@@ -4042,6 +4422,10 @@
       "name": "a stone beetle",
       "name_sortable": "stonebeetle",
       "level": 16,
+      "locations": [
+        "161.26,-46.82,349.69",
+        "121.64,-47.08,360.55"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
@@ -4547,6 +4931,21 @@
       ]
     },
     {
+      "name": "a war elephant",
+      "name_sortable": "warelephant",
+      "locations": [
+        "41.18,-48.04,440.58",
+        "44.65,-47.46,430.81",
+        "10.12,-48.04,448.96",
+        "-7.55,-47.96,463.50",
+        "-141.04,-47.78,570.89",
+        "-260.54,-47.06,479.12",
+        "-291.91,-48.41,508.18",
+        "-350.66,-48.01,564.89",
+        "-323.31,-46.40,588.89"
+      ]
+    },
+    {
       "name": "Watcher Ommo",
       "name_sortable": "watcherommo",
       "locations": [
@@ -4561,6 +4960,15 @@
     {
       "name": "Wounded Scout",
       "name_sortable": "woundedscout",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "282.76,-46.88,503.26"
+      ],
       "utterances": [
         "All of them dead... we never had a chance...",
         "The orcs got everyone... the whole expedition was wiped out... I'm all that's left of a score of soldiers.  You've got to get this magic band to the others.... my wounds are too great for me to travel much longer...",
@@ -4793,7 +5201,9 @@
     {
       "gamelink": "\\aITEM 2081551614 186916899:Ratonga hoof\\/a",
       "locations": [
-        "335.46,-47.00,-403.44"
+        "335.46,-47.00,-403.44",
+        "-223.72,-47.00,362.77",
+        "-523.72,-47.00,449.97"
       ]
     },
     {
@@ -4811,13 +5221,32 @@
     {
       "gamelink": "\\aITEM -1868197541 -626008118:chipped shard of conjuration\\/a",
       "locations": [
-        "1004.71,-58.00,-200.67"
+        "1004.71,-58.00,-200.67",
+        "-363.72,-47.00,400.14"
       ]
     },
     {
       "gamelink": "\\aITEM 861846032 -1689084433:cracked halfling bone fragment\\/a",
       "locations": [
         "967.56,-58.61,-276.95"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1576919798 399529188:shattered ratonga bone fragment\\/a",
+      "locations": [
+        "230.81,-47.00,466.17"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1609830741 -63234081:commonlands shrub yellow leaf\\/a",
+      "locations": [
+        "30.82,-47.00,479.35"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 86571365 -1773479319:spotted white moth\\/a",
+      "locations": [
+        "-763.72,-47.00,549.62"
       ]
     }
   ],

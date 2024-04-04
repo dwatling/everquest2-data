@@ -138,6 +138,7 @@
     {
       "name": "Anders Blackhammer",
       "name_sortable": "andersblackhammer",
+      "level": 20,
       "locations": [
         "-521.99,-44.04,-301.5"
       ]
@@ -694,6 +695,30 @@
       "drop_coin_max": 22
     },
     {
+      "name": "a bull elephant",
+      "name_sortable": "bullelephant",
+      "locations": [
+        "1071.75,-50.71,-182.17",
+        "1035.23,-57.37,-260.84",
+        "1077.74,-42.92,-275.87",
+        "1039.00,-51.77,-324.40"
+      ]
+    },
+    {
+      "name": "a bull rhinoceros",
+      "name_sortable": "bullrhinoceros",
+      "locations": [
+        "274.42,-48.04,-306.42",
+        "339.30,-47.64,-229.04",
+        "318.06,-48.02,-232.77",
+        "354.96,-47.54,-202.78",
+        "330.93,-48.04,-198.09",
+        "318.14,-48.04,-168.02",
+        "332.27,-47.92,-143.83",
+        "262.42,-48.03,-169.88"
+      ]
+    },
+    {
       "name": "a burly armadillo",
       "name_sortable": "burlyarmadillo",
       "drops": [
@@ -788,6 +813,8 @@
     {
       "name": "Captain Gaer",
       "name_sortable": "captaingaer",
+      "level": 17,
+      "difficulty": "heroic",
       "utterances": [
         "Here comes dinner."
       ]
@@ -833,6 +860,8 @@
     {
       "name": "Captain Ogof",
       "name_sortable": "captainogof",
+      "level": 14,
+      "difficulty": "heroic",
       "utterances": [
         "Looks like we have visitors!"
       ]
@@ -877,7 +906,15 @@
     },
     {
       "name": "a carrion hawk",
-      "name_sortable": "carrionhawk"
+      "name_sortable": "carrionhawk",
+      "locations": [
+        "692.18,-53.22,-34.24",
+        "682.70,-52.87,-42.82",
+        "773.35,-42.66,25.35",
+        "828.25,-57.22,-36.05",
+        "806.32,-57.22,4.76",
+        "762.39,-47.48,-127.99"
+      ]
     },
     {
       "name": "a carrion hound",
@@ -926,11 +963,33 @@
     {
       "name": "Commander Ralio",
       "name_sortable": "commanderralio",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "1487.18,-13.81,227.05"
+      ],
       "utterances": [
-        "All hands retreat!"
+        "All hands retreat!",
+        "Cover me while we regroup!"
       ],
       "drop_coin_min": 78,
-      "drop_coin_max": 78
+      "drop_coin_max": 78,
+      "faction_changes": [
+        {
+          "name": "The Dervish Cutthroats",
+          "name_sortable": "dervishcutthroats",
+          "value": -100
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        }
+      ]
     },
     {
       "name": "a cow",
@@ -968,6 +1027,26 @@
     {
       "name": "a Dervish assassin",
       "name_sortable": "dervishassassin",
+      "level": 18,
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male",
+        "female"
+      ],
+      "locations": [
+        "1340.87,-30.38,14.58",
+        "1254.98,-34.54,-130.27",
+        "1418.73,-34.49,168.17",
+        "1332.09,-39.20,98.44",
+        "1327.93,-41.51,214.75",
+        "1226.93,-40.54,347.59",
+        "1358.28,-39.71,265.18",
+        "1392.44,-22.43,312.39",
+        "1406.22,-17.6,283.22",
+        "1393.92,-24.81,275.49"
+      ],
       "utterances": [
         "Your only chance is to run!",
         "You think that's going to stop me?",
@@ -1000,10 +1079,18 @@
         {
           "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1409721994 -1246992863:Far Seas Requisition - FG 212\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 17,
-      "drop_coin_max": 27,
+      "drop_coin_max": 215,
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
@@ -1020,6 +1107,15 @@
     {
       "name": "a Dervish craftsman",
       "name_sortable": "dervishcraftsman",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "1409.11,-16.56,278.1"
+      ],
       "utterances": [
         "I only do business with Dervs. Go away!",
         "Who would ever think that a Smithson would end up being an anvil pounder to the bandits.",
@@ -1029,6 +1125,19 @@
     {
       "name": "a Dervish cutthroat",
       "name_sortable": "dervishcutthroat",
+      "level": 18,
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "1293.52,-29.02,-36.27",
+        "1414.38,-34.73,163.90",
+        "1338.57,-40.31,221.81",
+        "1422.15,-34.13,179.06"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
@@ -1053,6 +1162,10 @@
         {
           "gamelink": "\\aITEM 1862335373 50588349:advanced craftsman volume 17\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 26,
@@ -1072,11 +1185,56 @@
     },
     {
       "name": "a Dervish go-between",
-      "name_sortable": "dervishgobetween"
+      "name_sortable": "dervishgobetween",
+      "level": 17,
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
+      "locations": [
+        "1370.78,-33.89,147.34",
+        "1369.52,-33.53,116.38",
+        "1362.13,-32.71,60.10",
+        "1288.87,-28.89,-52.80",
+        "710.14,-50.94,271.99",
+        "754.10,-54.26,318.54",
+        "879.88,-50.86,378.31",
+        "1009.08,-41.93,449.74",
+        "1077.22,-42.76,466.35",
+        "877.85,-52.74,225.51",
+        "1015.89,-46.75,106.06",
+        "1020.23,-46.71,92.5",
+        "1025.92,-46.01,86.03",
+        "1054.97,-41.7,19.93"
+      ]
     },
     {
       "name": "a Dervish heretic",
       "name_sortable": "dervishheretic",
+      "level": 18,
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
+      "locations": [
+        "1259.92,-44.24,144.79",
+        "1249.21,-41.46,223.68",
+        "1275.22,-33.37,-121.83",
+        "1359.64,-35.26,141.74",
+        "1351.56,-36.93,116.88",
+        "1291.43,-39.47,325.89",
+        "1291.40,-38.92,333.70",
+        "1021.95,-42.32,442.52",
+        "1400.7,-24.09,294.72",
+        "1385.48,-29.43,286.23",
+        "1415.26,-16.56,276.57"
+      ],
       "utterances": [
         "The Highwayman will hear of this, mark my words!",
         "There is no escape! Surrender and I'll kill you quickly!",
@@ -1089,8 +1247,14 @@
         {
           "gamelink": "\\aITEM -738456813 540695488:Shortsword of the Fray\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
         }
       ],
+      "drop_coin_min": 18,
+      "drop_coin_max": 20,
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
@@ -1107,6 +1271,20 @@
     {
       "name": "a Dervish outlander",
       "name_sortable": "dervishoutlander",
+      "level": 18,
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "1235.37,-25.72,412.83",
+        "1195.82,-33.76,442.50",
+        "1179.94,-41.59,386.41",
+        "1077.28,-43.06,429.38",
+        "1383.63,-28.66,319.64"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
@@ -1123,6 +1301,14 @@
         {
           "gamelink": "\\aITEM -738456813 540695488:Shortsword of the Fray\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 21,
@@ -1143,6 +1329,25 @@
     {
       "name": "a Dervish ruffian",
       "name_sortable": "dervishruffian",
+      "level": 18,
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "1259.21,-44.26,193.71",
+        "1328.21,-40.60,177.39",
+        "1333.34,-40.22,174.13",
+        "1265.96,-35.27,-111.39",
+        "1422.15,-34.13,179.06",
+        "1289.69,-41.79,259.95",
+        "1281.46,-42.03,288.47",
+        "1298.52,-40.08,312.28",
+        "1417.38,-20.85,298.19",
+        "1343.78,-40.31,259.94"
+      ],
       "utterances": [
         "I can hold them, and I'll take some of them with me!",
         "Ready ... now!",
@@ -1158,10 +1363,14 @@
         {
           "gamelink": "\\aITEM 610874452 1997196792:Boon of the Damned (Adept)\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1072498694 1172754859:Far Seas Requisition - FG 244\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 19,
-      "drop_coin_max": 19,
+      "drop_coin_max": 34,
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
@@ -1178,6 +1387,21 @@
     {
       "name": "a Dervish thaumaturge",
       "name_sortable": "dervishthaumaturge",
+      "level": 18,
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "1361.26,-34.65,92.05",
+        "1287.91,-32.02,-21.17",
+        "1341.08,-38.45,152.75",
+        "1148.54,-40.98,442.38",
+        "1154.63,-40.38,449.12",
+        "1396.29,-22.87,317.41"
+      ],
       "utterances": [
         "They'll kill us all!",
         "They're after us. We must kill them!",
@@ -1194,9 +1418,13 @@
         {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
         }
       ],
-      "drop_coin_min": 34,
+      "drop_coin_min": 22,
       "drop_coin_max": 110,
       "faction_changes": [
         {
@@ -1214,6 +1442,20 @@
     {
       "name": "a Dervish thug",
       "name_sortable": "dervishthug",
+      "level": 18,
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "1244.27,-42.07,-90.12",
+        "1232.22,-41.52,-112.03",
+        "1230.72,-23.71,434.70",
+        "1390.52,-25.3,295.02",
+        "1357.97,-36.07,181.88"
+      ],
       "utterances": [
         "Someone get some help, fast!",
         "Fall back before we're all killed!",
@@ -1244,11 +1486,36 @@
         }
       ],
       "drop_coin_min": 17,
-      "drop_coin_max": 289
+      "drop_coin_max": 289,
+      "faction_changes": [
+        {
+          "name": "The Dervish Cutthroats",
+          "name_sortable": "dervishcutthroats",
+          "value": -100
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        }
+      ]
     },
     {
       "name": "a Dervish zealot",
       "name_sortable": "dervishzealot",
+      "level": 18,
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "1281.17,-41.30,122.13",
+        "1227.34,-42.46,228.53",
+        "1314.88,-41.73,235.70",
+        "1379.73,-39.7,239.87"
+      ],
       "utterances": [
         "Fall back!  We'll meet again.",
         "Everyone makes one mistake. That one was your last.",
@@ -1275,6 +1542,10 @@
         {
           "gamelink": "\\aITEM 49021708 328512049:Acid III (Adept)\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 31,
@@ -1324,8 +1595,29 @@
       ]
     },
     {
+      "name": "drakota adept",
+      "name_sortable": "drakotaadept",
+      "level": 22,
+      "difficulty": "heroic^^",
+      "aggressive": true,
+      "locations": [
+        "1156.84,-32.37,-294.05"
+      ]
+    },
+    {
+      "name": "a drakota adjutant",
+      "name_sortable": "drakotaadjutant",
+      "level": 22,
+      "difficulty": "heroic^^",
+      "aggressive": true,
+      "locations": [
+        "1159.12,-32.12,-292.19"
+      ]
+    },
+    {
       "name": "a dregs sneak",
       "name_sortable": "dregssneak",
+      "level": 14,
       "utterances": [
         "Startle us, you did. We'll have to remedy that."
       ]
@@ -1370,6 +1662,7 @@
     {
       "name": "a dusty cadaver",
       "name_sortable": "dustycadaver",
+      "level": 15,
       "drops": [
         {
           "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
@@ -1399,8 +1692,15 @@
       ]
     },
     {
-      "name": "an earthen tumbler",
-      "name_sortable": "earthentumbler",
+      "name": "an earthen rumbler",
+      "name_sortable": "earthenrumbler",
+      "level": 18,
+      "aggressive": true,
+      "locations": [
+        "1030.35,-44.23,280.82",
+        "1114.34,-48.65,4.69",
+        "1123.73,-49.22,77.43"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -989003161 1420590974:a fragment of terrain\\/a",
@@ -1409,9 +1709,68 @@
       ]
     },
     {
+      "name": "an earthen tumbler",
+      "name_sortable": "earthentumbler",
+      "level": 18,
+      "aggressive": true,
+      "locations": [
+        "1108.84,-46.13,-52.43",
+        "1110.88,-47.53,-33.35",
+        "1129.73,-47.93,-30.04",
+        "1131.88,-48.04,44.97",
+        "1130.16,-48.27,62.14",
+        "1103.85,-50.16,100.80",
+        "1110.21,-50.71,104.79",
+        "1087.54,-50.25,129.53",
+        "1049.44,-49.63,203.71",
+        "1027.40,-50.72,222.23",
+        "1108.89,-45.57,211.92",
+        "1116.44,-45.34,209.77",
+        "992.00,-49.46,345.06",
+        "1036.17,-46.22,328.19",
+        "1070.99,-48.02,344.01",
+        "1104.22,-47.25,326.90",
+        "1101.15,-47.27,342.60",
+        "1171.57,-45.95,126.65",
+        "1206.44,-42.63,97.47",
+        "1206.81,-42.81,78.08",
+        "1258.28,-37.47,53.24",
+        "1262.46,-37.27,47.84",
+        "1254.31,-36.96,60.73",
+        "1232.17,-41.21,256.17",
+        "1213.75,-40.50,278.96",
+        "1196.36,-39.97,292.74",
+        "1111.54,-47.20,-43.97",
+        "1110.88,-48.21,-22.86",
+        "1118.08,-48.84,39.35",
+        "1115.50,-48.81,58.26",
+        "1103.83,-48.66,80.62",
+        "1096.50,-50.11,102.84"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -989003161 1420590974:a fragment of terrain\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -803918470 -1524742109:an elemental essence well\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -214340711 2003617483:Bootstrutter's Field Guide to the Commonlands\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
       "name": "an elephant",
       "name_sortable": "elephant",
       "level": 14,
+      "aggressive": false,
       "locations": [
         "-302.87,-47.58,-518.6",
         "-274.84,-47.77,-523.69",
@@ -1469,6 +1828,8 @@
     {
       "name": "a fallen apostle",
       "name_sortable": "fallenapostle",
+      "level": 19,
+      "aggressive": true,
       "utterances": [
         "Your presence enrages me!",
         "Now you too are lost!",
@@ -1493,6 +1854,9 @@
     {
       "name": "a fallen champion",
       "name_sortable": "fallenchampion",
+      "level": 20,
+      "difficulty": "heroic",
+      "aggressive": true,
       "utterances": [
         "Your eyes are so pretty.",
         "Seek death and it finds you.",
@@ -1502,6 +1866,8 @@
     {
       "name": "a fallen crusader",
       "name_sortable": "fallencrusader",
+      "level": 17,
+      "aggressive": true,
       "utterances": [
         "Now you too are lost!",
         "You can only do so much damage!",
@@ -1521,6 +1887,8 @@
     {
       "name": "a fallen defender",
       "name_sortable": "fallendefender",
+      "level": 19,
+      "aggressive": true,
       "utterances": [
         "You inflict damage not pain!",
         "Now you too are lost!",
@@ -1539,6 +1907,8 @@
     {
       "name": "a fallen diplomat",
       "name_sortable": "fallendiplomat",
+      "level": 17,
+      "aggressive": true,
       "utterances": [
         "Your presence enrages me!",
         "It takes more than Death to stop the undead."
@@ -1553,6 +1923,8 @@
     {
       "name": "a fallen disciple",
       "name_sortable": "fallendisciple",
+      "level": 19,
+      "aggressive": true,
       "utterances": [
         "Your presence enrages me!",
         "Death is nothing new to us!"
@@ -1567,6 +1939,8 @@
     {
       "name": "a fallen guardian",
       "name_sortable": "fallenguardian",
+      "level": 20,
+      "aggressive": true,
       "utterances": [
         "Now you too are lost!",
         "It takes more than Death to stop the undead."
@@ -1620,8 +1994,34 @@
       ]
     },
     {
+      "name": "a fierce carrion hound",
+      "name_sortable": "fiercecarrionhound",
+      "level": 19,
+      "aggressive": true,
+      "locations": [
+        "635.20,-59.80,7.06",
+        "654.03,-59.94,-57.47",
+        "613.64,-59.91,-120.07",
+        "612.89,-60.03,-154.05",
+        "704.33,-59.14,-93.43",
+        "717.19,-59.80,-55.20",
+        "707.51,-59.80,-35.14",
+        "683.94,-59.80,-3.55",
+        "720.78,-60.13,17.65",
+        "758.20,-60.88,-3.47",
+        "775.92,-54.49,-18.72",
+        "784.70,-59.81,-16.15",
+        "795.14,-61.11,-30.63",
+        "809.77,-60.00,-84.36",
+        "855.92,-59.80,-102.28",
+        "845.60,-59.97,-272.50",
+        "896.00,-60.57,-263.57"
+      ]
+    },
+    {
       "name": "a freshwater crab",
       "name_sortable": "freshwatercrab",
+      "level": 14,
       "drops": [
         {
           "gamelink": "\\aITEM -2005436878 2046850352:crab meat\\/a",
@@ -1631,11 +2031,28 @@
     },
     {
       "name": "Frund the Big Grin",
-      "name_sortable": "frundthebiggrin"
+      "name_sortable": "frundthebiggrin",
+      "level": 18,
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "1237.01,-40.82,338.56"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        }
+      ]
     },
     {
       "name": "General Vhar'Taug",
       "name_sortable": "generalvhartaug",
+      "level": 14,
       "utterances": [
         "Intruders! Destroy them all!",
         "Retreat! We are undone!",
@@ -1683,6 +2100,8 @@
     {
       "name": "a ghast beetle",
       "name_sortable": "ghastbeetle",
+      "level": 25,
+      "difficulty": "vv",
       "locations": [
         "-159.13,-45.42,-863.43"
       ]
@@ -1690,6 +2109,7 @@
     {
       "name": "a ghostly orc",
       "name_sortable": "ghostlyorc",
+      "level": 12,
       "utterances": [
         "I embrace Death.",
         "At last, a chance for battle again.",
@@ -1708,6 +2128,7 @@
     {
       "name": "a giant grove wisp",
       "name_sortable": "giantgrovewisp",
+      "level": 15,
       "drops": [
         {
           "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
@@ -1718,6 +2139,7 @@
     {
       "name": "a giant spider",
       "name_sortable": "giantspider",
+      "level": 12,
       "locations": [
         "-1219.7,-67.9,275.34",
         "-1196.2,-65.27,280.15",
@@ -1741,6 +2163,33 @@
         {
           "gamelink": "\\aITEM 1883221997 1788663479:Borderland Bounty for Dervish Cutthroats\\/a",
           "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a giant vulrich",
+      "name_sortable": "giantvulrich",
+      "level": 18,
+      "locations": [
+        "953.12,-50.38,191.66",
+        "948.13,-51.71,151.05",
+        "992.57,-46.85,158.46",
+        "1000.86,-48.46,61.77",
+        "1005.35,-48.00,56.10",
+        "999.59,-48.40,70.35",
+        "981.34,-49.43,59.80",
+        "967.63,-47.28,59.06",
+        "953.06,-49.74,88.24",
+        "977.29,-49.20,144.02"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1682766616 702835349:vulrich meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1421950762 154156331:a bird feather\\/a",
+          "chest": false
         }
       ]
     },
@@ -1805,6 +2254,7 @@
     {
       "name": "a grove wisp",
       "name_sortable": "grovewisp",
+      "level": 13,
       "drops": [
         {
           "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
@@ -2000,6 +2450,21 @@
       ]
     },
     {
+      "name": "Gustfeather",
+      "name_sortable": "gustfeather",
+      "level": 25,
+      "difficulty": "heroic^^",
+      "locations": [
+        "254.03,-38.66,-450.56"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -675214701 -862965574:a feline meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "Halcien",
       "name_sortable": "halcien",
       "locations": [
@@ -2040,6 +2505,17 @@
         "Did ye get the treasure yet?",
         "Ye hand it over then and let me inspect ze treasure... Hrmm... Not going ta be able ta open this up 'ere. Ye let me know when ye ready ta board ze Sinking Sod II, tis a short ride ou' ta ze Smarmy Sprocket.",
         "I've packed all me things.  Just hop in me dinghy when ye be ready ta set sail, <player name>."
+      ]
+    },
+    {
+      "name": "a huntsman",
+      "name_sortable": "huntsman",
+      "level": 16,
+      "locations": [
+        "533.53,-59.80,-133.99"
+      ],
+      "utterances": [
+        "You may win the battle, but the war is far from over!"
       ]
     },
     {
@@ -2124,6 +2600,7 @@
     {
       "name": "Jereth Blackshield",
       "name_sortable": "jerethblackshield",
+      "level": 20,
       "utterances": [
         "I expected that rat Nethet to show up in order to save his friend.  It seems he sent a different sort of vermin in his place.",
         "What do you want messenger?  This had better be good or I'll let the rest of the crew here have some fun with you.",
@@ -2157,6 +2634,7 @@
     {
       "name": "Jyrok the Stone",
       "name_sortable": "jyrokthestone",
+      "level": 18,
       "utterances": [
         "I cannot hold them much longer."
       ],
@@ -2247,6 +2725,7 @@
     {
       "name": "a kerran rogue",
       "name_sortable": "kerranrogue",
+      "level": 16,
       "locations": [
         "-170.36,-46.32,67.92",
         "-161.28,-47.23,79.93",
@@ -2281,6 +2760,7 @@
     {
       "name": "a kerran vagrant",
       "name_sortable": "kerranvagrant",
+      "level": 16,
       "locations": [
         "-193.56,-45,58.7",
         "-178.36,-45.94,50.53",
@@ -2296,6 +2776,7 @@
     {
       "name": "Kraofla",
       "name_sortable": "kraofla",
+      "level": 30,
       "locations": [
         "426.91,-24.9,-895.16"
       ],
@@ -2322,8 +2803,18 @@
       ]
     },
     {
+      "name": "Ladon",
+      "name_sortable": "ladon",
+      "level": 22,
+      "difficulty": "epicx2",
+      "locations": [
+        "1165.30,-31.90,-289.24"
+      ]
+    },
+    {
       "name": "Lady Anyanka Polevshi",
       "name_sortable": "ladyanyankapolevshi",
+      "level": 20,
       "utterances": [
         "Wait for me in the abyss, my comrade.",
         "You shall pay for disturbing my eternal rest!",
@@ -2354,6 +2845,7 @@
     {
       "name": "Lieutenant Vrah'Kna",
       "name_sortable": "lieutenantvrahkna",
+      "level": 19,
       "utterances": [
         "Break your bones and eat your flesh!",
         "Their death serves our cause.",
@@ -2371,6 +2863,8 @@
     {
       "name": "Lightbringer Wisp",
       "name_sortable": "lightbringerwisp",
+      "level": 18,
+      "difficulty": "heroic",
       "drops": [
         {
           "gamelink": "\\aITEM -1266774612 -154220882:burned out lightstone\\/a",
@@ -2381,6 +2875,7 @@
     {
       "name": "a lost soul",
       "name_sortable": "lostsoul",
+      "level": 10,
       "locations": [
         "-1354.58,-69.59,337.83",
         "-1313.94,-69.38,347.85"
@@ -2389,6 +2884,7 @@
     {
       "name": "Lucanic Knight Initiate",
       "name_sortable": "lucanicknightinitiate",
+      "level": 19,
       "locations": [
         "-309.76,-47.47,-364.87"
       ],
@@ -2527,6 +3023,7 @@
     {
       "name": "a massive emerald beetle",
       "name_sortable": "massiveemeraldbeetle",
+      "level": 10,
       "locations": [
         "-472.09,-48.44,-172.05"
       ],
@@ -2647,6 +3144,7 @@
     {
       "name": "a moon wisp",
       "name_sortable": "moonwisp",
+      "level": 15,
       "locations": [
         "-177.54,-47.89,-470.6",
         "-120.01,-48.04,-421.32",
@@ -2771,6 +3269,7 @@
     {
       "name": "Ohrgran Foulgore",
       "name_sortable": "ohrgranfoulgore",
+      "level": 16,
       "drops": [
         {
           "gamelink": "\\aITEM -833968652 -953746999:Elder's Spaulders of the Intuitive\\/a",
@@ -2781,6 +3280,7 @@
     {
       "name": "an orc emissary",
       "name_sortable": "orcemissary",
+      "level": 15,
       "utterances": [
         "Intruders! Destroy them all!",
         "Back fools, there are too many!"
@@ -2789,6 +3289,8 @@
     {
       "name": "Orc ghost",
       "name_sortable": "orcghost",
+      "level": 20,
+      "aggressive": true,
       "utterances": [
         "The living come to try their luck.",
         "At last, a chance for battle again.",
@@ -2801,6 +3303,7 @@
     {
       "name": "an orc runner",
       "name_sortable": "orcrunner",
+      "level": 14,
       "utterances": [
         "Intruders! Destroy them all!",
         "Back fools, there are too many!"
@@ -2822,7 +3325,9 @@
     },
     {
       "name": "Orc skeleton",
-      "name_sortable": "orcskeleton"
+      "name_sortable": "orcskeleton",
+      "level": 20,
+      "aggressive": true
     },
     {
       "name": "Orwen Neovra",
@@ -2908,6 +3413,7 @@
     {
       "name": "a pirate of Gunthak",
       "name_sortable": "pirateofgunthak",
+      "level": 15,
       "drops": [
         {
           "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
@@ -2916,8 +3422,33 @@
       ]
     },
     {
+      "name": "a plains hunter",
+      "name_sortable": "plainshunter",
+      "level": 17,
+      "locations": [
+        "459.60,-49.17,-99.34",
+        "474.03,-51.08,-110.76",
+        "497.82,-53.43,-92.07",
+        "434.07,-47.01,-18.15",
+        "441.90,-47.95,-1.51"
+      ],
+      "utterances": [
+        "Do not surrender to the invaders!",
+        "Cover me while we regroup!",
+        "That sure wasn't curiosity!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "a putrid cadaver",
       "name_sortable": "putridcadaver",
+      "level": 15,
+      "aggressive": true,
       "drops": [
         {
           "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
@@ -2928,6 +3459,8 @@
     {
       "name": "a Qeynosian protector",
       "name_sortable": "qeynosianprotector",
+      "level": 31,
+      "aggressive": true,
       "locations": [
         "421.07,-24.83,-896.14",
         "429.34,-24.88,-895.12"
@@ -2939,6 +3472,8 @@
     {
       "name": "a Qeynosian scout",
       "name_sortable": "qeynosianscout",
+      "level": 30,
+      "aggressive": true,
       "locations": [
         "421.33,-33.91,-874.32",
         "410.5,-26.15,-900.91",
@@ -2985,8 +3520,18 @@
       ]
     },
     {
+      "name": "Rama'nai",
+      "name_sortable": "ramanai",
+      "level": 18,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "876.51,-57.48,23.22"
+      ]
+    },
+    {
       "name": "Reetusk",
       "name_sortable": "reetusk",
+      "level": 15,
       "locations": [
         "-336.4,-46.56,-500.43"
       ],
@@ -3000,10 +3545,19 @@
     {
       "name": "a rhinoceros",
       "name_sortable": "rhinoceros",
+      "level": 17,
       "locations": [
         "332.05,-48.04,-574.94",
         "342.72,-48.04,-630.17",
-        "518.72,-45.01,-571.35"
+        "518.72,-45.01,-571.35",
+        "290.88,-47.10,-585.86",
+        "317.32,-48.04,-560.93",
+        "334.85,-46.47,-487.66",
+        "385.35,-45.44,-479.56",
+        "311.16,-47.99,-430.20",
+        "331.84,-47.02,-395.05",
+        "392.66,-46.11,-403.72",
+        "274.67,-48.00,-423.05"
       ]
     },
     {
@@ -3142,6 +3696,7 @@
     {
       "name": "a rotting cadaver",
       "name_sortable": "rottingcadaver",
+      "level": 15,
       "drops": [
         {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
@@ -3166,6 +3721,7 @@
     {
       "name": "a runner of Ree",
       "name_sortable": "runnerofree",
+      "level": 15,
       "utterances": [
         "Smash them!",
         "Full retreat!  Regroup in the caves!"
@@ -3186,6 +3742,7 @@
     {
       "name": "a sandstone giant",
       "name_sortable": "sandstonegiant",
+      "level": 19,
       "locations": [
         "1226.82,-51.37,-364.68",
         "1213.22,-31.89,-261.79",
@@ -3194,7 +3751,15 @@
         "1465.91,-31.13,117.98",
         "1456.27,-31.43,117.94",
         "1345.98,-40.45,-183.71",
-        "1178.13,-34.36,-273.49"
+        "1178.13,-34.36,-273.49",
+        "1208.25,-35.66,-249.70",
+        "1163.18,-33.36,-333.56",
+        "1449.51,-40.44,-103.73",
+        "1403.05,-48.63,-61.04",
+        "1454.86,-39.94,15.53",
+        "1458.13,-31.63,124.32",
+        "1475.77,-30.50,122.89",
+        "1276.06,-57.60,-357.64"
       ],
       "drops": [
         {
@@ -3220,12 +3785,34 @@
       ]
     },
     {
+      "name": "a savanna deer",
+      "name_sortable": "savannadeer",
+      "level": 17,
+      "locations": [
+        "713.14,-59.46,-109.93",
+        "828.15,-60.72,-83.12",
+        "761.45,-59.80,-146.71",
+        "827.47,-60.06,-152.99",
+        "827.89,-60.49,-134.08",
+        "849.68,-60.52,-85.36",
+        "872.04,-59.80,-107.59",
+        "849.83,-60.01,-121.04"
+      ]
+    },
+    {
       "name": "a savanna lion",
       "name_sortable": "savannalion",
       "level": 18,
       "locations": [
         "796.06,-46.51,-406.41",
-        "780.56,-54.49,-352.71"
+        "780.56,-54.49,-352.71",
+        "913.16,-59.80,-181.29",
+        "921.63,-60.99,-222.26",
+        "921.30,-60.78,-217.05",
+        "903.59,-60.54,-219.10",
+        "952.55,-59.18,-230.07",
+        "907.78,-60.91,-255.43",
+        "875.06,-60.23,-237.09"
       ]
     },
     {
@@ -3239,12 +3826,15 @@
         "674.89,-47.24,-361.70",
         "709.75,-47.10,-381.44",
         "720.87,-46.07,-404.73",
-        "739.40,-46.88,-452.29"
+        "739.40,-46.88,-452.29",
+        "878.01,-58.59,14.71",
+        "870.87,-59.22,11.66"
       ]
     },
     {
       "name": "a scrub rat",
       "name_sortable": "scrubrat",
+      "level": 11,
       "locations": [
         "-1268.46,-69.64,406.21",
         "-1244.48,-68.04,421.03",
@@ -3275,6 +3865,16 @@
       ]
     },
     {
+      "name": "a shadowed rift watcher",
+      "name_sortable": "shadowedriftwatcher",
+      "level": 35,
+      "locations": [
+        "1070.77,-36.21,-454.63",
+        "1049.69,-37.47,-452.63",
+        "1051.11,-34.57,-471.07"
+      ]
+    },
+    {
       "name": "a shadowy stag",
       "name_sortable": "shadowystag",
       "locations": [
@@ -3290,67 +3890,6 @@
           "gamelink": "\\aITEM 15564315 -1468797977:Advanced Carpenter Volume 24\\/a",
           "chest": true
         }
-      ]
-    },
-    {
-      "name": "a Shin",
-      "name_sortable": "shin",
-      "drops": [
-        {
-          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 19,
-      "drop_coin_max": 221
-    },
-    {
-      "name": "a Shin`Ree avenger",
-      "name_sortable": "shin`reeavenger",
-      "locations": [
-        "-322.78,-48.01,-802.77",
-        "-319.8,-48.02,-774.41",
-        "-305.8,-47.92,-746.36",
-        "-308.84,-47.56,-740.88",
-        "-325.08,-48.63,-918.62",
-        "-296.07,-36.57,-939.06",
-        "-280.31,-37.69,-956",
-        "-304.17,-47.52,-994.4",
-        "-319.12,-47.02,-988.05",
-        "-347.4,-47.06,-997.2",
-        "-251,-48.02,-945.51",
-        "-221.61,-48.04,-927.69",
-        "-259.57,-48.01,-870.94",
-        "-212.1,-45.59,-898.3",
-        "-229.5,-48.04,-934.16",
-        "-252.27,-48.03,-939.06",
-        "-240.75,-46.18,-952.52",
-        "-249.71,-47.61,-970.86",
-        "-276.65,-47.6,-987.52",
-        "-281.67,-46.18,-973.61",
-        "-287.75,-37.33,-961.59",
-        "-296.36,-36.76,-930.39",
-        "-297.22,-40.93,-914.61",
-        "-271.27,-38.69,-905.77",
-        "-275.09,-48.01,-857.41",
-        "-284.49,-48.02,-852.01",
-        "-285.1,-47.39,-789.59",
-        "-302.38,-47.86,-753.75",
-        "-248.12,-48.04,-750.02",
-        "-349.91,-49.1,-955.14",
-        "-372.32,-48.26,-971.98",
-        "-355.25,-47.46,-993.76",
-        "-330.19,-47.29,-978.38",
-        "-298.53,-47.78,-1000.15",
-        "-326.31,-47.85,-955.86"
       ]
     },
     {
@@ -3420,6 +3959,7 @@
     {
       "name": "a small emerald beetle",
       "name_sortable": "smallemeraldbeetle",
+      "level": 11,
       "drops": [
         {
           "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
@@ -3455,6 +3995,7 @@
     {
       "name": "a speckled rattler",
       "name_sortable": "speckledrattler",
+      "level": 11,
       "locations": [
         "-1336.98,-69.56,356.84",
         "-1017.09,-49.07,244.38",
@@ -3500,6 +4041,7 @@
     {
       "name": "a stone beetle",
       "name_sortable": "stonebeetle",
+      "level": 16,
       "drops": [
         {
           "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
@@ -3589,19 +4131,81 @@
     {
       "name": "a Thexian dragoon",
       "name_sortable": "thexiandragoon",
+      "level": 19,
+      "locations": [
+        "1357.18,-39.08,-243.17",
+        "1353.07,-40.74,-252.72",
+        "1352.25,-38.61,-238.04",
+        "1384.30,-38.87,-150.58",
+        "1380.98,-36.93,-177.69",
+        "1377.37,-40.79,-132.28",
+        "1344.98,-40.92,-251.60"
+      ],
       "utterances": [
-        "There is no escape for you now!"
+        "There is no escape for you now!",
+        "Hold them and I'll return with help!",
+        "I will have vengeance!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 28,
+      "drop_coin_max": 36,
+      "faction_changes": [
+        {
+          "name": "The Thexians",
+          "name_sortable": "thexians",
+          "value": -100
+        }
       ]
     },
     {
       "name": "a Thexian excavator",
       "name_sortable": "thexianexcavator",
+      "level": 19,
+      "locations": [
+        "1333.39,-40.11,-240.79",
+        "1331.23,-41.60,-246.94",
+        "1361.07,-35.83,-220.41",
+        "1348.88,-36.50,-220.28",
+        "1390.88,-36.83,-238.02",
+        "1406.28,-35.29,-163.04",
+        "1404.61,-35.78,-183.41",
+        "1404.37,-35.99,-189.78",
+        "1375.37,-35.55,-200.11",
+        "1353.62,-38.16,-197.72",
+        "1336.22,-39.82,-198.11"
+      ],
       "utterances": [
         "I hope you put your affairs in order.",
         "More intruders to deal with?  Stop them!",
         "I have no time for meddlers.  Destroy them!",
         "There is no escape for you now!",
-        "Welcome to torment and destruction!"
+        "Welcome to torment and destruction!",
+        "Fall back, order a tactical retreat!",
+        "No matter what I promise, you will not survive!",
+        "I will have vengeance!",
+        "Hold them and I'll return with help!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Thexians",
+          "name_sortable": "thexians",
+          "value": -100
+        }
       ]
     },
     {
@@ -3627,6 +4231,7 @@
     {
       "name": "a thresh bat",
       "name_sortable": "threshbat",
+      "level": 10,
       "locations": [
         "-1419.29,-51.73,311.94",
         "-1395.46,-50.45,299.83",
@@ -3702,6 +4307,8 @@
     {
       "name": "a Tortured Maid",
       "name_sortable": "torturedmaid",
+      "level": 17,
+      "aggressive": true,
       "utterances": [
         "Mortal agony is nothing compared to the torment that awaits you!",
         "You cannot run from death, mortal!",
@@ -3718,6 +4325,8 @@
     {
       "name": "a tortured soul",
       "name_sortable": "torturedsoul",
+      "level": 19,
+      "aggressive": true,
       "utterances": [
         "You will see us again in your nightmares!",
         "I will show you the true pain of death!",
@@ -3816,6 +4425,15 @@
     {
       "name": "Tundis N`oxyle",
       "name_sortable": "tundisnoxyle",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "1488.75,-38.12,-392.94"
+      ],
       "utterances": [
         "Do not interrupt what is undoubtedly the most important discovery in the past three hundred years.  Be gone, I have much work to attend to here.",
         "Is that so? First you must prove yourself. Strength of mind and body is required in the deep halls. The weak are worthless to us.",
@@ -3833,6 +4451,7 @@
     {
       "name": "a twitching cadaver",
       "name_sortable": "twitchingcadaver",
+      "level": 15,
       "drop_coin_min": 328,
       "drop_coin_max": 328
     },
@@ -3880,6 +4499,7 @@
     {
       "name": "a virulent leper",
       "name_sortable": "virulentleper",
+      "level": 16,
       "locations": [
         "394.98,-47.66,-806.56",
         "404.95,-47.93,-797.38",
@@ -4154,7 +4774,8 @@
     {
       "gamelink": "\\aITEM 488511049 409354024:skeleton pocket\\/a",
       "locations": [
-        "475.46,-46.00,-611.51"
+        "475.46,-46.00,-611.51",
+        "1023.28,-55.00,-185.41"
       ]
     },
     {
@@ -4167,6 +4788,36 @@
       "gamelink": "\\aITEM -1832140126 1193284294:chipped shard of abjuration\\/a",
       "locations": [
         "916.39,-43.00,-548.12"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 2081551614 186916899:Ratonga hoof\\/a",
+      "locations": [
+        "335.46,-47.00,-403.44"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -127782164 -1994111504:Froglok fin\\/a",
+      "locations": [
+        "447.49,-46.00,-32.86"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1379031202 -1065158918:commonlands shrub red leaf\\/a",
+      "locations": [
+        "695.34,-59.00,-123.85"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1868197541 -626008118:chipped shard of conjuration\\/a",
+      "locations": [
+        "1004.71,-58.00,-200.67"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 861846032 -1689084433:cracked halfling bone fragment\\/a",
+      "locations": [
+        "967.56,-58.61,-276.95"
       ]
     }
   ],

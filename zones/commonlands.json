@@ -112,6 +112,12 @@
     {
       "name": "Amoora",
       "name_sortable": "amoora",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-195.59,-47.83,163.64"
       ],
@@ -119,7 +125,8 @@
         "Every day is the same, now that he's gone.",
         "How did you know? Do you know him? Is he here? Father will kill him if he is!",
         "How sweet of him. There is just no talking sense into my father, Jaharin. He will hear nothing of our love. I am afraid I have been forbidden to see Ferink.",
-        "It's you! Thank you so much!  Fenrik and I are to be wed in the spring!"
+        "It's you! Thank you so much!  Fenrik and I are to be wed in the spring!",
+        "...sigh... Hello there... You remind me of him, somehow..."
       ]
     },
     {
@@ -146,8 +153,24 @@
     {
       "name": "an apprentice of the Dismal Rage",
       "name_sortable": "apprenticeofthedismalrage",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-1308.79,-78.79,-274.2"
+      ]
+    },
+    {
+      "name": "an arbor wasp",
+      "name_sortable": "arborwasp",
+      "locations": [
+        "-582.66,-48.00,-397.38",
+        "-548.84,-51.33,-468.97",
+        "-566.94,-50.23,-476.28",
+        "-580.97,-47.66,-456.21"
       ]
     },
     {
@@ -187,6 +210,16 @@
         "What? I have no idea what that means! Wait ... Siege. There are orcish skeletons around the old siege ruins. My mistress claims that she didn't raise them. It must be Zarvonn! That hag was saying that Zarvonn raised them! ",
         "Who knows? Let's find out. If you go to the ruins, and bring back some bones from the odder-looking skeletons, I can find out if there's any trace of Zarvonn's magic left within them. If you do this, I'll tell the Mistress you wish to speak with her. She may tell you more about Zarvonn, though she'll probably do it a little bit at a time, over many months, while you run around doing chores for her.",
         "Travel to the east until you reach the ruins of the orcs most successful attempt at besieging Freeport. I'll need skulls from the more powerful undead you'll find there, and make sure the skulls aren't damaged."
+      ]
+    },
+    {
+      "name": "a banded armadillo",
+      "name_sortable": "bandedarmadillo",
+      "locations": [
+        "-1176.87,-58.47,-153.61",
+        "-1020.98,-50.43,-19.82",
+        "-959.40,-48.54,-64.29",
+        "-972.41,-47.46,-90.52"
       ]
     },
     {
@@ -375,7 +408,8 @@
         "124.07,-48.04,-571.15",
         "110.24,-48.04,-587.25",
         "140.48,-48.04,-584.77",
-        "149.11,-48.04,-602.60"
+        "149.11,-48.04,-602.60",
+        "-612.58,-51.34,-603.48"
       ],
       "drops": [
         {
@@ -386,6 +420,19 @@
           "gamelink": "\\aITEM -1294750651 -1669415379:a dull wedge\\/a",
           "chest": true
         }
+      ]
+    },
+    {
+      "name": "Blat Berisen",
+      "name_sortable": "blatberisen",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1104.68,-59.99,54.44"
       ]
     },
     {
@@ -508,7 +555,11 @@
         "-255.13,-48.47,339.98",
         "-266.76,-48.27,334.10",
         "-278.85,-47.81,335.61",
-        "-270.38,-48.34,358.66"
+        "-270.38,-48.34,358.66",
+        "-219.66,-48.04,264.74",
+        "-226.22,-48.04,264.11",
+        "-216.89,-48.04,253.62",
+        "-226.33,-48.04,252.92"
       ],
       "utterances": [
         "Intruders! Destroy them all!",
@@ -648,7 +699,10 @@
         "-267.42,-47.27,473.49",
         "-300.26,-48.43,508.21",
         "-341.79,-47.97,564.71",
-        "-326.69,-46.30,596.97"
+        "-326.69,-46.30,596.97",
+        "-235.30,-48.04,311.59",
+        "-336.15,-45.70,306.81",
+        "-374.56,-45.89,303.63"
       ],
       "utterances": [
         "There are too many!  We must regroup."
@@ -913,6 +967,51 @@
     {
       "name": "a burly armadillo",
       "name_sortable": "burlyarmadillo",
+      "locations": [
+        "-897.59,-71.95,-500.45",
+        "-958.41,-72.17,-504.85",
+        "-965.62,-71.41,-500.92",
+        "-962.52,-74.67,-526.80",
+        "-1003.44,-69.78,-523.85",
+        "-928.06,-67.17,-466.72",
+        "-950.73,-63.50,-401.22",
+        "-965.94,-55.64,-373.45",
+        "-920.58,-50.74,-325.15",
+        "-902.74,-48.34,-286.37",
+        "-867.77,-48.61,-257.21",
+        "-875.29,-48.06,-254.48",
+        "-873.05,-47.84,-235.23",
+        "-851.48,-48.07,-219.99",
+        "-853.26,-48.47,-231.85",
+        "-842.25,-48.03,-190.99",
+        "-846.05,-47.20,-181.26",
+        "-786.67,-50.33,-266.69",
+        "-817.72,-55.27,-294.50",
+        "-829.99,-56.60,-316.28",
+        "-822.78,-56.89,-336.78",
+        "-777.40,-49.48,-306.35",
+        "-948.32,-62.33,-386.96",
+        "-987.56,-62.57,-417.04",
+        "-997.56,-63.57,-432.90",
+        "-1010.88,-57.27,-401.15",
+        "-1201.23,-66.24,-203.09",
+        "-1190.64,-65.82,-207.30",
+        "-1182.76,-61.90,-181.44",
+        "-1172.24,-59.83,-164.24",
+        "-1138.13,-58.36,-159.81",
+        "-1118.35,-58.98,-83.79",
+        "-988.34,-50.04,-32.69",
+        "-987.97,-49.87,-21.41",
+        "-974.75,-49.46,-19.51",
+        "-977.87,-49.73,-38.32",
+        "-975.02,-49.80,-32.92",
+        "-995.21,-50.25,-32.02",
+        "-962.85,-47.20,-125.86",
+        "-951.86,-46.88,-138.86",
+        "-984.95,-47.30,-119.67",
+        "-961.04,-47.24,-145.34",
+        "-955.44,-46.80,-161.56"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 1357887229 802173436:Far Seas Requisition - FG 016\\/a",
@@ -1128,11 +1227,42 @@
     {
       "name": "a carrion hound",
       "name_sortable": "carrionhound",
+      "locations": [
+        "-1195.70,-66.94,-326.29",
+        "-1183.13,-64.18,-333.62",
+        "-1165.60,-64.62,-312.32",
+        "-1155.56,-61.30,-321.69",
+        "-1053.15,-49.30,-93.64",
+        "-1073.16,-54.00,-63.87",
+        "-1056.88,-51.18,-64.17",
+        "-1053.31,-51.65,-48.11",
+        "-1038.10,-50.55,-44.00",
+        "-1003.55,-47.47,-112.14",
+        "-976.28,-47.39,-106.91",
+        "-967.98,-47.48,-96.30",
+        "-973.16,-47.24,-186.99",
+        "-987.55,-47.30,-186.99",
+        "-973.16,-47.57,-175.11",
+        "-1013.47,-47.67,-164.71",
+        "-1033.63,-47.90,-154.31",
+        "-1056.66,-49.16,-172.14",
+        "-1023.17,-47.78,-111.83"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 1211035744 439759271:canine incisor\\/a",
           "chest": false
         }
+      ]
+    },
+    {
+      "name": "a carrion hound pup",
+      "name_sortable": "carrionhoundpup",
+      "locations": [
+        "-1013.39,-47.57,-263.81",
+        "-995.21,-47.87,-247.87",
+        "-985.06,-47.66,-251.26",
+        "-1022.75,-47.50,-218.35"
       ]
     },
     {
@@ -1814,7 +1944,41 @@
       "name": "a digger wasp",
       "name_sortable": "diggerwasp",
       "locations": [
-        "-601.84,-39.84,-369.33"
+        "-601.84,-39.84,-369.33",
+        "-612.14,-20.52,-309.06",
+        "-623.66,-38.17,-319.10",
+        "-661.95,-29.27,-328.84",
+        "-670.97,-19.63,-329.13",
+        "-661.91,-29.43,-360.78",
+        "-698.27,-26.15,-269.45",
+        "-589.12,-19.52,-297.52",
+        "-571.71,-19.55,-337.33",
+        "-612.49,-37.74,-345.16",
+        "-671.28,-37.17,-309.68",
+        "-682.56,-17.90,-392.98",
+        "-643.27,-13.97,-421.56",
+        "-707.23,-28.61,-436.30",
+        "-688.07,-19.81,-473.12",
+        "-682.59,-17.09,-478.47",
+        "-705.11,-40.02,-478.81",
+        "-744.68,-21.87,-450.26",
+        "-756.37,-25.93,-421.47",
+        "-823.30,-25.95,-436.80",
+        "-823.30,-36.38,-479.14",
+        "-800.68,-34.22,-473.79",
+        "-817.59,-34.36,-507.64",
+        "-733.21,-13.84,-524.48",
+        "-755.86,-17.15,-519.24"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 248074692 -162106332:an insect wing\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1968962735 -339631279:an insect stinger\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -1840,10 +2004,71 @@
     {
       "name": "a dregs sneak",
       "name_sortable": "dregssneak",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
       "level": 14,
+      "locations": [
+        "-239.56,-47.4,-0.23",
+        "-250.6,-47.98,-4.63",
+        "-259.48,-46.89,2.54",
+        "-268.35,-47.47,3.87",
+        "-280.39,-48.04,-2.56",
+        "-279.63,-48.05,-29.46",
+        "-278.65,-48.23,-48.24",
+        "-292.86,-48.84,-36.77",
+        "-308.36,-48.04,-0.07",
+        "-302.23,-47.42,-9.54",
+        "-242.70,-48.04,-26.95"
+      ],
       "utterances": [
         "Startle us, you did. We'll have to remedy that."
-      ]
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 37,
+      "drop_coin_max": 37
+    },
+    {
+      "name": "a dregs vagrant",
+      "name_sortable": "dregsvagrant",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-261.25,-48.34,31.91",
+        "-251.76,-48.82,23.9",
+        "-250.07,-46.4,17.92",
+        "-236.5,-46.66,14.66",
+        "-223.41,-46.21,6.3"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 25,
+      "drop_coin_max": 25
     },
     {
       "name": "Durio Caepio",
@@ -1873,7 +2098,9 @@
         "-761.21,-71.17,-634.61",
         "-738.30,-59.94,-667.09",
         "-714.90,-55.28,-678.89",
-        "-695.27,-54.93,-655.00"
+        "-695.27,-54.93,-655.00",
+        "-705.16,-56.57,-658.86",
+        "-708.32,-55.63,-671.07"
       ],
       "drops": [
         {
@@ -2033,12 +2260,19 @@
     {
       "name": "Entui",
       "name_sortable": "entui",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-219.86,-47,122.15"
       ],
       "utterances": [
         "The rats across the river annoy my neighbors to no end, but I think they're kind of cute.",
-        "The fishing here isn't as good as I would have hoped."
+        "The fishing here isn't as good as I would have hoped.",
+        "This is my house, you should remember that."
       ]
     },
     {
@@ -2204,8 +2438,112 @@
       "drop_coin_max": 28
     },
     {
+      "name": "a fallen orc",
+      "name_sortable": "fallenorc",
+      "locations": [
+        "-1017.54,-62.60,-437.49",
+        "-1034.43,-63.70,-438.15",
+        "-1023.43,-63.39,-434.46",
+        "-1048.54,-62.03,-439.90",
+        "-1057.31,-61.01,-428.53",
+        "-1067.92,-58.58,-421.44",
+        "-1064.27,-60.66,-429.67",
+        "-1075.78,-61.05,-443.62",
+        "-1072.97,-59.75,-430.04",
+        "-1038.82,-65.19,-474.23",
+        "-1139.51,-55.23,-417.03",
+        "-1128.09,-54.43,-405.50",
+        "-1108.44,-54.67,-400.10",
+        "-1152.78,-55.67,-375.41",
+        "-1169.33,-54.55,-408.48",
+        "-1188.11,-48.53,-469.61",
+        "-1203.63,-48.05,-450.71",
+        "-1209.89,-48.54,-457.17",
+        "-1206.64,-48.73,-464.18",
+        "-1254.55,-57.07,-440.39",
+        "-1265.76,-70.04,-364.14",
+        "-1300.40,-72.75,-382.87",
+        "-1221.62,-71.23,-300.65"
+      ],
+      "utterances": [
+        "Take cover!",
+        "Reinforcements!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 20,
+      "drop_coin_max": 39
+    },
+    {
+      "name": "a fallen orc lieutenant",
+      "name_sortable": "fallenorclieutenant",
+      "locations": [
+        "-1034.32,-63.51,-442.27",
+        "-1119.32,-57.46,-430.75",
+        "-1129.85,-54.74,-382.82",
+        "-1178.03,-49.69,-477.03",
+        "-1223.40,-49.65,-435.80"
+      ],
+      "utterances": [
+        "Take cover!",
+        "Reinforcements!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a farmer",
+      "name_sortable": "farmer",
+      "locations": [
+        "-222.37,-45.64,-134.09",
+        "-239.10,-46.43,-161.25",
+        "-224.40,-46.43,-179.27",
+        "-200.23,-45.54,-173.16",
+        "-176.75,-46.22,-191.24"
+      ],
+      "utterances": [
+        "Fall back in formation, and regroup at the rendezvous.",
+        "Cover me while we regroup!",
+        "All hands retreat!",
+        "Keep up the assault, no matter what the cost in lives!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 18,
+      "drop_coin_max": 18
+    },
+    {
       "name": "Ferink",
       "name_sortable": "ferink",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-289.33,-46.43,56.86"
+      ],
       "utterances": [
         "Oh whys oh whys can't we be together?  Oh whys oh whys. My true love, the loves of my life is locked away on the other sides of the river and I can't be with her. Oh whys does it has to be this ways? It's not fair, not fair at all. Something must be done!",
         "Amoora, my love. She is the love of my life, the shining beacon of my heart, my passion, my preciouses Amoora has my heart and holds it captive. I aches so when I can't be nears her, when I can't smell her sweet smelling fur.",
@@ -2270,7 +2608,15 @@
         "-1263.73,-46.60,603.98",
         "-1245.27,-48.70,592.96",
         "-1214.07,-50.23,563.86",
-        "-1152.66,-47.73,563.90"
+        "-1152.66,-47.73,563.90",
+        "-1255.32,-46.27,592.93",
+        "-1262.19,-47.00,589.77",
+        "-1214.72,-54.70,583.49",
+        "-1202.54,-53.70,577.70",
+        "-1202.57,-55.21,567.27",
+        "-1188.98,-52.73,564.52",
+        "-1175.13,-51.62,527.75",
+        "-1155.23,-52.46,545.61"
       ],
       "drops": [
         {
@@ -2340,6 +2686,15 @@
     {
       "name": "Gerun Pontian",
       "name_sortable": "gerunpontian",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1276.01,-88.3,50.87"
+      ],
       "utterances": [
         "Gerun Pontian of the Militia. I watch the gates. I assure you a more dreary job does not exist in all of D'Lere.",
         "Who attacks the gates of Freeport? Orcs? Dervish Cutthroats? Qeynosians? Hah! The only good thing about this post is it gives me a lot of time. And even the most daft of fools knows that time equals money.",
@@ -2378,6 +2733,19 @@
       "name": "a ghostly orc",
       "name_sortable": "ghostlyorc",
       "level": 12,
+      "locations": [
+        "-1256.48,-52.84,-482.79",
+        "-1258.28,-69.91,-361.38",
+        "-1278.24,-69.35,-378.33",
+        "-1303.62,-76.46,-362.59",
+        "-1338.19,-79.67,-377.18",
+        "-1307.37,-78.33,-349.27",
+        "-1239.62,-72.20,-319.10",
+        "-1224.50,-69.38,-337.01",
+        "-1232.16,-71.82,-318.97",
+        "-1287.31,-71.86,-205.75",
+        "-1358.00,-79.64,-180.77"
+      ],
       "utterances": [
         "I embrace Death.",
         "At last, a chance for battle again.",
@@ -2388,15 +2756,41 @@
         {
           "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
         }
       ],
-      "drop_coin_min": 39,
-      "drop_coin_max": 39
+      "drop_coin_min": 25,
+      "drop_coin_max": 301
+    },
+    {
+      "name": "a ghostly orc messenger",
+      "name_sortable": "ghostlyorcmessenger",
+      "locations": [
+        "-1257.71,-55.60,-461.04"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        }
+      ]
     },
     {
       "name": "a giant grove wisp",
       "name_sortable": "giantgrovewisp",
       "level": 15,
+      "locations": [
+        "-608.27,-43.81,-622.54",
+        "-680.96,-46.60,-627.70",
+        "-678.62,-36.74,-573.19"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
@@ -2421,7 +2815,13 @@
         "-964.35,-39.77,426.57",
         "-927.33,-33.46,423.52",
         "-885.81,-30.25,409.43",
-        "-874.21,-35.15,382.71"
+        "-874.21,-35.15,382.71",
+        "-634.40,-41.96,158.18",
+        "-700.15,-34.54,236.90",
+        "-727.39,-35.60,245.58",
+        "-706.90,-38.23,184.49",
+        "-666.89,-37.60,190.92",
+        "-669.73,-35.82,144.68"
       ],
       "drops": [
         {
@@ -2489,6 +2889,19 @@
       ]
     },
     {
+      "name": "Gil McMartin",
+      "name_sortable": "gilmcmartin",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-923.41,-47.93,13.8"
+      ]
+    },
+    {
       "name": "Gimble Cognoggin",
       "name_sortable": "gimblecognoggin",
       "locations": [
@@ -2523,9 +2936,20 @@
       "name": "a grove wisp",
       "name_sortable": "grovewisp",
       "level": 13,
+      "locations": [
+        "-697.66,-49.35,-665.87",
+        "-633.07,-42.00,-563.04",
+        "-627.08,-42.99,-568.88",
+        "-608.71,-48.00,-596.30",
+        "-642.61,-40.60,-571.57"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
         }
       ]
@@ -2713,6 +3137,12 @@
     {
       "name": "Gubta",
       "name_sortable": "gubta",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-505.91,-43.35,-257.22"
       ]
@@ -2723,7 +3153,8 @@
       "level": 25,
       "difficulty": "heroic^^",
       "locations": [
-        "254.03,-38.66,-450.56"
+        "254.03,-38.66,-450.56",
+        "-202.54,-37.35,-82.32"
       ],
       "drops": [
         {
@@ -2817,6 +3248,12 @@
     {
       "name": "Importer Strathcona",
       "name_sortable": "importerstrathcona",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1228.53,-84.51,34.16"
       ],
@@ -2842,6 +3279,12 @@
     {
       "name": "Jaharin",
       "name_sortable": "jaharin",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-191.2,-47.39,139.61"
       ],
@@ -2855,7 +3298,8 @@
         "Yes, yes... I suppose so.",
         "Well, I suppose that if he does care for Amoora enough to risk his scrawny little neck for us, then he can't be all bad.",
         "Of course, go tell the rat... er... Ferink that he is welcome to feast this evening... Oh, and it won't be rat on the menu...",
-        "Thank you again for defending our home."
+        "Thank you again for defending our home.",
+        "Yes?..."
       ]
     },
     {
@@ -2930,9 +3374,19 @@
     {
       "name": "Kadek",
       "name_sortable": "kadek",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-299.24,-47.42,-3.6"
+      ],
       "utterances": [
         "Don't hurts! Money in mailbox outside.",
-        "...nnng..."
+        "...nnng...",
+        "What do the kerrans contribute to Freeport? Nothing!"
       ]
     },
     {
@@ -2998,6 +3452,12 @@
     {
       "name": "Keerah",
       "name_sortable": "keerah",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-185.96,-47.59,113.39"
       ],
@@ -3010,6 +3470,13 @@
     {
       "name": "a kerran rogue",
       "name_sortable": "kerranrogue",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
       "level": 16,
       "locations": [
         "-170.36,-46.32,67.92",
@@ -3025,7 +3492,10 @@
         "-231.78,-47.43,139.79",
         "-230.63,-47.28,148.12",
         "-218.02,-48.04,143",
-        "-192.05,-47.4,158.23"
+        "-192.05,-47.4,158.23",
+        "-171.9,-47.16,124.12",
+        "-202.51,-47.32,84.69",
+        "-188.40,-47.42,138.19"
       ],
       "utterances": [
         "You seem to believe in hopeless causes.",
@@ -3037,6 +3507,14 @@
         {
           "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 17,
@@ -3045,17 +3523,32 @@
     {
       "name": "a kerran vagrant",
       "name_sortable": "kerranvagrant",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male",
+        "female"
+      ],
       "level": 16,
       "locations": [
         "-193.56,-45,58.7",
         "-178.36,-45.94,50.53",
         "-222.83,-48.37,74.25",
-        "-228.41,-47.41,84.03"
+        "-228.41,-47.41,84.03",
+        "-202.09,-47.08,57.34",
+        "-189.16,-48.50,51.59"
       ],
       "utterances": [
         "Feel the searing pain of my claws!",
         "You'll never live to tell our tale!",
         "Obviously not worthy of pack status."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -3120,6 +3613,12 @@
     {
       "name": "Leldwana",
       "name_sortable": "leldwana",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-196.52,-47.3,143.41"
       ],
@@ -3127,7 +3626,8 @@
         "What do you want?",
         "Oh no! I forgot! I'm so sorry. Here, take it, I have it right here.",
         "I would invite you to stay, but...",
-        "You are not welcome to stay here, if that is what you were thinking."
+        "You are not welcome to stay here, if that is what you were thinking.",
+        "Leave, please, unless you have business."
       ]
     },
     {
@@ -3240,12 +3740,19 @@
     {
       "name": "Maharai",
       "name_sortable": "maharai",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-182.74,-47.61,112.54"
       ],
       "utterances": [
         "Something really needs to be done about our rat problem.",
-        "The gnawing, and the screeching, and the clawing... they're so NOISY."
+        "The gnawing, and the screeching, and the clawing... they're so NOISY.",
+        "Those rats across the river leave an awful stench wherever they go!"
       ]
     },
     {
@@ -3334,7 +3841,26 @@
       "name_sortable": "massiveemeraldbeetle",
       "level": 10,
       "locations": [
-        "-472.09,-48.44,-172.05"
+        "-472.09,-48.44,-172.05",
+        "-390.61,-48.04,-91.12",
+        "-382.61,-48.04,-90.96",
+        "-394.64,-48.04,-85.97",
+        "-388.35,-48.04,-68.37",
+        "-452.38,-47.98,62.38",
+        "-451.58,-48.04,109.58",
+        "-439.59,-48.04,116.04",
+        "-428.35,-48.04,115.99",
+        "-447.13,-48.04,128.34",
+        "-454.35,-48.04,147.14",
+        "-490.45,-48.19,-182.58",
+        "-450.75,-48.64,-182.68",
+        "-443.72,-48.04,-137.56",
+        "-1077.95,-54.12,89.73",
+        "-1051.67,-51.52,74.90",
+        "-1074.88,-52.07,119.79",
+        "-1080.55,-52.38,142.38",
+        "-1096.26,-54.59,164.17",
+        "-1103.35,-59.86,216.56"
       ],
       "drops": [
         {
@@ -3364,6 +3890,15 @@
     {
       "name": "Master of the Hunt",
       "name_sortable": "masterofthehunt",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-1082.02,-49.23,-236.28"
+      ],
       "utterances": [
         "Stay clear of that lot down there.",
         "What is it?  Did Iziran send you to check up on me?",
@@ -3441,19 +3976,118 @@
       "level": 11,
       "locations": [
         "-738.21,-61.08,-699.35",
-        "-624.40,-49.51,-677.80"
+        "-624.40,-49.51,-677.80",
+        "-592.82,-51.53,-578.17",
+        "-612.28,-51.54,-575.54",
+        "-626.65,-50.74,-595.17",
+        "-610.31,-50.50,-614.01",
+        "-616.93,-50.13,-615.54",
+        "-607.48,-49.81,-630.72",
+        "-607.11,-49.39,-674.55",
+        "-609.67,-49.10,-704.10",
+        "-629.31,-49.56,-744.86",
+        "-642.07,-50.00,-752.47",
+        "-614.88,-48.79,-756.55",
+        "-669.14,-49.27,-714.09",
+        "-707.56,-51.87,-700.36",
+        "-710.67,-58.15,-654.76",
+        "-692.88,-54.00,-659.01",
+        "-604.72,-51.84,-599.49",
+        "-612.52,-51.55,-580.94"
       ]
     },
     {
       "name": "Mnemir",
       "name_sortable": "mnemir",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-252.93,-47.02,-33.29"
+      ],
       "utterances": [
         "What yous want?",
         "What?! That's a lie!",
         "I won't! I don't have it! I won't give you anything! You can't make me do anything!",
         "OW!",
         "...ugh!",
-        "..."
+        "...",
+        "Leave before Mnemir gets angry!"
+      ]
+    },
+    {
+      "name": "a molting scorpion",
+      "name_sortable": "moltingscorpion",
+      "locations": [
+        "-739.50,-47.59,146.91",
+        "-757.25,-48.24,165.97",
+        "-761.37,-48.38,157.93",
+        "-742.37,-47.10,175.95",
+        "-750.21,-48.04,74.13",
+        "-725.40,-48.04,53.95",
+        "-724.82,-48.04,38.90",
+        "-722.31,-48.04,33.78",
+        "-692.45,-47.96,-12.26",
+        "-688.92,-47.76,-29.54",
+        "-1031.42,-48.07,153.62",
+        "-1041.85,-48.56,159.86",
+        "-1051.84,-48.71,153.64",
+        "-1032.67,-48.00,145.30",
+        "-1021.25,-47.98,153.66",
+        "-996.72,-48.03,146.59",
+        "-978.06,-48.04,105.13",
+        "-953.16,-48.04,81.60"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -851892125 418243326:a scorpion stinger\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a monitor lizard",
+      "name_sortable": "monitorlizard",
+      "locations": [
+        "-382.34,-47.59,137.25",
+        "-351.77,-48.04,126.37",
+        "-318.67,-48.04,109.23",
+        "-327.37,-48.04,101.46",
+        "-343.34,-48.04,118.41",
+        "-387.21,-37.59,210.45",
+        "-354.70,-44.60,213.99",
+        "-340.98,-43.60,186.20",
+        "-418.52,-43.74,188.76",
+        "-423.08,-44.68,201.40",
+        "-499.17,-48.04,183.46",
+        "-523.15,-48.04,163.75",
+        "-543.64,-48.00,165.26",
+        "-537.44,-48.04,176.71",
+        "-563.43,-48.04,163.79",
+        "-640.31,-35.79,-71.99",
+        "-629.73,-35.52,-73.04",
+        "-619.59,-36.79,-87.40",
+        "-618.46,-36.06,-100.59",
+        "-620.90,-35.29,-111.81",
+        "-567.77,-45.96,-98.54",
+        "-563.57,-46.96,-104.46",
+        "-549.62,-47.98,-83.56",
+        "-566.00,-46.27,-64.36",
+        "-549.53,-47.70,-60.81",
+        "-576.03,-47.35,-15.49",
+        "-574.75,-48.01,-1.90",
+        "-578.95,-47.92,20.80",
+        "-590.39,-46.04,19.83",
+        "-571.74,-47.90,66.85"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1574255205 902748530:reptile meat\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -3481,6 +4115,12 @@
     {
       "name": "Mooshga",
       "name_sortable": "mooshga",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-1272.59,-87.82,28.21"
       ],
@@ -3533,6 +4173,12 @@
     {
       "name": "Nethet",
       "name_sortable": "nethet",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1272.75,-87.82,61.64"
       ],
@@ -3573,12 +4219,31 @@
     {
       "name": "Nosno",
       "name_sortable": "nosno",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-196.4,-47.71,56.22"
       ],
       "utterances": [
         "The Overlord's might casts a great shadow over these lands. It is wise of Qeynos to stay far, we would crush them.",
         "I was once small and weak. I have grown."
+      ]
+    },
+    {
+      "name": "Ocranis Lucena",
+      "name_sortable": "ocranislucena",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1297.14,-87.86,34.09"
       ]
     },
     {
@@ -3592,6 +4257,10 @@
         {
           "gamelink": "\\aITEM -833968652 -953746999:Elder's Spaulders of the Intuitive\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
         }
       ],
       "faction_changes": [
@@ -3922,6 +4591,15 @@
     {
       "name": "Riki",
       "name_sortable": "riki",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-302.98,-47.42,-5.12"
+      ],
       "utterances": [
         "What do you want?",
         "Yes? I'm sorry, we don't need any more supplies until the end of the month. Good day.",
@@ -4045,11 +4723,21 @@
     {
       "name": "Rootka",
       "name_sortable": "rootka",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-265.75,-47.47,2.03"
+      ],
       "utterances": [
         "What you wants with Rootka?",
         "Someone takes them, then! Tries to make Rootka looks bad!",
         "Fine, fine! Rootka understands. How much?",
-        "Here, take it. Rootka likes living more than money anyway."
+        "Here, take it. Rootka likes living more than money anyway.",
+        "The kerrans plot against us, you must warn the Overlord!"
       ]
     },
     {
@@ -4191,6 +4879,19 @@
       ]
     },
     {
+      "name": "Scout Nonius",
+      "name_sortable": "scoutnonius",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-931.58,-48.65,-26.49"
+      ]
+    },
+    {
       "name": "a scrub rat",
       "name_sortable": "scrubrat",
       "level": 11,
@@ -4303,6 +5004,32 @@
       ]
     },
     {
+      "name": "Sian D'ior",
+      "name_sortable": "siandior",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-945.29,-48.86,-56.52"
+      ]
+    },
+    {
+      "name": "Silentsting",
+      "name_sortable": "silentsting",
+      "locations": [
+        "-648.49,-38.17,-316.98"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 248074692 -162106332:an insect wing\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "a silt eater",
       "name_sortable": "silteater",
       "locations": [
@@ -4325,11 +5052,25 @@
         "15.37,-51.53,-709.22",
         "-45.02,-51.20,-705.34",
         "-50.61,-51.00,-645.33",
-        "-9.26,-50.50,-610.48"
+        "-9.26,-50.50,-610.48",
+        "-1166.82,-52.27,534.96",
+        "-953.14,-50.00,515.78",
+        "-748.95,-49.95,410.65",
+        "-641.96,-49.00,310.00",
+        "-571.85,-51.01,250.40",
+        "-473.58,-50.40,239.60",
+        "-316.57,-50.69,226.57",
+        "-297.40,-50.15,193.01",
+        "-145.94,-49.85,286.77",
+        "-146.46,-50.00,262.24"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM -595786562 -1168539999:a fish meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1394747759 1963691358:a fish eye\\/a",
           "chest": false
         }
       ]
@@ -4338,6 +5079,22 @@
       "name": "a small emerald beetle",
       "name_sortable": "smallemeraldbeetle",
       "level": 11,
+      "locations": [
+        "-1157.37,-68.61,-11.17",
+        "-1178.50,-71.95,-22.87",
+        "-1202.64,-76.62,-24.89",
+        "-1191.23,-75.19,-8.77",
+        "-1176.40,-72.90,4.97",
+        "-1200.20,-78.08,10.01",
+        "-1205.71,-80.16,31.85",
+        "-1199.19,-75.20,113.26",
+        "-1196.02,-75.26,99.86",
+        "-1184.93,-73.76,88.57",
+        "-1163.36,-71.14,61.46",
+        "-1128.65,-61.82,108.67",
+        "-1157.53,-67.30,113.21",
+        "-1166.89,-69.58,109.10"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
@@ -4363,7 +5120,26 @@
         "-40.23,-49.88,-632.16",
         "-47.24,-49.06,-621.38",
         "284.66,-49.94,456.16",
-        "282.08,-48.67,432.31"
+        "282.08,-48.67,432.31",
+        "-1199.66,-50.96,565.81",
+        "-1151.71,-50.95,532.25",
+        "-1159.26,-50.63,537.70",
+        "-1121.01,-48.92,528.85",
+        "-1044.20,-48.76,517.48",
+        "-987.52,-49.98,530.75",
+        "-746.56,-48.80,399.90",
+        "-727.72,-48.01,392.62",
+        "-652.74,-49.93,313.08",
+        "-575.42,-50.02,253.44",
+        "-477.20,-50.97,245.79",
+        "-423.76,-50.00,258.47",
+        "-319.21,-50.77,226.57",
+        "-311.38,-51.80,226.63",
+        "-260.42,-49.10,70.70",
+        "-160.15,-48.97,159.84",
+        "-150.28,-50.00,280.14",
+        "-146.41,-51.00,287.45",
+        "-131.35,-50.00,330.99"
       ],
       "drops": [
         {
@@ -4390,12 +5166,80 @@
         "-1187.38,-75.38,8.98",
         "-1179.3,-72.65,58.13",
         "-1236.14,-82.35,106.46",
-        "-1219.32,-82.42,24.89"
+        "-1219.32,-82.42,24.89",
+        "-1132.92,-63.23,-1.25",
+        "-1186.56,-74.79,2.31",
+        "-1187.70,-76.20,20.15",
+        "-1192.04,-75.91,2.50",
+        "-1201.24,-78.25,9.49",
+        "-1228.45,-83.52,5.21",
+        "-1217.85,-82.11,18.93",
+        "-1238.93,-85.24,69.88",
+        "-1208.94,-77.09,112.44",
+        "-1145.31,-67.10,88.39",
+        "-1174.29,-69.94,121.50",
+        "-1102.86,-59.04,83.42",
+        "-1108.66,-55.59,162.42",
+        "-931.15,-48.04,45.21"
       ]
+    },
+    {
+      "name": "a spectral defender",
+      "name_sortable": "spectraldefender",
+      "locations": [
+        "-1299.75,-74.74,-210.98",
+        "-1308.69,-76.07,-211.02",
+        "-1313.25,-77.24,-219.27",
+        "-1306.85,-76.45,-219.56",
+        "-1322.19,-77.54,-208.17",
+        "-1374.71,-77.42,-162.16",
+        "-1410.55,-77.47,-185.57",
+        "-1402.68,-85.28,-230.32",
+        "-1389.22,-84.07,-222.83",
+        "-1379.35,-83.37,-228.22",
+        "-1392.89,-84.49,-236.36",
+        "-1398.71,-84.97,-239.08",
+        "-1283.89,-59.64,-179.49"
+      ],
+      "utterances": [
+        "I will not lose count, and you will suffer the lot!",
+        "My comrades spirit rests ... for now.",
+        "You cannot truly kill what is already dead.",
+        "They will rise again. They always do."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 220303815 -2092524802:a vial of spectral essence\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -704384670 1077323225:an ethereal nerve\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 40,
+      "drop_coin_max": 147
     },
     {
       "name": "Spirit of Raegnir",
       "name_sortable": "spiritofraegnir",
+      "race": [
+        "orc"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1326.23,-80.04,-258.2"
+      ],
       "utterances": [
         "My pain is eternal.",
         "Why do you bother me?",
@@ -4408,7 +5252,8 @@
         "What do you mean?",
         "... they hit the house of the guard captain?",
         "Hah hah hah. So we sneak into Freeport to kill some guard captain, get killed, and the poor guy dies anyway? Hah hah hah! Oh, the world works in interesting ways.",
-        "No. No they did not. You bring me my weapon and my peace. I think I will leave now. Thank you."
+        "No. No they did not. You bring me my weapon and my peace. I think I will leave now. Thank you.",
+        "It is missing."
       ]
     },
     {
@@ -4627,7 +5472,30 @@
         "-1327.83,-53.92,341.04",
         "-1370.97,-48.63,352.81",
         "-1374.19,-50.56,367",
-        "-1403.37,-66.61,358.23"
+        "-1403.37,-66.61,358.23",
+        "-1098.27,-51.73,-8.55",
+        "-1097.29,-37.18,-4.85",
+        "-1094.92,-43.43,-6.40",
+        "-1111.29,-53.38,-3.59",
+        "-1086.00,-45.92,6.34",
+        "-1138.97,-46.24,-49.22",
+        "-1124.08,-52.43,-63.26",
+        "-1143.65,-55.49,-36.79",
+        "-1169.88,-52.28,-17.81",
+        "-1138.06,-53.15,143.51",
+        "-1134.28,-45.33,138.38",
+        "-1126.92,-52.16,127.72",
+        "-1128.72,-50.28,153.35",
+        "-1093.55,-48.98,82.99",
+        "-1102.01,-44.05,66.55",
+        "-1082.39,-47.84,53.80",
+        "-1089.66,-42.32,73.44"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1127098598 -837078682:a bat ear\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -4942,7 +5810,10 @@
         "-260.54,-47.06,479.12",
         "-291.91,-48.41,508.18",
         "-350.66,-48.01,564.89",
-        "-323.31,-46.40,588.89"
+        "-323.31,-46.40,588.89",
+        "-226.01,-48.04,323.40",
+        "-335.10,-45.56,306.85",
+        "-368.00,-45.61,310.76"
       ]
     },
     {
@@ -4976,6 +5847,34 @@
       ]
     },
     {
+      "name": "a young vulrich",
+      "name_sortable": "youngvulrich",
+      "locations": [
+        "-1184.53,-65.87,-293.81",
+        "-1189.41,-66.44,-265.00",
+        "-1154.80,-62.41,-280.73",
+        "-1077.43,-49.50,-288.54",
+        "-1087.87,-51.30,-284.58",
+        "-1072.40,-48.11,-281.57",
+        "-1084.23,-49.75,-268.23",
+        "-1068.35,-47.74,-254.68",
+        "-1069.33,-48.21,-291.82",
+        "-1080.52,-50.79,-299.27",
+        "-1041.08,-47.92,-285.73",
+        "-1147.27,-60.85,-236.42"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1421950762 154156331:a bird feather\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1682766616 702835349:vulrich meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "Yrrey Burbridge",
       "name_sortable": "yrreyburbridge",
       "locations": [
@@ -4989,8 +5888,33 @@
       ]
     },
     {
+      "name": "Zaikik",
+      "name_sortable": "zaikik",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-251.87,-48.04,-14.25"
+      ],
+      "utterances": [
+        "The kerrans don't like us here, but we were here first! I'm not leaving."
+      ]
+    },
+    {
       "name": "ZaZa Lenska",
       "name_sortable": "zazalenska",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-245.51,-47.71,17.56"
+      ],
       "utterances": [
         "Have you seen my husband, Valeri?  He leaves home too often. He comes and goes as he pleases, and I never know where he is! I've had other husbands, and I know the signs of a cheater.",
         "He's tall and slim with jet black fur and three hoops in his left ear. He's handsome, oh, so handsome!  Surely you could not have missed him!  Unless, perhaps, his visits are in a ... private home.",
@@ -5183,13 +6107,15 @@
       "gamelink": "\\aITEM 488511049 409354024:skeleton pocket\\/a",
       "locations": [
         "475.46,-46.00,-611.51",
-        "1023.28,-55.00,-185.41"
+        "1023.28,-55.00,-185.41",
+        "-774.41,-49.00,-263.09"
       ]
     },
     {
       "gamelink": "\\aITEM -1913161908 -135970516:Kerra scales\\/a",
       "locations": [
-        "935.46,-42.00,-546.94"
+        "935.46,-42.00,-546.94",
+        "-1101.88,-54.00,-304.44"
       ]
     },
     {
@@ -5209,7 +6135,8 @@
     {
       "gamelink": "\\aITEM -127782164 -1994111504:Froglok fin\\/a",
       "locations": [
-        "447.49,-46.00,-32.86"
+        "447.49,-46.00,-32.86",
+        "-581.96,-43.00,-148.36"
       ]
     },
     {
@@ -5222,7 +6149,8 @@
       "gamelink": "\\aITEM -1868197541 -626008118:chipped shard of conjuration\\/a",
       "locations": [
         "1004.71,-58.00,-200.67",
-        "-363.72,-47.00,400.14"
+        "-363.72,-47.00,400.14",
+        "-658.50,-45.00,226.08"
       ]
     },
     {
@@ -5247,6 +6175,36 @@
       "gamelink": "\\aITEM 86571365 -1773479319:spotted white moth\\/a",
       "locations": [
         "-763.72,-47.00,549.62"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 211153600 898123469:shattered erudite bone fragment\\/a",
+      "locations": [
+        "-352.36,-47.00,-41.38"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -832401687 1102518604:spotted black moth\\/a",
+      "locations": [
+        "-673.71,-46.00,-327.98"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1973092226 1210521619:commonlands shrub light brown leaf\\/a",
+      "locations": [
+        "-606.58,-48.00,-717.34"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 311520287 -690295344:Yha-lei fur\\/a",
+      "locations": [
+        "-1347.88,-82.00,-354.58"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a",
+      "locations": [
+        "-978.88,-47.00,-78.84"
       ]
     }
   ],

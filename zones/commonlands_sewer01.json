@@ -18,6 +18,7 @@
       "name": "Boss Gobblerock",
       "name_sortable": "bossgobblerock",
       "level": 30,
+      "difficulty": "heroic^^^",
       "locations": [
         "1.46,1.26,-140.24"
       ]
@@ -26,14 +27,17 @@
       "name": "Cookie",
       "name_sortable": "cookie",
       "level": 29,
+      "difficulty": "heroic^^^",
       "locations": [
-        "-38.85,1.26,-75.72"
+        "-38.85,1.26,-75.72",
+        "-33.00,-0.03,-68.00"
       ]
     },
     {
       "name": "The Gobbler",
       "name_sortable": "gobbler",
       "level": 33,
+      "difficulty": "heroic^^^",
       "locations": [
         "-3.40,-0.08,-110.38"
       ]
@@ -41,52 +45,332 @@
     {
       "name": "Gobblerock brute",
       "name_sortable": "gobblerockbrute",
-      "level": 27
+      "level": 27,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-18.71,1.26,-60.52",
+        "-29.25,-0.17,-63.96",
+        "-7.09,1.26,-84.40",
+        "-1.55,0.15,-97.70",
+        "-21.72,1.11,-108.06",
+        "-34.96,1.26,-84.79",
+        "-29.01,0.96,-92.24",
+        "-29.17,0.18,-87.11",
+        "2.24,0.96,-115.96",
+        "9.89,1.11,-120.31",
+        "2.81,-0.04,-133.05",
+        "-15.08,1.26,-130.92",
+        "-5.61,-0.04,-135.06",
+        "-11.43,0.15,-136.75",
+        "0.19,0.96,-139.88"
+      ],
+      "utterances": [
+        "We no can win, must flee!",
+        "Go away! We let you live if you leave stuff.",
+        "Run away! These ones too strong!",
+        "It hurt! It hurt! Make it stop!",
+        "I think run is good idea now.",
+        "Keep hitting till all fall down!",
+        "What I do now?"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1608285217 265160279:a goblin tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 826150606 -1200582802:ancient silver coin\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 83,
+      "drop_coin_max": 1107
     },
     {
       "name": "Gobblerock butcher",
       "name_sortable": "gobblerockbutcher",
-      "level": 27
+      "level": 27,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-38.48,0.04,15.49",
+        "-46.34,0.06,12.04",
+        "-64.44,0.38,15.98",
+        "-53.39,0.04,1.77",
+        "-46.79,0.35,-3.18",
+        "-48.06,0.65,-13.03",
+        "-43.82,0.11,-23.52",
+        "-51.68,0.06,-23.54",
+        "-39.19,0.00,-38.81",
+        "-37.27,0.14,-44.45",
+        "-36.97,0.96,-70.11",
+        "-33.95,0.64,-64.94"
+      ],
+      "utterances": [
+        "It hurt! It hurt! Make it stop!",
+        "Run away! These ones too strong!",
+        "We no can win, must flee!",
+        "What I do now?",
+        "I think run is good idea now.",
+        "Keep hitting till all fall down!",
+        "They come to eat us! Kill them!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -959107685 1296290369:a goblin ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 133,
+      "drop_coin_max": 133
     },
     {
       "name": "Gobblerock grunt",
       "name_sortable": "gobblerockgrunt",
-      "level": 27
+      "level": 27,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-108.36,0.28,63.10",
+        "-102.74,0.33,58.26",
+        "-109.51,0.00,57.87",
+        "-80.83,0.32,56.17",
+        "-73.65,0.33,45.16",
+        "-61.77,0.10,44.33",
+        "-31.91,0.65,24.64",
+        "-20.25,0.14,26.97",
+        "-26.44,0.00,22.89",
+        "-11.50,0.14,45.84"
+      ],
+      "utterances": [
+        "I think run is good idea now.",
+        "It hurt! It hurt! Make it stop!",
+        "We no can win, must flee!",
+        "What I do now?",
+        "Run away! These ones too strong!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -898368698 -1285985171:strange dark powder\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -959107685 1296290369:a goblin ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 685460663 -56890563:a goblin claw\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 93,
+      "drop_coin_max": 1159
     },
     {
       "name": "Gobblerock haruspex",
       "name_sortable": "gobblerockharuspex",
-      "level": 27
+      "level": 27,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-69.76,0.33,14.67",
+        "-45.91,0.10,-32.65",
+        "-40.63,0.66,-45.28",
+        "-46.58,1.73,-49.03",
+        "-47.79,1.49,-55.65"
+      ],
+      "utterances": [
+        "I think run is good idea now.",
+        "Go away! We let you live if you leave stuff.",
+        "Run away! These ones too strong!",
+        "It hurt! It hurt! Make it stop!"
+      ],
+      "drop_coin_min": 884,
+      "drop_coin_max": 884
     },
     {
       "name": "Gobblerock hooligan",
       "name_sortable": "gobblerockhooligan",
-      "level": 27
+      "level": 27,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-23.59,-0.04,-67.53",
+        "-12.65,1.02,-66.80",
+        "-14.21,-0.04,-82.10",
+        "-20.64,0.12,-110.06",
+        "-0.08,0.82,-108.80",
+        "4.53,0.96,-116.41",
+        "7.00,0.57,-122.24",
+        "-5.28,0.96,-139.62",
+        "0.78,1.26,-142.16"
+      ],
+      "utterances": [
+        "It hurt! It hurt! Make it stop!",
+        "Go away! We let you live if you leave stuff.",
+        "Run away! These ones too strong!",
+        "I think run is good idea now.",
+        "What I do now?",
+        "Keep hitting till all fall down!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 149792389 1916384666:Gel Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 41005843 768497459:small polished bone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 119,
+      "drop_coin_max": 119
     },
     {
       "name": "Gobblerock prophet",
       "name_sortable": "gobblerockprophet",
-      "level": 27
+      "level": 27,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-13.26,1.20,-67.99",
+        "-9.50,0.80,-83.17",
+        "-32.39,0.94,-84.90",
+        "2.74,-0.04,-129.12",
+        "-8.53,0.96,-139.94",
+        "-13.27,0.96,-128.00"
+      ],
+      "utterances": [
+        "Run away! These ones too strong!",
+        "Keep hitting till all fall down!",
+        "They want to kill us all! Charge!",
+        "It hurt! It hurt! Make it stop!",
+        "Help! Help! Big ones coming!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 685460663 -56890563:a goblin claw\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 95,
+      "drop_coin_max": 95
     },
     {
       "name": "Gobblerock shaman",
       "name_sortable": "gobblerockshaman",
-      "level": 27
+      "level": 27,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-117.43,0.07,59.71",
+        "-79.69,0.15,51.28",
+        "-53.83,0.00,36.48",
+        "-34.77,0.44,25.82",
+        "-15.99,1.15,36.73"
+      ],
+      "utterances": [
+        "We no can win, must flee!",
+        "It hurt! It hurt! Make it stop!",
+        "Run away! These ones too strong!",
+        "Keep hitting till all fall down!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 162,
+      "drop_coin_max": 162
     },
     {
       "name": "Gobblerock swindler",
       "name_sortable": "gobblerockswindler",
-      "level": 27
+      "level": 27,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-106.88,0.36,62.75",
+        "-102.86,0.35,53.97",
+        "-90.69,0.35,59.56",
+        "-90.81,0.43,52.97",
+        "-47.16,0.56,31.13",
+        "-18.72,0.02,26.61",
+        "-24.28,0.13,25.23",
+        "-12.78,0.00,31.37",
+        "-17.03,0.40,38.63"
+      ],
+      "utterances": [
+        "It hurt! It hurt! Make it stop!",
+        "We no can win, must flee!",
+        "Run away! These ones too strong!",
+        "I think run is good idea now."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1311630067 965320946:a goblin eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 685460663 -56890563:a goblin claw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -815570512 1462756580:a goblin spine\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 124,
+      "drop_coin_max": 124
     },
     {
       "name": "Gobblerock trickster",
       "name_sortable": "gobblerocktrickster",
-      "level": 27
+      "level": 27,
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-53.60,0.00,12.89",
+        "-48.46,0.03,14.29",
+        "-61.69,0.28,15.65",
+        "-42.20,0.05,1.48",
+        "-47.59,0.06,-25.53",
+        "-39.42,0.66,-47.55",
+        "-33.75,0.22,-59.24",
+        "-30.67,-0.03,-69.92",
+        "-48.40,1.34,-52.53"
+      ],
+      "utterances": [
+        "Go away! We let you live if you leave stuff.",
+        "I think run is good idea now.",
+        "What I do now?",
+        "Keep hitting till all fall down!",
+        "Run away! These ones too strong!",
+        "They want to kill us all! Charge!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 685460663 -56890563:a goblin claw\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 94,
+      "drop_coin_max": 137
     },
     {
       "name": "Gugrut",
       "name_sortable": "gugrut",
       "level": 28,
+      "difficulty": "heroic^^^",
       "locations": [
         "-14.15,0.91,47.69"
       ]
@@ -95,6 +379,7 @@
       "name": "Lieutenant Charg",
       "name_sortable": "lieutenantcharg",
       "level": 29,
+      "difficulty": "heroic^^^",
       "locations": [
         "-50.09,2.19,-55.03"
       ]
@@ -104,13 +389,29 @@
       "name_sortable": "trainedslug",
       "level": 28,
       "locations": [
-        "36.91,0.00,-1.90"
+        "36.91,0.00,-1.90",
+        "-33.41,0.00,-0.44",
+        "-35.25,0.11,-6.48",
+        "-6.20,-0.71,-106.81",
+        "-14.16,-0.36,-112.97",
+        "-6.24,-0.04,-121.69"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1545524487 -619569427:a vial of mucus\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1724061036 345372994:a slug antenna\\/a",
+          "chest": false
+        }
       ]
     },
     {
       "name": "Trainer Mukluk",
       "name_sortable": "trainermukluk",
       "level": 29,
+      "difficulty": "heroic^^^",
       "locations": [
         "-48.88,0.81,1.30"
       ]

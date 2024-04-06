@@ -925,20 +925,30 @@
         "-1334.63,-69.47,346.07",
         "-1353.1,-69.67,361.85",
         "-1344.89,-69.64,367.07",
-        "-1352.99,-69.82,369.89"
+        "-1352.99,-69.82,369.89",
+        "-1337.04,-69.56,357.84"
       ],
       "utterances": [
         "As I rise from the grave,  you will now take my place!",
-        "You cannot eliminate us!"
+        "You cannot eliminate us!",
+        "That pile of bones was my friend!"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 1262149691 443101017:Bone Beaded Bangle\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
         }
       ],
-      "drop_coin_min": 22,
-      "drop_coin_max": 22
+      "drop_coin_min": 19,
+      "drop_coin_max": 34
     },
     {
       "name": "a bull elephant",
@@ -2278,8 +2288,17 @@
     {
       "name": "Executioner Selindi",
       "name_sortable": "executionerselindi",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-1341.62,-69.53,337.95"
+      ],
+      "utterances": [
+        "Move along unless you want to join these skeletons."
       ]
     },
     {
@@ -2622,6 +2641,10 @@
         {
           "gamelink": "\\aITEM -2005436878 2046850352:crab meat\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 847432297 2013097042:a crab claw\\/a",
+          "chest": false
         }
       ]
     },
@@ -2821,7 +2844,17 @@
         "-727.39,-35.60,245.58",
         "-706.90,-38.23,184.49",
         "-666.89,-37.60,190.92",
-        "-669.73,-35.82,144.68"
+        "-669.73,-35.82,144.68",
+        "-1156.72,-59.74,263.19",
+        "-1159.73,-58.59,270.75",
+        "-1165.46,-54.21,301.08",
+        "-1205.62,-66.77,276.25",
+        "-1196.01,-66.21,270.83",
+        "-1202.72,-67.66,259.44",
+        "-1205.39,-66.24,286.40",
+        "-1157.74,-52.03,342.83",
+        "-1055.67,-48.85,293.87",
+        "-1217.51,-67.86,262.50"
       ],
       "drops": [
         {
@@ -3342,7 +3375,13 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM -827043034 514388817:a goblin's notebook - The Hideout\\/a"
+          "gamelink": "\\aITEM -827043034 514388817:a goblin's notebook - The Hideout\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 4000
+            }
+          ]
         }
       ]
     },
@@ -3408,34 +3447,94 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM 2121963653 348813561:an old key\\/a"
+          "gamelink": "\\aITEM 2121963653 348813561 0 0 0:an old key\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 6400
+            }
+          ]
         },
         {
-          "gamelink": "\\aITEM 1618656513 -631993083:Antonia Ale (Alcoholic)\\/a"
+          "gamelink": "\\aITEM 1618656513 -631993083 0 0 0:Antonia Ale (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 500
+            }
+          ]
         },
         {
-          "gamelink": "\\aITEM 502648298 -366828437:canteen of pond water\\/a"
+          "gamelink": "\\aITEM 502648298 -366828437 0 0 0:canteen of pond water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 38
+            }
+          ]
         },
         {
-          "gamelink": "\\aITEM 1281187795 -495418410:Dwarven Ale (Alcoholic)\\/a"
+          "gamelink": "\\aITEM 1281187795 -495418410 0 0 0:Dwarven Ale (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 2500
+            }
+          ]
         },
         {
-          "gamelink": "\\aITEM -692542167 450719094:Elven Wine (Alcoholic)\\/a"
+          "gamelink": "\\aITEM -692542167 450719094 0 0 0:Elven Wine (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 3000
+            }
+          ]
         },
         {
-          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a"
+          "gamelink": "\\aITEM -426289183 -435115855 0 0 0:flask of pond water\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 19
+            }
+          ]
         },
         {
-          "gamelink": "\\aITEM 1608751314 -1346962995:Gnomish Spirits (Alcoholic)\\/a"
+          "gamelink": "\\aITEM 1608751314 -1346962995 0 0 0:Gnomish Spirits (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 3500
+            }
+          ]
         },
         {
-          "gamelink": "\\aITEM -1424677497 801220853:Lucan's Lager (Alcoholic)\\/a"
+          "gamelink": "\\aITEM -1424677497 801220853 0 0 0:Lucan's Lager (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 500
+            }
+          ]
         },
         {
-          "gamelink": "\\aITEM 1199073772 520539661:Oggok Swill (Alcoholic)\\/a"
+          "gamelink": "\\aITEM 1199073772 520539661 0 0 0:Oggok Swill (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 5000
+            }
+          ]
         },
         {
-          "gamelink": "\\aITEM 1383852152 -1014417461:Teir'dal Blood Wine (Alcoholic)\\/a"
+          "gamelink": "\\aITEM 1383852152 -1014417461 0 0 0:Teir'dal Blood Wine (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 4500
+            }
+          ]
         }
       ]
     },
@@ -3680,8 +3779,17 @@
       "level": 10,
       "locations": [
         "-1354.58,-69.59,337.83",
-        "-1313.94,-69.38,347.85"
-      ]
+        "-1313.94,-69.38,347.85",
+        "-1313.27,-69.24,330.93"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 26,
+      "drop_coin_max": 26
     },
     {
       "name": "Lucanic Knight Initiate",
@@ -4544,7 +4652,8 @@
         "It looks like these are orders to build up a \"cha nu durk.\" Which is--I think--the minimum size of a orc fighting unit.",
         "Carnage, no doubt. Orcs always wear their hearts upon their sleeves. The only thing a force that small would be useful for is routing civilians... Maybe a hit and run force for the Crossroads... ah hah!",
         "I read the orcs as books. They've two camps south-west of the Crossroads, just south of the kerran and ratonga villages. The orcs of these two camps will likely make up the cha nu durk... Kill the orcs and destroy their supplies. If they have a siege tower, destroy it as well.",
-        "It's just a theory, but if they harass the kerrans and ratongans enough it may attract some militia attention. If that is their goal, perhaps they're looking to attack the Crossroads. If that isn't their plan, I am near certain they are going after the villagers, so put a stop to them regardless. We can't have the orcs killing civilians, who would we tax otherwise, eh?"
+        "It's just a theory, but if they harass the kerrans and ratongans enough it may attract some militia attention. If that is their goal, perhaps they're looking to attack the Crossroads. If that isn't their plan, I am near certain they are going after the villagers, so put a stop to them regardless. We can't have the orcs killing civilians, who would we tax otherwise, eh?",
+        "Return when you're not so green."
       ]
     },
     {
@@ -4904,7 +5013,18 @@
         "-1247.68,-49.85,538.31",
         "-1282.98,-58,499.09",
         "-1309.73,-63.3,496.11",
-        "-1328.2,-68.52,460.42"
+        "-1328.2,-68.52,460.42",
+        "-1302.40,-69.73,424.88",
+        "-1264.00,-59.92,478.32",
+        "-1279.03,-63.02,474.49",
+        "-1245.72,-61.50,463.87",
+        "-1234.22,-66.47,421.74",
+        "-1282.40,-69.75,432.99",
+        "-1204.44,-46.75,493.36",
+        "-1194.99,-48.79,473.31",
+        "-1241.70,-51.09,514.97",
+        "-1222.94,-47.05,525.46",
+        "-1276.49,-52.62,532.55"
       ]
     },
     {
@@ -5489,7 +5609,17 @@
         "-1093.55,-48.98,82.99",
         "-1102.01,-44.05,66.55",
         "-1082.39,-47.84,53.80",
-        "-1089.66,-42.32,73.44"
+        "-1089.66,-42.32,73.44",
+        "-1370.51,-60.31,315.35",
+        "-1358.80,-56.39,338.05",
+        "-1354.67,-58.44,330.88",
+        "-1329.97,-43.80,335.32",
+        "-1317.37,-56.31,316.38",
+        "-1333.02,-51.38,335.49",
+        "-1305.16,-58.29,354.36",
+        "-1305.10,-47.60,376.18",
+        "-1349.80,-47.59,380.94",
+        "-1345.77,-47.73,350.19"
       ],
       "drops": [
         {
@@ -5847,6 +5977,14 @@
       ]
     },
     {
+      "name": "Xrinchel",
+      "name_sortable": "xrinchel",
+      "level": 13,
+      "locations": [
+        "-1221.37,-68.34,313.54"
+      ]
+    },
+    {
       "name": "a young vulrich",
       "name_sortable": "youngvulrich",
       "locations": [
@@ -6186,7 +6324,8 @@
     {
       "gamelink": "\\aITEM -832401687 1102518604:spotted black moth\\/a",
       "locations": [
-        "-673.71,-46.00,-327.98"
+        "-673.71,-46.00,-327.98",
+        "-1338.40,-69.00,362.95"
       ]
     },
     {
@@ -6205,6 +6344,18 @@
       "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a",
       "locations": [
         "-978.88,-47.00,-78.84"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1306389734 1869011176:shattered froglok bone fragment\\/a",
+      "locations": [
+        "-1356.70,-69.00,351.74"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1112052861 2089405631:commonlands shrub blue leaf\\/a",
+      "locations": [
+        "-1329.25,-69.00,331.56"
       ]
     }
   ],

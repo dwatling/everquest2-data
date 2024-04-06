@@ -11,4 +11,5 @@ I'm not entirely happy with the layout of the files, so they might change at som
 Known issues:
 1. Full dialogs between player and NPC are not captured. NPC dialog is the only thing recorded. 
 2. Some NPCs have the same name, but different purpose, and are completely separate entities. The current format doesn't support this. Example: "a mysterious Quellithulian" in Moors of Ykesha (exp05_rgn_innothule)
-3. Level and difficulties for NPCs are actually a range and it can even depend on a physical location within a dungeon (i.e. closer to the entrance is easier, but deeper is more difficult). 
+3. Level and difficulties for NPCs are actually a range and it can even depend on a physical location within a dungeon (i.e. closer to the entrance is easier, but deeper is more difficult).
+4. If supplied, "race", does not necessarily mean the actual race of an NPC. For instance, "Halcien" in Commonlands is actually a horse, not a human. Some skeletons (e.g. "a Shin`Ree avenger" in Commonlands) also report as human when they are the skeleton of a different race.

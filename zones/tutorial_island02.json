@@ -19,6 +19,12 @@
     {
       "name": "Banker Bogfoot",
       "name_sortable": "bankerbogfoot",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Banker",
       "locations": [
         "-10.57,-3.17,111.48"
@@ -27,6 +33,12 @@
     {
       "name": "Barth Mignus",
       "name_sortable": "barthmignus",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-37.91,-6.35,40.07"
       ],
@@ -37,6 +49,12 @@
     {
       "name": "Captain Varlos",
       "name_sortable": "captainvarlos",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Passage from Queen's Colony",
       "locations": [
         "-84.87,-7.85,242.55"
@@ -52,6 +70,12 @@
     {
       "name": "Captain Warrik",
       "name_sortable": "captainwarrik",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Know Your Place in the World",
       "locations": [
         "-10.13,-2.75,157.05"
@@ -96,7 +120,22 @@
         "-96.03,-9.25,69.75",
         "-88.24,-8.5,40.43",
         "-78.64,-8.5,32.75",
-        "-62.62,-8.93,34.89"
+        "-62.62,-8.93,34.89",
+        "-82.80,-8.71,114.01",
+        "-55.87,-8.93,81.18",
+        "-61.47,-8.16,45.92",
+        "-94.55,-9.24,49.89",
+        "-94.22,-10.07,37.71"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1553699289 -57499566:a crab claw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -97902171 1945672283:crab meat\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -127,6 +166,12 @@
     {
       "name": "Defender Bristlebrow",
       "name_sortable": "defenderbristlebrow",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Guard",
       "locations": [
         "68.32,-4.4,180.11"
@@ -141,6 +186,12 @@
     {
       "name": "Defender Kuglup",
       "name_sortable": "defenderkuglup",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "70.63,-4.31,160.66"
       ],
@@ -157,7 +208,12 @@
       "locations": [
         "155.6,1.32,9.03",
         "173.08,1.16,24.9",
-        "188.74,1.29,74.62"
+        "188.74,1.29,74.62",
+        "180.80,1.32,73.22",
+        "198.60,1.06,81.10",
+        "141.46,1.43,73.29",
+        "156.00,1.42,58.28",
+        "190.76,1.28,91.63"
       ]
     },
     {
@@ -214,6 +270,12 @@
     {
       "name": "Deianeira",
       "name_sortable": "deianeira",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "178.12,6.2,113.27"
       ],
@@ -228,6 +290,9 @@
     {
       "name": "Durg",
       "name_sortable": "durg",
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-53.05,2.03,-151.03"
       ],
@@ -239,6 +304,12 @@
     {
       "name": "Ebik Wobblecog",
       "name_sortable": "ebikwobblecog",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-93.36,-8.7,64.14"
       ],
@@ -269,6 +340,11 @@
       "name": "a fallen assassin",
       "name_sortable": "fallenassassin",
       "level": 6,
+      "locations": [
+        "-103.15,4.26,-105.89",
+        "-55.20,2.11,-152.06",
+        "-67.15,3.61,-136.24"
+      ],
       "utterances": [
         "Final death comes at last."
       ]
@@ -288,8 +364,14 @@
         "-118.07,4.4,-40.7",
         "-102.92,4.46,-95.46",
         "-78.1,-9.4,-53.95",
-        "-95.54,-6.78,-44.86"
-      ]
+        "-95.54,-6.78,-44.86",
+        "-94.20,-9.31,-28.71",
+        "-116.25,4.36,-103.48",
+        "-136.89,4.58,-62.33",
+        "-110.19,4.35,-97.16"
+      ],
+      "drop_coin_min": 9,
+      "drop_coin_max": 9
     },
     {
       "name": "a fallen pirate",
@@ -301,7 +383,34 @@
         "-117.78,4.5,-61.33",
         "-127.95,4.53,-36.3",
         "-117.52,4.35,-37.84",
-        "-80.92,-9.35,-48.33"
+        "-80.92,-9.35,-48.33",
+        "-78.65,-9.30,-54.05",
+        "-84.38,-9.24,-29.62",
+        "-128.00,3.99,-105.33",
+        "-120.31,5.36,-104.30",
+        "-141.70,4.42,-83.48"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 5,
+      "drop_coin_max": 5
+    },
+    {
+      "name": "The Forest Keeper",
+      "name_sortable": "forestkeeper",
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "126.39,1.85,29.86"
       ]
     },
     {
@@ -319,6 +428,12 @@
     {
       "name": "Galan Crestrider",
       "name_sortable": "galancrestrider",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "General Goods",
       "locations": [
         "-35.35,-6.17,56.69"
@@ -329,82 +444,70 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM 1659182822 2099621516:a torch\\/a",
-          "price": 60
+          "gamelink": "\\aITEM 1659182822 2099621516:a torch\\/a"
         },
         {
-          "gamelink": "\\aITEM -1135016146 -1004037174:Abrasive Goo\\/a",
-          "price": 6
+          "gamelink": "\\aITEM -1135016146 -1004037174:Abrasive Goo\\/a"
         },
         {
-          "gamelink": "\\aITEM 373476425 1791190410:flask of water\\/a",
-          "price": 19
+          "gamelink": "\\aITEM 373476425 1791190410:flask of water\\/a"
         },
         {
-          "gamelink": "\\aITEM 1821722332 -1754947257:Minor Anti-Venin\\/a",
-          "price": 12
+          "gamelink": "\\aITEM 1821722332 -1754947257:Minor Anti-Venin\\/a"
         },
         {
-          "gamelink": "\\aITEM 879449092 -1789016330:Minor Elemental Ointment\\/a",
-          "price": 12
+          "gamelink": "\\aITEM 879449092 -1789016330:Minor Elemental Ointment\\/a"
         },
         {
-          "gamelink": "\\aITEM -301567800 2017367346:Minor Enigmatic Formula\\/a",
-          "price": 12
+          "gamelink": "\\aITEM -301567800 2017367346:Minor Enigmatic Formula\\/a"
         },
         {
-          "gamelink": "\\aITEM 1686889297 325957772:Minor Salve\\/a",
-          "price": 12
+          "gamelink": "\\aITEM 1686889297 325957772:Minor Salve\\/a"
         },
         {
-          "gamelink": "\\aITEM 25756897 -937999679:Plain Tin Arrow\\/a",
-          "price": 1
+          "gamelink": "\\aITEM 25756897 -937999679:Plain Tin Arrow\\/a"
         },
         {
-          "gamelink": "\\aITEM 645642884 1202802744:ration\\/a",
-          "price": 19
+          "gamelink": "\\aITEM 645642884 1202802744:ration\\/a"
         },
         {
-          "gamelink": "\\aITEM -895035998 -1210220550:rawhide boots\\/a",
-          "price": 118
+          "gamelink": "\\aITEM -895035998 -1210220550:rawhide boots\\/a"
         },
         {
-          "gamelink": "\\aITEM -110113203 -1667077087:rawhide gloves\\/a",
-          "price": 128
+          "gamelink": "\\aITEM -110113203 -1667077087:rawhide gloves\\/a"
         },
         {
-          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a",
-          "price": 54
+          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a"
         },
         {
-          "gamelink": "\\aITEM 832244804 1289791004:rawhide pants\\/a",
-          "price": 152
+          "gamelink": "\\aITEM 832244804 1289791004:rawhide pants\\/a"
         },
         {
-          "gamelink": "\\aITEM 1743784105 886809348:rawhide shoulder pads\\/a",
-          "price": 140
+          "gamelink": "\\aITEM 1743784105 886809348:rawhide shoulder pads\\/a"
         },
         {
-          "gamelink": "\\aITEM -1047703759 807259283:rawhide skullcap\\/a",
-          "price": 140
+          "gamelink": "\\aITEM -1047703759 807259283:rawhide skullcap\\/a"
         },
         {
-          "gamelink": "\\aITEM -105179596 -2067743636:rawhide tunic\\/a",
-          "price": 175
+          "gamelink": "\\aITEM -105179596 -2067743636:rawhide tunic\\/a"
         },
         {
-          "gamelink": "\\aITEM 1757530991 1385962076:rawhide wristguards\\/a",
-          "price": 118
+          "gamelink": "\\aITEM 1757530991 1385962076:rawhide wristguards\\/a"
         },
         {
-          "gamelink": "\\aITEM -546112579 1414727884:Razorfin Steaks\\/a",
-          "price": 12
+          "gamelink": "\\aITEM -546112579 1414727884:Razorfin Steaks\\/a"
         }
       ]
     },
     {
       "name": "Geredo",
       "name_sortable": "geredo",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-86.17,-7.87,233.1"
       ],
@@ -419,7 +522,10 @@
       "level": 4,
       "locations": [
         "149.21,0.15,-10.29",
-        "163.66,0.74,-16.04"
+        "163.66,0.74,-16.04",
+        "156.69,-0.08,-11.31",
+        "185.97,1.32,-21.89",
+        "170.96,1.17,13.87"
       ],
       "drops": [
         {
@@ -430,7 +536,9 @@
           "gamelink": "\\aITEM 220303815 -2092524802:a vial of spectral essence\\/a",
           "chest": false
         }
-      ]
+      ],
+      "drop_coin_min": 8,
+      "drop_coin_max": 8
     },
     {
       "name": "a ghostly treant",
@@ -440,14 +548,18 @@
         "101.97,1.45,-99.77",
         "110.57,1.61,-88.38",
         "144.72,1.49,-77.58",
-        "160.71,0.34,-68.57"
+        "160.71,0.34,-68.57",
+        "123.33,1.57,-86.81",
+        "146.13,1.46,-69.87"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 220303815 -2092524802:a vial of spectral essence\\/a",
           "chest": false
         }
-      ]
+      ],
+      "drop_coin_min": 5,
+      "drop_coin_max": 5
     },
     {
       "name": "a giant coastal crab",
@@ -455,12 +567,26 @@
       "level": 4,
       "locations": [
         "19.09,-10.21,-68.61",
-        "35.85,-9.35,-58.16"
+        "35.85,-9.35,-58.16",
+        "56.30,-8.56,-31.41",
+        "26.25,-9.28,-73.19"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -97902171 1945672283:crab meat\\/a",
+          "chest": false
+        }
       ]
     },
     {
       "name": "Goggin Cogspring",
       "name_sortable": "goggincogspring",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-44.12,-5.47,63.41"
       ],
@@ -471,6 +597,9 @@
     {
       "name": "Gonk",
       "name_sortable": "gonk",
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-51.55,2.03,-156.35"
       ],
@@ -482,6 +611,12 @@
     {
       "name": "Grakus Stonemallet",
       "name_sortable": "grakusstonemallet",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-33.95,-6.35,42.42"
       ],
@@ -495,6 +630,12 @@
       "level": 6,
       "locations": [
         "58.35,1.81,-110.31"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -211262820 88743151:a ghost ethereal strand\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -515,7 +656,11 @@
         "77.77,-4.53,223.08",
         "58.76,-4.46,222.64",
         "111.97,-3.8,171.83",
-        "172.65,-3.28,191.95"
+        "172.65,-3.28,191.95",
+        "180.77,-3.80,174.73",
+        "156.46,-3.40,160.45",
+        "115.92,-3.80,178.73",
+        "88.37,-4.54,213.90"
       ]
     },
     {
@@ -528,6 +673,12 @@
     {
       "name": "Hanna Deeppockets",
       "name_sortable": "hannadeeppockets",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "General Goods",
       "locations": [
         "27.45,-6.35,176.68"
@@ -537,82 +688,67 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM 1659182822 2099621516:a torch\\/a",
-          "price": 60
+          "gamelink": "\\aITEM 1659182822 2099621516:a torch\\/a"
         },
         {
-          "gamelink": "\\aITEM -1135016146 -1004037174:Abrasive Goo\\/a",
-          "price": 6
+          "gamelink": "\\aITEM -1135016146 -1004037174:Abrasive Goo\\/a"
         },
         {
-          "gamelink": "\\aITEM 373476425 1791190410:flask of water\\/a",
-          "price": 19
+          "gamelink": "\\aITEM 373476425 1791190410:flask of water\\/a"
         },
         {
-          "gamelink": "\\aITEM 1821722332 -1754947257:Minor Anti-Venin\\/a",
-          "price": 12
+          "gamelink": "\\aITEM 1821722332 -1754947257:Minor Anti-Venin\\/a"
         },
         {
-          "gamelink": "\\aITEM 879449092 -1789016330:Minor Elemental Ointment\\/a",
-          "price": 12
+          "gamelink": "\\aITEM 879449092 -1789016330:Minor Elemental Ointment\\/a"
         },
         {
-          "gamelink": "\\aITEM -301567800 2017367346:Minor Enigmatic Formula\\/a",
-          "price": 12
+          "gamelink": "\\aITEM -301567800 2017367346:Minor Enigmatic Formula\\/a"
         },
         {
-          "gamelink": "\\aITEM 1686889297 325957772:Minor Salve\\/a",
-          "price": 12
+          "gamelink": "\\aITEM 1686889297 325957772:Minor Salve\\/a"
         },
         {
-          "gamelink": "\\aITEM 25756897 -937999679:Plain Tin Arrow\\/a",
-          "price": 1
+          "gamelink": "\\aITEM 25756897 -937999679:Plain Tin Arrow\\/a"
         },
         {
-          "gamelink": "\\aITEM 645642884 1202802744:ration\\/a",
-          "price": 19
+          "gamelink": "\\aITEM 645642884 1202802744:ration\\/a"
         },
         {
-          "gamelink": "\\aITEM -895035998 -1210220550:rawhide boots\\/a",
-          "price": 118
+          "gamelink": "\\aITEM -895035998 -1210220550:rawhide boots\\/a"
         },
         {
-          "gamelink": "\\aITEM -110113203 -1667077087:rawhide gloves\\/a",
-          "price": 128
+          "gamelink": "\\aITEM -110113203 -1667077087:rawhide gloves\\/a"
         },
         {
-          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a",
-          "price": 54
+          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a"
         },
         {
-          "gamelink": "\\aITEM 832244804 1289791004:rawhide pants\\/a",
-          "price": 152
+          "gamelink": "\\aITEM 832244804 1289791004:rawhide pants\\/a"
         },
         {
-          "gamelink": "\\aITEM 1743784105 886809348:rawhide shoulder pads\\/a",
-          "price": 140
+          "gamelink": "\\aITEM 1743784105 886809348:rawhide shoulder pads\\/a"
         },
         {
-          "gamelink": "\\aITEM -1047703759 807259283:rawhide skullcap\\/a",
-          "price": 140
+          "gamelink": "\\aITEM -1047703759 807259283:rawhide skullcap\\/a"
         },
         {
-          "gamelink": "\\aITEM -105179596 -2067743636:rawhide tunic\\/a",
-          "price": 175
+          "gamelink": "\\aITEM -105179596 -2067743636:rawhide tunic\\/a"
         },
         {
-          "gamelink": "\\aITEM 1757530991 1385962076:rawhide wristguards\\/a",
-          "price": 118
+          "gamelink": "\\aITEM 1757530991 1385962076:rawhide wristguards\\/a"
         },
         {
-          "gamelink": "\\aITEM -546112579 1414727884:Razorfin Steaks\\/a",
-          "price": 12
+          "gamelink": "\\aITEM -546112579 1414727884:Razorfin Steaks\\/a"
         }
       ]
     },
     {
       "name": "Helmsman Nyles",
       "name_sortable": "helmsmannyles",
+      "race": [
+        "human"
+      ],
       "locations": [
         "-83.95,-4.61,254.15"
       ],
@@ -635,6 +771,12 @@
     {
       "name": "Ingrid",
       "name_sortable": "ingrid",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-93.59,-7.87,241.76"
       ],
@@ -663,7 +805,20 @@
         "-83.62,-8.47,36.05",
         "-95.91,-10.16,26.6",
         "-103.93,-8.34,21.29",
-        "-117.97,-9.5,37.37"
+        "-117.97,-9.5,37.37",
+        "-92.70,-10.28,114.08",
+        "-74.75,-8.23,103.17",
+        "-96.91,-9.92,51.35",
+        "-95.18,-9.64,40.69",
+        "-104.52,-9.68,35.05",
+        "-110.74,-7.83,36.68",
+        "-99.40,-9.66,32.09"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -97902171 1945672283:crab meat\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -699,6 +854,12 @@
     {
       "name": "Maylin Meadowlark",
       "name_sortable": "maylinmeadowlark",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-25.11,-6.35,56.38"
       ],
@@ -709,6 +870,12 @@
     {
       "name": "Mender Mannus",
       "name_sortable": "mendermannus",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Mender",
       "locations": [
         "-28,-4.31,123.72"
@@ -720,6 +887,12 @@
     {
       "name": "Meri Bogfoot",
       "name_sortable": "meribogfoot",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-41.78,-6.16,62.9"
       ],
@@ -776,12 +949,21 @@
         "-101.78,5.02,-125.7",
         "-132.97,3.7,-117.79",
         "-56.09,2.15,-124.47",
-        "-30.24,2.39,-147.45"
+        "-30.24,2.39,-147.45",
+        "-106.74,4.48,-135.19",
+        "-94.74,4.38,-157.93",
+        "-27.86,2.13,-133.89"
       ]
     },
     {
       "name": "Murrar Shar",
       "name_sortable": "murrarshar",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Emissary of Queen Antonia Bayle",
       "locations": [
         "-9.38,-4.18,176.6"
@@ -803,6 +985,12 @@
     {
       "name": "Nebble Underroot",
       "name_sortable": "nebbleunderroot",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-37.27,-8.4,242.38"
       ],
@@ -817,7 +1005,16 @@
       "level": 4,
       "locations": [
         "-78.86,-10.95,12.97",
-        "9.43,-10.8,-57.83"
+        "9.43,-10.8,-57.83",
+        "-89.14,-13.99,212.59",
+        "70.90,-11.00,-43.75",
+        "87.66,-12.99,-43.60"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -485311362 855326846:a shimmering barracuda scale\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -835,9 +1032,16 @@
     {
       "name": "Paula Marx",
       "name_sortable": "paulamarx",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Collector",
       "locations": [
-        "-0.44,-5.57,208.31"
+        "-0.44,-5.57,208.31",
+        "16.24,-6.86,188.27"
       ],
       "utterances": [
         "Hello there!  If you have any collections that you've completed, I can take them off your hands and reward you for your time.  I'm just crazy for collections!",
@@ -847,6 +1051,12 @@
     {
       "name": "Predator Sha'dur",
       "name_sortable": "predatorshadur",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "186.89,4.85,110.55"
       ],
@@ -857,6 +1067,15 @@
     {
       "name": "a Qeynos Guardsman",
       "name_sortable": "qeynosguardsman",
+      "race": [
+        "dwarf",
+        "kerran",
+        "human",
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Guard",
       "level": 100,
       "locations": [
@@ -890,7 +1109,18 @@
         "46.91,-10.95,-63.59",
         "74.53,-10.87,-42.72",
         "76.64,-10.85,64.35",
-        "30.37,-10.91,69.03"
+        "30.37,-10.91,69.03",
+        "9.58,-13.18,35.16",
+        "-3.45,-12.38,49.63",
+        "39.28,-12.00,68.29",
+        "81.87,-10.60,56.86",
+        "35.87,-11.00,76.94",
+        "34.29,-12.02,1.57",
+        "37.50,-13.04,-14.92",
+        "46.62,-14.01,-20.57",
+        "34.45,-13.00,-26.08",
+        "58.94,-12.04,-58.02",
+        "-37.80,-10.74,-61.72"
       ]
     },
     {
@@ -903,7 +1133,26 @@
         "-139.8,-13.55,19.06",
         "65.68,-10.89,-78.14",
         "71.09,-10.85,-47.33",
-        "90.09,-10.87,-30.29"
+        "90.09,-10.87,-30.29",
+        "-96.79,-13.68,229.35",
+        "-143.24,-12.11,25.08",
+        "-145.44,-13.99,37.77",
+        "-146.89,-13.97,47.96",
+        "-19.69,-12.50,-1.92",
+        "19.09,-12.99,58.97",
+        "76.49,-12.00,61.98",
+        "38.85,-12.74,-3.47",
+        "31.38,-14.99,-6.82",
+        "74.05,-11.50,-41.71",
+        "79.19,-10.45,-45.78",
+        "-15.59,-12.98,-44.16",
+        "-47.35,-10.61,-58.90"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 345112318 805644505:turtle meat\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -939,6 +1188,9 @@
     {
       "name": "a Sapswill villager",
       "name_sortable": "sapswillvillager",
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-82.14,1.36,-239.18",
         "-84.68,2.26,-245.53",
@@ -959,7 +1211,24 @@
       "level": 4,
       "locations": [
         "60.06,-10.9,-65.56",
-        "92.83,-10.9,25.5"
+        "92.83,-10.9,25.5",
+        "-84.56,-12.00,153.40",
+        "-140.82,-11.78,27.42",
+        "-148.54,-12.55,51.88",
+        "-50.15,-10.97,17.12",
+        "-27.87,-11.99,1.08",
+        "2.09,-13.96,40.19",
+        "19.67,-12.71,46.62",
+        "58.20,-12.02,58.06",
+        "34.11,-12.50,-2.80",
+        "69.77,-12.02,-49.19",
+        "79.05,-11.19,-46.98"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 766677749 -1357541301:shark tooth\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -968,12 +1237,23 @@
       "level": 2,
       "locations": [
         "96.41,-4.07,198.89",
-        "94.9,-4.01,185.32"
+        "94.9,-4.01,185.32",
+        "177.58,0.05,176.62",
+        "157.86,2.54,193.10",
+        "99.88,-0.75,174.87",
+        "81.94,-0.74,211.66",
+        "76.03,-1.73,220.74"
       ]
     },
     {
       "name": "Sergeant Haggus",
       "name_sortable": "sergeanthaggus",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Qeynos Guard",
       "locations": [
         "62.66,-4.26,168.72"
@@ -994,7 +1274,26 @@
         "86.2,-10.83,-45.22",
         "93.55,-10.85,-1.56",
         "92.83,-10.9,25.5",
-        "74.8,-10.87,52.32"
+        "74.8,-10.87,52.32",
+        "-55.41,-10.41,201.28",
+        "-96.94,-13.78,226.56",
+        "-99.85,-12.37,138.59",
+        "-123.49,-11.24,11.66",
+        "-131.62,-13.00,70.06",
+        "45.92,-12.02,30.84",
+        "59.11,-12.11,41.57",
+        "54.78,-11.68,74.76",
+        "37.57,-13.01,4.24",
+        "43.55,-12.00,-6.72",
+        "40.46,-12.04,-20.69",
+        "47.35,-12.99,-24.63",
+        "78.17,-12.99,-41.64"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1802471391 279902631:ray meat\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -1007,7 +1306,11 @@
         "-13.12,0.03,-214.41",
         "-67.13,0.24,-228.69",
         "-58.37,0.23,-233.73",
-        "-55.88,0.12,-214.74"
+        "-55.88,0.12,-214.74",
+        "-64.64,0.25,-233.85",
+        "-51.64,0.18,-198.14",
+        "3.06,-0.03,-140.38",
+        "-15.94,0.04,-154.38"
       ]
     },
     {
@@ -1018,7 +1321,21 @@
         "0.28,-7.82,243.39",
         "-19.25,-8.9,256.04",
         "-27.93,-9.04,249.64",
-        "-49.59,-8.27,215.89"
+        "-49.59,-8.27,215.89",
+        "3.27,-8.94,252.51",
+        "-41.93,-9.47,236.74",
+        "-36.60,-8.72,240.29",
+        "-28.03,-7.88,230.71"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -97902171 1945672283:crab meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1387150657 1601121771:a sandy bone shard\\/a",
+          "chest": true
+        }
       ]
     },
     {
@@ -1042,7 +1359,8 @@
         "248.6,-4.1,-10.02",
         "233.17,-1.81,-47.77",
         "223.98,-1.49,-64.73",
-        "226.61,-0.82,-78.6"
+        "226.61,-0.82,-78.6",
+        "139.70,1.63,180.62"
       ]
     },
     {
@@ -1051,7 +1369,16 @@
       "level": 4,
       "locations": [
         "152.2,-3.58,180.37",
-        "187.97,1.13,59.04"
+        "187.97,1.13,59.04",
+        "156.60,1.39,26.60",
+        "151.12,-4.11,205.49"
+      ]
+    },
+    {
+      "name": "a tainted Sapswill ambusher",
+      "name_sortable": "taintedsapswillambusher",
+      "locations": [
+        "-50.69,2.03,-156.70"
       ]
     },
     {
@@ -1078,15 +1405,23 @@
         "185.7,-3.96,207.54",
         "149.05,-3.95,200.84",
         "167.17,-4.16,209.78",
-        "162.04,-3.15,146.68"
+        "162.04,-3.15,146.68",
+        "189.84,-3.99,159.54",
+        "194.88,-0.67,206.02",
+        "160.76,-2.71,195.38",
+        "149.83,-3.21,168.66"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM -1581811914 -134846935:half-burned ceremonial candle\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -612798970 943460484:a decomposing zombie organ\\/a",
+          "chest": false
         }
       ],
-      "drop_coin_min": 10,
+      "drop_coin_min": 4,
       "drop_coin_max": 10
     },
     {
@@ -1102,8 +1437,12 @@
         "-8.09,2.63,-170.06",
         "-97.6,1.91,-191.81",
         "-27.45,2.13,-135.85",
-        "12.37,2.73,-123.41"
-      ]
+        "12.37,2.73,-123.41",
+        "-95.32,1.90,-185.25",
+        "6.49,2.64,-124.22"
+      ],
+      "drop_coin_min": 10,
+      "drop_coin_max": 10
     },
     {
       "name": "a tainted Sapswill invader",
@@ -1111,7 +1450,13 @@
       "level": 1,
       "locations": [
         "100.22,-4.2,169.37",
-        "160.74,-2.45,183.47"
+        "160.74,-2.45,183.47",
+        "164.15,-3.13,166.99",
+        "132.34,-4.16,191.60",
+        "71.48,-4.30,193.31",
+        "84.93,-4.35,187.38",
+        "78.61,-4.33,179.00",
+        "76.55,-4.33,170.85"
       ],
       "drop_coin_min": 10,
       "drop_coin_max": 10
@@ -1150,8 +1495,21 @@
         "180.06,1.76,21.37",
         "186.98,1.31,26.36",
         "170.47,1.36,80.71",
-        "122.55,1.53,79.79"
-      ]
+        "122.55,1.53,79.79",
+        "161.66,1.40,19.32",
+        "152.32,0.32,15.32",
+        "176.53,1.34,77.58",
+        "155.78,1.41,95.02",
+        "160.77,1.40,37.64"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 80
     },
     {
       "name": "a tainted Sapswill warrior",
@@ -1166,12 +1524,28 @@
         "-2.04,2.6,-169.59",
         "-100.73,1.92,-192.45",
         "-23.78,3.74,-139.99",
-        "2.79,2.59,-121.56"
-      ]
+        "2.79,2.59,-121.56",
+        "-17.15,2.64,-140.34",
+        "14.58,2.77,-119.97"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 6,
+      "drop_coin_max": 6
     },
     {
       "name": "Timbo Alefirst",
       "name_sortable": "timboalefirst",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-42.44,-6.16,61.38"
       ],
@@ -1188,12 +1562,25 @@
         "120.36,1.54,105.4",
         "109.52,1.43,103.79",
         "114.18,1.59,121.04",
-        "106.32,1.6,94.12"
+        "106.32,1.6,94.12",
+        "123.31,1.53,84.82",
+        "128.06,1.51,104.00",
+        "119.24,2.36,119.17",
+        "114.94,1.36,102.69",
+        "104.31,1.60,106.59",
+        "103.20,1.60,99.85",
+        "98.30,1.62,94.18"
       ]
     },
     {
       "name": "Trainer Borda Gemseeker",
       "name_sortable": "trainerbordagemseeker",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Matron of the Harvest and Collections",
       "locations": [
         "16.48,-6.92,214.49"
@@ -1211,6 +1598,12 @@
     {
       "name": "Trainer Charlene Stoutmuffin",
       "name_sortable": "trainercharlenestoutmuffin",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Know Your Inventory and Equipment",
       "locations": [
         "-3.04,-3.08,108.62"
@@ -1256,6 +1649,12 @@
     {
       "name": "Trainer Gregory Collins",
       "name_sortable": "trainergregorycollins",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Skilled Artisan and Crafter",
       "locations": [
         "-20.2,-3.99,156.62"
@@ -1274,6 +1673,12 @@
     {
       "name": "Trainer Gurga Trueheart",
       "name_sortable": "trainergurgatrueheart",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Expert in Physical Attributes",
       "locations": [
         "-10.58,-3.78,128.06"
@@ -1293,6 +1698,12 @@
     {
       "name": "Trainer Hayl McGuinness",
       "name_sortable": "trainerhaylmcguinness",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Master of Combat Training",
       "locations": [
         "28.31,-5.5,140.8"
@@ -1323,6 +1734,12 @@
     {
       "name": "Trainer Marla Gilliam",
       "name_sortable": "trainermarlagilliam",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Know Your Enemy",
       "locations": [
         "25.82,-5.74,126.21"
@@ -1349,6 +1766,12 @@
     {
       "name": "Trainer Myrrin the Magnific",
       "name_sortable": "trainermyrrinthemagnific",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-12.13,10.07,164"
       ],
@@ -1375,6 +1798,12 @@
     {
       "name": "Trainer Verrin Glimmertide",
       "name_sortable": "trainerverringlimmertide",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Recognizing Opportunities",
       "locations": [
         "22.05,-5.74,124.63"
@@ -1401,6 +1830,12 @@
     {
       "name": "Trainer Zidget Sprogrudder",
       "name_sortable": "trainerzidgetsprogrudder",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Knowledge of Repairs and Banking",
       "locations": [
         "-17.7,-3.16,108.05"
@@ -1427,12 +1862,38 @@
         "-4.05,-13.84,10.69",
         "77.04,-10.82,-72.84",
         "96.35,-10.95,-26.91",
-        "-32.58,-10.95,68.72"
+        "-32.58,-10.95,68.72",
+        "-97.53,-14.87,220.82",
+        "-75.32,-12.33,218.04",
+        "-69.65,-10.05,228.65",
+        "-86.59,-13.00,197.87",
+        "-113.48,-11.80,13.12",
+        "-126.15,-12.88,61.68",
+        "-120.10,-10.49,69.84",
+        "-38.90,-14.99,24.60",
+        "-44.06,-12.50,20.91",
+        "-25.77,-11.83,6.45",
+        "38.57,-12.25,26.60",
+        "30.19,-13.29,20.28",
+        "76.05,-12.36,-41.99",
+        "-37.70,-10.99,-54.05"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1302044914 -342858235:a fish meat\\/a",
+          "chest": false
+        }
       ]
     },
     {
       "name": "Vim",
       "name_sortable": "vim",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-91.69,-5.25,229.56"
       ],
@@ -1474,7 +1935,60 @@
   ],
   "shinies": [
     {
-      "gamelink": "\\aITEM 1612899270 -1184515734:conch shell\\/a"
+      "gamelink": "\\aITEM -267674522 -288450660:clam shell\\/a",
+      "locations": [
+        "-19.45,-7.00,243.28"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1711639388 972268500:mussel shell\\/a",
+      "locations": [
+        "-37.51,-7.00,231.84",
+        "-44.07,-7.00,228.03"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1612899270 -1960681747:conch shell\\/a",
+      "locations": [
+        "45.06,-12.00,48.62",
+        "-82.91,-8.00,-31.14"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 485946727 -1456067402:turtle shell\\/a",
+      "locations": [
+        "-14.32,-12.00,-48.79"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1971617133 813591611:falcon feather\\/a",
+      "locations": [
+        "-104.95,5.00,-156.74",
+        "143.48,2.00,-51.10",
+        "167.82,2.00,-5.89"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 2066139239 418255418:hawk feather\\/a",
+      "locations": [
+        "-66.20,5.00,-97.37",
+        "-97.91,4.00,-201.26"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 732206996 486779589:eagle feather\\/a",
+      "locations": [
+        "-55.64,3.00,-127.05",
+        "103.93,2.00,107.12",
+        "2.29,-5.00,209.41",
+        "12.41,-6.00,196.34"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1370134449 764332384:duck feather\\/a",
+      "locations": [
+        "201.28,3.00,102.60"
+      ]
     }
   ],
   "resourceNodes": [

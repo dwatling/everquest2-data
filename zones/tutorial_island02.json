@@ -2,7 +2,16 @@
   "name": "Queen's Colony",
   "name_sortable": "queenscolony",
   "region": "Other",
+  "zonerect": "-499.08,-319.57,459.67,401.19",
   "levels": "2-8",
+  "connections": [
+    {
+      "key": "qey_tradeskill01_island"
+    },
+    {
+      "key": "tutorial_island02_epic01"
+    }
+  ],
   "npcs": [
     {
       "name": "an average sparring partner",
@@ -145,6 +154,13 @@
       ]
     },
     {
+      "name": "The Dark Blademaster",
+      "name_sortable": "darkblademaster",
+      "locations": [
+        "154.66,1.38,-178.16"
+      ]
+    },
+    {
       "name": "The Dark Puppeteer",
       "name_sortable": "darkpuppeteer",
       "level": 5,
@@ -260,7 +276,8 @@
         "234.41,-5.07,-12.05",
         "-17.63,2.75,-140.63",
         "162.33,0.56,-176.50",
-        "113.55,0.55,-195.45"
+        "113.55,0.55,-195.45",
+        "203.01,0.76,-127.01"
       ],
       "utterances": [
         "Final death comes at last."
@@ -284,7 +301,8 @@
         "61.86,1.5,-206.97",
         "228.59,-3.51,-14.73",
         "199.10,-0.71,-122.11",
-        "226.93,-0.79,-191.88"
+        "226.93,-0.79,-191.88",
+        "171.00,-2.91,186.80"
       ],
       "drop_coin_min": 6,
       "drop_coin_max": 6
@@ -307,6 +325,13 @@
         "True, but it's clearer than, say, the difference between good and evil.  All those around here who are \"good\" avoid me because I was born \"evil.\" I grew up in Freeport. Does that make them better than me somehow, that I chose to leave Freeport to work on behalf of the Queen only recently? Who knows? Yet I must be evil; I can sense the evil in others.",
         "They say that there is a taint rising from an unknown source, polluting this place and corrupting the inhabitants.  I feel it is much simpler than that.  There are spiders in the Tainted Forest, poisonous ones.  With their venom, they can cause untold suffering.  The search for \"evil\" sometimes has a mundane cause.  We must rid the Colony of these spiders.",
         "It's up to us to find the answers; they're never handed to us."
+      ]
+    },
+    {
+      "name": "Direspike",
+      "name_sortable": "direspike",
+      "locations": [
+        "89.78,5.02,124.29"
       ]
     },
     {
@@ -366,7 +391,8 @@
         "-103.15,4.26,-105.89",
         "-55.20,2.11,-152.06",
         "-67.15,3.61,-136.24",
-        "-58.75,2.25,-144.65"
+        "-58.75,2.25,-144.65",
+        "-48.97,2.21,-150.42"
       ],
       "utterances": [
         "Final death comes at last."
@@ -548,7 +574,11 @@
         "163.66,0.74,-16.04",
         "156.69,-0.08,-11.31",
         "185.97,1.32,-21.89",
-        "170.96,1.17,13.87"
+        "170.96,1.17,13.87",
+        "166.94,1.38,6.76",
+        "178.53,1.34,-0.39",
+        "166.07,1.39,0.26",
+        "183.86,1.33,-4.66"
       ],
       "drops": [
         {
@@ -557,6 +587,14 @@
         },
         {
           "gamelink": "\\aITEM 220303815 -2092524802:a vial of spectral essence\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -86102345 -151067204:a ghost vile plasm \\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 220303815 1408642818:a vial of spectral essence\\/a",
           "chest": false
         }
       ],
@@ -685,7 +723,8 @@
         "115.92,-3.80,178.73",
         "88.37,-4.54,213.90",
         "94.31,-4.16,182.31",
-        "105.08,-4.00,169.00"
+        "105.08,-4.00,169.00",
+        "111.94,-4.00,184.06"
       ]
     },
     {
@@ -1328,7 +1367,8 @@
         "238.31,-6.76,106.47",
         "242.52,-7.02,91.04",
         "248.44,-7.22,95.47",
-        "246.35,-6.38,73.04"
+        "246.35,-6.38,73.04",
+        "262.19,-6.00,130.68"
       ],
       "utterances": [
         "Whew, thank you!  I couldn't hold on much longer.",
@@ -1783,7 +1823,9 @@
         "81.94,-0.74,211.66",
         "76.03,-1.73,220.74",
         "94.04,0.25,191.48",
-        "110.22,-1.75,178.59"
+        "110.22,-1.75,178.59",
+        "108.00,-2.00,186.40",
+        "87.94,0.27,191.37"
       ]
     },
     {
@@ -1962,7 +2004,9 @@
         "110.39,0.56,-191.18",
         "232.63,-5.07,-10.18",
         "219.53,-0.76,-207.60",
-        "117.20,0.54,-195.03"
+        "117.20,0.54,-195.03",
+        "257.05,-4.21,-8.00",
+        "205.73,-0.73,-116.94"
       ],
       "drop_coin_min": 8,
       "drop_coin_max": 8
@@ -2040,10 +2084,26 @@
         "90.97,-4.30,157.54",
         "98.29,-4.11,156.82",
         "141.88,-3.45,153.05",
-        "152.68,-3.33,152.93"
+        "152.68,-3.33,152.93",
+        "106.35,-3.92,171.41",
+        "111.46,-3.80,174.77",
+        "117.88,-4.18,191.55",
+        "82.64,-4.51,171.82",
+        "105.10,-4.00,179.89",
+        "74.75,-4.36,162.21"
       ],
-      "drop_coin_min": 10,
-      "drop_coin_max": 10
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 5,
+      "drop_coin_max": 70
     },
     {
       "name": "a tainted Sapswill scout",
@@ -2070,7 +2130,8 @@
         "209.96,-0.73,-207.47",
         "157.63,-0.72,-208.65",
         "143.51,0.28,-186.16",
-        "96.09,-0.51,-174.05"
+        "96.09,-0.51,-174.05",
+        "221.20,-4.97,-10.47"
       ],
       "drops": [
         {
@@ -2103,7 +2164,8 @@
         "152.32,0.32,15.32",
         "176.53,1.34,77.58",
         "155.78,1.41,95.02",
-        "160.77,1.40,37.64"
+        "160.77,1.40,37.64",
+        "177.29,1.33,86.33"
       ],
       "drops": [
         {
@@ -2178,7 +2240,22 @@
         "114.94,1.36,102.69",
         "104.31,1.60,106.59",
         "103.20,1.60,99.85",
-        "98.30,1.62,94.18"
+        "98.30,1.62,94.18",
+        "133.64,1.49,95.83",
+        "122.50,1.53,79.52",
+        "111.69,1.57,115.00",
+        "105.75,1.59,117.29",
+        "99.22,1.61,108.55"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1488626691 1853705498:a poison gland\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -2237,6 +2314,12 @@
     {
       "name": "Trainer Cheye Seawind",
       "name_sortable": "trainercheyeseawind",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Know Your Fate",
       "locations": [
         "3.27,-3.88,151.56"
@@ -2583,7 +2666,9 @@
         "167.82,2.00,-5.89",
         "234.13,-4.00,-13.42",
         "227.86,0.00,-79.50",
-        "-112.00,5.00,-141.90"
+        "-112.00,5.00,-141.90",
+        "167.82,2.00,-14.93",
+        "227.86,-5.00,109.31"
       ]
     },
     {
@@ -2594,7 +2679,9 @@
         "271.77,-1.00,-60.62",
         "278.04,-4.00,-3.97",
         "64.74,0.00,-173.90",
-        "234.13,0.00,-117.26"
+        "234.13,0.00,-117.26",
+        "155.65,2.00,7.67",
+        "240.40,-4.00,137.63"
       ]
     },
     {
@@ -2606,7 +2693,9 @@
         "12.41,-6.00,196.34",
         "252.95,-6.00,109.31",
         "234.13,-3.00,-32.30",
-        "240.40,0.00,-202.22"
+        "240.40,0.00,-202.22",
+        "179.98,3.00,102.60",
+        "171.39,0.00,-126.70"
       ]
     },
     {
@@ -2622,7 +2711,8 @@
       "gamelink": "\\aITEM 723338470 896860375:sparrow feather\\/a",
       "locations": [
         "171.39,0.00,-211.66",
-        "234.13,0.00,-145.58"
+        "234.13,0.00,-145.58",
+        "170.86,2.00,89.04"
       ]
     }
   ],

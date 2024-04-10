@@ -2,10 +2,69 @@
   "name": "The Source of Evil",
   "name_sortable": "sourceofevil",
   "region": "Other",
+  "zonerect": "-17.00,-20.00,18.00,21.00",
   "levels": "5-8",
   "connections": [
     {
       "key": "tutorial_island02"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a defiled mage",
+      "name_sortable": "defiledmage",
+      "locations": [
+        "6.97,0.00,1.74"
+      ],
+      "drop_coin_min": 10,
+      "drop_coin_max": 10
+    },
+    {
+      "name": "a defiled priest",
+      "name_sortable": "defiledpriest",
+      "locations": [
+        "6.56,0.00,4.00",
+        "7.04,0.00,-1.89"
+      ]
+    },
+    {
+      "name": "a defiled scout",
+      "name_sortable": "defiledscout",
+      "locations": [
+        "6.99,0.00,3.82"
+      ]
+    },
+    {
+      "name": "a tainted Sapswill hunter",
+      "name_sortable": "taintedsapswillhunter",
+      "locations": [
+        "4.49,0.00,-7.17"
+      ],
+      "drop_coin_min": 6,
+      "drop_coin_max": 6
+    },
+    {
+      "name": "a tainted Sapswill warrior",
+      "name_sortable": "taintedsapswillwarrior",
+      "locations": [
+        "1.86,0.00,5.79",
+        "1.36,0.00,-1.41"
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4
+    },
+    {
+      "name": "Vith L'Tar",
+      "name_sortable": "vithltar",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "10.67,0.78,0.56"
+      ]
     }
   ]
 }

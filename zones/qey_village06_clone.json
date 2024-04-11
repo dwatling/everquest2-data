@@ -101,7 +101,12 @@
       "store": [
         {
           "gamelink": "\\aITEM 2101037654 -436556300:an emerald gem\\/a",
-          "price": 132
+          "server_prices": [
+            {
+              "server": "Varsoon",
+              "price": 132
+            }
+          ]
         }
       ],
       "store_template": "provisioner"
@@ -227,12 +232,7 @@
         "What can I get for ya?",
         "Come over and meet one of the most famous brewmasters in Qeynos!"
       ],
-      "store": [
-        {
-          "item_id": 1867785218,
-          "price": 12960
-        }
-      ],
+      "store": [],
       "store_template": "general_goods"
     },
     {
@@ -269,6 +269,14 @@
       "name_sortable": "mangler13",
       "locations": [
         "835.95,-17.69,-483.17"
+      ]
+    },
+    {
+      "name": "Marshal Surefoot",
+      "name_sortable": "marshalsurefoot",
+      "locations": [
+        "886.88,-17.87,-452.06",
+        "881.41,-16.95,-510.97"
       ]
     },
     {
@@ -405,12 +413,22 @@
       ],
       "store": [
         {
-          "item_id": 585316378,
-          "price": 1200
+          "gamelink": "\\aITEM 585316378 303462942:Gnomish Language Primer\\/a",
+          "server_prices": [
+            {
+              "server": "Varsoon",
+              "price": 1200
+            }
+          ]
         },
         {
-          "item_id": 1810019329,
-          "price": 1200
+          "gamelink": "\\aITEM 1810019329 957803865:Stout Language Primer\\/a",
+          "server_prices": [
+            {
+              "server": "Varsoon",
+              "price": 1200
+            }
+          ]
         }
       ]
     },

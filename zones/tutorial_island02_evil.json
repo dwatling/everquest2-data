@@ -151,6 +151,10 @@
       ]
     },
     {
+      "name": "a cliffdiver hawk",
+      "name_sortable": "cliffdiverhawk"
+    },
+    {
       "name": "Coercer Zlith",
       "name_sortable": "coercerzlith",
       "utterances": [
@@ -162,11 +166,26 @@
       ]
     },
     {
+      "name": "Dasher",
+      "name_sortable": "dasher"
+    },
+    {
       "name": "Ebb Tide",
       "name_sortable": "ebbtide",
       "utterances": [
         "Welcome to Ebb Tide's Alehouse.",
         "Got any goods for sale from your adventures?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -618067811 -1090781380:laborer's shoes\\/a",
+          "server_prices": [
+            {
+              "server": "Varsoon",
+              "price": 90
+            }
+          ]
+        }
       ]
     },
     {
@@ -261,6 +280,10 @@
       ]
     },
     {
+      "name": "a large sand tortoise",
+      "name_sortable": "largesandtortoise"
+    },
+    {
       "name": "a Militia patroller",
       "name_sortable": "militiapatroller",
       "utterances": [
@@ -275,6 +298,10 @@
       "utterances": [
         "Filthy elves!"
       ]
+    },
+    {
+      "name": "a needlefang",
+      "name_sortable": "needlefang"
     },
     {
       "name": "Nogg Dreadscar",
@@ -326,6 +353,14 @@
       ]
     },
     {
+      "name": "a reef turtle",
+      "name_sortable": "reefturtle"
+    },
+    {
+      "name": "a sandstalker",
+      "name_sortable": "sandstalker"
+    },
+    {
       "name": "a sand tortoise",
       "name_sortable": "sandtortoise",
       "drops": [
@@ -344,7 +379,12 @@
       "store": [
         {
           "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a",
-          "price": 54
+          "server_prices": [
+            {
+              "server": "Varsoon",
+              "price": 54
+            }
+          ]
         }
       ]
     },
@@ -376,6 +416,10 @@
       "drop_coin_max": 2
     },
     {
+      "name": "a shoal glider",
+      "name_sortable": "shoalglider"
+    },
+    {
       "name": "Sirsi Rissar",
       "name_sortable": "sirsirissar",
       "utterances": [
@@ -391,6 +435,10 @@
           "chest": false
         }
       ]
+    },
+    {
+      "name": "Swift",
+      "name_sortable": "swift"
     },
     {
       "name": "Tayil N'Velex",
@@ -418,6 +466,10 @@
         "Gorga was impressed with your handiwork. I'm sure the outpost Militia guards will be pleased with her stew, though I can't stomach troll cooking myself. You show potential indeed, <player name>. As promised, here is your reward.",
         "So, <player name>, are you ready to prove your worth again?"
       ]
+    },
+    {
+      "name": "a trained bear",
+      "name_sortable": "trainedbear"
     },
     {
       "name": "a trained wolf",
@@ -499,6 +551,10 @@
       ]
     },
     {
+      "name": "Trainer Sythor the All-Seeing",
+      "name_sortable": "trainersythortheallseeing"
+    },
+    {
       "name": "Trainer Vella N'Dur",
       "name_sortable": "trainervellandur",
       "utterances": [
@@ -512,6 +568,22 @@
       "utterances": [
         "I am here to tell you all about mending and banking! Banking and mending! Which do you want to hear about?"
       ]
+    },
+    {
+      "name": "a training bear",
+      "name_sortable": "trainingbear"
+    },
+    {
+      "name": "a training hawk",
+      "name_sortable": "traininghawk"
+    },
+    {
+      "name": "a Tunarian bearmaster",
+      "name_sortable": "tunarianbearmaster"
+    },
+    {
+      "name": "a Tunarian falconer",
+      "name_sortable": "tunarianfalconer"
     },
     {
       "name": "a Tunarian fisher",
@@ -534,6 +606,10 @@
       ]
     },
     {
+      "name": "a Tunarian lookout",
+      "name_sortable": "tunarianlookout"
+    },
+    {
       "name": "a Tunarian miner",
       "name_sortable": "tunarianminer",
       "drop_coin_min": 2,
@@ -554,6 +630,10 @@
       "name_sortable": "tunarianscout",
       "drop_coin_min": 2,
       "drop_coin_max": 2
+    },
+    {
+      "name": "a Tunarian wolfmaster",
+      "name_sortable": "tunarianwolfmaster"
     },
     {
       "name": "a vicious sandstalker",
@@ -580,6 +660,14 @@
       ]
     },
     {
+      "name": "a wilderbear",
+      "name_sortable": "wilderbear"
+    },
+    {
+      "name": "a wilderbear cub",
+      "name_sortable": "wilderbearcub"
+    },
+    {
       "name": "a wilderwolf",
       "name_sortable": "wilderwolf",
       "drops": [
@@ -597,11 +685,57 @@
       ]
     },
     {
+      "name": "a worker bee",
+      "name_sortable": "workerbee"
+    },
+    {
       "name": "Zito Graban",
       "name_sortable": "zitograban",
       "utterances": [
         "You've got to be deviant to survive in Freeport."
       ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM 2066139239 -1609591166:hawk feather\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 732206996 -1414700783:eagle feather\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1370134449 1141233630:duck feather\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 723338470 738491006:sparrow feather\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1971617133 476040311:falcon feather\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -267674522 -727078328:clam shell\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1770462429 -1745410803:abalone shell\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 485946727 1804301120:turtle shell\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1612899270 -1184515734:conch shell\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1711639388 -1541580519:mussel shell\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the budding natural garden",
+      "name_sortable": "buddingnaturalgarden"
+    },
+    {
+      "name": "the felled elm tree",
+      "name_sortable": "felledelmtree"
     }
   ]
 }

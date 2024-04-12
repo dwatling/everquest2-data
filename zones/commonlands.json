@@ -5004,6 +5004,13 @@
       ],
       "utterances": [
         "Keep up the assault, no matter what the cost in lives!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Qeynos Guard",
+          "name_sortable": "qeynosguard",
+          "value": -100
+        }
       ]
     },
     {
@@ -5021,7 +5028,14 @@
         "You cannot kill us all, despoiler!"
       ],
       "drop_coin_min": 165,
-      "drop_coin_max": 165
+      "drop_coin_max": 165,
+      "faction_changes": [
+        {
+          "name": "The Tunarian Alliance",
+          "name_sortable": "tunarianalliance",
+          "value": -100
+        }
+      ]
     },
     {
       "name": "Rainus Canton",
@@ -5582,7 +5596,26 @@
         "-280.31,-37.69,-956.0",
         "-347.4,-47.06,-997.2",
         "-251.0,-48.02,-945.51",
-        "-221.61,-48.04,-927.69"
+        "-221.61,-48.04,-927.69",
+        "-259.57,-48.01,-870.94",
+        "-252.27,-48.03,-939.06",
+        "-240.75,-46.18,-952.52",
+        "-276.65,-47.6,-987.52",
+        "-281.67,-46.18,-973.61",
+        "-287.75,-37.33,-961.59",
+        "-296.36,-36.76,-930.39",
+        "-297.22,-40.93,-914.61",
+        "-275.09,-48.01,-857.41",
+        "-284.49,-48.02,-852.01",
+        "-285.1,-47.39,-789.59",
+        "-302.38,-47.86,-753.75",
+        "-248.12,-48.04,-750.02",
+        "-328.95,-48.79,-914.22",
+        "-349.91,-49.1,-955.14",
+        "-355.25,-47.46,-993.76",
+        "-330.19,-47.29,-978.38",
+        "-298.53,-47.78,-1000.15",
+        "-326.31,-47.85,-955.86"
       ],
       "utterances": [
         "The living wander too close.",
@@ -6659,96 +6692,23 @@
       ]
     },
     {
-      "gamelink": "\\aITEM 1424402151 -1053334447:chipped shard of alteration\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1331551958 515627370:chipped shard of channeling\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1868197541 -1710679381:chipped shard of conjuration\\/a",
+      "gamelink": "\\aITEM 690633881 2006986525:Dwarf egg\\/a",
       "locations": [
-        "-502.5,-48.04,-764.59"
+        "399.07,-47.00,321.87"
       ]
     },
     {
-      "gamelink": "\\aITEM 164202245 -601729183:chipped shard of divination\\/a",
+      "gamelink": "\\aITEM -127782164 -1994111504:Froglok fin\\/a",
       "locations": [
-        "-724.06,-55.00,-684.89",
-        "124.64,-43.00,166.17"
+        "447.49,-46.00,-32.86",
+        "-581.96,-43.00,-148.36",
+        "496.06,-47.00,236.17"
       ]
     },
     {
-      "gamelink": "\\aITEM 1321366674 1325276780:chipped shard of evocation\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1609830741 751110846:commonlands shrub yellow leaf\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1518761661 -1817126979:cracked high elf bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 728453195 -1104844676:cracked human bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1545792971 2005925826:Mark of Blackburrow\\/a",
+      "gamelink": "\\aITEM 881145389 -1257983659:Iksar wing\\/a",
       "locations": [
-        "-556.06,-47.16,-359.69",
-        "-600.07,-47.94,-294.85",
-        "-588.32,-47.94,-340.15",
-        "-617.97,-48.02,-308.94",
-        "-597.50,-47.77,-365.07"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1838761957 -694987579:scuffed shard of channeling\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 794244308 865159586:scuffed shard of conjuration\\/a",
-      "locations": [
-        "660.23,-58.00,-96.90"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1185753733 1391894927:shattered high elf bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1526825307 -1323670149:shattered human bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 2013405720 831809963:shattered orc bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1464794927 -809516526:Sootfoot Mark\\/a",
-      "locations": [
-        "-597.34,-48.01,-335.83",
-        "-598.28,-48.03,-308.63",
-        "-574.33,-47.79,-361.96",
-        "-617.97,-48.02,-308.94",
-        "-586.24,-47.53,-378.45",
-        "-575.32,-47.15,-334.71",
-        "-636.18,-48.04,-313.82",
-        "-556.06,-47.16,-359.69"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -517034753 697646490:spotted tan moth\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -2062863415 328058215:spotted yellow ant\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 164202245 -1101324040:chipped shard of divination\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1832140126 2119420903:chipped shard of abjuration\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1535866014 503544685:cracked iksar bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 491367518 -1346774644:Mark of the Kromise\\/a",
-      "locations": [
-        "-574.33,-47.79,-361.96"
+        "19.79,-42.00,19.35"
       ]
     },
     {
@@ -6763,14 +6723,42 @@
       ]
     },
     {
-      "gamelink": "\\aITEM 699234980 -855475702:Sunset Chrysanthemum Petal\\/a",
+      "gamelink": "\\aITEM -1913161908 -135970516:Kerra scales\\/a",
       "locations": [
-        "-1202.03,-75.60,115.60",
-        "-1118.32,-58.89,117.81",
-        "-1018.63,-50.22,16.55",
-        "-740.62,-47.43,-177.21",
-        "-636.86,-47.99,-233.17",
-        "-1258.87,-88.59,41.06"
+        "935.46,-42.00,-546.94",
+        "-1101.88,-54.00,-304.44"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1545792971 2005925826:Mark of Blackburrow\\/a",
+      "locations": [
+        "-556.06,-47.16,-359.69",
+        "-600.07,-47.94,-294.85",
+        "-588.32,-47.94,-340.15",
+        "-617.97,-48.02,-308.94",
+        "-597.50,-47.77,-365.07"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 491367518 -1346774644:Mark of the Kromise\\/a",
+      "locations": [
+        "-574.33,-47.79,-361.96"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1740421467 1340305692:Orc tail\\/a",
+      "locations": [
+        "-99.94,-47.00,-603.00"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 2081551614 186916899:Ratonga hoof\\/a",
+      "locations": [
+        "335.46,-47.00,-403.44",
+        "-223.72,-47.00,362.77",
+        "-523.72,-47.00,449.97",
+        "237.44,-44.00,-13.83",
+        "263.99,-43.00,-53.83"
       ]
     },
     {
@@ -6788,62 +6776,39 @@
       ]
     },
     {
-      "gamelink": "\\aITEM -686869063 2018792859:shattered barbarian bone fragment\\/a",
+      "gamelink": "\\aITEM -1464794927 -809516526:Sootfoot Mark\\/a",
       "locations": [
-        "-606.58,-49.00,-668.67"
+        "-597.34,-48.01,-335.83",
+        "-598.28,-48.03,-308.63",
+        "-574.33,-47.79,-361.96",
+        "-617.97,-48.02,-308.94",
+        "-586.24,-47.53,-378.45",
+        "-575.32,-47.15,-334.71",
+        "-636.18,-48.04,-313.82",
+        "-556.06,-47.16,-359.69"
       ]
     },
     {
-      "gamelink": "\\aITEM -1148412677 -1260596269:striped yellow ant\\/a",
+      "gamelink": "\\aITEM 699234980 -855475702:Sunset Chrysanthemum Petal\\/a",
       "locations": [
-        "-287.11,-47.00,-879.03"
+        "-1202.03,-75.60,115.60",
+        "-1118.32,-58.89,117.81",
+        "-1018.63,-50.22,16.55",
+        "-740.62,-47.43,-177.21",
+        "-636.86,-47.99,-233.17",
+        "-1258.87,-88.59,41.06"
       ]
     },
     {
-      "gamelink": "\\aITEM -947864952 157624624:cracked orc bone fragment\\/a",
+      "gamelink": "\\aITEM 311520287 -690295344:Yha-lei fur\\/a",
       "locations": [
-        "-263.61,-45.00,-956.66",
-        "-329.41,-47.00,-874.94"
+        "-1347.88,-82.00,-354.58"
       ]
     },
     {
-      "gamelink": "\\aITEM 666527502 2081562652:striped black moth\\/a",
+      "gamelink": "\\aITEM -1832140126 2119420903:chipped shard of abjuration\\/a",
       "locations": [
-        "-443.05,-47.00,-736.59",
-        "165.62,-47.00,-249.13"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 721330325 -211567629:spotted brown moth\\/a",
-      "locations": [
-        "-88.38,-47.00,-595.04"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1740421467 1340305692:Orc tail\\/a",
-      "locations": [
-        "-99.94,-47.00,-603.00"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1497650870 -1065330247:striped tan moth\\/a",
-      "locations": [
-        "436.95,-47.00,-778.34"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 488511049 409354024:skeleton pocket\\/a",
-      "locations": [
-        "475.46,-46.00,-611.51",
-        "1023.28,-55.00,-185.41",
-        "-774.41,-49.00,-263.09"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1913161908 -135970516:Kerra scales\\/a",
-      "locations": [
-        "935.46,-42.00,-546.94",
-        "-1101.88,-54.00,-304.44"
+        "916.39,-43.00,-548.12"
       ]
     },
     {
@@ -6853,27 +6818,27 @@
       ]
     },
     {
-      "gamelink": "\\aITEM 2081551614 186916899:Ratonga hoof\\/a",
+      "gamelink": "\\aITEM 1424402151 -1053334447:chipped shard of alteration\\/a",
       "locations": [
-        "335.46,-47.00,-403.44",
-        "-223.72,-47.00,362.77",
-        "-523.72,-47.00,449.97",
-        "237.44,-44.00,-13.83",
-        "263.99,-43.00,-53.83"
+        "-978.88,-47.00,-78.84"
       ]
     },
     {
-      "gamelink": "\\aITEM -127782164 -1994111504:Froglok fin\\/a",
+      "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a",
       "locations": [
-        "447.49,-46.00,-32.86",
-        "-581.96,-43.00,-148.36",
-        "496.06,-47.00,236.17"
+        "-978.88,-47.00,-78.84"
       ]
     },
     {
-      "gamelink": "\\aITEM -1379031202 -1065158918:commonlands shrub red leaf\\/a",
+      "gamelink": "\\aITEM 1331551958 515627370:chipped shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1868197541 -1710679381:chipped shard of conjuration\\/a",
       "locations": [
-        "695.34,-59.00,-123.85"
+        "-502.5,-48.04,-764.59",
+        "1004.71,-58.00,-200.67",
+        "-363.72,-47.00,400.14",
+        "-658.50,-45.00,226.08"
       ]
     },
     {
@@ -6885,16 +6850,49 @@
       ]
     },
     {
-      "gamelink": "\\aITEM 861846032 -1689084433:cracked halfling bone fragment\\/a",
+      "gamelink": "\\aITEM 164202245 -601729183:chipped shard of divination\\/a",
       "locations": [
-        "967.56,-58.61,-276.95",
-        "128.43,-47.00,-190.05"
+        "-724.06,-55.00,-684.89",
+        "124.64,-43.00,166.17"
       ]
     },
     {
-      "gamelink": "\\aITEM -1576919798 399529188:shattered ratonga bone fragment\\/a",
+      "gamelink": "\\aITEM 164202245 -1101324040:chipped shard of divination\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1321366674 1325276780:chipped shard of evocation\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1112052861 2089405631:commonlands shrub blue leaf\\/a",
       "locations": [
-        "230.81,-47.00,466.17"
+        "-1329.25,-69.00,331.56"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1174002430 351505271:commonlands shrub green leaf\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1973092226 1210521619:commonlands shrub light brown leaf\\/a",
+      "locations": [
+        "-606.58,-48.00,-717.34"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1702203182 453968891:commonlands shrub purple leaf\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1379031202 -1065158918:commonlands shrub red leaf\\/a",
+      "locations": [
+        "695.34,-59.00,-123.85"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1379031202 -671594821:commonlands shrub red leaf\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1609830741 751110846:commonlands shrub yellow leaf\\/a",
+      "locations": [
+        "30.82,-47.00,479.35"
       ]
     },
     {
@@ -6904,16 +6902,154 @@
       ]
     },
     {
-      "gamelink": "\\aITEM 86571365 -1773479319:spotted white moth\\/a",
+      "gamelink": "\\aITEM -876598856 -1884122419:cracked dark elf bone fragment\\/a",
       "locations": [
-        "-763.72,-47.00,549.62",
-        "30.82,-47.00,319.35"
+        "314.69,-48.04,-523.86"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 280932088 852858576:cracked erudite bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1375121630 435882267:cracked froglok bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 861846032 -1689084433:cracked halfling bone fragment\\/a",
+      "locations": [
+        "967.56,-58.61,-276.95",
+        "128.43,-47.00,-190.05"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1518761661 -1817126979:cracked high elf bone fragment\\/a",
+      "locations": [
+        "433.71,-47.00,221.89"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1518761661 362317511:cracked high elf bone fragment\\/a",
+      "locations": [
+        "433.71,-47.00,221.89"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 728453195 -1104844676:cracked human bone fragment\\/a",
+      "locations": [
+        "142.38,-47.00,-244.40"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 728453195 2001231493:cracked human bone fragment\\/a",
+      "locations": [
+        "142.38,-47.00,-244.40"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1535866014 503544685:cracked iksar bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1756865292 620632162:cracked ogre bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -947864952 157624624:cracked orc bone fragment\\/a",
+      "locations": [
+        "-263.61,-45.00,-956.66",
+        "-329.41,-47.00,-874.94"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -947864952 1092211063:cracked orc bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1104592590 977881333:cracked ratonga bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 191027657 -1161592086:page 11 of The Lore of Fauna: The Behemoth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1838446477 -276994448:page 12 of The Lore of Fauna: The Behemoth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -445859611 -1924649140:page 13 of The Lore of Fauna: The Behemoth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 2064133446 1361447718:page 14 of The Lore of Fauna: The Behemoth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -576796482 1310961989:plain brown moth\\/a",
+      "locations": [
+        "123.78,-47.00,-192.42"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -230125234 653655030:plain white moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1341170799 881072848:scuffed shard of abjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1981956052 735753576:scuffed shard of alteration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1838761957 -694987579:scuffed shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 794244308 865159586:scuffed shard of conjuration\\/a",
+      "locations": [
+        "660.23,-58.00,-96.90"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 722279990 -215234753:scuffed shard of divination\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -2008154588 1880837041:scuffed shard of evocation\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -686869063 2018792859:shattered barbarian bone fragment\\/a",
+      "locations": [
+        "-606.58,-49.00,-668.67"
       ]
     },
     {
       "gamelink": "\\aITEM 211153600 898123469:shattered erudite bone fragment\\/a",
       "locations": [
         "-352.36,-47.00,-41.38"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1306389734 1869011176:shattered froglok bone fragment\\/a",
+      "locations": [
+        "-1356.70,-69.00,351.74"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1039265482 2033830644:shattered half elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1185753733 1391894927:shattered high elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1526825307 -1323670149:shattered human bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 2013405720 831809963:shattered orc bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1576919798 399529188:shattered ratonga bone fragment\\/a",
+      "locations": [
+        "230.81,-47.00,466.17"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1576919798 -605338864:shattered ratonga bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 488511049 409354024:skeleton pocket\\/a",
+      "locations": [
+        "475.46,-46.00,-611.51",
+        "1023.28,-55.00,-185.41",
+        "-774.41,-49.00,-263.09"
       ]
     },
     {
@@ -6924,40 +7060,36 @@
       ]
     },
     {
-      "gamelink": "\\aITEM 1973092226 1210521619:commonlands shrub light brown leaf\\/a",
+      "gamelink": "\\aITEM 721330325 -211567629:spotted brown moth\\/a",
       "locations": [
-        "-606.58,-48.00,-717.34"
+        "-88.38,-47.00,-595.04"
       ]
     },
     {
-      "gamelink": "\\aITEM 311520287 -690295344:Yha-lei fur\\/a",
+      "gamelink": "\\aITEM -517034753 697646490:spotted tan moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 86571365 -1773479319:spotted white moth\\/a",
       "locations": [
-        "-1347.88,-82.00,-354.58"
+        "-763.72,-47.00,549.62",
+        "30.82,-47.00,319.35"
       ]
     },
     {
-      "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a",
+      "gamelink": "\\aITEM 86571365 1444443711:spotted white moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -2062863415 328058215:spotted yellow ant\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 666527502 2081562652:striped black moth\\/a",
       "locations": [
-        "-978.88,-47.00,-78.84"
+        "-443.05,-47.00,-736.59",
+        "165.62,-47.00,-249.13"
       ]
     },
     {
-      "gamelink": "\\aITEM 1306389734 1869011176:shattered froglok bone fragment\\/a",
-      "locations": [
-        "-1356.70,-69.00,351.74"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1112052861 2089405631:commonlands shrub blue leaf\\/a",
-      "locations": [
-        "-1329.25,-69.00,331.56"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 881145389 -1257983659:Iksar wing\\/a",
-      "locations": [
-        "19.79,-42.00,19.35"
-      ]
+      "gamelink": "\\aITEM 666527502 842875039:striped black moth\\/a"
     },
     {
       "gamelink": "\\aITEM -1020901006 -825851229:striped brown moth\\/a",
@@ -6966,106 +7098,25 @@
       ]
     },
     {
-      "gamelink": "\\aITEM 1518761661 362317511:cracked high elf bone fragment\\/a",
-      "locations": [
-        "433.71,-47.00,221.89"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 690633881 2006986525:Dwarf egg\\/a",
-      "locations": [
-        "399.07,-47.00,321.87"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 728453195 2001231493:cracked human bone fragment\\/a",
-      "locations": [
-        "142.38,-47.00,-244.40"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -576796482 1310961989:plain brown moth\\/a",
-      "locations": [
-        "123.78,-47.00,-192.42"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 280932088 852858576:cracked erudite bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1341170799 881072848:scuffed shard of abjuration\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 722279990 -215234753:scuffed shard of divination\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1190729474 -2001384598:the lore of fauna: the behemoth\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1838446477 -276994448:page 12 of The Lore of Fauna: The Behemoth\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 191027657 -1161592086:page 11 of The Lore of Fauna: The Behemoth\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -445859611 -1924649140:page 13 of The Lore of Fauna: The Behemoth\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 2064133446 1361447718:page 14 of The Lore of Fauna: The Behemoth\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -947864952 1092211063:cracked orc bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1375121630 435882267:cracked froglok bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1379031202 -671594821:commonlands shrub red leaf\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1104592590 977881333:cracked ratonga bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1756865292 620632162:cracked ogre bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -2008154588 1880837041:scuffed shard of evocation\\/a"
-    },
-    {
       "gamelink": "\\aITEM -1020901006 -59096212:striped brown moth\\/a"
     },
     {
-      "gamelink": "\\aITEM -1702203182 453968891:commonlands shrub purple leaf\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1576919798 -605338864:shattered ratonga bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1039265482 2033830644:shattered half elf bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1174002430 351505271:commonlands shrub green leaf\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 666527502 842875039:striped black moth\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -230125234 653655030:plain white moth\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -876598856 -1884122419:cracked dark elf bone fragment\\/a",
+      "gamelink": "\\aITEM -1497650870 -1065330247:striped tan moth\\/a",
       "locations": [
-        "314.69,-48.04,-523.86"
+        "436.95,-47.00,-778.34"
       ]
     },
     {
-      "gamelink": "\\aITEM 1981956052 735753576:scuffed shard of alteration\\/a"
+      "gamelink": "\\aITEM -1148412677 -1260596269:striped yellow ant\\/a",
+      "locations": [
+        "-287.11,-47.00,-879.03"
+      ]
     },
     {
       "gamelink": "\\aITEM -1148412677 699655827:striped yellow ant\\/a"
     },
     {
-      "gamelink": "\\aITEM 86571365 1444443711:spotted white moth\\/a"
+      "gamelink": "\\aITEM -1190729474 -2001384598:the lore of fauna: the behemoth\\/a"
     },
     {
       "gamelink": "\\aITEM 1826682885 274604835:weathered orc bone fragment\\/a"

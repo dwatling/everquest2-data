@@ -29,13 +29,42 @@
           "gamelink": "\\aITEM 1335559556 -1555226293:droag egg fragment\\/a",
           "chest": false
         }
+      ],
+      "faction_changes": [
+        {
+          "name": "Mistmoore",
+          "name_sortable": "mistmoore",
+          "value": -100
+        },
+        {
+          "name": "The Lyrech",
+          "name_sortable": "lyrech",
+          "value": 50
+        }
       ]
     },
     {
       "name": "Seneschal D'naraz",
       "name_sortable": "seneschaldnaraz",
       "drop_coin_min": 7700,
-      "drop_coin_max": 7700
+      "drop_coin_max": 7700,
+      "faction_changes": [
+        {
+          "name": "Mistmoore",
+          "name_sortable": "mistmoore",
+          "value": -100
+        },
+        {
+          "name": "The Lyrech",
+          "name_sortable": "lyrech",
+          "value": 50
+        }
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM 1414127537 -778552559:barbarian blood vial\\/a"
     }
   ]
 }

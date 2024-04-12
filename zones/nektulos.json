@@ -5311,15 +5311,44 @@
   ],
   "shinies": [
     {
-      "gamelink": "\\aITEM 499501274 537092120:blue nektulos pine needle\\/a",
-      "locations": [
-        "962.95,0.00,-282.08"
-      ]
-    },
-    {
       "gamelink": "\\aITEM -2138407993 1925374679:Chewing Gum\\/a",
       "locations": [
         "754.32,1.05,-193.50"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 2106803051 -1585298617:Cupcake\\/a",
+      "locations": [
+        "822.23,0.92,-228.52",
+        "847.81,1.15,-200.59"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -295014750 -1567603847:Gummy Worms\\/a",
+      "locations": [
+        "807.11,-0.90,-143.78"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1998903051 -1094405532:Spine Tingle\\/a",
+      "locations": [
+        "687.40,-0.87,-152.99",
+        "782.34,2.43,-160.40",
+        "877.16,-0.78,-224.08",
+        "734.54,-0.57,-267.00",
+        "755.23,3.71,-268.07"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 224916200 2011328784:Sudden Fright\\/a",
+      "locations": [
+        "727.59,-0.90,-145.28"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 499501274 537092120:blue nektulos pine needle\\/a",
+      "locations": [
+        "962.95,0.00,-282.08"
       ]
     },
     {
@@ -5335,7 +5364,8 @@
         "-370.54,2.00,-108.43",
         "-1255.89,48.00,-1425.19",
         "-1109.07,20.00,-965.19",
-        "-791.36,4.00,-440.94"
+        "-791.36,4.00,-440.94",
+        "-200.58,90.25,-2205.39"
       ]
     },
     {
@@ -5359,10 +5389,15 @@
       ]
     },
     {
-      "gamelink": "\\aITEM 2106803051 -1585298617:Cupcake\\/a",
+      "gamelink": "\\aITEM -807039365 1532502838:dark brown nektulos pine needle\\/a",
       "locations": [
-        "822.23,0.92,-228.52",
-        "847.81,1.15,-200.59"
+        "-526.73,60.37,-1552.49"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 932024275 -1359219524:gold coin of neriak\\/a",
+      "locations": [
+        "-188.03,2.00,-973.67"
       ]
     },
     {
@@ -5372,9 +5407,9 @@
       ]
     },
     {
-      "gamelink": "\\aITEM -295014750 -1567603847:Gummy Worms\\/a",
+      "gamelink": "\\aITEM -78711615 -1011017729:plain grey spider\\/a",
       "locations": [
-        "807.11,-0.90,-143.78"
+        "-1255.89,6.00,-825.19"
       ]
     },
     {
@@ -5386,44 +5421,16 @@
       ]
     },
     {
-      "gamelink": "\\aITEM -1564950194 237245844:shiny shard of channeling\\/a",
-      "locations": [
-        "-500.57,84.00,-1772.48",
-        "-1518.25,28.00,-1183.52"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1998903051 -1094405532:Spine Tingle\\/a",
-      "locations": [
-        "687.40,-0.87,-152.99",
-        "782.34,2.43,-160.40",
-        "877.16,-0.78,-224.08",
-        "734.54,-0.57,-267.00",
-        "755.23,3.71,-268.07"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 224916200 2011328784:Sudden Fright\\/a",
-      "locations": [
-        "727.59,-0.90,-145.28"
-      ]
-    },
-    {
       "gamelink": "\\aITEM -712210754 -93739888:red nektulos pine needle\\/a",
       "locations": [
         "-1503.70,28.00,-1174.01"
       ]
     },
     {
-      "gamelink": "\\aITEM -78711615 -1011017729:plain grey spider\\/a",
+      "gamelink": "\\aITEM -1564950194 237245844:shiny shard of channeling\\/a",
       "locations": [
-        "-1255.89,6.00,-825.19"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 932024275 -1359219524:gold coin of neriak\\/a",
-      "locations": [
-        "-188.03,2.00,-973.67"
+        "-500.57,84.00,-1772.48",
+        "-1518.25,28.00,-1183.52"
       ]
     },
     {
@@ -5439,15 +5446,18 @@
       ]
     },
     {
-      "gamelink": "\\aITEM 1568126116 -928164385:weathered troll bone fragment\\/a",
-      "locations": [
-        "-237.02,2.00,-155.01"
-      ]
-    },
-    {
       "gamelink": "\\aITEM -2095837385 854480878:weathered dark elf bone fragment\\/a",
       "locations": [
         "-326.50,2.00,-415.27"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 82494251 2077182331:weathered ogre bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1568126116 -928164385:weathered troll bone fragment\\/a",
+      "locations": [
+        "-237.02,2.00,-155.01"
       ]
     },
     {
@@ -5460,7 +5470,10 @@
   "resourceNodes": [
     {
       "name": "the beast den",
-      "name_sortable": "beastden"
+      "name_sortable": "beastden",
+      "locations": [
+        "110.43,1.18,-1069.72"
+      ]
     },
     {
       "name": "the eventide stone",
@@ -5468,7 +5481,10 @@
     },
     {
       "name": "the penumbra ore",
-      "name_sortable": "penumbraore"
+      "name_sortable": "penumbraore",
+      "locations": [
+        "151.83,64.31,-1433.67"
+      ]
     },
     {
       "name": "the polluted natural garden",
@@ -5476,11 +5492,18 @@
     },
     {
       "name": "the putrescent duskwood arbor",
-      "name_sortable": "putrescentduskwoodarbor"
+      "name_sortable": "putrescentduskwoodarbor",
+      "locations": [
+        "139.47,64.31,-1375.59",
+        "-284.53,60.96,-1361.03"
+      ]
     },
     {
       "name": "the rancid roots",
-      "name_sortable": "rancidroots"
+      "name_sortable": "rancidroots",
+      "locations": [
+        "125.87,64.31,-1441.93"
+      ]
     },
     {
       "name": "a swarm of fish",

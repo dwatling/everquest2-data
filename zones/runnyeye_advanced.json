@@ -86,6 +86,22 @@
       "drop_coin_max": 10889
     },
     {
+      "name": "a fleeing Runnyeye guard",
+      "name_sortable": "fleeingrunnyeyeguard",
+      "faction_changes": [
+        {
+          "name": "The Guardians of the Vale",
+          "name_sortable": "guardiansofthevale",
+          "value": 50
+        },
+        {
+          "name": "The Runnyeye Goblins",
+          "name_sortable": "runnyeyegoblins",
+          "value": -100
+        }
+      ]
+    },
+    {
       "name": "Gahdash the Backstabbie",
       "name_sortable": "gahdashthebackstabbie",
       "utterances": [
@@ -103,24 +119,19 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM 1237886641 -595974893:Heavy Ball\\/a",
-          "price": 40212
+          "gamelink": "\\aITEM 1237886641 -595974893:Heavy Ball\\/a"
         },
         {
-          "gamelink": "\\aITEM 1607105215 1841891438:Mystery Box\\/a",
-          "price": 100000
+          "gamelink": "\\aITEM 1607105215 1841891438:Mystery Box\\/a"
         },
         {
-          "gamelink": "\\aITEM -792594677 -908097746:Rusty Scrap Metal\\/a",
-          "price": 20412
+          "gamelink": "\\aITEM -792594677 -908097746:Rusty Scrap Metal\\/a"
         },
         {
-          "gamelink": "\\aITEM 966939198 2002545284:Slightly Soiled Loin Cloth\\/a",
-          "price": 602
+          "gamelink": "\\aITEM 966939198 2002545284:Slightly Soiled Loin Cloth\\/a"
         },
         {
-          "gamelink": "\\aITEM 1319461544 -274563011:Something Moldy\\/a",
-          "price": 1416
+          "gamelink": "\\aITEM 1319461544 -274563011:Something Moldy\\/a"
         }
       ]
     },
@@ -208,6 +219,18 @@
         "This room is not for you! This is a sacred room for da goblins only! Here lies da greatest of goblin heroes, Naggresh!",
         "Your trespassy will meet with the punishment of goblin heroes of oldy times! We shall lay you down to the dirt and cover you over!",
         "Oh no... Gotta get outta here!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Guardians of the Vale",
+          "name_sortable": "guardiansofthevale",
+          "value": 50
+        },
+        {
+          "name": "The Runnyeye Goblins",
+          "name_sortable": "runnyeyegoblins",
+          "value": -100
+        }
       ]
     },
     {
@@ -236,7 +259,14 @@
         }
       ],
       "drop_coin_min": 8864,
-      "drop_coin_max": 8864
+      "drop_coin_max": 8864,
+      "faction_changes": [
+        {
+          "name": "Exiles of Droga",
+          "name_sortable": "exilesofdroga",
+          "value": 50
+        }
+      ]
     },
     {
       "name": "a mist grinnin herbalist",
@@ -287,6 +317,18 @@
           "gamelink": "\\aITEM -1601774627 288174257:Deklium Relic\\/a",
           "chest": false
         }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Guardians of the Vale",
+          "name_sortable": "guardiansofthevale",
+          "value": 50
+        },
+        {
+          "name": "The Runnyeye Goblins",
+          "name_sortable": "runnyeyegoblins",
+          "value": -100
+        }
       ]
     },
     {
@@ -303,7 +345,19 @@
         }
       ],
       "drop_coin_min": 10447,
-      "drop_coin_max": 11494
+      "drop_coin_max": 11494,
+      "faction_changes": [
+        {
+          "name": "The Guardians of the Vale",
+          "name_sortable": "guardiansofthevale",
+          "value": 50
+        },
+        {
+          "name": "The Runnyeye Goblins",
+          "name_sortable": "runnyeyegoblins",
+          "value": -100
+        }
+      ]
     },
     {
       "name": "a Runnyeye host",
@@ -386,6 +440,22 @@
       ]
     },
     {
+      "name": "Snok Eyegouger",
+      "name_sortable": "snokeyegouger",
+      "faction_changes": [
+        {
+          "name": "The Guardians of the Vale",
+          "name_sortable": "guardiansofthevale",
+          "value": 50
+        },
+        {
+          "name": "The Runnyeye Goblins",
+          "name_sortable": "runnyeyegoblins",
+          "value": -100
+        }
+      ]
+    },
+    {
       "name": "Usla the Fleshscorcher",
       "name_sortable": "uslathefleshscorcher",
       "utterances": [
@@ -397,6 +467,32 @@
       "name_sortable": "xorxx",
       "drop_coin_min": 7623,
       "drop_coin_max": 7623
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM 1684459147 -1515352100:Dirty Dingy Page 5\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -43016399 -1718204030:Dirty Dingy Page 6\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1972850777 -1982729603:Dirty Dingy Page 7\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -72918518 -475510866:Ear Twisty\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1764659904 1723638184:Fishy Thingy\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1164584299 -407231477:Poked Out Barbarian Peeper\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1603314062 -792775118:Poked Out Blue Peeper\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1392902979 -1475607396:Poked Out Green Peeper\\/a"
     }
   ]
 }

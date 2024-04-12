@@ -23,6 +23,17 @@
   ],
   "npcs": [
     {
+      "name": "a drolvarg scavenger",
+      "name_sortable": "drolvargscavenger",
+      "faction_changes": [
+        {
+          "name": "Sathirian",
+          "name_sortable": "sathirian",
+          "value": -100
+        }
+      ]
+    },
+    {
       "name": "Trakanon",
       "name_sortable": "trakanon",
       "locations": [

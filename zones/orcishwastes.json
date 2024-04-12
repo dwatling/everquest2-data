@@ -20,6 +20,38 @@
       "utterances": [
         "How can we retake the island when all we have are these pathetic defenders?"
       ]
+    },
+    {
+      "name": "a Deathfist defender",
+      "name_sortable": "deathfistdefender",
+      "faction_changes": [
+        {
+          "name": "The Green Hoods",
+          "name_sortable": "greenhoods",
+          "value": 50
+        },
+        {
+          "name": "The Deathfist Orcs",
+          "name_sortable": "deathfistorcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Vigo Cerebus",
+      "name_sortable": "vigocerebus",
+      "faction_changes": [
+        {
+          "name": "The Green Hoods",
+          "name_sortable": "greenhoods",
+          "value": 50
+        },
+        {
+          "name": "The Deathfist Orcs",
+          "name_sortable": "deathfistorcs",
+          "value": -100
+        }
+      ]
     }
   ]
 }

@@ -49,12 +49,30 @@
   ],
   "npcs": [
     {
+      "name": "Armorsmith Gravik",
+      "name_sortable": "armorsmithgravik",
+      "faction_changes": [
+        {
+          "name": "The Guardians of Thyr",
+          "name_sortable": "guardiansofthyr",
+          "value": -100
+        }
+      ]
+    },
+    {
       "name": "a Bastion keeper",
       "name_sortable": "bastionkeeper",
       "drops": [
         {
           "gamelink": "\\aITEM 1732138595 876795643:a vial of flaming blood\\/a",
           "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Guardians of Thyr",
+          "name_sortable": "guardiansofthyr",
+          "value": -100
         }
       ]
     },
@@ -66,13 +84,38 @@
           "gamelink": "\\aITEM 1732138595 876795643:a vial of flaming blood\\/a",
           "chest": false
         }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Guardians of Thyr",
+          "name_sortable": "guardiansofthyr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a blacksmith of Thyr",
+      "name_sortable": "blacksmithofthyr",
+      "faction_changes": [
+        {
+          "name": "The Guardians of Thyr",
+          "name_sortable": "guardiansofthyr",
+          "value": -100
+        }
       ]
     },
     {
       "name": "The Castigator",
       "name_sortable": "castigator",
       "drop_coin_min": 1480,
-      "drop_coin_max": 1480
+      "drop_coin_max": 1480,
+      "faction_changes": [
+        {
+          "name": "The Guardians of Thyr",
+          "name_sortable": "guardiansofthyr",
+          "value": -100
+        }
+      ]
     },
     {
       "name": "a defender of Thyr",
@@ -104,7 +147,25 @@
         }
       ],
       "drop_coin_min": 1204,
-      "drop_coin_max": 2449
+      "drop_coin_max": 2449,
+      "faction_changes": [
+        {
+          "name": "The Guardians of Thyr",
+          "name_sortable": "guardiansofthyr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a diviner of Thyr",
+      "name_sortable": "divinerofthyr",
+      "faction_changes": [
+        {
+          "name": "The Guardians of Thyr",
+          "name_sortable": "guardiansofthyr",
+          "value": -100
+        }
+      ]
     },
     {
       "name": "an efreeti soulslaver",
@@ -116,7 +177,14 @@
         }
       ],
       "drop_coin_min": 1885,
-      "drop_coin_max": 1885
+      "drop_coin_max": 1885,
+      "faction_changes": [
+        {
+          "name": "The Guardians of Thyr",
+          "name_sortable": "guardiansofthyr",
+          "value": -100
+        }
+      ]
     },
     {
       "name": "an expedition explorer",
@@ -125,6 +193,34 @@
         {
           "gamelink": "\\aITEM -257105619 335124310:Ebon Relic\\/a",
           "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "Drednever Expedition",
+          "name_sortable": "dredneverexpedition",
+          "value": -100
+        },
+        {
+          "name": "Goblins of Fire Peak",
+          "name_sortable": "goblinsoffirepeak",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "an expedition guard",
+      "name_sortable": "expeditionguard",
+      "faction_changes": [
+        {
+          "name": "Drednever Expedition",
+          "name_sortable": "dredneverexpedition",
+          "value": -100
+        },
+        {
+          "name": "Goblins of Fire Peak",
+          "name_sortable": "goblinsoffirepeak",
+          "value": 50
         }
       ]
     },
@@ -135,6 +231,18 @@
         {
           "gamelink": "\\aITEM -1110807881 -1515777724:a small humanoid femur\\/a",
           "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "Drednever Expedition",
+          "name_sortable": "dredneverexpedition",
+          "value": -100
+        },
+        {
+          "name": "Goblins of Fire Peak",
+          "name_sortable": "goblinsoffirepeak",
+          "value": 50
         }
       ]
     },
@@ -191,6 +299,13 @@
           "gamelink": "\\aITEM -1983900838 -453918736:giant meat\\/a",
           "chest": false
         }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Guardians of Thyr",
+          "name_sortable": "guardiansofthyr",
+          "value": -100
+        }
       ]
     },
     {
@@ -208,7 +323,14 @@
         }
       ],
       "drop_coin_min": 2074,
-      "drop_coin_max": 2695
+      "drop_coin_max": 2695,
+      "faction_changes": [
+        {
+          "name": "The Guardians of Thyr",
+          "name_sortable": "guardiansofthyr",
+          "value": -100
+        }
+      ]
     },
     {
       "name": "Keortor Talyse",
@@ -273,6 +395,17 @@
       ]
     },
     {
+      "name": "a magus of Thyr",
+      "name_sortable": "magusofthyr",
+      "faction_changes": [
+        {
+          "name": "The Guardians of Thyr",
+          "name_sortable": "guardiansofthyr",
+          "value": -100
+        }
+      ]
+    },
+    {
       "name": "a pyreduke of Thyr",
       "name_sortable": "pyredukeofthyr",
       "drops": [
@@ -286,7 +419,14 @@
         }
       ],
       "drop_coin_min": 1854,
-      "drop_coin_max": 2401
+      "drop_coin_max": 2401,
+      "faction_changes": [
+        {
+          "name": "The Guardians of Thyr",
+          "name_sortable": "guardiansofthyr",
+          "value": -100
+        }
+      ]
     },
     {
       "name": "a quetzsol",
@@ -309,6 +449,17 @@
       ]
     },
     {
+      "name": "The Speaker of Fates",
+      "name_sortable": "speakeroffates",
+      "faction_changes": [
+        {
+          "name": "The Guardians of Thyr",
+          "name_sortable": "guardiansofthyr",
+          "value": -100
+        }
+      ]
+    },
+    {
       "name": "an underworld guard",
       "name_sortable": "underworldguard",
       "utterances": [
@@ -321,7 +472,19 @@
         }
       ],
       "drop_coin_min": 3440,
-      "drop_coin_max": 3440
+      "drop_coin_max": 3440,
+      "faction_changes": [
+        {
+          "name": "The Guardians of Thyr",
+          "name_sortable": "guardiansofthyr",
+          "value": -100
+        }
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -890083009 1261925957:Shard of the Unknown Earth\\/a"
     }
   ]
 }

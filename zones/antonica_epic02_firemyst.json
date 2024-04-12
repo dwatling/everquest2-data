@@ -2,9 +2,9 @@
   "name": "The Firemyst Gully",
   "name_sortable": "firemystgully",
   "region": "Karan",
+  "zonerect": "1003.00,392.00,1324.00,763.00",
   "levels": "15-22",
   "type": "instance",
-  "zonerect": "1003.00,392.00,1324.00,763.00",
   "access_quests": [
     3374032235
   ],
@@ -34,11 +34,21 @@
       "store": [
         {
           "gamelink": "\\aITEM -2026662392 -26413864:an old dwarven shovel\\/a",
-          "price": 1216
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1216
+            }
+          ]
         },
         {
           "gamelink": "\\aITEM 1228444894 -1575132115:a used torch\\/a",
-          "price": 295
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 295
+            }
+          ]
         }
       ]
     },

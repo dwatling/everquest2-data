@@ -171,7 +171,13 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM -1963643975 -1815928484:Sable Gloves of the Gnoll Hunter\\/a"
+          "gamelink": "\\aITEM -1963643975 -1815928484:Sable Gloves of the Gnoll Hunter\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 4766
+            }
+          ]
         }
       ]
     },
@@ -4204,6 +4210,15 @@
               "price": 81
             }
           ]
+        },
+        {
+          "gamelink": "\\aITEM 1501139094 190765599:pristine rawhide leather backpack\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 1
+            }
+          ]
         }
       ]
     },
@@ -5691,6 +5706,27 @@
       ]
     },
     {
+      "name": "a Sabertooth mongrel",
+      "name_sortable": "sabertoothmongrel",
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
       "name": "a Sabertooth neophyte",
       "name_sortable": "sabertoothneophyte",
       "level": 10,
@@ -5999,6 +6035,27 @@
       ],
       "drop_coin_min": 20,
       "drop_coin_max": 37,
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "name_sortable": "greatherd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "name_sortable": "farseastradingcompany",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "name_sortable": "sabertoothgnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth shaman",
+      "name_sortable": "sabertoothshaman",
       "faction_changes": [
         {
           "name": "The Great Herd",
@@ -6794,7 +6851,13 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM 398705441 134851183:Caress of the Phantom\\/a"
+          "gamelink": "\\aITEM 398705441 134851183:Caress of the Phantom\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 144
+            }
+          ]
         }
       ]
     },
@@ -7590,6 +7653,21 @@
         "373.91,-12.55,801.81",
         "342.01,-16.78,737.98"
       ]
+    },
+    {
+      "gamelink": "\\aITEM -1571977034 220596429:cracked barbarian bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1389794325 -2065648483:shattered dwarf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1832140126 2119420903:chipped shard of abjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1518761661 -1817126979:cracked high elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1838761957 -694987579:scuffed shard of channeling\\/a"
     }
   ],
   "resourceNodes": [

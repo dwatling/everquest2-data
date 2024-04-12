@@ -370,6 +370,13 @@
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Blackshield Smugglers",
+          "name_sortable": "blackshieldsmugglers",
+          "value": -100
+        }
       ]
     },
     {
@@ -4342,6 +4349,17 @@
         "No, no you don't.  And don't go getting any funny ideas.  A bit of free advice, stranger: Don't cross Irizan.  That is one man you don't want on your bad side.  Got it?",
         "All right. Find the dark elf at the other side of this here crossroads.  You can't miss her; just listen for the whiny little wretch.  You're going to lend her a hand.  Do what ever you can to help.  Your future is at stake.  Don't screw this up.  And whatever you find while aiding her, you return to me.  Understand?",
         "Listen, pallie: either you do what I say or Iziran will send someone else to do this.  And if someone else has to do it, that's because you're dead.  Got it!?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1618656513 -631993083:Antonia Ale (Alcoholic)\\/a",
+          "server_prices": [
+            {
+              "server": "Skyfire",
+              "price": 180
+            }
+          ]
+        }
       ]
     },
     {
@@ -5555,7 +5573,16 @@
         "-294.05,-48.04,-749.09",
         "-271.29,-44.98,-771.97",
         "-248.51,-48.03,-883.20",
-        "-212.00,-44.66,-893.60"
+        "-212.00,-44.66,-893.60",
+        "-322.78,-48.01,-802.77",
+        "-319.8,-48.02,-774.41",
+        "-305.8,-47.92,-746.36",
+        "-308.84,-47.56,-740.88",
+        "-296.07,-36.57,-939.06",
+        "-280.31,-37.69,-956.0",
+        "-347.4,-47.06,-997.2",
+        "-251.0,-48.02,-945.51",
+        "-221.61,-48.04,-927.69"
       ],
       "utterances": [
         "The living wander too close.",
@@ -6638,7 +6665,10 @@
       "gamelink": "\\aITEM 1331551958 515627370:chipped shard of channeling\\/a"
     },
     {
-      "gamelink": "\\aITEM -1868197541 -1710679381:chipped shard of conjuration\\/a"
+      "gamelink": "\\aITEM -1868197541 -1710679381:chipped shard of conjuration\\/a",
+      "locations": [
+        "-502.5,-48.04,-764.59"
+      ]
     },
     {
       "gamelink": "\\aITEM 164202245 -601729183:chipped shard of divination\\/a",
@@ -6958,6 +6988,87 @@
       "locations": [
         "123.78,-47.00,-192.42"
       ]
+    },
+    {
+      "gamelink": "\\aITEM 280932088 852858576:cracked erudite bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1341170799 881072848:scuffed shard of abjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 722279990 -215234753:scuffed shard of divination\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1190729474 -2001384598:the lore of fauna: the behemoth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1838446477 -276994448:page 12 of The Lore of Fauna: The Behemoth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 191027657 -1161592086:page 11 of The Lore of Fauna: The Behemoth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -445859611 -1924649140:page 13 of The Lore of Fauna: The Behemoth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 2064133446 1361447718:page 14 of The Lore of Fauna: The Behemoth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -947864952 1092211063:cracked orc bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1375121630 435882267:cracked froglok bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1379031202 -671594821:commonlands shrub red leaf\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1104592590 977881333:cracked ratonga bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1756865292 620632162:cracked ogre bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -2008154588 1880837041:scuffed shard of evocation\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1020901006 -59096212:striped brown moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1702203182 453968891:commonlands shrub purple leaf\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1576919798 -605338864:shattered ratonga bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1039265482 2033830644:shattered half elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1174002430 351505271:commonlands shrub green leaf\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 666527502 842875039:striped black moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -230125234 653655030:plain white moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -876598856 -1884122419:cracked dark elf bone fragment\\/a",
+      "locations": [
+        "314.69,-48.04,-523.86"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1981956052 735753576:scuffed shard of alteration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1148412677 699655827:striped yellow ant\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 86571365 1444443711:spotted white moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1826682885 274604835:weathered orc bone fragment\\/a"
     }
   ],
   "resourceNodes": [
@@ -6970,6 +7081,10 @@
       "name_sortable": "clovenore"
     },
     {
+      "name": "the critter den",
+      "name_sortable": "critterden"
+    },
+    {
       "name": "the desert roots",
       "name_sortable": "desertroots"
     },
@@ -6978,8 +7093,15 @@
       "name_sortable": "oasisshrubbery"
     },
     {
+      "name": "the wind felled tree",
+      "name_sortable": "windfelledtree"
+    },
+    {
       "name": "the wind swept rock",
-      "name_sortable": "windsweptrock"
+      "name_sortable": "windsweptrock",
+      "locations": [
+        "-534.98,-47.68,-202.32"
+      ]
     }
   ]
 }

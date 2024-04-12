@@ -19,6 +19,17 @@
   ],
   "npcs": [
     {
+      "name": "The Bonewatcher",
+      "name_sortable": "bonewatcher",
+      "faction_changes": [
+        {
+          "name": "The Academy of Arcane Science",
+          "name_sortable": "academyofarcanescience",
+          "value": -100
+        }
+      ]
+    },
+    {
       "name": "a boneyard watcher",
       "name_sortable": "boneyardwatcher",
       "purpose": "Academy of Arcane Sciences",
@@ -854,6 +865,13 @@
       "utterances": [
         "Your blood calls to me.",
         "Final death comes at last."
+      ],
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "name_sortable": "spiritsofmarr",
+          "value": -100
+        }
       ]
     },
     {
@@ -1341,6 +1359,9 @@
       "locations": [
         "3.28,-6.00,109.63"
       ]
+    },
+    {
+      "gamelink": "\\aITEM -1868197541 -1710679381:chipped shard of conjuration\\/a"
     }
   ],
   "resourceNodes": [

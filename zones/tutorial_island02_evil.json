@@ -91,6 +91,7 @@
     {
       "name": "Bladefin",
       "name_sortable": "bladefin",
+      "level": 6,
       "drops": [
         {
           "gamelink": "\\aITEM -1149044188 -1785755604:Aquatic Research Notebook\\/a",
@@ -127,6 +128,7 @@
     {
       "name": "a bull elk",
       "name_sortable": "bullelk",
+      "level": 3,
       "locations": [
         "138.97,1.49,30.57",
         "181.50,1.64,100.38",
@@ -198,6 +200,7 @@
     {
       "name": "Captain Varlos",
       "name_sortable": "captainvarlos",
+      "purpose": "Passage from Output of the Overlord",
       "race": [
         "human"
       ],
@@ -274,7 +277,8 @@
     },
     {
       "name": "a cliffdiver hawk",
-      "name_sortable": "cliffdiverhawk"
+      "name_sortable": "cliffdiverhawk",
+      "level": 3
     },
     {
       "name": "Coercer Zlith",
@@ -299,6 +303,7 @@
     {
       "name": "a cow",
       "name_sortable": "cow",
+      "level": 4,
       "locations": [
         "235.13,-0.83,-163.91",
         "251.46,-0.99,-162.51",
@@ -317,6 +322,7 @@
     {
       "name": "a cow elk",
       "name_sortable": "cowelk",
+      "level": 2,
       "locations": [
         "117.90,-3.80,183.03",
         "156.02,1.40,8.75",
@@ -339,6 +345,7 @@
     {
       "name": "Dasher",
       "name_sortable": "dasher",
+      "level": 5,
       "locations": [
         "154.74,4.12,-156.61"
       ]
@@ -574,6 +581,7 @@
     {
       "name": "an elk calf",
       "name_sortable": "elkcalf",
+      "level": 2,
       "locations": [
         "61.63,-3.80,210.11",
         "55.31,-4.45,224.08",
@@ -601,6 +609,7 @@
     {
       "name": "Falconer Lithkeen",
       "name_sortable": "falconerlithkeen",
+      "level": 5,
       "race": [
         "wood elf"
       ],
@@ -622,6 +631,7 @@
     {
       "name": "a fallen Tunarian",
       "name_sortable": "fallentunarian",
+      "level": 5,
       "locations": [
         "-123.76,4.57,-44.73"
       ],
@@ -696,6 +706,7 @@
     {
       "name": "a giant wilderbear",
       "name_sortable": "giantwilderbear",
+      "level": 4,
       "locations": [
         "145.43,1.48,-79.72",
         "139.83,1.50,-57.76",
@@ -796,6 +807,7 @@
     {
       "name": "Laena",
       "name_sortable": "laena",
+      "level": 4,
       "utterances": [
         "Die, Freeport scum!"
       ]
@@ -803,6 +815,7 @@
     {
       "name": "a large sand tortoise",
       "name_sortable": "largesandtortoise",
+      "purpose": 4,
       "locations": [
         "63.33,-7.66,-25.29",
         "59.44,-6.79,-31.09",
@@ -819,6 +832,7 @@
     {
       "name": "Mabel",
       "name_sortable": "mabel",
+      "level": 4,
       "locations": [
         "240.41,0.05,-169.25"
       ]
@@ -874,6 +888,7 @@
     {
       "name": "a needlefang",
       "name_sortable": "needlefang",
+      "level": 4,
       "locations": [
         "18.11,-11.90,-24.82",
         "24.06,-13.00,-25.94",
@@ -922,6 +937,7 @@
     {
       "name": "Overseer Adrium",
       "name_sortable": "overseeradrium",
+      "level": 5,
       "drops": [
         {
           "gamelink": "\\aITEM 1078206763 -479014764:Adrium's Guard\\/a",
@@ -977,6 +993,7 @@
     {
       "name": "a reef turtle",
       "name_sortable": "reefturtle",
+      "level": 2,
       "locations": [
         "74.53,-12.13,-49.21",
         "65.94,-11.98,-51.94",
@@ -995,6 +1012,7 @@
     {
       "name": "a sandstalker",
       "name_sortable": "sandstalker",
+      "level": 4,
       "locations": [
         "80.77,-12.02,-43.60",
         "69.68,-10.76,-52.50",
@@ -1476,8 +1494,14 @@
       ]
     },
     {
+      "name": "a sawtooth shark",
+      "name_sortable": "sawtoothshark",
+      "level": 6
+    },
+    {
       "name": "a shipwrecked explorer",
       "name_sortable": "shipwreckedexplorer",
+      "level": 6,
       "locations": [
         "-77.29,-9.73,-41.96",
         "-82.68,-6.95,-60.06",
@@ -1507,6 +1531,7 @@
     {
       "name": "a shipwrecked swashbuckler",
       "name_sortable": "shipwreckedswashbuckler",
+      "level": 6,
       "locations": [
         "-77.87,-9.84,-47.92",
         "-81.56,-6.90,-63.98",
@@ -1523,6 +1548,7 @@
     {
       "name": "a shoal glider",
       "name_sortable": "shoalglider",
+      "level": 3,
       "locations": [
         "13.13,-12.01,-15.14",
         "15.69,-12.00,-27.19",
@@ -1561,6 +1587,7 @@
     {
       "name": "a small sand tortoise",
       "name_sortable": "smallsandtortoise",
+      "level": 1,
       "locations": [
         "3.44,-8.50,241.01",
         "-12.98,-6.95,239.98",
@@ -1571,6 +1598,7 @@
     {
       "name": "a soldier bee",
       "name_sortable": "soldierbee",
+      "level": 2,
       "locations": [
         "82.93,-3.72,182.56",
         "118.85,-2.27,182.09",
@@ -1586,6 +1614,7 @@
     {
       "name": "Swift",
       "name_sortable": "swift",
+      "level": 5,
       "locations": [
         "157.62,3.89,-168.11"
       ]
@@ -1630,6 +1659,7 @@
     {
       "name": "a trained bear",
       "name_sortable": "trainedbear",
+      "level": 5,
       "locations": [
         "-123.86,4.53,-77.18",
         "55.75,1.82,-111.54",
@@ -1641,6 +1671,7 @@
     {
       "name": "a trained hawk",
       "name_sortable": "trainedhawk",
+      "level": 4,
       "locations": [
         "-86.24,2.09,-236.09",
         "204.68,0.86,-125.44"
@@ -1649,6 +1680,7 @@
     {
       "name": "a trained wolf",
       "name_sortable": "trainedwolf",
+      "level": 5,
       "locations": [
         "-133.32,4.37,-87.41",
         "-64.48,6.41,-149.42",
@@ -1841,6 +1873,7 @@
     {
       "name": "a training bear",
       "name_sortable": "trainingbear",
+      "level": 4,
       "locations": [
         "112.79,0.55,-189.45",
         "190.06,-0.67,-132.90",
@@ -1851,6 +1884,7 @@
     {
       "name": "a training hawk",
       "name_sortable": "traininghawk",
+      "level": 4,
       "locations": [
         "213.12,-0.88,-72.27",
         "284.47,-4.11,-0.51"
@@ -1859,6 +1893,7 @@
     {
       "name": "a training wolf",
       "name_sortable": "trainingwolf",
+      "level": 4,
       "locations": [
         "102.47,0.59,-201.55"
       ]
@@ -1866,6 +1901,7 @@
     {
       "name": "a triggerfish",
       "name_sortable": "triggerfish",
+      "level": 2,
       "locations": [
         "25.64,-14.23,-27.36",
         "34.46,-12.00,-37.19",
@@ -1903,6 +1939,7 @@
     {
       "name": "a Tunarian bearmaster",
       "name_sortable": "tunarianbearmaster",
+      "level": 5,
       "locations": [
         "-123.55,4.48,-82.42",
         "53.49,1.83,-112.97",
@@ -1928,6 +1965,7 @@
     {
       "name": "a Tunarian falconer",
       "name_sortable": "tunarianfalconer",
+      "level": 5,
       "locations": [
         "-84.03,1.87,-229.11",
         "203.05,0.76,-127.31",
@@ -1938,6 +1976,7 @@
     {
       "name": "a Tunarian fisher",
       "name_sortable": "tunarianfisher",
+      "level": 5,
       "locations": [
         "-73.11,2.02,-215.13",
         "-15.63,3.08,-175.02",
@@ -1950,6 +1989,7 @@
     {
       "name": "a Tunarian gravedigger",
       "name_sortable": "tunariangravedigger",
+      "level": 5,
       "locations": [
         "-129.15,4.54,-37.43"
       ]
@@ -1957,6 +1997,7 @@
     {
       "name": "a Tunarian horse sentry",
       "name_sortable": "tunarianhorsesentry",
+      "level": 5,
       "locations": [
         "112.00,1.58,-98.59",
         "160.82,1.22,-50.46",
@@ -1985,6 +2026,7 @@
     {
       "name": "a Tunarian lookout",
       "name_sortable": "tunarianlookout",
+      "level": 4,
       "locations": [
         "234.25,-1.05,-101.99",
         "247.24,-3.69,-46.19"
@@ -1993,6 +2035,7 @@
     {
       "name": "a Tunarian miner",
       "name_sortable": "tunarianminer",
+      "level": 3,
       "locations": [
         "95.48,1.95,97.24",
         "91.38,1.80,116.73",
@@ -2005,6 +2048,7 @@
     {
       "name": "a Tunarian mourner",
       "name_sortable": "tunarianmourner",
+      "level": 5,
       "locations": [
         "-124.56,4.33,-43.33"
       ]
@@ -2012,6 +2056,7 @@
     {
       "name": "a Tunarian protector",
       "name_sortable": "tunarianprotector",
+      "level": 5,
       "locations": [
         "-138.18,4.59,-90.05",
         "-133.81,4.57,-97.38",
@@ -2047,6 +2092,7 @@
     {
       "name": "a Tunarian scout",
       "name_sortable": "tunarianscout",
+      "level": 3,
       "locations": [
         "165.08,-3.20,173.24",
         "181.39,-3.88,200.38",
@@ -2062,6 +2108,7 @@
     {
       "name": "a Tunarian wolfmaster",
       "name_sortable": "tunarianwolfmaster",
+      "level": 4,
       "locations": [
         "-133.22,4.37,-90.35",
         "-61.85,5.25,-150.90",
@@ -2075,6 +2122,7 @@
     {
       "name": "a vicious sandstalker",
       "name_sortable": "vicioussandstalker",
+      "level": 5,
       "locations": [
         "20.36,-13.94,-17.79",
         "17.69,-13.00,-30.12",
@@ -2159,6 +2207,7 @@
     {
       "name": "a wilderbear",
       "name_sortable": "wilderbear",
+      "level": 3,
       "locations": [
         "146.96,0.34,-6.95",
         "188.05,1.31,11.34",
@@ -2169,6 +2218,7 @@
     {
       "name": "a wilderbear cub",
       "name_sortable": "wilderbearcub",
+      "level": 2,
       "locations": [
         "133.61,1.26,32.68",
         "147.20,1.45,65.17",
@@ -2201,6 +2251,7 @@
     {
       "name": "a wilderwolf",
       "name_sortable": "wilderwolf",
+      "level": 5,
       "locations": [
         "-134.51,4.58,-105.17",
         "-64.77,4.16,-121.26",
@@ -2240,6 +2291,7 @@
     {
       "name": "a worker bee",
       "name_sortable": "workerbee",
+      "level": 1,
       "locations": [
         "75.84,-1.00,191.62",
         "86.18,0.00,162.20",

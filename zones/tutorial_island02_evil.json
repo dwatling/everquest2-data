@@ -51,6 +51,15 @@
     {
       "name": "Assassin Vamir",
       "name_sortable": "assassinvamir",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "192.2,-3.3,141.01"
+      ],
       "utterances": [
         "We's gonna cut off their resources to weaken them in the long terms, settings up our major attack after they are weakened.  If we take out their picks of the wild animals, they'll have nothing to train.",
         "They trains the bears, hawks, and wolves on the island.  The wolves are a bits too deep to touch now, but the bears and hawks are nearby so we starts with those.  First, head north up the slope into the Wilderwood or west into Cliffdiver Canyon and lay down some bears.  Returns when you are done.",
@@ -116,6 +125,16 @@
       ]
     },
     {
+      "name": "a bull elk",
+      "name_sortable": "bullelk",
+      "locations": [
+        "138.97,1.49,30.57",
+        "181.50,1.64,100.38",
+        "188.21,1.31,23.57",
+        "175.23,1.27,16.15"
+      ]
+    },
+    {
       "name": "Callus Magnus",
       "name_sortable": "callusmagnus",
       "race": [
@@ -152,6 +171,16 @@
     {
       "name": "Captain Tyreth",
       "name_sortable": "captaintyreth",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Freeport Militia",
+      "locations": [
+        "47.74,-2.85,-168.04"
+      ],
       "utterances": [
         "Ah, you were the one who coerced these sentries out of the area before the attack. Nicely done! It is time to complete our domination. The Militia are advancing and beginning to clear the area. It is time to strike, quickly!",
         "Take this torch. Work your way in and set fire to two of the nearby tents. Others have begun the razing as well. If another's flame fails, make sure you finish the job. This island will soon be ours!",
@@ -188,6 +217,15 @@
     {
       "name": "Charles Arker",
       "name_sortable": "charlesarker",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "202.39,-3.22,139.58"
+      ],
       "utterances": [
         "Your reputation precedes you -- as will mine, someday soon.  When I return to Freeport, my prestige will bring honor to my family.  I came here to make a name for myself, but it's been difficult to stand out in the crowd.  I have a new assignment and it's puzzling me.  Would you help me unravel it?",
         "There's a lot of undercover work here, which means even if you do well, the higher-ups may not know it's you doing the work.  Some of my best work was claimed by someone else and I mean to fix that.  Not long ago, I intercepted part of a note one of the Tunarian spies was delivering.  They've hidden the remaining pieces.  We need to get them all back to learn more of what they're doing.",
@@ -241,6 +279,15 @@
     {
       "name": "Coercer Zlith",
       "name_sortable": "coercerzlith",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "195.59,-3.2,140.81"
+      ],
       "utterances": [
         "Head in there and sstir up the hornet's nest. Take out sssome of their miners, and while you're at it, grab some of the loose ore around the mine. Tayil wants to know what it is that they're mining.",
         "Nice work! As you probably noticed, there are additional Tunarian horse sentriesss being sssent into the Wilderwood to check on the mine. We need another distraction to thin out the Qeynosian forces even more. It's time to deal with those meddling sentriesss once and for all.",
@@ -250,10 +297,37 @@
       ]
     },
     {
+      "name": "a cow",
+      "name_sortable": "cow",
+      "locations": [
+        "235.13,-0.83,-163.91",
+        "251.46,-0.99,-162.51",
+        "247.41,-0.04,-171.15",
+        "218.51,-0.76,-182.12",
+        "224.16,-0.79,-169.50",
+        "239.67,-1.24,-191.78"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -722375844 1340165846:a vial of bovine blood\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "a cow elk",
       "name_sortable": "cowelk",
       "locations": [
-        "117.90,-3.80,183.03"
+        "117.90,-3.80,183.03",
+        "156.02,1.40,8.75",
+        "149.85,1.43,72.30",
+        "186.45,1.30,78.06",
+        "164.27,-3.13,174.63",
+        "147.07,-4.13,202.00",
+        "138.97,-3.43,156.89",
+        "130.75,-3.66,179.89",
+        "171.83,-3.52,181.51",
+        "170.37,-3.34,146.24"
       ],
       "drops": [
         {
@@ -264,7 +338,10 @@
     },
     {
       "name": "Dasher",
-      "name_sortable": "dasher"
+      "name_sortable": "dasher",
+      "locations": [
+        "154.74,4.12,-156.61"
+      ]
     },
     {
       "name": "Ebb Tide",
@@ -500,7 +577,15 @@
       "locations": [
         "61.63,-3.80,210.11",
         "55.31,-4.45,224.08",
-        "91.61,-4.29,197.34"
+        "91.61,-4.29,197.34",
+        "152.93,1.42,74.83",
+        "164.07,-4.02,206.94",
+        "125.32,-3.66,176.00",
+        "92.64,-4.25,191.88",
+        "99.79,-3.70,196.14",
+        "82.78,-4.41,201.41",
+        "97.28,-4.14,156.20",
+        "104.22,-3.59,187.22"
       ],
       "drops": [
         {
@@ -516,6 +601,15 @@
     {
       "name": "Falconer Lithkeen",
       "name_sortable": "falconerlithkeen",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "157.62,5.37,-161.45"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 1918107535 1672045426:Lithkeen's Spear\\/a",
@@ -524,6 +618,19 @@
       ],
       "drop_coin_min": 3,
       "drop_coin_max": 3
+    },
+    {
+      "name": "a fallen Tunarian",
+      "name_sortable": "fallentunarian",
+      "locations": [
+        "-123.76,4.57,-44.73"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 220303815 1408642818:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ]
     },
     {
       "name": "a Field Investigator",
@@ -584,6 +691,19 @@
       "utterances": [
         "Hello there!  If you have any collections that you've completed, I can take them off your hands and reward you for your time.  I'm just crazy for collections!",
         "This is a magnificent find! Here, take this for all your hard work."
+      ]
+    },
+    {
+      "name": "a giant wilderbear",
+      "name_sortable": "giantwilderbear",
+      "locations": [
+        "145.43,1.48,-79.72",
+        "139.83,1.50,-57.76",
+        "162.24,1.07,-8.90",
+        "154.76,0.36,-76.38",
+        "146.92,1.48,-73.78",
+        "118.43,1.58,-78.53",
+        "255.60,-0.76,-59.94"
       ]
     },
     {
@@ -682,27 +802,98 @@
     },
     {
       "name": "a large sand tortoise",
-      "name_sortable": "largesandtortoise"
+      "name_sortable": "largesandtortoise",
+      "locations": [
+        "63.33,-7.66,-25.29",
+        "59.44,-6.79,-31.09",
+        "23.53,-8.20,-69.22",
+        "31.81,-7.13,-64.00"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1123670209 1657362421:turtle shell\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Mabel",
+      "name_sortable": "mabel",
+      "locations": [
+        "240.41,0.05,-169.25"
+      ]
     },
     {
       "name": "a Militia patroller",
       "name_sortable": "militiapatroller",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "level": 100,
+      "difficulty": "heroic",
+      "locations": [
+        "99.22,0.6,-189.12",
+        "99.33,0.6,-195.66",
+        "126.96,-0.43,-181.02"
+      ],
       "utterances": [
         "That blade is a bit dull.  Be sure to sharpen it when our shift is over.",
         "I should be out on the front lines!",
         "I can't wait to get back and hit the Seafarer's Roost for an ale."
+      ],
+      "faction_changes": [
+        {
+          "name": "The Freeport Militia",
+          "name_sortable": "freeportmilitia",
+          "value": -100
+        }
       ]
     },
     {
       "name": "Murg Leechtongue",
       "name_sortable": "murgleechtongue",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Guard",
+      "level": 105,
+      "difficulty": "epicx2",
+      "locations": [
+        "54.12,-1.87,-161.38"
+      ],
       "utterances": [
         "Filthy elves!"
       ]
     },
     {
       "name": "a needlefang",
-      "name_sortable": "needlefang"
+      "name_sortable": "needlefang",
+      "locations": [
+        "18.11,-11.90,-24.82",
+        "24.06,-13.00,-25.94",
+        "70.83,-13.44,4.73",
+        "29.25,-12.47,30.84",
+        "-18.95,-12.00,-22.85",
+        "6.86,-12.00,-37.50",
+        "13.78,-12.02,-40.19",
+        "1.28,-13.87,-56.12"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -485311362 1112771845:a shimmering barracuda scale\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1431125864 -1001236241:Weakened Barracuda Tooth\\/a",
+          "chest": false
+        }
+      ]
     },
     {
       "name": "Nogg Dreadscar",
@@ -766,6 +957,18 @@
     {
       "name": "Pruk Skullpound",
       "name_sortable": "prukskullpound",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Guard",
+      "level": 104,
+      "difficulty": "epicx2",
+      "locations": [
+        "55.06,-2.3,-169.75"
+      ],
       "utterances": [
         "Bring em back!  We'll pound em into the dirt.",
         "Burn the tents!"
@@ -773,18 +976,39 @@
     },
     {
       "name": "a reef turtle",
-      "name_sortable": "reefturtle"
+      "name_sortable": "reefturtle",
+      "locations": [
+        "74.53,-12.13,-49.21",
+        "65.94,-11.98,-51.94",
+        "27.74,-12.99,-34.40",
+        "22.36,-12.48,27.75",
+        "15.79,-13.28,-36.82",
+        "-35.58,-12.00,-38.97"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 345112318 805644505:turtle meat\\/a",
+          "chest": false
+        }
+      ]
     },
     {
       "name": "a sandstalker",
-      "name_sortable": "sandstalker"
+      "name_sortable": "sandstalker",
+      "locations": [
+        "80.77,-12.02,-43.60",
+        "69.68,-10.76,-52.50",
+        "56.22,-13.00,15.18",
+        "9.05,-14.99,37.10"
+      ]
     },
     {
       "name": "a sand tortoise",
       "name_sortable": "sandtortoise",
       "level": 2,
       "locations": [
-        "-70.92,-7.59,77.05"
+        "-70.92,-7.59,77.05",
+        "-72.53,-7.41,39.57"
       ],
       "drops": [
         {
@@ -1254,6 +1478,11 @@
     {
       "name": "a shipwrecked explorer",
       "name_sortable": "shipwreckedexplorer",
+      "locations": [
+        "-77.29,-9.73,-41.96",
+        "-82.68,-6.95,-60.06",
+        "-85.13,-9.75,-26.86"
+      ],
       "utterances": [
         "Brains! It's what's for dinner.",
         "That pile of bones was my friend!",
@@ -1264,12 +1493,25 @@
         {
           "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -399600502 1011028463:dropped ledger\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "chest": false
         }
       ]
     },
     {
       "name": "a shipwrecked swashbuckler",
       "name_sortable": "shipwreckedswashbuckler",
+      "locations": [
+        "-77.87,-9.84,-47.92",
+        "-81.56,-6.90,-63.98",
+        "-86.81,-9.01,-30.98"
+      ],
       "utterances": [
         "To the grave with you!",
         "You cannot eliminate us!",
@@ -1280,7 +1522,25 @@
     },
     {
       "name": "a shoal glider",
-      "name_sortable": "shoalglider"
+      "name_sortable": "shoalglider",
+      "locations": [
+        "13.13,-12.01,-15.14",
+        "15.69,-12.00,-27.19",
+        "64.03,-11.07,-54.97",
+        "21.84,-12.32,-35.33",
+        "8.54,-11.79,-36.76",
+        "69.68,-16.91,-3.45",
+        "46.05,-12.98,18.42",
+        "19.13,-12.00,-48.28",
+        "4.97,-12.50,-53.22",
+        "-29.13,-13.00,-38.77"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1802471391 279902631:ray meat\\/a",
+          "chest": false
+        }
+      ]
     },
     {
       "name": "Sirsi Rissar",
@@ -1312,7 +1572,9 @@
       "name": "a soldier bee",
       "name_sortable": "soldierbee",
       "locations": [
-        "82.93,-3.72,182.56"
+        "82.93,-3.72,182.56",
+        "118.85,-2.27,182.09",
+        "93.84,-3.94,210.80"
       ],
       "drops": [
         {
@@ -1323,7 +1585,10 @@
     },
     {
       "name": "Swift",
-      "name_sortable": "swift"
+      "name_sortable": "swift",
+      "locations": [
+        "157.62,3.89,-168.11"
+      ]
     },
     {
       "name": "Tayil N'Velex",
@@ -1364,11 +1629,34 @@
     },
     {
       "name": "a trained bear",
-      "name_sortable": "trainedbear"
+      "name_sortable": "trainedbear",
+      "locations": [
+        "-123.86,4.53,-77.18",
+        "55.75,1.82,-111.54",
+        "138.65,0.49,-175.07",
+        "155.60,3.78,-142.22",
+        "239.73,-3.90,-20.55"
+      ]
+    },
+    {
+      "name": "a trained hawk",
+      "name_sortable": "trainedhawk",
+      "locations": [
+        "-86.24,2.09,-236.09",
+        "204.68,0.86,-125.44"
+      ]
     },
     {
       "name": "a trained wolf",
       "name_sortable": "trainedwolf",
+      "locations": [
+        "-133.32,4.37,-87.41",
+        "-64.48,6.41,-149.42",
+        "-78.23,2.15,-221.87",
+        "55.75,1.82,-111.54",
+        "228.14,-3.53,-15.48",
+        "228.22,-4.88,-9.02"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -384518907 -1424034998:Undead Knight (Adept)\\/a",
@@ -1552,29 +1840,137 @@
     },
     {
       "name": "a training bear",
-      "name_sortable": "trainingbear"
+      "name_sortable": "trainingbear",
+      "locations": [
+        "112.79,0.55,-189.45",
+        "190.06,-0.67,-132.90",
+        "207.81,-0.73,-138.64",
+        "244.89,-0.87,-144.52"
+      ]
     },
     {
       "name": "a training hawk",
-      "name_sortable": "traininghawk"
+      "name_sortable": "traininghawk",
+      "locations": [
+        "213.12,-0.88,-72.27",
+        "284.47,-4.11,-0.51"
+      ]
+    },
+    {
+      "name": "a training wolf",
+      "name_sortable": "trainingwolf",
+      "locations": [
+        "102.47,0.59,-201.55"
+      ]
+    },
+    {
+      "name": "a triggerfish",
+      "name_sortable": "triggerfish",
+      "locations": [
+        "25.64,-14.23,-27.36",
+        "34.46,-12.00,-37.19",
+        "44.98,-10.19,-38.37",
+        "81.90,-11.24,-45.76",
+        "69.87,-11.70,-48.54",
+        "76.70,-11.98,-43.59",
+        "70.20,-12.00,-55.13",
+        "0.04,-14.75,-5.50",
+        "7.17,-12.81,-10.50",
+        "17.13,-11.06,-28.24",
+        "18.23,-12.77,-34.31",
+        "28.37,-13.01,-35.24",
+        "31.17,-10.96,-43.22",
+        "62.06,-13.00,-6.71",
+        "59.59,-12.28,11.27",
+        "29.31,-13.00,15.29",
+        "24.29,-13.87,30.73",
+        "14.34,-14.37,36.17",
+        "13.46,-12.38,42.12",
+        "9.72,-10.28,-22.11",
+        "-39.20,-12.02,-35.74"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1302044914 -342858235:a fish meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 562003704 745063728:a fish eye\\/a",
+          "chest": false
+        }
+      ]
     },
     {
       "name": "a Tunarian bearmaster",
-      "name_sortable": "tunarianbearmaster"
+      "name_sortable": "tunarianbearmaster",
+      "locations": [
+        "-123.55,4.48,-82.42",
+        "53.49,1.83,-112.97",
+        "113.20,0.55,-186.10",
+        "137.05,3.37,-170.27",
+        "156.75,3.91,-146.32",
+        "186.30,-0.66,-132.22",
+        "211.25,-0.75,-137.50",
+        "241.23,-0.86,-144.60",
+        "236.70,-4.79,-21.92"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
+          "chest": false
+        }
+      ]
     },
     {
       "name": "a Tunarian falconer",
-      "name_sortable": "tunarianfalconer"
+      "name_sortable": "tunarianfalconer",
+      "locations": [
+        "-84.03,1.87,-229.11",
+        "203.05,0.76,-127.31",
+        "216.30,-0.89,-72.19",
+        "281.73,-4.35,-0.08"
+      ]
     },
     {
       "name": "a Tunarian fisher",
       "name_sortable": "tunarianfisher",
+      "locations": [
+        "-73.11,2.02,-215.13",
+        "-15.63,3.08,-175.02",
+        "-11.96,2.13,-138.24",
+        "-1.24,2.05,-209.36"
+      ],
       "drop_coin_min": 3,
       "drop_coin_max": 3
     },
     {
+      "name": "a Tunarian gravedigger",
+      "name_sortable": "tunariangravedigger",
+      "locations": [
+        "-129.15,4.54,-37.43"
+      ]
+    },
+    {
       "name": "a Tunarian horse sentry",
       "name_sortable": "tunarianhorsesentry",
+      "locations": [
+        "112.00,1.58,-98.59",
+        "160.82,1.22,-50.46",
+        "178.33,1.17,30.24",
+        "185.15,1.33,-33.73",
+        "169.23,1.19,-46.39",
+        "57.18,1.45,-217.61",
+        "232.99,-0.82,-178.15",
+        "214.88,-0.75,-173.90",
+        "200.33,-1.17,-207.73",
+        "180.80,-0.99,-207.65",
+        "122.00,-0.32,-196.00",
+        "218.23,-0.87,-99.30"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -1463685657 612992231:Horse Sentry Pauldrons\\/a",
@@ -1588,20 +1984,62 @@
     },
     {
       "name": "a Tunarian lookout",
-      "name_sortable": "tunarianlookout"
+      "name_sortable": "tunarianlookout",
+      "locations": [
+        "234.25,-1.05,-101.99",
+        "247.24,-3.69,-46.19"
+      ]
     },
     {
       "name": "a Tunarian miner",
       "name_sortable": "tunarianminer",
+      "locations": [
+        "95.48,1.95,97.24",
+        "91.38,1.80,116.73",
+        "89.35,5.53,126.62",
+        "108.48,1.85,122.56"
+      ],
       "drop_coin_min": 2,
       "drop_coin_max": 2
     },
     {
+      "name": "a Tunarian mourner",
+      "name_sortable": "tunarianmourner",
+      "locations": [
+        "-124.56,4.33,-43.33"
+      ]
+    },
+    {
       "name": "a Tunarian protector",
       "name_sortable": "tunarianprotector",
+      "locations": [
+        "-138.18,4.59,-90.05",
+        "-133.81,4.57,-97.38",
+        "-97.59,4.39,-138.27",
+        "-103.15,4.27,-139.22",
+        "-60.99,4.60,-151.59",
+        "-72.31,13.88,-149.35",
+        "-83.18,1.86,-204.88",
+        "-82.30,1.91,-193.95",
+        "2.98,2.03,-190.99",
+        "-3.45,2.43,-185.25",
+        "-31.55,2.23,-152.37",
+        "-20.96,2.21,-146.12",
+        "203.43,-0.72,-112.66",
+        "209.23,-0.74,-114.83",
+        "192.93,-0.82,-195.01",
+        "197.96,-1.09,-197.22",
+        "158.29,-0.54,-187.84",
+        "221.81,-0.88,-101.36",
+        "215.04,-0.96,-97.30"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
           "chest": false
         }
       ]
@@ -1609,20 +2047,53 @@
     {
       "name": "a Tunarian scout",
       "name_sortable": "tunarianscout",
+      "locations": [
+        "165.08,-3.20,173.24",
+        "181.39,-3.88,200.38",
+        "149.12,-3.94,200.73",
+        "162.32,-3.80,134.40",
+        "239.31,-3.02,50.26",
+        "267.51,-6.33,118.99",
+        "231.92,-6.00,119.43"
+      ],
       "drop_coin_min": 2,
       "drop_coin_max": 2
     },
     {
       "name": "a Tunarian wolfmaster",
-      "name_sortable": "tunarianwolfmaster"
+      "name_sortable": "tunarianwolfmaster",
+      "locations": [
+        "-133.22,4.37,-90.35",
+        "-61.85,5.25,-150.90",
+        "-77.97,1.94,-218.54",
+        "60.25,1.80,-111.16",
+        "99.35,0.60,-201.23",
+        "226.62,-3.59,-17.31",
+        "226.74,-5.05,-10.19"
+      ]
     },
     {
       "name": "a vicious sandstalker",
       "name_sortable": "vicioussandstalker",
+      "locations": [
+        "20.36,-13.94,-17.79",
+        "17.69,-13.00,-30.12",
+        "13.86,-12.50,-35.71",
+        "31.39,-12.00,-28.88",
+        "57.67,-12.74,-18.95",
+        "80.26,-12.50,-40.04",
+        "85.27,-12.00,-39.57",
+        "25.83,-12.82,-32.98",
+        "-10.10,-12.95,33.52"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 1533459695 1256560616:Sandstalker Legplates\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1007229239 -1993518350:ink sack\\/a",
+          "chest": false
         }
       ]
     },
@@ -1687,18 +2158,65 @@
     },
     {
       "name": "a wilderbear",
-      "name_sortable": "wilderbear"
+      "name_sortable": "wilderbear",
+      "locations": [
+        "146.96,0.34,-6.95",
+        "188.05,1.31,11.34",
+        "187.72,1.49,-9.67",
+        "260.67,-3.96,2.05"
+      ]
     },
     {
       "name": "a wilderbear cub",
-      "name_sortable": "wilderbearcub"
+      "name_sortable": "wilderbearcub",
+      "locations": [
+        "133.61,1.26,32.68",
+        "147.20,1.45,65.17",
+        "161.57,1.39,77.16",
+        "154.92,1.42,70.30",
+        "166.23,1.37,83.73",
+        "140.75,1.47,80.42",
+        "183.72,1.31,83.80",
+        "178.94,1.33,72.02",
+        "189.06,1.09,63.74",
+        "200.03,1.24,64.59",
+        "200.59,1.25,77.98",
+        "172.36,1.35,79.33",
+        "182.95,1.31,66.23",
+        "176.04,1.34,64.20",
+        "192.00,1.29,32.97",
+        "268.24,-4.47,49.09",
+        "239.60,-6.49,75.96",
+        "242.04,-7.22,98.40",
+        "258.51,-6.83,105.21",
+        "259.67,-6.83,116.91"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 76939361 988324560:Weakened Bear Claw\\/a",
+          "chest": false
+        }
+      ]
     },
     {
       "name": "a wilderwolf",
       "name_sortable": "wilderwolf",
+      "locations": [
+        "-134.51,4.58,-105.17",
+        "-64.77,4.16,-121.26",
+        "-55.88,2.16,-123.02",
+        "-82.72,4.35,-154.92",
+        "-96.12,1.91,-206.12",
+        "36.26,1.87,-237.35",
+        "45.24,1.82,-240.70"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 641537398 409580744:Weakened Blood of the Wolf\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -982875894 -747549538:canine saliva\\/a",
           "chest": false
         }
       ]
@@ -1724,7 +2242,18 @@
       "name_sortable": "workerbee",
       "locations": [
         "75.84,-1.00,191.62",
-        "86.18,0.00,162.20"
+        "86.18,0.00,162.20",
+        "80.76,1.00,207.42",
+        "73.70,1.32,205.65",
+        "92.22,-1.73,160.35",
+        "96.33,1.45,193.77",
+        "105.94,0.02,183.58"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 935426583 818928065:an insect wing\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -1748,44 +2277,74 @@
     {
       "gamelink": "\\aITEM -1770462429 -1745410803:abalone shell\\/a",
       "locations": [
-        "-86.89,-7.00,54.33"
+        "-86.89,-7.00,54.33",
+        "63.32,-13.00,14.53"
       ]
     },
     {
       "gamelink": "\\aITEM -267674522 -727078328:clam shell\\/a",
       "locations": [
-        "-32.58,-8.00,242.01"
+        "-32.58,-8.00,242.01",
+        "-71.76,-7.00,34.39",
+        "-0.62,-12.00,-14.69",
+        "-88.91,-5.00,-49.14"
       ]
     },
     {
       "gamelink": "\\aITEM 1612899270 -1184515734:conch shell\\/a"
     },
     {
-      "gamelink": "\\aITEM -1370134449 1141233630:duck feather\\/a"
+      "gamelink": "\\aITEM -1370134449 1141233630:duck feather\\/a",
+      "locations": [
+        "-87.34,6.00,-156.74",
+        "196.49,0.00,-211.66",
+        "259.22,0.00,-60.62",
+        "252.95,-3.00,-32.30"
+      ]
     },
     {
       "gamelink": "\\aITEM 732206996 -1414700783:eagle feather\\/a",
       "locations": [
-        "16.03,-6.00,201.29"
+        "16.03,-6.00,201.29",
+        "227.86,0.00,-70.06"
       ]
     },
     {
       "gamelink": "\\aITEM 1971617133 476040311:falcon feather\\/a",
       "locations": [
-        "14.94,-6.00,200.20"
+        "14.94,-6.00,200.20",
+        "-90.86,5.00,-102.32",
+        "-112.00,5.00,-151.79",
+        "146.52,2.00,-46.58"
       ]
     },
     {
-      "gamelink": "\\aITEM 2066139239 -1609591166:hawk feather\\/a"
+      "gamelink": "\\aITEM 2066139239 -1609591166:hawk feather\\/a",
+      "locations": [
+        "196.49,0.00,-117.26"
+      ]
     },
     {
-      "gamelink": "\\aITEM -1711639388 -1541580519:mussel shell\\/a"
+      "gamelink": "\\aITEM -1711639388 -1541580519:mussel shell\\/a",
+      "locations": [
+        "31.35,-11.00,-48.79",
+        "-5.18,-13.00,-9.82"
+      ]
     },
     {
-      "gamelink": "\\aITEM 723338470 738491006:sparrow feather\\/a"
+      "gamelink": "\\aITEM 723338470 738491006:sparrow feather\\/a",
+      "locations": [
+        "45.92,-2.00,-164.46",
+        "64.74,-2.00,-164.46",
+        "183.94,0.00,-126.70",
+        "215.31,0.00,-107.82"
+      ]
     },
     {
-      "gamelink": "\\aITEM 485946727 1804301120:turtle shell\\/a"
+      "gamelink": "\\aITEM 485946727 1804301120:turtle shell\\/a",
+      "locations": [
+        "26.79,-14.00,38.88"
+      ]
     }
   ],
   "resourceNodes": [
@@ -1796,6 +2355,14 @@
     {
       "name": "the felled elm tree",
       "name_sortable": "felledelmtree"
+    },
+    {
+      "name": "the rugged stones",
+      "name_sortable": "ruggedstones"
+    },
+    {
+      "name": "the unearthed ore",
+      "name_sortable": "unearthedore"
     }
   ]
 }

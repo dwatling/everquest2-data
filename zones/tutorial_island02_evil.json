@@ -169,6 +169,15 @@
     {
       "name": "Captain Varlos",
       "name_sortable": "captainvarlos",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-84.41,-7.85,242.49"
+      ],
       "utterances": [
         "So, ye ready ta go ashore matey? I can take ye all the way to Freeport or just as far as Neriak.",
         "Ya' best be sure ta' explore the whole island, ya' hear!  Norrath can be a dangerous place ya' know?",
@@ -547,6 +556,19 @@
       ]
     },
     {
+      "name": "Geredo",
+      "name_sortable": "geredo",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-86.21,-7.87,233.13"
+      ]
+    },
+    {
       "name": "Gethe Huggs",
       "name_sortable": "gethehuggs",
       "race": [
@@ -582,6 +604,16 @@
       ]
     },
     {
+      "name": "Helmsman Nyles",
+      "name_sortable": "helmsmannyles",
+      "race": [
+        "human"
+      ],
+      "locations": [
+        "-83.51,-4.61,253.37"
+      ]
+    },
+    {
       "name": "Hogga Irongut",
       "name_sortable": "hoggairongut",
       "race": [
@@ -598,11 +630,31 @@
       ]
     },
     {
+      "name": "Ingrid",
+      "name_sortable": "ingrid",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-93.81,-7.87,241.84"
+      ]
+    },
+    {
       "name": "Jonas Rollings",
       "name_sortable": "jonasrollings",
       "utterances": [
         "One too many Coagulated Surprises last night is my guess.",
         "I've got a sour taste in my mouth.  I shouldn't have bought my ale from Saryl."
+      ]
+    },
+    {
+      "name": "Kander",
+      "name_sortable": "kander",
+      "locations": [
+        "-4.21,-7.4,264.36"
       ]
     },
     {
@@ -1247,6 +1299,16 @@
       ]
     },
     {
+      "name": "a small sand tortoise",
+      "name_sortable": "smallsandtortoise",
+      "locations": [
+        "3.44,-8.50,241.01",
+        "-12.98,-6.95,239.98",
+        "-29.58,-8.95,247.21",
+        "-44.36,-9.20,233.17"
+      ]
+    },
+    {
       "name": "a soldier bee",
       "name_sortable": "soldierbee",
       "locations": [
@@ -1565,6 +1627,32 @@
       ]
     },
     {
+      "name": "Vim",
+      "name_sortable": "vim",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-91.67,-5.26,229.87"
+      ]
+    },
+    {
+      "name": "Waulon",
+      "name_sortable": "waulon",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-75.04,-4.58,257.94"
+      ]
+    },
+    {
       "name": "a weak sparring partner",
       "name_sortable": "weaksparringpartner",
       "race": [
@@ -1664,7 +1752,10 @@
       ]
     },
     {
-      "gamelink": "\\aITEM -267674522 -727078328:clam shell\\/a"
+      "gamelink": "\\aITEM -267674522 -727078328:clam shell\\/a",
+      "locations": [
+        "-32.58,-8.00,242.01"
+      ]
     },
     {
       "gamelink": "\\aITEM 1612899270 -1184515734:conch shell\\/a"

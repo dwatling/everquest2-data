@@ -2,6 +2,7 @@
   "name": "Outpost of the Overlord",
   "name_sortable": "outpostoftheoverlord",
   "region": "Other",
+  "zonerect": "-499.08,-319.57,459.67,401.19",
   "levels": "2-8",
   "connections": [
     {
@@ -441,6 +442,15 @@
     {
       "name": "Tayil N'Velex",
       "name_sortable": "tayilnvelex",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-9.6,-4.25,177.47"
+      ],
       "utterances": [
         "I am Tayil N'Velex, attendant and confidante of the Overlord. I am here to ensure that our operation on this island is successful. You, on the other hand, will be assisting us with some field work to help prepare you for life as a citizen of Freeport.",
         "Freeport is the center of power and commerce on Norrath. The city sits on the eastern edge of the continent of D'Lere. This grand city shall be your home here on Norrath, should you prove yourself worthy. If not, you can cower and beg for shelter at the gates of Qeynos.",
@@ -708,7 +718,10 @@
       "gamelink": "\\aITEM -1370134449 1141233630:duck feather\\/a"
     },
     {
-      "gamelink": "\\aITEM 732206996 -1414700783:eagle feather\\/a"
+      "gamelink": "\\aITEM 732206996 -1414700783:eagle feather\\/a",
+      "locations": [
+        "16.03,-6.00,201.29"
+      ]
     },
     {
       "gamelink": "\\aITEM 1971617133 476040311:falcon feather\\/a"

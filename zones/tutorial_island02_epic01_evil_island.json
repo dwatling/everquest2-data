@@ -2,6 +2,7 @@
   "name": "The Circle of Elders",
   "name_sortable": "circleofelders",
   "region": "Other",
+  "zonerect": "-17.00,-20.00,18.00,21.00",
   "levels": "5-8",
   "connections": [
     {
@@ -9,6 +10,14 @@
     }
   ],
   "npcs": [
+    {
+      "name": "Breeze",
+      "name_sortable": "breeze",
+      "level": 6,
+      "locations": [
+        "9.20,0.00,-6.52"
+      ]
+    },
     {
       "name": "Kayl of the Circle",
       "name_sortable": "kaylofthecircle",
@@ -25,11 +34,26 @@
       "name": "Old Bruiser",
       "name_sortable": "oldbruiser",
       "level": 6,
+      "locations": [
+        "-6.29,0.00,-2.03"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM -2026385022 1663615163:Old Bruiser's Claw\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 736537324 -510169129:Totem of the Circle\\/a",
+          "chest": true
         }
+      ]
+    },
+    {
+      "name": "Rush",
+      "name_sortable": "rush",
+      "level": 6,
+      "locations": [
+        "-2.57,0.00,3.52"
       ]
     },
     {
@@ -40,6 +64,16 @@
         "That's not important, Qeynosian. What is important is that your days upon Norrath are at an end. Prepare to die!",
         "Well done, <player name>. That fool Kayl had no idea what was coming! The Tunarians are finished on this island.",
         "Yes, our efforts have been a success. The island is ours, and so is this fine assortment of valuables! The Overlord will hear of your bravery, <player name>. As promised, here is a reward that will  prove useful in your future adventures."
+      ]
+    },
+    {
+      "name": "a Tunarian elder",
+      "name_sortable": "tunarianelder",
+      "level": 6,
+      "difficulty": "heroic",
+      "locations": [
+        "-3.18,0.00,-4.76",
+        "-3.29,0.00,1.10"
       ]
     }
   ]

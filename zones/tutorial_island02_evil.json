@@ -27,7 +27,8 @@
         "-48.08,-6.35,68.96"
       ],
       "utterances": [
-        "Mmm, fish!"
+        "Mmm, fish!",
+        "Try my Coagulated Surprise!"
       ],
       "store": [
         {
@@ -68,7 +69,17 @@
         "Excellent job!  I think we's done a good job stoppings any new recruits for the Tunarians.  Here, this note was just delivered to us.  I believe it is from Tayil.",
         "The Tunarians won't have many animals to train because of you.  Nice works!  Return to me if you ever needs more mole rats.",
         "Is he that guy with the bad comb-over?",
-        "Hellos <player name>, Tayil sent word you were comings.  I's been scouting out the nearby areas, trying to get a better feels of what we's up against.  Beastmasters these Tunarians are, training the wild animals of the island to fight for them!"
+        "Hellos <player name>, Tayil sent word you were comings.  I's been scouting out the nearby areas, trying to get a better feels of what we's up against.  Beastmasters these Tunarians are, training the wild animals of the island to fight for them!",
+        "I'm not ready for you yet, adventurer.  Speak with Tayil N'Velex back at the outpost to prepare yourself for my tasks.",
+        "Examine and then release the molerats from your inventory when you thinks you are in a good position to lure down the hawks in Cliffdiver Canyon to the west.  Then dispose of the hawks.",
+        "Here is some mores of the little pudgies!  Have fun."
+      ]
+    },
+    {
+      "name": "Asyl Lysarz",
+      "name_sortable": "asyllysarz",
+      "utterances": [
+        "Chef Gorga better hurry up!  I'm getting hungry."
       ]
     },
     {
@@ -212,7 +223,8 @@
         "Ha ha, good form! You sound like a Freeport citizen already! The loot should be in the cave. Nothing has left the island for months, we've had it completely surrounded. Head in there and take care of the elders.",
         "Hahaha! The attack has begun and the enemy shall fall! You must be <player name>, here to take part in the festivities.",
         "You still have much to learn <player name>, but I'll let you in on a little secret. Sometimes things are best left unsaid until they reveal themselves. We have been watching your every move, and you have proven quite worthy of our true goal.",
-        "No <player name>, you've been training. Training for the final confrontation you are about to take part in. You think Tayil couldn't have just done this all herself? Prove to us you are ready to become an esteemed citizen of Freeport and share in the wealth."
+        "No <player name>, you've been training. Training for the final confrontation you are about to take part in. You think Tayil couldn't have just done this all herself? Prove to us you are ready to become an esteemed citizen of Freeport and share in the wealth.",
+        "You are not yet ready to serve me, adventurer. Talk with Tayil N'Velex back at the outpost if you need guidance."
       ]
     },
     {
@@ -269,7 +281,8 @@
         "You're that new recruit I keep hearing about. <player name>, isn't it?",
         "I appreciate it, <player name>.  Whatever glory comes of this, we'll share in the credit.  I'm sure this will more than make up for the work I've done that others have taken credit for.",
         "The Tunarian note is still incomplete, but this may be enough to advance our prestige, <player name>. You know, you're very good at this kind of thing. Tell me, would you be interested in helping me on a more personal level?",
-        "I see.  I hadn't expected that.  The main thing is that Laena will no longer...bother me.  I wonder, though...who could've killed her?  We may never know...and I can marry my betrothed in peace. Thank you, <player name>.  "
+        "I see.  I hadn't expected that.  The main thing is that Laena will no longer...bother me.  I wonder, though...who could've killed her?  We may never know...and I can marry my betrothed in peace. Thank you, <player name>.  ",
+        "Those wood elf vixens are vile creatures who lure good men to their destruction!"
       ]
     },
     {
@@ -321,7 +334,8 @@
         "Nice work! As you probably noticed, there are additional Tunarian horse sentriesss being sssent into the Wilderwood to check on the mine. We need another distraction to thin out the Qeynosian forces even more. It's time to deal with those meddling sentriesss once and for all.",
         "Head back into the Wilderwood and take out sssome of these horse sentries. The more you slay, the more Qeynosians will be sent to investigate, which will provide our chance to attack. Return to me when the deed is done. By the way, I'll take those ore samples and make ssssure they find their way to Tayil.",
         "Sssso <player name>, ready for a little sabotage? The mine is inside the Wilderwood in the far eastern corner.",
-        "You have done enough, <player name>. Tunarian reinforcementsss are on their way to the Wilderwood. Our time for attack is now! Tayil will be glad to hear of your work. Speaking of Tayil, take these sssealed orders. She sssent them for you, and if I were you I would not ignore them."
+        "You have done enough, <player name>. Tunarian reinforcementsss are on their way to the Wilderwood. Our time for attack is now! Tayil will be glad to hear of your work. Speaking of Tayil, take these sssealed orders. She sssent them for you, and if I were you I would not ignore them.",
+        "You are not yet ready to take on the tasks I will offer you. Return to Tayil N'Velex outside Sythor's Spire if you are unsure how to prepare yourself."
       ]
     },
     {
@@ -389,7 +403,8 @@
       ],
       "utterances": [
         "Welcome to Ebb Tide's Alehouse.",
-        "Got any goods for sale from your adventures?"
+        "Got any goods for sale from your adventures?",
+        "If you can trade it, I can buy it."
       ],
       "store": [
         {
@@ -645,6 +660,9 @@
       "locations": [
         "157.62,5.37,-161.45"
       ],
+      "utterances": [
+        "To the sky!"
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 1918107535 1672045426:Lithkeen's Spear\\/a",
@@ -660,6 +678,13 @@
       "level": 5,
       "locations": [
         "-123.76,4.57,-44.73"
+      ],
+      "utterances": [
+        "You will pay for your foolishness!",
+        "We must retreat from the primal world!",
+        "To the gray fields with them!",
+        "Who dares disrupt our final ceremony?",
+        "They were weak!  I am not!"
       ],
       "drops": [
         {
@@ -852,7 +877,8 @@
         "275.78,-1.57,-68.05"
       ],
       "utterances": [
-        "Die, Freeport scum!"
+        "Die, Freeport scum!",
+        "For the Queen!"
       ]
     },
     {
@@ -902,7 +928,9 @@
       "utterances": [
         "That blade is a bit dull.  Be sure to sharpen it when our shift is over.",
         "I should be out on the front lines!",
-        "I can't wait to get back and hit the Seafarer's Roost for an ale."
+        "I can't wait to get back and hit the Seafarer's Roost for an ale.",
+        "I hear Chef Gorga's almost done with our daily stew.  Livers!",
+        "Was it slash then parry or parry then slash?"
       ],
       "faction_changes": [
         {
@@ -1103,7 +1131,8 @@
       "name_sortable": "sarylscarscale",
       "purpose": "General Goods",
       "utterances": [
-        "All the way back to the days of Cabilis, my family has provided goods to those in need."
+        "All the way back to the days of Cabilis, my family has provided goods to those in need.",
+        "All you sseek can be found here!"
       ],
       "store": [
         {
@@ -1583,7 +1612,12 @@
         "Brains! It's what's for dinner.",
         "That pile of bones was my friend!",
         "Your eyes are so pretty.",
-        "Rest in peace."
+        "Rest in peace.",
+        "Final death comes at last.",
+        "You cannot eliminate us!",
+        "Your blood calls to me.",
+        "To the grave with you!",
+        "Seek death and it finds you."
       ],
       "drops": [
         {
@@ -1619,7 +1653,12 @@
       "utterances": [
         "To the grave with you!",
         "You cannot eliminate us!",
-        "That pile of bones was my friend!"
+        "That pile of bones was my friend!",
+        "Final death comes at last.",
+        "Rest in peace.",
+        "Seek death and it finds you.",
+        "As I rise from the grave,  you will now take my place!",
+        "Your blood calls to me."
       ],
       "drop_coin_min": 2,
       "drop_coin_max": 2
@@ -1746,7 +1785,9 @@
         "So, <player name>, are you ready to learn more about the outpost and perform your first service for the Overlord?",
         "Not just yet, <player name>. You will strike against those Qeynosian scum when the time is right. First we need to see if that weapon of yours is working! Are you ready for your first test?",
         "Gorga was impressed with your handiwork. I'm sure the outpost Militia guards will be pleased with her stew, though I can't stomach troll cooking myself. You show potential indeed, <player name>. As promised, here is your reward.",
-        "So, <player name>, are you ready to prove your worth again?"
+        "So, <player name>, are you ready to prove your worth again?",
+        "Your bravery has been noted, young one. The Tunarian Circle of Elders was defeated and their treasure is ours. The Militia troops will remain here to clear out the remaining Qeynosians, but they present no danger to us.",
+        "It was my pleasure to fight beside you. I have no doubt that you will be well received in Freeport. When you are ready to leave the outpost and venture to our great city, speak with Captain Varlos on the deck of the Far Journey. His ship is waiting on the dock through the south archway. Farewell."
       ]
     },
     {

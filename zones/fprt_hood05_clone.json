@@ -17,5 +17,673 @@
     {
       "key": "freeport_combined"
     }
+  ],
+  "npcs": [
+    {
+      "name": "Aldera V'Exxa",
+      "name_sortable": "alderavexxa",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-50.48,-4.67,-63.38"
+      ]
+    },
+    {
+      "name": "Cizra J`Yax",
+      "name_sortable": "cizrajyax",
+      "utterances": [
+        "When it comes to arcane knowledge, no one knows more about it than Arcane Scientists."
+      ]
+    },
+    {
+      "name": "a furious troll",
+      "name_sortable": "furioustroll",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-47.76,-4.66,-72.72"
+      ]
+    },
+    {
+      "name": "a hateful darkelf",
+      "name_sortable": "hatefuldarkelf",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male",
+        "female"
+      ],
+      "locations": [
+        "-45.86,-4.66,-71.8",
+        "-12.23,0.0,-1.68"
+      ]
+    },
+    {
+      "name": "Innkeeper T`Mel",
+      "name_sortable": "innkeepertmel",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Housing",
+      "locations": [
+        "-51.89,2.7,4.99"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1948997447 7842935 0 0 0:a generic wall sconce\\/a",
+          "prices": [
+            {
+              "coin": 810
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -696290415 -1683006441 0 0 0:an armorwasher's bucket\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 -941911935 0 0 0:an enchanter's candelabra\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Juturna Postumus",
+      "name_sortable": "juturnapostumus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-45.12,-3.0,-38.81"
+      ]
+    },
+    {
+      "name": "Kalraath L'Vin",
+      "name_sortable": "kalraathlvin",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-6.32,3.0,62.41"
+      ]
+    },
+    {
+      "name": "Kylanith D`Lar",
+      "name_sortable": "kylanithdlar",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-38.86,4.0,41.92"
+      ]
+    },
+    {
+      "name": "L`Dor",
+      "name_sortable": "ldor",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Armorsmith",
+      "locations": [
+        "-56.59,-4.67,-62.43"
+      ],
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 735069392 -706490987 0 0 0:iron brigandine chestguard\\/a",
+          "prices": [
+            {
+              "coin": 1622
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1063688118 2072478670 0 0 0:iron brigandine footpads\\/a",
+          "prices": [
+            {
+              "coin": 1082
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1102245452 -506167226 0 0 0:iron brigandine handguards\\/a",
+          "prices": [
+            {
+              "coin": 1190
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1700393609 -1871467101 0 0 0:iron brigandine helm\\/a",
+          "prices": [
+            {
+              "coin": 1298
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 861554712 413560760 0 0 0:iron brigandine leggings\\/a",
+          "prices": [
+            {
+              "coin": 1406
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -665785111 -383418531 0 0 0:iron brigandine shoulder pads\\/a",
+          "prices": [
+            {
+              "coin": 1298
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2023524502 -1792397302 0 0 0:iron brigandine wristguards\\/a",
+          "prices": [
+            {
+              "coin": 1082
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1792447727 1887352928 0 0 0:iron chainmail boots\\/a",
+          "prices": [
+            {
+              "coin": 832
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 798815898 63927370 0 0 0:iron chainmail bracers\\/a",
+          "prices": [
+            {
+              "coin": 832
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1082873737 1599315069 0 0 0:iron chainmail coat\\/a",
+          "prices": [
+            {
+              "coin": 1248
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2079042761 1732467438 0 0 0:iron chainmail coif\\/a",
+          "prices": [
+            {
+              "coin": 998
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -241007839 -1320610198 0 0 0:iron chainmail gloves\\/a",
+          "prices": [
+            {
+              "coin": 915
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1016529276 1651265863 0 0 0:iron chainmail leggings\\/a",
+          "prices": [
+            {
+              "coin": 1082
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 914872805 1940441659 0 0 0:iron chainmail mantle\\/a",
+          "prices": [
+            {
+              "coin": 998
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1772903730 201057962 0 0 0:iron platemail chestguard\\/a",
+          "prices": [
+            {
+              "coin": 1248
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1153435224 -1921896826 0 0 0:iron platemail gauntlets\\/a",
+          "prices": [
+            {
+              "coin": 915
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 980534684 1588047155 0 0 0:iron platemail helm\\/a",
+          "prices": [
+            {
+              "coin": 998
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1736808118 -951250768 0 0 0:iron platemail legplates\\/a",
+          "prices": [
+            {
+              "coin": 1082
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1405796152 -1433499850 0 0 0:iron platemail pauldrons\\/a",
+          "prices": [
+            {
+              "coin": 998
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1784436585 1297026754 0 0 0:iron platemail tonlets\\/a",
+          "prices": [
+            {
+              "coin": 832
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 151637911 -666350823 0 0 0:iron platemail vambraces\\/a",
+          "prices": [
+            {
+              "coin": 832
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lotni K`Iria",
+      "name_sortable": "lotnikiria",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-23.49,-1.5,-29.52"
+      ],
+      "utterances": [
+        "Another refugee... What do YOU want, peasant?"
+      ]
+    },
+    {
+      "name": "Nezzka S`Tai",
+      "name_sortable": "nezzkastai",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "15.61,1.87,24.55",
+        "-43.08,3.97,18.73",
+        "-36.31,-3.79,-48.16"
+      ],
+      "utterances": [
+        "The Coalition of Tradesfolke aren't capable of serving anyone other than to serve its own greed.",
+        "I find it vile that our great city has entrusted its protection to a group of degenerates such as the Freeport Militia.",
+        "Too often the Arcane Scientists at the academy dedicate themselves to useless knowledge that is of no use to our city.",
+        "The weak souls of the Seafury Buccaneers only cry, running to a priest when facing certain death."
+      ]
+    },
+    {
+      "name": "an outraged human",
+      "name_sortable": "outragedhuman",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-11.43,0.0,-4.2"
+      ]
+    },
+    {
+      "name": "a spider hatchling",
+      "name_sortable": "spiderhatchling",
+      "locations": [
+        "-31.22,4.00,36.48",
+        "-42.23,5.01,34.96",
+        "-21.65,4.0,40.31",
+        "-19.15,4.0,55.28",
+        "-12.57,4.13,52.96",
+        "-24.77,4.0,46.85",
+        "-27.63,4.13,53.94"
+      ]
+    },
+    {
+      "name": "T`Gask",
+      "name_sortable": "tgask",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Tailor",
+      "locations": [
+        "-19.8,0.0,-9.12"
+      ],
+      "utterances": [
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 760646421 2072417738 0 0 0:burlap blouse\\/a",
+          "prices": [
+            {
+              "coin": 1248
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 652318990 1536828282 0 0 0:burlap cap\\/a",
+          "prices": [
+            {
+              "coin": 998
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 707515170 1586048660 0 0 0:burlap cuffs\\/a",
+          "prices": [
+            {
+              "coin": 832
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -394100055 -262829246 0 0 0:burlap mitts\\/a",
+          "prices": [
+            {
+              "coin": 915
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -891124539 -1573813204 0 0 0:burlap pantaloons\\/a",
+          "prices": [
+            {
+              "coin": 1082
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 858190722 1574388029 0 0 0:burlap shawl\\/a",
+          "prices": [
+            {
+              "coin": 998
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 633821230 971734287 0 0 0:burlap slippers\\/a",
+          "prices": [
+            {
+              "coin": 832
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 878923622 -1258000 0 0 0:cordovan boots\\/a",
+          "prices": [
+            {
+              "coin": 832
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -723746703 -936299234 0 0 0:cordovan bracers\\/a",
+          "prices": [
+            {
+              "coin": 832
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1704463742 -642554471 0 0 0:cordovan gloves\\/a",
+          "prices": [
+            {
+              "coin": 915
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -815884672 311881625 0 0 0:cordovan pants\\/a",
+          "prices": [
+            {
+              "coin": 1082
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1686440237 -1108412070 0 0 0:cordovan shoulder pads\\/a",
+          "prices": [
+            {
+              "coin": 998
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 931866108 1536655560 0 0 0:cordovan skullcap\\/a",
+          "prices": [
+            {
+              "coin": 998
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 125734128 130625508 0 0 0:cordovan tunic\\/a",
+          "prices": [
+            {
+              "coin": 1248
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -47269676 603913949 0 0 0:inventor's bloomers\\/a",
+          "prices": [
+            {
+              "coin": 832
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1956992106 1040006385 0 0 0:inventor's cape\\/a",
+          "prices": [
+            {
+              "coin": 768
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1468596550 -1901007467 0 0 0:inventor's gloves\\/a",
+          "prices": [
+            {
+              "coin": 704
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 532601630 -59697096 0 0 0:inventor's hat\\/a",
+          "prices": [
+            {
+              "coin": 768
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1854747089 346341429 0 0 0:inventor's shoes\\/a",
+          "prices": [
+            {
+              "coin": 640
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -812532271 -646555202 0 0 0:inventor's sleeves\\/a",
+          "prices": [
+            {
+              "coin": 640
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1442195498 1705287206 0 0 0:inventor's vest\\/a",
+          "prices": [
+            {
+              "coin": 960
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1241081646 1326260278 0 0 0:rawhide leather rucksack\\/a",
+          "prices": [
+            {
+              "coin": 72
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1604550654 -473183497 0 0 0:woven cordovan boots\\/a",
+          "prices": [
+            {
+              "coin": 1082
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -560568884 -1148629046 0 0 0:woven cordovan bracers\\/a",
+          "prices": [
+            {
+              "coin": 1082
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 802396144 309129814 0 0 0:woven cordovan gloves\\/a",
+          "prices": [
+            {
+              "coin": 1190
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1533106660 -1729784222 0 0 0:woven cordovan pants\\/a",
+          "prices": [
+            {
+              "coin": 1406
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -606372698 706027509 0 0 0:woven cordovan shoulder pads\\/a",
+          "prices": [
+            {
+              "coin": 1298
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2108579800 -1487187919 0 0 0:woven cordovan skullcap\\/a",
+          "prices": [
+            {
+              "coin": 1298
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1824439404 1446385243 0 0 0:woven cordovan tunic\\/a",
+          "prices": [
+            {
+              "coin": 1622
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vorshar L`Faz",
+      "name_sortable": "vorsharlfaz",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-30.65,-0.11,-23.45",
+        "-18.55,0.0,13.57"
+      ],
+      "utterances": [
+        "There's nothing that the Coalition of Tradesfolke can't make a profit out of.",
+        "Those Seafury Buccaneers wouldn't know what a fair deal was if it hit them on the head.",
+        "The arcane scientists hone their minds through the study of arcane arts, but they will never become as cunning as a skilled trader.",
+        "Although they serve to protect the city, the individuals of the Freeport Militia are only loyal to their own self interest and nothing more.",
+        "The withering hands of the Dismal Rage priests look more like hands of death than hands that can heal people."
+      ]
+    },
+    {
+      "name": "Zelina T`Von",
+      "name_sortable": "zelinatvon",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-32.89,4.0,41.61"
+      ],
+      "utterances": [
+        "That no-good, two-timing, imp ... I'll teach him to stare at that trollop! ...What? What do you want, you babbling fool?"
+      ]
+    }
   ]
 }

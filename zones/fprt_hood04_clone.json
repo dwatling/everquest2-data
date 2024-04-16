@@ -6,13 +6,53 @@
   "type": "village",
   "connections": [
     {
-      "key": "freeport_combined"
+      "key": "freeport_combined",
+      "location": "67.79,-7.08,116.19"
     },
     {
       "key": "fprt_sewer01"
     },
     {
       "key": "fprt_tradeskill01_hood04"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Kaseo Volcatius",
+      "name_sortable": "kaseovolcatius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Freeport Militia",
+      "locations": [
+        "77.77,-7.08,107.66"
+      ],
+      "utterances": [
+        "You lack the importance to address me. Away with you."
+      ]
+    },
+    {
+      "name": "Rolan Sunstar",
+      "name_sortable": "rolansunstar",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "57.44,-7.08,98.77"
+      ],
+      "utterances": [
+        "Stay sharp, young one.  This city is not as safe as it may appear.",
+        "I'm a dual-breed, not a half-elf.  If you call me half-elf again, I'll cut YOU in half!",
+        "I can't wait until I'm back out at sea.  It's odd to have solid ground under my feet.",
+        "Those that go where the wind takes them can wind up lost at sea.  You seem like you've got both hands on the captain's wheel.",
+        "Don't look to me to be your next travel mate!"
+      ]
     }
   ]
 }

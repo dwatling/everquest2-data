@@ -12,6 +12,18 @@
     },
     {
       "key": "fprt_sewer01"
+    },
+    {
+      "key": "fprt_hood02_clone",
+      "location": "-6.05,-17.64,-330.28"
+    },
+    {
+      "key": "fprt_hood04_clone",
+      "location": "-150.59,-50.19,-377.74"
+    },
+    {
+      "key": "fprt_hood05_clone",
+      "location": "-92.96,-34.55,-368.29"
     }
   ],
   "npcs": [
@@ -3651,7 +3663,8 @@
         "Knowing the right people will keep you safe in this city.  The same could be said of the wrong people.",
         "Steer clear of those Wraithguards.  That is, if you know what's good for you.",
         "If I had another five or six ales, maybe I wouldn't mind talking to you.",
-        "If you're looking for trouble, I've got a whole fistful of it waiting for you."
+        "If you're looking for trouble, I've got a whole fistful of it waiting for you.",
+        "Don't be afraid of what the fates have in store for you, young one."
       ]
     },
     {
@@ -4523,9 +4536,18 @@
     {
       "name": "Imaryn Yth`Dare",
       "name_sortable": "imarynythdare",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Nebulous Newsie",
       "locations": [
         "20.02,-20.05,-301.94"
+      ],
+      "utterances": [
+        "Hello!  Such a mischievous day, is it not?"
       ]
     },
     {
@@ -5351,6 +5373,12 @@
     {
       "name": "Lieutenant Vesder",
       "name_sortable": "lieutenantvesder",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-12.96,-17.85,-323.9"
       ],

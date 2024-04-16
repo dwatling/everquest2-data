@@ -6,13 +6,16 @@
   "type": "village",
   "connections": [
     {
-      "key": "fprt_sewer01"
+      "key": "fprt_sewer01",
+      "location": "43.13,-0.87,-23.07"
     },
     {
-      "key": "fprt_adv02_graveyard"
+      "key": "fprt_adv02_graveyard",
+      "location": "53.63,-2.00,-19.84"
     },
     {
-      "key": "fprt_tradeskill01_hood05"
+      "key": "fprt_tradeskill01_hood05",
+      "location": "15.47,0.62,4.63"
     },
     {
       "key": "freeport_combined"
@@ -626,6 +629,7 @@
       "gender": [
         "male"
       ],
+      "purpose": "Mender",
       "locations": [
         "24.76,0.21,-16.47"
       ]
@@ -645,7 +649,21 @@
       "utterances": [
         "When it comes to arcane knowledge, no one knows more about it than Arcane Scientists.",
         "The Dismal Rage is such a group of pure evil, that how can they be trusted to heal anyone?",
-        "Mindless brutes that feed on the weak make up the ranks of the Freeport Militia."
+        "Mindless brutes that feed on the weak make up the ranks of the Freeport Militia.",
+        "The Seafuries are just a bunch of ruffians that pirate ships and trade on the black market."
+      ]
+    },
+    {
+      "name": "Divek L`Narr",
+      "name_sortable": "diveklnarr",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1.41,1.16,-33.14"
       ]
     },
     {
@@ -693,6 +711,22 @@
       ]
     },
     {
+      "name": "Imnat D`Vren",
+      "name_sortable": "imnatdvren",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "23.96,0.49,4.08"
+      ],
+      "utterances": [
+        "Bah! That Maliz keeps breaking everything. He's not allowed near what little furniture we have left! What do you want? Can't you see I'm busy!"
+      ]
+    },
+    {
       "name": "Innkeeper T`Mel",
       "name_sortable": "innkeepertmel",
       "race": [
@@ -733,6 +767,32 @@
       ]
     },
     {
+      "name": "Innurae V`Tarris",
+      "name_sortable": "innuraevtarris",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "32.61,1.0,20.39"
+      ],
+      "utterances": [
+        "Don't expect anything from me, young one. This place is but a mere rest stop before I move on.",
+        "Neriak is the place of my birth, and it shall be the place of my death. While you remain here in the care of the humans, I will be home. ",
+        "Yes, Neriak was once lost to us, but not all of us chose to debase ourselves in a contemptible union with the humans. Those of us who care about our heritage, those of us who are truly Teir`Dal, are searching for a way to return to the grace and legacy of our people. It would seem that such a way has already been found...",
+        "Not entirely. The loyalists to the cause believe that they have uncovered what was once an entrance to the Foreign Quarter. However, as that portion of the city was destroyed in the siege, we may have some time left before we can find our home.",
+        "During the age of Turmoil, Neriak was besieged by Leatherfoot Raiders. The forces of Neriak were thin, as Faydwer had deployed most of the Indigo Brotherhood. So we were unsuspecting and unprepared for such an attack. ",
+        "In a way, yes, but the city also fell to the greedy ambitions of a warlord king who neglected the needs of his people and soiled the legacy of his great heritage in pursuit of conquest over the refuse and swine that slithers upon the surface of this world.",
+        "If the city has been shut out from the rest of the world and returned to its proper place of dominion in the Underfoot, then there are no longer any wasteful attempts at conquering this abominable haven of refuse, now are there?",
+        "No surface campaign has proved fruitful. The Teir`Dal are the ruling force in the Underfoot. No subterranean race rivals our power and none can withstand our dominion. Besides, ownership of the surface world would be tantamount to owning a dung hill festering with maggots and flies.",
+        "I long for the day when I return home. While I am still here, though, I choose to educate curiosity-seekers. Would you like to know anything else?",
+        "The loyalists are all that is left of the Teir`Dal; all the others are traitorous whelps who only wear our dark skin and fair hair. The loyalists are dedicated to the cause of being restored to our nation.",
+        "I was very young when the siege began, but I saw the entrance collapsing as I fought in the forest with the other dragoons. It became silent as the rumbling destruction came to pass. All fighting ceased; everyone was in awe of the unexpected event. I can't be certain of what happened, exactly. All that I know is that a great force collapsed the cavern."
+      ]
+    },
+    {
       "name": "Juturna Postumus",
       "name_sortable": "juturnapostumus",
       "race": [
@@ -756,6 +816,9 @@
       ],
       "locations": [
         "-6.32,3.0,62.41"
+      ],
+      "utterances": [
+        "I am sorry, I only speak with others of my own kind."
       ]
     },
     {
@@ -1101,11 +1164,150 @@
       "gender": [
         "female"
       ],
+      "purpose": "Provisioner",
       "locations": [
         "-4.77,0.0,-20.02"
       ],
       "utterances": [
         "The wine I serve tastes like the wines of Neriak. Ah ... how I miss drinking the fine wine of my homeland. Now, what do you want, peasant?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1618656513 -631993083 0 0 0:Antonia Ale (Alcoholic)\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 502648298 -366828437 0 0 0:canteen of pond water\\/a",
+          "prices": [
+            {
+              "coin": 38
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1639422081 1158610386 0 0 0:chopped walnuts\\/a",
+          "prices": [
+            {
+              "coin": 29
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1281187795 -495418410 0 0 0:Dwarven Ale (Alcoholic)\\/a",
+          "prices": [
+            {
+              "coin": 600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -692542167 450719094 0 0 0:Elven Wine (Alcoholic)\\/a",
+          "prices": [
+            {
+              "coin": 720
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855 0 0 0:flask of pond water\\/a",
+          "prices": [
+            {
+              "coin": 19
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1608751314 -1346962995 0 0 0:Gnomish Spirits (Alcoholic)\\/a",
+          "prices": [
+            {
+              "coin": 840
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1424677497 801220853 0 0 0:Lucan's Lager (Alcoholic)\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1182665080 1921937698 0 0 0:moist fish sticks\\/a",
+          "prices": [
+            {
+              "coin": 29
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1199073772 520539661 0 0 0:Oggok Swill (Alcoholic)\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1471233703 -1931167001 0 0 0:pasta puffs\\/a",
+          "prices": [
+            {
+              "coin": 29
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1347014509 -1543938383 0 0 0:plain bread\\/a",
+          "prices": [
+            {
+              "coin": 19
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1820414129 -364127075 0 0 0:sliced orange\\/a",
+          "prices": [
+            {
+              "coin": 29
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1383852152 -1014417461 0 0 0:Teir'dal Blood Wine (Alcoholic)\\/a",
+          "prices": [
+            {
+              "coin": 1080
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1206045932 -1647504808 0 0 0:vulrich ribs\\/a",
+          "prices": [
+            {
+              "coin": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maliz T`Raan",
+      "name_sortable": "maliztraan",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "22.58,0.49,3.54"
+      ],
+      "utterances": [
+        "Living in these slums is sickening! What do you want from me?"
       ]
     },
     {
@@ -1146,6 +1348,22 @@
       ]
     },
     {
+      "name": "Orian D`Rak",
+      "name_sortable": "oriandrak",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "58.03,-1.02,1.17"
+      ],
+      "utterances": [
+        "How dare you barge into my house! Who do you think you are, fool?"
+      ]
+    },
+    {
       "name": "an outraged human",
       "name_sortable": "outragedhuman",
       "race": [
@@ -1159,6 +1377,36 @@
       ]
     },
     {
+      "name": "P`Thek",
+      "name_sortable": "pthek",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Linguist",
+      "locations": [
+        "30.64,3.03,34.82"
+      ],
+      "utterances": [
+        "Perhaps I could interest you in our necromantic line of spells?  ",
+        "Curses have been a big seller.  Is there anyone in particular you're looking to torment?",
+        "So are you planning to master your art at the academy?  We keep all of the required supplies right here!",
+        "I've got scrolls here that will make your eyes pop out and your nostrils bleed!  What can I get for you?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 510408638 -1891621725:Thexian Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "a seething darkelf",
       "name_sortable": "seethingdarkelf",
       "race": [
@@ -1169,6 +1417,10 @@
       ],
       "locations": [
         "0.7,2.13,-3.21"
+      ],
+      "utterances": [
+        "You must wish to see how fragile your life is, for you have entered Longshadow Alley of your own will.",
+        "You and I both know the destiny of the Teir'dal is to conquer all.  This unleashing of our desires has been a long time in coming!"
       ]
     },
     {
@@ -1180,6 +1432,7 @@
       "gender": [
         "female"
       ],
+      "purpose": "Shieldsmith",
       "locations": [
         "21.14,-0.01,-11.32"
       ],
@@ -1187,11 +1440,62 @@
         "The stuff's over there.  Just let me know if you find anything you like.",
         "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1307247935 -1407052156 0 0 0:iron orb\\/a",
+          "prices": [
+            {
+              "coin": 624
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -754070617 -1722687183 0 0 0:iron symbol\\/a",
+          "prices": [
+            {
+              "coin": 624
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -466808013 1447319406 0 0 0:maple buckler\\/a",
+          "prices": [
+            {
+              "coin": 499
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 230077763 607951845 0 0 0:maple kite shield\\/a",
+          "prices": [
+            {
+              "coin": 624
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1199496697 1100485783 0 0 0:maple round shield\\/a",
+          "prices": [
+            {
+              "coin": 749
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1808331179 1395615895 0 0 0:maple tower shield\\/a",
+          "prices": [
+            {
+              "coin": 624
+            }
+          ]
+        }
       ]
     },
     {
       "name": "a spider hatchling",
       "name_sortable": "spiderhatchling",
+      "level": 3,
       "locations": [
         "-31.22,4.00,36.48",
         "-42.23,5.01,34.96",
@@ -1458,6 +1762,20 @@
       ]
     },
     {
+      "name": "T`Val",
+      "name_sortable": "tval",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Banker",
+      "locations": [
+        "-32.05,1.12,12.12"
+      ]
+    },
+    {
       "name": "V`Dyhn",
       "name_sortable": "vdyhn",
       "race": [
@@ -1617,7 +1935,9 @@
       ],
       "locations": [
         "-30.65,-0.11,-23.45",
-        "-18.55,0.0,13.57"
+        "-18.55,0.0,13.57",
+        "-34.74,-1.89,-33.75",
+        "-48.22,0.83,-5.23"
       ],
       "utterances": [
         "There's nothing that the Coalition of Tradesfolke can't make a profit out of.",
@@ -1625,6 +1945,22 @@
         "The arcane scientists hone their minds through the study of arcane arts, but they will never become as cunning as a skilled trader.",
         "Although they serve to protect the city, the individuals of the Freeport Militia are only loyal to their own self interest and nothing more.",
         "The withering hands of the Dismal Rage priests look more like hands of death than hands that can heal people."
+      ]
+    },
+    {
+      "name": "Yarana D'Ven",
+      "name_sortable": "yaranadven",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "15.79,1.5,13.11"
+      ],
+      "utterances": [
+        "Do not waste my precious time by begging for attention."
       ]
     },
     {

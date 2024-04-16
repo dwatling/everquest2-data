@@ -10,6 +10,14 @@
     },
     {
       "key": "fprt_sewer_epic04_quest_darkblade_epic"
+    },
+    {
+      "key": "fprt_hood02_clone",
+      "location": "0.26,-0.37,0.28"
+    },
+    {
+      "key": "fprt_hood05_clone",
+      "location": "-61.78,0.10,-3.81"
     }
   ],
   "npcs": [
@@ -664,6 +672,7 @@
     {
       "name": "a ravenous cube",
       "name_sortable": "ravenouscube",
+      "aggressive": true,
       "level": 7,
       "locations": [
         "-34,0,107",

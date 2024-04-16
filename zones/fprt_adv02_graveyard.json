@@ -8,13 +8,15 @@
       "key": "commonlands"
     },
     {
-      "key": "fprt_hood02_clone"
+      "key": "fprt_hood02_clone",
+      "location": "-69.94,-12.86,132.26"
     },
     {
       "key": "fprt_adv01_sunken"
     },
     {
-      "key": "fprt_hood05_clone"
+      "key": "fprt_hood05_clone",
+      "location": "-125.39,-17.82,72.98"
     }
   ],
   "npcs": [
@@ -734,7 +736,9 @@
         {
           "gamelink": "\\aITEM -1988968200 1153538523 0 0 0:tin symbol\\/a",
           "prices": [
-            {}
+            {
+              "coin": 90
+            }
           ]
         }
       ]

@@ -20,6 +20,169 @@
   ],
   "npcs": [
     {
+      "name": "Alanaramal Z'Aste",
+      "name_sortable": "alanaramalzaste",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Crafting Trainer",
+      "locations": [
+        "12.24,0.0,7.01"
+      ],
+      "utterances": [
+        "I have nothing else to teach you for the moment.  Please return to me when you have earned enough experience to choose your profession."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 478969384 -1831629606 0 0 0:Advanced Artisan Volume 1\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2054869102 -320107550 0 0 0:Advanced Artisan Volume 2\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -226353404 -613347134 0 0 0:Advanced Artisan Volume 3\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1827048103 491037174 0 0 0:Advanced Artisan Volume 4\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 467778097 -1816397780 0 0 0:Advanced Artisan Volume 5\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2098664565 1352585561 0 0 0:Advanced Artisan Volume 6\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -168830179 1524520644 0 0 0:Advanced Artisan Volume 7\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1699792524 -860771267 0 0 0:Advanced Artisan Volume 8\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 307754522 75111576 0 0 0:Advanced Artisan Volume 9\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1911116894 1730016133 0 0 0:artisan essentials volume 1\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1407153616 -493180725 0 0 0:artisan essentials volume 2\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1211204294 -1537176998 0 0 0:artisan essentials volume 3\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1134949937 806500766 0 0 0:artisan essentials volume 4\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 541608783 -1943057601 0 0 0:artisan essentials volume 5\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -627330932 1830577290 0 0 0:artisan essentials volume 6\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -897612639 -584006509 0 0 0:artisan essentials volume 7\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1353595938 1152854445 0 0 0:artisan essentials volume 8\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -358211946 -813467030 0 0 0:artisan essentials volume 9\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Aldera V'Exxa",
       "name_sortable": "alderavexxa",
       "race": [
@@ -33,10 +196,472 @@
       ]
     },
     {
+      "name": "Arms Dealer T`Nyvez",
+      "name_sortable": "armsdealertnyvez",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Weaponsmith",
+      "locations": [
+        "16.06,0.0,-7.76"
+      ],
+      "utterances": [
+        "Is there a specific way you're looking to kill someone?  Disemboweling, beheading, impaling, strangulation?",
+        "The only thing separating you from death in this city are your wits.  I wouldn't call that adequate protection.",
+        "A good weapon at your side is the only real friend you'll ever have!",
+        "We have a nice selection of previously owned weapons for those with modest funds."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1809073617 315725797 0 0 0:burlap fist wraps\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1978235410 -653141827 0 0 0:iron assault axe\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -411397302 734740925 0 0 0:iron bardiche\\/a",
+          "prices": [
+            {
+              "coin": 1120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 645936423 -865963469 0 0 0:iron bastard sword\\/a",
+          "prices": [
+            {
+              "coin": 1120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1385726532 561982938 0 0 0:iron battle axe\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -322523188 1047992889 0 0 0:iron battle hammer\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -853667948 1341771287 0 0 0:iron broadsword\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1633699322 857019084 0 0 0:iron claymore\\/a",
+          "prices": [
+            {
+              "coin": 1120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 950841292 -598025040 0 0 0:iron crescent axe\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2026787096 764665654 0 0 0:iron cutlass\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 477059523 1706866878 0 0 0:iron dagger\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 178307985 398295640 0 0 0:iron double headed axe\\/a",
+          "prices": [
+            {
+              "coin": 1120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1749074694 1915635387 0 0 0:iron flail\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1843068517 -848070546 0 0 0:iron flamberge\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 663043680 -612685634 0 0 0:iron foil\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -822021563 1441144407 0 0 0:iron halberd\\/a",
+          "prices": [
+            {
+              "coin": 1120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1633145824 -724729241 0 0 0:iron hand axe\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -118602650 -1166698474 0 0 0:iron harpoon\\/a",
+          "prices": [
+            {
+              "coin": 1120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 935349954 920134191 0 0 0:iron hatchet\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1456845315 -2133266630 0 0 0:iron javelin\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1098338442 1863966084 0 0 0:iron knuckles\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1762305377 -612805924 0 0 0:iron kukri\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1492456553 342562457 0 0 0:iron lance\\/a",
+          "prices": [
+            {
+              "coin": 1120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -986079629 -2081805973 0 0 0:iron leafblade\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1335843019 -315465462 0 0 0:iron long sword\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 476956982 1381872489 0 0 0:iron maul\\/a",
+          "prices": [
+            {
+              "coin": 1120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2000120351 141098710 0 0 0:iron military pick\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -972975996 -895449020 0 0 0:iron morning star\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1417447412 -556050945 0 0 0:iron ornate spear\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1474077871 201945771 0 0 0:iron parrying blade\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 246479465 -936020328 0 0 0:iron rapier\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2062720974 1889421322 0 0 0:iron sceptre\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -275928956 -1295955248 0 0 0:iron scimitar\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 883224059 -1504268770 0 0 0:iron scourge\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1781570714 1445767301 0 0 0:iron short spear\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1867240758 -458555085 0 0 0:iron short sword\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -279958428 -919866488 0 0 0:iron spear\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1861293569 1604800166 0 0 0:iron stiletto\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1507098857 -536560723 0 0 0:iron tomahawk\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1399100194 -1240150191 0 0 0:iron tribal spear\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 630360943 1382233318 0 0 0:iron tulwar\\/a",
+          "prices": [
+            {
+              "coin": 1120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1428040830 -1873347106 0 0 0:iron voulge\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 166094653 -1044291163 0 0 0:iron war axe\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2129260340 -1673037702 0 0 0:iron wizard's dagger\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 899857464 1745644460 0 0 0:maple bo\\/a",
+          "prices": [
+            {
+              "coin": 1120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1996988052 -1817497073 0 0 0:maple cudgel\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1461403357 841775497 0 0 0:maple fighting batons\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1878740253 -2094914404 0 0 0:maple pike\\/a",
+          "prices": [
+            {
+              "coin": 1120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 601548914 -511618133 0 0 0:maple quarterstaff\\/a",
+          "prices": [
+            {
+              "coin": 952
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 807551990 2029829026 0 0 0:maple sorcerer's staff\\/a",
+          "prices": [
+            {
+              "coin": 1120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brelslade",
+      "name_sortable": "brelslade",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "24.76,0.21,-16.47"
+      ]
+    },
+    {
       "name": "Cizra J`Yax",
       "name_sortable": "cizrajyax",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-11.29,0.0,10.11"
+      ],
       "utterances": [
-        "When it comes to arcane knowledge, no one knows more about it than Arcane Scientists."
+        "When it comes to arcane knowledge, no one knows more about it than Arcane Scientists.",
+        "The Dismal Rage is such a group of pure evil, that how can they be trusted to heal anyone?",
+        "Mindless brutes that feed on the weak make up the ranks of the Freeport Militia."
+      ]
+    },
+    {
+      "name": "Ezria M'Linar",
+      "name_sortable": "ezriamlinar",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-9.95,0.11,-18.98"
+      ],
+      "utterances": [
+        "Ah. How lovely. Perhaps you are a fellow sophisticate with a palate for the finer things? I am a vintner, you see. Ezria M'Linar is my name. My wines capture the essence of a long lost Neriak."
       ]
     },
     {
@@ -131,6 +756,124 @@
       ],
       "locations": [
         "-6.32,3.0,62.41"
+      ]
+    },
+    {
+      "name": "K`Tolia",
+      "name_sortable": "ktolia",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Alchemist",
+      "locations": [
+        "-21.48,0.67,15.34"
+      ],
+      "utterances": [
+        "I need to get some eye of griffin, a bears paw, the heart of an innocent man.  That'll be tough in this city!",
+        "Be careful what you touch in here. You're liable to kill us all!",
+        "Poison testers, it's been my biggest seller for the past several months.  Of course poison was a close second. ",
+        "Let me guess, you're looking for poison, right?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 2037451968 -1554449979 0 0 0:Acidic Goo\\/a",
+          "prices": [
+            {
+              "coin": 96
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2084246562 -626331382 0 0 0:Acidic Massage\\/a",
+          "prices": [
+            {
+              "coin": 96
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1134242107 -1996491909 0 0 0:Anti-Venin\\/a",
+          "prices": [
+            {
+              "coin": 48
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -690121607 1202074247 0 0 0:Blight of the Eventide\\/a",
+          "prices": [
+            {
+              "coin": 96
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 398705441 134851183 0 0 0:Caress of the Phantom\\/a",
+          "prices": [
+            {
+              "coin": 96
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1021041208 -1438464221 0 0 0:Crypt Sludge\\/a",
+          "prices": [
+            {
+              "coin": 96
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -278086179 1135729178 0 0 0:Elemental Ointment\\/a",
+          "prices": [
+            {
+              "coin": 48
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -708906406 -399850333 0 0 0:Enigmatic Formula\\/a",
+          "prices": [
+            {
+              "coin": 48
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 621368354 1922001657 0 0 0:Gust of Insight\\/a",
+          "prices": [
+            {
+              "coin": 48
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1570285900 1124058293 0 0 0:Remedy of the Field\\/a",
+          "prices": [
+            {
+              "coin": 48
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -763453791 -1701345003 0 0 0:Salve\\/a",
+          "prices": [
+            {
+              "coin": 48
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -182855303 1419465232 0 0 0:softly glowing pearl\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        }
       ]
     },
     {
@@ -350,6 +1093,38 @@
       ]
     },
     {
+      "name": "Lynsia T'Kanix",
+      "name_sortable": "lynsiatkanix",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-4.77,0.0,-20.02"
+      ],
+      "utterances": [
+        "The wine I serve tastes like the wines of Neriak. Ah ... how I miss drinking the fine wine of my homeland. Now, what do you want, peasant?"
+      ]
+    },
+    {
+      "name": "Modian K`Jarr",
+      "name_sortable": "modiankjarr",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1.87,0.0,-20.8"
+      ],
+      "utterances": [
+        "If you couldn't tell, I'm enjoying a drink. Now that your curiosity has been sated, perhaps you'll leave me alone?"
+      ]
+    },
+    {
       "name": "Nezzka S`Tai",
       "name_sortable": "nezzkastai",
       "race": [
@@ -384,6 +1159,37 @@
       ]
     },
     {
+      "name": "a seething darkelf",
+      "name_sortable": "seethingdarkelf",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "0.7,2.13,-3.21"
+      ]
+    },
+    {
+      "name": "Sh`Nra",
+      "name_sortable": "shnra",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "21.14,-0.01,-11.32"
+      ],
+      "utterances": [
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ]
+    },
+    {
       "name": "a spider hatchling",
       "name_sortable": "spiderhatchling",
       "locations": [
@@ -393,7 +1199,10 @@
         "-19.15,4.0,55.28",
         "-12.57,4.13,52.96",
         "-24.77,4.0,46.85",
-        "-27.63,4.13,53.94"
+        "-27.63,4.13,53.94",
+        "3.06,0.0,8.24",
+        "8.51,0.0,-4.54",
+        "1.1,0.05,-9.62"
       ]
     },
     {
@@ -643,6 +1452,155 @@
           "prices": [
             {
               "coin": 1622
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "V`Dyhn",
+      "name_sortable": "vdyhn",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bowyer",
+      "locations": [
+        "-11.56,0.0,20.84"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "In spite of the cost of living, it's still quite a popular item."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1967303329 -1385275783 0 0 0:iron throwing dagger\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1621757802 -1199113296 0 0 0:iron throwing hammer\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 8639016 474009819 0 0 0:maple long bow\\/a",
+          "prices": [
+            {
+              "coin": 672
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1234691825 -190848664 0 0 0:maple short bow\\/a",
+          "prices": [
+            {
+              "coin": 672
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 111900061 -1252167834 0 0 0:Plain Iron Arrow\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1965090531 -1301479166 0 0 0:Plain Iron Crossbow Bolt\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 25756897 -937999679 0 0 0:Plain Tin Arrow\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 65370426 319732415 0 0 0:Plain Tin Crossbow Bolt\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -88741259 -801505823 0 0 0:tanned leather bandolier\\/a",
+          "prices": [
+            {
+              "coin": 672
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 608225576 76182053 0 0 0:tanned leather pouch\\/a",
+          "prices": [
+            {
+              "coin": 672
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -706146254 806041449 0 0 0:tanned leather satchel\\/a",
+          "prices": [
+            {
+              "coin": 672
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -140086965 658006652 0 0 0:tanned leather sheath\\/a",
+          "prices": [
+            {
+              "coin": 672
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1358731725 930572575 0 0 0:tin shuriken\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1854463233 -166436342 0 0 0:tin throwing axe\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1419351969 1017882340 0 0 0:tin throwing dagger\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1097937514 692257581 0 0 0:tin throwing hammer\\/a",
+          "prices": [
+            {
+              "coin": 1
             }
           ]
         }

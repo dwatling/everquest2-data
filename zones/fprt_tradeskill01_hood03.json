@@ -5,7 +5,76 @@
   "region": "D'Lere",
   "connections": [
     {
-      "key": "fprt_hood03_clone"
+      "key": "fprt_hood03_clone",
+      "location": "6.49,0.79,-3.43"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Dustinz",
+      "name_sortable": "dustinz",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1.36,-19.59,12.96"
+      ],
+      "purpose": "Broker",
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item."
+      ]
+    },
+    {
+      "name": "Nunai Oehu",
+      "name_sortable": "nunaioehu",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Work Orders",
+      "locations": [
+        "-2.97,-0.18,-2.82"
+      ],
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Wholesaler Kazi",
+      "name_sortable": "wholesalerkazi",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Wholesaler",
+      "locations": [
+        "-2.2,-0.18,8.94"
+      ],
+      "store_template": "wholesaler"
+    },
+    {
+      "name": "Yokla",
+      "name_sortable": "yokla",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Rush Orders",
+      "locations": [
+        "-1.61,-0.19,-3.97"
+      ],
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
     }
   ]
 }

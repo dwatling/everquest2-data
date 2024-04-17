@@ -5,7 +5,8 @@
   "region": "D'Lere",
   "connections": [
     {
-      "key": "fprt_hood05_clone"
+      "key": "fprt_hood05_clone",
+      "location": "6.49,0.79,-3.43"
     }
   ],
   "npcs": [
@@ -91,9 +92,11 @@
       "locations": [
         "-2.27,-0.18,9.08"
       ],
+      "purpose": "Wholesaler",
       "utterances": [
         "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor, are you?"
-      ]
+      ],
+      "store_template": "wholesaler"
     }
   ]
 }

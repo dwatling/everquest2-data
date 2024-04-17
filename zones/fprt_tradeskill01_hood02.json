@@ -6,7 +6,8 @@
   "zonerect": "",
   "connections": [
     {
-      "key": "fprt_hood02_clone"
+      "key": "fprt_hood02_clone",
+      "location": "6.49,0.79,-3.43"
     }
   ],
   "npcs": [
@@ -34,9 +35,11 @@
     {
       "name": "Wholesaler Kali Uzima",
       "name_sortable": "wholesalerkaliuzima",
+      "purpose": "Wholesaler",
       "utterances": [
         "You show interest in the crafting trade, good.  Freeport can always use talented artisans within the walls of our great city.  I can help you get started and offer you some of the basic recipes at no charge.  Would you be interested?"
-      ]
+      ],
+      "store_template": "wholesaler"
     }
   ]
 }

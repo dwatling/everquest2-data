@@ -20,6 +20,24 @@
   ],
   "npcs": [
     {
+      "name": "Alucius Valus",
+      "name_sortable": "aluciusvalus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-12.6,4.18,-65.25"
+      ],
+      "utterances": [
+        "Looks to me you show a bit of courage, similar to our great Overlord.",
+        "Will you take destiny into your own hands? Hmm?",
+        "Greetings, my friend. Welcome to Beggar's Court!"
+      ]
+    },
+    {
       "name": "Anrean Velvinna",
       "name_sortable": "anreanvelvinna",
       "race": [
@@ -61,11 +79,28 @@
       "gender": [
         "male"
       ],
+      "purpose": "Weaponsmith",
       "locations": [
         "12.24,9.13,-37.78"
       ],
       "utterances": [
-        "Is there a specific way you're looking to kill someone?  Disemboweling, beheading, impaling, strangulation?"
+        "Is there a specific way you're looking to kill someone?  Disemboweling, beheading, impaling, strangulation?",
+        "We have a nice selection of previously owned weapons for those with modest funds."
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "Banker Voranius",
+      "name_sortable": "bankervoranius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Banker",
+      "locations": [
+        "33.28,13.25,-35.36"
       ]
     },
     {
@@ -485,6 +520,38 @@
       ]
     },
     {
+      "name": "Innkeeper Melus",
+      "name_sortable": "innkeepermelus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Housing",
+      "locations": [
+        "10.43,0.01,77.96"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -696290415 -1683006441 0 0 0:an armorwasher's bucket\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 -941911935 0 0 0:an enchanter's candelabra\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Kaseo Volcatius",
       "name_sortable": "kaseovolcatius",
       "race": [
@@ -507,7 +574,8 @@
       "locations": [
         "67.65,-7.08,94.20",
         "57.00,-6.49,83.15",
-        "38.58,-5.0,32.8"
+        "38.58,-5.0,32.8",
+        "9.5,4.75,-21.14"
       ]
     },
     {
@@ -576,6 +644,22 @@
       ],
       "utterances": [
         "What do you need? I've no time for small talk."
+      ]
+    },
+    {
+      "name": "Lurina Galla",
+      "name_sortable": "lurinagalla",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-35.58,-0.29,2.57"
+      ],
+      "utterances": [
+        "You had better leave before my husband gets home. I'm not supposed to have guests while he's not around."
       ]
     },
     {
@@ -715,7 +799,9 @@
       "name_sortable": "rat",
       "locations": [
         "14.62,3.25,10.70",
-        "25.39,5.25,-20.30"
+        "25.39,5.25,-20.30",
+        "-16.51,4.18,-64.00",
+        "-24.43,-3.04,7.57"
       ]
     },
     {
@@ -735,6 +821,31 @@
         "Hey! Do you want some grain? Nothing's wrong with it. Come on, it'll be good for making beer or something."
       ],
       "store_template": "provisioner"
+    },
+    {
+      "name": "Rilius Shadowsiege",
+      "name_sortable": "riliusshadowsiege",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-32.67,0.44,43.33"
+      ],
+      "utterances": [
+        "Watch yourself, kid. You never know what unsavory creatures might lurk in the shadows of this city.",
+        "Come here, kid, and listen close. I speak about the vermin ratonga. They're an uncomfortably mysterious lot and they aren't to be trusted. Do yourself a favor and don't get involved with them. You don't want to play any part in their plots, trust me.",
+        "Everything, kid, everything. They've been here a mere twenty years and we still don't know anything about them! I mean, no one even knows where they come from!",
+        "Because the Overlord allows it, and don't think for a minute that I would dare presume to know the Overlord's state of mind again. Oh yes, I questioned his wisdom once but never again.",
+        "Oh, not much; just a decade's long incarceration with a troll for a cell mate and the stripping of my family's citizenship and welfare. But hey, at least I've still got my health.",
+        "Of course not! I would be dead if I had been so foolish! No, I've never had the pleasure of a personal audience with the Overlord. My commanding officer overheard me harping about the ratonga infestation while I was off duty.",
+        "Yes, I was there. I remember it like it was yesterday. I was on the night patrol when they first came.  It was shortly after dusk when the first of them slithered out of the sewers. It was just a few of them at first...",
+        "The city patrol was doubled and put on alert, but it was too late.  In a matter of minutes the ratonga \"ambassadors\" had already made their way to the doorstep of the Foci. We were ordered to remain on patrol and guard the sewer entrances, but there were no more sightings. It was quiet for a few days after that. The patrol remained on alert and we all worked triple shifts, but the damage was done.",
+        "What a logical conclusion that would be, eh? But no, she did not kill them.  Apparently, she conceded to the vermin ambassadors' requests and an audience was arranged with the Overlord. Official orders welcoming the ratonga race into the city's populace were posted and before the ink could dry, the streets were flooded with the vermin, as if they had been there, invisible, all along.",
+        "As a matter of fact, I think they have too much potential, if you know what I mean. No, I don't like them being here, not one bit and if you know what's good for you, you'll grow an extra pair of eyes in the back of your head, because they're everywhere."
+      ]
     },
     {
       "name": "Ro",
@@ -829,6 +940,53 @@
       "store_template": "bartender"
     },
     {
+      "name": "a Shady Thug",
+      "name_sortable": "shadythug",
+      "level": 4,
+      "locations": [
+        "-36.98,-6.92,85.85"
+      ],
+      "utterances": [
+        "Prepare to face your doom, meddler."
+      ]
+    },
+    {
+      "name": "Siricus Calventius",
+      "name_sortable": "siricuscalventius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-50.89,-5.77,23.92"
+      ],
+      "utterances": [
+        "Get out of my house! I'm calling the Militia!",
+        "How dare you enter my house, scoundrel! This time you're not destroying my figurines!"
+      ]
+    },
+    {
+      "name": "Statia Viatrix",
+      "name_sortable": "statiaviatrix",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-47.13,-6.92,64.92"
+      ],
+      "utterances": [
+        "Those Arcane Scientists just spend way too much time studying in their confines. They need to get out more.",
+        "The Coalition of Tradesfolke sure knows how to make coins fall into their hands.",
+        "The souls of the Dismal Rage priests are so dark that their pale look will make you sick before they can ever heal you.",
+        "The Seafury Buccaneers don't seem too bright. They probably lost their ability to think from traveling the seas for too long."
+      ]
+    },
+    {
       "name": "Tabith the Hag",
       "name_sortable": "tabiththehag",
       "race": [
@@ -838,10 +996,27 @@
         "female"
       ],
       "locations": [
-        "-21.73,-5.0,17.81"
+        "-21.73,-5.0,17.81",
+        "-49.55,-5.77,21.32"
       ],
       "utterances": [
         "Stealth, guile and bravado shall follow you on your path to greatness."
+      ]
+    },
+    {
+      "name": "Thavian Destrus",
+      "name_sortable": "thaviandestrus",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-17.39,4.18,-61.03"
+      ],
+      "utterances": [
+        "Make yourself at home here in Beggar's Court. Not that you'd actually want to..."
       ]
     },
     {
@@ -879,6 +1054,15 @@
     {
       "name": "Tullia Domna",
       "name_sortable": "tulliadomna",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "12.42,-6.0,39.0"
+      ],
       "utterances": [
         "A person of my fine breeding doesn't do business with lowly half-breeds. Get out of my sight, peasant.",
         "Come hither ... how can I, Queen Antonia Bayle, serve you?"

@@ -7,10 +7,854 @@
   "type": "village",
   "connections": [
     {
-      "key": "freeport_combined"
+      "key": "freeport_combined",
+      "location": "13.55,2.92,16.23"
     },
     {
-      "key": "fprt_tradeskill01_hood03"
+      "key": "fprt_sewer01",
+      "location": "53.62,3.84,43.65"
+    },
+    {
+      "key": "fprt_tradeskill01_hood03",
+      "location": "3.28,3.48,113.09"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Arms Dealer Shinska",
+      "name_sortable": "armsdealershinska",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Weaponsmith",
+      "locations": [
+        "11.09,3.0,66.51"
+      ],
+      "utterances": [
+        "You need weapons on your journey. You come see Shinska... you come see her now!",
+        "Hmmmmmm...  You looks like you could use somethings to protect yourself."
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "Barmaid Krasa",
+      "name_sortable": "barmaidkrasa",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "98.0,-4.57,97.42"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Brashk",
+      "name_sortable": "brashk",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-29.81,2.77,112.24"
+      ]
+    },
+    {
+      "name": "Captain Molacus",
+      "name_sortable": "captainmolacus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Freeport Militia",
+      "locations": [
+        "16.67,2.92,27.53",
+        "25.33,2.92,28.23",
+        "22.9,2.92,34.65"
+      ]
+    },
+    {
+      "name": "Chef Schmenko",
+      "name_sortable": "chefschmenko",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "-13.64,3.03,70.67",
+        "32.45,3.0,82.48"
+      ],
+      "utterances": [
+        "Here kitty kitty kitty..."
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Chrna",
+      "name_sortable": "chrna",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-0.32,2.92,29.31"
+      ]
+    },
+    {
+      "name": "Chuggle Valvesplitter",
+      "name_sortable": "chugglevalvesplitter",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "6.3,3.13,77.75"
+      ],
+      "utterances": [
+        "Sorry, sorry. What is it? I can't really help out much since those local 858 union members stole my blasted toolbox!"
+      ]
+    },
+    {
+      "name": "Darsus Tavalin",
+      "name_sortable": "darsustavalin",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-26.43,3.0,87.21"
+      ],
+      "utterances": [
+        "I can't talk. I'm waiting for someone."
+      ]
+    },
+    {
+      "name": "Fedul",
+      "name_sortable": "fedul",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-27.45,2.72,111.43"
+      ],
+      "utterances": [
+        "You leaves... Fedul haves nothing for you."
+      ]
+    },
+    {
+      "name": "a feverish ratonga",
+      "name_sortable": "feverishratonga",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-5.72,3.08,66.51"
+      ],
+      "utterances": [
+        "..."
+      ]
+    },
+    {
+      "name": "Frizi Figglesnip",
+      "name_sortable": "frizifigglesnip",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Linguist",
+      "locations": [
+        "52.11,3.5,79.68"
+      ],
+      "utterances": [
+        "I'm busy with other customers. Come back later.",
+        "What do you need? ... A letter scribed ... perhaps a book for your journey?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 585316378 1050701945 0 0 0:Gnomish Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -776851233 -2128175469 0 0 0:Ratongan Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Frondo Wignin",
+      "name_sortable": "frondowignin",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "110.78,-4.57,106.55"
+      ],
+      "utterances": [
+        "For every twelve pigs I raise my hair averages an inch of growth.",
+        "Did you know that some pigs have straight tails and others have curly ones?",
+        "You know, pigs have four toes on each hoof even though they only walk on two.",
+        "These pigs prefer to sleep with their bellies facing south."
+      ]
+    },
+    {
+      "name": "Fubbledodge",
+      "name_sortable": "fubbledodge",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Shieldsmith",
+      "locations": [
+        "16.82,2.92,39.67"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "shieldsmith"
+    },
+    {
+      "name": "Innkeeper Zixi Wuggle",
+      "name_sortable": "innkeeperzixiwuggle",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Housing",
+      "locations": [
+        "11.38,3.0,87.73"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -696290415 -1683006441 0 0 0:an armorwasher's bucket\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 -941911935 0 0 0:an enchanter's candelabra\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jubil Frankobi",
+      "name_sortable": "jubilfrankobi",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Temple Street Doctor",
+      "locations": [
+        "-6.71,3.0,66.78"
+      ],
+      "utterances": [
+        "Sorry, I'm busy dealing with this patient right now.",
+        "She can't hear you."
+      ]
+    },
+    {
+      "name": "Kavina",
+      "name_sortable": "kavina",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Bowyer",
+      "locations": [
+        "35.41,2.92,22.11"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store_template": "bowyer"
+    },
+    {
+      "name": "Krellian",
+      "name_sortable": "krellian",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Mender",
+      "locations": [
+        "10.65,3.05,61.14"
+      ]
+    },
+    {
+      "name": "Krysa",
+      "name_sortable": "krysa",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "99.7,-4.57,101.85"
+      ],
+      "utterances": [
+        "Welcome to Pshavost's bar! You want a drink?"
+      ]
+    },
+    {
+      "name": "Malvir Destrin",
+      "name_sortable": "malvirdestrin",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "6.64,2.92,28.66"
+      ],
+      "utterances": [
+        "Not now, I'm looking at merchandise."
+      ]
+    },
+    {
+      "name": "Malyk",
+      "name_sortable": "malyk",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-24.41,3.04,92.52"
+      ],
+      "utterances": [
+        "Malyk helps many, but not you, and not right now."
+      ]
+    },
+    {
+      "name": "Methos",
+      "name_sortable": "methos",
+      "locations": [
+        "-9.57,3.0,81.36"
+      ]
+    },
+    {
+      "name": "Mr. Buttons",
+      "name_sortable": "mrbuttons",
+      "locations": [
+        "-4.11,3.0,101.29"
+      ]
+    },
+    {
+      "name": "a mute ratonga",
+      "name_sortable": "muteratonga",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-8.63,3.0,87.15"
+      ]
+    },
+    {
+      "name": "Neezer Grund",
+      "name_sortable": "neezergrund",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-43.98,3.2,119.92"
+      ],
+      "utterances": [
+        "I'm quite busy. I'll be free in just a moment or never!"
+      ]
+    },
+    {
+      "name": "Old Man Muckwort",
+      "name_sortable": "oldmanmuckwort",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-21.36,3.07,70.76"
+      ],
+      "utterances": [
+        "Darn pests... messing up my yard and sneaking up on my porch... What do you need, ya' snot-nosed punk?",
+        "Bah! Keep your meddling to yourself, leave me be ... and STAY OFF MY PORCH! You heard me. Get out of here!"
+      ]
+    },
+    {
+      "name": "a pig",
+      "name_sortable": "pig",
+      "level": 9,
+      "locations": [
+        "111.03,-4.57,112.52"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 974138551 2014083048:swine meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Plordo Blotterdook",
+      "name_sortable": "plordoblotterdook",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Alchemist",
+      "locations": [
+        "33.83,2.92,26.45"
+      ],
+      "utterances": [
+        "I need to get some eye of griffin, a bears paw, the heart of an innocent man.  That'll be tough in this city!"
+      ],
+      "store_template": "alchemist"
+    },
+    {
+      "name": "Pockets",
+      "name_sortable": "pockets",
+      "locations": [
+        "0.23,3.0,114.03",
+        "51.6,3.0,98.63"
+      ]
+    },
+    {
+      "name": "Pshavost",
+      "name_sortable": "pshavost",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "95.82,-4.57,98.53"
+      ],
+      "utterances": [
+        "You want to talk?  If you want us to be friends all you need to do is buy a drink!"
+      ],
+      "store_template": "bartender"
+    },
+    {
+      "name": "Qwergo Togglesmeet",
+      "name_sortable": "qwergotogglesmeet",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "60.92,2.98,71.84"
+      ],
+      "utterances": [
+        "Buy from the Togglesmeets! Those rats have inferior goods made from shoddy workmanship. Don't believe their lies, I tell you."
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "a rat",
+      "name_sortable": "rat",
+      "locations": [
+        "-36.00,2.83,120.00",
+        "-42.73,2.83,116.00",
+        "-42.20,2.85,108.99",
+        "26.99,2.92,26.19",
+        "21.22,2.92,27.19",
+        "15.10,2.92,27.62",
+        "88.37,-4.01,113.67"
+      ]
+    },
+    {
+      "name": "Regias Flutzrubble",
+      "name_sortable": "regiasflutzrubble",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "45.14,3.0,85.86"
+      ],
+      "utterances": [
+        "No! Go away! You're disrupting my concentration! I must have total and complete and utter quiet if I'm going to finish these schematics! Now, go away! Away!",
+        "Hmmm? You're interested in my work, are you? Well, why didn't you say so?! Please, please, have a seat and listen! I'm currently working on schematics for a very powerful, very sturdy ship that can withstand even the worst of the Shattered Seas' fits!  It's all very exciting!",
+        "Uuuummm... no, well, yes, I mean yes, a war ship, but it's so much more than that! Don't you see! It'll be able to carry an army of a thousand men, and will be able to traverse any part of the Shattered Seas with ease!",
+        "Aside from creating the greatest invention ever invented in Freeport, I've always dreamed of traveling the world's oceans, just like my great, great, great grandfather, Captain Nalot! ",
+        "Are you mad?! The seas are too terrible, too unpredictable! The effects of the great cataclysms haven't subsided entirely, you know. We need powerful, secure and sturdy vessels in order to travel and explore the unexplored reaches of the world!",
+        "It takes thousands of years for such dramatic environmental effects to subside, don't you know anything?! The seas are still raging, and besides, the known shores of the world are as of yet uncharted. Who knows what sort of troubles one could run into.",
+        "Maps schmaps! They don't mean nothin' anymore! Since the ice of Velious and Everfrost melted, the sea levels have risen so high that we don't know how shorelines have shifted. Not to mention all the earthquakes. The continents may have shifted to other hemispheres!"
+      ]
+    },
+    {
+      "name": "Sempronia Gallus",
+      "name_sortable": "semproniagallus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Banker",
+      "locations": [
+        "61.72,4.13,53.14"
+      ]
+    },
+    {
+      "name": "Sipka",
+      "name_sortable": "sipka",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Tailor",
+      "locations": [
+        "85.86,-4.57,119.38"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "Skitter",
+      "name_sortable": "skitter",
+      "locations": [
+        "-3.75,3.0,116.1"
+      ]
+    },
+    {
+      "name": "Sparzit Cogsnibble",
+      "name_sortable": "sparzitcogsnibble",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "96.02,-4.57,100.29"
+      ],
+      "utterances": [
+        "I can't talk. I hear the voices again ... and they're telling me ... not to talk with bothersome adventurers... Get out of here!",
+        "I can't wait to tell you about my new mechanisnake!"
+      ]
+    },
+    {
+      "name": "Spezi the Street Hag",
+      "name_sortable": "spezithestreethag",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-8.87,3.0,59.24"
+      ]
+    },
+    {
+      "name": "Sprocket",
+      "name_sortable": "sprocket",
+      "locations": [
+        "91.74,-4.57,104.19"
+      ]
+    },
+    {
+      "name": "Svasha",
+      "name_sortable": "svasha",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Armorsmith",
+      "locations": [
+        "30.55,2.92,13.7"
+      ],
+      "utterances": [
+        "We don't sell contraband furnishings here.  We sell only pieces approved by the Overlord!"
+      ],
+      "store_template": "armorsmith"
+    },
+    {
+      "name": "Tarakh",
+      "name_sortable": "tarakh",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "93.55,-4.57,99.3"
+      ],
+      "utterances": [
+        "Keep your tongue to yourself, lest you find it missing."
+      ]
+    },
+    {
+      "name": "Tuber Fattleweeble",
+      "name_sortable": "tuberfattleweeble",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Crafting Trainer",
+      "locations": [
+        "1.41,3.0,115.04"
+      ],
+      "utterances": [
+        "I have nothing else to teach you for the moment.  Please return to me when you have earned enough experience to choose your profession."
+      ],
+      "store_template": "crafting_trainer"
+    },
+    {
+      "name": "Twergo Togglesmeet",
+      "name_sortable": "twergotogglesmeet",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Jeweler",
+      "locations": [
+        "58.62,3.0,73.77"
+      ],
+      "utterances": [
+        "My dad runs the best shop in town! A much better shop, mind you, than those ratmen trying to ruin our business."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 462189661 1165457727 0 0 0:burlap sash\\/a",
+          "prices": [
+            {
+              "coin": 768
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1265229794 393534311 0 0 0:burlap scarf\\/a",
+          "prices": [
+            {
+              "coin": 768
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2094939584 872857983 0 0 0:electrum band\\/a",
+          "prices": [
+            {
+              "coin": 768
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1699014820 -1307399108 0 0 0:electrum bangle\\/a",
+          "prices": [
+            {
+              "coin": 768
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 440145298 1390733613 0 0 0:electrum hoop\\/a",
+          "prices": [
+            {
+              "coin": 768
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1767953986 1103719718 0 0 0:electrum torque\\/a",
+          "prices": [
+            {
+              "coin": 768
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 11091100 1072752162 0 0 0:iron girdle\\/a",
+          "prices": [
+            {
+              "coin": 768
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 865645485 1131780805 0 0 0:tanned leather belt\\/a",
+          "prices": [
+            {
+              "coin": 768
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 914740952 -71265386 0 0 0:turquoise bracelet\\/a",
+          "prices": [
+            {
+              "coin": 768
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -591509753 1325243122 0 0 0:turquoise earring\\/a",
+          "prices": [
+            {
+              "coin": 768
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -137244496 982816254 0 0 0:turquoise necklace\\/a",
+          "prices": [
+            {
+              "coin": 768
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -518016182 998182305 0 0 0:turquoise ring\\/a",
+          "prices": [
+            {
+              "coin": 768
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vleko",
+      "name_sortable": "vleko",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Tailor",
+      "locations": [
+        "61.24,3.0,62.5"
+      ],
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item."
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "Vlepo",
+      "name_sortable": "vlepo",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Alchemist",
+      "locations": [
+        "57.61,3.0,63.43"
+      ],
+      "utterances": [
+        "You like good wares? You come to my stall!",
+        "I need to get some eye of griffin, a bear's paw, the heart of an innocent man--that'll be tough in this city!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 2101037654 -436556300 0 0 0:an emerald gem\\/a",
+          "prices": [
+            {
+              "coin": 176
+            }
+          ]
+        }
+      ],
+      "store_template": "alchemist"
+    },
+    {
+      "name": "Zninki Flatzazzle",
+      "name_sortable": "zninkiflatzazzle",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "44.34,3.0,105.05"
+      ]
     }
   ]
 }

@@ -11,13 +11,479 @@
       "location": "67.79,-7.08,116.19"
     },
     {
-      "key": "fprt_sewer01"
+      "key": "fprt_sewer01",
+      "location": "57.41,-6.16,56.85"
     },
     {
       "key": "fprt_tradeskill01_hood04"
     }
   ],
   "npcs": [
+    {
+      "name": "Anrean Velvinna",
+      "name_sortable": "anreanvelvinna",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "25.6,-6.0,39.35"
+      ],
+      "utterances": [
+        "You can almost see the Temple of War from up here. Some day I will walk through those halls."
+      ]
+    },
+    {
+      "name": "Antius Vedrix",
+      "name_sortable": "antiusvedrix",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-37.35,3.0,-35.45"
+      ],
+      "utterances": [
+        "Who are you? You're not the new guy! Get out of here!",
+        "Halt, traveler! What brings you to Beggar's Court?"
+      ]
+    },
+    {
+      "name": "Arms Dealer Silentblade",
+      "name_sortable": "armsdealersilentblade",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "12.24,9.13,-37.78"
+      ],
+      "utterances": [
+        "Is there a specific way you're looking to kill someone?  Disemboweling, beheading, impaling, strangulation?"
+      ]
+    },
+    {
+      "name": "Banwyn Sympronian",
+      "name_sortable": "banwynsympronian",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "44.22,3.5,-1.99"
+      ],
+      "utterances": [
+        "I'm busy with a patron. Don't bother me."
+      ]
+    },
+    {
+      "name": "Barmaid Melia",
+      "name_sortable": "barmaidmelia",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "-2.14,5.0,-39.13",
+        "-12.09,4.0,-36.71"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Cinre",
+      "name_sortable": "cinre",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Bowyer",
+      "locations": [
+        "-15.3,-7.0,50.89"
+      ],
+      "store_template": "bowyer"
+    },
+    {
+      "name": "Cordilia",
+      "name_sortable": "cordilia",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "-26.55,-7.0,59.0"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "Hello! Can I offer you one of our new lifetime extended warranties for any merchandise you purchase?  "
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Cordius Sejanius",
+      "name_sortable": "cordiussejanius",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "64.96,-4.99,30.28"
+      ],
+      "utterances": [
+        "The Coalition of Tradesfolke aren't capable of serving anyone other than to serve its own greed.",
+        "The words preached by the Dismal Rage bring spiritual enlightenment to the weak.",
+        "Too often the Arcane Scientists at the academy dedicate themselves to useless knowledge that is of no use to our city.",
+        "The weak souls of the Seafury Buccaneers only cry, running to a priest when facing certain death."
+      ]
+    },
+    {
+      "name": "Delcairn Sebastian",
+      "name_sortable": "delcairnsebastian",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "67.13,9.47,16.47"
+      ],
+      "utterances": [
+        "Please, leave while it still doesn't matter."
+      ]
+    },
+    {
+      "name": "Drunk Artorius",
+      "name_sortable": "drunkartorius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "7.95,4.75,-27.53"
+      ]
+    },
+    {
+      "name": "Durio Dexus",
+      "name_sortable": "duriodexus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-27.37,-5.0,12.02"
+      ],
+      "utterances": [
+        "I'm busy. Keep walkin'."
+      ]
+    },
+    {
+      "name": "Elduin Proceus",
+      "name_sortable": "elduinproceus",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Armorsmith",
+      "locations": [
+        "9.48,-6.0,37.32"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "In spite of the cost of living, it's still quite a popular item."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 735069392 -706490987 0 0 0:iron brigandine chestguard\\/a",
+          "prices": [
+            {
+              "coin": 1622
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1063688118 2072478670 0 0 0:iron brigandine footpads\\/a",
+          "prices": [
+            {
+              "coin": 1082
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1102245452 -506167226 0 0 0:iron brigandine handguards\\/a",
+          "prices": [
+            {
+              "coin": 1190
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1700393609 -1871467101 0 0 0:iron brigandine helm\\/a",
+          "prices": [
+            {
+              "coin": 1298
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 861554712 413560760 0 0 0:iron brigandine leggings\\/a",
+          "prices": [
+            {
+              "coin": 1406
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -665785111 -383418531 0 0 0:iron brigandine shoulder pads\\/a",
+          "prices": [
+            {
+              "coin": 1298
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2023524502 -1792397302 0 0 0:iron brigandine wristguards\\/a",
+          "prices": [
+            {
+              "coin": 1082
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1792447727 1887352928 0 0 0:iron chainmail boots\\/a",
+          "prices": [
+            {
+              "coin": 832
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 798815898 63927370 0 0 0:iron chainmail bracers\\/a",
+          "prices": [
+            {
+              "coin": 832
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1082873737 1599315069 0 0 0:iron chainmail coat\\/a",
+          "prices": [
+            {
+              "coin": 1248
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2079042761 1732467438 0 0 0:iron chainmail coif\\/a",
+          "prices": [
+            {
+              "coin": 998
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -241007839 -1320610198 0 0 0:iron chainmail gloves\\/a",
+          "prices": [
+            {
+              "coin": 915
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1016529276 1651265863 0 0 0:iron chainmail leggings\\/a",
+          "prices": [
+            {
+              "coin": 1082
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 914872805 1940441659 0 0 0:iron chainmail mantle\\/a",
+          "prices": [
+            {
+              "coin": 998
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1772903730 201057962 0 0 0:iron platemail chestguard\\/a",
+          "prices": [
+            {
+              "coin": 1248
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1153435224 -1921896826 0 0 0:iron platemail gauntlets\\/a",
+          "prices": [
+            {
+              "coin": 915
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 980534684 1588047155 0 0 0:iron platemail helm\\/a",
+          "prices": [
+            {
+              "coin": 998
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1736808118 -951250768 0 0 0:iron platemail legplates\\/a",
+          "prices": [
+            {
+              "coin": 1082
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1405796152 -1433499850 0 0 0:iron platemail pauldrons\\/a",
+          "prices": [
+            {
+              "coin": 998
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1784436585 1297026754 0 0 0:iron platemail tonlets\\/a",
+          "prices": [
+            {
+              "coin": 832
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 151637911 -666350823 0 0 0:iron platemail vambraces\\/a",
+          "prices": [
+            {
+              "coin": 832
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elowyn Equitus",
+      "name_sortable": "elowynequitus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "65.18,4.24,10.6"
+      ],
+      "utterances": [
+        "Arcane Scientists couldn't navigate their way through shallow waters without a map if they tried.",
+        "Dealing with the Coalition of Tradesfolke will only burn your plunder and empty your pockets.",
+        "I don't trust the Freeport Militia. Neither should you, mate.",
+        "The Seafury Buccaneers dominate the high seas. There is no competition, matey.",
+        "The Dismal Rage is hideous I tell you. I always get the shivers when I pass by them."
+      ]
+    },
+    {
+      "name": "Favonius Seneca",
+      "name_sortable": "favoniusseneca",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-5.4,-6.0,32.9"
+      ],
+      "utterances": [
+        "Mind your own business.  If you keep gawking, you'll walk away with a limp--and that's because I'm in a good mood today."
+      ]
+    },
+    {
+      "name": "Festus Septimius",
+      "name_sortable": "festusseptimius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "42.12,5.25,-23.21"
+      ],
+      "utterances": [
+        "This glass is all hand blown and custom made. If you break it, then I break something of yours, got it?"
+      ]
+    },
+    {
+      "name": "Gilriel Cypria",
+      "name_sortable": "gilrielcypria",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "62.09,4.24,9.9"
+      ],
+      "utterances": [
+        "I don't trust the Freeport Militia. Neither should you, mate.",
+        "I'd rather be stranded overboard than be converted by the dark beliefs that Dismal Rage preaches.",
+        "The Seafury Buccaneers are feared by all others on the open sea. They show no mercy to the dogs that try to sail the sea unprotected.",
+        "You might as well hand your loot to the Coalition of Tradesfolke if you ever decide to work for them.",
+        "It's weak to rely on magic for everything. If ye have the same weakness, the Academy of Arcane Sciences is for you."
+      ]
+    },
+    {
+      "name": "Glanae",
+      "name_sortable": "glanae",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "10.76,9.19,-45.67"
+      ]
+    },
+    {
+      "name": "Hodstock",
+      "name_sortable": "hodstock",
+      "locations": [
+        "42.09,5.25,-18.32",
+        "20.41,3.5,-1.25",
+        "15.81,3.5,10.15",
+        "-11.3,2.13,-5.02",
+        "13.51,4.75,-22.35"
+      ]
+    },
     {
       "name": "Kaseo Volcatius",
       "name_sortable": "kaseovolcatius",
@@ -33,6 +499,249 @@
       ],
       "utterances": [
         "You lack the importance to address me. Away with you."
+      ]
+    },
+    {
+      "name": "Kith",
+      "name_sortable": "kith",
+      "locations": [
+        "67.65,-7.08,94.20",
+        "57.00,-6.49,83.15",
+        "38.58,-5.0,32.8"
+      ]
+    },
+    {
+      "name": "Lieutenant Cervaen",
+      "name_sortable": "lieutenantcervaen",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "67.6,9.48,13.74"
+      ],
+      "utterances": [
+        "Yeah? Whadya need?"
+      ]
+    },
+    {
+      "name": "Livia Drusilla",
+      "name_sortable": "liviadrusilla",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "10.82,-7.0,49.41",
+        "16.14,-5.34,31.98"
+      ],
+      "utterances": [
+        "The next time that guy leers at me, I'm gonna punch him in the throat."
+      ]
+    },
+    {
+      "name": "Loamshallow",
+      "name_sortable": "loamshallow",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Alchemist",
+      "locations": [
+        "3.11,4.75,-47.75"
+      ],
+      "utterances": [
+        "Let me guess, you're looking for poison, right?",
+        "Poison testers, it's been my biggest seller for the past several months.  Of course poison was a close second. "
+      ],
+      "store_template": "alchemist"
+    },
+    {
+      "name": "Lucius Vulso",
+      "name_sortable": "luciusvulso",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "46.93,-5.0,40.48"
+      ],
+      "utterances": [
+        "What do you need? I've no time for small talk."
+      ]
+    },
+    {
+      "name": "Maecenus",
+      "name_sortable": "maecenus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "61.84,-6.43,68.03"
+      ],
+      "utterances": [
+        "I don't know you. Shove off."
+      ]
+    },
+    {
+      "name": "Marcus Cantarius",
+      "name_sortable": "marcuscantarius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "86.62,5.02,-24.08"
+      ],
+      "utterances": [
+        "I've dedicated my life to eradicating the dervishes."
+      ]
+    },
+    {
+      "name": "Marcus Levidius",
+      "name_sortable": "marcuslevidius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "8.59,-6.74,44.68",
+        "8.72,-7.0,54.7"
+      ],
+      "utterances": [
+        "Yes, yes, hello. I'm busy.",
+        "Grim determination has gotten us to where we are now."
+      ]
+    },
+    {
+      "name": "Mariana Darkleaf",
+      "name_sortable": "marianadarkleaf",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "49.53,5.01,-45.9"
+      ]
+    },
+    {
+      "name": "Molin Driftwater",
+      "name_sortable": "molindriftwater",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "-19.95,-7.0,67.87"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Nilniar Ursus",
+      "name_sortable": "nilniarursus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "65.28,-3.96,24.74"
+      ],
+      "utterances": [
+        "The members within the Coalition of Tradefolke are nothing more than common thieves that empty your pockets before your eyes.",
+        "The Dismal Rage is an evil entity that can destroy your soul.",
+        "The Seafuries are just a bunch of mindless sea dwellers."
+      ]
+    },
+    {
+      "name": "Octavia Jovina",
+      "name_sortable": "octaviajovina",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "27.04,9.46,-24.61"
+      ],
+      "utterances": [
+        "The priests of Dismal Rage are better at running from battle than leading one.",
+        "The Seafury Buccaneers can't be trusted. They will turn on you when you least expect it."
+      ]
+    },
+    {
+      "name": "Pebblemark",
+      "name_sortable": "pebblemark",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Shieldsmith",
+      "locations": [
+        "22.89,5.25,-29.72"
+      ],
+      "store_template": "shieldsmith"
+    },
+    {
+      "name": "a rat",
+      "name_sortable": "rat",
+      "locations": [
+        "14.62,3.25,10.70",
+        "25.39,5.25,-20.30"
+      ]
+    },
+    {
+      "name": "Reana Astia",
+      "name_sortable": "reanaastia",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "-14.9,4.0,-39.17"
+      ],
+      "utterances": [
+        "Hey! Do you want some grain? Nothing's wrong with it. Come on, it'll be good for making beer or something."
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Ro",
+      "name_sortable": "ro",
+      "locations": [
+        "-2.9,1.92,15.36",
+        "-4.18,3.5,-22.43"
       ]
     },
     {
@@ -53,6 +762,126 @@
         "I can't wait until I'm back out at sea.  It's odd to have solid ground under my feet.",
         "Those that go where the wind takes them can wind up lost at sea.  You seem like you've got both hands on the captain's wheel.",
         "Don't look to me to be your next travel mate!"
+      ]
+    },
+    {
+      "name": "Scribe Inkwell",
+      "name_sortable": "scribeinkwell",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Linguist",
+      "locations": [
+        "29.39,5.25,-18.69"
+      ],
+      "utterances": [
+        "Curses have been a big seller.  Is there anyone in particular you're looking to torment?",
+        "So are you planning to master your art at the academy?  We keep all of the required supplies right here!",
+        "I've got scrolls here that will make your eyes pop out and your nostrils bleed!  What can I get for you?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 230963297 -915259732 0 0 0:Ayr'Dal Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sentius Poisonleaf",
+      "name_sortable": "sentiuspoisonleaf",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "43.34,3.5,0.04"
+      ],
+      "utterances": [
+        "This mead is quite exquisite! It's a good thing I just came into some money. I've seen what Banwyn does to people who don't pay their tab."
+      ]
+    },
+    {
+      "name": "Sestius Buccio",
+      "name_sortable": "sestiusbuccio",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "2.01,5.0,-38.71"
+      ],
+      "utterances": [
+        "I can't tell this pub from a pigsty.  Get to work and clean this mess!",
+        "You're slower than usual today. Have you been slippin yourself more than a few drinks under the table?"
+      ],
+      "store_template": "bartender"
+    },
+    {
+      "name": "Tabith the Hag",
+      "name_sortable": "tabiththehag",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-21.73,-5.0,17.81"
+      ],
+      "utterances": [
+        "Stealth, guile and bravado shall follow you on your path to greatness."
+      ]
+    },
+    {
+      "name": "Thesta",
+      "name_sortable": "thesta",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Tailor",
+      "locations": [
+        "-20.51,2.0,-3.62"
+      ],
+      "utterances": [
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "Tsuul Nyghtfallow",
+      "name_sortable": "tsuulnyghtfallow",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-32.63,2.48,-12.35"
+      ]
+    },
+    {
+      "name": "Tullia Domna",
+      "name_sortable": "tulliadomna",
+      "utterances": [
+        "A person of my fine breeding doesn't do business with lowly half-breeds. Get out of my sight, peasant.",
+        "Come hither ... how can I, Queen Antonia Bayle, serve you?"
       ]
     }
   ]

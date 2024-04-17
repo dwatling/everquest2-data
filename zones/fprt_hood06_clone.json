@@ -17,9 +17,121 @@
     {
       "key": "fprt_tradeskill01_hood06",
       "location": "12.39,-3.75,25.45"
+    },
+    {
+      "key": "fprt_adv04_spawl",
+      "location": "101.20,-4.44,20.11"
     }
   ],
   "npcs": [
+    {
+      "name": "Anthony Glavias",
+      "name_sortable": "anthonyglavias",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "83.86,0.0,-10.61"
+      ],
+      "utterances": [
+        "What! Who? No you're not the person I'm supposed to talk to.",
+        "Why I was instructed to guard this corner? I have no idea..."
+      ]
+    },
+    {
+      "name": "Arms Dealer Shilza",
+      "name_sortable": "armsdealershilza",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Weaponsmith",
+      "locations": [
+        "91.01,-4.37,14.4"
+      ],
+      "utterances": [
+        "A good weapon at your side is the only real friend you'll ever have!",
+        "Come closer and I'll make it worth your while.",
+        "Is there a specific way you're looking to kill someone?  Disemboweling, beheading, impaling, strangulation?"
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "Banker Izark",
+      "name_sortable": "bankerizark",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Banker",
+      "locations": [
+        "89.14,-2.87,-33.22"
+      ],
+      "utterances": [
+        "Your money is safe with the Freeport Reserve. Trust us.  Just provide us your guild association."
+      ]
+    },
+    {
+      "name": "Barmaid Frostwind",
+      "name_sortable": "barmaidfrostwind",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "59.75,-4.0,-50.36",
+        "60.28,-4.0,-59.33"
+      ],
+      "utterances": [
+        "Hey do you see any water around here?  Oh well, who needs to wash their hands?",
+        "Hey you want that spicy cake to go?  Be careful, that one will singe your nose hairs!"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Bartender Icebrew",
+      "name_sortable": "bartendericebrew",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "64.64,-4.0,-60.19"
+      ],
+      "utterances": [
+        "Whadya drinkin? Ya better not make it one of those sissy drinks!"
+      ],
+      "store_template": "bartender"
+    },
+    {
+      "name": "Briac Tundrafire",
+      "name_sortable": "briactundrafire",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "70.44,-4.0,-54.09"
+      ],
+      "utterances": [
+        "BARKEEP! Give me another round before I start getting angry!"
+      ]
+    },
     {
       "name": "Brood Matron Vrim Malthyk",
       "name_sortable": "broodmatronvrimmalthyk",
@@ -66,6 +178,82 @@
       ]
     },
     {
+      "name": "Colin Stoutfist",
+      "name_sortable": "colinstoutfist",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "62.01,-4.0,-55.02"
+      ],
+      "utterances": [
+        "Can't drink widda Barbarian? Come over here!"
+      ]
+    },
+    {
+      "name": "Dunn Coldbrow",
+      "name_sortable": "dunncoldbrow",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "30.09,-3.5,-39.9"
+      ]
+    },
+    {
+      "name": "Dyerth Shiraz",
+      "name_sortable": "dyerthshiraz",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "57.96,-4.0,-61.01"
+      ]
+    },
+    {
+      "name": "Evelyn Stoutfist",
+      "name_sortable": "evelynstoutfist",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "61.95,-3.5,14.82"
+      ]
+    },
+    {
+      "name": "Garowin",
+      "name_sortable": "garowin",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Mender",
+      "locations": [
+        "95.8,-4.0,9.9"
+      ]
+    },
+    {
+      "name": "Igor",
+      "name_sortable": "igor",
+      "locations": [
+        "84.32,-4.37,18.06"
+      ]
+    },
+    {
       "name": "Innkeep Frosthome",
       "name_sortable": "innkeepfrosthome",
       "race": [
@@ -106,8 +294,77 @@
       ]
     },
     {
+      "name": "Issik Dethyr",
+      "name_sortable": "issikdethyr",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "87.11,-4.37,11.46"
+      ],
+      "utterances": [
+        "Away, civilian! The Militia has no time for lorungs like you!"
+      ]
+    },
+    {
+      "name": "Ivan",
+      "name_sortable": "ivan",
+      "locations": [
+        "79.94,-4.37,13.03"
+      ]
+    },
+    {
+      "name": "Ivashko",
+      "name_sortable": "ivashko",
+      "level": 3,
+      "locations": [
+        "43.25,-4.35,-11.98",
+        "57.2,-4.35,-33.44"
+      ]
+    },
+    {
+      "name": "Jondy Cobbleblork",
+      "name_sortable": "jondycobbleblork",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "75.41,-4.35,-35.79"
+      ],
+      "utterances": [
+        "One scale. Just one scale! That's all I need to complete my research on fling zomping and its effect on kittens. But will an iksar give me a scale? Noooo!"
+      ]
+    },
+    {
+      "name": "Kakriss",
+      "name_sortable": "kakriss",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bowyer",
+      "locations": [
+        "66.2,-4.35,-23.34"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "Are you going to buy anything today, or am I just wasting my time?  This isn't a museum display you know!",
+        "In spite of the cost of living, it's still quite a popular item."
+      ],
+      "store_template": "bowyer"
+    },
+    {
       "name": "Lachar",
       "name_sortable": "lachar",
+      "level": 3,
       "locations": [
         "26.42,-4.38,26.83"
       ]
@@ -115,10 +372,103 @@
     {
       "name": "Lambert",
       "name_sortable": "lambert",
+      "level": 1,
       "locations": [
         "18.46,-4.38,44.69",
         "47.14,0.0,0.17"
       ]
+    },
+    {
+      "name": "Lorn McHalford",
+      "name_sortable": "lornmchalford",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Shieldsmith",
+      "locations": [
+        "73.73,-4.37,2.15"
+      ],
+      "store_template": "shieldsmith"
+    },
+    {
+      "name": "Lucas MacCormick",
+      "name_sortable": "lucasmaccormick",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "49.05,-4.35,-10.27",
+        "62.19,-4.35,-24.35",
+        "60.25,-4.35,-42.38"
+      ],
+      "utterances": [
+        "Quit your whinin', I paid ye with my jokes and my fine company.",
+        "I haven't that much to drink yet, I got here when... Bah, I forgot!"
+      ]
+    },
+    {
+      "name": "Megen O`Keel",
+      "name_sortable": "megenokeel",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Tailor",
+      "locations": [
+        "45.55,-4.35,-8.51"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "Melvin Dunford",
+      "name_sortable": "melvindunford",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "64.79,-4.0,-54.55"
+      ],
+      "utterances": [
+        "A guy walks into a bar. He says, \"Ouch\". Another guy walks into a bar and says, \"Ouch\". Huhhuh... You think he woulda learned from the first guy.",
+        "There's three kinda people in this world... I just can't remember any of them right now.",
+        "Hiccup! Oh, that's enough for me. Why, you buyin'?",
+        "Anna, darlin'... This one's fer you. Hiccup!"
+      ]
+    },
+    {
+      "name": "Merchant Ziraak",
+      "name_sortable": "merchantziraak",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Armorsmith",
+      "locations": [
+        "82.9,-4.37,4.48"
+      ],
+      "utterances": [
+        "Welcome friend of the Overlord,  please look around.  We have several pieces from the Citadel itself!      ",
+        "We don't sell contraband furnishings in our shop.  We sell only pieces approved by the Overlord!",
+        "Please don't touch anything.  This isn't a museum. If you break it, you buy it!",
+        "Don't be ashamed, friend.  We have pieces that even ratongas can afford!"
+      ],
+      "store_template": "armorsmith"
     },
     {
       "name": "Mirin Zilishia",
@@ -138,6 +488,13 @@
         "Silence.  I do not wish to hear your chatter.",
         "If you bother me, I will act upon the thoughts that have been coursing through my head from the moment I saw you.",
         "Get the facts first, then use them to your advantage."
+      ]
+    },
+    {
+      "name": "Natasha",
+      "name_sortable": "natasha",
+      "locations": [
+        "97.31,-4.37,21.4"
       ]
     },
     {
@@ -180,15 +537,68 @@
         "38.67,0.0,6.89"
       ],
       "utterances": [
-        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "Hello! Can I offer you one of our new lifetime extended warranties for any merchandise you purchase?  "
       ],
       "store_template": "general_goods"
     },
     {
+      "name": "Peter",
+      "name_sortable": "peter",
+      "locations": [
+        "89.24,-4.37,18.43"
+      ]
+    },
+    {
+      "name": "Plotter Nicolai ",
+      "name_sortable": "plotternicolai",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "96.64,-4.37,16.65"
+      ],
+      "utterances": [
+        "Watching you watching us...",
+        "Ohh, they'll never suspect that, no they won't!",
+        "Yes, yes, that will do nicely... err, hello, who are you?"
+      ]
+    },
+    {
+      "name": "a poisonous hood wasp",
+      "name_sortable": "poisonoushoodwasp",
+      "level": 4,
+      "locations": [
+        "70.89,-4.35,-30.03"
+      ]
+    },
+    {
       "name": "a rat",
       "name_sortable": "rat",
+      "level": 2,
       "locations": [
-        "15.98,-4.38,9.82"
+        "15.98,-4.38,9.82",
+        "36.12,-2.25,-14.97",
+        "61.13,-4.35,-38.00"
+      ]
+    },
+    {
+      "name": "Savas Dranak",
+      "name_sortable": "savasdranak",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "52.71,-4.35,-46.07"
+      ],
+      "utterances": [
+        "It is a shame this one didn't do what he was told.  He was my favorite thrall too."
       ]
     },
     {
@@ -257,13 +667,36 @@
     {
       "name": "Spera",
       "name_sortable": "spera",
+      "level": 3,
       "locations": [
-        "29.09,0.0,9.03"
+        "29.09,0.0,9.03",
+        "48.16,-4.35,-10.66"
       ]
+    },
+    {
+      "name": "Sypp",
+      "name_sortable": "sypp",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Alchemist",
+      "locations": [
+        "73.96,0.0,-5.68"
+      ],
+      "utterances": [
+        "Let me guess, you're looking for poison right?",
+        "Be careful what you touch in here. You're liable to kill us all!",
+        "Poison testers, it's been my biggest seller for the past several months.  Of course poison was a close second. "
+      ],
+      "store_template": "alchemist"
     },
     {
       "name": "Tabitha",
       "name_sortable": "tabitha",
+      "level": 2,
       "locations": [
         "21.52,-4.38,36.16"
       ]
@@ -353,6 +786,26 @@
       ],
       "utterances": [
         "I am the finest weaponsmith in Freeport... But I don't do public work anymore. These days I simply make new designs for the sake of advancing my craft... and the occasional very pricey contract."
+      ]
+    },
+    {
+      "name": "Zever Tzizzink",
+      "name_sortable": "zevertzizzink",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "80.64,-4.0,26.92"
+      ],
+      "utterances": [
+        "Silence.  I do not wish to hear your chatter.",
+        "The dark elves are inferior creatures led by delusions of grandeur.  How sad.",
+        "I feel that vengeance is best served cold.",
+        "Were all the barbarians to be slaughtered, I would call it a mercy killing.",
+        "What do you want?"
       ]
     }
   ]

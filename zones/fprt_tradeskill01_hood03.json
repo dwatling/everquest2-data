@@ -19,12 +19,29 @@
       "gender": [
         "male"
       ],
+      "purpose": "Broker",
       "locations": [
         "-1.36,-19.59,12.96"
       ],
-      "purpose": "Broker",
       "utterances": [
         "In spite of the cost of living, it's still quite a popular item."
+      ]
+    },
+    {
+      "name": "Kamilis Shrezil",
+      "name_sortable": "kamilisshrezil",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Tradeskill Tutorial",
+      "locations": [
+        "-16.13,-0.17,-3.84"
+      ],
+      "utterances": [
+        "Hello, friend!  I'm here to teach interested people a little bit about how to harvest crafting materials, and how to craft tradeskilled items.  Are you interested?"
       ]
     },
     {
@@ -56,6 +73,9 @@
       "purpose": "Wholesaler",
       "locations": [
         "-2.2,-0.18,8.94"
+      ],
+      "utterances": [
+        "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor, are you?"
       ],
       "store_template": "wholesaler"
     },

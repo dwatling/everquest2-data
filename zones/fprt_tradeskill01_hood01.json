@@ -13,6 +13,16 @@
     {
       "name": "Batoompa Lumberfist",
       "name_sortable": "batoompalumberfist",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Rush Orders",
+      "locations": [
+        "-1.61,-0.19,-4.49"
+      ],
       "utterances": [
         "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
       ]
@@ -20,6 +30,16 @@
     {
       "name": "Belph Worcon",
       "name_sortable": "belphworcon",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Work Orders",
+      "locations": [
+        "-3.1,-0.18,-2.91"
+      ],
       "utterances": [
         "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
       ]
@@ -27,16 +47,53 @@
     {
       "name": "Dahar Negaru",
       "name_sortable": "daharnegaru",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Tradeskill Tutorial",
+      "locations": [
+        "-15.86,-0.17,-3.64"
+      ],
       "utterances": [
         "Hello, friend!  I'm here to teach interested people a little bit about how to harvest crafting materials, and how to craft tradeskilled items.  Are you interested?"
       ]
     },
     {
+      "name": "Goraka Fleshreaver",
+      "name_sortable": "gorakafleshreaver",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Broker",
+      "locations": [
+        "-1.94,-19.59,13.63"
+      ],
+      "utterances": [
+        "The stuff's over there.  Just let me know if you find anything you like."
+      ]
+    },
+    {
       "name": "Wholesaler Jikoora Leaftoe",
       "name_sortable": "wholesalerjikooraleaftoe",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Wholesaler",
+      "locations": [
+        "-2.12,-0.18,8.77"
+      ],
       "utterances": [
-        "You show interest in the crafting trade, good.  Freeport can always use talented artisans within the walls of our great city.  I can help you get started and offer you some of the basic recipes at no charge.  Would you be interested?"
+        "You show interest in the crafting trade, good.  Freeport can always use talented artisans within the walls of our great city.  I can help you get started and offer you some of the basic recipes at no charge.  Would you be interested?",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
       ],
       "store_template": "wholesaler"
     }

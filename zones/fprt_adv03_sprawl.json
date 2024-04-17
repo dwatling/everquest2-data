@@ -8,10 +8,12 @@
       "key": "commonlands"
     },
     {
-      "key": "fprt_hood06_clone"
+      "key": "fprt_hood06_clone",
+      "location": "-101.72,-7.00,-30.02"
     },
     {
-      "key": "fprt_hood01_clone"
+      "key": "fprt_hood01_clone",
+      "location": "-104.92,-4.42,-52.17"
     },
     {
       "key": "fprt_adv04_ruins"
@@ -232,6 +234,12 @@
     {
       "name": "Crispin Luvinius",
       "name_sortable": "crispinluvinius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-83.18,-4.42,-51.2"
       ],
@@ -395,6 +403,12 @@
     {
       "name": "Enforcer Kurdek",
       "name_sortable": "enforcerkurdek",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Dreadnaught",
       "locations": [
         "-83.78,-4.68,-36.07"
@@ -567,6 +581,12 @@
     {
       "name": "Loria",
       "name_sortable": "loria",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Provisions",
       "locations": [
         "-96.05,-4.3,-62.73"
@@ -576,80 +596,7 @@
         "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor, are you?",
         "The stuff's over there.  Just let me know if you find anything you like."
       ],
-      "store": [
-        {
-          "gamelink": "\\aITEM 1618656513 -631993083:Antonia Ale (Alcoholic)\\/a",
-          "prices": [
-            {
-              "coin": 180
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 502648298 -366828437:canteen of pond water\\/a",
-          "prices": [
-            {
-              "coin": 38
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1281187795 -495418410:Dwarven Ale (Alcoholic)\\/a",
-          "prices": [
-            {
-              "coin": 900
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -692542167 450719094:Elven Wine (Alcoholic)\\/a",
-          "prices": [
-            {
-              "coin": 1080
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a",
-          "prices": [
-            {
-              "coin": 19
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1608751314 -1346962995:Gnomish Spirits (Alcoholic)\\/a",
-          "prices": [
-            {
-              "coin": 1260
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1424677497 801220853:Lucan's Lager (Alcoholic)\\/a",
-          "prices": [
-            {
-              "coin": 180
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1199073772 520539661:Oggok Swill (Alcoholic)\\/a",
-          "prices": [
-            {
-              "coin": 1800
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1383852152 -1014417461:Teir'dal Blood Wine (Alcoholic)\\/a",
-          "prices": [
-            {
-              "coin": 1620
-            }
-          ]
-        }
-      ]
+      "store_template": "provisions"
     },
     {
       "name": "L`Unt",
@@ -968,7 +915,9 @@
     {
       "gamelink": "\\aITEM 723338470 738491006:sparrow feather\\/a",
       "locations": [
-        "-51.23,-4.00,-38.83"
+        "-51.23,-4.00,-38.83",
+        "-60.68,-4.00,-34.83",
+        "-58.58,-4.00,-26.83"
       ]
     },
     {

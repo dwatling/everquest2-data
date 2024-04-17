@@ -25,6 +25,12 @@
     {
       "name": "Arms Dealer Nylzs",
       "name_sortable": "armsdealernylzs",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Weaponsmith",
       "locations": [
         "-108.11,-2.67,91.36"
@@ -32,7 +38,8 @@
       "utterances": [
         "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
         "Hello! Can I offer you one of our new lifetime extended warranties for any merchandise you purchase?  ",
-        "In spite of the cost of living, it's still quite a popular item."
+        "In spite of the cost of living, it's still quite a popular item.",
+        "Are you going to buy anything today, or am I just wasting my time?  This isn't a museum display you know!"
       ],
       "store": [
         {
@@ -489,6 +496,12 @@
     {
       "name": "Captain Arellius",
       "name_sortable": "captainarellius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Freeport Militia",
       "locations": [
         "-166.66,-1.01,80.73"
@@ -544,6 +557,15 @@
     {
       "name": "a courageous defender",
       "name_sortable": "courageousdefender",
+      "race": [
+        "half elf",
+        "human",
+        "ogre",
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Freeport Militia",
       "level": 12,
       "locations": [
@@ -555,15 +577,24 @@
         "-25.32,-3.48,76.78",
         "-27.75,-2.94,87.67",
         "-81.52,-3.06,39.50",
-        "-92.3,-3.08,42.46"
+        "-92.3,-3.08,42.46",
+        "-94.08,-2.69,77.71",
+        "-101.33,-2.5,60.45"
       ],
       "utterances": [
-        "The sons of Zek are a curse upon us all!"
+        "The sons of Zek are a curse upon us all!",
+        "I have orders to fight, not to chit-chat."
       ]
     },
     {
       "name": "Ernest Ironthumb",
       "name_sortable": "ernestironthumb",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Harvesting and Collections",
       "locations": [
         "-111.75,-2.67,92.41"
@@ -582,6 +613,12 @@
     {
       "name": "Fangtarn",
       "name_sortable": "fangtarn",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Mender",
       "locations": [
         "-106.3,-2.67,88.85"
@@ -623,6 +660,12 @@
     {
       "name": "Lieutenant Argosian",
       "name_sortable": "lieutenantargosian",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Freeport Militia",
       "locations": [
         "-103.55,-2.67,81.95"
@@ -942,6 +985,12 @@
     {
       "name": "Mardyp Prunt",
       "name_sortable": "mardypprunt",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Armorsmith",
       "locations": [
         "-115.49,-2.51,68.62"
@@ -960,6 +1009,12 @@
     {
       "name": "Pitrova",
       "name_sortable": "pitrova",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "General Goods",
       "locations": [
         "-154.89,-1.02,87.89"
@@ -969,7 +1024,8 @@
         "The stuff's over there.  Just let me know if you find anything you like.",
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
         "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
-      ]
+      ],
+      "store_template": "general_goods"
     },
     {
       "name": "a prisoner guard",
@@ -1079,6 +1135,12 @@
     },
     {
       "gamelink": "\\aITEM 164202245 -1101324040:chipped shard of divination\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1518761661 362317511:cracked high elf bone fragment\\/a",
+      "locations": [
+        "-118.99,-2.00,87.87"
+      ]
     },
     {
       "gamelink": "\\aITEM -576796482 987236999:plain brown moth\\/a"

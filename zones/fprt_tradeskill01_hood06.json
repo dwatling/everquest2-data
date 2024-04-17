@@ -13,13 +13,50 @@
     {
       "name": "Edalene Spiritrunner",
       "name_sortable": "edalenespiritrunner",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Rush Orders",
+      "locations": [
+        "-1.37,-0.19,-4.22"
+      ],
       "utterances": [
         "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
       ]
     },
     {
+      "name": "Essle Sesspha",
+      "name_sortable": "esslesesspha",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Broker",
+      "locations": [
+        "-1.82,-19.59,13.34"
+      ],
+      "utterances": [
+        "The stuff is over there.  Just let me know if you find anything you like."
+      ]
+    },
+    {
       "name": "Skeld Brewbeard",
       "name_sortable": "skeldbrewbeard",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Tradeskill Tutorial",
+      "locations": [
+        "-15.99,-0.17,-3.59"
+      ],
       "utterances": [
         "Hello, friend!  I'm here to teach interested people a little bit about how to harvest crafting materials, and how to craft tradeskilled items.  Are you interested?"
       ]
@@ -27,6 +64,16 @@
     {
       "name": "Taubius Nyeus",
       "name_sortable": "taubiusnyeus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Work Orders",
+      "locations": [
+        "-2.99,-0.18,-2.79"
+      ],
       "utterances": [
         "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
       ]
@@ -37,7 +84,9 @@
       "purpose": "Wholesaler",
       "utterances": [
         "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
-        "You show interest in the crafting trade, good.  Freeport can always use talented artisans within the walls of our great city.  I can help you get started and offer you some of the basic recipes at no charge.  Would you be interested?"
+        "You show interest in the crafting trade, good.  Freeport can always use talented artisans within the walls of our great city.  I can help you get started and offer you some of the basic recipes at no charge.  Would you be interested?",
+        "Hello! Can I offer you one of our new lifetime extended warranties for any merchandise you purchase?  ",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
       ],
       "store_template": "wholesaler"
     }

@@ -8,5 +8,93 @@
       "key": "fprt_hood04_clone",
       "location": "6.49,0.79,-3.43"
     }
+  ],
+  "npcs": [
+    {
+      "name": "Anise Wavechaser",
+      "name_sortable": "anisewavechaser",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Rush Orders",
+      "locations": [
+        "-1.05,-0.19,-3.74"
+      ],
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Katia Aruzia",
+      "name_sortable": "katiaaruzia",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Tradeskill Tutorial",
+      "locations": [
+        "-16.31,-0.17,-3.99"
+      ],
+      "utterances": [
+        "Hello, friend!  I'm here to teach interested people a little bit about how to harvest crafting materials, and how to craft tradeskilled items.  Are you interested?"
+      ]
+    },
+    {
+      "name": "Naia Vesat",
+      "name_sortable": "naiavesat",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Work Orders",
+      "locations": [
+        "-2.8,-0.18,-2.94"
+      ],
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Sandra Windwalker",
+      "name_sortable": "sandrawindwalker",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Broker",
+      "locations": [
+        "-1.6,-19.59,13.26"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ]
+    },
+    {
+      "name": "Wholesaler Kenda Foamrider",
+      "name_sortable": "wholesalerkendafoamrider",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-2.17,-0.18,9.08"
+      ],
+      "purpose": "wholesaler",
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "wholesaler"
+    }
   ]
 }

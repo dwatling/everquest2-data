@@ -83,6 +83,9 @@
     {
       "name": "Aelia Catus",
       "name_sortable": "aeliacatus",
+      "gender": [
+        "female"
+      ],
       "purpose": "General Goods",
       "locations": [
         "46.58,-12.07,89.25"
@@ -93,72 +96,7 @@
         "Hah! That attitude will serve you well around this district.  You'd better keep a strong sneer on your face when you're traveling on business for me.  I need you to give a merchant friend of mine a little reminder of a certain debt she owes.  If you're interested, I'll give you her name and location.  There may be a little coin in it for you, if you return with the response I'm looking for.",
         "I've seen that look before.  You're going to prove to be quite handy after all.  Here, let me write down my friend's name and location for you.  You're looking for Julia Florens of the Jade Tiger's Den.  Just ask her when she's going to pay me.  Preface that with this: Any wrong answer will result in a visit from the Butcher.  Be sure to sneer during that part.  Hurry off now.  I'll be waiting on you."
       ],
-      "store": [
-        {
-          "gamelink": "\\aITEM 43170140 -1786925771:canteen of murky water\\/a",
-          "prices": [
-            {
-              "coin": 10
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -2118643994 -127410696:Basic Sandpaper\\/a",
-          "prices": [
-            {
-              "coin": 6
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1390415545 -127485400:Basic Candle\\/a",
-          "prices": [
-            {
-              "coin": 6
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -48950061 -853046774:Basic Coal\\/a",
-          "prices": [
-            {
-              "coin": 6
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -539266589 13290626:Basic Incense\\/a",
-          "prices": [
-            {
-              "coin": 6
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1626387386 -1671104945:Basic Filament\\/a",
-          "prices": [
-            {
-              "coin": 6
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1271224269 -1219423686:Basic Kindling\\/a",
-          "prices": [
-            {
-              "coin": 1
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1230680062 1846598759:aerated mineral water\\/a",
-          "prices": [
-            {
-              "coin": 4
-            }
-          ]
-        }
-      ]
+      "store_template": "wholesaler+bartender"
     },
     {
       "name": "Aemilia Sevso",
@@ -187,6 +125,12 @@
     {
       "name": "Agamennus",
       "name_sortable": "agamennus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Broker",
       "locations": [
         "-217.75,-56.45,161.69"
@@ -235,6 +179,12 @@
     {
       "name": "Alethea Augustine",
       "name_sortable": "aletheaaugustine",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Rush Orders",
       "locations": [
         "28.51,-12.43,89.86"
@@ -455,13 +405,62 @@
     {
       "name": "Annia Kaeso",
       "name_sortable": "anniakaeso",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Tailor",
       "locations": [
         "-213.6,-56.48,185.39"
       ],
       "utterances": [
         "Hello.  Hello.  Welcome.  You look out of place here in Freeport.  Almost as if you were something blown in by the wind or swept ashore by the tide.  No wait.  It was that dream!"
-      ]
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1700261000 1245163492 0 0 0:Traveler's Guide of the Tailor Volume 3\\/a",
+          "prices": [
+            {
+              "coin": 480
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1296732960 652792631 0 0 0:Traveler's Guide of the Tailor Volume 4\\/a",
+          "prices": [
+            {
+              "coin": 7680
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 125048939 1892162285 0 0 0:Traveler's Guide of the Tailor Volume 5\\/a",
+          "prices": [
+            {
+              "coin": 30720
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -795437005 1441607865 0 0 0:Traveler's Guide of the Tailor Volume 6\\/a",
+          "prices": [
+            {
+              "coin": 46080
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1941970586 856876540 0 0 0:Traveler's Guide of the Tailor Volume 7\\/a",
+          "prices": [
+            {
+              "coin": 69120
+            }
+          ]
+        }
+      ],
+      "store_template": "filament"
     },
     {
       "name": "Arabella F'arquharson",
@@ -1356,17 +1355,30 @@
     {
       "name": "Caius Callidus",
       "name_sortable": "caiuscallidus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Work Orders",
       "locations": [
         "29.37,-12.43,90.0"
       ],
       "utterances": [
-        "A Scholar is rarely without demand for work.  I have a work order which we could use some help with. When you're ready to begin, just take the invoice from the work order clipboard or work order desk."
+        "A Scholar is rarely without demand for work.  I have a work order which we could use some help with. When you're ready to begin, just take the invoice from the work order clipboard or work order desk.",
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
       ]
     },
     {
       "name": "Caltuur",
       "name_sortable": "caltuur",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Kerra Mentor",
       "locations": [
         "-200.85,-56.69,153.52"
@@ -1512,6 +1524,12 @@
     {
       "name": "Clan Chief Malachi Sleetsaber",
       "name_sortable": "clanchiefmalachisleetsaber",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-78.15,-7.88,201.7"
       ],
@@ -1597,13 +1615,30 @@
     {
       "name": "Clodia Laeca",
       "name_sortable": "clodialaeca",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Bowyer",
       "locations": [
         "-221.49,-56.07,181.38"
       ],
       "utterances": [
         "If you need supplies, you best get 'em now! My wares go quickly. Hurry over, traveler. You mustn't wait! Come now!"
-      ]
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 643183420 -977010747 0 0 0:repair material\\/a",
+          "prices": [
+            {
+              "coin": 60000
+            }
+          ]
+        }
+      ],
+      "store_template": "sandpaper"
     },
     {
       "name": "Coldain Tradeskill Apprentice",
@@ -1917,12 +1952,23 @@
     {
       "name": "Derald Walldons",
       "name_sortable": "deraldwalldons",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Human Mentor",
       "locations": [
         "-84.75,-7.34,192.41"
       ],
       "utterances": [
-        "Freeport - built long ago by human hands, now stands as the pinnacle of civilization on Norrath.  Hail to the Overlord for his strength and vision in leading us here!"
+        "Freeport - built long ago by human hands, now stands as the pinnacle of civilization on Norrath.  Hail to the Overlord for his strength and vision in leading us here!",
+        "Hello, friend.  Welcome to the Overlord's city, the beacon of hope within all of Norrath - Freeport.",
+        "And to imagine, this was built by us humans in the past.  It is a testament to our power, to our perseverance, and to the will of the human race.  Without Freeport, civilization would have collapsed during the Age of Cataclysms.",
+        "When the other cities of the world were falling, it was Freeport that stood against the darkness, and ultimately, rose above it to provide a home for all of the refugees who lost their homes.  The other races might be stronger, smarter, or live longer, but it was a human city they came to in the end.",
+        "I'm glad you agree.  I have a few friends who are looking to recover many of the artifacts from our past, but have been running into some difficulty.  We've been looking for some helpful adventurers such as yourself to see if you can lend us some assistance.",
+        "Ah, eager to help!  This is good!  Then let me get you started.  Speak with Historian Velanie in the Academy of Arcane Science.  Many of our citizens here have lost some of their heritage, and it's up to us to help them get it back."
       ]
     },
     {
@@ -1989,6 +2035,12 @@
     {
       "name": "a distracted Militia guard",
       "name_sortable": "distractedmilitiaguard",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "303.19,-3.89,-19.70",
         "-246.64,-56.07,200.96",
@@ -3126,6 +3178,12 @@
     {
       "name": "Drake Fallon",
       "name_sortable": "drakefallon",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-44.48,-7.96,165.91"
       ],
@@ -3485,6 +3543,12 @@
     {
       "name": "Feepsin",
       "name_sortable": "feepsin",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "42.45,-12.07,90.56"
       ]
@@ -3625,6 +3689,12 @@
     {
       "name": "a Freeport denizen",
       "name_sortable": "freeportdenizen",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-113.33,-24.96,190.82",
         "-86.65,-23.8,107.58",
@@ -3664,7 +3734,12 @@
         "Steer clear of those Wraithguards.  That is, if you know what's good for you.",
         "If I had another five or six ales, maybe I wouldn't mind talking to you.",
         "If you're looking for trouble, I've got a whole fistful of it waiting for you.",
-        "Don't be afraid of what the fates have in store for you, young one."
+        "Don't be afraid of what the fates have in store for you, young one.",
+        "I find things that haven't even been lost yet.",
+        "That rat snitch better watch her back tonight.",
+        "Even a blind ratonga can feel the warm glow of gold.",
+        "Never ask when you can just take.  ",
+        "Bribery is useful tool!  Best you remember that in your adventures."
       ]
     },
     {
@@ -3731,6 +3806,14 @@
     {
       "name": "a Freeport resident",
       "name_sortable": "freeportresident",
+      "race": [
+        "human",
+        "ogre"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
       "locations": [
         "-136.87,-30.24,244.99",
         "-85.34,-23.8,105.76",
@@ -3742,7 +3825,8 @@
         "-188.28,-58.83,-199.77",
         "-147.66,-53.1,-281.84",
         "-38.7,-8.25,167.47",
-        "13.62,-8.2,229.61"
+        "13.62,-8.2,229.61",
+        "-22.14,-7.01,179.4"
       ],
       "utterances": [
         "Does anyone in this city bathe?",
@@ -3784,14 +3868,18 @@
         "In war there is no room for fear.",
         "I've lived this long thanks to my ability to kill.",
         "Blood, lots of blood on the battlefield.",
-        "Sharp teeth, the better to tear flesh with."
+        "Sharp teeth, the better to tear flesh with.",
+        "Only the strong survive around here.  Nice knowing you.",
+        "The best dreams are the flashbacks of the battlefield.",
+        "Armor could be useful. But I've never needed it."
       ]
     },
     {
       "name": "a Freeport visitant",
       "name_sortable": "freeportvisitant",
       "race": [
-        "dark elf"
+        "dark elf",
+        "human"
       ],
       "gender": [
         "female"
@@ -3818,7 +3906,9 @@
         "Straying a bit, are we?",
         "I've already made my tribute to the Overlord this week.",
         "Armor could be useful. But I've never needed it.",
-        "Blood, lots of blood on the battlefield."
+        "Blood, lots of blood on the battlefield.",
+        "One day, we shall reign supreme over the lessers.",
+        "Grim determination has gotten us to where we are now."
       ]
     },
     {
@@ -4129,6 +4219,12 @@
     {
       "name": "Grandmaster Kawayzer",
       "name_sortable": "grandmasterkawayzer",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Trades Coordinator",
       "locations": [
         "25.93,-12.4,81.14"
@@ -4398,6 +4494,12 @@
     {
       "name": "Hargula",
       "name_sortable": "hargula",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "35.26,-18.43,110.24"
       ],
@@ -4780,6 +4882,12 @@
     {
       "name": "Jonak Harvester",
       "name_sortable": "jonakharvester",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Tradeskill Career Counsellor",
       "locations": [
         "33.9,-12.4,105.04"
@@ -4845,6 +4953,12 @@
     {
       "name": "a Juggernaut taskmaster",
       "name_sortable": "juggernauttaskmaster",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "50.49,-11.56,187.08"
       ],
@@ -4855,6 +4969,12 @@
     {
       "name": "Jules Jumsinger",
       "name_sortable": "julesjumsinger",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Banker",
       "locations": [
         "29.32,-18.44,76.04"
@@ -4893,6 +5013,12 @@
     {
       "name": "Juvena",
       "name_sortable": "juvena",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Coalition of Tradesfolke Merchant",
       "locations": [
         "35.79,-18.43,105.31"
@@ -4901,6 +5027,337 @@
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
         "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
         "The stuff's over there.  Just let me know if you find anything you like."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1368166077 -227091877 0 0 0:a Freeport fire pot\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1867218512 -511022218 0 0 0:a long stone corner counter\\/a",
+          "prices": [
+            {
+              "coin": 60000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -261663399 -1688324730 0 0 0:a merchant display cart\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1418018939 2099523531 0 0 0:a neriak display stand\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 227251902 -1244752508 0 0 0:a wailing bone cage\\/a",
+          "prices": [
+            {
+              "coin": 48000,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 237046482 621504662 0 0 0:Ally: Coalition of Tradesfolke\\/a",
+          "prices": [
+            {
+              "coin": 3686400,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -581775517 1516951935 0 0 0:an ancient ark\\/a",
+          "prices": [
+            {
+              "coin": 12000,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2015792015 -1631630912 0 0 0:an ornate globe of Norrath\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1615926973 1554653749 0 0 0:ceremonial formal ensemble\\/a",
+          "prices": [
+            {
+              "coin": 255624,
+              "status": 169886
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1067497195 -1566689017 0 0 0:coalition ceremonial forge boots\\/a",
+          "prices": [
+            {
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1402990082 1606132166 0 0 0:coalition ceremonial forge gloves\\/a",
+          "prices": [
+            {
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 996315379 1503912161 0 0 0:coalition ceremonial forge pants\\/a",
+          "prices": [
+            {
+              "status": 27000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1705366414 -841781997 0 0 0:coalition ceremonial forge vest\\/a",
+          "prices": [
+            {
+              "status": 27000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 67446996 -1358807365 0 0 0:coalition ceremonial negotiator boots\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1544021829 2058058813 0 0 0:coalition ceremonial negotiator pantaloons\\/a",
+          "prices": [
+            {
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 149020872 -1545144665 0 0 0:coalition ceremonial negotiator shirt\\/a",
+          "prices": [
+            {
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -879120646 1732056427 0 0 0:Display Stands for All Occasions\\/a",
+          "prices": [
+            {
+              "coin": 46080
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 419752203 628934839 0 0 0:Elaborate Chemistry Table\\/a",
+          "prices": [
+            {
+              "coin": 874480,
+              "status": 492805
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 193295544 -1914928679 0 0 0:Elaborate Engraved Desk\\/a",
+          "prices": [
+            {
+              "coin": 874480,
+              "status": 492805
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 340125802 585990111 0 0 0:Elaborate Forge\\/a",
+          "prices": [
+            {
+              "coin": 874480,
+              "status": 492805
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 240247566 -434453221 0 0 0:Elaborate Sewing Table & Mannequin\\/a",
+          "prices": [
+            {
+              "coin": 874480,
+              "status": 492805
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2115194389 -413107690 0 0 0:Elaborate Stove & Keg\\/a",
+          "prices": [
+            {
+              "coin": 874480,
+              "status": 492805
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1308504221 715688439 0 0 0:Elaborate Woodworking Table\\/a",
+          "prices": [
+            {
+              "coin": 874480,
+              "status": 492805
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1644037014 -1245722107 0 0 0:Elaborate Work Bench\\/a",
+          "prices": [
+            {
+              "coin": 874480,
+              "status": 492805
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -195806652 -1989925582 0 0 0:Handbook of the Coalition of Tradesfolke\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1901730243 228265350 0 0 0:Initiate: Coalition of Tradesfolke\\/a",
+          "prices": [
+            {
+              "coin": 614400,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1751150078 -678024404 0 0 0:Member: Coalition of Tradesfolke\\/a",
+          "prices": [
+            {
+              "coin": 614400,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 550701440 660430707 0 0 0:Officer: Coalition of Tradesfolke\\/a",
+          "prices": [
+            {
+              "coin": 2457600,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1240989087 -472484197 0 0 0:Reflections of the Grandmasters\\/a",
+          "prices": [
+            {
+              "coin": 103680
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1230692099 -2042882359 0 0 0:Reflections of the Grandmasters, vol. II\\/a",
+          "prices": [
+            {
+              "coin": 103680
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1666463201 902979988 0 0 0:Simple Chemistry Table\\/a",
+          "prices": [
+            {
+              "coin": 11164,
+              "status": 6125
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1567904695 2040449415 0 0 0:Simple Engraved Desk\\/a",
+          "prices": [
+            {
+              "coin": 11164,
+              "status": 6125
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1050048028 847625819 0 0 0:Simple Forge\\/a",
+          "prices": [
+            {
+              "coin": 11164,
+              "status": 6125
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1788921863 1882066141 0 0 0:Simple Sewing Table & Mannequin\\/a",
+          "prices": [
+            {
+              "coin": 11164,
+              "status": 6125
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 865735431 -1729940420 0 0 0:Simple Stove & Keg\\/a",
+          "prices": [
+            {
+              "coin": 11164,
+              "status": 6125
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1053355243 203707074 0 0 0:Simple Woodworking Table\\/a",
+          "prices": [
+            {
+              "coin": 11164,
+              "status": 6125
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1450625498 1756587011 0 0 0:Simple Work Bench\\/a",
+          "prices": [
+            {
+              "coin": 11164,
+              "status": 6125
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -742794518 408345635 0 0 0:Work Order Clipboard\\/a",
+          "prices": [
+            {
+              "coin": 50000
+            }
+          ]
+        }
       ]
     },
     {
@@ -4979,6 +5436,12 @@
     {
       "name": "Karila T'zel",
       "name_sortable": "karilatzel",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Arcane Scientist Merchant",
       "locations": [
         "-219.62,-56.52,173.84"
@@ -4986,7 +5449,161 @@
       "utterances": [
         "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
-      ]
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1668863364 -1553472363 0 0 0:a heretic's cauldron\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 907926368 -1553261501 0 0 0:a necromantic skull lamp\\/a",
+          "prices": [
+            {
+              "coin": 48000,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
+          "prices": [
+            {
+              "coin": 60
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 522230146 -1341500544 0 0 0:Ally: Academy of Arcane Sciences\\/a",
+          "prices": [
+            {
+              "status": 50000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1256438961 217618961 0 0 0:an academy canopic pot\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2108308366 340350044 0 0 0:an academy lab table\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -854885715 49949080 0 0 0:an arcane lab distillery set\\/a",
+          "prices": [
+            {
+              "coin": 12000,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -977191635 -467959805 0 0 0:arcane ceremonial officer boots\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2073610476 1485889638 0 0 0:arcane ceremonial officer gloves\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -201221397 -1706556961 0 0 0:arcane ceremonial officer robe\\/a",
+          "prices": [
+            {
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1673658144 1750103209 0 0 0:arcane scientist's ceremonial gloves\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 281083001 -1681034723 0 0 0:arcane scientist's ceremonial robe\\/a",
+          "prices": [
+            {
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1219144632 50201463 0 0 0:arcane scientist's ceremonial shoes\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1615926973 1554653749 0 0 0:ceremonial formal ensemble\\/a",
+          "prices": [
+            {
+              "coin": 306749,
+              "status": 169886
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 917045627 2030253262 0 0 0:Initiate: Academy of Arcane Sciences\\/a",
+          "prices": [
+            {
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1383899054 -260357007 0 0 0:Maj'dul Enchanted Carpet\\/a",
+          "prices": [
+            {
+              "coin": 10800000,
+              "status": 337500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1143086249 -1781411135 0 0 0:Member: Academy of Arcane Sciences\\/a",
+          "prices": [
+            {
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1627704942 222248460 0 0 0:Officer: Academy of Arcane Sciences\\/a",
+          "prices": [
+            {
+              "status": 40000
+            }
+          ]
+        }
+      ],
+      "store_template": "candle+incense"
     },
     {
       "name": "Keetra Morrow",
@@ -5013,6 +5630,12 @@
     {
       "name": "Kel'drax",
       "name_sortable": "keldrax",
+      "race": [
+        "aerakyn"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-254.32,-56.07,201.45"
       ]
@@ -5197,6 +5820,12 @@
     {
       "name": "Kuzik Zozin",
       "name_sortable": "kuzikzozin",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "27.2,-12.43,97.57"
       ],
@@ -5234,6 +5863,12 @@
     {
       "name": "Lasarian Nasin",
       "name_sortable": "lasariannasin",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Coalition of Tradesfolke",
       "locations": [
         "25.18,-18.44,74.41"
@@ -5451,6 +6086,12 @@
     {
       "name": "Londiar Inygad",
       "name_sortable": "londiarinygad",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Adorning and Tinkering Daily Tasks",
       "locations": [
         "23.63,-12.43,92.94"
@@ -5895,6 +6536,12 @@
     {
       "name": "Matthias Zoe",
       "name_sortable": "matthiaszoe",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Crafting Trainer",
       "locations": [
         "30.52,-18.44,77.48"
@@ -5902,106 +6549,10 @@
       "utterances": [
         "I'm glad you have come back for more training, it looks like you've learned quite a bit in a very short time.  I can certify you in your chosen trade class. Before I begin your paperwork I'll need your name.",
         "Best of luck!",
-        "I have nothing else to teach you for the moment.  Please return to me when you have earned enough experience to choose your specialty."
+        "I have nothing else to teach you for the moment.  Please return to me when you have earned enough experience to choose your specialty.",
+        "I have nothing else to teach you for the moment.  Please return to me when you have earned enough experience to choose your profession."
       ],
-      "store": [
-        {
-          "gamelink": "\\aITEM 478969384 -1831629606:Advanced Artisan Volume 1\\/a",
-          "prices": [
-            {
-              "coin": 120
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -2054869102 -320107550:Advanced Artisan Volume 2\\/a",
-          "prices": [
-            {
-              "coin": 120
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -226353404 -613347134:Advanced Artisan Volume 3\\/a",
-          "prices": [
-            {
-              "coin": 120
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1827048103 491037174:Advanced Artisan Volume 4\\/a",
-          "prices": [
-            {
-              "coin": 120
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 467778097 -1816397780:Advanced Artisan Volume 5\\/a",
-          "prices": [
-            {
-              "coin": 120
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -2098664565 1352585561:Advanced Artisan Volume 6\\/a",
-          "prices": [
-            {
-              "coin": 120
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -168830179 1524520644:Advanced Artisan Volume 7\\/a",
-          "prices": [
-            {
-              "coin": 120
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1699792524 -860771267:Advanced Artisan Volume 8\\/a",
-          "prices": [
-            {
-              "coin": 120
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 307754522 75111576:Advanced Artisan Volume 9\\/a",
-          "prices": [
-            {
-              "coin": 120
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1353595938 1152854445:artisan essentials volume 8\\/a",
-          "prices": [
-            {
-              "coin": 120
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -358211946 -813467030:artisan essentials volume 9\\/a",
-          "prices": [
-            {
-              "coin": 120
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1816747528 -1911087943:scholar essentials volume 10\\/a",
-          "prices": [
-            {
-              "coin": 480
-            }
-          ]
-        }
-      ]
+      "store_template": "crafting_trainer"
     },
     {
       "name": "Mehina ",
@@ -6103,6 +6654,12 @@
     {
       "name": "a Militia guard",
       "name_sortable": "militiaguard",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-198.39,-56.9,133.22",
         "-200.39,-56.25,205.53",
@@ -6135,6 +6692,13 @@
     {
       "name": "a Militia officer",
       "name_sortable": "militiaofficer",
+      "race": [
+        "human",
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-60.73,-7.94,-108.56",
         "-171.56,-57.14,162.45",
@@ -6152,7 +6716,8 @@
         "256.98,-4.73,160.67",
         "266.18,-3.52,-45.8",
         "-67.42,-7.92,191.3",
-        "33.35,-12.1,206.2"
+        "33.35,-12.1,206.2",
+        "-227.84,-56.06,172.25"
       ],
       "utterances": [
         "Do not challenge my authority, citizen.  In Freeport, the Overlord's word is law!",
@@ -6247,6 +6812,12 @@
     {
       "name": "Myll'dreth",
       "name_sortable": "mylldreth",
+      "race": [
+        "aerakyn"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-48.3,-7.64,232.0"
       ]
@@ -6311,6 +6882,12 @@
     {
       "name": "Nelik Ulnya",
       "name_sortable": "nelikulnya",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Troll Mentor",
       "locations": [
         "-234.0,-56.04,197.05"
@@ -6369,13 +6946,30 @@
     {
       "name": "Nipius Malchus",
       "name_sortable": "nipiusmalchus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Armorsmith",
       "locations": [
         "-216.21,-56.51,184.07"
       ],
       "utterances": [
         "Hail to you as well.  Forgive me if we've met before...  I'm a little distracted.  I've more custom orders for armor then I've the tradesmen to match."
-      ]
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 643183420 -977010747 0 0 0:repair material\\/a",
+          "prices": [
+            {
+              "coin": 60000
+            }
+          ]
+        }
+      ],
+      "store_template": "coal+sandpaper"
     },
     {
       "name": "Noble Taig Rhul",
@@ -6469,6 +7063,12 @@
     {
       "name": "Oolieamim",
       "name_sortable": "oolieamim",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Master Sage",
       "locations": [
         "28.71,-12.4,84.59"
@@ -6719,6 +7319,12 @@
     {
       "name": "Privateer Twitchwhisker",
       "name_sortable": "privateertwitchwhisker",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Seafury Buccaneers",
       "locations": [
         "-234.93,-56.06,155.57"
@@ -6730,6 +7336,12 @@
     {
       "name": "Profallia",
       "name_sortable": "profallia",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Broker",
       "locations": [
         "45.7,-12.07,87.05"
@@ -6999,6 +7611,12 @@
     {
       "name": "a Roughhouser Champion",
       "name_sortable": "roughhouserchampion",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "The Dreadnaughts",
       "locations": [
         "-269.83,-56.07,200.84"
@@ -7291,6 +7909,12 @@
     {
       "name": "Sergeant Nominus",
       "name_sortable": "sergeantnominus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Freeport Militia",
       "locations": [
         "-91.74,-25.0,194.97"
@@ -7370,13 +7994,71 @@
     {
       "name": "Shivna Crane",
       "name_sortable": "shivnacrane",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Provisioner",
       "locations": [
         "-210.17,-56.49,158.38"
       ],
       "utterances": [
-        "Man do I love gnome bread!  The trolls, they just love gnomes period!"
-      ]
+        "Man do I love gnome bread!  The trolls, they just love gnomes period!",
+        "Hey do you see any water around here?  Oh well, who needs to wash their hands?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1230680062 1846598759 0 0 0:aerated mineral water\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1793046727 374059509 0 0 0:cocoa\\/a",
+          "prices": [
+            {
+              "coin": 12
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 444185263 -652129761 0 0 0:cream cheese\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1901169081 231047307 0 0 0:dough\\/a",
+          "prices": [
+            {
+              "coin": 12
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -72718082 1138320361 0 0 0:milk\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -682581044 1413174528 0 0 0:sugar\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        }
+      ],
+      "store_template": "kindling"
     },
     {
       "name": "Shrew",
@@ -7436,13 +8118,21 @@
     {
       "name": "Sidonius Baro",
       "name_sortable": "sidoniusbaro",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Alchemist",
       "locations": [
         "-209.75,-56.47,150.03"
       ],
       "utterances": [
-        "Let me guess, you're looking for poison right?"
-      ]
+        "Let me guess, you're looking for poison right?",
+        "Be careful what you touch in here.  You're liable to kill us all!"
+      ],
+      "store_template": "candle+incense+alchemist"
     },
     {
       "name": "a Silly Billy Talent Scout",
@@ -7576,6 +8266,12 @@
     {
       "name": "Soleficus Baro",
       "name_sortable": "soleficusbaro",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Banker",
       "locations": [
         "-212.08,-56.49,160.11"
@@ -7604,6 +8300,12 @@
     {
       "name": "Speculator Montanlooa",
       "name_sortable": "speculatormontanlooa",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-250.45,-56.07,207.1"
       ],
@@ -8127,6 +8829,12 @@
     {
       "name": "Surabaya",
       "name_sortable": "surabaya",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-33.41,-6.87,191.13"
       ],
@@ -8135,7 +8843,10 @@
         "What's this?  Most of the bottles have already been opened, and poorly resealed.  Are you trying to pull one over on me, courier?",
         "I'll plant a blade in your innards, I will!  No one cheats Surabaya.",
         "I yield, I yield!  Just leave the bottles and leave me alone.",
-        "No one cheats Surabaya!"
+        "No one cheats Surabaya!",
+        "Sharp teeth, the better to tear flesh with.",
+        "Make war not love.",
+        "Blood, lots of blood on the battlefield."
       ]
     },
     {
@@ -8151,6 +8862,13 @@
     {
       "name": "a suspected renegade",
       "name_sortable": "suspectedrenegade",
+      "race": [
+        "ogre",
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-201.66,-56.19,212.26"
       ],
@@ -8486,6 +9204,12 @@
     {
       "name": "Trade Liaison Wells",
       "name_sortable": "tradeliaisonwells",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "34.94,-18.43,104.01"
       ]
@@ -8669,6 +9393,12 @@
     {
       "name": "Ulthus Greygore",
       "name_sortable": "ulthusgreygore",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Valorous Companions",
       "locations": [
         "-74.52,-7.92,189.91"
@@ -8678,7 +9408,8 @@
         "In war there is no room for fear.",
         "Make war not love.",
         "Armor could be useful. But I've never needed it.",
-        "Blood, lots of blood on the battlefield."
+        "Blood, lots of blood on the battlefield.",
+        "Too many so-called-entrepreneurs are uncomfortable with the cost of doing business."
       ]
     },
     {
@@ -8691,6 +9422,12 @@
     {
       "name": "Vakiza Skinner",
       "name_sortable": "vakizaskinner",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "64.7,-12.09,216.98"
       ]
@@ -8862,6 +9599,12 @@
     {
       "name": "Vissa D`Dbth",
       "name_sortable": "vissaddbth",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Tradeskill Tutorial",
       "locations": [
         "31.77,-18.43,111.28"
@@ -8961,6 +9704,12 @@
     {
       "name": "Weaponsmith Xass",
       "name_sortable": "weaponsmithxass",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "31.34,-12.4,102.97"
       ],

@@ -34,6 +34,19 @@
     {
       "name": "an academy scholar",
       "name_sortable": "academyscholar",
+      "race": [
+        "human",
+        "ratonga",
+        "dark elf"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
+      "locations": [
+        "-27.74,-8.04,-105.36",
+        "-10.42,-8.25,-85.29"
+      ],
       "utterances": [
         "I wish those guards would just leave us alone.",
         "Was it just me, or did I hear something jingling in your coin purse?",
@@ -46,6 +59,19 @@
         "There's no way they're better than us.  We have more.",
         "Unless you know of a way to make some quick coin, we have no reason to talk.",
         "Knowing the right people will keep you safe in this city.  The same could be said of the wrong people."
+      ]
+    },
+    {
+      "name": "an Academy spellsplitter",
+      "name_sortable": "academyspellsplitter",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "3.63,-6.24,-123.74"
       ]
     },
     {
@@ -1733,6 +1759,12 @@
     {
       "name": "Claudia Quarto",
       "name_sortable": "claudiaquarto",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Warlock Trainer",
       "locations": [
         "23.56,-7.0,-123.88"
@@ -1790,6 +1822,12 @@
     {
       "name": "Cles",
       "name_sortable": "cles",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "27.95,-7.0,-120.49"
       ]
@@ -2152,6 +2190,12 @@
     {
       "name": "Dela",
       "name_sortable": "dela",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-10.7,-20.31,33.91"
       ]
@@ -3605,6 +3649,12 @@
     {
       "name": "Ellynottin Zookbiddle",
       "name_sortable": "ellynottinzookbiddle",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Necromancer Trainer",
       "locations": [
         "20.19,-7.0,-124.46"
@@ -3709,6 +3759,12 @@
     {
       "name": "Euphemius Granius",
       "name_sortable": "euphemiusgranius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "27.03,-7.0,-134.29"
       ],
@@ -3990,7 +4046,8 @@
         "That rat snitch better watch her back tonight.",
         "Even a blind ratonga can feel the warm glow of gold.",
         "Never ask when you can just take.  ",
-        "Bribery is useful tool!  Best you remember that in your adventures."
+        "Bribery is useful tool!  Best you remember that in your adventures.",
+        "I see a great potential in you, young one."
       ]
     },
     {
@@ -4950,20 +5007,1054 @@
     {
       "name": "Handler Pachomius",
       "name_sortable": "handlerpachomius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Mount Merchant",
       "locations": [
         "130.08,-4.01,-93.36"
       ],
       "utterances": [
         "\"House trained?\" What's that mean?",
-        "Just don't feed 'em after midnight."
+        "Just don't feed 'em after midnight.",
+        "This isn't a petting zoo. Either buy something or get lost."
       ],
       "store": [
         {
-          "gamelink": "\\aITEM -573572287 649016160:Rujarkian Hillrunner\\/a",
+          "gamelink": "\\aITEM 1902085340 191432630 0 0 0:Bastion of Truth's Disc of Journey\\/a",
+          "prices": [
+            {
+              "coin": 40000001,
+              "status": 800000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1613228378 1034321424 0 0 0:Battlehardened Fire Warg\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1213808816 -157701479 0 0 0:Beryllium Armored Rhino with Pink Saddle\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -155470510 1192462630 0 0 0:Black Cavalry Horse with War-barding\\/a",
+          "prices": [
+            {
+              "coin": 14400001,
+              "status": 450000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1039199936 -1565223824 0 0 0:Black Nightmare Horse with Blue Saddle\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -491242182 1962322866 0 0 0:Black Nightmare with Indigo Saddle \\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1681139256 1102395914 0 0 0:Black Nightmare with Purple Saddle\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1524407063 1749014734 0 0 0:Black Nightmare with Red Saddle\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2141481767 -1986616855 0 0 0:Black Spotted Warg with Black Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1062857086 -306683540 0 0 0:Black Spotted Warg with Black Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -113352546 267412102 0 0 0:Black Spotted Warg with Blue Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 723702189 -1545126961 0 0 0:Black Spotted Warg with Blue Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -231439921 1925000796 0 0 0:Black Spotted Warg with Purple Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1170622983 -1433997193 0 0 0:Black Spotted Warg with Purple Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 552323378 -203605554 0 0 0:Black Spotted Warg with Red Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 836699924 1591290667 0 0 0:Black Spotted Warg with Red Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1031023236 1463810585 0 0 0:Black Two-Tone Warg with Black Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2106173659 1644847184 0 0 0:Black Two-Tone Warg with Black Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1679316553 -944051901 0 0 0:Black Two-Tone Warg with Blue Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1241192580 -2046773037 0 0 0:Black Two-Tone Warg with Blue Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1684766347 1673103025 0 0 0:Black Two-Tone Warg with Green Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 613874898 700640389 0 0 0:Black Two-Tone Warg with Green Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1551186569 -1752593453 0 0 0:Black Two-Tone Warg with Orange Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -343412415 1139960158 0 0 0:Black Two-Tone Warg with Orange Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1422526185 -714451049 0 0 0:Black Two-Tone Warg with Purple Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 482816735 -551682778 0 0 0:Black Two-Tone Warg with Purple Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 608124782 872297711 0 0 0:Black Two-Tone Warg with Red Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 889975112 1298809769 0 0 0:Black Two-Tone Warg with Red Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1850448016 1664239826 0 0 0:Black Two-Tone Warg with Yellow Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 642165926 1728930824 0 0 0:Black Two-Tone Warg with Yellow Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1782044625 763097211 0 0 0:Blood Roan Stallion\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 378597539 -1287233430 0 0 0:Blue Nightmare with Blue Saddle\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 750
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1751665405 1376664322 0 0 0:Bronze Armored Rhino with Black Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1807457176 -1613470045 0 0 0:Bronze Armored Rhino with Red Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -195114823 -1566839760 0 0 0:Bronze Armored Rhino with Yellow Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1094018321 -1857830217 0 0 0:Brown Nightmare Warg with Blue Armor\\/a",
+          "prices": [
+            {
+              "coin": 40000001,
+              "status": 750000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2146371297 -490165485 0 0 0:Brown Nightmare Warg with Indigo Armor\\/a",
+          "prices": [
+            {
+              "coin": 40000001,
+              "status": 750000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1720150642 415056924 0 0 0:Brown Nightmare Warg with Purple Armor\\/a",
+          "prices": [
+            {
+              "coin": 40000001,
+              "status": 750000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1347707173 -1039515061 0 0 0:Brown Nightmare Warg with Red Armor\\/a",
+          "prices": [
+            {
+              "coin": 40000001,
+              "status": 750000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -52546404 1764729807 0 0 0:Brown Two-Tone Warg with Red Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -303367494 -1459723697 0 0 0:Brown Two-Tone Warg with Red Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1866225750 1487320379 0 0 0:Cavalry Appaloosa with War-barding\\/a",
+          "prices": [
+            {
+              "coin": 14400001,
+              "status": 450000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 733826431 1516836481 0 0 0:Cavalry Morgan with War-barding\\/a",
+          "prices": [
+            {
+              "coin": 14400001,
+              "status": 450000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1997379577 2133563260 0 0 0:Cavalry Palomino with War-barding\\/a",
+          "prices": [
+            {
+              "coin": 14400001,
+              "status": 450000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 661116858 -237944997 0 0 0:Cavalry Pinto with War-barding\\/a",
+          "prices": [
+            {
+              "coin": 14400001,
+              "status": 450000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1979855279 859203857 0 0 0:Cavalry Spiritsteed with War-barding\\/a",
+          "prices": [
+            {
+              "coin": 14400001,
+              "status": 450000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1016538583 -1584643698 0 0 0:Craft Keeper's Disc of Flight\\/a",
+          "prices": [
+            {
+              "coin": 40000001,
+              "status": 800000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -137628046 -331862988 0 0 0:Crimson Hand's Disc of Voyage\\/a",
+          "prices": [
+            {
+              "coin": 40000001,
+              "status": 800000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 531216722 -1698145175 0 0 0:Dark Red Nightmare with Black Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1537529682 1346017732 0 0 0:Dark Red Nightmare with Red Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -610854079 1428211879 0 0 0:Darkspirit Unicorn\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 1950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1401085591 412165228 0 0 0:Dervish Destrier\\/a",
+          "prices": [
+            {
+              "coin": 10800000,
+              "status": 337500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1913405831 -1526814092 0 0 0:Elddarian Charger\\/a",
+          "prices": [
+            {
+              "coin": 5529600,
+              "status": 112500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 581379119 -1581352016 0 0 0:Elddarian Charger\\/a",
           "prices": [
             {
               "coin": 9830400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2099928692 -1160231738 0 0 0:Frostspirit Unicorn\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 1950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2124722786 -370523399 0 0 0:Gold Armored Rhino with Red Saddle\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1909280988 1252722028 0 0 0:Grey Cavalry Horse with War-barding\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 750
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 316587671 -162460647 0 0 0:Halasian Draft Horse\\/a",
+          "prices": [
+            {
+              "coin": 1382400,
+              "status": 52500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -185479506 -907112843 0 0 0:Halasian Draft Horse\\/a",
+          "prices": [
+            {
+              "coin": 2457600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1548989813 1450105942 0 0 0:Jade Armored Rhino with Teal Saddle\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1720641535 1554093019 0 0 0:Karana Plainstrider\\/a",
+          "prices": [
+            {
+              "coin": 2073600,
+              "status": 80000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -940571992 1257231441 0 0 0:Karana Plainstrider\\/a",
+          "prices": [
+            {
+              "coin": 3686400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -168725799 -1452967310 0 0 0:Lightning Wolf\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 1950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1208090260 1442354302 0 0 0:Magical Storm Whistle\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1877638931 917932752 0 0 0:Malevolent Disc\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 602935399 841168350 0 0 0:Misty Mustang\\/a",
+          "prices": [
+            {
+              "coin": 2073600,
+              "status": 80000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -975216546 -1823703303 0 0 0:Misty Mustang\\/a",
+          "prices": [
+            {
+              "coin": 3686400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -93482659 -1997593052 0 0 0:Misty Unicorn\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 1950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1969947359 400895363 0 0 0:Moltenspirit Unicorn\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 1950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 217631237 -1968126214 0 0 0:Nightmare with Black Saddle\\/a",
+          "prices": [
+            {
+              "coin": 19200001,
+              "status": 400000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1630984490 1625509170 0 0 0:Nightmare with Plain Saddle\\/a",
+          "prices": [
+            {
+              "coin": 19200001,
+              "status": 400000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1747982391 1768184006 0 0 0:Nightmare with Red Saddle\\/a",
+          "prices": [
+            {
+              "coin": 19200001,
+              "status": 400000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -391536577 277015253 0 0 0:Onyx Armored Rhino\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 750
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1454594412 -1579871476 0 0 0:Onyx Armored Rhino with Blue Saddle\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 968973064 -1659351392 0 0 0:Onyx Armored Rhino with Green Saddle\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2061262514 -232276357 0 0 0:Onyx Armored Rhino with Purple Saddle\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1465712450 2000286219 0 0 0:Onyx Armored Rhino with Red Saddle\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -438180554 -1426377616 0 0 0:Orange Two-Tone Warg with Brown Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1524865169 781868696 0 0 0:Orange Two-Tone Warg with Brown Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1147821712 1258304442 0 0 0:Orange Two-Tone Warg with Red Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1432260778 2121165862 0 0 0:Orange Two-Tone Warg with Red Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1407788828 -820558539 0 0 0:Parade Elddarian Charger\\/a",
+          "prices": [
+            {
+              "coin": 5529600,
+              "status": 112500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -224935347 -422355494 0 0 0:Parade Elddarian Charger\\/a",
+          "prices": [
+            {
+              "coin": 9830400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1405145526 -229532589 0 0 0:Parade Halasian Draft Horse\\/a",
+          "prices": [
+            {
+              "coin": 1382400,
+              "status": 52500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 535620089 1457382614 0 0 0:Parade Halasian Draft Horse\\/a",
+          "prices": [
+            {
+              "coin": 2457600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -924635083 -682653391 0 0 0:Parade Karana Plainstrider\\/a",
+          "prices": [
+            {
+              "coin": 2073600,
+              "status": 80000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1761568947 -1495384362 0 0 0:Parade Karana Plainstrider\\/a",
+          "prices": [
+            {
+              "coin": 3686400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1659797318 872576675 0 0 0:Parade Misty Mustang\\/a",
+          "prices": [
+            {
+              "coin": 2073600,
+              "status": 80000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 784484105 -553786959 0 0 0:Parade Misty Mustang\\/a",
+          "prices": [
+            {
+              "coin": 3686400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -838577656 -2016403545 0 0 0:Parade Rujarkian Hillrunner\\/a",
+          "prices": [
+            {
+              "coin": 5529600,
+              "status": 112500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 673915441 -1169864883 0 0 0:Parade Rujarkian Hillrunner\\/a",
+          "prices": [
+            {
+              "coin": 9830400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 946903852 -69569604 0 0 0:Parade Steppes Pony\\/a",
+          "prices": [
+            {
+              "coin": 1382400,
+              "status": 52500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1952228195 -1311497332 0 0 0:Parade Steppes Pony\\/a",
+          "prices": [
+            {
+              "coin": 2457600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1214252639 -222187981 0 0 0:Pink Two-Tone Warg with Pink Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1703102610 -692977659 0 0 0:Pink Two-Tone Warg with Pink Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1191712515 1596471560 0 0 0:Red Two-Tone Warg with Purple Armor\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 251994933 1164481032 0 0 0:Red Two-Tone Warg with Purple Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1099874578 -66907365 0 0 0:Rose-Saddled Highland Snowmane\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 1950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 99762629 -76217600 0 0 0:Rubicite Armored Rhino with Black Saddle\\/a",
+          "prices": [
+            {
+              "coin": 32000000,
+              "status": 600000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 591108071 551708755 0 0 0:Rujarkian Destrier\\/a",
+          "prices": [
+            {
+              "coin": 10800000,
+              "status": 337500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2111022023 1493929273 0 0 0:Rujarkian Hillrunner\\/a",
+          "prices": [
+            {
+              "coin": 5529600,
+              "status": 112500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -573572287 649016160 0 0 0:Rujarkian Hillrunner\\/a",
+          "prices": [
+            {
+              "coin": 9830400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 269924492 383219547 0 0 0:Russet Warg\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 750
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -941375812 1989105809 0 0 0:Shadow-Saddled Highland Snowmane\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 1950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1343608628 175772817 0 0 0:Shadowed Deathcharger\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 1950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 719968618 1451702027 0 0 0:Steed of the Faithful\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 34277751 2091469963 0 0 0:Steel Armored Rhino with Gold Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2061979268 1016534742 0 0 0:Steel Armored Rhino with Orange Saddle\\/a",
+          "prices": [
+            {
+              "coin": 25000001,
+              "status": 500000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2037314573 154307277 0 0 0:Steppes Pony\\/a",
+          "prices": [
+            {
+              "coin": 1382400,
+              "status": 52500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1623096268 1614282106 0 0 0:Steppes Pony\\/a",
+          "prices": [
+            {
+              "coin": 2457600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1991103530 -726442611 0 0 0:Terrorbird\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1913144749 1386797091 0 0 0:Traveler's Pack Horse\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 58389460 -1904643949 0 0 0:Tropical Saliraptor\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 1950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2067118534 363465274 0 0 0:Undead Mount\\/a",
+          "prices": [
+            {
+              "coin": 10800000,
+              "status": 337500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2018989466 -1243134770 0 0 0:Velium-Saddled Warhog\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1111174086 -969514512 0 0 0:Vicious Mountain Saliraptor\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1748761834 -687353580 0 0 0:Voidspirit Unicorn\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 1950
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1039254238 2598001 0 0 0:White Cavalry Horse with War-barding\\/a",
+          "prices": [
+            {
+              "coin": 14000401,
+              "status": 450000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 212453680 406065446 0 0 0:White-Saddled Highland Snowmane\\/a",
+          "prices": [
+            {
+              "daybreak_coin": 1950
             }
           ]
         }
@@ -5082,8 +6173,21 @@
     {
       "name": "Historian Velanie",
       "name_sortable": "historianvelanie",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "25.68,-7.0,-112.58"
+      ],
+      "utterances": [
+        "Please do not disturb me.  I have matters to attend to.",
+        "I don't think he knew how literal the task was going to be when he sent you.",
+        "As you know, humans built this city, and maintained it for many years.  Sure, other cultures moved into our walls and added their own talents where possible.  It was humans, and ultimately Lucan D'Lere, who showed the world unity when it shattered.",
+        "As correct as you are, it seems others would have us forget our heritage.  You see, a few weeks ago, we recovered a group of artifacts from the Age of War from the Commonlands.  We suspect they've been stolen to sell in the underground market, and we want to recover them before that happens.",
+        "I can't be certain, but we think that they are attempting to smuggle them out of the city in shipments meant for our allies.  Those shipments are waiting in Beggar's Court.  Search through the crates there, and perhaps you will find something."
       ]
     },
     {
@@ -5218,6 +6322,22 @@
       ]
     },
     {
+      "name": "Iulus U`Vas",
+      "name_sortable": "iulusuvas",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "140.23,-4.02,-77.06"
+      ],
+      "utterances": [
+        "Hello.  Is there something I can do for you?"
+      ]
+    },
+    {
       "name": "Izius J'lok",
       "name_sortable": "iziusjlok",
       "locations": [
@@ -5243,6 +6363,12 @@
     {
       "name": "Jabir Maridar",
       "name_sortable": "jabirmaridar",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Wizard Trainer",
       "locations": [
         "20.82,-7.0,-128.65"
@@ -5398,6 +6524,12 @@
     {
       "name": "Jantus Ezrek",
       "name_sortable": "jantusezrek",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Teleport Trainer",
       "locations": [
         "-0.16,-7.0,-129.82"
@@ -6534,6 +7666,12 @@
     {
       "name": "Librarian Motius Feldarn",
       "name_sortable": "librarianmotiusfeldarn",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Academy of Arcane Science",
       "locations": [
         "26.81,-7.0,-114.17"
@@ -6549,6 +7687,12 @@
     {
       "name": "Librarian Zabnolique",
       "name_sortable": "librarianzabnolique",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "16.82,-7.0,-136.81"
       ],
@@ -6759,6 +7903,12 @@
     {
       "name": "Lord Titurius Ocellus",
       "name_sortable": "lordtituriusocellus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Lucanic Knight",
       "locations": [
         "73.2,-20.29,-6.98"
@@ -7130,6 +8280,12 @@
     {
       "name": "Mareva D'Iniv",
       "name_sortable": "marevadiniv",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "31.48,-7.0,-130.32"
       ],
@@ -7300,6 +8456,12 @@
     {
       "name": "Micha Longtail",
       "name_sortable": "michalongtail",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Academy of Arcane Science",
       "locations": [
         "23.23,-7.0,-119.38"
@@ -7319,6 +8481,19 @@
       ],
       "utterances": [
         "Join in the fights and bring glory to The Ancient Sister, Sullon Zek, Goddess of Rage!"
+      ]
+    },
+    {
+      "name": "a Militia commander",
+      "name_sortable": "militiacommander",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "89.94,-10.03,-47.44"
       ]
     },
     {
@@ -7444,6 +8619,12 @@
     {
       "name": "Mulka the Skinner",
       "name_sortable": "mulkatheskinner",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Pet Merchant",
       "locations": [
         "120.93,-3.82,-68.89"
@@ -7455,10 +8636,154 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM -1778577110 1064247871:a thexian black cat\\/a",
+          "gamelink": "\\aITEM 1795547043 2085530308 0 0 0:a blackburrow tunnel rat\\/a",
+          "prices": [
+            {
+              "coin": 36000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1618090356 -1567560625 0 0 0:a common farm pig\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 552308891 -1356210448 0 0 0:a common mallard\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -628991008 1850751031 0 0 0:a commonlands gobbler\\/a",
+          "prices": [
+            {
+              "coin": 36000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1902198614 174230533 0 0 0:a commonlands tabby cat\\/a",
+          "prices": [
+            {
+              "coin": 2500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -619385322 1202346012 0 0 0:a district tom cat\\/a",
+          "prices": [
+            {
+              "coin": 2500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 507002896 -342675493 0 0 0:a feerrott jungle crawler\\/a",
+          "prices": [
+            {
+              "coin": 60000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1262871797 1542275372 0 0 0:a greenblood river frog\\/a",
+          "prices": [
+            {
+              "coin": 49200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -857586397 722509001 0 0 0:a halasian hunting cat\\/a",
+          "prices": [
+            {
+              "coin": 2500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2052249677 -824907952 0 0 0:a halasian mauler\\/a",
+          "prices": [
+            {
+              "coin": 174000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -178170847 1853796454 0 0 0:a highpass shorthair cat\\/a",
+          "prices": [
+            {
+              "coin": 72000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2053711165 36222065 0 0 0:a kaladim mine cat\\/a",
+          "prices": [
+            {
+              "coin": 2500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 398388872 -194985676 0 0 0:a nektropos nightflyer\\/a",
+          "prices": [
+            {
+              "coin": 2500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1998406684 1628638633 0 0 0:a steppes spider \\/a",
+          "prices": [
+            {
+              "coin": 76800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -97260907 2139081894 0 0 0:a stray alley cat\\/a",
+          "prices": [
+            {
+              "coin": 2500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1778577110 1064247871 0 0 0:a thexian black cat\\/a",
           "prices": [
             {
               "coin": 156000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 567625586 -1198529932 0 0 0:an antonican bobtail cat\\/a",
+          "prices": [
+            {
+              "coin": 60000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 302751995 139872860 0 0 0:an antonican defender\\/a",
+          "prices": [
+            {
+              "coin": 78000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1634336940 980754080 0 0 0:an antonican tortoise\\/a",
+          "prices": [
+            {
+              "coin": 87000
             }
           ]
         }
@@ -7518,6 +8843,12 @@
     {
       "name": "Navarius Orvalis",
       "name_sortable": "navariusorvalis",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Sage",
       "locations": [
         "9.94,-7.0,-134.75"
@@ -7572,6 +8903,12 @@
     {
       "name": "Neophyte Jhanov",
       "name_sortable": "neophytejhanov",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Arcane Scientist",
       "locations": [
         "-0.15,-5.68,-115.27"
@@ -8091,6 +9428,12 @@
     {
       "name": "Qalantir",
       "name_sortable": "qalantir",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "4.03,-7.0,-141.32"
       ],
@@ -8190,11 +9533,33 @@
     {
       "name": "R'dyles Mar'dril",
       "name_sortable": "rdylesmardril",
+      "race": [
+        "fae"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-0.44,-7.0,-135.42"
       ],
       "utterances": [
         "Be on your way.  I have research to conduct."
+      ]
+    },
+    {
+      "name": "a recruit",
+      "name_sortable": "recruit",
+      "race": [
+        "human",
+        "ogre",
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "89.92,-10.03,-51.09",
+        "71.43,-10.03,-29.51"
       ]
     },
     {
@@ -8250,6 +9615,12 @@
     {
       "name": "Riss Taskel",
       "name_sortable": "risstaskel",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Feudal Historian",
       "locations": [
         "-0.97,-7.0,-133.79"
@@ -8902,6 +10273,12 @@
     {
       "name": "Skrig",
       "name_sortable": "skrig",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "20.96,-7.0,-135.18"
       ],
@@ -8971,6 +10348,12 @@
     {
       "name": "Sneel Valiyn",
       "name_sortable": "sneelvaliyn",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Ratonga Mentor",
       "locations": [
         "-20.81,-8.61,-89.93"
@@ -9084,6 +10467,12 @@
     {
       "name": "Stable Hand Verdantus",
       "name_sortable": "stablehandverdantus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "131.59,-3.98,-103.38"
       ]
@@ -9907,6 +11296,12 @@
     {
       "name": "Tome Warden K'Narn",
       "name_sortable": "tomewardenknarn",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "17.81,-7.0,-131.36"
       ],
@@ -9919,6 +11314,12 @@
     {
       "name": "Torbett Witlocke",
       "name_sortable": "torbettwitlocke",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Illusionist Trainer",
       "locations": [
         "29.73,-7.0,-126.06"
@@ -9975,6 +11376,12 @@
     {
       "name": "T'ral D'zarn",
       "name_sortable": "traldzarn",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Scribe",
       "locations": [
         "4.41,-7.0,-135.82"
@@ -10050,6 +11457,12 @@
     {
       "name": "Tullia Sulla",
       "name_sortable": "tulliasulla",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Coercer Trainer",
       "locations": [
         "14.75,-7.0,-134.98"

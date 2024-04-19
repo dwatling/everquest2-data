@@ -1,0 +1,81 @@
+{
+  "name": "The Coalition of Tradesfolke",
+  "name_sortable": "coalitionoftradesfolke",
+  "connections": [
+    {
+      "key": "freeport_combined",
+      "location": "6.49,0.79,-3.43"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Chrisana D'Abth",
+      "name_sortable": "chrisanadabth",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Fuel Vendor",
+      "locations": [
+        "-2.13,-0.18,9.07"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "wholesaler"
+    },
+    {
+      "name": "Commissioner Venilos",
+      "name_sortable": "commissionervenilos",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Rush Orders",
+      "locations": [
+        "-1.49,-0.19,-4.05"
+      ],
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Gnaeus Ovidius",
+      "name_sortable": "gnaeusovidius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Work Orders",
+      "locations": [
+        "-3.0,-0.18,-2.83"
+      ],
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Jangles Zobblebok",
+      "name_sortable": "jangleszobblebok",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Broker",
+      "locations": [
+        "-1.56,-19.59,13.48"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ]
+    }
+  ]
+}

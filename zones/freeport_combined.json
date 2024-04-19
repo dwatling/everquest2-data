@@ -24,6 +24,10 @@
     {
       "key": "fprt_hood05_clone",
       "location": "-92.96,-34.55,-368.29"
+    },
+    {
+      "key": "fprt_tradeskill01_fprt_west_cca",
+      "location": "17.37,-19.39,85.68"
     }
   ],
   "npcs": [
@@ -710,6 +714,12 @@
     {
       "name": "Banker Gavius Herenus",
       "name_sortable": "bankergaviusherenus",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Banker",
       "locations": [
         "198.38,-1.34,-134.02"
@@ -723,6 +733,12 @@
     {
       "name": "Banker Lusius Ulixes",
       "name_sortable": "bankerlusiusulixes",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Banker",
       "locations": [
         "217.7,-1.34,-133.97"
@@ -734,6 +750,12 @@
     {
       "name": "Banker Macrinus Sanctus",
       "name_sortable": "bankermacrinussanctus",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Banker",
       "locations": [
         "227.88,-1.34,-125.21"
@@ -747,6 +769,12 @@
     {
       "name": "Banker Magia Cotta",
       "name_sortable": "bankermagiacotta",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Banker",
       "locations": [
         "188.22,-1.34,-125.2"
@@ -976,6 +1004,12 @@
     {
       "name": "Boomba",
       "name_sortable": "boomba",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Merchant",
       "locations": [
         "270.62,-3.52,-103.23"
@@ -987,10 +1021,146 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM -1578651030 577264165:cuirboilli leather wristguards\\/a",
+          "gamelink": "\\aITEM -1391696610 -2136763211 0 0 0:Aerakyn Pickles\\/a",
           "prices": [
             {
-              "coin": 2167
+              "coin": 13997
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1421884034 1697525912 0 0 0:Arasai Pickles\\/a",
+          "prices": [
+            {
+              "coin": 2765
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 401492341 -52439680 0 0 0:Dark Elf Pickles\\/a",
+          "prices": [
+            {
+              "coin": 1843
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 171204162 -967513212 0 0 0:Dwarf Pickles\\/a",
+          "prices": [
+            {
+              "coin": 1843
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1263232106 -2140945758 0 0 0:Elf Pickles\\/a",
+          "prices": [
+            {
+              "coin": 77
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 842602671 -1011369314 0 0 0:Erudite Pickles\\/a",
+          "prices": [
+            {
+              "coin": 1229
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -44304733 -705555498 0 0 0:Fae Pickles\\/a",
+          "prices": [
+            {
+              "coin": 1229
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1626985926 461231635 0 0 0:Freeblood Pickles\\/a",
+          "prices": [
+            {
+              "coin": 9331
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -890033708 1305988900 0 0 0:Froglok Pickles\\/a",
+          "prices": [
+            {
+              "coin": 2765
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 189553690 1467063681 0 0 0:Gnome Pickles\\/a",
+          "prices": [
+            {
+              "coin": 307
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 33903765 -1309143078 0 0 0:Half Elf Pickles\\/a",
+          "prices": [
+            {
+              "coin": 77
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1170754380 463023301 0 0 0:Halfling Pickles\\/a",
+          "prices": [
+            {
+              "coin": 19
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2026818421 -877661184 0 0 0:High Elf Pickles\\/a",
+          "prices": [
+            {
+              "coin": 2765
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1445068524 1128627995 0 0 0:Iksar Pickles\\/a",
+          "prices": [
+            {
+              "coin": 6221
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1013818408 1383236305 0 0 0:Kerra Pickles\\/a",
+          "prices": [
+            {
+              "coin": 4147
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2100497626 307048595 0 0 0:Ratonga Pickles\\/a",
+          "prices": [
+            {
+              "coin": 307
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 313987645 -617767925 0 0 0:Sarnak Pickles\\/a",
+          "prices": [
+            {
+              "coin": 6221
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -116410948 679206555 0 0 0:Wood Elf Pickles\\/a",
+          "prices": [
+            {
+              "coin": 2765
             }
           ]
         }
@@ -1402,6 +1572,12 @@
     {
       "name": "Captain Clausin Bludwins",
       "name_sortable": "captainclausinbludwins",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Freeport Militia",
       "locations": [
         "108.01,-19.95,110.24"
@@ -1410,6 +1586,12 @@
     {
       "name": "Captain D'Vall",
       "name_sortable": "captaindvall",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Freeport Militia",
       "locations": [
         "134.21,-16.79,129.83"
@@ -1713,9 +1895,28 @@
     {
       "name": "Commandant Vatinius",
       "name_sortable": "commandantvatinius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Freeport Militia",
       "locations": [
         "159.97,-16.79,120.89"
+      ]
+    },
+    {
+      "name": "a conspirator",
+      "name_sortable": "conspirator",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "114.34,-17.06,44.31"
       ]
     },
     {
@@ -1780,6 +1981,12 @@
     {
       "name": "Corporal Sergius Mordanticus",
       "name_sortable": "corporalsergiusmordanticus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Freeport Militia",
       "locations": [
         "132.12,-19.96,84.67"
@@ -2048,7 +2255,8 @@
         "145.11,-3.97,-98.24",
         "-63.17,-20.05,-231.12",
         "-105.09,-34.59,-269.6",
-        "-56.72,-8.26,214.07"
+        "-56.72,-8.26,214.07",
+        "41.62,-18.22,95.08"
       ],
       "drops": [
         {
@@ -3303,6 +3511,12 @@
     {
       "name": "Eamric Icefist",
       "name_sortable": "eamricicefist",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Guardian Trainer",
       "locations": [
         "157.55,-16.79,125.07"
@@ -3311,11 +3525,36 @@
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
         "What do you want?",
         "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
       "name": "Eaneal",
       "name_sortable": "eaneal",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "103.01,-20.05,72.97"
       ]
@@ -3582,9 +3821,18 @@
     {
       "name": "Fonda",
       "name_sortable": "fonda",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Reforging",
       "locations": [
         "282.34,-3.52,-100.08"
+      ],
+      "utterances": [
+        "You do not currently own the Reforging Feature!"
       ]
     },
     {
@@ -3690,10 +3938,12 @@
       "name": "a Freeport denizen",
       "name_sortable": "freeportdenizen",
       "race": [
-        "ratonga"
+        "ratonga",
+        "human"
       ],
       "gender": [
-        "female"
+        "female",
+        "male"
       ],
       "locations": [
         "-113.33,-24.96,190.82",
@@ -3705,7 +3955,8 @@
         "155.97,-4.02,-106.76",
         "-101.13,-40.37,-249.51",
         "-148.44,-53.11,-284.98",
-        "-42.91,-8.26,170.58"
+        "-42.91,-8.26,170.58",
+        "33.88,-18.22,91.17"
       ],
       "utterances": [
         "You may thank me now for gracing you with my presence.",
@@ -3871,7 +4122,8 @@
         "Sharp teeth, the better to tear flesh with.",
         "Only the strong survive around here.  Nice knowing you.",
         "The best dreams are the flashbacks of the battlefield.",
-        "Armor could be useful. But I've never needed it."
+        "Armor could be useful. But I've never needed it.",
+        "I see a great potential in you, young one."
       ]
     },
     {
@@ -4042,6 +4294,12 @@
     {
       "name": "Gigantok",
       "name_sortable": "gigantok",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Guard",
       "level": 66,
       "difficulty": "heroic^3",
@@ -4183,6 +4441,12 @@
     {
       "name": "Gorga",
       "name_sortable": "gorga",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Freeport Militia Merchant",
       "locations": [
         "144.89,-16.79,139.23"
@@ -4190,6 +4454,214 @@
       "utterances": [
         "In spite of the cost of living, it's still quite a popular item.",
         "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -765688569 -669189480 0 0 0:\"Fealty to Freeport\"\\/a",
+          "prices": [
+            {
+              "coin": 12000,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1514954196 -1857743726 0 0 0:a dragon head fountain\\/a",
+          "prices": [
+            {
+              "coin": 48000,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1346861065 1631652198 0 0 0:a hanging steel cage\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 474321147 1809329674 0 0 0:a militia skull display shelf\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -752399199 23406871 0 0 0:a mount of a boar's head\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
+          "prices": [
+            {
+              "coin": 60
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -173989110 -1893491212 0 0 0:Ally: Freeport Militia\\/a",
+          "prices": [
+            {
+              "status": 50000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1615926973 1554653749 0 0 0:ceremonial formal ensemble\\/a",
+          "prices": [
+            {
+              "coin": 306749,
+              "status": 169886
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1811967967 1283828222 0 0 0:freeport militia ceremonial boots\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 249887484 -677080823 0 0 0:freeport militia ceremonial chestguard\\/a",
+          "prices": [
+            {
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1686524000 -1111082091 0 0 0:freeport militia ceremonial handguards\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -620551601 -1042989341 0 0 0:freeport militia ceremonial helm\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2122782809 -1174830867 0 0 0:freeport militia ceremonial leggings\\/a",
+          "prices": [
+            {
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1292557109 -1968369205 0 0 0:freeport militia ceremonial shoulder pads\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1247924425 2022730191 0 0 0:freeport militia ceremonial wristguards\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 218883855 677599057 0 0 0:Initiate: Freeport Militia\\/a",
+          "prices": [
+            {
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2066504941 -390014973 0 0 0:Member: Freeport Militia\\/a",
+          "prices": [
+            {
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1785955284 878917519 0 0 0:militia ceremonial officer barbute\\/a",
+          "prices": [
+            {
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1278209573 -306141824 0 0 0:militia ceremonial officer cuirass\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1132841468 -691641114 0 0 0:militia ceremonial officer gauntlets\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -667480030 -2044222343 0 0 0:militia ceremonial officer greaves\\/a",
+          "prices": [
+            {
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1657019499 -1020569650 0 0 0:militia ceremonial officer gussets\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -142279159 191063745 0 0 0:militia ceremonial officer sabatons\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 994505371 1443389167 0 0 0:militia ceremonial officers spaulders\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1626653497 987998725 0 0 0:Officer: Freeport Militia\\/a",
+          "prices": [
+            {
+              "status": 40000
+            }
+          ]
+        }
       ]
     },
     {
@@ -4207,6 +4679,12 @@
     {
       "name": "Grand Duke Lazarus Hazran",
       "name_sortable": "granddukelazarushazran",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Freeport Militia",
       "locations": [
         "140.99,-7.05,125.16"
@@ -4700,6 +5178,12 @@
     {
       "name": "Intelligence Officer Rainus",
       "name_sortable": "intelligenceofficerrainus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "147.67,-7.05,124.75"
       ],
@@ -4722,6 +5206,12 @@
     {
       "name": "Ironstar",
       "name_sortable": "ironstar",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Mender",
       "locations": [
         "277.3,-3.52,-103.83"
@@ -4774,14 +5264,136 @@
     {
       "name": "Jan MacGetz",
       "name_sortable": "janmacgetz",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Merchant",
+      "locations": [
+        "267.67,-3.52,-113.31"
+      ],
       "utterances": [
         "Have a taste for fine steel, friend?  You'll not be disappointed in my stock.",
         "Oh, yeah?  Unless you want me to call the guards, you'll remove yourself from my sight immediately.",
         "Well, I'm here on behalf of the Coalition of Tradesfolke, and I take my orders from them.  You'll understand if I'm not interested in giving you anything but a fond farewell.",
         "Hah.  I wouldn't be in business if I let every thug with aspirations push me around.  You do what you have to.  We'll see who comes out on top."
       ],
-      "drop_coin_min": 144,
-      "drop_coin_max": 144
+      "store": [
+        {
+          "gamelink": "\\aITEM -1972375638 -854720481 0 0 0:ancient settler's longbow\\/a",
+          "prices": [
+            {
+              "coin": 2016
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1521492479 -1671352134 0 0 0:Ancient Willow Staff\\/a",
+          "prices": [
+            {
+              "coin": 2016
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -35414828 358623082 0 0 0:ancient worn axe\\/a",
+          "prices": [
+            {
+              "coin": 1714
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -652532653 -181782173 0 0 0:ancient worn club\\/a",
+          "prices": [
+            {
+              "coin": 1714
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 307893593 -1374002366 0 0 0:ancient worn dagger\\/a",
+          "prices": [
+            {
+              "coin": 2856
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1747808310 1396421886 0 0 0:archaic cavalier's greatsword\\/a",
+          "prices": [
+            {
+              "coin": 2016
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1124113232 768148759 0 0 0:bent blacksteel axe\\/a",
+          "prices": [
+            {
+              "coin": 1714
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1491895289 296908342 0 0 0:blackoak staff\\/a",
+          "prices": [
+            {
+              "coin": 2016
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1304579769 670177457 0 0 0:blacksteel mace\\/a",
+          "prices": [
+            {
+              "coin": 1714
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1143731699 -251322636 0 0 0:blacksteel rapier\\/a",
+          "prices": [
+            {
+              "coin": 1714
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1534032345 1440661949 0 0 0:blacksteel spear\\/a",
+          "prices": [
+            {
+              "coin": 1714
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1578381429 1353025553 0 0 0:blacksteel sword\\/a",
+          "prices": [
+            {
+              "coin": 1714
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -361422236 584916897 0 0 0:blighting maul\\/a",
+          "prices": [
+            {
+              "coin": 2016
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 25756897 -937999679 0 0 0:Plain Tin Arrow\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Jantus Ezrek",
@@ -5957,6 +6569,12 @@
     {
       "name": "Lieutenant Dalling",
       "name_sortable": "lieutenantdalling",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Freeport Militia",
       "locations": [
         "154.24,-7.05,116.82"
@@ -5968,6 +6586,12 @@
     {
       "name": "Lieutenant Darrius",
       "name_sortable": "lieutenantdarrius",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Freeport Militia",
       "locations": [
         "136.17,-15.97,114.96"
@@ -6194,12 +6818,38 @@
     {
       "name": "L`Tor",
       "name_sortable": "ltor",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Berserker Trainer",
       "locations": [
         "139.48,-16.79,137.11"
       ],
       "utterances": [
-        "The stuff's over there.  Just let me know if you find anything you like."
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
@@ -6207,7 +6857,12 @@
       "name_sortable": "lucandlere",
       "utterances": [
         "For these reasons, and for this prisoner's crimes, I condemn the prisoner to death!",
-        "Be vigilant. As always, the pathetic queen of Qeynos has sent her spies to undermine our efforts. But the weak-willed Qeynosians are no match for the iron strength of Freeport."
+        "Be vigilant. As always, the pathetic queen of Qeynos has sent her spies to undermine our efforts. But the weak-willed Qeynosians are no match for the iron strength of Freeport.",
+        "My loyal citizens of Freeport, hear me!",
+        "This traitor is a Qeynosian sympathizer--an aid to those who would sow disorder in our city.",
+        "I need not remind you; we are superior to the Qeynosians in every way but one.",
+        "Our only flaw is complacency. But I urge you, loyal citizens, to be complacent no longer.",
+        "For the good of the city, for the might of Freeport and its people, we must not tolerate betrayal. We must remove this corrupting influence from our city."
       ]
     },
     {
@@ -6381,6 +7036,12 @@
     {
       "name": "Mallium",
       "name_sortable": "mallium",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Broker",
       "locations": [
         "268.31,-3.52,-107.11"
@@ -6388,7 +7049,9 @@
       "utterances": [
         "At the prices I'm going to offer you, friend, I should have the Militia arrest you on the spot for robbing me!",
         "Looking for the best goods in the whole of Freeport?  Well, my friend, you've come to the right place! ",
-        "Here is what the city has to offer, my friend.  If you have any questions at all about the stock, please don't hesitate to ask."
+        "Here is what the city has to offer, my friend.  If you have any questions at all about the stock, please don't hesitate to ask.",
+        "Don't worry, friend, if it's not on our lists then the goods do not exist.",
+        "I can only offer you what my contacts have been able to locate.  These are the best goods that the citizens have to offer."
       ]
     },
     {
@@ -6603,6 +7266,12 @@
     {
       "name": "Metilia Arcavius",
       "name_sortable": "metiliaarcavius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "217.43,-3.56,-94.94"
       ],
@@ -6610,7 +7279,8 @@
         "Ah, just the one I've been waiting for.  You've got the port, I trust?  I didn't order a whole case, only a few bottles.",
         "How'd they get opened?  And... they smell a little off.",
         "Well, it's no matter.  My customers won't know the difference anyway.  Have a good one.",
-        "Safe travels to you."
+        "Safe travels to you.",
+        "The Coalition of Tradesfolke sure knows how to make coins fall into their hands."
       ]
     },
     {
@@ -6655,10 +7325,13 @@
       "name": "a Militia guard",
       "name_sortable": "militiaguard",
       "race": [
-        "human"
+        "human",
+        "ogre",
+        "dark elf"
       ],
       "gender": [
-        "male"
+        "male",
+        "female"
       ],
       "locations": [
         "-198.39,-56.9,133.22",
@@ -7312,8 +7985,18 @@
     {
       "name": "a prisoner escort",
       "name_sortable": "prisonerescort",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "118.07,-16.77,42.16"
+      ],
       "utterances": [
-        "Prisoner, on your knees!"
+        "Prisoner, on your knees!",
+        "The Overlord, Lucan D'Lere, is now in court!"
       ]
     },
     {
@@ -7879,6 +8562,12 @@
     {
       "name": "Selyse Brazenroot",
       "name_sortable": "selysebrazenroot",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Barbarian Mentor",
       "locations": [
         "155.72,-16.79,127.68"
@@ -7946,6 +8635,15 @@
     {
       "name": "Serris",
       "name_sortable": "serris",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "136.25,-7.05,127.74"
+      ],
       "utterances": [
         "Shhh, <player name>.  Don't draw any undue attention to uss.  Did you ssee to it that the weaponss made it to Sanura?",
         "Sspare me no truthss.  Had Sanura heard any rumorss of your infiltration?  Did she know about the sslain Buccaneerss?",
@@ -7983,12 +8681,38 @@
     {
       "name": "Shirzzt Bonelasher",
       "name_sortable": "shirzztbonelasher",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Shadowknight Trainer",
       "locations": [
         "147.45,-16.79,118.38"
       ],
       "utterances": [
-        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "The stuff's over there.  Just let me know if you find anything you like."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
@@ -8295,6 +9019,29 @@
       "name_sortable": "sparringdreadnaught",
       "locations": [
         "266.38,-3.81,108.88"
+      ]
+    },
+    {
+      "name": "a spectator",
+      "name_sortable": "spectator",
+      "race": [
+        "ratonga",
+        "ogre",
+        "human",
+        "dark elf"
+      ],
+      "gender": [
+        "male",
+        "female"
+      ],
+      "locations": [
+        "111.5,-22.13,59.09",
+        "100.28,-22.9,54.26",
+        "98.1,-22.95,45.64",
+        "97.97,-22.76,38.49",
+        "105.68,-22.46,30.13",
+        "111.08,-22.76,32.67",
+        "118.37,-22.93,35.29"
       ]
     },
     {
@@ -9247,12 +9994,19 @@
     {
       "name": "Trooper Bonesaw",
       "name_sortable": "trooperbonesaw",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Freeport Militia Officer",
       "locations": [
         "151.13,-16.79,114.09"
       ],
       "utterances": [
-        "I don't say this often, but it seems my liege was wrong about your band of cutthroats.  You've been useful to the city, and have earned a measure of respect in Freeport.  You need to report to Liege Helvanica immediately. She's waiting for you in the Militia House!  "
+        "I don't say this often, but it seems my liege was wrong about your band of cutthroats.  You've been useful to the city, and have earned a measure of respect in Freeport.  You need to report to Liege Helvanica immediately. She's waiting for you in the Militia House!  ",
+        "Death to those who betray the Overlord! Only the bravest and the strongest organizations can stand with Freeport and the Militia!"
       ]
     },
     {
@@ -9650,6 +10404,10 @@
         "144.41,-7.05,135.44",
         "137.6,-7.05,139.1",
         "145.01,-10.49,146.84"
+      ],
+      "utterances": [
+        "Do you have business with the Freeport Militia?",
+        "All praises to the Overlord.  The Militia protects loyal citizens of Freeport."
       ]
     },
     {
@@ -9715,6 +10473,13 @@
       ],
       "utterances": [
         "I am the finest weaponsmith in Freeport... But I don't do public work anymore. These days I simply make new designs for the sake of advancing my craft... and the occasional very pricey contract."
+      ]
+    },
+    {
+      "name": "a weary Kor shaman",
+      "name_sortable": "wearykorshaman",
+      "utterances": [
+        "Please help me... hear my story and offer me succor."
       ]
     },
     {

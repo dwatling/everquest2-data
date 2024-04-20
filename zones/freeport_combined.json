@@ -65,13 +65,16 @@
       "name": "an Academy spellsplitter",
       "name_sortable": "academyspellsplitter",
       "race": [
-        "erudite"
+        "erudite",
+        "human"
       ],
       "gender": [
         "female"
       ],
       "locations": [
-        "3.63,-6.24,-123.74"
+        "3.63,-6.24,-123.74",
+        "5.13,7.3,-122.11",
+        "24.08,-37.95,-124.52"
       ]
     },
     {
@@ -84,6 +87,12 @@
     {
       "name": "Acolyte Ksylia",
       "name_sortable": "acolyteksylia",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-80.38,-8.98,-121.79"
       ]
@@ -91,6 +100,12 @@
     {
       "name": "Administrator Frugi",
       "name_sortable": "administratorfrugi",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-82.5,-8.99,-122.69"
       ],
@@ -101,6 +116,12 @@
     {
       "name": "Adrianna",
       "name_sortable": "adrianna",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Dismal Rage Priest",
       "locations": [
         "-90.74,-9.91,-164.93"
@@ -144,6 +165,12 @@
     {
       "name": "Aezaar the Damned",
       "name_sortable": "aezaarthedamned",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Nebulous Newsie",
       "locations": [
         "-102.0,-8.11,-164.95"
@@ -194,6 +221,12 @@
     {
       "name": "Akkin",
       "name_sortable": "akkin",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-50.74,-7.96,-151.63"
       ]
@@ -507,6 +540,12 @@
     {
       "name": "Archbishop Haleim Felmease",
       "name_sortable": "archbishophaleimfelmease",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "High Speaker of Freeport",
       "locations": [
         "-87.87,-7.27,-182.85"
@@ -530,6 +569,12 @@
     {
       "name": "Archivist Jindlefog",
       "name_sortable": "archivistjindlefog",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Arcane Scientist",
       "locations": [
         "8.28,-37.95,-122.47"
@@ -665,6 +710,12 @@
     {
       "name": "Augurer Valgus",
       "name_sortable": "augurervalgus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-80.48,-7.28,-169.18"
       ],
@@ -719,6 +770,12 @@
     {
       "name": "Azreana",
       "name_sortable": "azreana",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Erudite Mentor",
       "locations": [
         "3.64,7.3,-117.83"
@@ -907,6 +964,9 @@
     {
       "name": "Belimee Viperwing",
       "name_sortable": "belimeeviperwing",
+      "gender": [
+        "female"
+      ],
       "purpose": "Aid to the Grand Inquisitor",
       "locations": [
         "-77.72,-9.91,-160.39"
@@ -958,23 +1018,55 @@
     {
       "name": "Blerrkt Marrowdrinker",
       "name_sortable": "blerrktmarrowdrinker",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Warden Trainer",
       "locations": [
         "-73.26,-9.91,-147.47"
       ],
       "utterances": [
         "What brings you to the Temple of War, <player name>?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
       "name": "Blight Sage Destroz",
       "name_sortable": "blightsagedestroz",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Dismal Rage Priest",
       "locations": [
         "-88.43,-7.27,-186.28"
       ],
       "utterances": [
-        "By Bristlebane's pickled breath! The prophecy foretold at long last has come true! Freeport's shining savior stands before us! You have proven your worth, and now you must seek the forbidden within these walls. Only by understanding our enemy will you be able to defeat our foes!"
+        "By Bristlebane's pickled breath! The prophecy foretold at long last has come true! Freeport's shining savior stands before us! You have proven your worth, and now you must seek the forbidden within these walls. Only by understanding our enemy will you be able to defeat our foes!",
+        "Insolent swine! For this impudence I should slice open your belly and roast your entrails on a spit.  Do not dare to interrupt my private meditations again!"
       ]
     },
     {
@@ -996,6 +1088,12 @@
     {
       "name": "Boddy Runewick",
       "name_sortable": "boddyrunewick",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Apprentice Illusionist",
       "locations": [
         "-14.41,-7.93,-135.79"
@@ -1265,11 +1363,174 @@
     {
       "name": "Brinegaggle",
       "name_sortable": "brinegaggle",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Arcane Scientist Merchant",
+      "locations": [
+        "4.82,-34.26,-149.8"
+      ],
       "utterances": [
         "The stuff's over there.  Just let me know if you find anything you like.",
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
-      ]
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1668863364 -1553472363 0 0 0:a heretic's cauldron\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 907926368 -1553261501 0 0 0:a necromantic skull lamp\\/a",
+          "prices": [
+            {
+              "coin": 48000,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
+          "prices": [
+            {
+              "coin": 60
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 522230146 -1341500544 0 0 0:Ally: Academy of Arcane Sciences\\/a",
+          "prices": [
+            {
+              "status": 50000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1256438961 217618961 0 0 0:an academy canopic pot\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2108308366 340350044 0 0 0:an academy lab table\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -854885715 49949080 0 0 0:an arcane lab distillery set\\/a",
+          "prices": [
+            {
+              "coin": 12000,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -977191635 -467959805 0 0 0:arcane ceremonial officer boots\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2073610476 1485889638 0 0 0:arcane ceremonial officer gloves\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -201221397 -1706556961 0 0 0:arcane ceremonial officer robe\\/a",
+          "prices": [
+            {
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1673658144 1750103209 0 0 0:arcane scientist's ceremonial gloves\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 281083001 -1681034723 0 0 0:arcane scientist's ceremonial robe\\/a",
+          "prices": [
+            {
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1219144632 50201463 0 0 0:arcane scientist's ceremonial shoes\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1615926973 1554653749 0 0 0:ceremonial formal ensemble\\/a",
+          "prices": [
+            {
+              "coin": 306749,
+              "status": 169886
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 917045627 2030253262 0 0 0:Initiate: Academy of Arcane Sciences\\/a",
+          "prices": [
+            {
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1383899054 -260357007 0 0 0:Maj'dul Enchanted Carpet\\/a",
+          "prices": [
+            {
+              "coin": 10800000,
+              "status": 337500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1143086249 -1781411135 0 0 0:Member: Academy of Arcane Sciences\\/a",
+          "prices": [
+            {
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1627704942 222248460 0 0 0:Officer: Academy of Arcane Sciences\\/a",
+          "prices": [
+            {
+              "status": 40000
+            }
+          ]
+        }
+      ],
+      "store_template": "candle+incense"
     },
     {
       "name": "a broken necrotok",
@@ -1495,6 +1756,12 @@
     {
       "name": "Bronson Thewlis",
       "name_sortable": "bronsonthewlis",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Apprentice Illusionist",
       "locations": [
         "-15.1,-7.93,-131.61"
@@ -1748,6 +2015,12 @@
     {
       "name": "Claudette Woodbridge",
       "name_sortable": "claudettewoodbridge",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Portals Trainer",
       "locations": [
         "-75.35,-9.91,-139.08"
@@ -1773,11 +2046,32 @@
         "My, my!  Another warlock within our midst.  Do not worry; I do not consider you a threat.",
         "If you find items that add to your intelligence or stamina, then take them!  Intelligence affects your spell focus and increases the damage your spells can cause.  Your stamina affects your health.  This is crucial.",
         "We are masters of death and decay, inflicting poison and disease upon those that dare to challenge us, particularly on groups of opponents.",
-        "There are other adventuring classes that must rely on strong defenses to survive, but we focus on the offense.  No need to defend yourself from a foe who is writhing in pain, plagued with disease!"
+        "There are other adventuring classes that must rely on strong defenses to survive, but we focus on the offense.  No need to defend yourself from a foe who is writhing in pain, plagued with disease!",
+        "Who goes there?  Are you a true believer in the Powers?  Have you conviction enough to smite your enemies and empower your allies?  Only those who are worthy may touch these magical wares.  If you  dare defile them, then be gone!"
       ],
       "store": [
         {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        },
+        {
           "gamelink": "\\aITEM -1649295999 -454139663:Bind Sight\\/a",
+          "requirements": {
+            "class": "warlock"
+          },
           "prices": [
             {
               "coin": 90
@@ -1786,6 +2080,9 @@
         },
         {
           "gamelink": "\\aITEM -2029839762 1143741015:Kraylith's Curse of the Toad\\/a",
+          "requirements": {
+            "class": "warlock"
+          },
           "prices": [
             {
               "coin": 1440
@@ -1794,6 +2091,9 @@
         },
         {
           "gamelink": "\\aITEM 924221520 696042986:Packaged Warlock's Armor Set\\/a",
+          "requirements": {
+            "class": "warlock"
+          },
           "prices": [
             {
               "coin": 1
@@ -1960,6 +2260,12 @@
     {
       "name": "Consternator Soulinus",
       "name_sortable": "consternatorsoulinus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-77.67,-7.28,-167.61"
       ],
@@ -1970,6 +2276,12 @@
     {
       "name": "Convert Y`Ral",
       "name_sortable": "convertyral",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Dismal Rage Priest",
       "locations": [
         "-99.91,-9.91,-136.85"
@@ -1991,6 +2303,12 @@
     {
       "name": "Corina Farsight",
       "name_sortable": "corinafarsight",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Dismal Rage Scryer",
       "locations": [
         "-84.42,-7.27,-190.05"
@@ -2140,6 +2458,12 @@
     {
       "name": "Dawood Haidaar",
       "name_sortable": "dawoodhaidaar",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Illusionary Savant",
       "locations": [
         "-25.42,-7.85,-130.39"
@@ -2225,6 +2549,12 @@
     {
       "name": "Desmera Risentide",
       "name_sortable": "desmerarisentide",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-9.67,-34.26,-135.88"
       ],
@@ -2266,6 +2596,20 @@
     {
       "name": "a Dismal Rage adherent",
       "name_sortable": "dismalrageadherent",
+      "race": [
+        "human",
+        "troll",
+        "dark elf",
+        "ratonga"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
+      "locations": [
+        "-46.49,-7.96,-155.44",
+        "-120.33,-8.07,-124.82"
+      ],
       "utterances": [
         "You may thank me now for gracing you with my presence.",
         "Oh yeah!  But why should I?",
@@ -3449,6 +3793,12 @@
     {
       "name": "Drund Mordgraahl Skullsprain",
       "name_sortable": "drundmordgraahlskullsprain",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-88.47,-8.99,-116.64"
       ],
@@ -3537,19 +3887,54 @@
     {
       "name": "Dyvll Ssavan",
       "name_sortable": "dyvllssavan",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Defiler Trainer",
       "locations": [
         "-94.77,-9.91,-154.56"
       ],
       "utterances": [
         "What brings you to the Temple of War, <player name>?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
       "name": "Dyymona K'Vexx",
       "name_sortable": "dyymonakvexx",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-13.66,-34.26,-122.28"
+      ],
       "utterances": [
-        "Deliver that missive to L'rak Ta'Wound at the Nerian embassy in Freeport."
+        "Deliver that missive to L'rak Ta'Wound at the Nerian embassy in Freeport.",
+        "I have no desire to speak to you, Haeth'Un."
       ]
     },
     {
@@ -3639,6 +4024,12 @@
     {
       "name": "Elguka the Oracle",
       "name_sortable": "elgukatheoracle",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-112.6,-8.04,-130.26"
       ],
@@ -3661,6 +4052,25 @@
       ],
       "utterances": [
         "Well, well <player name> what brings you to the Academy of Arcane Science?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
@@ -3677,6 +4087,12 @@
     {
       "name": "Elon Gallwin",
       "name_sortable": "elongallwin",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Arcane Scientist",
       "locations": [
         "8.06,7.3,-108.19"
@@ -3685,6 +4101,12 @@
     {
       "name": "Elrinn Darknor",
       "name_sortable": "elrinndarknor",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Lucanic Knights",
       "locations": [
         "-96.02,-8.15,-95.2"
@@ -3851,6 +4273,12 @@
     {
       "name": "Fethar Lothki",
       "name_sortable": "fetharlothki",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Dismal Rage Priest",
       "locations": [
         "-92.03,-9.91,-162.56"
@@ -3866,6 +4294,12 @@
     {
       "name": "Foci Tamara Paust",
       "name_sortable": "focitamarapaust",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Academy of Arcane Science",
       "locations": [
         "18.44,-34.26,-148.16"
@@ -4430,6 +4864,12 @@
     {
       "name": "Gisuka Voll",
       "name_sortable": "gisukavoll",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Prime Spiritual Advisor",
       "locations": [
         "-101.71,-8.98,-126.85"
@@ -4466,6 +4906,12 @@
     {
       "name": "Glimmadge Pilk",
       "name_sortable": "glimmadgepilk",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Master Illusionist",
       "locations": [
         "-20.96,-7.9,-133.96"
@@ -6340,6 +6786,12 @@
     {
       "name": "Izius J'lok",
       "name_sortable": "iziusjlok",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-65.75,-7.97,-121.31"
       ],
@@ -6375,6 +6827,25 @@
       ],
       "utterances": [
         "Eh ... what's that? Sorry, do you need something?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
@@ -7399,6 +7870,12 @@
     {
       "name": "Kenth Lanringe",
       "name_sortable": "kenthlanringe",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-103.51,-8.17,-95.48"
       ],
@@ -7559,6 +8036,25 @@
       ],
       "utterances": [
         "What brings you to the hallowed halls of the Temple of War?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
@@ -8172,6 +8668,12 @@
     {
       "name": "Maldreya Darkheart",
       "name_sortable": "maldreyadarkheart",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Advisor to the Grand Inquisitor",
       "locations": [
         "-71.89,-9.91,-157.87",
@@ -8344,6 +8846,12 @@
     {
       "name": "Matthias Siegemaker",
       "name_sortable": "matthiassiegemaker",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Acolyte of the Grand Inquisitor",
       "locations": [
         "-82.47,-7.27,-183.61"
@@ -8576,6 +9084,12 @@
     {
       "name": "Missionary G`Zule",
       "name_sortable": "missionarygzule",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-97.94,-8.99,-119.92"
       ],
@@ -8609,6 +9123,12 @@
     {
       "name": "Modinite Z'Vol",
       "name_sortable": "modinitezvol",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-82.7,-7.27,-188.48"
       ],
@@ -8792,12 +9312,37 @@
     {
       "name": "Myia Selvin",
       "name_sortable": "myiaselvin",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Channeler Trainer",
       "locations": [
         "-63.54,-7.97,-130.22"
       ],
       "utterances": [
         "The spirits call to each of us, but few of us can hear them."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
@@ -8823,13 +9368,29 @@
     {
       "name": "Nahirra Usharva",
       "name_sortable": "nahirrausharva",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-74.69,-9.91,-159.67"
+      ],
       "utterances": [
-        "You must learn to release the chaos and destruction of your power."
+        "You must learn to release the chaos and destruction of your power.",
+        "The words preached by the Dismal Rage bring spiritual enlightenment to the weak."
       ]
     },
     {
       "name": "Naltar N'Xaana",
       "name_sortable": "naltarnxaana",
+      "race": [
+        "arasai"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Apprentice Illusionist",
       "locations": [
         "-15.9,-7.93,-128.49"
@@ -8858,7 +9419,55 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM 931192117 872741993:Collected Stories of Serpent Sewer\\/a",
+          "gamelink": "\\aITEM -1189754200 -375196521 0 0 0:\"Bird Watching - The Do's and Don'ts of Nektulos Forest\"\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 919872492 -2086294889 0 0 0:\"Dragoon Zytl - Black Rank\"\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 363391359 1363066854 0 0 0:\"Dragoon Zytl - Blood Rank\"\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 61397816 962847923 0 0 0:\"Dragoon Zytl - Green Rank\"\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -416661239 -1653124911 0 0 0:\"The Monsters\"\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1275889333 -772376481 0 0 0:a charred book\\/a",
+          "prices": [
+            {
+              "coin": 7800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -692781748 -43174796 0 0 0:A Collection of Epitaphs\\/a",
           "prices": [
             {
               "coin": 360
@@ -8866,7 +9475,31 @@
           ]
         },
         {
-          "gamelink": "\\aITEM -1028841855 -737735872:Freeport Sewers Creature Catalog\\/a",
+          "gamelink": "\\aITEM 1125012374 1943703365 0 0 0:A Martyr's Tale\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1092840134 -84374792 0 0 0:a Thexian log book\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -646940338 -1080966923 0 0 0:An Old Cookbook\\/a",
+          "prices": [
+            {
+              "coin": 240
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1936103841 -481784604 0 0 0:Antonica Creature Catalog\\/a",
           "prices": [
             {
               "coin": 3456
@@ -8874,10 +9507,642 @@
           ]
         },
         {
-          "gamelink": "\\aITEM 1825643237 692592568:Nektulos Creature Catalog\\/a",
+          "gamelink": "\\aITEM -799475108 1282557195 0 0 0:Architecture of the Vermin's Snye\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 402888126 1542454296 0 0 0:Assistant Researcher's Notes, Vol. 1, Halls of Erudin\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2130000892 2020703998 0 0 0:Assistant Researcher's Notes, Vol. 2, The High Council of Erudin\\/a",
+          "prices": [
+            {
+              "coin": 11664
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -166857582 -78339550 0 0 0:Assistant Researcher's Notes, Vol. 3, The High Council of Erudin\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1010336832 -1459982418 0 0 0:At Low Tide\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 453063055 -395864096 0 0 0:Basic Mining Guide, Part One\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2113380299 2032886354 0 0 0:Basic Mining Guide, Part Two\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1859608657 -2088200472 0 0 0:Book of Power\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1524364097 996858970 0 0 0:Book of Sacrifice\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -275050262 -775555231 0 0 0:Book of Trials\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -84572034 1469975599 0 0 0:Cleaning with the Cryptkeeper\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1500220077 -698950467 0 0 0:Clockwork Chirurgeon User Manual\\/a",
+          "prices": [
+            {
+              "coin": 3600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 931192117 872741993 0 0 0:Collected Stories of Serpent Sewer\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1633029552 95974172 0 0 0:Collected Writings of a Mysterious Erudite\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1685427270 1573636917 0 0 0:Commonlands Creature Catalog\\/a",
           "prices": [
             {
               "coin": 3456
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2038573059 1836600037 0 0 0:Day log of R.F.\\/a",
+          "prices": [
+            {
+              "coin": 3600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -138636503 -2043967476 0 0 0:Fire and Ice Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 3456
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1301681277 1350919333 0 0 0:Flesh Bound Tome\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1028841855 -737735872 0 0 0:Freeport Sewers Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 3456
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1383283183 1554141967 0 0 0:From the Trial of Kane Bayle\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 368062642 -1163601300 0 0 0:Gnomes and the Art of Clockwork Maintenance\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1643415396 1104332411 0 0 0:Guide to Collecting Crypt Plates\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1137822297 121909126 0 0 0:Halls of the Dead Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 3456
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -386485656 919500391 0 0 0:Hrath's Journal\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1360668484 -1534707513 0 0 0:Ignatia Cellus' Family History Book\\/a",
+          "prices": [
+            {
+              "coin": 240
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1169113654 431397478 0 0 0:Ilene Cellus' Family History\\/a",
+          "prices": [
+            {
+              "coin": 600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 376407865 1369574494 0 0 0:Iriana Cellus' Family History\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1943071022 -833523460 0 0 0:Isabella Cellus' Family History Book\\/a",
+          "prices": [
+            {
+              "coin": 240
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1690892980 1596687542 0 0 0:Karath Smoothmane - The Breaking of the Pact\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1537263584 350578044 0 0 0:Karath Smoothmane - Winter Comes\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 314491464 964736679 0 0 0:Krymok's Peace Plan\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -721037553 -1391616320 0 0 0:Mistmoore Researcher's Logbook\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -957697394 141407607 0 0 0:Order Book: Blackshield Destroyer Saltspew\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -786887134 1718599781 0 0 0:Order Book: Blackshield Landing Party\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1719385388 -934053147 0 0 0:Order of the Frozen Wastes\\/a",
+          "prices": [
+            {
+              "coin": 3600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1576665298 585505063 0 0 0:Out of Necessity\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1918068762 1017146076 0 0 0:Outlying Freeport Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 3456
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1208298162 -859313376 0 0 0:Outlying Qeynos Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 3456
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 238236122 1479329832 0 0 0:Paying Homage to the Past\\/a",
+          "prices": [
+            {
+              "coin": 3600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1065230561 417421773 0 0 0:Qeynos Catacombs Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 3456
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -686162746 545848254 0 0 0:The Archtome of Haoaera\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1082986988 682985993 0 0 0:The Barren Sky Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 7776
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 178068403 -482937465 0 0 0:The Bonemire Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 7776
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1979078982 908178985 0 0 0:The Case of the Lost Lute\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1851331069 380809707 0 0 0:The Codex of the Khati Sha\\/a",
+          "prices": [
+            {
+              "coin": 7800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -997544670 356461536 0 0 0:The Far Side of Tears, Part Four\\/a",
+          "prices": [
+            {
+              "coin": 1920
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1910642579 765721760 0 0 0:The Far Side of Tears, Part One\\/a",
+          "prices": [
+            {
+              "coin": 1920
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1595162389 -359556192 0 0 0:The Far Side of Tears, Part Three\\/a",
+          "prices": [
+            {
+              "coin": 1920
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1215245144 -1775512960 0 0 0:The Far Side of Tears, Part Two\\/a",
+          "prices": [
+            {
+              "coin": 1920
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1869203229 1341304976 0 0 0:The Freeport Citizen's Guide to Opportunity - 2nd Edition\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1687896909 -486126034 0 0 0:The History of Ayr'Dal\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1273100677 603048563 0 0 0:The History of Barbarians\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 629496398 -453749625 0 0 0:The History of Dwarves\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1510044997 2123832528 0 0 0:The History of Erudites\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 300173232 -1547121454 0 0 0:The History of Feir'Dal\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1805595001 -1940324967 0 0 0:The History of Gnomes\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 278317882 64876737 0 0 0:The History of Halflings\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1879337817 -1030248409 0 0 0:The History of Humans\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -372450325 750055937 0 0 0:The History of Iksar\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -117758431 -1158160733 0 0 0:The History of Kerra\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1496986056 -801256449 0 0 0:The History of Koada'Dal\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1027958700 -251822386 0 0 0:The History of Ogres\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1946419382 -1260992199 0 0 0:The History of Ratonga\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 249544403 834147420 0 0 0:The History of the Teir'Dal\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1102672259 -1931959117 0 0 0:The History of the Trolls\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1340016554 535244948 0 0 0:The Journal of Rocco Barisano\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1901491052 1623131519 0 0 0:The Minions of the Mighty Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 3456
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1503957005 459978822 0 0 0:The Missing Pages of the Sword Heist Journal - Rebound\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1712829276 -1628733733 0 0 0:The Murkies\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1840245295 -1665811147 0 0 0:The Oops Factor\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1867458212 -1854771803 0 0 0:The Rat Queen of Vermin's Snye\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 617629721 -379934738 0 0 0:The Tenebrous Tangle Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 7776
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -385763144 1924554891 0 0 0:The Three Keys - The First Key\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1011497698 -1799249181 0 0 0:The Three Keys - The Second Key\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1777884866 -42368138 0 0 0:The Three Keys - The Third Key\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1873407396 770543567 0 0 0:The Trainee's Test\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -288918110 504748592 0 0 0:Tome of Order and Discord\\/a",
+          "prices": [
+            {
+              "coin": 3600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1100478864 -1676241418 0 0 0:Vaniki's Ring\\/a",
+          "prices": [
+            {
+              "coin": 4608
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1576867943 1157130405 0 0 0:Writings of the Deepwater Knights\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -378859518 -2123353098 0 0 0:Zapho's Celestial Guide to the Stars\\/a",
+          "prices": [
+            {
+              "coin": 36
             }
           ]
         }
@@ -8924,6 +10189,12 @@
     {
       "name": "Nethal L'tylex",
       "name_sortable": "nethalltylex",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Grand Inquisitor of the Dismal Rage",
       "locations": [
         "-79.66,-7.28,-165.36"
@@ -8935,6 +10206,15 @@
     {
       "name": "Nexa L'Dur",
       "name_sortable": "nexaldur",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-2.93,-42.76,-141.06"
+      ],
       "utterances": [
         "Achieving achievements is a worthwhile life goal."
       ]
@@ -9021,6 +10301,12 @@
     {
       "name": "Occultist Levonicus",
       "name_sortable": "occultistlevonicus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Dismal Rage Priest",
       "locations": [
         "-84.18,-10.27,-156.97"
@@ -9033,6 +10319,12 @@
     {
       "name": "Occultist L'Takk",
       "name_sortable": "occultistltakk",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Dismal Rage Priest",
       "locations": [
         "-85.96,-9.91,-162.61"
@@ -9162,12 +10454,19 @@
     {
       "name": "Paragon Jalex",
       "name_sortable": "paragonjalex",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Arcane Scientist",
       "locations": [
         "-1.32,7.3,-110.68"
       ],
       "utterances": [
-        "Your lesson is nearly complete.  I'm afraid I've nothing more to offer you and your companions.  You will need the wisdom of Thaumaturge Ranollious, and through his guidance, you will reach your full potential.  Goodbye, my faithful student.  "
+        "Your lesson is nearly complete.  I'm afraid I've nothing more to offer you and your companions.  You will need the wisdom of Thaumaturge Ranollious, and through his guidance, you will reach your full potential.  Goodbye, my faithful student.  ",
+        "I don't know who permitted you inside, but it's considered rude for a whelp to interfere with the studies of a Paragon such as me.  Please remove yourself from my sight!"
       ]
     },
     {
@@ -9526,6 +10825,12 @@
     {
       "name": "Rav'hyl Daln",
       "name_sortable": "ravhyldaln",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-13.8,-7.93,-140.27"
       ]
@@ -9604,12 +10909,37 @@
     {
       "name": "Rhahrda Olhymne",
       "name_sortable": "rhahrdaolhymne",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Templar Trainer",
       "locations": [
         "-77.56,-9.91,-134.59"
       ],
       "utterances": [
         "Greetings!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
@@ -9813,9 +11143,29 @@
     {
       "name": "Savant Ka'im",
       "name_sortable": "savantkaim",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Arcane Scientist",
       "locations": [
         "4.04,7.3,-124.87"
+      ]
+    },
+    {
+      "name": "Savant Keza",
+      "name_sortable": "savantkeza",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Academy Spellsplitter",
+      "locations": [
+        "22.16,-37.95,-124.46"
       ]
     },
     {
@@ -11137,6 +12487,12 @@
     {
       "name": "Thaumaturge Ranollious",
       "name_sortable": "thaumaturgeranollious",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Arcane Scientist",
       "locations": [
         "19.3,-42.77,-145.71"
@@ -11185,6 +12541,12 @@
     {
       "name": "Thesla Blackthorne",
       "name_sortable": "theslablackthorne",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-74.04,-8.0,-119.85"
       ],
@@ -11285,6 +12647,12 @@
     {
       "name": "Tohsa B'hondus",
       "name_sortable": "tohsabhondus",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Weaver of Madness",
       "locations": [
         "5.18,-37.95,-109.89"
@@ -11326,6 +12694,25 @@
       ],
       "utterances": [
         "Don't let your illusions be shattered!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
@@ -11452,6 +12839,25 @@
       ],
       "utterances": [
         "Come hither... how can I, Queen Antonia Bayle, serve you?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
@@ -11521,6 +12927,12 @@
     {
       "name": "Ulhira Grissh",
       "name_sortable": "ulhiragrissh",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-100.02,-8.99,-123.0"
       ],
@@ -11666,6 +13078,12 @@
     {
       "name": "Vellia Krissk",
       "name_sortable": "velliakrissk",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-67.46,-7.97,-119.28"
       ]
@@ -12053,12 +13471,37 @@
     {
       "name": "Xeuxa Foamheart",
       "name_sortable": "xeuxafoamheart",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Fury Trainer",
       "locations": [
         "-97.18,-9.91,-145.97"
       ],
       "utterances": [
         "What brings you to the Temple of War, <player name>?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
@@ -12173,11 +13616,237 @@
     {
       "name": "Zur",
       "name_sortable": "zur",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Dismal Rage Merchant",
+      "locations": [
+        "-88.5,-9.91,-171.82"
+      ],
       "utterances": [
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
         "The stuff's over there.  Just let me know if you find anything you like.",
         "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 968323787 1929703024 0 0 0:a dismal orb of decadence\\/a",
+          "prices": [
+            {
+              "coin": 12000,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 58658999 109478075 0 0 0:a heretic's chanting podium\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1689922432 -487200494 0 0 0:a human skeleton display\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
+          "prices": [
+            {
+              "coin": 60
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -853320200 864254607 0 0 0:a vivisection table\\/a",
+          "prices": [
+            {
+              "coin": 579498,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 364743154 1905698841 0 0 0:Ally: Dismal Rage\\/a",
+          "prices": [
+            {
+              "status": 50000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2100494003 -1577661872 0 0 0:an iron maiden casket\\/a",
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1615926973 1554653749 0 0 0:ceremonial formal ensemble\\/a",
+          "prices": [
+            {
+              "coin": 255624,
+              "status": 169886
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1261954748 -1922064778 0 0 0:dismal ceremonial officer breastplate\\/a",
+          "prices": [
+            {
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -921415937 740343961 0 0 0:dismal ceremonial officer gauntlets\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1234626964 -1003822191 0 0 0:dismal ceremonial officer helm\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -363733475 258297979 0 0 0:dismal ceremonial officer legplates\\/a",
+          "prices": [
+            {
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 568395887 -992639479 0 0 0:dismal ceremonial officer pauldrons\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1661999831 1575210908 0 0 0:dismal ceremonial officer tonlets\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2065856704 -1642662234 0 0 0:dismal ceremonial officer vambraces\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 339270507 -2087523485 0 0 0:dismal rage ceremonial boots\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1777301190 2014356532 0 0 0:dismal rage ceremonial bracers\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 532180612 1733422735 0 0 0:dismal rage ceremonial coat\\/a",
+          "prices": [
+            {
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 618173892 1546720719 0 0 0:dismal rage ceremonial coif\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 453585495 356845653 0 0 0:dismal rage ceremonial gloves\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -352833813 229508033 0 0 0:dismal rage ceremonial leggings\\/a",
+          "prices": [
+            {
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -601067373 -765439343 0 0 0:dismal rage ceremonial mantle\\/a",
+          "prices": [
+            {
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1703550942 -267229865 0 0 0:Initiate: Dismal Rage\\/a",
+          "prices": [
+            {
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1990885286 -1190083095 0 0 0:Member: Dismal Rage\\/a",
+          "prices": [
+            {
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -242656356 -1639988936 0 0 0:Officer: Dismal Rage\\/a",
+          "prices": [
+            {
+              "status": 40000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2067118534 363465274 0 0 0:Undead Mount\\/a",
+          "prices": [
+            {
+              "coin": 10800000,
+              "status": 337500
+            }
+          ]
+        }
       ]
     },
     {

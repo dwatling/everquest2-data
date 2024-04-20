@@ -234,10 +234,59 @@
     {
       "name": "Aldrevia Metilla",
       "name_sortable": "aldreviametilla",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Tailor",
       "locations": [
         "-125.94,-21.43,-69.07"
-      ]
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1700261000 1245163492 0 0 0:Traveler's Guide of the Tailor Volume 3\\/a",
+          "prices": [
+            {
+              "coin": 480
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1296732960 652792631 0 0 0:Traveler's Guide of the Tailor Volume 4\\/a",
+          "prices": [
+            {
+              "coin": 7680
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 125048939 1892162285 0 0 0:Traveler's Guide of the Tailor Volume 5\\/a",
+          "prices": [
+            {
+              "coin": 30720
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -795437005 1441607865 0 0 0:Traveler's Guide of the Tailor Volume 6\\/a",
+          "prices": [
+            {
+              "coin": 46080
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1941970586 856876540 0 0 0:Traveler's Guide of the Tailor Volume 7\\/a",
+          "prices": [
+            {
+              "coin": 69120
+            }
+          ]
+        }
+      ],
+      "store_template": "filament"
     },
     {
       "name": "Alethea Augustine",
@@ -618,6 +667,12 @@
     {
       "name": "Asbjorn Greyaxe",
       "name_sortable": "asbjorngreyaxe",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-109.24,-21.43,-87.88"
       ],
@@ -736,6 +791,12 @@
     {
       "name": "Aulus Crispian",
       "name_sortable": "auluscrispian",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Alchemist",
       "locations": [
         "-61.31,-24.43,-72.93"
@@ -743,7 +804,18 @@
       "utterances": [
         "Welcome to Torlig's Herbs and Potions.  I sell many magicial reagents and herbs.  But, I warn you, you must possess amazing skill to handle them properly.",
         "Of course I do.  I'm very knowledgeable in the ways of magic.  Why, if it wasn't for those instructors at the Academy denying my admission, I'd be on my way to becoming a famous arch mage! That fire was not my fault!"
-      ]
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 2101037654 -436556300 0 0 0:an emerald gem\\/a",
+          "prices": [
+            {
+              "coin": 132
+            }
+          ]
+        }
+      ],
+      "store_template": "candle+alchemist"
     },
     {
       "name": "an awestruck Freeport dweller",
@@ -898,6 +970,12 @@
     {
       "name": "Bard Loganius",
       "name_sortable": "bardloganius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-115.06,-20.4,-81.57"
       ],
@@ -908,6 +986,12 @@
     {
       "name": "Bargiss Ranlor",
       "name_sortable": "bargissranlor",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-104.39,-21.43,-80.47"
       ],
@@ -930,7 +1014,58 @@
       ],
       "utterances": [
         "Ahoy!  Welcome to the Seafarer's Roost.  Name's Barrius, but all these scallywags just call me Bar.  Be sure to mind your manners.  I don't want any more trouble!"
-      ]
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1230680062 1846598759 0 0 0:aerated mineral water\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1793046727 374059509 0 0 0:cocoa\\/a",
+          "prices": [
+            {
+              "coin": 12
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 444185263 -652129761 0 0 0:cream cheese\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1901169081 231047307 0 0 0:dough\\/a",
+          "prices": [
+            {
+              "coin": 12
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -72718082 1138320361 0 0 0:milk\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -682581044 1413174528 0 0 0:sugar\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        }
+      ],
+      "store_template": "kindling"
     },
     {
       "name": "Batak",
@@ -1980,13 +2115,70 @@
     {
       "name": "Cipius Abito",
       "name_sortable": "cipiusabito",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Provisioner",
       "locations": [
         "-124.17,-21.43,-77.13"
       ],
       "utterances": [
         "Hail to ye.  Are you interested in some groceries?  Real fresh like.  High quality goods at low prices."
-      ]
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1230680062 1846598759 0 0 0:aerated mineral water\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1793046727 374059509 0 0 0:cocoa\\/a",
+          "prices": [
+            {
+              "coin": 12
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 444185263 -652129761 0 0 0:cream cheese\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1901169081 231047307 0 0 0:dough\\/a",
+          "prices": [
+            {
+              "coin": 12
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -72718082 1138320361 0 0 0:milk\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -682581044 1413174528 0 0 0:sugar\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        }
+      ],
+      "store_template": "kindling+provisioner"
     },
     {
       "name": "City Registrar Glamis",
@@ -4003,6 +4195,102 @@
       ],
       "utterances": [
         "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1951672751 -1063707586 0 0 0:Adornment Reclamation\\/a",
+          "requirements": {
+            "class": "assassin+ranger"
+          },
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 833758767 -705165767 0 0 0:Assassin Legacy Armor Set\\/a",
+          "requirements": {
+            "class": "assassin+ranger"
+          },
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1364411696 2053788010 0 0 0:Disguise: High Elf\\/a",
+          "requirements": {
+            "class": "assassin+ranger"
+          },
+          "prices": [
+            {
+              "coin": 23040
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 806714450 -253543123 0 0 0:Greth's Willing Scout\\/a",
+          "requirements": {
+            "class": "assassin+ranger"
+          },
+          "prices": [
+            {
+              "coin": 1440
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 908276897 -861084993 0 0 0:Packaged Assassin's Armor Set\\/a",
+          "requirements": {
+            "class": "assassin+ranger"
+          },
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -423087909 646529570 0 0 0:Shadowed Form of the Assassin\\/a",
+          "requirements": {
+            "class": "assassin+ranger"
+          },
+          "prices": [
+            {
+              "coin": 34560
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -204416313 -339063064 0 0 0:Singular Focus\\/a",
+          "requirements": {
+            "class": "assassin+ranger"
+          },
+          "prices": [
+            {
+              "coin": 960
+            }
+          ]
+        }
       ]
     },
     {
@@ -4118,6 +4406,12 @@
     {
       "name": "Emissary Midia",
       "name_sortable": "emissarymidia",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-92.41,-21.43,-84.69"
       ],
@@ -4128,7 +4422,8 @@
         "Yes, you go to Nektulos and bring me bones from the skeletons!  Any skeletons will do, yes!  Bring them back, and I'll have a special task for you, yes!",
         "You need to finish what you started, yes?",
         "Fine job, yes!  You have done as I asked yes?  Now, I need you to do something special, yes?",
-        "Yes.  Go to Edgewater Drains and find a scroll, yes.  You'll know it is for you, yes!  Very important for the Overlord, yes!  Once you get it, you'll know what to do, yes!"
+        "Yes.  Go to Edgewater Drains and find a scroll, yes.  You'll know it is for you, yes!  Very important for the Overlord, yes!  Once you get it, you'll know what to do, yes!",
+        "Come back when you are stronger, yes?"
       ]
     },
     {
@@ -4154,6 +4449,12 @@
     {
       "name": "Entertainer Zagat",
       "name_sortable": "entertainerzagat",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-115.74,-20.4,-78.93"
       ]
@@ -4446,7 +4747,8 @@
         "-101.13,-40.37,-249.51",
         "-148.44,-53.11,-284.98",
         "-42.91,-8.26,170.58",
-        "33.88,-18.22,91.17"
+        "33.88,-18.22,91.17",
+        "-52.22,-24.45,-32.83"
       ],
       "utterances": [
         "You may thank me now for gracing you with my presence.",
@@ -4550,7 +4852,8 @@
       "name_sortable": "freeportresident",
       "race": [
         "human",
-        "ogre"
+        "ogre",
+        "barbarian"
       ],
       "gender": [
         "female",
@@ -4568,7 +4871,8 @@
         "-147.66,-53.1,-281.84",
         "-38.7,-8.25,167.47",
         "13.62,-8.2,229.61",
-        "-22.14,-7.01,179.4"
+        "-22.14,-7.01,179.4",
+        "-53.59,-24.45,-33.91"
       ],
       "utterances": [
         "Does anyone in this city bathe?",
@@ -4895,6 +5199,9 @@
     {
       "name": "Glaria ",
       "name_sortable": "glaria",
+      "gender": [
+        "female"
+      ],
       "purpose": "Freeblood Mentor",
       "locations": [
         "-81.03,-21.43,-82.08"
@@ -6536,6 +6843,12 @@
     {
       "name": "Hazrulin Vextrik",
       "name_sortable": "hazrulinvextrik",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-53.77,-24.43,-73.21"
       ],
@@ -6697,6 +7010,12 @@
     {
       "name": "Innkeeper Blerg Splinterthumb",
       "name_sortable": "innkeeperblergsplinterthumb",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Housing",
       "locations": [
         "-93.87,-21.43,-79.85"
@@ -6802,6 +7121,12 @@
     {
       "name": "Izzay Meestere",
       "name_sortable": "izzaymeestere",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-118.3,-21.43,-68.54"
       ],
@@ -7149,6 +7474,102 @@
       ],
       "utterances": [
         "Watch your back.  You'd be surprised how many blades fit perfectly there."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1951672751 -1063707586 0 0 0:Adornment Reclamation\\/a",
+          "requirements": {
+            "class": "assassin+ranger"
+          },
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 833758767 -705165767 0 0 0:Assassin Legacy Armor Set\\/a",
+          "requirements": {
+            "class": "assassin+ranger"
+          },
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1364411696 2053788010 0 0 0:Disguise: High Elf\\/a",
+          "requirements": {
+            "class": "assassin+ranger"
+          },
+          "prices": [
+            {
+              "coin": 23040
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 806714450 -253543123 0 0 0:Greth's Willing Scout\\/a",
+          "requirements": {
+            "class": "assassin+ranger"
+          },
+          "prices": [
+            {
+              "coin": 1440
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 908276897 -861084993 0 0 0:Packaged Assassin's Armor Set\\/a",
+          "requirements": {
+            "class": "assassin+ranger"
+          },
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -423087909 646529570 0 0 0:Shadowed Form of the Assassin\\/a",
+          "requirements": {
+            "class": "assassin+ranger"
+          },
+          "prices": [
+            {
+              "coin": 34560
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -204416313 -339063064 0 0 0:Singular Focus\\/a",
+          "requirements": {
+            "class": "assassin+ranger"
+          },
+          "prices": [
+            {
+              "coin": 960
+            }
+          ]
+        }
       ]
     },
     {
@@ -7204,6 +7625,12 @@
     {
       "name": "Julia Florens",
       "name_sortable": "juliaflorens",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Bartender",
       "locations": [
         "-106.54,-21.43,-84.75"
@@ -7212,7 +7639,58 @@
         "Come in, please come in.  Welcome to the Jade Tiger's Den.  I'm Hostess Julia.   Perhaps you came to try a Jade Tiger cocktail?",
         "Hey! No fighting in my pub. Take it outside!",
         "Honey, if you have to ask it's not for you."
-      ]
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1230680062 1846598759 0 0 0:aerated mineral water\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1793046727 374059509 0 0 0:cocoa\\/a",
+          "prices": [
+            {
+              "coin": 12
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 444185263 -652129761 0 0 0:cream cheese\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1901169081 231047307 0 0 0:dough\\/a",
+          "prices": [
+            {
+              "coin": 12
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -72718082 1138320361 0 0 0:milk\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -682581044 1413174528 0 0 0:sugar\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        }
+      ],
+      "store_template": "bartender+kindling"
     },
     {
       "name": "Jumpa-Lope",
@@ -7840,6 +8318,25 @@
         "This merchandise is so hot it's still warm to the touch.",
         "With these values it's like you're the one committing highway robbery!",
         "Well, well, what have we here?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
@@ -8345,7 +8842,8 @@
       ],
       "utterances": [
         "Oh, hello there! Perhaps my eyes fail me, but you look like you're handy with a quill. Can you do some scribe work for me?"
-      ]
+      ],
+      "store_template": "general_goods"
     },
     {
       "name": "Londiar Inygad",
@@ -8377,6 +8875,12 @@
     {
       "name": "a lonely citizen",
       "name_sortable": "lonelycitizen",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-109.28,-21.15,-81.71"
       ],
@@ -8549,6 +9053,25 @@
       ],
       "utterances": [
         "Good day, <player name>.  What brings you here this fine day?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
@@ -8629,6 +9152,12 @@
     {
       "name": "Maak",
       "name_sortable": "maak",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-113.16,-20.85,-88.04"
       ],
@@ -9050,7 +9579,8 @@
       "name_sortable": "militiaofficer",
       "race": [
         "human",
-        "ogre"
+        "ogre",
+        "dark elf"
       ],
       "gender": [
         "male"
@@ -9073,7 +9603,8 @@
         "266.18,-3.52,-45.8",
         "-67.42,-7.92,191.3",
         "33.35,-12.1,206.2",
-        "-227.84,-56.06,172.25"
+        "-227.84,-56.06,172.25",
+        "-80.13,-24.46,-56.05"
       ],
       "utterances": [
         "Do not challenge my authority, citizen.  In Freeport, the Overlord's word is law!",
@@ -9113,6 +9644,12 @@
     {
       "name": "d the Sighted",
       "name_sortable": "mizzogthesighted",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-48.38,-24.44,-50.24"
       ],
@@ -10597,6 +11134,12 @@
     {
       "name": "Preceptor Nyjuss",
       "name_sortable": "preceptornyjuss",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-73.7,-21.43,-66.94"
       ]
@@ -10803,7 +11346,34 @@
       ],
       "utterances": [
         "Aye. Welcome to the Seafarer's Roost. Been out at sea for a while, or just stopping through? Put some coin in my hand and I'll sell ye drinks until ye sail out again."
-      ]
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1230680062 1846598759 0 0 0:aerated mineral water\\/a",
+          "price": 4
+        },
+        {
+          "gamelink": "\\aITEM -1793046727 374059509 0 0 0:cocoa\\/a",
+          "price": 12
+        },
+        {
+          "gamelink": "\\aITEM 444185263 -652129761 0 0 0:cream cheese\\/a",
+          "price": 4
+        },
+        {
+          "gamelink": "\\aITEM -1901169081 231047307 0 0 0:dough\\/a",
+          "price": 12
+        },
+        {
+          "gamelink": "\\aITEM -72718082 1138320361 0 0 0:milk\\/a",
+          "price": 4
+        },
+        {
+          "gamelink": "\\aITEM -682581044 1413174528 0 0 0:sugar\\/a",
+          "price": 4
+        }
+      ],
+      "store_template": "bartender+kindling"
     },
     {
       "name": "Ratscallion Attamilgad",
@@ -11214,10 +11784,12 @@
       "name": "a Seafury corsair",
       "name_sortable": "seafurycorsair",
       "race": [
-        "barbarian"
+        "barbarian",
+        "ogre"
       ],
       "gender": [
-        "male"
+        "male",
+        "female"
       ],
       "locations": [
         "-293.44,-57.94,134.93",
@@ -11233,7 +11805,8 @@
         "-209.33,-56.07,-45.61",
         "-209.14,-56.07,-16.61",
         "-207.58,-56.07,5.76",
-        "-212.92,-56.07,9.08"
+        "-212.92,-56.07,9.08",
+        "-82.15,-24.45,-55.16"
       ],
       "utterances": [
         "Treat us badly in Neriak! I laugh now we in same spot!",
@@ -11558,6 +12131,25 @@
       ],
       "utterances": [
         "Good day, <player name>.  What brings you here this fine day?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
@@ -11662,6 +12254,12 @@
     {
       "name": "Slinko",
       "name_sortable": "slinko",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-49.76,-24.43,-29.01"
       ],
@@ -12728,13 +13326,20 @@
     {
       "name": "Torlig the Alchemist",
       "name_sortable": "torligthealchemist",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Alchemist",
       "locations": [
         "-55.34,-24.43,-65.97"
       ],
       "utterances": [
         "Shhhh! Don't distract me ... I need a steady hand to ensure I combine this potion correctly. One mistake and the blast will reduce this building to rubble. Deal with my apprentices if you want to buy something."
-      ]
+      ],
+      "store_template": "candle+alchemist(x1.16667)"
     },
     {
       "name": "Trade Liaison Wells",
@@ -12826,6 +13431,25 @@
       ],
       "utterances": [
         "Greetings, <player name>.  What brings you to the docks today?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1122950924 -1920236698 0 0 0:Dial It Back\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -901218914 -1251887565 0 0 0:Shrink Mercenary\\/a",
+          "prices": [
+            {
+              "coin": 1200000,
+              "status": 150000
+            }
+          ]
+        }
       ]
     },
     {
@@ -13124,6 +13748,12 @@
     {
       "name": "Vibia Valens",
       "name_sortable": "vibiavalens",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "General Goods",
       "locations": [
         "-131.96,-21.43,-72.08"
@@ -13137,6 +13767,23 @@
         "Oh, just a bit of seep bile from a primordial and the venom sac of a rare spider called Soulspike. Hardly a worthy task for one with such ... worldly experience, but still, I humble myself to ask for your services.",
         "Soulspike is a Wailing Spider, one of the species that live in the caverns; he's a bit larger than the rest. His venom is said to be incredibly potent, though encountering Soulspike is extremely rare. Still, nothing for a brave adventurer to fear. ",
         "A client of mine has requested a very... interesting potion from me.  Of course I'm more than capable of brewing it, but only if I have those ingredients.  So, are you interested in the job?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 297271877 2096316751:a market bulletin board\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516:a torch\\/a"
+        },
+        {
+          "gamelink": "\\aITEM 2208995 -860442438:dried bread\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -101702825 -210262797:flask of murky water\\/a"
+        },
+        {
+          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a"
+        }
       ]
     },
     {

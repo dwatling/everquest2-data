@@ -703,6 +703,12 @@
     {
       "name": "Atianoo Donicus",
       "name_sortable": "atianoodonicus",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-134.59,-23.79,-49.78"
       ],
@@ -1217,7 +1223,8 @@
         "-235.34,-48.96,-21.09"
       ],
       "utterances": [
-        "You have done a fine job.  The officers have taken notice, and no longer consider you a bilge rat.  Speak to Marauder Kindolus when you have a moment.  He's upstairs. You'll be reporting to him from now on.  Smooth sailing, friend. You're one of us now!"
+        "You have done a fine job.  The officers have taken notice, and no longer consider you a bilge rat.  Speak to Marauder Kindolus when you have a moment.  He's upstairs. You'll be reporting to him from now on.  Smooth sailing, friend. You're one of us now!",
+        "What are you looking at?  This ship is for pirates and cutthroats; lily-livered landlubbers aren't allowed in here!"
       ]
     },
     {
@@ -2557,7 +2564,8 @@
         "-233.42,-48.96,-19.97"
       ],
       "utterances": [
-        "..."
+        "...",
+        "Speak quickly, scoundrel, or step aside, as I have little patience for babbling oafs.  Why do I even waste my time?  Get off our ship, now!"
       ]
     },
     {
@@ -4194,7 +4202,13 @@
         "-233.48,-48.96,7.35"
       ],
       "utterances": [
-        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "Ah, another assassin!  It is a dangerous profession that you have chosen, but well worth it.",
+        "Understand that it goes against my very nature to give away anything I consider a trade secret, but I can part with a few bits of wisdom.",
+        "Procure items that add to your agility or stamina, when you find them!  Agility affects both your ability to inflict damage and avoid taking damage from others.  Your stamina affects your health.  This is crucial.",
+        "Our most devastating attacks are sudden strikes to vital organs from a cover of darkness.  These opportunistic attacks performed under a cover of concealment surprises our target, thus giving them less chance to protect themselves.",
+        "Keep in mind that the majority of our attacks are positional, meaning you need to be behind or beside an opponent for that attack to work.  So you must be aware of situations in which there are multiple foes, as positional attacks are of little use when you're surrounded!",
+        "I suggest you employ a divide and conquer tactic, and cut them down as fast as possible.  And do not overlook the power of poisons, in any situation!"
       ],
       "store": [
         {
@@ -4530,7 +4544,8 @@
         "Lets me knows if'n ye sight a shark with a timber stuck a'tween his teeth.",
         "Get all the cures 'ere fer yer fevers and scurvy.",
         "Ye'll find the finest grub and grog 'ere, Cap'n.",
-        "Arrrr, matey! Ye be lookin' to go on account?"
+        "Arrrr, matey! Ye be lookin' to go on account?",
+        "Yo-ho-ho! Now there be some booty that'll fetch more'n a piece o' eight."
       ],
       "store": [
         {
@@ -4904,7 +4919,8 @@
         "182.48,-3.52,-21.32",
         "-262.34,-56.07,-72.69",
         "-211.15,-56.07,12.66",
-        "33.35,-12.1,206.2"
+        "33.35,-12.1,206.2",
+        "-140.15,-24.37,-69.13"
       ],
       "utterances": [
         "Straying a bit, are we?",
@@ -4926,7 +4942,9 @@
         "Smart or not, you're in Freeport now.",
         "You'll do nicely when we make our play.",
         "One day, our lot will improve here.",
-        "Watch yerself, this city can be rough."
+        "Watch yerself, this city can be rough.",
+        "Nasty scars and boiled tar!  Warriors is what we are!",
+        "Tasty treats, lots of meats."
       ]
     },
     {
@@ -4952,7 +4970,8 @@
         "-148.44,-53.11,-284.98",
         "-42.91,-8.26,170.58",
         "33.88,-18.22,91.17",
-        "-52.22,-24.45,-32.83"
+        "-52.22,-24.45,-32.83",
+        "-116.84,-24.44,-40.9"
       ],
       "utterances": [
         "You may thank me now for gracing you with my presence.",
@@ -5019,13 +5038,20 @@
     {
       "name": "a Freeport gladiator",
       "name_sortable": "freeportgladiator",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "267.97,-3.83,78.04",
         "242.02,-3.65,84.55",
         "279.53,-3.65,71.89",
         "181.99,-3.53,-25.38",
         "170.47,-3.53,42.71",
-        "204.82,-3.6,-68.47"
+        "204.82,-3.6,-68.47",
+        "-140.82,-24.37,-71.83"
       ],
       "utterances": [
         "There is nothing finer than a freshly bloodied battlefield.",
@@ -5076,7 +5102,8 @@
         "-38.7,-8.25,167.47",
         "13.62,-8.2,229.61",
         "-22.14,-7.01,179.4",
-        "-53.59,-24.45,-33.91"
+        "-53.59,-24.45,-33.91",
+        "-114.86,-24.45,-42.96"
       ],
       "utterances": [
         "Does anyone in this city bathe?",
@@ -5130,10 +5157,12 @@
       "name_sortable": "freeportvisitant",
       "race": [
         "dark elf",
-        "human"
+        "human",
+        "ogre"
       ],
       "gender": [
-        "female"
+        "female",
+        "male"
       ],
       "locations": [
         "-144.04,-24.37,-52.73",
@@ -5141,7 +5170,8 @@
         "-253.88,-56.07,204.28",
         "-123.24,-37.36,73.66",
         "-260.34,-56.07,-73.68",
-        "13.62,-8.2,229.61"
+        "13.62,-8.2,229.61",
+        "-117.49,-24.44,-42.51"
       ],
       "utterances": [
         "Hah! New around these parts?",
@@ -5185,6 +5215,12 @@
     {
       "name": "Gadko",
       "name_sortable": "gadko",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Vassi's Assistant",
       "locations": [
         "-75.69,-11.0,-70.42"
@@ -8521,7 +8557,8 @@
         "Don't let these deals slip through your fingers.",
         "This merchandise is so hot it's still warm to the touch.",
         "With these values it's like you're the one committing highway robbery!",
-        "Well, well, what have we here?"
+        "Well, well, what have we here?",
+        "Satisfaction is guaranteed, with all items fully refundable...if you can find me again."
       ],
       "store": [
         {
@@ -9453,7 +9490,8 @@
         "-235.64,-48.18,13.68"
       ],
       "utterances": [
-        "Well, it seems you've been deemed worthy of trade in our organization.  My congratulations to you and your crew.  You need to speak to Corsair G`Kex over there.  You can't miss him -- he'll be the one standing upon the deck of a large vessel in port.  Good hunting! Until we meet again, friend..."
+        "Well, it seems you've been deemed worthy of trade in our organization.  My congratulations to you and your crew.  You need to speak to Corsair G`Kex over there.  You can't miss him -- he'll be the one standing upon the deck of a large vessel in port.  Good hunting! Until we meet again, friend...",
+        "What filth is this before me?  I've a schedule to keep and no time to associate with common trash."
       ]
     },
     {
@@ -11553,28 +11591,22 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM 1230680062 1846598759 0 0 0:aerated mineral water\\/a",
-          "price": 4
+          "gamelink": "\\aITEM 1230680062 1846598759 0 0 0:aerated mineral water\\/a"
         },
         {
-          "gamelink": "\\aITEM -1793046727 374059509 0 0 0:cocoa\\/a",
-          "price": 12
+          "gamelink": "\\aITEM -1793046727 374059509 0 0 0:cocoa\\/a"
         },
         {
-          "gamelink": "\\aITEM 444185263 -652129761 0 0 0:cream cheese\\/a",
-          "price": 4
+          "gamelink": "\\aITEM 444185263 -652129761 0 0 0:cream cheese\\/a"
         },
         {
-          "gamelink": "\\aITEM -1901169081 231047307 0 0 0:dough\\/a",
-          "price": 12
+          "gamelink": "\\aITEM -1901169081 231047307 0 0 0:dough\\/a"
         },
         {
-          "gamelink": "\\aITEM -72718082 1138320361 0 0 0:milk\\/a",
-          "price": 4
+          "gamelink": "\\aITEM -72718082 1138320361 0 0 0:milk\\/a"
         },
         {
-          "gamelink": "\\aITEM -682581044 1413174528 0 0 0:sugar\\/a",
-          "price": 4
+          "gamelink": "\\aITEM -682581044 1413174528 0 0 0:sugar\\/a"
         }
       ],
       "store_template": "bartender+kindling"
@@ -12315,6 +12347,12 @@
     {
       "name": "Shungi",
       "name_sortable": "shungi",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-123.78,-24.45,-51.48",
         "-114.48,-24.45,-46.96"
@@ -12613,7 +12651,8 @@
         "-232.33,-48.96,12.84"
       ],
       "utterances": [
-        "Well done, friend!  I'd let you watch my back at sea any day.  You've more than proven yourself to the crew.  I have nothing more that would challenge an adventurer of your caliber."
+        "Well done, friend!  I'd let you watch my back at sea any day.  You've more than proven yourself to the crew.  I have nothing more that would challenge an adventurer of your caliber.",
+        "Ha! The life of a free trader is not all fun and games, you know!  We Seafury Buccaneers have a responsibility to guard the waterways in the name of the Overlord!  It's a responsibility we take seriously."
       ]
     },
     {
@@ -13896,6 +13935,12 @@
     {
       "name": "Vassi Darkscale",
       "name_sortable": "vassidarkscale",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-73.99,-11.0,-75.63"
       ],

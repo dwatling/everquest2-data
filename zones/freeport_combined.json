@@ -5712,7 +5712,8 @@
       ],
       "utterances": [
         "In spite of the cost of living, it's still quite a popular item.",
-        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
       ],
       "store": [
         {
@@ -7570,10 +7571,74 @@
       ],
       "store": [
         {
-          "gamelink": "\\aITEM -284346789 -941911935:an enchanter's candelabra\\/a",
+          "gamelink": "\\aITEM 1405890238 1476661569 0 0 0:a crafted vase\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 850442521 -1052691867 0 0 0:a Freeport wooden counter\\/a",
+          "prices": [
+            {
+              "coin": 810
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1948997447 7842935 0 0 0:a generic wall sconce\\/a",
+          "prices": [
+            {
+              "coin": 810
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2012617853 -546056628 0 0 0:a paladin brazier\\/a",
+          "prices": [
+            {
+              "coin": 7290
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1163474917 1809420032 0 0 0:a plain chest\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -696290415 -1683006441 0 0 0:an armorwasher's bucket\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 -941911935 0 0 0:an enchanter's candelabra\\/a",
           "prices": [
             {
               "coin": 21870
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1232679906 -2073675396 0 0 0:an Oggokian torch\\/a",
+          "prices": [
+            {
+              "coin": 119
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 617291304 1123803162 0 0 0:an ornate vase\\/a",
+          "prices": [
+            {
+              "coin": 1620
             }
           ]
         }
@@ -9635,7 +9700,8 @@
         "This traitor is a Qeynosian sympathizer--an aid to those who would sow disorder in our city.",
         "I need not remind you; we are superior to the Qeynosians in every way but one.",
         "Our only flaw is complacency. But I urge you, loyal citizens, to be complacent no longer.",
-        "For the good of the city, for the might of Freeport and its people, we must not tolerate betrayal. We must remove this corrupting influence from our city."
+        "For the good of the city, for the might of Freeport and its people, we must not tolerate betrayal. We must remove this corrupting influence from our city.",
+        "I stand before you to render judgment upon this prisoner, who stands accused of the most heinous of crimes: Treachery and disloyalty!"
       ]
     },
     {
@@ -12937,7 +13003,14 @@
         "155.72,-16.79,127.68"
       ],
       "utterances": [
-        "Glory to The Overlord."
+        "Glory to The Overlord.",
+        "I tell ya, I'm glad to be out of that damned slum, but to see our clan thrown out like week-old wolf meat?  Terrible!",
+        "Y'know... Scale Yard.  All of us Northmen were given home in that Freeport ‘hood when we arrived from the Outpost of the Overlord.  It was a loathsome place.",
+        "Aside from its general state of disrepair and filth?  The fact that it had been a detention camp for the iksar before we arrived!",
+        "So, now ya see why I don't miss hanging me blood-stained kilt there any longer.  But we were forced out of there with little warning when it was decided to turn it back into a prison.  Those that didn't follow the orders to move out in a timely fashion were kicked to the streets with nothing but the shirts on their backs.",
+        "Especially, when it means the loss of many antique and heirloom Halasian objects.  We were promised that the items would be sent along afterward, but we've seen no such shipments.",
+        "I agree!  And show them how a Halasian fights, first hand!  But they know me too well, considering my position here.  I could never get away with it.  You, on the other hand, can!  Go in there, get us back our Halasian heirlooms, and kill the greedy guards that are hoarding them.",
+        "Honor your heritage by retrieving the Halasian heirlooms and killing the greedy guards in Scale Yard."
       ]
     },
     {
@@ -13057,7 +13130,13 @@
       ],
       "utterances": [
         "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
-        "The stuff's over there.  Just let me know if you find anything you like."
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "I see a familiar fire in your eyes, crusader.  The same malevolent flames reside within all shadowknights!",
+        "If you find items that add to your strength or stamina, be sure to get them!  Strength increases the amount of damage your attacks can inflict on others and raises your ability to carry heavy weight.  Your stamina affects your health.  This is crucial.",
+        "But first and foremost, you must understand and revel in the powers that you wield!  We are masters of disease, wreaking fear, hate and despair upon all who would oppose us.",
+        "Whether they stand against us as a group or alone, they are all susceptible to our formidable sword skills and the dark magics we have at our disposal!",
+        "The powers we command also grant us the ability to siphon our opponent's health and attributes in order to empower or replenish our own, as well as increasing the amount of damage our allies inflict upon their targeted foes.",
+        "And protect yourself with a good set of plate mail, <player name>.  The armor may be weighty, but you can handle it, and its protective properties will be necessary, as it takes time to beseech our divine powers."
       ],
       "store": [
         {
@@ -13074,6 +13153,94 @@
             {
               "coin": 1200000,
               "status": 150000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1951672751 -1063707586 0 0 0:Adornment Reclamation\\/a",
+          "requirements": {
+            "class": "shadowknight"
+          },
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1848002563 1536244137 0 0 0:Hand of Lucan\\/a",
+          "requirements": {
+            "class": "shadowknight"
+          },
+          "prices": [
+            {
+              "coin": 34560
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1659156908 -1114945994 0 0 0:Packaged Shadowknight's Armor Set\\/a",
+          "requirements": {
+            "class": "shadowknight"
+          },
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2069081564 186351843 0 0 0:Shadowknight Legacy Armor Set\\/a",
+          "requirements": {
+            "class": "shadowknight"
+          },
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -204416313 -339063064 0 0 0:Singular Focus\\/a",
+          "requirements": {
+            "class": "shadowknight"
+          },
+          "prices": [
+            {
+              "coin": 960
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1780489320 573662339 0 0 0:Summon Sacrament\\/a",
+          "requirements": {
+            "class": "shadowknight"
+          },
+          "prices": [
+            {
+              "coin": 34560
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1779393767 -1762436055 0 0 0:Summon Squire\\/a",
+          "requirements": {
+            "class": "shadowknight"
+          },
+          "prices": [
+            {
+              "coin": 23040
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 437796948 -1456991528 0 0 0:Unholy Steed\\/a",
+          "requirements": {
+            "class": "shadowknight"
+          },
+          "prices": [
+            {
+              "coin": 1440
             }
           ]
         }
@@ -15596,7 +15763,8 @@
       ],
       "utterances": [
         "Do you have business with the Freeport Militia?",
-        "All praises to the Overlord.  The Militia protects loyal citizens of Freeport."
+        "All praises to the Overlord.  The Militia protects loyal citizens of Freeport.",
+        "Do not challenge my authority, citizen.  In Freeport, the Overlord's word is law!"
       ]
     },
     {

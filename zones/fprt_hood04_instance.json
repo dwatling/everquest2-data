@@ -6,7 +6,208 @@
   "type": "village",
   "connections": [
     {
-      "key": "freeport_combined"
+      "key": "freeport_combined",
+      "location": "67.79,-7.08,116.19"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a captive Ayr'Dal",
+      "name_sortable": "captiveayrdal",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "84.9,-7.08,105.28",
+        "82.5,-7.08,97.41",
+        "66.44,-7.08,92.1"
+      ]
+    },
+    {
+      "name": "a captive worker",
+      "name_sortable": "captiveworker",
+      "race": [
+        "ratonga",
+        "gnome",
+        "half elf",
+        "barbarian",
+        "human",
+        "aerakyn"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
+      "locations": [
+        "53.37,-5.0,38.17",
+        "46.95,-5.0,40.46",
+        "38.73,-5.0,29.06",
+        "19.16,-5.0,29.96",
+        "22.29,-6.0,38.16",
+        "15.72,-5.52,42.99",
+        "3.43,-6.0,36.88",
+        "8.67,-6.0,37.22",
+        "13.37,-6.81,49.21",
+        "22.83,-7.1,67.12",
+        "23.76,-7.18,73.63",
+        "2.39,-7.0,65.96",
+        "0.11,-7.0,73.87",
+        "-3.55,-7.0,66.29",
+        "-20.86,-7.0,58.51",
+        "-22.94,-7.0,68.98",
+        "-29.74,-7.0,61.39",
+        "-44.44,-6.86,64.23",
+        "-39.11,-6.85,70.12",
+        "-44.32,-6.88,74.57",
+        "-34.3,-6.84,76.91",
+        "-31.89,-6.92,83.65",
+        "-37.12,-6.85,83.78",
+        "-15.3,-7.0,50.72",
+        "-11.53,-7.0,45.33",
+        "-16.44,-7.0,39.78",
+        "-21.64,-7.0,34.2",
+        "8.62,-5.0,27.29",
+        "-15.96,-5.0,17.49",
+        "-24.04,-5.0,12.14",
+        "-50.91,-5.71,15.21",
+        "-46.69,-5.64,35.24",
+        "64.73,5.72,-40.7",
+        "59.32,5.01,-43.67",
+        "53.75,5.9,-46.57",
+        "67.81,-5.0,29.94"
+      ]
+    },
+    {
+      "name": "Enforcer Moxog",
+      "name_sortable": "enforcermoxog",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "52.26,-7.08,112.19"
+      ],
+      "utterances": [
+        "Move along."
+      ]
+    },
+    {
+      "name": "a Freeport loyalist",
+      "name_sortable": "freeportloyalist",
+      "race": [
+        "barbarian",
+        "human"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
+      "locations": [
+        "-32.46,1.98,-7.43",
+        "-31.33,3.12,-13.84",
+        "-14.33,2.14,-5.71",
+        "-24.49,2.5,-22.07",
+        "-1.74,4.75,-45.2",
+        "0.26,4.75,-51.41",
+        "-13.94,4.0,-43.53",
+        "18.61,2.0,18.96",
+        "78.91,5.02,-11.22",
+        "83.98,5.7,-14.41",
+        "81.76,6.12,-27.81",
+        "87.95,5.59,-21.68",
+        "81.25,5.24,-34.62",
+        "42.35,3.5,-5.05",
+        "41.41,4.21,0.05",
+        "50.59,4.0,-5.35",
+        "40.23,13.25,-34.4",
+        "12.34,9.19,-45.16",
+        "-12.32,4.18,-68.15",
+        "-22.84,4.18,-59.65",
+        "-20.98,4.18,-77.23",
+        "-28.19,4.18,-79.77",
+        "-28.66,4.18,-91.07"
+      ],
+      "utterances": [
+        "We were wise to report the traitors.",
+        "There is no other way but to serve the Overlord!",
+        "Did you see the look on that traitors face?"
+      ]
+    },
+    {
+      "name": "a hapless resident",
+      "name_sortable": "haplessresident",
+      "race": [
+        "human",
+        "barbarian"
+      ],
+      "gender": [
+        "male",
+        "female"
+      ],
+      "locations": [
+        "32.01,-0.12,77.84",
+        "37.93,-0.12,76.47",
+        "-13.76,-2.33,80.38",
+        "-32.85,0.44,44.11",
+        "-36.19,-0.29,3.02"
+      ],
+      "utterances": [
+        "We should have known this would happen.",
+        "I don't know what to do, they won't listen."
+      ]
+    },
+    {
+      "name": "a Militia guard",
+      "name_sortable": "militiaguard",
+      "race": [
+        "ogre",
+        "half elf",
+        "dark elf",
+        "erudite",
+        "human"
+      ],
+      "gender": [
+        "male",
+        "female"
+      ],
+      "locations": [
+        "75.2,-7.08,100.87",
+        "50.78,-7.08,106.08",
+        "54.23,-6.97,62.9",
+        "6.8,-6.5,42.9",
+        "16.01,0.25,75.09",
+        "9.11,-7.0,52.93",
+        "-23.38,-7.0,35.67",
+        "-5.39,-5.59,23.07",
+        "-16.7,2.0,0.79",
+        "-6.72,4.0,-49.63",
+        "-1.53,2.03,10.94",
+        "50.78,2.0,20.51",
+        "-16.89,4.18,-65.35",
+        "64.67,-3.96,24.92"
+      ],
+      "utterances": [
+        "I doubt there is anything you need up here.  Move along."
+      ]
+    },
+    {
+      "name": "Snars",
+      "name_sortable": "snars",
+      "gender": [
+        "male"
+      ],
+      "purpose": "Taskmaster",
+      "locations": [
+        "60.21,5.0,-26.55"
+      ],
+      "utterances": [
+        "I'll flay your bones without spilling my pint! Now back to work!"
+      ]
     }
   ]
 }

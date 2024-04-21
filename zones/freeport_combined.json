@@ -2016,6 +2016,12 @@
     {
       "name": "Bullseye",
       "name_sortable": "bullseye",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-73.36,-25.04,170.22"
       ],
@@ -2612,6 +2618,12 @@
     {
       "name": "Corporal Henk Rimebreaker",
       "name_sortable": "corporalhenkrimebreaker",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-97.71,-24.96,183.97"
       ],
@@ -2770,6 +2782,12 @@
     {
       "name": "Deacon Danerous",
       "name_sortable": "deacondanerous",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-60.63,-21.0,135.31"
       ],
@@ -2830,7 +2848,13 @@
         "And to imagine, this was built by us humans in the past.  It is a testament to our power, to our perseverance, and to the will of the human race.  Without Freeport, civilization would have collapsed during the Age of Cataclysms.",
         "When the other cities of the world were falling, it was Freeport that stood against the darkness, and ultimately, rose above it to provide a home for all of the refugees who lost their homes.  The other races might be stronger, smarter, or live longer, but it was a human city they came to in the end.",
         "I'm glad you agree.  I have a few friends who are looking to recover many of the artifacts from our past, but have been running into some difficulty.  We've been looking for some helpful adventurers such as yourself to see if you can lend us some assistance.",
-        "Ah, eager to help!  This is good!  Then let me get you started.  Speak with Historian Velanie in the Academy of Arcane Science.  Many of our citizens here have lost some of their heritage, and it's up to us to help them get it back."
+        "Ah, eager to help!  This is good!  Then let me get you started.  Speak with Historian Velanie in the Academy of Arcane Science.  Many of our citizens here have lost some of their heritage, and it's up to us to help them get it back.",
+        "Hello again, <player name>.  Were you able to help Velanie?",
+        "How is that?  What happened?",
+        "Hmm... I don't know about that, <player name>.  There could be more to this.",
+        "While that might be true, remember that every rebellious movement starts out small.  It looks like they're getting away with nothing, but the fact is that they are getting away with SOMETHING.  This cannot happen.",
+        "We need to raise vigilance.  We need to let the citizens of Freeport know that a new threat exists in our city, and it's up to all of us to look out for it and snuff it out before it spreads too far.",
+        "Large or small, rebellion is rebellion, and it needs to be stopped.  Take these posters.  Put them in places where they are bound to be seen - the pubs, the Freedom Square, outside of the Militia Headquarters... places such as that.  Once those are up, come back and let me know."
       ]
     },
     {
@@ -4127,7 +4151,8 @@
         "Admiral Killingholme left port on the Far Dasher a few days ago. The miserable blighter refused to tell me his ship's destination!",
         "I don't know what to tell you, mate. If the Traders haven't found your brother by now, I'm afraid he's probably gone to the Hold of Prexus.",
         "Captain Gullham and his men left port for the Outpost of the Overlord several moons ago. Neither he, nor his ship, the Callisto Prince, has been seen since!",
-        "It's been a long time since we've seen any refugees from the Outpost of the Overlord. Have they all been rescued?"
+        "It's been a long time since we've seen any refugees from the Outpost of the Overlord. Have they all been rescued?",
+        "I've heard word of a massive flotilla of ships blocking access to some of the established trade routes! Who do they think they are?! Do the Far Seas Traders have the audacity to think they own the seas?"
       ]
     },
     {
@@ -5268,7 +5293,8 @@
         "Only the strong survive around here.  Nice knowing you.",
         "The best dreams are the flashbacks of the battlefield.",
         "Armor could be useful. But I've never needed it.",
-        "I see a great potential in you, young one."
+        "I see a great potential in you, young one.",
+        "You have just the right amount of cunning to survive."
       ]
     },
     {
@@ -5573,12 +5599,19 @@
     {
       "name": "Ginny Boomsprocket",
       "name_sortable": "ginnyboomsprocket",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Tinkering Merchant",
       "locations": [
         "-93.27,-23.0,106.15"
       ],
       "utterances": [
-        "You look like you need help.  Can I help you find something?"
+        "You look like you need help.  Can I help you find something?",
+        "We've all the basic supplies that you'll ever need.  Are you looking for anything specific?"
       ]
     },
     {
@@ -7432,7 +7465,11 @@
         "I don't think he knew how literal the task was going to be when he sent you.",
         "As you know, humans built this city, and maintained it for many years.  Sure, other cultures moved into our walls and added their own talents where possible.  It was humans, and ultimately Lucan D'Lere, who showed the world unity when it shattered.",
         "As correct as you are, it seems others would have us forget our heritage.  You see, a few weeks ago, we recovered a group of artifacts from the Age of War from the Commonlands.  We suspect they've been stolen to sell in the underground market, and we want to recover them before that happens.",
-        "I can't be certain, but we think that they are attempting to smuggle them out of the city in shipments meant for our allies.  Those shipments are waiting in Beggar's Court.  Search through the crates there, and perhaps you will find something."
+        "I can't be certain, but we think that they are attempting to smuggle them out of the city in shipments meant for our allies.  Those shipments are waiting in Beggar's Court.  Search through the crates there, and perhaps you will find something.",
+        "Ah, you've come back!  Did you find the missing artifacts?",
+        "Ah yes!  These are them for sure!  Thank you for getting these back for us.",
+        "Two reasons, I would suspect.  Sir Lucan lead the charge against the Rallosian war machine in the past, and helped to ensure that Freeport remained standing.  These artifacts represent a piece of that history, and something to remind people that unity under the Overlord leads to victory.  Also, the factions that stole it were likely hoping to get whatever money they can to fund whatever organization they belong to.",
+        "Indeed.  Well, now that I have these, I'm going to clean these up and get them ready to display.  I appreciate the help here."
       ]
     },
     {
@@ -8615,6 +8652,12 @@
     {
       "name": "Kanos X'aphon",
       "name_sortable": "kanosxaphon",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "15.18,-20.06,-222.45"
       ],
@@ -9149,6 +9192,12 @@
     {
       "name": "Kybosh Clangsworthy",
       "name_sortable": "kyboshclangsworthy",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Tinkering Trainer",
       "locations": [
         "-96.14,-23.0,106.59"
@@ -9156,7 +9205,8 @@
       "utterances": [
         "Greetings. I have the honor of being one of the first master tinkerers in a long time.  As you may know, tinkering is the process created by gnomes many centuries ago.  It was used to make the clockworks that served in the great city of Ak'Anon, as well as many devices that were used every day by tinkerers of old.",
         "I hope that your studies are going well.  Good luck to you!"
-      ]
+      ],
+      "store_template": "tinkering+coal"
     },
     {
       "name": "Lasarian Nasin",
@@ -9709,12 +9759,22 @@
     {
       "name": "Lyricist Te'naj",
       "name_sortable": "lyricisttenaj",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "The Chaos Orchestra",
       "locations": [
         "-23.25,-23.05,110.79"
       ],
       "utterances": [
-        "Support your local arts! Donations appreciated!"
+        "Support your local arts! Donations appreciated!",
+        "A strike on the lute will bring harmony from black. Madness reigns when beauty attracts.",
+        "Another verse passes the darkness has already begun the attack. Hidden in smiles the pain is about to begin.",
+        "They close their eyes when the concert is in full swing, an end drawing near. They begin a rabid dance with no fear.",
+        "The sun from the sky beats down on the hills. It's a path from the planes that brings a hunger to fill. A great many in tears that find no light, only black."
       ]
     },
     {
@@ -11976,9 +12036,16 @@
     {
       "name": "Professor Flimflam",
       "name_sortable": "professorflimflam",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Gnome Mentor",
       "locations": [
-        "-109.65,-22.8,117.57"
+        "-109.65,-22.8,117.57",
+        "-115.76,-22.8,118.97"
       ],
       "utterances": [
         "Ah, to be young again... and also a clockwork.",
@@ -12100,6 +12167,12 @@
     {
       "name": "Rake",
       "name_sortable": "rake",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "The Red Hoods",
       "locations": [
         "-82.97,-25.0,163.45"
@@ -12724,6 +12797,12 @@
     {
       "name": "Saveth Noolright",
       "name_sortable": "savethnoolright",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-68.02,-21.0,131.24"
       ],
@@ -12754,6 +12833,12 @@
     {
       "name": "Scythe",
       "name_sortable": "scythe",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "The Red Hoods",
       "locations": [
         "-81.5,-25.0,163.07"
@@ -13066,6 +13151,12 @@
     {
       "name": "Shrew",
       "name_sortable": "shrew",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "The Red Hoods",
       "locations": [
         "-84.46,-25.01,174.02"
@@ -14242,6 +14333,12 @@
     {
       "name": "a tinkerer assistant",
       "name_sortable": "tinkererassistant",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-104.69,-23.05,125.15",
         "-115.94,-22.8,118.8",
@@ -15525,6 +15622,12 @@
     {
       "name": "Vulture",
       "name_sortable": "vulture",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "The Red Hoods",
       "locations": [
         "-74.03,-25.01,154.3"
@@ -15577,6 +15680,12 @@
     {
       "name": "Whisper",
       "name_sortable": "whisper",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "The Red Hoods",
       "locations": [
         "-71.37,-25.02,153.01"
@@ -15832,6 +15941,12 @@
     {
       "name": "Zaveda X'vch",
       "name_sortable": "zavedaxvch",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "16.21,-19.63,-219.3"
       ],

@@ -8,11 +8,17 @@
   "type": "city",
   "connections": [
     {
-      "key": "commonlands"
+      "key": "commonlands",
+      "location": "296.93,-3.81,-70.20"
     },
     {
       "key": "fprt_sewer01",
-      "location": "-126.90,-36.97,-22.49"
+      "locations": [
+        "-126.90,-36.97,-22.49",
+        "17.11,-20.06,-207.67",
+        "-217.32,-55.25,240.34",
+        "305.51,-3.60,--22.79"
+      ]
     },
     {
       "key": "fprt_hood02_clone",

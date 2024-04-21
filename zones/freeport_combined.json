@@ -2711,7 +2711,8 @@
       "purpose": "Year of Darkpaw Merchant",
       "locations": [
         "-211.11,-56.07,-51.23"
-      ]
+      ],
+      "store_template": "darkpaw_merchant"
     },
     {
       "name": "Darrget Xyl'mir",
@@ -4119,7 +4120,8 @@
         "I'm beginning to miss those young adventurers running about town, solving everyone's problems. Good work is hard to find!",
         "Admiral Killingholme left port on the Far Dasher a few days ago. The miserable blighter refused to tell me his ship's destination!",
         "I don't know what to tell you, mate. If the Traders haven't found your brother by now, I'm afraid he's probably gone to the Hold of Prexus.",
-        "Captain Gullham and his men left port for the Outpost of the Overlord several moons ago. Neither he, nor his ship, the Callisto Prince, has been seen since!"
+        "Captain Gullham and his men left port for the Outpost of the Overlord several moons ago. Neither he, nor his ship, the Callisto Prince, has been seen since!",
+        "It's been a long time since we've seen any refugees from the Outpost of the Overlord. Have they all been rescued?"
       ]
     },
     {
@@ -4957,6 +4959,12 @@
     {
       "name": "Foreman Asprenus",
       "name_sortable": "foremanasprenus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-138.33,-37.51,65.4"
       ],
@@ -5050,7 +5058,8 @@
       "name_sortable": "freeportdenizen",
       "race": [
         "ratonga",
-        "human"
+        "human",
+        "dark elf"
       ],
       "gender": [
         "female",
@@ -11785,6 +11794,13 @@
     {
       "name": "a perceived conspirator",
       "name_sortable": "perceivedconspirator",
+      "race": [
+        "troll",
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-163.64,-42.94,94.56"
       ],

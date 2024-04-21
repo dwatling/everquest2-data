@@ -11,7 +11,8 @@
       "key": "commonlands"
     },
     {
-      "key": "fprt_sewer01"
+      "key": "fprt_sewer01",
+      "location": "-126.90,-36.97,-22.49"
     },
     {
       "key": "fprt_hood02_clone",
@@ -161,6 +162,12 @@
     {
       "name": "Aemilia Sevso",
       "name_sortable": "aemiliasevso",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Alchemist",
       "locations": [
         "-67.9,-37.78,28.12"
@@ -169,7 +176,8 @@
         "Be careful what you touch in here. You're liable to kill us all!",
         "Poison testers, it's been my biggest seller for the past several months.  Of course poison was a close second. ",
         "I need to get some eye of griffin, a bear's paw, the heart of an innocent man.  That'll be tough in this city!"
-      ]
+      ],
+      "store_template": "alchemist+candle"
     },
     {
       "name": "Aezaar the Damned",
@@ -253,49 +261,7 @@
       "locations": [
         "-125.94,-21.43,-69.07"
       ],
-      "store": [
-        {
-          "gamelink": "\\aITEM -1700261000 1245163492 0 0 0:Traveler's Guide of the Tailor Volume 3\\/a",
-          "prices": [
-            {
-              "coin": 480
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1296732960 652792631 0 0 0:Traveler's Guide of the Tailor Volume 4\\/a",
-          "prices": [
-            {
-              "coin": 7680
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 125048939 1892162285 0 0 0:Traveler's Guide of the Tailor Volume 5\\/a",
-          "prices": [
-            {
-              "coin": 30720
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -795437005 1441607865 0 0 0:Traveler's Guide of the Tailor Volume 6\\/a",
-          "prices": [
-            {
-              "coin": 46080
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1941970586 856876540 0 0 0:Traveler's Guide of the Tailor Volume 7\\/a",
-          "prices": [
-            {
-              "coin": 69120
-            }
-          ]
-        }
-      ],
-      "store_template": "filament"
+      "store_template": "filament+tailor_trainer"
     },
     {
       "name": "Alethea Augustine",
@@ -441,6 +407,12 @@
     {
       "name": "Ambassador Anttel V'Xeath",
       "name_sortable": "ambassadoranttelvxeath",
+      "race": [
+        "arasai"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Arasai Mentor",
       "locations": [
         "-123.2,-37.86,23.7"
@@ -449,6 +421,12 @@
     {
       "name": "Ambassador Brutus",
       "name_sortable": "ambassadorbrutus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Change of Citizenship",
       "locations": [
         "-125.8,-37.77,39.72"
@@ -463,6 +441,12 @@
     {
       "name": "Ambassador Erazak",
       "name_sortable": "ambassadorerazak",
+      "race": [
+        "sarnak"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Sarnak Mentor",
       "locations": [
         "-127.04,-45.53,-44.62"
@@ -474,6 +458,12 @@
     {
       "name": "Ambassador Zrelach",
       "name_sortable": "ambassadorzrelach",
+      "race": [
+        "sarnak"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Gorowyn Emissary",
       "locations": [
         "-132.78,-44.62,-58.02"
@@ -539,49 +529,7 @@
       "utterances": [
         "Hello.  Hello.  Welcome.  You look out of place here in Freeport.  Almost as if you were something blown in by the wind or swept ashore by the tide.  No wait.  It was that dream!"
       ],
-      "store": [
-        {
-          "gamelink": "\\aITEM -1700261000 1245163492 0 0 0:Traveler's Guide of the Tailor Volume 3\\/a",
-          "prices": [
-            {
-              "coin": 480
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1296732960 652792631 0 0 0:Traveler's Guide of the Tailor Volume 4\\/a",
-          "prices": [
-            {
-              "coin": 7680
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 125048939 1892162285 0 0 0:Traveler's Guide of the Tailor Volume 5\\/a",
-          "prices": [
-            {
-              "coin": 30720
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -795437005 1441607865 0 0 0:Traveler's Guide of the Tailor Volume 6\\/a",
-          "prices": [
-            {
-              "coin": 46080
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1941970586 856876540 0 0 0:Traveler's Guide of the Tailor Volume 7\\/a",
-          "prices": [
-            {
-              "coin": 69120
-            }
-          ]
-        }
-      ],
-      "store_template": "filament"
+      "store_template": "filament+tailor_trainer"
     },
     {
       "name": "Arabella F'arquharson",
@@ -2232,6 +2180,12 @@
     {
       "name": "Chloe Misfortune",
       "name_sortable": "chloemisfortune",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-62.51,-37.86,13.53"
       ],
@@ -2310,6 +2264,12 @@
     {
       "name": "City Registrar Glamis",
       "name_sortable": "cityregistrarglamis",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Guild Registrar",
       "locations": [
         "-121.78,-37.77,40.1"
@@ -4569,6 +4529,12 @@
     {
       "name": "an Enforcer Champion",
       "name_sortable": "enforcerchampion",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-59.1,-37.86,9.32"
       ],
@@ -5477,6 +5443,12 @@
     {
       "name": "Gerhild Maclennan",
       "name_sortable": "gerhildmaclennan",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-68.72,-37.84,13.47"
       ],
@@ -7463,6 +7435,12 @@
     {
       "name": "Ignacius Fallon",
       "name_sortable": "ignaciusfallon",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Apothecary",
       "locations": [
         "-61.86,-37.78,27.96"
@@ -7471,6 +7449,12 @@
     {
       "name": "Illevius",
       "name_sortable": "illevius",
+      "race": [
+        "aerakyn"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-92.09,-37.22,14.59"
       ]
@@ -8867,6 +8851,12 @@
     {
       "name": "Kell Glavitus",
       "name_sortable": "kellglavitus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Adorning Trainer",
       "locations": [
         "-58.55,-37.78,32.86"
@@ -8895,13 +8885,20 @@
     {
       "name": "Kirsteh the Witch",
       "name_sortable": "kirstehthewitch",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-135.59,-37.77,50.02"
       ],
       "utterances": [
         "Either you have the talent for magic or you don't.  It doesn't come without study and research ... and right now you're keeping me from both.  Please explain to me why I should waste any more time on you? Unless I can use you as a test subject...",
         "You interrupted my research to make that kind of a proclamation?  I should rot the flesh from your bones just for fun!  But since you're brave enough to come seek me out, I suppose you can help me. I, however, do not hire apprentices. You will work for me, and I'll pay you with magical trinkets I have lying around.  Take it or leave it.",
-        "Let's start with something simple.  I'm always looking for new things to use in my experiments.  If you can find what I'm looking for, I'll make it more than worth your while.  Especially since my alternate plan was to use you in my research.  "
+        "Let's start with something simple.  I'm always looking for new things to use in my experiments.  If you can find what I'm looking for, I'll make it more than worth your while.  Especially since my alternate plan was to use you in my research.  ",
+        "I'll ask you to leave before I lose my patience and turn your limbs into blackened withered stumps."
       ]
     },
     {
@@ -9368,6 +9365,12 @@
     {
       "name": "Loche V'Lys",
       "name_sortable": "lochevlys",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Kirsteh's Assistant",
       "locations": [
         "-136.39,-37.77,53.05"
@@ -9502,6 +9505,12 @@
     {
       "name": "L'rak Ta'Wound",
       "name_sortable": "lraktawound",
+      "race": [
+        "arasai"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-119.01,-37.86,28.9",
         "-125.63,-37.86,31.69",
@@ -9626,6 +9635,12 @@
     {
       "name": "Lynda Chemroot",
       "name_sortable": "lyndachemroot",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Adorning Merchant",
       "locations": [
         "-65.95,-37.78,28.67"
@@ -9659,7 +9674,8 @@
             }
           ]
         }
-      ]
+      ],
+      "store_template": "coal+incense"
     },
     {
       "name": "Lyricist Sha'son",
@@ -9803,6 +9819,12 @@
     {
       "name": "Marcia Betto",
       "name_sortable": "marciabetto",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Tailor",
       "locations": [
         "-71.25,-38.83,45.35"
@@ -9854,7 +9876,8 @@
             }
           ]
         }
-      ]
+      ],
+      "store_template": "tailor_trainer+filament"
     },
     {
       "name": "Mareva D'Iniv",
@@ -9983,6 +10006,15 @@
     {
       "name": "Melenia Scantus",
       "name_sortable": "meleniascantus",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-90.66,-37.84,-13.52"
+      ],
       "utterances": [
         "I'm not in the mood for chitchat.",
         "Right to the point, eh?  Well, allow me to extend the same courtesy:  you can have my zweihander when you pry it from my dead hands."
@@ -10314,6 +10346,12 @@
     {
       "name": "Miyran X'Thall",
       "name_sortable": "miyranxthall",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Guild Cloak Designer",
       "locations": [
         "-130.82,-37.77,46.13"
@@ -12004,6 +12042,12 @@
     {
       "name": "Quartermaster Redplate",
       "name_sortable": "quartermasterredplate",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "City Quartermaster",
       "locations": [
         "-135.76,-37.77,38.52"
@@ -13119,6 +13163,12 @@
     {
       "name": "Sirraw Swiftpaw",
       "name_sortable": "sirrawswiftpaw",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-109.41,-37.85,16.05"
       ]
@@ -13925,6 +13975,12 @@
     {
       "name": "Tall Jim",
       "name_sortable": "talljim",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-80.42,-37.44,55.19"
       ],
@@ -14331,6 +14387,12 @@
     {
       "name": "Trannin Steelsea",
       "name_sortable": "tranninsteelsea",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Antiquities Dealer",
       "locations": [
         "-64.75,-37.86,18.08"
@@ -14687,6 +14749,12 @@
     {
       "name": "Vhishall",
       "name_sortable": "vhishall",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Furniture",
       "locations": [
         "-92.36,-37.86,62.2"
@@ -14695,7 +14763,554 @@
         "We don't sell contraband furnishings in our shop.  We sell only pieces approved by the Overlord!",
         "Don't be ashamed, friend.  We have pieces that even ratongas can afford!",
         "Please don't touch anything.  This isn't a museum. If you break it, you buy it!"
-      ]
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1522747579 664337514 0 0 0:a citizen's table\\/a",
+          "prices": [
+            {
+              "coin": 810
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 60045435 266272513 0 0 0:a clay urn\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 995631846 -1054763614 0 0 0:a coalition table\\/a",
+          "prices": [
+            {
+              "coin": 810
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1405890238 1476661569 0 0 0:a crafted vase\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1319810738 132407152 0 0 0:a decrepit chair\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1281299056 -173220446 0 0 0:a decrepit table\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 13059140 -1162267906 0 0 0:a Freeport Militia Standard\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -662161200 -1136714913 0 0 0:a Freeport oaken table\\/a",
+          "prices": [
+            {
+              "coin": 810
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1565312876 -1788970126 0 0 0:a Freeport ornate urn\\/a",
+          "prices": [
+            {
+              "coin": 43740
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -285128710 -532118387 0 0 0:a Freeport shelf\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 850442521 -1052691867 0 0 0:a Freeport wooden counter\\/a",
+          "prices": [
+            {
+              "coin": 810
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1551260987 -1133168707 0 0 0:a Freeport wooden stool\\/a",
+          "prices": [
+            {
+              "coin": 810
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1099000170 -1268057504 0 0 0:a Freeport wooden table\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1948997447 7842935 0 0 0:a generic wall sconce\\/a",
+          "prices": [
+            {
+              "coin": 810
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -110009486 -815820170 0 0 0:a Grand Temple of War Weaponrack\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2047565385 -159063702 0 0 0:a Grozmok Trophy\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -75737562 -1520974894 0 0 0:a large crate\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1874835141 -489115594 0 0 0:a large marble bookcase\\/a",
+          "prices": [
+            {
+              "coin": 43740
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1121275771 644929843 0 0 0:a large obsidian bookcase\\/a",
+          "prices": [
+            {
+              "coin": 43740
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1700959807 -1289033832 0 0 0:a large plain urn\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 273411365 -860193494 0 0 0:a large rectangular crate\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -14764798 408539219 0 0 0:a Large Seafury Buccaneer Crate\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -62962007 -56361031 0 0 0:a Lucanic Vase of Malice\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1587219939 1058501906 0 0 0:a marble vase\\/a",
+          "prices": [
+            {
+              "coin": 7290
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 297271877 2096316751 0 0 0:a market bulletin board\\/a",
+          "prices": [
+            {
+              "coin": 48
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 326022259 784482923 0 0 0:a masquerade vase\\/a",
+          "prices": [
+            {
+              "coin": 43740
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2012617853 -546056628 0 0 0:a paladin brazier\\/a",
+          "prices": [
+            {
+              "coin": 7290
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1310006710 -163192942 0 0 0:a plain bench\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1163474917 1809420032 0 0 0:a plain chest\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -203460232 -1303601067 0 0 0:a plain wooden bench\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -715766838 905540316 0 0 0:a simple table\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1397614915 -750799309 0 0 0:a Small Ornate Freeport Barrel\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 859907472 1083657264 0 0 0:a Small Ornate Freeport Bookcase\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 608517947 -1008203145 0 0 0:a Small Ornate Freeport Chest\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -205307446 -105094579 0 0 0:a Small Ornate Freeport Counter\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -433782212 188082093 0 0 0:a Small Ornate Freeport End Table\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2043584873 -105054695 0 0 0:a Small Ornate Freeport Sconce\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 930240077 1024292298 0 0 0:a Small Ornate Freeport Shelves\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 690488266 -830130554 0 0 0:a Small Ornate Freeport Table\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1852474428 -562033812 0 0 0:a small square bowl\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 400634640 -1069428935 0 0 0:a Standard of the Overlord\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -767850541 615730242 0 0 0:a weathered table\\/a",
+          "prices": [
+            {
+              "coin": 810
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1285141099 -1758248637 0 0 0:a wooden bed\\/a",
+          "prices": [
+            {
+              "coin": 810
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1861205784 -2098512153 0 0 0:a wooden bed frame\\/a",
+          "prices": [
+            {
+              "coin": 10
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 282499182 -952186276 0 0 0:a wooden bowl\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -696290415 -1683006441 0 0 0:an armorwasher's bucket\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 -941911935 0 0 0:an enchanter's candelabra\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1261622889 766482352 0 0 0:an oaken table\\/a",
+          "prices": [
+            {
+              "coin": 810
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1232679906 -2073675396 0 0 0:an Oggokian torch\\/a",
+          "prices": [
+            {
+              "coin": 119
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -845876976 -391893404 0 0 0:an Ornate Freeport Candle\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -120096492 621747387 0 0 0:an Ornate Freeport Chair\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 108627591 1341806123 0 0 0:an Ornate Freeport Chandelier\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 412876404 -1968638216 0 0 0:an Ornate Freeport Floor Lamp\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2032393995 -333305218 0 0 0:an Ornate Freeport Sandstone Bench\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 607367518 -101985039 0 0 0:an Ornate Freeport Stool\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2065172644 1674027873 0 0 0:an ornate long bench\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1376935628 176099514 0 0 0:an ornate Overlord bed\\/a",
+          "prices": [
+            {
+              "coin": 43740
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 940681066 -575580608 0 0 0:an Ornate Single Freeport Bed\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 617291304 1123803162 0 0 0:an ornate vase\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 371205362 -377174762 0 0 0:Dark Days in Freeport\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1629951076 1666824370 0 0 0:Dethknell Citadel Over the Academy\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 290316523 1257016087 0 0 0:Impressive Powers within Freeport\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 643183420 -977010747 0 0 0:repair material\\/a",
+          "prices": [
+            {
+              "coin": 60000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2008764079 -730684255 0 0 0:Sunset Over Port Living\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1716179069 2035122693 0 0 0:The City of Freeport's Great Port\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1303301047 560924700 0 0 0:the Light of Kejaan\\/a",
+          "prices": [
+            {
+              "coin": 600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -12353081 1736494303 0 0 0:The Overlord's Gleaming Citadel\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -131185186 -2021201830 0 0 0:The Overlord's Watchful Eye\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
+        }
+      ],
+      "store_template": "sandpaper+filament"
     },
     {
       "name": "Vibia Valens",
@@ -15079,6 +15694,12 @@
     {
       "name": "Wundil Brakus",
       "name_sortable": "wundilbrakus",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Portal Master",
       "locations": [
         "-119.53,-37.77,37.64"
@@ -15214,6 +15835,12 @@
     {
       "name": "Zizwold",
       "name_sortable": "zizwold",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
       "purpose": "Alchemist",
       "locations": [
         "-107.93,-37.77,44.17"
@@ -15221,7 +15848,8 @@
       "utterances": [
         "Finally! You've arrived!  Take this and go quickly!  Remember, gather the items exactly as I've specified on the list!  Do not compromise with the quality!  Now, I don't want to hear anything about payment until you've returned!",
         "It's the list of the items I need to fulfill your master's commission!  What else could I possibly be giving you?! Off with you!"
-      ]
+      ],
+      "store_template": "alchemist+candle+coal+incense"
     },
     {
       "name": "Zula Tazil",

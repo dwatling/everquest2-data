@@ -2775,68 +2775,7 @@
         "Whatever shall I do?  I'm out of dyes, and I simply must finish these yards of cloth today!  I'll certainly never make it all the way across town to get more and still have time to finish with my sewing!",
         "Well, I am always having a problem getting bear pelts of a quality that I can work with and truly make shine.  If you could bring me four preserved bear hides, I can reward you for your efforts."
       ],
-      "store": [
-        {
-          "gamelink": "\\aITEM -625614832 -1500485034:Astral Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -1626387386 -1671104945:Basic Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -1626387386 -1671104945:Basic Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -1141147944 541654076:Celestial Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -946187517 -674105152:Coruscating Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 827962118 1444873355:Effulgent Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -1403628944 -1565430929:Ethereal Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -479303267 -1876946092:Glimmering Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 33598768 -575936587:Glowing Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 464265771 -89450486:Lambent Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -2036087971 2015218665:Luminous Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 1741490160 413162332:Scintillating Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -87890298 -92888405:Smoldering Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 2120321259 -339058939:Sparkling Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 653563822 271148791:Thaumic Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -1700261000 1245163492:Traveler's Guide of the Tailor Volume 3\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 1296732960 652792631:Traveler's Guide of the Tailor Volume 4\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 125048939 1892162285:Traveler's Guide of the Tailor Volume 5\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -795437005 1441607865:Traveler's Guide of the Tailor Volume 6\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 1941970586 856876540:Traveler's Guide of the Tailor Volume 7\\/a"
-        }
-      ]
+      "store_template": "tailor_trainer+filament"
     },
     {
       "name": "Darcnir",
@@ -9201,46 +9140,6 @@
           ]
         },
         {
-          "gamelink": "\\aITEM -1700261000 1245163492:Traveler's Guide of the Tailor Volume 3\\/a",
-          "prices": [
-            {
-              "coin": 480
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1296732960 652792631:Traveler's Guide of the Tailor Volume 4\\/a",
-          "prices": [
-            {
-              "coin": 7680
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 125048939 1892162285:Traveler's Guide of the Tailor Volume 5\\/a",
-          "prices": [
-            {
-              "coin": 30720
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -795437005 1441607865:Traveler's Guide of the Tailor Volume 6\\/a",
-          "prices": [
-            {
-              "coin": 46080
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1941970586 856876540:Traveler's Guide of the Tailor Volume 7\\/a",
-          "prices": [
-            {
-              "coin": 69120
-            }
-          ]
-        },
-        {
           "gamelink": "\\aITEM -1860640748 -909874449 0 0 0:rough linen blouse\\/a",
           "prices": [
             {
@@ -9521,7 +9420,7 @@
           ]
         }
       ],
-      "store_template": "coal+filament+sandpaper"
+      "store_template": "coal+filament+sandpaper+tailor_trainer"
     },
     {
       "name": "Librarian Dalmas",
@@ -11060,68 +10959,7 @@
         "Confound it! Where did I put that ledger?  It must be around here somewhere!",
         "Welcome! What can I help you with?"
       ],
-      "store": [
-        {
-          "gamelink": "\\aITEM -625614832 -1500485034:Astral Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -1626387386 -1671104945:Basic Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -1626387386 -1671104945:Basic Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -1141147944 541654076:Celestial Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -946187517 -674105152:Coruscating Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 827962118 1444873355:Effulgent Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -1403628944 -1565430929:Ethereal Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -479303267 -1876946092:Glimmering Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 33598768 -575936587:Glowing Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 464265771 -89450486:Lambent Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -2036087971 2015218665:Luminous Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 1741490160 413162332:Scintillating Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -87890298 -92888405:Smoldering Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 2120321259 -339058939:Sparkling Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 653563822 271148791:Thaumic Filament\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -1700261000 1245163492:Traveler's Guide of the Tailor Volume 3\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 1296732960 652792631:Traveler's Guide of the Tailor Volume 4\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 125048939 1892162285:Traveler's Guide of the Tailor Volume 5\\/a"
-        },
-        {
-          "gamelink": "\\aITEM -795437005 1441607865:Traveler's Guide of the Tailor Volume 6\\/a"
-        },
-        {
-          "gamelink": "\\aITEM 1941970586 856876540:Traveler's Guide of the Tailor Volume 7\\/a"
-        }
-      ]
+      "store_template": "tailor_trainer+filament"
     },
     {
       "name": "Rascal",

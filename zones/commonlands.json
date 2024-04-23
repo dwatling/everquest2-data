@@ -145,6 +145,12 @@
     {
       "name": "Anders Blackhammer",
       "name_sortable": "andersblackhammer",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "level": 20,
       "locations": [
         "-521.99,-44.04,-301.5"
@@ -166,6 +172,7 @@
     {
       "name": "an arbor wasp",
       "name_sortable": "arborwasp",
+      "aggressive": false,
       "locations": [
         "-582.66,-48.00,-397.38",
         "-548.84,-51.33,-468.97",
@@ -590,6 +597,7 @@
     {
       "name": "a Bloodskull orc",
       "name_sortable": "bloodskullorc",
+      "aggressive": true,
       "locations": [
         "-255.13,-48.47,339.98",
         "-266.76,-48.27,334.10",
@@ -622,6 +630,7 @@
     {
       "name": "a Bloodskull priest",
       "name_sortable": "bloodskullpriest",
+      "aggressive": true,
       "locations": [
         "-1159.20,-47.01,581.81",
         "-1089.88,-46.56,610.33",
@@ -717,6 +726,7 @@
     {
       "name": "a Bloodskull shaman",
       "name_sortable": "bloodskullshaman",
+      "aggressive": true,
       "locations": [
         "-299.23,-47.36,840.00",
         "-290.72,-47.83,804.58",
@@ -762,6 +772,7 @@
     {
       "name": "a Bloodskull soldier",
       "name_sortable": "bloodskullsoldier",
+      "aggressive": true,
       "locations": [
         "-657.59,-47.93,457.42",
         "-853.74,-47.78,668.07",
@@ -803,6 +814,7 @@
     {
       "name": "a Bloodskull tamer",
       "name_sortable": "bloodskulltamer",
+      "aggressive": true,
       "locations": [
         "47.98,-46.84,428.47",
         "41.60,-47.77,429.55",
@@ -860,6 +872,7 @@
     {
       "name": "a Bloodskull tower guard",
       "name_sortable": "bloodskulltowerguard",
+      "aggressive": true,
       "locations": [
         "-333.46,-48.43,546.36",
         "-394.64,-47.91,456.01",
@@ -879,6 +892,7 @@
     {
       "name": "a Bloodskull warrior",
       "name_sortable": "bloodskullwarrior",
+      "aggressive": true,
       "locations": [
         "-414.83,-48.04,472.00",
         "-435.40,-48.04,461.42",
@@ -1040,6 +1054,15 @@
     {
       "name": "Brandus Levine",
       "name_sortable": "branduslevine",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1041.58,-144.94,-669.09"
+      ],
       "utterances": [
         "Hrmmm... You do have the look of a citizen about you.  You're not just random rabble from the streets.  I could use your help.",
         "You do realize I can find someone else.  And maybe you'll just fade into obscurity.  But, since you've at least shown some interest then perhaps I can use you.",
@@ -1072,6 +1095,8 @@
     {
       "name": "a brittle skeleton",
       "name_sortable": "brittleskeleton",
+      "level": 11,
+      "aggressive": true,
       "locations": [
         "-1347.97,-69.5,323.25",
         "-1354.87,-69.55,326.66",
@@ -1253,6 +1278,13 @@
     {
       "name": "Captain Feralis",
       "name_sortable": "captainferalis",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Freeport Militia Commander",
       "locations": [
         "-427.97,-44.09,-280.43"
       ],
@@ -1337,7 +1369,8 @@
         "Glad you could make it. Now how about doing a little something for Freeport?",
         "Freeport needs you to follow the trail of slime outside of the Sewer System to the north of here. You will need to slay the oversized sliding lump of refuse known as the Gobbler.",
         "Of course you do... that's the same thing the last group of adventurers said and look here, I still need to get this job done. Hurry along now, Freeport does not like to wait.",
-        "You can leave me alone now..."
+        "You can leave me alone now...",
+        "Hrmph! What? You expect me to assign a task to a weak little runt like yourself? Get Lost!"
       ]
     },
     {
@@ -1364,8 +1397,15 @@
     {
       "name": "Captain Vertas",
       "name_sortable": "captainvertas",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
-        "-517.22,-43.44,-284.93"
+        "-517.22,-43.44,-284.93",
+        "-481.49,-45.01,-295.28"
       ],
       "utterances": [
         "Hail. What have you to report?",
@@ -1397,6 +1437,19 @@
         "May your path be silent, and your blade be true.",
         "I knew you had it in you, soldier. You have earned my highest respect. Take this insignia and wear it proudly as a symbol of your bravery as a member of the Militia.",
         "Hail, good to see you again soldier!"
+      ]
+    },
+    {
+      "name": "Cargomaster Libertius",
+      "name_sortable": "cargomasterlibertius",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1054.75,-145.99,-640.52"
       ]
     },
     {
@@ -2132,6 +2185,7 @@
     {
       "name": "a digger wasp",
       "name_sortable": "diggerwasp",
+      "aggressive": true,
       "locations": [
         "-601.84,-39.84,-369.33",
         "-612.14,-20.52,-309.06",
@@ -2168,6 +2222,23 @@
           "gamelink": "\\aITEM -1968962735 -339631279:an insect stinger\\/a",
           "chest": false
         }
+      ]
+    },
+    {
+      "name": "a dock laborer",
+      "name_sortable": "docklaborer",
+      "race": [
+        "ogre",
+        "ratonga",
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1040.1,-145.88,-643.84",
+        "-1041.45,-146.18,-649.14",
+        "-1033.65,-145.33,-634.82"
       ]
     },
     {
@@ -2909,6 +2980,7 @@
       "name": "a freshwater crab",
       "name_sortable": "freshwatercrab",
       "level": 14,
+      "aggressive": false,
       "locations": [
         "-1268.77,-47.53,591.01",
         "-1256.59,-48.15,607.15",
@@ -3006,8 +3078,10 @@
       "gender": [
         "male"
       ],
+      "purpose": "Militia Gate Patrol",
       "locations": [
-        "-1276.01,-88.3,50.87"
+        "-1276.01,-88.3,50.87",
+        "-1273.05,-88.18,40.52"
       ],
       "utterances": [
         "Gerun Pontian of the Militia. I watch the gates. I assure you a more dreary job does not exist in all of D'Lere.",
@@ -3116,6 +3190,7 @@
       "name": "a giant spider",
       "name_sortable": "giantspider",
       "level": 12,
+      "aggressive": true,
       "locations": [
         "-1219.7,-67.9,275.34",
         "-1196.2,-65.27,280.15",
@@ -3203,8 +3278,12 @@
     {
       "name": "a Gigglegibber Goblin Gamblin' Game Vendor",
       "name_sortable": "gigglegibbergoblingamblingamevendor",
+      "gender": [
+        "male"
+      ],
       "locations": [
-        "-487.87,-45.57,-321.81"
+        "-487.87,-45.57,-321.81",
+        "-1050.6,-144.95,-675.67"
       ],
       "utterances": [
         "Buy ticket, you!  Only ten shiny coins! You give just ten shiny coins and maybe you get um... many shinier coins!",
@@ -3249,6 +3328,12 @@
     {
       "name": "Grandma Twirlwhizzer",
       "name_sortable": "grandmatwirlwhizzer",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-507.38,-43.24,-264.41"
       ],
@@ -3467,6 +3552,7 @@
       "gender": [
         "female"
       ],
+      "purpose": "Mender",
       "locations": [
         "-505.91,-43.35,-257.22"
       ]
@@ -3515,14 +3601,32 @@
     {
       "name": "Harbormaster D'Vey",
       "name_sortable": "harbormasterdvey",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1050.93,-144.95,-683.94"
+      ],
       "utterances": [
         "The Overlord's Edge has left for Kylong Plains, it will be returning soon.",
-        "The Overlord's Edge will be leaving for Kylong Plains in 33 seconds."
+        "The Overlord's Edge will be leaving for Kylong Plains in ## seconds.."
       ]
     },
     {
       "name": "Heron Cogcarrier",
       "name_sortable": "heroncogcarrier",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-1056.13,-145.53,-634.96"
+      ],
       "utterances": [
         "Ahoy ye bilge rat! Wha' ye be doing 'ere?",
         "Avast! Ye not know who I be? I be ze dread piratess Heron... an' who migh' ye be?",
@@ -3558,6 +3662,12 @@
     {
       "name": "Impelia Abettus",
       "name_sortable": "impeliaabettus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-431.62,-44.09,-275.69"
       ],
@@ -3599,6 +3709,12 @@
     {
       "name": "Inquisitor Irizan",
       "name_sortable": "inquisitoririzan",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-442.64,-43.76,-303.54"
       ],
@@ -3640,6 +3756,12 @@
     {
       "name": "Janus Fieri",
       "name_sortable": "janusfieri",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-462.02,-45.03,-335.87"
       ],
@@ -3673,7 +3795,8 @@
         "-1335.49,-53.32,576.09"
       ],
       "utterances": [
-        "Hey. Are you looking for something to do?"
+        "Hey. Are you looking for something to do?",
+        "What! Leave me alone!"
       ],
       "store": [
         {
@@ -3689,6 +3812,12 @@
     {
       "name": "J.P. Feterman",
       "name_sortable": "jpfeterman",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-476.19,-44.77,-253.86"
       ]
@@ -3754,7 +3883,8 @@
       ],
       "utterances": [
         "Hey you! I got something you might be interested in...",
-        "Hello there! What can I do for you?"
+        "Hello there! What can I do for you?",
+        "Hrmm, on second thought it'd be a crime if I sold this key to a pathetic weakling like yourself... come back later."
       ],
       "store": [
         {
@@ -4078,6 +4208,7 @@
       "name": "a lost soul",
       "name_sortable": "lostsoul",
       "level": 10,
+      "aggressive": true,
       "locations": [
         "-1354.58,-69.59,337.83",
         "-1313.94,-69.38,347.85",
@@ -4134,6 +4265,12 @@
     {
       "name": "Madam Vi",
       "name_sortable": "madam06",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-470.6,-44.9,-292.73"
       ],
@@ -4258,6 +4395,7 @@
       "name": "a massive emerald beetle",
       "name_sortable": "massiveemeraldbeetle",
       "level": 10,
+      "aggressive": false,
       "locations": [
         "-472.09,-48.44,-172.05",
         "-390.61,-48.04,-91.12",
@@ -4302,7 +4440,8 @@
       "utterances": [
         "Why does one like yourself feel the need to bug someone like me?",
         "Mmmm... I could use some assistance with something I have been working on for the last few days. I need someone to go into the sewer system to the north of here and retrieve some stolen supplies from the goblins there.",
-        "Well, then let me know when you have collected everything."
+        "Well, then let me know when you have collected everything.",
+        "Pish Posh, go away you little runt!"
       ]
     },
     {
@@ -4329,6 +4468,13 @@
     {
       "name": "Merchant Edmond",
       "name_sortable": "merchantedmond",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Provisioner",
       "locations": [
         "-492.26,-43.89,-261.98"
       ],
@@ -4347,12 +4493,77 @@
               "coin": 180
             }
           ]
+        },
+        {
+          "gamelink": "\\aITEM 502648298 -366828437:canteen of pond water\\/a",
+          "prices": [
+            {
+              "coin": 38
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1281187795 -495418410:Dwarven Ale (Alcoholic)\\/a",
+          "prices": [
+            {
+              "coin": 900
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -692542167 450719094:Elven Wine (Alcoholic)\\/a",
+          "prices": [
+            {
+              "coin": 1080
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a",
+          "prices": [
+            {
+              "coin": 19
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1608751314 -1346962995:Gnomish Spirits (Alcoholic)\\/a",
+          "prices": [
+            {
+              "coin": 1260
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1424677497 801220853:Lucan's Lager (Alcoholic)\\/a",
+          "prices": [
+            {
+              "coin": 180
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1199073772 520539661:Oggok Swill (Alcoholic)\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1383852152 -1014417461:Teir'dal Blood Wine (Alcoholic)\\/a",
+          "prices": [
+            {
+              "coin": 1620
+            }
+          ]
         }
       ]
     },
     {
       "name": "Merchant Valary",
       "name_sortable": "merchantvalary",
+      "purpose": "Weaponsmith",
       "locations": [
         "-527.89,-44.13,-302.02"
       ],
@@ -4363,6 +4574,7 @@
     {
       "name": "Merchant William",
       "name_sortable": "merchantwilliam",
+      "purpose": "Armorsmith",
       "locations": [
         "-527.68,-44.13,-311.61"
       ],
@@ -4724,6 +4936,7 @@
       "name": "Ohrgran Foulgore",
       "name_sortable": "ohrgranfoulgore",
       "level": 16,
+      "aggressive": true,
       "locations": [
         "-1218.51,-47.50,610.56"
       ],
@@ -5136,6 +5349,13 @@
     {
       "name": "Rilkrik",
       "name_sortable": "rilkrik",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Crossroads Supplies officer",
       "locations": [
         "-520.42,-44.13,-306.37"
       ],
@@ -5151,6 +5371,32 @@
         "Find the spirit of Raegnir and offer the blade pieces to him. Whatever gods you worship and wherever your alliances stand, Raegnir will appreciate the offer.",
         "Good, gather all the pieces: Argorym's blade, the Daughter of the Sky, and the Son of the Sky. With these Raegnir's memory will be honored.",
         "Good luck!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 667842228 -1541457669 0 0 0:Chained Boots of the Orc Destroyer\\/a",
+          "prices": [
+            {
+              "coin": 133120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1804559278 1932037384 0 0 0:Chained Boots of the Orc Hunter\\/a",
+          "prices": [
+            {
+              "coin": 5200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1843706180 661784998 0 0 0:Chained Boots of the Orc Slayer\\/a",
+          "prices": [
+            {
+              "coin": 20800
+            }
+          ]
+        }
       ]
     },
     {
@@ -5452,6 +5698,19 @@
       ]
     },
     {
+      "name": "Scout Calvus",
+      "name_sortable": "scoutcalvus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-938.52,-48.17,-5.59"
+      ]
+    },
+    {
       "name": "Scout Nonius",
       "name_sortable": "scoutnonius",
       "race": [
@@ -5460,6 +5719,8 @@
       "gender": [
         "male"
       ],
+      "level": 30,
+      "difficulty": "heroic^^^",
       "locations": [
         "-931.58,-48.65,-26.49"
       ]
@@ -5468,6 +5729,7 @@
       "name": "a scrub rat",
       "name_sortable": "scrubrat",
       "level": 11,
+      "aggressive": false,
       "locations": [
         "-1268.46,-69.64,406.21",
         "-1244.48,-68.04,421.03",
@@ -5511,7 +5773,8 @@
         "-1324.50,-52.19,581.22"
       ],
       "utterances": [
-        "You best watch your step out here!"
+        "You best watch your step out here!",
+        "You look useful.  How about lending the Militia a hand? Or do you need a direct order handed down from the Overlord himself?"
       ]
     },
     {
@@ -5794,6 +6057,7 @@
       "name": "a speckled rattler",
       "name_sortable": "speckledrattler",
       "level": 11,
+      "aggressive": false,
       "locations": [
         "-1336.98,-69.56,356.84",
         "-1017.09,-49.07,244.38",
@@ -5988,6 +6252,12 @@
     {
       "name": "Taskmaster's Assistant Koz'ma",
       "name_sortable": "taskmastersassistantkozma",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-489.94,-43.93,-261.24"
       ],
@@ -6129,6 +6399,7 @@
       "name": "a thresh bat",
       "name_sortable": "threshbat",
       "level": 10,
+      "aggressive": false,
       "locations": [
         "-1419.29,-51.73,311.94",
         "-1395.46,-50.45,299.83",
@@ -6425,6 +6696,19 @@
       "drop_coin_max": 328
     },
     {
+      "name": "Ugam",
+      "name_sortable": "ugam",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1295.99,-87.86,33.1"
+      ]
+    },
+    {
       "name": "Ventar T'Kal",
       "name_sortable": "ventartkal",
       "locations": [
@@ -6482,6 +6766,12 @@
     {
       "name": "V'tal Narin",
       "name_sortable": "vtalnarin",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-479.76,-45.47,-333.94"
       ],
@@ -6552,6 +6842,13 @@
     {
       "name": "Watcher Ommo",
       "name_sortable": "watcherommo",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Freeport Militia",
       "locations": [
         "-1437.62,-80.42,422.48"
       ],

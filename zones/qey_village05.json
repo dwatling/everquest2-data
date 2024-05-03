@@ -1,0 +1,573 @@
+{
+  "name": "The Willow Wood",
+  "name_sortable": "willowwood",
+  "flags": "origins",
+  "region": "Karan",
+  "zonerect": "-1,258.05, -892.88, -499.30, -310.57",
+  "type": "village",
+  "npcs": [
+    {
+      "name": "Aelia Oakweaver",
+      "name_sortable": "aeliaoakweaver",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "826.21,-21.25,-635.01"
+      ],
+      "utterances": [
+        "Welcome! What can I help you with?",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
+      ],
+      "store_template": "provisioner_origins"
+    },
+    {
+      "name": "Aelis",
+      "name_sortable": "aelis",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Wood Elf Mentor",
+      "locations": [
+        "831.56,-20.7,-760.73"
+      ],
+      "utterances": [
+        "Ayr'Dal like yourself should speak with Daelyn Twinstar, I am sure he can help you more than I can."
+      ]
+    },
+    {
+      "name": "Baynor",
+      "name_sortable": "baynor",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Armorsmith",
+      "locations": [
+        "851.26,-19.6,-595.53"
+      ],
+      "utterances": [
+        "You can never be too careful when it comes to protection.  Here try on one of these."
+      ]
+    },
+    {
+      "name": "Briget Crestmyst",
+      "name_sortable": "brigetcrestmyst",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Weaponsmith",
+      "locations": [
+        "858.26,-19.6,-600.43"
+      ],
+      "utterances": [
+        "Well, that suit is looking a might worn.  Can I interest you in a new suit of fine armor? "
+      ]
+    },
+    {
+      "name": "Daelyn Twinstar",
+      "name_sortable": "daelyntwinstar",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Half Elf Mentor",
+      "locations": [
+        "825.18,-20.7,-761.46"
+      ],
+      "utterances": [
+        "Well met, Ayr'Dal. Worry not, you will find friends here.",
+        "I most certainly am. Or are you not Ayr'Dal? Do you deny your heritage?",
+        "Which of your parents was elven?",
+        "Heh. I wager you're a sentimentalist, then.",
+        "I'm not always right, I just see patterns sometimes. Tell me, do you ever regret your heritage?",
+        "That's good to hear. I used to feel shame when I thought of my heritage, but I've come to know better.",
+        "By experiencing the world. I believed a lot of lies when I was younger. The only thing that can dispel lies you've known all your life is experience, and not even that always works. I don't know your past, but I guarantee you have room to learn, we all do.",
+        "Nothing, really. I'm no teacher. I can only put you in situations that you may learn from. I can try to help guide you, of course, but most of the work will be yours.",
+        "I would like you to speak with two people and help them in their day to day business. Please seek out Gar Smolten and Lia Serene. Pay close attention to how they treat you. Gar should be behind the inn, speak with him first. Lia should be near the entrance to the Elddar Grove.",
+        "I'm glad to hear it. Return to me when you have spoken to them.",
+        "Have you talked with Gar and Lia yet?"
+      ]
+    },
+    {
+      "name": "Davyn Thornbranch",
+      "name_sortable": "davynthornbranch",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "850.73,-20.92,-663.1"
+      ],
+      "utterances": [
+        "Sorry, I'm kind of busy right now."
+      ]
+    },
+    {
+      "name": "Deephathom",
+      "name_sortable": "deephathom",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Banker",
+      "locations": [
+        "821.05,-21.25,-635.49"
+      ],
+      "utterances": [
+        "Please tell me you're not trying to get a loan with livestock collateral!"
+      ]
+    },
+    {
+      "name": "Drystan Seaside",
+      "name_sortable": "drystanseaside",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "840.28,-20.17,-658.07"
+      ],
+      "utterances": [
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+      ],
+      "store_template": "general_goods_origins"
+    },
+    {
+      "name": "Feredir Na'Duath ",
+      "name_sortable": "feredirnaduath",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "870.75,-18.34,-600.55"
+      ],
+      "utterances": [
+        "Is there no place on your body left unpierced? Nay, do not answer -- I'm afraid to know!"
+      ]
+    },
+    {
+      "name": "Gar Smolten",
+      "name_sortable": "garsmolten",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "876.59,-20.26,-631.85"
+      ],
+      "utterances": [
+        "What do ya want?",
+        "For coin, no doubt. Down on your luck, are ya? That's not surprising. Too proud to ask for a handout, eh?",
+        "Ah, well that's certainly a nice deal on my part. Sure, you can help, but let's not pretend I believe you're that altruistic. Some kids ran by just a few minutes ago and changed all the labels on these boxes. Now I have no idea which ones are properly labeled. If you could check each box and let me know if it's properly labeled that would be helpful.",
+        "Well?",
+        "All right. What is in the box marked carving wood?",
+        "Ok. And what was in the box marked clay figures?",
+        "What about the one marked bottles?",
+        "And the one marked raisins & dried apricots?",
+        "And finally the box marked herbs?",
+        "All right. Great, this is just the kind of information I needed.",
+        "Er, well now wait a minute. I can see from here that one of those boxes doesn't contain what you said. Please double check your work.",
+        "Well that's a relief, I was afraid I would never get around to checking those boxes. You're a quick worker. I'm sorry about snapping at you earlier, I get like that from time to time. I was just stressed over those mischievous kids, among other things. Thanks for the help."
+      ]
+    },
+    {
+      "name": "Hallie Summerglint",
+      "name_sortable": "halliesummerglint",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Shieldsmith",
+      "locations": [
+        "817.83,-21.25,-645.12"
+      ],
+      "utterances": [
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ]
+    },
+    {
+      "name": "Honeysuckle",
+      "name_sortable": "honeysuckle",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "860.11,-20.48,-622.19"
+      ],
+      "utterances": [
+        "Might I interest you in some meat and cheese to go with that tall glass of ale?"
+      ]
+    },
+    {
+      "name": "Hunter Lathar Forestdeep",
+      "name_sortable": "hunterlatharforestdeep",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "794.46,-12.95,-627.23"
+      ],
+      "utterances": [
+        "I don't know how he snuck past the patrols. If you approach slowly, he may let you touch him.",
+        "What do you need? I'm very busy."
+      ]
+    },
+    {
+      "name": "Hunter Vannil",
+      "name_sortable": "huntervannil",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "810.96,-15.13,-576.85"
+      ]
+    },
+    {
+      "name": "Innkeeper Yeoni",
+      "name_sortable": "innkeeperyeoni",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Housing",
+      "locations": [
+        "860.02,-20.48,-626.78"
+      ],
+      "utterances": [
+        "Hello <player name>, I am the Innkeeper for this village.  We have received word of your arrival and have a room prepared for you.  Would you like to know more about housing?"
+      ]
+    },
+    {
+      "name": "Jana Windstream",
+      "name_sortable": "janawindstream",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "829.22,-20.07,-604.02"
+      ],
+      "utterances": [
+        "That's right! Lots of things you need inside the Scribe's shop!"
+      ]
+    },
+    {
+      "name": "Jendan Greenthorn",
+      "name_sortable": "jendangreenthorn",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "825.7,-20.61,-740.36"
+      ],
+      "utterances": [
+        "Sorry, friend. I can't chat. I'm waiting for my brother and I'd hate to miss him!"
+      ]
+    },
+    {
+      "name": "Kualdin Swoonsong",
+      "name_sortable": "kualdinswoonsong",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "838.52,-20.9,-613.22"
+      ],
+      "utterances": [
+        "Hail fair, adventurer. Please be on your way. I've no time for chatting with commoners. I must warm up my voice. My fans await me..."
+      ]
+    },
+    {
+      "name": "Lia Serene",
+      "name_sortable": "liaserene",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "817.44,-20.61,-583.5"
+      ],
+      "utterances": [
+        "Well met.",
+        "Oh I don't know. I am troubled over something quite delicate, I don't know if you can help.",
+        "Well, I'm worried over the recent, strong winds and what effect they may have had on some of the birds who nest within the Willow Wood. Their eggs, specifically, are what worry me. I know, it seems silly, I don't really expect someone like you to understand.",
+        "Well, half elves have never quite been concerned with nature like we have. I don't mean that as an insult, it is simply true.",
+        "I am sorry. I did not mean to come off as such. Yes, I would appreciate your help. I just didn't think something like this would concern you.",
+        "Very well. Please travel around the Willow Wood and check each bird nest to be sure they have not been upset in the recent storm. This isn't very hard, just check the ground in the area of each nest and verify that neither the nest nor any eggs have fallen. If any eggs are found that are not cracked collect them.",
+        "Goodness, no. Your scent would only ensure their demise. Please bring the eggs back to me. I can care for them and may be able to get their mothers to accept them again.",
+        "It's just like an Ayr'Dal to ask a question like that. Um, no offense. I know where the birds of this village nest, and what their eggs look like. This is how I know where to look, and where to tell you where to look. Check under the north-east corner of the inn roof, north of that location check under the tree near the entrance to the docks, then check under the tree just down the path from the entrance to the Forest Ruins, which is in the south-western area of the village."
+      ]
+    },
+    {
+      "name": "Lyssia Delnara",
+      "name_sortable": "lyssiadelnara",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "814.04,-15.13,-582.84"
+      ],
+      "utterances": [
+        "Greetings."
+      ]
+    },
+    {
+      "name": "Milo Faren",
+      "name_sortable": "milofaren",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "817.17,-19.94,-602.92"
+      ],
+      "utterances": [
+        "Good day to you!"
+      ]
+    },
+    {
+      "name": "Oseof Crestryder",
+      "name_sortable": "oseofcrestryder",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Crafting Trainer",
+      "locations": [
+        "850.37,-20.55,-632.4"
+      ],
+      "utterances": [
+        "You show interest in the crafting trade, good.  Qeynos can always use talented artisans within the walls of our great city.  I can help you get started and offer you some of the basic recipes at no charge.  Would you be interested?",
+        "There, you now have the basic recipes and the knowledge to begin crafting.  Everything else you need to get yourself started can be found right here."
+      ]
+    },
+    {
+      "name": "Rainwander",
+      "name_sortable": "rainwander",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Alchemist",
+      "locations": [
+        "815.19,-19.94,-609.27"
+      ],
+      "utterances": [
+        "Are you wounded?  I just made up a fresh batch of healing potions an hour ago."
+      ]
+    },
+    {
+      "name": "a rat",
+      "name_sortable": "rat",
+      "locations": [
+        "828.82,-20.73,-759.90",
+        "829.99,-20.61,-748.46"
+      ]
+    },
+    {
+      "name": "Rebeka Lori",
+      "name_sortable": "rebekalori",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "865.17,-18.87,-613.3"
+      ],
+      "utterances": [
+        "Another face I do not recognize.  Are you new here, good traveler?"
+      ]
+    },
+    {
+      "name": "Salinia Brooklily",
+      "name_sortable": "saliniabrooklily",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Spell Scrolls",
+      "locations": [
+        "822.07,-19.94,-604.8"
+      ]
+    },
+    {
+      "name": "Taval Zane",
+      "name_sortable": "tavalzane",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "857.76,-20.48,-631.26"
+      ],
+      "utterances": [
+        "Not in a chatting mood right now, friend."
+      ]
+    },
+    {
+      "name": "Thayare Faystrider",
+      "name_sortable": "thayarefaystrider",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "827.92,-21.42,-662.5"
+      ],
+      "utterances": [
+        "So kind, yet so naive to the horrors of the past, tragedies to be repeated, no doubt. ",
+        "I do not speak of trembling plains and torrential seas, I speak of the bane of elfkind, the eternal struggle between light and dark ... between above and below.",
+        "Yes, the elves of below ... the Teir'Dal. Their hatred for the elves of the sun is a plague upon all of Norrath. Many have died in defense of elfkind, and I believe the bloodshed is far from over. It is an eternal war that burdens my heart.",
+        "I wish it were that easy, but I am Feir'Dal, a wood elf, and I am sworn to defend the Laws of Tunare and her children till my final breath passes my lips. That is a day I look forward to with great rejoice.",
+        "In my days, I have seen a multitude of my fellow treefolke give their lives in defense of Tunare's laws. Many were my family. I am haunted with the visions of battles of yore. I recall my beloved sister slipping from life while I wept with her in my embrace. ",
+        "She drifted from this realm more than four-hundred-years ago in the Age of Turmoil. It was the great War of the Fay, the war of the elves. The elf empire of below and their allies challenged the combined nations of elfkind. Armies of Teir'Dal, orc, troll, and others crept towards the Faydark hoping to extinguish the elves of sun.",
+        "I was but an adolescent, barely able to string a bow, yet I fought. My sister was in her prime, and she was a highly-skilled scout, an elite soldier of the Scouts of Tunare. But even her skill could not prepare her or the tree city of Kelethin for the onslaught from the northern coasts and the orc hordes from Crushbone.  ",
+        "It happened quickly. The forest empire of my people was greatly protected. No branch was without a lookout, the tall masts and far reaching ballistae of the Koada'Dal wavejumpers patrolled the coasts, but still, we couldn't prepare for the arrival.    ",
+        "From the depths of the burning wastelands of Crushbone, came the orc hordes. As we directed our efforts at repelling this force, an armada of war galleys of Neriak breached the coastal mists. Some say they arrived via a titanic teleport arch built by the dark elves deep in the uncharted seas of the Ocean of Tears. Yet, still, they struck from an unexpected front...",
+        "Near the heart of the Faydark, the most dangerous of the evil hordes arrived in a portal opened between the underworld and our forest, a portal bound by the ancient teleport spires. Wave after wave of Teir'Dal dragoon marched from this portal, a juggernaut marching towards the Koada'Dal city in the clouded mountains, Felwithe.        ",
+        "The tree city was no target of the dragoons, the orcs of Crushbone kept us under siege, setting much of the Faydark on fire! Within the raging inferno, the dragoons marched to seize Felwithe. It is there that the legendary King Tearis'Thex fell to the dark blade.          ",
+        "Defeat seemed certain, but as we fought futile battles on many fronts, the horns of war were heard along the borders of the Faydark! The brigades of the dwarven empire Kaladim marched in from the western mountains, and from the east came the gnomes of Ak'Anon with their ticking and puffing clockwork army. The elves of the sun would triumph this day.           ",
+        "Greatly outnumbered, the dark hordes repelled. They retreated to the shadowed realms from whence they came. Some unfortunate ones fled to the Loping Plains seeking safe a haven on the moors of Mistmoore, never to be heard from again.  ",
+        "Don't let my short tale confuse you. This war raged for more than a few seasons. Blood stained the forest floor, green turned to ash. It was in the final defense of Kelethin that my sister sustained a mortal blow, dying within my arms, her last breath gracing my tear-soaked face.  ",
+        "Kelethin and Felwithe were restored under the guidance of the princess Queen, Lenya Thex, but the scars remained, both upon the land and within my memory. I departed the Faydark in search of a new life that would bury my visions of the war, but as I learned, war is eternal and it is far reaching. Since my days in the Faydark, I have traversed much more bloodshed. It is inescapable, yet I live on to defend the Laws of Tunare and to honor those that have fallen, such as my beloved sister Geeda.  "
+      ]
+    },
+    {
+      "name": "Thea Wavecrasher",
+      "name_sortable": "theawavecrasher",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Tailor",
+      "locations": [
+        "816.85,-21.25,-638.97"
+      ],
+      "utterances": [
+        "Welcome to my humble shop.  We have quite a selection of weapons to choose from.  See for yourself..."
+      ]
+    },
+    {
+      "name": "Trelly Greenfoot",
+      "name_sortable": "trellygreenfoot",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "869.75,-18.46,-601.58"
+      ],
+      "utterances": [
+        "I don't understand the need for piercings, but they look fine on you."
+      ]
+    },
+    {
+      "name": "Trueshot",
+      "name_sortable": "trueshot",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bowyer",
+      "locations": [
+        "856.3,-20.91,-642.76"
+      ],
+      "utterances": [
+        "Welcome! What can I help you with?"
+      ]
+    },
+    {
+      "name": "Zanhass Mossclean",
+      "name_sortable": "zanhassmossclean",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Mender",
+      "locations": [
+        "859.05,-19.6,-598.17"
+      ],
+      "utterances": [
+        "Well, well, what have we here? Can I help you?"
+      ]
+    }
+  ]
+}

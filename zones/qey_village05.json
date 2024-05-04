@@ -5,6 +5,12 @@
   "region": "Karan",
   "zonerect": "-1,258.05, -892.88, -499.30, -310.57",
   "type": "village",
+  "connections": [
+    {
+      "key": "qey_tradeskill01_village05",
+      "location": "852.92,-19.76,-634.29"
+    }
+  ],
   "npcs": [
     {
       "name": "Aelia Oakweaver",
@@ -56,8 +62,11 @@
         "851.26,-19.6,-595.53"
       ],
       "utterances": [
-        "You can never be too careful when it comes to protection.  Here try on one of these."
-      ]
+        "You can never be too careful when it comes to protection.  Here try on one of these.",
+        "Coin is no object when gaining protection from your enemies.  What price can be put on your safety? ",
+        "I have some nice new suits of chain that have stood up very well.  Would you like to see them?"
+      ],
+      "store_template": "armorsmith_origins"
     },
     {
       "name": "Briget Crestmyst",
@@ -73,8 +82,10 @@
         "858.26,-19.6,-600.43"
       ],
       "utterances": [
-        "Well, that suit is looking a might worn.  Can I interest you in a new suit of fine armor? "
-      ]
+        "Well, that suit is looking a might worn.  Can I interest you in a new suit of fine armor? ",
+        "Coin is no object when gaining protection from your enemies.  What price can be put on your safety? "
+      ],
+      "store_template": "weaponsmith_origins"
     },
     {
       "name": "Daelyn Twinstar",
@@ -168,7 +179,9 @@
         "870.75,-18.34,-600.55"
       ],
       "utterances": [
-        "Is there no place on your body left unpierced? Nay, do not answer -- I'm afraid to know!"
+        "Is there no place on your body left unpierced? Nay, do not answer -- I'm afraid to know!",
+        "Stop sniffing around my pockets, you!  Go back to the sewers and keep to yourselves.",
+        "When we recreate our ancestral home, why don't you come live there amongst the Feir'Dal?"
       ]
     },
     {
@@ -214,7 +227,8 @@
       "utterances": [
         "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
         "Confound it! Where did I put that ledger?  It must be around here somewhere!"
-      ]
+      ],
+      "store_template": "shieldsmith_origins"
     },
     {
       "name": "Honeysuckle",
@@ -231,7 +245,8 @@
       ],
       "utterances": [
         "Might I interest you in some meat and cheese to go with that tall glass of ale?"
-      ]
+      ],
+      "store_template": "bartender_origins"
     },
     {
       "name": "Hunter Lathar Forestdeep",
@@ -277,7 +292,59 @@
         "860.02,-20.48,-626.78"
       ],
       "utterances": [
-        "Hello <player name>, I am the Innkeeper for this village.  We have received word of your arrival and have a room prepared for you.  Would you like to know more about housing?"
+        "Hello <player name>, I am the Innkeeper for this village.  We have received word of your arrival and have a room prepared for you.  Would you like to know more about housing?",
+        "What would you like to know?",
+        "You will find that your house has many uses, the first of which is the ability to store house items.  Each house has a limit to the number of house items you can place in it, so as you gain more possessions you wish to display you will need larger houses to do so."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1192413674 -55368781 0 0 0:a Qeynosian large wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -568616880 1329473188 0 0 0:a Qeynosian medium wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1457739578 -655029930 0 0 0:a Qeynosian small wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 30
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -949197158 -767980191 0 0 0:a wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1579048607 -882452909 0 0 0:an antonican wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 729139268 0 0 0:an enchanter's candelabra\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        }
       ]
     },
     {
@@ -415,8 +482,36 @@
         "815.19,-19.94,-609.27"
       ],
       "utterances": [
-        "Are you wounded?  I just made up a fresh batch of healing potions an hour ago."
-      ]
+        "Are you wounded?  I just made up a fresh batch of healing potions an hour ago.",
+        "Hello, adventurer! Are you looking for a specific potion or ingredient?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 331790605 -1707704134 0 0 0:odyssey stone\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -182855303 1967098650 0 0 0:softly glowing pearl\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1135016146 -1004037174:Abrasive Goo\\/a",
+          "prices": [
+            {
+              "coin": 12
+            }
+          ]
+        }
+      ],
+      "store_template": "alchemist_origins"
     },
     {
       "name": "a rat",
@@ -454,6 +549,24 @@
       "purpose": "Spell Scrolls",
       "locations": [
         "822.07,-19.94,-604.8"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 230963297 -67496307 0 0 0:Ayr'Dal Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 505960093 389330758 0 0 0:Feir'Dal Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        }
       ]
     },
     {
@@ -517,7 +630,8 @@
       ],
       "utterances": [
         "Welcome to my humble shop.  We have quite a selection of weapons to choose from.  See for yourself..."
-      ]
+      ],
+      "store_template": "tailor_origins"
     },
     {
       "name": "Trelly Greenfoot",
@@ -532,7 +646,8 @@
         "869.75,-18.46,-601.58"
       ],
       "utterances": [
-        "I don't understand the need for piercings, but they look fine on you."
+        "I don't understand the need for piercings, but they look fine on you.",
+        "The blessing of Tunare is the highest blessing of all."
       ]
     },
     {

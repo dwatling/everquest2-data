@@ -1,0 +1,816 @@
+{
+  "name": "The Elddar Grove",
+  "name_sortable": "elddargrove",
+  "region": "Karan",
+  "zonerect": "-1004.46,-588.61,-428.61,-152.51",
+  "type": "city",
+  "tags": "origins",
+  "connections": [
+    {
+      "key": "qey_village05"
+    },
+    {
+      "key": "qey_village06"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Delma Messpie",
+      "name_sortable": "delmamesspie",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "703.41,-15.94,-421.2"
+      ],
+      "utterances": [
+        "Be on the lookout, friend!  I just spoke to the guards.  I've no doubt gnolls are scouting the nearby area.",
+        "Laziness is nothing more than the habit of resting before you get tired.",
+        "Do you like muffins?  Muffins are my favorite, I eat them every chance I get.",
+        "If a thing isn't worth saying, you sing it."
+      ]
+    },
+    {
+      "name": "Elendia Starleaf",
+      "name_sortable": "elendiastarleaf",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Ranger Trainer",
+      "locations": [
+        "655.89,12.23,-375.66"
+      ],
+      "utterances": [
+        "Hello there, you seek woodlore do you?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -2095728411 -1548678385 0 0 0:Back Fire (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -796631286 -1588744553 0 0 0:Blazing Strike (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1550271598 -1035477197 0 0 0:Double Shot (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1829733147 -231855888 0 0 0:Ensnare (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1538349809 422769306 0 0 0:Evade (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 276577425 -1038002898 0 0 0:Searing Strike (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1587455566 1846036400 0 0 0:Shadowfire (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -168376357 1865197671 0 0 0:Sneak Attack (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 692973178 -1494875956 0 0 0:Stalker Strike (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1152907596 -769791192 0 0 0:Trap (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Faye Dawnsinger",
+      "name_sortable": "fayedawnsinger",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "787.12,-22.64,-513.31"
+      ],
+      "utterances": [
+        "Hail, it is encouraging to see bright faces such as yours arrive in the everlasting city of Qeynos.",
+        "Hello, young adventurer. It is with the utmost delight that I greet you.",
+        "Wonderful to make your acquaintance. Do you find this scenery as whimsical as I? The day is truly blessed.",
+        "Hail to you, it is indeed a pleasure.",
+        "It is with honor that I welcome you to our community."
+      ]
+    },
+    {
+      "name": "Flizzle Cogplume",
+      "name_sortable": "flizzlecogplume",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "667.68,12.19,-375.38"
+      ],
+      "purpose": "Swashbuckler Trainer",
+      "utterances": [
+        "Well, well, what have we here?"
+      ]
+    },
+    {
+      "name": "Gildas Cedartree",
+      "name_sortable": "gildascedartree",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "737.78,-21.29,-402.74"
+      ],
+      "utterances": [
+        "Sorry, friend. I can't offer you help at this time. Good day!"
+      ]
+    },
+    {
+      "name": "Gilp Jadefist",
+      "name_sortable": "gilpjadefist",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "792.36,-19.11,-406.14"
+      ],
+      "utterances": [
+        "May your path always be clear."
+      ]
+    },
+    {
+      "name": "Initiate Lo Fan",
+      "name_sortable": "initiatelofan",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "765.83,-19.26,-385.22"
+      ]
+    },
+    {
+      "name": "Initiate Lunaru",
+      "name_sortable": "initiatelunaru",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "769.33,-19.26,-384.37"
+      ],
+      "utterances": [
+        "Sorry, I can't speak now.  I must prepare for my sparring exercises."
+      ]
+    },
+    {
+      "name": "Initiate Tara",
+      "name_sortable": "initiatetara",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "767.23,-19.26,-373.01"
+      ],
+      "utterances": [
+        "Tread softly and speak your purpose."
+      ]
+    },
+    {
+      "name": "Initiate Thomas",
+      "name_sortable": "initiatethomas",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "774.79,-19.26,-385.73"
+      ]
+    },
+    {
+      "name": "Kethelrune",
+      "name_sortable": "kethelrune",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "792.42,-22.69,-527.5"
+      ],
+      "utterances": [
+        "Hail, friend and well met. I do hope your visits to our village are frequent. Too often do adventurers fail to return.",
+        "Greetings. Welcome to our asylum from the torment that plagues the lands of Norrath.",
+        "How do you do! I am always pleased to meet a capable being, such as yourself.",
+        "I hope you have been sent by someone of importance. I'm quite busy.",
+        "It brings comfort to my heart to see you come to us in safety.",
+        "Ah, it brings me happiness to see so many newcomers arriving to the exalted city of Qeynos."
+      ]
+    },
+    {
+      "name": "Khai Lightfall",
+      "name_sortable": "khailightfall",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Monk Trainer",
+      "locations": [
+        "769.46,-19.26,-375.38"
+      ],
+      "utterances": [
+        "May yourr life be uneventful frriend."
+      ]
+    },
+    {
+      "name": "Lookout Venylle",
+      "name_sortable": "lookoutvenylle",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "661.12,12.21,-375.33"
+      ],
+      "utterances": [
+        "Well, greetings, friend. I'm sorry I've no time for chatting. We rangers must be ever watchful. Many dangers lurk in the dark. Some natural, some ... unnatural.",
+        "It is ill to speak of the dead, but knowing the dangers that prowl in the dark is for your own safety. Rumor has it, that Holly Windstalker once again walks the hills.  I won't guarantee this is true, but neither will I discount it. What I do know is a grave bearing her name sits on a hill overlooking the village.  You'll see for yourself; she was laid to rest years ago.",
+        "Ahh ... very well, you are a daring soul! To get to the grave, follow the aqueduct from Qeynos to Windstalker Village. The village is built around the waterwheel that keeps the aqueduct flowing.  The duct passes through rock so you may lose sight of it for a time.  Just continue around the mountain, and you'll see it on the other side."
+      ]
+    },
+    {
+      "name": "Mina",
+      "name_sortable": "mina",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "713.0,-20.61,-449.47"
+      ],
+      "utterances": [
+        "Welcome to Qeynos, traveler, know that you are among allies.",
+        "Hail, good traveler!",
+        "Hello there, friend, I hope the day finds you well.",
+        "Greetings traveler and welcome to our village. Be sure to help us keep it tidy.",
+        "Hello and welcome to the city.  Everything you need can be found here in Qeynos.  "
+      ]
+    },
+    {
+      "name": "Musician Zwena",
+      "name_sortable": "musicianzwena",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "705.78,-14.48,-423.42"
+      ],
+      "utterances": [
+        "Perhaps I could entertain you with a song?"
+      ]
+    },
+    {
+      "name": "Naturalist Tummyfill",
+      "name_sortable": "naturalisttummyfill",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "670.07,10.93,-382.76"
+      ],
+      "purpose": "Tunarian Alliance Grove Warden",
+      "utterances": [
+        "Nothing on Norrath can replicate the natural creations that are right in front of us."
+      ]
+    },
+    {
+      "name": "Outrider Bernd",
+      "name_sortable": "outriderbernd",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Tunarian Alliance Grove Warden",
+      "locations": [
+        "654.5,-10.16,-375.86"
+      ]
+    },
+    {
+      "name": "Rask Helstot",
+      "name_sortable": "raskhelstot",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "788.13,-21.76,-418.94"
+      ],
+      "utterances": [
+        "Welcome to the Elddar grove, young one.  Enjoy the shelter which the trees provide.",
+        "Though it's the only remaining tree of its kind, the Elddar grows ever larger.  Perhaps a symbol of Qeynos and her people even more fitting than the Claymore itself."
+      ]
+    },
+    {
+      "name": "Senior Initiate Delvin",
+      "name_sortable": "seniorinitiatedelvin",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "773.67,-19.26,-378.56",
+        "783.39,-19.63,-392.54"
+      ],
+      "utterances": [
+        "It's a great day to be alive and be in Qeynos."
+      ]
+    },
+    {
+      "name": "Solomen Stormwatch",
+      "name_sortable": "solomenstormwatch",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "799.93,-22.04,-532.43",
+        "696.35,-16.82,-447.62"
+      ],
+      "utterances": [
+        "To be among the highest leaves and branches of a tree is to feel free.",
+        "The blessing of Tunare is the highest blessing of all.",
+        "Is there no place on your body left unpierced? Nay, do not answer -- I'm afraid to know!"
+      ]
+    },
+    {
+      "name": "Tairiel Oakshade",
+      "name_sortable": "tairieloakshade",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "658.17,-10.08,-392.08"
+      ],
+      "utterances": [
+        "I fear that the Concordium is unable to control its disciples. If corrupted the sorcerers would surely bring harm to the woodlands and their creatures."
+      ]
+    },
+    {
+      "name": "Takara Maiya",
+      "name_sortable": "takaramaiya",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "806.33,-20.27,-540.63"
+      ],
+      "utterances": [
+        "I just got a shipment in from the Far Sea's Trading Company.  I don't just show anybody this stuff so, shhhh!  "
+      ],
+      "store_template": "general_goods_origins"
+    },
+    {
+      "name": "Towser Flizgibbert",
+      "name_sortable": "towserflizgibbert",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "692.26,-16.4,-451.8"
+      ],
+      "utterances": [
+        "Well? What do you want?"
+      ]
+    },
+    {
+      "name": "Traylo Leafsway",
+      "name_sortable": "trayloleafsway",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Gildas' Assistant",
+      "locations": [
+        "737.54,-21.29,-396.44"
+      ],
+      "utterances": [
+        "Greetings citizen.  Please see me if you have any armor from Gildas that you wish to be rid of, I have some newer armor that may interest you. "
+      ]
+    },
+    {
+      "name": "Trillium",
+      "name_sortable": "trillium",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Merchant",
+      "locations": [
+        "653.21,10.93,-380.24"
+      ],
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 661247468 -542119186 0 0 0:a globe of old Norrath\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=20000"
+          },
+          "prices": [
+            {
+              "coin": 12000,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 681439180 1179468714 0 0 0:a rough collection box\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=10000"
+          },
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1623015355 1221032866 0 0 0:a tunarian bow of honor\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=30000"
+          },
+          "prices": [
+            {
+              "coin": 195276,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 970153051 870034835 0 0 0:a tunarian eagle staff\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=10000"
+          },
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1135628291 -1550118297 0 0 0:Ally: Tunarian Alliance\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=40000"
+          },
+          "prices": [
+            {
+              "coin": 3686400,
+              "status": 50000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1719234918 2006985292 0 0 0:an outrider's cauldron\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=10000"
+          },
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -290526673 92276170 0 0 0:Initiate: Tunarian Alliance\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=10000"
+          },
+          "prices": [
+            {
+              "coin": 153600,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2080206041 -2145020259 0 0 0:Member: Tunarian Alliance\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=20000"
+          },
+          "prices": [
+            {
+              "coin": 614400,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1808023750 1771311322 0 0 0:Officer: Tunarian Alliance\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=30000"
+          },
+          "prices": [
+            {
+              "coin": 2457600,
+              "status": 40000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -951420699 -2001219708 0 0 0:tunarian ceremonial cap\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=20000"
+          },
+          "prices": [
+            {
+              "coin": 115200,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1215342023 -1501938096 0 0 0:tunarian ceremonial leggings\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=20000"
+          },
+          "prices": [
+            {
+              "coin": 124800,
+              "status": 27000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -778536570 -1441502444 0 0 0:tunarian ceremonial officer boots\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=30000"
+          },
+          "prices": [
+            {
+              "coin": 576000,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -982051792 -619877814 0 0 0:tunarian ceremonial officer gloves\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=30000"
+          },
+          "prices": [
+            {
+              "coin": 633600,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1407615241 -1860156867 0 0 0:tunarian ceremonial officer robe\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=30000"
+          },
+          "prices": [
+            {
+              "coin": 864000,
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -238155715 -181095617 0 0 0:tunarian ceremonial sandals\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=20000"
+          },
+          "prices": [
+            {
+              "coin": 96000,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1503783648 1883429332 0 0 0:tunarian ceremonial shawl\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=20000"
+          },
+          "prices": [
+            {
+              "coin": 115200,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1251427115 1315829801 0 0 0:tunarian ceremonial sleeves\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=20000"
+          },
+          "prices": [
+            {
+              "coin": 96000,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -869485288 -153740959 0 0 0:tunarian ceremonial vest\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=20000"
+          },
+          "prices": [
+            {
+              "coin": 144000,
+              "status": 27000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1372348649 2016367581 0 0 0:tunarian ceremonial wraps\\/a",
+          "requirements": {
+            "faction": "The Tunarian Alliance=20000"
+          },
+          "prices": [
+            {
+              "coin": 105600,
+              "status": 25000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Velisarr Morningdew",
+      "name_sortable": "velisarrmorningdew",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "784.83,-22.21,-531.78",
+        "711.97,-20.62,-450.27"
+      ],
+      "utterances": [
+        "Are my roots showing?  I think I'll go for a light blueberry mixed with jum-jum highlights.",
+        "I've gotta get rid of these clothes; they're so one-hundred years ago.",
+        "As soon as I get my own boat, I'm outta here!",
+        "Me and my friends have all agreed to be non-conformists.",
+        "I don't know why the ancestors whine so much!  I really like Qeynos, why would they want to leave?"
+      ]
+    },
+    {
+      "name": "Wanderer Greencoast",
+      "name_sortable": "wanderergreencoast",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Tunarian Alliance Grove Warden",
+      "locations": [
+        "665.08,-10.04,-392.12"
+      ],
+      "utterances": [
+        "The beauty of this grove never ceases to amaze me.  Even in these troubled times, it's nice to have a place like this to call home."
+      ]
+    },
+    {
+      "name": "Wanderer Raegen Truthshadow",
+      "name_sortable": "wandererraegentruthshadow",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Tunarian Alliance Grove Warden",
+      "locations": [
+        "673.93,-10.35,-384.35"
+      ],
+      "utterances": [
+        "Keep your eyes on the horizon, my friend.  Only through vigilance and defense can we keep Qeynos safe."
+      ]
+    }
+  ]
+}

@@ -25,6 +25,145 @@
   ],
   "npcs": [
     {
+      "name": "Algan Tinmizer",
+      "name_sortable": "algantinmizer",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "862.77,-12.31,-412.95"
+      ],
+      "utterances": [
+        "Greetings!  Looking for a bashcogglinator or perhaps a metefozic thermogauge?"
+      ]
+    },
+    {
+      "name": "Arbuthnot Jumroller",
+      "name_sortable": "arbuthnotjumroller",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "866.22,-12.23,-418.7"
+      ],
+      "utterances": [
+        "Well, then, what can I do for you?"
+      ]
+    },
+    {
+      "name": "Barmaid Estella Muddyfoot",
+      "name_sortable": "barmaidestellamuddyfoot",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "883.3,-18.31,-444.99"
+      ],
+      "utterances": [
+        "Welcome friend, welcome.  I hope you brought your appetite with you!",
+        "I love the smell of fresh bread in the oven!"
+      ],
+      "store_template": "provisioner_origins"
+    },
+    {
+      "name": "Bizrinn Clamorclang",
+      "name_sortable": "bizrinnclamorclang",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "900.33,-18.01,-482.3"
+      ],
+      "utterances": [
+        "Oh! Why hello there!  I am so behind on tinker work that I am not taking anymore orders at the moment ... What is it you want?"
+      ]
+    },
+    {
+      "name": "Bolo Brassharp",
+      "name_sortable": "bolobrassharp",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "893.69,-17.91,-492.43"
+      ],
+      "utterances": [
+        "I know you'd love to speak with me, but I'm a little busy right now."
+      ]
+    },
+    {
+      "name": "Brera Pinthumb",
+      "name_sortable": "brerapinthumb",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Mender",
+      "locations": [
+        "832.39,-13.81,-475.49"
+      ],
+      "utterances": [
+        "Greetings there, have something that you think needs a bit of repair?",
+        "Hello, adventurer.  Looking to get some items repaired after a hard day of dragon slaying?",
+        "Welcome! Is there anything I can help you with or are you looking to find an apprenticeship?"
+      ]
+    },
+    {
+      "name": "Byrtle Bobblepeg",
+      "name_sortable": "byrtlebobblepeg",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Bowyer",
+      "locations": [
+        "905.26,-17.76,-489.23"
+      ],
+      "utterances": [
+        "Welcome! What can I help you with?",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1039560617 538023942:elm short bow\\/a",
+          "prices": [
+            {
+              "coin": 168
+            }
+          ]
+        }
+      ],
+      "store_template": "bowyer_origins"
+    },
+    {
+      "name": "Deputy Splitshin",
+      "name_sortable": "deputysplitshin",
+      "utterances": [
+        "Ah good, another refugee in the city.  I hope you're not a worthless lay about!  We don't abide apathy here."
+      ]
+    },
+    {
       "name": "Diggin Diggs",
       "name_sortable": "diggindiggs",
       "race": [
@@ -69,6 +208,39 @@
         }
       ],
       "store_template": "provisioner_origins"
+    },
+    {
+      "name": "Drizzcopper",
+      "name_sortable": "drizzcopper",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Banker",
+      "locations": [
+        "893.63,-18.01,-485.35"
+      ],
+      "utterances": [
+        "The answer to your question is no. I'm afraid we don't extend lines of credit at this time."
+      ]
+    },
+    {
+      "name": "Drundo Parn",
+      "name_sortable": "drundoparn",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "884.17,-18.31,-442.64"
+      ],
+      "utterances": [
+        "Don't bother me, I'm drinking!"
+      ]
     },
     {
       "name": "Fillzer Fuzzle",
@@ -116,6 +288,98 @@
       ]
     },
     {
+      "name": "Gornit Penwiggle",
+      "name_sortable": "gornitpenwiggle",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "887.21,-18.31,-440.65"
+      ],
+      "utterances": [
+        "Can't you see I'm busy? I'm the kegkeeper of the tavern, and as you can see, these lot drink a lot ... Ha! ... Made a funny!",
+        "I agree! But what's a stout to do? My grandparents granted me this atrocious name. They say it was the name of a ferocious giant, a pirate even! Saw it on a journey once, they say. Even spoke to him! Tall tales I say."
+      ]
+    },
+    {
+      "name": "a honey guardian",
+      "name_sortable": "honeyguardian",
+      "locations": [
+        "862.43,-17.94,-439.52",
+        "891.51,-15.10,-443.94"
+      ]
+    },
+    {
+      "name": "Innkeeper Millbanks",
+      "name_sortable": "innkeepermillbanks",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Housing",
+      "locations": [
+        "898.51,-17.69,-490.57"
+      ],
+      "utterances": [
+        "Hello there <player name>, what can I help you with?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1192413674 -55368781 0 0 0:a Qeynosian large wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -568616880 1329473188 0 0 0:a Qeynosian medium wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1457739578 -655029930 0 0 0:a Qeynosian small wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 30
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -949197158 -767980191 0 0 0:a wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1579048607 -882452909 0 0 0:an antonican wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 729139268 0 0 0:an enchanter's candelabra\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Jayla Midhop",
       "name_sortable": "jaylamidhop",
       "race": [
@@ -129,6 +393,117 @@
       ],
       "utterances": [
         "Sorry, I'd prefer not to talk right now."
+      ]
+    },
+    {
+      "name": "Kaldin Deeppockets",
+      "name_sortable": "kaldindeeppockets",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "883.59,-18.18,-436.98"
+      ],
+      "utterances": [
+        "My name is Deeppockets.  Pleased to meet you, I am!  Perhaps we'll talk again some day!",
+        "The best part about this job is all the extra coin I get."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1241081646 1636802182:rawhide leather rucksack\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        }
+      ],
+      "store_template": "general_goods_origins"
+    },
+    {
+      "name": "Lozoria Shinkicker",
+      "name_sortable": "lozoriashinkicker",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "878.34,-18.31,-440.63"
+      ],
+      "utterances": [
+        "Bring me another pint, Bregun!  Mine's almost empty!  What brings you into my papa's fine establishment, friend?"
+      ]
+    },
+    {
+      "name": "Maela Meadows",
+      "name_sortable": "maelameadows",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "857.3,-11.98,-417.39"
+      ],
+      "utterances": [
+        "I simply love this view."
+      ]
+    },
+    {
+      "name": "Marshal Surefoot",
+      "name_sortable": "marshalsurefoot",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "882.68,-13.14,-441.29"
+      ],
+      "utterances": [
+        "Stand stout! You'd make a fine deputy."
+      ]
+    },
+    {
+      "name": "Mirf Guinders",
+      "name_sortable": "mirfguinders",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "883.3,-13.4,-439.62"
+      ],
+      "utterances": [
+        "Search within your soul! Reclaim your faith! Bristlebane lives within us. Do not abandon his mirth! We are not forsaken!"
+      ]
+    },
+    {
+      "name": "Neezer Grund",
+      "name_sortable": "neezergrund",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Gnome Mentor",
+      "locations": [
+        "946.78,-18.06,-440.73"
+      ],
+      "utterances": [
+        "Ah yes, hello, hello. I'm afraid I'm quite busy at the moment.",
+        "Erm... thinking... I'm busy thinking... about gnomish things! I'm busy thinking about gnomish things, I'm afraid you wouldn't understand."
       ]
     },
     {
@@ -159,7 +534,9 @@
       ],
       "utterances": [
         "Dare I say, it's a fine day for shopping. How can I help you?",
-        "You can never be too careful when it comes to protecting yourself. Why not try something new?"
+        "You can never be too careful when it comes to protecting yourself. Why not try something new?",
+        "Your garb looks a might worn.  Can I interest you in a fine new set of armor?",
+        "Hello there!  Can I interest you in some of the finest merchandise this side of Norrath?"
       ],
       "store_template": "tailor_origins"
     },
@@ -196,12 +573,30 @@
       "gender": [
         "female"
       ],
+      "purpose": "Crafting Trainer",
       "locations": [
         "821.21,-8.82,-475.89"
       ],
-      "purpose": "Crafting Trainer",
       "utterances": [
         "You have learned everything I have to teach at the moment.  You are free to use our crafting facilities to hone your skills."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -2098664565 110889718:Advanced Artisan Volume 6\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        }
+      ],
+      "store_template": "crafting_trainer"
+    },
+    {
+      "name": "a rat",
+      "name_sortable": "rat",
+      "locations": [
+        "946.41,-18.08,-439.01"
       ]
     },
     {
@@ -234,6 +629,20 @@
       ],
       "utterances": [
         "Leave me alone!"
+      ]
+    },
+    {
+      "name": "Rondo \"The Belly\" Roundstew",
+      "name_sortable": "rondothebellyroundstew",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Halfling Mentor",
+      "locations": [
+        "946.75,-18.05,-436.16"
       ]
     },
     {
@@ -272,6 +681,25 @@
       "store_template": "weaponsmith_origins"
     },
     {
+      "name": "Tapster Bregun",
+      "name_sortable": "tapsterbregun",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "883.89,-18.31,-439.19"
+      ],
+      "utterances": [
+        "I bet you have some stories, eh?  Adventuring must be an exciting life!",
+        "The best part about this job is all the extra coin I get."
+      ],
+      "store_template": "bartender_origins"
+    },
+    {
       "name": "Tawli Whiskwind",
       "name_sortable": "tawliwhiskwind",
       "race": [
@@ -285,6 +713,19 @@
       ],
       "utterances": [
         "Good day to you, deary!  I make the most wonderful brooms--strong bristles, stout handles, and quite stylish if you ask me.  Great for sweeping off your doorstep or scaring off little critters!"
+      ]
+    },
+    {
+      "name": "Tinkerer Spindlecog",
+      "name_sortable": "tinkererspindlecog",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "890.98,-18.01,-481.55"
       ]
     },
     {

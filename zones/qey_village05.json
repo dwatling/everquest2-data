@@ -507,8 +507,10 @@
       ],
       "utterances": [
         "You show interest in the crafting trade, good.  Qeynos can always use talented artisans within the walls of our great city.  I can help you get started and offer you some of the basic recipes at no charge.  Would you be interested?",
-        "There, you now have the basic recipes and the knowledge to begin crafting.  Everything else you need to get yourself started can be found right here."
-      ]
+        "There, you now have the basic recipes and the knowledge to begin crafting.  Everything else you need to get yourself started can be found right here.",
+        "You have learned everything I have to teach at the moment.  You are free to use our crafting facilities to hone your skills."
+      ],
+      "store_template": "crafting_trainer"
     },
     {
       "name": "Rainwander",
@@ -723,8 +725,10 @@
         "856.3,-20.91,-642.76"
       ],
       "utterances": [
-        "Welcome! What can I help you with?"
-      ]
+        "Welcome! What can I help you with?",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
+      ],
+      "store_template": "bowyer_origins"
     },
     {
       "name": "Zanhass Mossclean",

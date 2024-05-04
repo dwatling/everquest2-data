@@ -1519,6 +1519,98 @@
       }
     ]
   },
+  "bowyer_origins": {
+    "store": [
+      {
+        "gamelink": "\\aITEM -791146325 -322026468 0 0 0:elm long bow\\/a",
+        "prices": [
+          {
+            "coin": 168
+          }
+        ]
+      },
+      {
+        "gamelink": "\\aITEM 1039560617 538023942 0 0 0:elm short bow\\/a",
+        "prices": [
+          {
+            "coin": 168
+          }
+        ]
+      },
+      {
+        "gamelink": "\\aITEM -970903917 -1167123160 0 0 0:rawhide leather bandolier\\/a",
+        "prices": [
+          {
+            "coin": 168
+          }
+        ]
+      },
+      {
+        "gamelink": "\\aITEM 1534683510 901412362 0 0 0:rawhide leather pouch\\/a",
+        "prices": [
+          {
+            "coin": 168
+          }
+        ]
+      },
+      {
+        "gamelink": "\\aITEM 654818361 696642037 0 0 0:rawhide leather satchel\\/a",
+        "prices": [
+          {
+            "coin": 168
+          }
+        ]
+      },
+      {
+        "gamelink": "\\aITEM 2064266264 584567312 0 0 0:rawhide leather sheath\\/a",
+        "prices": [
+          {
+            "coin": 168
+          }
+        ]
+      },
+      {
+        "gamelink": "\\aITEM 25756897 -1188173387 0 0 0:tin arrow\\/a",
+        "prices": [
+          {
+            "coin": 1
+          }
+        ]
+      },
+      {
+        "gamelink": "\\aITEM -1358731725 930572575 0 0 0:tin shuriken\\/a",
+        "prices": [
+          {
+            "coin": 1
+          }
+        ]
+      },
+      {
+        "gamelink": "\\aITEM -1854463233 -166436342 0 0 0:tin throwing axe\\/a",
+        "prices": [
+          {
+            "coin": 1
+          }
+        ]
+      },
+      {
+        "gamelink": "\\aITEM -1419351969 1017882340 0 0 0:tin throwing dagger\\/a",
+        "prices": [
+          {
+            "coin": 1
+          }
+        ]
+      },
+      {
+        "gamelink": "\\aITEM -1097937514 692257581 0 0 0:tin throwing hammer\\/a",
+        "prices": [
+          {
+            "coin": 1
+          }
+        ]
+      }
+    ]
+  },
   "bowyer": {
     "store": [
       {
@@ -3465,6 +3557,7 @@
     "store": [
       {
         "gamelink": "\\aITEM 478969384 -1831629606 0 0 0:Advanced Artisan Volume 1\\/a",
+        "tags": "tle,live",
         "prices": [
           {
             "coin": 120
@@ -3473,6 +3566,7 @@
       },
       {
         "gamelink": "\\aITEM -2054869102 -320107550 0 0 0:Advanced Artisan Volume 2\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120
@@ -3481,6 +3575,7 @@
       },
       {
         "gamelink": "\\aITEM -226353404 -613347134 0 0 0:Advanced Artisan Volume 3\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120
@@ -3489,6 +3584,7 @@
       },
       {
         "gamelink": "\\aITEM 1827048103 491037174 0 0 0:Advanced Artisan Volume 4\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120
@@ -3497,6 +3593,7 @@
       },
       {
         "gamelink": "\\aITEM 467778097 -1816397780 0 0 0:Advanced Artisan Volume 5\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120
@@ -3505,6 +3602,7 @@
       },
       {
         "gamelink": "\\aITEM -2098664565 1352585561 0 0 0:Advanced Artisan Volume 6\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120
@@ -3513,6 +3611,7 @@
       },
       {
         "gamelink": "\\aITEM -168830179 1524520644 0 0 0:Advanced Artisan Volume 7\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120
@@ -3521,6 +3620,7 @@
       },
       {
         "gamelink": "\\aITEM 1699792524 -860771267 0 0 0:Advanced Artisan Volume 8\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120
@@ -3529,6 +3629,7 @@
       },
       {
         "gamelink": "\\aITEM 307754522 75111576 0 0 0:Advanced Artisan Volume 9\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120
@@ -3537,6 +3638,7 @@
       },
       {
         "gamelink": "\\aITEM 1911116894 1730016133 0 0 0:artisan essentials volume 1\\/a",
+        "tags": "tle,live",
         "prices": [
           {
             "coin": 120
@@ -3545,6 +3647,7 @@
       },
       {
         "gamelink": "\\aITEM -1407153616 -493180725 0 0 0:artisan essentials volume 2\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120
@@ -3553,6 +3656,7 @@
       },
       {
         "gamelink": "\\aITEM -1211204294 -1537176998 0 0 0:artisan essentials volume 3\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120
@@ -3561,6 +3665,7 @@
       },
       {
         "gamelink": "\\aITEM 1134949937 806500766 0 0 0:artisan essentials volume 4\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120
@@ -3569,6 +3674,7 @@
       },
       {
         "gamelink": "\\aITEM 541608783 -1943057601 0 0 0:artisan essentials volume 5\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120
@@ -3577,6 +3683,7 @@
       },
       {
         "gamelink": "\\aITEM -627330932 1830577290 0 0 0:artisan essentials volume 6\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120
@@ -3585,6 +3692,7 @@
       },
       {
         "gamelink": "\\aITEM -897612639 -584006509 0 0 0:artisan essentials volume 7\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120
@@ -3593,6 +3701,7 @@
       },
       {
         "gamelink": "\\aITEM -1353595938 1152854445 0 0 0:artisan essentials volume 8\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120
@@ -3601,6 +3710,7 @@
       },
       {
         "gamelink": "\\aITEM -358211946 -813467030 0 0 0:artisan essentials volume 9\\/a",
+        "tags": "tle,live,origins",
         "prices": [
           {
             "coin": 120

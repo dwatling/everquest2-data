@@ -4,16 +4,88 @@
   "region": "Karan",
   "zonerect": "-1004.46,-588.61,-428.61,-152.51",
   "type": "city",
-  "tags": "origins",
   "connections": [
     {
       "key": "qey_village05"
     },
     {
       "key": "qey_village06"
+    },
+    {
+      "key": "qey_harbor"
     }
   ],
   "npcs": [
+    {
+      "name": "Adrianna",
+      "name_sortable": "adrianna",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "709.67,-17.06,-311.36"
+      ],
+      "utterances": [
+        "Hello there!  Can I interest you in any wares for your travels?"
+      ],
+      "store_template": "provisioner_origins"
+    },
+    {
+      "name": "Aerinleaf",
+      "name_sortable": "aerinleaf",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Broker",
+      "locations": [
+        "707.22,-17.06,-316.96"
+      ],
+      "utterances": [
+        "Don't worry, friend, if it's not on our lists then the goods do not exist."
+      ]
+    },
+    {
+      "name": "Breeno Messpie",
+      "name_sortable": "breenomesspie",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "554.0,-16.98,-412.85"
+      ],
+      "utterances": [
+        "Welcome to the city, adventurer. Be mindful of the peace and quiet.  Here in Qeynos, we value our privacy.",
+        "Ahhhhh, that's what I love about Qeynos.  So many bakeries and so many pies!",
+        "Nostalgia isn't what it used to be.",
+        "I just need enough to tide me over until I need more."
+      ]
+    },
+    {
+      "name": "Bryson",
+      "name_sortable": "bryson",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "565.54,-17.66,-418.55"
+      ],
+      "utterances": [
+        "Now, if you hope to be as fine an archer as me, you should be off practicing instead of talking to me!"
+      ]
+    },
     {
       "name": "Delma Messpie",
       "name_sortable": "delmamesspie",
@@ -32,6 +104,42 @@
         "Do you like muffins?  Muffins are my favorite, I eat them every chance I get.",
         "If a thing isn't worth saying, you sing it."
       ]
+    },
+    {
+      "name": "Duvo",
+      "name_sortable": "duvo",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Alchemist",
+      "locations": [
+        "654.55,10.91,-390.96"
+      ],
+      "utterances": [
+        "I'm sorry. I cannot help you."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 331790605 -1707704134 0 0 0:odyssey stone\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -182855303 1967098650 0 0 0:softly glowing pearl\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        }
+      ],
+      "store_template": "alchemst_origins"
     },
     {
       "name": "Elendia Starleaf",
@@ -142,7 +250,8 @@
         "female"
       ],
       "locations": [
-        "787.12,-22.64,-513.31"
+        "787.12,-22.64,-513.31",
+        "710.53,-17.06,-318.92"
       ],
       "utterances": [
         "Hail, it is encouraging to see bright faces such as yours arrive in the everlasting city of Qeynos.",
@@ -161,10 +270,10 @@
       "gender": [
         "male"
       ],
+      "purpose": "Swashbuckler Trainer",
       "locations": [
         "667.68,12.19,-375.38"
       ],
-      "purpose": "Swashbuckler Trainer",
       "utterances": [
         "Well, well, what have we here?"
       ]
@@ -199,6 +308,22 @@
       ],
       "utterances": [
         "May your path always be clear."
+      ]
+    },
+    {
+      "name": "Gregor Earthstride",
+      "name_sortable": "gregorearthstride",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "576.74,-18.16,-408.59"
+      ],
+      "utterances": [
+        "I can't ever seem to find the arrows I need! Nightbow's shop here is good, but it's a bit pricey."
       ]
     },
     {
@@ -260,6 +385,82 @@
       ]
     },
     {
+      "name": "Junala",
+      "name_sortable": "junala",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "624.29,-14.84,-346.27"
+      ],
+      "utterances": [
+        "I don't spend as much time grooming as the others say I do.",
+        "I don't care what they say I have a lovely singing voice."
+      ]
+    },
+    {
+      "name": "Kaelarri Ivyshae",
+      "name_sortable": "kaelarriivyshae",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "706.62,-16.04,-377.02",
+        "666.56,-19.6,-273.8"
+      ],
+      "utterances": [
+        "As with all relationships in life sometimes desire can lead to misfortune.  I strive to temper love and discipline.",
+        "So much blood and so many lost.  I never believed it would end this way.",
+        "I never thought it would be so difficult to carry on.  I have no songs left in my heart.",
+        "The forces of good are all wrought from the strength of the innocent."
+      ]
+    },
+    {
+      "name": "Kaemon",
+      "name_sortable": "kaemon",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "773.32,-21.09,-338.74",
+        "683.14,-16.8,-258.82"
+      ],
+      "utterances": [
+        "Will you quit pestering me?  Don't force me to summon the guards!",
+        "Ah, what have we here? Glad to see you endured the journey here, adventurer.",
+        "As a citizen of the mighty city, Qeynos, I greet you openly.",
+        "Greetings visitor, I'm glad to meet you.",
+        "Well met, friend.  It's good to make your acquaintance!"
+      ]
+    },
+    {
+      "name": "Kaylelle Starchaser",
+      "name_sortable": "kaylellestarchaser",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "576.47,-18.16,-411.79"
+      ],
+      "utterances": [
+        "Nice piercing.  I'm getting another one later today.",
+        "Good to have someone like you around to watch my back.",
+        "You talk to strangers?  What's the purpose of that?"
+      ]
+    },
+    {
       "name": "Kethelrune",
       "name_sortable": "kethelrune",
       "race": [
@@ -298,6 +499,23 @@
       ]
     },
     {
+      "name": "Lieoonlioo Croosinian",
+      "name_sortable": "lieoonlioocroosinian",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Troubador Trainer",
+      "locations": [
+        "659.39,10.91,-393.11"
+      ],
+      "utterances": [
+        "Well met, <player name>.  What brings you to the Elddar Grove this fine day?"
+      ]
+    },
+    {
       "name": "Lookout Venylle",
       "name_sortable": "lookoutvenylle",
       "race": [
@@ -316,6 +534,63 @@
       ]
     },
     {
+      "name": "Madrethal Summerspeak",
+      "name_sortable": "madrethalsummerspeak",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "570.82,-20.22,-372.57"
+      ],
+      "utterances": [
+        "Don't let the nice day fool you.  My knee is acting up, a storm is brewing.  I can smell it.",
+        "Death, rebirth, and entropy are all a part of the cycle.  Without balance there can be no peace.",
+        "We must remain steadfast and vigilant against tyranny.  This will allow nature to shape Norrath around us.   ",
+        "Patience they say, is a virtue.  It has taken a lot of patience to rebuild our lives so far from home.",
+        "The Elddar Grove is truly a marvel in these troubled times.  "
+      ]
+    },
+    {
+      "name": "Master Archer Nightbow",
+      "name_sortable": "masterarchernightbow",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Bowyer",
+      "locations": [
+        "572.99,-18.16,-409.79"
+      ],
+      "utterances": [
+        "Welcome! What can I help you with?",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "What is it you need, traveler?"
+      ],
+      "store_template": "bowyer_origins"
+    },
+    {
+      "name": "Master Rysian Gladewalker",
+      "name_sortable": "masterrysiangladewalker",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "670.01,10.92,-391.27"
+      ],
+      "utterances": [
+        "Well met, friend!  Do you have business with our guild?"
+      ]
+    },
+    {
       "name": "Mina",
       "name_sortable": "mina",
       "race": [
@@ -325,7 +600,8 @@
         "female"
       ],
       "locations": [
-        "713.0,-20.61,-449.47"
+        "713.0,-20.61,-449.47",
+        "536.9,-17.48,-384.46"
       ],
       "utterances": [
         "Welcome to Qeynos, traveler, know that you are among allies.",
@@ -333,6 +609,23 @@
         "Hello there, friend, I hope the day finds you well.",
         "Greetings traveler and welcome to our village. Be sure to help us keep it tidy.",
         "Hello and welcome to the city.  Everything you need can be found here in Qeynos.  "
+      ]
+    },
+    {
+      "name": "Mirthmire",
+      "name_sortable": "mirthmire",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "City Merchant",
+      "locations": [
+        "713.76,-17.06,-321.97"
+      ],
+      "utterances": [
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
       ]
     },
     {
@@ -352,6 +645,24 @@
       ]
     },
     {
+      "name": "Nalon Messpie",
+      "name_sortable": "nalonmesspie",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "554.2,-16.98,-414.58"
+      ],
+      "utterances": [
+        "So, do you look at a tankard and consider it half full?  Or half empty?",
+        "I'm sure we've met someplace before, you look so familiar!",
+        "A good joke deserves a good audience, I always say!"
+      ]
+    },
+    {
       "name": "Naturalist Tummyfill",
       "name_sortable": "naturalisttummyfill",
       "race": [
@@ -360,10 +671,10 @@
       "gender": [
         "male"
       ],
+      "purpose": "Tunarian Alliance Grove Warden",
       "locations": [
         "670.07,10.93,-382.76"
       ],
-      "purpose": "Tunarian Alliance Grove Warden",
       "utterances": [
         "Nothing on Norrath can replicate the natural creations that are right in front of us."
       ]
@@ -380,6 +691,39 @@
       "purpose": "Tunarian Alliance Grove Warden",
       "locations": [
         "654.5,-10.16,-375.86"
+      ]
+    },
+    {
+      "name": "Pelle Shinkicker",
+      "name_sortable": "pelleshinkicker",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "763.38,-19.1,-335.63"
+      ],
+      "utterances": [
+        "Shoo shoo!  I'm too busy to speak with you now!"
+      ]
+    },
+    {
+      "name": "Preservationist Reynolds",
+      "name_sortable": "preservationistreynolds",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Tunarian Alliance Grove Warden",
+      "locations": [
+        "671.73,10.92,-388.18"
+      ],
+      "utterances": [
+        "I haven't heard anything from the last scout party.  They're a tough bunch. I hope they're all right."
       ]
     },
     {
@@ -417,6 +761,40 @@
       ]
     },
     {
+      "name": "Shakan Notebend",
+      "name_sortable": "shakannotebend",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Dirge Trainer",
+      "locations": [
+        "666.51,10.92,-388.27"
+      ],
+      "utterances": [
+        "Well met, <player name>.  What brings you to the Elddar Grove this fine day?"
+      ]
+    },
+    {
+      "name": "Shepherd Sell`ar",
+      "name_sortable": "shepherdsellar",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Tunarian Alliance Grove Warden",
+      "locations": [
+        "652.19,10.91,-388.15"
+      ],
+      "utterances": [
+        "Keep your eyes on the horizon, my friend.  Only through vigilance and defense can we keep Qeynos safe."
+      ]
+    },
+    {
       "name": "Solomen Stormwatch",
       "name_sortable": "solomenstormwatch",
       "race": [
@@ -433,6 +811,26 @@
         "To be among the highest leaves and branches of a tree is to feel free.",
         "The blessing of Tunare is the highest blessing of all.",
         "Is there no place on your body left unpierced? Nay, do not answer -- I'm afraid to know!"
+      ]
+    },
+    {
+      "name": "Steelguard",
+      "name_sortable": "steelguard",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Mender",
+      "locations": [
+        "716.23,-17.06,-310.08"
+      ],
+      "utterances": [
+        "Hello there, my fine adventurer.  Just give me that armor right quick and I'll hammer it up good as new!",
+        "Hello, adventurer.  Looking to get some items repaired after a hard day of dragon slaying?",
+        "Welcome! Is there anything I can help you with or are you looking to find an apprenticeship?",
+        "Greetings there, have something that you think needs a bit of repair?"
       ]
     },
     {
@@ -468,6 +866,41 @@
         "I just got a shipment in from the Far Sea's Trading Company.  I don't just show anybody this stuff so, shhhh!  "
       ],
       "store_template": "general_goods_origins"
+    },
+    {
+      "name": "Telandra",
+      "name_sortable": "telandra",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "567.89,-17.94,-416.67"
+      ],
+      "utterances": [
+        "Let us meet later for a goblet of wine!  I'm sure you have great tales to tell.",
+        "I don't understand the need for piercings, but they look fine on you.",
+        "The blessing of Tunare is the highest blessing of all.",
+        "To be among the highest leaves and branches of a tree is to feel free."
+      ]
+    },
+    {
+      "name": "Thomas Boatmend",
+      "name_sortable": "thomasboatmend",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "711.18,-17.1,-279.85"
+      ],
+      "utterances": [
+        "I have nothing to say to you right now."
+      ]
     },
     {
       "name": "Towser Flizgibbert",
@@ -516,7 +949,8 @@
         "653.21,10.93,-380.24"
       ],
       "utterances": [
-        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
       ],
       "store": [
         {
@@ -810,6 +1244,39 @@
       ],
       "utterances": [
         "Keep your eyes on the horizon, my friend.  Only through vigilance and defense can we keep Qeynos safe."
+      ]
+    },
+    {
+      "name": "Warble Wildmane",
+      "name_sortable": "warblewildmane",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "751.94,-16.19,-299.59"
+      ],
+      "utterances": [
+        "Shh!  Old Treebark's talking!",
+        "Goodbye!"
+      ]
+    },
+    {
+      "name": "Wesaelan Brookshadow",
+      "name_sortable": "wesaelanbrookshadow",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "661.21,10.91,-392.87"
+      ],
+      "utterances": [
+        "Hail traveler!  All friends of the Elddar are welcome."
       ]
     }
   ]

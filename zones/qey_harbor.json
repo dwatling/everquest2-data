@@ -1,0 +1,820 @@
+{
+  "name": "Qeynos Harbor",
+  "name_sortable": "qeynosharbor",
+  "region": "Karan",
+  "zonerect": "-1044.11,-155.04,-585.95,-188.59",
+  "type": "city",
+  "connections": [
+    {
+      "key": "qey_elddar"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Aeris Lightwind",
+      "name_sortable": "aerislightwind",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "924.63,-25.53,30.93"
+      ],
+      "utterances": [
+        "Look around? Freshest catch on the docks."
+      ],
+      "store_template": "provisioner_origins"
+    },
+    {
+      "name": "Alexander Kerr",
+      "name_sortable": "alexanderkerr",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bowyer",
+      "locations": [
+        "722.21,-20.64,-6.6"
+      ],
+      "utterances": [
+        "You can never be too careful when it comes to protection.  Here try on one of these.",
+        "I have some nice new suits of chain that have stood up very well.  Would you like to see them?",
+        "Well, that suit is looking a might worn.  Can I interest you in a new suit of fine armor? "
+      ],
+      "store_template": "bowyer_origins"
+    },
+    {
+      "name": "Aliindar",
+      "name_sortable": "aliindar",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Broker",
+      "locations": [
+        "862.5,-25.37,102.98"
+      ],
+      "utterances": [
+        "Welcome, friend! The wares of an entire city are at your fingertips. So please make your selection."
+      ]
+    },
+    {
+      "name": "Alissa Cleeway",
+      "name_sortable": "alissacleeway",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "914.22,-25.49,61.92"
+      ],
+      "utterances": [
+        "Browse the docks all you want, I guarantee you won't find better fish than mine."
+      ],
+      "store_template": "general_goods_origins"
+    },
+    {
+      "name": "Ashilda MacHinry",
+      "name_sortable": "ashildamachinry",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "949.92,-25.5,35.74"
+      ],
+      "utterances": [
+        "I fear no man or beast."
+      ]
+    },
+    {
+      "name": "Barmaid Ceilia Abbot",
+      "name_sortable": "barmaidceiliaabbot",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "810.82,-17.27,48.63"
+      ],
+      "store_template": "provisioner_origins"
+    },
+    {
+      "name": "Birney Abbot",
+      "name_sortable": "birneyabbot",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "804.63,-23.77,54.71"
+      ],
+      "utterances": [
+        "What can I get for ya?"
+      ],
+      "store_template": "bartender_origins"
+    },
+    {
+      "name": "Borden Mannus",
+      "name_sortable": "bordenmannus",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "936.53,-19.55,10.56"
+      ],
+      "utterances": [
+        "Listen here,  this ain't no public brew hall! The Mermaid's Lure is for Marauders only. "
+      ],
+      "store_template": "bartender_origins"
+    },
+    {
+      "name": "Boulden Smitestone",
+      "name_sortable": "bouldensmitestone",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "936.37,-25.53,29.92"
+      ],
+      "utterances": [
+        "We can't take any chances that the Rallosian Empire will rebuild itself.  Who will heed my call!?",
+        "I'm sorry, but you look a bit green for something as momentous as this.  Come and talk to me after you've sunk your teeth into some real adventure.",
+        "Now is the time we must band together and find what's left of the Feerrott!"
+      ]
+    },
+    {
+      "name": "Carpenter Paddock",
+      "name_sortable": "carpenterpaddock",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "937.72,-25.27,98.22"
+      ],
+      "utterances": [
+        "We're running low on wood, but I don't want to mention it to Overseer Scarbourough until he calms down.",
+        "I'm very busy! I must get more wood! ",
+        "I'm very busy! Sorry, I've no time to talk!"
+      ]
+    },
+    {
+      "name": "Erwin Rohand",
+      "name_sortable": "erwinrohand",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "938.88,-25.55,8.6"
+      ],
+      "utterances": [
+        "She's still out there, I can feel it.  When I have enough money, I am heading out to sea to find my one true love. Won't you help me, friend? Just a small purchase?"
+      ],
+      "store_template": "provisioner_origins"
+    },
+    {
+      "name": "Gael Pinewhisper",
+      "name_sortable": "gaelpinewhisper",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bowyer",
+      "locations": [
+        "866.61,-25.29,-52.01"
+      ],
+      "utterances": [
+        "Welcome! What can I help you with?"
+      ],
+      "store_template": "bowyer_origins"
+    },
+    {
+      "name": "Grisvane Stonearm",
+      "name_sortable": "grisvanestonearm",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Banker",
+      "locations": [
+        "677.55,-19.42,-43.46"
+      ],
+      "utterances": [
+        "Hello there.  I'll take care of your coin and goods if they need safekeeping."
+      ]
+    },
+    {
+      "name": "Harbormaster Crestbreak",
+      "name_sortable": "harbormastercrestbreak",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "962.21,-25.47,7.46"
+      ],
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1912235001 1286872394 0 0 0:Nektulos Forest ticket\\/a",
+          "prices": [
+            {
+              "coin": 6000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2035622395 1287169655 0 0 0:Thundering Steppes ticket\\/a",
+          "prices": [
+            {
+              "coin": 6000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Harron Griswald",
+      "name_sortable": "harrongriswald",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "947.77,-25.55,7.81"
+      ],
+      "utterances": [
+        "If you're looking for the bar, it's upstairs. Be careful of the Coldwind Marauders ... they really enjoy their drink."
+      ],
+      "store_template": "general_goods_origins"
+    },
+    {
+      "name": "Heather Atherton",
+      "name_sortable": "heatheratherton",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "tailor",
+      "locations": [
+        "736.59,-20.73,-71.93"
+      ],
+      "utterances": [
+        "Welcome to my humble shop.  We have quite a selection of weapons to choose from.  See for yourself...",
+        "Is there something you need to have custom made?  I can see if I can get one of my lads to look into it!",
+        "Never go into battle without a tried and trusted weapon. Take a look at what we have in stock."
+      ],
+      "store_template": "tailor_origins"
+    },
+    {
+      "name": "Ian Cathlan",
+      "name_sortable": "iancathlan",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "795.63,-20.64,-31.9"
+      ],
+      "utterances": [
+        "I'm sorry. I don't know who ye are.  If ye'd be so kind as ta leave me to my business, I'd appreciate it.  Good day ta ye."
+      ]
+    },
+    {
+      "name": "Innkeeper Galsway",
+      "name_sortable": "innkeepergalsway",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "817.67,-23.27,52.18"
+      ],
+      "utterances": [
+        "What is it you need, traveler? If it's reasonable rates, fine food and ale you desire, you've come to the right inn."
+      ],
+      "store_template": "general_goods_origins"
+    },
+    {
+      "name": "Jarek O'Kelly",
+      "name_sortable": "jarekokelly",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Armorsmith",
+      "locations": [
+        "718.68,-20.63,-83.97"
+      ],
+      "utterances": [
+        "I just got a shipment in from the Far Sea's Trading Company.  I don't just show anybody this stuff so, shhhh!  ",
+        "Never go into battle without a tried and trusted weapon. Take a look at what we have in stock.",
+        "Is there something you need to have custom made?  I can see if I can get one of my lads to look into it!"
+      ],
+      "store_template": "armorsmith_origins"
+    },
+    {
+      "name": "Keigwyn Macinshire",
+      "name_sortable": "keigwynmacinshire",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "815.83,-17.27,52.19"
+      ],
+      "utterances": [
+        "You talk to strangers?  What's the purpose of that?"
+      ]
+    },
+    {
+      "name": "Kizmit",
+      "name_sortable": "kizmit",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Banker",
+      "locations": [
+        "682.89,-19.41,-39.64"
+      ],
+      "utterances": [
+        "Welcome to the bank, citizen. How can I assist you?"
+      ]
+    },
+    {
+      "name": "Madam Istynia",
+      "name_sortable": "madamistynia",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Alchemist",
+      "locations": [
+        "794.04,-23.26,95.94"
+      ],
+      "utterances": [
+        "Blast it! Who keeps taking all of the parchment?  ",
+        "Ah, a student of the arcane.  Is there something I can help you find?"
+      ]
+    },
+    {
+      "name": "Marius Ironflint",
+      "name_sortable": "mariusironflint",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Ian's Assistant",
+      "locations": [
+        "800.11,-20.64,-28.73"
+      ],
+      "utterances": [
+        "Good day to you citizen.  If you've got any of that armor from ol' Ian here, I'd be happy to offer ya some of the newer stuff."
+      ]
+    },
+    {
+      "name": "Mary Dillon",
+      "name_sortable": "marydillon",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "801.44,-23.77,60.49"
+      ],
+      "utterances": [
+        "Just leave me alone. Please!",
+        "What?"
+      ]
+    },
+    {
+      "name": "Minda Broadfeet",
+      "name_sortable": "mindabroadfeet",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "763.17,-21.05,-7.32"
+      ],
+      "utterances": [
+        "I have some nice new suits of chain that have stood up very well.  Would you like to see them?",
+        "You can never be too careful when it comes to protection.  Here try on one of these."
+      ],
+      "store_template": "general_goods_origins"
+    },
+    {
+      "name": "Nelis Greenpocket",
+      "name_sortable": "nelisgreenpocket",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Tailor",
+      "locations": [
+        "915.36,-25.43,12.06"
+      ],
+      "utterances": [
+        "Welcome! What can I help you with?"
+      ],
+      "store_template": "tailor_origins"
+    },
+    {
+      "name": "Phen Domlinson",
+      "name_sortable": "phendomlinson",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bowyer",
+      "locations": [
+        "884.67,-25.43,55.43"
+      ],
+      "utterances": [
+        "Fresh supplies every week! Step up and see for yourself."
+      ],
+      "store_template": "bowyer"
+    },
+    {
+      "name": "Portis Bonham",
+      "name_sortable": "portisbonham",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "825.19,-23.56,32.33"
+      ],
+      "utterances": [
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ],
+      "store_template": "provisioner_origins"
+    },
+    {
+      "name": "Praxum",
+      "name_sortable": "praxum",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Mender",
+      "locations": [
+        "672.32,-20.66,8.73"
+      ],
+      "utterances": [
+        "Hello there, my fine adventurer.  Just give me that armor right quick and I'll hammer it up good as new!",
+        "Greetings there, have something that you think needs a bit of repair?"
+      ]
+    },
+    {
+      "name": "Rabbleson",
+      "name_sortable": "rabbleson",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "City Merchant",
+      "locations": [
+        "899.91,-25.37,53.7"
+      ],
+      "utterances": [
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
+      ]
+    },
+    {
+      "name": "Renee Atherton",
+      "name_sortable": "reneeatherton",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "769.4,-20.66,-33.61"
+      ],
+      "utterances": [
+        "You can never be too careful when it comes to protection.  Here try on one of these."
+      ],
+      "store_template": "bartender_origins"
+    },
+    {
+      "name": "Robert Newbury",
+      "name_sortable": "robertnewbury",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Banker",
+      "locations": [
+        "677.89,-19.43,-49.39"
+      ],
+      "utterances": [
+        "I'll take care of your coin and goods if they need safekeeping."
+      ]
+    },
+    {
+      "name": "a Safar of Maj'dul",
+      "name_sortable": "safarofmajdul",
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "925.8,-25.5,38.48"
+      ]
+    },
+    {
+      "name": "Sean Wellfayer",
+      "name_sortable": "seanwellfayer",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "996.36,-25.09,14.26"
+      ],
+      "utterances": [
+        "Please, try your luck. I've been fishing here since I was a small boy, and I still have great luck hooking fish.",
+        "If fishing doesn't interest you, perhaps bait does!"
+      ]
+    },
+    {
+      "name": "Shanda Tierbold",
+      "name_sortable": "shandatierbold",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "951.55,-19.55,10.64"
+      ],
+      "utterances": [
+        "Stop right there! No one goes through this door without explicit permission."
+      ]
+    },
+    {
+      "name": "Sir Aidan Godard",
+      "name_sortable": "siraidangodard",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "687.75,-20.89,3.28"
+      ],
+      "utterances": [
+        "Before you stands the Hall of Steel.  Within these walls is the birthplace of the Steel Warriors, the greatest fighters in all of Norrath."
+      ]
+    },
+    {
+      "name": "Smith Holgren",
+      "name_sortable": "smithholgren",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Weaponsmith",
+      "locations": [
+        "683.51,-20.66,26.21"
+      ],
+      "utterances": [
+        "Never go into battle without a tried and trusted weapon. Take a look at what we have in stock."
+      ],
+      "store_template": "weaponsmith_origins"
+    },
+    {
+      "name": "Squire Moorford",
+      "name_sortable": "squiremoorford",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Qeynos Guard",
+      "locations": [
+        "974.4,-25.52,21.99"
+      ],
+      "utterances": [
+        "Hello!  How can I help you? It's my proud duty to help keep this harbor safe!"
+      ]
+    },
+    {
+      "name": "Tabatha Cantra",
+      "name_sortable": "tabathacantra",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Arcane Transcription",
+      "locations": [
+        "799.46,-23.26,101.43"
+      ],
+      "utterances": [
+        "Greetings Citizen.  Are you in need of my transcription services?"
+      ]
+    },
+    {
+      "name": "Tala McMorgan",
+      "name_sortable": "talamcmorgan",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Shieldsmith",
+      "locations": [
+        "796.96,-20.75,-46.15"
+      ],
+      "utterances": [
+        "You can never be too careful when it comes to protection.  Here try on one of these."
+      ],
+      "store_template": "shieldsmith_origins"
+    },
+    {
+      "name": "Thomas Bodley",
+      "name_sortable": "thomasbodley",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "747.34,-20.95,-69.03"
+      ],
+      "utterances": [
+        "Coin is no object when gaining protection from your enemies.  What price can be put on your safety? ",
+        "Well, that suit is looking a might worn.  Can I interest you in a new suit of fine armor? ",
+        "I have some nice new suits of chain that have stood up very well.  Would you like to see them?"
+      ],
+      "store_template": "general_goods_origins"
+    },
+    {
+      "name": "Umli Grayfist",
+      "name_sortable": "umligrayfist",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "923.18,-25.49,44.05"
+      ],
+      "utterances": [
+        "Have I got a bargain for you!  Come now, step up, I don't bite.  Check my goods and see if we can't make a whale of a deal! Ha ha ha ha ...Whale of a deal, get it?"
+      ],
+      "store_template": "bartender_origins"
+    },
+    {
+      "name": "Vernon Tinworthy",
+      "name_sortable": "vernontinworthy",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bar Patron",
+      "locations": [
+        "807.62,-13.93,44.39"
+      ],
+      "utterances": [
+        "What do you want?"
+      ]
+    },
+    {
+      "name": "Zara",
+      "name_sortable": "zara",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Alchemist Assistant",
+      "locations": [
+        "794.67,-23.26,107.55"
+      ],
+      "utterances": [
+        "Ah, a student of the arcane.  Is there something I can help you find?",
+        "Blast it! Who keeps taking all of the parchment?  ",
+        "All right where is my pen?  How am I supposed to scribe anything without my pen?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 331790605 -1707704134 0 0 0:odyssey stone\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -182855303 1967098650 0 0 0:softly glowing pearl\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        }
+      ],
+      "store_template": "alchemist_origins"
+    }
+  ]
+}

@@ -71,6 +71,7 @@
       "gender": [
         "female"
       ],
+      "purpose": "Qeynos Guard",
       "locations": [
         "562.72,-26.6,412.69"
       ],
@@ -87,11 +88,62 @@
       "gender": [
         "male"
       ],
+      "purpose": "General Goods",
       "locations": [
         "759.96,-26.23,379.69"
       ],
       "utterances": [
         "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
+          "prices": [
+            {
+              "coin": 540
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2208995 -860442438 0 0 0:dried bread\\/a",
+          "prices": [
+            {
+              "coin": 7
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -101702825 -210262797 0 0 0:flask of murky water\\/a",
+          "prices": [
+            {
+              "coin": 7
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -426289183 -435115855 0 0 0:flask of pond water\\/a",
+          "prices": [
+            {
+              "coin": 29
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1347014509 -1543938383 0 0 0:plain bread\\/a",
+          "prices": [
+            {
+              "coin": 29
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1241081646 1636802182 0 0 0:rawhide leather rucksack\\/a",
+          "prices": [
+            {
+              "coin": 180
+            }
+          ]
+        }
       ]
     },
     {

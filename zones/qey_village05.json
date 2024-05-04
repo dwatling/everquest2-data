@@ -111,7 +111,15 @@
         "Nothing, really. I'm no teacher. I can only put you in situations that you may learn from. I can try to help guide you, of course, but most of the work will be yours.",
         "I would like you to speak with two people and help them in their day to day business. Please seek out Gar Smolten and Lia Serene. Pay close attention to how they treat you. Gar should be behind the inn, speak with him first. Lia should be near the entrance to the Elddar Grove.",
         "I'm glad to hear it. Return to me when you have spoken to them.",
-        "Have you talked with Gar and Lia yet?"
+        "Have you talked with Gar and Lia yet?",
+        "And how did it go?",
+        "How did Gar treat you?",
+        "And what of Lia?",
+        "It is unfortunate you were treated as such, but not surprising. But, and this is the sad part, there is a different reason I showed you this aspect of humans and elves. It is true we are oft-judged because of our race, but we tend to share that trait ourselves. ",
+        "Because we are both human and elf, as the two you just spoke with, we sometimes are stuck with the worst aspects of either race. In this case their subdued distrust of our race. When we share those negative aspects we tend to assume humans and elves will look down upon us, and we tend to see examples of this even when it's not true.",
+        "That depends on what your past interactions with other races has taught you--and I don't mean just humans and elves. I will tell you that for me it is very hard to deal with. For others it is a not an issue. Let me show you another thing we must deal with.",
+        "You will see. Go speak with Milo, he's probably in the scribe's shop. Ask him about Lyssia and hear what he has to say. Then, once you've talked with him, go speak with Lyssia. Speak with her of Milo and hear what she has to say.",
+        "Good. Return to me once this is done and we will speak of what you heard."
       ]
     },
     {
@@ -181,7 +189,8 @@
       "utterances": [
         "Is there no place on your body left unpierced? Nay, do not answer -- I'm afraid to know!",
         "Stop sniffing around my pockets, you!  Go back to the sewers and keep to yourselves.",
-        "When we recreate our ancestral home, why don't you come live there amongst the Feir'Dal?"
+        "When we recreate our ancestral home, why don't you come live there amongst the Feir'Dal?",
+        "The blessing of Tunare is the highest blessing of all."
       ]
     },
     {
@@ -226,7 +235,8 @@
       ],
       "utterances": [
         "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "Welcome! What can I help you with?"
       ],
       "store_template": "shieldsmith_origins"
     },
@@ -415,7 +425,10 @@
         "I am sorry. I did not mean to come off as such. Yes, I would appreciate your help. I just didn't think something like this would concern you.",
         "Very well. Please travel around the Willow Wood and check each bird nest to be sure they have not been upset in the recent storm. This isn't very hard, just check the ground in the area of each nest and verify that neither the nest nor any eggs have fallen. If any eggs are found that are not cracked collect them.",
         "Goodness, no. Your scent would only ensure their demise. Please bring the eggs back to me. I can care for them and may be able to get their mothers to accept them again.",
-        "It's just like an Ayr'Dal to ask a question like that. Um, no offense. I know where the birds of this village nest, and what their eggs look like. This is how I know where to look, and where to tell you where to look. Check under the north-east corner of the inn roof, north of that location check under the tree near the entrance to the docks, then check under the tree just down the path from the entrance to the Forest Ruins, which is in the south-western area of the village."
+        "It's just like an Ayr'Dal to ask a question like that. Um, no offense. I know where the birds of this village nest, and what their eggs look like. This is how I know where to look, and where to tell you where to look. Check under the north-east corner of the inn roof, north of that location check under the tree near the entrance to the docks, then check under the tree just down the path from the entrance to the Forest Ruins, which is in the south-western area of the village.",
+        "Did you find any eggs?",
+        "I'm relieved. It looks like you handled these with great care. I believe we can save all of them, thank you.",
+        "Thank you again for your help, Ayr'Dal."
       ]
     },
     {
@@ -570,6 +583,22 @@
       ]
     },
     {
+      "name": "a shining nibbler",
+      "name_sortable": "shiningnibbler",
+      "level": 3,
+      "locations": [
+        "821.91,-22.72,-784.59",
+        "838.34,-25.59,-791.14",
+        "828.83,-25.38,-791.83"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1302044914 -23402794:a fish meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "Taval Zane",
       "name_sortable": "tavalzane",
       "race": [
@@ -629,7 +658,8 @@
         "816.85,-21.25,-638.97"
       ],
       "utterances": [
-        "Welcome to my humble shop.  We have quite a selection of weapons to choose from.  See for yourself..."
+        "Welcome to my humble shop.  We have quite a selection of weapons to choose from.  See for yourself...",
+        "Never go into battle without a tried and trusted weapon. Take a look at what we have in stock."
       ],
       "store_template": "tailor_origins"
     },

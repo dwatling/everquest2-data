@@ -24,5 +24,586 @@
     }
   ],
   "npcs": [
+    {
+      "name": "Alamara Luthanyia",
+      "name_sortable": "alamaraluthanyia",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "776.41,-20.55,281.53"
+      ],
+      "utterances": [
+        "Mediating in the villages is so difficult.  I shall be an elder by the time I'm ready to begin my tutelage in the Arcanic Combat.",
+        "As my concentration is disrupted, I will give you the answers you seek.  Arcanic Combat is the use of magic in the combative arts. It is an age-old discipline passed down from the Ashen Order to the peoples of Freeport and Qeynos.  The monastery in the Elddar Grove is the primary keeper of this discipline.",
+        "During the Age of Turmoil, the Ashen Order was a society of monks dedicated to the perfection of combative discipline and grace.  They left the city of Freeport when Lucan D`Lere ascended to power.",
+        "The corruption of the city and imbalance of the world had disrupted their neutral and passive ways.  They retreated into perfect solitude.  Two centuries passed before they returned with the knowledge of Arcanic Combat.",
+        "They returned to aid the people of Freeport and Qeynos in the war against the Rallosian Empire.  If it had not been for them, the entire world would have fallen to the ruin of war.",
+        "I do not presume to know their motives, but I believe that their dedication to neutrality and balance spurred them to this decision.  They realized the irreversible devastation that would have occured, had the Rallosian armies been victorious.",
+        "When the Rallosian armies were defeated, the Ashen Order returned to their solitude.  We are not certain where they have retreated. Most people respect the privacy of the Order and leave them in peace. Should the Ashen Order wish to return to the affairs of the world, they shall.",
+        "Location of their monastery remains a secret.  Some believe that they exist beyond this world, but all is speculation.  The Ashen Order's secrets are their own.",
+        "The Ashen Order did not present the history of the discipline when they granted it to the people of the world.  I believe that this is their secret to covet and one that we must trust to their care.",
+        "If the Ashen Order had not descended upon the peoples of the world in their time of need, we would not be here.  Their motivations are those of neutrality and the maintenance of balance; they are neither villains nor heroes of this world.  Distrust of the Arcanic Combats in the modern world is unnecessary.  It would be wasteful not to use Arcanic Combative arts.",
+        "All modern combative disciplines are forms of Arcanic Combat.  The Ashen Order was remarkable in the adaptation of this art.  This art form allows the combatant to tap into arcane forces in order to strengthen their feats.  The usage of Arcanic Combat is no great mystery, nor is it a rarity in this modern world."
+      ]
+    },
+    {
+      "name": "Anevaya Starchaser",
+      "name_sortable": "anevayastarchaser",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "765.56,-20.38,242.8"
+      ],
+      "utterances": [
+        "Those who have neither the abilities nor the aspirations to pursue the intellectual arts will find a home at the Ironforge Exchange."
+      ]
+    },
+    {
+      "name": "Angelia Clayton",
+      "name_sortable": "angeliaclayton",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "727.25,-20.46,260.2"
+      ],
+      "utterances": [
+        "Hello to you!  If you enjoy my dancing please be sure to leave a tip on the counter!"
+      ]
+    },
+    {
+      "name": "Bermo",
+      "name_sortable": "bermo",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "721.4,-20.46,261.05"
+      ],
+      "utterances": [
+        "All manner of fermented beverages available here, all with my special Glowmyst juice added!",
+        "It's a special juice I squeeze from the glowmyst beetles and I'm running short on the stuff; my customers love it.  Hey, you're a stout one, would you mind squeezing me some?",
+        "You must go to the Oakymyst forest and harvest the beetles. I'll need at least a handful of the beetles -- their juice doesn't add to or take away from the flavor of my drinks, but it gives them a slight, radiant glow.",
+        "I must have my glowmyst! My customers won't settle for anything other than that glowing concoction!"
+      ],
+      "store_template": "bartender_origins"
+    },
+    {
+      "name": "Burt Everett",
+      "name_sortable": "burteverett",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Human Mentor",
+      "locations": [
+        "724.85,-20.4,326.58"
+      ],
+      "utterances": [
+        "I would give you something to do, but I have nothing to do myself!"
+      ]
+    },
+    {
+      "name": "Elliasenka Croosinaden",
+      "name_sortable": "elliasenkacroosinaden",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "726.08,-20.46,267.83"
+      ],
+      "utterances": [
+        "Unless you possess the knowledge we seek and will help us, I suggest you leave us with this human. Now, go, leave us to our business!"
+      ]
+    },
+    {
+      "name": "Erian Seaver",
+      "name_sortable": "erianseaver",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Crafting Trainer",
+      "locations": [
+        "790.59,-20.34,277.4"
+      ],
+      "utterances": [
+        "You have learned everything I have to teach at the moment.  You are free to use our crafting facilities to hone your skills."
+      ],
+      "store_template": "crafting_trainer_origins"
+    },
+    {
+      "name": "Farnsby Dunworth",
+      "name_sortable": "farnsbydunworth",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "723.07,-20.46,269.62"
+      ],
+      "utterances": [
+        "Hey, I don't know what they are talking about.  I've never seen such a scroll in my life!"
+      ]
+    },
+    {
+      "name": "Fawn Starstone",
+      "name_sortable": "fawnstarstone",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "789.3,-24.52,321.11"
+      ],
+      "utterances": [
+        "Welcome to the village!  I hope you find everything you need.  I wish I had!"
+      ]
+    },
+    {
+      "name": "Grekin",
+      "name_sortable": "grekin",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bowyer",
+      "locations": [
+        "797.99,-25.71,328.46"
+      ],
+      "utterances": [
+        "Sorry, friend. I don't think you can help me."
+      ],
+      "store_template": "bowyer_origins"
+    },
+    {
+      "name": "Innkeeper Jerben Sleepwell",
+      "name_sortable": "innkeeperjerbensleepwell",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Housing",
+      "locations": [
+        "735.07,-20.46,262.35"
+      ],
+      "utterances": [
+        "Hello there <player name>, what can I help you with?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1457739578 -655029930 0 0 0:a Qeynosian small wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 30
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -949197158 -767980191 0 0 0:a wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1579048607 -882452909 0 0 0:an antonican wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knight-Captain Santis",
+      "name_sortable": "knightcaptainsantis",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Qeynos Guard",
+      "locations": [
+        "754.02,-24.8,335.56",
+        "769.47,-25.81,352.19"
+      ],
+      "utterances": [
+        "Good day to you.  I've been hearing reports that the Peat Bog isn't safe right now.  I hope you didn't have any trouble if you came in that way.",
+        "The Bog Sludges have swelled in number, spreading like pestilence.  This vermin has become a serious menace to the refugees in that region.  The Sludges must be exterminated for the safety of the people.  I hope you're not too squeamish for such a job.  ",
+        "Excellent!  Go to the Peat Bog, slay several sludges and report back to me.  I will reward you for your service to Qeynos. "
+      ]
+    },
+    {
+      "name": "Luvile Binlee",
+      "name_sortable": "luvilebinlee",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "818.74,-20.4,268.88"
+      ],
+      "utterances": [
+        "I'm contemplating how this tree symbolizes a person's life ... We all come from a solid trunk grounded in history, and the tree branches represent the random choices we make in life..."
+      ]
+    },
+    {
+      "name": "Maareona Ludimintium",
+      "name_sortable": "maareonaludimintium",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Erudite Mentor",
+      "locations": [
+        "721.37,-20.25,317.23"
+      ],
+      "utterances": [
+        "I suppose I appreciate your interest in speaking with me, but I am here as a service to those of my own kind."
+      ]
+    },
+    {
+      "name": "Molly Daysun",
+      "name_sortable": "mollydaysun",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "775.66,-20.54,274.97"
+      ],
+      "utterances": [
+        "Stop, Kitty!  Come back here!"
+      ]
+    },
+    {
+      "name": "Ommanoden",
+      "name_sortable": "ommanoden",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Spell Scrolls",
+      "locations": [
+        "822.7,-20.45,285.13"
+      ],
+      "utterances": [
+        "Can't you see I'm busy organizing my collections of wisdom? I've no time for chatting. Leave me alone!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 128450204 1303912758 0 0 0:Erudian Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oolimeminoso Pindiliana",
+      "name_sortable": "oolimeminosopindiliana",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Alchemist",
+      "locations": [
+        "811.92,-20.45,300.13"
+      ],
+      "utterances": [
+        "Though one sees many things, the unseen are the hardest to find!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 331790605 -1707704134 0 0 0:odyssey stone\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -182855303 1967098650 0 0 0:softly glowing pearl\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        }
+      ],
+      "store_template": "alchemist_origins"
+    },
+    {
+      "name": "Oomitelmora",
+      "name_sortable": "oomitelmora",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "715.97,-20.35,299.66"
+      ],
+      "utterances": [
+        "'Tis not just the victory I enjoy. To see this one writhe in frustration is highly amusing."
+      ]
+    },
+    {
+      "name": "Orudormo",
+      "name_sortable": "orudormo",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Banker",
+      "locations": [
+        "735.02,-20.46,263.44"
+      ]
+    },
+    {
+      "name": "Philosopher Orrinalanya",
+      "name_sortable": "philosopherorrinalanya",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "767.42,-20.47,273.16"
+      ]
+    },
+    {
+      "name": "Proprietor Blagard",
+      "name_sortable": "proprietorblagard",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "724.63,-20.46,259.14"
+      ],
+      "utterances": [
+        "Step up to the bar, my friend. Never has coin been better spent. "
+      ]
+    },
+    {
+      "name": "a rat",
+      "name_sortable": "rat",
+      "locations": [
+        "807.80,-20.51,259.15",
+        "814.54,-20.32,270.73",
+        "821.07,-20.34,272.00",
+        "825.07,-20.26,278.24"
+      ]
+    },
+    {
+      "name": "Scholar Obidudyn",
+      "name_sortable": "scholarobidudyn",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "781.39,-20.36,295.88"
+      ],
+      "utterances": [
+        "Oh, a moment of peace. What I'd give for one moment without little human girls, felines ... or inquisitive adventurers... What do you want? Unless you're of any use, get out of my sight."
+      ]
+    },
+    {
+      "name": "a scrawny rat",
+      "name_sortable": "scrawnyrat",
+      "locations": [
+        "803.79,-25.95,309.92",
+        "776.88,-20.38,246.42",
+        "825.50,-20.27,281.04"
+      ]
+    },
+    {
+      "name": "a shining nibbler",
+      "name_sortable": "shiningnibbler",
+      "locations": [
+        "734.13,-41.50,327.21",
+        "729.01,-37.57,323.69",
+        "721.20,-42.51,293.48",
+        "727.20,-37.51,312.68",
+        "726.15,-42.61,308.28"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1302044914 -23402794:a fish meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2054869102 32624367:Advanced Artisan Volume 2\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Taggan Brookrich",
+      "name_sortable": "tagganbrookrich",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "735.02,-20.43,306.47"
+      ],
+      "utterances": [
+        "Can you believe Vandis? You'd think he'd want help considering the mess he's in. But, ooohhh no... He's too stubborn to listen to any advice. When will he learn that he can't win without help?",
+        "Sorry, friend. I don't think you can help with my cunning scheme."
+      ]
+    },
+    {
+      "name": "Tanaira",
+      "name_sortable": "tanaira",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "805.06,-25.94,324.11"
+      ],
+      "utterances": [
+        "What happened to the highly explosive bottle that was on my desk?  Have you seen it?"
+      ],
+      "store_template": "provisioner_origins"
+    },
+    {
+      "name": "Unuesh",
+      "name_sortable": "unuesh",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Tailor",
+      "locations": [
+        "770.53,-24.86,326.33"
+      ],
+      "utterances": [
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ],
+      "store_template": "tailor_origins"
+    },
+    {
+      "name": "Vandis",
+      "name_sortable": "vandis",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "716.71,-20.25,302.99"
+      ],
+      "utterances": [
+        "Can't you see I'm in the middle of a game of King's Field?  And no, you can't help!"
+      ]
+    },
+    {
+      "name": "Vondorinsarnoo",
+      "name_sortable": "vondorinsarnoo",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "720.37,-20.2,274.18"
+      ]
+    },
+    {
+      "name": "Wilhemena",
+      "name_sortable": "wilhemena",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "713.38,-20.01,283.65"
+      ]
+    },
+    {
+      "name": "Zentomaron Croosinaden",
+      "name_sortable": "zentomaroncroosinaden",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "724.03,-20.46,266.83"
+      ],
+      "utterances": [
+        "Hmm ... you appear no more knowledgeable than this silly human we've collared.  Oh well.\t\t\t\t"
+      ]
+    }
   ]
 }

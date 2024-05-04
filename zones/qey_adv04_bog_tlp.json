@@ -1,0 +1,137 @@
+{
+  "name": "The Peat Bog",
+  "name_sortable": "peatbog",
+  "region": "Karan",
+  "zonerect": "-936.08,336.30,-463.13,692.21",
+  "levels": "5-10",
+  "connections": [
+    {
+      "key": "antonica"
+    },
+    {
+      "key": "qey_catacomb02"
+    },
+    {
+      "key": "qey_village01"
+    },
+    {
+      "key": "qey_village02"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Botanist Lith",
+      "name_sortable": "botanistlith",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "586.88,-32.74,446.18"
+      ],
+      "utterances": [
+        "The plant life here is absolutely astounding."
+      ]
+    },
+    {
+      "name": "Ferius Mentus",
+      "name_sortable": "feriusmentus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "568.37,-28.71,420.21"
+      ],
+      "utterances": [
+        "Yes, yes, you're here, I'm here, why don't we talk, eh? No thanks.",
+        "My research is coming to a stand still! I paid some young lad to go fetch me frogs and he just took my money and left! Can you believe that? Now I have no frogs.",
+        "I already told you! I need them for research! The frogs here secrete a fluid that tastes HORRIBLE. It helps them avoid being eaten. With the influx of \"rehabilitated\" ogres coming in, I'm trying to come up with an easy way to remind them not to eat the gnomes and halflings.",
+        "You think so? I need some of the glands inside them. I don't expect you to be able to recognize it, so just bring me the whole body. Ten of them, in fact.",
+        "I should hope so; it isn't hard work! Come back quick!"
+      ]
+    },
+    {
+      "name": "Guard Black",
+      "name_sortable": "guardblack",
+      "utterances": [
+        "Summon help!  We have invaders!"
+      ]
+    },
+    {
+      "name": "Lieutenant Dawson",
+      "name_sortable": "lieutenantdawson",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "562.72,-26.6,412.69"
+      ],
+      "utterances": [
+        "Return to me when you're a bit more experience, I think I could use your help."
+      ]
+    },
+    {
+      "name": "Oakvil",
+      "name_sortable": "oakvil",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "759.96,-26.23,379.69"
+      ],
+      "utterances": [
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ]
+    },
+    {
+      "name": "a puny scavenger",
+      "name_sortable": "punyscavenger",
+      "locations": [
+        "671.02,-33.31,430.36"
+      ]
+    },
+    {
+      "name": "Rujiarmo Oolamein",
+      "name_sortable": "rujiarmooolamein",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "769.34,-26.46,379.04"
+      ],
+      "utterances": [
+        "The Peat Bog is not generally a welcoming place."
+      ]
+    },
+    {
+      "name": "Siahtra Slenloolian",
+      "name_sortable": "siahtraslenloolian",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "657.56,-32.18,397.71"
+      ],
+      "utterances": [
+        "Curious to see how quickly these creatures have grown in recent times."
+      ]
+    }
+  ]
+}

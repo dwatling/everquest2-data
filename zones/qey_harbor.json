@@ -595,6 +595,23 @@
       ]
     },
     {
+      "name": "Royal Accountant Fowler",
+      "name_sortable": "royalaccountantfowler",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Guild Registrar",
+      "locations": [
+        "828.73,-23.55,127.35"
+      ],
+      "utterances": [
+        "Hello, fellow citizen. I'm the Royal Accountant for the city of Qeynos.  When you wish to form a guild within the city, you simply need to bring six members here and pay a nominal fee."
+      ]
+    },
+    {
       "name": "a Safar of Maj'dul",
       "name_sortable": "safarofmajdul",
       "gender": [
@@ -635,6 +652,121 @@
       ],
       "utterances": [
         "Stop right there! No one goes through this door without explicit permission."
+      ]
+    },
+    {
+      "name": "Sheldon Lamport",
+      "name_sortable": "sheldonlamport",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Jeweler",
+      "locations": [
+        "830.28,-23.55,122.41"
+      ],
+      "utterances": [
+        "All right where is my pen?  How am I supposed to scribe anything without my pen?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 725497081 760508368 0 0 0:lead band\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 303860314 -1427924057 0 0 0:lead bangle\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1781007958 -757655637 0 0 0:lead girdle\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1306270891 1270237058 0 0 0:lead hoop\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -507032768 1496865469 0 0 0:lead torque\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1302756035 29776554 0 0 0:malachite bracelet\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1312420557 1191822828 0 0 0:malachite earring\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1930265429 -1064149822 0 0 0:malachite necklace\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -125050963 1200380416 0 0 0:malachite ring\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1948282230 1184438040 0 0 0:rawhide belt\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -359208475 -1011287745 0 0 0:threadbare sash\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1910309181 401741031 0 0 0:threadbare scarf\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        }
       ]
     },
     {

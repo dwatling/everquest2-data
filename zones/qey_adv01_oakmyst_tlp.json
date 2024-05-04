@@ -1,0 +1,52 @@
+{
+  "name": "Oakmyst Forest",
+  "name_sortable": "oakmystforest",
+  "region": "Karan",
+  "zonerect": "-1177.50,-462.25,-605.39,-33.11",
+  "levels": "5-10",
+  "connections": [
+    {
+      "key": "qey_village03_clone"
+    },
+    {
+      "key": "qey_village04_clone"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Bardrian Vorsuth",
+      "name_sortable": "bardrianvorsuth",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "1072.09,-9.92,-384.75"
+      ],
+      "utterances": [
+        "Busy... Go away."
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the compound ore",
+      "name_sortable": "compoundore"
+    },
+    {
+      "name": "the moss encased stone",
+      "name_sortable": "mossencasedstone"
+    },
+    {
+      "name": "the natural garden",
+      "name_sortable": "naturalgarden"
+    }
+  ]
+}

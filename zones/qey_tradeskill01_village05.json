@@ -55,7 +55,8 @@
       ],
       "utterances": [
         "Hello there, what can I do for you?",
-        "Training, eh?  Good to hear, willing able bodied citizens are sometimes hard to find.  To craft items you will either need to head out and harvest the raw materials on your own, or you might be able to buy them off the wholesaler downstairs.  To get started let us start with the most important thing in life, food and drink!  Provisioners are chefs and brewers, applying their culinary skills to provide a valuable service for the benefit of their allies.  Food and drink refresh the weary hero and can provide regenerative benefits.  To sample a taste of provisioning please create a Fried Frog Leg and then return to me."
+        "Training, eh?  Good to hear, willing able bodied citizens are sometimes hard to find.  To craft items you will either need to head out and harvest the raw materials on your own, or you might be able to buy them off the wholesaler downstairs.  To get started let us start with the most important thing in life, food and drink!  Provisioners are chefs and brewers, applying their culinary skills to provide a valuable service for the benefit of their allies.  Food and drink refresh the weary hero and can provide regenerative benefits.  To sample a taste of provisioning please create a Fried Frog Leg and then return to me.",
+        "Please return when you have completed what I have asked of you."
       ]
     },
     {
@@ -72,6 +73,16 @@
       ],
       "utterances": [
         "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1271224269 -804077048:walnut kindling\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        }
       ],
       "store_template": "wholesaler_origins"
     }

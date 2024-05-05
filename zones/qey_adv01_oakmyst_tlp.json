@@ -1,9 +1,9 @@
 {
   "name": "Oakmyst Forest",
   "name_sortable": "oakmystforest",
+  "flags": "origins",
   "region": "Karan",
   "zonerect": "-1177.50,-462.25,-605.39,-33.11",
-  "flags": "origins",
   "levels": "5-10",
   "connections": [
     {
@@ -14,6 +14,22 @@
     }
   ],
   "npcs": [
+    {
+      "name": "Adalin Emerael",
+      "name_sortable": "adalinemerael",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "745.52,10.52,-201.89"
+      ],
+      "utterances": [
+        "Good day to you."
+      ]
+    },
     {
       "name": "Bardrian Vorsuth",
       "name_sortable": "bardrianvorsuth",
@@ -29,11 +45,185 @@
       "utterances": [
         "Busy... Go away."
       ]
+    },
+    {
+      "name": "Cailee Bluesheaf",
+      "name_sortable": "caileebluesheaf",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "890.25,2.43,-337.38"
+      ],
+      "utterances": [
+        "Blessings to you and your kin!"
+      ]
+    },
+    {
+      "name": "a glowmyst beetle",
+      "name_sortable": "glowmystbeetle",
+      "locations": [
+        "758.79,11.44,-191.66"
+      ]
+    },
+    {
+      "name": "Huntmaster Krell",
+      "name_sortable": "huntmasterkrell",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "876.74,1.87,-333.25"
+      ]
+    },
+    {
+      "name": "Jemila",
+      "name_sortable": "jemila",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "898.53,2.29,-346.77"
+      ],
+      "utterances": [
+        "Greetings, traveler! We have the finest supplies to fill your adventuring needs."
+      ]
+    },
+    {
+      "name": "Lieutenant Charlin",
+      "name_sortable": "lieutenantcharlin",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "788.84,7.36,-201.24"
+      ],
+      "utterances": [
+        "Come back when you've got a little bit more experience. I may have need of someone like you."
+      ]
+    },
+    {
+      "name": "Lulien Leafven",
+      "name_sortable": "lulienleafven",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "885.69,2.5,-338.77"
+      ],
+      "utterances": [
+        "Practice makes perfect!"
+      ]
+    },
+    {
+      "name": "Marv Boilfist",
+      "name_sortable": "marvboilfist",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "858.44,2.09,-194.2"
+      ],
+      "utterances": [
+        "Come back when you're a dwarf, maybe we'll chat some! Har har har!"
+      ]
+    },
+    {
+      "name": "Rinduil Flintflight",
+      "name_sortable": "rinduilflintflight",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "899.23,2.56,-337.24"
+      ],
+      "utterances": [
+        "Can you not see that I'm concentrating?"
+      ]
+    },
+    {
+      "name": "Toppa Doppster",
+      "name_sortable": "toppadoppster",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "777.45,8.66,-196.67"
+      ],
+      "utterances": [
+        "You there! Do you think you can help me?",
+        "My friends sent me out to collect some glowmyst juice from the beetles here in Oakmyst. You see, we're trying to start our own tavern and we're working on our craft. I was sent out here to collect some glowmyst juice, but...",
+        "These bugs are so disgusting! I can't stand touching them. Don't even get me started on extracting their fluid sacs.",
+        "Would you? That would be wonderful! I need ten glowmyst fluid sacs.",
+        "Great! Thank you!"
+      ]
+    },
+    {
+      "name": "Tracker Galera",
+      "name_sortable": "trackergalera",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "876.32,0.6,-191.17"
+      ],
+      "utterances": [
+        "The beauty of Oakmyst sometimes overwhelms me but not as much as the sight of Ferith'Anar!"
+      ]
+    },
+    {
+      "name": "Tracker Kelnis",
+      "name_sortable": "trackerkelnis",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "869.06,3.29,-347.97"
+      ],
+      "utterances": [
+        "Enter the forest with caution, traveler!  You never know what dangers lurk in the Oakmyst. "
+      ]
     }
   ],
   "shinies": [
     {
       "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1185753733 -1190212496:shattered high elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -207856692 -1236016395:spotted yellow butterfly\\/a"
     }
   ],
   "resourceNodes": [
@@ -44,6 +234,10 @@
     {
       "name": "the moss encased stone",
       "name_sortable": "mossencasedstone"
+    },
+    {
+      "name": "the muddy roots",
+      "name_sortable": "muddyroots"
     },
     {
       "name": "the natural garden",

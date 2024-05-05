@@ -21,6 +21,69 @@
   ],
   "npcs": [
     {
+      "name": "a Bloodsaber plaguebearer",
+      "name_sortable": "bloodsaberplaguebearer",
+      "locations": [
+        "675.26,-33.34,417.41"
+      ],
+      "utterances": [
+        "Me going to eat your kidney first."
+      ]
+    },
+    {
+      "name": "a bog sludge",
+      "name_sortable": "bogsludge",
+      "locations": [
+        "658.55,-33.40,434.71",
+        "603.23,-33.12,446.70"
+      ]
+    },
+    {
+      "name": "a bog slug",
+      "name_sortable": "bogslug",
+      "locations": [
+        "667.67,-33.96,444.59",
+        "660.55,-33.90,437.52",
+        "669.65,-33.83,411.24",
+        "689.14,-34.03,449.68"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1205117057 -1316931119:bronze parrying blade\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2006611716 1669346638:a vial of mucus\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -226353404 1995898489:Advanced Artisan Volume 3\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1068392054 593058446:Minor Florescense (Adept I)\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a bog slug hatchling",
+      "name_sortable": "bogslughatchling",
+      "locations": [
+        "690.21,-33.95,448.42"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2006611716 1669346638:a vial of mucus\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1296545647 -923685626:a slug antenna\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "Botanist Lith",
       "name_sortable": "botanistlith",
       "race": [
@@ -61,7 +124,9 @@
       "name": "Guard Black",
       "name_sortable": "guardblack",
       "utterances": [
-        "Summon help!  We have invaders!"
+        "Summon help!  We have invaders!",
+        "To arms!",
+        "Prepare to face your doom, meddler."
       ]
     },
     {
@@ -153,7 +218,16 @@
       "name": "a puny scavenger",
       "name_sortable": "punyscavenger",
       "locations": [
-        "671.02,-33.31,430.36"
+        "671.02,-33.31,430.36",
+        "679.47,-33.55,430.82",
+        "802.19,-32.33,404.28",
+        "745.86,-32.91,434.80"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1659113820 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -187,6 +261,35 @@
       "utterances": [
         "Curious to see how quickly these creatures have grown in recent times."
       ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -327615186 -1572251097:plain violet butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1722451200 1090205410:shattered gnome bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1185753733 -1190212496:shattered high elf bone fragment\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the creature den",
+      "name_sortable": "creatureden"
+    },
+    {
+      "name": "the misty stone",
+      "name_sortable": "mistystone"
+    },
+    {
+      "name": "the natural garden",
+      "name_sortable": "naturalgarden"
+    },
+    {
+      "name": "the wilted roots",
+      "name_sortable": "wiltedroots"
     }
   ]
 }

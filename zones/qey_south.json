@@ -1,0 +1,415 @@
+{
+  "name": "South Qeynos",
+  "name_sortable": "southqeynos",
+  "flags": "origins",
+  "region": "Karan",
+  "zonerect": "-794.70,9.99,-336.22,354.07",
+  "type": "city",
+  "npcs": [
+    {
+      "name": "Aesthetic Winchester",
+      "name_sortable": "aestheticwinchester",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "712.73,48.31,87.17"
+      ],
+      "utterances": [
+        "Hail to you, fair citizen.  May your day be filled with discovery!"
+      ]
+    },
+    {
+      "name": "Amren Talbot",
+      "name_sortable": "amrentalbot",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "730.77,-20.36,122.07"
+      ],
+      "utterances": [
+        "Focus is the key to unlocking any illusion.  The mind's eye can do many wondrous things, once it focuses."
+      ]
+    },
+    {
+      "name": "Aristide Calais",
+      "name_sortable": "aristidecalais",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "710.4,41.31,107.34"
+      ],
+      "utterances": [
+        "Hello, adventurer.  Please mind the books and pages spread about.  I'm in the middle of researching methods of enchanting stones with magical properties and it wouldn't do to have foot prints and smudges on the documents."
+      ]
+    },
+    {
+      "name": "Arth Treeskipper",
+      "name_sortable": "arthtreeskipper",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "707.93,-19.53,187.47"
+      ],
+      "utterances": [
+        "The Tunarian Alliance preserves our memories of the breathing trees and singing streams of Jaggedpine."
+      ]
+    },
+    {
+      "name": "Astrynia Burnwynd",
+      "name_sortable": "astryniaburnwynd",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "715.24,41.31,90.62"
+      ],
+      "utterances": [
+        "Greetings <player name>, what brings you to the Concordium?"
+      ]
+    },
+    {
+      "name": "Auguer Prichard Fizzburn",
+      "name_sortable": "auguerprichardfizzburn",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "701.4,48.31,102.82"
+      ],
+      "utterances": [
+        "I'm afraid I cannot speak now, friend.  Please feel free to avail yourself of our knowledge.  Right now, the city requires my concentration."
+      ]
+    },
+    {
+      "name": "Bellengere the Three",
+      "name_sortable": "bellengerethethree",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "710.82,-20.36,121.93"
+      ],
+      "utterances": [
+        "If knowledge is power, and power corrupts, then it is only logical to presume that knowledge corrupts.  Rubbish, I say.  The fundamental flaw in this theory is that power corrupts, whereas it should be stated that it CAN corrupt.  This is the most important lesson to learn when using the arcane forces... as you use its power, it can as easily use you.  Take heed of this warning, friend."
+      ]
+    },
+    {
+      "name": "Chronicler Steelwill",
+      "name_sortable": "chroniclersteelwill",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Concordium Mage",
+      "locations": [
+        "719.02,35.22,141.15"
+      ],
+      "utterances": [
+        "Welcome to the Three Towers.  Here we pass on our mystical knowlege to those who prove their magical prowess by serving the city of Qeynos.  "
+      ]
+    },
+    {
+      "name": "Corryn Menai",
+      "name_sortable": "corrynmenai",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "724.91,-20.36,108.94"
+      ]
+    },
+    {
+      "name": "Elspeth Astley",
+      "name_sortable": "elspethastley",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "730.71,-20.36,114.02"
+      ],
+      "utterances": [
+        "The winds of time change many things.  One thing remains the same, the might of the sorcerer."
+      ]
+    },
+    {
+      "name": "Eoradalanu Otuden",
+      "name_sortable": "eoradalanuotuden",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "696.07,-21.0,111.48"
+      ],
+      "utterances": [
+        "As with all conflict, the correct resolution is to not become involved."
+      ]
+    },
+    {
+      "name": "Exalted Milanthroo",
+      "name_sortable": "exaltedmilanthroo",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "700.19,41.31,100.11"
+      ],
+      "utterances": [
+        "I'm afraid I cannot speak now, friend.  Please feel free to avail yourself of our knowledge.  Right now, the city requires my concentration."
+      ]
+    },
+    {
+      "name": "Faminae Telethar",
+      "name_sortable": "faminaetelethar",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "707.42,-19.44,179.66"
+      ],
+      "utterances": [
+        "The Tunarian Alliance does not see the greater issues beyond individual evils. Their forests might be scorched wastelands and they would still be fending off poachers.",
+        "The Concordium uses ancient and forgotten knowledge to protect us from the shadows that surround Qeynos.",
+        "Those who have neither the abilities nor the aspirations to pursue the intellectual arts will find a home at the Ironforge Exchange."
+      ]
+    },
+    {
+      "name": "Feidre Kelin",
+      "name_sortable": "feidrekelin",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "682.89,-19.36,192.56"
+      ],
+      "utterances": [
+        "May your eyes be opened to the truth of Tunare's teachings.",
+        "Tunare blesses those who remain faithful and trust in her return.",
+        "Hmmm ... from the look in your eyes, you had potential but one of your parents made a poor choice in love."
+      ]
+    },
+    {
+      "name": "Felion Shadoweater",
+      "name_sortable": "felionshadoweater",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Warlock Trainer",
+      "locations": [
+        "713.34,35.22,137.86"
+      ],
+      "utterances": [
+        "Greetings <player name>, what brings you to the Concordium?"
+      ]
+    },
+    {
+      "name": "Jowling",
+      "name_sortable": "jowling",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "645.67,-11.87,245.24"
+      ],
+      "utterances": [
+        "Welcome! What can I help you with?"
+      ]
+    },
+    {
+      "name": "Katlyn Paisley",
+      "name_sortable": "katlynpaisley",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "658.15,-11.79,238.97"
+      ],
+      "utterances": [
+        "There are no refunds for caster error at this shop! Oh ... hello you're not here about a refund.",
+        "Are you wounded?  I just made up a fresh batch of healing potions an hour ago."
+      ]
+    },
+    {
+      "name": "Khalil`mun",
+      "name_sortable": "khalilmun",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "660.29,-18.57,243.55"
+      ],
+      "utterances": [
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "Come in!  Come in!  A mage's greeting to you, my friend!  And now, what can I mix for you?  A potion?  A salve, perhaps?  Ahhh ... I know; you need alchemical supplies, don't you?"
+      ]
+    },
+    {
+      "name": "Librarian Dalmas",
+      "name_sortable": "librariandalmas",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "712.38,41.31,101.06"
+      ],
+      "utterances": [
+        "Please be quiet when inside this place.",
+        "You do not look like as if you spend much time in libraries, but please browse around as you like, and close the door firmly when you leave."
+      ]
+    },
+    {
+      "name": "Librarian Dungil",
+      "name_sortable": "librariandungil",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "711.64,33.22,146.75"
+      ],
+      "utterances": [
+        "Please be quick, I am very busy."
+      ]
+    },
+    {
+      "name": "Pupil Adept Wazzlefop",
+      "name_sortable": "pupiladeptwazzlefop",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Concordium Mage",
+      "locations": [
+        "723.97,-20.36,129.34"
+      ],
+      "utterances": [
+        "Welcome to the Concordium.  All those that seek knowledge of the magical may pass within these walls!"
+      ]
+    },
+    {
+      "name": "Rune Shimmerstar",
+      "name_sortable": "runeshimmerstar",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "713.64,41.31,105.49"
+      ],
+      "utterances": [
+        "What brings you to the Three Towers? Study of the arcane arts broadens your understanding of the world we live in. You would do well to remember this."
+      ]
+    },
+    {
+      "name": "Tilliana Steamsieve",
+      "name_sortable": "tillianasteamsieve",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Conjuror Trainer",
+      "locations": [
+        "709.98,-20.37,110.83"
+      ],
+      "utterances": [
+        "Well, hello hello <player name>, welcome to the Concordium.  What can I do for you today?"
+      ]
+    },
+    {
+      "name": "Vhret Retharo",
+      "name_sortable": "vhretretharo",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "697.91,48.31,95.06"
+      ]
+    },
+    {
+      "name": "Vishra",
+      "name_sortable": "vishra",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "729.35,-21.0,142.28"
+      ],
+      "utterances": [
+        "May I help you?"
+      ]
+    }
+  ]
+}

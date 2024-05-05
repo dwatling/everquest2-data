@@ -332,7 +332,18 @@
         "644.03,-24.66,380.42"
       ],
       "utterances": [
-        "Alms for the poor... Anyone, anyone?"
+        "Alms for the poor... Anyone, anyone?",
+        "Please give to the Nettleville Restoration Project, building homes for those who have none."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 50070973 1579220581 0 0 0:a donation receipt\\/a",
+          "prices": [
+            {
+              "coin": 10000
+            }
+          ]
+        }
       ]
     },
     {
@@ -637,7 +648,16 @@
       "name_sortable": "rat",
       "locations": [
         "580.56,-20.32,317.69",
-        "583.47,-26.86,385.00"
+        "583.47,-26.86,385.00",
+        "705.00,-25.22,333.60",
+        "701.50,-28.22,341.47",
+        "695.13,-30.50,343.64"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1659113820 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -660,7 +680,8 @@
       "name": "a stone scrabbler",
       "name_sortable": "stonescrabbler",
       "locations": [
-        "684.03,-24.79,358.25"
+        "684.03,-24.79,358.25",
+        "681.32,-22.12,342.71"
       ]
     },
     {

@@ -15,11 +15,30 @@
       "gender": [
         "male"
       ],
+      "purpose": "Concordium Mage",
       "locations": [
         "712.73,48.31,87.17"
       ],
       "utterances": [
         "Hail to you, fair citizen.  May your day be filled with discovery!"
+      ]
+    },
+    {
+      "name": "Albrecht Tesilah",
+      "name_sortable": "albrechttesilah",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "536.41,-9.99,118.74"
+      ],
+      "utterances": [
+        "Welcome...welcome traveler, to the fair city of Qeynos! My, isn't it a magnificent day?",
+        "What do you want? Leave me be!",
+        "Hail, pleasure to meet you."
       ]
     },
     {
@@ -64,10 +83,13 @@
         "male"
       ],
       "locations": [
-        "707.93,-19.53,187.47"
+        "707.93,-19.53,187.47",
+        "535.01,-9.99,118.92"
       ],
       "utterances": [
-        "The Tunarian Alliance preserves our memories of the breathing trees and singing streams of Jaggedpine."
+        "The Tunarian Alliance preserves our memories of the breathing trees and singing streams of Jaggedpine.",
+        "I fear that the Concordium is unable to control its disciples. If corrupted the sorcerers would surely bring harm to the woodlands and their creatures.",
+        "The mechanical beasts of the Ironforge Exchange belch forth black clouds to choke out life within the forests."
       ]
     },
     {
@@ -79,6 +101,7 @@
       "gender": [
         "female"
       ],
+      "purpose": "Wizard Trainer",
       "locations": [
         "715.24,41.31,90.62"
       ],
@@ -95,11 +118,26 @@
       "gender": [
         "male"
       ],
+      "purpose": "Concordium Mage",
       "locations": [
         "701.4,48.31,102.82"
       ],
       "utterances": [
         "I'm afraid I cannot speak now, friend.  Please feel free to avail yourself of our knowledge.  Right now, the city requires my concentration."
+      ]
+    },
+    {
+      "name": "Bella Ward",
+      "name_sortable": "bellaward",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "523.03,-9.56,131.2",
+        "533.03,-9.56,131.24"
       ]
     },
     {
@@ -149,6 +187,196 @@
       ]
     },
     {
+      "name": "Donovan Herald",
+      "name_sortable": "donovanherald",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Pet Merchant",
+      "locations": [
+        "644.24,-16.53,179.05"
+      ],
+      "utterances": [
+        "Whoa! Watch your fingers! Goliath hasn't eaten all day.",
+        "Pets fuuuur sale! Pets fuuuur sale!",
+        "Buy today and you'll receive a free litter box!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1795547043 2085530308 0 0 0:a blackburrow tunnel rat\\/a",
+          "prices": [
+            {
+              "coin": 36000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1618090356 -1567560625 0 0 0:a common farm pig\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 552308891 -1356210448 0 0 0:a common mallard\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -628991008 1850751031 0 0 0:a commonlands gobbler\\/a",
+          "prices": [
+            {
+              "coin": 36000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1902198614 174230533 0 0 0:a commonlands tabby cat\\/a",
+          "prices": [
+            {
+              "coin": 60000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -619385322 1202346012 0 0 0:a district tom cat\\/a",
+          "prices": [
+            {
+              "coin": 36000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 507002896 -342675493 0 0 0:a feerrott jungle crawler\\/a",
+          "prices": [
+            {
+              "coin": 60000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1262871797 1542275372 0 0 0:a greenblood river frog\\/a",
+          "prices": [
+            {
+              "coin": 49200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -857586397 722509001 0 0 0:a halasian hunting cat\\/a",
+          "prices": [
+            {
+              "coin": 90000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2052249677 -824907952 0 0 0:a halasian mauler\\/a",
+          "prices": [
+            {
+              "coin": 174000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -178170847 1853796454 0 0 0:a highpass shorthair cat\\/a",
+          "prices": [
+            {
+              "coin": 72000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2053711165 36222065 0 0 0:a kaladim mine cat\\/a",
+          "prices": [
+            {
+              "coin": 96000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 398388872 -194985676 0 0 0:a nektropos nightflyer\\/a",
+          "prices": [
+            {
+              "coin": 86400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1998406684 1628638633 0 0 0:a steppes spider \\/a",
+          "prices": [
+            {
+              "coin": 76800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -97260907 2139081894 0 0 0:a stray alley cat\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1778577110 1064247871 0 0 0:a thexian black cat\\/a",
+          "prices": [
+            {
+              "coin": 156000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 567625586 -1198529932 0 0 0:an antonican bobtail cat\\/a",
+          "prices": [
+            {
+              "coin": 60000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 302751995 139872860 0 0 0:an antonican defender\\/a",
+          "prices": [
+            {
+              "coin": 78000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1634336940 980754080 0 0 0:an antonican tortoise\\/a",
+          "prices": [
+            {
+              "coin": 87000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drappi Oakheart",
+      "name_sortable": "drappioakheart",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Selwyn's Assistant",
+      "locations": [
+        "445.61,-19.59,187.52"
+      ],
+      "utterances": [
+        "Hello there!  If you have any of that old armor from my sweetheart here, I'd be more than happy to offer you some newer stuff!"
+      ]
+    },
+    {
       "name": "Elspeth Astley",
       "name_sortable": "elspethastley",
       "race": [
@@ -189,6 +417,7 @@
       "gender": [
         "female"
       ],
+      "purpose": "Concordium Mage",
       "locations": [
         "700.19,41.31,100.11"
       ],
@@ -224,7 +453,8 @@
         "female"
       ],
       "locations": [
-        "682.89,-19.36,192.56"
+        "682.89,-19.36,192.56",
+        "617.31,-12.15,143.11"
       ],
       "utterances": [
         "May your eyes be opened to the truth of Tunare's teachings.",
@@ -247,6 +477,369 @@
       ],
       "utterances": [
         "Greetings <player name>, what brings you to the Concordium?"
+      ]
+    },
+    {
+      "name": "Feodra Iceslayer",
+      "name_sortable": "feodraiceslayer",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "518.36,-3.5,134.81"
+      ],
+      "utterances": [
+        "Pay no attention to Warley down there he just probably didn't sleep last night and is a little grumpy. Isn't that right Warley?",
+        "Warley went to the Tomb of Varsoon to prove he wasn't afraid of walking around on those islands. Sure enough, he didn't get to the first bridge before turning tail and running back home. Poor thing ... all grumpy ... no sleep.",
+        "The tomb once held an evil mage - Varsoon the Undying. He was involved in the War of the Plagues centuries ago.  The Cataclysm must have weakened the mage's spells on that place, because he didn't stick around.  The Concordium says that Varsoon is long gone, but you wouldn't catch me dead there!",
+        "Heck, I'll tell you where it is! Turn left as you leave the city gates; go through Klicnik Fields. You'll see the islands the tomb rests on.  You go any further ... well, that's your decision, not mine."
+      ]
+    },
+    {
+      "name": "Fredrick Losce",
+      "name_sortable": "fredricklosce",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "575.9,-8.47,126.35"
+      ],
+      "utterances": [
+        "I'm sorry friend. I thought you were someone else."
+      ]
+    },
+    {
+      "name": "Greldane Irongut",
+      "name_sortable": "greldaneirongut",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "559.6,-9.56,132.28",
+        "533.46,-9.56,132.13"
+      ],
+      "utterances": [
+        "I could use another ale for the road anytime now.",
+        "What do you mean ye drank more than I did?"
+      ]
+    },
+    {
+      "name": "Handla Taseela",
+      "name_sortable": "handlataseela",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "466.06,-20.83,193.69"
+      ],
+      "utterances": [
+        "Get the wash, get the wash.  This whole city would fall apart if I didn't deliver the clothes on time.  ",
+        "Do you like muffins?  Muffins are my favorite, I eat them every chance I get.",
+        "Be on the lookout, friend!  I just spoke to the guards.  I've no doubt gnolls are scouting the nearby area.",
+        "You should head by the tavern later on! Every night in Qeynos is cause for celebration."
+      ]
+    },
+    {
+      "name": "Indis Surion",
+      "name_sortable": "indissurion",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Sage",
+      "locations": [
+        "702.74,81.88,128.98"
+      ],
+      "utterances": [
+        "Search for the relics of the past Age of Turmoil.  Their discovery will gain you great power and prestige!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -692781748 -121888940 0 0 0:A Collection of Epitaphs\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1125012374 -1962932301 0 0 0:A Martyr's Tale\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1936103841 768969238 0 0 0:Antonica Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 3456
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -799475108 1793395161 0 0 0:Architecture of the Vermin's Snye\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 453063055 -299401543 0 0 0:Basic Mining Guide, Part One\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2113380299 -2055114194 0 0 0:Basic Mining Guide, Part Two\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -84572034 743442812 0 0 0:Cleaning with the Cryptkeeper\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1383283183 -1507742731 0 0 0:From the Trial of Kane Bayle\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1643415396 2020767213 0 0 0:Guide to Collecting Crypt Plates\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1360668484 1809640558 0 0 0:Ignatia Cellus' Family History Book\\/a",
+          "prices": [
+            {
+              "coin": 240
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1169113654 -1515044685 0 0 0:Ilene Cellus' Family History\\/a",
+          "prices": [
+            {
+              "coin": 600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 376407865 -80595689 0 0 0:Iriana Cellus' Family History\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1943071022 -911656969 0 0 0:Isabella Cellus' Family History Book\\/a",
+          "prices": [
+            {
+              "coin": 240
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1690892980 466648205 0 0 0:Karath Smoothmane - The Breaking of the Pact\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1537263584 -1481260681 0 0 0:Karath Smoothmane - Winter Comes\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1208298162 1207118204 0 0 0:Outlying Qeynos Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 3456
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1065230561 984214981 0 0 0:Qeynos Catacombs Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 3456
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1687896909 1068785929 0 0 0:The History of Ayr'Dal\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1273100677 1774147882 0 0 0:The History of Barbarians\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 629496398 1117701139 0 0 0:The History of Dwarves\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1510044997 -1383872173 0 0 0:The History of Erudites\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 300173232 -1408905635 0 0 0:The History of Feir'Dal\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1805595001 -1515806790 0 0 0:The History of Gnomes\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 278317882 -815910386 0 0 0:The History of Halflings\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1879337817 52913112 0 0 0:The History of Humans\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -117758431 1611809264 0 0 0:The History of Kerra\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1496986056 -1567269176 0 0 0:The History of Koada'Dal\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1867458212 1798535204 0 0 0:The Rat Queen of Vermin's Snye\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -385763144 -1858725111 0 0 0:The Three Keys - The First Key\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1011497698 1358274641 0 0 0:The Three Keys - The Second Key\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1777884866 298843507 0 0 0:The Three Keys - The Third Key\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1100478864 -1676241418 0 0 0:Vaniki's Ring\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -9842771 453733182 0 0 0:Welcome to Qeynos, Citizen! - 2nd Edition\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -378859518 -763654224 0 0 0:Zapho's Celestial Guide to the Stars\\/a",
+          "prices": [
+            {
+              "coin": 36
+            }
+          ]
+        }
       ]
     },
     {
@@ -283,6 +876,21 @@
       ]
     },
     {
+      "name": "Kayben Eatny",
+      "name_sortable": "kaybeneatny",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "583.63,-8.48,130.68"
+      ],
+      "store_template": "bartender_origins"
+    },
+    {
       "name": "Khalil`mun",
       "name_sortable": "khalilmun",
       "race": [
@@ -297,6 +905,22 @@
       "utterances": [
         "Confound it! Where did I put that ledger?  It must be around here somewhere!",
         "Come in!  Come in!  A mage's greeting to you, my friend!  And now, what can I mix for you?  A potion?  A salve, perhaps?  Ahhh ... I know; you need alchemical supplies, don't you?"
+      ]
+    },
+    {
+      "name": "Knight-Lieutenant Ilgar",
+      "name_sortable": "knightlieutenantilgar",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Qeynos Guard",
+      "locations": [
+        "469.61,-21.29,200.0",
+        "462.06,-21.27,224.46",
+        "408.36,-20.95,156.96"
       ]
     },
     {
@@ -333,6 +957,80 @@
       ]
     },
     {
+      "name": "Marcen Quillfingers",
+      "name_sortable": "marcenquillfingers",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "447.73,-19.71,197.37"
+      ],
+      "utterances": [
+        "Well, looks like it's getting close to naptime again."
+      ]
+    },
+    {
+      "name": "Morgessa",
+      "name_sortable": "morgessa",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "537.22,-9.99,118.46"
+      ],
+      "utterances": [
+        "I've gotta get rid of these clothes; they're so one-hundred years ago.",
+        "Me and my friends have all agreed to be non-conformists.",
+        "I'm tired of waiting!  I want to make something of myself!",
+        "As soon as I get my own boat, I'm outta here!",
+        "I'm only happy when it rains.  Well.. I like sunny days too.  Okay... I'm actually happy all the time."
+      ]
+    },
+    {
+      "name": "Neena Ocoggin",
+      "name_sortable": "neenaocoggin",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "538.38,-9.99,118.59"
+      ],
+      "utterances": [
+        "Have you any spare foozlebits?  Don't you hate being one foozlebit short of a fwinger?",
+        "Oh! Say, is that a minor absinthesizer you're wearing?  I've never seen one used quite that way before.",
+        "Cheers and boggle chippers to you!"
+      ]
+    },
+    {
+      "name": "Percivous",
+      "name_sortable": "percivous",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "501.35,-11.08,139.19"
+      ],
+      "utterances": [
+        "Hast thou any news of our lost kin?",
+        "Well met, my astute traveler.  The evil rogues of Freeport would never trifle with so dashing an adventurer.",
+        "Anon stranger!  If thou has any news of my kin, return to Castleview!",
+        "Aye, I crave your pardon.  Good morrow to you stranger.",
+        "I say, dost thou seeketh to stand with us against the evils and tyranny of the land?"
+      ]
+    },
+    {
       "name": "Pupil Adept Wazzlefop",
       "name_sortable": "pupiladeptwazzlefop",
       "race": [
@@ -350,6 +1048,24 @@
       ]
     },
     {
+      "name": "Representative Klen`thall",
+      "name_sortable": "representativeklenthall",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "619.32,-12.28,147.0"
+      ],
+      "utterances": [
+        "If you weren't so busy with your imaginary rebellion, you might do something productive and make a name for yourself.",
+        "Tunare blesses those who remain faithful and trust in her return.",
+        "May your eyes be opened to the truth of Tunare's teachings."
+      ]
+    },
+    {
       "name": "Rune Shimmerstar",
       "name_sortable": "runeshimmerstar",
       "race": [
@@ -363,6 +1079,370 @@
       ],
       "utterances": [
         "What brings you to the Three Towers? Study of the arcane arts broadens your understanding of the world we live in. You would do well to remember this."
+      ]
+    },
+    {
+      "name": "Selwyn Oakheart",
+      "name_sortable": "selwynoakheart",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "444.6,-19.61,188.5"
+      ],
+      "utterances": [
+        "I'm sorry, dear. I don't think I'd be able to help you with anything right now. I'm very busy."
+      ]
+    },
+    {
+      "name": "Stable Hand Marcellun Iver",
+      "name_sortable": "stablehandmarcelluniver",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Horse Merchant",
+      "locations": [
+        "406.52,-20.25,227.37"
+      ],
+      "utterances": [
+        "Pets fuuuur sale! Pets fuuuur sale!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1629200742 -312365908 0 0 0:blue-saddled Mistrunner horse whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 19200001,
+              "status": 400000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1401085591 -1998564587 0 0 0:Dervish destrier horse whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 10800000,
+              "status": 337500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1913405831 1093257876 0 0 0:elddarian charger whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 5529600,
+              "status": 112500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 581379119 1093257876 0 0 0:elddarian charger whistle\\/a",
+          "prices": [
+            {
+              "coin": 9830400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 316587671 331780787 0 0 0:halasian draft horse whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 1382400,
+              "status": 52500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -185479506 331780787 0 0 0:halasian draft horse whistle\\/a",
+          "prices": [
+            {
+              "coin": 2457600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1720641535 1438995208 0 0 0:karana planestrider whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 2073600,
+              "status": 80000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -940571992 1438995208 0 0 0:karana planestrider whistle\\/a",
+          "prices": [
+            {
+              "coin": 3686400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 602935399 1106784207 0 0 0:misty mustang whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 2073600,
+              "status": 80000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -975216546 1106784207 0 0 0:misty mustang whistle\\/a",
+          "prices": [
+            {
+              "coin": 3686400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1407788828 339146530 0 0 0:parade elddarian charger whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 5529600,
+              "status": 112500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -224935347 339146530 0 0 0:parade elddarian charger whistle\\/a",
+          "prices": [
+            {
+              "coin": 9830400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1405145526 905270543 0 0 0:parade halasian draft horse whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 1382400,
+              "status": 52500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 535620089 905270543 0 0 0:parade halasian draft horse whistle\\/a",
+          "prices": [
+            {
+              "coin": 2457600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -924635083 -1087225032 0 0 0:parade karana planestrider whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 2073600,
+              "status": 80000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1761568947 -1087225032 0 0 0:parade karana planestrider whistle\\/a",
+          "prices": [
+            {
+              "coin": 3686400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1659797318 1339660913 0 0 0:parade misty mustang whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 2073600,
+              "status": 80000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 784484105 1339660913 0 0 0:parade misty mustang whistle\\/a",
+          "prices": [
+            {
+              "coin": 3686400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -838577656 -937996877 0 0 0:parade rujarkian clydesdale whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 5529600,
+              "status": 112500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 673915441 -937996877 0 0 0:parade rujarkian clydesdale whistle\\/a",
+          "prices": [
+            {
+              "coin": 9830400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 946903852 493250751 0 0 0:parade steppes pony whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 1382400,
+              "status": 52500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1952228195 493250751 0 0 0:parade steppes pony whistle\\/a",
+          "prices": [
+            {
+              "coin": 2457600
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2010326534 -980174801 0 0 0:plain-saddled Mistrunner horse whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 19200001,
+              "status": 400000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1463369402 975805308 0 0 0:purple-saddled Mistrunner horse whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 19200001,
+              "status": 400000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2111022023 -299595249 0 0 0:rujarkian clydesdale whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 5529600,
+              "status": 112500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -573572287 -299595249 0 0 0:rujarkian clydesdale whistle\\/a",
+          "prices": [
+            {
+              "coin": 9830400
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 591108071 -26209745 0 0 0:Rujarkian destrier horse whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 10800000,
+              "status": 337500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1899784534 593411294 0 0 0:spirit steed summoner\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 10800000,
+              "status": 337500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2037314573 -413408073 0 0 0:steppes pony whistle\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 1382400,
+              "status": 52500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1623096268 -413408073 0 0 0:steppes pony whistle\\/a",
+          "prices": [
+            {
+              "coin": 2457600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Telamoninioon Orinsidian",
+      "name_sortable": "telamoninioonorinsidian",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Illusionist Trainer",
+      "locations": [
+        "697.9,86.88,132.1"
+      ],
+      "utterances": [
+        "Good day <player name>, what brings you to the Concordium?"
       ]
     },
     {
@@ -383,6 +1463,22 @@
       ]
     },
     {
+      "name": "Tristan Galliway",
+      "name_sortable": "tristangalliway",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "579.46,-8.48,125.97"
+      ],
+      "utterances": [
+        "Do I know you?"
+      ]
+    },
+    {
       "name": "Vhret Retharo",
       "name_sortable": "vhretretharo",
       "race": [
@@ -391,6 +1487,7 @@
       "gender": [
         "male"
       ],
+      "purpose": "Concordium Mage",
       "locations": [
         "697.91,48.31,95.06"
       ]
@@ -409,6 +1506,22 @@
       ],
       "utterances": [
         "May I help you?"
+      ]
+    },
+    {
+      "name": "Warley Theodoric",
+      "name_sortable": "warleytheodoric",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "564.29,-9.56,132.49"
+      ],
+      "utterances": [
+        "My stein hasn't any legs to walk over and fill itself up."
       ]
     }
   ]

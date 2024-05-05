@@ -110,6 +110,24 @@
       ]
     },
     {
+      "name": "Atiyah Kaddor",
+      "name_sortable": "atiyahkaddor",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Weaponsmith",
+      "locations": [
+        "567.41,-17.12,264.03"
+      ],
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+      ],
+      "store_template": "weaponsmith_origins"
+    },
+    {
       "name": "Auguer Prichard Fizzburn",
       "name_sortable": "auguerprichardfizzburn",
       "race": [
@@ -125,6 +143,24 @@
       "utterances": [
         "I'm afraid I cannot speak now, friend.  Please feel free to avail yourself of our knowledge.  Right now, the city requires my concentration."
       ]
+    },
+    {
+      "name": "Azima Kaddor",
+      "name_sortable": "azimakaddor",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Armorsmith",
+      "locations": [
+        "555.11,-17.12,262.91"
+      ],
+      "utterances": [
+        "Welcome! What is it I can help you with?"
+      ],
+      "store_template": "armorsmith_origins"
     },
     {
       "name": "Bella Ward",
@@ -515,6 +551,24 @@
       ]
     },
     {
+      "name": "Gauldry",
+      "name_sortable": "gauldry",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Shieldsmith",
+      "locations": [
+        "572.86,-17.12,265.38"
+      ],
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+      ],
+      "store_template": "shieldsmith_origins"
+    },
+    {
       "name": "Greldane Irongut",
       "name_sortable": "greldaneirongut",
       "race": [
@@ -851,12 +905,15 @@
       "gender": [
         "female"
       ],
+      "purpose": "City Merchant",
       "locations": [
         "645.67,-11.87,245.24"
       ],
       "utterances": [
-        "Welcome! What can I help you with?"
-      ]
+        "Welcome! What can I help you with?",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ],
+      "store_template": "city_merchant_origins"
     },
     {
       "name": "Katlyn Paisley",
@@ -867,12 +924,112 @@
       "gender": [
         "female"
       ],
+      "purpose": "Jeweler",
       "locations": [
         "658.15,-11.79,238.97"
       ],
       "utterances": [
         "There are no refunds for caster error at this shop! Oh ... hello you're not here about a refund.",
-        "Are you wounded?  I just made up a fresh batch of healing potions an hour ago."
+        "Are you wounded?  I just made up a fresh batch of healing potions an hour ago.",
+        "Hello, adventurer! Are you looking for a specific potion or ingredient?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 725497081 760508368 0 0 0:lead band\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 303860314 -1427924057 0 0 0:lead bangle\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1781007958 -757655637 0 0 0:lead girdle\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1306270891 1270237058 0 0 0:lead hoop\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -507032768 1496865469 0 0 0:lead torque\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1302756035 29776554 0 0 0:malachite bracelet\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1312420557 1191822828 0 0 0:malachite earring\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1930265429 -1064149822 0 0 0:malachite necklace\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -125050963 1200380416 0 0 0:malachite ring\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1948282230 1184438040 0 0 0:rawhide belt\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -359208475 -1011287745 0 0 0:threadbare sash\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1910309181 401741031 0 0 0:threadbare scarf\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        }
       ]
     },
     {
@@ -899,13 +1056,34 @@
       "gender": [
         "male"
       ],
+      "purpose": "Alchemist",
       "locations": [
         "660.29,-18.57,243.55"
       ],
       "utterances": [
         "Confound it! Where did I put that ledger?  It must be around here somewhere!",
-        "Come in!  Come in!  A mage's greeting to you, my friend!  And now, what can I mix for you?  A potion?  A salve, perhaps?  Ahhh ... I know; you need alchemical supplies, don't you?"
-      ]
+        "Come in!  Come in!  A mage's greeting to you, my friend!  And now, what can I mix for you?  A potion?  A salve, perhaps?  Ahhh ... I know; you need alchemical supplies, don't you?",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 331790605 -1707704134 0 0 0:odyssey stone\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -182855303 1967098650 0 0 0:softly glowing pearl\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        }
+      ],
+      "store_template": "alchemist_origins"
     },
     {
       "name": "Knight-Lieutenant Ilgar",
@@ -922,6 +1100,24 @@
         "462.06,-21.27,224.46",
         "408.36,-20.95,156.96"
       ]
+    },
+    {
+      "name": "Leona Ward",
+      "name_sortable": "leonaward",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "477.7,-13.72,216.81"
+      ],
+      "utterances": [
+        "Welcome, traveler. Welcome to my shop.  Please, take a look around!"
+      ],
+      "store_template": "general_goods_origins"
     },
     {
       "name": "Librarian Dalmas",
@@ -957,6 +1153,43 @@
       ]
     },
     {
+      "name": "Loowoonla",
+      "name_sortable": "loowoonla",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "581.28,-17.95,241.56"
+      ],
+      "utterances": [
+        "Your mastery of the Isle was a breakthrough.  Use caution and do not fall into old habits.",
+        "The time for ego must be set aside.  Your faith in a higher power will preserve you in the times ahead.",
+        "I have felt the stirrings of a strong magical influence.  Good fortune will follow to those with the will to persevere!",
+        "If power and greatness is what you seek, you must first master the difference between right and wrong.",
+        "If we focus on the higher truths that govern our actions, we fathom the underlying power within them."
+      ]
+    },
+    {
+      "name": "Maile",
+      "name_sortable": "maile",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Broker",
+      "locations": [
+        "483.25,-19.72,214.77"
+      ],
+      "utterances": [
+        "Please just let me know if there's something you'd like to buy."
+      ]
+    },
+    {
       "name": "Marcen Quillfingers",
       "name_sortable": "marcenquillfingers",
       "race": [
@@ -966,10 +1199,34 @@
         "male"
       ],
       "locations": [
-        "447.73,-19.71,197.37"
+        "447.73,-19.71,197.37",
+        "610.95,-15.44,205.49",
+        "504.66,-15.39,200.21"
       ],
       "utterances": [
-        "Well, looks like it's getting close to naptime again."
+        "Well, looks like it's getting close to naptime again.",
+        "Nostalgia isn't what it used to be.",
+        "I just need enough to tide me over until I need more.",
+        "Welcome to the city, adventurer. Be mindful of the peace and quiet.  Here in Qeynos, we value our privacy."
+      ]
+    },
+    {
+      "name": "Merriou",
+      "name_sortable": "merriou",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "637.73,-18.74,252.55",
+        "625.32,-16.73,199.89"
+      ],
+      "utterances": [
+        "You understand somewhat how the kerra feel.  You cannot deny it; it's in your blood.",
+        "Give me the simplicity of life as the kerra once knew it, and I'll be satisfied.",
+        "I would like nothing better than to be with my pride, away from the bustle of any town."
       ]
     },
     {
@@ -1095,6 +1352,22 @@
       ],
       "utterances": [
         "I'm sorry, dear. I don't think I'd be able to help you with anything right now. I'm very busy."
+      ]
+    },
+    {
+      "name": "Squire Rion Rolana",
+      "name_sortable": "squirerionrolana",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "489.69,-19.72,225.41"
+      ],
+      "utterances": [
+        "Move along citizen, I've a lot on my mind."
       ]
     },
     {
@@ -1443,6 +1716,23 @@
       ],
       "utterances": [
         "Good day <player name>, what brings you to the Concordium?"
+      ]
+    },
+    {
+      "name": "Thierry Dillon",
+      "name_sortable": "thierrydillon",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "647.95,-17.95,201.27",
+        "613.58,-16.46,211.79"
+      ],
+      "utterances": [
+        "Excuse me?"
       ]
     },
     {

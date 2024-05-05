@@ -1,10 +1,10 @@
 {
   "name": "The Peat Bog",
   "name_sortable": "peatbog",
+  "flags": "origins",
   "region": "Karan",
   "zonerect": "-936.08,336.30,-463.13,692.21",
   "levels": "5-10",
-  "flags": "origins",
   "connections": [
     {
       "key": "antonica"
@@ -30,7 +30,8 @@
         "male"
       ],
       "locations": [
-        "586.88,-32.74,446.18"
+        "586.88,-32.74,446.18",
+        "589.13,-32.77,466.01"
       ],
       "utterances": [
         "The plant life here is absolutely astounding."
@@ -94,7 +95,8 @@
         "759.96,-26.23,379.69"
       ],
       "utterances": [
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
       ],
       "store": [
         {

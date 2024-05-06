@@ -109,6 +109,16 @@
         "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
         "Welcome! What can I help you with?"
       ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1241081646 1636802182:rawhide leather rucksack\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        }
+      ],
       "store_template": "general_goods_origins"
     },
     {
@@ -267,7 +277,8 @@
         "677.47,-20.38,320.44"
       ],
       "utterances": [
-        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Welcome! What can I help you with?"
       ],
       "store_template": "tailor_origins"
     },

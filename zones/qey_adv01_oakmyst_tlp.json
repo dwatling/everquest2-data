@@ -7,10 +7,10 @@
   "levels": "5-10",
   "connections": [
     {
-      "key": "qey_village03_clone"
+      "key": "qey_village03"
     },
     {
-      "key": "qey_village04_clone"
+      "key": "qey_village04"
     }
   ],
   "npcs": [
@@ -66,7 +66,8 @@
       "name": "a glowmyst beetle",
       "name_sortable": "glowmystbeetle",
       "locations": [
-        "758.79,11.44,-191.66"
+        "758.79,11.44,-191.66",
+        "768.37,9.92,-206.76"
       ]
     },
     {
@@ -79,7 +80,10 @@
         "male"
       ],
       "locations": [
-        "876.74,1.87,-333.25"
+        "876.74,1.87,-333.25",
+        "926.9,2.55,-320.97",
+        "952.62,2.28,-352.54",
+        "980.53,2.15,-348.89"
       ]
     },
     {
@@ -91,12 +95,15 @@
       "gender": [
         "female"
       ],
+      "purpose": "General Goods",
       "locations": [
         "898.53,2.29,-346.77"
       ],
       "utterances": [
-        "Greetings, traveler! We have the finest supplies to fill your adventuring needs."
-      ]
+        "Greetings, traveler! We have the finest supplies to fill your adventuring needs.",
+        "Welcome! What can I help you with?"
+      ],
+      "store_template": "general_goods_origins"
     },
     {
       "name": "Lieutenant Charlin",
@@ -107,6 +114,7 @@
       "gender": [
         "male"
       ],
+      "purpose": "Qeynos Guard",
       "locations": [
         "788.84,7.36,-201.24"
       ],
@@ -218,6 +226,9 @@
   "shinies": [
     {
       "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -327615186 -1572251097:plain violet butterfly\\/a"
     },
     {
       "gamelink": "\\aITEM 1185753733 -1190212496:shattered high elf bone fragment\\/a"

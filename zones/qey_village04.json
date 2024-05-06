@@ -25,10 +25,607 @@
   ],
   "npcs": [
     {
+      "name": "Apprentice Boggi",
+      "name_sortable": "apprenticeboggi",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "712.2,-21.03,-133.28"
+      ],
+      "utterances": [
+        "Oh! Hello! I wasn't... um... napping. I was just resting my injured leg. That's it!"
+      ]
+    },
+    {
+      "name": "Bleemeb",
+      "name_sortable": "bleemeb",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Spell Scrolls",
+      "locations": [
+        "696.6,-15.69,-138.75"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1051399116 1002640051 0 0 0:Guktan Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1922632856 -1872524725 0 0 0:Koada'Dal Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bulurg",
+      "name_sortable": "bulurg",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "741.33,-20.6,-106.91"
+      ],
+      "utterances": [
+        "Oh dear, oh dear! The elven libation is dry.  If only all the locals would drink my bog spirits."
+      ],
+      "store_template": "bartender_origins"
+    },
+    {
+      "name": "Cilindari",
+      "name_sortable": "cilindari",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Alchemist",
+      "locations": [
+        "700.99,-15.19,-157.95"
+      ],
+      "utterances": [
+        "Are you wounded?  I just made up a fresh batch of healing potions an hour ago.",
+        "What happened to the highly explosive bottle that was on my desk?  Have you seen it?",
+        "There are no refunds for caster error at this shop! Oh ... hello you're not here about a refund."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 331790605 -1707704134 0 0 0:odyssey stone\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -182855303 1967098650 0 0 0:softly glowing pearl\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        }
+      ],
+      "store_template": "alchemist_origins"
+    },
+    {
+      "name": "Dalonalis",
+      "name_sortable": "dalonalis",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Banker",
+      "locations": [
+        "745.35,-14.69,-136.73"
+      ],
+      "utterances": [
+        "Good day to you, adventurer. Your valuables will be safe in our vaults, I promise you that."
+      ]
+    },
+    {
+      "name": "Daylena Telanthis",
+      "name_sortable": "daylenatelanthis",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "796.65,-16.12,-111.9"
+      ],
+      "utterances": [
+        "The Concordium uses ancient and forgotten knowledge to protect us from the shadows that surround Qeynos.",
+        "Those who have neither the abilities nor the aspirations to pursue the intellectual arts will find a home at the Ironforge Exchange.",
+        "While the Celestial Watch futilely awaits word from its forgotten gods the Concordium has harnessed the true power that blazes within each of us.",
+        "The Qeynos Guard cannot defend us from dark forces it neither sees nor understands.",
+        "The Tunarian Alliance does not see the greater issues beyond individual evils. Their forests might be scorched wastelands and they would still be fending off poachers."
+      ]
+    },
+    {
+      "name": "Dolthyryr Helyanwe",
+      "name_sortable": "dolthyryrhelyanwe",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "778.06,-15.23,-137.3"
+      ],
+      "utterances": [
+        "Another glorious day in the city of Qeynos, wouldn't you agree?"
+      ]
+    },
+    {
+      "name": "Eireneith Alannia",
+      "name_sortable": "eireneithalannia",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "724.76,-21.04,-143.03"
+      ],
+      "utterances": [
+        "One of my responsibilities is controlling the population of creatures in the area, and I'm barely keeping up! The glade deer population has grown out of control. Once their numbers rise, those deer are hard to manage!"
+      ]
+    },
+    {
+      "name": "Entertainer Faeadaen",
+      "name_sortable": "entertainerfaeadaen",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "742.68,-21.22,-118.51"
+      ],
+      "utterances": [
+        "Please, come back for my next show - I've no room for more onlookers. Why don't you belly up to the bar and try one of Bulurg's brews?"
+      ]
+    },
+    {
+      "name": "Fevalin",
+      "name_sortable": "fevalin",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "727.99,-15.22,-164.19"
+      ],
+      "store_template": "provisioner_origins"
+    },
+    {
+      "name": "Frup Groaak",
+      "name_sortable": "frupgroaak",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "763.37,-18.05,-109.75"
+      ],
+      "utterances": [
+        "Any of them at all? We were wandering through the vast green lands beyond these walls, when we were set upon by brigands!",
+        "Indeed, I should think not. I was very surprised to see other of our kind around here. I and my brothers managed to make our way here from far to the south.",
+        "In the depths of the Feerrott. I cannot explain more now - trust is something which must be won, and our home cannot be revealed to those who might wish us harm.",
+        "Then perhaps you'll wish to help.",
+        "The other I came to these shores with, Giidib, set out from the beach in the opposite direction as I.",
+        "I apologize, I do not know the names of places here. T'was quite a ways south east of here, however. There was a great forest situated on the banks above."
+      ]
+    },
+    {
+      "name": "Gilcirith Elensar",
+      "name_sortable": "gilcirithelensar",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "740.21,-14.69,-144.07"
+      ],
+      "utterances": [
+        "Welcome, traveler."
+      ]
+    },
+    {
+      "name": "Glump Marrblade",
+      "name_sortable": "glumpmarrblade",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Crafting Trainer",
+      "locations": [
+        "748.9,-15.21,-157.61"
+      ],
+      "utterances": [
+        "You have learned everything I have to teach at the moment.  You are free to use our crafting facilities to hone your skills."
+      ],
+      "store_template": "crafting_trainer_origins"
+    },
+    {
+      "name": "Graac Justheart",
+      "name_sortable": "graacjustheart",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "797.68,-16.0,-105.45"
+      ],
+      "utterances": [
+        "Mighty adventurer, I greet you with a hearty welcome! "
+      ]
+    },
+    {
+      "name": "Grommluk Oognee",
+      "name_sortable": "grommlukoognee",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "792.89,-17.13,-160.38"
+      ],
+      "utterances": [
+        "I profess that I am not mad, but I do thinketh this water is too clean.  And the stones!  They doth not squish under thy feet!"
+      ]
+    },
+    {
+      "name": "Innkeeper Valean",
+      "name_sortable": "innkeepervalean",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Housing",
+      "locations": [
+        "783.25,-15.23,-137.76"
+      ],
+      "utterances": [
+        "Hello there <player name>, what can I help you with?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1192413674 -55368781 0 0 0:a Qeynosian large wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -568616880 1329473188 0 0 0:a Qeynosian medium wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1457739578 -655029930 0 0 0:a Qeynosian small wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 40
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -949197158 -767980191 0 0 0:a wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1579048607 -882452909 0 0 0:an antonican wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 729139268 0 0 0:an enchanter's candelabra\\/a",
+          "prices": [
+            {
+              "coin": 29160
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kethelin Shadowcross",
+      "name_sortable": "kethelinshadowcross",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "796.63,-16.17,-115.34"
+      ],
+      "utterances": [
+        "While their fellow citizens struggle against the tides of evil, the Tunarian Alliance worries itself with the plight of soulless plants and animals.",
+        "The Ironforge Exchange neglects the spiritual through its devotion to the physical materials and pleasures of this world.",
+        "The Celestial Watch preserves the rituals of servitude to the gods so that all might experience through worship the return of the ancient deities.",
+        "Were they to encounter a god, the Concordium would drop their staves and bow before the might of a true power."
+      ]
+    },
+    {
+      "name": "Knight-Captain Gerathalas",
+      "name_sortable": "knightcaptaingerathalas",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Qeynos Guard",
+      "locations": [
+        "735.57,-21.34,-125.63"
+      ],
+      "utterances": [
+        "Good day to you, adventurer.  I hope you have been keeping yourself safe."
+      ]
+    },
+    {
+      "name": "Kruuprum",
+      "name_sortable": "kruuprum",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "736.47,-15.21,-163.12"
+      ],
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ],
+      "store_template": "general_goods_origins"
+    },
+    {
+      "name": "Kwa Stalwart",
+      "name_sortable": "kwastalwart",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Froklok Mentor",
+      "locations": [
+        "782.07,-21.06,-92.62"
+      ]
+    },
+    {
+      "name": "Listalania Vainederian",
+      "name_sortable": "listalaniavainederian",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "770.63,-18.22,-116.95"
+      ]
+    },
+    {
+      "name": "Rrak Boldfist",
+      "name_sortable": "rrakboldfist",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "708.34,-15.69,-141.92"
+      ],
+      "utterances": [
+        "Greetings!  Fair thee well?"
+      ]
+    },
+    {
+      "name": "Shae'Ahla",
+      "name_sortable": "shaeahla",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "717.45,-21.06,-142.09"
+      ],
+      "utterances": [
+        "A life cut off from your senses is no life at all.",
+        "To be lost is to avoid being found.",
+        "If you do not seek out pain, it will still find you."
+      ]
+    },
+    {
+      "name": "a shining nibbler",
+      "name_sortable": "shiningnibbler",
+      "locations": [
+        "756.46,-43.50,-94.07",
+        "760.48,-38.18,-95.73"
+      ]
+    },
+    {
+      "name": "Sir Antylus Teraeth",
+      "name_sortable": "sirantylusteraeth",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "771.73,-16.22,-156.68"
+      ],
+      "utterances": [
+        "Another beautiful day in the city of Qeynos!  As the Priests of Life would say, \"The light of life shines bright upon Qeynos.\"  ",
+        "Friends of mine from my past, a benevolent order of Qeynos yore.  I marched with them on the Crusade of the Fallen. ",
+        "You never heard of the Crusade of the Fallen?  Oh my!  It was, perhaps, the finest moment for the Priests of Life.  It's a simple tale of respect and honor. ",
+        "It began with the Shattering, when a reign of fire from the death throes of the moon Luclin barraged Norrath.  Millions died in this apocalyptic fury.  Bodies littered the land.  Even the royal family of Bayle could not escape this violence.  My new home was battered and its people nearly all lost.  ",
+        "Qeynos lay in rubble, and its kingdom, which spread across the horizon, was littered with the bodies of those who couldn't escape the torment of the land.  Such carnage brought disease and scavengers to plague the lands.   ",
+        "The horror of fields of the fallen could not be cleansed.  Most of the kingdom lay in rubble.  Outland residents flooded in and aided with the reconstruction of the great city.  When this was complete, and the army was replenished, then the time was right to clear the ravaged countryside and all its chaos.",
+        "The Priests of Life, defenders of all souls.  Their numbers were small.  They took many losses, but still, they rose to march.  They traveled the lands gathering forgotten souls.  I was in awe of their humble valor.  So taken was I, that I joined their crusade. ",
+        "To them, life was precious.  No soul could rest easily if their body was not given a proper burial.  So the Priests of Life trod into the land and fought scavengers and bandits to gather all the Antonican bodies they could find.  A massive line of bodies flooded the path to Qeynos.  ",
+        "Qeynos is larger than it seems.  A whole undercity exists below us.  Under the roads of the city, rest the extensive Qeynos Waterworks and the labyrinth of the Qeynos Catacombs, both of which still stand with little damage from the cataclysms.    ",
+        "Yes.  Every soul was given an honorable burial and was laid to rest with the bodies of the Priests of Life who fell before and after the Crusade of the Fallen.  Below the feet of every Qeynosian rests a sanctuary for the fallen souls of the Age of Cataclysms.   ",
+        "No.  I'm a citizen of the halls of Felwithe, a place I departed more than 150-years ago, near the start of the Age of Cataclysms.  My only goal was to find the lost city of Fayspire, but the oceans became violent and impassable.  I couldn't turn back, so I trekked on in my search.",
+        "Felwithe was the home of my people, the Koada'Dal!  Our grand city sat high atop the clouds where the sun always shined.  It rests many leagues away on the continent of Faydwer.  I do miss my city in the clouds, but Qeynos has embraced me and is my new sanctuary from the violence of this world."
+      ]
+    },
+    {
       "name": "a stingrat",
       "name_sortable": "stingrat",
       "locations": [
         "751.16,-12.55,-177.38"
+      ]
+    },
+    {
+      "name": "Taneranthalis Nedaiveren",
+      "name_sortable": "taneranthalisnedaiveren",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "768.55,-18.22,-115.7"
+      ],
+      "utterances": [
+        "Please move on, traveler. I must attend to important business matters.",
+        "It seems like just yesterday I was a small child brought to Qeynos from Felwithe. Though it's white towers are but a distant memory, the Koada'dal in Castleview keep the elven spirit alive."
+      ]
+    },
+    {
+      "name": "Valinar",
+      "name_sortable": "valinar",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Tailor",
+      "locations": [
+        "717.8,-16.15,-162.37"
+      ],
+      "utterances": [
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Welcome! What can I help you with?",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ],
+      "store_template": "tailor_origins"
+    },
+    {
+      "name": "Vindain Greenfaith",
+      "name_sortable": "vindaingreenfaith",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "High Elf Mentor",
+      "locations": [
+        "789.52,-21.17,-99.66"
+      ],
+      "utterances": [
+        "The Koada'Dal need heroes and leaders like myself, now more than ever. But I am here for them, my friend, and cannot help you now."
+      ]
+    },
+    {
+      "name": "Waitress Brooak",
+      "name_sortable": "waitressbrooak",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "739.5,-21.24,-109.79"
+      ],
+      "utterances": [
+        "Care ye for a bog water spirit, kind traveler?  'Tis the specialty of the house!"
+      ]
+    },
+    {
+      "name": "Yanari Cyellann",
+      "name_sortable": "yanaricyellann",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "692.18,-15.19,-154.18"
+      ],
+      "utterances": [
+        "Don't touch anything!  You could turn yourself into a goo or destroy the entire building!  What do you want?",
+        "I'm very busy and don't want you getting hurt. Please leave me to my work."
       ]
     }
   ]

@@ -35,7 +35,8 @@
       "name_sortable": "bogsludge",
       "locations": [
         "658.55,-33.40,434.71",
-        "603.23,-33.12,446.70"
+        "603.23,-33.12,446.70",
+        "637.00,-32.64,428.47"
       ]
     },
     {
@@ -45,7 +46,10 @@
         "667.67,-33.96,444.59",
         "660.55,-33.90,437.52",
         "669.65,-33.83,411.24",
-        "689.14,-34.03,449.68"
+        "689.14,-34.03,449.68",
+        "696.47,-34.04,405.41",
+        "652.84,-33.48,435.88",
+        "774.07,-34.25,394.85"
       ],
       "drops": [
         {
@@ -63,6 +67,14 @@
         {
           "gamelink": "\\aITEM -1068392054 593058446:Minor Florescense (Adept I)\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1296545647 -923685626:a slug antenna\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1900387289 668888967:bronze knuckles\\/a",
+          "chest": true
         }
       ]
     },
@@ -70,7 +82,10 @@
       "name": "a bog slug hatchling",
       "name_sortable": "bogslughatchling",
       "locations": [
-        "690.21,-33.95,448.42"
+        "690.21,-33.95,448.42",
+        "666.62,-33.50,412.61",
+        "699.42,-32.78,400.13",
+        "644.68,-32.74,434.30"
       ],
       "drops": [
         {
@@ -79,6 +94,21 @@
         },
         {
           "gamelink": "\\aITEM 1296545647 -923685626:a slug antenna\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a bogwood termite",
+      "name_sortable": "bogwoodtermite",
+      "locations": [
+        "617.98,-33.09,458.80",
+        "604.97,-32.99,453.23",
+        "610.32,-33.00,448.62"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 446684787 1499328814:an insect shell\\/a",
           "chest": false
         }
       ]
@@ -127,6 +157,13 @@
         "Summon help!  We have invaders!",
         "To arms!",
         "Prepare to face your doom, meddler."
+      ]
+    },
+    {
+      "name": "Guard Moor",
+      "name_sortable": "guardmoor",
+      "utterances": [
+        "Summon help!  We have invaders!"
       ]
     },
     {
@@ -221,7 +258,10 @@
         "671.02,-33.31,430.36",
         "679.47,-33.55,430.82",
         "802.19,-32.33,404.28",
-        "745.86,-32.91,434.80"
+        "745.86,-32.91,434.80",
+        "637.21,-33.12,408.00",
+        "647.08,-32.74,408.13",
+        "619.74,-32.99,460.28"
       ],
       "drops": [
         {
@@ -282,6 +322,10 @@
     {
       "name": "the misty stone",
       "name_sortable": "mistystone"
+    },
+    {
+      "name": "the murky ore",
+      "name_sortable": "murkyore"
     },
     {
       "name": "the natural garden",

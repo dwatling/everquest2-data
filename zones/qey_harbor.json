@@ -62,7 +62,8 @@
         "862.5,-25.37,102.98"
       ],
       "utterances": [
-        "Welcome, friend! The wares of an entire city are at your fingertips. So please make your selection."
+        "Welcome, friend! The wares of an entire city are at your fingertips. So please make your selection.",
+        "Greetings and salutations, my fair patron.  So, what is it within the confines of majestic Qeynos that I may provide for you?"
       ]
     },
     {
@@ -185,6 +186,23 @@
         "We're running low on wood, but I don't want to mention it to Overseer Scarbourough until he calms down.",
         "I'm very busy! I must get more wood! ",
         "I'm very busy! Sorry, I've no time to talk!"
+      ]
+    },
+    {
+      "name": "Dajor Botswein",
+      "name_sortable": "dajorbotswein",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "984.38,-25.47,2.19"
+      ],
+      "utterances": [
+        "Don't let the pretty waves fool you; life at sea is no holiday, what with serpents, sirens and pirates.",
+        "She's beautiful, isn't she?  And deadly."
       ]
     },
     {
@@ -505,6 +523,16 @@
       "utterances": [
         "Fresh supplies every week! Step up and see for yourself."
       ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 25756897 -1188173387:tin arrow\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        }
+      ],
       "store_template": "bowyer"
     },
     {
@@ -557,7 +585,8 @@
         "899.91,-25.37,53.7"
       ],
       "utterances": [
-        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
       ],
       "store_template": "city_merchant_origins"
     },

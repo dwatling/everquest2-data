@@ -35,7 +35,8 @@
       ],
       "utterances": [
         "Welcome! What can I help you with?",
-        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
       ],
       "store_template": "provisioner_origins"
     },
@@ -72,7 +73,8 @@
       "utterances": [
         "You can never be too careful when it comes to protection.  Here try on one of these.",
         "Coin is no object when gaining protection from your enemies.  What price can be put on your safety? ",
-        "I have some nice new suits of chain that have stood up very well.  Would you like to see them?"
+        "I have some nice new suits of chain that have stood up very well.  Would you like to see them?",
+        "Argh!  I bent the tongs again!  I must have Ironmallet fix them! Greetings, adventurer! What do you need?"
       ],
       "store_template": "armorsmith_origins"
     },
@@ -694,7 +696,34 @@
       ],
       "utterances": [
         "Welcome to my humble shop.  We have quite a selection of weapons to choose from.  See for yourself...",
-        "Never go into battle without a tried and trusted weapon. Take a look at what we have in stock."
+        "Never go into battle without a tried and trusted weapon. Take a look at what we have in stock.",
+        "Is there something you need to have custom made?  I can see if I can get one of my lads to look into it!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -606355493 -1210220550:rawhide boots\\/a",
+          "prices": [
+            {
+              "coin": 156
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 551970365 1289791004:rawhide pants\\/a",
+          "prices": [
+            {
+              "coin": 203
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 722178643 807259283:rawhide skullcap\\/a",
+          "prices": [
+            {
+              "coin": 187
+            }
+          ]
+        }
       ],
       "store_template": "tailor_origins"
     },
@@ -712,7 +741,8 @@
       ],
       "utterances": [
         "I don't understand the need for piercings, but they look fine on you.",
-        "The blessing of Tunare is the highest blessing of all."
+        "The blessing of Tunare is the highest blessing of all.",
+        "To be among the highest leaves and branches of a tree is to feel free."
       ]
     },
     {

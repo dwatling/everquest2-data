@@ -24,10 +24,12 @@
       "name": "a Bloodsaber plaguebearer",
       "name_sortable": "bloodsaberplaguebearer",
       "locations": [
-        "675.26,-33.34,417.41"
+        "675.26,-33.34,417.41",
+        "679.01,-33.27,423.17"
       ],
       "utterances": [
-        "Me going to eat your kidney first."
+        "Me going to eat your kidney first.",
+        "I'm gonna give you a smile like ol' one tooth!"
       ]
     },
     {
@@ -36,7 +38,33 @@
       "locations": [
         "658.55,-33.40,434.71",
         "603.23,-33.12,446.70",
-        "637.00,-32.64,428.47"
+        "637.00,-32.64,428.47",
+        "649.72,-33.35,434.74",
+        "699.70,-34.07,409.06",
+        "693.12,-33.26,424.00",
+        "665.45,-33.99,438.57",
+        "693.59,-34.30,409.28",
+        "749.52,-33.20,404.24",
+        "669.31,-34.27,407.89",
+        "611.05,-33.29,433.89",
+        "688.41,-34.41,440.16",
+        "694.10,-33.06,465.32",
+        "764.18,-33.37,404.75",
+        "587.60,-33.48,459.58"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1791809415 902329307:an accumulation of plasma\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1995047784 -1016770421:a mucous encrusted tendril\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 467778097 -1617601716:Advanced Artisan Volume 5\\/a",
+          "chest": true
+        }
       ]
     },
     {
@@ -49,7 +77,15 @@
         "689.14,-34.03,449.68",
         "696.47,-34.04,405.41",
         "652.84,-33.48,435.88",
-        "774.07,-34.25,394.85"
+        "774.07,-34.25,394.85",
+        "692.02,-33.70,434.70",
+        "693.58,-34.05,414.91",
+        "692.37,-33.96,443.34",
+        "691.35,-34.11,407.04",
+        "794.76,-33.90,394.43",
+        "702.61,-33.15,409.04",
+        "616.35,-33.03,433.85",
+        "760.77,-33.46,401.05"
       ],
       "drops": [
         {
@@ -75,6 +111,14 @@
         {
           "gamelink": "\\aITEM -1900387289 668888967:bronze knuckles\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -921260083 1810690739:Double Shot (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -535538128 1781778535:bronze short sword\\/a",
+          "chest": true
         }
       ]
     },
@@ -85,7 +129,14 @@
         "690.21,-33.95,448.42",
         "666.62,-33.50,412.61",
         "699.42,-32.78,400.13",
-        "644.68,-32.74,434.30"
+        "644.68,-32.74,434.30",
+        "697.82,-34.15,408.53",
+        "696.11,-33.24,436.81",
+        "697.44,-33.29,418.94",
+        "793.33,-34.39,393.53",
+        "690.41,-33.27,429.02",
+        "755.25,-34.12,406.88",
+        "760.00,-33.16,397.98"
       ],
       "drops": [
         {
@@ -163,7 +214,9 @@
       "name": "Guard Moor",
       "name_sortable": "guardmoor",
       "utterances": [
-        "Summon help!  We have invaders!"
+        "Summon help!  We have invaders!",
+        "To arms!",
+        "Prepare to face your doom, meddler."
       ]
     },
     {
@@ -198,7 +251,9 @@
       ],
       "utterances": [
         "Confound it! Where did I put that ledger?  It must be around here somewhere!",
-        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Welcome! What can I help you with?"
       ],
       "store": [
         {
@@ -261,12 +316,25 @@
         "745.86,-32.91,434.80",
         "637.21,-33.12,408.00",
         "647.08,-32.74,408.13",
-        "619.74,-32.99,460.28"
+        "619.74,-32.99,460.28",
+        "659.03,-33.11,414.41",
+        "617.84,-33.09,412.77",
+        "782.96,-33.39,399.10",
+        "642.16,-32.93,414.41",
+        "685.58,-33.32,429.63"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM -1659113820 446323017:rawhide leather pelt\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 216783527 -145256761:Minor Recovery (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -311462812 1191822828:malachite earring\\/a",
+          "chest": true
         }
       ]
     },
@@ -301,11 +369,23 @@
       "utterances": [
         "Curious to see how quickly these creatures have grown in recent times."
       ]
+    },
+    {
+      "name": "a sporeal seedling",
+      "name_sortable": "sporealseedling",
+      "locations": [
+        "628.61,-33.53,452.40",
+        "625.21,-33.23,439.24",
+        "630.22,-32.97,430.36"
+      ]
     }
   ],
   "shinies": [
     {
       "gamelink": "\\aITEM -327615186 -1572251097:plain violet butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -2008154588 -2059816185:scuffed shard of evocation\\/a"
     },
     {
       "gamelink": "\\aITEM -1722451200 1090205410:shattered gnome bone fragment\\/a"
@@ -316,8 +396,16 @@
   ],
   "resourceNodes": [
     {
+      "name": "an assortment of fish",
+      "name_sortable": "assortmentoffish"
+    },
+    {
       "name": "the creature den",
       "name_sortable": "creatureden"
+    },
+    {
+      "name": "the dense felled arbor",
+      "name_sortable": "densefelledarbor"
     },
     {
       "name": "the misty stone",

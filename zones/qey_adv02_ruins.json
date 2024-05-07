@@ -53,7 +53,10 @@
         "Good, that's great news. The first thing I'd like you to do is help me locate a missing scout. Del Varun was assigned to the small pond on the western side of the ruins. He hasn't checked back in and hasn't been spotted in a few days. I'd like you to head that direction and see if you can find him.",
         "Don't be foolish. Don't get yourself hurt, but if you notice anything that might lead us to him, please let me know.",
         "What is it, citizen?",
-        "I recognize this design... I hope this doesn't mean what I think it means. The gnolls may be on the move. Proof of this would spur Qeynos to move, but a single arrow is not proof."
+        "I recognize this design... I hope this doesn't mean what I think it means. The gnolls may be on the move. Proof of this would spur Qeynos to move, but a single arrow is not proof.",
+        "Alright, let's see. Hmm, you say you found this here? As in the Forest Ruins?",
+        "This is disturbing. This looks like gnollish. It may be some random coincidence or the gnolls may be on the move, and Qeynos isn't sending anymore guards out here for the time being.",
+        "Don't be foolish. Don't get yourself hurt, but if you notice anything that might lead us to him please let me know about it."
       ],
       "quests": [
         {
@@ -556,6 +559,22 @@
       ]
     },
     {
+      "name": "Dockins",
+      "name_sortable": "dockins",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "1001.41,-22.25,-553.89"
+      ],
+      "utterances": [
+        "Good day, citizen."
+      ]
+    },
+    {
       "name": "Elvic Garrett",
       "name_sortable": "elvicgarrett",
       "race": [
@@ -573,7 +592,9 @@
         "Ah, this is fortuitious. It has been some time since Daelyn has written something. My mind has been occupied as of late, I may have to save reading this for a time when I can focus more on my people.",
         "My mind is occupied with these lands. Something is off, though I know not what. I offered my assistance to the Qeynos guard, but haven't turned up anything yet.",
         "Perhaps you can. I've been patrolling the land around the ruins lately, occasionally I come across abandoned camps. Usually a fire pit or a collection of firewood that hasn't yet been burnt. Sometimes these abandoned camps have what may end up being clues, other times they contain worthless junk. If you could do me the favor of seeking out these camps it may help unwravel the mystery that is going on here.",
-        "Thank you.  I am sure this will be very helpful."
+        "Thank you.  I am sure this will be very helpful.",
+        "Have you found any clues yet?",
+        "Hm, let me see that. Hmm, this note is written in gnollish. This... the Qeynos Guard needs to know of this, immediately. You must take this to Lieutenant Germain, he will know what to do. Offer him whatever help you can. And... thank you."
       ],
       "quests": [
         {
@@ -593,7 +614,8 @@
         "1053.69,-18.47,-611.59",
         "1020.22,-18.90,-626.20",
         "1009.86,-18.82,-631.09",
-        "1015.61,-19.01,-648.98"
+        "1015.61,-19.01,-648.98",
+        "1028.86,-19.12,-612.24"
       ],
       "drops": [
         {
@@ -669,7 +691,8 @@
         "1007.98,-19.29,-623.50",
         "1020.22,-18.90,-626.20",
         "1009.86,-18.82,-631.09",
-        "1024.79,-19.01,-648.98"
+        "1024.79,-19.01,-648.98",
+        "1037.87,-20.14,-606.73"
       ],
       "drops": [
         {
@@ -735,7 +758,8 @@
         "May you do so without coming to harm.",
         "Have you found a clue yet?",
         "You found this arrow here? You are certain?",
-        "This arrow is of gnollish make. It may have gotten here by innocent means, or a gnoll may have brought it here. If the gnolls are moving in then the Qeynos Guard will be very interested. I want you to take this arrow to Lieutenant Germain. Tell him where you found it, he will be most interested to hear this."
+        "This arrow is of gnollish make. It may have gotten here by innocent means, or a gnoll may have brought it here. If the gnolls are moving in then the Qeynos Guard will be very interested. I want you to take this arrow to Lieutenant Germain. Tell him where you found it, he will be most interested to hear this.",
+        "There is no failing greater than a child unable to protect a parent."
       ],
       "quests": [
         {
@@ -801,12 +825,19 @@
         "957.09,-28.85,-602.39",
         "966.48,-29.28,-590.01",
         "980.12,-29.86,-609.05",
-        "950.00,-28.50,-590.52"
+        "950.00,-28.50,-590.52",
+        "966.78,-27.11,-596.46",
+        "953.49,-27.16,-596.69",
+        "955.62,-27.11,-612.88"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 345112318 805644505:turtle meat\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 63211282 2010308565:Kick (Adept I)\\/a",
+          "chest": true
         }
       ]
     },
@@ -938,6 +969,12 @@
     {
       "name": "Remmy Tumbub",
       "name_sortable": "remmytumbub",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "1013.54,-22.38,-577.77"
       ],
@@ -964,7 +1001,10 @@
         "1033.71,-21.57,-588.75",
         "1030.36,-21.67,-593.81",
         "1040.03,-21.12,-592.61",
-        "1031.44,-19.79,-599.89"
+        "1031.44,-19.79,-599.89",
+        "1026.43,-21.77,-598.82",
+        "1036.00,-20.27,-606.73",
+        "1041.45,-20.68,-598.94"
       ],
       "drops": [
         {
@@ -974,6 +1014,26 @@
         {
           "gamelink": "\\aITEM -2059754501 -1803583786:a poison gland\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2098664565 110889718:Advanced Artisan Volume 6\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1890619312 1474986940:bronze harpoon\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1818901842 -1476400509:a damaged low quality snake skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1166576126 -1541417864:waxed tunic\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 467778097 -1617601716:Advanced Artisan Volume 5\\/a",
+          "chest": true
         }
       ]
     },
@@ -1279,12 +1339,29 @@
         "1099.96,-23.79,-701.33",
         "1128.23,-23.17,-660.48",
         "1112.32,-23.36,-673.60",
-        "988.23,-24.24,-603.95"
+        "988.23,-24.24,-603.95",
+        "985.43,-26.02,-598.29",
+        "976.10,-29.65,-595.63",
+        "983.00,-26.30,-622.00",
+        "965.29,-21.88,-641.35",
+        "941.44,-26.25,-624.39"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 1852418953 1450020491:turtle meat\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2098664565 110889718:Advanced Artisan Volume 6\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1123670209 -1456067402:turtle shell\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 785690852 665888271:Sand Blast (Adept I)\\/a",
+          "chest": true
         }
       ]
     },
@@ -1357,7 +1434,8 @@
       "utterances": [
         "Careful near those ruins, friend!  It's a magical place and full of danger!",
         "Watch yourself near those ruins. They are dangerous!",
-        "Watch yourself near those ruins, they are dangerous!"
+        "Watch yourself near those ruins, they are dangerous!",
+        "Careful near those ruins friend!  It's a magical place and full of danger!"
       ]
     },
     {
@@ -1468,6 +1546,14 @@
       "drop_coin_max": 33
     },
     {
+      "name": "a tool guardian",
+      "name_sortable": "toolguardian",
+      "locations": [
+        "1032.29,-21.57,-585.06",
+        "1040.15,-21.99,-582.39"
+      ]
+    },
+    {
       "name": "Winterburn",
       "name_sortable": "winterburn",
       "level": 25,
@@ -1490,11 +1576,32 @@
         "1023.39,-22.13,-571.66",
         "1015.24,-22.91,-584.88",
         "994.57,-24.46,-583.62",
-        "1008.71,-23.00,-605.25"
+        "1008.71,-23.00,-605.25",
+        "936.44,-20.06,-560.24",
+        "958.88,-23.23,-557.29",
+        "1000.59,-22.27,-567.59",
+        "991.59,-24.16,-572.61",
+        "967.27,-24.17,-559.12",
+        "1023.32,-21.95,-578.40",
+        "966.76,-24.06,-564.36",
+        "985.53,-24.60,-575.43",
+        "992.65,-24.37,-590.74"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM -1753327823 1032961193:Far Seas Trading Requisition FRN0378\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1377657043 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1080130292 -1731950312:bronze hatchet\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1284315391 1116309167:Brawler's Stance (Adept I)\\/a",
           "chest": true
         }
       ]
@@ -1522,6 +1629,9 @@
       "locations": [
         "941.93,-20.00,-637.84"
       ]
+    },
+    {
+      "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a"
     },
     {
       "gamelink": "\\aITEM 1612899270 -1960681747:conch shell\\/a",

@@ -259,12 +259,14 @@
       "purpose": "Qeynos Guard",
       "locations": [
         "754.02,-24.8,335.56",
-        "769.47,-25.81,352.19"
+        "769.47,-25.81,352.19",
+        "761.56,-25.04,341.6"
       ],
       "utterances": [
         "Good day to you.  I've been hearing reports that the Peat Bog isn't safe right now.  I hope you didn't have any trouble if you came in that way.",
         "The Bog Sludges have swelled in number, spreading like pestilence.  This vermin has become a serious menace to the refugees in that region.  The Sludges must be exterminated for the safety of the people.  I hope you're not too squeamish for such a job.  ",
-        "Excellent!  Go to the Peat Bog, slay several sludges and report back to me.  I will reward you for your service to Qeynos. "
+        "Excellent!  Go to the Peat Bog, slay several sludges and report back to me.  I will reward you for your service to Qeynos. ",
+        "You are truly valuable to Qeynos.  I'm already receiving optimistic reports that the Bog Sludge are finally under control.  Please accept this reward for a job well done."
       ]
     },
     {
@@ -543,7 +545,34 @@
         "770.53,-24.86,326.33"
       ],
       "utterances": [
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -794330433 -1667077087:rawhide gloves\\/a",
+          "prices": [
+            {
+              "coin": 172
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 286601620 432915096:rawhide shoulder pads\\/a",
+          "prices": [
+            {
+              "coin": 187
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 333400460 1385962076:rawhide wristguards\\/a",
+          "prices": [
+            {
+              "coin": 156
+            }
+          ]
+        }
       ],
       "store_template": "tailor_origins"
     },
@@ -603,6 +632,13 @@
       ],
       "utterances": [
         "Hmm ... you appear no more knowledgeable than this silly human we've collared.  Oh well.\t\t\t\t"
+      ]
+    },
+    {
+      "name": "Zinun Loospakina",
+      "name_sortable": "zinunloospakina",
+      "utterances": [
+        "Welcome! What can I help you with?"
       ]
     }
   ]

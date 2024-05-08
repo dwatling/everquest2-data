@@ -1,0 +1,405 @@
+{
+  "name": "Longshadow Alley",
+  "name_sortable": "longshadowalley",
+  "flags": "origins",
+  "region": "D'Lere",
+  "zonerect": "-185.63,-147.51,165.21,126.03",
+  "type": "village",
+  "connections": [
+    {
+      "key": "fprt_sewer01",
+      "location": "43.13,-0.87,-23.07"
+    },
+    {
+      "key": "fprt_adv02_graveyard",
+      "location": "53.63,-2.00,-19.84"
+    },
+    {
+      "key": "fprt_tradeskill01_hood05",
+      "location": "15.47,0.62,4.63"
+    },
+    {
+      "key": "freeport_combined",
+      "location": "16.10,3.00,75.60"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Alanaramal Z'Aste",
+      "name_sortable": "alanaramalzaste",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Crafting Trainer",
+      "locations": [
+        "13.14,0.0,7.77"
+      ],
+      "utterances": [
+        "You show interest in the crafting trade, good.  Freeport can always use talented artisans within the walls of our great city.  I can help you get started and offer you some of the basic recipes at no charge.  Would you be interested?",
+        "There, you now have the basic recipes and the knowledge to begin crafting.  Everything else you need to get yourself started can be found right here.",
+        "You have learned everything I have to teach at the moment.  You are free to use our crafting facilities to hone your skills."
+      ],
+      "store_template": "crafting_trainer_origins"
+    },
+    {
+      "name": "Aldera V'Exxa",
+      "name_sortable": "alderavexxa",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Dark Elf Mentor",
+      "locations": [
+        "-50.6,-4.66,-63.53"
+      ]
+    },
+    {
+      "name": "Armsdealer T`Nyvez",
+      "name_sortable": "armsdealertnyvez",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Weaponsmith",
+      "locations": [
+        "16.96,0.0,-2.14"
+      ],
+      "utterances": [
+        "The only thing separating you from death in this city are your wits.  I wouldn't call that adequate protection."
+      ],
+      "store_template": "weaponsmith_origins"
+    },
+    {
+      "name": "Brelslade",
+      "name_sortable": "brelslade",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Mender",
+      "locations": [
+        "24.62,-0.01,-16.27"
+      ],
+      "utterances": [
+        "I can emphatically say repairing weapons is much more reliable than buying new ones.  Would I lie?",
+        "You need help fixing that pile of junk?  Well it's going to cost you."
+      ]
+    },
+    {
+      "name": "Cizra J`Yax",
+      "name_sortable": "cizrajyax",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "2.06,0.0,-28.79"
+      ],
+      "utterances": [
+        "The Seafuries are just a bunch of ruffians that pirate ships and trade on the black market.",
+        "The Dismal Rage is such a group of pure evil, that how they be trusted to heal anyone.",
+        "How is it any different to overprice your goods than to steal a few coin from an unsuspecting customer? Such are the ways of the Coalition of Tradefolke. Be careful if you ever deal with them."
+      ]
+    },
+    {
+      "name": "Divek L`Narr",
+      "name_sortable": "diveklnarr",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-0.65,0.35,26.91"
+      ]
+    },
+    {
+      "name": "Ezria M'Linar",
+      "name_sortable": "ezriamlinar",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-10.19,0.12,-19.27"
+      ],
+      "utterances": [
+        "Ah.  How lovely.  Perhaps you are a fellow sophisticate with a palate for the finer things?  I am a vintner, you see.  Ezria M'Linar is my name.  My wines capture the essence of a long lost Neriak."
+      ]
+    },
+    {
+      "name": "Imnat D`Vren",
+      "name_sortable": "imnatdvren",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "24.45,0.49,5.17"
+      ],
+      "utterances": [
+        "Bah! That Maliz keeps breaking everything. He's not allowed near what little furniture we have left! What do you want? Can't you see I'm busy!"
+      ]
+    },
+    {
+      "name": "Innkeeper T`Mel",
+      "name_sortable": "innkeepertmel",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-51.64,2.39,4.47"
+      ],
+      "utterances": [
+        "Hello <player name>, I am the Innkeeper for this district. We have received word of your arrival and have a room prepared for you.  Would you like to know more about housing?",
+        "What would you like to know?",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ]
+    },
+    {
+      "name": "Juturna Postumus",
+      "name_sortable": "juturnapostumus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-44.87,-3.0,-38.69"
+      ]
+    },
+    {
+      "name": "K`Tolia",
+      "name_sortable": "ktolia",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Alchemist",
+      "locations": [
+        "-21.24,0.0,14.77"
+      ],
+      "utterances": [
+        "Be careful what you touch in here. You're liable to kill us all!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 331790605 -1707704134 0 0 0:odyssey stone\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -182855303 1967098650 0 0 0:softly glowing pearl\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        }
+      ],
+      "store_template": "alchemist_origins"
+    },
+    {
+      "name": "L`Dor",
+      "name_sortable": "ldor",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Armorsmith",
+      "locations": [
+        "-56.34,-4.66,-62.1"
+      ],
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item."
+      ],
+      "store_template": "armorsmith_origins"
+    },
+    {
+      "name": "Lotni K`Iria",
+      "name_sortable": "lotnikiria",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-23.35,-1.5,-29.25"
+      ],
+      "utterances": [
+        "Another refugee... What do YOU want, peasant?"
+      ]
+    },
+    {
+      "name": "Lynsia T'Kanix",
+      "name_sortable": "lynsiatkanix",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "-4.28,0.0,-19.29"
+      ],
+      "utterances": [
+        "The wine I serve tastes like the wines of Neriak. Ah ... how I miss drinking the fine wine of my homeland. Now, what do you want, peasant?"
+      ],
+      "store_template": "provisioner_origins"
+    },
+    {
+      "name": "Maliz T`Raan",
+      "name_sortable": "maliztraan",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "23.45,0.49,1.98"
+      ],
+      "utterances": [
+        "Living in these slums is sickening! What do you want from me?"
+      ]
+    },
+    {
+      "name": "Modian K`Jarr",
+      "name_sortable": "modiankjarr",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-2.54,0.0,-20.59"
+      ],
+      "utterances": [
+        "If you couldn't tell, I'm enjoying a drink. Now that your curiousity has been sated, perhaps you'll leave me alone?"
+      ]
+    },
+    {
+      "name": "Sh`Nra",
+      "name_sortable": "shnra",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Shieldsmith",
+      "locations": [
+        "21.09,-0.01,-11.3"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "shieldsmith_origins"
+    },
+    {
+      "name": "T`Gask",
+      "name_sortable": "tgask",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Tailor",
+      "locations": [
+        "-18.03,0.0,-7.51"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store_template": "tailor_origins"
+    },
+    {
+      "name": "T`Val",
+      "name_sortable": "tval",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Banker",
+      "locations": [
+        "-31.85,1.11,11.6"
+      ],
+      "utterances": [
+        "Hail to you.  Currency exchange, secure storage of goods, I offer a range of services tailored to the needs of Freeport guild members."
+      ]
+    },
+    {
+      "name": "V`Dyhn",
+      "name_sortable": "vdyhn",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bowyer",
+      "locations": [
+        "-9.77,0.0,19.83"
+      ],
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item."
+      ],
+      "store_template": "bowyer_origins"
+    },
+    {
+      "name": "Vorshar L`Faz",
+      "name_sortable": "vorsharlfaz",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "2.01,0.0,-28.76"
+      ],
+      "utterances": [
+        "Those Seafury Buccaneers wouldn't know what a fair deal was if it hit them on the head.",
+        "The withering hands of the Dismal Rage priests look more like hands of death than hands that can heal people.",
+        "There's nothing that the Coalition of Tradesfolke can't make a profit out of.",
+        "The arcane scientists hone their minds through the study of arcane arts, but they will never become as cunning as a skilled trader."
+      ]
+    }
+  ]
+}

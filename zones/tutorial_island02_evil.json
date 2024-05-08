@@ -72,14 +72,16 @@
         "Hellos <player name>, Tayil sent word you were comings.  I's been scouting out the nearby areas, trying to get a better feels of what we's up against.  Beastmasters these Tunarians are, training the wild animals of the island to fight for them!",
         "I'm not ready for you yet, adventurer.  Speak with Tayil N'Velex back at the outpost to prepare yourself for my tasks.",
         "Examine and then release the molerats from your inventory when you thinks you are in a good position to lure down the hawks in Cliffdiver Canyon to the west.  Then dispose of the hawks.",
-        "Here is some mores of the little pudgies!  Have fun."
+        "Here is some mores of the little pudgies!  Have fun.",
+        "The cliffdiver hawks perch high up and watch for foods to attack below. I's got some food for them right here, haha! Take these mole rats and when you think you are in a good position below the hawks, examine them in your inventory and release one. Return if you needs more."
       ]
     },
     {
       "name": "Asyl Lysarz",
       "name_sortable": "asyllysarz",
       "utterances": [
-        "Chef Gorga better hurry up!  I'm getting hungry."
+        "Chef Gorga better hurry up!  I'm getting hungry.",
+        "Return to me if you need an extra sword."
       ]
     },
     {
@@ -244,7 +246,9 @@
         "So, ye ready ta go ashore matey? I can take ye all the way to Freeport or just as far as Neriak.",
         "Ya' best be sure ta' explore the whole island, ya' hear!  Norrath can be a dangerous place ya' know?",
         "Yar! That's what we be needin'.  Okay then, off to Freeport!",
-        "Don't ya' mind, we get paid ta' do that."
+        "Don't ya' mind, we get paid ta' do that.",
+        "So, ya' ready ta go ashore matey?",
+        "Yar! That's what we be needin'.  Ok then, off to Freeport!"
       ]
     },
     {
@@ -282,7 +286,10 @@
         "I appreciate it, <player name>.  Whatever glory comes of this, we'll share in the credit.  I'm sure this will more than make up for the work I've done that others have taken credit for.",
         "The Tunarian note is still incomplete, but this may be enough to advance our prestige, <player name>. You know, you're very good at this kind of thing. Tell me, would you be interested in helping me on a more personal level?",
         "I see.  I hadn't expected that.  The main thing is that Laena will no longer...bother me.  I wonder, though...who could've killed her?  We may never know...and I can marry my betrothed in peace. Thank you, <player name>.  ",
-        "Those wood elf vixens are vile creatures who lure good men to their destruction!"
+        "Those wood elf vixens are vile creatures who lure good men to their destruction!",
+        "Your reputation precedes you -- as will mine, someday soon.  When I return to Freeport, my prestige will bring honor to my family.  I came here to make a name for myself, but it's been difficult to stand out in the crowd.  I have a new  assignment and it's puzzling me.  Would you help me unravel it?",
+        "A word of warning: be wary of those wood elves.  They are more cunning than others may realize.",
+        "Also unfortunately, I've found myself unnaturally attracted to one of those Tunarian spies.  A wood elf...she's graceful, beautiful and deadly.  Nothing must come of this fancy of mine.  I cannot let my reputation be sullied by even the merest hint of a romance with one of their kind."
       ]
     },
     {
@@ -304,7 +311,9 @@
         "Heeheehee!  Toss 'em in and smell the Gorga magic.  The stew is done now!  Head back to Tayil, she's waitin' for ya.",
         "Mmm, this stew is yums.  Livers!",
         "Gorga not cook someone by that name. Not yet.",
-        "Ahh yes, <player name>, Tayil said you were comin'.  Good then, Gorga can stir the pot while you goes to collect more ingredients.  Heeheehee!"
+        "Ahh yes, <player name>, Tayil said you were comin'.  Good then, Gorga can stir the pot while you goes to collect more ingredients.  Heeheehee!",
+        "Ahh yes, <player name>, Tayil said you comin'.  Good then, Gorga can stir the pot while you goes to collect more ingredients.  Heeheehee!",
+        "Heeheehee!  Toss 'em in and smell the Gorga magic.  The stew is done now!  Head back to Tayil, she's waitin' for you."
       ]
     },
     {
@@ -335,7 +344,12 @@
         "Head back into the Wilderwood and take out sssome of these horse sentries. The more you slay, the more Qeynosians will be sent to investigate, which will provide our chance to attack. Return to me when the deed is done. By the way, I'll take those ore samples and make ssssure they find their way to Tayil.",
         "Sssso <player name>, ready for a little sabotage? The mine is inside the Wilderwood in the far eastern corner.",
         "You have done enough, <player name>. Tunarian reinforcementsss are on their way to the Wilderwood. Our time for attack is now! Tayil will be glad to hear of your work. Speaking of Tayil, take these sssealed orders. She sssent them for you, and if I were you I would not ignore them.",
-        "You are not yet ready to take on the tasks I will offer you. Return to Tayil N'Velex outside Sythor's Spire if you are unsure how to prepare yourself."
+        "You are not yet ready to take on the tasks I will offer you. Return to Tayil N'Velex outside Sythor's Spire if you are unsure how to prepare yourself.",
+        "So <player name>, ready for a little ssabotage? The mine is inside the Wilderwood in the far eastern corner.",
+        "Head in there and sstir up the hornet's nest. Take out some of their miners, and while you're at it, grab some of the loose ore around the mine. Tayil wants to know what it is that they're mining.",
+        "Nice work! As you probably noticed, there are additional Tunarian horse sentries being sent into the Wilderwood to check on the mine. We need another distraction to thin out the Qeynosian forces even more. It's time to deal with those meddling sentries once and for all.",
+        "Head back into the Wilderwood and take out some of these horse sentries. The more you slay, the more Qeynosians will be sent to investigate, which will provide our chance to attack. Return to me when the deed is done. By the way, I'll take those ore samples and make sure they find their way to Tayil.",
+        "You have done enough, <player name>. Tunarian reinforcements are on their way to the Wilderwood. Our time for attack is now! Tayil will be glad to hear of your work. Speaking of Tayil, take these sealed orders. She sent them for you, and if I were you I would not ignore them."
       ]
     },
     {
@@ -793,7 +807,8 @@
         "-28.05,-4.31,123.81"
       ],
       "utterances": [
-        "Hello there, <player name>. Menders like me repair your equipment after it gets damaged due to death. To learn more about repairs, speak to Trainer Vissa Sathliss nearby. I'll fix your gear for a small fee, but menders in Freeport won't be quite so generous!"
+        "Hello there, <player name>. Menders like me repair your equipment after it gets damaged due to death. To learn more about repairs, speak to Trainer Vissa Sathliss nearby. I'll fix your gear for a small fee, but menders in Freeport won't be quite so generous!",
+        "I can fix things that are damaged in battle."
       ]
     },
     {
@@ -878,7 +893,8 @@
       ],
       "utterances": [
         "Die, Freeport scum!",
-        "For the Queen!"
+        "For the Queen!",
+        "By the shattered towers of Feyspire!"
       ]
     },
     {
@@ -930,7 +946,9 @@
         "I should be out on the front lines!",
         "I can't wait to get back and hit the Seafarer's Roost for an ale.",
         "I hear Chef Gorga's almost done with our daily stew.  Livers!",
-        "Was it slash then parry or parry then slash?"
+        "Was it slash then parry or parry then slash?",
+        "I'll arm wrestle you for it tonight, but it was my kill!",
+        "Keep moving!  Plenty of new faces to talk to when our shift is over."
       ],
       "faction_changes": [
         {
@@ -1139,7 +1157,12 @@
           "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
           "prices": [
             {
-              "coin": 60
+              "coin": 60,
+              "flags": "live"
+            },
+            {
+              "coin": 360,
+              "flags": "origins"
             }
           ]
         },
@@ -1147,7 +1170,12 @@
           "gamelink": "\\aITEM -1135016146 -1004037174 0 0 0:Abrasive Goo\\/a",
           "prices": [
             {
-              "coin": 6
+              "coin": 6,
+              "flags": "live"
+            },
+            {
+              "coin": 12,
+              "flags": "origins"
             }
           ]
         },
@@ -1163,7 +1191,12 @@
           "gamelink": "\\aITEM -1160945340 264223696 0 0 0:elm cudgel\\/a",
           "prices": [
             {
-              "coin": 107
+              "coin": 107,
+              "flags": "live"
+            },
+            {
+              "coin": 95,
+              "flags": "origins"
             }
           ]
         },
@@ -1171,7 +1204,12 @@
           "gamelink": "\\aITEM 1605585747 -948317661 0 0 0:elm fighting batons\\/a",
           "prices": [
             {
-              "coin": 107
+              "coin": 107,
+              "flags": "live"
+            },
+            {
+              "coin": 95,
+              "flags": "origins"
             }
           ]
         },
@@ -1179,7 +1217,12 @@
           "gamelink": "\\aITEM 2064070816 -1905001275 0 0 0:elm quarterstaff\\/a",
           "prices": [
             {
-              "coin": 107
+              "coin": 107,
+              "flags": "live"
+            },
+            {
+              "coin": 95,
+              "flags": "origins"
             }
           ]
         },
@@ -1195,7 +1238,12 @@
           "gamelink": "\\aITEM 1206095393 892813570 0 0 0:elm wand\\/a",
           "prices": [
             {
-              "coin": 126
+              "coin": 126,
+              "flags": "live"
+            },
+            {
+              "coin": 107,
+              "flags": "origins"
             }
           ]
         },
@@ -1276,6 +1324,9 @@
           "prices": [
             {
               "coin": 54
+            },
+            {
+              "coin": 120
             }
           ]
         },
@@ -1363,7 +1414,12 @@
           "gamelink": "\\aITEM -697935287 1662288093 0 0 0:tin dagger\\/a",
           "prices": [
             {
-              "coin": 107
+              "coin": 107,
+              "flags": "live"
+            },
+            {
+              "coin": 95,
+              "flags": "origins"
             }
           ]
         },
@@ -1787,7 +1843,16 @@
         "Gorga was impressed with your handiwork. I'm sure the outpost Militia guards will be pleased with her stew, though I can't stomach troll cooking myself. You show potential indeed, <player name>. As promised, here is your reward.",
         "So, <player name>, are you ready to prove your worth again?",
         "Your bravery has been noted, young one. The Tunarian Circle of Elders was defeated and their treasure is ours. The Militia troops will remain here to clear out the remaining Qeynosians, but they present no danger to us.",
-        "It was my pleasure to fight beside you. I have no doubt that you will be well received in Freeport. When you are ready to leave the outpost and venture to our great city, speak with Captain Varlos on the deck of the Far Journey. His ship is waiting on the dock through the south archway. Farewell."
+        "It was my pleasure to fight beside you. I have no doubt that you will be well received in Freeport. When you are ready to leave the outpost and venture to our great city, speak with Captain Varlos on the deck of the Far Journey. His ship is waiting on the dock through the south archway. Farewell.",
+        "I am Tayil N'Velex, attendant and confidant of the Overlord. I am here to ensure that our operation on this island is successful. You, on the other hand, will be assisting us with some field work to help prepare you for life as a citizen of Freeport.",
+        "Indeed, cunning and subtlety are often effective. And who is more cunning and subtle than an assassin? We've established a camp through the archway to the west, at the far end of Seaside Glade. Go there and speak to Assassin Vamir, who has devised a plan to strike at the heart of the Tunarians.",
+        "Perhaps you did not read my note.  Are you prepared to lend your services to the Overlord once again?",
+        "We have discovered that the Tunarian Alliance's main source of income is from a mine in the Wilderwood. The mine is the perfect setting to employ our next strategy for conquering the island: distraction. By causing a disruption at the mine, it will allow us to flank the Qeynosians from the opposite side.",
+        "Who better to teach you the fine art of distraction than a coercer? Return to the camp in Seaside Glade where Coercer Zlith will fill you in on the details of our plan.  Report back to me after you have succeeded against the Tunarians.",
+        "The Tunarian Alliance's resources are dwindling and their forces are focused on defending the mine. The time has come to strike the final blow. Are you prepared to face your greatest challenge so far?",
+        "The Militia has pushed through the Tunarian Alliance's line into the Valley of Discipline, the area they use to train their animals. Our forces have set up a forward camp in an alcove located in the eastern portion of the valley near the archway leading to the falls.",
+        "The Militia is using this position as our point of attack. Go to the camp and seek out Captain Tyreth, the leader of the forward operation. He will direct your efforts in this final phase of the assault. We will drive out the Tunarian Alliance and take their treasures as our own!",
+        "The Overlord is counting on you."
       ]
     },
     {
@@ -2393,7 +2458,9 @@
         "32.23,-5.64,122.19"
       ],
       "utterances": [
-        "You can attack me whenever you're ready. You can do that by double-clicking me, by right clicking me and selecting \"attack,\" by using an offensive ability while you have me targeted, or by turning on auto attack by pressing the ~ key while you have me targeted."
+        "You can attack me whenever you're ready. You can do that by double-clicking me, by right clicking me and selecting \"attack,\" by using an offensive ability while you have me targeted, or by turning on auto attack by pressing the ~ key while you have me targeted.",
+        "Well done!",
+        "Next!"
       ]
     },
     {
@@ -2671,12 +2738,20 @@
       "name_sortable": "buddingnaturalgarden"
     },
     {
+      "name": "the coffee bush",
+      "name_sortable": "coffeebush"
+    },
+    {
       "name": "the felled elm tree",
       "name_sortable": "felledelmtree"
     },
     {
       "name": "the roots",
       "name_sortable": "roots"
+    },
+    {
+      "name": "the rugged ore",
+      "name_sortable": "ruggedore"
     },
     {
       "name": "the rugged stones",

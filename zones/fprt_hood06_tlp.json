@@ -1,0 +1,28 @@
+{
+  "name": "Scale Yard",
+  "name_sortable": "scaleyard",
+  "flags": "origins",
+  "region": "D'Lere",
+  "zonerect": "-269.50,-123.97,214.44,240.80",
+  "type": "village",
+  "connections": [
+    {
+      "key": "freeport_combined",
+      "location": "-10.40,-5.00,-10.70"
+    },
+    {
+      "key": "fprt_sewer01",
+      "location": "36.53,-3.51,-30.56"
+    },
+    {
+      "key": "fprt_tradeskill01_hood06",
+      "location": "12.39,-3.75,25.45"
+    },
+    {
+      "key": "fprt_adv04_spawl",
+      "location": "101.20,-4.44,20.11"
+    }
+  ],
+  "npcs": [
+  ]
+}

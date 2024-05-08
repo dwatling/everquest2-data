@@ -2,6 +2,7 @@
   "name": "Freeport East",
   "name_sortable": "freeporteast",
   "region": "D'Lere",
+  "zonerect": "-12.08,-230.06,526.27,181.38",
   "type": "city",
   "npcs": [
     {
@@ -229,6 +230,23 @@
         "I have more talent in my tail than you have in your entire body.",
         "Were all the barbarians to be slaughtered, I would call it a mercy killing.",
         "Silence.  I do not wish to hear your chatter."
+      ]
+    },
+    {
+      "name": "Josef",
+      "name_sortable": "josef",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-191.6,-57.3,109.88"
+      ],
+      "utterances": [
+        "Are you threatening me?",
+        "Hey!  A deal is a deal.  Until a better one comes along."
       ]
     },
     {

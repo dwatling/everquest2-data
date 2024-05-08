@@ -2,9 +2,699 @@
   "name": "Freeport North",
   "name_sortable": "freeportnorth",
   "region": "D'Lere",
+  "zonerect": "-179.19,-422.78,367.82,-11.37",
   "type": "city",
-  "connections": [
-  ],
   "npcs": [
+    {
+      "name": "Archivist Jindlefog",
+      "name_sortable": "archivistjindlefog",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Arcane Scientist",
+      "locations": [
+        "8.31,-37.95,-122.48"
+      ],
+      "utterances": [
+        "At last! Someone who recognizes my refined upbringing and overabundance of natural qualities. Arise, humble servant!  Here we are all loyal subjects of the Overlord."
+      ]
+    },
+    {
+      "name": "Azrael",
+      "name_sortable": "azrael",
+      "locations": [
+        "-71.62,-34.59,-281.06"
+      ]
+    },
+    {
+      "name": "Brinegaggle",
+      "name_sortable": "brinegaggle",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Merchant",
+      "locations": [
+        "4.73,-34.26,-149.43"
+      ],
+      "utterances": [
+        "The stuff's over there.  Just let me know if you find anything you like."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1668863364 150215911 0 0 0:a heretic's cauldron\\/a",
+          "requirements": {
+            "faction": "The Academy of Arcane Science=10000"
+          },
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 907926368 1788776844 0 0 0:a necromantic skull lamp\\/a",
+          "requirements": {
+            "faction": "The Academy of Arcane Science=30000"
+          },
+          "prices": [
+            {
+              "coin": 48000,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 522230146 -1341500544 0 0 0:Ally: Academy of Arcane Sciences\\/a",
+          "requirements": {
+            "faction": "The Academy of Arcane Science=40000"
+          },
+          "prices": [
+            {
+              "coin": 3686400,
+              "status": 50000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1256438961 1499309453 0 0 0:an academy canopic pot\\/a",
+          "requirements": {
+            "faction": "The Academy of Arcane Science=10000"
+          },
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2108308366 1879783819 0 0 0:an academy lab table\\/a",
+          "requirements": {
+            "faction": "The Academy of Arcane Science=10000"
+          },
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -854885715 1459519748 0 0 0:an arcane lab distillery set\\/a",
+          "requirements": {
+            "faction": "The Academy of Arcane Science=20000"
+          },
+          "prices": [
+            {
+              "coin": 12000,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -977191635 -467959805 0 0 0:arcane ceremonial officer boots\\/a",
+          "requirements": {
+            "faction": "The Academy of Arcane Science=30000"
+          },
+          "prices": [
+            {
+              "coin": 576000,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2073610476 1485889638 0 0 0:arcane ceremonial officer gloves\\/a",
+          "requirements": {
+            "faction": "The Academy of Arcane Science=30000"
+          },
+          "prices": [
+            {
+              "coin": 633600,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -201221397 -1706556961 0 0 0:arcane ceremonial officer robe\\/a",
+          "requirements": {
+            "faction": "The Academy of Arcane Science=30000"
+          },
+          "prices": [
+            {
+              "coin": 864000,
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1673658144 1750103209 0 0 0:arcane scientist's ceremonial gloves\\/a",
+          "requirements": {
+            "faction": "The Academy of Arcane Science=20000"
+          },
+          "prices": [
+            {
+              "coin": 105600,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 281083001 -1681034723 0 0 0:arcane scientist's ceremonial robe\\/a",
+          "requirements": {
+            "faction": "The Academy of Arcane Science=20000"
+          },
+          "prices": [
+            {
+              "coin": 144000,
+              "status": 27000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1219144632 50201463 0 0 0:arcane scientist's ceremonial shoes\\/a",
+          "requirements": {
+            "faction": "The Academy of Arcane Science=20000"
+          },
+          "prices": [
+            {
+              "coin": 96000,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 917045627 2030253262 0 0 0:Initiate: Academy of Arcane Sciences\\/a",
+          "requirements": {
+            "faction": "The Academy of Arcane Science=10000"
+          },
+          "prices": [
+            {
+              "coin": 153600,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1383899054 742693549 0 0 0:maj'dul enchanted scroll\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 10800000,
+              "status": 337500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1143086249 -1781411135 0 0 0:Member: Academy of Arcane Sciences\\/a",
+          "requirements": {
+            "faction": "The Academy of Arcane Science=20000"
+          },
+          "prices": [
+            {
+              "coin": 614400,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1627704942 222248460 0 0 0:Officer: Academy of Arcane Sciences\\/a",
+          "requirements": {
+            "faction": "The Academy of Arcane Science=30000"
+          },
+          "prices": [
+            {
+              "coin": 2457600,
+              "status": 40000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Claudia Quarto",
+      "name_sortable": "claudiaquarto",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Warlock Trainer",
+      "locations": [
+        "25.64,-7.0,-120.11"
+      ],
+      "utterances": [
+        "Who goes there?  Are you a true believer in the Powers?  Have you conviction enough to smite your enemies and empower your allies?  Only those who are worthy may touch these magical wares.  If you  dare defile them, then be gone!"
+      ]
+    },
+    {
+      "name": "Electra J`ventius",
+      "name_sortable": "electrajventius",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-47.82,-20.05,-304.4"
+      ],
+      "utterances": [
+        "We'll rise again, and then nothing will stop us.",
+        "It's a fine day for evil to flourish!"
+      ]
+    },
+    {
+      "name": "Ellynottin Zookbiddle",
+      "name_sortable": "ellynottinzookbiddle",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Necromancer Trainer",
+      "locations": [
+        "20.31,-7.0,-125.08"
+      ],
+      "utterances": [
+        "Well, well <player name> what brings you to the Academy of Arcane Science?"
+      ]
+    },
+    {
+      "name": "Elon Gallwin",
+      "name_sortable": "elongallwin",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Arcane Scientist",
+      "locations": [
+        "7.54,7.3,-108.39"
+      ]
+    },
+    {
+      "name": "Euphemius Granius",
+      "name_sortable": "euphemiusgranius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "26.98,-7.0,-134.48"
+      ],
+      "utterances": [
+        "Hello there. You look eager. Will you help me? If you're a good citizen, you know the importance of academic research.",
+        "As you know, producing golems takes a great deal of time, energy, and money. I've gathered valuable information on creating and controlling the beasts...",
+        "I believe I can construct golems using the same forces that animate the undead.  I'm in the midst of in-depth research and I need you to collect samples of undead troll and ogre remains from the Fallengate area. Can you handle this task?"
+      ]
+    },
+    {
+      "name": "Faye",
+      "name_sortable": "faye",
+      "locations": [
+        "-71.62,-34.59,-281.06"
+      ]
+    },
+    {
+      "name": "Flaerius Rubico",
+      "name_sortable": "flaeriusrubico",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-63.0,-20.34,-270.07"
+      ],
+      "utterances": [
+        "Oops, pardon me!  Watch the gnome!",
+        "Now, what did I do with that gear?"
+      ]
+    },
+    {
+      "name": "Jabir Maridar",
+      "name_sortable": "jabirmaridar",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Wizard Trainer",
+      "locations": [
+        "20.95,-7.0,-128.37"
+      ],
+      "utterances": [
+        "Eh ... what's that? Sorry, do you need something?"
+      ]
+    },
+    {
+      "name": "Kanos X'aphon",
+      "name_sortable": "kanosxaphon",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "5.17,-20.07,-222.67"
+      ],
+      "utterances": [
+        "You mean nothing to me, whelp. I seek one with ability enough to do my bidding.  Now, back out the door whence you came with your tail between your legs before I disembowel you and leave your entrails for the vermin infesting this filthy human city."
+      ]
+    },
+    {
+      "name": "Kryva",
+      "name_sortable": "kryva",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-39.36,-20.05,-299.49"
+      ],
+      "utterances": [
+        "Yes, yes, that will do nicely... err, hello, who are you?"
+      ]
+    },
+    {
+      "name": "Librarian Motius Feldarn",
+      "name_sortable": "librarianmotiusfeldarn",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "27.26,-7.0,-114.69"
+      ],
+      "utterances": [
+        "The minds at the Acadamy of Arcane Science are infinite.",
+        "The Dismal Rage is an evil entity that can destroy your soul."
+      ]
+    },
+    {
+      "name": "Librarian Zabnolique",
+      "name_sortable": "librarianzabnolique",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "17.28,-7.0,-136.19"
+      ],
+      "utterances": [
+        "Please be quick, I am very busy."
+      ]
+    },
+    {
+      "name": "Navarius Orvalis",
+      "name_sortable": "navariusorvalis",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Sage",
+      "locations": [
+        "9.93,-7.0,-133.97"
+      ],
+      "utterances": [
+        "Search for the relics of the past Age of Turmoil.  Their discovery will gain you great power and prestige!"
+      ],
+      "store_template": "books"
+    },
+    {
+      "name": "Neophyte Jhanov",
+      "name_sortable": "neophytejhanov",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Arcane Scientist",
+      "locations": [
+        "-0.05,-5.68,-114.99"
+      ],
+      "utterances": [
+        "All who seek understanding of the Arcane are welcome within the walls of the Academy. Always remember, that above all else, we serve the Overlord!"
+      ]
+    },
+    {
+      "name": "Nexa L'Dur",
+      "name_sortable": "nexaldur",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Achievement Counsel",
+      "locations": [
+        "-3.07,-42.76,-141.25"
+      ]
+    },
+    {
+      "name": "Overseer Targon",
+      "name_sortable": "overseertargon",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-103.02,-34.61,-355.95"
+      ],
+      "utterances": [
+        "Serve the Overlord is good!",
+        "Might of the empire of Zek always greater than Neriak."
+      ]
+    },
+    {
+      "name": "Paragon Jalex",
+      "name_sortable": "paragonjalex",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Arcane Scientist",
+      "locations": [
+        "-1.5,7.3,-110.91"
+      ],
+      "utterances": [
+        "I don't know who permitted you inside, but it's considered rude for a whelp to interfere with the studies of a Paragon such as me.  Please remove yourself from my sight!"
+      ]
+    },
+    {
+      "name": "Patches",
+      "name_sortable": "patches",
+      "locations": [
+        "-78.13,-34.59,-308.6"
+      ]
+    },
+    {
+      "name": "Proctor Fergus",
+      "name_sortable": "proctorfergus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-23.67,-18.8,-254.79"
+      ],
+      "utterances": [
+        "Fate has smiled on you, my friend.  You are lucky to be alive during such a time. The gods and their petty squabbling are all but forgotten in the hearts of our people.  The world is ours to command now!",
+        "All of them.  The gods are a myth.  A tale to tell children.  Tools of control that outlived their usefulness.  But we have outlived them.  They did their worst and we are still here.  Let the people worship us!",
+        "What if they return?  They... they won't.  They saw that we couldn't be broken and they retreated.  I don't fear them!"
+      ]
+    },
+    {
+      "name": "Qalantir",
+      "name_sortable": "qalantir",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "3.2,-7.0,-140.84"
+      ],
+      "utterances": [
+        "Good day! How can I help you, my friend? Do you stand before me in search of knowledge?"
+      ]
+    },
+    {
+      "name": "Savant Ka'im",
+      "name_sortable": "savantkaim",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Arcane Scientist",
+      "locations": [
+        "3.88,7.3,-124.86"
+      ]
+    },
+    {
+      "name": "Scipia Nailbind",
+      "name_sortable": "scipianailbind",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-105.01,-34.63,-352.12"
+      ],
+      "utterances": [
+        "Gotta nail clothes onto body or I forget to wear them.",
+        "Sometimes I sneak into houses and hide under the bed.",
+        "I used to have my own bridge before tasty dark elves took it from me.",
+        "Overlord is the strongest troll ever!  He kill twenty of us troll last week.  Wow!"
+      ]
+    },
+    {
+      "name": "Speculator Montanlooa",
+      "name_sortable": "speculatormontanlooa",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-140.48,-53.12,-333.09"
+      ],
+      "utterances": [
+        "Salutations, dark one."
+      ]
+    },
+    {
+      "name": "Thaumaturge Ranollious",
+      "name_sortable": "thaumaturgeranollious",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Arcane Scientist",
+      "locations": [
+        "19.27,-42.77,-146.07"
+      ],
+      "utterances": [
+        "I see a slew of possibilities within you.  You have the look of an adventurer. Such courage is uncommon, but Freeport still doubts your fortitude."
+      ]
+    },
+    {
+      "name": "Tome Warden K'Narn",
+      "name_sortable": "tomewardenknarn",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "17.8,-7.0,-131.73"
+      ],
+      "utterances": [
+        "Busy! Very busy! Books, tomes, scrolls and lexicons ... the knowledge never ends nor does my work. ",
+        "My task you ask? Look about! Walls and walls of knowledge ... many once lost and newly recovered by agents of the Academy. I am the Tome Warden. I must organize! Place this book here and that book there! It never ends! I am also the first to touch the lost tomes and the one to reward any offering of lost knowledge.   "
+      ]
+    },
+    {
+      "name": "Tullia Sulla",
+      "name_sortable": "tulliasulla",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Coercer Trainer",
+      "locations": [
+        "14.46,-7.0,-133.81"
+      ],
+      "utterances": [
+        "Welcome to the Academy of Arcane Science.  If you are one of the gifted few that has begun their studies into the mysteries of the arcane, the wonders of pure magic, the marvels of...  But I digress.  If you are one of these select few, then I have materials that are of great interest to you."
+      ]
+    },
+    {
+      "name": "Venal T`Lar",
+      "name_sortable": "venaltlar",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-142.68,-53.12,-358.29"
+      ],
+      "utterances": [
+        "If you do it right, pain is the gift that keeps on giving.",
+        "I refuse to be told what to do by simple-minded buffoons!",
+        "I despise low-born scum such as you.  Leave me be."
+      ]
+    },
+    {
+      "name": "Venetia Galatea",
+      "name_sortable": "venetiagalatea",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-63.0,-20.34,-270.07"
+      ],
+      "utterances": [
+        "Get out of here, before I get a few friends and teach you whose turf this is!",
+        "Freeport has everything you could want: intrigue, murder, and greed!"
+      ]
+    }
   ]
 }

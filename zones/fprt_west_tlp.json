@@ -73,6 +73,28 @@
       ]
     },
     {
+      "name": "Averus Justarius",
+      "name_sortable": "averusjustarius",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "57.8,-20.29,37.07"
+      ],
+      "utterances": [
+        "Just keep walking, gimpy.  This spot is mine, so toddle on by if you know what's good for you. ",
+        "You got a hearing problem? If you want a good shot of the next execution, then pick a seat like the rest of the losers do, but this spot is mine. Now shove off, filth licker!",
+        "Oh yeah? Who? You? Sure, buddy... \"oooh ... look at me ... I'm gonna talk tough ... I'm so scary ... ooooh!\"  Yeah ... just like everyone else here. The minute you lay one finger on me, those guards are gonna give you a little invitation to the Militia Holding Cells. Know what happens then, snot munch?",
+        "That's when you get to have \"Happy Time\" with the Militia. You get to play fun games like \"Accidentally Falling Down the Stairs\" or \"Who Put That Door There?\" My Dad's favorite was always, \"Look At Me When I'm Hitting You!\" The lucky ones wind up losing some teeth and maybe an eyeball or two. The others, like my pops, get to provide the daily entertainment.",
+        "No, you stupid orc kisser! I'm trying to delay it! He may have been a cruddy dad, but he's all I've got. They arrested him on trumped up charges of treason. Pfht--more like he mouthed off to a guard. I've bribed one of the guards to pick another guy each day ... HEY! Wanna make some money and maybe even a friend? I know a lot of people in Freeport ... I could introduce you to them...",
+        "I know some important people who work for the Coalition of Tradesfolke; they're the big money here in Freeport. One of their guys said they're sending people into the Wailing Caves to salvage armor from those dead orcs.",
+        "Get off it, already! Everyone's heard about the Wailing Caves. It's a story you tell to kids to get them to shut up. It's true, but it's still fun to watch the little kids wet themselves when they hear it. Any ways ... if you and me work together, we can beat everyone else to all that coin. I'll make enough coin to save my dad from the Pit, and you can do whatever with yours. Sound good?"
+      ]
+    },
+    {
       "name": "Balex",
       "name_sortable": "balex",
       "race": [
@@ -420,6 +442,24 @@
       ]
     },
     {
+      "name": "Cassius Bruccius",
+      "name_sortable": "cassiusbruccius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "108.6,-22.95,36.95"
+      ],
+      "utterances": [
+        "Knowing the right people will keep you safe in this city.  You aren't one of them.",
+        "Do I look like someone who cares?",
+        "Is it even possible for this city to get more corrupt?"
+      ]
+    },
+    {
       "name": "Commandant Placida",
       "name_sortable": "commandantplacida",
       "race": [
@@ -445,6 +485,13 @@
       "purpose": "Freeport Militia Officer",
       "locations": [
         "159.93,-16.79,120.96"
+      ]
+    },
+    {
+      "name": "Cyclops",
+      "name_sortable": "cyclops",
+      "locations": [
+        "108.6,-22.95,36.95"
       ]
     },
     {
@@ -816,6 +863,23 @@
       ]
     },
     {
+      "name": "Kroona Skinflayer",
+      "name_sortable": "kroonaskinflayer",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "96.86,-21.54,59.67"
+      ],
+      "utterances": [
+        "Tasty treats, lots of meats.",
+        "Nasty scars and boiled tar!  Warriors is what we are!"
+      ]
+    },
+    {
       "name": "Krung Ironfist",
       "name_sortable": "krungironfist",
       "race": [
@@ -853,7 +917,8 @@
       "name": "Lord Oinkles",
       "name_sortable": "lordoinkles",
       "locations": [
-        "245.38,-3.52,-48.73"
+        "245.38,-3.52,-48.73",
+        "72.02,-10.02,-23.8"
       ]
     },
     {
@@ -1034,7 +1099,8 @@
         "female"
       ],
       "locations": [
-        "88.21,-10.01,-31.4"
+        "88.21,-10.01,-31.4",
+        "73.31,-20.71,17.56"
       ]
     },
     {
@@ -1047,13 +1113,16 @@
         "female"
       ],
       "locations": [
-        "237.57,-3.16,135.6"
+        "237.57,-3.16,135.6",
+        "105.37,-22.45,29.81",
+        "78.25,-20.13,30.9"
       ],
       "utterances": [
         "Why, don't I seem to be the popular one today.",
         "I'd kill to know what the overlord has in that citadel!",
         "Some say that Kerra are  sneaky, evil, and cruel.  True and we have many other fine qualities as well. ",
-        "I like to run around, but I also like to curl up in a warm spot."
+        "I like to run around, but I also like to curl up in a warm spot.",
+        "I can purr my way out of anything. "
       ]
     },
     {
@@ -1071,6 +1140,23 @@
       ],
       "utterances": [
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ]
+    },
+    {
+      "name": "Slinko",
+      "name_sortable": "slinko",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "104.15,-22.95,38.78"
+      ],
+      "utterances": [
+        "If winning isn't everything, why do we keep score?",
+        "Do you ever get the feeling someone is watching you?"
       ]
     },
     {
@@ -1123,7 +1209,8 @@
         "What made you think I wanted to talk to you?",
         "I wish those guards would just leave us alone.",
         "If you keep bothering me, I'll scream for help!!",
-        "The next time that guy leers at me, I'm gonna punch him in the throat."
+        "The next time that guy leers at me, I'm gonna punch him in the throat.",
+        "Only the strong survive around here.  Nice knowing you."
       ]
     },
     {
@@ -1267,11 +1354,14 @@
         "female"
       ],
       "locations": [
-        "185.21,-3.65,100.77"
+        "185.21,-3.65,100.77",
+        "133.28,-20.75,12.51"
       ],
       "utterances": [
         "It's a fine day for evil to flourish!",
-        "We'll rise again, and then nothing will stop us."
+        "We'll rise again, and then nothing will stop us.",
+        "One day, our lot will improve here.",
+        "What a foul, dirty place this is compared to Neriak."
       ]
     }
   ]

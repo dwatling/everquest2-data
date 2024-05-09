@@ -6,6 +6,22 @@
   "type": "city",
   "npcs": [
     {
+      "name": "Administrator Frugi",
+      "name_sortable": "administratorfrugi",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-82.44,-8.99,-122.58"
+      ],
+      "utterances": [
+        "Eh? Speak up!"
+      ]
+    },
+    {
       "name": "Archivist Jindlefog",
       "name_sortable": "archivistjindlefog",
       "race": [
@@ -23,10 +39,60 @@
       ]
     },
     {
+      "name": "Augurer Valgus",
+      "name_sortable": "augurervalgus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-80.54,-7.28,-168.59"
+      ],
+      "utterances": [
+        "Your strength is the heart of Freeport, citizen."
+      ]
+    },
+    {
       "name": "Azrael",
       "name_sortable": "azrael",
       "locations": [
         "-71.62,-34.59,-281.06"
+      ]
+    },
+    {
+      "name": "Blerrkt Marrowdrinker",
+      "name_sortable": "blerrktmarrowdrinker",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Warden Trainer",
+      "locations": [
+        "-73.26,-9.91,-147.48"
+      ],
+      "utterances": [
+        "What brings you to the Temple of War, <player name>?"
+      ]
+    },
+    {
+      "name": "Blight Sage Destroz",
+      "name_sortable": "blightsagedestroz",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Dismal Rage Priest",
+      "locations": [
+        "-88.83,-7.27,-184.72"
+      ],
+      "utterances": [
+        "Insolent swine! For this impudence I should slice open your belly and roast your entrails on a spit.  Do not dare to interrupt my private meditations again!"
       ]
     },
     {
@@ -43,7 +109,8 @@
         "4.73,-34.26,-149.43"
       ],
       "utterances": [
-        "The stuff's over there.  Just let me know if you find anything you like."
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
       ],
       "store": [
         {
@@ -266,6 +333,72 @@
       ]
     },
     {
+      "name": "Consternator Soulinus",
+      "name_sortable": "consternatorsoulinus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-77.53,-7.28,-167.93"
+      ],
+      "utterances": [
+        "I am busy. Maybe when I'm done with my current work I'll send for you. Until then, leave me be."
+      ]
+    },
+    {
+      "name": "Convert Y`Ral",
+      "name_sortable": "convertyral",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Dismal Rage Priest",
+      "locations": [
+        "-100.03,-9.91,-137.2"
+      ],
+      "utterances": [
+        "We must preserve the strength of our faith in order to endure the trials ahead!"
+      ]
+    },
+    {
+      "name": "Drund Mordgraahl Skullsprain",
+      "name_sortable": "drundmordgraahlskullsprain",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-87.61,-8.99,-117.06"
+      ],
+      "utterances": [
+        "Commoner! You dare to speak so freely to a Drund in this place of reverence?! You best have good reason for this intrusion."
+      ]
+    },
+    {
+      "name": "Dyvll Ssavan",
+      "name_sortable": "dyvllssavan",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Defiler Trainer",
+      "locations": [
+        "-94.77,-9.91,-154.57"
+      ],
+      "utterances": [
+        "What brings you to the Temple of War, <player name>?"
+      ]
+    },
+    {
       "name": "Electra J`ventius",
       "name_sortable": "electrajventius",
       "race": [
@@ -339,6 +472,20 @@
       ]
     },
     {
+      "name": "Fethar Lothki",
+      "name_sortable": "fetharlothki",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Dismal Rage Priest",
+      "locations": [
+        "-92.03,-9.91,-163.1"
+      ]
+    },
+    {
       "name": "Flaerius Rubico",
       "name_sortable": "flaeriusrubico",
       "race": [
@@ -353,6 +500,16 @@
       "utterances": [
         "Oops, pardon me!  Watch the gnome!",
         "Now, what did I do with that gear?"
+      ]
+    },
+    {
+      "name": "Forbidden Lore",
+      "name_sortable": "forbiddenlore",
+      "locations": [
+        "-79.87,-7.28,-165.58"
+      ],
+      "utterances": [
+        "Ha fool!  You are not ready for these teachings.  Just a mere glance upon these pages would burn the eyes from your sockets.  Return to me when you have purified your spirit and only then will you receive what you seek!"
       ]
     },
     {
@@ -405,6 +562,23 @@
       ]
     },
     {
+      "name": "Kurid T'Sal",
+      "name_sortable": "kuridtsal",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Inquistor Trainer",
+      "locations": [
+        "-70.43,-9.91,-155.95"
+      ],
+      "utterances": [
+        "What brings you to the hallowed halls of the Temple of War?"
+      ]
+    },
+    {
       "name": "Librarian Motius Feldarn",
       "name_sortable": "librarianmotiusfeldarn",
       "race": [
@@ -435,6 +609,74 @@
       ],
       "utterances": [
         "Please be quick, I am very busy."
+      ]
+    },
+    {
+      "name": "Matthias Siegemaker",
+      "name_sortable": "matthiassiegemaker",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Acolyte of the Grand Inquisitor",
+      "locations": [
+        "-82.49,-7.27,-183.27"
+      ],
+      "utterances": [
+        "Wreak your vengeance upon the helpless, my dear friend."
+      ]
+    },
+    {
+      "name": "Missionary G`Zule",
+      "name_sortable": "missionarygzule",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-97.43,-9.0,-120.22"
+      ],
+      "utterances": [
+        "You better watch your step if you choose to enter the Temple of War. I would suspect the greeting for a person like yourself would be a dagger in the back rather than a handshake.",
+        "It is my station to be here, you worm.  Soon enough I'll take my place inside the temple.",
+        "I'll have you know that I have done all the sacrificing I need to do, lucky for your worthless carcass.  I only have to find a symbol of the old paladins to desecrate to fulfill my advancement."
+      ]
+    },
+    {
+      "name": "Modinite Z'Vol",
+      "name_sortable": "modinitezvol",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-82.82,-7.27,-188.6"
+      ],
+      "utterances": [
+        "Only through intense suffering can one be purified of all weaknesses and frailty.  The Threshing separates the weak willed from the mighty in faith.  Pray that you are not found wanting when your personal Threshing comes..."
+      ]
+    },
+    {
+      "name": "Nahirra Usharva",
+      "name_sortable": "nahirrausharva",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-74.52,-9.91,-161.03"
+      ],
+      "utterances": [
+        "Too often the Arcane Scientists at the acadamy dedicate themselves to useless knowledge that has no help to our city.",
+        "The weak souls of the Seafury Buccaneers only run crying to a priest when facing certain death."
       ]
     },
     {
@@ -484,6 +726,37 @@
       "purpose": "Achievement Counsel",
       "locations": [
         "-3.07,-42.76,-141.25"
+      ]
+    },
+    {
+      "name": "Occultist Levonicus",
+      "name_sortable": "occultistlevonicus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Dismal Rage Priest",
+      "locations": [
+        "-84.23,-10.27,-157.56"
+      ],
+      "utterances": [
+        "Please do not interrupt my meditations, fool!  I need absolute silence to ponder this important matter."
+      ]
+    },
+    {
+      "name": "Occultist L'Takk",
+      "name_sortable": "occultistltakk",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Dismal Rage Priest",
+      "locations": [
+        "-85.55,-9.91,-164.1"
       ]
     },
     {
@@ -694,6 +967,338 @@
       "utterances": [
         "Get out of here, before I get a few friends and teach you whose turf this is!",
         "Freeport has everything you could want: intrigue, murder, and greed!"
+      ]
+    },
+    {
+      "name": "Xeuxa Foamheart",
+      "name_sortable": "xeuxafoamheart",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Fury Trainer",
+      "locations": [
+        "-97.19,-9.91,-146.31"
+      ],
+      "utterances": [
+        "What brings you to the Temple of War, <player name>?"
+      ]
+    },
+    {
+      "name": "Zur",
+      "name_sortable": "zur",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Merchant",
+      "locations": [
+        "-88.37,-9.91,-171.84"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 968323787 1929703024 0 0 0:a dismal orb of decadence\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=20000"
+          },
+          "prices": [
+            {
+              "coin": 12000,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 58658999 109478075 0 0 0:a heretic's chanting podium\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=10000"
+          },
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1689922432 -487200494 0 0 0:a human skeleton display\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=1s0000"
+          },
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -853320200 864254607 0 0 0:a vivisection table\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=30000"
+          },
+          "prices": [
+            {
+              "coin": 579498,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 364743154 1905698841 0 0 0:Ally: Dismal Rage\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=30000"
+          },
+          "prices": [
+            {
+              "coin": 3686400,
+              "status": 50000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2100494003 -1577661872 0 0 0:an iron maiden casket\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=10000"
+          },
+          "prices": [
+            {
+              "coin": 3000,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1261954748 -1922064778 0 0 0:dismal ceremonial officer breastplate\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=30000"
+          },
+          "prices": [
+            {
+              "coin": 864000,
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -921415937 740343961 0 0 0:dismal ceremonial officer gauntlets\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=30000"
+          },
+          "prices": [
+            {
+              "coin": 633600,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1234626964 -1003822191 0 0 0:dismal ceremonial officer helm\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=30000"
+          },
+          "prices": [
+            {
+              "coin": 691200,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -363733475 258297979 0 0 0:dismal ceremonial officer legplates\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=30000"
+          },
+          "prices": [
+            {
+              "coin": 748800,
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 568395887 -992639479 0 0 0:dismal ceremonial officer pauldrons\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=30000"
+          },
+          "prices": [
+            {
+              "coin": 691200,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1661999831 1575210908 0 0 0:dismal ceremonial officer tonlets\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=30000"
+          },
+          "prices": [
+            {
+              "coin": 576000,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2065856704 -1642662234 0 0 0:dismal ceremonial officer vambraces\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=30000"
+          },
+          "prices": [
+            {
+              "coin": 576000,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 339270507 -2087523485 0 0 0:dismal rage ceremonial boots\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=20000"
+          },
+          "prices": [
+            {
+              "coin": 96000,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1777301190 2014356532 0 0 0:dismal rage ceremonial bracers\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=20000"
+          },
+          "prices": [
+            {
+              "coin": 96000,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 532180612 1733422735 0 0 0:dismal rage ceremonial coat\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=20000"
+          },
+          "prices": [
+            {
+              "coin": 144000,
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 618173892 1546720719 0 0 0:dismal rage ceremonial coif\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=20000"
+          },
+          "prices": [
+            {
+              "coin": 115200,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 453585495 356845653 0 0 0:dismal rage ceremonial gloves\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=20000"
+          },
+          "prices": [
+            {
+              "coin": 105600,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -352833813 229508033 0 0 0:dismal rage ceremonial leggings\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=20000"
+          },
+          "prices": [
+            {
+              "coin": 124800,
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -601067373 -765439343 0 0 0:dismal rage ceremonial mantle\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=20000"
+          },
+          "prices": [
+            {
+              "coin": 115200,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1703550942 -267229865 0 0 0:Initiate: Dismal Rage\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=10000"
+          },
+          "prices": [
+            {
+              "coin": 153600,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1990885286 -1190083095 0 0 0:Member: Dismal Rage\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=20000"
+          },
+          "prices": [
+            {
+              "coin": 614400,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -242656356 -1639988936 0 0 0:Officer: Dismal Rage\\/a",
+          "requirements": {
+            "faction": "The Dismal Rage=30000"
+          },
+          "prices": [
+            {
+              "coin": 2457600,
+              "status": 40000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2067118534 582776284 0 0 0:undead mount summoner\\/a",
+          "requirements": {
+            "requires_guild": true
+          },
+          "prices": [
+            {
+              "coin": 10800000,
+              "status": 337500
+            }
+          ]
+        }
       ]
     }
   ]

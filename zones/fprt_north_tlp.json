@@ -39,6 +39,24 @@
       ]
     },
     {
+      "name": "Atticus Merula",
+      "name_sortable": "atticusmerula",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-97.58,-11.0,-76.55"
+      ],
+      "utterances": [
+        "If you're looking for trouble, I've got a whole fistful of it waiting for you.",
+        "If I had another five or six ales, maybe I wouldn't mind talking to you.",
+        "Do I look like someone who cares?"
+      ]
+    },
+    {
       "name": "Augurer Valgus",
       "name_sortable": "augurervalgus",
       "race": [
@@ -55,10 +73,62 @@
       ]
     },
     {
+      "name": "Aulus Crispian",
+      "name_sortable": "auluscrispian",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Alchemist",
+      "locations": [
+        "-61.01,-24.43,-72.81"
+      ],
+      "utterances": [
+        "Welcome to Torlig's Herbs and Potions.  I sell many magicial reagents and herbs.  But, I warn you, you must possess amazing skill to handle them properly."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 331790605 -1707704134 0 0 0:odyssey stone\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -182855303 1967098650 0 0 0:softly glowing pearl\\/a",
+          "prices": [
+            {
+              "coin": 12000
+            }
+          ]
+        }
+      ],
+      "store_template": "alchemist_origins"
+    },
+    {
       "name": "Azrael",
       "name_sortable": "azrael",
       "locations": [
         "-71.62,-34.59,-281.06"
+      ]
+    },
+    {
+      "name": "Bargiss Ranlor",
+      "name_sortable": "bargissranlor",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-109.1,-21.43,-77.39"
+      ],
+      "utterances": [
+        "Can't you see I am busy waiting on my order? Leave me alone. I came here to eat not to talk. Oh, here comes my order now. 'Bout time, the service here is the worst!"
       ]
     },
     {
@@ -316,6 +386,41 @@
       ]
     },
     {
+      "name": "Caphion",
+      "name_sortable": "caphion",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "City Merchant",
+      "locations": [
+        "-96.43,-21.43,-72.13"
+      ],
+      "utterances": [
+        "The stuff's over there.  Just let me know if you find anything you like."
+      ]
+    },
+    {
+      "name": "Cipius Abito",
+      "name_sortable": "cipiusabito",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "-124.35,-21.43,-77.38"
+      ],
+      "utterances": [
+        "Hail to ye.  Are you interested in some groceries?  Real fresh like.  High quality goods at low prices."
+      ],
+      "store_template": "provisioner_origins"
+    },
+    {
       "name": "Claudia Quarto",
       "name_sortable": "claudiaquarto",
       "race": [
@@ -363,6 +468,41 @@
       ],
       "utterances": [
         "We must preserve the strength of our faith in order to endure the trials ahead!"
+      ]
+    },
+    {
+      "name": "Courtesan Aconia Angelus",
+      "name_sortable": "courtesanaconiaangelus",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-91.67,-11.0,-79.66"
+      ],
+      "utterances": [
+        "I already stuck three people today.  Do you want to be the one to make it four?",
+        "If I ruled this city, there would be statues of me EVERYWHERE!",
+        "Whoa!!!  I don't remember saying I wanted to talk to you!",
+        "One day I'll be famous and everyone here will be sorry they ignored me."
+      ]
+    },
+    {
+      "name": "Courtesan Fannia Falx",
+      "name_sortable": "courtesanfanniafalx",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-92.39,-11.0,-75.56"
+      ],
+      "utterances": [
+        "Greetings, adventurer.  Looking for some company?  Someone to keep you entertained?  Perhaps we could chat!  Or  I can dance a little dance or sing a song for your enjoyment!  Maybe we can play a game. Do you like games? I know several!"
       ]
     },
     {
@@ -433,6 +573,24 @@
       ]
     },
     {
+      "name": "Elma Lowe",
+      "name_sortable": "elmalowe",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "-101.9,-21.43,-83.76"
+      ],
+      "utterances": [
+        "Come in. Come in.  Welcome to the Jade Tiger's Den, the finest tavern in all of Freeport.  Feel free to browse our menu. I personally guarantee that we serve only the highest-quality food and brews. "
+      ],
+      "store_template": "bartender_origins"
+    },
+    {
       "name": "Elon Gallwin",
       "name_sortable": "elongallwin",
       "race": [
@@ -444,6 +602,41 @@
       "purpose": "Arcane Scientist",
       "locations": [
         "7.54,7.3,-108.39"
+      ]
+    },
+    {
+      "name": "Emissary Midia",
+      "name_sortable": "emissarymidia",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-92.55,-21.43,-84.59"
+      ],
+      "utterances": [
+        "Come back when you are stronger, yes?"
+      ]
+    },
+    {
+      "name": "Enyo Vivaron",
+      "name_sortable": "enyovivaron",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-54.61,-24.37,-43.58"
+      ],
+      "utterances": [
+        "Do I look like someone who cares?",
+        "I was just saying to myself how I really don't like the way your face looks.",
+        "You're lucky there are witnesses watching us right now.",
+        "If you're looking for trouble, I've got a whole fistful of it waiting for you."
       ]
     },
     {
@@ -513,6 +706,156 @@
       ]
     },
     {
+      "name": "Fryda Brushwuttle",
+      "name_sortable": "frydabrushwuttle",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Merchant",
+      "locations": [
+        "-57.46,-24.15,-26.08"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "The stuff's over there.  Just let me know if you find anything you like."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 60045435 -1062013118 0 0 0:a clay urn\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1587219939 960819059 0 0 0:a marble vase\\/a",
+          "prices": [
+            {
+              "coin": 7290
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1921505199 -390315862 0 0 0:a portrait of a teenage girl\\/a",
+          "prices": [
+            {
+              "coin": 10
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 404116146 1691725333 0 0 0:an oil painting of a castle\\/a",
+          "prices": [
+            {
+              "coin": 7290
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -787770832 -933230236 0 0 0:an oil painting of a cathedral \\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gadko",
+      "name_sortable": "gadko",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Vassi's Assistant",
+      "locations": [
+        "-75.68,-11.0,-70.45"
+      ],
+      "utterances": [
+        "Gadko takes old Vassi armor and sell you new armor, yes?  Come, come then! Gadko no like to waste time!"
+      ]
+    },
+    {
+      "name": "Girafer L`Un",
+      "name_sortable": "giraferlun",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Jeweler",
+      "locations": [
+        "-138.04,-22.53,-88.26"
+      ],
+      "utterances": [
+        "Welcome to the Blue Building.  If you're here, then you know what we sell.  You can see it sparkling before you, sparkling with the allure that only gems and jewelry of such perfection exude.  Look around and see what we have for sale.  I'll be here to take your money when you decide which of our decadent pieces you desire."
+      ],
+      "store_template": "jeweler_origins"
+    },
+    {
+      "name": "Hardunk Breathstealer",
+      "name_sortable": "hardunkbreathstealer",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-112.01,-21.43,-83.84",
+        "-113.5,-11.0,-82.51"
+      ],
+      "utterances": [
+        "Treat us badly in Neriak! I laugh now we in same spot!",
+        "Tasty treats, lots of meats."
+      ]
+    },
+    {
+      "name": "Hazrulin Vextrik",
+      "name_sortable": "hazrulinvextrik",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-54.67,-24.43,-72.71"
+      ],
+      "utterances": [
+        "I do not need your help. Begone."
+      ]
+    },
+    {
+      "name": "Hector Alpalor",
+      "name_sortable": "hectoralpalor",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-61.39,-24.43,-68.52",
+        "-78.02,-24.37,-48.88",
+        "-104.39,-21.43,-79.36",
+        "-98.2,-11.0,-79.83"
+      ],
+      "utterances": [
+        "Watch yerself, this city can be rough.",
+        "Straying a bit, are we?",
+        "Hah! New around these parts?"
+      ]
+    },
+    {
       "name": "Jabir Maridar",
       "name_sortable": "jabirmaridar",
       "race": [
@@ -528,6 +871,25 @@
       "utterances": [
         "Eh ... what's that? Sorry, do you need something?"
       ]
+    },
+    {
+      "name": "Julia Florens",
+      "name_sortable": "juliaflorens",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "-106.31,-21.43,-84.67"
+      ],
+      "utterances": [
+        "Come in, please come in.  Welcome to the Jade Tiger's Den.  I'm Hostess Julia.   Perhaps you came to try a Jade Tiger cocktail?",
+        "Honey, if you have to ask it's not for you."
+      ],
+      "store_template": "bartender_origins"
     },
     {
       "name": "Kanos X'aphon",
@@ -546,6 +908,23 @@
       ]
     },
     {
+      "name": "Kenyatta",
+      "name_sortable": "kenyatta",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-142.55,-24.37,-52.96"
+      ],
+      "utterances": [
+        "Can you see the beauty of the open plains?",
+        "One day, we shall be free in a place of our own once more."
+      ]
+    },
+    {
       "name": "Kryva",
       "name_sortable": "kryva",
       "race": [
@@ -555,10 +934,13 @@
         "female"
       ],
       "locations": [
-        "-39.36,-20.05,-299.49"
+        "-39.36,-20.05,-299.49",
+        "-64.46,-24.37,-48.56"
       ],
       "utterances": [
-        "Yes, yes, that will do nicely... err, hello, who are you?"
+        "Yes, yes, that will do nicely... err, hello, who are you?",
+        "Ohh, they'll never suspect that, no they won't!",
+        "Perhaps the dark ones will require our services in the future."
       ]
     },
     {
@@ -612,6 +994,24 @@
       ]
     },
     {
+      "name": "Livilla Ramio",
+      "name_sortable": "livillaramio",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Tailor",
+      "locations": [
+        "-80.01,-24.43,-26.41"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store_template": "tailor_origins"
+    },
+    {
       "name": "Matthias Siegemaker",
       "name_sortable": "matthiassiegemaker",
       "race": [
@@ -626,6 +1026,24 @@
       ],
       "utterances": [
         "Wreak your vengeance upon the helpless, my dear friend."
+      ]
+    },
+    {
+      "name": "Metilia Arcavius",
+      "name_sortable": "metiliaarcavius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-102.91,-24.37,-52.8"
+      ],
+      "utterances": [
+        "The Seafury Bucaneers don't seem too bright. They probably lost their ability to think from travelling the seas for too long.",
+        "The Freeport Militia is a group of hired thugs that are only interested in their own benefits.",
+        "Those Arcane Scientists just spend way too much time studying in their confines. They need to get out more."
       ]
     },
     {
@@ -647,6 +1065,22 @@
       ]
     },
     {
+      "name": "Mizzog the Sighted",
+      "name_sortable": "mizzogthesighted",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-44.18,-24.44,-52.49"
+      ],
+      "utterances": [
+        "Can you hear them?  Mizzog hears them.  The spirits are all around us.  Mizzog sees them through blind eyes, yes.  "
+      ]
+    },
+    {
       "name": "Modinite Z'Vol",
       "name_sortable": "modinitezvol",
       "race": [
@@ -660,6 +1094,23 @@
       ],
       "utterances": [
         "Only through intense suffering can one be purified of all weaknesses and frailty.  The Threshing separates the weak willed from the mighty in faith.  Pray that you are not found wanting when your personal Threshing comes..."
+      ]
+    },
+    {
+      "name": "Mordin Rageblade",
+      "name_sortable": "mordinrageblade",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-96.54,-11.0,-80.72"
+      ],
+      "utterances": [
+        "Hah! New around these parts?",
+        "Watch yerself, this city can be rough."
       ]
     },
     {
@@ -760,6 +1211,42 @@
       ]
     },
     {
+      "name": "Octavius Syntral",
+      "name_sortable": "octaviussyntral",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Arcane Transcription",
+      "locations": [
+        "-113.09,-24.43,-35.91"
+      ],
+      "utterances": [
+        "Greetings Citizen.  Are you in need of my transcription services?",
+        "As a service to the Overlord, I can transcribe certain Master scrolls that would otherwise be useless to citizens of Freeport.",
+        "My specialties include transcription of Conjuror, Illusionist, Mystic, Monk, Paladin, Ranger, Swashbuckler and Templar scrolls.  The results deliver a scroll useable by a class in Freeport, of the equivalent skill level.",
+        "Well my services don't come cheap.  The cost involved would equal roughly twice what the local vendors would pay to get rid of the spell."
+      ]
+    },
+    {
+      "name": "Oracle Porcia Aponius",
+      "name_sortable": "oracleporciaaponius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-102.45,-24.43,-37.27"
+      ],
+      "utterances": [
+        "Clearly your intellect is your best asset. The world shall marvel at the wonders you control."
+      ]
+    },
+    {
       "name": "Overseer Targon",
       "name_sortable": "overseertargon",
       "race": [
@@ -774,6 +1261,25 @@
       "utterances": [
         "Serve the Overlord is good!",
         "Might of the empire of Zek always greater than Neriak."
+      ]
+    },
+    {
+      "name": "Painter Brushwuttle",
+      "name_sortable": "painterbrushwuttle",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-71.74,-24.15,-28.29"
+      ],
+      "utterances": [
+        "I will prove to them that I'm not mad!  If I have to kill everyone of them to prove it, I will!",
+        "Through the advances in modern magic, anything is possible.",
+        "How many times must I say it?  Acid first, then the eyeballs, not the other way around!",
+        "Oh no!  Not another failed experiment.  Oh ... It's just a person."
       ]
     },
     {
@@ -801,6 +1307,40 @@
       ]
     },
     {
+      "name": "Preceptor Nyjuss",
+      "name_sortable": "preceptornyjuss",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-73.51,-21.43,-67.13"
+      ],
+      "utterances": [
+        "What is it you want?  I'm trying to concentrate here."
+      ]
+    },
+    {
+      "name": "Prisca Ursus",
+      "name_sortable": "priscaursus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Armorsmith",
+      "locations": [
+        "-79.34,-24.43,-29.09"
+      ],
+      "utterances": [
+        "You can always go with the chain over the vanguard.  It's cheaper, but tell me, will you buy yourself a new life?"
+      ],
+      "store_template": "armorsmith_origins"
+    },
+    {
       "name": "Proctor Fergus",
       "name_sortable": "proctorfergus",
       "race": [
@@ -819,6 +1359,23 @@
       ]
     },
     {
+      "name": "Profallia",
+      "name_sortable": "profallia",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Broker",
+      "locations": [
+        "-69.92,-24.43,-36.81"
+      ],
+      "utterances": [
+        "Hey, you look just like my cousin Flavious.  Well, except for the big scar and missing teeth, you're almost identical!"
+      ]
+    },
+    {
       "name": "Qalantir",
       "name_sortable": "qalantir",
       "race": [
@@ -833,6 +1390,24 @@
       "utterances": [
         "Good day! How can I help you, my friend? Do you stand before me in search of knowledge?"
       ]
+    },
+    {
+      "name": "Sabina Thallis",
+      "name_sortable": "sabinathallis",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Jeweler",
+      "locations": [
+        "-148.65,-22.53,-94.7"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "jeweler_origins"
     },
     {
       "name": "Savant Ka'im",
@@ -918,6 +1493,23 @@
       ]
     },
     {
+      "name": "Torlig the Alchemist",
+      "name_sortable": "torligthealchemist",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Alchemist",
+      "locations": [
+        "-56.43,-24.43,-65.26"
+      ],
+      "utterances": [
+        "Shhhh! Don't distract me ... I need a steady hand to ensure I combine this potion correctly. One mistake and the blast will reduce this building to rubble. Deal with my apprentices if you want to buy something."
+      ]
+    },
+    {
       "name": "Tullia Sulla",
       "name_sortable": "tulliasulla",
       "race": [
@@ -932,6 +1524,58 @@
       ],
       "utterances": [
         "Welcome to the Academy of Arcane Science.  If you are one of the gifted few that has begun their studies into the mysteries of the arcane, the wonders of pure magic, the marvels of...  But I digress.  If you are one of these select few, then I have materials that are of great interest to you."
+      ]
+    },
+    {
+      "name": "Turia Quietus",
+      "name_sortable": "turiaquietus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Shieldsmith",
+      "locations": [
+        "-87.66,-24.43,-36.43"
+      ],
+      "utterances": [
+        "Hello! Can I offer you one of our new lifetime extended warranties for any merchandise you purchase?  "
+      ],
+      "store_template": "shieldsmith_origins"
+    },
+    {
+      "name": "Ubaj",
+      "name_sortable": "ubaj",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-93.66,-11.0,-81.63"
+      ],
+      "utterances": [
+        "The bigger the smile, the sharper the claws.",
+        "Ratonga are nothing more than overgrown rats. ",
+        "The ratonga are intended to teach us that not everything in nature has a purpose."
+      ]
+    },
+    {
+      "name": "Vassi Darkscale",
+      "name_sortable": "vassidarkscale",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-74.43,-11.0,-75.69"
+      ],
+      "utterances": [
+        "Vassi does not like the looks of you.  Please move out of his view so he may continue to enjoy it."
       ]
     },
     {
@@ -962,12 +1606,49 @@
         "female"
       ],
       "locations": [
-        "-63.0,-20.34,-270.07"
+        "-63.0,-20.34,-270.07",
+        "-139.96,-24.37,-56.06"
       ],
       "utterances": [
         "Get out of here, before I get a few friends and teach you whose turf this is!",
-        "Freeport has everything you could want: intrigue, murder, and greed!"
+        "Freeport has everything you could want: intrigue, murder, and greed!",
+        "Sometimes you have to take what you want."
       ]
+    },
+    {
+      "name": "Vesta Hesperus",
+      "name_sortable": "vestahesperus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-49.35,-10.23,-84.03"
+      ],
+      "utterances": [
+        "Didn't I see your corpse in the alley?  Hmmm ... Maybe it was someone else.",
+        "You'd be a lot more interesting with a dagger sticking out of your back."
+      ]
+    },
+    {
+      "name": "Vibia Valens",
+      "name_sortable": "vibiavalens",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "-131.59,-21.43,-71.46"
+      ],
+      "utterances": [
+        "Please take a look at my wares. Don't hesitate to ask me any questions."
+      ],
+      "store_template": "general_goods_origins"
     },
     {
       "name": "Xeuxa Foamheart",
@@ -1000,7 +1681,8 @@
         "-88.37,-9.91,-171.84"
       ],
       "utterances": [
-        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
       ],
       "store": [
         {

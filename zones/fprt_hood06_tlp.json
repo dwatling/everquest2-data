@@ -7,22 +7,768 @@
   "type": "village",
   "connections": [
     {
-      "key": "freeport_combined",
+      "key": "frpt_south_tlp",
       "location": "-10.40,-5.00,-10.70"
-    },
-    {
-      "key": "fprt_sewer01",
-      "location": "36.53,-3.51,-30.56"
-    },
-    {
-      "key": "fprt_tradeskill01_hood06",
-      "location": "12.39,-3.75,25.45"
-    },
-    {
-      "key": "fprt_adv04_spawl",
-      "location": "101.20,-4.44,20.11"
     }
   ],
   "npcs": [
+    {
+      "name": "Anthony Glavias",
+      "name_sortable": "anthonyglavias",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "82.45,0.0,-12.37"
+      ],
+      "utterances": [
+        "What! Who... No you're not the person I'm supposed to talk to."
+      ]
+    },
+    {
+      "name": "Arms Dealer Shilza",
+      "name_sortable": "armsdealershilza",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Weaponsmith",
+      "locations": [
+        "94.49,-4.0,10.27"
+      ],
+      "utterances": [
+        "Edged weapons for sale!  Sharp blades to gut your enemies!"
+      ],
+      "store_template": "weaponsmith_origins"
+    },
+    {
+      "name": "Banker Izark",
+      "name_sortable": "bankerizark",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Banker",
+      "locations": [
+        "89.08,-2.87,-33.23"
+      ],
+      "utterances": [
+        "I'm very busy and can't talk to you right now."
+      ]
+    },
+    {
+      "name": "Barmaid Frostwind",
+      "name_sortable": "barmaidfrostwind",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "61.0,-4.0,-55.73"
+      ],
+      "utterances": [
+        "The Ogre bread takes an extra long time to bake.  Hey, they like large servings.",
+        "Hey do you see any water around here?  Oh well, who needs to wash their hands?",
+        "Man do I love gnome bread!  The trolls, they just love gnomes period!"
+      ],
+      "store_template": "provisioner_origins"
+    },
+    {
+      "name": "Bartender Icebrew",
+      "name_sortable": "bartendericebrew",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "63.29,-4.0,-60.02"
+      ],
+      "utterances": [
+        "What are you drinking? Ya better not make it one of those sissy drinks.",
+        "I'll give ya a belt of my special homebrew, Wheat Rust Stout. Its bite is so strong you'll think a bear is maulin' ya. Ah, yes ... nothin' like knockin' back a few rounds and slaughtering anyone who gets in your face!",
+        "Well, now, that's a problem. Just enough of the brew is left for one mug, and I don't have rust to make another batch. I ran out of the liquid rust a few hours back and can't make another batch of brew until I get more.",
+        "Are you dense, fool? Didn't I say I use it? Me dad brewed ale using molding wheat, but I found a better, tastier way. If you go and get me more rust, I'll give you some coin and throw in a brew on the house. Are you up for the task?",
+        "Go to the Sunken City and slay the rust monsters that lurk there. Kill the beasts and squeeze them with all your might. Out of their bodies should pour about a jar's worth of pure, liquid rust. Come back with as many jars as you can, and we have a deal."
+      ],
+      "store_template": "bartender_origins"
+    },
+    {
+      "name": "Briac Tundrafire",
+      "name_sortable": "briactundrafire",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "70.64,-4.0,-54.28"
+      ],
+      "utterances": [
+        "BARKEEP! Give me another round before I start getting angry!"
+      ]
+    },
+    {
+      "name": "Brood Matron Vrim Malthyk",
+      "name_sortable": "broodmatronvrimmalthyk",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Iksar Mentor",
+      "locations": [
+        "4.47,-4.67,80.17"
+      ],
+      "languages": [
+        "Sebilisian"
+      ]
+    },
+    {
+      "name": "Caleb Brazenroot",
+      "name_sortable": "calebbrazenroot",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "29.5,-4.38,25.56"
+      ],
+      "utterances": [
+        "Hmmm. An axe might do it, or a sword. A hammer would work too... Or even a flail! Bah, we barbarians have such difficult decisions to make!"
+      ]
+    },
+    {
+      "name": "Clan Chief Malachi Sleetspear",
+      "name_sortable": "clanchiefmalachisleetspear",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Barbarian Mentor",
+      "locations": [
+        "9.97,-4.67,81.74"
+      ],
+      "languages": [
+        "Halasian"
+      ]
+    },
+    {
+      "name": "Colin Stoutfist",
+      "name_sortable": "colinstoutfist",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "62.43,-4.0,-55.31"
+      ],
+      "utterances": [
+        "Grrr ... you still smell like your wet nurse.  Come back when you've more fight in yer blood!"
+      ]
+    },
+    {
+      "name": "Dunn Coldbrow",
+      "name_sortable": "dunncoldbrow",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "30.11,-3.5,-40.38"
+      ],
+      "languages": [
+        "Halasian"
+      ]
+    },
+    {
+      "name": "Dyerth Shiraz",
+      "name_sortable": "dyerthshiraz",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "57.53,-4.0,-60.66"
+      ],
+      "languages": [
+        "Sebilisian"
+      ]
+    },
+    {
+      "name": "Evelyn Stoutfist",
+      "name_sortable": "evelynstoutfist",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "62.11,-3.5,15.08"
+      ],
+      "languages": [
+        "Halasian"
+      ]
+    },
+    {
+      "name": "Garowin",
+      "name_sortable": "garowin",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Mender",
+      "locations": [
+        "93.18,-4.0,10.65"
+      ],
+      "utterances": [
+        "Nah, no need to buy a completely new set.  I'll use some of this special solvent I have.  It'll fix it up good as new!"
+      ]
+    },
+    {
+      "name": "Innkeep Frosthome",
+      "name_sortable": "innkeepfrosthome",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Housing",
+      "locations": [
+        "24.89,-4.38,35.58"
+      ],
+      "utterances": [
+        "Look I'm no cook, but I was going to have some fresh kidneys myself.  You want me to get you a pair?",
+        "Hello there <player name>, what can I help you with?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1948997447 910538981 0 0 0:a generic wall sconce\\/a",
+          "prices": [
+            {
+              "coin": 810
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -696290415 -1683006441 0 0 0:an armorwasher's bucket\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 729139268 0 0 0:an enchanter's candelabra\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Issik Dethyr",
+      "name_sortable": "issikdethyr",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "87.04,-4.37,11.74"
+      ],
+      "utterances": [
+        "Away, civilian! The Milita hasn't the time for lorungs like yourself."
+      ]
+    },
+    {
+      "name": "Jondy Cobbleblork",
+      "name_sortable": "jondycobbleblork",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "75.03,-4.35,-35.89"
+      ],
+      "utterances": [
+        "One scale. Just one scale! That's all I need to complete my research on fling zomping at its effect on kittens. But will an iksar give me a scale? Noooo!"
+      ]
+    },
+    {
+      "name": "Kakriss",
+      "name_sortable": "kakriss",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bowyer",
+      "locations": [
+        "66.21,-4.35,-23.05"
+      ],
+      "utterances": [
+        "Are you going to buy anything today, or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "bowyer_origins"
+    },
+    {
+      "name": "Lorn McHalford",
+      "name_sortable": "lornmchalford",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Shieldsmith",
+      "locations": [
+        "73.61,-4.37,2.08"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "Hello! Can I offer you one of our new lifetime extended warranties for any merchandise you purchase?  "
+      ],
+      "store_template": "shieldsmith_origins"
+    },
+    {
+      "name": "Lucas MacCormick",
+      "name_sortable": "lucasmaccormick",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "45.82,-4.35,-36.76"
+      ],
+      "utterances": [
+        "My stein hasn't any legs to walk over and fill itself up."
+      ]
+    },
+    {
+      "name": "Megen O`Keel",
+      "name_sortable": "megenokeel",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Tailor",
+      "locations": [
+        "45.45,-4.35,-8.38"
+      ],
+      "utterances": [
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "tailor_origins"
+    },
+    {
+      "name": "Melvin Dunford",
+      "name_sortable": "melvindunford",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "64.74,-4.0,-54.69"
+      ],
+      "utterances": [
+        "Anna, darling... This one's fer you. Hiccup!",
+        "Hiccup! Oh, that's enough for me. Why, you buying?",
+        "A guy walks into a bar. He says, \"Ouch\". Another guy walks into a bar and says, \"Ouch\". You think he would have learned from the first guy."
+      ]
+    },
+    {
+      "name": "Merchant Ziraak",
+      "name_sortable": "merchantziraak",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Armorsmith",
+      "locations": [
+        "81.14,-4.37,4.84"
+      ],
+      "utterances": [
+        "We don't sell contraband furnishings in our shop.  We sell only pieces approved by the Overlord!"
+      ],
+      "store_template": "armorsmith_origins"
+    },
+    {
+      "name": "Mirin Zilishia",
+      "name_sortable": "mirinzilishia",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-20.48,0.4,64.84"
+      ],
+      "utterances": [
+        "If you bother me, I will act upon the thoughts that have been coursing through my head from the moment I saw you."
+      ]
+    },
+    {
+      "name": "Natasha",
+      "name_sortable": "natasha",
+      "level": 4,
+      "locations": [
+        "97.94,-4.37,20.75"
+      ]
+    },
+    {
+      "name": "Nithask Syrthiss",
+      "name_sortable": "nithasksyrthiss",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-19.72,0.27,40.6"
+      ],
+      "utterances": [
+        "We will not fall victim to imprisonment again! History, as it has shown, will not allow our fate to be sealed in mediocrity.",
+        "I speak of inevitable vengeance and the rise of a new empire.  The Shattered lands will one day be ruled by a formidable and apt force.  It is our destiny.",
+        "I know the history of this world and the forces responsible for the freedom of our race in many centuries past are still with us, ever watching, ever waiting for our time to rise.  The Green Mist will descend again!",
+        "The iksar were once a race enslaved by the terrible and immensely powerful Shissar Empire. After a millennium of enslavement, we were suddenly blessed by the descent of the Green Mist. We thought the Green Mist was a blessing from the patron Thule, but recent occurrences have proved this great blessing has not been entirely extinguished.",
+        "It freed us from our captors!  The most powerful mortal race to ever exist upon the face of this world was eradicated in mere hours.  We left their blistered bodies to rot in the jungles while we rose to become the most powerful empire in Kunark's history.",
+        "During the Age of War, the Rallosian Empire had a second coming and threatened to cover the whole of the world in destruction and death, which they were very successful at. It wasn't until the fronts had reached the gates of Qeynos that the tides were turned with the return of the mists.",
+        "Indeed, they did.  They descended upon the Rallosian Armies when it seemed that their victory was inevitable.  Upon the dawn of battle, the Qeynosian armies were not met with the hordes of ogres, orcs and goblinoids that had ravaged their territories.  Instead, they were met with a field of blistered corpses.  ",
+        "One of the greatest armies this world has ever seen suddenly fell dead upon the eve of their victory.  Their bodies were covered in the festering sores and blisters consistent with the affliction of the mist.  There is no other logical explanation.  The power of the mist is still with us, and it will be our key to ascension!",
+        "You raise a good point, but one that I refuted in my telling of this history. The mist is obviously not a force conjured by the gods, but it is something more mysterious; perhaps it is a sentient being beyond the realms of the mortal and divine, or perhaps it is beyond such designations.",
+        "Hisssss!  Do not speak such disrespect!  The mist cannot be willed and is not so petty in the choosing of sides.  It is the executor of justice and a servant of fate!  This mist will come again and justice will be delivered once more.  There is no escape from it!  Embrace the inevitability of our rise!",
+        "I am only certain of our fate and what history has shown.  The mists are favorable to us; why, I do not know.  Unlike the empires past, the second rising of our imperial reign will not be weak or foolishly arrogant!  It will serve in respect to the greater powers of this existence that can be neither fathomed nor controlled!"
+      ]
+    },
+    {
+      "name": "Olin Barkstripper",
+      "name_sortable": "olinbarkstripper",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "39.88,0.0,6.18"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "general_goods_origins"
+    },
+    {
+      "name": "Plotter Nicolai ",
+      "name_sortable": "plotternicolai",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "96.48,-4.37,16.7"
+      ],
+      "utterances": [
+        "Yes, yes, that will do nicely... err, hello, who are you?",
+        "Perhaps the dark ones will require our services in the future."
+      ]
+    },
+    {
+      "name": "a poisonous hood wasp",
+      "name_sortable": "poisonoushoodwasp",
+      "level": 3,
+      "locations": [
+        "73.44,-4.34,-30.28"
+      ]
+    },
+    {
+      "name": "a rat",
+      "name_sortable": "rat",
+      "level": 1,
+      "locations": [
+        "14.19,-4.38,11.11",
+        "57.13,-4.35,-35.00",
+        "49.55,-4.35,-35.24"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1659113820 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Savas Dranak",
+      "name_sortable": "savasdranak",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "51.73,-4.35,-46.14"
+      ],
+      "utterances": [
+        "It is a shame this one didn't do what he was told.  He was my favorite thrall too."
+      ]
+    },
+    {
+      "name": "Scribe Coldquill",
+      "name_sortable": "scribecoldquill",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Spell Scrolls",
+      "locations": [
+        "42.73,1.35,53.75"
+      ],
+      "utterances": [
+        "Perhaps I could interest you in our necromantic line of spells?  "
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -997096989 1349224818 0 0 0:Halasian Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1877438680 1158113160 0 0 0:Sebilisian Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1200
+            }
+          ]
+        }
+      ],
+      "store_template": "wizard_trainer_origins"
+    },
+    {
+      "name": "a shadowy agent",
+      "name_sortable": "shadowyagent",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
+      "level": 5,
+      "locations": [
+        "-12.13,0.27,38.24"
+      ]
+    },
+    {
+      "name": "Skal Vethiz",
+      "name_sortable": "skalvethiz",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-16.65,0.27,34.47"
+      ],
+      "utterances": [
+        "What have we iksar become? We live next to barbarians and accept it? We once had a great Empire."
+      ]
+    },
+    {
+      "name": "Sypp",
+      "name_sortable": "sypp",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Alchemist",
+      "locations": [
+        "73.79,0.0,-6.02"
+      ],
+      "utterances": [
+        "Poison testers, it's been my biggest seller for the past several months.  Of course poison was a close second. "
+      ],
+      "store_template": "alchemist_origins"
+    },
+    {
+      "name": "Tegan Frostfist",
+      "name_sortable": "teganfrostfist",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Crafting Trainer",
+      "locations": [
+        "14.12,-4.38,23.9"
+      ],
+      "utterances": [
+        "You have learned everything I have to teach at the moment.  You are free to use our crafting facilities to hone your skills."
+      ],
+      "store_template": "crafting_trainer_origins"
+    },
+    {
+      "name": "Tristan O'Rilley",
+      "name_sortable": "tristanorilley",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "27.98,-4.38,27.45"
+      ],
+      "utterances": [
+        "Malachi didn't send you, did he? Darn, I was hoping it was time to fight!"
+      ]
+    },
+    {
+      "name": "Ugarin Farwind",
+      "name_sortable": "ugarinfarwind",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "41.86,0.0,7.47"
+      ],
+      "utterances": [
+        "Greetings. I am Ugarin, lone wolf of the north winds. I am the preserver of the lost lore of the true Halasians.",
+        "The Halasians were the champions of the frozen realms. They were the first barbarians to truly defy the gods of frost. The Halasians built the grandest city of all,  The city of Halas. It was a city of refuge amidst the magnificence of the frozen tundra and its many dangers.",
+        "Halas is no more. Having survived the furies of E`ci, the eternal rage of the ice dragon Vox, and even the massive assaults during the Age of War, it would be the Shattering that brought doom  to the city. Many lives were lost, a city toppled, and with that, the horns of Halas would bellow out no more.",
+        "A true Halasian? They're rare, but they do exist. You can tell who they are by the glare in their eyes. A glare that was burned into their eyes as they watched in horror as loved ones were crushed beneath the rain of Luclin and the toppling walls of Halas.",
+        "Perhaps. Or perhaps my eyes have seen too many horrors that swept across all of Norrath. Some say the gods have been silenced. I say we should think first of the many Empires that have been silenced. Friend or foe. Vast or humble. All were silenced.",
+        "I did not say destroyed. I said silenced. We the survivors of the Age of Cataclysms huddle within the few cities of refuge. We have had no contact nor heard any word of the lost empires. It is likely they are destroyed, but we must explore the Shattered Lands to answer this.",
+        "The wintry lands are no more. Think only of the uncharted territory beyond the gates. This land has been shattered and reformed. Much is unknown. Leave Halas to memories."
+      ]
+    },
+    {
+      "name": "Verin Ithelz",
+      "name_sortable": "verinithelz",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "3.2,-4.67,2.6"
+      ],
+      "utterances": [
+        "Welcome. We greet you."
+      ]
+    },
+    {
+      "name": "Vleske Vylkle",
+      "name_sortable": "vleskevylkle",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "14.39,-4.38,62.93"
+      ],
+      "utterances": [
+        "Mind the tail! Mind the tail!"
+      ]
+    },
+    {
+      "name": "Wesley Tundrafoot",
+      "name_sortable": "wesleytundrafoot",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-4.85,-5.55,-11.64"
+      ],
+      "utterances": [
+        "You aren't the person I was supposed to beat up, were you?",
+        "I find the lack of snow in this place... unsettling."
+      ]
+    },
+    {
+      "name": "Zever Tzizzink",
+      "name_sortable": "zevertzizzink",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "79.83,-4.0,27.39"
+      ],
+      "utterances": [
+        "The dark elves are inferior creatures led by delusions of grandeur.  How sad.",
+        "Silence.  I do not wish to hear your chatter.",
+        "I have more talent in my tail than you have in your entire body."
+      ]
+    }
   ]
 }

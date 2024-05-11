@@ -5,8 +5,88 @@
   "region": "D'Lere",
   "zonerect": "-225.80,-137.49,181.39,158.88",
   "type": "village",
-  "connections": [
-  ],
   "npcs": [
+    {
+      "name": "Alucius Valus",
+      "name_sortable": "aluciusvalus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Human Mentor",
+      "locations": [
+        "-12.61,4.18,-65.26"
+      ],
+      "utterances": [
+        "I am not quite sure what you are, but I don't want to talk to you."
+      ]
+    },
+    {
+      "name": "Barmaid Melia",
+      "name_sortable": "barmaidmelia",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "-4.62,4.3,-39.78"
+      ],
+      "store_template": "provisioner_origins"
+    },
+    {
+      "name": "Reana Astia",
+      "name_sortable": "reanaastia",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "-14.79,4.0,-39.24"
+      ],
+      "utterances": [
+        "Hey! Do you want some grain?  Nothing's wrong with it.  Come on, it'll be good for making beer or something."
+      ],
+      "store_template": "provisioner_origins"
+    },
+    {
+      "name": "Sestius Buccio",
+      "name_sortable": "sestiusbuccio",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "2.18,5.0,-38.65"
+      ],
+      "store_template": "bartender_origins"
+    },
+    {
+      "name": "Thavian Destrus",
+      "name_sortable": "thaviandestrus",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Half Elf Mentor",
+      "locations": [
+        "-17.6,4.18,-60.98"
+      ],
+      "utterances": [
+        "I am not charged with helping you, and so I will not. Good day."
+      ]
+    }
   ]
 }

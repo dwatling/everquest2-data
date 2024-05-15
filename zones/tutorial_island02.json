@@ -131,7 +131,17 @@
         "230.05,-3.84,150"
       ],
       "utterances": [
-        "I don't have any tasks for you yet.  Speak with Murrar Shar outside of Myrrin's Tower.  He should have some tasks for you."
+        "I don't have any tasks for you yet.  Speak with Murrar Shar outside of Myrrin's Tower.  He should have some tasks for you.",
+        "Do not fret, <player name>. The hand of Qeynos reaches far and wide to help those in need.",
+        "Murrar sent word that you were coming.  He said to be nice, hehe!  No worries, I mean only the best.  In any case, I'll be doing most of the work for this first task, when you're ready.",
+        "You see those ghostly figures down in the canyon? Those are the souls of our scouts who were lost and consumed by evil. I believe that they may be trapped between our world and the next. I think I can resurrect them, if you can just lure them close to me.",
+        "That was a great game of cat and mouse you pulled there!  Nice job, but now for the hard part.",
+        "Long ago there lived a ferocious breed on this island, a species of dire wolf that the Sapswill called \"the Morak.\"  The Morak were cleansed from the island so it could be a safer place.",
+        "The evil that builds on the island has drawn them from their graves and they hunt again.  They are thick through Dead Canyon and we need to clear a path for our scouts to move forward.",
+        "You did it, I knew you could!  Our scouts were able to clear through to the far side of the village.  I'll send word back to Murrar.  Thank you, <player name>.",
+        "The few scouts that broke through to the Sapswill Village report a twist in this evil plot.  Apparently the goblins are victims of the evil as well.  A few goblins survived some sort of an attack on their village and are being held at a scout camp that has been set up on its outskirts.",
+        "Yes, seek out Sorcerer Oofala.  He is charged with protecting the camp there and should have more information.  The camp is in an alcove on the far east side of the Abandoned Village.  You will need to traverse around the Village to get to the camp. Good luck.",
+        "Bless you, child."
       ]
     },
     {
@@ -149,7 +159,8 @@
         "-55.87,-8.93,81.18",
         "-61.47,-8.16,45.92",
         "-94.55,-9.24,49.89",
-        "-94.22,-10.07,37.71"
+        "-94.22,-10.07,37.71",
+        "-91.77,-8.48,102.66"
       ],
       "drops": [
         {
@@ -166,7 +177,14 @@
       "name": "The Dark Blademaster",
       "name_sortable": "darkblademaster",
       "locations": [
-        "154.66,1.38,-178.16"
+        "154.66,1.38,-178.16",
+        "101.34,-1.79,-156.73"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1595179460 1910093437:Dark Blademaster's Shield\\/a",
+          "chest": true
+        }
       ]
     },
     {
@@ -211,7 +229,8 @@
         "No time for idle talk, I need to keep focused.",
         "Your overconfidence will be your undoing.",
         "Flee cowards, before I slaughter you all!",
-        "Sentries, alarm!"
+        "Sentries, alarm!",
+        "Not sneaky enough to get past me."
       ]
     },
     {
@@ -229,7 +248,9 @@
       "utterances": [
         "There's another one!",
         "Sentries, alarm!",
-        "Flee cowards, before I slaughter you all!"
+        "Flee cowards, before I slaughter you all!",
+        "You overconfidence will be your undoing.",
+        "You fought well but not well enough!"
       ]
     },
     {
@@ -289,7 +310,8 @@
         "203.01,0.76,-127.01"
       ],
       "utterances": [
-        "Final death comes at last."
+        "Final death comes at last.",
+        "As I rise from the grave,  you will now take my place!"
       ],
       "drops": [
         {
@@ -311,7 +333,11 @@
         "228.59,-3.51,-14.73",
         "199.10,-0.71,-122.11",
         "226.93,-0.79,-191.88",
-        "171.00,-2.91,186.80"
+        "171.00,-2.91,186.80",
+        "141.16,-3.40,150.93"
+      ],
+      "utterances": [
+        "Your eyes are so pretty."
       ],
       "drop_coin_min": 6,
       "drop_coin_max": 6
@@ -333,7 +359,13 @@
         "Away from the noise over in the camp. I like standing here. You can see where you've been and where you can go. You know what awaits you if you go further in. If only everything were as simple as that, where all your choices are clear and you can see what awaits.",
         "True, but it's clearer than, say, the difference between good and evil.  All those around here who are \"good\" avoid me because I was born \"evil.\" I grew up in Freeport. Does that make them better than me somehow, that I chose to leave Freeport to work on behalf of the Queen only recently? Who knows? Yet I must be evil; I can sense the evil in others.",
         "They say that there is a taint rising from an unknown source, polluting this place and corrupting the inhabitants.  I feel it is much simpler than that.  There are spiders in the Tainted Forest, poisonous ones.  With their venom, they can cause untold suffering.  The search for \"evil\" sometimes has a mundane cause.  We must rid the Colony of these spiders.",
-        "It's up to us to find the answers; they're never handed to us."
+        "It's up to us to find the answers; they're never handed to us.",
+        "The influence of something else?  But I've sensed the evil in them. They aren't capable of planning to be evil. It must be their poison. It must!",
+        "I was so sure... Well, there goes that theory.  Tell me, you may be less biased than someone like me: do you sense anything in the Tainted Forest? Anything at all?",
+        "I'm not convinced, but this does throw a gnome wrench into things.  I don't believe that there is such a thing as evil.  Look at me: I was raised to believe Qeynos was a horrible place filled with mindless drones.  Once I came of age I realized that the Overlord's minions were spreading lies.",
+        "\"Moved\" is such a polite way to say it.  I betrayed Freeport to do what I felt in my heart was right.  And yet...not everyone in Qeynos accepts me or my decision.  So I came here, where I could help remove this island's taint.  The honorable Qeynosians won't work with me, so I've had to devise my own theories.",
+        "We all make mistakes.  Hopefully, this is not a mistake I'll live to regret.  Are you willing to help me test another theory?",
+        "The Tainted Forest is key.  Look for the Forest Keeper, a treant who lives in a nook in the hillside just beyond these trees. It was a guardian of this place and has resisted the taint. It may be willing to speak to you. It chooses not to speak to a betrayer like me."
       ]
     },
     {
@@ -341,7 +373,14 @@
       "name_sortable": "direspike",
       "level": 4,
       "locations": [
-        "89.78,5.02,124.29"
+        "89.78,5.02,124.29",
+        "100.94,1.61,113.37"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1606695464 467932824:Laced Spike\\/a",
+          "chest": true
+        }
       ]
     },
     {
@@ -390,7 +429,10 @@
         "I'm missing the extra parts that my father asked me to collect. Oh no! This is disastrous! I can't leave the dock because I'll miss the boat and I can't go to Qeynos without those parts! What am I going to do?",
         "You'd do that for me? Oh, thank you very, very, much! I'll stay here and ask the boat captain to wait for you to return, should he come. I'm missing three parts and I have no idea where they could be. I know they're on the island somewhere!",
         "I'm missing a size 7 clunker, a copper-coated springer, and a triangle spinner. If you could find them and bring them to me, I'd be forever grateful!",
-        "I need all the parts, I can't leave without them and luckily the boat to Qeynos hasn't showed up yet. Please help me find all of the parts."
+        "I need all the parts, I can't leave without them and luckily the boat to Qeynos hasn't showed up yet. Please help me find all of the parts.",
+        "Very well. It began long ago in Ak'Anon when the king decided to hold a contest. It was grand.  The king invited everyone to make a clockwork king, and the one that most resembled him would win.",
+        "The two favored inventors were my ancestor, Tizik Wobblecog, and an ingenious, but maligned tinkerer named Meldrath. They both submitted their designs, and after much deliberation it was found that the Wobblecog plan provided a much more accurate interpretation of the king.",
+        "Yes, yes, yes! These are all the parts I need! Thank you ever so much. Please, take this as a token of my appreciation. I'm sure the boat will be here any minute now."
       ]
     },
     {
@@ -405,7 +447,8 @@
         "-48.97,2.21,-150.42"
       ],
       "utterances": [
-        "Final death comes at last."
+        "Final death comes at last.",
+        "Your eyes are so pretty."
       ]
     },
     {
@@ -429,6 +472,9 @@
         "-136.89,4.58,-62.33",
         "-110.19,4.35,-97.16"
       ],
+      "utterances": [
+        "Your eyes are so pretty."
+      ],
       "drop_coin_min": 9,
       "drop_coin_max": 9
     },
@@ -448,6 +494,9 @@
         "-128.00,3.99,-105.33",
         "-120.31,5.36,-104.30",
         "-141.70,4.42,-83.48"
+      ],
+      "utterances": [
+        "Seek death and it finds you."
       ],
       "drops": [
         {
@@ -470,6 +519,12 @@
       ],
       "locations": [
         "126.39,1.85,29.86"
+      ],
+      "utterances": [
+        "I must remain strong and vigilant against this!  I will not give in to the corruption!",
+        "Eh?  Who's that? Oh, that betrayer! She should go back to Freeport! Yes, I was once a Forest Keeper, maintaining this wood.  But look around you!  The other treants have succumbed to the evil that pervades this island.  They've become ghosts, trapped between this life and their rebirth.",
+        "Trapped in those ghostly forms, they are contributing to the decay of the Forest.  I've been able to stave off the taint myself, but with so many of my brethren gone, it gets more and more difficult.  They must be set free so that they can be reborn into the earth.  Without rebirth, there will be no living saplings!",
+        "Alas, the decay runs too deep. You must learn what horrors those naughty goblins have released! There are still a few of them that are as yet untainted at the Last Stand, northeasterly of here. Speak to the soothsayer and see if he has any ideas. We were friends in the old days."
       ]
     },
     {
@@ -505,7 +560,8 @@
       ],
       "utterances": [
         "Got any goods for sale from your adventures?",
-        "Welcome to Crestrider's Trading Post."
+        "Welcome to Crestrider's Trading Post.",
+        "If you can trade it, we can buy it."
       ],
       "store": [
         {
@@ -781,7 +837,9 @@
         "144.72,1.49,-77.58",
         "160.71,0.34,-68.57",
         "123.33,1.57,-86.81",
-        "146.13,1.46,-69.87"
+        "146.13,1.46,-69.87",
+        "163.32,1.21,-45.62",
+        "167.62,1.40,-55.17"
       ],
       "drops": [
         {
@@ -920,7 +978,8 @@
         "27.45,-6.35,176.68"
       ],
       "utterances": [
-        "All your basic necessities you'll find here."
+        "All your basic necessities you'll find here.",
+        "The Deeppockets have a long history of good deals, ask anyone!"
       ],
       "store": [
         {
@@ -1398,7 +1457,11 @@
         "-62.47,13.42,-163.37"
       ],
       "utterances": [
-        "Waiting for hero we are, but the Great Balancing is not ready."
+        "Waiting for hero we are, but the Great Balancing is not ready.",
+        "Sad times upon us. The Great Balancing before us. Coming I knew you would be. Had to, you did.",
+        "Prophecy speaks of the Great Balancing.  Time when gobbies are faced with destruction, hero arrives to save us.  Hero I feel from you.",
+        "As it was written!  Sources of evil me thinks springs from cave.  Fog shows us evil inside.  Hero must save the Sapswill.  Hero must be victorious!",
+        "Cave of fog to northeast hero must go!"
       ]
     },
     {
@@ -1445,7 +1508,8 @@
         "-95.18,-9.64,40.69",
         "-104.52,-9.68,35.05",
         "-110.74,-7.83,36.68",
-        "-99.40,-9.66,32.09"
+        "-99.40,-9.66,32.09",
+        "-94.45,-8.96,59.84"
       ],
       "drops": [
         {
@@ -1486,13 +1550,22 @@
         "246.35,-6.38,73.04",
         "262.19,-6.00,130.68"
       ],
+      "languages": [
+        "Halasian"
+      ],
       "utterances": [
         "Whew, thank you!  I couldn't hold on much longer.",
         "Wh..where are they?  Those nasty, evil Moraks?",
         "Get them away! Who knew that Moraks were hounds, I ask you? They've got to be eliminated!  Dratted beasts!",
         "If they come back, you know where you'll find me -- up in this tree!",
         "Whew! When I was assigned to explore the village, I had no idea there would be these... these dogs! I'm deathly afraid of them. Got bitten very badly as child, you see. This is terrible! How can I  finish my missions?  Hmm! You don't seem to be frightened of them.",
-        "I would be forever in your debt if you could perhaps take a quick peek around the village for me and clear out any of these wretched Moraks so that I can continue on my mission.  Please?"
+        "I would be forever in your debt if you could perhaps take a quick peek around the village for me and clear out any of these wretched Moraks so that I can continue on my mission.  Please?",
+        "Help! Intruders! Someone get the guard!",
+        "Wha... what happened?  I should get back to the colony!",
+        "Caught thee red handed did I?",
+        "Whe... where am I?  I should get back to the colony!",
+        "Oh, dear.",
+        "I do owe you for this, friend.  I'm primarily a scout, but also a diplomat-in-training.  I'm supposed to open lines of communication with the Sapswill soothsayer, who supposedly knows a great deal about what's ailing our Colony.  Can you take him this gift?  As the act of a diplomat-in-training?"
       ],
       "drops": [
         {
@@ -1531,7 +1604,8 @@
         "-28,-4.31,123.72"
       ],
       "utterances": [
-        "Hello there, <player name>. Menders like me repair your equipment after it is damaged due to death. For more information on repairs, speak to Trainer Zidget Sprogrudder nearby. I'll fix your gear for a small fee, but menders in Qeynos won't be quite so generous!"
+        "Hello there, <player name>. Menders like me repair your equipment after it is damaged due to death. For more information on repairs, speak to Trainer Zidget Sprogrudder nearby. I'll fix your gear for a small fee, but menders in Qeynos won't be quite so generous!",
+        "If your gear is ever damaged in battle, come back to me and I'll repair it."
       ]
     },
     {
@@ -1597,7 +1671,16 @@
         "175.40,-0.59,-219.95",
         "161.69,-0.74,-204.87",
         "150.35,-0.70,-208.33",
-        "93.39,-0.38,-180.61"
+        "93.39,-0.38,-180.61",
+        "264.84,-4.57,51.08",
+        "231.01,-4.05,18.73",
+        "228.12,-3.84,0.82",
+        "222.52,-4.96,-14.48",
+        "267.19,-5.10,-3.34",
+        "217.09,-1.08,-69.69",
+        "175.50,-0.63,-107.25",
+        "162.98,-0.58,-114.18",
+        "92.00,-0.29,-202.00"
       ],
       "drops": [
         {
@@ -1606,6 +1689,10 @@
         },
         {
           "gamelink": "\\aITEM 641537398 409580744:Weakened Blood of the Wolf\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 126592549 446323017:rawhide leather pelt\\/a",
           "chest": false
         }
       ]
@@ -1628,7 +1715,8 @@
         "0.47,1.97,-206.03",
         "-14.26,1.94,-129.47",
         "-84.86,4.35,-141.80",
-        "-61.52,2.20,-187.81"
+        "-61.52,2.20,-187.81",
+        "-86.82,4.35,-147.90"
       ],
       "drops": [
         {
@@ -1663,7 +1751,21 @@
         "If you feel you are ready to leave the island you can do so at any time. We have an arrangement with Captain Varlos. He will take you to the fair city of Qeynos.",
         "Head through the south archway to the beach. Once there, you will find Varlos' ship on the dock. He should be aboard his ship. I hope you enjoy Qeynos, <player name>.",
         "The Queen's Colony was established as a training grounds for prospective citizens of Qeynos. Our great city needs valiant defenders.",
-        "Ahh, your future is as bright as your spirit, but there are perils in this world that only the mightiest of adventurers may overcome. Before you begin your investigation into the troubles here, I need you to become familiar with the basics of battle."
+        "Ahh, your future is as bright as your spirit, but there are perils in this world that only the mightiest of adventurers may overcome. Before you begin your investigation into the troubles here, I need you to become familiar with the basics of battle.",
+        "Hello again, <player name>. Have you passed the test that Trainer Hayl McGuinness set before you?",
+        "I'm glad to hear it, for now we have need of our courage. Until recently, our colony lived in peace with a clan of goblins known as the Sapswill that reside on the other side of the island. But for some unknown reason, they have begun to attack us. We need to begin an investigation at once to get to the bottom of this. Will you help?",
+        "The goblins have started attacking us from the west. We're not sure what sparked the uprising, but they are now relentlessly trying to invade the colony. I need you to go see how our defenders are doing at the west gate and gather any information you can. Speak with Sergeant Haggus at the barricades and see what you can do to assist him.",
+        "Good luck, <player name>.",
+        "Hmm...yes, these reports are disturbing indeed.  I cannot place the source that tainted our beloved soldiers.  ",
+        "I can assure you that we will find out though.  In the meantime, here is a reward for your continued assistance.",
+        "Ready to continue, eh?  The dead soldiers were raised from the dead by something most evil and bent on destroying the Colony.  Recently the wildlife on the island has felt the effects of the evil as well.  I must get some samples from those creatures so that I can examine them more closely. ",
+        "Thank you, but I have already sent a skilled hunter to do the job. Maybe you should check up on him though and make sure things are going well. He's been out in the Tainted Forest for a while now. Look for Sha'Dur up the stairs on the north side of Sunset Meadow.",
+        "Thank you for the help.",
+        "Good, the samples. I'll need to consult with Myrrin about them, but in the meantime I've arranged with Banker Bogfoot to have a reward put into your bank account. Come back to me later and hopefully these samples will have prroven worthy.",
+        "The samples have been examined and my worst fear has been realized.  A poisonous mist clings to the tissue, eating and controlling it.  I suspect necromancy, but from whom?",
+        "That I do. My best guess is that the goblin leader, High Chieftain Grexx, is involved. He is the most powerful and influential figure to the goblins. If he were somehow corrupted, the goblins would follow any orders he demanded.",
+        "First things first, <player name>. We need to break through to the goblin village. I have assigned this duty to Cleric Mara'Vaen. Seek her out and see how you can help.",
+        "Mara'Vaen can be found at the head of Dead Canyon to the west.  "
       ]
     },
     {
@@ -1745,7 +1847,15 @@
         "186.89,4.85,110.55"
       ],
       "utterances": [
-        "I like your look. I think you may be able to help me. Speak with Murrar Shar, back in the Queen's Colony, if you're interested."
+        "I like your look. I think you may be able to help me. Speak with Murrar Shar, back in the Queen's Colony, if you're interested.",
+        "Wraaa!  The day is grim.  Has this world lost all of its goodness and left us with this cold husk?  I suppose you were sent by Murrar, but my job has been halted.",
+        "Help was a word I didn't expect to hear, but I'm most likely beyond helping. See, I was sent here to collect samples from the wildlife that has become tainted, but on my hunt I was ambushed by the nearby goblins. My bow and arrows were lost in the scuffle.",
+        "I'm sure my bow is in the hands of those tainted Sapswill tappers that ambushed me.  You might try, but I don't expect much.",
+        "Wra... my bow!  You did this for me?  Maybe this day is not so bad.  Maybe you found my arrows too?",
+        "Well there goes the day again! What's a bow without arrows? The only good sticks I've found to make arrow shafts are by that spider den. Brrrr!",
+        "You'd do this for me again? I can fletch these sticks into perfect arrows. You, my friend, have turned my eyes. It's a great day. I know we can beat this menace!",
+        "You know, come to think of it.  I did get a few small samples before I lost my bow.  Why don't you take them back to Murrar to see if they'll do.",
+        "No really, go ahead!  With your help finding my gear, you've shown that there is light in this dim hour.  We will live to fight another day."
       ]
     },
     {
@@ -1767,7 +1877,8 @@
         "-20.95,-5.25,215.63"
       ],
       "utterances": [
-        "For the strength of Kaladim!"
+        "For the strength of Kaladim!",
+        "When I'm off duty that rock is mine!"
       ]
     },
     {
@@ -1859,7 +1970,16 @@
         "-69.35,13.45,-163.34"
       ],
       "utterances": [
-        "Grexx promises us and his promises is kept!"
+        "Grexx promises us and his promises is kept!",
+        "Hello! Hello!  I knew you would be coming! I knew! And bringing a present...we loves presents!",
+        "Friends for life, we are now! Is our tradition to greet everyone we meet.  Go meet the Sapswills! Is the diplomatic way! Hail them all!  We like friends!  Meet the Sapswills, then meet High Chieftain Grexx! He likes friends, too! To long life and happy friendships!",
+        "To long life and happy friendships!",
+        "Forest Keeper, big tree! Yes, yes, waiting for you.  Big tree, big promise!  Water is needed, yes!  Three waters, fallen from the skies and the roots from deep beneath!  Fetch the waters! Gather the roots!",
+        "Nothing more to say! Big tree sends you to me to help! Big tree keeps promise! Bring waters and roots first, then sayings will I sooth!  Must bring to me, or nothing more will I say!",
+        "Yes! Yes! Freshest waters! Tasty roots!  Now will I tell you what you want to know.  What you want to know?",
+        "Me? No! Grexx knows all, no sayings need to sooth on that!  Ha! Why tree tell you such a joke? Ha! Evil things creeping up on poor gobbies, long time now!  Big tree is wrong, nothing new to know about that.  Happy you came to help us, though!",
+        "Ah, tasty roots! Mash them up, grind them up and soak in the waters.  After the moons are new again, ready to drink, it is!  Helps to forget, helps to remember.  Tasty roots!",
+        "Yes, yes! Tasty brew! If you knew there was no sooth to be said, would you have got tasty roots and fresh waters for us?  No! So now we have them and now you will know as much as Sapswills! Even trade! Even trade!  Share with you, we will, too!"
       ]
     },
     {
@@ -1882,7 +2002,8 @@
         "Go Gonk!",
         "Go Durg!",
         "A friend to gobbies!  Grexx was right!",
-        "Days are grim, but Grexx has hopes."
+        "Days are grim, but Grexx has hopes.",
+        "Hail? But soothsayer says no hail in forecast!"
       ]
     },
     {
@@ -1902,7 +2023,9 @@
         "Dishpan hands? Huh? Oh! Dip-lo-mat! Ha! Funny!",
         "Danger?  Only danger I see is crackin' my nog on dis rock!",
         "Hee hee.  You talkin' crazy, have a stout!",
-        "..."
+        "...",
+        "I play special tune for diplomats!",
+        "Get some swill, diplomat! Is good!"
       ]
     },
     {
@@ -1946,7 +2069,9 @@
         "94.04,0.25,191.48",
         "110.22,-1.75,178.59",
         "108.00,-2.00,186.40",
-        "87.94,0.27,191.37"
+        "87.94,0.27,191.37",
+        "146.16,-1.46,133.74",
+        "152.00,0.00,168.96"
       ]
     },
     {
@@ -1963,7 +2088,13 @@
         "62.66,-4.26,168.72"
       ],
       "utterances": [
-        "Ah you look strong. I'm certain we could use your help, go speak with Murrar. He's south of the tower that is just east of here."
+        "Ah you look strong. I'm certain we could use your help, go speak with Murrar. He's south of the tower that is just east of here.",
+        "Har!  These scampering whelps will never break through!  Oh, hello there.  What's that, Murrar sent you?",
+        "While the goblins aren't very powerful, they're definitely tenacious. It's almost as if they have no mind of their own and are throwing themselves at us like flies unto a swatter.",
+        "Aye, you're a gutsy one aren't you? I'll give you a chance to prove your strength. Fend off some of these invading Sapswill and we'll see how you fare.",
+        "By the hilt of the Claymore, you're a strong one! I could use your strength for another task.",
+        "A platoon of my soldiers set out a while ago and hasn't returned.  Search Sunset Meadow for these soldiers and return to me with your findings.",
+        "You've done well, <player name>. Sometime when you're not so busy, maybe you'd take a job with the Qeynos Guard and we can fight along side one another again. Take this information back to Murrar. Farewell."
       ]
     },
     {
@@ -2063,7 +2194,16 @@
         "47.99,-2.82,-167.82"
       ],
       "utterances": [
-        "I do not have any assignments for you right now. Speak with Murrar Shar outside of Myrrin's Tower at the center of the colony. He should have some work for you."
+        "I do not have any assignments for you right now. Speak with Murrar Shar outside of Myrrin's Tower at the center of the colony. He should have some work for you.",
+        "Boom!  I love this job! Someday I'll be the greatest wizard in all of Qeynos. And you, <player name>, what do you aspire to be?",
+        "It's possible, but unlikely. I've got the edge of course, being an Erudite.  But let's put that behind us, since I suppose I need your help.",
+        "Well I need to stay here and guard the camp, but I need you to venture into the Abandoned Village. The goblins have revealed some disturbing news. A few survived and made it into our camp here, but the rest were consumed by a mysterious fog.",
+        "Apparently some mysterious totems appeared throughout the village and spewed out a fog that enveloped it. It appears that only a few survived, and the rest were twisted into the living dead.",
+        "Exactly.  Clear them away from the village and maybe it will help lead us to the source of the evil.",
+        "Wow, you really caused an uproar! Removing those totems must have angered whatever sinister force is behind all this. An evil champion has shown his face and must be dealt with. The Dark Blademaster must be defeated.",
+        "Well, if Murrar had sent me to take out the Blademaster, it would be done already. My orders are to protect the camp here, at which I am doing a superb job. Enough debate. Destroy the Blademaster!",
+        "What a fight that was! For a moment there, I thought I'd need to step in and help you. The Blademaster's insignia is very disturbing. I should have known Freeport was involved in this corruption somehow! We must act quickly if we're to stop the evil.",
+        "There's no time! Our forward scouts report that High Chieftain Grexx is still alive and holding off the invasion from his tree house to the east. You must go talk to him before it is too late!"
       ]
     },
     {
@@ -2101,7 +2241,8 @@
         "152.2,-3.58,180.37",
         "187.97,1.13,59.04",
         "156.60,1.39,26.60",
-        "151.12,-4.11,205.49"
+        "151.12,-4.11,205.49",
+        "181.36,1.33,7.77"
       ]
     },
     {
@@ -2212,7 +2353,14 @@
         "117.88,-4.18,191.55",
         "82.64,-4.51,171.82",
         "105.10,-4.00,179.89",
-        "74.75,-4.36,162.21"
+        "74.75,-4.36,162.21",
+        "79.94,-4.36,159.00",
+        "75.47,-4.50,185.68",
+        "130.32,-3.59,175.71",
+        "111.70,-3.96,164.35",
+        "70.96,-4.40,173.62",
+        "94.24,-4.40,170.61",
+        "137.98,-3.70,162.28"
       ],
       "drops": [
         {
@@ -2221,6 +2369,14 @@
         },
         {
           "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -546866184 -1198631268:blue lotus petal\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1394122634 -257532895:Fiery Carnelian\\/a",
           "chest": false
         }
       ],
@@ -2253,7 +2409,10 @@
         "157.63,-0.72,-208.65",
         "143.51,0.28,-186.16",
         "96.09,-0.51,-174.05",
-        "221.20,-4.97,-10.47"
+        "221.20,-4.97,-10.47",
+        "230.80,-4.04,16.51",
+        "230.93,-3.85,-0.36",
+        "88.47,-0.28,-204.96"
       ],
       "drops": [
         {
@@ -2292,6 +2451,10 @@
       "drops": [
         {
           "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -612798970 -388633528:a decomposing zombie organ\\/a",
           "chest": false
         }
       ],
@@ -2367,7 +2530,10 @@
         "122.50,1.53,79.52",
         "111.69,1.57,115.00",
         "105.75,1.59,117.29",
-        "99.22,1.61,108.55"
+        "99.22,1.61,108.55",
+        "143.76,1.45,96.81",
+        "136.00,2.48,102.85",
+        "135.85,1.41,85.45"
       ],
       "drops": [
         {
@@ -2377,6 +2543,10 @@
         {
           "gamelink": "\\aITEM 1488626691 1853705498:a poison gland\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 634927580 -2056671690:Spider Leg Bow\\/a",
+          "chest": true
         }
       ]
     },
@@ -2542,7 +2712,13 @@
         "Successful fighting isn't about turning on your auto-attack and walking away from battle. Your odds of victory are much better if you prepare well and are active during combat. You should be using every spell or combat art that has a positive effect on your chances to win.",
         "Before you begin fighting, make sure you and your allies have activated all beneficial spells, also known as \"buffs,\" so that you're operating at peak efficiency. Buffs can add health or power, increase your rate of regeneration, enhance your physical attributes, make you attack faster or do more damage, and more.",
         "Whether you're a front-lines melee type or someone attacking from a distance with weapons or spells, you should be using abilities that damage your foes effectively and efficiently. Right click on your spells and arts and select \"Examine\" to see details on their effects.",
-        "Using your highest-level versions of spells and arts will be more effective than using older versions. In addition, you should be upgrading your abilities to higher ranks to make them more effective. For more details on spells and combat arts, talk to Trainer Myrrin the Magnific in the tower at the center of the colony."
+        "Using your highest-level versions of spells and arts will be more effective than using older versions. In addition, you should be upgrading your abilities to higher ranks to make them more effective. For more details on spells and combat arts, talk to Trainer Myrrin the Magnific in the tower at the center of the colony.",
+        "Hello there, <player name>! I'm here to teach new recruits the basics of combat. Murrar told me you show great promise!",
+        "Okay, let's see what you're made of. One of the nearby sparring partners to my left will be happy to test your mettle. Challenge any one of them and return to me when you've earned a victory.",
+        "Melee combat means a toe-to-toe, physical confrontation. It is a combination of auto-attack damage that happens automatically when you press the Melee Attack button on your hotbar or the ~ key and spells or combat arts that you use in close proximity to your foe.",
+        "Sturdy fighters such as Guardians, Berserkers, Monks, and Paladins stand at the front lines of battle facing the enemy. Crafty scouts such as Swashbucklers, Rangers, Troubadors, and Dirges generally stay close to their foes as well, but prefer to launch attacks from the back or side where they are less likely to be counterattacked.",
+        "So, did you defeat the sparring partner like I asked?",
+        "Great work! You've proven your worth and are ready for greater challenges. If you want further instruction later, just come see me. But right now you must report back to Murrar so that you can discover what's behind the trouble here at the colony."
       ]
     },
     {
@@ -2755,11 +2931,16 @@
         "31.63,-5.63,121.79"
       ],
       "utterances": [
-        "You can attack me whenever you're ready. You can do that by double-clicking me, by right clicking me and selecting \"attack,\" by using an offensive ability while you have me targeted, or by turning on auto attack by pressing the ~ key while you have me targeted."
+        "You can attack me whenever you're ready. You can do that by double-clicking me, by right clicking me and selecting \"attack,\" by using an offensive ability while you have me targeted, or by turning on auto attack by pressing the ~ key while you have me targeted.",
+        "Well done!",
+        "Okay, who's next?"
       ]
     }
   ],
   "shinies": [
+    {
+      "gamelink": "\\aITEM -1770462429 -1506854305:abalone shell\\/a"
+    },
     {
       "gamelink": "\\aITEM -267674522 -288450660:clam shell\\/a",
       "locations": [

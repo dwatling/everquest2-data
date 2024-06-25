@@ -1,10 +1,19 @@
 {
   "name": "A Memory of Sand",
   "name_sortable": "memoryofsand",
-  "category": "",
+  "expansion": "exp01",
+  "added": "lu53",
+  "category": "Dungeons",
   "connections": [
     {
-      "key": "qeynos_combined01"
+      "key": "qeynos_combined01",
+      "added": ""
+    },
+    {
+      "key": "qeynos_north"
+    },
+    {
+      "key": "freeport_north"
     }
   ],
   "npcs": [

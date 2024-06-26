@@ -1,11 +1,11 @@
 {
   "name": "Starcrest Commune",
   "name_sortable": "starcrestcommune",
-  "flags": "origins",
   "category": "Villages",
   "subcategory": "Qeynos",
+  "removed": "lu64",
   "zonerect": "-994.10,133.09,-534.37,477.61",
-    "connections": [
+  "connections": [
     {
       "key": "qey_adv04_bog",
       "location": "769.92,-26.54,363.13"
@@ -19,7 +19,7 @@
       "location": "788.99,-19.17,275.94"
     },
     {
-      "key": "qeynos_combined01",
+      "key": "qeynos_south",
       "location": "701.50,-20.00,265.00"
     }
   ],

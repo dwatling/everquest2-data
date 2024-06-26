@@ -1,11 +1,11 @@
 {
   "name": "The Baubbleshire",
   "name_sortable": "baubbleshire",
-  "flags": "origins",
   "category": "Villages",
   "subcategory": "Qeynos",
+  "removed": "lu64",
   "zonerect": "-1202.29,-731.03,-545.37,-218.19",
-    "connections": [
+  "connections": [
     {
       "key": "qey_adv02_ruins",
       "location": "888.48,-12.38,-547.30"
@@ -19,7 +19,7 @@
       "location": "827.99,-9.41,-468.18"
     },
     {
-      "key": "qeynos_combined02",
+      "key": "qey_elddar",
       "location": "819.00,-20.80,-529.00"
     }
   ],

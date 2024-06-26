@@ -1,11 +1,11 @@
 {
   "name": "Castleview Hamlet",
   "name_sortable": "castleviewhamlet",
-  "flags": "origins",
   "category": "Villages",
   "subcategory": "Qeynos",
+  "removed": "lu64",
   "zonerect": "-1012.90,-312.79,-553.08,41.48",
-    "connections": [
+  "connections": [
     {
       "key": "qey_adv01_oakmyst",
       "location": "751.46,-5.57,-196.06"
@@ -19,7 +19,7 @@
       "location": "746.68,-15.21,-156.92"
     },
     {
-      "key": "qeynos_combined02",
+      "key": "qey_harbor",
       "location": "728.60,-21.10,-123.40"
     }
   ],

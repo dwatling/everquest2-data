@@ -6,6 +6,27 @@
   "category": "Cities",
   "subcategory": "Qeynos",
   "zonerect": "-634.49,-134.92,-165.38,212.35",
+  "connections": [
+    {
+      "key": "qey_tradeskill01_qey_north_ironforge",
+      "location": "487.52,-19.72,-379.37"
+    },
+    {
+      "key": "qey_elddar",
+      "location": "508.51,-21.38,-286.28"
+    },
+    {
+      "key": "qey_catacomb01",
+      "location": "443.33,-16.50,85.20"
+    },
+    {
+      "key": "antonica"
+    },
+    {
+      "key": "qey_south",
+      "location": "393.02,-21.23,135.79"
+    }
+  ],
   "npcs": [
     {
       "name": "Aldermun",

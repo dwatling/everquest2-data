@@ -1,6 +1,5 @@
 {
   "name": "The Dark Bargainers",
-  "name_sortable": "darkbargainers",
   "flags": "pre-lu62",
   "category": "Crafting Hubs",
   "connections": [
@@ -12,7 +11,6 @@
   "npcs": [
     {
       "name": "Dris Loth",
-      "name_sortable": "drisloth",
       "race": [
         "human"
       ],
@@ -29,14 +27,13 @@
     },
     {
       "name": "Ieam D'Lax",
-      "name_sortable": "ieamdlax",
-      "purpose": "Broker",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
+      "purpose": "Broker",
       "locations": [
         "-1.47,-19.59,13.2"
       ],
@@ -46,7 +43,6 @@
     },
     {
       "name": "Lamados Dinaris",
-      "name_sortable": "lamadosdinaris",
       "race": [
         "barbarian"
       ],
@@ -65,7 +61,6 @@
     },
     {
       "name": "Sasit Soroth",
-      "name_sortable": "sasitsoroth",
       "race": [
         "human"
       ],
@@ -82,17 +77,16 @@
     },
     {
       "name": "Wholesaler Zarethe N'Kor",
-      "name_sortable": "wholesalerzarethenkor",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
+      "purpose": "Wholesaler",
       "locations": [
         "-2.27,-0.18,9.08"
       ],
-      "purpose": "Wholesaler",
       "utterances": [
         "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor, are you?"
       ],

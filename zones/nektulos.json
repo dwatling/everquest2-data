@@ -1,10 +1,13 @@
 {
   "name": "Nektulos Forest",
-  "name_sortable": "nektulosforest",
   "category": "D'Lere",
   "description": "Nektulos Forest is the ancestral home of the Teir'Dal and the location of Nektropos Castle.",
-  "zonerect": "-1377.60,-2504.77,2619.59,525.19",
   "levels": "20-30",
+  "maps": [
+    {
+      "zonerect": "-1377.60,-2504.77,2619.59,525.19"
+    }
+  ],
   "connections": [
     {
       "key": "commonlands"
@@ -58,7 +61,6 @@
   "npcs": [
     {
       "name": "Aleeshi Monala",
-      "name_sortable": "aleeshimonala",
       "locations": [
         "497.03,26.58,-1456.94"
       ],
@@ -68,7 +70,6 @@
     },
     {
       "name": "an angry Nek wasp",
-      "name_sortable": "angrynekwasp",
       "level": 25,
       "locations": [
         "-1161.82,0.63,-861.62",
@@ -83,7 +84,6 @@
     },
     {
       "name": "an arbiter of the trials",
-      "name_sortable": "arbiterofthetrials",
       "utterances": [
         "So, you're the new fodder, eh? I've been doing this for centuries. I remember when Master Szin faced these same Trials. I have a word of advice for you, if you care to hear it.",
         "Szin isn't a fair or honorable man in the least. His theory has always been strength in numbers, if you get what I'm saying. I best keep my mouth shut, though. Good luck to you."
@@ -91,7 +91,6 @@
     },
     {
       "name": "Arqis",
-      "name_sortable": "arqis",
       "locations": [
         "-282.64,0,173.16"
       ],
@@ -115,7 +114,6 @@
     },
     {
       "name": "Arthial the Protector",
-      "name_sortable": "arthialtheprotector",
       "locations": [
         "514.28,26.38,-1446.66"
       ],
@@ -125,7 +123,6 @@
     },
     {
       "name": "an ashland wisp",
-      "name_sortable": "ashlandwisp",
       "locations": [
         "-182.31,0.36,-902.7",
         "-197.03,0.02,-924.79",
@@ -161,7 +158,6 @@
     },
     {
       "name": "an ash owlbear",
-      "name_sortable": "ashowlbear",
       "level": 23,
       "locations": [
         "-839.84,30.09,-262.16",
@@ -218,7 +214,6 @@
     },
     {
       "name": "an ash shriller",
-      "name_sortable": "ashshriller",
       "level": 22,
       "locations": [
         "-465.69,5.18,-1239.34",
@@ -234,7 +229,6 @@
     },
     {
       "name": "an ash viper",
-      "name_sortable": "ashviper",
       "level": 21,
       "locations": [
         "-486.45,0.19,-1228.74",
@@ -264,7 +258,6 @@
     },
     {
       "name": "an ash wolf",
-      "name_sortable": "ashwolf",
       "level": 27,
       "locations": [
         "-1272.06,46.61,-1490.05",
@@ -307,7 +300,6 @@
     },
     {
       "name": "an ash wraith",
-      "name_sortable": "ashwraith",
       "locations": [
         "-153.21,60.37,-1467.23",
         "2.16,61.11,-1376.79",
@@ -339,7 +331,6 @@
     },
     {
       "name": "an Asilian diviner",
-      "name_sortable": "asiliandiviner",
       "locations": [
         "-615.45,0.01,-367.52",
         "-517.85,2.67,-507.86",
@@ -355,19 +346,16 @@
       "faction_changes": [
         {
           "name": "The Asilian Fairies",
-          "name_sortable": "asilianfairies",
           "value": -100
         },
         {
           "name": "The Sullian Fairies",
-          "name_sortable": "sullianfairies",
           "value": 50
         }
       ]
     },
     {
       "name": "an Asilian vandal",
-      "name_sortable": "asilianvandal",
       "locations": [
         "-616.23,6.06,-360.23"
       ],
@@ -380,26 +368,22 @@
       "faction_changes": [
         {
           "name": "The Asilian Fairies",
-          "name_sortable": "asilianfairies",
           "value": -100
         },
         {
           "name": "The Sullian Fairies",
-          "name_sortable": "sullianfairies",
           "value": 50
         }
       ]
     },
     {
       "name": "Bain Rockfist",
-      "name_sortable": "bainrockfist",
       "utterances": [
         "Ahh, I see you made it all right... Best be careful running 'round these parts."
       ]
     },
     {
       "name": "Bernd Frostbeard",
-      "name_sortable": "berndfrostbeard",
       "locations": [
         "504.55,26.53,-1466.24"
       ],
@@ -410,7 +394,6 @@
     },
     {
       "name": "a Bit of Flotsam",
-      "name_sortable": "bitofflotsam",
       "locations": [
         "991.08,-0.31,-302.66",
         "882.81,-0.9,-212.67",
@@ -420,7 +403,6 @@
     },
     {
       "name": "a blacktimber bee",
-      "name_sortable": "blacktimberbee",
       "level": 28,
       "locations": [
         "-378.94,84.24,-1879.58",
@@ -430,7 +412,6 @@
     },
     {
       "name": "a blacktimber treant",
-      "name_sortable": "blacktimbertreant",
       "level": 28,
       "locations": [
         "-384.26,82.83,-1902.94",
@@ -570,7 +551,6 @@
     },
     {
       "name": "a bloated soul leech",
-      "name_sortable": "bloatedsoulleech",
       "level": 25,
       "locations": [
         "-33.56,-1.85,-1040.31",
@@ -661,7 +641,6 @@
     },
     {
       "name": "a blood shriller",
-      "name_sortable": "bloodshriller",
       "level": 24,
       "locations": [
         "659.13,4.29,-538.68",
@@ -672,7 +651,6 @@
     },
     {
       "name": "Bruhn K'Viir",
-      "name_sortable": "bruhnkviir",
       "locations": [
         "668.55,-0.9,-280.24"
       ],
@@ -700,14 +678,12 @@
     },
     {
       "name": "a burnished underbulk",
-      "name_sortable": "burnishedunderbulk",
       "locations": [
         "628.93,-0.76,-99.24"
       ]
     },
     {
       "name": "Burvich",
-      "name_sortable": "burvich",
       "purpose": "Mender",
       "locations": [
         "822.53,6.03,-79.45"
@@ -719,7 +695,6 @@
     },
     {
       "name": "a cackling cadaver",
-      "name_sortable": "cacklingcadaver",
       "level": 20,
       "locations": [
         "-79.71,-0.77,190.14",
@@ -754,7 +729,6 @@
     },
     {
       "name": "a Camp Fire",
-      "name_sortable": "campfire",
       "locations": [
         "820.91,0.67,-264.74",
         "605.81,-0.89,-212.91",
@@ -763,7 +737,6 @@
     },
     {
       "name": "Captain Corrigan",
-      "name_sortable": "captaincorrigan",
       "locations": [
         "792.2,6.03,-120.66"
       ],
@@ -773,7 +746,6 @@
     },
     {
       "name": "Captain D'Lex",
-      "name_sortable": "captaindlex",
       "locations": [
         "-384.1,60.62,-1382.59"
       ],
@@ -783,7 +755,6 @@
     },
     {
       "name": "Captain T'Sanne",
-      "name_sortable": "captaintsanne",
       "level": 29,
       "locations": [
         "699.59,-0.0,-718.82"
@@ -795,7 +766,6 @@
     },
     {
       "name": "a Cave Bear",
-      "name_sortable": "cavebear",
       "level": 28,
       "locations": [
         "-1467.52,17.97,-731.3"
@@ -803,14 +773,12 @@
     },
     {
       "name": "a clockwork owlbear",
-      "name_sortable": "clockworkowlbear",
       "locations": [
         "-519.75,13.41,99.91"
       ]
     },
     {
       "name": "a corpse beetle",
-      "name_sortable": "corpsebeetle",
       "locations": [
         "-542.65,0,-1208.89",
         "617.19,-1.89,-514.92",
@@ -830,7 +798,6 @@
     },
     {
       "name": "Cryptomancer Nasrara",
-      "name_sortable": "cryptomancernasrara",
       "locations": [
         "420.69,26.73,-1475.63"
       ],
@@ -842,7 +809,6 @@
     },
     {
       "name": "Daisy Winterhope",
-      "name_sortable": "daisywinterhope",
       "locations": [
         "774.71,-0.71,-180.0"
       ],
@@ -865,7 +831,6 @@
     },
     {
       "name": "Dalninia",
-      "name_sortable": "dalninia",
       "locations": [
         "-198.59,-0.01,-342.56"
       ],
@@ -884,7 +849,6 @@
     },
     {
       "name": "Dannian Blackleaf",
-      "name_sortable": "dannianblackleaf",
       "locations": [
         "426.22,26.59,-1507.42"
       ],
@@ -897,7 +861,6 @@
     },
     {
       "name": "Daria",
-      "name_sortable": "daria",
       "utterances": [
         "These two are impossible! Always bickering over who wins most and who doesn't cheat.",
         "You don't know?  It's all the rage these days, it seems. In your travels, have you ever noticed the small rainbows near the ground in certain areas?",
@@ -907,7 +870,6 @@
     },
     {
       "name": "Daryus Springfyre",
-      "name_sortable": "daryusspringfyre",
       "purpose": "General Goods",
       "locations": [
         "-297.51,0,194.27"
@@ -932,14 +894,12 @@
     },
     {
       "name": "Da'ud Kateb",
-      "name_sortable": "daudkateb",
       "utterances": [
         "Terribly drab place this... Wouldn't you agree?"
       ]
     },
     {
       "name": "a deadly rumbleroot",
-      "name_sortable": "deadlyrumbleroot",
       "level": 25,
       "locations": [
         "-885.63,32.49,-207.82",
@@ -974,7 +934,6 @@
     },
     {
       "name": "a dead militia guard",
-      "name_sortable": "deadmilitiaguard",
       "locations": [
         "-542.65,0,-1208.89",
         "617.19,-1.89,-514.92",
@@ -983,7 +942,6 @@
     },
     {
       "name": "a deathbloom bee",
-      "name_sortable": "deathbloombee",
       "level": 30,
       "locations": [
         "-275.59,89.48,-2060.11",
@@ -1004,7 +962,6 @@
     },
     {
       "name": "a deathbloom treant",
-      "name_sortable": "deathbloomtreant",
       "level": 29,
       "locations": [
         "-273.18,89.14,-2128.36",
@@ -1084,7 +1041,6 @@
     },
     {
       "name": "a decaying flesh being",
-      "name_sortable": "decayingfleshbeing",
       "level": 30,
       "locations": [
         "-1088.68,76.03,-1547.80",
@@ -1110,7 +1066,6 @@
     },
     {
       "name": "a Defender of Growth",
-      "name_sortable": "defenderofgrowth",
       "locations": [
         "-32.57,89.73,-1997.61",
         "-3.8,90.56,-2008.92"
@@ -1121,7 +1076,6 @@
     },
     {
       "name": "Defender Spitecap",
-      "name_sortable": "defenderspitecap",
       "level": 23,
       "difficulty": "heroic",
       "locations": [
@@ -1130,7 +1084,6 @@
     },
     {
       "name": "a demented fiend",
-      "name_sortable": "dementedfiend",
       "locations": [
         "-1336.93,112.95,-1902.59",
         "-1329.79,113.87,-1957.45",
@@ -1158,14 +1111,12 @@
     },
     {
       "name": "Dirin Thilae",
-      "name_sortable": "dirinthilae",
       "locations": [
         "407.29,26.71,-1486.37"
       ]
     },
     {
       "name": "a distraught survivor",
-      "name_sortable": "distraughtsurvivor",
       "locations": [
         "837.01,1.08,-23.52",
         "791.17,6.03,-130.46",
@@ -1179,7 +1130,6 @@
     },
     {
       "name": "a distressed merchant",
-      "name_sortable": "distressedmerchant",
       "locations": [
         "613.39,-0.89,-210.45"
       ],
@@ -1189,7 +1139,6 @@
     },
     {
       "name": "Doctor Arcana",
-      "name_sortable": "doctorarcana",
       "locations": [
         "-384.2,0.0,-619.14"
       ],
@@ -1199,7 +1148,6 @@
     },
     {
       "name": "a Dragoon captain",
-      "name_sortable": "dragooncaptain",
       "level": 27,
       "locations": [
         "-293.6,90.54,-2151.17",
@@ -1234,7 +1182,6 @@
     },
     {
       "name": "a Dragoon dirth",
-      "name_sortable": "dragoondirth",
       "level": 29,
       "locations": [
         "-269.45,89.16,-2132.37",
@@ -1261,7 +1208,6 @@
     },
     {
       "name": "Dragoon E`Brona",
-      "name_sortable": "dragoonebrona",
       "level": 28,
       "locations": [
         "-1568.41,8.6,-873.01",
@@ -1270,7 +1216,6 @@
     },
     {
       "name": "Dragoon J`Rais",
-      "name_sortable": "dragoonjrais",
       "level": 23,
       "locations": [
         "-115.32,-0.27,127.68",
@@ -1279,7 +1224,6 @@
     },
     {
       "name": "Dragoon K'Naae",
-      "name_sortable": "dragoonknaae",
       "locations": [
         "-1370.02,29.57,-1335.83"
       ],
@@ -1292,7 +1236,6 @@
     },
     {
       "name": "a Dragoon lieutenant",
-      "name_sortable": "dragoonlieutenant",
       "level": 28,
       "locations": [
         "640.94,0.8,-722.04",
@@ -1323,7 +1266,6 @@
     },
     {
       "name": "a Dragoon patrolman",
-      "name_sortable": "dragoonpatrolman",
       "level": 24,
       "locations": [
         "-1014.24,34.86,-1020.7",
@@ -1342,7 +1284,6 @@
     },
     {
       "name": "a Dragoon sentinel",
-      "name_sortable": "dragoonsentinel",
       "level": 28,
       "locations": [
         "640.87,0.67,-715.37",
@@ -1368,7 +1309,6 @@
     },
     {
       "name": "a Dragoon sentry",
-      "name_sortable": "dragoonsentry",
       "locations": [
         "-385.9,85.52,-1867.35",
         "-320.75,84.95,-1781.12",
@@ -1419,7 +1359,6 @@
     },
     {
       "name": "a Dragoon sylth",
-      "name_sortable": "dragoonsylth",
       "level": 29,
       "locations": [
         "-545.38,77.22,-2202.93",
@@ -1444,7 +1383,6 @@
     },
     {
       "name": "Drahk Bonebroth",
-      "name_sortable": "drahkbonebroth",
       "locations": [
         "763.05,-0.9,-128.44"
       ],
@@ -1456,7 +1394,6 @@
     },
     {
       "name": "a dusk dart",
-      "name_sortable": "duskdart",
       "level": 21,
       "locations": [
         "770.52,-5.05,-26.27",
@@ -1486,7 +1423,6 @@
     },
     {
       "name": "a dusk leaper",
-      "name_sortable": "duskleaper",
       "locations": [
         "-712.00,59.68,56.81",
         "-632.44,35.15,62.50"
@@ -1494,7 +1430,6 @@
     },
     {
       "name": "Dyrina Springfyre",
-      "name_sortable": "dyrinaspringfyre",
       "purpose": "General Goods",
       "utterances": [
         "These far seas brutes barely let me scrape a living anymore... "
@@ -1502,7 +1437,6 @@
     },
     {
       "name": "an elder ash owlbear",
-      "name_sortable": "elderashowlbear",
       "level": 25,
       "locations": [
         "-736.83,75.82,172.82",
@@ -1562,7 +1496,6 @@
     },
     {
       "name": "Ensign Larkin",
-      "name_sortable": "ensignlarkin",
       "locations": [
         "791.4,6.03,-124.24"
       ],
@@ -1572,7 +1505,6 @@
     },
     {
       "name": "a ferocious nek wasp",
-      "name_sortable": "ferociousnekwasp",
       "level": 22,
       "locations": [
         "599.64,2.72,-146.03",
@@ -1581,7 +1513,6 @@
     },
     {
       "name": "a ferocious Nerius crab",
-      "name_sortable": "ferociousneriuscrab",
       "level": 22,
       "locations": [
         "749.76,0.22,-201.01"
@@ -1595,7 +1526,6 @@
     },
     {
       "name": "a ferroalloy glob",
-      "name_sortable": "ferroalloyglob",
       "locations": [
         "600.31,-0.73,-46.25",
         "588.99,-0.9,-26.74",
@@ -1608,7 +1538,6 @@
     },
     {
       "name": "Field Investigator Chel Morgan",
-      "name_sortable": "fieldinvestigatorchelmorgan",
       "utterances": [
         "I don't know how I'm going to finish these investigations.",
         "You're here about the investigations, aren't you?  Let me tell you, it's not easy handling several investigations at once.  I can't follow up every lead.  You got that?",
@@ -1622,7 +1551,6 @@
     },
     {
       "name": "a firelight shriller",
-      "name_sortable": "firelightshriller",
       "level": 26,
       "locations": [
         "-691.5,79.75,113.05",
@@ -1641,7 +1569,6 @@
     },
     {
       "name": "Fisherman Aurvill",
-      "name_sortable": "fishermanaurvill",
       "locations": [
         "764.98,-0.9,-131.74"
       ],
@@ -1652,7 +1579,6 @@
     },
     {
       "name": "Fisherman Djaani",
-      "name_sortable": "fishermandjaani",
       "locations": [
         "760.44,-0.65,-131.77"
       ],
@@ -1663,7 +1589,6 @@
     },
     {
       "name": "Fisherman Draylix",
-      "name_sortable": "fishermandraylix",
       "locations": [
         "643.25,-0.07,-57.13"
       ],
@@ -1673,7 +1598,6 @@
     },
     {
       "name": "a forest leaper",
-      "name_sortable": "forestleaper",
       "level": 22,
       "locations": [
         "853.73,-0.32,-371.32",
@@ -1729,7 +1653,6 @@
     },
     {
       "name": "Foulfeather",
-      "name_sortable": "foulfeather",
       "level": 25,
       "locations": [
         "-559.66,40.96,132.76",
@@ -1738,7 +1661,6 @@
     },
     {
       "name": "a Freeport Militia sentry",
-      "name_sortable": "freeportmilitiasentry",
       "level": 20,
       "difficulty": "heroic",
       "locations": [
@@ -1760,7 +1682,6 @@
     },
     {
       "name": "Gogas Afadin",
-      "name_sortable": "gogasafadin",
       "locations": [
         "-1392.22,25.33,-1397.73"
       ],
@@ -1770,7 +1691,6 @@
     },
     {
       "name": "Grandma Blumble",
-      "name_sortable": "grandmablumble",
       "locations": [
         "572.5,-0.95,-4.81"
       ],
@@ -1780,7 +1700,6 @@
     },
     {
       "name": "a gratified merchant",
-      "name_sortable": "gratifiedmerchant",
       "locations": [
         "613.26,-0.89,-210.34"
       ],
@@ -1790,7 +1709,6 @@
     },
     {
       "name": "a griffin tamer",
-      "name_sortable": "griffintamer",
       "locations": [
         "-252.48,14.42,165.32",
         "-447.2,75.03,-1294.61",
@@ -1807,7 +1725,6 @@
     },
     {
       "name": "a grizzled shadowmaw kodiak",
-      "name_sortable": "grizzledshadowmawkodiak",
       "level": 27,
       "locations": [
         "-1640.13,14.67,-1035.61",
@@ -1826,7 +1743,6 @@
     },
     {
       "name": "a guardian mist grinnin",
-      "name_sortable": "guardianmistgrinnin",
       "locations": [
         "299.21,0.27,-1109.38",
         "306.98,0.00,-1118.44",
@@ -1888,7 +1804,6 @@
     },
     {
       "name": "a Gul'Thex captain",
-      "name_sortable": "gulthexcaptain",
       "level": 29,
       "locations": [
         "714.1,0.77,-678.2",
@@ -1902,7 +1817,6 @@
     },
     {
       "name": "a Gul'Thex cleric",
-      "name_sortable": "gulthexcleric",
       "level": 29,
       "difficulty": "heroic",
       "locations": [
@@ -1928,7 +1842,6 @@
     },
     {
       "name": "a Gul'Thex heretic",
-      "name_sortable": "gulthexheretic",
       "level": 30,
       "locations": [
         "672.14,0.44,-680.44",
@@ -1937,7 +1850,6 @@
     },
     {
       "name": "a Gul'Thex high guard",
-      "name_sortable": "gulthexhighguard",
       "level": 29,
       "difficulty": "heroic",
       "locations": [
@@ -1962,7 +1874,6 @@
     },
     {
       "name": "a Gul'Thex lieutenant",
-      "name_sortable": "gulthexlieutenant",
       "level": 30,
       "locations": [
         "-382.96,60.59,-1374.08",
@@ -1978,7 +1889,6 @@
     },
     {
       "name": "a Gul'Thex mystic",
-      "name_sortable": "gulthexmystic",
       "level": 30,
       "locations": [
         "412.33,5.6,-814.02",
@@ -1999,7 +1909,6 @@
     },
     {
       "name": "a Gul'Thex patrolman",
-      "name_sortable": "gulthexpatrolman",
       "level": 29,
       "locations": [
         "651.22,-0.14,-697.35",
@@ -2011,7 +1920,6 @@
     },
     {
       "name": "a Gul'Thex ravager",
-      "name_sortable": "gulthexravager",
       "level": 30,
       "locations": [
         "685.03,-0.0,-706.08",
@@ -2028,7 +1936,6 @@
     },
     {
       "name": "a Gul'Thex revenant",
-      "name_sortable": "gulthexrevenant",
       "level": 29,
       "difficulty": "heroic",
       "locations": [
@@ -2053,7 +1960,6 @@
     },
     {
       "name": "a Gul'Thex sentry",
-      "name_sortable": "gulthexsentry",
       "level": 30,
       "locations": [
         "660.27,0.06,-684.25",
@@ -2064,7 +1970,6 @@
     },
     {
       "name": "Gurndundl",
-      "name_sortable": "gurndundl",
       "locations": [
         "5.46,75.60,-1710.05",
         "-69.53,90.38,-1808.61",
@@ -2098,7 +2003,6 @@
     },
     {
       "name": "Harbormaster T'Krit",
-      "name_sortable": "harbormastertkrit",
       "purpose": "Harbormaster",
       "utterances": [
         "The Journey's End is currently in Butcherblock Mountains.",
@@ -2110,7 +2014,6 @@
     },
     {
       "name": "Harold Winemaster",
-      "name_sortable": "haroldwinemaster",
       "locations": [
         "802.87,2.43,-169.74"
       ],
@@ -2120,7 +2023,6 @@
     },
     {
       "name": "a haze stalker",
-      "name_sortable": "hazestalker",
       "level": 24,
       "locations": [
         "-428.91,0,-1157.51",
@@ -2160,7 +2062,6 @@
     },
     {
       "name": "The Herald of Nektropos",
-      "name_sortable": "heraldofnektropos",
       "locations": [
         "-1402.5,121.76,-1856.24"
       ],
@@ -2171,7 +2072,6 @@
     },
     {
       "name": "an immense tree snake",
-      "name_sortable": "immensetreesnake",
       "level": 25,
       "locations": [
         "613.28,-2.44,-548.66",
@@ -2190,7 +2090,6 @@
     },
     {
       "name": "Investigator Dahno",
-      "name_sortable": "investigatordahno",
       "locations": [
         "505.53,26.45,-1446.63"
       ],
@@ -2205,7 +2104,6 @@
     },
     {
       "name": "Jaeta H'arn",
-      "name_sortable": "jaetaharn",
       "locations": [
         "930.31,-0.86,-379.75"
       ],
@@ -2215,7 +2113,6 @@
     },
     {
       "name": "Jawharah Izzah",
-      "name_sortable": "jawharahizzah",
       "purpose": "Shady Erudite",
       "locations": [
         "805.85,6.03,-93.09"
@@ -2226,7 +2123,6 @@
     },
     {
       "name": "Jonovan the Young",
-      "name_sortable": "jonovantheyoung",
       "locations": [
         "-266.13,-0.86,194.42"
       ],
@@ -2236,14 +2132,12 @@
     },
     {
       "name": "The Keeper of Secrets",
-      "name_sortable": "keeperofsecrets",
       "utterances": [
         "When the one who walked from the water is made whole, the heralds of the nine shall arise. Knowledge is key. That is all."
       ]
     },
     {
       "name": "Kenny",
-      "name_sortable": "kenny",
       "purpose": "Voodoo Doll Mercenary",
       "locations": [
         "-8.8,88.15,-1967.4",
@@ -2271,7 +2165,6 @@
     },
     {
       "name": "Keryx Darkblade",
-      "name_sortable": "keryxdarkblade",
       "locations": [
         "402.22,26.48,-1474.71"
       ],
@@ -2281,7 +2174,6 @@
     },
     {
       "name": "Kitty Valencia",
-      "name_sortable": "kittyvalencia",
       "locations": [
         "-213.82,0.2,-103.2"
       ],
@@ -2305,7 +2197,6 @@
     },
     {
       "name": "Kixizor Z'Nast",
-      "name_sortable": "kixizorznast",
       "level": 26,
       "locations": [
         "-1369.19,25.79,-1358.32",
@@ -2317,7 +2208,6 @@
     },
     {
       "name": "Kleron Asana",
-      "name_sortable": "kleronasana",
       "locations": [
         "-301.51,-0.18,137.97"
       ],
@@ -2337,7 +2227,6 @@
     },
     {
       "name": "a knight of the beacon",
-      "name_sortable": "knightofthebeacon",
       "level": 28,
       "difficulty": "heroic",
       "locations": [
@@ -2356,7 +2245,6 @@
     },
     {
       "name": "Koylinite",
-      "name_sortable": "koylinite",
       "level": 30,
       "locations": [
         "-1169.75,132.70,-1910.08",
@@ -2388,7 +2276,6 @@
     },
     {
       "name": "Kryssa Valixx",
-      "name_sortable": "kryssavalixx",
       "locations": [
         "-518.25,87.89,-1972.97"
       ],
@@ -2400,7 +2287,6 @@
     },
     {
       "name": "K'shar Haelbreng",
-      "name_sortable": "ksharhaelbreng",
       "locations": [
         "409.4,26.57,-1476.03"
       ],
@@ -2410,7 +2296,6 @@
     },
     {
       "name": "Laren Jadefire",
-      "name_sortable": "larenjadefire",
       "locations": [
         "422.0,26.61,-1479.84"
       ],
@@ -2420,7 +2305,6 @@
     },
     {
       "name": "a leatherfoot tracker",
-      "name_sortable": "leatherfoottracker",
       "locations": [
         "-37.03,91.55,-2020.59",
         "-25.87,91.81,-2029.07",
@@ -2446,7 +2330,6 @@
     },
     {
       "name": "a leatherfoot trickster",
-      "name_sortable": "leatherfoottrickster",
       "utterances": [
         "My compatriot is free at last."
       ],
@@ -2459,7 +2342,6 @@
     },
     {
       "name": "a lesser sap urchin",
-      "name_sortable": "lessersapurchin",
       "level": 21,
       "locations": [
         "-307.98,2.21,-796.10"
@@ -2467,7 +2349,6 @@
     },
     {
       "name": "Lieutenant Kaneth",
-      "name_sortable": "lieutenantkaneth",
       "locations": [
         "-288.11,0.04,140.22"
       ],
@@ -2497,7 +2378,6 @@
     },
     {
       "name": "Lord J'Narus",
-      "name_sortable": "lordjnarus",
       "level": 29,
       "locations": [
         "724.43,5.15,-765.23"
@@ -2507,7 +2387,6 @@
     },
     {
       "name": "Lord Pazin Punox",
-      "name_sortable": "lordpazinpunox",
       "locations": [
         "688.81,-0.0,-723.84",
         "668.61,-0.0,-718.6"
@@ -2515,7 +2394,6 @@
     },
     {
       "name": "a lost dragoon",
-      "name_sortable": "lostdragoon",
       "level": 25,
       "locations": [
         "-766.92,2.70,-427.16",
@@ -2549,7 +2427,6 @@
     },
     {
       "name": "a lost sentry",
-      "name_sortable": "lostsentry",
       "locations": [
         "-121.24,-0.07,-375.93",
         "-128.44,0.09,-370.1"
@@ -2565,7 +2442,6 @@
     },
     {
       "name": "Loyalist Erityire",
-      "name_sortable": "loyalisterityire",
       "locations": [
         "-759.25,141.89,-2193.52"
       ],
@@ -2578,7 +2454,6 @@
     },
     {
       "name": "Mariner Guard Balstrom",
-      "name_sortable": "marinerguardbalstrom",
       "level": 35,
       "locations": [
         "772.21,2.61,-153.03",
@@ -2591,7 +2466,6 @@
     },
     {
       "name": "Mariner Guard Inget",
-      "name_sortable": "marinerguardinget",
       "locations": [
         "774.88,2.43,-156.45",
         "791.06,2.57,-161.1"
@@ -2599,7 +2473,6 @@
     },
     {
       "name": "Mathra",
-      "name_sortable": "mathra",
       "locations": [
         "-775.57,141.52,-1901.99"
       ],
@@ -2627,7 +2500,6 @@
     },
     {
       "name": "a maturing owlbear egg",
-      "name_sortable": "maturingowlbearegg",
       "locations": [
         "-947.81,65.89,-21.64",
         "-939.49,83.15,56.91"
@@ -2635,7 +2507,6 @@
     },
     {
       "name": "Millie Flunknuttle",
-      "name_sortable": "millieflunknuttle",
       "locations": [
         "-515.85,13.38,100.26"
       ],
@@ -2647,7 +2518,6 @@
     },
     {
       "name": "a mist grinnin",
-      "name_sortable": "mistgrinnin",
       "level": 24,
       "locations": [
         "-201.92,0.00,-923.19",
@@ -2734,7 +2604,6 @@
     },
     {
       "name": "a mist grinnin savage",
-      "name_sortable": "mistgrinninsavage",
       "locations": [
         "-160.64,0.94,-773.75",
         "-163.85,-0.28,-762.05",
@@ -2781,7 +2650,6 @@
     },
     {
       "name": "a mist shriller",
-      "name_sortable": "mistshriller",
       "locations": [
         "119.83,8.89,-946.24",
         "435.55,0.67,-1153.02"
@@ -2795,7 +2663,6 @@
     },
     {
       "name": "a motley kodiak",
-      "name_sortable": "motleykodiak",
       "level": 24,
       "locations": [
         "-543.06,-6.94,-679.40",
@@ -2844,7 +2711,6 @@
     },
     {
       "name": "a mottled kodiak",
-      "name_sortable": "mottledkodiak",
       "level": 29,
       "locations": [
         "-1376.71,28.74,-697.98"
@@ -2852,7 +2718,6 @@
     },
     {
       "name": "Muckwallow",
-      "name_sortable": "muckwallow",
       "locations": [
         "-1079.28,-12.30,-484.97"
       ],
@@ -2865,7 +2730,6 @@
     },
     {
       "name": "Mugwump",
-      "name_sortable": "mugwump",
       "locations": [
         "-277.66,0.09,167.59"
       ],
@@ -2875,7 +2739,6 @@
     },
     {
       "name": "a murkbloom defender",
-      "name_sortable": "murkbloomdefender",
       "level": 22,
       "locations": [
         "-177.75,-0.02,-67.14",
@@ -2895,7 +2758,6 @@
     },
     {
       "name": "a murkbloom feeder",
-      "name_sortable": "murkbloomfeeder",
       "level": 21,
       "locations": [
         "-188.37,3.59,-299.97",
@@ -2907,7 +2769,6 @@
     },
     {
       "name": "a murkbloom forager",
-      "name_sortable": "murkbloomforager",
       "level": 23,
       "locations": [
         "-240.90,0.00,-857.69",
@@ -2945,7 +2806,6 @@
     },
     {
       "name": "a murkbloom watcher",
-      "name_sortable": "murkbloomwatcher",
       "locations": [
         "-812.08,141.52,-2138.60",
         "-749.93,141.52,-2085.66",
@@ -2957,14 +2817,12 @@
     },
     {
       "name": "Nayli R'Ger",
-      "name_sortable": "naylirger",
       "locations": [
         "408.7,26.94,-1488.45"
       ]
     },
     {
       "name": "a nek crawler",
-      "name_sortable": "nekcrawler",
       "locations": [
         "-965.79,52.63,-206.83",
         "-910.99,72.27,-43.48",
@@ -2980,7 +2838,6 @@
     },
     {
       "name": "a Nek feeder",
-      "name_sortable": "nekfeeder",
       "level": 25,
       "locations": [
         "270.51,-3.99,-1139.64",
@@ -3035,7 +2892,6 @@
     },
     {
       "name": "a Nek wasp",
-      "name_sortable": "nekwasp",
       "level": 24,
       "locations": [
         "-497.81,-0.38,-697.50",
@@ -3057,7 +2913,6 @@
     },
     {
       "name": "a Nek wasp larva",
-      "name_sortable": "nekwasplarva",
       "level": 25,
       "difficulty": "heroic",
       "locations": [
@@ -3068,7 +2923,6 @@
     },
     {
       "name": "a Nek wasp scavenger",
-      "name_sortable": "nekwaspscavenger",
       "level": 26,
       "locations": [
         "-1291.24,55.31,-1492.29",
@@ -3079,7 +2933,6 @@
     },
     {
       "name": "a Nerius bandit",
-      "name_sortable": "neriusbandit",
       "level": 23,
       "locations": [
         "814.42,0.14,-270.74",
@@ -3094,7 +2947,6 @@
     },
     {
       "name": "a Nerius Commander",
-      "name_sortable": "neriuscommander",
       "level": 24,
       "locations": [
         "917.84,-0.89,-335.00"
@@ -3107,7 +2959,6 @@
     },
     {
       "name": "a Nerius crab",
-      "name_sortable": "neriuscrab",
       "level": 21,
       "locations": [
         "1022.43,-0.88,-326.48",
@@ -3199,7 +3050,6 @@
     },
     {
       "name": "a Nerius dockhand",
-      "name_sortable": "neriusdockhand",
       "locations": [
         "583.88,-0.10,-161.95",
         "615.23,-0.89,-210.36",
@@ -3215,7 +3065,6 @@
     },
     {
       "name": "a Nerius fiddler",
-      "name_sortable": "neriusfiddler",
       "level": 21,
       "locations": [
         "915.68,-0.89,-338.11",
@@ -3261,7 +3110,6 @@
     },
     {
       "name": "a Nerius foreman",
-      "name_sortable": "neriusforeman",
       "level": 24,
       "locations": [
         "817.23,0.22,-260.62",
@@ -3281,7 +3129,6 @@
     },
     {
       "name": "a Nerius hermit",
-      "name_sortable": "neriushermit",
       "locations": [
         "626.81,-0.05,-314.81",
         "514.10,0.31,-349.46",
@@ -3298,7 +3145,6 @@
     },
     {
       "name": "a Nerius marauder",
-      "name_sortable": "neriusmarauder",
       "locations": [
         "572.34,-0.84,-172.97",
         "603.16,-0.89,-218.56"
@@ -3306,7 +3152,6 @@
     },
     {
       "name": "a Nerius pirate",
-      "name_sortable": "neriuspirate",
       "level": 24,
       "locations": [
         "922.09,-0.46,-306.07",
@@ -3332,7 +3177,6 @@
     },
     {
       "name": "a Nerius Pirate Captain",
-      "name_sortable": "neriuspiratecaptain",
       "level": 24,
       "difficulty": "heroic",
       "locations": [
@@ -3354,7 +3198,6 @@
     },
     {
       "name": "a Nerius scoundrel",
-      "name_sortable": "neriusscoundrel",
       "locations": [
         "553.97,-0.20,-161.84"
       ],
@@ -3363,7 +3206,6 @@
     },
     {
       "name": "a Nerius seer",
-      "name_sortable": "neriusseer",
       "level": 24,
       "locations": [
         "817.23,0.22,-260.62",
@@ -3380,7 +3222,6 @@
     },
     {
       "name": "a Nerius snapper",
-      "name_sortable": "neriussnapper",
       "level": 21,
       "locations": [
         "980.92,1.52,-309.53",
@@ -3398,7 +3239,6 @@
     },
     {
       "name": "a Nerius Tactician",
-      "name_sortable": "neriustactician",
       "level": 24,
       "locations": [
         "926.50,-0.90,-326.24"
@@ -3413,7 +3253,6 @@
     },
     {
       "name": "a Nerius vandal",
-      "name_sortable": "neriusvandal",
       "level": 24,
       "locations": [
         "595.50,-0.73,-212.92",
@@ -3430,7 +3269,6 @@
     },
     {
       "name": "a Nightfall giant",
-      "name_sortable": "nightfallgiant",
       "level": 25,
       "locations": [
         "-605.86,39.6,-173.89",
@@ -3526,7 +3364,6 @@
     },
     {
       "name": "a Nightfall Shaman",
-      "name_sortable": "nightfallshaman",
       "locations": [
         "-215.58,87.95,-2084.64"
       ],
@@ -3541,7 +3378,6 @@
     },
     {
       "name": "Noxhil V'Sek",
-      "name_sortable": "noxhilvsek",
       "locations": [
         "-277.94,0.09,180.26"
       ],
@@ -3564,7 +3400,6 @@
     },
     {
       "name": "Paddlefoot",
-      "name_sortable": "paddlefoot",
       "level": 24,
       "locations": [
         "-57.37,0.3,-244.4"
@@ -3572,7 +3407,6 @@
     },
     {
       "name": "a patchwork fleshripper",
-      "name_sortable": "patchworkfleshripper",
       "level": 29,
       "locations": [
         "-1331.32,113.69,-1952.12",
@@ -3614,7 +3448,6 @@
     },
     {
       "name": "a patchwork man",
-      "name_sortable": "patchworkman",
       "level": 30,
       "locations": [
         "-1190.97,158.16,-1940.64",
@@ -3652,7 +3485,6 @@
     },
     {
       "name": "Private Doopy",
-      "name_sortable": "privatedoopy",
       "locations": [
         "727.57,6.65,-774.05",
         "708.73,6.44,-779.93"
@@ -3667,28 +3499,24 @@
     },
     {
       "name": "Quargos De'Vazin",
-      "name_sortable": "quargosdevazin",
       "locations": [
         "133.87,65.49,-1472.89"
       ]
     },
     {
       "name": "Quartermaster of the Brethren",
-      "name_sortable": "quartermasterofthebrethren",
       "locations": [
         "414.1,26.66,-1471.7"
       ]
     },
     {
       "name": "Quartermaster of the Hand",
-      "name_sortable": "quartermasterofthehand",
       "locations": [
         "497.81,26.53,-1447.51"
       ]
     },
     {
       "name": "Queen Dyleena",
-      "name_sortable": "queendyleena",
       "locations": [
         "-742.50,149.80,-2186.01",
         "-749.20,148.80,-2189.07"
@@ -3711,19 +3539,16 @@
       "faction_changes": [
         {
           "name": "The Asilian Fairies",
-          "name_sortable": "asilianfairies",
           "value": 50
         },
         {
           "name": "The Sullian Fairies",
-          "name_sortable": "sullianfairies",
           "value": -100
         }
       ]
     },
     {
       "name": "Queen Thayilia",
-      "name_sortable": "queenthayilia",
       "locations": [
         "-480.86,4.02,-303.06"
       ],
@@ -3737,7 +3562,6 @@
     },
     {
       "name": "a quetzanek",
-      "name_sortable": "quetzanek",
       "level": 27,
       "locations": [
         "-402.57,85.86,-1856.85",
@@ -3754,7 +3578,6 @@
     },
     {
       "name": "a ravenous ghoul",
-      "name_sortable": "ravenousghoul",
       "locations": [
         "128.14,64.31,-1422.48",
         "149.35,65.19,-1387.98",
@@ -3769,7 +3592,6 @@
     },
     {
       "name": "a river stone",
-      "name_sortable": "riverstone",
       "level": 23,
       "locations": [
         "450.82,-0.31,-1177.56",
@@ -3787,7 +3609,6 @@
     },
     {
       "name": "a rotheart treant",
-      "name_sortable": "rothearttreant",
       "level": 28,
       "locations": [
         "-456.86,84.69,-1780.79",
@@ -3834,7 +3655,6 @@
     },
     {
       "name": "a rotting follower of Grelkor",
-      "name_sortable": "rottingfollowerofgrelkor",
       "locations": [
         "-534.46,60.4,-1286.39",
         "-538.91,60.41,-1291.91",
@@ -3860,7 +3680,6 @@
     },
     {
       "name": "Rulinthus",
-      "name_sortable": "rulinthus",
       "locations": [
         "2.24,88.67,-1974.95"
       ],
@@ -3880,7 +3699,6 @@
     },
     {
       "name": "a rumbleroot",
-      "name_sortable": "rumbleroot",
       "level": 24,
       "locations": [
         "-924.53,32.77,-202.60",
@@ -3928,14 +3746,12 @@
     },
     {
       "name": "Rylana",
-      "name_sortable": "rylana",
       "locations": [
         "-1702.56,25.69,-775.44"
       ]
     },
     {
       "name": "Salea L'Nix",
-      "name_sortable": "salealnix",
       "locations": [
         "781.72,-0.9,-135.35"
       ],
@@ -3947,7 +3763,6 @@
     },
     {
       "name": "a sap urchin",
-      "name_sortable": "sapurchin",
       "level": 24,
       "locations": [
         "-493.46,-3.63,-699.43",
@@ -4066,7 +3881,6 @@
     },
     {
       "name": "a scavenging ghoul",
-      "name_sortable": "scavengingghoul",
       "locations": [
         "138.38,64.31,-1383.27",
         "129.78,65.44,-1376.2",
@@ -4084,7 +3898,6 @@
     },
     {
       "name": "Scrounge",
-      "name_sortable": "scrounge",
       "locations": [
         "136.60,64.31,-1395.65"
       ],
@@ -4093,7 +3906,6 @@
     },
     {
       "name": "a scrounging ghoul",
-      "name_sortable": "scroungingghoul",
       "level": 24,
       "locations": [
         "-654.8,2.97,-260.99",
@@ -4128,21 +3940,18 @@
     },
     {
       "name": "Seamist Fairy Apatia",
-      "name_sortable": "seamistfairyapatia",
       "locations": [
         "802.99,-0.9,-151.37"
       ]
     },
     {
       "name": "Seamist Fairy Faellia",
-      "name_sortable": "seamistfairyfaellia",
       "locations": [
         "803.76,-0.9,-155.89"
       ]
     },
     {
       "name": "Seamist Fairy Nerina",
-      "name_sortable": "seamistfairynerina",
       "locations": [
         "804.14,-0.9,-137.49"
       ],
@@ -4160,14 +3969,12 @@
     },
     {
       "name": "Seamist Fairy Yasinta",
-      "name_sortable": "seamistfairyyasinta",
       "locations": [
         "804.42,-0.9,-153.47"
       ]
     },
     {
       "name": "Sergeant Cornelius",
-      "name_sortable": "sergeantcornelius",
       "locations": [
         "-419.55,59.93,-1323.04"
       ],
@@ -4190,7 +3997,6 @@
     },
     {
       "name": "a shade spinner",
-      "name_sortable": "shadespinner",
       "level": 24,
       "locations": [
         "-603.38,0.5,-978.25",
@@ -4254,7 +4060,6 @@
     },
     {
       "name": "a Shadespinner Queen",
-      "name_sortable": "shadespinnerqueen",
       "level": 25,
       "locations": [
         "179.49,-0.92,-324.54"
@@ -4268,7 +4073,6 @@
     },
     {
       "name": "a shadowed man",
-      "name_sortable": "shadowedman",
       "level": 25,
       "locations": [
         "-134.34,89.06,-2246.88",
@@ -4394,24 +4198,20 @@
       "faction_changes": [
         {
           "name": "The Seamist Faeries",
-          "name_sortable": "seamistfaeries",
           "value": 50
         },
         {
           "name": "The Enchanted Reapers",
-          "name_sortable": "enchantedreapers",
           "value": -100
         },
         {
           "name": "The Guardians of the Vale",
-          "name_sortable": "guardiansofthevale",
           "value": 50
         }
       ]
     },
     {
       "name": "a shadowed rift watcher",
-      "name_sortable": "shadowedriftwatcher",
       "locations": [
         "-66.92,89.53,-2252.63",
         "-54.64,90.7,-2262.85",
@@ -4420,7 +4220,6 @@
     },
     {
       "name": "a shadowmaw kodiak",
-      "name_sortable": "shadowmawkodiak",
       "level": 27,
       "locations": [
         "-1299.58,44.63,-1482.09",
@@ -4445,7 +4244,6 @@
     },
     {
       "name": "a shadow wolf",
-      "name_sortable": "shadowwolf",
       "level": 19,
       "locations": [
         "-522.86,0.58,-1016.63",
@@ -4454,7 +4252,6 @@
     },
     {
       "name": "Shady Swashbuckler XVIII",
-      "name_sortable": "shadyswashbucklerxviii",
       "locations": [
         "803.92,6.03,-97.64"
       ],
@@ -4465,7 +4262,6 @@
     },
     {
       "name": "a shambling flesh being",
-      "name_sortable": "shamblingfleshbeing",
       "level": 29,
       "locations": [
         "-1326.33,114.26,-1970.87",
@@ -4501,7 +4297,6 @@
     },
     {
       "name": "a shimmer",
-      "name_sortable": "shimmer",
       "locations": [
         "617.96,-2.49,-20.42",
         "596.17,-2.27,18.84"
@@ -4509,7 +4304,6 @@
     },
     {
       "name": "a shoreline barracuda",
-      "name_sortable": "shorelinebarracuda",
       "locations": [
         "759.18,-2.60,28.15",
         "668.38,-12.49,15.38",
@@ -4535,7 +4329,6 @@
     },
     {
       "name": "a shoreline shark",
-      "name_sortable": "shorelineshark",
       "locations": [
         "777.06,-2.97,38.79",
         "947.03,-2.97,-45.43",
@@ -4544,7 +4337,6 @@
     },
     {
       "name": "a shriller",
-      "name_sortable": "shriller",
       "level": 20,
       "locations": [
         "-209.80,4.02,76.52",
@@ -4562,14 +4354,12 @@
     },
     {
       "name": "Skevya",
-      "name_sortable": "skevya",
       "utterances": [
         "This forest is no place for someone like me.  The darkness is so different..."
       ]
     },
     {
       "name": "a soul leech",
-      "name_sortable": "soulleech",
       "level": 21,
       "locations": [
         "-472.48,0.5,-1025",
@@ -4634,7 +4424,6 @@
     },
     {
       "name": "Stalker Pulsarian",
-      "name_sortable": "stalkerpulsarian",
       "locations": [
         "-305.64,0,180.1"
       ],
@@ -4648,21 +4437,18 @@
     },
     {
       "name": "Stro D'proi",
-      "name_sortable": "strodproi",
       "locations": [
         "-210.01,12.1,254.83"
       ]
     },
     {
       "name": "a Sullian corruptor",
-      "name_sortable": "sulliancorruptor",
       "locations": [
         "-941.94,136.69,-1822.96"
       ]
     },
     {
       "name": "a Sullian fairy",
-      "name_sortable": "sullianfairy",
       "level": 26,
       "locations": [
         "-1055.35,137.55,-1820.55",
@@ -4680,26 +4466,22 @@
     },
     {
       "name": "Sullian Royal Defender",
-      "name_sortable": "sullianroyaldefender",
       "locations": [
         "-744.05,150.47,-2182.56"
       ],
       "faction_changes": [
         {
           "name": "The Asilian Fairies",
-          "name_sortable": "asilianfairies",
           "value": 50
         },
         {
           "name": "The Sullian Fairies",
-          "name_sortable": "sullianfairies",
           "value": -100
         }
       ]
     },
     {
       "name": "a supply vigilante",
-      "name_sortable": "supplyvigilante",
       "locations": [
         "530.06,-0.90,-47.22",
         "498.57,1.92,-522.12",
@@ -4715,21 +4497,18 @@
     },
     {
       "name": "Szin Te'val",
-      "name_sortable": "szinteval",
       "utterances": [
         "I can't be bothered with you.  Jaeta might have something for you however."
       ]
     },
     {
       "name": "a tamed griffin",
-      "name_sortable": "tamedgriffin",
       "locations": [
         "-1369.78,34.68,-1305.67"
       ]
     },
     {
       "name": "Tanny Granville",
-      "name_sortable": "tannygranville",
       "locations": [
         "-296.07,0,197.19"
       ],
@@ -4750,7 +4529,6 @@
     },
     {
       "name": "Tarren Marrsen",
-      "name_sortable": "tarrenmarrsen",
       "locations": [
         "507.6,26.5,-1463.21"
       ],
@@ -4760,7 +4538,6 @@
     },
     {
       "name": "Taskmaster D'Zran",
-      "name_sortable": "taskmasterdzran",
       "locations": [
         "808.3,6.03,-113.6"
       ],
@@ -4770,7 +4547,6 @@
     },
     {
       "name": "Theeral the nomad",
-      "name_sortable": "theeralthenomad",
       "locations": [
         "-305.64,0,180.1"
       ],
@@ -4792,7 +4568,6 @@
     },
     {
       "name": "a Thexian assassin",
-      "name_sortable": "thexianassassin",
       "level": 28,
       "locations": [
         "-1395.74,27.58,-1377.14",
@@ -4817,7 +4592,6 @@
     },
     {
       "name": "a Thexian ruffian",
-      "name_sortable": "thexianruffian",
       "level": 21,
       "locations": [
         "-1336.3,23.82,-1357.47",
@@ -4855,7 +4629,6 @@
     },
     {
       "name": "a Thexian scout",
-      "name_sortable": "thexianscout",
       "level": 20,
       "locations": [
         "-1342.39,26.28,-1345.24",
@@ -4888,7 +4661,6 @@
     },
     {
       "name": "a thexian searcher",
-      "name_sortable": "thexiansearcher",
       "level": 25,
       "locations": [
         "-592.16,-2.08,-750.87",
@@ -4923,7 +4695,6 @@
     },
     {
       "name": "a Thexian Vin chosen",
-      "name_sortable": "thexianvinchosen",
       "level": 21,
       "locations": [
         "-1385.73,25.25,-1386.87",
@@ -4958,7 +4729,6 @@
     },
     {
       "name": "a Thexian Vin guard",
-      "name_sortable": "thexianvinguard",
       "level": 27,
       "locations": [
         "-1346.49,25.04,-1354.42",
@@ -4988,7 +4758,6 @@
     },
     {
       "name": "Thraixe Il'ferrai",
-      "name_sortable": "thraixeilferrai",
       "locations": [
         "408.33,26.54,-1479.49"
       ],
@@ -5004,7 +4773,6 @@
     },
     {
       "name": "Tilberbous",
-      "name_sortable": "tilberbous",
       "level": 29,
       "locations": [
         "-1067.20,-2.69,-573.66",
@@ -5019,7 +4787,6 @@
     },
     {
       "name": "a timid dusk leaper",
-      "name_sortable": "timidduskleaper",
       "level": 24,
       "locations": [
         "-882.03,32.41,-207.35",
@@ -5059,7 +4826,6 @@
     },
     {
       "name": "Torq De'Rech",
-      "name_sortable": "torqderech",
       "locations": [
         "673.01,-0.9,-283.5"
       ],
@@ -5093,7 +4859,6 @@
     },
     {
       "name": "a torrent beaver",
-      "name_sortable": "torrentbeaver",
       "locations": [
         "-168.35,-2.58,147.76",
         "-172.82,-1.21,165.93",
@@ -5117,7 +4882,6 @@
     },
     {
       "name": "The Traveling Augur",
-      "name_sortable": "travelingaugur",
       "locations": [
         "821.93,5.74,-52.33"
       ],
@@ -5138,7 +4902,6 @@
     },
     {
       "name": "Trelech Stonehome",
-      "name_sortable": "trelechstonehome",
       "locations": [
         "509.94,26.47,-1458.59"
       ],
@@ -5154,7 +4917,6 @@
     },
     {
       "name": "Valten Darkcleanse",
-      "name_sortable": "valtendarkcleanse",
       "locations": [
         "-1372.78,122.66,-1854.06"
       ],
@@ -5164,7 +4926,6 @@
     },
     {
       "name": "Vanquisher Sharhan",
-      "name_sortable": "vanquishersharhan",
       "locations": [
         "-272,0.59,-291.81"
       ],
@@ -5189,7 +4950,6 @@
     },
     {
       "name": "a vengeful soul",
-      "name_sortable": "vengefulsoul",
       "locations": [
         "-0.8,90.71,-2012.48",
         "2.38,90.03,-1999.88",
@@ -5214,7 +4974,6 @@
     },
     {
       "name": "a vile shade spinner",
-      "name_sortable": "vileshadespinner",
       "level": 24,
       "locations": [
         "293.52,4.11,-349.56",
@@ -5246,7 +5005,6 @@
     },
     {
       "name": "Warlord J'Narus",
-      "name_sortable": "warlordjnarus",
       "level": 29,
       "locations": [
         "468.89,0.19,-396.33"
@@ -5254,7 +5012,6 @@
     },
     {
       "name": "Warlord T'Velk",
-      "name_sortable": "warlordtvelk",
       "level": 29,
       "locations": [
         "-245.23,5.07,-658.14"
@@ -5262,7 +5019,6 @@
     },
     {
       "name": "Warlord U'Kaltax",
-      "name_sortable": "warlordukaltax",
       "level": 29,
       "locations": [
         "-394.07,57.00,-1286.10"
@@ -5270,7 +5026,6 @@
     },
     {
       "name": "Ytheri Coldtouch",
-      "name_sortable": "ythericoldtouch",
       "locations": [
         "515.89,26.38,-1449.28"
       ],
@@ -5280,7 +5035,6 @@
     },
     {
       "name": "Zalia Highbourne",
-      "name_sortable": "zaliahighbourne",
       "locations": [
         "746.95,-0.9,-133.85"
       ],
@@ -5291,7 +5045,6 @@
     },
     {
       "name": "Zesnitra K`Jartan",
-      "name_sortable": "zesnitrakjartan",
       "purpose": "Vermin Keeper",
       "locations": [
         "-737.57,141.52,-2088.19",
@@ -5303,7 +5056,6 @@
     },
     {
       "name": "Zsik Nee",
-      "name_sortable": "zsiknee",
       "utterances": [
         "Greetings, Adventurer..."
       ]
@@ -5470,29 +5222,24 @@
   "resourceNodes": [
     {
       "name": "the beast den",
-      "name_sortable": "beastden",
       "locations": [
         "110.43,1.18,-1069.72"
       ]
     },
     {
-      "name": "the eventide stone",
-      "name_sortable": "eventidestone"
+      "name": "the eventide stone"
     },
     {
       "name": "the penumbra ore",
-      "name_sortable": "penumbraore",
       "locations": [
         "151.83,64.31,-1433.67"
       ]
     },
     {
-      "name": "the polluted natural garden",
-      "name_sortable": "pollutednaturalgarden"
+      "name": "the polluted natural garden"
     },
     {
       "name": "the putrescent duskwood arbor",
-      "name_sortable": "putrescentduskwoodarbor",
       "locations": [
         "139.47,64.31,-1375.59",
         "-284.53,60.96,-1361.03"
@@ -5500,14 +5247,12 @@
     },
     {
       "name": "the rancid roots",
-      "name_sortable": "rancidroots",
       "locations": [
         "125.87,64.31,-1441.93"
       ]
     },
     {
-      "name": "a swarm of fish",
-      "name_sortable": "swarmoffish"
+      "name": "a swarm of fish"
     }
   ]
 }

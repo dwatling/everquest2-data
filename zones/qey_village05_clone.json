@@ -1,11 +1,14 @@
 {
   "name": "The Willow Wood",
-  "name_sortable": "willowwood",
   "flags": "pre-lu64",
   "category": "Villages",
   "subcategory": "Qeynos",
-  "zonerect": "-1,258.05, -892.88, -499.30, -310.57",
-    "connections": [
+  "maps": [
+    {
+      "zonerect": "-1,258.05, -892.88, -499.30, -310.57"
+    }
+  ],
+  "connections": [
     {
       "key": "qey_adv02_ruins",
       "location": "885.07,-14.88,-582.86"
@@ -26,7 +29,6 @@
   "npcs": [
     {
       "name": "Aelia Oakweaver",
-      "name_sortable": "aeliaoakweaver",
       "locations": [
         "826.18, -21.25, -635.23"
       ],
@@ -105,7 +107,6 @@
     },
     {
       "name": "Aelis",
-      "name_sortable": "aelis",
       "locations": [
         "831.76,-20.69,-760.27"
       ],
@@ -117,7 +118,6 @@
     },
     {
       "name": "Baynor",
-      "name_sortable": "baynor",
       "locations": [
         "851.17,-19.6,-595.63"
       ],
@@ -302,7 +302,6 @@
     },
     {
       "name": "Briget Crestmyst",
-      "name_sortable": "brigetcrestmyst",
       "locations": [
         "858.52, -19.60, -600.56"
       ],
@@ -316,7 +315,6 @@
     },
     {
       "name": "Daelyn Twinstar",
-      "name_sortable": "daelyntwinstar",
       "locations": [
         "825.38,-20.7,-760.98"
       ],
@@ -326,7 +324,6 @@
     },
     {
       "name": "Davyn Thornbranch",
-      "name_sortable": "davynthornbranch",
       "locations": [
         "850.7,-20.92,-662.8"
       ],
@@ -336,7 +333,6 @@
     },
     {
       "name": "Deephathom",
-      "name_sortable": "deephathom",
       "locations": [
         "821.43,-21.25,-635.49"
       ],
@@ -350,7 +346,6 @@
     },
     {
       "name": "Drystan Seaside",
-      "name_sortable": "drystanseaside",
       "locations": [
         "840.18, -20.18, -658.20"
       ],
@@ -373,14 +368,12 @@
     },
     {
       "name": "Faydark",
-      "name_sortable": "faydark",
       "locations": [
         "853.31,-20.48,-625.49"
       ]
     },
     {
       "name": "Feredir Na'Duath ",
-      "name_sortable": "feredirnaduath",
       "utterances": [
         "The city is not the most beautiful place in Norrath, but it is at least familiar.",
         "To be among the highest leaves and branches of a tree is to feel free.",
@@ -390,7 +383,6 @@
     },
     {
       "name": "Gar Smolten",
-      "name_sortable": "garsmolten",
       "locations": [
         "877.25,-20.22,-631.16"
       ],
@@ -400,7 +392,6 @@
     },
     {
       "name": "Hallie Summerglint",
-      "name_sortable": "halliesummerglint",
       "locations": [
         "817.77, -21.25, -645.12"
       ],
@@ -412,7 +403,6 @@
     },
     {
       "name": "Honeysuckle",
-      "name_sortable": "honeysuckle",
       "locations": [
         "860.03, -20.48, -622.18"
       ],
@@ -425,14 +415,12 @@
     },
     {
       "name": "Hunter Vannil",
-      "name_sortable": "huntervannil",
       "locations": [
         "810.57,-15.07,-576.42"
       ]
     },
     {
       "name": "Innkeeper Yeoni",
-      "name_sortable": "innkeeperyeoni",
       "locations": [
         "859.04, -20.48, -626.70"
       ],
@@ -446,7 +434,6 @@
     },
     {
       "name": "Jana Windstream",
-      "name_sortable": "janawindstream",
       "locations": [
         "829.33,-20.06,-603.2"
       ],
@@ -456,7 +443,6 @@
     },
     {
       "name": "Kelethin",
-      "name_sortable": "kelethin",
       "locations": [
         "844.17,-22.41,-638.73",
         "832.79,-20.61,-731.88"
@@ -464,7 +450,6 @@
     },
     {
       "name": "Kualdin Swoonsong",
-      "name_sortable": "kualdinswoonsong",
       "locations": [
         "838.84,-20.78,-613.31"
       ],
@@ -475,7 +460,6 @@
     },
     {
       "name": "Lia Serene",
-      "name_sortable": "liaserene",
       "locations": [
         "817.33,-20.66,-583.36"
       ],
@@ -485,7 +469,6 @@
     },
     {
       "name": "Lyssia Delnara",
-      "name_sortable": "lyssiadelnara",
       "locations": [
         "814.01,-15.18,-582.46"
       ],
@@ -496,7 +479,6 @@
     },
     {
       "name": "Milo Faren",
-      "name_sortable": "milofaren",
       "locations": [
         "817.19,-19.94,-602.89"
       ],
@@ -506,7 +488,6 @@
     },
     {
       "name": "Oseof Crestryder",
-      "name_sortable": "oseofcrestryder",
       "locations": [
         "849.97,-20.52,-631.9"
       ],
@@ -516,7 +497,6 @@
     },
     {
       "name": "Rainwander",
-      "name_sortable": "rainwander",
       "locations": [
         "814.96, -19.94, -609.57"
       ],
@@ -623,12 +603,10 @@
       ]
     },
     {
-      "name": "a rat",
-      "name_sortable": "rat"
+      "name": "a rat"
     },
     {
       "name": "Rebeka Lori",
-      "name_sortable": "rebekalori",
       "locations": [
         "865.71,-18.88,-613.81"
       ],
@@ -639,7 +617,6 @@
     },
     {
       "name": "Salinia Brooklily",
-      "name_sortable": "saliniabrooklily",
       "locations": [
         "822.47,-19.94,-604.94"
       ],
@@ -667,7 +644,6 @@
     },
     {
       "name": "Salinor",
-      "name_sortable": "salinor",
       "locations": [
         "879.82,-15.96,-592.67"
       ],
@@ -677,7 +653,6 @@
     },
     {
       "name": "Taval Zane",
-      "name_sortable": "tavalzane",
       "locations": [
         "858.18,-20.48,-631.26"
       ],
@@ -687,7 +662,6 @@
     },
     {
       "name": "Thayare Faystrider",
-      "name_sortable": "thayarefaystrider",
       "locations": [
         "827.79,-21.42,-662.79"
       ],
@@ -700,7 +674,6 @@
     },
     {
       "name": "Thea Wavecrasher",
-      "name_sortable": "theawavecrasher",
       "locations": [
         "816.78, -21.25, -639.07"
       ],
@@ -723,7 +696,6 @@
     },
     {
       "name": "Trelly Greenfoot",
-      "name_sortable": "trellygreenfoot",
       "utterances": [
         "To be among the highest leaves and branches of a tree is to feel free.",
         "May Tunare's blessings be with you and yours.",
@@ -733,7 +705,6 @@
     },
     {
       "name": "Trueshot",
-      "name_sortable": "trueshot",
       "locations": [
         "856.03, -20.88, -642.04"
       ],
@@ -746,7 +717,6 @@
     },
     {
       "name": "Walterson",
-      "name_sortable": "walterson",
       "locations": [
         "832.14,-20.68,-754.89"
       ],
@@ -756,7 +726,6 @@
     },
     {
       "name": "Windstep",
-      "name_sortable": "windstep",
       "locations": [
         "812.5,-20.98,-572.75"
       ],
@@ -767,7 +736,6 @@
     },
     {
       "name": "Zanhass Mossclean",
-      "name_sortable": "zanhassmossclean",
       "locations": [
         "859.05,-19.6,-598.1"
       ],

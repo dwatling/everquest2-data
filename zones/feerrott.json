@@ -1,10 +1,13 @@
 {
   "name": "The Feerrott",
-  "name_sortable": "feerrott",
   "category": "Feerrott",
   "description": "This dark and dangerous jungle is home to the large lizardman tribes, as well as the fearful temple of Cazic Thule.",
-  "zonerect": "-479.32,-477.66,2271.27,1606.99",
   "levels": "35-45",
+  "maps": [
+    {
+      "zonerect": "-479.32,-477.66,2271.27,1606.99"
+    }
+  ],
   "connections": [
     {
       "key": "cazicthule"
@@ -16,21 +19,18 @@
   "npcs": [
     {
       "name": "Elvann Livshire",
-      "name_sortable": "elvannlivshire",
       "utterances": [
         "My head... the hum... make the hum stop..."
       ]
     },
     {
       "name": "Keevan Fastmarch",
-      "name_sortable": "keevanfastmarch",
       "utterances": [
         "Hail to you too.  Are you lost?"
       ]
     },
     {
       "name": "Merchant Klobruk Pulp",
-      "name_sortable": "merchantklobrukpulp",
       "locations": [
         "-130.17,13.72,186.08"
       ],
@@ -41,7 +41,6 @@
     },
     {
       "name": "Merchant Murgina",
-      "name_sortable": "merchantmurgina",
       "locations": [
         "-141.58,13.72,184.18"
       ],
@@ -56,7 +55,6 @@
     },
     {
       "name": "Verita N'miiel",
-      "name_sortable": "veritanmiiel",
       "utterances": [
         "Don't you have anything better to do right now?"
       ]

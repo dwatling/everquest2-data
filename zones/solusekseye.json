@@ -1,6 +1,5 @@
 {
   "name": "Solusek's Eye",
-  "name_sortable": "solusekseye",
   "category": "Lavastorm",
   "zonerect": "-155.00,-252.00,351.00,336.00",
   "levels": "45-55",
@@ -50,18 +49,15 @@
   "npcs": [
     {
       "name": "Armorsmith Gravik",
-      "name_sortable": "armorsmithgravik",
       "faction_changes": [
         {
           "name": "The Guardians of Thyr",
-          "name_sortable": "guardiansofthyr",
           "value": -100
         }
       ]
     },
     {
       "name": "a Bastion keeper",
-      "name_sortable": "bastionkeeper",
       "drops": [
         {
           "gamelink": "\\aITEM 1732138595 876795643:a vial of flaming blood\\/a",
@@ -71,14 +67,12 @@
       "faction_changes": [
         {
           "name": "The Guardians of Thyr",
-          "name_sortable": "guardiansofthyr",
           "value": -100
         }
       ]
     },
     {
       "name": "a Bastion steward",
-      "name_sortable": "bastionsteward",
       "drops": [
         {
           "gamelink": "\\aITEM 1732138595 876795643:a vial of flaming blood\\/a",
@@ -88,38 +82,32 @@
       "faction_changes": [
         {
           "name": "The Guardians of Thyr",
-          "name_sortable": "guardiansofthyr",
           "value": -100
         }
       ]
     },
     {
       "name": "a blacksmith of Thyr",
-      "name_sortable": "blacksmithofthyr",
       "faction_changes": [
         {
           "name": "The Guardians of Thyr",
-          "name_sortable": "guardiansofthyr",
           "value": -100
         }
       ]
     },
     {
       "name": "The Castigator",
-      "name_sortable": "castigator",
       "drop_coin_min": 1480,
       "drop_coin_max": 1480,
       "faction_changes": [
         {
           "name": "The Guardians of Thyr",
-          "name_sortable": "guardiansofthyr",
           "value": -100
         }
       ]
     },
     {
       "name": "a defender of Thyr",
-      "name_sortable": "defenderofthyr",
       "drops": [
         {
           "gamelink": "\\aITEM -405190422 1002205688:giant meat\\/a",
@@ -151,25 +139,21 @@
       "faction_changes": [
         {
           "name": "The Guardians of Thyr",
-          "name_sortable": "guardiansofthyr",
           "value": -100
         }
       ]
     },
     {
       "name": "a diviner of Thyr",
-      "name_sortable": "divinerofthyr",
       "faction_changes": [
         {
           "name": "The Guardians of Thyr",
-          "name_sortable": "guardiansofthyr",
           "value": -100
         }
       ]
     },
     {
       "name": "an efreeti soulslaver",
-      "name_sortable": "efreetisoulslaver",
       "drops": [
         {
           "gamelink": "\\aITEM 1732138595 876795643:a vial of flaming blood\\/a",
@@ -181,14 +165,12 @@
       "faction_changes": [
         {
           "name": "The Guardians of Thyr",
-          "name_sortable": "guardiansofthyr",
           "value": -100
         }
       ]
     },
     {
       "name": "an expedition explorer",
-      "name_sortable": "expeditionexplorer",
       "drops": [
         {
           "gamelink": "\\aITEM -257105619 335124310:Ebon Relic\\/a",
@@ -198,35 +180,29 @@
       "faction_changes": [
         {
           "name": "Drednever Expedition",
-          "name_sortable": "dredneverexpedition",
           "value": -100
         },
         {
           "name": "Goblins of Fire Peak",
-          "name_sortable": "goblinsoffirepeak",
           "value": 50
         }
       ]
     },
     {
       "name": "an expedition guard",
-      "name_sortable": "expeditionguard",
       "faction_changes": [
         {
           "name": "Drednever Expedition",
-          "name_sortable": "dredneverexpedition",
           "value": -100
         },
         {
           "name": "Goblins of Fire Peak",
-          "name_sortable": "goblinsoffirepeak",
           "value": 50
         }
       ]
     },
     {
       "name": "an expedition mender",
-      "name_sortable": "expeditionmender",
       "drops": [
         {
           "gamelink": "\\aITEM -1110807881 -1515777724:a small humanoid femur\\/a",
@@ -236,19 +212,16 @@
       "faction_changes": [
         {
           "name": "Drednever Expedition",
-          "name_sortable": "dredneverexpedition",
           "value": -100
         },
         {
           "name": "Goblins of Fire Peak",
-          "name_sortable": "goblinsoffirepeak",
           "value": 50
         }
       ]
     },
     {
       "name": "a fallen Solusek miner",
-      "name_sortable": "fallensolusekminer",
       "drops": [
         {
           "gamelink": "\\aITEM 2054979481 1438895382:a vial of spectral essence\\/a",
@@ -260,7 +233,6 @@
     },
     {
       "name": "a fallen Solusek orebender",
-      "name_sortable": "fallensolusekorebender",
       "drops": [
         {
           "gamelink": "\\aITEM 2054979481 1438895382:a vial of spectral essence\\/a",
@@ -272,7 +244,6 @@
     },
     {
       "name": "a fallen Solusek tinkerer",
-      "name_sortable": "fallensolusektinkerer",
       "drops": [
         {
           "gamelink": "\\aITEM 2054979481 1438895382:a vial of spectral essence\\/a",
@@ -284,7 +255,6 @@
     },
     {
       "name": "a flamelord of Thyr",
-      "name_sortable": "flamelordofthyr",
       "utterances": [
         "You reckless mortals, you know not the power you meddle with!",
         "How!? This is impossible!",
@@ -303,14 +273,12 @@
       "faction_changes": [
         {
           "name": "The Guardians of Thyr",
-          "name_sortable": "guardiansofthyr",
           "value": -100
         }
       ]
     },
     {
       "name": "a guardian of Thyr",
-      "name_sortable": "guardianofthyr",
       "utterances": [
         "How!? This is impossible!",
         "You reckless mortals. You know not the power you meddle with!",
@@ -327,14 +295,12 @@
       "faction_changes": [
         {
           "name": "The Guardians of Thyr",
-          "name_sortable": "guardiansofthyr",
           "value": -100
         }
       ]
     },
     {
       "name": "Keortor Talyse",
-      "name_sortable": "keortortalyse",
       "utterances": [
         "Salutations, traveler. It has been said that you are an experienced adventurer. Our great Lord Nagafen has ordered me to provide our services to adventurers such as yourself who can acquire the needed components from the Awakened in the Overrealm.",
         "Which piece of armor are you interested in?",
@@ -350,7 +316,6 @@
     },
     {
       "name": "a lava duct crawler",
-      "name_sortable": "lavaductcrawler",
       "drops": [
         {
           "gamelink": "\\aITEM -666230690 1307520790:an arachnid leg\\/a",
@@ -364,7 +329,6 @@
     },
     {
       "name": "a magmatic golem",
-      "name_sortable": "magmaticgolem",
       "drops": [
         {
           "gamelink": "\\aITEM 974512545 1555701326:glimmering stone fragment\\/a",
@@ -378,7 +342,6 @@
     },
     {
       "name": "a magmatic sentry",
-      "name_sortable": "magmaticsentry",
       "drops": [
         {
           "gamelink": "\\aITEM -375081333 -243621650:impure chunk of arcane stone\\/a",
@@ -396,18 +359,15 @@
     },
     {
       "name": "a magus of Thyr",
-      "name_sortable": "magusofthyr",
       "faction_changes": [
         {
           "name": "The Guardians of Thyr",
-          "name_sortable": "guardiansofthyr",
           "value": -100
         }
       ]
     },
     {
       "name": "a pyreduke of Thyr",
-      "name_sortable": "pyredukeofthyr",
       "drops": [
         {
           "gamelink": "\\aITEM -1145282108 1009728907:a giants beard\\/a",
@@ -423,14 +383,12 @@
       "faction_changes": [
         {
           "name": "The Guardians of Thyr",
-          "name_sortable": "guardiansofthyr",
           "value": -100
         }
       ]
     },
     {
       "name": "a quetzsol",
-      "name_sortable": "quetzsol",
       "drops": [
         {
           "gamelink": "\\aITEM 1858399673 1285532000:a sharp spine\\/a",
@@ -440,7 +398,6 @@
     },
     {
       "name": "a scorching ember",
-      "name_sortable": "scorchingember",
       "drops": [
         {
           "gamelink": "\\aITEM 496056793 1014762846:an accumulation of plasma\\/a",
@@ -450,18 +407,15 @@
     },
     {
       "name": "The Speaker of Fates",
-      "name_sortable": "speakeroffates",
       "faction_changes": [
         {
           "name": "The Guardians of Thyr",
-          "name_sortable": "guardiansofthyr",
           "value": -100
         }
       ]
     },
     {
       "name": "an underworld guard",
-      "name_sortable": "underworldguard",
       "utterances": [
         "You reckless mortals. You know not the power you meddle with!"
       ],
@@ -476,7 +430,6 @@
       "faction_changes": [
         {
           "name": "The Guardians of Thyr",
-          "name_sortable": "guardiansofthyr",
           "value": -100
         }
       ]

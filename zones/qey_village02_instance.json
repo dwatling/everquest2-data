@@ -1,10 +1,13 @@
 {
   "name": "Starcrest Commune: Shattered Sanctum",
-  "name_sortable": "starcrestcommuneshatteredsanctum",
   "category": "Villages",
   "subcategory": "Qeynos",
-  "zonerect": "-994.10,133.09,-534.37,477.61",
-    "connections": [
+  "maps": [
+    {
+      "zonerect": "-994.10,133.09,-534.37,477.61"
+    }
+  ],
+  "connections": [
     {
       "key": "qeynos_combined01"
     }
@@ -12,7 +15,6 @@
   "npcs": [
     {
       "name": "Gelerth Bucklebrow",
-      "name_sortable": "gelerthbucklebrow",
       "utterances": [
         "We sure showed them who's boss!",
         "Yeah! We got em!",
@@ -27,7 +29,6 @@
     },
     {
       "name": "a ghastly knight",
-      "name_sortable": "ghastlyknight",
       "locations": [
         "714.55,-20.31,256.86",
         "713.44,-19.93,277.45",
@@ -47,7 +48,6 @@
     },
     {
       "name": "a ghastly specter",
-      "name_sortable": "ghastlyspecter",
       "locations": [
         "711.58,-20.02,274.62",
         "803.82,-20.37,254.89",
@@ -57,7 +57,6 @@
     },
     {
       "name": "Kyth",
-      "name_sortable": "kyth",
       "locations": [
         "704.9,-20.39,263.29"
       ],
@@ -67,7 +66,6 @@
     },
     {
       "name": "a portal guardian",
-      "name_sortable": "portalguardian",
       "locations": [
         "736.08,-20.43,304.63",
         "749.03,-24.67,340.07",
@@ -85,14 +83,12 @@
     },
     {
       "name": "Portal Taskmaster",
-      "name_sortable": "portaltaskmaster",
       "locations": [
         "711.57,-20.27,268.21"
       ]
     },
     {
       "name": "a Starcrest citizen",
-      "name_sortable": "starcrestcitizen",
       "locations": [
         "710.03,-20.16,271.33",
         "729.90,-20.42,279.53",

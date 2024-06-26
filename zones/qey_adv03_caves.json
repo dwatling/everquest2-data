@@ -1,6 +1,5 @@
 {
   "name": "The Caves",
-  "name_sortable": "caves",
   "category": "Karan",
   "levels": "10-15",
   "maps": [
@@ -24,7 +23,6 @@
   "npcs": [
     {
       "name": "an alabaster behemoth",
-      "name_sortable": "alabasterbehemoth",
       "level": 12,
       "locations": [
         "31.47,38.74,-64.11",
@@ -65,7 +63,6 @@
     },
     {
       "name": "an alabaster golem",
-      "name_sortable": "alabastergolem",
       "level": 10,
       "locations": [
         "-15.99,12.09,-56.07",
@@ -126,7 +123,6 @@
     },
     {
       "name": "an albino arachnid",
-      "name_sortable": "albinoarachnid",
       "level": 11,
       "locations": [
         "-1.26,37.87,-58.08",
@@ -142,7 +138,6 @@
     },
     {
       "name": "an albino python",
-      "name_sortable": "albinopython",
       "locations": [
         "20.55,37.87,-23.25",
         "28.00,37.87,-29.63",
@@ -153,7 +148,6 @@
     },
     {
       "name": "Atramentor",
-      "name_sortable": "atramentor",
       "level": 14,
       "difficulty": "heroic^^^",
       "locations": [
@@ -162,7 +156,6 @@
     },
     {
       "name": "a cave serpent",
-      "name_sortable": "caveserpent",
       "level": 10,
       "locations": [
         "5.85,2.75,-24.93",
@@ -194,7 +187,6 @@
     },
     {
       "name": "Consul Bree",
-      "name_sortable": "consulbree",
       "purpose": "Qeynos Guard",
       "locations": [
         "0.03,3.62,-34.77"
@@ -218,7 +210,6 @@
     },
     {
       "name": "a desperate defender",
-      "name_sortable": "desperatedefender",
       "level": 13,
       "locations": [
         "0.00,37.87,-18.00",
@@ -242,14 +233,12 @@
       "faction_changes": [
         {
           "name": "The Qeynos Guard",
-          "name_sortable": "qeynosguard",
           "value": -100
         }
       ]
     },
     {
       "name": "The Devoured",
-      "name_sortable": "devoured",
       "level": 13,
       "difficulty": "heroic^^^",
       "locations": [
@@ -262,7 +251,6 @@
     },
     {
       "name": "Dustcaller Sleg",
-      "name_sortable": "dustcallersleg",
       "level": 11,
       "difficulty": "heroic^^",
       "locations": [
@@ -277,7 +265,6 @@
     },
     {
       "name": "a Dustpaw armorer",
-      "name_sortable": "dustpawarmorer",
       "level": 11,
       "locations": [
         "58.39,13.20,-74.12",
@@ -314,7 +301,6 @@
     },
     {
       "name": "a Dustpaw guard",
-      "name_sortable": "dustpawguard",
       "level": 10,
       "locations": [
         "19.42,4.96,-58.97",
@@ -340,7 +326,6 @@
     },
     {
       "name": "a Dustpaw lookout",
-      "name_sortable": "dustpawlookout",
       "level": 10,
       "locations": [
         "23.04,4.92,-67.06",
@@ -368,7 +353,6 @@
     },
     {
       "name": "Emma Torque",
-      "name_sortable": "emmatorque",
       "purpose": "Field Engineer",
       "locations": [
         "-18.19,3.66,-34.8"
@@ -383,7 +367,6 @@
     },
     {
       "name": "Geologist Quardifle",
-      "name_sortable": "geologistquardifle",
       "locations": [
         "-7.03,3.63,-25.67"
       ],
@@ -397,7 +380,6 @@
     },
     {
       "name": "High Shaman Zen'Durath",
-      "name_sortable": "highshamanzendurath",
       "level": 14,
       "locations": [
         "25,15,-110"
@@ -411,7 +393,6 @@
     },
     {
       "name": "Kahla Ulno",
-      "name_sortable": "kahlaulno",
       "locations": [
         "0.49,3.62,-23.01"
       ],
@@ -427,7 +408,6 @@
     },
     {
       "name": "Lieutenant Delsun",
-      "name_sortable": "lieutenantdelsun",
       "purpose": "Qeynos Guard",
       "locations": [
         "0.21,4.34,-31.64"
@@ -444,7 +424,6 @@
     },
     {
       "name": "a Mudpaw guard",
-      "name_sortable": "mudpawguard",
       "level": 11,
       "locations": [
         "30.82,19.89,-127.33",
@@ -491,7 +470,6 @@
     },
     {
       "name": "a Mudpaw lookout",
-      "name_sortable": "mudpawlookout",
       "level": 10,
       "locations": [
         "10.17,12.43,-51.03",
@@ -550,7 +528,6 @@
     },
     {
       "name": "a pale adder",
-      "name_sortable": "paleadder",
       "level": 12,
       "locations": [
         "-29.65,33.84,-37.40",
@@ -559,7 +536,6 @@
     },
     {
       "name": "The Pale Broodmother",
-      "name_sortable": "palebroodmother",
       "level": 10,
       "difficulty": "heroic^^^",
       "locations": [
@@ -568,7 +544,6 @@
     },
     {
       "name": "a river behemoth",
-      "name_sortable": "riverbehemoth",
       "level": 13,
       "difficulty": "heroic^^",
       "locations": [
@@ -588,7 +563,6 @@
     },
     {
       "name": "a Rockpaw guard",
-      "name_sortable": "rockpawguard",
       "level": 13,
       "locations": [
         "51.77,38.00,-69.57",
@@ -631,7 +605,6 @@
     },
     {
       "name": "a Rockpaw scout",
-      "name_sortable": "rockpawscout",
       "level": 13,
       "locations": [
         "46.72,37.49,-98.67",
@@ -664,7 +637,6 @@
     },
     {
       "name": "a Rockpaw stonemaster",
-      "name_sortable": "rockpawstonemaster",
       "level": 15,
       "locations": [
         "-40.19,16.14,-122.56",
@@ -679,7 +651,6 @@
     },
     {
       "name": "a Rockpaw striker",
-      "name_sortable": "rockpawstriker",
       "level": 13,
       "locations": [
         "-4.77,37.87,-22.75",
@@ -694,7 +665,6 @@
     },
     {
       "name": "a shale bat",
-      "name_sortable": "shalebat",
       "level": 10,
       "locations": [
         "0.81,12.79,-52.03",
@@ -713,7 +683,6 @@
     },
     {
       "name": "a silverfish",
-      "name_sortable": "silverfish",
       "level": 10,
       "locations": [
         "-22.39,0.96,-23.38",
@@ -732,7 +701,6 @@
     },
     {
       "name": "Slaverjaw",
-      "name_sortable": "slaverjaw",
       "level": 16,
       "difficulty": "heroic^^^",
       "locations": [
@@ -762,7 +730,6 @@
     },
     {
       "name": "a terra bat",
-      "name_sortable": "terrabat",
       "level": 12,
       "locations": [
         "18.81,37.41,-85.10",
@@ -786,7 +753,6 @@
     },
     {
       "name": "Warmonger Gurne",
-      "name_sortable": "warmongergurne",
       "level": 14,
       "difficulty": "heroic^^^",
       "locations": [
@@ -806,7 +772,6 @@
     },
     {
       "name": "a white spider",
-      "name_sortable": "whitespider",
       "level": 10,
       "locations": [
         "20.81,3.32,-44.18",
@@ -834,7 +799,6 @@
     },
     {
       "name": "a white spiderling",
-      "name_sortable": "whitespiderling",
       "level": 10,
       "locations": [
         "5.76,2.75,-33.68",
@@ -1024,32 +988,25 @@
   ],
   "resourceNodes": [
     {
-      "name": "the creature den",
-      "name_sortable": "creatureden"
+      "name": "the creature den"
     },
     {
-      "name": "the dusky ore",
-      "name_sortable": "duskyore"
+      "name": "the dusky ore"
     },
     {
-      "name": "the fetid arbor",
-      "name_sortable": "fetidarbor"
+      "name": "the fetid arbor"
     },
     {
-      "name": "the natural garden",
-      "name_sortable": "naturalgarden"
+      "name": "the natural garden"
     },
     {
-      "name": "the rigid stone",
-      "name_sortable": "rigidstone"
+      "name": "the rigid stone"
     },
     {
-      "name": "the stodgy roots",
-      "name_sortable": "stodgyroots"
+      "name": "the stodgy roots"
     },
     {
-      "name": "the variety of fish",
-      "name_sortable": "varietyoffish"
+      "name": "the variety of fish"
     }
   ]
 }

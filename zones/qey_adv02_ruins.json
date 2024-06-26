@@ -1,9 +1,12 @@
 {
   "name": "The Forest Ruins",
-  "name_sortable": "forestruins",
   "category": "Karan",
-  "zonerect": "-1463.14,-1000.01,-675.87,-415.73",
   "levels": "5-10",
+  "maps": [
+    {
+      "zonerect": "-1463.14,-1000.01,-675.87,-415.73"
+    }
+  ],
   "connections": [
     {
       "key": "qey_village05_clone"
@@ -15,7 +18,6 @@
   "npcs": [
     {
       "name": "Acting Lieutenant Germain",
-      "name_sortable": "actinglieutenantgermain",
       "race": [
         "human"
       ],
@@ -61,19 +63,16 @@
       "quests": [
         {
           "id": 2436558414,
-          "name": "Favors",
-          "hidden": false
+          "name": "Favors"
         },
         {
           "id": 2019117947,
-          "name": "Uncover the Caches",
-          "hidden": false
+          "name": "Uncover the Caches"
         }
       ]
     },
     {
       "name": "Aedre",
-      "name_sortable": "aedre",
       "race": [
         "human"
       ],
@@ -103,14 +102,12 @@
     },
     {
       "name": "Ahnrisk",
-      "name_sortable": "ahnrisk",
       "locations": [
         "992.31,-13.98,-698.14"
       ]
     },
     {
       "name": "an Antonican hawk",
-      "name_sortable": "antonicanhawk",
       "level": 7,
       "locations": [
         "1156.30,-21.64,-754.68",
@@ -127,14 +124,12 @@
     },
     {
       "name": "The Basalt Watcher",
-      "name_sortable": "basaltwatcher",
       "locations": [
         "1036.58,-8.96,-677.59"
       ]
     },
     {
       "name": "a Blackfurl deckhand",
-      "name_sortable": "blackfurldeckhand",
       "level": 10,
       "locations": [
         "973.00,-23.35,-847.00",
@@ -175,7 +170,6 @@
     },
     {
       "name": "a Blackfurl lubber",
-      "name_sortable": "blackfurllubber",
       "level": 10,
       "locations": [
         "1083.76,-10.25,-672.90",
@@ -193,7 +187,6 @@
     },
     {
       "name": "a Blackfurl medic",
-      "name_sortable": "blackfurlmedic",
       "level": 10,
       "locations": [
         "1087.10,-10.14,-674.76",
@@ -211,7 +204,6 @@
     },
     {
       "name": "a Blackfurl oarcaller",
-      "name_sortable": "blackfurloarcaller",
       "level": 10,
       "locations": [
         "1023.58,-25.29,-895.21",
@@ -230,7 +222,6 @@
     },
     {
       "name": "a Blackfurl scout",
-      "name_sortable": "blackfurlscout",
       "level": 10,
       "locations": [
         "937.53,-25.81,-864.25",
@@ -285,7 +276,6 @@
     },
     {
       "name": "a Blackfurl swabbie",
-      "name_sortable": "blackfurlswabbie",
       "level": 10,
       "locations": [
         "931.12,-25.99,-867.23",
@@ -352,7 +342,6 @@
     },
     {
       "name": "a bonecutter fish",
-      "name_sortable": "bonecutterfish",
       "level": 6,
       "locations": [
         "1130.61,-28.06,-675.56",
@@ -365,7 +354,6 @@
     },
     {
       "name": "a bound watcher",
-      "name_sortable": "boundwatcher",
       "level": 10,
       "locations": [
         "1055.33,-15.03,-732.23",
@@ -394,7 +382,6 @@
     },
     {
       "name": "a bristly tarantula",
-      "name_sortable": "bristlytarantula",
       "level": 5,
       "locations": [
         "1100.00,-21.60,-625.84",
@@ -413,7 +400,6 @@
     },
     {
       "name": "a brittle accountant",
-      "name_sortable": "brittleaccountant",
       "level": 10,
       "locations": [
         "1077.39,-10.25,-670.06",
@@ -442,7 +428,6 @@
     },
     {
       "name": "a centipede",
-      "name_sortable": "centipede",
       "level": 8,
       "locations": [
         "980.97,-18.54,-697.56",
@@ -475,7 +460,6 @@
     },
     {
       "name": "Colonel Belaridonis",
-      "name_sortable": "colonelbelaridonis",
       "locations": [
         "886.29,-12.13,-556.81"
       ],
@@ -490,7 +474,6 @@
     },
     {
       "name": "a deep lurker",
-      "name_sortable": "deeplurker",
       "level": 6,
       "locations": [
         "1130.02,-27.00,-674.00",
@@ -507,7 +490,6 @@
     },
     {
       "name": "a devoted follower",
-      "name_sortable": "devotedfollower",
       "utterances": [
         "No!  I must see the coming of the Flamepaw!",
         "Leave this area now!",
@@ -535,7 +517,6 @@
     },
     {
       "name": "Dig Supervisor T'narl",
-      "name_sortable": "digsupervisortnarl",
       "level": 11,
       "difficulty": "heroic",
       "locations": [
@@ -560,7 +541,6 @@
     },
     {
       "name": "Dockins",
-      "name_sortable": "dockins",
       "race": [
         "human"
       ],
@@ -576,7 +556,6 @@
     },
     {
       "name": "Elvic Garrett",
-      "name_sortable": "elvicgarrett",
       "race": [
         "half elf"
       ],
@@ -599,14 +578,12 @@
       "quests": [
         {
           "id": 3656481881,
-          "name": "For Qeynos",
-          "hidden": false
+          "name": "For Qeynos"
         }
       ]
     },
     {
       "name": "a fiery forgotten guardian",
-      "name_sortable": "fieryforgottenguardian",
       "level": 8,
       "locations": [
         "969.00,-18.66,-647.05",
@@ -634,14 +611,12 @@
     },
     {
       "name": "Findle Gimblesled",
-      "name_sortable": "findlegimblesled",
       "locations": [
         "1069.17,-22.97,-853.94"
       ]
     },
     {
       "name": "a Flamepaw loyalist",
-      "name_sortable": "flamepawloyalist",
       "utterances": [
         "Leave this area now!",
         "You will disturb the master!",
@@ -659,7 +634,6 @@
     },
     {
       "name": "a fleshless martyr",
-      "name_sortable": "fleshlessmartyr",
       "level": 11,
       "difficulty": "heroic",
       "locations": [
@@ -668,7 +642,6 @@
     },
     {
       "name": "a fleshless stormer",
-      "name_sortable": "fleshlessstormer",
       "level": 11,
       "difficulty": "heroic",
       "locations": [
@@ -684,7 +657,6 @@
     },
     {
       "name": "a forgotten guardian",
-      "name_sortable": "forgottenguardian",
       "level": 8,
       "locations": [
         "992.35,-18.95,-632.55",
@@ -707,7 +679,6 @@
     },
     {
       "name": "a gossamer groundskeeper",
-      "name_sortable": "gossamergroundskeeper",
       "level": 10,
       "locations": [
         "1060.10,-10.25,-674.92",
@@ -725,7 +696,6 @@
     },
     {
       "name": "Grekin",
-      "name_sortable": "grekin",
       "locations": [
         "885.54,-13.66,-573.67"
       ],
@@ -738,14 +708,12 @@
     },
     {
       "name": "Grrosh",
-      "name_sortable": "grrosh",
       "utterances": [
         "You cannot defeat the Rockpaws!  We are a single pack.  Not divided and biting at one another like men of Qeynos.  You attack us, but it was your pack brothers that gave us idea and metal tools to dig with!"
       ]
     },
     {
       "name": "Ilaen Lilac",
-      "name_sortable": "ilaenlilac",
       "locations": [
         "966.33,-21.22,-811.49"
       ],
@@ -766,7 +734,6 @@
           "id": 2803330793,
           "name": "Unnatural Causes",
           "ends_at_npc": "Acting Lieutenant Germain",
-          "hidden": false,
           "related_items": [
             {
               "id": 612207850
@@ -777,7 +744,6 @@
     },
     {
       "name": "Ingraham",
-      "name_sortable": "ingraham",
       "level": 25,
       "locations": [
         "889.08,-12.08,-553.48"
@@ -785,7 +751,6 @@
     },
     {
       "name": "Kinloc Flamepaw's Remains",
-      "name_sortable": "kinlocflamepawsremains",
       "utterances": [
         "Coming here was your first mistake."
       ],
@@ -798,7 +763,6 @@
     },
     {
       "name": "a lake swarmer",
-      "name_sortable": "lakeswarmer",
       "level": 6,
       "locations": [
         "1108.63,-22.70,-670.31",
@@ -816,7 +780,6 @@
     },
     {
       "name": "a leathershell snapper",
-      "name_sortable": "leathershellsnapper",
       "level": 6,
       "locations": [
         "977.95,-30.00,-601.18",
@@ -843,7 +806,6 @@
     },
     {
       "name": "a molting scavenger",
-      "name_sortable": "moltingscavenger",
       "level": 8,
       "locations": [
         "991.25,-14.33,-696.00"
@@ -857,7 +819,6 @@
     },
     {
       "name": "a necrotic archaeologist",
-      "name_sortable": "necroticarchaeologist",
       "level": 11,
       "difficulty": "heroic",
       "locations": [
@@ -869,7 +830,6 @@
     },
     {
       "name": "Outlander Vaughn",
-      "name_sortable": "outlandervaughn",
       "locations": [
         "946.52,-20.70,-644.52",
         "1181.84,-23.33,-768.16"
@@ -884,19 +844,16 @@
       "quests": [
         {
           "id": 3769006108,
-          "name": "Letter for Hunter Forestdeep",
-          "hidden": false
+          "name": "Letter for Hunter Forestdeep"
         },
         {
           "id": 2041522598,
-          "name": "Vaughn's Stuff",
-          "hidden": false
+          "name": "Vaughn's Stuff"
         }
       ]
     },
     {
       "name": "Poko Zing",
-      "name_sortable": "pokozing",
       "race": [
         "gnome"
       ],
@@ -919,7 +876,6 @@
     },
     {
       "name": "a prowler pup",
-      "name_sortable": "prowlerpup",
       "level": 4,
       "locations": [
         "1175.42,-19.89,-791.49",
@@ -929,7 +885,6 @@
     },
     {
       "name": "a Rabid Badger",
-      "name_sortable": "rabidbadger",
       "level": 6,
       "locations": [
         "1020.00,-21.99,-577.00",
@@ -961,14 +916,12 @@
     },
     {
       "name": "Reconnoiterer Malox",
-      "name_sortable": "reconnoiterermalox",
       "utterances": [
         "Kill it!"
       ]
     },
     {
       "name": "Remmy Tumbub",
-      "name_sortable": "remmytumbub",
       "race": [
         "halfling"
       ],
@@ -984,14 +937,12 @@
       "quests": [
         {
           "id": 2569200347,
-          "name": "Clearing Remmy's Name",
-          "hidden": false
+          "name": "Clearing Remmy's Name"
         }
       ]
     },
     {
       "name": "a rock adder",
-      "name_sortable": "rockadder",
       "level": 6,
       "locations": [
         "1014.22,-22.48,-603.84",
@@ -1039,14 +990,12 @@
     },
     {
       "name": "a Rockpaw thug",
-      "name_sortable": "rockpawthug",
       "utterances": [
         "Attack!"
       ]
     },
     {
       "name": "a rotting pathfinder",
-      "name_sortable": "rottingpathfinder",
       "level": 11,
       "difficulty": "heroic",
       "locations": [
@@ -1063,7 +1012,6 @@
     },
     {
       "name": "a ruins prowler",
-      "name_sortable": "ruinsprowler",
       "level": 7,
       "locations": [
         "1149.93,-19.90,-768.00",
@@ -1082,7 +1030,6 @@
     },
     {
       "name": "Sergeant at Arms Uthros",
-      "name_sortable": "sergeantatarmsuthros",
       "race": [
         "human"
       ],
@@ -1102,14 +1049,12 @@
       "quests": [
         {
           "id": 2815070672,
-          "name": "Forest Ruins Volunteer",
-          "hidden": false
+          "name": "Forest Ruins Volunteer"
         }
       ]
     },
     {
       "name": "a skittering scavenger",
-      "name_sortable": "skitteringscavenger",
       "level": 8,
       "locations": [
         "1064.69,-19.02,-645.57",
@@ -1128,7 +1073,6 @@
     },
     {
       "name": "a slabshell snapper",
-      "name_sortable": "slabshellsnapper",
       "level": 9,
       "locations": [
         "1036.45,-24.00,-727.73",
@@ -1137,14 +1081,12 @@
     },
     {
       "name": "Sleeble Gimblesled",
-      "name_sortable": "sleeblegimblesled",
       "locations": [
         "1072.50,-23.43,-840.76"
       ]
     },
     {
       "name": "a sleepless one",
-      "name_sortable": "sleeplessone",
       "level": 10,
       "locations": [
         "1085.56,-10.25,-670.92",
@@ -1171,7 +1113,6 @@
     },
     {
       "name": "a sodden victim",
-      "name_sortable": "soddenvictim",
       "level": 10,
       "locations": [
         "936.46,-29.05,-880.24",
@@ -1206,7 +1147,6 @@
     },
     {
       "name": "The Spectral Headmaster",
-      "name_sortable": "spectralheadmaster",
       "level": 10,
       "difficulty": "heroic",
       "locations": [
@@ -1221,7 +1161,6 @@
     },
     {
       "name": "a spectral instructor",
-      "name_sortable": "spectralinstructor",
       "level": 10,
       "locations": [
         "1088.00,-9.29,-746.39",
@@ -1264,7 +1203,6 @@
     },
     {
       "name": "a spectral student",
-      "name_sortable": "spectralstudent",
       "level": 10,
       "locations": [
         "1016.56,-10.25,-705.42",
@@ -1324,7 +1262,6 @@
     },
     {
       "name": "a stoneshell snapper",
-      "name_sortable": "stoneshellsnapper",
       "level": 6,
       "locations": [
         "985.13,-23.62,-584.71",
@@ -1367,7 +1304,6 @@
     },
     {
       "name": "a sun beetle",
-      "name_sortable": "sunbeetle",
       "level": 6,
       "locations": [
         "971.92,-22.35,-763.20",
@@ -1390,7 +1326,6 @@
     },
     {
       "name": "a tarantula hawk",
-      "name_sortable": "tarantulahawk",
       "level": 6,
       "locations": [
         "1078.25,-20.98,-598.67",
@@ -1400,7 +1335,6 @@
     },
     {
       "name": "a tattered spellbook",
-      "name_sortable": "tatteredspellbook",
       "level": 10,
       "locations": [
         "1112.96,-9.25,-740.36",
@@ -1421,7 +1355,6 @@
     },
     {
       "name": "Thenatren Lightarrow",
-      "name_sortable": "thenatrenlightarrow",
       "race": [
         "wood elf"
       ],
@@ -1440,7 +1373,6 @@
     },
     {
       "name": "Therven Senshun",
-      "name_sortable": "thervensenshun",
       "race": [
         "half elf"
       ],
@@ -1463,14 +1395,12 @@
       "quests": [
         {
           "id": 2609752943,
-          "name": "Snapper Shells",
-          "hidden": false
+          "name": "Snapper Shells"
         }
       ]
     },
     {
       "name": "a timber deer",
-      "name_sortable": "timberdeer",
       "level": 6,
       "locations": [
         "1006.01,-20.22,-779.98",
@@ -1483,7 +1413,6 @@
     },
     {
       "name": "a timber fawn",
-      "name_sortable": "timberfawn",
       "level": 4,
       "locations": [
         "1008.31,-22.24,-572.41",
@@ -1495,7 +1424,6 @@
     },
     {
       "name": "Tinshen Brinth's Remains",
-      "name_sortable": "tinshenbrinthsremains",
       "utterances": [
         "Final death comes at last."
       ],
@@ -1512,7 +1440,6 @@
     },
     {
       "name": "a tireless student",
-      "name_sortable": "tirelessstudent",
       "level": 10,
       "locations": [
         "1039.29,-23.62,-725.09",
@@ -1547,7 +1474,6 @@
     },
     {
       "name": "a tool guardian",
-      "name_sortable": "toolguardian",
       "locations": [
         "1032.29,-21.57,-585.06",
         "1040.15,-21.99,-582.39"
@@ -1555,7 +1481,6 @@
     },
     {
       "name": "Winterburn",
-      "name_sortable": "winterburn",
       "level": 25,
       "locations": [
         "890.14,-14.03,-572.28"
@@ -1563,7 +1488,6 @@
     },
     {
       "name": "a woodland badger",
-      "name_sortable": "woodlandbadger",
       "level": 5,
       "locations": [
         "947.26,-20.99,-560.58",
@@ -1608,7 +1532,6 @@
     },
     {
       "name": "Yestura Rhamrey's Remains",
-      "name_sortable": "yesturarhamreysremains",
       "locations": [
         "1018.08,-10.25,-708.26"
       ],
@@ -1685,32 +1608,25 @@
   ],
   "resourceNodes": [
     {
-      "name": "the aged arbor",
-      "name_sortable": "agedarbor"
+      "name": "the aged arbor"
     },
     {
-      "name": "an array of fish",
-      "name_sortable": "arrayoffish"
+      "name": "an array of fish"
     },
     {
-      "name": "the blemished ore",
-      "name_sortable": "blemishedore"
+      "name": "the blemished ore"
     },
     {
-      "name": "the creature den",
-      "name_sortable": "creatureden"
+      "name": "the creature den"
     },
     {
-      "name": "the damp roots",
-      "name_sortable": "damproots"
+      "name": "the damp roots"
     },
     {
-      "name": "the natural garden",
-      "name_sortable": "naturalgarden"
+      "name": "the natural garden"
     },
     {
-      "name": "the unearthed stones",
-      "name_sortable": "unearthedstones"
+      "name": "the unearthed stones"
     }
   ]
 }

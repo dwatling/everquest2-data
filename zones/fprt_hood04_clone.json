@@ -1,10 +1,13 @@
 {
   "name": "Beggar's Court",
-  "name_sortable": "beggarscourt",
   "flags": "pre-lu62",
   "category": "Villages",
   "subcategory": "Freeport",
-  "zonerect": "-225.80,-137.49,181.39,158.88",
+  "maps": [
+    {
+      "zonerect": "-225.80,-137.49,181.39,158.88"
+    }
+  ],
   "connections": [
     {
       "key": "freeport_combined",
@@ -22,7 +25,6 @@
   "npcs": [
     {
       "name": "Alucius Valus",
-      "name_sortable": "aluciusvalus",
       "race": [
         "human"
       ],
@@ -40,7 +42,6 @@
     },
     {
       "name": "Anrean Velvinna",
-      "name_sortable": "anreanvelvinna",
       "race": [
         "half elf"
       ],
@@ -56,7 +57,6 @@
     },
     {
       "name": "Antius Vedrix",
-      "name_sortable": "antiusvedrix",
       "race": [
         "human"
       ],
@@ -73,7 +73,6 @@
     },
     {
       "name": "Arms Dealer Silentblade",
-      "name_sortable": "armsdealersilentblade",
       "race": [
         "half elf"
       ],
@@ -92,7 +91,6 @@
     },
     {
       "name": "Banker Voranius",
-      "name_sortable": "bankervoranius",
       "race": [
         "human"
       ],
@@ -106,7 +104,6 @@
     },
     {
       "name": "Banwyn Sympronian",
-      "name_sortable": "banwynsympronian",
       "race": [
         "half elf"
       ],
@@ -122,7 +119,6 @@
     },
     {
       "name": "Barmaid Melia",
-      "name_sortable": "barmaidmelia",
       "race": [
         "human"
       ],
@@ -138,7 +134,6 @@
     },
     {
       "name": "Cinre",
-      "name_sortable": "cinre",
       "race": [
         "human"
       ],
@@ -153,7 +148,6 @@
     },
     {
       "name": "Cordilia",
-      "name_sortable": "cordilia",
       "race": [
         "human"
       ],
@@ -173,7 +167,6 @@
     },
     {
       "name": "Cordius Sejanius",
-      "name_sortable": "cordiussejanius",
       "race": [
         "dark elf"
       ],
@@ -192,7 +185,6 @@
     },
     {
       "name": "Delcairn Sebastian",
-      "name_sortable": "delcairnsebastian",
       "race": [
         "half elf"
       ],
@@ -208,7 +200,6 @@
     },
     {
       "name": "Drunk Artorius",
-      "name_sortable": "drunkartorius",
       "race": [
         "human"
       ],
@@ -221,7 +212,6 @@
     },
     {
       "name": "Durio Dexus",
-      "name_sortable": "duriodexus",
       "race": [
         "human"
       ],
@@ -237,7 +227,6 @@
     },
     {
       "name": "Elduin Proceus",
-      "name_sortable": "elduinproceus",
       "race": [
         "half elf"
       ],
@@ -257,7 +246,6 @@
     },
     {
       "name": "Elowyn Equitus",
-      "name_sortable": "elowynequitus",
       "race": [
         "human"
       ],
@@ -277,7 +265,6 @@
     },
     {
       "name": "Favonius Seneca",
-      "name_sortable": "favoniusseneca",
       "race": [
         "human"
       ],
@@ -293,7 +280,6 @@
     },
     {
       "name": "Festus Septimius",
-      "name_sortable": "festusseptimius",
       "race": [
         "human"
       ],
@@ -309,7 +295,6 @@
     },
     {
       "name": "Gilriel Cypria",
-      "name_sortable": "gilrielcypria",
       "race": [
         "human"
       ],
@@ -329,7 +314,6 @@
     },
     {
       "name": "Glanae",
-      "name_sortable": "glanae",
       "race": [
         "half elf"
       ],
@@ -342,7 +326,6 @@
     },
     {
       "name": "Hodstock",
-      "name_sortable": "hodstock",
       "locations": [
         "42.09,5.25,-18.32",
         "20.41,3.5,-1.25",
@@ -353,7 +336,6 @@
     },
     {
       "name": "Innkeeper Melus",
-      "name_sortable": "innkeepermelus",
       "race": [
         "human"
       ],
@@ -385,7 +367,6 @@
     },
     {
       "name": "Kaseo Volcatius",
-      "name_sortable": "kaseovolcatius",
       "race": [
         "human"
       ],
@@ -402,7 +383,6 @@
     },
     {
       "name": "Kith",
-      "name_sortable": "kith",
       "locations": [
         "67.65,-7.08,94.20",
         "57.00,-6.49,83.15",
@@ -412,7 +392,6 @@
     },
     {
       "name": "Lieutenant Cervaen",
-      "name_sortable": "lieutenantcervaen",
       "race": [
         "half elf"
       ],
@@ -428,7 +407,6 @@
     },
     {
       "name": "Livia Drusilla",
-      "name_sortable": "liviadrusilla",
       "race": [
         "human"
       ],
@@ -445,7 +423,6 @@
     },
     {
       "name": "Loamshallow",
-      "name_sortable": "loamshallow",
       "race": [
         "half elf"
       ],
@@ -464,7 +441,6 @@
     },
     {
       "name": "Lucius Vulso",
-      "name_sortable": "luciusvulso",
       "race": [
         "human"
       ],
@@ -480,7 +456,6 @@
     },
     {
       "name": "Lurina Galla",
-      "name_sortable": "lurinagalla",
       "race": [
         "human"
       ],
@@ -496,7 +471,6 @@
     },
     {
       "name": "Maecenus",
-      "name_sortable": "maecenus",
       "race": [
         "human"
       ],
@@ -512,7 +486,6 @@
     },
     {
       "name": "Marcus Cantarius",
-      "name_sortable": "marcuscantarius",
       "race": [
         "human"
       ],
@@ -528,7 +501,6 @@
     },
     {
       "name": "Marcus Levidius",
-      "name_sortable": "marcuslevidius",
       "race": [
         "human"
       ],
@@ -546,7 +518,6 @@
     },
     {
       "name": "Mariana Darkleaf",
-      "name_sortable": "marianadarkleaf",
       "race": [
         "half elf"
       ],
@@ -559,7 +530,6 @@
     },
     {
       "name": "Molin Driftwater",
-      "name_sortable": "molindriftwater",
       "race": [
         "half elf"
       ],
@@ -578,7 +548,6 @@
     },
     {
       "name": "Nilniar Ursus",
-      "name_sortable": "nilniarursus",
       "race": [
         "human"
       ],
@@ -596,7 +565,6 @@
     },
     {
       "name": "Octavia Jovina",
-      "name_sortable": "octaviajovina",
       "race": [
         "human"
       ],
@@ -613,7 +581,6 @@
     },
     {
       "name": "Pebblemark",
-      "name_sortable": "pebblemark",
       "race": [
         "half elf"
       ],
@@ -628,7 +595,6 @@
     },
     {
       "name": "a rat",
-      "name_sortable": "rat",
       "locations": [
         "14.62,3.25,10.70",
         "25.39,5.25,-20.30",
@@ -638,7 +604,6 @@
     },
     {
       "name": "Reana Astia",
-      "name_sortable": "reanaastia",
       "race": [
         "half elf"
       ],
@@ -656,7 +621,6 @@
     },
     {
       "name": "Rilius Shadowsiege",
-      "name_sortable": "riliusshadowsiege",
       "race": [
         "half elf"
       ],
@@ -681,7 +645,6 @@
     },
     {
       "name": "Ro",
-      "name_sortable": "ro",
       "locations": [
         "-2.9,1.92,15.36",
         "-4.18,3.5,-22.43"
@@ -689,7 +652,6 @@
     },
     {
       "name": "Rolan Sunstar",
-      "name_sortable": "rolansunstar",
       "race": [
         "half elf"
       ],
@@ -709,7 +671,6 @@
     },
     {
       "name": "Sandon Breezebender",
-      "name_sortable": "sandonbreezebender",
       "race": [
         "human"
       ],
@@ -727,7 +688,6 @@
     },
     {
       "name": "Scribe Inkwell",
-      "name_sortable": "scribeinkwell",
       "race": [
         "half elf"
       ],
@@ -756,7 +716,6 @@
     },
     {
       "name": "Sentius Poisonleaf",
-      "name_sortable": "sentiuspoisonleaf",
       "race": [
         "half elf"
       ],
@@ -772,7 +731,6 @@
     },
     {
       "name": "Sestius Buccio",
-      "name_sortable": "sestiusbuccio",
       "race": [
         "human"
       ],
@@ -791,7 +749,6 @@
     },
     {
       "name": "a Shady Thug",
-      "name_sortable": "shadythug",
       "level": 4,
       "locations": [
         "-36.98,-6.92,85.85"
@@ -802,7 +759,6 @@
     },
     {
       "name": "Siricus Calventius",
-      "name_sortable": "siricuscalventius",
       "race": [
         "human"
       ],
@@ -819,7 +775,6 @@
     },
     {
       "name": "Statia Viatrix",
-      "name_sortable": "statiaviatrix",
       "race": [
         "human"
       ],
@@ -838,7 +793,6 @@
     },
     {
       "name": "Tabith the Hag",
-      "name_sortable": "tabiththehag",
       "race": [
         "human"
       ],
@@ -855,7 +809,6 @@
     },
     {
       "name": "Thavian Destrus",
-      "name_sortable": "thaviandestrus",
       "race": [
         "half elf"
       ],
@@ -871,7 +824,6 @@
     },
     {
       "name": "Thesta",
-      "name_sortable": "thesta",
       "race": [
         "human"
       ],
@@ -890,7 +842,6 @@
     },
     {
       "name": "Tsuul Nyghtfallow",
-      "name_sortable": "tsuulnyghtfallow",
       "race": [
         "half elf"
       ],
@@ -903,7 +854,6 @@
     },
     {
       "name": "Tullia Domna",
-      "name_sortable": "tulliadomna",
       "race": [
         "human"
       ],

@@ -1,10 +1,13 @@
 {
   "name": "The Ruins of Varsoon",
-  "name_sortable": "ruinsofvarsoon",
   "category": "Dungeons",
   "subcategory": "Public",
-  "zonerect": "-322.00,-179.00,332.00,155.0",
   "levels": "25-34",
+  "maps": [
+    {
+      "zonerect": "-322.00,-179.00,332.00,155.0"
+    }
+  ],
   "connections": [
     {
       "key": "steppes"
@@ -16,7 +19,6 @@
   "npcs": [
     {
       "name": "an assembler",
-      "name_sortable": "assembler",
       "level": 32,
       "difficulty": "heroic",
       "locations": [
@@ -32,7 +34,6 @@
     },
     {
       "name": "an assembly overseer",
-      "name_sortable": "assemblyoverseer",
       "level": 32,
       "difficulty": "heroic",
       "locations": [
@@ -44,7 +45,6 @@
     },
     {
       "name": "a barrel cleaner",
-      "name_sortable": "barrelcleaner",
       "level": 32,
       "difficulty": "heroic",
       "utterances": [
@@ -53,7 +53,6 @@
     },
     {
       "name": "a brute caretaker",
-      "name_sortable": "brutecaretaker",
       "level": 34,
       "difficulty": "heroic",
       "locations": [
@@ -67,7 +66,6 @@
     },
     {
       "name": "a brute controller",
-      "name_sortable": "brutecontroller",
       "level": 34,
       "difficulty": "heroic",
       "locations": [
@@ -87,7 +85,6 @@
     },
     {
       "name": "a cask keeper",
-      "name_sortable": "caskkeeper",
       "level": 31,
       "difficulty": "heroic",
       "locations": [
@@ -107,7 +104,6 @@
     },
     {
       "name": "a cellar guard",
-      "name_sortable": "cellarguard",
       "level": 31,
       "difficulty": "heroic",
       "locations": [
@@ -128,7 +124,6 @@
     },
     {
       "name": "a Ci`Re apprentice",
-      "name_sortable": "cireapprentice",
       "level": 32,
       "difficulty": "heroic",
       "utterances": [
@@ -137,7 +132,6 @@
     },
     {
       "name": "a Ci`Re guard",
-      "name_sortable": "cireguard",
       "level": 32,
       "difficulty": "heroic",
       "utterances": [
@@ -147,7 +141,6 @@
     },
     {
       "name": "a claychanter",
-      "name_sortable": "claychanter",
       "level": 31,
       "difficulty": "heroic",
       "locations": [
@@ -161,7 +154,6 @@
     },
     {
       "name": "a clay crawler",
-      "name_sortable": "claycrawler",
       "level": 26,
       "difficulty": "heroic",
       "locations": [
@@ -194,7 +186,6 @@
     },
     {
       "name": "a clay guardian",
-      "name_sortable": "clayguardian",
       "level": 29,
       "difficulty": "heroic",
       "locations": [
@@ -284,7 +275,6 @@
     },
     {
       "name": "The Creator",
-      "name_sortable": "creator",
       "level": 32,
       "difficulty": "heroic",
       "locations": [
@@ -296,7 +286,6 @@
     },
     {
       "name": "Dalmat Rageshree",
-      "name_sortable": "dalmatrageshree",
       "locations": [
         "237.3,-7.97,54.83"
       ],
@@ -306,7 +295,6 @@
     },
     {
       "name": "a deafening shrieker",
-      "name_sortable": "deafeningshrieker",
       "level": 26,
       "difficulty": "heroic",
       "locations": [
@@ -337,7 +325,6 @@
     },
     {
       "name": "Dibble Rootweaver",
-      "name_sortable": "dibblerootweaver",
       "locations": [
         "-250.44,8.42,-140.14"
       ],
@@ -351,7 +338,6 @@
     },
     {
       "name": "a dust shriller",
-      "name_sortable": "dustshriller",
       "level": 26,
       "difficulty": "heroic",
       "locations": [
@@ -370,7 +356,6 @@
     },
     {
       "name": "an enchanted clay",
-      "name_sortable": "enchantedclay",
       "level": 31,
       "difficulty": "heroic",
       "locations": [
@@ -386,7 +371,6 @@
     },
     {
       "name": "an enchanted tome",
-      "name_sortable": "enchantedtome",
       "level": 31,
       "difficulty": "heroic",
       "locations": [
@@ -412,7 +396,6 @@
     },
     {
       "name": "an enraged Ci`Re apprentice",
-      "name_sortable": "enragedcireapprentice",
       "level": 34,
       "difficulty": "heroic",
       "utterances": [
@@ -422,7 +405,6 @@
     },
     {
       "name": "an enraged Ci`Re guard",
-      "name_sortable": "enragedcireguard",
       "level": 34,
       "difficulty": "heroic",
       "utterances": [
@@ -431,7 +413,6 @@
     },
     {
       "name": "an enraged Sumyd apprentice",
-      "name_sortable": "enragedsumydapprentice",
       "level": 34,
       "difficulty": "heroic",
       "locations": [
@@ -452,7 +433,6 @@
     },
     {
       "name": "an enraged Sumyd guard",
-      "name_sortable": "enragedsumydguard",
       "level": 34,
       "difficulty": "heroic",
       "locations": [
@@ -469,7 +449,6 @@
     },
     {
       "name": "an enraged Ymeresh apprentice",
-      "name_sortable": "enragedymereshapprentice",
       "level": 34,
       "difficulty": "heroic",
       "locations": [
@@ -488,7 +467,6 @@
     },
     {
       "name": "an enraged Ymeresh guard",
-      "name_sortable": "enragedymereshguard",
       "level": 34,
       "difficulty": "heroic",
       "locations": [
@@ -500,7 +478,6 @@
     },
     {
       "name": "Erbmys Sumyd",
-      "name_sortable": "erbmyssumyd",
       "level": 35,
       "difficulty": "heroic",
       "locations": [
@@ -509,7 +486,6 @@
     },
     {
       "name": "Et'sipe Ymeresh",
-      "name_sortable": "etsipeymeresh",
       "level": 35,
       "difficulty": "heroic",
       "locations": [
@@ -521,7 +497,6 @@
     },
     {
       "name": "a forge ember",
-      "name_sortable": "forgeember",
       "level": 34,
       "difficulty": "heroic",
       "locations": [
@@ -530,7 +505,6 @@
     },
     {
       "name": "Forge Overseer Eid'un",
-      "name_sortable": "forgeoverseereidun",
       "level": 34,
       "difficulty": "heroic",
       "locations": [
@@ -542,7 +516,6 @@
     },
     {
       "name": "a forge spark",
-      "name_sortable": "forgespark",
       "level": 34,
       "difficulty": "heroic",
       "locations": [
@@ -558,7 +531,6 @@
     },
     {
       "name": "a forge stoker",
-      "name_sortable": "forgestoker",
       "level": 34,
       "difficulty": "heroic",
       "locations": [
@@ -581,7 +553,6 @@
     },
     {
       "name": "a gleam goblin",
-      "name_sortable": "gleamgoblin",
       "level": 30,
       "difficulty": "heroic",
       "locations": [
@@ -596,7 +567,6 @@
     },
     {
       "name": "a glimmer goblin",
-      "name_sortable": "glimmergoblin",
       "level": 30,
       "difficulty": "heroic",
       "locations": [
@@ -621,7 +591,6 @@
     },
     {
       "name": "Grayl Turfstrider",
-      "name_sortable": "graylturfstrider",
       "locations": [
         "-248.14,-0.07,74.03"
       ],
@@ -632,7 +601,6 @@
     },
     {
       "name": "a hulking clay guardian",
-      "name_sortable": "hulkingclayguardian",
       "level": 34,
       "difficulty": "heroic",
       "locations": [
@@ -651,7 +619,6 @@
     },
     {
       "name": "an incomplete guardian",
-      "name_sortable": "incompleteguardian",
       "level": 27,
       "difficulty": "heroic",
       "locations": [
@@ -673,7 +640,6 @@
     },
     {
       "name": "a living clay",
-      "name_sortable": "livingclay",
       "level": 26,
       "difficulty": "heroic",
       "locations": [
@@ -697,7 +663,6 @@
     },
     {
       "name": "a loam blister",
-      "name_sortable": "loamblister",
       "level": 27,
       "difficulty": "heroic",
       "locations": [
@@ -718,7 +683,6 @@
     },
     {
       "name": "a loam boil",
-      "name_sortable": "loamboil",
       "locations": [
         "-67.85,-0.66,8.62",
         "-53.59,-2.57,1.35",
@@ -737,7 +701,6 @@
     },
     {
       "name": "a loam cyst",
-      "name_sortable": "loamcyst",
       "level": 26,
       "difficulty": "heroic",
       "locations": [
@@ -747,7 +710,6 @@
     },
     {
       "name": "Mibble Toad",
-      "name_sortable": "mibbletoad",
       "level": 30,
       "difficulty": "heroic",
       "locations": [
@@ -759,7 +721,6 @@
     },
     {
       "name": "a mindless brute",
-      "name_sortable": "mindlessbrute",
       "level": 34,
       "difficulty": "heroic",
       "locations": [
@@ -773,7 +734,6 @@
     },
     {
       "name": "a mindless cook",
-      "name_sortable": "mindlesscook",
       "level": 31,
       "difficulty": "heroic",
       "locations": [
@@ -789,7 +749,6 @@
     },
     {
       "name": "a mindless spinner",
-      "name_sortable": "mindlessspinner",
       "level": 31,
       "difficulty": "heroic",
       "locations": [
@@ -802,7 +761,6 @@
     },
     {
       "name": "a mindless tailor",
-      "name_sortable": "mindlesstailor",
       "level": 31,
       "difficulty": "heroic",
       "locations": [
@@ -818,7 +776,6 @@
     },
     {
       "name": "a mindless weaver",
-      "name_sortable": "mindlessweaver",
       "level": 31,
       "difficulty": "heroic",
       "locations": [
@@ -832,7 +789,6 @@
     },
     {
       "name": "a mud shriller",
-      "name_sortable": "mudshriller",
       "level": 28,
       "difficulty": "heroic",
       "locations": [
@@ -852,14 +808,12 @@
     },
     {
       "name": "Nala Bunting",
-      "name_sortable": "nalabunting",
       "locations": [
         "-166.76,11.62,-49.59"
       ]
     },
     {
       "name": "a needle worker",
-      "name_sortable": "needleworker",
       "locations": [
         "34.54,0.00,99.10"
       ],
@@ -870,7 +824,6 @@
     },
     {
       "name": "Pritchett the Taster",
-      "name_sortable": "pritchettthetaster",
       "level": 32,
       "difficulty": "heroic",
       "locations": [
@@ -879,7 +832,6 @@
     },
     {
       "name": "a regal crawler",
-      "name_sortable": "regalcrawler",
       "level": 26,
       "difficulty": "heroic",
       "locations": [
@@ -888,7 +840,6 @@
     },
     {
       "name": "a replacement Ci`Re apprentice",
-      "name_sortable": "replacementcireapprentice",
       "level": 33,
       "difficulty": "heroic",
       "utterances": [
@@ -898,7 +849,6 @@
     },
     {
       "name": "a replacement Ci`Re guard",
-      "name_sortable": "replacementcireguard",
       "level": 33,
       "difficulty": "heroic",
       "utterances": [
@@ -908,7 +858,6 @@
     },
     {
       "name": "a replacement Sumyd apprentice",
-      "name_sortable": "replacementsumydapprentice",
       "level": 33,
       "difficulty": "heroic",
       "locations": [
@@ -922,7 +871,6 @@
     },
     {
       "name": "a replacement Sumyd guard",
-      "name_sortable": "replacementsumydguard",
       "level": 33,
       "difficulty": "heroic",
       "locations": [
@@ -942,7 +890,6 @@
     },
     {
       "name": "a replacement Ymeresh apprentice",
-      "name_sortable": "replacementymereshapprentice",
       "level": 33,
       "difficulty": "heroic",
       "locations": [
@@ -955,7 +902,6 @@
     },
     {
       "name": "a replacement Ymeresh guard",
-      "name_sortable": "replacementymereshguard",
       "level": 33,
       "difficulty": "heroic",
       "locations": [
@@ -967,7 +913,6 @@
     },
     {
       "name": "a reserve protector",
-      "name_sortable": "reserveprotector",
       "level": 32,
       "difficulty": "heroic",
       "locations": [
@@ -988,7 +933,6 @@
     },
     {
       "name": "a servant of Varsoon",
-      "name_sortable": "servantofvarsoon",
       "level": 29,
       "difficulty": "heroic",
       "locations": [
@@ -1028,7 +972,6 @@
     },
     {
       "name": "a spirited tome",
-      "name_sortable": "spiritedtome",
       "level": 31,
       "difficulty": "heroic",
       "locations": [
@@ -1054,7 +997,6 @@
     },
     {
       "name": "a Sumyd apprentice",
-      "name_sortable": "sumydapprentice",
       "level": 32,
       "difficulty": "heroic",
       "locations": [
@@ -1069,7 +1011,6 @@
     },
     {
       "name": "a Sumyd guard",
-      "name_sortable": "sumydguard",
       "level": 32,
       "difficulty": "heroic",
       "locations": [
@@ -1083,7 +1024,6 @@
     },
     {
       "name": "Thana Rumblehoof",
-      "name_sortable": "thanarumblehoof",
       "locations": [
         "-240.66,-0.07,72.81"
       ],
@@ -1094,7 +1034,6 @@
     },
     {
       "name": "Thimzem Ci'Re",
-      "name_sortable": "thimzemcire",
       "level": 35,
       "difficulty": "heroic",
       "locations": [
@@ -1108,7 +1047,6 @@
     },
     {
       "name": "a thought engineer",
-      "name_sortable": "thoughtengineer",
       "level": 32,
       "difficulty": "heroic",
       "locations": [
@@ -1133,7 +1071,6 @@
     },
     {
       "name": "Tome of Death",
-      "name_sortable": "tomeofdeath",
       "level": 32,
       "difficulty": "heroic",
       "locations": [
@@ -1142,7 +1079,6 @@
     },
     {
       "name": "Tome of Life",
-      "name_sortable": "tomeoflife",
       "level": 31,
       "difficulty": "heroic",
       "locations": [
@@ -1151,7 +1087,6 @@
     },
     {
       "name": "a Varsoon alchemist",
-      "name_sortable": "varsoonalchemist",
       "level": 29,
       "difficulty": "heroic",
       "locations": [
@@ -1163,7 +1098,6 @@
     },
     {
       "name": "a Varsoon apprentice",
-      "name_sortable": "varsoonapprentice",
       "level": 29,
       "difficulty": "heroic",
       "locations": [
@@ -1177,7 +1111,6 @@
     },
     {
       "name": "a Varsoon disciple",
-      "name_sortable": "varsoondisciple",
       "level": 29,
       "difficulty": "heroic",
       "locations": [
@@ -1191,7 +1124,6 @@
     },
     {
       "name": "a Varsoon guard",
-      "name_sortable": "varsoonguard",
       "level": 27,
       "difficulty": "heroic",
       "locations": [
@@ -1239,7 +1171,6 @@
     },
     {
       "name": "a Varsoon jailor",
-      "name_sortable": "varsoonjailor",
       "level": 27,
       "difficulty": "heroic",
       "locations": [
@@ -1248,7 +1179,6 @@
     },
     {
       "name": "The Varsoon Painbringer",
-      "name_sortable": "varsoonpainbringer",
       "level": 27,
       "difficulty": "heroic",
       "locations": [
@@ -1260,7 +1190,6 @@
     },
     {
       "name": "a Varsoon scourge",
-      "name_sortable": "varsoonscourge",
       "level": 27,
       "difficulty": "heroic",
       "locations": [
@@ -1272,7 +1201,6 @@
     },
     {
       "name": "a Varsoon sergeant",
-      "name_sortable": "varsoonsergeant",
       "level": 28,
       "difficulty": "heroic",
       "locations": [
@@ -1284,7 +1212,6 @@
     },
     {
       "name": "a Varsoon steward",
-      "name_sortable": "varsoonsteward",
       "level": 32,
       "difficulty": "heroic",
       "locations": [
@@ -1296,7 +1223,6 @@
     },
     {
       "name": "Weavemaster Esh'rax",
-      "name_sortable": "weavemastereshrax",
       "level": 31,
       "difficulty": "heroic",
       "locations": [
@@ -1310,7 +1236,6 @@
     },
     {
       "name": "a Ymeresh apprentice",
-      "name_sortable": "ymereshapprentice",
       "level": 32,
       "difficulty": "heroic",
       "locations": [
@@ -1326,7 +1251,6 @@
     },
     {
       "name": "a Ymeresh guard",
-      "name_sortable": "ymereshguard",
       "level": 32,
       "difficulty": "heroic",
       "locations": [
@@ -1338,7 +1262,6 @@
     },
     {
       "name": "a Ymeresh pounder",
-      "name_sortable": "ymereshpounder",
       "level": 34,
       "difficulty": "heroic",
       "locations": [

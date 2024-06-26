@@ -1,10 +1,13 @@
 {
   "name": "The Baubbleshire",
-  "name_sortable": "baubbleshire",
+  "removed": "lu64",
   "category": "Villages",
   "subcategory": "Qeynos",
-  "removed": "lu64",
-  "zonerect": "-1202.29,-731.03,-545.37,-218.19",
+  "maps": [
+    {
+      "zonerect": "-1202.29,-731.03,-545.37,-218.19"
+    }
+  ],
   "connections": [
     {
       "key": "qey_adv02_ruins",
@@ -26,7 +29,6 @@
   "npcs": [
     {
       "name": "Algan Tinmizer",
-      "name_sortable": "algantinmizer",
       "race": [
         "gnome"
       ],
@@ -42,7 +44,6 @@
     },
     {
       "name": "Arbuthnot Jumroller",
-      "name_sortable": "arbuthnotjumroller",
       "race": [
         "halfling"
       ],
@@ -58,7 +59,6 @@
     },
     {
       "name": "Barmaid Estella Muddyfoot",
-      "name_sortable": "barmaidestellamuddyfoot",
       "race": [
         "halfling"
       ],
@@ -77,7 +77,6 @@
     },
     {
       "name": "Bizrinn Clamorclang",
-      "name_sortable": "bizrinnclamorclang",
       "race": [
         "gnome"
       ],
@@ -93,7 +92,6 @@
     },
     {
       "name": "Bolo Brassharp",
-      "name_sortable": "bolobrassharp",
       "race": [
         "halfling"
       ],
@@ -109,7 +107,6 @@
     },
     {
       "name": "Brera Pinthumb",
-      "name_sortable": "brerapinthumb",
       "race": [
         "gnome"
       ],
@@ -128,7 +125,6 @@
     },
     {
       "name": "Byrtle Bobblepeg",
-      "name_sortable": "byrtlebobblepeg",
       "race": [
         "gnome"
       ],
@@ -158,14 +154,12 @@
     },
     {
       "name": "Deputy Splitshin",
-      "name_sortable": "deputysplitshin",
       "utterances": [
         "Ah good, another refugee in the city.  I hope you're not a worthless lay about!  We don't abide apathy here."
       ]
     },
     {
       "name": "Diggin Diggs",
-      "name_sortable": "diggindiggs",
       "race": [
         "halfling"
       ],
@@ -187,7 +181,6 @@
     },
     {
       "name": "Dondl Fuzzlecutter",
-      "name_sortable": "dondlfuzzlecutter",
       "race": [
         "gnome"
       ],
@@ -215,7 +208,6 @@
     },
     {
       "name": "Drizzcopper",
-      "name_sortable": "drizzcopper",
       "race": [
         "gnome"
       ],
@@ -232,7 +224,6 @@
     },
     {
       "name": "Drundo Parn",
-      "name_sortable": "drundoparn",
       "race": [
         "halfling"
       ],
@@ -248,7 +239,6 @@
     },
     {
       "name": "Fillzer Fuzzle",
-      "name_sortable": "fillzerfuzzle",
       "race": [
         "gnome"
       ],
@@ -264,7 +254,6 @@
     },
     {
       "name": "Ganla Dindlenod",
-      "name_sortable": "ganladindlenod",
       "race": [
         "gnome"
       ],
@@ -280,7 +269,6 @@
     },
     {
       "name": "Geologist Quardifle",
-      "name_sortable": "geologistquardifle",
       "race": [
         "gnome"
       ],
@@ -293,7 +281,6 @@
     },
     {
       "name": "Gornit Penwiggle",
-      "name_sortable": "gornitpenwiggle",
       "race": [
         "halfling"
       ],
@@ -310,7 +297,6 @@
     },
     {
       "name": "a honey guardian",
-      "name_sortable": "honeyguardian",
       "locations": [
         "862.43,-17.94,-439.52",
         "891.51,-15.10,-443.94",
@@ -319,7 +305,6 @@
     },
     {
       "name": "Innkeeper Millbanks",
-      "name_sortable": "innkeepermillbanks",
       "race": [
         "halfling"
       ],
@@ -386,7 +371,6 @@
     },
     {
       "name": "Jayla Midhop",
-      "name_sortable": "jaylamidhop",
       "race": [
         "halfling"
       ],
@@ -402,7 +386,6 @@
     },
     {
       "name": "Kaldin Deeppockets",
-      "name_sortable": "kaldindeeppockets",
       "race": [
         "halfling"
       ],
@@ -431,7 +414,6 @@
     },
     {
       "name": "Lozoria Shinkicker",
-      "name_sortable": "lozoriashinkicker",
       "race": [
         "halfling"
       ],
@@ -447,7 +429,6 @@
     },
     {
       "name": "Maela Meadows",
-      "name_sortable": "maelameadows",
       "race": [
         "halfling"
       ],
@@ -463,7 +444,6 @@
     },
     {
       "name": "Marshal Surefoot",
-      "name_sortable": "marshalsurefoot",
       "race": [
         "halfling"
       ],
@@ -482,7 +462,6 @@
     },
     {
       "name": "Mirf Guinders",
-      "name_sortable": "mirfguinders",
       "race": [
         "gnome"
       ],
@@ -498,7 +477,6 @@
     },
     {
       "name": "Neezer Grund",
-      "name_sortable": "neezergrund",
       "race": [
         "gnome"
       ],
@@ -516,7 +494,6 @@
     },
     {
       "name": "Nyla Diggs",
-      "name_sortable": "nyladiggs",
       "race": [
         "halfling"
       ],
@@ -529,7 +506,6 @@
     },
     {
       "name": "Peona Toughins",
-      "name_sortable": "peonatoughins",
       "race": [
         "half elf"
       ],
@@ -550,7 +526,6 @@
     },
     {
       "name": "Pirnook Valewine",
-      "name_sortable": "pirnookvalewine",
       "race": [
         "halfling"
       ],
@@ -574,7 +549,6 @@
     },
     {
       "name": "Rala Eurocarry",
-      "name_sortable": "ralaeurocarry",
       "race": [
         "gnome"
       ],
@@ -602,14 +576,12 @@
     },
     {
       "name": "a rat",
-      "name_sortable": "rat",
       "locations": [
         "946.41,-18.08,-439.01"
       ]
     },
     {
       "name": "Rebik Sprocketrock",
-      "name_sortable": "rebiksprocketrock",
       "race": [
         "gnome"
       ],
@@ -625,7 +597,6 @@
     },
     {
       "name": "Remo Zigg",
-      "name_sortable": "remozigg",
       "race": [
         "gnome"
       ],
@@ -641,7 +612,6 @@
     },
     {
       "name": "Rondo \"The Belly\" Roundstew",
-      "name_sortable": "rondothebellyroundstew",
       "race": [
         "halfling"
       ],
@@ -655,7 +625,6 @@
     },
     {
       "name": "Sage Xoort",
-      "name_sortable": "sagexoort",
       "race": [
         "gnome"
       ],
@@ -674,7 +643,6 @@
     },
     {
       "name": "Smithy Findlebop",
-      "name_sortable": "smithyfindlebop",
       "race": [
         "gnome"
       ],
@@ -693,7 +661,6 @@
     },
     {
       "name": "Tapster Bregun",
-      "name_sortable": "tapsterbregun",
       "race": [
         "halfling"
       ],
@@ -712,7 +679,6 @@
     },
     {
       "name": "Tawli Whiskwind",
-      "name_sortable": "tawliwhiskwind",
       "race": [
         "halfling"
       ],
@@ -729,7 +695,6 @@
     },
     {
       "name": "Tinkerer Spindlecog",
-      "name_sortable": "tinkererspindlecog",
       "race": [
         "gnome"
       ],
@@ -742,7 +707,6 @@
     },
     {
       "name": "Wazzleburn",
-      "name_sortable": "wazzleburn",
       "race": [
         "gnome"
       ],
@@ -779,7 +743,6 @@
     },
     {
       "name": "Yola Sindlefop",
-      "name_sortable": "yolasindlefop",
       "race": [
         "halfling"
       ],
@@ -795,7 +758,6 @@
     },
     {
       "name": "Zipiff Clamorclang",
-      "name_sortable": "zipiffclamorclang",
       "race": [
         "gnome"
       ],

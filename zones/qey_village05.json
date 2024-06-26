@@ -1,10 +1,13 @@
 {
   "name": "The Willow Wood",
-  "name_sortable": "willowwood",
+  "removed": "lu64",
   "category": "Villages",
   "subcategory": "Qeynos",
-  "removed": "lu64",
-  "zonerect": "-1,258.05, -892.88, -499.30, -310.57",
+  "maps": [
+    {
+      "zonerect": "-1,258.05, -892.88, -499.30, -310.57"
+    }
+  ],
   "connections": [
     {
       "key": "qey_tradeskill01_village05",
@@ -25,7 +28,6 @@
   "npcs": [
     {
       "name": "Aelia Oakweaver",
-      "name_sortable": "aeliaoakweaver",
       "race": [
         "wood elf"
       ],
@@ -45,7 +47,6 @@
     },
     {
       "name": "Aelis",
-      "name_sortable": "aelis",
       "race": [
         "wood elf"
       ],
@@ -62,7 +63,6 @@
     },
     {
       "name": "Baynor",
-      "name_sortable": "baynor",
       "race": [
         "high elf"
       ],
@@ -83,7 +83,6 @@
     },
     {
       "name": "Briget Crestmyst",
-      "name_sortable": "brigetcrestmyst",
       "race": [
         "half elf"
       ],
@@ -103,7 +102,6 @@
     },
     {
       "name": "Daelyn Twinstar",
-      "name_sortable": "daelyntwinstar",
       "race": [
         "half elf"
       ],
@@ -148,7 +146,6 @@
     },
     {
       "name": "Davyn Thornbranch",
-      "name_sortable": "davynthornbranch",
       "race": [
         "wood elf"
       ],
@@ -164,7 +161,6 @@
     },
     {
       "name": "Deephathom",
-      "name_sortable": "deephathom",
       "race": [
         "half elf"
       ],
@@ -181,7 +177,6 @@
     },
     {
       "name": "Drystan Seaside",
-      "name_sortable": "drystanseaside",
       "race": [
         "half elf"
       ],
@@ -200,7 +195,6 @@
     },
     {
       "name": "Feredir Na'Duath ",
-      "name_sortable": "feredirnaduath",
       "race": [
         "wood elf"
       ],
@@ -220,7 +214,6 @@
     },
     {
       "name": "Gar Smolten",
-      "name_sortable": "garsmolten",
       "race": [
         "human"
       ],
@@ -247,7 +240,6 @@
     },
     {
       "name": "Hallie Summerglint",
-      "name_sortable": "halliesummerglint",
       "race": [
         "wood elf"
       ],
@@ -267,7 +259,6 @@
     },
     {
       "name": "Honeysuckle",
-      "name_sortable": "honeysuckle",
       "race": [
         "wood elf"
       ],
@@ -285,7 +276,6 @@
     },
     {
       "name": "Hunter Lathar Forestdeep",
-      "name_sortable": "hunterlatharforestdeep",
       "race": [
         "wood elf"
       ],
@@ -302,7 +292,6 @@
     },
     {
       "name": "Hunter Vannil",
-      "name_sortable": "huntervannil",
       "race": [
         "half elf"
       ],
@@ -315,7 +304,6 @@
     },
     {
       "name": "Innkeeper Yeoni",
-      "name_sortable": "innkeeperyeoni",
       "race": [
         "half elf"
       ],
@@ -384,7 +372,6 @@
     },
     {
       "name": "Jana Windstream",
-      "name_sortable": "janawindstream",
       "race": [
         "half elf"
       ],
@@ -400,7 +387,6 @@
     },
     {
       "name": "Jendan Greenthorn",
-      "name_sortable": "jendangreenthorn",
       "race": [
         "wood elf"
       ],
@@ -416,7 +402,6 @@
     },
     {
       "name": "Kualdin Swoonsong",
-      "name_sortable": "kualdinswoonsong",
       "race": [
         "wood elf"
       ],
@@ -432,7 +417,6 @@
     },
     {
       "name": "Lia Serene",
-      "name_sortable": "liaserene",
       "race": [
         "wood elf"
       ],
@@ -458,7 +442,6 @@
     },
     {
       "name": "Lyssia Delnara",
-      "name_sortable": "lyssiadelnara",
       "race": [
         "wood elf"
       ],
@@ -480,7 +463,6 @@
     },
     {
       "name": "Milo Faren",
-      "name_sortable": "milofaren",
       "race": [
         "human"
       ],
@@ -501,7 +483,6 @@
     },
     {
       "name": "Oseof Crestryder",
-      "name_sortable": "oseofcrestryder",
       "race": [
         "half elf"
       ],
@@ -521,7 +502,6 @@
     },
     {
       "name": "Rainwander",
-      "name_sortable": "rainwander",
       "race": [
         "half elf"
       ],
@@ -566,7 +546,6 @@
     },
     {
       "name": "a rat",
-      "name_sortable": "rat",
       "locations": [
         "828.82,-20.73,-759.90",
         "829.99,-20.61,-748.46"
@@ -574,7 +553,6 @@
     },
     {
       "name": "Rebeka Lori",
-      "name_sortable": "rebekalori",
       "race": [
         "half elf"
       ],
@@ -590,7 +568,6 @@
     },
     {
       "name": "Salinia Brooklily",
-      "name_sortable": "saliniabrooklily",
       "race": [
         "wood elf"
       ],
@@ -622,7 +599,6 @@
     },
     {
       "name": "a shining nibbler",
-      "name_sortable": "shiningnibbler",
       "level": 3,
       "locations": [
         "821.91,-22.72,-784.59",
@@ -640,7 +616,6 @@
     },
     {
       "name": "Taval Zane",
-      "name_sortable": "tavalzane",
       "race": [
         "human"
       ],
@@ -656,7 +631,6 @@
     },
     {
       "name": "Thayare Faystrider",
-      "name_sortable": "thayarefaystrider",
       "race": [
         "wood elf"
       ],
@@ -686,7 +660,6 @@
     },
     {
       "name": "Thea Wavecrasher",
-      "name_sortable": "theawavecrasher",
       "race": [
         "half elf"
       ],
@@ -732,7 +705,6 @@
     },
     {
       "name": "Trelly Greenfoot",
-      "name_sortable": "trellygreenfoot",
       "race": [
         "wood elf"
       ],
@@ -750,7 +722,6 @@
     },
     {
       "name": "Trueshot",
-      "name_sortable": "trueshot",
       "race": [
         "wood elf"
       ],
@@ -770,7 +741,6 @@
     },
     {
       "name": "Zanhass Mossclean",
-      "name_sortable": "zanhassmossclean",
       "race": [
         "wood elf"
       ],

@@ -1,6 +1,5 @@
 {
   "name": "Blackburrow",
-  "name_sortable": "blackburrow",
   "category": "Dungeons",
   "subcategory": "Public",
   "levels": "10-20",
@@ -23,7 +22,6 @@
   "npcs": [
     {
       "name": "Assistant Wilabus",
-      "name_sortable": "assistantwilabus",
       "locations": [
         "46.89,-40.73,-16.91"
       ],
@@ -36,7 +34,6 @@
     },
     {
       "name": "a blightfang broodtender",
-      "name_sortable": "blightfangbroodtender",
       "level": 19,
       "difficulty": "heroic^3",
       "locations": [
@@ -48,7 +45,6 @@
     },
     {
       "name": "a blightfang hatchling",
-      "name_sortable": "blightfanghatchling",
       "level": 19,
       "locations": [
         "33.96,-38.02,10.53",
@@ -66,7 +62,6 @@
     },
     {
       "name": "a blightfang spider",
-      "name_sortable": "blightfangspider",
       "level": 17,
       "difficulty": "heroic^3",
       "locations": [
@@ -89,7 +84,6 @@
     },
     {
       "name": "a burly Sabertooth",
-      "name_sortable": "burlysabertooth",
       "level": 14,
       "difficulty": "heroic^3",
       "locations": [
@@ -131,24 +125,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a cave shimmer",
-      "name_sortable": "caveshimmer",
       "locations": [
         "-61.63,-18.27,20.37",
         "-53.83,-12.45,26.69"
@@ -162,7 +152,6 @@
     },
     {
       "name": "a crag rat",
-      "name_sortable": "cragrat",
       "level": 13,
       "locations": [
         "3.38,1.60,1.38",
@@ -177,7 +166,6 @@
     },
     {
       "name": "a crimson constrictor",
-      "name_sortable": "crimsonconstrictor",
       "locations": [
         "-45.49,2.30,-17.93",
         "-6.58,-12.18,-7.75"
@@ -185,7 +173,6 @@
     },
     {
       "name": "a dark lasher",
-      "name_sortable": "darklasher",
       "level": 15,
       "locations": [
         "-29.57,-15.34,17.68",
@@ -196,7 +183,6 @@
     },
     {
       "name": "a fierce razorgill",
-      "name_sortable": "fiercerazorgill",
       "level": 14,
       "locations": [
         "-88.99,-11.15,-44.42",
@@ -207,7 +193,6 @@
     },
     {
       "name": "Fishfang the Angler",
-      "name_sortable": "fishfangtheangler",
       "level": 13,
       "difficulty": "heroic",
       "locations": [
@@ -229,24 +214,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "Geologist Fribden",
-      "name_sortable": "geologistfribden",
       "locations": [
         "45.24,-40.82,-16.82"
       ],
@@ -259,7 +240,6 @@
     },
     {
       "name": "a giant lasher",
-      "name_sortable": "giantlasher",
       "level": 17,
       "locations": [
         "-45.29,-30.11,-68.66",
@@ -269,7 +249,6 @@
     },
     {
       "name": "a hoard watcher",
-      "name_sortable": "hoardwatcher",
       "level": 17,
       "difficulty": "heroic",
       "locations": [
@@ -284,24 +263,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "Nantglas the Cold",
-      "name_sortable": "nantglasthecold",
       "locations": [
         "-86.88,-0.93,-7.79"
       ],
@@ -313,30 +288,25 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "Overseer Thix",
-      "name_sortable": "overseerthix",
       "level": 13,
       "difficulty": "heroic^3"
     },
     {
       "name": "a patrolling Sabertoot",
-      "name_sortable": "patrollingsabertooth",
       "level": 13,
       "locations": [
         "34.31,0.04,11.38",
@@ -351,24 +321,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a razorgill",
-      "name_sortable": "razorgill",
       "level": 13,
       "locations": [
         "-61.57,-3.49,-14.06",
@@ -394,7 +360,6 @@
     },
     {
       "name": "a ridge rat",
-      "name_sortable": "ridgerat",
       "level": 12,
       "locations": [
         "71.72,-1.15,18.17",
@@ -404,7 +369,6 @@
     },
     {
       "name": "a Sabertooth angler",
-      "name_sortable": "sabertoothangler",
       "level": 12,
       "locations": [
         "-22.96,-1.49,21.24",
@@ -441,24 +405,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth brewery guard",
-      "name_sortable": "sabertoothbreweryguard",
       "level": 16,
       "difficulty": "heroic",
       "locations": [
@@ -500,24 +460,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth brewmaster",
-      "name_sortable": "sabertoothbrewmaster",
       "level": 16,
       "difficulty": "heroic",
       "locations": [
@@ -549,24 +505,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth Champion",
-      "name_sortable": "sabertoothchampion",
       "locations": [
         "28.40,-39.82,64.00"
       ],
@@ -576,24 +528,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth chanter",
-      "name_sortable": "sabertoothchanter",
       "level": 15,
       "difficulty": "heroic",
       "locations": [
@@ -631,24 +579,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth commander",
-      "name_sortable": "sabertoothcommander",
       "level": 17,
       "difficulty": "heroic",
       "locations": [
@@ -674,24 +618,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth diviner",
-      "name_sortable": "sabertoothdiviner",
       "level": 14,
       "difficulty": "heroic^2",
       "locations": [
@@ -717,24 +657,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth elite guard",
-      "name_sortable": "sabertootheliteguard",
       "level": 16,
       "difficulty": "heroic^2",
       "locations": [
@@ -754,24 +690,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth guard",
-      "name_sortable": "sabertoothguard",
       "level": 14,
       "difficulty": "heroic^2",
       "locations": [
@@ -804,24 +736,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth lookout",
-      "name_sortable": "sabertoothlookout",
       "level": 12,
       "locations": [
         "25.48,3.69,-6.41",
@@ -836,47 +764,39 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth miner",
-      "name_sortable": "sabertoothminer",
       "level": 13,
       "difficulty": "heroic^3",
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth oracle",
-      "name_sortable": "sabertoothoracle",
       "level": 17,
       "difficulty": "heroic",
       "locations": [
@@ -916,24 +836,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth pup",
-      "name_sortable": "sabertoothpup",
       "level": 11,
       "locations": [
         "67.24,-0.64,10.90",
@@ -963,24 +879,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth sentry",
-      "name_sortable": "sabertoothsentry",
       "level": 16,
       "difficulty": "heroic^3",
       "locations": [
@@ -1019,24 +931,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth spearfisher",
-      "name_sortable": "sabertoothspearfisher",
       "level": 13,
       "difficulty": "heroic^2",
       "locations": [
@@ -1056,24 +964,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth tactician",
-      "name_sortable": "sabertoothtactician",
       "level": 17,
       "difficulty": "heroic",
       "locations": [
@@ -1104,24 +1008,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a scrawny Sabertooth",
-      "name_sortable": "scrawnysabertooth",
       "level": 12,
       "locations": [
         "32.63,0.00,11.80",
@@ -1166,24 +1066,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "Splitpaw Scout",
-      "name_sortable": "splitpawscout",
       "level": 21,
       "difficulty": "heroic^3",
       "locations": [
@@ -1195,7 +1091,6 @@
     },
     {
       "name": "a stalwart Sabertooth",
-      "name_sortable": "stalwartsabertooth",
       "level": 15,
       "difficulty": "heroic",
       "locations": [
@@ -1244,24 +1139,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a stockpile protector",
-      "name_sortable": "stockpileprotector",
       "level": 17,
       "difficulty": "heroic",
       "locations": [
@@ -1284,24 +1175,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a terrapede",
-      "name_sortable": "terrapede",
       "level": 13,
       "locations": [
         "-96.51,-0.42,-115.62",
@@ -1317,7 +1204,6 @@
     },
     {
       "name": "a training spearfisher",
-      "name_sortable": "trainingspearfisher",
       "level": 13,
       "difficulty": "heroic",
       "locations": [
@@ -1357,17 +1243,14 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]

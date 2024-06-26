@@ -1,10 +1,13 @@
 {
   "name": "Temple Street",
-  "name_sortable": "templestreet",
   "flags": "pre-lu62",
   "category": "Villages",
   "subcategory": "Freeport",
-  "zonerect": "-318.06,-122.85,233.45,290.97",
+  "maps": [
+    {
+      "zonerect": "-318.06,-122.85,233.45,290.97"
+    }
+  ],
   "connections": [
     {
       "key": "freeport_combined",
@@ -22,7 +25,6 @@
   "npcs": [
     {
       "name": "Arms Dealer Shinska",
-      "name_sortable": "armsdealershinska",
       "race": [
         "ratonga"
       ],
@@ -41,7 +43,6 @@
     },
     {
       "name": "Barmaid Krasa",
-      "name_sortable": "barmaidkrasa",
       "race": [
         "ratonga"
       ],
@@ -56,7 +57,6 @@
     },
     {
       "name": "Brashk",
-      "name_sortable": "brashk",
       "race": [
         "ratonga"
       ],
@@ -69,7 +69,6 @@
     },
     {
       "name": "Captain Molacus",
-      "name_sortable": "captainmolacus",
       "race": [
         "human"
       ],
@@ -85,7 +84,6 @@
     },
     {
       "name": "Chef Schmenko",
-      "name_sortable": "chefschmenko",
       "race": [
         "ratonga"
       ],
@@ -104,7 +102,6 @@
     },
     {
       "name": "Chrna",
-      "name_sortable": "chrna",
       "race": [
         "ratonga"
       ],
@@ -117,7 +114,6 @@
     },
     {
       "name": "Chuggle Valvesplitter",
-      "name_sortable": "chugglevalvesplitter",
       "race": [
         "gnome"
       ],
@@ -133,7 +129,6 @@
     },
     {
       "name": "Darsus Tavalin",
-      "name_sortable": "darsustavalin",
       "race": [
         "human"
       ],
@@ -149,7 +144,6 @@
     },
     {
       "name": "Fedul",
-      "name_sortable": "fedul",
       "race": [
         "ratonga"
       ],
@@ -165,7 +159,6 @@
     },
     {
       "name": "a feverish ratonga",
-      "name_sortable": "feverishratonga",
       "race": [
         "ratonga"
       ],
@@ -181,7 +174,6 @@
     },
     {
       "name": "Frizi Figglesnip",
-      "name_sortable": "frizifigglesnip",
       "race": [
         "gnome"
       ],
@@ -217,7 +209,6 @@
     },
     {
       "name": "Frondo Wignin",
-      "name_sortable": "frondowignin",
       "race": [
         "gnome"
       ],
@@ -236,7 +227,6 @@
     },
     {
       "name": "Fubbledodge",
-      "name_sortable": "fubbledodge",
       "race": [
         "gnome"
       ],
@@ -254,7 +244,6 @@
     },
     {
       "name": "Innkeeper Zixi Wuggle",
-      "name_sortable": "innkeeperzixiwuggle",
       "race": [
         "gnome"
       ],
@@ -286,7 +275,6 @@
     },
     {
       "name": "Jubil Frankobi",
-      "name_sortable": "jubilfrankobi",
       "race": [
         "gnome"
       ],
@@ -304,7 +292,6 @@
     },
     {
       "name": "Kavina",
-      "name_sortable": "kavina",
       "race": [
         "ratonga"
       ],
@@ -322,7 +309,6 @@
     },
     {
       "name": "Krellian",
-      "name_sortable": "krellian",
       "race": [
         "ratonga"
       ],
@@ -336,7 +322,6 @@
     },
     {
       "name": "Krysa",
-      "name_sortable": "krysa",
       "race": [
         "ratonga"
       ],
@@ -352,7 +337,6 @@
     },
     {
       "name": "Malvir Destrin",
-      "name_sortable": "malvirdestrin",
       "race": [
         "gnome"
       ],
@@ -368,7 +352,6 @@
     },
     {
       "name": "Malyk",
-      "name_sortable": "malyk",
       "race": [
         "ratonga"
       ],
@@ -384,7 +367,6 @@
     },
     {
       "name": "Methos",
-      "name_sortable": "methos",
       "locations": [
         "-9.57,3.0,81.36",
         "-58.23,2.8,127.34"
@@ -392,7 +374,6 @@
     },
     {
       "name": "Mr. Buttons",
-      "name_sortable": "mrbuttons",
       "locations": [
         "-4.11,3.0,101.29",
         "-49.03,2.84,121.01"
@@ -400,7 +381,6 @@
     },
     {
       "name": "a mute ratonga",
-      "name_sortable": "muteratonga",
       "race": [
         "ratonga"
       ],
@@ -413,7 +393,6 @@
     },
     {
       "name": "Neezer Grund",
-      "name_sortable": "neezergrund",
       "race": [
         "gnome"
       ],
@@ -429,7 +408,6 @@
     },
     {
       "name": "Old Man Muckwort",
-      "name_sortable": "oldmanmuckwort",
       "race": [
         "human"
       ],
@@ -446,7 +424,6 @@
     },
     {
       "name": "a pig",
-      "name_sortable": "pig",
       "level": 9,
       "locations": [
         "111.03,-4.57,112.52"
@@ -460,7 +437,6 @@
     },
     {
       "name": "Plordo Blotterdook",
-      "name_sortable": "plordoblotterdook",
       "race": [
         "gnome"
       ],
@@ -478,7 +454,6 @@
     },
     {
       "name": "Pockets",
-      "name_sortable": "pockets",
       "locations": [
         "0.23,3.0,114.03",
         "51.6,3.0,98.63",
@@ -487,7 +462,6 @@
     },
     {
       "name": "Pshavost",
-      "name_sortable": "pshavost",
       "race": [
         "ratonga"
       ],
@@ -505,7 +479,6 @@
     },
     {
       "name": "Qwergo Togglesmeet",
-      "name_sortable": "qwergotogglesmeet",
       "race": [
         "gnome"
       ],
@@ -523,7 +496,6 @@
     },
     {
       "name": "a rat",
-      "name_sortable": "rat",
       "level": 2,
       "locations": [
         "-36.00,2.83,120.00",
@@ -537,7 +509,6 @@
     },
     {
       "name": "Regias Flutzrubble",
-      "name_sortable": "regiasflutzrubble",
       "race": [
         "gnome"
       ],
@@ -559,7 +530,6 @@
     },
     {
       "name": "Sempronia Gallus",
-      "name_sortable": "semproniagallus",
       "race": [
         "human"
       ],
@@ -573,7 +543,6 @@
     },
     {
       "name": "Sipka",
-      "name_sortable": "sipka",
       "race": [
         "ratonga"
       ],
@@ -591,14 +560,12 @@
     },
     {
       "name": "Skitter",
-      "name_sortable": "skitter",
       "locations": [
         "-3.75,3.0,116.1"
       ]
     },
     {
       "name": "Sparzit Cogsnibble",
-      "name_sortable": "sparzitcogsnibble",
       "race": [
         "gnome"
       ],
@@ -615,7 +582,6 @@
     },
     {
       "name": "Spezi the Street Hag",
-      "name_sortable": "spezithestreethag",
       "race": [
         "ratonga"
       ],
@@ -628,14 +594,12 @@
     },
     {
       "name": "Sprocket",
-      "name_sortable": "sprocket",
       "locations": [
         "91.74,-4.57,104.19"
       ]
     },
     {
       "name": "Svasha",
-      "name_sortable": "svasha",
       "race": [
         "ratonga"
       ],
@@ -653,7 +617,6 @@
     },
     {
       "name": "Tarakh",
-      "name_sortable": "tarakh",
       "race": [
         "ratonga"
       ],
@@ -669,7 +632,6 @@
     },
     {
       "name": "Tuber Fattleweeble",
-      "name_sortable": "tuberfattleweeble",
       "race": [
         "human"
       ],
@@ -687,7 +649,6 @@
     },
     {
       "name": "Twergo Togglesmeet",
-      "name_sortable": "twergotogglesmeet",
       "race": [
         "gnome"
       ],
@@ -802,7 +763,6 @@
     },
     {
       "name": "Vleko",
-      "name_sortable": "vleko",
       "race": [
         "ratonga"
       ],
@@ -820,7 +780,6 @@
     },
     {
       "name": "Vlepo",
-      "name_sortable": "vlepo",
       "race": [
         "ratonga"
       ],
@@ -849,7 +808,6 @@
     },
     {
       "name": "Zninki Flatzazzle",
-      "name_sortable": "zninkiflatzazzle",
       "race": [
         "gnome"
       ],

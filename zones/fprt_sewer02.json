@@ -1,9 +1,12 @@
 {
   "name": "The Serpent Sewer",
-  "name_sortable": "serpentsewer",
   "category": "D'Lere",
-  "zonerect": "-20.00,-200.00,290.00,164.00",
   "levels": "15-20",
+  "maps": [
+    {
+      "zonerect": "-20.00,-200.00,290.00,164.00"
+    }
+  ],
   "connections": [
     {
       "key": "fprt_sewer01"
@@ -21,7 +24,6 @@
   "npcs": [
     {
       "name": "an Ancient Dasher",
-      "name_sortable": "ancientdasher",
       "level": 20,
       "locations": [
         "-271,0,140"
@@ -35,7 +37,6 @@
     },
     {
       "name": "Bilzik Fuzzlethorp",
-      "name_sortable": "bilzikfuzzlethorp",
       "level": 20,
       "locations": [
         "-1,1,-139",
@@ -47,7 +48,6 @@
     },
     {
       "name": "Cicero Puer",
-      "name_sortable": "ciceropuer",
       "race": [
         "ratonga"
       ],
@@ -67,7 +67,6 @@
     },
     {
       "name": "a crazed channel mender",
-      "name_sortable": "crazedchannelmender",
       "level": 19,
       "locations": [
         "-25,1,-75",
@@ -133,7 +132,6 @@
     },
     {
       "name": "a crazed mender",
-      "name_sortable": "crazedmender",
       "level": 20,
       "difficulty": "heroic",
       "locations": [
@@ -142,7 +140,6 @@
     },
     {
       "name": "Crazy Peepers",
-      "name_sortable": "crazypeepers",
       "level": 20,
       "difficulty": "heroic",
       "locations": [
@@ -151,7 +148,6 @@
     },
     {
       "name": "a drudge globule",
-      "name_sortable": "drudgeglobule",
       "level": 20,
       "locations": [
         "-117,0,-123",
@@ -176,7 +172,6 @@
     },
     {
       "name": "a filthy moccasin",
-      "name_sortable": "filthymoccasin",
       "level": 16,
       "locations": [
         "-213,0,-111",
@@ -194,7 +189,6 @@
     },
     {
       "name": "a fragmented globule",
-      "name_sortable": "fragmentedglobule",
       "level": 19,
       "locations": [
         "-118,-1,-132"
@@ -202,7 +196,6 @@
     },
     {
       "name": "Gurtha Tings",
-      "name_sortable": "gurthatings",
       "purpose": "General Goods",
       "locations": [
         "-104,0,7"
@@ -247,7 +240,6 @@
     },
     {
       "name": "Hired Guard Gazzuk",
-      "name_sortable": "hiredguardgazzuk",
       "purpose": "Guard",
       "level": 30,
       "locations": [
@@ -256,7 +248,6 @@
     },
     {
       "name": "an immature sludgewater",
-      "name_sortable": "immaturesludgewater",
       "level": 16,
       "locations": [
         "-185.03,0.09,-137.90",
@@ -280,7 +271,6 @@
     },
     {
       "name": "Kerik Lorn",
-      "name_sortable": "keriklorn",
       "purpose": "Weaponsmith",
       "locations": [
         "-113,0,17"
@@ -292,7 +282,6 @@
     },
     {
       "name": "Marcus Puer",
-      "name_sortable": "marcuspuer",
       "locations": [
         "-37,0,-7"
       ],
@@ -307,7 +296,6 @@
     },
     {
       "name": "a measly filthy moccasin",
-      "name_sortable": "measlyfilthymoccasin",
       "level": 16,
       "locations": [
         "-81.66,1.62,-84.37",
@@ -336,7 +324,6 @@
     },
     {
       "name": "a Murkwater abettor",
-      "name_sortable": "murkwaterabettor",
       "level": 21,
       "locations": [
         "-224,0,-9",
@@ -348,7 +335,6 @@
     },
     {
       "name": "a Murkwater induct",
-      "name_sortable": "murkwaterinduct",
       "level": 21,
       "locations": [
         "-268,0,-7",
@@ -364,7 +350,6 @@
     },
     {
       "name": "a Murkwater steward",
-      "name_sortable": "murkwatersteward",
       "level": 20,
       "locations": [
         "-250,1,-12",
@@ -387,7 +372,6 @@
     },
     {
       "name": "The Murkwater Villain",
-      "name_sortable": "murkwatervillain",
       "level": 21,
       "locations": [
         "-236,1,2"
@@ -395,7 +379,6 @@
     },
     {
       "name": "a pestilent ratonga",
-      "name_sortable": "pestilentratonga",
       "level": 20,
       "locations": [
         "-122,0,-113"
@@ -417,7 +400,6 @@
     },
     {
       "name": "a refuse toad",
-      "name_sortable": "refusetoad",
       "level": 16,
       "locations": [
         "-148.86,0.24,-131.28",
@@ -436,7 +418,6 @@
     },
     {
       "name": "Rix Tah'Reh",
-      "name_sortable": "rixtahreh",
       "purpose": "Armorsmith",
       "locations": [
         "-104,0,17"
@@ -448,7 +429,6 @@
     },
     {
       "name": "a segmented globule",
-      "name_sortable": "segmentedglobule",
       "level": 19,
       "locations": [
         "-118,-1,-132"
@@ -456,7 +436,6 @@
     },
     {
       "name": "a sewage nuisance",
-      "name_sortable": "sewagenuisance",
       "level": 16,
       "locations": [
         "-8,1,79",
@@ -484,7 +463,6 @@
     },
     {
       "name": "a sewage vermin",
-      "name_sortable": "sewagevermin",
       "level": 16,
       "locations": [
         "-179.98,0.19,-153.45",
@@ -497,7 +475,6 @@
     },
     {
       "name": "a sift dasher",
-      "name_sortable": "siftdasher",
       "level": 180,
       "locations": [
         "-238,0,120",
@@ -519,13 +496,11 @@
     },
     {
       "name": "Skeleton of Gord Smith",
-      "name_sortable": "skeletonofgordsmith",
       "drop_coin_min": 98,
       "drop_coin_max": 98
     },
     {
       "name": "a sludge mucus",
-      "name_sortable": "sludgemucus",
       "level": 17,
       "locations": [
         "-153.77,-0.21,39.07",
@@ -546,7 +521,6 @@
     },
     {
       "name": "Stench",
-      "name_sortable": "stench",
       "level": 17,
       "locations": [
         "-84,1,-116",
@@ -577,7 +551,6 @@
     },
     {
       "name": "Tula Mawh",
-      "name_sortable": "tulamawh",
       "purpose": "Provisioner",
       "locations": [
         "-113,0,7"
@@ -663,7 +636,6 @@
     },
     {
       "name": "an Unstable Globule",
-      "name_sortable": "unstableglobule",
       "level": 20,
       "locations": [
         "-118,-1,-132"

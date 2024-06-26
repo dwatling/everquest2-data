@@ -1,10 +1,13 @@
 {
   "name": "Portal to the Past: Steamfont",
-  "name_sortable": "portaltothepaststeamfont",
   "expansion": "exp03",
   "category": "Dungeons",
-  "zonerect": "-55.00,-82.00,281.00,292.00",
   "levels": "50",
+  "maps": [
+    {
+      "zonerect": "-55.00,-82.00,281.00,292.00"
+    }
+  ],
   "connections": [
     {
       "key": "live_chronoportal_hub"

@@ -1,6 +1,5 @@
 {
   "name": "Kylong Plains",
-  "name_sortable": "kylongplains",
   "expansion": "exp04",
   "category": "Kunark",
   "description": "An expanse of land with varying climates, from dense forest to snow covered mountains the inhabitants of this region deal with many threats. Whether it be the Gra'al Shul Iksars near Kunzar's Edge, the mysteries of the Combine ruins, or the menacing drolvarg roaming around Karnor's Castle, there is always a need for help from a brave adventurer.",
@@ -25,18 +24,15 @@
   "npcs": [
     {
       "name": "a drolvarg scavenger",
-      "name_sortable": "drolvargscavenger",
       "faction_changes": [
         {
           "name": "Sathirian",
-          "name_sortable": "sathirian",
           "value": -100
         }
       ]
     },
     {
       "name": "Trakanon",
-      "name_sortable": "trakanon",
       "locations": [
         "847.67,10.16,91.24"
       ],

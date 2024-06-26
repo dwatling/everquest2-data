@@ -1,9 +1,12 @@
 {
   "name": "a decrepit crypt",
-  "name_sortable": "decrepitcrypt",
   "category": "D'Lere",
-  "zonerect": "-21.00,-46.00,40.00,26.00",
   "levels": "10-12",
+  "maps": [
+    {
+      "zonerect": "-21.00,-46.00,40.00,26.00"
+    }
+  ],
   "connections": [
     {
       "key": "commonlands"
@@ -12,7 +15,6 @@
   "npcs": [
     {
       "name": "a caravan guard",
-      "name_sortable": "caravanguard",
       "level": 10,
       "difficulty": "heroic^^",
       "locations": [
@@ -33,7 +35,6 @@
     },
     {
       "name": "a caravan moneylender",
-      "name_sortable": "caravanmoneylender",
       "level": 10,
       "difficulty": "heroic^^",
       "locations": [
@@ -46,7 +47,6 @@
     },
     {
       "name": "a caravan negotiator",
-      "name_sortable": "caravannegotiator",
       "level": 10,
       "difficulty": "heroic",
       "locations": [
@@ -59,7 +59,6 @@
     },
     {
       "name": "a caravan trafficker",
-      "name_sortable": "caravantrafficker",
       "level": 10,
       "difficulty": "heroic",
       "locations": [
@@ -75,21 +74,18 @@
     },
     {
       "name": "Lucas Steelbone",
-      "name_sortable": "lucassteelbone",
       "locations": [
         "-27.76,-1.04,5.37"
       ]
     },
     {
       "name": "Marcus Steelbone",
-      "name_sortable": "marcussteelbone",
       "locations": [
         "-29.82,-1.04,18.20"
       ]
     },
     {
       "name": "a Steelbone Ancestor",
-      "name_sortable": "steelboneancestor",
       "locations": [
         "-21.86,-1.04,10.41",
         "-25.15,-1.04,17.78"

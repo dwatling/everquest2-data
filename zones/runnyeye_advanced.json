@@ -1,9 +1,12 @@
 {
   "name": "Runnyeye: The Gathering",
-  "name_sortable": "runnyeyethegathering",
   "category": "The Enchanted Lands",
-  "zonerect": "-246.00,-257.00,145.00,198.00",
   "levels": "",
+  "maps": [
+    {
+      "zonerect": "-246.00,-257.00,145.00,198.00"
+    }
+  ],
   "connections": [
     {
       "key": "enchanted"
@@ -12,7 +15,6 @@
   "npcs": [
     {
       "name": "Boarkeeper Malleg",
-      "name_sortable": "boarkeepermalleg",
       "drops": [
         {
           "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
@@ -24,19 +26,16 @@
     },
     {
       "name": "a Boombottom guest",
-      "name_sortable": "boombottomguest",
       "drop_coin_min": 9097,
       "drop_coin_max": 9097
     },
     {
       "name": "a Broken Toe backbiter",
-      "name_sortable": "brokentoebackbiter",
       "drop_coin_min": 6535,
       "drop_coin_max": 6535
     },
     {
       "name": "a Broken Toe guest",
-      "name_sortable": "brokentoeguest",
       "drops": [
         {
           "gamelink": "\\aITEM -1601774627 288174257:Deklium Relic\\/a",
@@ -48,14 +47,12 @@
     },
     {
       "name": "a Broken Toe shaman",
-      "name_sortable": "brokentoeshaman",
       "utterances": [
         "Battle no glory, keep living is glory!"
       ]
     },
     {
       "name": "Burrtoe the Gorged",
-      "name_sortable": "burrtoethegorged",
       "drops": [
         {
           "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
@@ -65,7 +62,6 @@
     },
     {
       "name": "a desert crawler",
-      "name_sortable": "desertcrawler",
       "drops": [
         {
           "gamelink": "\\aITEM -1841126928 -2146281467:desert crawler insides\\/a",
@@ -75,7 +71,6 @@
     },
     {
       "name": "a dialated retaliator",
-      "name_sortable": "dialatedretaliator",
       "drops": [
         {
           "gamelink": "\\aITEM 1631202153 241887772:an evil eye binding shackle\\/a",
@@ -87,30 +82,25 @@
     },
     {
       "name": "a fleeing Runnyeye guard",
-      "name_sortable": "fleeingrunnyeyeguard",
       "faction_changes": [
         {
           "name": "The Guardians of the Vale",
-          "name_sortable": "guardiansofthevale",
           "value": 50
         },
         {
           "name": "The Runnyeye Goblins",
-          "name_sortable": "runnyeyegoblins",
           "value": -100
         }
       ]
     },
     {
       "name": "Gahdash the Backstabbie",
-      "name_sortable": "gahdashthebackstabbie",
       "utterances": [
         "Oh you gonna pay for dat one!"
       ]
     },
     {
       "name": "a Gigglegibber merchant",
-      "name_sortable": "gigglegibbermerchant",
       "locations": [
         "-17.78,3.59,-29.72,"
       ],
@@ -137,14 +127,12 @@
     },
     {
       "name": "Grunblug Foesmasher",
-      "name_sortable": "grunblugfoesmasher",
       "utterances": [
         "Battle no glory, keep living is glory!"
       ]
     },
     {
       "name": "a Grungetalon advisor",
-      "name_sortable": "grungetalonadvisor",
       "drops": [
         {
           "gamelink": "\\aITEM 685460663 -56890563:a goblin claw\\/a",
@@ -154,7 +142,6 @@
     },
     {
       "name": "a Grungetalon blesser",
-      "name_sortable": "grungetalonblesser",
       "drops": [
         {
           "gamelink": "\\aITEM -959107685 1296290369:a goblin ear\\/a",
@@ -164,13 +151,11 @@
     },
     {
       "name": "a Grungetalon clincher",
-      "name_sortable": "grungetalonclincher",
       "drop_coin_min": 5404,
       "drop_coin_max": 5404
     },
     {
       "name": "a Grungetalon diplomat",
-      "name_sortable": "grungetalondiplomat",
       "drops": [
         {
           "gamelink": "\\aITEM -1601774627 288174257:Deklium Relic\\/a",
@@ -180,7 +165,6 @@
     },
     {
       "name": "a Grungetalon elite",
-      "name_sortable": "grungetalonelite",
       "drops": [
         {
           "gamelink": "\\aITEM -1311630067 965320946:a goblin eye\\/a",
@@ -192,7 +176,6 @@
     },
     {
       "name": "a Grungetalon guest",
-      "name_sortable": "grungetalonguest",
       "drops": [
         {
           "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
@@ -202,7 +185,6 @@
     },
     {
       "name": "a Grungetalon scratcher",
-      "name_sortable": "grungetalonscratcher",
       "drops": [
         {
           "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
@@ -214,7 +196,6 @@
     },
     {
       "name": "High Shaman Vohan",
-      "name_sortable": "highshamanvohan",
       "utterances": [
         "This room is not for you! This is a sacred room for da goblins only! Here lies da greatest of goblin heroes, Naggresh!",
         "Your trespassy will meet with the punishment of goblin heroes of oldy times! We shall lay you down to the dirt and cover you over!",
@@ -223,19 +204,16 @@
       "faction_changes": [
         {
           "name": "The Guardians of the Vale",
-          "name_sortable": "guardiansofthevale",
           "value": 50
         },
         {
           "name": "The Runnyeye Goblins",
-          "name_sortable": "runnyeyegoblins",
           "value": -100
         }
       ]
     },
     {
       "name": "a hungry boarling",
-      "name_sortable": "hungryboarling",
       "drops": [
         {
           "gamelink": "\\aITEM -809604538 114429975:a pristine boar tusk\\/a",
@@ -251,7 +229,6 @@
     },
     {
       "name": "Memnmamar Marrowgut",
-      "name_sortable": "memnmamarmarrowgut",
       "drops": [
         {
           "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
@@ -263,14 +240,12 @@
       "faction_changes": [
         {
           "name": "Exiles of Droga",
-          "name_sortable": "exilesofdroga",
           "value": 50
         }
       ]
     },
     {
       "name": "a mist grinnin herbalist",
-      "name_sortable": "mistgrinninherbalist",
       "drops": [
         {
           "gamelink": "\\aITEM 917565395 -1442552176:tentacle statue\\/a",
@@ -282,14 +257,12 @@
     },
     {
       "name": "a mist grinnin petitioner",
-      "name_sortable": "mistgrinninpetitioner",
       "utterances": [
         "Oh you gonna pay for dat one!"
       ]
     },
     {
       "name": "a Nurgan raider",
-      "name_sortable": "nurganraider",
       "drops": [
         {
           "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
@@ -301,7 +274,6 @@
     },
     {
       "name": "a Nurgan stabber",
-      "name_sortable": "nurganstabber",
       "drops": [
         {
           "gamelink": "\\aITEM -1311630067 965320946:a goblin eye\\/a",
@@ -311,7 +283,6 @@
     },
     {
       "name": "Runnyeye defender",
-      "name_sortable": "runnyeyedefender",
       "drops": [
         {
           "gamelink": "\\aITEM -1601774627 288174257:Deklium Relic\\/a",
@@ -321,19 +292,16 @@
       "faction_changes": [
         {
           "name": "The Guardians of the Vale",
-          "name_sortable": "guardiansofthevale",
           "value": 50
         },
         {
           "name": "The Runnyeye Goblins",
-          "name_sortable": "runnyeyegoblins",
           "value": -100
         }
       ]
     },
     {
       "name": "a Runnyeye elite",
-      "name_sortable": "runnyeyeelite",
       "utterances": [
         "ARG!  You make me bleed!",
         "Now that makes me angry!"
@@ -349,25 +317,21 @@
       "faction_changes": [
         {
           "name": "The Guardians of the Vale",
-          "name_sortable": "guardiansofthevale",
           "value": 50
         },
         {
           "name": "The Runnyeye Goblins",
-          "name_sortable": "runnyeyegoblins",
           "value": -100
         }
       ]
     },
     {
       "name": "a Runnyeye host",
-      "name_sortable": "runnyeyehost",
       "drop_coin_min": 7610,
       "drop_coin_max": 7610
     },
     {
       "name": "a Sandscrawler cook",
-      "name_sortable": "sandscrawlercook",
       "drops": [
         {
           "gamelink": "\\aITEM 2145057108 -642505864:Blueprint: Wormhole Generator: Commonlands\\/a",
@@ -377,7 +341,6 @@
     },
     {
       "name": "a Sandscrawler gouger",
-      "name_sortable": "sandscrawlergouger",
       "drops": [
         {
           "gamelink": "\\aITEM -1972086734 -411631644:Kunzite Scrying Stone\\/a",
@@ -387,7 +350,6 @@
     },
     {
       "name": "a Sandscrawler gritwitch",
-      "name_sortable": "sandscrawlergritwitch",
       "drops": [
         {
           "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
@@ -399,7 +361,6 @@
     },
     {
       "name": "a Sandscrawler herder",
-      "name_sortable": "sandscrawlerherder",
       "drops": [
         {
           "gamelink": "\\aITEM 459116944 -393222512:glass flower\\/a",
@@ -409,7 +370,6 @@
     },
     {
       "name": "a Sandscrawler patcher",
-      "name_sortable": "sandscrawlerpatcher",
       "drops": [
         {
           "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
@@ -419,7 +379,6 @@
     },
     {
       "name": "a Sandscrawler patroller",
-      "name_sortable": "sandscrawlerpatroller",
       "drops": [
         {
           "gamelink": "\\aITEM -815570512 1462756580:a goblin spine\\/a",
@@ -431,7 +390,6 @@
     },
     {
       "name": "a Sandscrawler shiv",
-      "name_sortable": "sandscrawlershiv",
       "drops": [
         {
           "gamelink": "\\aITEM 1608285217 265160279:a goblin tooth\\/a",
@@ -441,30 +399,25 @@
     },
     {
       "name": "Snok Eyegouger",
-      "name_sortable": "snokeyegouger",
       "faction_changes": [
         {
           "name": "The Guardians of the Vale",
-          "name_sortable": "guardiansofthevale",
           "value": 50
         },
         {
           "name": "The Runnyeye Goblins",
-          "name_sortable": "runnyeyegoblins",
           "value": -100
         }
       ]
     },
     {
       "name": "Usla the Fleshscorcher",
-      "name_sortable": "uslathefleshscorcher",
       "utterances": [
         "ARG!  You make me bleed!"
       ]
     },
     {
       "name": "Xorxx",
-      "name_sortable": "xorxx",
       "drop_coin_min": 7623,
       "drop_coin_max": 7623
     }

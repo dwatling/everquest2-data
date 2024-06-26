@@ -1,11 +1,14 @@
 {
   "name": "The Village of Shin",
-  "name_sortable": "villageofshin",
   "added": "lu24",
   "category": "Isle of Mara",
   "description": "Originally founded by the monks of the Whistling Fist order, the island is also home to several peaceful trading families in the Village of Shin. The Far Seas Trading Company now maintains a small trading base on this island where skilled crafters are sure to find work.",
-  "zonerect": "-547.84,-493.94,612.05,380.20",
   "levels": "55-65",
+  "maps": [
+    {
+      "zonerect": "-547.84,-493.94,612.05,380.20"
+    }
+  ],
   "connections": [
     {
       "key": "adv04_rgn_mystic_lake"
@@ -14,7 +17,6 @@
   "npcs": [
     {
       "name": "Captain Ingrid",
-      "name_sortable": "captainingrid",
       "locations": [
         "-19.73,-2.38,121.92"
       ],
@@ -25,7 +27,6 @@
     },
     {
       "name": "Ensign Geredo",
-      "name_sortable": "ensigngeredo",
       "locations": [
         "-25.39,-2.38,131.11"
       ],
@@ -35,7 +36,6 @@
     },
     {
       "name": "Merchant Kaleb Farbring",
-      "name_sortable": "merchantkalebfarbring",
       "locations": [
         "-69.75,-2.52,120.06"
       ]

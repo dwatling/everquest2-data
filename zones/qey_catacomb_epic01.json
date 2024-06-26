@@ -1,11 +1,14 @@
 {
   "name": "Crow's Resting Place",
-  "name_sortable": "crowsrestingplace",
   "category": "Dungeons",
-  "zonerect": "-28.00,-17.00,27.00,15.00",
   "levels": "8-15",
   "access_quests": [
     974565471
+  ],
+  "maps": [
+    {
+      "zonerect": "-28.00,-17.00,27.00,15.00"
+    }
   ],
   "connections": [
     {
@@ -15,7 +18,6 @@
   "npcs": [
     {
       "name": "a circle intiate",
-      "name_sortable": "circleintiate",
       "level": 10,
       "difficulty": "heroic",
       "locations": [
@@ -52,7 +54,6 @@
     },
     {
       "name": "Fippy Darkpaw, the 4th",
-      "name_sortable": "fippydarkpawthe4th",
       "locations": [
         "3,1,1"
       ],
@@ -71,7 +72,6 @@
     },
     {
       "name": "Rollus the Sly",
-      "name_sortable": "rollusthesly",
       "level": 12,
       "difficulty": "heroic",
       "locations": [
@@ -90,7 +90,6 @@
     },
     {
       "name": "an Unseen Hand intiate",
-      "name_sortable": "unseenhandintiate",
       "level": 10,
       "locations": [
         "8.88,0.12,9.00"
@@ -98,7 +97,6 @@
     },
     {
       "name": "an Unseen Hand taskmaster",
-      "name_sortable": "unseenhandtaskmaster",
       "level": 10,
       "difficulty": "heroic",
       "locations": [

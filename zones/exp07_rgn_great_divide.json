@@ -1,11 +1,14 @@
 {
   "name": "Great Divide",
-  "name_sortable": "greatdivide",
   "expansion": "exp07",
   "category": "Velious",
   "description": "Venture through the frozen wastes of the Great Divide, home of the Coldain dwarves, Kromrif giants, and the mighty Tizmak!",
-  "zonerect": "-2960.00,-1316.00,1745.00,2132.00",
   "levels": "87-93",
+  "maps": [
+    {
+      "zonerect": "-2960.00,-1316.00,1745.00,2132.00"
+    }
+  ],
   "connections": [
     {
       "key": "exp07_rgn_thurgadin_velious"
@@ -20,7 +23,6 @@
   "npcs": [
     {
       "name": "Fenwick",
-      "name_sortable": "fenwick",
       "locations": [
         "1292.8,-540.25,473.58"
       ],
@@ -30,7 +32,6 @@
     },
     {
       "name": "Momo",
-      "name_sortable": "momo",
       "locations": [
         "1335.26,-540.25,494.35"
       ],
@@ -40,7 +41,6 @@
     },
     {
       "name": "Stomper",
-      "name_sortable": "stomper",
       "locations": [
         "1337.84,-540.25,492.25"
       ]

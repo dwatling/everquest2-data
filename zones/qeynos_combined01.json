@@ -1,10 +1,13 @@
 {
   "name": "Qeynos Capitol District",
-  "name_sortable": "qeynoscapitoldistrict",
   "added": "lu64",
   "category": "Cities",
   "subcategory": "Qeynos",
-  "zonerect": "-1247.00,-565.00,-74.00,310.00",
+  "maps": [
+    {
+      "zonerect": "-1247.00,-565.00,-74.00,310.00"
+    }
+  ],
   "connections": [
     {
       "key": "antonica"
@@ -34,14 +37,12 @@
   "npcs": [
     {
       "name": "Abelard Raleigh",
-      "name_sortable": "abelardraleigh",
       "locations": [
         "517.15,-9.57,133.25"
       ]
     },
     {
       "name": "Accountant Melet",
-      "name_sortable": "accountantmelet",
       "purpose": "Ironforge Exchange",
       "locations": [
         "340.95,-15.88,-94.69"
@@ -60,7 +61,6 @@
     },
     {
       "name": "Aeris Lightwind",
-      "name_sortable": "aerislightwind",
       "purpose": "Provisioner",
       "locations": [
         "513.58,-8.69,134.58"
@@ -364,7 +364,6 @@
     },
     {
       "name": "Aesthetic Winchester",
-      "name_sortable": "aestheticwinchester",
       "purpose": "Concordium Mage",
       "locations": [
         "712.9,48.31,87.25"
@@ -376,7 +375,6 @@
     },
     {
       "name": "Akina",
-      "name_sortable": "akina",
       "purpose": "High Warden of the Celestial Watch",
       "locations": [
         "571.35,-75.25,-225.69"
@@ -387,7 +385,6 @@
     },
     {
       "name": "Aldermun",
-      "name_sortable": "aldermun",
       "purpose": "Qeynos Guard Merchant",
       "locations": [
         "469.39,-5,-28.57"
@@ -399,7 +396,6 @@
     },
     {
       "name": "Alfred Ironforge",
-      "name_sortable": "alfredironforge",
       "purpose": "Work Orders",
       "locations": [
         "341.76,-20.63,-106.02"
@@ -410,7 +406,6 @@
     },
     {
       "name": "Algernon",
-      "name_sortable": "algernon",
       "purpose": "Broker",
       "locations": [
         "277.54,-19.26,-73.97"
@@ -422,7 +417,6 @@
     },
     {
       "name": "Allysha Lanne",
-      "name_sortable": "allyshalanne",
       "purpose": "Specialty Jeweler",
       "locations": [
         "649.31,-12.91,238.57"
@@ -433,7 +427,6 @@
     },
     {
       "name": "Ambassador Duryo Valstath",
-      "name_sortable": "ambassadorduryovalstath",
       "purpose": "Change of Citizenship",
       "locations": [
         "556.07,-9.79,168.3"
@@ -446,7 +439,6 @@
     },
     {
       "name": "Amren Talbot",
-      "name_sortable": "amrentalbot",
       "locations": [
         "726.57,-20.37,128.87"
       ],
@@ -456,7 +448,6 @@
     },
     {
       "name": "Amund MacRae",
-      "name_sortable": "amundmacrae",
       "locations": [
         "285.59,-20.37,9.94"
       ],
@@ -469,14 +460,12 @@
     },
     {
       "name": "Andrea Dovesong",
-      "name_sortable": "andreadovesong",
       "locations": [
         "341.83,-17.95,-71.73"
       ]
     },
     {
       "name": "Aponi Lightris",
-      "name_sortable": "aponilightris",
       "purpose": "Kelethin Ambassador",
       "locations": [
         "575.61,-14.32,185.35"
@@ -484,7 +473,6 @@
     },
     {
       "name": "Apprentice Librarian Cippin",
-      "name_sortable": "apprenticelibrariancippin",
       "locations": [
         "709.34,41.86,104.06"
       ],
@@ -494,7 +482,6 @@
     },
     {
       "name": "Ardath Bay",
-      "name_sortable": "ardathbay",
       "locations": [
         "298.83,-20.98,-95.71"
       ],
@@ -505,7 +492,6 @@
     },
     {
       "name": "Aren Firerain",
-      "name_sortable": "arenfirerain",
       "purpose": "Fury Trainer",
       "locations": [
         "499.01,-31.74,-247.45"
@@ -516,7 +502,6 @@
     },
     {
       "name": "Aristide Calais",
-      "name_sortable": "aristidecalais",
       "locations": [
         "710.17,41.31,107.78"
       ],
@@ -526,7 +511,6 @@
     },
     {
       "name": "Arthin Dawnhammer",
-      "name_sortable": "arthindawnhammer",
       "purpose": "Celestial Watch Acolyte",
       "locations": [
         "570.37,-76.19,-207.58",
@@ -544,7 +528,6 @@
     },
     {
       "name": "Ashtur Lawton",
-      "name_sortable": "ashturlawton",
       "purpose": "Feudal Historian",
       "locations": [
         "709.84,35.22,140.41"
@@ -555,7 +538,6 @@
     },
     {
       "name": "Assistant Rystan",
-      "name_sortable": "assistantrystan",
       "locations": [
         "713.91,86.87,124.01"
       ],
@@ -565,7 +547,6 @@
     },
     {
       "name": "Astrynia Burnwynd",
-      "name_sortable": "astryniaburnwynd",
       "purpose": "Wizard Trainer",
       "locations": [
         "715.25,41.31,90.53"
@@ -635,7 +616,6 @@
     },
     {
       "name": "Atiyah Kaddor",
-      "name_sortable": "atiyahkaddor",
       "purpose": "Weaponsmith",
       "utterances": [
         "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
@@ -647,7 +627,6 @@
     },
     {
       "name": "Attendant C'thrius",
-      "name_sortable": "attendantcthrius",
       "purpose": "The Conservatory",
       "locations": [
         "458.53,-20.63,172.76"
@@ -659,49 +638,42 @@
     },
     {
       "name": "Augurer Arnon",
-      "name_sortable": "augurerarnon",
       "locations": [
         "428.24,-20.69,266.51"
       ]
     },
     {
       "name": "Augurer Caranthir",
-      "name_sortable": "augurercaranthir",
       "locations": [
         "375.32,-20.82,169"
       ]
     },
     {
       "name": "Augurer Dahimat",
-      "name_sortable": "augurerdahimat",
       "locations": [
         "705.25,41.31,106.84"
       ]
     },
     {
       "name": "Augurer Ortasco",
-      "name_sortable": "augurerortasco",
       "locations": [
         "525.71,-9.56,129.68"
       ]
     },
     {
       "name": "Augurer Simias",
-      "name_sortable": "augurersimias",
       "locations": [
         "428.48,-20.73,268.74"
       ]
     },
     {
       "name": "Augurer Vharlan",
-      "name_sortable": "augurervharlan",
       "locations": [
         "522.16,-9.56,129.07"
       ]
     },
     {
       "name": "Augur Prichard Fizzburn",
-      "name_sortable": "augurprichardfizzburn",
       "purpose": "Concordium Mage",
       "locations": [
         "701.58,48.31,102.93"
@@ -713,7 +685,6 @@
     },
     {
       "name": "an awestruck Qeynos resident",
-      "name_sortable": "awestruckqeynosresident",
       "locations": [
         "314.86,-21.16,36.64",
         "330.58,-20.08,-42.41",
@@ -744,7 +715,6 @@
     },
     {
       "name": "Azima Kaddor",
-      "name_sortable": "azimakaddor",
       "purpose": "Armorsmith",
       "utterances": [
         "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
@@ -1262,7 +1232,6 @@
     },
     {
       "name": "Baker Voleen",
-      "name_sortable": "bakervoleen",
       "locations": [
         "283.37,-15.53,29.04"
       ],
@@ -1340,7 +1309,6 @@
     },
     {
       "name": "Baron Kaedrin Ironforge",
-      "name_sortable": "baronkaedrinironforge",
       "locations": [
         "339.42,-15.88,-95.71"
       ],
@@ -1351,7 +1319,6 @@
     },
     {
       "name": "Barr",
-      "name_sortable": "barr",
       "purpose": "Guard",
       "level": 45,
       "locations": [
@@ -1363,7 +1330,6 @@
     },
     {
       "name": "a barred resident",
-      "name_sortable": "barredresident",
       "locations": [
         "682.22,-20.49,265.02",
         "683.49,-20.46,273.54"
@@ -1374,7 +1340,6 @@
     },
     {
       "name": "Bartholomew Benson",
-      "name_sortable": "bartholomewbenson",
       "locations": [
         "552.03,-16.7,234.3"
       ],
@@ -1387,7 +1352,6 @@
     },
     {
       "name": "Batuula Quindalla",
-      "name_sortable": "batuulaquindalla",
       "purpose": "Portal Master",
       "locations": [
         "568.68,-9.79,168.25"
@@ -1395,7 +1359,6 @@
     },
     {
       "name": "Bauer",
-      "name_sortable": "bauer",
       "purpose": "Guard",
       "level": 50,
       "locations": [
@@ -1407,7 +1370,6 @@
     },
     {
       "name": "Bekker",
-      "name_sortable": "bekker",
       "locations": [
         "421.18,-26.87,-69.12"
       ],
@@ -1417,7 +1379,6 @@
     },
     {
       "name": "Beldrin Findlebolt",
-      "name_sortable": "beldrinfindlebolt",
       "locations": [
         "287.16,-18.26,-81.7"
       ],
@@ -1430,7 +1391,6 @@
     },
     {
       "name": "Bella Ward",
-      "name_sortable": "bellaward",
       "locations": [
         "540.54,-9.56,134.23",
         "516.66,-9.57,131.38",
@@ -1440,7 +1400,6 @@
     },
     {
       "name": "Bellengere the Three",
-      "name_sortable": "bellengerethethree",
       "purpose": "Concordium Archmage",
       "locations": [
         "697.69,86.88,131.54"
@@ -1455,7 +1414,6 @@
     },
     {
       "name": "Beregis Geridion",
-      "name_sortable": "beregisgeridion",
       "purpose": "Royal Antonican Guard",
       "locations": [
         "560.12,-14.7,186.51"
@@ -1463,7 +1421,6 @@
     },
     {
       "name": "Bergano Coldstone",
-      "name_sortable": "berganocoldstone",
       "purpose": "New Halas Ambassador",
       "locations": [
         "569.12,-14.11,185.95"
@@ -1471,7 +1428,6 @@
     },
     {
       "name": "Bermo",
-      "name_sortable": "bermo",
       "purpose": "Bartender",
       "locations": [
         "583.07,-8.48,127.02"
@@ -1560,14 +1516,12 @@
     },
     {
       "name": "Bethaz",
-      "name_sortable": "bethaz",
       "locations": [
         "570.55,-20.81,108.24"
       ]
     },
     {
       "name": "Blackhammer",
-      "name_sortable": "blackhammer",
       "purpose": "Guard",
       "level": 50,
       "locations": [
@@ -1579,7 +1533,6 @@
     },
     {
       "name": "Bleog Healbog",
-      "name_sortable": "bleoghealbog",
       "purpose": "Templar Trainer",
       "locations": [
         "507.37,-31.74,-259.48"
@@ -1590,14 +1543,12 @@
     },
     {
       "name": "Bouncer Johbal",
-      "name_sortable": "bouncerjohbal",
       "locations": [
         "327.6,-20.99,145.53"
       ]
     },
     {
       "name": "Brandi Bender",
-      "name_sortable": "brandibender",
       "locations": [
         "280.56,-17.95,-123.74"
       ],
@@ -1613,7 +1564,6 @@
     },
     {
       "name": "a brightened Qeynos resident",
-      "name_sortable": "brightenedqeynosresident",
       "locations": [
         "259.53,-21.24,-25.65",
         "379.27,-20.79,24.17",
@@ -1641,14 +1591,12 @@
     },
     {
       "name": "Bruise Hotep",
-      "name_sortable": "bruisehotep",
       "utterances": [
         "Enjoy the festivities while they last, adventurer!"
       ]
     },
     {
       "name": "Bulurg",
-      "name_sortable": "bulurg",
       "purpose": "Bartender",
       "locations": [
         "513.08,-9.57,131.68"
@@ -1738,7 +1686,6 @@
     },
     {
       "name": "Burkin",
-      "name_sortable": "burkin",
       "purpose": "Guard",
       "level": 50,
       "locations": [
@@ -1750,7 +1697,6 @@
     },
     {
       "name": "Candal Embret",
-      "name_sortable": "candalembret",
       "purpose": "New Combine",
       "locations": [
         "387.77,-16.81,-38.49"
@@ -1761,7 +1707,6 @@
     },
     {
       "name": "a canine watcher",
-      "name_sortable": "caninewatcher",
       "locations": [
         "404.51,-20.97,160.65",
         "442.01,-21.26,279.59",
@@ -1775,7 +1720,6 @@
     },
     {
       "name": "Captain Cahptor",
-      "name_sortable": "captaincahptor",
       "purpose": "Guard",
       "level": 50,
       "difficulty": "epic^4",
@@ -1791,7 +1735,6 @@
     },
     {
       "name": "Captain Campos",
-      "name_sortable": "captaincampos",
       "purpose": "Guard",
       "level": 55,
       "difficulty": "epic^4",
@@ -1808,7 +1751,6 @@
     },
     {
       "name": "Captain Chapman",
-      "name_sortable": "captainchapman",
       "purpose": "Guard",
       "level": 50,
       "difficulty": "epic^4",
@@ -1821,7 +1763,6 @@
     },
     {
       "name": "Captain Lawler",
-      "name_sortable": "captainlawler",
       "purpose": "Guard",
       "level": 50,
       "difficulty": "epic^4",
@@ -1834,7 +1775,6 @@
     },
     {
       "name": "Captain Lovato",
-      "name_sortable": "captainlovato",
       "purpose": "Guard",
       "level": 55,
       "difficulty": "epic4",
@@ -1855,7 +1795,6 @@
     },
     {
       "name": "Captain McDuffie",
-      "name_sortable": "captainmcduffie",
       "purpose": "Guard",
       "level": 55,
       "difficulty": "epic^4",
@@ -1880,7 +1819,6 @@
     },
     {
       "name": "Captain Penley",
-      "name_sortable": "captainpenley",
       "purpose": "Guard",
       "level": 55,
       "difficulty": "epic4",
@@ -1906,7 +1844,6 @@
     },
     {
       "name": "Captain Woug",
-      "name_sortable": "captainwoug",
       "purpose": "Qeynos Guard Officer",
       "locations": [
         "456.76,-5,-30.47"
@@ -1914,7 +1851,6 @@
     },
     {
       "name": "Caretaker Nogfizzle",
-      "name_sortable": "caretakernogfizzle",
       "purpose": "Celestial Watch Priest",
       "locations": [
         "479.23,-20.05,-250.77"
@@ -1925,7 +1861,6 @@
     },
     {
       "name": "Carey Meloy",
-      "name_sortable": "careymeloy",
       "purpose": "Banker",
       "locations": [
         "268.90,-17.18,-124.58"
@@ -1939,14 +1874,12 @@
     },
     {
       "name": "Carol N'Freeling",
-      "name_sortable": "carolnfreeling",
       "utterances": [
         "Be wary, for some folks around here are only interested in tricks, not treats!"
       ]
     },
     {
       "name": "Casey",
-      "name_sortable": "casey",
       "locations": [
         "532.94,-9.56,137.62"
       ],
@@ -1956,7 +1889,6 @@
     },
     {
       "name": "Castle moat perch",
-      "name_sortable": "castlemoatperch",
       "locations": [
         "537.9,-36.51,94.85",
         "515.77,-34.54,96.16",
@@ -1968,7 +1900,6 @@
     },
     {
       "name": "Celes",
-      "name_sortable": "celes",
       "purpose": "City Merchant",
       "locations": [
         "570.48,-8.7,187.46"
@@ -2432,7 +2363,6 @@
     },
     {
       "name": "a Celestial Watch priest",
-      "name_sortable": "celestialwatchpriest",
       "locations": [
         "447.86,-20.64,-236.21"
       ],
@@ -2443,7 +2373,6 @@
     },
     {
       "name": "Cheris Alton",
-      "name_sortable": "cherisalton",
       "purpose": "New Combine",
       "locations": [
         "388.46,-16.94,-35.79"
@@ -2454,7 +2383,6 @@
     },
     {
       "name": "Chizoba",
-      "name_sortable": "chizoba",
       "purpose": "Coercer Proficient",
       "locations": [
         "702.18,-20.34,121.92"
@@ -2472,14 +2400,12 @@
     },
     {
       "name": "Chronicler Saerfas",
-      "name_sortable": "chroniclersaerfas",
       "locations": [
         "376.2,-20.72,166.63"
       ]
     },
     {
       "name": "Chronicler Steelwill",
-      "name_sortable": "chroniclersteelwill",
       "purpose": "Concordium Mage",
       "locations": [
         "719.04,35.22,141.31"
@@ -2490,7 +2416,6 @@
     },
     {
       "name": "a Circle of Ten Militia guard",
-      "name_sortable": "circleoftenmilitiaguard",
       "locations": [
         "616.55,-12.2,145.13",
         "534.02,-9.99,118.6",
@@ -2500,7 +2425,6 @@
     },
     {
       "name": "Clerk Feld",
-      "name_sortable": "clerkfeld",
       "locations": [
         "276.15,-17.95,-115.48"
       ],
@@ -2536,7 +2460,6 @@
     },
     {
       "name": "Coalbeard",
-      "name_sortable": "coalbeard",
       "purpose": "Guard",
       "level": 50,
       "locations": [
@@ -2548,7 +2471,6 @@
     },
     {
       "name": "Coldain Tradeskill Apprentice",
-      "name_sortable": "coldaintradeskillapprentice",
       "purpose": "Tradeskill Apprentice",
       "locations": [
         "339.61,-20.63,-94.82"
@@ -2561,7 +2483,6 @@
     },
     {
       "name": "Collector Rattelis",
-      "name_sortable": "collectorrattelis",
       "locations": [
         "569.64,-9.57,132.83"
       ],
@@ -2571,7 +2492,6 @@
     },
     {
       "name": "Colt Longpier",
-      "name_sortable": "coltlongpier",
       "locations": [
         "428.29,-20.47,-335.34"
       ],
@@ -2584,7 +2504,6 @@
     },
     {
       "name": "a Concordium apprentice",
-      "name_sortable": "concordiumapprentice",
       "locations": [
         "737.18,-21,136.98",
         "731.26,-21,140.33"
@@ -2598,7 +2517,6 @@
     },
     {
       "name": "a Concordium mage",
-      "name_sortable": "concordiummage",
       "locations": [
         "707.15,-20.18,166.07",
         "677.9,-20.84,120.05",
@@ -2614,7 +2532,6 @@
     },
     {
       "name": "a Concordium scholar",
-      "name_sortable": "concordiumscholar",
       "locations": [
         "731.68,-21,136.7"
       ],
@@ -2626,7 +2543,6 @@
     },
     {
       "name": "Corryn Menai",
-      "name_sortable": "corrynmenai",
       "locations": [
         "715.06,-20.37,108.28"
       ],
@@ -2636,7 +2552,6 @@
     },
     {
       "name": "Courier Laventy",
-      "name_sortable": "courierlaventy",
       "locations": [
         "569.08,-14.62,200.66"
       ],
@@ -2650,7 +2565,6 @@
     },
     {
       "name": "a cow",
-      "name_sortable": "cow",
       "locations": [
         "410.48,-20.08,196.66",
         "401.07,-20.42,192.8",
@@ -2660,7 +2574,6 @@
     },
     {
       "name": "Crexisz Lepidus",
-      "name_sortable": "crexiszlepidus",
       "purpose": "Illusionist Adept",
       "locations": [
         "708.68,-20.37,118.34"
@@ -2671,7 +2584,6 @@
     },
     {
       "name": "Dalhya Felshire",
-      "name_sortable": "dalhyafelshire",
       "utterances": [
         "You should leave here.  Do not wake the sleeping one.",
         "It is not to protect him.  It is to protect others.  His sleep is not natural, and has proven dangerous to our own colleagues who attempted to discern what was keeping him from waking.",
@@ -2685,7 +2597,6 @@
     },
     {
       "name": "Dalron Pinot",
-      "name_sortable": "dalronpinot",
       "locations": [
         "277.22,-21.49,-22.71"
       ],
@@ -2698,14 +2609,12 @@
     },
     {
       "name": "Damy Thorn",
-      "name_sortable": "damythorn",
       "utterances": [
         "Grab an illusion and join the fun!"
       ]
     },
     {
       "name": "Dana Ironforge",
-      "name_sortable": "danaironforge",
       "locations": [
         "389.33,-18.86,-241.32"
       ],
@@ -2761,7 +2670,6 @@
     },
     {
       "name": "Danielle Clothspinner",
-      "name_sortable": "danielleclothspinner",
       "purpose": "Tailor",
       "locations": [
         "348.76,-22.5,-203.06"
@@ -2774,7 +2682,6 @@
     },
     {
       "name": "Darcnir",
-      "name_sortable": "darcnir",
       "locations": [
         "525.18,-9.56,127.58"
       ],
@@ -2784,7 +2691,6 @@
     },
     {
       "name": "Darion",
-      "name_sortable": "darion",
       "purpose": "City Arbitrator",
       "locations": [
         "579.93,-8.7,179.87"
@@ -2795,7 +2701,6 @@
     },
     {
       "name": "Darkpaw Celebrator Katrynn",
-      "name_sortable": "darkpawcelebratorkatrynn",
       "race": [
         "human"
       ],
@@ -2810,14 +2715,12 @@
     },
     {
       "name": "Dawson Magnificent",
-      "name_sortable": "dawsonmagnificent",
       "locations": [
         "342.09,-18.19,-64.55"
       ]
     },
     {
       "name": "Delilah Meadowglow",
-      "name_sortable": "delilahmeadowglow",
       "purpose": "Portals Trainer",
       "locations": [
         "503.37,-31.74,-240.73"
@@ -2828,7 +2731,6 @@
     },
     {
       "name": "Devona Ironforge",
-      "name_sortable": "devonaironforge",
       "purpose": "Crafting Trainer",
       "locations": [
         "346.6,-21.13,-92.09"
@@ -2946,7 +2848,6 @@
     },
     {
       "name": "Diren",
-      "name_sortable": "diren",
       "locations": [
         "444.04,-20.6,-267.39",
         "447.25,-20.33,-304.33",
@@ -2956,7 +2857,6 @@
     },
     {
       "name": "Disciple Telas'velle",
-      "name_sortable": "discipletelasvelle",
       "purpose": "Celestial Watch Priest",
       "locations": [
         "507.72,-31.75,-214"
@@ -2967,7 +2867,6 @@
     },
     {
       "name": "Donovan Herald",
-      "name_sortable": "donovanherald",
       "utterances": [
         "Buy today and you'll receive a free litter box!"
       ],
@@ -2984,7 +2883,6 @@
     },
     {
       "name": "Drakin Hammerheart",
-      "name_sortable": "drakinhammerheart",
       "utterances": [
         "Ah, greetings!  Now, I hate to seem rude, but I need to ask you not to distract me... I have some thinking to do.",
         "Ah, you are correct!  You must be searching for him as well, then?  Of course you are.  What would the Heroes' Festival be without him here?  Well, the good news is, I've found him!",
@@ -2996,7 +2894,6 @@
     },
     {
       "name": "Drakk",
-      "name_sortable": "drakk",
       "locations": [
         "396.13,-20.92,-170.4"
       ],
@@ -3006,7 +2903,6 @@
     },
     {
       "name": "Drappi Oakheart",
-      "name_sortable": "drappioakheart",
       "locations": [
         "446.11,-19.52,188.15"
       ],
@@ -3016,14 +2912,12 @@
     },
     {
       "name": "Drobble Clankworth",
-      "name_sortable": "drobbleclankworth",
       "locations": [
         "279.24,-20.17,-59.89"
       ]
     },
     {
       "name": "Drunah Skycaller",
-      "name_sortable": "drunahskycaller",
       "purpose": "Paladin Trainer",
       "locations": [
         "396.86,-16.54,-38.93"
@@ -3034,7 +2928,6 @@
     },
     {
       "name": "Drundo Parn",
-      "name_sortable": "drundoparn",
       "locations": [
         "354.22,-20.99,135.59"
       ],
@@ -3055,7 +2948,6 @@
     },
     {
       "name": "Dylan Ironforge",
-      "name_sortable": "dylanironforge",
       "purpose": "Mender",
       "locations": [
         "400.38,-20.9,-174.03"
@@ -3068,7 +2960,6 @@
     },
     {
       "name": "Ealoonias",
-      "name_sortable": "ealoonias",
       "purpose": "Banker",
       "locations": [
         "271.51,-17.18,-113.89"
@@ -3079,7 +2970,6 @@
     },
     {
       "name": "Ellinnea Umalia",
-      "name_sortable": "ellinneaumalia",
       "locations": [
         "646.94,-18.9,143.69"
       ],
@@ -3089,7 +2979,6 @@
     },
     {
       "name": "Elspeth Astley",
-      "name_sortable": "elspethastley",
       "locations": [
         "731.7,-20.37,112.7"
       ],
@@ -3101,7 +2990,6 @@
     },
     {
       "name": "Emma Healtoe",
-      "name_sortable": "emmahealtoe",
       "purpose": "Warden Trainer",
       "locations": [
         "502.71,-31.74,-254.39"
@@ -3112,7 +3000,6 @@
     },
     {
       "name": "an entrance guard",
-      "name_sortable": "entranceguard",
       "locations": [
         "677.89,-20.35,267.65"
       ],
@@ -3123,7 +3010,6 @@
     },
     {
       "name": "Eoradalanu Otuden",
-      "name_sortable": "eoradalanuotuden",
       "locations": [
         "696.67,-21,110.62"
       ],
@@ -3135,7 +3021,6 @@
     },
     {
       "name": "Eraanus",
-      "name_sortable": "eraanus",
       "purpose": "Guard",
       "level": 45,
       "locations": [
@@ -3147,7 +3032,6 @@
     },
     {
       "name": "Erus Dal'viv",
-      "name_sortable": "erusdalviv",
       "locations": [
         "684.42,-20.63,154.99"
       ],
@@ -3157,7 +3041,6 @@
     },
     {
       "name": "Ethri Vasou",
-      "name_sortable": "ethrivasou",
       "purpose": "Celestial Watch Priest",
       "locations": [
         "567.75,-75.21,-197.1"
@@ -3165,7 +3048,6 @@
     },
     {
       "name": "Exalted Milanthroo",
-      "name_sortable": "exaltedmilanthroo",
       "purpose": "Concordium Mage",
       "locations": [
         "700.21,41.31,99.62"
@@ -3177,7 +3059,6 @@
     },
     {
       "name": "Executor Adept Sal'ynelle",
-      "name_sortable": "executoradeptsalynelle",
       "purpose": "Rush Orders",
       "locations": [
         "342.83,-20.63,-106.13"
@@ -3188,7 +3069,6 @@
     },
     {
       "name": "Factor Kai Ferdinand",
-      "name_sortable": "factorkaiferdinand",
       "purpose": "Qeynos Guard Officer",
       "locations": [
         "457.11,-5,-10.34"
@@ -3199,7 +3079,6 @@
     },
     {
       "name": "Feeyord",
-      "name_sortable": "feeyord",
       "purpose": "Guard",
       "level": 53,
       "difficulty": "epic^2",
@@ -3216,7 +3095,6 @@
     },
     {
       "name": "Felion Shadoweater",
-      "name_sortable": "felionshadoweater",
       "purpose": "Warlock Trainer",
       "locations": [
         "713.44,35.22,137.7"
@@ -3246,7 +3124,6 @@
     },
     {
       "name": "Feodra Iceslayer",
-      "name_sortable": "feodraiceslayer",
       "locations": [
         "582.95,-3.48,134.72"
       ],
@@ -3260,7 +3137,6 @@
     },
     {
       "name": "Fhara Hanford",
-      "name_sortable": "fharahanford",
       "purpose": "Ironforge Exchange Merchant",
       "locations": [
         "339.26,-20.63,-107.87"
@@ -3273,7 +3149,6 @@
     },
     {
       "name": "Fidelia Recolo",
-      "name_sortable": "fideliarecolo",
       "purpose": "Tradeskill Career Counsellor",
       "locations": [
         "346.37,-21.13,-85.95"
@@ -3284,7 +3159,6 @@
     },
     {
       "name": "Field Marshal Vishra",
-      "name_sortable": "fieldmarshalvishra",
       "locations": [
         "585.43,-14.7,179.36"
       ],
@@ -3302,7 +3176,6 @@
     },
     {
       "name": "Fillzer Fuzzle",
-      "name_sortable": "fillzerfuzzle",
       "locations": [
         "393.23,-18.1,-111.82"
       ],
@@ -3322,7 +3195,6 @@
     },
     {
       "name": "Flitia Veel",
-      "name_sortable": "flitiaveel",
       "purpose": "Collector",
       "locations": [
         "487.21,-19.72,216.03"
@@ -3335,7 +3207,6 @@
     },
     {
       "name": "a forlorn apparition",
-      "name_sortable": "forlornapparition",
       "utterances": [
         "Where... is this? Who are you?",
         "I don't... where is this?",
@@ -3353,7 +3224,6 @@
     },
     {
       "name": "Foster Graham",
-      "name_sortable": "fostergraham",
       "locations": [
         "700.95,-20.7,162.56"
       ],
@@ -3367,7 +3237,6 @@
     },
     {
       "name": "Fredrick Losce",
-      "name_sortable": "fredricklosce",
       "locations": [
         "575.76,-8.47,126.29"
       ],
@@ -3377,7 +3246,6 @@
     },
     {
       "name": "Friar Montego",
-      "name_sortable": "friarmontego",
       "purpose": "Qeynosian Restoration Project",
       "locations": [
         "449.79,-20.46,-242.43"
@@ -3389,14 +3257,12 @@
     },
     {
       "name": "Fribit",
-      "name_sortable": "fribit",
       "locations": [
         "357.26,-20.97,131.89"
       ]
     },
     {
       "name": "Fruity",
-      "name_sortable": "fruity",
       "locations": [
         "544.73,-8.55,131.31"
       ],
@@ -3406,7 +3272,6 @@
     },
     {
       "name": "Galla",
-      "name_sortable": "galla",
       "purpose": "Guard",
       "level": 48,
       "difficulty": "epic^2",
@@ -3423,7 +3288,6 @@
     },
     {
       "name": "Gandy Gearlotta",
-      "name_sortable": "gandygearlotta",
       "utterances": [
         "Ahoy hoy, hero!  I hope you are enjoying this celebration.",
         "Why, the fact that another year has come to pass since heroes began to arise to fight for glory and treasure; just as they did in ages long past.",
@@ -3437,7 +3301,6 @@
     },
     {
       "name": "Garion Dunam",
-      "name_sortable": "gariondunam",
       "purpose": "Alchemist",
       "locations": [
         "641.74,-18.57,244.31"
@@ -3549,7 +3412,6 @@
     },
     {
       "name": "Garston Viona",
-      "name_sortable": "garstonviona",
       "purpose": "Guild Cloak Designer",
       "locations": [
         "558.24,-9.79,161.48"
@@ -3560,7 +3422,6 @@
     },
     {
       "name": "Gauldry",
-      "name_sortable": "gauldry",
       "purpose": "Shieldsmith",
       "locations": [
         "552.55,-17.12,255.9"
@@ -3681,7 +3542,6 @@
     },
     {
       "name": "Gavinfell",
-      "name_sortable": "gavinfell",
       "purpose": "Guard",
       "level": 48,
       "difficulty": "epic^2",
@@ -3700,7 +3560,6 @@
     },
     {
       "name": "Gavin Ironforge",
-      "name_sortable": "gavinironforge",
       "locations": [
         "409.24,-19.78,-193.96"
       ],
@@ -3710,7 +3569,6 @@
     },
     {
       "name": "Gemellus Sperasius",
-      "name_sortable": "gemellussperasius",
       "locations": [
         "417.39,-26.84,-54.92"
       ],
@@ -3724,7 +3582,6 @@
     },
     {
       "name": "General Golias Sydwen",
-      "name_sortable": "generalgoliassydwen",
       "purpose": "Qeynos Guard",
       "locations": [
         "476.26,3.5,-27.45"
@@ -3737,7 +3594,6 @@
     },
     {
       "name": "Gh'lad Tydingz Gigglegibber",
-      "name_sortable": "ghladtydingzgigglegibber",
       "locations": [
         "472.52,-19.76,-339.59"
       ],
@@ -3752,7 +3608,6 @@
     },
     {
       "name": "a Gigglegibber Illusionist",
-      "name_sortable": "gigglegibberillusionist",
       "utterances": [
         "More nights should be dead ones, like these!",
         "Creepy ghoulies walk the streets!",
@@ -3762,7 +3617,6 @@
     },
     {
       "name": "Gigglegibber Scalper",
-      "name_sortable": "gigglegibberscalper",
       "utterances": [
         "Boo! I got some great tickets here to the Haunted House. You should try it out!",
         "Want a ticket?  It'll only cost you 5 silver!",
@@ -3775,7 +3629,6 @@
     },
     {
       "name": "Gimit Delerg",
-      "name_sortable": "gimitdelerg",
       "utterances": [
         "Oy there! *hic* Come ere' and have a drink wiff me. *hic* I promish I don't bite.",
         "Oy! I'll leave when I am good and ready. *hic* And no little pansy is going to stop me.",
@@ -3788,7 +3641,6 @@
     },
     {
       "name": "Grabby Gigglegibber",
-      "name_sortable": "grabbygigglegibber",
       "utterances": [
         "If you gets treats off creepy crawly or undead beasties, do let me know!",
         "I be trading all Nights of Dead treats for my candy corns.  Yucksy corn.",
@@ -3800,7 +3652,6 @@
     },
     {
       "name": "Gracen Docks",
-      "name_sortable": "gracendocks",
       "locations": [
         "722.17,-19.47,174.63"
       ],
@@ -3811,7 +3662,6 @@
     },
     {
       "name": "Grandmaster Kimbialis",
-      "name_sortable": "grandmasterkimbialis",
       "purpose": "Trades Coordinator",
       "locations": [
         "336.15,-20.63,-102.11"
@@ -3823,7 +3673,6 @@
     },
     {
       "name": "Gray Magnificent",
-      "name_sortable": "graymagnificent",
       "locations": [
         "339.42,-18.25,-68.43"
       ],
@@ -3833,7 +3682,6 @@
     },
     {
       "name": "Greldane Irongut",
-      "name_sortable": "greldaneirongut",
       "locations": [
         "530.97,-9.56,132.96",
         "541.06,-9.56,134.6",
@@ -3848,7 +3696,6 @@
     },
     {
       "name": "Gretin",
-      "name_sortable": "gretin",
       "locations": [
         "560.37,-9.56,127.86"
       ],
@@ -3858,7 +3705,6 @@
     },
     {
       "name": "Gretta Steinbeard",
-      "name_sortable": "grettasteinbeard",
       "locations": [
         "343.52,-20.99,151.13"
       ],
@@ -3868,7 +3714,6 @@
     },
     {
       "name": "G'shugahplum Gigglegibber",
-      "name_sortable": "gshugahplumgigglegibber",
       "locations": [
         "470.47,-19.76,-341.24"
       ],
@@ -3892,7 +3737,6 @@
     },
     {
       "name": "Gutten Gigglegibber",
-      "name_sortable": "guttengigglegibber",
       "locations": [
         "346.77,-18.22,-53.52"
       ],
@@ -3914,7 +3758,6 @@
     },
     {
       "name": "Gyles",
-      "name_sortable": "gyles",
       "purpose": "Guard",
       "level": 53,
       "difficulty": "epic^2",
@@ -3932,7 +3775,6 @@
     },
     {
       "name": "Haint",
-      "name_sortable": "haint",
       "locations": [
         "337.52,-20.63,-90.05"
       ],
@@ -4089,7 +3931,6 @@
     },
     {
       "name": "Hal",
-      "name_sortable": "hal",
       "purpose": "Fuel Merchant",
       "locations": [
         "345.19,-20.63,-104.07"
@@ -4185,7 +4026,6 @@
     },
     {
       "name": "Harold Dunstan",
-      "name_sortable": "harolddunstan",
       "purpose": "Bartender",
       "locations": [
         "351.42,-20.99,150.87"
@@ -4285,7 +4125,6 @@
     },
     {
       "name": "Hegrenn",
-      "name_sortable": "hegrenn",
       "purpose": "Furniture",
       "locations": [
         "283.82,-19.26,-64.14"
@@ -4796,7 +4635,6 @@
     },
     {
       "name": "a Heroes' Festival celebrator",
-      "name_sortable": "heroesfestivalcelebrator",
       "utterances": [
         "Come, and celebrate our heroes, whether they be in the Ethernere or upon Norrath!",
         "You should speak with Dalhya Felshire and take part in more of the festivities!",
@@ -4808,7 +4646,6 @@
     },
     {
       "name": "a Heroes' Festival merchant",
-      "name_sortable": "heroesfestivalmerchant",
       "store": [
         {
           "gamelink": "\\aITEM -2054080482 -1219840007:Heroes' Festival Minstrel Boots\\/a",
@@ -4854,28 +4691,24 @@
     },
     {
       "name": "Hilirgo",
-      "name_sortable": "hilirgo",
       "locations": [
         "388.87,-23.75,-123.4"
       ]
     },
     {
       "name": "a hired assassin",
-      "name_sortable": "hiredassassin",
       "locations": [
         "411.85,-12.19,-22.77"
       ]
     },
     {
       "name": "Hubert Downes",
-      "name_sortable": "hubertdownes",
       "locations": [
         "362.85,-20.99,141.2"
       ]
     },
     {
       "name": "Human Tradeskill Apprentice",
-      "name_sortable": "humantradeskillapprentice",
       "purpose": "Tradeskill Apprentice",
       "locations": [
         "339.04,-19.76,-92.89"
@@ -4886,7 +4719,6 @@
     },
     {
       "name": "Icebear",
-      "name_sortable": "icebear",
       "purpose": "Guard",
       "level": 53,
       "difficulty": "epic^2",
@@ -4901,7 +4733,6 @@
     },
     {
       "name": "Indis Surion",
-      "name_sortable": "indissurion",
       "purpose": "Sage",
       "locations": [
         "702.83,81.88,129.19"
@@ -5755,7 +5586,6 @@
     },
     {
       "name": "Inquisitor Loffren",
-      "name_sortable": "inquisitorloffren",
       "locations": [
         "507.79,-31.77,-175.5"
       ],
@@ -5772,7 +5602,6 @@
     },
     {
       "name": "an Ironforge smith",
-      "name_sortable": "ironforgesmith",
       "locations": [
         "333.28,-23.48,-162.34",
         "414.49,-19.07,-282.86"
@@ -5786,7 +5615,6 @@
     },
     {
       "name": "an Ironforge trader",
-      "name_sortable": "ironforgetrader",
       "locations": [
         "334.26,-23.36,-164.35",
         "409.73,-18.5,-281.53"
@@ -5798,7 +5626,6 @@
     },
     {
       "name": "Jason Merrytoe",
-      "name_sortable": "jasonmerrytoe",
       "purpose": "Tradeskill Tutorial",
       "locations": [
         "342.2,-20.63,-95.33"
@@ -5810,7 +5637,6 @@
     },
     {
       "name": "Jason Walton",
-      "name_sortable": "jasonwalton",
       "purpose": "Banker",
       "locations": [
         "480.61,-19.72,213.68"
@@ -5822,7 +5648,6 @@
     },
     {
       "name": "Jayson V'rhees",
-      "name_sortable": "jaysonvrhees",
       "locations": [
         "321.53,-20.05,-57.47"
       ],
@@ -5833,7 +5658,6 @@
     },
     {
       "name": "Johannus",
-      "name_sortable": "johannus",
       "purpose": "Guard",
       "level": 53,
       "difficulty": "epic^2",
@@ -5847,14 +5671,12 @@
     },
     {
       "name": "Johrsen",
-      "name_sortable": "johrsen",
       "locations": [
         "676.96,-19.38,251.2"
       ]
     },
     {
       "name": "Jo Ironshield",
-      "name_sortable": "joironshield",
       "locations": [
         "284.34,-17.08,-165.53"
       ],
@@ -5864,7 +5686,6 @@
     },
     {
       "name": "Joren Kalth",
-      "name_sortable": "jorenkalth",
       "purpose": "New Combine",
       "locations": [
         "390.96,-16.74,-37.86"
@@ -5880,7 +5701,6 @@
     },
     {
       "name": "Jorgie Icearmor",
-      "name_sortable": "jorgieicearmor",
       "purpose": "Weaponsmith and Shieldsmith",
       "locations": [
         "402.6,-20.92,-180.38"
@@ -5980,7 +5800,6 @@
     },
     {
       "name": "Jowling",
-      "name_sortable": "jowling",
       "purpose": "City Merchant",
       "locations": [
         "574.11,-8.7,183.68"
@@ -7082,7 +6901,6 @@
     },
     {
       "name": "Junayda Kader",
-      "name_sortable": "junaydakader",
       "purpose": "Coercer Apprentice",
       "locations": [
         "697.89,-21,123.29"
@@ -7096,7 +6914,6 @@
     },
     {
       "name": "Katlyn Paisley",
-      "name_sortable": "katlynpaisley",
       "purpose": "Jeweler",
       "utterances": [
         "Hello, adventurer! Are you looking for a specific potion or ingredient?",
@@ -7302,7 +7119,6 @@
     },
     {
       "name": "Kayben Eatny",
-      "name_sortable": "kaybeneatny",
       "purpose": "Bartender",
       "locations": [
         "583.56,-8.48,130.55"
@@ -7582,7 +7398,6 @@
     },
     {
       "name": "Khalil'mun",
-      "name_sortable": "khalilmun",
       "purpose": "Alchemist",
       "locations": [
         "666.47,-18.57,244.98"
@@ -7880,7 +7695,6 @@
     },
     {
       "name": "Khayrat Batul",
-      "name_sortable": "khayratbatul",
       "purpose": "Coercer Adept",
       "locations": [
         "696.98,-21,125.52"
@@ -7895,7 +7709,6 @@
     },
     {
       "name": "Kiriana Northsky",
-      "name_sortable": "kiriananorthsky",
       "purpose": "Mystic Trainer",
       "locations": [
         "516.49,-31.74,-256.58"
@@ -7906,21 +7719,18 @@
     },
     {
       "name": "Klecker",
-      "name_sortable": "klecker",
       "locations": [
         "515.54,-31.25,-210.08"
       ]
     },
     {
       "name": "a knight",
-      "name_sortable": "knight",
       "locations": [
         "470.11,-17.05,-164.22"
       ]
     },
     {
       "name": "Knight-Lieutenant Ilgar",
-      "name_sortable": "knight-lieutenantilgar",
       "purpose": "Qeynos Guard",
       "locations": [
         "471.54,-21.01,194.15",
@@ -7932,7 +7742,6 @@
     },
     {
       "name": "Knight-Lieutenant Laughlin",
-      "name_sortable": "knight-lieutenantlaughlin",
       "locations": [
         "263.56,-21.46,-20.3"
       ],
@@ -7945,7 +7754,6 @@
     },
     {
       "name": "Knight-Captain Steelgaze",
-      "name_sortable": "knightcaptainsteelgaze",
       "locations": [
         "476.21,3.51,-11.67"
       ],
@@ -7955,7 +7763,6 @@
     },
     {
       "name": "Knight Guardian Bestrom",
-      "name_sortable": "knightguardianbestrom",
       "purpose": "Guard",
       "level": 95,
       "difficulty": "epic^3",
@@ -7968,7 +7775,6 @@
     },
     {
       "name": "Knight Guardian MacMurris",
-      "name_sortable": "knightguardianmacmurris",
       "purpose": "Guard",
       "level": 95,
       "difficulty": "epic^3",
@@ -7983,7 +7789,6 @@
     },
     {
       "name": "Knight-Guard Rellin'thir",
-      "name_sortable": "knightguardrellinthir",
       "purpose": "Qeynos Guard Officer",
       "locations": [
         "466.18,-5,-34.78"
@@ -7994,7 +7799,6 @@
     },
     {
       "name": "Knight-Lieutenant Ilgar",
-      "name_sortable": "knightlieutenantilgar",
       "locations": [
         "471.54,-21.01,194.15",
         "452.58,-22.01,240.67",
@@ -8005,14 +7809,12 @@
     },
     {
       "name": "Knight-Lieutenant Laughlin",
-      "name_sortable": "knightlieutenantlaughlin",
       "locations": [
         "263.56,-21.46,-20.3"
       ]
     },
     {
       "name": "Krelal",
-      "name_sortable": "krelal",
       "purpose": "Guard",
       "level": 45,
       "difficulty": "heroic",
@@ -8025,7 +7827,6 @@
     },
     {
       "name": "Kwipp Stalwart",
-      "name_sortable": "kwippstalwart",
       "utterances": [
         "Greetings and salutations!",
         "You there!  My brave friend, you're the hero that I've been looking for!",
@@ -8045,7 +7846,6 @@
     },
     {
       "name": "Kyle Antihilus Bayle",
-      "name_sortable": "kyleantihilusbayle",
       "locations": [
         "411.55,-12.19,-19.69"
       ],
@@ -8069,14 +7869,12 @@
     },
     {
       "name": "a lady",
-      "name_sortable": "lady",
       "locations": [
         "473.29,-17.2,-164.63"
       ]
     },
     {
       "name": "Lady Rickson",
-      "name_sortable": "ladyrickson",
       "locations": [
         "314.15,-20.79,2.21"
       ],
@@ -8088,7 +7886,6 @@
     },
     {
       "name": "Lakosha Maera",
-      "name_sortable": "lakoshamaera",
       "purpose": "Kerra Mentor",
       "locations": [
         "670.04,-19.38,229.07"
@@ -8099,7 +7896,6 @@
     },
     {
       "name": "Lanalie",
-      "name_sortable": "lanalie",
       "purpose": "Guard",
       "level": 48,
       "difficulty": "epic^2",
@@ -8113,7 +7909,6 @@
     },
     {
       "name": "Laura Ironforge",
-      "name_sortable": "lauraironforge",
       "locations": [
         "389.08,-18.86,-237.62"
       ],
@@ -8127,7 +7922,6 @@
     },
     {
       "name": "Leona Ward",
-      "name_sortable": "leonaward",
       "purpose": "Tailor",
       "locations": [
         "480.43,-13.72,215.61"
@@ -8829,7 +8623,6 @@
     },
     {
       "name": "Librarian Dalmas",
-      "name_sortable": "librariandalmas",
       "locations": [
         "712.63,41.31,101.18"
       ],
@@ -8841,7 +8634,6 @@
     },
     {
       "name": "Librarian Dungil",
-      "name_sortable": "librariandungil",
       "locations": [
         "711.36,33.22,146.63"
       ],
@@ -8851,7 +8643,6 @@
     },
     {
       "name": "Librarian Galdin",
-      "name_sortable": "librariangaldin",
       "locations": [
         "705.13,48.31,89.96"
       ],
@@ -8861,7 +8652,6 @@
     },
     {
       "name": "Lieutenant Erwin",
-      "name_sortable": "lieutenanterwin",
       "purpose": "Guard",
       "level": 48,
       "difficulty": "epic^2",
@@ -8881,7 +8671,6 @@
     },
     {
       "name": "Lieutenant Raleigh",
-      "name_sortable": "lieutenantraleigh",
       "purpose": "Guard",
       "level": 48,
       "difficulty": "epic^2",
@@ -8895,7 +8684,6 @@
     },
     {
       "name": "Lil' Boo",
-      "name_sortable": "lilboo",
       "locations": [
         "337.54,-20.63,-99.69"
       ],
@@ -8915,7 +8703,6 @@
     },
     {
       "name": "Lillita Softpaws",
-      "name_sortable": "lillitasoftpaws",
       "utterances": [
         "Hello therrre. Arrrre you enjoying the festivities? If so, perrrhaps you could help me with a little prrroblem. ",
         "Well, you see. I decorrrated the north and south of Qeynos with lovely colorrrful lanterrrns. Howeverrr, they have been disappearrring left and rrright.",
@@ -8927,7 +8714,6 @@
     },
     {
       "name": "Lilly Ironforge",
-      "name_sortable": "lillyironforge",
       "locations": [
         "385.34,-18.86,-244.93"
       ],
@@ -8937,7 +8723,6 @@
     },
     {
       "name": "a local child",
-      "name_sortable": "localchild",
       "locations": [
         "607.56,-11.67,161.98",
         "442.3,-20.82,156.67"
@@ -8945,7 +8730,6 @@
     },
     {
       "name": "Local patron",
-      "name_sortable": "localpatron",
       "locations": [
         "359.06,-21,139.67"
       ],
@@ -8960,7 +8744,6 @@
     },
     {
       "name": "Lonce Jellysmots",
-      "name_sortable": "loncejellysmots",
       "purpose": "Aerakyn Mentor",
       "locations": [
         "337.02,-22.49,-182.13"
@@ -8968,7 +8751,6 @@
     },
     {
       "name": "Londiar Inygad",
-      "name_sortable": "londiarinygad",
       "purpose": "Adorning and Tinkering Daily Tasks",
       "locations": [
         "345.22,-17.39,-87.9"
@@ -8987,14 +8769,12 @@
     },
     {
       "name": "Lord Drystan Ironforge",
-      "name_sortable": "lorddrystanironforge",
       "locations": [
         "384.46,-12.4,-235.05"
       ]
     },
     {
       "name": "Lothaire Stormgazer",
-      "name_sortable": "lothairestormgazer",
       "locations": [
         "351.82,-20.22,-121.77"
       ],
@@ -9011,7 +8791,6 @@
     },
     {
       "name": "Lysndra",
-      "name_sortable": "lysndra",
       "locations": [
         "411.62,-20.72,-192.5"
       ],
@@ -9023,7 +8802,6 @@
     },
     {
       "name": "Maareona Ludimintium",
-      "name_sortable": "maareonaludimintium",
       "purpose": "Erudite Mentor",
       "locations": [
         "684.59,-19.55,224.64"
@@ -9034,7 +8812,6 @@
     },
     {
       "name": "Maege Blackwing",
-      "name_sortable": "maegeblackwing",
       "purpose": "Adorning Trainer",
       "locations": [
         "659.83,-18.57,236.26"
@@ -9048,7 +8825,6 @@
     },
     {
       "name": "Mage Fulcrum Gearshift",
-      "name_sortable": "magefulcrumgearshift",
       "purpose": "Concordium Collector",
       "locations": [
         "705.78,-19.83,169.21"
@@ -9059,7 +8835,6 @@
     },
     {
       "name": "Magrah Flintglimmer",
-      "name_sortable": "magrahflintglimmer",
       "locations": [
         "527.75,-32,-186.99"
       ],
@@ -9070,7 +8845,6 @@
     },
     {
       "name": "Magus Weskah",
-      "name_sortable": "magusweskah",
       "locations": [
         "331.81,-20.99,148.25"
       ],
@@ -9080,7 +8854,6 @@
     },
     {
       "name": "Maile",
-      "name_sortable": "maile",
       "purpose": "Broker",
       "locations": [
         "477.38,-19.72,213.84"
@@ -9092,7 +8865,6 @@
     },
     {
       "name": "Marik McPherson III",
-      "name_sortable": "marikmcpherson03",
       "locations": [
         "573.22,-17.12,264.86"
       ],
@@ -9102,7 +8874,6 @@
     },
     {
       "name": "Marjorie Falconius",
-      "name_sortable": "marjoriefalconius",
       "locations": [
         "286.34,-16.45,30.45"
       ],
@@ -9115,7 +8886,6 @@
     },
     {
       "name": "Medic Brendan",
-      "name_sortable": "medicbrendan",
       "locations": [
         "508.1,-31.75,-229.08"
       ],
@@ -9127,7 +8897,6 @@
     },
     {
       "name": "Medic Rowena",
-      "name_sortable": "medicrowena",
       "locations": [
         "507.87,-31.75,-225.28"
       ],
@@ -9137,7 +8906,6 @@
     },
     {
       "name": "Melinnae Welxen",
-      "name_sortable": "melinnaewelxen",
       "locations": [
         "711.49,35.22,139.83"
       ],
@@ -9147,14 +8915,12 @@
     },
     {
       "name": "Melony Danyells",
-      "name_sortable": "melonydanyells",
       "utterances": [
         "I've got a treat for ya!  Ha!  Ha!  Ha!"
       ]
     },
     {
       "name": "Meredeth",
-      "name_sortable": "meredeth",
       "purpose": "Celestial Watch Merchant",
       "locations": [
         "525.6,-32,-169.47"
@@ -9230,7 +8996,6 @@
     },
     {
       "name": "Meyer",
-      "name_sortable": "meyer",
       "purpose": "Guard",
       "level": 50,
       "locations": [
@@ -9242,14 +9007,12 @@
     },
     {
       "name": "a militia guard",
-      "name_sortable": "militiaguard",
       "utterances": [
         "His lordship, Kyle Antihilius Bayle will now speak to the public!"
       ]
     },
     {
       "name": "Milton",
-      "name_sortable": "milton",
       "purpose": "Guard",
       "level": 53,
       "difficulty": "epic^2",
@@ -9268,7 +9031,6 @@
     },
     {
       "name": "Milupet Cogsory",
-      "name_sortable": "milupetcogsory",
       "utterances": [
         "Oh, my apologies.  I didn't see you come up.  I don't mean to be rude!",
         "Oh, you haven't heard?  Thumore D'armer was supposed to join us for the Heroes' Festival, but no one has heard from him since it started.  We're getting a little worried...",
@@ -9279,7 +9041,6 @@
     },
     {
       "name": "Mirf Guinders",
-      "name_sortable": "mirfguinders",
       "locations": [
         "294.46,-12.44,86.9"
       ],
@@ -9293,7 +9054,6 @@
     },
     {
       "name": "Missionary Jenson",
-      "name_sortable": "missionaryjenson",
       "purpose": "Celestial Watch Priest",
       "locations": [
         "556.01,-75.3,-221.83"
@@ -9305,7 +9065,6 @@
     },
     {
       "name": "Morly Tinswaddle",
-      "name_sortable": "morlytinswaddle",
       "purpose": "Tinkering Trainer",
       "locations": [
         "276.12,-13.79,63.31"
@@ -9320,7 +9079,6 @@
     },
     {
       "name": "Mott",
-      "name_sortable": "mott",
       "purpose": "Guard",
       "level": 45,
       "locations": [
@@ -9334,14 +9092,12 @@
     },
     {
       "name": "Mr. McScroogle",
-      "name_sortable": "mrmcscroogle",
       "locations": [
         "432.41,-20.42,-320.34"
       ]
     },
     {
       "name": "Musheff af'Neqi",
-      "name_sortable": "musheffafneqi",
       "locations": [
         "730.36,-19.67,180.46"
       ],
@@ -9355,7 +9111,6 @@
     },
     {
       "name": "Myra Fizzleboom",
-      "name_sortable": "myrafizzleboom",
       "purpose": "Tinkering Merchant",
       "locations": [
         "277.82,-12.76,68.01"
@@ -9368,7 +9123,6 @@
     },
     {
       "name": "Mystrekai",
-      "name_sortable": "mystrekai",
       "purpose": "Reforging",
       "locations": [
         "557.82,-17.12,264.83"
@@ -9376,7 +9130,6 @@
     },
     {
       "name": "Neezer Grund",
-      "name_sortable": "neezergrund",
       "locations": [
         "279.71,-13.36,82.55"
       ],
@@ -9402,7 +9155,6 @@
     },
     {
       "name": "a Nettleville resident",
-      "name_sortable": "nettlevilleresident",
       "locations": [
         "662.48,-18.79,231.39"
       ],
@@ -9414,14 +9166,12 @@
     },
     {
       "name": "Nicola Dering",
-      "name_sortable": "nicoladering",
       "locations": [
         "350.03,-20.99,147.98"
       ]
     },
     {
       "name": "Noelle Dering",
-      "name_sortable": "noelledering",
       "locations": [
         "332.49,-20.99,137.93"
       ],
@@ -9431,7 +9181,6 @@
     },
     {
       "name": "Nonnie Runtuftle",
-      "name_sortable": "nonnieruntuftle",
       "locations": [
         "335.87,-20.63,-91.13"
       ],
@@ -9446,14 +9195,12 @@
     },
     {
       "name": "Novitiate Reimund",
-      "name_sortable": "novitiatereimund",
       "locations": [
         "517.02,-32.01,-171.6"
       ]
     },
     {
       "name": "an oakmyst fawn",
-      "name_sortable": "oakmystfawn",
       "locations": [
         "656.49,-20.35,118.12",
         "650.43,-18.66,128.87"
@@ -9461,14 +9208,12 @@
     },
     {
       "name": "an onlooking citizen",
-      "name_sortable": "onlookingcitizen",
       "utterances": [
         "Look! It is Queen Antonia Bayle!"
       ]
     },
     {
       "name": "Oodifo",
-      "name_sortable": "oodifo",
       "purpose": "Armor and Weapon Upgrades",
       "locations": [
         "284.85,-19.26,-64.98"
@@ -9739,7 +9484,6 @@
     },
     {
       "name": "Oolieamim",
-      "name_sortable": "oolieamim",
       "purpose": "Master Sage",
       "locations": [
         "350.99,-17.88,-95.55"
@@ -9747,7 +9491,6 @@
     },
     {
       "name": "Othmir Tradeskill Apprentice",
-      "name_sortable": "othmirtradeskillapprentice",
       "purpose": "Tradeskill Apprentice",
       "locations": [
         "340.88,-20.63,-95.1"
@@ -9758,7 +9501,6 @@
     },
     {
       "name": "a pacified Qeynos resident",
-      "name_sortable": "pacifiedqeynosresident",
       "locations": [
         "337.11,-21.19,83.08"
       ],
@@ -9776,7 +9518,6 @@
     },
     {
       "name": "Partisan Keladerouo",
-      "name_sortable": "partisankeladerouo",
       "purpose": "Celestial Watch Priest",
       "locations": [
         "554.16,-75.33,-218.51"
@@ -9789,7 +9530,6 @@
     },
     {
       "name": "a party crashing gnoll",
-      "name_sortable": "partycrashinggnoll",
       "locations": [
         "422.31,-15.10,81.87",
         "422.31,-15.64,87.86",
@@ -9857,7 +9597,6 @@
     },
     {
       "name": "Patricia",
-      "name_sortable": "patricia",
       "purpose": "Ironforge Estate Steward",
       "locations": [
         "434.96,-20.44,-335.45",
@@ -9871,7 +9610,6 @@
     },
     {
       "name": "Patricia Benson",
-      "name_sortable": "patriciabenson",
       "purpose": "Human Mentor",
       "locations": [
         "550.15,-16.7,235.21"
@@ -9887,14 +9625,12 @@
     },
     {
       "name": "Pendair",
-      "name_sortable": "pendair",
       "utterances": [
         "Hello!  Such a mischievous day, is it not?"
       ]
     },
     {
       "name": "Penny Goodhearth",
-      "name_sortable": "pennygoodhearth",
       "locations": [
         "275.16,-16.45,34.08"
       ],
@@ -9904,7 +9640,6 @@
     },
     {
       "name": "Peona Toughins",
-      "name_sortable": "peonatoughins",
       "purpose": "Tailor",
       "locations": [
         "357.58,-22.5,-197.91"
@@ -9916,28 +9651,24 @@
     },
     {
       "name": "Pepper",
-      "name_sortable": "pepper",
       "locations": [
         "372.05,-19.92,211.21"
       ]
     },
     {
       "name": "a pig",
-      "name_sortable": "pig",
       "locations": [
         "370.95,-20.27,210.14"
       ]
     },
     {
       "name": "a piglet",
-      "name_sortable": "piglet",
       "locations": [
         "374.23,-20.21,209.47"
       ]
     },
     {
       "name": "Popelia",
-      "name_sortable": "popelia",
       "purpose": "Guard",
       "level": 45,
       "locations": [
@@ -9949,7 +9680,6 @@
     },
     {
       "name": "Preceptor Gabbro ",
-      "name_sortable": "preceptorgabbro",
       "locations": [
         "519.41,-32.01,-169.61"
       ],
@@ -9961,7 +9691,6 @@
     },
     {
       "name": "Prelate Lorhym Ithpsym",
-      "name_sortable": "prelatelorhymithpsym",
       "purpose": "Celestial Watch Priest",
       "locations": [
         "570.55,-75.21,-197.59"
@@ -9973,7 +9702,6 @@
     },
     {
       "name": "Priestess Allora Reed",
-      "name_sortable": "priestessallorareed",
       "locations": [
         "573.76,-75.39,-221.76"
       ],
@@ -9983,7 +9711,6 @@
     },
     {
       "name": "Priestess Avarona Wenhaver",
-      "name_sortable": "priestessavaronawenhaver",
       "locations": [
         "576.29,-75.23,-222.73"
       ],
@@ -9993,7 +9720,6 @@
     },
     {
       "name": "Priest Ian Turner",
-      "name_sortable": "priestianturner",
       "locations": [
         "577.11,-75.29,-220.68"
       ],
@@ -10012,7 +9738,6 @@
     },
     {
       "name": "Priscilla Stoneguard",
-      "name_sortable": "priscillastoneguard",
       "purpose": "Guardian Trainer",
       "locations": [
         "399.2,-16.41,5.14"
@@ -10023,7 +9748,6 @@
     },
     {
       "name": "Prophet Bainyn Fairwind",
-      "name_sortable": "prophetbainynfairwind",
       "purpose": "Prophet of Rodcet Nife",
       "locations": [
         "569.92,-75.17,-227.43"
@@ -10046,14 +9770,12 @@
     },
     {
       "name": "P.T. Irontoe",
-      "name_sortable": "ptirontoe",
       "locations": [
         "338.32,-20.99,154.61"
       ]
     },
     {
       "name": "Pupil Adept Wazzlefop",
-      "name_sortable": "pupiladeptwazzlefop",
       "purpose": "Concordium Mage",
       "locations": [
         "721.96,-20.37,131.5"
@@ -10065,7 +9787,6 @@
     },
     {
       "name": "a Qeynos citizen",
-      "name_sortable": "qeynoscitizen",
       "locations": [
         "562.94,-9.56,135.28",
         "564.32,-9.71,145.33",
@@ -10090,14 +9811,12 @@
     },
     {
       "name": "a Qeynos entertainer",
-      "name_sortable": "qeynosentertainer",
       "locations": [
         "446.74,-20.72,153"
       ]
     },
     {
       "name": "a Qeynos Guard officer",
-      "name_sortable": "qeynosguardofficer",
       "locations": [
         "567.58,-14.7,193.06"
       ],
@@ -10109,7 +9828,6 @@
     },
     {
       "name": "a Qeynos representative",
-      "name_sortable": "qeynosrepresentative",
       "locations": [
         "553.8,-17.73,243.88",
         "465.62,-20.82,193.37"
@@ -10125,7 +9843,6 @@
     },
     {
       "name": "a Qeynos resident",
-      "name_sortable": "qeynosresident",
       "utterances": [
         "Through the advances in modern magic, anything is possible.",
         "Happiness is an invention that doesn't blow up in your face.",
@@ -10205,7 +9922,6 @@
     },
     {
       "name": "Quartermaster Lewyn",
-      "name_sortable": "quartermasterlewyn",
       "purpose": "City Quartermaster",
       "locations": [
         "567.31,-9.79,159.76"
@@ -10217,7 +9933,6 @@
     },
     {
       "name": "Queen Antonia Bayle",
-      "name_sortable": "queenantoniabayle",
       "locations": [
         "428.79,-12.25,-18.9",
         "412.59,-12.19,-20.01",
@@ -10246,7 +9961,6 @@
     },
     {
       "name": "Rachael Clothspinner",
-      "name_sortable": "rachaelclothspinner",
       "purpose": "Tailor",
       "locations": [
         "351.29,-22.5,-200.46"
@@ -10261,7 +9975,6 @@
     },
     {
       "name": "Rascal",
-      "name_sortable": "rascal",
       "locations": [
         "444.04,-20.6,-267.39",
         "447.25,-20.33,-304.33",
@@ -10271,7 +9984,6 @@
     },
     {
       "name": "Recruitment Officer Brandit",
-      "name_sortable": "recruitmentofficerbrandit",
       "purpose": "Qeynos Guard",
       "locations": [
         "387.93,-17.5,-6.8"
@@ -10282,7 +9994,6 @@
     },
     {
       "name": "Reigen MacKneel",
-      "name_sortable": "reigenmackneel",
       "utterances": [
         "Rawwwwr!  I'm a monster!",
         "I'm not celebrating Nights of the Dead.  This is what I always wear!"
@@ -10290,7 +10001,6 @@
     },
     {
       "name": "a relieved Qeynos resident",
-      "name_sortable": "relievedqeynosresident",
       "locations": [
         "367.55,-20.26,110.93",
         "432.17,-17.41,-159.91",
@@ -10316,7 +10026,6 @@
     },
     {
       "name": "Remo Zigg",
-      "name_sortable": "remozigg",
       "locations": [
         "281.46,-20.85,-48.07"
       ],
@@ -10335,7 +10044,6 @@
     },
     {
       "name": "Rendyl",
-      "name_sortable": "rendyl",
       "purpose": "Qeynos Guard",
       "locations": [
         "680.68,-20.56,271.06"
@@ -10348,7 +10056,6 @@
     },
     {
       "name": "Rex Ironforge",
-      "name_sortable": "rexironforge",
       "locations": [
         "389.75,-18.86,-231.09"
       ],
@@ -10362,7 +10069,6 @@
     },
     {
       "name": "Rohn Tinkerton",
-      "name_sortable": "rohntinkerton",
       "locations": [
         "657.51,-19.34,150.45"
       ],
@@ -10372,7 +10078,6 @@
     },
     {
       "name": "Rorak Ironbellows",
-      "name_sortable": "rorakironbellows",
       "purpose": "Reforging",
       "locations": [
         "398.01,-20.92,-179.6"
@@ -10380,14 +10085,12 @@
     },
     {
       "name": "Rose Woodhouse",
-      "name_sortable": "rosewoodhouse",
       "locations": [
         "417.97,-26.84,-59.54"
       ]
     },
     {
       "name": "Roslyn Mischeva",
-      "name_sortable": "roslynmischeva",
       "utterances": [
         "What ho! Hail, my dear adventurer, my wonderful hero. You stand before Roslyn Mischeva, leader of this band of dirty misfits and talented raconteurs! May I say, you are in luck to have run into us at this fortuitous time!",
         "Why is that? Well, it is none other than the Heroes' Festival, my good friend! And the Mischeva Play-Actors have been employed by the good people of Norrath to put together a show that properly celebrates the triumphs that the great heroes of this world have accomplished!",
@@ -10398,7 +10101,6 @@
     },
     {
       "name": "Royal Accountant Fowler",
-      "name_sortable": "royalaccountantfowler",
       "purpose": "Guild Registrar",
       "locations": [
         "567.55,-9.79,162.87"
@@ -10406,7 +10108,6 @@
     },
     {
       "name": "Rrak Boldfist",
-      "name_sortable": "rrakboldfist",
       "locations": [
         "686.97,-19.03,240.33"
       ],
@@ -10417,7 +10118,6 @@
     },
     {
       "name": "Rune Shimmerstar",
-      "name_sortable": "runeshimmerstar",
       "locations": [
         "713.44,41.31,106.07"
       ],
@@ -10429,7 +10129,6 @@
     },
     {
       "name": "Runt",
-      "name_sortable": "runt",
       "locations": [
         "444.04,-20.6,-267.39",
         "447.25,-20.33,-304.33",
@@ -10439,7 +10138,6 @@
     },
     {
       "name": "Sage Xoort",
-      "name_sortable": "sagexoort",
       "locations": [
         "651.05,-18.57,243.06"
       ],
@@ -10454,7 +10152,6 @@
     },
     {
       "name": "Sayergei the Stylist",
-      "name_sortable": "sayergeithestylist",
       "locations": [
         "381.08,-12.4,-235.56"
       ],
@@ -10472,14 +10169,12 @@
     },
     {
       "name": "Scholar Demini",
-      "name_sortable": "scholardemini",
       "utterances": [
         "Yes, you must be one of those adventurers, all right.  If the stories about you folks are true, then I'm sure you're willing to undertake a dangerous task just for the thrill of it. Am I right?"
       ]
     },
     {
       "name": "Selwyn Oakheart",
-      "name_sortable": "selwynoakheart",
       "locations": [
         "444.9,-19.56,189.23"
       ],
@@ -10489,7 +10184,6 @@
     },
     {
       "name": "Sergeant-at-Arms Illervo",
-      "name_sortable": "sergeant-at-armsillervo",
       "purpose": "Guard",
       "level": 53,
       "difficulty": "epic^2",
@@ -10507,7 +10201,6 @@
     },
     {
       "name": "Sergeant-at-Arms Illervo",
-      "name_sortable": "sergeantatarmsillervo",
       "locations": [
         "342.15,-21.31,54.27",
         "303.67,-21.24,3.72",
@@ -10522,7 +10215,6 @@
     },
     {
       "name": "Sergeant-at-Arms Ironcast",
-      "name_sortable": "sergeantatarmsironcast",
       "purpose": "Qeynos Guard Officer",
       "locations": [
         "467.65,-5,-9.38"
@@ -10533,7 +10225,6 @@
     },
     {
       "name": "Sergeant-at-Arms Stoutiron",
-      "name_sortable": "sergeantatarmsstoutiron",
       "purpose": "Guard",
       "level": 53,
       "difficulty": "epic^2",
@@ -10547,7 +10238,6 @@
     },
     {
       "name": "Sergeant Geret Dalshinn",
-      "name_sortable": "sergeantgeretdalshinn",
       "purpose": "The Knights of Marr",
       "locations": [
         "399.54,-16.56,-3.76"
@@ -10565,7 +10255,6 @@
     },
     {
       "name": "Seru Girondeaud",
-      "name_sortable": "serugirondeaud",
       "purpose": "Inquisitor Trainer",
       "locations": [
         "510.02,-32.03,-174.28"
@@ -10576,14 +10265,12 @@
     },
     {
       "name": "Sessren",
-      "name_sortable": "sessren",
       "locations": [
         "571.86,-8.7,195.26"
       ]
     },
     {
       "name": "Shinolio",
-      "name_sortable": "shinolio",
       "purpose": "Concordium Merchant",
       "utterances": [
         "Confound it! Where did I put that ledger?  It must be around here somewhere!",
@@ -10746,7 +10433,6 @@
     },
     {
       "name": "Slippery Toughshield",
-      "name_sortable": "slipperytoughshield",
       "utterances": [
         "Look, the band is up and playing again. What happened?",
         "He is still a little off tempo and wobbly, but I'll take it. You did fine work <player name>. Perhaps I can get you to do a little more for us.",
@@ -10763,14 +10449,12 @@
     },
     {
       "name": "S'mara Mooregan",
-      "name_sortable": "smaramooregan",
       "locations": [
         "378.25,-18.59,-30.82"
       ]
     },
     {
       "name": "Sneed Galliway",
-      "name_sortable": "sneedgalliway",
       "purpose": "General Goods",
       "locations": [
         "289.2,-18.26,-75.62"
@@ -10875,14 +10559,12 @@
     },
     {
       "name": "a Spirit Steed",
-      "name_sortable": "spiritsteed",
       "locations": [
         "522.18,-32,-171.45"
       ]
     },
     {
       "name": "Squire-Guard Williamson",
-      "name_sortable": "squireguardwilliamson",
       "purpose": "Qeynos Guard Officer",
       "locations": [
         "399.01,-16.52,-30.93"
@@ -10893,7 +10575,6 @@
     },
     {
       "name": "a stable hand",
-      "name_sortable": "stablehand",
       "locations": [
         "385.17,-20.45,207.66",
         "387.67,-20.48,187.58",
@@ -10902,7 +10583,6 @@
     },
     {
       "name": "Stable Hand Marcellun Iver",
-      "name_sortable": "stablehandmarcelluniver",
       "purpose": "Mount Merchant",
       "locations": [
         "406.72,-20.32,224.89"
@@ -10930,7 +10610,6 @@
     },
     {
       "name": "Stable Hand Stonebear",
-      "name_sortable": "stablehandstonebear",
       "locations": [
         "395.7,-20.21,210.66"
       ],
@@ -10940,7 +10619,6 @@
     },
     {
       "name": "a stable helper",
-      "name_sortable": "stablehelper",
       "locations": [
         "385.17,-20.45,207.66",
         "370.61,-20.48,214.06"
@@ -10951,7 +10629,6 @@
     },
     {
       "name": "Stanhyl",
-      "name_sortable": "stanhyl",
       "purpose": "Guard",
       "level": 48,
       "difficulty": "epic^2",
@@ -10965,7 +10642,6 @@
     },
     {
       "name": "a Starcrest gate watcher",
-      "name_sortable": "starcrestgatewatcher",
       "locations": [
         "694.63,-20.51,266.93"
       ],
@@ -10977,14 +10653,12 @@
     },
     {
       "name": "a Starcrest resident",
-      "name_sortable": "starcrestresident",
       "locations": [
         "679.22,-19.34,230.66"
       ]
     },
     {
       "name": "Stetts",
-      "name_sortable": "stetts",
       "purpose": "City Merchant",
       "locations": [
         "290.06,-17.49,-76.82"
@@ -10999,7 +10673,6 @@
     },
     {
       "name": "Steve Echar",
-      "name_sortable": "steveechar",
       "purpose": "Mender",
       "locations": [
         "555.25,-17.12,260.84"
@@ -11017,7 +10690,6 @@
     },
     {
       "name": "Steward Aelin",
-      "name_sortable": "stewardaelin",
       "purpose": "The Conservatory",
       "locations": [
         "457.22,-20.66,170.84"
@@ -11039,7 +10711,6 @@
     },
     {
       "name": "Stom Bluntblade",
-      "name_sortable": "stombluntblade",
       "purpose": "Berserker Trainer",
       "locations": [
         "395.92,-16.5,-42.38"
@@ -11050,7 +10721,6 @@
     },
     {
       "name": "Sweeny",
-      "name_sortable": "sweeny",
       "purpose": "Guard",
       "level": 50,
       "locations": [
@@ -11062,7 +10732,6 @@
     },
     {
       "name": "Tabatha Keltor",
-      "name_sortable": "tabathakeltor",
       "purpose": "Teleport Trainer",
       "locations": [
         "716.59,33.22,147.57"
@@ -11080,7 +10749,6 @@
     },
     {
       "name": "Tabby Copperpot",
-      "name_sortable": "tabbycopperpot",
       "locations": [
         "286.09,-16.45,32.92"
       ],
@@ -11179,7 +10847,6 @@
     },
     {
       "name": "Talas Farin",
-      "name_sortable": "talasfarin",
       "purpose": "Freeblood Mentor",
       "locations": [
         "684.85,-19.42,249.15"
@@ -11190,7 +10857,6 @@
     },
     {
       "name": "Talit",
-      "name_sortable": "talit",
       "locations": [
         "408.92,-20.97,-183.1"
       ],
@@ -11203,7 +10869,6 @@
     },
     {
       "name": "Tara Ironforge",
-      "name_sortable": "taraironforge",
       "locations": [
         "385.48,-18.86,-237.7"
       ],
@@ -11257,7 +10922,6 @@
     },
     {
       "name": "Tatterhorn",
-      "name_sortable": "tatterhorn",
       "purpose": "City Merchant",
       "locations": [
         "291.81,-17.89,-75.75"
@@ -11271,7 +10935,6 @@
     },
     {
       "name": "Tawli Whiskwind",
-      "name_sortable": "tawliwhiskwind",
       "locations": [
         "432.97,-20.31,235.92"
       ],
@@ -11281,7 +10944,6 @@
     },
     {
       "name": "Telamoninioon Orinsidian",
-      "name_sortable": "telamoninioonorinsidian",
       "purpose": "Illusionist Trainer",
       "locations": [
         "706.52,81.88,125.71"
@@ -11311,7 +10973,6 @@
     },
     {
       "name": "Templar Calmarath",
-      "name_sortable": "templarcalmarath",
       "locations": [
         "503.23,-31.76,-191.12"
       ],
@@ -11325,7 +10986,6 @@
     },
     {
       "name": "Tevan Brassgear",
-      "name_sortable": "tevanbrassgear",
       "purpose": "Deepwater Herald",
       "locations": [
         "716.93,-19.33,177.4"
@@ -11338,7 +10998,6 @@
     },
     {
       "name": "Thierry Dillon",
-      "name_sortable": "thierrydillon",
       "locations": [
         "619.97,-16.47,225.9"
       ],
@@ -11348,7 +11007,6 @@
     },
     {
       "name": "Thompson",
-      "name_sortable": "thompson",
       "purpose": "Guard",
       "level": 50,
       "locations": [
@@ -11360,7 +11018,6 @@
     },
     {
       "name": "Thorson",
-      "name_sortable": "thorson",
       "purpose": "Guard",
       "level": 50,
       "locations": [
@@ -11372,7 +11029,6 @@
     },
     {
       "name": "Tibby Copperpot",
-      "name_sortable": "tibbycopperpot",
       "locations": [
         "277.47,-16.45,38.28"
       ],
@@ -11384,7 +11040,6 @@
     },
     {
       "name": "Tilla",
-      "name_sortable": "tilla",
       "purpose": "Ratonga Mentor",
       "locations": [
         "302.62,-12.56,93.3"
@@ -11395,7 +11050,6 @@
     },
     {
       "name": "Tilliana Steamsieve",
-      "name_sortable": "tillianasteamsieve",
       "purpose": "Coercer Trainer",
       "locations": [
         "709.73,-20.37,110.06"
@@ -11426,14 +11080,12 @@
     },
     {
       "name": "Tinkerer Spindlecog",
-      "name_sortable": "tinkererspindlecog",
       "locations": [
         "275.51,-13.96,84.79"
       ]
     },
     {
       "name": "Toranim Skyblade",
-      "name_sortable": "toranimskyblade",
       "locations": [
         "535.27,-32,-174.33"
       ],
@@ -11443,14 +11095,12 @@
     },
     {
       "name": "Trade Liaison Wells",
-      "name_sortable": "tradeliaisonwells",
       "locations": [
         "349.86,-17.39,-89.3"
       ]
     },
     {
       "name": "Trilin",
-      "name_sortable": "trilin",
       "purpose": "Guard",
       "level": 50,
       "locations": [
@@ -11463,7 +11113,6 @@
     },
     {
       "name": "Trina Tinkerton",
-      "name_sortable": "trinatinkerton",
       "purpose": "Gnome Mentor",
       "locations": [
         "270.45,-13.01,67.71"
@@ -11474,7 +11123,6 @@
     },
     {
       "name": "Tristan Galliway",
-      "name_sortable": "tristangalliway",
       "locations": [
         "579.48,-8.48,126.26"
       ],
@@ -11484,7 +11132,6 @@
     },
     {
       "name": "Tyluna Whittlebit",
-      "name_sortable": "tylunawhittlebit",
       "locations": [
         "393.16,-18.86,-238.24"
       ],
@@ -11497,7 +11144,6 @@
     },
     {
       "name": "Tysha Rowan",
-      "name_sortable": "tysharowan",
       "purpose": "Adorning Trainer",
       "locations": [
         "648.07,-18.57,245.01"
@@ -11928,7 +11574,6 @@
     },
     {
       "name": "Uhmar",
-      "name_sortable": "uhmar",
       "purpose": "Test Subject",
       "locations": [
         "697.34,-21,117.68"
@@ -11939,7 +11584,6 @@
     },
     {
       "name": "Ulir",
-      "name_sortable": "ulir",
       "locations": [
         "673.04,-18.95,244.32"
       ],
@@ -11949,7 +11593,6 @@
     },
     {
       "name": "Urach",
-      "name_sortable": "urach",
       "purpose": "Guard",
       "level": 45,
       "locations": [
@@ -11961,7 +11604,6 @@
     },
     {
       "name": "Vare Smothers",
-      "name_sortable": "varesmothers",
       "race": [
         "dwarf"
       ],
@@ -11986,7 +11628,6 @@
     },
     {
       "name": "Varion Smitelin",
-      "name_sortable": "varionsmitelin",
       "purpose": "Concordium Sage",
       "locations": [
         "716.97,48.32,102.32"
@@ -11999,7 +11640,6 @@
     },
     {
       "name": "Vhret Retharo",
-      "name_sortable": "vhretretharo",
       "purpose": "Concordium Mage",
       "locations": [
         "698.56,48.31,94.71"
@@ -12007,7 +11647,6 @@
     },
     {
       "name": "a visiting dignitary",
-      "name_sortable": "visitingdignitary",
       "locations": [
         "565.15,-14.7,194.68"
       ],
@@ -12017,7 +11656,6 @@
     },
     {
       "name": "a visiting traveler",
-      "name_sortable": "visitingtraveler",
       "locations": [
         "362.94,-20.72,103.72"
       ],
@@ -12032,7 +11670,6 @@
     },
     {
       "name": "Vixxi Starguide",
-      "name_sortable": "vixxistarguide",
       "locations": [
         "356.4,-21.0,146.26"
       ],
@@ -12045,14 +11682,12 @@
     },
     {
       "name": "Volryyk",
-      "name_sortable": "volryyk",
       "locations": [
         "339.47,-20.99,151.38"
       ]
     },
     {
       "name": "Vondorinsarnoo",
-      "name_sortable": "vondorinsarnoo",
       "locations": [
         "345.39,-20.99,142.67"
       ],
@@ -12065,7 +11700,6 @@
     },
     {
       "name": "Walter Channing",
-      "name_sortable": "walterchanning",
       "purpose": "Armorsmith",
       "locations": [
         "407.7,-20.72,-193.41"
@@ -12171,7 +11805,6 @@
     },
     {
       "name": "Warley Theodoric",
-      "name_sortable": "warleytheodoric",
       "locations": [
         "559.77,-9.56,132.45",
         "544.57,-9.56,134.65",
@@ -12187,7 +11820,6 @@
     },
     {
       "name": "Wimbell Tozer",
-      "name_sortable": "wimbelltozer",
       "purpose": "Illusionist Savant",
       "locations": [
         "698.37,81.88,126.22"
@@ -12209,7 +11841,6 @@
     },
     {
       "name": "a wonderstruck Qeynos resident",
-      "name_sortable": "wonderstruckqeynosresident",
       "locations": [
         "344.26,-20.67,124.13",
         "278.93,-18.32,17.72",
@@ -12238,7 +11869,6 @@
     },
     {
       "name": "Woodrow",
-      "name_sortable": "woodrow",
       "purpose": "Guard",
       "level": 45,
       "locations": [
@@ -12251,7 +11881,6 @@
     },
     {
       "name": "Wynia Vethe",
-      "name_sortable": "wyniavethe",
       "locations": [
         "705.9,42.31,91.46"
       ],
@@ -12261,14 +11890,12 @@
     },
     {
       "name": "Yeomal Fallenecho",
-      "name_sortable": "yeomalfallenecho",
       "locations": [
         "513.21,-31.74,-256.32"
       ]
     },
     {
       "name": "Yori Boswick",
-      "name_sortable": "yoriboswick",
       "purpose": "Coercer Trainer",
       "locations": [
         "704.36,82.17,126.68"

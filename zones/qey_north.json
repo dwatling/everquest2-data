@@ -1,11 +1,14 @@
 {
   "name": "North Qeynos",
-  "name_sortable": "northqeynos",
   "removed": "lu64",
   "flags": "origins",
   "category": "Cities",
   "subcategory": "Qeynos",
-  "zonerect": "-634.49,-134.92,-165.38,212.35",
+  "maps": [
+    {
+      "zonerect": "-634.49,-134.92,-165.38,212.35"
+    }
+  ],
   "connections": [
     {
       "key": "qey_tradeskill01_qey_north_ironforge",
@@ -30,7 +33,6 @@
   "npcs": [
     {
       "name": "Aldermun",
-      "name_sortable": "aldermun",
       "race": [
         "human"
       ],
@@ -333,7 +335,6 @@
     },
     {
       "name": "Andrea Dovesong",
-      "name_sortable": "andreadovesong",
       "race": [
         "half elf"
       ],
@@ -346,7 +347,6 @@
     },
     {
       "name": "Aren Firerain",
-      "name_sortable": "arenfirerain",
       "race": [
         "wood elf"
       ],
@@ -363,7 +363,6 @@
     },
     {
       "name": "Arthin Dawnhammer",
-      "name_sortable": "arthindawnhammer",
       "race": [
         "high elf"
       ],
@@ -384,7 +383,6 @@
     },
     {
       "name": "Baker Voleen",
-      "name_sortable": "bakervoleen",
       "race": [
         "halfling"
       ],
@@ -404,7 +402,6 @@
     },
     {
       "name": "Bleog Healbog",
-      "name_sortable": "bleoghealbog",
       "race": [
         "froglok"
       ],
@@ -421,7 +418,6 @@
     },
     {
       "name": "Bouncer Johbal",
-      "name_sortable": "bouncerjohbal",
       "race": [
         "barbarian"
       ],
@@ -437,7 +433,6 @@
     },
     {
       "name": "Brill",
-      "name_sortable": "brill",
       "race": [
         "gnome"
       ],
@@ -452,7 +447,6 @@
     },
     {
       "name": "Captain Woug",
-      "name_sortable": "captainwoug",
       "race": [
         "human"
       ],
@@ -466,7 +460,6 @@
     },
     {
       "name": "Caretaker Nogfizzle",
-      "name_sortable": "caretakernogfizzle",
       "race": [
         "gnome"
       ],
@@ -483,7 +476,6 @@
     },
     {
       "name": "Carey Meloy",
-      "name_sortable": "careymeloy",
       "race": [
         "human"
       ],
@@ -500,7 +492,6 @@
     },
     {
       "name": "Dana Ironforge",
-      "name_sortable": "danaironforge",
       "race": [
         "human"
       ],
@@ -517,7 +508,6 @@
     },
     {
       "name": "Danielle Clothspinner",
-      "name_sortable": "danielleclothspinner",
       "race": [
         "human"
       ],
@@ -535,7 +525,6 @@
     },
     {
       "name": "Darla Fastanvil",
-      "name_sortable": "darlafastanvil",
       "race": [
         "dwarf"
       ],
@@ -554,7 +543,6 @@
     },
     {
       "name": "Dawson Magnificent",
-      "name_sortable": "dawsonmagnificent",
       "race": [
         "human"
       ],
@@ -570,7 +558,6 @@
     },
     {
       "name": "Deasie Warmhearth",
-      "name_sortable": "deasiewarmhearth",
       "race": [
         "halfling"
       ],
@@ -586,7 +573,6 @@
     },
     {
       "name": "Disciple Telas`velle",
-      "name_sortable": "discipletelasvelle",
       "race": [
         "high elf"
       ],
@@ -603,7 +589,6 @@
     },
     {
       "name": "Drog Leadsleep",
-      "name_sortable": "drogleadsleep",
       "race": [
         "dwarf"
       ],
@@ -616,7 +601,6 @@
     },
     {
       "name": "Drunah Skycaller",
-      "name_sortable": "drunahskycaller",
       "race": [
         "human"
       ],
@@ -633,7 +617,6 @@
     },
     {
       "name": "Dylan Ironforge",
-      "name_sortable": "dylanironforge",
       "race": [
         "human"
       ],
@@ -651,7 +634,6 @@
     },
     {
       "name": "Ealoonias",
-      "name_sortable": "ealoonias",
       "race": [
         "erudite"
       ],
@@ -668,7 +650,6 @@
     },
     {
       "name": "Elsabethia Hartsunder",
-      "name_sortable": "elsabethiahartsunder",
       "race": [
         "human"
       ],
@@ -684,7 +665,6 @@
     },
     {
       "name": "Emma Healtoe",
-      "name_sortable": "emmahealtoe",
       "race": [
         "halfling"
       ],
@@ -701,7 +681,6 @@
     },
     {
       "name": "Enursin Nightstalker",
-      "name_sortable": "enursinnightstalker",
       "race": [
         "human"
       ],
@@ -719,7 +698,6 @@
     },
     {
       "name": "Ethri Vasou",
-      "name_sortable": "ethrivasou",
       "race": [
         "human"
       ],
@@ -733,7 +711,6 @@
     },
     {
       "name": "Factor Kai Ferdinand",
-      "name_sortable": "factorkaiferdinand",
       "race": [
         "human"
       ],
@@ -750,7 +727,6 @@
     },
     {
       "name": "Fhara Hanford",
-      "name_sortable": "fharahanford",
       "race": [
         "human"
       ],
@@ -768,7 +744,6 @@
     },
     {
       "name": "Frubbuppa Bogstomper",
-      "name_sortable": "frubbuppabogstomper",
       "race": [
         "froglok"
       ],
@@ -784,7 +759,6 @@
     },
     {
       "name": "Gavin Ironforge",
-      "name_sortable": "gavinironforge",
       "race": [
         "human"
       ],
@@ -802,7 +776,6 @@
     },
     {
       "name": "Gray Magnificent",
-      "name_sortable": "graymagnificent",
       "race": [
         "human"
       ],
@@ -815,7 +788,6 @@
     },
     {
       "name": "Gretta Steinbeard",
-      "name_sortable": "grettasteinbeard",
       "race": [
         "dwarf"
       ],
@@ -831,7 +803,6 @@
     },
     {
       "name": "Harold Dunstan",
-      "name_sortable": "harolddunstan",
       "race": [
         "human"
       ],
@@ -849,7 +820,6 @@
     },
     {
       "name": "Jo Ironshield",
-      "name_sortable": "joironshield",
       "race": [
         "dwarf"
       ],
@@ -865,7 +835,6 @@
     },
     {
       "name": "Kiriana Northsky",
-      "name_sortable": "kiriananorthsky",
       "race": [
         "high elf"
       ],
@@ -882,7 +851,6 @@
     },
     {
       "name": "Knight-Captain Steelgaze",
-      "name_sortable": "knightcaptainsteelgaze",
       "race": [
         "dwarf"
       ],
@@ -899,7 +867,6 @@
     },
     {
       "name": "Knight-Guard Rellin`thir",
-      "name_sortable": "knightguardrellinthir",
       "race": [
         "high elf"
       ],
@@ -916,7 +883,6 @@
     },
     {
       "name": "Knight-Lieutenant Laughlin",
-      "name_sortable": "knightlieutenantlaughlin",
       "race": [
         "human"
       ],
@@ -932,7 +898,6 @@
     },
     {
       "name": "Lodo Bightn",
-      "name_sortable": "lodobightn",
       "race": [
         "halfling"
       ],
@@ -945,7 +910,6 @@
     },
     {
       "name": "Magus Weskah",
-      "name_sortable": "magusweskah",
       "race": [
         "kerran"
       ],
@@ -961,7 +925,6 @@
     },
     {
       "name": "Maid Patricia",
-      "name_sortable": "maidpatricia",
       "race": [
         "human"
       ],
@@ -977,7 +940,6 @@
     },
     {
       "name": "Mariana Gizmofidget",
-      "name_sortable": "marianagizmofidget",
       "race": [
         "gnome"
       ],
@@ -996,7 +958,6 @@
     },
     {
       "name": "Medic Brendan",
-      "name_sortable": "medicbrendan",
       "race": [
         "human"
       ],
@@ -1012,7 +973,6 @@
     },
     {
       "name": "Medic Rowena",
-      "name_sortable": "medicrowena",
       "race": [
         "human"
       ],
@@ -1028,7 +988,6 @@
     },
     {
       "name": "Meredeth",
-      "name_sortable": "meredeth",
       "race": [
         "high elf"
       ],
@@ -1344,7 +1303,6 @@
     },
     {
       "name": "Mervos Stadrin",
-      "name_sortable": "mervosstadrin",
       "race": [
         "erudite"
       ],
@@ -1361,7 +1319,6 @@
     },
     {
       "name": "Mina O`Grady",
-      "name_sortable": "minaogrady",
       "race": [
         "barbarian"
       ],
@@ -1380,7 +1337,6 @@
     },
     {
       "name": "Missionary Jenson",
-      "name_sortable": "missionaryjenson",
       "race": [
         "human"
       ],
@@ -1397,7 +1353,6 @@
     },
     {
       "name": "Nicola Dering",
-      "name_sortable": "nicoladering",
       "race": [
         "human"
       ],
@@ -1411,7 +1366,6 @@
     },
     {
       "name": "Noelle Dering",
-      "name_sortable": "noelledering",
       "race": [
         "half elf"
       ],
@@ -1427,7 +1381,6 @@
     },
     {
       "name": "Olivia Pugnacious",
-      "name_sortable": "oliviapugnacious",
       "race": [
         "half elf"
       ],
@@ -1447,7 +1400,6 @@
     },
     {
       "name": "Partisan Keladerouo",
-      "name_sortable": "partisankeladerouo",
       "race": [
         "erudite"
       ],
@@ -1464,7 +1416,6 @@
     },
     {
       "name": "Penny Goodhearth",
-      "name_sortable": "pennygoodhearth",
       "race": [
         "halfling"
       ],
@@ -1480,7 +1431,6 @@
     },
     {
       "name": "Prelate Lorhym Ithpsym",
-      "name_sortable": "prelatelorhymithpsym",
       "race": [
         "high elf"
       ],
@@ -1497,7 +1447,6 @@
     },
     {
       "name": "Priestess Allora Reed",
-      "name_sortable": "priestessallorareed",
       "race": [
         "human"
       ],
@@ -1513,7 +1462,6 @@
     },
     {
       "name": "Priest Ian Turner",
-      "name_sortable": "priestianturner",
       "race": [
         "human"
       ],
@@ -1529,7 +1477,6 @@
     },
     {
       "name": "Priscilla Stoneguard",
-      "name_sortable": "priscillastoneguard",
       "race": [
         "barbarian"
       ],
@@ -1546,7 +1493,6 @@
     },
     {
       "name": "P.T. Irontoe",
-      "name_sortable": "ptirontoe",
       "race": [
         "dwarf"
       ],
@@ -1559,7 +1505,6 @@
     },
     {
       "name": "Rachael Clothspinner",
-      "name_sortable": "rachaelclothspinner",
       "race": [
         "human"
       ],
@@ -1577,7 +1522,6 @@
     },
     {
       "name": "Sayergei the Stylist",
-      "name_sortable": "sayergeithestylist",
       "race": [
         "high elf"
       ],
@@ -1606,7 +1550,6 @@
     },
     {
       "name": "Sergeant-at-Arms Ironcast",
-      "name_sortable": "sergeantatarmsironcast",
       "race": [
         "dwarf"
       ],
@@ -1623,7 +1566,6 @@
     },
     {
       "name": "Squire-Guard Williamson",
-      "name_sortable": "squireguardwilliamson",
       "race": [
         "human"
       ],
@@ -1640,7 +1582,6 @@
     },
     {
       "name": "Squire Mikkel",
-      "name_sortable": "squiremikkel",
       "race": [
         "gnome"
       ],
@@ -1660,7 +1601,6 @@
     },
     {
       "name": "Stom Bluntblade",
-      "name_sortable": "stombluntblade",
       "race": [
         "dwarf"
       ],
@@ -1677,7 +1617,6 @@
     },
     {
       "name": "Tara Ironforge",
-      "name_sortable": "taraironforge",
       "race": [
         "human"
       ],
@@ -1695,7 +1634,6 @@
     },
     {
       "name": "Tatterhorn",
-      "name_sortable": "tatterhorn",
       "race": [
         "human"
       ],
@@ -1713,7 +1651,6 @@
     },
     {
       "name": "Thardrin Steeleye",
-      "name_sortable": "thardrinsteeleye",
       "race": [
         "dwarf"
       ],
@@ -1729,7 +1666,6 @@
     },
     {
       "name": "Toranim Skyblade",
-      "name_sortable": "toranimskyblade",
       "race": [
         "human"
       ],
@@ -1745,7 +1681,6 @@
     },
     {
       "name": "Trecali Stowe",
-      "name_sortable": "trecalistowe",
       "race": [
         "human"
       ],
@@ -1762,7 +1697,6 @@
     },
     {
       "name": "Walter Channing",
-      "name_sortable": "walterchanning",
       "race": [
         "human"
       ],

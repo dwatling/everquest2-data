@@ -1,10 +1,13 @@
 {
   "name": "The D'Vinnian Throne",
-  "name_sortable": "dvinnianthrone",
   "expansion": "exp03",
   "category": "Dungeons",
-  "zonerect": "-99.00,-212.00,95.00,18.00",
   "levels": "30-35",
+  "maps": [
+    {
+      "zonerect": "-99.00,-212.00,95.00,18.00"
+    }
+  ],
   "connections": [
     {
       "key": "exp03_dun_crushbone_keep"
@@ -13,7 +16,6 @@
   "npcs": [
     {
       "name": "a conscripted Feir'Dal",
-      "name_sortable": "conscriptedfeirdal",
       "locations": [
         "-71.62,-9.83,-61.58",
         "-49.83,-8.74,-75.54"
@@ -21,14 +23,12 @@
     },
     {
       "name": "a conscripted Koada'Dal",
-      "name_sortable": "conscriptedkoadadal",
       "locations": [
         "-58.79,-10.08,-65.84"
       ]
     },
     {
       "name": "a Crushbone centurion",
-      "name_sortable": "crushbonecenturion",
       "locations": [
         "51.47,-4.07,-52.51",
         "48.06,-6.43,-30.1",
@@ -39,14 +39,12 @@
     },
     {
       "name": "a Crushbone emissary",
-      "name_sortable": "crushboneemissary",
       "locations": [
         "65.15,-6.55,-20.95"
       ]
     },
     {
       "name": "a Crushbone gladiator",
-      "name_sortable": "crushbonegladiator",
       "locations": [
         "-64.1,-9.87,-174.84",
         "-74.63,-9.87,-174.45",
@@ -55,7 +53,6 @@
     },
     {
       "name": "a Crushbone legionnaire",
-      "name_sortable": "crushbonelegionnaire",
       "locations": [
         "28.47,-4.07,-43.01",
         "44.7,-6.43,-31.32",
@@ -68,14 +65,12 @@
       "faction_changes": [
         {
           "name": "Clan Crushbone",
-          "name_sortable": "clancrushbone",
           "value": -100
         }
       ]
     },
     {
       "name": "a Crushbone thaumaturgist",
-      "name_sortable": "crushbonethaumaturgist",
       "locations": [
         "-61.35,-10.07,-60.79",
         "-52.24,-9.83,-59.34"
@@ -83,7 +78,6 @@
     },
     {
       "name": "a Crushbone trainer",
-      "name_sortable": "crushbonetrainer",
       "locations": [
         "27.26,-4.07,-46.76",
         "48.95,-4.06,-69.09",
@@ -99,14 +93,12 @@
       "faction_changes": [
         {
           "name": "Clan Crushbone",
-          "name_sortable": "clancrushbone",
           "value": -100
         }
       ]
     },
     {
       "name": "a Crushbone watchman",
-      "name_sortable": "crushbonewatchman",
       "locations": [
         "33.11,-4.06,-67.57",
         "52.09,-6.43,-38.18"
@@ -117,14 +109,12 @@
       "faction_changes": [
         {
           "name": "Clan Crushbone",
-          "name_sortable": "clancrushbone",
           "value": -100
         }
       ]
     },
     {
       "name": "a Dreadguard knight",
-      "name_sortable": "dreadguardknight",
       "locations": [
         "-64.03,-9.8,-103.49",
         "-33.29,-9.8,-102.81",
@@ -136,7 +126,6 @@
     },
     {
       "name": "a D'Vinnian ambusher",
-      "name_sortable": "dvinnianambusher",
       "locations": [
         "41.73,-8.55,-116.96"
       ],
@@ -149,28 +138,24 @@
       "faction_changes": [
         {
           "name": "Clan Crushbone",
-          "name_sortable": "clancrushbone",
           "value": -100
         }
       ]
     },
     {
       "name": "a D'Vinnian deathmage",
-      "name_sortable": "dvinniandeathmage",
       "locations": [
         "-47.44,-8.69,-79.31"
       ],
       "faction_changes": [
         {
           "name": "Clan Crushbone",
-          "name_sortable": "clancrushbone",
           "value": -100
         }
       ]
     },
     {
       "name": "a D'Vinnian dragoon",
-      "name_sortable": "dvinniandragoon",
       "locations": [
         "-3.73,-4.14,-67.73",
         "2.52,-9.81,-89.2",
@@ -190,14 +175,12 @@
       "faction_changes": [
         {
           "name": "Clan Crushbone",
-          "name_sortable": "clancrushbone",
           "value": -100
         }
       ]
     },
     {
       "name": "a D'Vinnian elite dragoon",
-      "name_sortable": "dvinnianelitedragoon",
       "locations": [
         "-29.59,-6.18,-68.50",
         "-28.24,-9.8,-103.29",
@@ -207,14 +190,12 @@
       "faction_changes": [
         {
           "name": "Clan Crushbone",
-          "name_sortable": "clancrushbone",
           "value": -100
         }
       ]
     },
     {
       "name": "a D'Vinnian guardian",
-      "name_sortable": "dvinnianguardian",
       "locations": [
         "48.32,-9.77,-162.95",
         "54.10,-9.87,-160.00"
@@ -232,14 +213,12 @@
       "faction_changes": [
         {
           "name": "Clan Crushbone",
-          "name_sortable": "clancrushbone",
           "value": -100
         }
       ]
     },
     {
       "name": "a D'Vinnian sorcerer",
-      "name_sortable": "dvinniansorcerer",
       "locations": [
         "-58.76,-10.07,-62.77",
         "-49.54,-9.83,-58.2",
@@ -249,7 +228,6 @@
     },
     {
       "name": "Emperor D'Vinn",
-      "name_sortable": "emperordvinn",
       "locations": [
         "54.19,-9.54,-165.02"
       ],
@@ -263,7 +241,6 @@
     },
     {
       "name": "General V'Narr",
-      "name_sortable": "generalvnarr",
       "locations": [
         "18.64,-10.03,-98.36"
       ],
@@ -276,21 +253,18 @@
       "faction_changes": [
         {
           "name": "Clan Crushbone",
-          "name_sortable": "clancrushbone",
           "value": -100
         }
       ]
     },
     {
       "name": "Jabartik",
-      "name_sortable": "jabartik",
       "locations": [
         "-48.98,-8.73,-77.38"
       ]
     },
     {
       "name": "Lady Elizara D'Kush",
-      "name_sortable": "ladyelizaradkush",
       "locations": [
         "1.03,-4.31,-39.48",
         "50.39,-9.54,-164.72"
@@ -302,21 +276,18 @@
     },
     {
       "name": "Lieutenant B'Oreth",
-      "name_sortable": "lieutenantboreth",
       "locations": [
         "19.68,-10.03,-100.78"
       ],
       "faction_changes": [
         {
           "name": "Clan Crushbone",
-          "name_sortable": "clancrushbone",
           "value": -100
         }
       ]
     },
     {
       "name": "Lieutenant D'Bryth",
-      "name_sortable": "lieutenantdbryth",
       "locations": [
         "2.3,-10.03,-102.39",
         "15.84,-10.03,-99.16"
@@ -324,14 +295,12 @@
       "faction_changes": [
         {
           "name": "Clan Crushbone",
-          "name_sortable": "clancrushbone",
           "value": -100
         }
       ]
     },
     {
       "name": "Ograf the Deft",
-      "name_sortable": "ografthedeft",
       "locations": [
         "-75.85,-9.87,-184.30"
       ],
@@ -341,14 +310,12 @@
       "faction_changes": [
         {
           "name": "Clan Crushbone",
-          "name_sortable": "clancrushbone",
           "value": -100
         }
       ]
     },
     {
       "name": "a summoned shadow",
-      "name_sortable": "summonedshadow",
       "locations": [
         "13.86,-4.06,-33.15",
         "-0.68,-4.31,-37.27",
@@ -381,14 +348,12 @@
       "faction_changes": [
         {
           "name": "Clan Crushbone",
-          "name_sortable": "clancrushbone",
           "value": -100
         }
       ]
     },
     {
       "name": "a summoned watcher",
-      "name_sortable": "summonedwatcher",
       "locations": [
         "-19.93,-4.12,-48.11",
         "-10.59,-9.81,-105.57",
@@ -403,14 +368,12 @@
       "faction_changes": [
         {
           "name": "Clan Crushbone",
-          "name_sortable": "clancrushbone",
           "value": -100
         }
       ]
     },
     {
       "name": "an unfortunate victim",
-      "name_sortable": "unfortunatevictim",
       "locations": [
         "45.01,-6.43,-28.08",
         "59.57,-6.55,-18.8",
@@ -419,7 +382,6 @@
     },
     {
       "name": "Vindicator Crush",
-      "name_sortable": "vindicatorcrush",
       "locations": [
         "48.95,-9.77,-155.34"
       ],
@@ -430,7 +392,6 @@
     },
     {
       "name": "a watchful sentry",
-      "name_sortable": "watchfulsentry",
       "locations": [
         "57.45,-6.43,-15.65",
         "-68.57,-9.83,-59.14",
@@ -442,7 +403,6 @@
       "faction_changes": [
         {
           "name": "Clan Crushbone",
-          "name_sortable": "clancrushbone",
           "value": -100
         }
       ]

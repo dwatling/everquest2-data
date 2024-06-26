@@ -1,16 +1,18 @@
 {
   "name": "The Witches' Cove",
-  "name_sortable": "witchescove",
   "category": "Dungeons",
-  "zonerect": "-1042.00,-672.00,-847.00,-446.00",
   "levels": "20-25",
   "access_quests": [
     1196338355
   ],
+  "maps": [
+    {
+      "zonerect": "-1042.00,-672.00,-847.00,-446.00"
+    }
+  ],
   "npcs": [
     {
       "name": "Master D'Vaen",
-      "name_sortable": "masterdvaen",
       "level": 25,
       "difficulty": "heroic",
       "locations": [
@@ -25,7 +27,6 @@
     },
     {
       "name": "Shivantris the Wailing",
-      "name_sortable": "shivantristhewailing",
       "level": 25,
       "difficulty": "heroic",
       "locations": [
@@ -34,7 +35,6 @@
     },
     {
       "name": "a vile scoundrel",
-      "name_sortable": "vilescoundrel",
       "level": 25,
       "difficulty": "heroic",
       "locations": [
@@ -74,7 +74,6 @@
     },
     {
       "name": "a vile summoner",
-      "name_sortable": "vilesummoner",
       "level": 25,
       "difficulty": "heroic",
       "locations": [
@@ -113,7 +112,6 @@
     },
     {
       "name": "a vile witchdoctor",
-      "name_sortable": "vilewitchdoctor",
       "level": 25,
       "difficulty": "heroic",
       "locations": [
@@ -150,7 +148,6 @@
     },
     {
       "name": "a wailing spirit",
-      "name_sortable": "wailingspirit",
       "level": 24,
       "difficulty": "heroic",
       "locations": [
@@ -196,7 +193,6 @@
     },
     {
       "name": "a witchbone skeleton",
-      "name_sortable": "witchboneskeleton",
       "level": 24,
       "difficulty": "heroic",
       "locations": [

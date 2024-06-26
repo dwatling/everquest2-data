@@ -1,9 +1,12 @@
 {
   "name": "The Fabled Ruins of Varsoon",
-  "name_sortable": "fabledruinsofvarsoon",
   "category": "Dungeons",
-  "zonerect": "-322.00,-179.00,332.00,155.0",
   "levels": "100-110",
+  "maps": [
+    {
+      "zonerect": "-322.00,-179.00,332.00,155.0"
+    }
+  ],
   "connections": [
     {
       "key": "steppes"

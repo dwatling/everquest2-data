@@ -1,9 +1,12 @@
 {
   "name": "A Memory of Scale",
-  "name_sortable": "memoryofscale",
   "expansion": "exp04",
   "category": "",
-  "zonerect": "-310.00,-191.00,241.00,455.00",
+  "maps": [
+    {
+      "zonerect": "-310.00,-191.00,241.00,455.00"
+    }
+  ],
   "connections": [
     {
       "key": "qeynos_combined01"
@@ -12,7 +15,6 @@
   "npcs": [
     {
       "name": "a drolvarg guardian",
-      "name_sortable": "drolvargguardian",
       "locations": [
         "-78.74,-56.62,141.95",
         "-86.00,-56.53,185.00",
@@ -50,7 +52,6 @@
     },
     {
       "name": "a froglok guardian",
-      "name_sortable": "froglokguardian",
       "locations": [
         "-107.00,-57.53,151.50",
         "-39.42,-72.98,167.53",
@@ -89,7 +90,6 @@
     },
     {
       "name": "a goblin guardian",
-      "name_sortable": "goblinguardian",
       "locations": [
         "-106.46,-56.53,166.94",
         "-101.21,-56.53,171.45",
@@ -117,7 +117,6 @@
     },
     {
       "name": "an iksar guardian",
-      "name_sortable": "iksarguardian",
       "locations": [
         "-59.75,-56.62,137.89",
         "-34.05,-72.98,183.32",

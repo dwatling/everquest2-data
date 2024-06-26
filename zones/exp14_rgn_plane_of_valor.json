@@ -1,8 +1,11 @@
 {
   "name": "Coliseum of Valor",
-  "name_sortable": "coliseumofvalor",
   "expansion": "exp14",
-  "zonerect": "-348.00,-265.00,346.00,257.00",
+  "maps": [
+    {
+      "zonerect": "-348.00,-265.00,346.00,257.00"
+    }
+  ],
   "connections": [
     {
       "key": "live_chronoportal_hub"

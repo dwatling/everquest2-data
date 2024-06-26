@@ -1,6 +1,5 @@
 {
   "name": "The Sprawl",
-  "name_sortable": "sprawl",
   "category": "D'Lere",
   "levels": "5-10",
   "connections": [
@@ -25,7 +24,6 @@
   "npcs": [
     {
       "name": "Arcanist Tikkeri",
-      "name_sortable": "arcanisttikkeri",
       "locations": [
         "35.12,2.26,104.81"
       ],
@@ -42,7 +40,6 @@
     },
     {
       "name": "a Black Magi anarchist",
-      "name_sortable": "blackmagianarchist",
       "level": 11,
       "difficulty": "heroic",
       "locations": [
@@ -70,14 +67,12 @@
       "faction_changes": [
         {
           "name": "The Marked",
-          "name_sortable": "marked",
           "value": -100
         }
       ]
     },
     {
       "name": "a Black Magi dissident",
-      "name_sortable": "blackmagidissident",
       "level": 11,
       "locations": [
         "1.31,-2.67,34.29",
@@ -101,14 +96,12 @@
       "faction_changes": [
         {
           "name": "The Marked",
-          "name_sortable": "marked",
           "value": -100
         }
       ]
     },
     {
       "name": "a Black Magi fanatic",
-      "name_sortable": "blackmagifanatic",
       "level": 10,
       "locations": [
         "-14.74,-2.52,31.46",
@@ -126,14 +119,12 @@
       "faction_changes": [
         {
           "name": "The Marked",
-          "name_sortable": "marked",
           "value": -100
         }
       ]
     },
     {
       "name": "a Black Magi guard",
-      "name_sortable": "blackmagiguard",
       "level": 11,
       "locations": [
         "64.99,2.13,90.53"
@@ -141,14 +132,12 @@
       "faction_changes": [
         {
           "name": "The Marked",
-          "name_sortable": "marked",
           "value": -100
         }
       ]
     },
     {
       "name": "a Black Magi insurgent",
-      "name_sortable": "blackmagiinsurgent",
       "level": 11,
       "difficulty": "heroic",
       "locations": [
@@ -174,14 +163,12 @@
       "faction_changes": [
         {
           "name": "The Marked",
-          "name_sortable": "marked",
           "value": -100
         }
       ]
     },
     {
       "name": "Brutemaster Tarden",
-      "name_sortable": "brutemastertarden",
       "purpose": "Dreadnaught",
       "locations": [
         "-45.86,-4.28,-41.49",
@@ -207,7 +194,6 @@
     },
     {
       "name": "a  captured dwarf agitator",
-      "name_sortable": "captureddwarfagitator",
       "level": 8,
       "locations": [
         "62.52,2.47,96.21"
@@ -215,7 +201,6 @@
     },
     {
       "name": "a captured halfling upstart",
-      "name_sortable": "capturedhalflingupstart",
       "level": 8,
       "locations": [
         "64.13,2.47,98.64"
@@ -223,7 +208,6 @@
     },
     {
       "name": "a captured wood elf scout",
-      "name_sortable": "capturedwoodelfscout",
       "level": 8,
       "locations": [
         "66.91,2.43,98.00"
@@ -233,7 +217,6 @@
     },
     {
       "name": "Crispin Luvinius",
-      "name_sortable": "crispinluvinius",
       "race": [
         "human"
       ],
@@ -257,7 +240,6 @@
     },
     {
       "name": "a Dervish crook",
-      "name_sortable": "dervishcrook",
       "level": 9,
       "locations": [
         "-73.43,-4.23,90.98",
@@ -276,19 +258,16 @@
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
-          "name_sortable": "dervishcutthroats",
           "value": -100
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         }
       ]
     },
     {
       "name": "a Dervish hoodlum",
-      "name_sortable": "dervishhoodlum",
       "level": 7,
       "locations": [
         "-63.01,-4.42,90.62",
@@ -320,19 +299,16 @@
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
-          "name_sortable": "dervishcutthroats",
           "value": -100
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         }
       ]
     },
     {
       "name": "a Dervish hooligan",
-      "name_sortable": "dervishhooligan",
       "level": 5,
       "locations": [
         "-93.87,-4.42,32.95",
@@ -362,19 +338,16 @@
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
-          "name_sortable": "dervishcutthroats",
           "value": -100
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         }
       ]
     },
     {
       "name": "a distraught farmer",
-      "name_sortable": "distraughtfarmer",
       "locations": [
         "-2.46,-2.35,-47.59"
       ],
@@ -386,7 +359,6 @@
     },
     {
       "name": "a dune scorpion",
-      "name_sortable": "dunescorpion",
       "level": 4,
       "locations": [
         "-74.71,-5.31,-32.75",
@@ -402,7 +374,6 @@
     },
     {
       "name": "Enforcer Kurdek",
-      "name_sortable": "enforcerkurdek",
       "race": [
         "ogre"
       ],
@@ -467,7 +438,6 @@
     },
     {
       "name": "Gatekeeper Malora",
-      "name_sortable": "gatekeepermalora",
       "race": [
         "half elf"
       ],
@@ -489,7 +459,6 @@
     },
     {
       "name": "Gatekeeper Malren",
-      "name_sortable": "gatekeepermalren",
       "purpose": "Freeport Militia",
       "locations": [
         "-131.63,-4.27,94.26"
@@ -497,7 +466,6 @@
     },
     {
       "name": "a Giantslayer thug",
-      "name_sortable": "giantslayerthug",
       "level": 9,
       "locations": [
         "-18.06,-2.67,-22.14",
@@ -520,24 +488,20 @@
       "faction_changes": [
         {
           "name": "The Ashen Order",
-          "name_sortable": "ashenorder",
           "value": 50
         },
         {
           "name": "The Ashen Disciples",
-          "name_sortable": "ashendisciples",
           "value": -100
         },
         {
           "name": "The Dreadnaughts",
-          "name_sortable": "Dreadnaught",
           "value": -100
         }
       ]
     },
     {
       "name": "Gloomstalker",
-      "name_sortable": "gloomstalker",
       "level": 11,
       "locations": [
         "-15.81,-2.53,12.49",
@@ -569,7 +533,6 @@
     },
     {
       "name": "a gravel viper",
-      "name_sortable": "gravelviper",
       "level": 7,
       "locations": [
         "-63.71,-4.42,77.96",
@@ -582,14 +545,12 @@
     },
     {
       "name": "Liege Aquila",
-      "name_sortable": "liegeaquila",
       "locations": [
         "-124.76,-4.42,88.9"
       ]
     },
     {
       "name": "Loria",
-      "name_sortable": "loria",
       "race": [
         "barbarian"
       ],
@@ -609,7 +570,6 @@
     },
     {
       "name": "L`Unt",
-      "name_sortable": "lunt",
       "purpose": "Guard",
       "locations": [
         "-97.94,-6.81,-31.49"
@@ -621,7 +581,6 @@
     },
     {
       "name": "Niklaus Kauppen",
-      "name_sortable": "niklauskauppen",
       "level": 8,
       "locations": [
         "-97.93,-3.95,65.16"
@@ -629,19 +588,16 @@
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
-          "name_sortable": "dervishcutthroats",
           "value": -100
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         }
       ]
     },
     {
       "name": "a rioting basher",
-      "name_sortable": "riotingbasher",
       "purpose": "Dreadnaught",
       "locations": [
         "-11.51,-2.6,-49.83",
@@ -653,7 +609,6 @@
     },
     {
       "name": "a rioting brute",
-      "name_sortable": "riotingbrute",
       "purpose": "Dreadnaught",
       "locations": [
         "7.51,-2.67,-42.83",
@@ -674,7 +629,6 @@
     },
     {
       "name": "a rioting thug",
-      "name_sortable": "riotingthug",
       "purpose": "Dreadnaught",
       "locations": [
         "38.96,-2.36,-27.45",
@@ -685,7 +639,6 @@
     },
     {
       "name": "Sasha",
-      "name_sortable": "sasha",
       "purpose": "Alchemist",
       "utterances": [
         "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor, are you?",
@@ -792,7 +745,6 @@
     },
     {
       "name": "a shoreside asp",
-      "name_sortable": "shoresideasp",
       "level": 4,
       "locations": [
         "-71.67,-5.30,-32.13",
@@ -802,7 +754,6 @@
     },
     {
       "name": "Talmudius",
-      "name_sortable": "talmudius",
       "purpose": "Guard",
       "locations": [
         "-100.09,-4.28,-51.98"
@@ -814,7 +765,6 @@
     },
     {
       "name": "Trainer Durbok",
-      "name_sortable": "trainerdurbok",
       "purpose": "Dreadnaught",
       "locations": [
         "-23.99,-2.67,-12.3"
@@ -834,7 +784,6 @@
     },
     {
       "name": "a wild dog",
-      "name_sortable": "wilddog",
       "level": 8,
       "locations": [
         "1.14,-2.67,18.73",
@@ -947,24 +896,19 @@
   ],
   "resourceNodes": [
     {
-      "name": "the creature den",
-      "name_sortable": "creatureden"
+      "name": "the creature den"
     },
     {
-      "name": "the dusty ore",
-      "name_sortable": "dustyore"
+      "name": "the dusty ore"
     },
     {
-      "name": "the excavated stone",
-      "name_sortable": "excavatedstone"
+      "name": "the excavated stone"
     },
     {
-      "name": "the felled arbor",
-      "name_sortable": "felledarbor"
+      "name": "the felled arbor"
     },
     {
-      "name": "the ravaged natural garden",
-      "name_sortable": "ravagednaturalgarden"
+      "name": "the ravaged natural garden"
     }
   ]
 }

@@ -1,6 +1,5 @@
 {
   "name": "Chardok",
-  "name_sortable": "chardok",
   "expansion": "exp04",
   "category": "Kunark",
   "levels": "77-82",
@@ -18,13 +17,11 @@
   "npcs": [
     {
       "name": "a Bathezid enchanter",
-      "name_sortable": "bathezidenchanter",
       "drop_coin_min": 13361,
       "drop_coin_max": 13361
     },
     {
       "name": "a Bathezid gatekeeper",
-      "name_sortable": "bathezidgatekeeper",
       "drops": [
         {
           "gamelink": "\\aITEM -965062331 1253427805:a Bathezid gate crystal\\/a",
@@ -34,7 +31,6 @@
     },
     {
       "name": "The Bridge Keeper",
-      "name_sortable": "bridgekeeper",
       "drops": [
         {
           "gamelink": "\\aITEM -1446316493 -1012334764:large solid chunk of clay\\/a",

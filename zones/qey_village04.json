@@ -1,10 +1,13 @@
 {
   "name": "Castleview Hamlet",
-  "name_sortable": "castleviewhamlet",
+  "removed": "lu64",
   "category": "Villages",
   "subcategory": "Qeynos",
-  "removed": "lu64",
-  "zonerect": "-1012.90,-312.79,-553.08,41.48",
+  "maps": [
+    {
+      "zonerect": "-1012.90,-312.79,-553.08,41.48"
+    }
+  ],
   "connections": [
     {
       "key": "qey_adv01_oakmyst",
@@ -26,7 +29,6 @@
   "npcs": [
     {
       "name": "Apprentice Boggi",
-      "name_sortable": "apprenticeboggi",
       "race": [
         "froglok"
       ],
@@ -42,7 +44,6 @@
     },
     {
       "name": "Bleemeb",
-      "name_sortable": "bleemeb",
       "race": [
         "froglok"
       ],
@@ -74,7 +75,6 @@
     },
     {
       "name": "Bulurg",
-      "name_sortable": "bulurg",
       "race": [
         "froglok"
       ],
@@ -92,7 +92,6 @@
     },
     {
       "name": "Cilindari",
-      "name_sortable": "cilindari",
       "race": [
         "high elf"
       ],
@@ -112,7 +111,6 @@
     },
     {
       "name": "Dalonalis",
-      "name_sortable": "dalonalis",
       "race": [
         "high elf"
       ],
@@ -129,7 +127,6 @@
     },
     {
       "name": "Daylena Telanthis",
-      "name_sortable": "daylenatelanthis",
       "race": [
         "high elf"
       ],
@@ -149,7 +146,6 @@
     },
     {
       "name": "Dolthyryr Helyanwe",
-      "name_sortable": "dolthyryrhelyanwe",
       "race": [
         "high elf"
       ],
@@ -165,7 +161,6 @@
     },
     {
       "name": "Eireneith Alannia",
-      "name_sortable": "eireneithalannia",
       "race": [
         "high elf"
       ],
@@ -181,7 +176,6 @@
     },
     {
       "name": "Entertainer Faeadaen",
-      "name_sortable": "entertainerfaeadaen",
       "race": [
         "high elf"
       ],
@@ -197,7 +191,6 @@
     },
     {
       "name": "Fevalin",
-      "name_sortable": "fevalin",
       "race": [
         "high elf"
       ],
@@ -212,7 +205,6 @@
     },
     {
       "name": "Frup Groaak",
-      "name_sortable": "frupgroaak",
       "race": [
         "froglok"
       ],
@@ -233,7 +225,6 @@
     },
     {
       "name": "Gilcirith Elensar",
-      "name_sortable": "gilcirithelensar",
       "race": [
         "high elf"
       ],
@@ -249,7 +240,6 @@
     },
     {
       "name": "Glump Marrblade",
-      "name_sortable": "glumpmarrblade",
       "race": [
         "froglok"
       ],
@@ -267,7 +257,6 @@
     },
     {
       "name": "Graac Justheart",
-      "name_sortable": "graacjustheart",
       "race": [
         "froglok"
       ],
@@ -283,7 +272,6 @@
     },
     {
       "name": "Grommluk Oognee",
-      "name_sortable": "grommlukoognee",
       "race": [
         "froglok"
       ],
@@ -299,7 +287,6 @@
     },
     {
       "name": "Innkeeper Valean",
-      "name_sortable": "innkeepervalean",
       "race": [
         "high elf"
       ],
@@ -366,7 +353,6 @@
     },
     {
       "name": "Kethelin Shadowcross",
-      "name_sortable": "kethelinshadowcross",
       "race": [
         "high elf"
       ],
@@ -385,7 +371,6 @@
     },
     {
       "name": "Knight-Captain Gerathalas",
-      "name_sortable": "knightcaptaingerathalas",
       "race": [
         "high elf"
       ],
@@ -402,7 +387,6 @@
     },
     {
       "name": "Kruuprum",
-      "name_sortable": "kruuprum",
       "race": [
         "gnome"
       ],
@@ -422,7 +406,6 @@
     },
     {
       "name": "Kwa Stalwart",
-      "name_sortable": "kwastalwart",
       "race": [
         "froglok"
       ],
@@ -436,7 +419,6 @@
     },
     {
       "name": "Listalania Vainederian",
-      "name_sortable": "listalaniavainederian",
       "race": [
         "high elf"
       ],
@@ -449,7 +431,6 @@
     },
     {
       "name": "Rrak Boldfist",
-      "name_sortable": "rrakboldfist",
       "race": [
         "froglok"
       ],
@@ -465,7 +446,6 @@
     },
     {
       "name": "Shae'Ahla",
-      "name_sortable": "shaeahla",
       "race": [
         "high elf"
       ],
@@ -483,7 +463,6 @@
     },
     {
       "name": "a shining nibbler",
-      "name_sortable": "shiningnibbler",
       "locations": [
         "756.46,-43.50,-94.07",
         "760.48,-38.18,-95.73"
@@ -491,7 +470,6 @@
     },
     {
       "name": "Sir Antylus Teraeth",
-      "name_sortable": "sirantylusteraeth",
       "race": [
         "high elf"
       ],
@@ -518,14 +496,12 @@
     },
     {
       "name": "a stingrat",
-      "name_sortable": "stingrat",
       "locations": [
         "751.16,-12.55,-177.38"
       ]
     },
     {
       "name": "Taneranthalis Nedaiveren",
-      "name_sortable": "taneranthalisnedaiveren",
       "race": [
         "high elf"
       ],
@@ -542,7 +518,6 @@
     },
     {
       "name": "Valinar",
-      "name_sortable": "valinar",
       "race": [
         "high elf"
       ],
@@ -562,7 +537,6 @@
     },
     {
       "name": "Vindain Greenfaith",
-      "name_sortable": "vindaingreenfaith",
       "race": [
         "high elf"
       ],
@@ -579,7 +553,6 @@
     },
     {
       "name": "Waitress Brooak",
-      "name_sortable": "waitressbrooak",
       "race": [
         "froglok"
       ],
@@ -595,7 +568,6 @@
     },
     {
       "name": "Yanari Cyellann",
-      "name_sortable": "yanaricyellann",
       "race": [
         "high elf"
       ],

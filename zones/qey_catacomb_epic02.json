@@ -1,11 +1,14 @@
 {
   "name": "The Sepulcher of Jahnda",
-  "name_sortable": "sepulcherofjahnda",
   "category": "Dungeons",
-  "zonerect": "-21.00,-46.00,40.00,26.00",
   "levels": "15-20",
   "access_quests": [
     1817720687
+  ],
+  "maps": [
+    {
+      "zonerect": "-21.00,-46.00,40.00,26.00"
+    }
   ],
   "connections": [
     {
@@ -16,7 +19,6 @@
   "npcs": [
     {
       "name": "a carrion eater",
-      "name_sortable": "carrioneater",
       "level": 14,
       "locations": [
         "4.77,-1.04,-34.37",
@@ -29,7 +31,6 @@
     },
     {
       "name": "a crypt robber",
-      "name_sortable": "cryptrobber",
       "level": 21,
       "difficulty": "heroic",
       "locations": [
@@ -45,13 +46,11 @@
     },
     {
       "name": "a desecrated remains",
-      "name_sortable": "desecratedremains",
       "level": 17,
       "difficulty": "heroic"
     },
     {
       "name": "a grave watcher",
-      "name_sortable": "gravewatcher",
       "level": 17,
       "difficulty": "heroic^",
       "locations": [
@@ -68,7 +67,6 @@
     },
     {
       "name": "Lord Tonmerk",
-      "name_sortable": "lordtonmerk",
       "locations": [
         "-29.38,-1.04,8.17"
       ],
@@ -79,7 +77,6 @@
     },
     {
       "name": "Ronicus the Red",
-      "name_sortable": "ronicusthered",
       "level": 21,
       "difficulty": "heroic",
       "locations": [
@@ -88,7 +85,6 @@
     },
     {
       "name": "Rustam the Vile",
-      "name_sortable": "rustamthevile",
       "locations": [
         "-23.34,-1.04,7.79"
       ],

@@ -1,8 +1,11 @@
 {
   "name": "Tradeskiller's Workshop",
-  "name_sortable": "tradeskillersworkshop",
-  "zonerect": "-21.00,-43.00,37.00,33.00",
   "category": "Crafting Hubs",
+  "maps": [
+    {
+      "zonerect": "-21.00,-43.00,37.00,33.00"
+    }
+  ],
   "connections": [
     {
       "key": "tutorial_island02_evil"
@@ -11,7 +14,6 @@
   "npcs": [
     {
       "name": "Garfa Gillgrinder",
-      "name_sortable": "garfagillgrinder",
       "race": [
         "troll"
       ],

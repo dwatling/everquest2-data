@@ -1,12 +1,15 @@
 {
   "name": "The Buccaneer's Rest",
-  "name_sortable": "buccaneersrest",
   "category": "Dungeons",
   "subcategory": "Group",
-  "zonerect": "-7.00,-71.00,52.00,-29.00",
   "levels": "10-12",
   "access_quests": [
     3466224843
+  ],
+  "maps": [
+    {
+      "zonerect": "-7.00,-71.00,52.00,-29.00"
+    }
   ],
   "connections": [
     {
@@ -16,7 +19,6 @@
   "npcs": [
     {
       "name": "a Thexian brine contaminator",
-      "name_sortable": "thexianbrinecontaminator",
       "level": 10,
       "locations": [
         "-33.46,-45.79,-51.85",
@@ -25,7 +27,6 @@
     },
     {
       "name": "a Thexian commander",
-      "name_sortable": "thexiancommander",
       "level": 12,
       "difficulty": "heroic",
       "locations": [
@@ -34,7 +35,6 @@
     },
     {
       "name": "a Thexian corsair",
-      "name_sortable": "thexiancorsair",
       "level": 12,
       "difficulty": "heroic",
       "locations": [
@@ -57,7 +57,6 @@
     },
     {
       "name": "a Thexian corsair recruit",
-      "name_sortable": "thexiancorsairrecruit",
       "level": 12,
       "locations": [
         "-43.49,-45.79,-45.43"
@@ -65,7 +64,6 @@
     },
     {
       "name": "a Thexian wave crasher",
-      "name_sortable": "thexianwavecrasher",
       "level": 10,
       "locations": [
         "-33.87,-45.79,-54.4",

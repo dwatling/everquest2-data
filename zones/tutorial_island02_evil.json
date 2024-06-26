@@ -1,8 +1,11 @@
 {
   "name": "Outpost of the Overlord",
-  "name_sortable": "outpostoftheoverlord",
-  "zonerect": "-499.08,-319.57,459.67,401.19",
   "levels": "2-8",
+  "maps": [
+    {
+      "zonerect": "-499.08,-319.57,459.67,401.19"
+    }
+  ],
   "connections": [
     {
       "key": "fprt_tradeskill01_island"
@@ -14,7 +17,6 @@
   "npcs": [
     {
       "name": "Ashir",
-      "name_sortable": "ashir",
       "race": [
         "kerran"
       ],
@@ -50,7 +52,6 @@
     },
     {
       "name": "Assassin Vamir",
-      "name_sortable": "assassinvamir",
       "race": [
         "ratonga"
       ],
@@ -77,7 +78,6 @@
     },
     {
       "name": "Asyl Lysarz",
-      "name_sortable": "asyllysarz",
       "utterances": [
         "Chef Gorga better hurry up!  I'm getting hungry.",
         "Return to me if you need an extra sword."
@@ -85,7 +85,6 @@
     },
     {
       "name": "an average sparring partner",
-      "name_sortable": "averagesparringpartner",
       "race": [
         "human"
       ],
@@ -102,7 +101,6 @@
     },
     {
       "name": "Bladefin",
-      "name_sortable": "bladefin",
       "level": 6,
       "aggressive": true,
       "locations": [
@@ -125,7 +123,6 @@
     },
     {
       "name": "Bobble Whirlwidget",
-      "name_sortable": "bobblewhirlwidget",
       "race": [
         "gnome"
       ],
@@ -147,7 +144,6 @@
     },
     {
       "name": "a bull elk",
-      "name_sortable": "bullelk",
       "level": 3,
       "locations": [
         "138.97,1.49,30.57",
@@ -168,7 +164,6 @@
     },
     {
       "name": "Callus Magnus",
-      "name_sortable": "callusmagnus",
       "race": [
         "barbarian"
       ],
@@ -184,7 +179,6 @@
     },
     {
       "name": "Captain Pinious",
-      "name_sortable": "captainpinious",
       "race": [
         "human"
       ],
@@ -202,7 +196,6 @@
     },
     {
       "name": "Captain Tyreth",
-      "name_sortable": "captaintyreth",
       "race": [
         "dark elf"
       ],
@@ -230,7 +223,6 @@
     },
     {
       "name": "Captain Varlos",
-      "name_sortable": "captainvarlos",
       "race": [
         "human"
       ],
@@ -252,7 +244,6 @@
     },
     {
       "name": "Charles Arker",
-      "name_sortable": "charlesarker",
       "race": [
         "human"
       ],
@@ -293,7 +284,6 @@
     },
     {
       "name": "Chef Gorga",
-      "name_sortable": "chefgorga",
       "race": [
         "troll"
       ],
@@ -317,7 +307,6 @@
     },
     {
       "name": "a cliffdiver hawk",
-      "name_sortable": "cliffdiverhawk",
       "level": 3,
       "locations": [
         "270.29,-5.91,104.22",
@@ -327,7 +316,6 @@
     },
     {
       "name": "Coercer Zlith",
-      "name_sortable": "coercerzlith",
       "race": [
         "iksar"
       ],
@@ -353,7 +341,6 @@
     },
     {
       "name": "a cow",
-      "name_sortable": "cow",
       "level": 4,
       "locations": [
         "235.13,-0.83,-163.91",
@@ -372,7 +359,6 @@
     },
     {
       "name": "a cow elk",
-      "name_sortable": "cowelk",
       "level": 2,
       "locations": [
         "117.90,-3.80,183.03",
@@ -395,7 +381,6 @@
     },
     {
       "name": "Dasher",
-      "name_sortable": "dasher",
       "level": 5,
       "locations": [
         "154.74,4.12,-156.61"
@@ -403,7 +388,6 @@
     },
     {
       "name": "Ebb Tide",
-      "name_sortable": "ebbtide",
       "race": [
         "gnome"
       ],
@@ -632,7 +616,6 @@
     },
     {
       "name": "an elk calf",
-      "name_sortable": "elkcalf",
       "level": 2,
       "locations": [
         "61.63,-3.80,210.11",
@@ -662,7 +645,6 @@
     },
     {
       "name": "Falconer Lithkeen",
-      "name_sortable": "falconerlithkeen",
       "race": [
         "wood elf"
       ],
@@ -687,7 +669,6 @@
     },
     {
       "name": "a fallen Tunarian",
-      "name_sortable": "fallentunarian",
       "level": 5,
       "locations": [
         "-123.76,4.57,-44.73"
@@ -708,7 +689,6 @@
     },
     {
       "name": "a Field Investigator",
-      "name_sortable": "fieldinvestigator",
       "race": [
         "iksar"
       ],
@@ -731,7 +711,6 @@
     },
     {
       "name": "a formidable sparring partner",
-      "name_sortable": "formidablesparringpartner",
       "race": [
         "barbarian"
       ],
@@ -747,7 +726,6 @@
     },
     {
       "name": "Geredo",
-      "name_sortable": "geredo",
       "race": [
         "gnome"
       ],
@@ -760,7 +738,6 @@
     },
     {
       "name": "Gethe Huggs",
-      "name_sortable": "gethehuggs",
       "race": [
         "human"
       ],
@@ -778,7 +755,6 @@
     },
     {
       "name": "a giant wilderbear",
-      "name_sortable": "giantwilderbear",
       "level": 4,
       "locations": [
         "145.43,1.48,-79.72",
@@ -794,7 +770,6 @@
     },
     {
       "name": "Greshar",
-      "name_sortable": "greshar",
       "race": [
         "kerran"
       ],
@@ -812,7 +787,6 @@
     },
     {
       "name": "Helmsman Nyles",
-      "name_sortable": "helmsmannyles",
       "race": [
         "human"
       ],
@@ -822,7 +796,6 @@
     },
     {
       "name": "Hogga Irongut",
-      "name_sortable": "hoggairongut",
       "race": [
         "ogre"
       ],
@@ -838,7 +811,6 @@
     },
     {
       "name": "Ingrid",
-      "name_sortable": "ingrid",
       "race": [
         "high elf"
       ],
@@ -851,7 +823,6 @@
     },
     {
       "name": "Jonas Rollings",
-      "name_sortable": "jonasrollings",
       "purpose": "Guard",
       "level": 100,
       "difficulty": "heroic",
@@ -862,14 +833,12 @@
     },
     {
       "name": "Kander",
-      "name_sortable": "kander",
       "locations": [
         "-4.21,-7.4,264.36"
       ]
     },
     {
       "name": "Kurgle Frogbane",
-      "name_sortable": "kurglefrogbane",
       "race": [
         "troll"
       ],
@@ -885,7 +854,6 @@
     },
     {
       "name": "Laena",
-      "name_sortable": "laena",
       "level": 4,
       "locations": [
         "275.78,-1.57,-68.05"
@@ -898,7 +866,6 @@
     },
     {
       "name": "a large sand tortoise",
-      "name_sortable": "largesandtortoise",
       "level": 4,
       "locations": [
         "63.33,-7.66,-25.29",
@@ -918,7 +885,6 @@
     },
     {
       "name": "Mabel",
-      "name_sortable": "mabel",
       "level": 4,
       "locations": [
         "240.41,0.05,-169.25"
@@ -926,7 +892,6 @@
     },
     {
       "name": "a Militia patroller",
-      "name_sortable": "militiapatroller",
       "race": [
         "troll"
       ],
@@ -952,14 +917,12 @@
       "faction_changes": [
         {
           "name": "The Freeport Militia",
-          "name_sortable": "freeportmilitia",
           "value": -100
         }
       ]
     },
     {
       "name": "Murg Leechtongue",
-      "name_sortable": "murgleechtongue",
       "race": [
         "troll"
       ],
@@ -978,7 +941,6 @@
     },
     {
       "name": "a needlefang",
-      "name_sortable": "needlefang",
       "level": 4,
       "locations": [
         "18.11,-11.90,-24.82",
@@ -1005,7 +967,6 @@
     },
     {
       "name": "Nogg Dreadscar",
-      "name_sortable": "noggdreadscar",
       "race": [
         "ogre"
       ],
@@ -1022,14 +983,12 @@
     },
     {
       "name": "Oolar Omafa",
-      "name_sortable": "oolaromafa",
       "utterances": [
         "By will of the Overlord!"
       ]
     },
     {
       "name": "Overseer Adrium",
-      "name_sortable": "overseeradrium",
       "level": 5,
       "locations": [
         "-59.79,13.53,-157.03"
@@ -1045,7 +1004,6 @@
     },
     {
       "name": "Priestess Xaliea",
-      "name_sortable": "priestessxaliea",
       "race": [
         "half elf"
       ],
@@ -1068,7 +1026,6 @@
     },
     {
       "name": "Pruk Skullpound",
-      "name_sortable": "prukskullpound",
       "race": [
         "ogre"
       ],
@@ -1088,7 +1045,6 @@
     },
     {
       "name": "a reef turtle",
-      "name_sortable": "reefturtle",
       "level": 2,
       "locations": [
         "74.53,-12.13,-49.21",
@@ -1112,7 +1068,6 @@
     },
     {
       "name": "a sandstalker",
-      "name_sortable": "sandstalker",
       "level": 4,
       "locations": [
         "80.77,-12.02,-43.60",
@@ -1130,7 +1085,6 @@
     },
     {
       "name": "a sand tortoise",
-      "name_sortable": "sandtortoise",
       "level": 2,
       "locations": [
         "-70.92,-7.59,77.05",
@@ -1145,7 +1099,6 @@
     },
     {
       "name": "Saryl Scarscale",
-      "name_sortable": "sarylscarscale",
       "purpose": "General Goods",
       "utterances": [
         "All the way back to the days of Cabilis, my family has provided goods to those in need.",
@@ -1642,7 +1595,6 @@
     },
     {
       "name": "a sawtooth shark",
-      "name_sortable": "sawtoothshark",
       "level": 6,
       "aggressive": true,
       "locations": [
@@ -1652,7 +1604,6 @@
     },
     {
       "name": "a `shipwre`cked explorer",
-      "name_sortable": "shipwreckedexplorer",
       "level": 6,
       "aggressive": true,
       "locations": [
@@ -1695,7 +1646,6 @@
     },
     {
       "name": "a shipwrecked swashbuckler",
-      "name_sortable": "shipwreckedswashbuckler",
       "level": 6,
       "aggressive": true,
       "locations": [
@@ -1720,7 +1670,6 @@
     },
     {
       "name": "a shoal glider",
-      "name_sortable": "shoalglider",
       "level": 3,
       "locations": [
         "13.13,-12.01,-15.14",
@@ -1747,7 +1696,6 @@
     },
     {
       "name": "Sirsi Rissar",
-      "name_sortable": "sirsirissar",
       "race": [
         "iksar"
       ],
@@ -1763,7 +1711,6 @@
     },
     {
       "name": "a small sand tortoise",
-      "name_sortable": "smallsandtortoise",
       "level": 1,
       "locations": [
         "3.44,-8.50,241.01",
@@ -1784,7 +1731,6 @@
     },
     {
       "name": "a soldier bee",
-      "name_sortable": "soldierbee",
       "level": 2,
       "locations": [
         "82.93,-3.72,182.56",
@@ -1800,7 +1746,6 @@
     },
     {
       "name": "Swift",
-      "name_sortable": "swift",
       "level": 5,
       "locations": [
         "157.62,3.89,-168.11"
@@ -1808,7 +1753,6 @@
     },
     {
       "name": "Tayil N'Velex",
-      "name_sortable": "tayilnvelex",
       "race": [
         "dark elf"
       ],
@@ -1856,7 +1800,6 @@
     },
     {
       "name": "a trained bear",
-      "name_sortable": "trainedbear",
       "level": 5,
       "locations": [
         "-123.86,4.53,-77.18",
@@ -1869,7 +1812,6 @@
     },
     {
       "name": "a trained hawk",
-      "name_sortable": "trainedhawk",
       "level": 4,
       "locations": [
         "-86.24,2.09,-236.09",
@@ -1878,7 +1820,6 @@
     },
     {
       "name": "a trained wolf",
-      "name_sortable": "trainedwolf",
       "level": 5,
       "locations": [
         "-133.32,4.37,-87.41",
@@ -1905,7 +1846,6 @@
     },
     {
       "name": "Trainer Anna Winston",
-      "name_sortable": "trainerannawinston",
       "race": [
         "human"
       ],
@@ -1922,7 +1862,6 @@
     },
     {
       "name": "Trainer Arthur Merrin",
-      "name_sortable": "trainerarthurmerrin",
       "race": [
         "human"
       ],
@@ -1939,7 +1878,6 @@
     },
     {
       "name": "Trainer Corx Knickknack",
-      "name_sortable": "trainercorxknickknack",
       "race": [
         "gnome"
       ],
@@ -1957,7 +1895,6 @@
     },
     {
       "name": "Trainer Darg Frostwind",
-      "name_sortable": "trainerdargfrostwind",
       "race": [
         "barbarian"
       ],
@@ -1981,7 +1918,6 @@
     },
     {
       "name": "Trainer Jayla Surfrider",
-      "name_sortable": "trainerjaylasurfrider",
       "race": [
         "half elf"
       ],
@@ -2009,7 +1945,6 @@
     },
     {
       "name": "Trainer Kasha Yitski",
-      "name_sortable": "trainerkashayitski",
       "race": [
         "ratonga"
       ],
@@ -2026,7 +1961,6 @@
     },
     {
       "name": "Trainer Sythor the All-Seeing",
-      "name_sortable": "trainersythortheallseeing",
       "race": [
         "human"
       ],
@@ -2044,7 +1978,6 @@
     },
     {
       "name": "Trainer Vella N'Dur",
-      "name_sortable": "trainervellandur",
       "race": [
         "dark elf"
       ],
@@ -2062,7 +1995,6 @@
     },
     {
       "name": "Trainer Vissa Sathliss",
-      "name_sortable": "trainervissasathliss",
       "race": [
         "iksar"
       ],
@@ -2079,7 +2011,6 @@
     },
     {
       "name": "a training bear",
-      "name_sortable": "trainingbear",
       "level": 4,
       "locations": [
         "112.79,0.55,-189.45",
@@ -2090,7 +2021,6 @@
     },
     {
       "name": "a training hawk",
-      "name_sortable": "traininghawk",
       "level": 4,
       "locations": [
         "213.12,-0.88,-72.27",
@@ -2099,7 +2029,6 @@
     },
     {
       "name": "a training wolf",
-      "name_sortable": "trainingwolf",
       "level": 4,
       "locations": [
         "102.47,0.59,-201.55"
@@ -2107,7 +2036,6 @@
     },
     {
       "name": "a triggerfish",
-      "name_sortable": "triggerfish",
       "level": 2,
       "locations": [
         "25.64,-14.23,-27.36",
@@ -2162,7 +2090,6 @@
     },
     {
       "name": "a Tunarian bearmaster",
-      "name_sortable": "tunarianbearmaster",
       "level": 5,
       "aggressive": true,
       "locations": [
@@ -2190,7 +2117,6 @@
     },
     {
       "name": "a Tunarian falconer",
-      "name_sortable": "tunarianfalconer",
       "level": 5,
       "aggressive": true,
       "locations": [
@@ -2202,7 +2128,6 @@
     },
     {
       "name": "a Tunarian fisher",
-      "name_sortable": "tunarianfisher",
       "level": 5,
       "aggressive": true,
       "locations": [
@@ -2217,7 +2142,6 @@
     },
     {
       "name": "a Tunarian gravedigger",
-      "name_sortable": "tunariangravedigger",
       "level": 5,
       "aggressive": true,
       "locations": [
@@ -2226,7 +2150,6 @@
     },
     {
       "name": "a Tunarian horse sentry",
-      "name_sortable": "tunarianhorsesentry",
       "level": 5,
       "aggressive": true,
       "locations": [
@@ -2271,7 +2194,6 @@
     },
     {
       "name": "a Tunarian lookout",
-      "name_sortable": "tunarianlookout",
       "level": 4,
       "aggressive": true,
       "locations": [
@@ -2281,7 +2203,6 @@
     },
     {
       "name": "a Tunarian miner",
-      "name_sortable": "tunarianminer",
       "level": 3,
       "aggressive": true,
       "locations": [
@@ -2296,7 +2217,6 @@
     },
     {
       "name": "a Tunarian mourner",
-      "name_sortable": "tunarianmourner",
       "level": 5,
       "aggressive": true,
       "locations": [
@@ -2305,7 +2225,6 @@
     },
     {
       "name": "a Tunarian protector",
-      "name_sortable": "tunarianprotector",
       "level": 5,
       "aggressive": true,
       "locations": [
@@ -2353,7 +2272,6 @@
     },
     {
       "name": "a Tunarian scout",
-      "name_sortable": "tunarianscout",
       "level": 3,
       "aggressive": true,
       "locations": [
@@ -2372,7 +2290,6 @@
     },
     {
       "name": "a Tunarian wolfmaster",
-      "name_sortable": "tunarianwolfmaster",
       "level": 4,
       "aggressive": true,
       "locations": [
@@ -2392,7 +2309,6 @@
     },
     {
       "name": "a vicious sandstalker",
-      "name_sortable": "vicioussandstalker",
       "level": 5,
       "aggressive": true,
       "locations": [
@@ -2420,7 +2336,6 @@
     },
     {
       "name": "Vim",
-      "name_sortable": "vim",
       "race": [
         "human"
       ],
@@ -2433,7 +2348,6 @@
     },
     {
       "name": "Waulon",
-      "name_sortable": "waulon",
       "race": [
         "dwarf"
       ],
@@ -2446,7 +2360,6 @@
     },
     {
       "name": "a weak sparring partner",
-      "name_sortable": "weaksparringpartner",
       "race": [
         "gnome"
       ],
@@ -2464,7 +2377,6 @@
     },
     {
       "name": "Whizratchet",
-      "name_sortable": "whizratchet",
       "race": [
         "gnome"
       ],
@@ -2481,7 +2393,6 @@
     },
     {
       "name": "a wilderbear",
-      "name_sortable": "wilderbear",
       "level": 3,
       "aggressive": true,
       "locations": [
@@ -2507,7 +2418,6 @@
     },
     {
       "name": "a wilderbear cub",
-      "name_sortable": "wilderbearcub",
       "level": 2,
       "locations": [
         "133.61,1.26,32.68",
@@ -2551,7 +2461,6 @@
     },
     {
       "name": "a wilderwolf",
-      "name_sortable": "wilderwolf",
       "level": 5,
       "aggressive": true,
       "locations": [
@@ -2582,7 +2491,6 @@
     },
     {
       "name": "Wix Wimblewick",
-      "name_sortable": "wixwimblewick",
       "race": [
         "gnome"
       ],
@@ -2598,7 +2506,6 @@
     },
     {
       "name": "a worker bee",
-      "name_sortable": "workerbee",
       "level": 1,
       "locations": [
         "75.84,-1.00,191.62",
@@ -2618,7 +2525,6 @@
     },
     {
       "name": "Zito Graban",
-      "name_sortable": "zitograban",
       "race": [
         "ratonga"
       ],
@@ -2733,36 +2639,28 @@
   ],
   "resourceNodes": [
     {
-      "name": "the budding natural garden",
-      "name_sortable": "buddingnaturalgarden"
+      "name": "the budding natural garden"
     },
     {
-      "name": "the coffee bush",
-      "name_sortable": "coffeebush"
+      "name": "the coffee bush"
     },
     {
-      "name": "the felled elm tree",
-      "name_sortable": "felledelmtree"
+      "name": "the felled elm tree"
     },
     {
-      "name": "the roots",
-      "name_sortable": "roots"
+      "name": "the roots"
     },
     {
-      "name": "the rugged ore",
-      "name_sortable": "ruggedore"
+      "name": "the rugged ore"
     },
     {
-      "name": "the rugged stones",
-      "name_sortable": "ruggedstones"
+      "name": "the rugged stones"
     },
     {
-      "name": "the school of fish",
-      "name_sortable": "schooloffish"
+      "name": "the school of fish"
     },
     {
-      "name": "the unearthed ore",
-      "name_sortable": "unearthedore"
+      "name": "the unearthed ore"
     }
   ]
 }

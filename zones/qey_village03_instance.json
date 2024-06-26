@@ -1,10 +1,13 @@
 {
   "name": "Graystone Yard: Herald of Rage",
-  "name_sortable": "graystoneyardheraldofrage",
   "category": "Villages",
   "subcategory": "Qeynos",
-  "zonerect": "-1104.84,-289.78,-649.27,54.27",
-    "connections": [
+  "maps": [
+    {
+      "zonerect": "-1104.84,-289.78,-649.27,54.27"
+    }
+  ],
+  "connections": [
     {
       "key": "qeynos_combined02"
     }
@@ -12,7 +15,6 @@
   "npcs": [
     {
       "name": "Clewan Thunderfar",
-      "name_sortable": "clewanthunderfar",
       "locations": [
         "917.43,-20.73,-92.58"
       ],
@@ -22,7 +24,6 @@
     },
     {
       "name": "a confused guard",
-      "name_sortable": "confusedguard",
       "locations": [
         "865.64,-18.28,-113.82",
         "832.99,-18.36,-117.37"
@@ -36,7 +37,6 @@
     },
     {
       "name": "an enraged follower",
-      "name_sortable": "enragedfollower",
       "locations": [
         "928.44,-25.04,-150.76",
         "925.55,-24.83,-156.49",
@@ -45,21 +45,18 @@
     },
     {
       "name": "Enraged Qeynos Guard",
-      "name_sortable": "enragedqeynosguard",
       "locations": [
         "820.66,-25.43,-151.44"
       ]
     },
     {
       "name": "Enraged Royal Antonican Guard",
-      "name_sortable": "enragedroyalantonicanguard",
       "locations": [
         "883.86,-23.23,-164.09"
       ]
     },
     {
       "name": "Gavin Seabreach",
-      "name_sortable": "gavinseabreach",
       "locations": [
         "915.75,-20.73,-90.43"
       ],
@@ -69,7 +66,6 @@
     },
     {
       "name": "Gelerth Bucklebrow",
-      "name_sortable": "gelerthbucklebrow",
       "locations": [
         "892.37,-25.26,-174.07"
       ],
@@ -81,7 +77,6 @@
     },
     {
       "name": "a Graystone barbarian",
-      "name_sortable": "graystonebarbarian",
       "locations": [
         "869.80,-20.56,-124.63",
         "860.73,-20.06,-119.90",
@@ -107,7 +102,6 @@
     },
     {
       "name": "a Graystone dwarf",
-      "name_sortable": "graystonedwarf",
       "locations": [
         "869.03,-20.56,-123.49",
         "867.03,-14.06,-124.85",
@@ -131,7 +125,6 @@
     },
     {
       "name": "a loyal follower",
-      "name_sortable": "loyalfollower",
       "locations": [
         "915.85,-25.09,-150.58",
         "916.86,-25.1,-156.76"
@@ -143,14 +136,12 @@
     },
     {
       "name": "Marweth Wrathborn",
-      "name_sortable": "marwethwrathborn",
       "locations": [
         "927.5,-23.57,-147.63"
       ]
     },
     {
       "name": "a Supply Thief",
-      "name_sortable": "supplythief",
       "locations": [
         "871.66,-9.65,-200.92",
         "891.59,-25.45,-105.24"
@@ -163,7 +154,6 @@
     },
     {
       "name": "Tarrill Beatfist",
-      "name_sortable": "tarrillbeatfist",
       "locations": [
         "912.27,-20.73,-91.36"
       ],

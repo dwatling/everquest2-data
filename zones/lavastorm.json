@@ -1,10 +1,13 @@
 {
   "name": "Lavastorm",
-  "name_sortable": "lavastorm",
   "category": "Lavastorm",
   "description": "Lavastorm is home to the great volcano of Mount Solusek, and caverns of Solusek's Eye within its shadow. Here too are found the remains of the Temple of Solusek Ro, long fallen from its former glory.",
-  "zonerect": "-797.12,-822.96,1328.66,745.33",
   "levels": "40-55",
+  "maps": [
+    {
+      "zonerect": "-797.12,-822.96,1328.66,745.33"
+    }
+  ],
   "connections": [
     {
       "key": "solusekseye"
@@ -13,14 +16,12 @@
   "npcs": [
     {
       "name": "an acolyte of flame",
-      "name_sortable": "acolyteofflame",
       "utterances": [
         "Where would you like the mount to take you?"
       ]
     },
     {
       "name": "a molten fragment",
-      "name_sortable": "moltenfragment",
       "locations": [
         "-253.11,-111.91,246.88",
         "-268.72,-102.64,247.14",
@@ -46,7 +47,6 @@
     },
     {
       "name": "a molten wormling",
-      "name_sortable": "moltenwormling",
       "locations": [
         "-296.26,-117.64,293.43"
       ],
@@ -59,7 +59,6 @@
     },
     {
       "name": "a Sootfoot gatherer",
-      "name_sortable": "sootfootgatherer",
       "locations": [
         "-241.50,-130.00,310.16",
         "-294.01,-130.44,343.58",
@@ -125,7 +124,6 @@
     },
     {
       "name": "a Sootfoot harvester",
-      "name_sortable": "sootfootharvester",
       "locations": [
         "-349.70,-130.00,363.69",
         "-348.89,-131.01,354.96",
@@ -148,7 +146,6 @@
     },
     {
       "name": "a Sootfoot laborer",
-      "name_sortable": "sootfootlaborer",
       "locations": [
         "-264.43,-131.01,333.77",
         "-245.51,-113.87,224.17",
@@ -157,7 +154,6 @@
     },
     {
       "name": "a Sootfoot peon",
-      "name_sortable": "sootfootpeon",
       "locations": [
         "-250.60,-113.32,215.25"
       ],
@@ -170,7 +166,6 @@
     },
     {
       "name": "a Sootfoot rockpicker",
-      "name_sortable": "sootfootrockpicker",
       "locations": [
         "-177.09,-127.54,285.02",
         "-180.13,-130.42,309.21",
@@ -194,7 +189,6 @@
     },
     {
       "name": "a Sootfoot trixter",
-      "name_sortable": "sootfoottrixter",
       "locations": [
         "-262.75,-114.61,232.38"
       ],
@@ -207,7 +201,6 @@
     },
     {
       "name": "a Sootfoot warrior",
-      "name_sortable": "sootfootwarrior",
       "locations": [
         "-253.27,-112.37,239.76",
         "-276.73,-111.87,232.65",
@@ -222,7 +215,6 @@
     },
     {
       "name": "a Sootfoot whelp",
-      "name_sortable": "sootfootwhelp",
       "locations": [
         "-173.05,-127.98,287.41",
         "-161.60,-114.00,214.17",
@@ -240,14 +232,12 @@
     },
     {
       "name": "an uninterested Sootfoot sentry",
-      "name_sortable": "uninterestedsootfootsentry",
       "locations": [
         "-290.27,-130.87,344.51"
       ]
     },
     {
       "name": "a young Sootfoot",
-      "name_sortable": "youngsootfoot",
       "utterances": [
         "Me not know you.  Me thinks you new!  You go see Blisterzonk.  He in tent past Fennin's Pass.",
         "Blisterzonk be the goblin for you!  He in tent past Fennin's Pass.  Go now!"
@@ -306,28 +296,22 @@
   ],
   "resourceNodes": [
     {
-      "name": "the blackened animal den",
-      "name_sortable": "blackenedanimalden"
+      "name": "the blackened animal den"
     },
     {
-      "name": "the blackened shrubbery",
-      "name_sortable": "blackenedshrubbery"
+      "name": "the blackened shrubbery"
     },
     {
-      "name": "the decrepit arbor",
-      "name_sortable": "decrepitarbor"
+      "name": "the decrepit arbor"
     },
     {
-      "name": "the flame licked ore",
-      "name_sortable": "flamelickedore"
+      "name": "the flame licked ore"
     },
     {
-      "name": "the metamorphic stone",
-      "name_sortable": "metamorphicstone"
+      "name": "the metamorphic stone"
     },
     {
-      "name": "the paltry roots",
-      "name_sortable": "paltryroots"
+      "name": "the paltry roots"
     }
   ]
 }

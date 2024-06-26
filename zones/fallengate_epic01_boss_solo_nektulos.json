@@ -1,9 +1,12 @@
 {
   "name": "The Lair of the Necromancer",
-  "name_sortable": "lairofthenecromancer",
   "category": "Dungeons",
-  "zonerect": "-129.00,-195.00,-21.00,-58.00",
   "levels": "25-30",
+  "maps": [
+    {
+      "zonerect": "-129.00,-195.00,-21.00,-58.00"
+    }
+  ],
   "connections": [
     {
       "key": "nektulos"
@@ -12,7 +15,6 @@
   "npcs": [
     {
       "name": "an abhorrent recreant",
-      "name_sortable": "abhorrentrecreant",
       "locations": [
         "57.5,-46.44,-116.25"
       ],
@@ -24,7 +26,6 @@
     },
     {
       "name": "an awoken devotee",
-      "name_sortable": "awokendevotee",
       "locations": [
         "92.85,-46.44,-124.89",
         "112.77,-46.44,-117.46",
@@ -33,7 +34,6 @@
     },
     {
       "name": "a dark widow",
-      "name_sortable": "darkwidow",
       "locations": [
         "58.58,-39.94,-155.75",
         "58.77,-39.94,-136.91"
@@ -47,7 +47,6 @@
     },
     {
       "name": "a faithless necromancer",
-      "name_sortable": "faithlessnecromancer",
       "locations": [
         "57.85,-46.44,-110.34"
       ],
@@ -57,7 +56,6 @@
     },
     {
       "name": "an insurgent demagogue",
-      "name_sortable": "insurgentdemagogue",
       "locations": [
         "54.94,-46.44,-112.93",
         "61.06,-46.44,-113.41"
@@ -68,7 +66,6 @@
     },
     {
       "name": "a lattice spider",
-      "name_sortable": "latticespider",
       "locations": [
         "92.73,-46.44,-112.64",
         "44.38,-59.44,-106.89"
@@ -76,7 +73,6 @@
     },
     {
       "name": "an orb weaver",
-      "name_sortable": "orbweaver",
       "locations": [
         "106.92,-46.44,-123.91",
         "62.07,-59.44,-108.41",
@@ -86,7 +82,6 @@
     },
     {
       "name": "a profane harbinger",
-      "name_sortable": "profaneharbinger",
       "locations": [
         "111.97,-46.44,-114.53",
         "80.4,-42.15,-98.76",
@@ -98,7 +93,6 @@
     },
     {
       "name": "a risen vindicator",
-      "name_sortable": "risenvindicator",
       "locations": [
         "84.07,-46.44,-134.37",
         "76.07,-39.94,-93.39"
@@ -106,7 +100,6 @@
     },
     {
       "name": "a subversive fanatic",
-      "name_sortable": "subversivefanatic",
       "locations": [
         "61.6,-46.44,-85.77",
         "55.32,-46.44,-85.41",
@@ -118,7 +111,6 @@
     },
     {
       "name": "T'Sarn V'Thal",
-      "name_sortable": "tsarnvthal",
       "locations": [
         "57.34,-46.44,-113.4"
       ],

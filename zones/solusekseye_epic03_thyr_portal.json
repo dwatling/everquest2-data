@@ -1,9 +1,12 @@
 {
   "name": "Portal to the Past: Nagafen's Lair",
-  "name_sortable": "portaltothepastnagafenslair",
   "category": "Lavastorm",
-  "zonerect": "160.00,-222.00,303.00,-56.00",
   "levels": "60",
+  "maps": [
+    {
+      "zonerect": "160.00,-222.00,303.00,-56.00"
+    }
+  ],
   "connections": [
     {
       "key": "live_chronoportal_hub"

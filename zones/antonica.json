@@ -1,10 +1,13 @@
 {
   "name": "Antonica",
-  "name_sortable": "antonica",
   "category": "Karan",
   "description": "Home to the city of Qeynos, the dungeon of Blackburrow and haunted fortress of Stormhold.",
-  "zonerect": "-652.63,-1178.98,2910.01,1526.14",
   "levels": "10-20",
+  "maps": [
+    {
+      "zonerect": "-652.63,-1178.98,2910.01,1526.14"
+    }
+  ],
   "connections": [
     {
       "key": "qeynos_combined01"
@@ -37,14 +40,12 @@
   "npcs": [
     {
       "name": "Able Tucksmeet",
-      "name_sortable": "abletucksmeet",
       "utterances": [
         "Darathar awaits, do you dare!?"
       ]
     },
     {
       "name": "Abram Calvern",
-      "name_sortable": "abramcalvern",
       "locations": [
         "-1184.88,26.89,-956.93"
       ],
@@ -60,7 +61,6 @@
     },
     {
       "name": "Addson",
-      "name_sortable": "addson",
       "locations": [
         "-723.52,-15.9,245.34"
       ],
@@ -72,7 +72,6 @@
     },
     {
       "name": "Aldritch",
-      "name_sortable": "aldritch",
       "utterances": [
         "Duty above all else, citizen, except honor!",
         "Good day to you, citizen. All preserve Queen Antonia.",
@@ -81,7 +80,6 @@
     },
     {
       "name": "an ancient octopus",
-      "name_sortable": "ancientoctopus",
       "level": 18,
       "locations": [
         "-1483.75,-45.38,-946.99",
@@ -96,7 +94,6 @@
     },
     {
       "name": "Angelina McQuibble",
-      "name_sortable": "angelinamcquibble",
       "locations": [
         "-1820.52,-37.84,-528.07"
       ],
@@ -106,7 +103,6 @@
     },
     {
       "name": "Anguis",
-      "name_sortable": "anguis",
       "locations": [
         "-1241.67,17.18,-881.57",
         "-1206.59,18.48,-885.07"
@@ -114,7 +110,6 @@
     },
     {
       "name": "Animator Z'Apha",
-      "name_sortable": "animatorzapha",
       "locations": [
         "-2012.77,-6,529.85"
       ],
@@ -131,24 +126,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "Aroof Wolfchaser",
-      "name_sortable": "aroofwolfchaser",
       "utterances": [
         "Hail!",
         "Thanks!",
@@ -159,7 +150,6 @@
     },
     {
       "name": "Barstan Rheyble",
-      "name_sortable": "barstanrheyble",
       "utterances": [
         "Some of what I sell may not be meant for you, not yet at least.",
         "Hmmm... let me get a closer look. Ah, yes, yes this is part of a set. I know the stories well, Sabertooth legends.",
@@ -182,7 +172,6 @@
     },
     {
       "name": "a beaded lizard",
-      "name_sortable": "beadedlizard",
       "level": 14,
       "locations": [
         "-522.08,-13.29,-444.44",
@@ -212,7 +201,6 @@
     },
     {
       "name": "a bear cub",
-      "name_sortable": "bearcub",
       "level": 12,
       "locations": [
         "-409.99,-2.64,591.75",
@@ -228,7 +216,6 @@
     },
     {
       "name": "Blarton Blumble",
-      "name_sortable": "blartonblumble",
       "locations": [
         "-1830.76,-37.85,-540.43"
       ],
@@ -255,7 +242,6 @@
     },
     {
       "name": "a blight oak",
-      "name_sortable": "blightoak",
       "locations": [
         "-1817.79,-9.48,733.11",
         "-1826.42,-9.57,753.40",
@@ -278,7 +264,6 @@
     },
     {
       "name": "a bloated skeleton",
-      "name_sortable": "bloatedskeleton",
       "locations": [
         "-1773.82,-8.62,867.13",
         "-1805.94,-14.37,828.59",
@@ -303,7 +288,6 @@
     },
     {
       "name": "a Bloodsaber agent",
-      "name_sortable": "bloodsaberagent",
       "locations": [
         "-1676.53,-1.32,-321.63",
         "-1977.54,16.96,-706.37"
@@ -319,7 +303,6 @@
     },
     {
       "name": "a Bloodsaber Corruptor",
-      "name_sortable": "bloodsabercorruptor",
       "locations": [
         "-1676.53,-1.32,-321.63"
       ],
@@ -329,7 +312,6 @@
     },
     {
       "name": "Bobby McQuibble",
-      "name_sortable": "bobbymcquibble",
       "locations": [
         "-1934.5,-36.17,-614.11"
       ],
@@ -339,7 +321,6 @@
     },
     {
       "name": "Bra'ak the Reptile",
-      "name_sortable": "braakthereptile",
       "locations": [
         "-2178.33,8.83,96.88"
       ],
@@ -362,24 +343,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "Breeza Harmet",
-      "name_sortable": "breezaharmet",
       "locations": [
         "-1840.79,-38.09,-515.76"
       ],
@@ -390,7 +367,6 @@
     },
     {
       "name": "Bulvar Rakgam",
-      "name_sortable": "bulvarrakgam",
       "locations": [
         "-2114.37,-39.88,433.62"
       ],
@@ -427,7 +403,6 @@
     },
     {
       "name": "a calcified skeleton",
-      "name_sortable": "calcifiedskeleton",
       "locations": [
         "421.95,-30.03,621.57",
         "168.80,-17.71,247.92",
@@ -484,7 +459,6 @@
     },
     {
       "name": "a Caltorsis cleric",
-      "name_sortable": "caltorsiscleric",
       "level": 18,
       "locations": [
         "-1396.75,-22.53,-805.21",
@@ -505,7 +479,6 @@
     },
     {
       "name": "a Caltorsis knight",
-      "name_sortable": "caltorsisknight",
       "level": 18,
       "locations": [
         "-1518.04,-11.27,-713.64",
@@ -529,7 +502,6 @@
     },
     {
       "name": "a Caltorsis magi",
-      "name_sortable": "caltorsismagi",
       "level": 18,
       "locations": [
         "-1521.8,-12.3,-651.07",
@@ -560,7 +532,6 @@
     },
     {
       "name": "a Caltorsis watchman",
-      "name_sortable": "caltorsiswatchman",
       "level": 18,
       "locations": [
         "-1521.8,-12.3,-651.07",
@@ -582,7 +553,6 @@
     },
     {
       "name": "Camden",
-      "name_sortable": "camden",
       "locations": [
         "85.84,-20.46,-34.27"
       ],
@@ -593,7 +563,6 @@
     },
     {
       "name": "Cantile Digglefiz",
-      "name_sortable": "cantiledigglefiz",
       "locations": [
         "-1899.7,-33.82,-516.5",
         "-1894.24,-32.82,-505.17"
@@ -604,7 +573,6 @@
     },
     {
       "name": "Captain Beltho",
-      "name_sortable": "captainbeltho",
       "locations": [
         "-2103.03,-44.51,437.84"
       ],
@@ -617,7 +585,6 @@
     },
     {
       "name": "Captain Eitoa",
-      "name_sortable": "captaineitoa",
       "locations": [
         "36.98,-18.49,-31.52",
         "61.87,-19.7,-14.25",
@@ -651,7 +618,6 @@
     },
     {
       "name": "a Cavemaw grub hunter",
-      "name_sortable": "cavemawgrubhunter",
       "level": 14,
       "locations": [
         "-754.23,-9.82,-216.2",
@@ -692,24 +658,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Cavemaw rock melter",
-      "name_sortable": "cavemawrockmelter",
       "level": 16,
       "locations": [
         "-822.19,-20.35,-139.39",
@@ -725,24 +687,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Cavemaw tamer",
-      "name_sortable": "cavemawtamer",
       "level": 17,
       "locations": [
         "-789.86,-14.11,-168.39",
@@ -783,24 +741,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Cavemaw tunneler",
-      "name_sortable": "cavemawtunneler",
       "level": 17,
       "locations": [
         "-814.85,-18.64,-142.33",
@@ -861,31 +815,26 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "Chipido",
-      "name_sortable": "chipido",
       "locations": [
         "-1187.84,26.57,-954.46"
       ]
     },
     {
       "name": "a Chronomage",
-      "name_sortable": "chronomage",
       "locations": [
         "365.62,-13.86,788.06",
         "366.0,-11.88,796.75"
@@ -897,7 +846,6 @@
     },
     {
       "name": "a cistern worm",
-      "name_sortable": "cisternworm",
       "level": 17,
       "locations": [
         "-894,-25.38,-157.35",
@@ -907,7 +855,6 @@
     },
     {
       "name": "a cistern worm pupa",
-      "name_sortable": "cisternwormpupa",
       "level": 16,
       "locations": [
         "-894.19,-23.56,-127.47",
@@ -919,7 +866,6 @@
     },
     {
       "name": "a Coldwind barracuda",
-      "name_sortable": "coldwindbarracuda",
       "level": 11,
       "locations": [
         "434.32,-47.03,982.05",
@@ -987,7 +933,6 @@
     },
     {
       "name": "a Coldwind manta ray",
-      "name_sortable": "coldwindmantaray",
       "level": 12,
       "locations": [
         "240.8,-49.92,933.36",
@@ -1023,7 +968,6 @@
     },
     {
       "name": "a Coldwind octopus",
-      "name_sortable": "coldwindoctopus",
       "level": 18,
       "locations": [
         "366.11,-45.5,912.44",
@@ -1067,7 +1011,6 @@
     },
     {
       "name": "a Coldwind perch",
-      "name_sortable": "coldwindperch",
       "locations": [
         "400.43,-55.48,921.96",
         "343.95,-45.95,886.01",
@@ -1098,7 +1041,6 @@
     },
     {
       "name": "a coldwind pike",
-      "name_sortable": "coldwindpike",
       "level": 13,
       "locations": [
         "427.82,-44.98,977.77",
@@ -1181,7 +1123,6 @@
     },
     {
       "name": "Conall Lancebreaker",
-      "name_sortable": "conalllancebreaker",
       "locations": [
         "-1893.33,-36.03,-616.11"
       ],
@@ -1193,7 +1134,6 @@
     },
     {
       "name": "Cooper",
-      "name_sortable": "cooper",
       "locations": [
         "-552.36,-12.85,-316.71"
       ],
@@ -1219,7 +1159,6 @@
     },
     {
       "name": "Corporal Peckett",
-      "name_sortable": "corporalpeckett",
       "locations": [
         "337.44,-17.17,736.48"
       ],
@@ -1229,7 +1168,6 @@
     },
     {
       "name": "a cow",
-      "name_sortable": "cow",
       "locations": [
         "-1893.75,-37.21,-521.77",
         "-1899.7,-33.82,-516.5",
@@ -1238,7 +1176,6 @@
     },
     {
       "name": "a crimson falcon",
-      "name_sortable": "crimsonfalcon",
       "level": 14,
       "locations": [
         "-573.65,-4.96,-413.92",
@@ -1271,7 +1208,6 @@
     },
     {
       "name": "Cru Naseto",
-      "name_sortable": "crunaseto",
       "locations": [
         "148.92,-21.18,-11.74"
       ],
@@ -1285,7 +1221,6 @@
     },
     {
       "name": "Curys Kasin",
-      "name_sortable": "curyskasin",
       "locations": [
         "344.61,-19.97,353.55"
       ],
@@ -1295,7 +1230,6 @@
     },
     {
       "name": "Dala Plateheart",
-      "name_sortable": "dalaplateheart",
       "locations": [
         "-1908.42,-36.03,-618.84"
       ],
@@ -1307,7 +1241,6 @@
     },
     {
       "name": "a dale snake",
-      "name_sortable": "dalesnake",
       "level": 14,
       "locations": [
         "-526.83,-13.97,-429.66",
@@ -1332,7 +1265,6 @@
     },
     {
       "name": "Dancer",
-      "name_sortable": "dancer",
       "locations": [
         "-468.32,-0.71,537.38"
       ],
@@ -1344,7 +1276,6 @@
     },
     {
       "name": "a dankfur dock warden",
-      "name_sortable": "dankfurdockwarden",
       "level": 14,
       "locations": [
         "-49.09,-37.26,1055.62"
@@ -1357,7 +1288,6 @@
     },
     {
       "name": "a dankfur gnoll",
-      "name_sortable": "dankfurgnoll",
       "level": 12,
       "locations": [
         "199.1,-20.04,862",
@@ -1490,24 +1420,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "Darathar",
-      "name_sortable": "darathar",
       "locations": [
         "-908.26,-31.97,211.52"
       ],
@@ -1519,7 +1445,6 @@
     },
     {
       "name": "a darkclaw crab",
-      "name_sortable": "darkclawcrab",
       "locations": [
         "-2341.86,-38.16,-651.39",
         "-2347.47,-39.50,-640.65"
@@ -1533,7 +1458,6 @@
     },
     {
       "name": "a Dark Coven conjuror",
-      "name_sortable": "darkcovenconjuror",
       "level": 17,
       "locations": [
         "-1519.16,-9.01,-219.88",
@@ -1546,7 +1470,6 @@
     },
     {
       "name": "a Dark Coven witch",
-      "name_sortable": "darkcovenwitch",
       "level": 18,
       "locations": [
         "-1583.13,-12.92,-195.11",
@@ -1573,7 +1496,6 @@
     },
     {
       "name": "a Darkpaw animator",
-      "name_sortable": "darkpawanimator",
       "level": 11,
       "locations": [
         "-185.68,-16.26,562.64"
@@ -1595,24 +1517,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Darkpaw brigand",
-      "name_sortable": "darkpawbrigand",
       "locations": [
         "-1763.83,-0.6,906.4",
         "-1757.84,-0.75,906.8",
@@ -1639,24 +1557,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Darkpaw brute",
-      "name_sortable": "darkpawbrute",
       "locations": [
         "-1759.24,-3.54,886.24",
         "-1825.78,-11.12,669.84",
@@ -1725,24 +1639,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "The Darkpaw Fanglord",
-      "name_sortable": "darkpawfanglord",
       "locations": [
         "-1655.54,-2.61,671.65",
         "-1557.89,2.06,661.79"
@@ -1778,24 +1688,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Darkpaw lookout",
-      "name_sortable": "darkpawlookout",
       "level": 11,
       "locations": [
         "-128.82,-16.41,585.9"
@@ -1812,24 +1718,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Darkpaw mystic",
-      "name_sortable": "darkpawmystic",
       "locations": [
         "-1095.25,-5.66,832.48",
         "-166.69,-25.09,727.98",
@@ -1870,24 +1772,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Darkpaw pack leader",
-      "name_sortable": "darkpawpackleader",
       "level": 12,
       "locations": [
         "203.63,-18.34,644.47",
@@ -1909,24 +1807,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Darkpaw pup",
-      "name_sortable": "darkpawpup",
       "drops": [
         {
           "gamelink": "\\aITEM 1020266125 -1642361338:canine saliva\\/a",
@@ -1936,7 +1830,6 @@
     },
     {
       "name": "a Darkpaw rotstuffer",
-      "name_sortable": "darkpawrotstuffer",
       "level": 11,
       "locations": [
         "-175.09,-16.32,570",
@@ -1951,24 +1844,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Darkpaw rune caster",
-      "name_sortable": "darkpawrunecaster",
       "locations": [
         "-1829.22,-12.04,788.44",
         "-1826.06,-8.36,722.76",
@@ -2038,24 +1927,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Darkpaw shaman",
-      "name_sortable": "darkpawshaman",
       "level": 14,
       "locations": [
         "-218.41,-15.6,-99.04",
@@ -2086,24 +1971,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Darkpaw soldier",
-      "name_sortable": "darkpawsoldier",
       "level": 14,
       "locations": [
         "-164.41,-15.88,-100.61",
@@ -2158,24 +2039,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Darkpaw tribal elder",
-      "name_sortable": "darkpawtribalelder",
       "locations": [
         "-571.64,-18.95,457.66",
         "-953.89,-16.06,347.14"
@@ -2192,24 +2069,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Darkpaw war leader",
-      "name_sortable": "darkpawwarleader",
       "level": 16,
       "locations": [
         "-363.4,-0.09,-542.77"
@@ -2220,24 +2093,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Darkpaw youth",
-      "name_sortable": "darkpawyouth",
       "level": 12,
       "locations": [
         "404.27,-23.69,673.98",
@@ -2322,24 +2191,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "Darmen Sproutmore",
-      "name_sortable": "darmensproutmore",
       "locations": [
         "-703.21,-15.21,264.35"
       ],
@@ -2352,7 +2217,6 @@
     },
     {
       "name": "Daryann Stormrider",
-      "name_sortable": "daryannstormrider",
       "locations": [
         "-1853.67,-38.09,-513.72"
       ],
@@ -2367,7 +2231,6 @@
     },
     {
       "name": "David Torchsong",
-      "name_sortable": "davidtorchsong",
       "locations": [
         "136.17,-21.18,-29.39"
       ],
@@ -2382,7 +2245,6 @@
     },
     {
       "name": "a Deathfist marauder",
-      "name_sortable": "deathfistmarauder",
       "locations": [
         "-2227.83,-43.67,513.86",
         "-2222.55,-44.54,510.87"
@@ -2396,7 +2258,6 @@
     },
     {
       "name": "a decaying skeleton",
-      "name_sortable": "decayingskeleton",
       "level": 15,
       "locations": [
         "338.31,-33.11,-798.33",
@@ -2438,14 +2299,12 @@
     },
     {
       "name": "a Deepwater Lurker",
-      "name_sortable": "deepwaterlurker",
       "locations": [
         "53.97,-67.92,-987.74"
       ]
     },
     {
       "name": "a Deepwater researcher",
-      "name_sortable": "deepwaterresearcher",
       "purpose": "Deepwater Circle",
       "locations": [
         "-1947.57,-14.34,748.77",
@@ -2454,7 +2313,6 @@
     },
     {
       "name": "a defiled squire",
-      "name_sortable": "defiledsquire",
       "locations": [
         "-2165.86,-47,268.68",
         "-2177.31,-47.94,261.75",
@@ -2491,7 +2349,6 @@
     },
     {
       "name": "a den mother",
-      "name_sortable": "denmother",
       "level": 16,
       "locations": [
         "-2164.27,51.06,936.73"
@@ -2499,7 +2356,6 @@
     },
     {
       "name": "Dillan Bolefreg",
-      "name_sortable": "dillanbolefreg",
       "locations": [
         "-1182.38,26.7,-955.04"
       ],
@@ -2517,14 +2373,12 @@
     },
     {
       "name": "Disimbal Slytharn",
-      "name_sortable": "disimbalslytharn",
       "locations": [
         "-2372.03,2.66,673.59"
       ]
     },
     {
       "name": "a distressed merchant",
-      "name_sortable": "distressedmerchant",
       "locations": [
         "-1628.62,-16.9,206.76",
         "-1429.47,-14.37,-640.74",
@@ -2537,7 +2391,6 @@
     },
     {
       "name": "Dolph",
-      "name_sortable": "dolph",
       "purpose": "The NEW Steel Warriors",
       "locations": [
         "-1877.9,-34.97,-638.39"
@@ -2550,7 +2403,6 @@
     },
     {
       "name": "drakota adept",
-      "name_sortable": "drakotaadept",
       "locations": [
         "-1236.39,17.51,-879.36",
         "-1242.61,17.23,-883.2",
@@ -2570,7 +2422,6 @@
     },
     {
       "name": "Duffy",
-      "name_sortable": "duffy",
       "locations": [
         "149.62,-16.65,227.52"
       ],
@@ -2580,14 +2431,12 @@
     },
     {
       "name": "Dury Buntan",
-      "name_sortable": "durybuntan",
       "locations": [
         "-711.52,-16.25,238.77"
       ]
     },
     {
       "name": "Dworn Soulforge",
-      "name_sortable": "dwornsoulforge",
       "locations": [
         "-1930.88,-14.37,752.97"
       ],
@@ -2597,7 +2446,6 @@
     },
     {
       "name": "an earth burrower",
-      "name_sortable": "earthburrower",
       "level": 18,
       "locations": [
         "-1718.05,-21.33,-69.92",
@@ -2644,7 +2492,6 @@
     },
     {
       "name": "an earthcrawler",
-      "name_sortable": "earthcrawler",
       "level": 13,
       "locations": [
         "-79.02,-20.84,639.89",
@@ -2664,7 +2511,6 @@
     },
     {
       "name": "an earth rumbler",
-      "name_sortable": "earthrumbler",
       "level": 16,
       "locations": [
         "-791.78,-29.48,-65.27",
@@ -2685,7 +2531,6 @@
     },
     {
       "name": "Edwards",
-      "name_sortable": "edwards",
       "utterances": [
         "If I know you adventuring types, you'll need one of these.",
         "Good day, adventurer. Care to take a look at my merchandise?",
@@ -2694,7 +2539,6 @@
     },
     {
       "name": "Eenekie Blazdine",
-      "name_sortable": "eenekieblazdine",
       "locations": [
         "-1181.41,28.06,-964.9"
       ],
@@ -2705,7 +2549,6 @@
     },
     {
       "name": "an enraged wolf",
-      "name_sortable": "enragedwolf",
       "level": 18,
       "locations": [
         "-2129.38,-16.08,231.44",
@@ -2741,7 +2584,6 @@
     },
     {
       "name": "Farmer Gerrit",
-      "name_sortable": "farmergerrit",
       "locations": [
         "-1546.78,-4.58,304.01"
       ],
@@ -2751,7 +2593,6 @@
     },
     {
       "name": "Farmer Helver",
-      "name_sortable": "farmerhelver",
       "locations": [
         "-719.8,-16.25,218.71"
       ],
@@ -2769,7 +2610,6 @@
     },
     {
       "name": "Farmer Walcott",
-      "name_sortable": "farmerwalcott",
       "locations": [
         "-99.03,-18.57,47.76"
       ],
@@ -2789,7 +2629,6 @@
     },
     {
       "name": "a feral timber wolf",
-      "name_sortable": "feraltimberwolf",
       "level": 16,
       "locations": [
         "-898.68,-29.8,139.02",
@@ -2822,7 +2661,6 @@
     },
     {
       "name": "a field shrike",
-      "name_sortable": "fieldshrike",
       "level": 16,
       "locations": [
         "127.4,-16.74,-553.4",
@@ -2845,7 +2683,6 @@
     },
     {
       "name": "Flores",
-      "name_sortable": "flores",
       "locations": [
         "143.35,-16.65,219.11"
       ],
@@ -2856,14 +2693,12 @@
     },
     {
       "name": "Franco",
-      "name_sortable": "franco",
       "locations": [
         "-1191.31,27.26,-959.96"
       ]
     },
     {
       "name": "Gawar the Bad",
-      "name_sortable": "gawarthebad",
       "locations": [
         "-2224.73,-43.91,513.18"
       ],
@@ -2872,7 +2707,6 @@
     },
     {
       "name": "Geddard",
-      "name_sortable": "geddard",
       "locations": [
         "-2107.52,-44.51,437.37"
       ],
@@ -2882,7 +2716,6 @@
     },
     {
       "name": "Gerd Noale",
-      "name_sortable": "gerdnoale",
       "locations": [
         "59.22,-19.86,3.54"
       ],
@@ -2892,7 +2725,6 @@
     },
     {
       "name": "Ghil Ventur",
-      "name_sortable": "ghilventur",
       "locations": [
         "317.17,-16.07,754.28"
       ],
@@ -2902,7 +2734,6 @@
     },
     {
       "name": "Ghost of Vhalen",
-      "name_sortable": "ghostofvhalen",
       "locations": [
         "-1300.59,46.51,41.51"
       ],
@@ -2913,7 +2744,6 @@
     },
     {
       "name": "a giant bat",
-      "name_sortable": "giantbat",
       "level": 18,
       "locations": [
         "-1377.98,-8.32,-427.08",
@@ -2937,7 +2767,6 @@
     },
     {
       "name": "a giant bear",
-      "name_sortable": "giantbear",
       "level": 20,
       "locations": [
         "-2214.35,-11.31,77.7",
@@ -2952,7 +2781,6 @@
     },
     {
       "name": "a giant kodiak",
-      "name_sortable": "giantkodiak",
       "level": 20,
       "locations": [
         "-1691.23,-19.04,-582.01",
@@ -2961,7 +2789,6 @@
     },
     {
       "name": "a Giantslayer messenger",
-      "name_sortable": "giantslayermessenger",
       "locations": [
         "-2211.25,-21.54,151.91",
         "-2196.25,-14.37,-10.82"
@@ -2969,7 +2796,6 @@
     },
     {
       "name": "a Gigglegibber Goblin Gamblin' Game Vendor",
-      "name_sortable": "gigglegibbergoblingamblingamevendor",
       "locations": [
         "-726.46,-11.01,244.23"
       ],
@@ -2981,7 +2807,6 @@
     },
     {
       "name": "a glade deer",
-      "name_sortable": "gladedeer",
       "level": 13,
       "locations": [
         "-290.65,-17.97,687.01",
@@ -3010,7 +2835,6 @@
     },
     {
       "name": "a gnoll defender",
-      "name_sortable": "gnolldefender",
       "locations": [
         "-1385.09,-15.86,403.26",
         "-1374.96,-16.25,404.94",
@@ -3041,7 +2865,6 @@
     },
     {
       "name": "Goldie Hammerfall",
-      "name_sortable": "goldiehammerfall",
       "locations": [
         "53.94,-19.25,-20.83"
       ],
@@ -3057,7 +2880,6 @@
     },
     {
       "name": "Gol M'Tun",
-      "name_sortable": "golmtun",
       "locations": [
         "-30.28,-14.59,-55.7"
       ],
@@ -3067,7 +2889,6 @@
     },
     {
       "name": "Graalwen",
-      "name_sortable": "graalwen",
       "level": 18,
       "locations": [
         "-1652.49,7.67,-68.06"
@@ -3097,24 +2918,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a granitescale basilisk",
-      "name_sortable": "granitescalebasilisk",
       "level": 20,
       "locations": [
         "-1226.86,21.1,-905.32",
@@ -3167,7 +2984,6 @@
     },
     {
       "name": "a gratified merchant",
-      "name_sortable": "gratifiedmerchant",
       "locations": [
         "-1628.85,-16.83,206.9",
         "-1428.57,-14.37,-643.36",
@@ -3264,7 +3080,6 @@
     },
     {
       "name": "a griffin tamer",
-      "name_sortable": "griffintamer",
       "locations": [
         "-909.71,-7.23,-608.17"
       ],
@@ -3274,7 +3089,6 @@
     },
     {
       "name": "a grime covered savage",
-      "name_sortable": "grimecoveredsavage",
       "level": 16,
       "locations": [
         "-2031.18,47.54,987.41",
@@ -3301,7 +3115,6 @@
     },
     {
       "name": "a grizzled badger",
-      "name_sortable": "grizzledbadger",
       "level": 14,
       "locations": [
         "-1205.38,-2.08,785.22",
@@ -3335,7 +3148,6 @@
     },
     {
       "name": "Grolven Chiptooth",
-      "name_sortable": "grolvenchiptooth",
       "locations": [
         "-1639.28,-3.35,800.28"
       ],
@@ -3354,7 +3166,6 @@
     },
     {
       "name": "Groosum Gigglegibber",
-      "name_sortable": "groosumgigglegibber",
       "utterances": [
         "Happy Nights of the Dead!  I bet you're no scaredy-pants.  You wanna see how many creepsy ghosts you can collect?",
         "Don't get scaredy!  Get to the Ghost Hunter starter pad, and you'll ride a holiday cloud.  Race around on it, collecting as many creepsy ghosts as possible!",
@@ -3363,28 +3174,24 @@
     },
     {
       "name": "Guard Chaffey",
-      "name_sortable": "guardchaffey",
       "locations": [
         "255.07,-37.69,-852.95"
       ]
     },
     {
       "name": "Guard Laughton",
-      "name_sortable": "guardlaughton",
       "locations": [
         "258.04,-37.85,-844.53"
       ]
     },
     {
       "name": "Guard Waters",
-      "name_sortable": "guardwaters",
       "locations": [
         "289.21,-37.49,-866.93"
       ]
     },
     {
       "name": "Haddek Vimki",
-      "name_sortable": "haddekvimki",
       "locations": [
         "-728.41,-15.9,231.8"
       ],
@@ -3407,14 +3214,12 @@
     },
     {
       "name": "Harbormaster Larra",
-      "name_sortable": "harbormasterlarra",
       "locations": [
         "438.5,-37.46,822.34"
       ]
     },
     {
       "name": "Hartok Woolyman",
-      "name_sortable": "hartokwoolyman",
       "locations": [
         "-1815.19,-37.84,-529.36"
       ],
@@ -3430,7 +3235,6 @@
     },
     {
       "name": "a haze kodiak",
-      "name_sortable": "hazekodiak",
       "level": 18,
       "locations": [
         "-2084.00,22.88,784.67",
@@ -3443,7 +3247,6 @@
     },
     {
       "name": "Henry Maxwell Denalis",
-      "name_sortable": "henrymaxwelldenalis",
       "locations": [
         "-1861.42,-38.48,-536.76"
       ],
@@ -3453,14 +3256,12 @@
     },
     {
       "name": "a Heroes' Festival promoter",
-      "name_sortable": "heroesfestivalpromoter",
       "utterances": [
         "Don't you just love a good celebration?"
       ]
     },
     {
       "name": "a highwayman",
-      "name_sortable": "highwayman",
       "level": 16,
       "locations": [
         "-1852.37,-23.31,297.66",
@@ -3523,7 +3324,6 @@
     },
     {
       "name": "Historian Rotpaw",
-      "name_sortable": "historianrotpaw",
       "locations": [
         "-1692.95,3.44,-716.33"
       ],
@@ -3533,7 +3333,6 @@
     },
     {
       "name": "Hubbard",
-      "name_sortable": "hubbard",
       "locations": [
         "-694.29,-16.12,239.37",
         "-720.37,-16.25,217.75",
@@ -3547,7 +3346,6 @@
     },
     {
       "name": "Hwal Rucksif",
-      "name_sortable": "hwalrucksif",
       "locations": [
         "-559.95,-12.85,-315.72"
       ],
@@ -3564,7 +3362,6 @@
     },
     {
       "name": "Ignar Steadirt",
-      "name_sortable": "ignarsteadirt",
       "locations": [
         "-440.52,2.12,549.19"
       ],
@@ -3580,21 +3377,18 @@
     },
     {
       "name": "Inane Rain",
-      "name_sortable": "inanerain",
       "utterances": [
         "We are pleased to have you with us, <player name>!"
       ]
     },
     {
       "name": "Innkeeper Naroob",
-      "name_sortable": "innkeepernaroob",
       "locations": [
         "-1874.24,-32.63,-496.54"
       ]
     },
     {
       "name": "Isdemus Hamest",
-      "name_sortable": "isdemushamest",
       "locations": [
         "-1923.2,-33.18,-530.09"
       ],
@@ -3604,7 +3398,6 @@
     },
     {
       "name": "Jarvis",
-      "name_sortable": "jarvis",
       "locations": [
         "86.1,-20.65,-8.42"
       ],
@@ -3614,7 +3407,6 @@
     },
     {
       "name": "Jayl'Krik",
-      "name_sortable": "jaylkrik",
       "level": 18,
       "locations": [
         "-1647.53,14.46,-19.79"
@@ -3642,24 +3434,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "Jenkins",
-      "name_sortable": "jenkins",
       "purpose": "Qeynosian Officer",
       "locations": [
         "-391.11,9.79,270.12"
@@ -3670,7 +3458,6 @@
     },
     {
       "name": "Jimbo",
-      "name_sortable": "jimbo",
       "purpose": "The NEW Steel Warriors",
       "locations": [
         "-1874.34,-35.08,-636.61"
@@ -3684,7 +3471,6 @@
     },
     {
       "name": "Kagin Oathsmasher",
-      "name_sortable": "kaginoathsmasher",
       "locations": [
         "71.31,-20.43,4.9"
       ],
@@ -3695,14 +3481,12 @@
     },
     {
       "name": "Kaviertex",
-      "name_sortable": "kaviertex",
       "utterances": [
         "Your blood calls to me."
       ]
     },
     {
       "name": "Kearney",
-      "name_sortable": "kearney",
       "purpose": "The NEW Steel Warriors",
       "locations": [
         "-1877.87,-35.06,-635.49"
@@ -3715,7 +3499,6 @@
     },
     {
       "name": "Kinamer Galemaul",
-      "name_sortable": "kinamergalemaul",
       "locations": [
         "-707.43,-16.25,240.76"
       ],
@@ -3729,7 +3512,6 @@
     },
     {
       "name": "a kingsnake",
-      "name_sortable": "kingsnake",
       "level": 18,
       "locations": [
         "-1097.7,0.46,-439.24",
@@ -3740,7 +3522,6 @@
     },
     {
       "name": "a klicnik mite",
-      "name_sortable": "klicnikmite",
       "level": 8,
       "locations": [
         "77,-16.67,-316.04",
@@ -3809,7 +3590,6 @@
     },
     {
       "name": "a klicnik prince",
-      "name_sortable": "klicnikprince",
       "level": 16,
       "difficulty": "heroic",
       "locations": [
@@ -3837,7 +3617,6 @@
     },
     {
       "name": "a klicnik scurrier",
-      "name_sortable": "klicnikscurrier",
       "level": 12,
       "locations": [
         "95.32,-23.76,-608.26",
@@ -3863,7 +3642,6 @@
     },
     {
       "name": "a klicnik warrior",
-      "name_sortable": "klicnikwarrior",
       "level": 15,
       "locations": [
         "-594.35,-23.44,383.1",
@@ -3923,7 +3701,6 @@
     },
     {
       "name": "a klicnik worker",
-      "name_sortable": "klicnikworker",
       "level": 14,
       "locations": [
         "80.13,-23.09,-439.18",
@@ -3951,7 +3728,6 @@
     },
     {
       "name": "Knight-Captain Antillin",
-      "name_sortable": "knight-captainantillin",
       "locations": [
         "-107.01,-27.37,600.67"
       ],
@@ -3961,7 +3737,6 @@
     },
     {
       "name": "Knight-Lieutenant Alesso",
-      "name_sortable": "knight-lieutenantalesso",
       "locations": [
         "183.03,-20.69,-10.88"
       ],
@@ -3972,7 +3747,6 @@
     },
     {
       "name": "Knight-Captain Antillin",
-      "name_sortable": "knightcaptainantillin",
       "locations": [
         "-107.01,-27.37,600.67"
       ],
@@ -3982,7 +3756,6 @@
     },
     {
       "name": "Knight Grelda Stoneshearer",
-      "name_sortable": "knightgreldastoneshearer",
       "locations": [
         "-2184.74,-45.96,440.67"
       ],
@@ -3994,7 +3767,6 @@
     },
     {
       "name": "Knight Grel Stoneshearer",
-      "name_sortable": "knightgrelstoneshearer",
       "locations": [
         "-398.3,15.6,-304.72"
       ],
@@ -4004,7 +3776,6 @@
     },
     {
       "name": "Knight-Lieutenant Alesso",
-      "name_sortable": "knightlieutenantalesso",
       "locations": [
         "183.03,-20.69,-10.88"
       ],
@@ -4017,7 +3788,6 @@
     },
     {
       "name": "Knight Morte Winghammer",
-      "name_sortable": "knightmortewinghammer",
       "locations": [
         "-1736.93,-14.22,348.19"
       ],
@@ -4031,7 +3801,6 @@
     },
     {
       "name": "a kodiak",
-      "name_sortable": "kodiak",
       "locations": [
         "-2222.04,-5.42,111.96",
         "-1765.51,-15.76,-324.83",
@@ -4047,7 +3816,6 @@
     },
     {
       "name": "a lake trout",
-      "name_sortable": "laketrout",
       "locations": [
         "-1767.71,-28.00,839.55",
         "-1764.50,-23.67,831.07",
@@ -4076,7 +3844,6 @@
     },
     {
       "name": "Lambton",
-      "name_sortable": "lambton",
       "locations": [
         "93.22,-20.56,-27.98"
       ],
@@ -4087,7 +3854,6 @@
     },
     {
       "name": "Landwyn Velamir",
-      "name_sortable": "landwynvelamir",
       "locations": [
         "-717.77,-15.9,240.38"
       ],
@@ -4100,7 +3866,6 @@
     },
     {
       "name": "Lanice",
-      "name_sortable": "lanice",
       "locations": [
         "-1895.08,-36.03,-612.93"
       ],
@@ -4111,7 +3876,6 @@
     },
     {
       "name": "Laral Spenler",
-      "name_sortable": "laralspenler",
       "utterances": [
         "Greetings to -- You! You're the one I saw!",
         "I mean in my dream. You were the one Morell-Thule revealed to me!",
@@ -4125,7 +3889,6 @@
     },
     {
       "name": "a large moat rat",
-      "name_sortable": "largemoatrat",
       "level": 10,
       "locations": [
         "72.26,-16.86,118.3",
@@ -4134,7 +3897,6 @@
     },
     {
       "name": "Larissa Barone",
-      "name_sortable": "larissabarone",
       "locations": [
         "-1177.64,28.38,-967"
       ],
@@ -4145,7 +3907,6 @@
     },
     {
       "name": "a larvae infested carcass",
-      "name_sortable": "larvaeinfestedcarcass",
       "locations": [
         "33.62,-20.77,-415.33",
         "150.25,-19.97,-511.58",
@@ -4156,7 +3917,6 @@
     },
     {
       "name": "Licha",
-      "name_sortable": "licha",
       "locations": [
         "-1822.57,-37.79,-545.79"
       ],
@@ -4176,14 +3936,12 @@
     },
     {
       "name": "Lieutenant Fenwill",
-      "name_sortable": "lieutenantfenwill",
       "locations": [
         "-390.58,11.36,110.31"
       ]
     },
     {
       "name": "Lina",
-      "name_sortable": "lina",
       "purpose": "General Goods",
       "locations": [
         "-1824.10,-37.81,-539.78"
@@ -4221,7 +3979,6 @@
     },
     {
       "name": "Lord Bennet",
-      "name_sortable": "lordbennet",
       "locations": [
         "-2100.84,-44.51,434.14"
       ],
@@ -4231,7 +3988,6 @@
     },
     {
       "name": "Lord Kylar",
-      "name_sortable": "lordkylar",
       "locations": [
         "-559.27,-12.85,-320.03"
       ],
@@ -4249,7 +4005,6 @@
     },
     {
       "name": "Lord Quinn Clothspinner",
-      "name_sortable": "lordquinnclothspinner",
       "locations": [
         "-557.16,-8.24,-312.69"
       ],
@@ -4259,7 +4014,6 @@
     },
     {
       "name": "Lord Rison",
-      "name_sortable": "lordrison",
       "level": 18,
       "difficulty": "heroic3",
       "locations": [
@@ -4284,7 +4038,6 @@
     },
     {
       "name": "a lowland badger",
-      "name_sortable": "lowlandbadger",
       "level": 11,
       "locations": [
         "-383.77,-5.93,523.87",
@@ -4331,7 +4084,6 @@
     },
     {
       "name": "a lowland gecko",
-      "name_sortable": "lowlandgecko",
       "level": 12,
       "locations": [
         "-375.02,-4.62,-210.2",
@@ -4355,7 +4107,6 @@
     },
     {
       "name": "a lowland viper",
-      "name_sortable": "lowlandviper",
       "level": 12,
       "locations": [
         "362.52,-21.38,608.58",
@@ -4403,7 +4154,6 @@
     },
     {
       "name": "Magnon Baelvurn",
-      "name_sortable": "magnonbaelvurn",
       "purpose": "Slayer of Gnolls",
       "locations": [
         "-721.44,-21.93,-494.52"
@@ -4439,7 +4189,6 @@
     },
     {
       "name": "Maratis Jyd",
-      "name_sortable": "maratisjyd",
       "purpose": "Celestial Watch",
       "locations": [
         "-1849,-38.09,-554.27"
@@ -4450,7 +4199,6 @@
     },
     {
       "name": "Matsy Rollingpin",
-      "name_sortable": "matsyrollingpin",
       "locations": [
         "-727.77,-11.01,239.01"
       ],
@@ -4474,7 +4222,6 @@
     },
     {
       "name": "a mausoleum protector",
-      "name_sortable": "mausoleumprotector",
       "level": 16,
       "locations": [
         "363.44,-19.69,-658.77"
@@ -4487,7 +4234,6 @@
     },
     {
       "name": "Mayor Woodbridge",
-      "name_sortable": "mayorwoodbridge",
       "locations": [
         "-1900.98,-30.76,-612.92"
       ],
@@ -4497,7 +4243,6 @@
     },
     {
       "name": "Merle Trevine",
-      "name_sortable": "merletrevine",
       "locations": [
         "-1933.76,-36.17,-601.55"
       ],
@@ -4507,14 +4252,12 @@
     },
     {
       "name": "Millennial Hall",
-      "name_sortable": "millennialhall",
       "utterances": [
         "The puppets are ready, are you?"
       ]
     },
     {
       "name": "Mister Jumtum",
-      "name_sortable": "misterjumtum",
       "locations": [
         "-1454.82,-14.02,13.24"
       ],
@@ -4524,7 +4267,6 @@
     },
     {
       "name": "a moat rat",
-      "name_sortable": "moatrat",
       "level": 11,
       "locations": [
         "391.44,-22.73,663.55",
@@ -4588,7 +4330,6 @@
     },
     {
       "name": "a mucus zombie",
-      "name_sortable": "mucuszombie",
       "locations": [
         "-1776.75,-9.17,865.23",
         "-1818.39,-14.42,823.13",
@@ -4604,7 +4345,6 @@
     },
     {
       "name": "a mutated rat",
-      "name_sortable": "mutatedrat",
       "level": 15,
       "locations": [
         "-1505.12,-9.06,-244.1",
@@ -4630,7 +4370,6 @@
     },
     {
       "name": "Nault",
-      "name_sortable": "nault",
       "purpose": "Guard",
       "level": 25,
       "difficulty": "heroic3",
@@ -4645,7 +4384,6 @@
     },
     {
       "name": "a Necrosis auger",
-      "name_sortable": "necrosisauger",
       "locations": [
         "-1144,-32.63,-1007.03",
         "-1121.91,-36.58,-1014.84",
@@ -4676,7 +4414,6 @@
     },
     {
       "name": "a Necrosis conscript",
-      "name_sortable": "necrosisconscript",
       "locations": [
         "-1141.47,-26.79,-1038.52",
         "-1148.38,-26.6,-1046.48",
@@ -4715,7 +4452,6 @@
     },
     {
       "name": "a Necrosis shrew",
-      "name_sortable": "necrosisshrew",
       "locations": [
         "-1123.92,-29.21,-1030.41",
         "-1136.48,-27.08,-1034.66",
@@ -4754,7 +4490,6 @@
     },
     {
       "name": "Noa Sails",
-      "name_sortable": "noasails",
       "locations": [
         "-2230.11,-45.48,499.36"
       ],
@@ -4765,7 +4500,6 @@
     },
     {
       "name": "Novak",
-      "name_sortable": "novak",
       "locations": [
         "356.18,-14.83,780.82"
       ],
@@ -4775,7 +4509,6 @@
     },
     {
       "name": "a noxious viper",
-      "name_sortable": "noxiousviper",
       "level": 10,
       "locations": [
         "2.67,-16.43,162.87",
@@ -4784,7 +4517,6 @@
     },
     {
       "name": "Old Man McQuibble",
-      "name_sortable": "oldmanmcquibble",
       "locations": [
         "-1898.63,-36.02,-609.06"
       ],
@@ -4794,14 +4526,12 @@
     },
     {
       "name": "Ol' One Eye",
-      "name_sortable": "oloneeye",
       "locations": [
         "-1962.48,-51.0,-608.74"
       ]
     },
     {
       "name": "Oracle Ednar",
-      "name_sortable": "oracleednar",
       "locations": [
         "-1033.95,26.94,-624.13"
       ],
@@ -4813,7 +4543,6 @@
     },
     {
       "name": "Oracle Liandrin",
-      "name_sortable": "oracleliandrin",
       "locations": [
         "-1034.56,14.12,-631.52"
       ],
@@ -4823,7 +4552,6 @@
     },
     {
       "name": "Oracle Ulinara",
-      "name_sortable": "oracleulinara",
       "locations": [
         "-1033.79,14.12,-627.69"
       ],
@@ -4836,7 +4564,6 @@
     },
     {
       "name": "an overland miner",
-      "name_sortable": "overlandminer",
       "locations": [
         "-187.45,-24.97,636.02",
         "-946.06,-26.46,256.56",
@@ -4896,7 +4623,6 @@
     },
     {
       "name": "an overland woodcutter",
-      "name_sortable": "overlandwoodcutter",
       "locations": [
         "262.41,-16.39,586.08",
         "-1232.65,-13.83,171.9",
@@ -4922,7 +4648,6 @@
     },
     {
       "name": "Perinius Abatro",
-      "name_sortable": "periniusabatro",
       "locations": [
         "-2115.82,-39.88,441.2"
       ],
@@ -4933,7 +4658,6 @@
     },
     {
       "name": "a pig",
-      "name_sortable": "pig",
       "locations": [
         "-1855.75,-38.09,-517.19",
         "-1862.67,-37.74,-518.36"
@@ -4941,7 +4665,6 @@
     },
     {
       "name": "a plaguebringer acolyte",
-      "name_sortable": "plaguebringeracolyte",
       "locations": [
         "-1545.83,1.92,-918.07"
       ],
@@ -4951,7 +4674,6 @@
     },
     {
       "name": "a pond glider",
-      "name_sortable": "pondglider",
       "level": 9,
       "locations": [
         "177.23,-24.77,445.16",
@@ -4971,7 +4693,6 @@
     },
     {
       "name": "Protector Emerson",
-      "name_sortable": "protectoremerson",
       "locations": [
         "-1020.22,12.95,-620.88"
       ],
@@ -4984,7 +4705,6 @@
     },
     {
       "name": "Protector Emerson",
-      "name_sortable": "protectoremerson",
       "locations": [
         "-1020.22,12.95,-620.88"
       ],
@@ -4993,24 +4713,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "Protector Hawes",
-      "name_sortable": "protectorhawes",
       "locations": [
         "-1028.45,13.94,-622.01"
       ],
@@ -5022,7 +4738,6 @@
     },
     {
       "name": "Protector Swithin",
-      "name_sortable": "protectorswithin",
       "locations": [
         "-1034.5,13.95,-620.03"
       ],
@@ -5033,7 +4748,6 @@
     },
     {
       "name": "Protector Wickham",
-      "name_sortable": "protectorwickham",
       "locations": [
         "-1038.95,12.95,-614.64"
       ],
@@ -5044,7 +4758,6 @@
     },
     {
       "name": "Quallium",
-      "name_sortable": "quallium",
       "utterances": [
         "Oh look at the mess I am in! My thoughts of wonderment have been stolen from me.",
         "They have my scrolls ... my poems! I was just sitting upon the isles, like I always do, searching for inspiration, when all of the sudden they appeared! I ran and now have lost my scrolls to the howling beasts.",
@@ -5055,14 +4768,12 @@
     },
     {
       "name": "Quigley",
-      "name_sortable": "quigley",
       "locations": [
         "-723.3,-11.01,237.13"
       ]
     },
     {
       "name": "a rabid bat",
-      "name_sortable": "rabidbat",
       "locations": [
         "-881.37,-9.56,95.46",
         "-959.95,7.18,407.13",
@@ -5071,7 +4782,6 @@
     },
     {
       "name": "Rathford",
-      "name_sortable": "rathford",
       "purpose": "Qeynosian Officer",
       "locations": [
         "-394.49,20.86,-288.44"
@@ -5082,7 +4792,6 @@
     },
     {
       "name": "a red tailed hawk",
-      "name_sortable": "redtailedhawk",
       "level": 15,
       "locations": [
         "-983.69,-2.27,-664.54",
@@ -5115,7 +4824,6 @@
     },
     {
       "name": "Renux the Undying",
-      "name_sortable": "renuxtheundying",
       "level": 16,
       "locations": [
         "347.98,-20.59,-636.81"
@@ -5123,7 +4831,6 @@
     },
     {
       "name": "a restless Caltorsite",
-      "name_sortable": "restlesscaltorsite",
       "level": 18,
       "locations": [
         "-1297.6,-20.14,-716.94",
@@ -5160,7 +4867,6 @@
     },
     {
       "name": "Revyl Kylar",
-      "name_sortable": "revylkylar",
       "locations": [
         "-488.79,0.64,-181.96"
       ],
@@ -5173,7 +4879,6 @@
     },
     {
       "name": "Riason Hanagom",
-      "name_sortable": "riasonhanagom",
       "locations": [
         "-1903.27,-30.76,-614.27"
       ],
@@ -5189,7 +4894,6 @@
     },
     {
       "name": "Rikantus",
-      "name_sortable": "rikantus",
       "locations": [
         "-1975.15,9.11,823.02"
       ],
@@ -5207,7 +4911,6 @@
     },
     {
       "name": "a risen protector",
-      "name_sortable": "risenprotector",
       "level": 14,
       "locations": [
         "327.12,-35.61,-780.52",
@@ -5261,7 +4964,6 @@
     },
     {
       "name": "Roslyn Mischeva",
-      "name_sortable": "roslynmischeva",
       "utterances": [
         "What are you doing, <player name>? Let's go! It's time to slay the dragon!",
         "And so, our intrepid hero returns, after having defeated one of the terrible terrors of Norrath!",
@@ -5273,7 +4975,6 @@
     },
     {
       "name": "a rotstuffed scarecrow",
-      "name_sortable": "rotstuffedscarecrow",
       "level": 18,
       "locations": [
         "-2010.39,-7.1,534.51",
@@ -5310,7 +5011,6 @@
     },
     {
       "name": "Rusty Sails",
-      "name_sortable": "rustysails",
       "locations": [
         "-2233.36,-44.03,511.39"
       ],
@@ -5322,7 +5022,6 @@
     },
     {
       "name": "a Sabertooth battler",
-      "name_sortable": "sabertoothbattler",
       "level": 16,
       "locations": [
         "-1703.06,-8.21,834.06",
@@ -5429,24 +5128,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth camp guard",
-      "name_sortable": "sabertoothcampguard",
       "level": 17,
       "locations": [
         "-1633.17,9.44,-20.56",
@@ -5522,24 +5217,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth captor",
-      "name_sortable": "sabertoothcaptor",
       "level": 20,
       "locations": [
         "-487.46,0.67,-182.69",
@@ -5564,24 +5255,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth darkstrider",
-      "name_sortable": "sabertoothdarkstrider",
       "locations": [
         "-2176.17,8.57,99.01"
       ],
@@ -5609,24 +5296,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth elder",
-      "name_sortable": "sabertoothelder",
       "level": 18,
       "locations": [
         "-1394.23,-1.77,243.02",
@@ -5674,24 +5357,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth Hero",
-      "name_sortable": "sabertoothhero",
       "utterances": [
         "I'll rip your throat open!"
       ],
@@ -5704,28 +5383,23 @@
     },
     {
       "name": "a Sabertooth mongrel",
-      "name_sortable": "sabertoothmongrel",
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth neophyte",
-      "name_sortable": "sabertoothneophyte",
       "level": 10,
       "locations": [
         "185.29,-17.87,642.99",
@@ -5747,24 +5421,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth Pack Lord",
-      "name_sortable": "sabertoothpacklord",
       "locations": [
         "-1378.04,-4.12,239.42"
       ],
@@ -5789,24 +5459,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth rune caster",
-      "name_sortable": "sabertoothrunecaster",
       "level": 16,
       "locations": [
         "-1371.44,-4.75,255.91",
@@ -5959,24 +5625,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth runt",
-      "name_sortable": "sabertoothrunt",
       "level": 10,
       "locations": [
         "200.27,-16.78,610.76",
@@ -6035,45 +5697,37 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth shaman",
-      "name_sortable": "sabertoothshaman",
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth spear guard",
-      "name_sortable": "sabertoothspearguard",
       "level": 17,
       "locations": [
         "-1641.42,11.89,-7.46",
@@ -6157,24 +5811,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a Sabertooth tormentor",
-      "name_sortable": "sabertoothtormentor",
       "level": 20,
       "locations": [
         "-497.9,1.51,-179.46"
@@ -6186,24 +5836,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a sand lurker",
-      "name_sortable": "sandlurker",
       "level": 15,
       "locations": [
         "30.06,-66.15,-971.98",
@@ -6240,7 +5886,6 @@
     },
     {
       "name": "Scholar Al'Quylar",
-      "name_sortable": "scholaralquylar",
       "locations": [
         "-1034.08,15.72,-668.4"
       ],
@@ -6255,7 +5900,6 @@
     },
     {
       "name": "Seamus Rockpounder",
-      "name_sortable": "seamusrockpounder",
       "locations": [
         "60.37,-19.94,0.8"
       ],
@@ -6265,7 +5909,6 @@
     },
     {
       "name": "a sea turtle",
-      "name_sortable": "seaturtle",
       "level": 16,
       "locations": [
         "335.3,-51.99,900.87",
@@ -6304,7 +5947,6 @@
     },
     {
       "name": "Sentry Acton",
-      "name_sortable": "sentryacton",
       "locations": [
         "-1724.61,-14.29,372.15"
       ],
@@ -6315,14 +5957,12 @@
     },
     {
       "name": "Sentry Alden",
-      "name_sortable": "sentryalden",
       "locations": [
         "-429.34,-0.81,558.22"
       ]
     },
     {
       "name": "Sentry Briar",
-      "name_sortable": "sentrybriar",
       "purpose": "Guard",
       "level": 25,
       "difficulty": "heroic3",
@@ -6332,7 +5972,6 @@
     },
     {
       "name": "Sentry Crawln",
-      "name_sortable": "sentrycrawln",
       "level": 25,
       "difficulty": "heroic3",
       "locations": [
@@ -6341,7 +5980,6 @@
     },
     {
       "name": "Sentry Deegan",
-      "name_sortable": "sentrydeegan",
       "purpose": "Guard",
       "level": 25,
       "difficulty": "heroic3",
@@ -6351,14 +5989,12 @@
     },
     {
       "name": "Sentry Dunstan",
-      "name_sortable": "sentrydunstan",
       "locations": [
         "-429.62,-1.1,546.99"
       ]
     },
     {
       "name": "Sentry Elmsley",
-      "name_sortable": "sentryelmsley",
       "level": 25,
       "difficulty": "heroic3",
       "locations": [
@@ -6371,7 +6007,6 @@
     },
     {
       "name": "Sentry Geddis",
-      "name_sortable": "sentrygeddis",
       "level": 25,
       "difficulty": "heroic3",
       "locations": [
@@ -6380,7 +6015,6 @@
     },
     {
       "name": "Sentry Innis",
-      "name_sortable": "sentryinnis",
       "purpose": "Guard",
       "level": 25,
       "difficulty": "heroic3",
@@ -6390,7 +6024,6 @@
     },
     {
       "name": "Sentry Maurice",
-      "name_sortable": "sentrymaurice",
       "level": 25,
       "difficulty": "heroic3",
       "locations": [
@@ -6399,7 +6032,6 @@
     },
     {
       "name": "Sentry Secord",
-      "name_sortable": "sentrysecord",
       "purpose": "Guard",
       "level": 25,
       "difficulty": "heroic3",
@@ -6409,14 +6041,12 @@
     },
     {
       "name": "Sentry Smythe",
-      "name_sortable": "sentrysmythe",
       "locations": [
         "-2112.51,-46.02,419.59"
       ]
     },
     {
       "name": "Sergeant Tillin",
-      "name_sortable": "sergeanttillin",
       "locations": [
         "-2135.08,-46.13,395.37"
       ],
@@ -6426,7 +6056,6 @@
     },
     {
       "name": "a shadowy stag",
-      "name_sortable": "shadowystag",
       "locations": [
         "-484.95,-12.74,156.65",
         "-486.71,-13.34,163.22",
@@ -6441,7 +6070,6 @@
     },
     {
       "name": "a shifty farmer",
-      "name_sortable": "shiftyfarmer",
       "locations": [
         "-135.09,-14.94,-74.38"
       ],
@@ -6454,7 +6082,6 @@
     },
     {
       "name": "Sighard Sayer",
-      "name_sortable": "sighardsayer",
       "locations": [
         "-718.62,-11.01,239.46"
       ],
@@ -6465,7 +6092,6 @@
     },
     {
       "name": "Sir Dinzzie",
-      "name_sortable": "sirdinzzie",
       "locations": [
         "-1176.43,26.95,-957.97"
       ],
@@ -6477,7 +6103,6 @@
     },
     {
       "name": "Sir Hegel Hammerheart",
-      "name_sortable": "sirhegelhammerheart",
       "locations": [
         "-2121.84,-46.16,418.01"
       ],
@@ -6487,21 +6112,18 @@
     },
     {
       "name": "a slain guard",
-      "name_sortable": "slainguard",
       "locations": [
         "-1757.99,0.42,918.59"
       ]
     },
     {
       "name": "Sleepwalk Ashier",
-      "name_sortable": "sleepwalkashier",
       "utterances": [
         "This scenario was a breeze to pen! It practically wrote itself!"
       ]
     },
     {
       "name": "a small skeletal brat",
-      "name_sortable": "smallskeletalbrat",
       "locations": [
         "-1774.34,-9.43,863.29",
         "-1809.21,-14.37,828.01",
@@ -6525,7 +6147,6 @@
     },
     {
       "name": "Snekf Blacksmelter",
-      "name_sortable": "snekfblacksmelter",
       "locations": [
         "74.25,-20.47,1.91"
       ],
@@ -6535,7 +6156,6 @@
     },
     {
       "name": "Snowball",
-      "name_sortable": "snowball",
       "locations": [
         "53.81,-19.25,-21.18"
       ],
@@ -6548,7 +6168,6 @@
     },
     {
       "name": "a sogbone skeleton",
-      "name_sortable": "sogboneskeleton",
       "utterances": [
         "As I rise from the grave,  you will now take my place!",
         "That pile of bones was my friend!"
@@ -6556,7 +6175,6 @@
     },
     {
       "name": "Soldier Homrie",
-      "name_sortable": "soldierhomrie",
       "locations": [
         "-472.39,-0.42,541.92"
       ],
@@ -6566,7 +6184,6 @@
     },
     {
       "name": "Soldier Pellenos",
-      "name_sortable": "soldierpellenos",
       "locations": [
         "-401.56,0.71,106.83"
       ],
@@ -6576,7 +6193,6 @@
     },
     {
       "name": "Soldier Selennia",
-      "name_sortable": "soldierselennia",
       "locations": [
         "-396.44,4.69,263.62"
       ],
@@ -6586,7 +6202,6 @@
     },
     {
       "name": "a sonic shrieker",
-      "name_sortable": "sonicshrieker",
       "locations": [
         "-1227.99,38.1,-4.38",
         "-1270.86,42.58,22.8",
@@ -6603,7 +6218,6 @@
     },
     {
       "name": "Sparrow Cogcarrier",
-      "name_sortable": "sparrowcogcarrier",
       "utterances": [
         "Avast ye blaggard! What's ye be wanting?",
         "Arrr! I be the drea' pirate Sparrow... an' who might ye be?",
@@ -6614,7 +6228,6 @@
     },
     {
       "name": "Sparrow Cogcarrier",
-      "name_sortable": "sparrowcogcarrier",
       "utterances": [
         "Avast ye blaggard! What's ye be wanting?",
         "Arrr! I be the drea' pirate Sparrow... an' who might ye be?",
@@ -6625,7 +6238,6 @@
     },
     {
       "name": "a sparrow-hawk",
-      "name_sortable": "sparrowhawk",
       "level": 11,
       "locations": [
         "178.42,-7.75,675.53",
@@ -6657,7 +6269,6 @@
     },
     {
       "name": "a sparrow-hawk",
-      "name_sortable": "sparrowhawk",
       "locations": [
         "-105.14,-4.81,-135.53",
         "9.62,-6.77,159.46",
@@ -6687,7 +6298,6 @@
     },
     {
       "name": "a stonejaw lizard",
-      "name_sortable": "stonejawlizard",
       "level": 18,
       "locations": [
         "-1428.72,-16.87,-395.6",
@@ -6722,7 +6332,6 @@
     },
     {
       "name": "Tactician Mengs",
-      "name_sortable": "tacticianmengs",
       "locations": [
         "-1760.86,-0.83,907.47",
         "-1758.59,-0.38,912.92"
@@ -6748,24 +6357,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a tainted wolf",
-      "name_sortable": "taintedwolf",
       "level": 17,
       "locations": [
         "-1496.08,-8.97,-234.35",
@@ -6795,7 +6400,6 @@
     },
     {
       "name": "Taith McJarun",
-      "name_sortable": "taithmcjarun",
       "purpose": "Deepwater Circle",
       "locations": [
         "-1952.77,-14.37,744.15"
@@ -6806,7 +6410,6 @@
     },
     {
       "name": "a tamed rumbler",
-      "name_sortable": "tamedrumbler",
       "locations": [
         "-820.97,-20.29,-137.75",
         "-847.11,-20.98,-92.46"
@@ -6820,24 +6423,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "Tanen Danos",
-      "name_sortable": "tanendanos",
       "locations": [
         "-730.37,-11.01,229.51"
       ],
@@ -6859,7 +6458,6 @@
     },
     {
       "name": "Tark Searfang",
-      "name_sortable": "tarksearfang",
       "level": 12,
       "locations": [
         "196.97,-18.17,643.6"
@@ -6870,24 +6468,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "Taskmaster Lynette",
-      "name_sortable": "taskmasterlynette",
       "locations": [
         "344.4,2.23,817.73"
       ],
@@ -6900,14 +6494,12 @@
     },
     {
       "name": "Than Convoke",
-      "name_sortable": "thanconvoke",
       "utterances": [
         "<player name>, it's good to finally meet you. Roslyn has told me so much of you."
       ]
     },
     {
       "name": "a thicket lizard",
-      "name_sortable": "thicketlizard",
       "level": 16,
       "locations": [
         "-534.57,-7.76,-565.64",
@@ -6929,7 +6521,6 @@
     },
     {
       "name": "a thistle viper",
-      "name_sortable": "thistleviper",
       "level": 18,
       "locations": [
         "-1164.68,-46.65,-524.68",
@@ -6950,7 +6541,6 @@
     },
     {
       "name": "Thompson",
-      "name_sortable": "thompson",
       "purpose": "Guard",
       "level": 25,
       "difficulty": "heroic3",
@@ -6965,14 +6555,12 @@
     },
     {
       "name": "a thorn briar",
-      "name_sortable": "thornbriar",
       "locations": [
         "-2324.43,-33.17,-473.41"
       ]
     },
     {
       "name": "a tidewalker behemoth",
-      "name_sortable": "tidewalkerbehemoth",
       "locations": [
         "-1571.96,-49.75,-1005.4"
       ],
@@ -6985,7 +6573,6 @@
     },
     {
       "name": "a tidewalker goliath",
-      "name_sortable": "tidewalkergoliath",
       "locations": [
         "-729.1,-49.75,-795.57",
         "-686.73,-53.68,-593.44",
@@ -7007,7 +6594,6 @@
     },
     {
       "name": "a timberclaw gnoll",
-      "name_sortable": "timberclawgnoll",
       "level": 15,
       "locations": [
         "-567.44,-19.37,468.03",
@@ -7051,24 +6637,20 @@
       "faction_changes": [
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": 50
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": -100
         }
       ]
     },
     {
       "name": "a timber wolf",
-      "name_sortable": "timberwolf",
       "level": 14,
       "locations": [
         "-639.44,-14.7,284.24",
@@ -7111,7 +6693,6 @@
     },
     {
       "name": "Timothus Yelrow",
-      "name_sortable": "timothusyelrow",
       "locations": [
         "-1309.94,37.86,57.17"
       ],
@@ -7123,7 +6704,6 @@
     },
     {
       "name": "a toxin ravaged rodent",
-      "name_sortable": "toxinravagedrodent",
       "level": 12,
       "difficulty": "heroic",
       "locations": [
@@ -7134,7 +6714,6 @@
     },
     {
       "name": "a traitorous farmer",
-      "name_sortable": "traitorousfarmer",
       "level": 12,
       "locations": [
         "-174.2,-18.28,45.95",
@@ -7192,7 +6771,6 @@
     },
     {
       "name": "The Two-toed Rat",
-      "name_sortable": "two-toedrat",
       "level": 9,
       "locations": [
         "71.24,-16.85,119.96"
@@ -7200,14 +6778,12 @@
     },
     {
       "name": "The Two-toed Rat",
-      "name_sortable": "twotoedrat",
       "locations": [
         "71.24,-16.85,119.96"
       ]
     },
     {
       "name": "Tyllia Navar",
-      "name_sortable": "tyllianavar",
       "locations": [
         "33.22,-0.88,667.93"
       ],
@@ -7236,7 +6812,6 @@
     },
     {
       "name": "Velric Torch",
-      "name_sortable": "velrictorch",
       "locations": [
         "-1495.75,-12.43,-367.25"
       ],
@@ -7248,7 +6823,6 @@
     },
     {
       "name": "a wandering bat",
-      "name_sortable": "wanderingbat",
       "level": 12,
       "locations": [
         "0.58,-8.66,363.78",
@@ -7278,7 +6852,6 @@
     },
     {
       "name": "a wandering minstrel",
-      "name_sortable": "wanderingminstrel",
       "locations": [
         "-1908.88,-36.03,-609.96"
       ],
@@ -7290,7 +6863,6 @@
     },
     {
       "name": "Watchman Haggerty",
-      "name_sortable": "watchmanhaggerty",
       "level": 25,
       "difficulty": "heroic3",
       "locations": [
@@ -7299,7 +6871,6 @@
     },
     {
       "name": "Watchman Loxley",
-      "name_sortable": "watchmanloxley",
       "level": 25,
       "difficulty": "heroic3",
       "locations": [
@@ -7308,7 +6879,6 @@
     },
     {
       "name": "a Windstalker citizen",
-      "name_sortable": "windstalkercitizen",
       "locations": [
         "-1830.85,-38.09,-526.71",
         "-1847.56,-37.88,-503.81",
@@ -7328,7 +6898,6 @@
     },
     {
       "name": "a Windstalker constable",
-      "name_sortable": "windstalkerconstable",
       "locations": [
         "-1841.04,-38.09,-520.41",
         "-1808.48,-37.14,-510.63",
@@ -7344,7 +6913,6 @@
     },
     {
       "name": "a windstalker fisherman",
-      "name_sortable": "windstalkerfisherman",
       "locations": [
         "-1930.14,-38.26,-568.13",
         "-1935.08,-36.17,-622.41"
@@ -7352,7 +6920,6 @@
     },
     {
       "name": "The Windstalker Rumbler",
-      "name_sortable": "windstalkerrumbler",
       "level": 21,
       "difficulty": "epic^2",
       "locations": [
@@ -7361,7 +6928,6 @@
     },
     {
       "name": "a witherstraw scarecrow",
-      "name_sortable": "witherstrawscarecrow",
       "level": 12,
       "locations": [
         "-95.25,-16.59,13.78",
@@ -7395,7 +6961,6 @@
     },
     {
       "name": "Yoru the Old",
-      "name_sortable": "yorutheold",
       "locations": [
         "-1814.32,-37.99,-522.66"
       ],
@@ -7409,7 +6974,6 @@
     },
     {
       "name": "a young brown bear",
-      "name_sortable": "youngbrownbear",
       "level": 14,
       "locations": [
         "-1307.76,-9.53,165.18",
@@ -7436,7 +7000,6 @@
     },
     {
       "name": "a young kodiak",
-      "name_sortable": "youngkodiak",
       "level": 16,
       "locations": [
         "-1208.94,-11.27,218.37",
@@ -7463,7 +7026,6 @@
     },
     {
       "name": "a young timber wolf",
-      "name_sortable": "youngtimberwolf",
       "level": 12,
       "locations": [
         "-390.93,-20.53,725.06",
@@ -7656,35 +7218,28 @@
   ],
   "resourceNodes": [
     {
-      "name": "the callous ore",
-      "name_sortable": "callousore"
+      "name": "the callous ore"
     },
     {
       "name": "the critter den",
-      "name_sortable": "critterden",
       "locations": [
         "-2140.39,-43.95,318.43"
       ]
     },
     {
-      "name": "the plains roots",
-      "name_sortable": "plainsroots"
+      "name": "the plains roots"
     },
     {
-      "name": "the plains shrubbery",
-      "name_sortable": "plainsshrubbery"
+      "name": "the plains shrubbery"
     },
     {
-      "name": "the sandwashed rock",
-      "name_sortable": "sandwashedrock"
+      "name": "the sandwashed rock"
     },
     {
-      "name": "a shoal of fish",
-      "name_sortable": "shoaloffish"
+      "name": "a shoal of fish"
     },
     {
-      "name": "the wind felled tree",
-      "name_sortable": "windfelledtree"
+      "name": "the wind felled tree"
     }
   ]
 }

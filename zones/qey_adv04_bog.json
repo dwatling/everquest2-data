@@ -1,9 +1,12 @@
 {
   "name": "The Peat Bog",
-  "name_sortable": "peatbog",
   "category": "Karan",
-  "zonerect": "-936.08,336.30,-463.13,692.21",
   "levels": "5-10",
+  "maps": [
+    {
+      "zonerect": "-936.08,336.30,-463.13,692.21"
+    }
+  ],
   "connections": [
     {
       "key": "antonica"
@@ -21,7 +24,6 @@
   "npcs": [
     {
       "name": "a Bloodsaber watcher",
-      "name_sortable": "bloodsaberwatcher",
       "level": 7,
       "locations": [
         "656.84,-32.84,569.36",
@@ -42,7 +44,6 @@
     },
     {
       "name": "a bog faerie",
-      "name_sortable": "bogfaerie",
       "level": 7,
       "locations": [
         "633.83,-32.34,552.97",
@@ -119,7 +120,6 @@
     },
     {
       "name": "a bog sludge",
-      "name_sortable": "bogsludge",
       "level": 4,
       "locations": [
         "768.26,-33.98,399.1",
@@ -145,7 +145,6 @@
     },
     {
       "name": "a bog slug",
-      "name_sortable": "bogslug",
       "level": 4,
       "locations": [
         "705.62,-32.76,452.67",
@@ -165,7 +164,6 @@
     },
     {
       "name": "a bog slug hatchling",
-      "name_sortable": "bogslughatchling",
       "locations": [
         "700.78,-32.69,454.07",
         "654.33,-33.27,440.16"
@@ -173,7 +171,6 @@
     },
     {
       "name": "Botanist Lith",
-      "name_sortable": "botanistlith",
       "locations": [
         "584.08,-32.65,444.37",
         "594.45,-33.37,455.1"
@@ -184,7 +181,6 @@
     },
     {
       "name": "a faerie abbot",
-      "name_sortable": "faerieabbot",
       "level": 12,
       "locations": [
         "738.21,-32.4,527.5",
@@ -208,7 +204,6 @@
     },
     {
       "name": "a faerie gatekeeper",
-      "name_sortable": "faeriegatekeeper",
       "level": 10,
       "locations": [
         "745.7,-32.68,523.83",
@@ -221,7 +216,6 @@
     },
     {
       "name": "a faerie guardian",
-      "name_sortable": "faerieguardian",
       "level": 12,
       "locations": [
         "734.63,-32.71,519.96",
@@ -253,7 +247,6 @@
     },
     {
       "name": "a faerie noblesse",
-      "name_sortable": "faerienoblesse",
       "level": 13,
       "difficulty": "heroic",
       "locations": [
@@ -272,7 +265,6 @@
     },
     {
       "name": "a fay tangleroot",
-      "name_sortable": "faytangleroot",
       "level": 11,
       "locations": [
         "679.14,-33.15,522.7",
@@ -296,7 +288,6 @@
     },
     {
       "name": "Ferius Mentus",
-      "name_sortable": "feriusmentus",
       "locations": [
         "567.73,-28.59,420.08"
       ],
@@ -310,7 +301,6 @@
     },
     {
       "name": "a fungus crawler",
-      "name_sortable": "funguscrawler",
       "level": 8,
       "locations": [
         "803.96,-33.09,560.77",
@@ -321,14 +311,12 @@
     },
     {
       "name": "a Gaseous Seep",
-      "name_sortable": "gaseousseep",
       "locations": [
         "769.71,-36.12,586.69"
       ]
     },
     {
       "name": "a greater bog faerie",
-      "name_sortable": "greaterbogfaerie",
       "level": 9,
       "locations": [
         "777.05,-32.99,475.13",
@@ -348,7 +336,6 @@
     },
     {
       "name": "Guard Andrews",
-      "name_sortable": "guardandrews",
       "purpose": "Guard",
       "level": 25,
       "difficulty": "heroic",
@@ -362,7 +349,6 @@
     },
     {
       "name": "Guard Black",
-      "name_sortable": "guardblack",
       "purpose": "Guard",
       "level": 25,
       "difficulty": "heroic",
@@ -376,7 +362,6 @@
     },
     {
       "name": "Guard Dierdra",
-      "name_sortable": "guarddierdra",
       "purpose": "Guard",
       "level": 25,
       "difficulty": "heroic",
@@ -386,7 +371,6 @@
     },
     {
       "name": "Guard Moor",
-      "name_sortable": "guardmoor",
       "purpose": "Guard",
       "level": 25,
       "difficulty": "heroic",
@@ -396,7 +380,6 @@
     },
     {
       "name": "Guard Nander",
-      "name_sortable": "guardnander",
       "purpose": "Guard",
       "level": 25,
       "difficulty": "heroic",
@@ -410,7 +393,6 @@
     },
     {
       "name": "Guard Vivian",
-      "name_sortable": "guardvivian",
       "purpose": "Guard",
       "level": 25,
       "difficulty": "heroic",
@@ -421,14 +403,12 @@
     },
     {
       "name": "Jasarn",
-      "name_sortable": "jasarn",
       "locations": [
         "697.38,-31.27,538.39"
       ]
     },
     {
       "name": "King Itchhide",
-      "name_sortable": "kingitchhide",
       "level": 10,
       "locations": [
         "650.87,-35.58,609.26"
@@ -442,7 +422,6 @@
     },
     {
       "name": "Knight-Captain Santis",
-      "name_sortable": "knight-captainsantis",
       "locations": [
         "778.91,-26.39,375.77"
       ],
@@ -455,7 +434,6 @@
     },
     {
       "name": "Knight-Captain Santis",
-      "name_sortable": "knightcaptainsantis",
       "locations": [
         "779.2,-26.39,376.39"
       ],
@@ -467,7 +445,6 @@
     },
     {
       "name": "a large scavenger",
-      "name_sortable": "largescavenger",
       "level": 7,
       "locations": [
         "648.08,-32.36,494.08",
@@ -496,7 +473,6 @@
     },
     {
       "name": "Lieutenant Dawson",
-      "name_sortable": "lieutenantdawson",
       "purpose": "Qeynos Guard",
       "locations": [
         "563.51,-27.12,415.82"
@@ -512,7 +488,6 @@
     },
     {
       "name": "Lurkblister",
-      "name_sortable": "lurkblister",
       "level": 15,
       "difficulty": "heroic",
       "locations": [
@@ -542,7 +517,6 @@
     },
     {
       "name": "a marsh hatchling",
-      "name_sortable": "marshhatchling",
       "level": 8,
       "locations": [
         "702.89,-34.47,607.70",
@@ -558,7 +532,6 @@
     },
     {
       "name": "a marsh mauler",
-      "name_sortable": "marshmauler",
       "level": 10,
       "locations": [
         "800.9,-32.65,613.01",
@@ -577,7 +550,6 @@
     },
     {
       "name": "a mist stalker",
-      "name_sortable": "miststalker",
       "level": 11,
       "locations": [
         "785.45,-33.75,476.53",
@@ -595,7 +567,6 @@
     },
     {
       "name": "a muck toad",
-      "name_sortable": "mucktoad",
       "level": 6,
       "locations": [
         "760.21,-32.75,435.97",
@@ -627,7 +598,6 @@
     },
     {
       "name": "Oakvil",
-      "name_sortable": "oakvil",
       "locations": [
         "759.65, -26.23, 379.46"
       ],
@@ -691,7 +661,6 @@
     },
     {
       "name": "a puny scavenger",
-      "name_sortable": "punyscavenger",
       "level": 3,
       "locations": [
         "607.5,-33.07,456.2",
@@ -707,7 +676,6 @@
     },
     {
       "name": "Queen Ezeldra",
-      "name_sortable": "queenezeldra",
       "level": 13,
       "difficulty": "heroic",
       "locations": [
@@ -727,7 +695,6 @@
     },
     {
       "name": "a ravenous bog slug",
-      "name_sortable": "ravenousbogslug",
       "level": 8,
       "locations": [
         "599.18,-32.7,562.37",
@@ -745,7 +712,6 @@
     },
     {
       "name": "a refuse burrower",
-      "name_sortable": "refuseburrower",
       "level": 9,
       "locations": [
         "649.41,-35.71,610.73"
@@ -759,7 +725,6 @@
     },
     {
       "name": "a rot crawler",
-      "name_sortable": "rotcrawler",
       "level": 9,
       "locations": [
         "794.5,-32.58,607.15",
@@ -782,7 +747,6 @@
     },
     {
       "name": "Rujiarmo Oolamein",
-      "name_sortable": "rujiarmooolamein",
       "locations": [
         "769.24,-26.45,378.82"
       ],
@@ -792,7 +756,6 @@
     },
     {
       "name": "Siahtra Slenloolian",
-      "name_sortable": "siahtraslenloolian",
       "locations": [
         "657.56,-32.18,397.69"
       ],
@@ -804,7 +767,6 @@
     },
     {
       "name": "a silt sucker",
-      "name_sortable": "siltsucker",
       "level": 7,
       "locations": [
         "667.11,-34.26,510.38",
@@ -824,7 +786,6 @@
     },
     {
       "name": "a sporeal guard",
-      "name_sortable": "sporealguard",
       "level": 6,
       "locations": [
         "765.94,-33.14,436.82",
@@ -839,7 +800,6 @@
     },
     {
       "name": "a sporeal herbalist",
-      "name_sortable": "sporealherbalist",
       "level": 6,
       "locations": [
         "779.01,-33.97,446.49",
@@ -848,7 +808,6 @@
     },
     {
       "name": "a sporeal knight",
-      "name_sortable": "sporealknight",
       "level": 6,
       "locations": [
         "778.65,-34.06,436.84",
@@ -857,14 +816,12 @@
     },
     {
       "name": "a Sporeal Propogator",
-      "name_sortable": "sporealpropogator",
       "locations": [
         "788.46,-33.84,443.03"
       ]
     },
     {
       "name": "a sporeal seedling",
-      "name_sortable": "sporealseedling",
       "level": 5,
       "locations": [
         "621.21,-33.09,452.47",
@@ -880,7 +837,6 @@
     },
     {
       "name": "a swamp seep",
-      "name_sortable": "swampseep",
       "level": 8,
       "locations": [
         "702.25,-32.44,631.54",
@@ -905,7 +861,6 @@
     },
     {
       "name": "Tanaira",
-      "name_sortable": "tanaira",
       "locations": [
         "759.86,-26.39,365.44"
       ],
@@ -962,7 +917,6 @@
     },
     {
       "name": "a toxic bog slug",
-      "name_sortable": "toxicbogslug",
       "level": 6,
       "locations": [
         "635.51,-33.79,558.36",
@@ -979,7 +933,6 @@
     },
     {
       "name": "a wetland monitor",
-      "name_sortable": "wetlandmonitor",
       "level": 8,
       "locations": [
         "686.31,-33.44,621.97",
@@ -1078,31 +1031,25 @@
   ],
   "resourceNodes": [
     {
-      "name": "the creature den",
-      "name_sortable": "creatureden"
+      "name": "the creature den"
     },
     {
       "name": "the dense felled arbor",
-      "name_sortable": "densefelledarbor",
       "locations": [
         "635.97,-32.39,400.82"
       ]
     },
     {
-      "name": "the misty stone",
-      "name_sortable": "mistystone"
+      "name": "the misty stone"
     },
     {
-      "name": "the murky ore",
-      "name_sortable": "murkyore"
+      "name": "the murky ore"
     },
     {
-      "name": "the natural garden",
-      "name_sortable": "naturalgarden"
+      "name": "the natural garden"
     },
     {
-      "name": "the wilted roots",
-      "name_sortable": "wiltedroots"
+      "name": "the wilted roots"
     }
   ]
 }

@@ -1,9 +1,12 @@
 {
   "name": "The Down Below",
-  "name_sortable": "downbelow",
   "category": "Karan",
-  "zonerect": "-46.00,-261.00,239.00,68.00",
   "levels": "5-12",
+  "maps": [
+    {
+      "zonerect": "-46.00,-261.00,239.00,68.00"
+    }
+  ],
   "connections": [
     {
       "key": "qeynos_combined01"
@@ -27,7 +30,6 @@
   "npcs": [
     {
       "name": "Adair Barnes",
-      "name_sortable": "adairbarnes",
       "purpose": "General Goods",
       "locations": [
         "-13,0,-6"
@@ -92,7 +94,6 @@
     },
     {
       "name": "a Bloodsaber Adjunct",
-      "name_sortable": "bloodsaberadjunct",
       "level": 10,
       "difficulty": "heroic",
       "locations": [
@@ -102,7 +103,6 @@
     },
     {
       "name": "a Bloodsaber Deepguard",
-      "name_sortable": "bloodsaberdeepguard",
       "locations": [
         "-99.36,-0.61,-102.95",
         "-99.36,-0.11,-97.76"
@@ -110,7 +110,6 @@
     },
     {
       "name": "a Bloodsaber enforcer",
-      "name_sortable": "bloodsaberenforcer",
       "level": 10,
       "locations": [
         "6,0,-67"
@@ -118,7 +117,6 @@
     },
     {
       "name": "a Bloodsaber initiate",
-      "name_sortable": "bloodsaberinitiate",
       "level": 8,
       "locations": [
         "6,0,-128",
@@ -150,7 +148,6 @@
     },
     {
       "name": "a Bloodsaber lookout",
-      "name_sortable": "bloodsaberlookout",
       "level": 4,
       "locations": [
         "-6,0,-108",
@@ -172,7 +169,6 @@
     },
     {
       "name": "a Bloodsaber meddler",
-      "name_sortable": "bloodsabermeddler",
       "level": 8,
       "locations": [
         "6,0,-126",
@@ -199,7 +195,6 @@
     },
     {
       "name": "a coiled burrower",
-      "name_sortable": "coiledburrower",
       "level": 6,
       "locations": [
         "-66,0,-155",
@@ -220,14 +215,12 @@
     },
     {
       "name": "a corrupted Qeynos guard",
-      "name_sortable": "corruptedqeynosguard",
       "locations": [
         "-10.54,-0.07,-35.46"
       ]
     },
     {
       "name": "The Creeper",
-      "name_sortable": "creeper",
       "level": 11,
       "difficulty": "heroic",
       "locations": [
@@ -236,7 +229,6 @@
     },
     {
       "name": "a creeper protector",
-      "name_sortable": "creeperprotector",
       "level": 8,
       "locations": [
         "-135,7,-193",
@@ -251,7 +243,6 @@
     },
     {
       "name": "a Crypt Protector",
-      "name_sortable": "cryptprotector",
       "level": 10,
       "difficulty": "heroic",
       "locations": [
@@ -260,7 +251,6 @@
     },
     {
       "name": "a crypt substance",
-      "name_sortable": "cryptsubstance",
       "level": 6,
       "locations": [
         "-66,0,-155",
@@ -298,7 +288,6 @@
     },
     {
       "name": "a dust crawler hatchling",
-      "name_sortable": "dustcrawlerhatchling",
       "level": 6,
       "locations": [
         "-66,0,-155",
@@ -321,7 +310,6 @@
     },
     {
       "name": "Falin Shaloon",
-      "name_sortable": "falinshaloon",
       "race": [
         "dwarf"
       ],
@@ -393,7 +381,6 @@
     },
     {
       "name": "a fallen bodyguard",
-      "name_sortable": "fallenbodyguard",
       "level": 13,
       "locations": [
         "-172,7,-11"
@@ -401,7 +388,6 @@
     },
     {
       "name": "a fallen noble",
-      "name_sortable": "fallennoble",
       "level": 12,
       "difficulty": "heroic",
       "locations": [
@@ -426,7 +412,6 @@
     },
     {
       "name": "a Fallen Price",
-      "name_sortable": "fallenprice",
       "level": 13,
       "difficulty": "heroic",
       "locations": [
@@ -435,7 +420,6 @@
     },
     {
       "name": "a forgotten soul",
-      "name_sortable": "forgottensoul",
       "level": 11,
       "locations": [
         "-146,-1,-84",
@@ -463,7 +447,6 @@
     },
     {
       "name": "a frenzied watcher",
-      "name_sortable": "frenziedwatcher",
       "level": 9,
       "locations": [
         "-136,7,209",
@@ -479,7 +462,6 @@
     },
     {
       "name": "a juvenile shriller",
-      "name_sortable": "juvenileshriller",
       "level": 6,
       "locations": [
         "-192,0,-61",
@@ -494,14 +476,12 @@
     },
     {
       "name": "Lachlyn Cauldthorn",
-      "name_sortable": "lachlyncauldthorn",
       "locations": [
         "6,0,-67"
       ]
     },
     {
       "name": "a malefic arachnid",
-      "name_sortable": "maleficarachnid",
       "level": 7,
       "locations": [
         "-90,0,-167",
@@ -522,7 +502,6 @@
     },
     {
       "name": "a mysterious liaison",
-      "name_sortable": "mysteriousliaison",
       "locations": [
         "-100.46,-0.73,-100.16"
       ],
@@ -532,7 +511,6 @@
     },
     {
       "name": "a putrid vermin",
-      "name_sortable": "putridvermin",
       "level": 7,
       "locations": [
         "-76,-1,-102",
@@ -541,7 +519,6 @@
     },
     {
       "name": "a rabid pack rat",
-      "name_sortable": "rabidpackrat",
       "level": 7,
       "locations": [
         "-84,0,-122"
@@ -549,7 +526,6 @@
     },
     {
       "name": "a rabid shriller",
-      "name_sortable": "rabidshriller",
       "level": 9,
       "locations": [
         "-192,0,-61",
@@ -566,7 +542,6 @@
     },
     {
       "name": "Rinna",
-      "name_sortable": "rinna",
       "utterances": [
         "Oh thank goodness you found me, and none too soon, either!  Who knows what those thugs would have done!",
         "They were guards, but the only thing I can think is that they were paid off somehow.  The majority of the Qeynos Guard are honest, loyal citizens - but I guess most everyone has a price.",
@@ -583,7 +558,6 @@
     },
     {
       "name": "a rotting citizen",
-      "name_sortable": "rottingcitizen",
       "level": 12,
       "locations": [
         "-179,1,-16",
@@ -628,7 +602,6 @@
     },
     {
       "name": "a rotting royal",
-      "name_sortable": "rottingroyal",
       "level": 12,
       "locations": [
         "-179,1,-16",
@@ -641,7 +614,6 @@
     },
     {
       "name": "a Rotting Vermin",
-      "name_sortable": "rottingvermin",
       "level": 9,
       "difficulty": "heroic",
       "locations": [
@@ -650,7 +622,6 @@
     },
     {
       "name": "a shriller",
-      "name_sortable": "shriller",
       "level": 8,
       "locations": [
         "-146,0,-145",
@@ -666,7 +637,6 @@
     },
     {
       "name": "a tomb forager",
-      "name_sortable": "tombforager",
       "level": 7,
       "locations": [
         "-76,-1,-102",
@@ -677,7 +647,6 @@
     },
     {
       "name": "a tomb rifter bleeder",
-      "name_sortable": "tombrifterbleeder",
       "level": 8,
       "locations": [
         "-202,0,-124",
@@ -697,7 +666,6 @@
     },
     {
       "name": "a tomb rifter hatchling",
-      "name_sortable": "tombrifterhatchling",
       "level": 7,
       "locations": [
         "-159,-0,-119",
@@ -718,7 +686,6 @@
     },
     {
       "name": "a tomb rifter pest",
-      "name_sortable": "tombrifterpest",
       "level": 8,
       "locations": [
         "-172,1,-119",
@@ -739,7 +706,6 @@
     },
     {
       "name": "a tortured soul",
-      "name_sortable": "torturedsoul",
       "level": 11,
       "locations": [
         "-192,0,-27",
@@ -785,7 +751,6 @@
     },
     {
       "name": "a venomous keeper",
-      "name_sortable": "venomouskeeper",
       "level": 8,
       "locations": [
         "-100,0,-200",
@@ -801,7 +766,6 @@
     },
     {
       "name": "a venomous watcher",
-      "name_sortable": "venomouswatcher",
       "level": 6,
       "locations": [
         "-124,0,-196",
@@ -818,7 +782,6 @@
     },
     {
       "name": "a venom spitter",
-      "name_sortable": "venomspitter",
       "level": 7,
       "locations": [
         "-121,0,-203",

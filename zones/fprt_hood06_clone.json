@@ -1,11 +1,14 @@
 {
   "name": "Scale Yard",
-  "name_sortable": "scaleyard",
   "flags": "pre-lu62",
   "category": "Villages",
   "subcategory": "Freeport",
-  "zonerect": "-269.50,-123.97,214.44,240.80",
-    "connections": [
+  "maps": [
+    {
+      "zonerect": "-269.50,-123.97,214.44,240.80"
+    }
+  ],
+  "connections": [
     {
       "key": "freeport_combined",
       "location": "-10.40,-5.00,-10.70"
@@ -26,7 +29,6 @@
   "npcs": [
     {
       "name": "Anthony Glavias",
-      "name_sortable": "anthonyglavias",
       "race": [
         "human"
       ],
@@ -43,7 +45,6 @@
     },
     {
       "name": "Arms Dealer Shilza",
-      "name_sortable": "armsdealershilza",
       "race": [
         "iksar"
       ],
@@ -63,7 +64,6 @@
     },
     {
       "name": "Banker Izark",
-      "name_sortable": "bankerizark",
       "race": [
         "iksar"
       ],
@@ -80,7 +80,6 @@
     },
     {
       "name": "Barmaid Frostwind",
-      "name_sortable": "barmaidfrostwind",
       "race": [
         "barbarian"
       ],
@@ -100,7 +99,6 @@
     },
     {
       "name": "Bartender Icebrew",
-      "name_sortable": "bartendericebrew",
       "race": [
         "barbarian"
       ],
@@ -118,7 +116,6 @@
     },
     {
       "name": "Briac Tundrafire",
-      "name_sortable": "briactundrafire",
       "race": [
         "barbarian"
       ],
@@ -134,7 +131,6 @@
     },
     {
       "name": "Brood Matron Vrim Malthyk",
-      "name_sortable": "broodmatronvrimmalthyk",
       "race": [
         "iksar"
       ],
@@ -147,7 +143,6 @@
     },
     {
       "name": "Caleb Brazenroot",
-      "name_sortable": "calebbrazenroot",
       "race": [
         "barbarian"
       ],
@@ -163,7 +158,6 @@
     },
     {
       "name": "Clan Chief Malachi Sleetsaber",
-      "name_sortable": "clanchiefmalachisleetsaber",
       "race": [
         "barbarian"
       ],
@@ -179,7 +173,6 @@
     },
     {
       "name": "Colin Stoutfist",
-      "name_sortable": "colinstoutfist",
       "race": [
         "barbarian"
       ],
@@ -195,7 +188,6 @@
     },
     {
       "name": "Dunn Coldbrow",
-      "name_sortable": "dunncoldbrow",
       "race": [
         "barbarian"
       ],
@@ -208,7 +200,6 @@
     },
     {
       "name": "Dyerth Shiraz",
-      "name_sortable": "dyerthshiraz",
       "race": [
         "iksar"
       ],
@@ -221,7 +212,6 @@
     },
     {
       "name": "Evelyn Stoutfist",
-      "name_sortable": "evelynstoutfist",
       "race": [
         "barbarian"
       ],
@@ -234,7 +224,6 @@
     },
     {
       "name": "Garowin",
-      "name_sortable": "garowin",
       "race": [
         "iksar"
       ],
@@ -248,14 +237,12 @@
     },
     {
       "name": "Igor",
-      "name_sortable": "igor",
       "locations": [
         "84.32,-4.37,18.06"
       ]
     },
     {
       "name": "Innkeep Frosthome",
-      "name_sortable": "innkeepfrosthome",
       "race": [
         "barbarian"
       ],
@@ -295,7 +282,6 @@
     },
     {
       "name": "Issik Dethyr",
-      "name_sortable": "issikdethyr",
       "race": [
         "iksar"
       ],
@@ -311,14 +297,12 @@
     },
     {
       "name": "Ivan",
-      "name_sortable": "ivan",
       "locations": [
         "79.94,-4.37,13.03"
       ]
     },
     {
       "name": "Ivashko",
-      "name_sortable": "ivashko",
       "level": 3,
       "locations": [
         "43.25,-4.35,-11.98",
@@ -327,7 +311,6 @@
     },
     {
       "name": "Jondy Cobbleblork",
-      "name_sortable": "jondycobbleblork",
       "race": [
         "gnome"
       ],
@@ -343,7 +326,6 @@
     },
     {
       "name": "Kakriss",
-      "name_sortable": "kakriss",
       "race": [
         "iksar"
       ],
@@ -363,7 +345,6 @@
     },
     {
       "name": "Lachar",
-      "name_sortable": "lachar",
       "level": 3,
       "locations": [
         "26.42,-4.38,26.83"
@@ -371,7 +352,6 @@
     },
     {
       "name": "Lambert",
-      "name_sortable": "lambert",
       "level": 1,
       "locations": [
         "18.46,-4.38,44.69",
@@ -380,7 +360,6 @@
     },
     {
       "name": "Lorn McHalford",
-      "name_sortable": "lornmchalford",
       "race": [
         "barbarian"
       ],
@@ -395,7 +374,6 @@
     },
     {
       "name": "Lucas MacCormick",
-      "name_sortable": "lucasmaccormick",
       "race": [
         "dwarf"
       ],
@@ -414,7 +392,6 @@
     },
     {
       "name": "Megen O`Keel",
-      "name_sortable": "megenokeel",
       "race": [
         "barbarian"
       ],
@@ -432,7 +409,6 @@
     },
     {
       "name": "Melvin Dunford",
-      "name_sortable": "melvindunford",
       "race": [
         "human"
       ],
@@ -451,7 +427,6 @@
     },
     {
       "name": "Merchant Ziraak",
-      "name_sortable": "merchantziraak",
       "race": [
         "iksar"
       ],
@@ -472,7 +447,6 @@
     },
     {
       "name": "Mirin Zilishia",
-      "name_sortable": "mirinzilishia",
       "race": [
         "iksar"
       ],
@@ -492,14 +466,12 @@
     },
     {
       "name": "Natasha",
-      "name_sortable": "natasha",
       "locations": [
         "97.31,-4.37,21.4"
       ]
     },
     {
       "name": "Nithask Syrthiss",
-      "name_sortable": "nithasksyrthiss",
       "race": [
         "iksar"
       ],
@@ -525,7 +497,6 @@
     },
     {
       "name": "Olin Barkstripper",
-      "name_sortable": "olinbarkstripper",
       "race": [
         "barbarian"
       ],
@@ -544,14 +515,12 @@
     },
     {
       "name": "Peter",
-      "name_sortable": "peter",
       "locations": [
         "89.24,-4.37,18.43"
       ]
     },
     {
       "name": "Plotter Nicolai ",
-      "name_sortable": "plotternicolai",
       "race": [
         "ratonga"
       ],
@@ -569,7 +538,6 @@
     },
     {
       "name": "a poisonous hood wasp",
-      "name_sortable": "poisonoushoodwasp",
       "level": 4,
       "locations": [
         "70.89,-4.35,-30.03"
@@ -577,7 +545,6 @@
     },
     {
       "name": "a rat",
-      "name_sortable": "rat",
       "level": 2,
       "locations": [
         "15.98,-4.38,9.82",
@@ -587,7 +554,6 @@
     },
     {
       "name": "Savas Dranak",
-      "name_sortable": "savasdranak",
       "race": [
         "iksar"
       ],
@@ -603,7 +569,6 @@
     },
     {
       "name": "Scribe Coldquill",
-      "name_sortable": "scribecoldquill",
       "race": [
         "barbarian"
       ],
@@ -638,7 +603,6 @@
     },
     {
       "name": "a shadowy agent",
-      "name_sortable": "shadowyagent",
       "locations": [
         "-12.10,0.27,38.71"
       ],
@@ -650,7 +614,6 @@
     },
     {
       "name": "Skal Vethiz",
-      "name_sortable": "skalvethiz",
       "race": [
         "iksar"
       ],
@@ -666,7 +629,6 @@
     },
     {
       "name": "Spera",
-      "name_sortable": "spera",
       "level": 3,
       "locations": [
         "29.09,0.0,9.03",
@@ -675,7 +637,6 @@
     },
     {
       "name": "Sypp",
-      "name_sortable": "sypp",
       "race": [
         "iksar"
       ],
@@ -695,7 +656,6 @@
     },
     {
       "name": "Tabitha",
-      "name_sortable": "tabitha",
       "level": 2,
       "locations": [
         "21.52,-4.38,36.16"
@@ -703,7 +663,6 @@
     },
     {
       "name": "Tegan Frostfist",
-      "name_sortable": "teganfrostfist",
       "race": [
         "human"
       ],
@@ -721,7 +680,6 @@
     },
     {
       "name": "Tristan O'Rilley",
-      "name_sortable": "tristanorilley",
       "race": [
         "barbarian"
       ],
@@ -737,7 +695,6 @@
     },
     {
       "name": "Ugarin Farwind",
-      "name_sortable": "ugarinfarwind",
       "race": [
         "barbarian"
       ],
@@ -756,7 +713,6 @@
     },
     {
       "name": "Vleske Vylkle",
-      "name_sortable": "vleskevylkle",
       "race": [
         "iksar"
       ],
@@ -774,7 +730,6 @@
     },
     {
       "name": "Weaponsmith Xass",
-      "name_sortable": "weaponsmithxass",
       "race": [
         "iksar"
       ],
@@ -790,7 +745,6 @@
     },
     {
       "name": "Zever Tzizzink",
-      "name_sortable": "zevertzizzink",
       "race": [
         "iksar"
       ],

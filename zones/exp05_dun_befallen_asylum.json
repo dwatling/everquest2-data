@@ -1,10 +1,13 @@
 {
   "name": "Befallen: The Necrotic Asylum",
-  "name_sortable": "befallenthenecroticasylum",
   "expansion": "exp05",
   "category": "Dungeons",
-  "zonerect": "-75.00,-82.00,462.00,422.00",
   "levels": "50-95",
+  "maps": [
+    {
+      "zonerect": "-75.00,-82.00,462.00,422.00"
+    }
+  ],
   "connections": [
     {
       "key": "commonlands"

@@ -1,10 +1,13 @@
 {
   "name": "Tranquil Sea",
-  "name_sortable": "tranquilsea",
   "expansion": "exp11",
   "description": "An assortment of treacherous, tropical islands await exploration within this deceptively calm sea.",
-  "zonerect": "-1871.00,-1271.00,1968.00,1606.00",
   "levels": "95-100",
+  "maps": [
+    {
+      "zonerect": "-1871.00,-1271.00,1968.00,1606.00"
+    }
+  ],
   "connections": [
     {
       "key": "exp11_rgn_north_seas"

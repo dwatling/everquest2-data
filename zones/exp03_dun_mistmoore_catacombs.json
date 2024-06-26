@@ -1,6 +1,5 @@
 {
   "name": "Mistmoore Catacombs",
-  "name_sortable": "mistmoorecatacombs",
   "expansion": "exp03",
   "category": "Faydwer",
   "zonerect": "44.00,-133.00,278.00,140.00",
@@ -24,7 +23,6 @@
   "npcs": [
     {
       "name": "a loyal lookout",
-      "name_sortable": "loyallookout",
       "drops": [
         {
           "gamelink": "\\aITEM 1335559556 -1555226293:droag egg fragment\\/a",
@@ -34,30 +32,25 @@
       "faction_changes": [
         {
           "name": "Mistmoore",
-          "name_sortable": "mistmoore",
           "value": -100
         },
         {
           "name": "The Lyrech",
-          "name_sortable": "lyrech",
           "value": 50
         }
       ]
     },
     {
       "name": "Seneschal D'naraz",
-      "name_sortable": "seneschaldnaraz",
       "drop_coin_min": 7700,
       "drop_coin_max": 7700,
       "faction_changes": [
         {
           "name": "Mistmoore",
-          "name_sortable": "mistmoore",
           "value": -100
         },
         {
           "name": "The Lyrech",
-          "name_sortable": "lyrech",
           "value": 50
         }
       ]

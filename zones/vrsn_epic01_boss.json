@@ -1,11 +1,14 @@
 {
   "name": "Chamber of Immortality",
-  "name_sortable": "chamberofimmortality",
   "category": "Dungeons",
-  "zonerect": "-234.00,88.00,-166.00,164.00",
   "levels": "30-45",
   "access_quests": [
     1248080770
+  ],
+  "maps": [
+    {
+      "zonerect": "-234.00,88.00,-166.00,164.00"
+    }
   ],
   "connections": [
     {
@@ -15,7 +18,6 @@
   "npcs": [
     {
       "name": "an ethereal fiend",
-      "name_sortable": "etherealfiend",
       "level": 34,
       "difficulty": "heroic",
       "locations": [
@@ -24,7 +26,6 @@
     },
     {
       "name": "an extraplanar aggressor",
-      "name_sortable": "extraplanaraggressor",
       "level": 33,
       "difficulty": "heroic",
       "locations": [
@@ -40,7 +41,6 @@
     },
     {
       "name": "an extraplanar denizen",
-      "name_sortable": "extraplanardenizen",
       "level": 33,
       "difficulty": "heroic",
       "locations": [
@@ -60,7 +60,6 @@
     },
     {
       "name": "an extraplanar invader",
-      "name_sortable": "extraplanarinvader",
       "level": 33,
       "difficulty": "heroic",
       "locations": [
@@ -76,7 +75,6 @@
     },
     {
       "name": "an extraplanar lurker",
-      "name_sortable": "extraplanarlurker",
       "level": 33,
       "difficulty": "heroic",
       "locations": [
@@ -87,7 +85,6 @@
     },
     {
       "name": "Varsoon the Undying",
-      "name_sortable": "varsoontheundying",
       "level": 35,
       "difficulty": "heroic",
       "locations": [

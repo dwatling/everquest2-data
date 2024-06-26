@@ -1,9 +1,12 @@
 {
   "name": "A Memory of Echoes",
-  "name_sortable": "memoryofechoes",
   "expansion": "exp03",
   "category": "",
-  "zonerect": "-175.00,-110.00,169.00,291.00",
+  "maps": [
+    {
+      "zonerect": "-175.00,-110.00,169.00,291.00"
+    }
+  ],
   "connections": [
     {
       "key": "qeynos_combined01"
@@ -12,7 +15,6 @@
   "npcs": [
     {
       "name": "a clockwork guardian",
-      "name_sortable": "clockworkguardian",
       "locations": [
         "28.17,3.88,210.29",
         "41.00,3.88,182.00",
@@ -60,7 +62,6 @@
     },
     {
       "name": "a guardian bone golem",
-      "name_sortable": "guardianbonegolem",
       "locations": [
         "-53.69,-0.68,249.66",
         "-53.45,-0.68,243.47",
@@ -87,7 +88,6 @@
     },
     {
       "name": "a kobold guardian",
-      "name_sortable": "koboldguardian",
       "locations": [
         "48.47,0.76,87.04",
         "88.51,0.26,103.50",
@@ -179,7 +179,6 @@
     },
     {
       "name": "a minotaur guardian",
-      "name_sortable": "minotaurguardian",
       "locations": [
         "57.01,0.00,240.65",
         "27.43,0.00,238.93",
@@ -220,7 +219,6 @@
     },
     {
       "name": "a satyr guardian",
-      "name_sortable": "satyrguardian",
       "locations": [
         "-29.27,0.00,11.74",
         "-4.26,0.21,1.40",

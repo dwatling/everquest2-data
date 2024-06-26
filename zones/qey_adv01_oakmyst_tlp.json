@@ -1,10 +1,13 @@
 {
   "name": "Oakmyst Forest",
-  "name_sortable": "oakmystforest",
   "flags": "origins",
   "category": "Karan",
-  "zonerect": "-1177.50,-462.25,-605.39,-33.11",
   "levels": "5-10",
+  "maps": [
+    {
+      "zonerect": "-1177.50,-462.25,-605.39,-33.11"
+    }
+  ],
   "connections": [
     {
       "key": "qey_village03"
@@ -16,7 +19,6 @@
   "npcs": [
     {
       "name": "Adalin Emerael",
-      "name_sortable": "adalinemerael",
       "race": [
         "high elf"
       ],
@@ -32,7 +34,6 @@
     },
     {
       "name": "Bardrian Vorsuth",
-      "name_sortable": "bardrianvorsuth",
       "race": [
         "barbarian"
       ],
@@ -48,7 +49,6 @@
     },
     {
       "name": "Cailee Bluesheaf",
-      "name_sortable": "caileebluesheaf",
       "race": [
         "wood elf"
       ],
@@ -64,7 +64,6 @@
     },
     {
       "name": "a glowmyst beetle",
-      "name_sortable": "glowmystbeetle",
       "locations": [
         "758.79,11.44,-191.66",
         "768.37,9.92,-206.76"
@@ -72,7 +71,6 @@
     },
     {
       "name": "Huntmaster Krell",
-      "name_sortable": "huntmasterkrell",
       "race": [
         "barbarian"
       ],
@@ -88,7 +86,6 @@
     },
     {
       "name": "Jemila",
-      "name_sortable": "jemila",
       "race": [
         "kerran"
       ],
@@ -107,7 +104,6 @@
     },
     {
       "name": "Lieutenant Charlin",
-      "name_sortable": "lieutenantcharlin",
       "race": [
         "human"
       ],
@@ -124,7 +120,6 @@
     },
     {
       "name": "Lulien Leafven",
-      "name_sortable": "lulienleafven",
       "race": [
         "wood elf"
       ],
@@ -140,7 +135,6 @@
     },
     {
       "name": "Marv Boilfist",
-      "name_sortable": "marvboilfist",
       "race": [
         "dwarf"
       ],
@@ -156,7 +150,6 @@
     },
     {
       "name": "Rinduil Flintflight",
-      "name_sortable": "rinduilflintflight",
       "race": [
         "wood elf"
       ],
@@ -172,7 +165,6 @@
     },
     {
       "name": "Toppa Doppster",
-      "name_sortable": "toppadoppster",
       "race": [
         "halfling"
       ],
@@ -192,7 +184,6 @@
     },
     {
       "name": "Tracker Galera",
-      "name_sortable": "trackergalera",
       "race": [
         "wood elf"
       ],
@@ -208,7 +199,6 @@
     },
     {
       "name": "Tracker Kelnis",
-      "name_sortable": "trackerkelnis",
       "race": [
         "high elf"
       ],
@@ -239,20 +229,16 @@
   ],
   "resourceNodes": [
     {
-      "name": "the compound ore",
-      "name_sortable": "compoundore"
+      "name": "the compound ore"
     },
     {
-      "name": "the moss encased stone",
-      "name_sortable": "mossencasedstone"
+      "name": "the moss encased stone"
     },
     {
-      "name": "the muddy roots",
-      "name_sortable": "muddyroots"
+      "name": "the muddy roots"
     },
     {
-      "name": "the natural garden",
-      "name_sortable": "naturalgarden"
+      "name": "the natural garden"
     }
   ]
 }

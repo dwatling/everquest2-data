@@ -1,10 +1,13 @@
 {
   "name": "Stonestair Byway",
-  "name_sortable": "stonestairbyway",
   "flags": "origins",
   "category": "Villages",
   "subcategory": "Freeport",
-  "zonerect": "-167.84, -157.10, 164.91, 89.21",
+  "maps": [
+    {
+      "zonerect": "-167.84, -157.10, 164.91, 89.21"
+    }
+  ],
   "connections": [
     {
       "key": "fprt_north"
@@ -13,7 +16,6 @@
   "npcs": [
     {
       "name": "Armsdealer Melai",
-      "name_sortable": "armsdealermelai",
       "race": [
         "kerran"
       ],
@@ -32,7 +34,6 @@
     },
     {
       "name": "Barmaid Miala",
-      "name_sortable": "barmaidmiala",
       "race": [
         "human"
       ],
@@ -50,7 +51,6 @@
     },
     {
       "name": "Batarra",
-      "name_sortable": "batarra",
       "race": [
         "kerran"
       ],
@@ -67,7 +67,6 @@
     },
     {
       "name": "Fariola",
-      "name_sortable": "fariola",
       "race": [
         "erudite"
       ],
@@ -85,7 +84,6 @@
     },
     {
       "name": "Galenus Vatia",
-      "name_sortable": "galenusvatia",
       "race": [
         "erudite"
       ],
@@ -101,7 +99,6 @@
     },
     {
       "name": "Habika",
-      "name_sortable": "habika",
       "race": [
         "kerran"
       ],
@@ -117,7 +114,6 @@
     },
     {
       "name": "Innkeeper Zahar",
-      "name_sortable": "innkeeperzahar",
       "race": [
         "erudite"
       ],
@@ -160,7 +156,6 @@
     },
     {
       "name": "Irian",
-      "name_sortable": "irian",
       "race": [
         "erudite"
       ],
@@ -178,7 +173,6 @@
     },
     {
       "name": "Jezrina",
-      "name_sortable": "jezrina",
       "race": [
         "erudite"
       ],
@@ -194,7 +188,6 @@
     },
     {
       "name": "Johari",
-      "name_sortable": "johari",
       "race": [
         "erudite"
       ],
@@ -230,7 +223,6 @@
     },
     {
       "name": "Jojo Karanja",
-      "name_sortable": "jojokaranja",
       "race": [
         "kerran"
       ],
@@ -246,7 +238,6 @@
     },
     {
       "name": "Juma",
-      "name_sortable": "juma",
       "race": [
         "kerran"
       ],
@@ -262,7 +253,6 @@
     },
     {
       "name": "Kaman",
-      "name_sortable": "kaman",
       "race": [
         "erudite"
       ],
@@ -279,7 +269,6 @@
     },
     {
       "name": "Kazar",
-      "name_sortable": "kazar",
       "race": [
         "erudite"
       ],
@@ -295,7 +284,6 @@
     },
     {
       "name": "Kolai",
-      "name_sortable": "kolai",
       "race": [
         "kerran"
       ],
@@ -313,7 +301,6 @@
     },
     {
       "name": "Lirosi",
-      "name_sortable": "lirosi",
       "race": [
         "kerran"
       ],
@@ -329,7 +316,6 @@
     },
     {
       "name": "Nashii",
-      "name_sortable": "nashii",
       "race": [
         "kerran"
       ],
@@ -356,7 +342,6 @@
     },
     {
       "name": "Nisra",
-      "name_sortable": "nisra",
       "race": [
         "kerran"
       ],
@@ -375,7 +360,6 @@
     },
     {
       "name": "Ozzaranu",
-      "name_sortable": "ozzaranu",
       "race": [
         "erudite"
       ],
@@ -393,7 +377,6 @@
     },
     {
       "name": "Pona",
-      "name_sortable": "pona",
       "race": [
         "kerran"
       ],
@@ -406,7 +389,6 @@
     },
     {
       "name": "Raban",
-      "name_sortable": "raban",
       "race": [
         "erudite"
       ],
@@ -422,7 +404,6 @@
     },
     {
       "name": "Rori",
-      "name_sortable": "rori",
       "race": [
         "kerran"
       ],
@@ -438,7 +419,6 @@
     },
     {
       "name": "Rosali",
-      "name_sortable": "rosali",
       "race": [
         "kerran"
       ],
@@ -456,7 +436,6 @@
     },
     {
       "name": "Sevri Il'Bethod",
-      "name_sortable": "sevriilbethod",
       "race": [
         "erudite"
       ],
@@ -472,7 +451,6 @@
     },
     {
       "name": "Shatana Kamelia",
-      "name_sortable": "shatanakamelia",
       "race": [
         "kerran"
       ],
@@ -490,7 +468,6 @@
     },
     {
       "name": "Street Witch Azreana",
-      "name_sortable": "streetwitchazreana",
       "race": [
         "erudite"
       ],
@@ -506,7 +483,6 @@
     },
     {
       "name": "Thindel",
-      "name_sortable": "thindel",
       "race": [
         "kerran"
       ],
@@ -524,7 +500,6 @@
     },
     {
       "name": "Tobial",
-      "name_sortable": "tobial",
       "race": [
         "kerran"
       ],
@@ -540,7 +515,6 @@
     },
     {
       "name": "Vess Al'Ishni",
-      "name_sortable": "vessalishni",
       "race": [
         "erudite"
       ],
@@ -557,7 +531,6 @@
     },
     {
       "name": "Washaso",
-      "name_sortable": "washaso",
       "race": [
         "kerran"
       ],
@@ -575,7 +548,6 @@
     },
     {
       "name": "a whispering Erudite",
-      "name_sortable": "whisperingerudite",
       "race": [
         "erudite"
       ],

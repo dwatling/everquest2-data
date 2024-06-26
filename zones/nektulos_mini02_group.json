@@ -1,14 +1,17 @@
 {
   "name": "Dire Hollow: Infernal Echoes",
-  "name_sortable": "direhollowinfernalechoes",
   "added": "lu05",
   "category": "Dungeons",
   "subcategory": "Group",
-  "zonerect": "-95.00,-4.00,10.00,112.00",
   "levels": "50-55",
   "access_quests": [
     595483768,
     29893935
+  ],
+  "maps": [
+    {
+      "zonerect": "-95.00,-4.00,10.00,112.00"
+    }
   ],
   "connections": [
     {
@@ -18,7 +21,6 @@
   "npcs": [
     {
       "name": "a disturbed fossil",
-      "name_sortable": "disturbedfossil",
       "level": 55,
       "difficulty": "heroic",
       "locations": [
@@ -49,7 +51,6 @@
     },
     {
       "name": "a stone sniper",
-      "name_sortable": "stonesniper",
       "level": 54,
       "difficulty": "heroic",
       "locations": [
@@ -74,7 +75,6 @@
     },
     {
       "name": "an undergoyle",
-      "name_sortable": "undergoyle",
       "level": 53,
       "difficulty": "heroic",
       "locations": [
@@ -111,7 +111,6 @@
     },
     {
       "name": "a writhing viscera",
-      "name_sortable": "writhingviscera",
       "level": 53,
       "locations": [
         "2.84,-16.15,59.50"

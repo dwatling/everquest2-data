@@ -1,10 +1,13 @@
 {
   "name": "The Tombs of Night: Retribution",
-  "name_sortable": "tombsofnightretribution",
   "added": "lu05",
   "category": "Dungeons",
   "subcategory": "Group",
-  "zonerect": "-141.00,-153.00,133.00,166.00",
+  "maps": [
+    {
+      "zonerect": "-141.00,-153.00,133.00,166.00"
+    }
+  ],
   "connections": [
     {
       "key": "nektulos"
@@ -16,7 +19,6 @@
   "npcs": [
     {
       "name": "an Adherant diabolist",
-      "name_sortable": "adherantdiabolist",
       "drops": [
         {
           "gamelink": "\\aITEM 728229990 1181299130:a vampiric incisor\\/a",
@@ -28,13 +30,11 @@
     },
     {
       "name": "an Adherant satiator",
-      "name_sortable": "adherantsatiator",
       "drop_coin_min": 2688,
       "drop_coin_max": 2688
     },
     {
       "name": "an Adherant seer",
-      "name_sortable": "adherantseer",
       "drops": [
         {
           "gamelink": "\\aITEM -1809022634 -46070857:flask of pure water\\/a",
@@ -44,7 +44,6 @@
     },
     {
       "name": "a flesh draped knight",
-      "name_sortable": "fleshdrapedknight",
       "utterances": [
         "That pile of bones was my friend!",
         "Final death comes at last."
@@ -52,7 +51,6 @@
     },
     {
       "name": "a flesh draped mage",
-      "name_sortable": "fleshdrapedmage",
       "utterances": [
         "That pile of bones was my friend!",
         "Rest in peace."
@@ -60,7 +58,6 @@
     },
     {
       "name": "a hellhound",
-      "name_sortable": "hellhound",
       "drops": [
         {
           "gamelink": "\\aITEM 1780029229 588031481:canine saliva\\/a",
@@ -70,13 +67,11 @@
     },
     {
       "name": "a Neonate diabolist",
-      "name_sortable": "neonatediabolist",
       "drop_coin_min": 1989,
       "drop_coin_max": 1989
     },
     {
       "name": "a Neonate ravager",
-      "name_sortable": "neonateravager",
       "drops": [
         {
           "gamelink": "\\aITEM 728229990 1181299130:a vampiric incisor\\/a",
@@ -88,7 +83,6 @@
     },
     {
       "name": "a Neonate satiator",
-      "name_sortable": "neonatesatiator",
       "drops": [
         {
           "gamelink": "\\aITEM -828547253 615914939:Indicolite Relic\\/a",
@@ -100,7 +94,6 @@
     },
     {
       "name": "a Neonate slayer",
-      "name_sortable": "neonateslayer",
       "drops": [
         {
           "gamelink": "\\aITEM 316935679 -843172065:Bayberry Sealed Document\\/a",
@@ -114,7 +107,6 @@
     },
     {
       "name": "a Neonate vanquisher",
-      "name_sortable": "neonatevanquisher",
       "drops": [
         {
           "gamelink": "\\aITEM 1045376885 -1678206348:Star Sapphire Scrying Stone\\/a",
@@ -124,7 +116,6 @@
     },
     {
       "name": "Vadil N'Torth",
-      "name_sortable": "vadilntorth",
       "drops": [
         {
           "gamelink": "\\aITEM 728229990 1181299130:a vampiric incisor\\/a",
@@ -138,7 +129,6 @@
     },
     {
       "name": "a writhing viscera",
-      "name_sortable": "writhingviscera",
       "drops": [
         {
           "gamelink": "\\aITEM -655761117 133340816:a vial of mucus\\/a",

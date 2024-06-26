@@ -1,9 +1,12 @@
 {
   "name": "The Circle of Elders",
-  "name_sortable": "circleofelders",
   "category": "Dungeons",
-  "zonerect": "-17.00,-20.00,18.00,21.00",
   "levels": "5-8",
+  "maps": [
+    {
+      "zonerect": "-17.00,-20.00,18.00,21.00"
+    }
+  ],
   "connections": [
     {
       "key": "tutorial_island02_evil"
@@ -12,7 +15,6 @@
   "npcs": [
     {
       "name": "Breeze",
-      "name_sortable": "breeze",
       "level": 6,
       "locations": [
         "9.20,0.00,-6.52"
@@ -20,7 +22,6 @@
     },
     {
       "name": "Kayl of the Circle",
-      "name_sortable": "kaylofthecircle",
       "level": 40,
       "utterances": [
         "How dare you break the circle! You have chosen your fate. Prepare yourself!",
@@ -33,7 +34,6 @@
     },
     {
       "name": "Old Bruiser",
-      "name_sortable": "oldbruiser",
       "level": 6,
       "locations": [
         "-6.29,0.00,-2.03"
@@ -51,7 +51,6 @@
     },
     {
       "name": "Rush",
-      "name_sortable": "rush",
       "level": 6,
       "locations": [
         "-2.57,0.00,3.52"
@@ -59,7 +58,6 @@
     },
     {
       "name": "Tayil N'Velex",
-      "name_sortable": "tayilnvelex",
       "utterances": [
         "I knew we'd find you, Kayl. I see you've been doing well for yourself. Too bad your treasures are about to become mine!",
         "That's not important, Qeynosian. What is important is that your days upon Norrath are at an end. Prepare to die!",
@@ -69,7 +67,6 @@
     },
     {
       "name": "a Tunarian elder",
-      "name_sortable": "tunarianelder",
       "level": 6,
       "difficulty": "heroic",
       "locations": [

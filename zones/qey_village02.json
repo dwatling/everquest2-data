@@ -1,10 +1,13 @@
 {
   "name": "Starcrest Commune",
-  "name_sortable": "starcrestcommune",
+  "removed": "lu64",
   "category": "Villages",
   "subcategory": "Qeynos",
-  "removed": "lu64",
-  "zonerect": "-994.10,133.09,-534.37,477.61",
+  "maps": [
+    {
+      "zonerect": "-994.10,133.09,-534.37,477.61"
+    }
+  ],
   "connections": [
     {
       "key": "qey_adv04_bog",
@@ -26,7 +29,6 @@
   "npcs": [
     {
       "name": "Alamara Luthanyia",
-      "name_sortable": "alamaraluthanyia",
       "race": [
         "erudite"
       ],
@@ -52,7 +54,6 @@
     },
     {
       "name": "Anevaya Starchaser",
-      "name_sortable": "anevayastarchaser",
       "race": [
         "high elf"
       ],
@@ -68,7 +69,6 @@
     },
     {
       "name": "Angelia Clayton",
-      "name_sortable": "angeliaclayton",
       "race": [
         "human"
       ],
@@ -84,7 +84,6 @@
     },
     {
       "name": "Bermo",
-      "name_sortable": "bermo",
       "race": [
         "human"
       ],
@@ -105,7 +104,6 @@
     },
     {
       "name": "Burt Everett",
-      "name_sortable": "burteverett",
       "race": [
         "human"
       ],
@@ -122,7 +120,6 @@
     },
     {
       "name": "Elliasenka Croosinaden",
-      "name_sortable": "elliasenkacroosinaden",
       "race": [
         "erudite"
       ],
@@ -138,7 +135,6 @@
     },
     {
       "name": "Erian Seaver",
-      "name_sortable": "erianseaver",
       "race": [
         "human"
       ],
@@ -156,7 +152,6 @@
     },
     {
       "name": "Farnsby Dunworth",
-      "name_sortable": "farnsbydunworth",
       "race": [
         "human"
       ],
@@ -172,7 +167,6 @@
     },
     {
       "name": "Fawn Starstone",
-      "name_sortable": "fawnstarstone",
       "race": [
         "human"
       ],
@@ -188,7 +182,6 @@
     },
     {
       "name": "Grekin",
-      "name_sortable": "grekin",
       "race": [
         "human"
       ],
@@ -206,7 +199,6 @@
     },
     {
       "name": "Innkeeper Jerben Sleepwell",
-      "name_sortable": "innkeeperjerbensleepwell",
       "race": [
         "human"
       ],
@@ -249,7 +241,6 @@
     },
     {
       "name": "Knight-Captain Santis",
-      "name_sortable": "knightcaptainsantis",
       "race": [
         "human"
       ],
@@ -271,7 +262,6 @@
     },
     {
       "name": "Luvile Binlee",
-      "name_sortable": "luvilebinlee",
       "race": [
         "human"
       ],
@@ -287,7 +277,6 @@
     },
     {
       "name": "Maareona Ludimintium",
-      "name_sortable": "maareonaludimintium",
       "race": [
         "erudite"
       ],
@@ -304,7 +293,6 @@
     },
     {
       "name": "Molly Daysun",
-      "name_sortable": "mollydaysun",
       "race": [
         "human"
       ],
@@ -320,7 +308,6 @@
     },
     {
       "name": "Ommanoden",
-      "name_sortable": "ommanoden",
       "race": [
         "erudite"
       ],
@@ -347,7 +334,6 @@
     },
     {
       "name": "Oolimeminoso Pindiliana",
-      "name_sortable": "oolimeminosopindiliana",
       "race": [
         "erudite"
       ],
@@ -365,7 +351,6 @@
     },
     {
       "name": "Oomitelmora",
-      "name_sortable": "oomitelmora",
       "race": [
         "erudite"
       ],
@@ -381,7 +366,6 @@
     },
     {
       "name": "Orudormo",
-      "name_sortable": "orudormo",
       "race": [
         "erudite"
       ],
@@ -395,7 +379,6 @@
     },
     {
       "name": "Philosopher Orrinalanya",
-      "name_sortable": "philosopherorrinalanya",
       "race": [
         "erudite"
       ],
@@ -408,7 +391,6 @@
     },
     {
       "name": "Proprietor Blagard",
-      "name_sortable": "proprietorblagard",
       "race": [
         "human"
       ],
@@ -424,7 +406,6 @@
     },
     {
       "name": "a rat",
-      "name_sortable": "rat",
       "locations": [
         "807.80,-20.51,259.15",
         "814.54,-20.32,270.73",
@@ -434,7 +415,6 @@
     },
     {
       "name": "Scholar Obidudyn",
-      "name_sortable": "scholarobidudyn",
       "race": [
         "erudite"
       ],
@@ -450,7 +430,6 @@
     },
     {
       "name": "a scrawny rat",
-      "name_sortable": "scrawnyrat",
       "locations": [
         "803.79,-25.95,309.92",
         "776.88,-20.38,246.42",
@@ -459,7 +438,6 @@
     },
     {
       "name": "a shining nibbler",
-      "name_sortable": "shiningnibbler",
       "locations": [
         "734.13,-41.50,327.21",
         "729.01,-37.57,323.69",
@@ -480,7 +458,6 @@
     },
     {
       "name": "Taggan Brookrich",
-      "name_sortable": "tagganbrookrich",
       "race": [
         "human"
       ],
@@ -497,7 +474,6 @@
     },
     {
       "name": "Tanaira",
-      "name_sortable": "tanaira",
       "race": [
         "human"
       ],
@@ -515,7 +491,6 @@
     },
     {
       "name": "Unuesh",
-      "name_sortable": "unuesh",
       "race": [
         "erudite"
       ],
@@ -560,7 +535,6 @@
     },
     {
       "name": "Vandis",
-      "name_sortable": "vandis",
       "race": [
         "human"
       ],
@@ -576,7 +550,6 @@
     },
     {
       "name": "Vondorinsarnoo",
-      "name_sortable": "vondorinsarnoo",
       "race": [
         "erudite"
       ],
@@ -589,7 +562,6 @@
     },
     {
       "name": "Wilhemena",
-      "name_sortable": "wilhemena",
       "race": [
         "high elf"
       ],
@@ -602,7 +574,6 @@
     },
     {
       "name": "Zentomaron Croosinaden",
-      "name_sortable": "zentomaroncroosinaden",
       "race": [
         "erudite"
       ],
@@ -618,7 +589,6 @@
     },
     {
       "name": "Zinun Loospakina",
-      "name_sortable": "zinunloospakina",
       "utterances": [
         "Welcome! What can I help you with?"
       ]

@@ -1,11 +1,14 @@
 {
   "name": "Eastern Wastes",
-  "name_sortable": "easternwastes",
   "expansion": "exp07",
   "category": "Velious",
   "description": "The war-torn landscape of ruins and scavenged pine forests, home to Ry'Gorr orcs, Kromzek giants, and the displaced othmir.",
-  "zonerect": "-3225.00,1624.00,1856.00,5465.00",
   "levels": "87-93",
+  "maps": [
+    {
+      "zonerect": "-3225.00,1624.00,1856.00,5465.00"
+    }
+  ],
   "connections": [
     {
       "key": "exp07_rgn_great_divide"

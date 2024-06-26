@@ -1,10 +1,13 @@
 {
   "name": "The Elddar Grove",
-  "name_sortable": "elddargrove",
   "removed": "lu64",
   "category": "Cities",
   "subcategory": "Qeynos",
-  "zonerect": "-1004.46,-588.61,-428.61,-152.51",
+  "maps": [
+    {
+      "zonerect": "-1004.46,-588.61,-428.61,-152.51"
+    }
+  ],
   "connections": [
     {
       "key": "qey_village05"
@@ -19,7 +22,6 @@
   "npcs": [
     {
       "name": "Adrianna",
-      "name_sortable": "adrianna",
       "race": [
         "human"
       ],
@@ -37,7 +39,6 @@
     },
     {
       "name": "Aerinleaf",
-      "name_sortable": "aerinleaf",
       "race": [
         "half elf"
       ],
@@ -54,7 +55,6 @@
     },
     {
       "name": "Breeno Messpie",
-      "name_sortable": "breenomesspie",
       "race": [
         "halfling"
       ],
@@ -73,7 +73,6 @@
     },
     {
       "name": "Bryson",
-      "name_sortable": "bryson",
       "race": [
         "human"
       ],
@@ -89,7 +88,6 @@
     },
     {
       "name": "Delma Messpie",
-      "name_sortable": "delmamesspie",
       "race": [
         "halfling"
       ],
@@ -108,7 +106,6 @@
     },
     {
       "name": "Duvo",
-      "name_sortable": "duvo",
       "race": [
         "halfling"
       ],
@@ -126,7 +123,6 @@
     },
     {
       "name": "Elendia Starleaf",
-      "name_sortable": "elendiastarleaf",
       "race": [
         "high elf"
       ],
@@ -225,7 +221,6 @@
     },
     {
       "name": "Faye Dawnsinger",
-      "name_sortable": "fayedawnsinger",
       "race": [
         "high elf"
       ],
@@ -246,7 +241,6 @@
     },
     {
       "name": "Flizzle Cogplume",
-      "name_sortable": "flizzlecogplume",
       "race": [
         "gnome"
       ],
@@ -263,7 +257,6 @@
     },
     {
       "name": "Gildas Cedartree",
-      "name_sortable": "gildascedartree",
       "race": [
         "high elf"
       ],
@@ -279,7 +272,6 @@
     },
     {
       "name": "Gilp Jadefist",
-      "name_sortable": "gilpjadefist",
       "race": [
         "froglok"
       ],
@@ -295,7 +287,6 @@
     },
     {
       "name": "Gregor Earthstride",
-      "name_sortable": "gregorearthstride",
       "race": [
         "human"
       ],
@@ -311,7 +302,6 @@
     },
     {
       "name": "Initiate Lo Fan",
-      "name_sortable": "initiatelofan",
       "race": [
         "human"
       ],
@@ -324,7 +314,6 @@
     },
     {
       "name": "Initiate Lunaru",
-      "name_sortable": "initiatelunaru",
       "race": [
         "kerran"
       ],
@@ -340,7 +329,6 @@
     },
     {
       "name": "Initiate Tara",
-      "name_sortable": "initiatetara",
       "race": [
         "human"
       ],
@@ -356,7 +344,6 @@
     },
     {
       "name": "Initiate Thomas",
-      "name_sortable": "initiatethomas",
       "race": [
         "human"
       ],
@@ -369,7 +356,6 @@
     },
     {
       "name": "Junala",
-      "name_sortable": "junala",
       "race": [
         "kerran"
       ],
@@ -386,7 +372,6 @@
     },
     {
       "name": "Kaelarri Ivyshae",
-      "name_sortable": "kaelarriivyshae",
       "race": [
         "wood elf"
       ],
@@ -406,7 +391,6 @@
     },
     {
       "name": "Kaemon",
-      "name_sortable": "kaemon",
       "race": [
         "human"
       ],
@@ -427,7 +411,6 @@
     },
     {
       "name": "Kaylelle Starchaser",
-      "name_sortable": "kaylellestarchaser",
       "race": [
         "half elf"
       ],
@@ -445,7 +428,6 @@
     },
     {
       "name": "Kethelrune",
-      "name_sortable": "kethelrune",
       "race": [
         "high elf"
       ],
@@ -466,7 +448,6 @@
     },
     {
       "name": "Khai Lightfall",
-      "name_sortable": "khailightfall",
       "race": [
         "kerran"
       ],
@@ -483,7 +464,6 @@
     },
     {
       "name": "Lieoonlioo Croosinian",
-      "name_sortable": "lieoonlioocroosinian",
       "race": [
         "erudite"
       ],
@@ -500,7 +480,6 @@
     },
     {
       "name": "Lookout Venylle",
-      "name_sortable": "lookoutvenylle",
       "race": [
         "wood elf"
       ],
@@ -518,7 +497,6 @@
     },
     {
       "name": "Madrethal Summerspeak",
-      "name_sortable": "madrethalsummerspeak",
       "race": [
         "wood elf"
       ],
@@ -538,7 +516,6 @@
     },
     {
       "name": "Master Archer Nightbow",
-      "name_sortable": "masterarchernightbow",
       "race": [
         "half elf"
       ],
@@ -559,7 +536,6 @@
     },
     {
       "name": "Master Rysian Gladewalker",
-      "name_sortable": "masterrysiangladewalker",
       "race": [
         "half elf"
       ],
@@ -575,7 +551,6 @@
     },
     {
       "name": "Mina",
-      "name_sortable": "mina",
       "race": [
         "human"
       ],
@@ -596,7 +571,6 @@
     },
     {
       "name": "Mirthmire",
-      "name_sortable": "mirthmire",
       "race": [
         "human"
       ],
@@ -614,7 +588,6 @@
     },
     {
       "name": "Musician Zwena",
-      "name_sortable": "musicianzwena",
       "race": [
         "kerran"
       ],
@@ -630,7 +603,6 @@
     },
     {
       "name": "Nalon Messpie",
-      "name_sortable": "nalonmesspie",
       "race": [
         "halfling"
       ],
@@ -648,7 +620,6 @@
     },
     {
       "name": "Naturalist Tummyfill",
-      "name_sortable": "naturalisttummyfill",
       "race": [
         "halfling"
       ],
@@ -665,7 +636,6 @@
     },
     {
       "name": "Outrider Bernd",
-      "name_sortable": "outriderbernd",
       "race": [
         "human"
       ],
@@ -679,7 +649,6 @@
     },
     {
       "name": "Pelle Shinkicker",
-      "name_sortable": "pelleshinkicker",
       "race": [
         "halfling"
       ],
@@ -695,7 +664,6 @@
     },
     {
       "name": "Preservationist Reynolds",
-      "name_sortable": "preservationistreynolds",
       "race": [
         "human"
       ],
@@ -712,7 +680,6 @@
     },
     {
       "name": "Rask Helstot",
-      "name_sortable": "raskhelstot",
       "race": [
         "half elf"
       ],
@@ -729,7 +696,6 @@
     },
     {
       "name": "Senior Initiate Delvin",
-      "name_sortable": "seniorinitiatedelvin",
       "race": [
         "human"
       ],
@@ -746,7 +712,6 @@
     },
     {
       "name": "Shakan Notebend",
-      "name_sortable": "shakannotebend",
       "race": [
         "human"
       ],
@@ -763,7 +728,6 @@
     },
     {
       "name": "Shepherd Sell`ar",
-      "name_sortable": "shepherdsellar",
       "race": [
         "wood elf"
       ],
@@ -780,7 +744,6 @@
     },
     {
       "name": "Solomen Stormwatch",
-      "name_sortable": "solomenstormwatch",
       "race": [
         "wood elf"
       ],
@@ -799,7 +762,6 @@
     },
     {
       "name": "Steelguard",
-      "name_sortable": "steelguard",
       "race": [
         "dwarf"
       ],
@@ -819,7 +781,6 @@
     },
     {
       "name": "Tairiel Oakshade",
-      "name_sortable": "tairieloakshade",
       "race": [
         "human"
       ],
@@ -835,7 +796,6 @@
     },
     {
       "name": "Takara Maiya",
-      "name_sortable": "takaramaiya",
       "race": [
         "human"
       ],
@@ -853,7 +813,6 @@
     },
     {
       "name": "Telandra",
-      "name_sortable": "telandra",
       "race": [
         "wood elf"
       ],
@@ -872,7 +831,6 @@
     },
     {
       "name": "Thomas Boatmend",
-      "name_sortable": "thomasboatmend",
       "race": [
         "half elf"
       ],
@@ -888,7 +846,6 @@
     },
     {
       "name": "Towser Flizgibbert",
-      "name_sortable": "towserflizgibbert",
       "race": [
         "gnome"
       ],
@@ -904,7 +861,6 @@
     },
     {
       "name": "Traylo Leafsway",
-      "name_sortable": "trayloleafsway",
       "race": [
         "high elf"
       ],
@@ -921,7 +877,6 @@
     },
     {
       "name": "Trillium",
-      "name_sortable": "trillium",
       "race": [
         "wood elf"
       ],
@@ -1177,7 +1132,6 @@
     },
     {
       "name": "Velisarr Morningdew",
-      "name_sortable": "velisarrmorningdew",
       "race": [
         "half elf"
       ],
@@ -1198,7 +1152,6 @@
     },
     {
       "name": "Wanderer Greencoast",
-      "name_sortable": "wanderergreencoast",
       "race": [
         "half elf"
       ],
@@ -1215,7 +1168,6 @@
     },
     {
       "name": "Wanderer Raegen Truthshadow",
-      "name_sortable": "wandererraegentruthshadow",
       "race": [
         "half elf"
       ],
@@ -1232,7 +1184,6 @@
     },
     {
       "name": "Warble Wildmane",
-      "name_sortable": "warblewildmane",
       "race": [
         "halfling"
       ],
@@ -1249,7 +1200,6 @@
     },
     {
       "name": "Wesaelan Brookshadow",
-      "name_sortable": "wesaelanbrookshadow",
       "race": [
         "wood elf"
       ],

@@ -1,10 +1,13 @@
 {
   "name": "The Commonlands",
-  "name_sortable": "commonlands",
   "category": "D'Lere",
   "description": "This battle-scarred savanna is home to the City of Freeport, the Wailing Caves and Fallen Gate.",
-  "zonerect": "-1751.35,-1300.12,1671.39,1289.76",
   "levels": "10-20",
+  "maps": [
+    {
+      "zonerect": "-1751.35,-1300.12,1671.39,1289.76"
+    }
+  ],
   "connections": [
     {
       "key": "freeport_combined"
@@ -65,7 +68,6 @@
   "npcs": [
     {
       "name": "an advanced scout of Ree",
-      "name_sortable": "advancedscoutofree",
       "level": 15,
       "aggressive": true,
       "locations": [
@@ -96,14 +98,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Aether Racing Referee",
-      "name_sortable": "aetherracingreferee",
       "utterances": [
         "Hi there! Want to help me test my new Cognatically Reinforced Aetheric Sprocket Hoverpad? It can fly!",
         "Alright! Get to the start platform and I'll equip you with the machine shortly. Try to beat the other test dumm-, err, test pilots around the track!"
@@ -111,7 +111,6 @@
     },
     {
       "name": "Amoora",
-      "name_sortable": "amoora",
       "race": [
         "kerran"
       ],
@@ -131,7 +130,6 @@
     },
     {
       "name": "Amulius Ramio",
-      "name_sortable": "amuliusramio",
       "utterances": [
         "Quiet you!  Can't you see I'm trying to avoid being seen?  Get down here before an orc spots you!",
         "Get down and wait a moment, I think I hear an orc passing.",
@@ -144,7 +142,6 @@
     },
     {
       "name": "Anders Blackhammer",
-      "name_sortable": "andersblackhammer",
       "race": [
         "human"
       ],
@@ -158,7 +155,6 @@
     },
     {
       "name": "an apprentice of the Dismal Rage",
-      "name_sortable": "apprenticeofthedismalrage",
       "race": [
         "troll"
       ],
@@ -171,7 +167,6 @@
     },
     {
       "name": "an arbor wasp",
-      "name_sortable": "arborwasp",
       "aggressive": false,
       "locations": [
         "-582.66,-48.00,-397.38",
@@ -182,7 +177,6 @@
     },
     {
       "name": "Arconicus",
-      "name_sortable": "arconicus",
       "locations": [
         "-481.85,-45.14,-304.76"
       ],
@@ -197,7 +191,6 @@
     },
     {
       "name": "Arnisu Tobian",
-      "name_sortable": "arnisutobian",
       "race": [
         "half elf"
       ],
@@ -218,7 +211,6 @@
     },
     {
       "name": "Assistant D'Verin",
-      "name_sortable": "assistantdverin",
       "utterances": [
         "How did you make it past the servants?!  Please don't tell me that I'll have to raise them all again.",
         "They spoke with you?! They refuse to answer a single question I put to them!  Hah!  Well, out with it! What did they tell you?  Head to the south and head to the west, and you will find the finger pointing to where the tower exists.  Or perhaps, where it doesn't...",
@@ -231,7 +223,6 @@
     },
     {
       "name": "a banded armadillo",
-      "name_sortable": "bandedarmadillo",
       "locations": [
         "-1176.87,-58.47,-153.61",
         "-1020.98,-50.43,-19.82",
@@ -241,7 +232,6 @@
     },
     {
       "name": "a Blackshield assassin",
-      "name_sortable": "blackshieldassassin",
       "level": 14,
       "locations": [
         "-406.32,-47.76,-817.65",
@@ -280,14 +270,12 @@
       "faction_changes": [
         {
           "name": "The Blackshield Smugglers",
-          "name_sortable": "blackshieldsmugglers",
           "value": -100
         }
       ]
     },
     {
       "name": "a Blackshield brute",
-      "name_sortable": "blackshieldbrute",
       "level": 15,
       "locations": [
         "-372.42,-50.36,-861.81",
@@ -305,14 +293,12 @@
       "faction_changes": [
         {
           "name": "The Blackshield Smugglers",
-          "name_sortable": "blackshieldsmugglers",
           "value": -100
         }
       ]
     },
     {
       "name": "a Blackshield dockhand",
-      "name_sortable": "blackshielddockhand",
       "utterances": [
         "This a calm seas kind'a deal.  You don't ask questions about it.",
         "I can.  I got gold for ale and beddin'.  That's all I care for.",
@@ -324,7 +310,6 @@
     },
     {
       "name": "a Blackshield dock officer",
-      "name_sortable": "blackshielddockofficer",
       "utterances": [
         "We've got prices you can't beat. What can I do for you today?",
         "... ah... Grah Grobar, is it?",
@@ -334,7 +319,6 @@
     },
     {
       "name": "a Blackshield recruit",
-      "name_sortable": "blackshieldrecruit",
       "utterances": [
         "Nice set ups, though don't yous think?",
         "I knows, but I can't help to wonders who the client is.",
@@ -346,7 +330,6 @@
     },
     {
       "name": "a Blackshield smuggler",
-      "name_sortable": "blackshieldsmuggler",
       "level": 15,
       "locations": [
         "-409.98,-47.84,-847.62",
@@ -359,14 +342,12 @@
       "faction_changes": [
         {
           "name": "The Blackshield Smugglers",
-          "name_sortable": "blackshieldsmugglers",
           "value": -100
         }
       ]
     },
     {
       "name": "a Blackshield thug",
-      "name_sortable": "blackshieldthug",
       "utterances": [
         "Summon help!  We have invaders!",
         "Prepare to face your doom, meddler.",
@@ -381,14 +362,12 @@
       "faction_changes": [
         {
           "name": "The Blackshield Smugglers",
-          "name_sortable": "blackshieldsmugglers",
           "value": -100
         }
       ]
     },
     {
       "name": "a black wolf",
-      "name_sortable": "blackwolf",
       "level": 14,
       "locations": [
         "-474.24,-46.82,-702.09",
@@ -448,7 +427,6 @@
     },
     {
       "name": "Blat Berisen",
-      "name_sortable": "blatberisen",
       "race": [
         "halfling"
       ],
@@ -461,7 +439,6 @@
     },
     {
       "name": "a Bloodskull lumberjack",
-      "name_sortable": "bloodskulllumberjack",
       "locations": [
         "-11.23,-48.04,501.83",
         "-25.65,-48.04,513.36",
@@ -502,14 +479,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Bloodskull mason",
-      "name_sortable": "bloodskullmason",
       "locations": [
         "-317.88,-48.43,539.33",
         "-327.67,-46.84,526.30",
@@ -546,21 +521,18 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Bloodskull messenger",
-      "name_sortable": "bloodskullmessenger",
       "locations": [
         "256.00,-48.04,76.19"
       ]
     },
     {
       "name": "a Bloodskull mystic",
-      "name_sortable": "bloodskullmystic",
       "locations": [
         "-660.63,-47.96,455.09",
         "-670.85,-48.04,448.52",
@@ -589,14 +561,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Bloodskull orc",
-      "name_sortable": "bloodskullorc",
       "aggressive": true,
       "locations": [
         "-255.13,-48.47,339.98",
@@ -629,7 +599,6 @@
     },
     {
       "name": "a Bloodskull priest",
-      "name_sortable": "bloodskullpriest",
       "aggressive": true,
       "locations": [
         "-1159.20,-47.01,581.81",
@@ -704,28 +673,24 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Bloodskull scout",
-      "name_sortable": "bloodskullscout",
       "locations": [
         "-430.31,-48.04,392.90"
       ],
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Bloodskull shaman",
-      "name_sortable": "bloodskullshaman",
       "aggressive": true,
       "locations": [
         "-299.23,-47.36,840.00",
@@ -764,14 +729,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Bloodskull soldier",
-      "name_sortable": "bloodskullsoldier",
       "aggressive": true,
       "locations": [
         "-657.59,-47.93,457.42",
@@ -806,14 +769,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Bloodskull tamer",
-      "name_sortable": "bloodskulltamer",
       "aggressive": true,
       "locations": [
         "47.98,-46.84,428.47",
@@ -864,14 +825,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Bloodskull tower guard",
-      "name_sortable": "bloodskulltowerguard",
       "aggressive": true,
       "locations": [
         "-333.46,-48.43,546.36",
@@ -891,7 +850,6 @@
     },
     {
       "name": "a Bloodskull warrior",
-      "name_sortable": "bloodskullwarrior",
       "aggressive": true,
       "locations": [
         "-414.83,-48.04,472.00",
@@ -1038,14 +996,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a blue widow spider",
-      "name_sortable": "bluewidowspider",
       "locations": [
         "-131.65,-42.17,-873.74",
         "-164.72,-45.13,-867.86"
@@ -1053,7 +1009,6 @@
     },
     {
       "name": "Brandus Levine",
-      "name_sortable": "branduslevine",
       "race": [
         "human"
       ],
@@ -1094,7 +1049,6 @@
     },
     {
       "name": "a brittle skeleton",
-      "name_sortable": "brittleskeleton",
       "level": 11,
       "aggressive": true,
       "locations": [
@@ -1134,7 +1088,6 @@
     },
     {
       "name": "a bull elephant",
-      "name_sortable": "bullelephant",
       "locations": [
         "1071.75,-50.71,-182.17",
         "1035.23,-57.37,-260.84",
@@ -1144,7 +1097,6 @@
     },
     {
       "name": "a bull rhinoceros",
-      "name_sortable": "bullrhinoceros",
       "locations": [
         "274.42,-48.04,-306.42",
         "339.30,-47.64,-229.04",
@@ -1166,7 +1118,6 @@
     },
     {
       "name": "a burly armadillo",
-      "name_sortable": "burlyarmadillo",
       "locations": [
         "-897.59,-71.95,-500.45",
         "-958.41,-72.17,-504.85",
@@ -1221,7 +1172,6 @@
     },
     {
       "name": "a calcified skeleton",
-      "name_sortable": "calcifiedskeleton",
       "locations": [
         "-1257.85,-70.66,288.26",
         "-1333.96,-71.89,295.95",
@@ -1250,7 +1200,6 @@
     },
     {
       "name": "Cannix Silverflame",
-      "name_sortable": "cannixsilverflame",
       "locations": [
         "-311.42,-47.28,-361.35"
       ],
@@ -1277,7 +1226,6 @@
     },
     {
       "name": "Captain Feralis",
-      "name_sortable": "captainferalis",
       "race": [
         "human"
       ],
@@ -1310,7 +1258,6 @@
     },
     {
       "name": "Captain Gaer",
-      "name_sortable": "captaingaer",
       "level": 17,
       "difficulty": "heroic",
       "locations": [
@@ -1322,14 +1269,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Captain Garglass",
-      "name_sortable": "captaingarglass",
       "level": 14,
       "difficulty": "heroic^^",
       "locations": [
@@ -1355,7 +1300,6 @@
     },
     {
       "name": "Captain Ista",
-      "name_sortable": "captainista",
       "race": [
         "iksar"
       ],
@@ -1375,7 +1319,6 @@
     },
     {
       "name": "Captain Ogof",
-      "name_sortable": "captainogof",
       "level": 14,
       "difficulty": "heroic",
       "locations": [
@@ -1389,14 +1332,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Captain Vertas",
-      "name_sortable": "captainvertas",
       "race": [
         "human"
       ],
@@ -1441,7 +1382,6 @@
     },
     {
       "name": "Cargomaster Libertius",
-      "name_sortable": "cargomasterlibertius",
       "race": [
         "barbarian"
       ],
@@ -1454,7 +1394,6 @@
     },
     {
       "name": "a carrion hawk",
-      "name_sortable": "carrionhawk",
       "locations": [
         "692.18,-53.22,-34.24",
         "682.70,-52.87,-42.82",
@@ -1466,7 +1405,6 @@
     },
     {
       "name": "a carrion hound",
-      "name_sortable": "carrionhound",
       "locations": [
         "-1195.70,-66.94,-326.29",
         "-1183.13,-64.18,-333.62",
@@ -1497,7 +1435,6 @@
     },
     {
       "name": "a carrion hound pup",
-      "name_sortable": "carrionhoundpup",
       "locations": [
         "-1013.39,-47.57,-263.81",
         "-995.21,-47.87,-247.87",
@@ -1507,7 +1444,6 @@
     },
     {
       "name": "Commander Du'Nar",
-      "name_sortable": "commanderdunar",
       "locations": [
         "153.15,-47.85,595.26",
         "216.00,-48.03,389.55"
@@ -1526,14 +1462,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Commander Grik'Sna",
-      "name_sortable": "commandergriksna",
       "locations": [
         "-484.17,-47.88,478.43",
         "-442.44,-48.04,459.88",
@@ -1549,14 +1483,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Commander Ralio",
-      "name_sortable": "commanderralio",
       "race": [
         "human"
       ],
@@ -1575,33 +1507,28 @@
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
-          "name_sortable": "dervishcutthroats",
           "value": -100
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         }
       ]
     },
     {
       "name": "a cow",
-      "name_sortable": "cow",
       "locations": [
         "-1289.55,-87.86,33.16"
       ]
     },
     {
       "name": "Dalar R'taan",
-      "name_sortable": "dalarrtaan",
       "utterances": [
         "Finding Odus should bring a wealth of new research and knowledge."
       ]
     },
     {
       "name": "Darathar",
-      "name_sortable": "darathar",
       "locations": [
         "-611.84,-48.04,-352.16"
       ],
@@ -1613,14 +1540,12 @@
     },
     {
       "name": "a dearly departed",
-      "name_sortable": "dearlydeparted",
       "utterances": [
         "My love... I... am... coming..."
       ]
     },
     {
       "name": "a Dervish assassin",
-      "name_sortable": "dervishassassin",
       "race": [
         "ogre"
       ],
@@ -1688,19 +1613,16 @@
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
-          "name_sortable": "dervishcutthroats",
           "value": -100
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         }
       ]
     },
     {
       "name": "a Dervish craftsman",
-      "name_sortable": "dervishcraftsman",
       "race": [
         "human"
       ],
@@ -1718,7 +1640,6 @@
     },
     {
       "name": "a Dervish cutthroat",
-      "name_sortable": "dervishcutthroat",
       "race": [
         "half elf"
       ],
@@ -1767,19 +1688,16 @@
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
-          "name_sortable": "dervishcutthroats",
           "value": -100
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         }
       ]
     },
     {
       "name": "a Dervish go-between",
-      "name_sortable": "dervishgobetween",
       "race": [
         "human"
       ],
@@ -1808,7 +1726,6 @@
     },
     {
       "name": "a Dervish heretic",
-      "name_sortable": "dervishheretic",
       "race": [
         "dark elf"
       ],
@@ -1853,19 +1770,16 @@
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
-          "name_sortable": "dervishcutthroats",
           "value": -100
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         }
       ]
     },
     {
       "name": "a Dervish outlander",
-      "name_sortable": "dervishoutlander",
       "race": [
         "half elf"
       ],
@@ -1911,19 +1825,16 @@
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
-          "name_sortable": "dervishcutthroats",
           "value": -100
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         }
       ]
     },
     {
       "name": "a Dervish ruffian",
-      "name_sortable": "dervishruffian",
       "race": [
         "ogre"
       ],
@@ -1969,19 +1880,16 @@
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
-          "name_sortable": "dervishcutthroats",
           "value": -100
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         }
       ]
     },
     {
       "name": "a Dervish thaumaturge",
-      "name_sortable": "dervishthaumaturge",
       "race": [
         "gnome"
       ],
@@ -2024,19 +1932,16 @@
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
-          "name_sortable": "dervishcutthroats",
           "value": -100
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         }
       ]
     },
     {
       "name": "a Dervish thug",
-      "name_sortable": "dervishthug",
       "race": [
         "human"
       ],
@@ -2085,19 +1990,16 @@
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
-          "name_sortable": "dervishcutthroats",
           "value": -100
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         }
       ]
     },
     {
       "name": "a Dervish zealot",
-      "name_sortable": "dervishzealot",
       "race": [
         "iksar"
       ],
@@ -2148,19 +2050,16 @@
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
-          "name_sortable": "dervishcutthroats",
           "value": -100
         },
         {
           "name": "The Far Seas Trading Company",
-          "name_sortable": "farseastradingcompany",
           "value": 50
         }
       ]
     },
     {
       "name": "Diana Heartstrings",
-      "name_sortable": "dianaheartstrings",
       "locations": [
         "-1098.71,-59.14,51.37"
       ],
@@ -2184,7 +2083,6 @@
     },
     {
       "name": "a digger wasp",
-      "name_sortable": "diggerwasp",
       "aggressive": true,
       "locations": [
         "-601.84,-39.84,-369.33",
@@ -2226,7 +2124,6 @@
     },
     {
       "name": "a dock laborer",
-      "name_sortable": "docklaborer",
       "race": [
         "ogre",
         "ratonga",
@@ -2243,7 +2140,6 @@
     },
     {
       "name": "drakota adept",
-      "name_sortable": "drakotaadept",
       "level": 22,
       "aggressive": true,
       "difficulty": "heroic^^",
@@ -2253,7 +2149,6 @@
     },
     {
       "name": "a drakota adjutant",
-      "name_sortable": "drakotaadjutant",
       "level": 22,
       "aggressive": true,
       "difficulty": "heroic^^",
@@ -2263,7 +2158,6 @@
     },
     {
       "name": "Drammer Quickblade",
-      "name_sortable": "drammerquickblade",
       "locations": [
         "197.68,-47.25,-258.29"
       ],
@@ -2274,7 +2168,6 @@
     },
     {
       "name": "a dregs sneak",
-      "name_sortable": "dregssneak",
       "race": [
         "ratonga"
       ],
@@ -2318,7 +2211,6 @@
     },
     {
       "name": "a dregs vagrant",
-      "name_sortable": "dregsvagrant",
       "race": [
         "ratonga"
       ],
@@ -2343,7 +2235,6 @@
     },
     {
       "name": "Durio Caepio",
-      "name_sortable": "duriocaepio",
       "locations": [
         "392.61,-47.71,-797.2"
       ],
@@ -2353,7 +2244,6 @@
     },
     {
       "name": "a duststinger",
-      "name_sortable": "duststinger",
       "level": 11,
       "locations": [
         "-911.62,-79.90,-617.30",
@@ -2382,7 +2272,6 @@
     },
     {
       "name": "a dusty cadaver",
-      "name_sortable": "dustycadaver",
       "level": 15,
       "locations": [
         "108.15,-47.24,-218.44",
@@ -2419,14 +2308,12 @@
     },
     {
       "name": "D'za",
-      "name_sortable": "dza",
       "locations": [
         "-1324.79,-87.89,35.97"
       ]
     },
     {
       "name": "an earthen rumbler",
-      "name_sortable": "earthenrumbler",
       "level": 18,
       "aggressive": true,
       "locations": [
@@ -2443,7 +2330,6 @@
     },
     {
       "name": "an earthen tumbler",
-      "name_sortable": "earthentumbler",
       "level": 18,
       "aggressive": true,
       "locations": [
@@ -2501,7 +2387,6 @@
     },
     {
       "name": "an elephant",
-      "name_sortable": "elephant",
       "level": 14,
       "aggressive": false,
       "locations": [
@@ -2515,7 +2400,6 @@
     },
     {
       "name": "an Ember Elemental",
-      "name_sortable": "emberelemental",
       "locations": [
         "92.86,-42.58,-830.77"
       ],
@@ -2528,7 +2412,6 @@
     },
     {
       "name": "Engineer Klaaska",
-      "name_sortable": "engineerklaaska",
       "locations": [
         "-18.86,-39.67,-889.82"
       ],
@@ -2541,7 +2424,6 @@
     },
     {
       "name": "Entui",
-      "name_sortable": "entui",
       "race": [
         "kerran"
       ],
@@ -2559,7 +2441,6 @@
     },
     {
       "name": "Executioner Selindi",
-      "name_sortable": "executionerselindi",
       "race": [
         "dark elf"
       ],
@@ -2575,7 +2456,6 @@
     },
     {
       "name": "a fallen apostle",
-      "name_sortable": "fallenapostle",
       "level": 19,
       "aggressive": true,
       "locations": [
@@ -2612,7 +2492,6 @@
     },
     {
       "name": "a fallen blackguard",
-      "name_sortable": "fallenblackguard",
       "race": [
         "human"
       ],
@@ -2625,7 +2504,6 @@
     },
     {
       "name": "a fallen champion",
-      "name_sortable": "fallenchampion",
       "level": 20,
       "aggressive": true,
       "difficulty": "heroic",
@@ -2649,7 +2527,6 @@
     },
     {
       "name": "a fallen crusader",
-      "name_sortable": "fallencrusader",
       "level": 17,
       "aggressive": true,
       "locations": [
@@ -2705,7 +2582,6 @@
     },
     {
       "name": "a fallen defender",
-      "name_sortable": "fallendefender",
       "level": 19,
       "aggressive": true,
       "locations": [
@@ -2731,7 +2607,6 @@
     },
     {
       "name": "a fallen diplomat",
-      "name_sortable": "fallendiplomat",
       "level": 17,
       "aggressive": true,
       "utterances": [
@@ -2747,7 +2622,6 @@
     },
     {
       "name": "a fallen disciple",
-      "name_sortable": "fallendisciple",
       "level": 19,
       "aggressive": true,
       "locations": [
@@ -2782,7 +2656,6 @@
     },
     {
       "name": "a fallen guardian",
-      "name_sortable": "fallenguardian",
       "level": 20,
       "aggressive": true,
       "locations": [
@@ -2820,7 +2693,6 @@
     },
     {
       "name": "a fallen orc",
-      "name_sortable": "fallenorc",
       "locations": [
         "-1017.54,-62.60,-437.49",
         "-1034.43,-63.70,-438.15",
@@ -2865,7 +2737,6 @@
     },
     {
       "name": "a fallen orc lieutenant",
-      "name_sortable": "fallenorclieutenant",
       "locations": [
         "-1034.32,-63.51,-442.27",
         "-1119.32,-57.46,-430.75",
@@ -2890,7 +2761,6 @@
     },
     {
       "name": "a farmer",
-      "name_sortable": "farmer",
       "locations": [
         "-222.37,-45.64,-134.09",
         "-239.10,-46.43,-161.25",
@@ -2915,7 +2785,6 @@
     },
     {
       "name": "Ferink",
-      "name_sortable": "ferink",
       "race": [
         "ratonga"
       ],
@@ -2953,7 +2822,6 @@
     },
     {
       "name": "a fierce carrion hound",
-      "name_sortable": "fiercecarrionhound",
       "level": 19,
       "aggressive": true,
       "locations": [
@@ -2978,7 +2846,6 @@
     },
     {
       "name": "a freshwater crab",
-      "name_sortable": "freshwatercrab",
       "level": 14,
       "aggressive": false,
       "locations": [
@@ -3013,7 +2880,6 @@
     },
     {
       "name": "Frund the Big Grin",
-      "name_sortable": "frundthebiggrin",
       "race": [
         "ogre"
       ],
@@ -3033,7 +2899,6 @@
     },
     {
       "name": "General Vhar'Taug",
-      "name_sortable": "generalvhartaug",
       "level": 14,
       "locations": [
         "-556.36,-31.39,418.28"
@@ -3055,14 +2920,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Gersberms Gigglegibber",
-      "name_sortable": "gersbermsgigglegibber",
       "utterances": [
         "Happy Nights of the Dead!  I bet you're no scaredy-pants.  You wanna see how many creepsy ghosts you can collect?",
         "Don't get scaredy!  Get to the Ghost Hunter starter pad, and you'll ride a holiday cloud.  Race around on it, collecting as many creepsy ghosts as possible!",
@@ -3071,7 +2934,6 @@
     },
     {
       "name": "Gerun Pontian",
-      "name_sortable": "gerunpontian",
       "race": [
         "half elf"
       ],
@@ -3110,7 +2972,6 @@
     },
     {
       "name": "a ghast beetle",
-      "name_sortable": "ghastbeetle",
       "level": 25,
       "difficulty": "vv",
       "locations": [
@@ -3119,7 +2980,6 @@
     },
     {
       "name": "a ghostly orc",
-      "name_sortable": "ghostlyorc",
       "level": 12,
       "locations": [
         "-1256.48,-52.84,-482.79",
@@ -3159,7 +3019,6 @@
     },
     {
       "name": "a ghostly orc messenger",
-      "name_sortable": "ghostlyorcmessenger",
       "locations": [
         "-1257.71,-55.60,-461.04"
       ],
@@ -3172,7 +3031,6 @@
     },
     {
       "name": "a giant grove wisp",
-      "name_sortable": "giantgrovewisp",
       "level": 15,
       "locations": [
         "-608.27,-43.81,-622.54",
@@ -3188,7 +3046,6 @@
     },
     {
       "name": "a giant spider",
-      "name_sortable": "giantspider",
       "level": 12,
       "aggressive": true,
       "locations": [
@@ -3235,7 +3092,6 @@
     },
     {
       "name": "a giant vulrich",
-      "name_sortable": "giantvulrich",
       "level": 18,
       "locations": [
         "953.12,-50.38,191.66",
@@ -3262,7 +3118,6 @@
     },
     {
       "name": "Gierasa Kulnovich",
-      "name_sortable": "gierasakulnovich",
       "locations": [
         "409.86,-47.73,-805.54"
       ],
@@ -3277,7 +3132,6 @@
     },
     {
       "name": "a Gigglegibber Goblin Gamblin' Game Vendor",
-      "name_sortable": "gigglegibbergoblingamblingamevendor",
       "gender": [
         "male"
       ],
@@ -3293,7 +3147,6 @@
     },
     {
       "name": "Gil McMartin",
-      "name_sortable": "gilmcmartin",
       "race": [
         "barbarian"
       ],
@@ -3306,7 +3159,6 @@
     },
     {
       "name": "Gimble Cognoggin",
-      "name_sortable": "gimblecognoggin",
       "locations": [
         "-223.41,-47.35,-548.24",
         "-224.9,-47.38,-479.07",
@@ -3327,7 +3179,6 @@
     },
     {
       "name": "Grandma Twirlwhizzer",
-      "name_sortable": "grandmatwirlwhizzer",
       "race": [
         "gnome"
       ],
@@ -3343,7 +3194,6 @@
     },
     {
       "name": "a grove wisp",
-      "name_sortable": "grovewisp",
       "level": 13,
       "locations": [
         "-697.66,-49.35,-665.87",
@@ -3365,7 +3215,6 @@
     },
     {
       "name": "a grunt of Ree",
-      "name_sortable": "gruntofree",
       "level": 15,
       "aggressive": true,
       "locations": [
@@ -3398,21 +3247,18 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Guard Asellio",
-      "name_sortable": "guardasellio",
       "locations": [
         "-1259.08,-87.86,56.96"
       ]
     },
     {
       "name": "Guard Bellicus",
-      "name_sortable": "guardbellicus",
       "locations": [
         "-572.92,-43.34,-249.03"
       ],
@@ -3422,7 +3268,6 @@
     },
     {
       "name": "Guard Calog",
-      "name_sortable": "guardcalog",
       "locations": [
         "-585.1,-43.9,-260.13"
       ],
@@ -3432,7 +3277,6 @@
     },
     {
       "name": "Guard Fimi",
-      "name_sortable": "guardfimi",
       "locations": [
         "-427.67,-44.97,-218.54"
       ],
@@ -3442,7 +3286,6 @@
     },
     {
       "name": "Guard Laurio",
-      "name_sortable": "guardlaurio",
       "utterances": [
         "All praises to the Overlord.  The Militia protects loyal citizens of Freeport.",
         "Do you have business with the Freeport Militia?"
@@ -3450,7 +3293,6 @@
     },
     {
       "name": "Guard Navera",
-      "name_sortable": "guardnavera",
       "locations": [
         "-446.68,-45.93,-267.29"
       ],
@@ -3461,7 +3303,6 @@
     },
     {
       "name": "Guard N'Garen",
-      "name_sortable": "guardngaren",
       "locations": [
         "-538.21,-44.88,-371.35"
       ],
@@ -3471,7 +3312,6 @@
     },
     {
       "name": "Guard N'Ican",
-      "name_sortable": "guardnican",
       "locations": [
         "-401.14,-43.12,-341.22"
       ],
@@ -3482,7 +3322,6 @@
     },
     {
       "name": "Guard Pascentius",
-      "name_sortable": "guardpascentius",
       "locations": [
         "-401.14,-43.12,-341.22"
       ],
@@ -3493,7 +3332,6 @@
     },
     {
       "name": "Guard Pokul",
-      "name_sortable": "guardpokul",
       "locations": [
         "-1443.09,-81.35,411.66"
       ],
@@ -3503,21 +3341,18 @@
     },
     {
       "name": "Guard Quintix",
-      "name_sortable": "guardquintix",
       "utterances": [
         "The Overlord commands me to work the night shift and so I must accept."
       ]
     },
     {
       "name": "Guard Senna",
-      "name_sortable": "guardsenna",
       "locations": [
         "-1443.83,-81.03,423.77"
       ]
     },
     {
       "name": "Guard Trimalchio",
-      "name_sortable": "guardtrimalchio",
       "locations": [
         "-441.37,-45.22,-291.74"
       ],
@@ -3527,14 +3362,12 @@
     },
     {
       "name": "Guard Vindex",
-      "name_sortable": "guardvindex",
       "locations": [
         "-1257.84,-87.85,31.07"
       ]
     },
     {
       "name": "Guard Viridix",
-      "name_sortable": "guardviridix",
       "locations": [
         "-484.8,-44.82,-309.41"
       ],
@@ -3545,7 +3378,6 @@
     },
     {
       "name": "Gubta",
-      "name_sortable": "gubta",
       "race": [
         "ogre"
       ],
@@ -3559,7 +3391,6 @@
     },
     {
       "name": "Gustfeather",
-      "name_sortable": "gustfeather",
       "level": 25,
       "difficulty": "heroic^^",
       "locations": [
@@ -3576,7 +3407,6 @@
     },
     {
       "name": "Halcien",
-      "name_sortable": "halcien",
       "race": [
         "human"
       ],
@@ -3586,7 +3416,6 @@
     },
     {
       "name": "Hanif",
-      "name_sortable": "hanif",
       "locations": [
         "377.35,-46.75,-807.93"
       ],
@@ -3600,7 +3429,6 @@
     },
     {
       "name": "Harbormaster D'Vey",
-      "name_sortable": "harbormasterdvey",
       "race": [
         "dark elf"
       ],
@@ -3617,7 +3445,6 @@
     },
     {
       "name": "Heron Cogcarrier",
-      "name_sortable": "heroncogcarrier",
       "race": [
         "gnome"
       ],
@@ -3640,7 +3467,6 @@
     },
     {
       "name": "High Priest of Val`Marr",
-      "name_sortable": "highpriestofvalmarr",
       "locations": [
         "385.69,-31.10,220.71"
       ],
@@ -3650,7 +3476,6 @@
     },
     {
       "name": "a huntsman",
-      "name_sortable": "huntsman",
       "level": 16,
       "locations": [
         "533.53,-59.80,-133.99"
@@ -3661,7 +3486,6 @@
     },
     {
       "name": "Impelia Abettus",
-      "name_sortable": "impeliaabettus",
       "race": [
         "human"
       ],
@@ -3692,7 +3516,6 @@
     },
     {
       "name": "Importer Strathcona",
-      "name_sortable": "importerstrathcona",
       "race": [
         "human"
       ],
@@ -3708,7 +3531,6 @@
     },
     {
       "name": "Inquisitor Irizan",
-      "name_sortable": "inquisitoririzan",
       "race": [
         "human"
       ],
@@ -3729,7 +3551,6 @@
     },
     {
       "name": "Jaharin",
-      "name_sortable": "jaharin",
       "race": [
         "kerran"
       ],
@@ -3755,7 +3576,6 @@
     },
     {
       "name": "Janus Fieri",
-      "name_sortable": "janusfieri",
       "race": [
         "human"
       ],
@@ -3771,7 +3591,6 @@
     },
     {
       "name": "Jereth Blackshield",
-      "name_sortable": "jerethblackshield",
       "level": 20,
       "utterances": [
         "I expected that rat Nethet to show up in order to save his friend.  It seems he sent a different sort of vermin in his place.",
@@ -3783,7 +3602,6 @@
     },
     {
       "name": "Jerimiah Halstetter",
-      "name_sortable": "jerimiahhalstetter",
       "race": [
         "human"
       ],
@@ -3811,7 +3629,6 @@
     },
     {
       "name": "J.P. Feterman",
-      "name_sortable": "jpfeterman",
       "race": [
         "dwarf"
       ],
@@ -3824,7 +3641,6 @@
     },
     {
       "name": "Jyrok the Stone",
-      "name_sortable": "jyrokthestone",
       "level": 18,
       "locations": [
         "-314.21,-47.81,823.10"
@@ -3845,14 +3661,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Kadek",
-      "name_sortable": "kadek",
       "race": [
         "ratonga"
       ],
@@ -3870,7 +3684,6 @@
     },
     {
       "name": "Karmen the Swindler",
-      "name_sortable": "karmentheswindler",
       "race": [
         "human"
       ],
@@ -3971,7 +3784,6 @@
     },
     {
       "name": "Kason Withershadow",
-      "name_sortable": "kasonwithershadow",
       "locations": [
         "-379.58,-47.99,-255.2"
       ],
@@ -3981,7 +3793,6 @@
     },
     {
       "name": "Keerah",
-      "name_sortable": "keerah",
       "race": [
         "kerran"
       ],
@@ -3999,7 +3810,6 @@
     },
     {
       "name": "a kerran rogue",
-      "name_sortable": "kerranrogue",
       "race": [
         "kerran"
       ],
@@ -4052,7 +3862,6 @@
     },
     {
       "name": "a kerran vagrant",
-      "name_sortable": "kerranvagrant",
       "race": [
         "kerran"
       ],
@@ -4083,7 +3892,6 @@
     },
     {
       "name": "Kraofla",
-      "name_sortable": "kraofla",
       "level": 30,
       "locations": [
         "426.91,-24.9,-895.16"
@@ -4096,7 +3904,6 @@
     },
     {
       "name": "Kurzol Bonegnash",
-      "name_sortable": "kurzolbonegnash",
       "race": [
         "troll"
       ],
@@ -4112,7 +3919,6 @@
     },
     {
       "name": "Ladon",
-      "name_sortable": "ladon",
       "level": 22,
       "difficulty": "epicx2",
       "locations": [
@@ -4121,7 +3927,6 @@
     },
     {
       "name": "Lady Anyanka Polevshi",
-      "name_sortable": "ladyanyankapolevshi",
       "level": 20,
       "locations": [
         "462.87,-54.42,502.14"
@@ -4142,7 +3947,6 @@
     },
     {
       "name": "Leldwana",
-      "name_sortable": "leldwana",
       "race": [
         "kerran"
       ],
@@ -4162,7 +3966,6 @@
     },
     {
       "name": "Lieutenant Vrah'Kna",
-      "name_sortable": "lieutenantvrahkna",
       "level": 19,
       "locations": [
         "-403.03,-47.91,456.20"
@@ -4187,14 +3990,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Lightbringer Wisp",
-      "name_sortable": "lightbringerwisp",
       "level": 18,
       "difficulty": "heroic",
       "drops": [
@@ -4206,7 +4007,6 @@
     },
     {
       "name": "a lost soul",
-      "name_sortable": "lostsoul",
       "level": 10,
       "aggressive": true,
       "locations": [
@@ -4225,7 +4025,6 @@
     },
     {
       "name": "Lucanic Knight Initiate",
-      "name_sortable": "lucanicknightinitiate",
       "level": 19,
       "locations": [
         "-309.76,-47.47,-364.87"
@@ -4237,7 +4036,6 @@
     },
     {
       "name": "Lucretias Domna",
-      "name_sortable": "lucretiasdomna",
       "race": [
         "human"
       ],
@@ -4253,7 +4051,6 @@
     },
     {
       "name": "Lucy Lovewing",
-      "name_sortable": "lucylovewing",
       "locations": [
         "-1243.2,-86.64,30.07"
       ],
@@ -4264,7 +4061,6 @@
     },
     {
       "name": "Madam Vi",
-      "name_sortable": "madam06",
       "race": [
         "human"
       ],
@@ -4294,7 +4090,6 @@
     },
     {
       "name": "Maharai",
-      "name_sortable": "maharai",
       "race": [
         "kerran"
       ],
@@ -4312,7 +4107,6 @@
     },
     {
       "name": "Marcus",
-      "name_sortable": "marcus",
       "race": [
         "ratonga"
       ],
@@ -4393,7 +4187,6 @@
     },
     {
       "name": "a massive emerald beetle",
-      "name_sortable": "massiveemeraldbeetle",
       "level": 10,
       "aggressive": false,
       "locations": [
@@ -4427,7 +4220,6 @@
     },
     {
       "name": "Master Jaedra",
-      "name_sortable": "masterjaedra",
       "race": [
         "erudite"
       ],
@@ -4446,7 +4238,6 @@
     },
     {
       "name": "Master of the Hunt",
-      "name_sortable": "masterofthehunt",
       "race": [
         "dark elf"
       ],
@@ -4467,7 +4258,6 @@
     },
     {
       "name": "Merchant Edmond",
-      "name_sortable": "merchantedmond",
       "race": [
         "half elf"
       ],
@@ -4562,7 +4352,6 @@
     },
     {
       "name": "Merchant Valary",
-      "name_sortable": "merchantvalary",
       "purpose": "Weaponsmith",
       "locations": [
         "-527.89,-44.13,-302.02"
@@ -4573,7 +4362,6 @@
     },
     {
       "name": "Merchant William",
-      "name_sortable": "merchantwilliam",
       "purpose": "Armorsmith",
       "locations": [
         "-527.68,-44.13,-311.61"
@@ -4584,7 +4372,6 @@
     },
     {
       "name": "a mere guardian",
-      "name_sortable": "mereguardian",
       "level": 16,
       "aggressive": true,
       "locations": [
@@ -4596,7 +4383,6 @@
     },
     {
       "name": "a Militia guard",
-      "name_sortable": "militiaguard",
       "locations": [
         "-307.25,-47.55,-365.13"
       ],
@@ -4605,14 +4391,12 @@
     },
     {
       "name": "Mindblaster Kander",
-      "name_sortable": "mindblasterkander",
       "utterances": [
         "Rock on! NOSTALGIA!!"
       ]
     },
     {
       "name": "a mith deer",
-      "name_sortable": "mithdeer",
       "level": 11,
       "locations": [
         "-738.21,-61.08,-699.35",
@@ -4638,7 +4422,6 @@
     },
     {
       "name": "Mnemir",
-      "name_sortable": "mnemir",
       "race": [
         "ratonga"
       ],
@@ -4660,7 +4443,6 @@
     },
     {
       "name": "a molting scorpion",
-      "name_sortable": "moltingscorpion",
       "locations": [
         "-739.50,-47.59,146.91",
         "-757.25,-48.24,165.97",
@@ -4690,7 +4472,6 @@
     },
     {
       "name": "a monitor behemoth",
-      "name_sortable": "monitorbehemoth",
       "locations": [
         "189.12,-47.74,-91.19",
         "173.67,-47.98,-72.43",
@@ -4736,7 +4517,6 @@
     },
     {
       "name": "a monitor lizard",
-      "name_sortable": "monitorlizard",
       "locations": [
         "-382.34,-47.59,137.25",
         "-351.77,-48.04,126.37",
@@ -4778,7 +4558,6 @@
     },
     {
       "name": "a moon wisp",
-      "name_sortable": "moonwisp",
       "level": 15,
       "locations": [
         "-177.54,-47.89,-470.6",
@@ -4800,7 +4579,6 @@
     },
     {
       "name": "Mooshga",
-      "name_sortable": "mooshga",
       "race": [
         "ogre"
       ],
@@ -4842,14 +4620,12 @@
     },
     {
       "name": "Mylitta",
-      "name_sortable": "mylitta",
       "utterances": [
         "Your eyes are so pretty."
       ]
     },
     {
       "name": "a mysterious contact",
-      "name_sortable": "mysteriouscontact",
       "utterances": [
         "Hmm.  The time had past.  Luck is that I am forgiving. ",
         "A point of such truths.  I am to relay that the next shipment is ready.",
@@ -4858,7 +4634,6 @@
     },
     {
       "name": "Nethet",
-      "name_sortable": "nethet",
       "race": [
         "ratonga"
       ],
@@ -4891,7 +4666,6 @@
     },
     {
       "name": "Nikora",
-      "name_sortable": "nikora",
       "utterances": [
         "What are you doing?  Get down!  They'll see you!",
         "Shhh!  Quiet, I'm trying to listen to this.  And I said, get down!  We'll talk in a minute.",
@@ -4904,7 +4678,6 @@
     },
     {
       "name": "Nosno",
-      "name_sortable": "nosno",
       "race": [
         "kerran"
       ],
@@ -4921,7 +4694,6 @@
     },
     {
       "name": "Ocranis Lucena",
-      "name_sortable": "ocranislucena",
       "race": [
         "human"
       ],
@@ -4934,7 +4706,6 @@
     },
     {
       "name": "Ohrgran Foulgore",
-      "name_sortable": "ohrgranfoulgore",
       "level": 16,
       "aggressive": true,
       "locations": [
@@ -4953,14 +4724,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "an orc emissary",
-      "name_sortable": "orcemissary",
       "level": 15,
       "locations": [
         "-324.81,-47.58,539.34"
@@ -4972,14 +4741,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Orc ghost",
-      "name_sortable": "orcghost",
       "level": 20,
       "aggressive": true,
       "utterances": [
@@ -4993,7 +4760,6 @@
     },
     {
       "name": "an orc runner",
-      "name_sortable": "orcrunner",
       "race": [
         "orc"
       ],
@@ -5038,20 +4804,17 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Orc skeleton",
-      "name_sortable": "orcskeleton",
       "level": 20,
       "aggressive": true
     },
     {
       "name": "Orwen Neovra",
-      "name_sortable": "orwenneovra",
       "locations": [
         "391.89,-47.43,-811.22"
       ],
@@ -5062,7 +4825,6 @@
     },
     {
       "name": "Overseer Melicinn",
-      "name_sortable": "overseermelicinn",
       "utterances": [
         "Yes... you'll do nicely.",
         "Thanks to some other foolish adventurers, I've found a way to get to Zarvonn and the power he possess.  In order for me to obtain what I'm after, he must be destroyed.  This is where you come in.",
@@ -5074,7 +4836,6 @@
     },
     {
       "name": "a parched nomad",
-      "name_sortable": "parchednomad",
       "locations": [
         "-153.43,-47.87,-819.12",
         "-137.56,-48,-810.25"
@@ -5089,7 +4850,6 @@
     },
     {
       "name": "a patchcraft howler",
-      "name_sortable": "patchcrafthowler",
       "locations": [
         "325.45,-48.04,-606.34",
         "-309.18,-48.76,399.26"
@@ -5097,7 +4857,6 @@
     },
     {
       "name": "a patchcraft keeper",
-      "name_sortable": "patchcraftkeeper",
       "locations": [
         "326.08,-48.04,-638.12",
         "-299.84,-48.04,426.86"
@@ -5119,14 +4878,12 @@
     },
     {
       "name": "Petronax",
-      "name_sortable": "petronax",
       "locations": [
         "-1324.92,-87.87,54.16"
       ]
     },
     {
       "name": "a pig",
-      "name_sortable": "pig",
       "locations": [
         "-1290.3,-87.84,31.14",
         "-517.69,-42.87,-263.69",
@@ -5135,7 +4892,6 @@
     },
     {
       "name": "a pirate of Gunthak",
-      "name_sortable": "pirateofgunthak",
       "level": 15,
       "drops": [
         {
@@ -5146,7 +4902,6 @@
     },
     {
       "name": "a plains hunter",
-      "name_sortable": "plainshunter",
       "level": 17,
       "locations": [
         "459.60,-49.17,-99.34",
@@ -5176,7 +4931,6 @@
     },
     {
       "name": "a putrid cadaver",
-      "name_sortable": "putridcadaver",
       "level": 15,
       "aggressive": true,
       "locations": [
@@ -5196,7 +4950,6 @@
     },
     {
       "name": "a Qeynosian protector",
-      "name_sortable": "qeynosianprotector",
       "level": 31,
       "aggressive": true,
       "locations": [
@@ -5209,14 +4962,12 @@
       "faction_changes": [
         {
           "name": "The Qeynos Guard",
-          "name_sortable": "qeynosguard",
           "value": -100
         }
       ]
     },
     {
       "name": "a Qeynosian scout",
-      "name_sortable": "qeynosianscout",
       "level": 30,
       "aggressive": true,
       "locations": [
@@ -5233,14 +4984,12 @@
       "faction_changes": [
         {
           "name": "The Tunarian Alliance",
-          "name_sortable": "tunarianalliance",
           "value": -100
         }
       ]
     },
     {
       "name": "Rainus Canton",
-      "name_sortable": "rainuscanton",
       "race": [
         "human"
       ],
@@ -5281,7 +5030,6 @@
     },
     {
       "name": "Rama'nai",
-      "name_sortable": "ramanai",
       "level": 18,
       "difficulty": "heroic^^^",
       "locations": [
@@ -5291,7 +5039,6 @@
     },
     {
       "name": "Reetusk",
-      "name_sortable": "reetusk",
       "level": 15,
       "locations": [
         "-336.4,-46.56,-500.43"
@@ -5305,7 +5052,6 @@
     },
     {
       "name": "a rhinoceros",
-      "name_sortable": "rhinoceros",
       "level": 17,
       "locations": [
         "332.05,-48.04,-574.94",
@@ -5323,7 +5069,6 @@
     },
     {
       "name": "Riki",
-      "name_sortable": "riki",
       "race": [
         "ratonga"
       ],
@@ -5348,7 +5093,6 @@
     },
     {
       "name": "Rilkrik",
-      "name_sortable": "rilkrik",
       "race": [
         "ratonga"
       ],
@@ -5401,7 +5145,6 @@
     },
     {
       "name": "a rock lion",
-      "name_sortable": "rocklion",
       "level": 16,
       "locations": [
         "364.29,-46.01,-737.12",
@@ -5439,7 +5182,6 @@
     },
     {
       "name": "a rock lion cub",
-      "name_sortable": "rocklioncub",
       "level": 16,
       "locations": [
         "217.29,-49.02,-705.53"
@@ -5447,7 +5189,6 @@
     },
     {
       "name": "a rock lioness",
-      "name_sortable": "rocklioness",
       "level": 16,
       "locations": [
         "218.45,-49.15,-711.88",
@@ -5465,7 +5206,6 @@
     },
     {
       "name": "a roekillik digger",
-      "name_sortable": "roekillikdigger",
       "locations": [
         "68.53,-32.86,-887.41"
       ],
@@ -5475,7 +5215,6 @@
     },
     {
       "name": "Ronam Olansk",
-      "name_sortable": "ronamolansk",
       "locations": [
         "-157.2,-47.8,-828.57"
       ],
@@ -5488,7 +5227,6 @@
     },
     {
       "name": "Rootka",
-      "name_sortable": "rootka",
       "race": [
         "ratonga"
       ],
@@ -5508,7 +5246,6 @@
     },
     {
       "name": "a rotting cadaver",
-      "name_sortable": "rottingcadaver",
       "level": 15,
       "locations": [
         "107.84,-47.20,-228.00",
@@ -5558,7 +5295,6 @@
     },
     {
       "name": "a runner of Ree",
-      "name_sortable": "runnerofree",
       "level": 15,
       "utterances": [
         "Smash them!",
@@ -5579,7 +5315,6 @@
     },
     {
       "name": "a sandstone giant",
-      "name_sortable": "sandstonegiant",
       "level": 19,
       "locations": [
         "1226.82,-51.37,-364.68",
@@ -5624,7 +5359,6 @@
     },
     {
       "name": "a savanna deer",
-      "name_sortable": "savannadeer",
       "level": 17,
       "locations": [
         "713.14,-59.46,-109.93",
@@ -5639,7 +5373,6 @@
     },
     {
       "name": "a savanna lion",
-      "name_sortable": "savannalion",
       "level": 18,
       "locations": [
         "796.06,-46.51,-406.41",
@@ -5655,7 +5388,6 @@
     },
     {
       "name": "a savanna lioness",
-      "name_sortable": "savannalioness",
       "level": 18,
       "locations": [
         "657.08,-45.62,-412.74",
@@ -5672,7 +5404,6 @@
     },
     {
       "name": "a scourge rat",
-      "name_sortable": "scourgerat",
       "locations": [
         "-85.89,-47.34,-1.81",
         "-75.29,-46.52,-18.89",
@@ -5699,7 +5430,6 @@
     },
     {
       "name": "Scout Calvus",
-      "name_sortable": "scoutcalvus",
       "race": [
         "human"
       ],
@@ -5712,7 +5442,6 @@
     },
     {
       "name": "Scout Nonius",
-      "name_sortable": "scoutnonius",
       "race": [
         "dark elf"
       ],
@@ -5727,7 +5456,6 @@
     },
     {
       "name": "a scrub rat",
-      "name_sortable": "scrubrat",
       "level": 11,
       "aggressive": false,
       "locations": [
@@ -5755,14 +5483,12 @@
     },
     {
       "name": "a seagull",
-      "name_sortable": "seagull",
       "locations": [
         "-478.39,-44.4,-330.03"
       ]
     },
     {
       "name": "Sergeant Borus",
-      "name_sortable": "sergeantborus",
       "race": [
         "human"
       ],
@@ -5779,7 +5505,6 @@
     },
     {
       "name": "a shadowed rift watcher",
-      "name_sortable": "shadowedriftwatcher",
       "level": 35,
       "locations": [
         "1070.77,-36.21,-454.63",
@@ -5789,7 +5514,6 @@
     },
     {
       "name": "a shadowy stag",
-      "name_sortable": "shadowystag",
       "locations": [
         "-739.72,-47.45,-178.50",
         "-743.01,-47.33,-184.21"
@@ -5807,7 +5531,6 @@
     },
     {
       "name": "a Shin`Ree avenger",
-      "name_sortable": "shinreeavenger",
       "race": [
         "human"
       ],
@@ -5880,7 +5603,6 @@
     },
     {
       "name": "Sian D'ior",
-      "name_sortable": "siandior",
       "race": [
         "half elf"
       ],
@@ -5893,7 +5615,6 @@
     },
     {
       "name": "Silentsting",
-      "name_sortable": "silentsting",
       "locations": [
         "-648.49,-38.17,-316.98"
       ],
@@ -5906,7 +5627,6 @@
     },
     {
       "name": "a silt eater",
-      "name_sortable": "silteater",
       "locations": [
         "870.34,-42.45,414.90",
         "929.00,-43.85,420.40",
@@ -5919,7 +5639,6 @@
     },
     {
       "name": "Sir Groktog",
-      "name_sortable": "sirgroktog",
       "race": [
         "froglok"
       ],
@@ -5932,7 +5651,6 @@
     },
     {
       "name": "a small bluegill",
-      "name_sortable": "smallbluegill",
       "level": 12,
       "locations": [
         "-232.01,-49.97,60.4",
@@ -5973,7 +5691,6 @@
     },
     {
       "name": "a small emerald beetle",
-      "name_sortable": "smallemeraldbeetle",
       "level": 11,
       "locations": [
         "-1157.37,-68.61,-11.17",
@@ -6008,7 +5725,6 @@
     },
     {
       "name": "a small pike",
-      "name_sortable": "smallpike",
       "level": 12,
       "locations": [
         "-230.33,-49.8,65.47",
@@ -6055,7 +5771,6 @@
     },
     {
       "name": "a speckled rattler",
-      "name_sortable": "speckledrattler",
       "level": 11,
       "aggressive": false,
       "locations": [
@@ -6091,7 +5806,6 @@
     },
     {
       "name": "a spectral defender",
-      "name_sortable": "spectraldefender",
       "locations": [
         "-1299.75,-74.74,-210.98",
         "-1308.69,-76.07,-211.02",
@@ -6136,7 +5850,6 @@
     },
     {
       "name": "Spirit of Raegnir",
-      "name_sortable": "spiritofraegnir",
       "race": [
         "orc"
       ],
@@ -6164,14 +5877,12 @@
     },
     {
       "name": "Squire Hadley",
-      "name_sortable": "squirehadley",
       "utterances": [
         "The curse of Gynok torments us all! Who will be brave enough to lift this wretched taint and free the Order of Marr's Fist?"
       ]
     },
     {
       "name": "a stone beetle",
-      "name_sortable": "stonebeetle",
       "level": 16,
       "locations": [
         "161.26,-46.82,349.69",
@@ -6220,14 +5931,12 @@
       "faction_changes": [
         {
           "name": "The Academy of Arcane Science",
-          "name_sortable": "academyofarcanescience",
           "value": 50
         }
       ]
     },
     {
       "name": "a strangely stitched zombie",
-      "name_sortable": "strangelystitchedzombie",
       "level": 18,
       "locations": [
         "927.73,-44.32,-604.94"
@@ -6235,7 +5944,6 @@
     },
     {
       "name": "Surveyor Menak",
-      "name_sortable": "surveyormenak",
       "locations": [
         "44.22,-22.93,-883.81"
       ],
@@ -6251,7 +5959,6 @@
     },
     {
       "name": "Taskmaster's Assistant Koz'ma",
-      "name_sortable": "taskmastersassistantkozma",
       "race": [
         "ratonga"
       ],
@@ -6271,7 +5978,6 @@
     },
     {
       "name": "Tecera Valnos",
-      "name_sortable": "teceravalnos",
       "utterances": [
         "Make it quick, I am quite busy.",
         "It's about time he sent help. I've nearly lost the band of Bloodskulls I'm tracking and now this business with the Ruins of Val'marr.",
@@ -6297,7 +6003,6 @@
     },
     {
       "name": "a Thexian dragoon",
-      "name_sortable": "thexiandragoon",
       "level": 19,
       "locations": [
         "1357.18,-39.08,-243.17",
@@ -6328,14 +6033,12 @@
       "faction_changes": [
         {
           "name": "The Thexians",
-          "name_sortable": "thexians",
           "value": -100
         }
       ]
     },
     {
       "name": "a Thexian excavator",
-      "name_sortable": "thexianexcavator",
       "level": 19,
       "locations": [
         "1333.39,-40.11,-240.79",
@@ -6370,14 +6073,12 @@
       "faction_changes": [
         {
           "name": "The Thexians",
-          "name_sortable": "thexians",
           "value": -100
         }
       ]
     },
     {
       "name": "a Thexian rebel",
-      "name_sortable": "thexianrebel",
       "utterances": [
         "I will have vengeance!",
         "Hold them and I'll return with help!"
@@ -6397,7 +6098,6 @@
     },
     {
       "name": "a thresh bat",
-      "name_sortable": "threshbat",
       "level": 10,
       "aggressive": false,
       "locations": [
@@ -6449,7 +6149,6 @@
     },
     {
       "name": "Tiff Squeelunkle",
-      "name_sortable": "tiffsqueelunkle",
       "race": [
         "gnome"
       ],
@@ -6507,7 +6206,6 @@
     },
     {
       "name": "a Tortured Maid",
-      "name_sortable": "torturedmaid",
       "level": 17,
       "aggressive": true,
       "utterances": [
@@ -6525,7 +6223,6 @@
     },
     {
       "name": "a tortured soul",
-      "name_sortable": "torturedsoul",
       "level": 19,
       "aggressive": true,
       "utterances": [
@@ -6618,14 +6315,12 @@
       "faction_changes": [
         {
           "name": "The Dismal Rage",
-          "name_sortable": "dismalrage",
           "value": 50
         }
       ]
     },
     {
       "name": "Tundis N`oxyle",
-      "name_sortable": "tundisnoxyle",
       "race": [
         "dark elf"
       ],
@@ -6644,14 +6339,12 @@
     },
     {
       "name": "Twienel Marcannum",
-      "name_sortable": "twienelmarcannum",
       "locations": [
         "-1296.7,-87.85,32.45"
       ]
     },
     {
       "name": "a twistroot spectre",
-      "name_sortable": "twistrootspectre",
       "locations": [
         "-327.56,-47.58,797.77",
         "-299.18,-47.88,804.65",
@@ -6673,7 +6366,6 @@
     },
     {
       "name": "a twitching cadaver",
-      "name_sortable": "twitchingcadaver",
       "level": 15,
       "locations": [
         "102.27,-46.80,-235.61",
@@ -6697,7 +6389,6 @@
     },
     {
       "name": "Ugam",
-      "name_sortable": "ugam",
       "race": [
         "ogre"
       ],
@@ -6710,7 +6401,6 @@
     },
     {
       "name": "Ventar T'Kal",
-      "name_sortable": "ventartkal",
       "locations": [
         "-153.43,-47.87,-819.12"
       ],
@@ -6751,7 +6441,6 @@
     },
     {
       "name": "a virulent leper",
-      "name_sortable": "virulentleper",
       "level": 16,
       "locations": [
         "394.98,-47.66,-806.56",
@@ -6765,7 +6454,6 @@
     },
     {
       "name": "V'tal Narin",
-      "name_sortable": "vtalnarin",
       "race": [
         "dark elf"
       ],
@@ -6789,7 +6477,6 @@
     },
     {
       "name": "Vurog Ma'gar",
-      "name_sortable": "vurogmagar",
       "locations": [
         "-220.36,-47.83,830.88"
       ],
@@ -6814,14 +6501,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a war elephant",
-      "name_sortable": "warelephant",
       "locations": [
         "41.18,-48.04,440.58",
         "44.65,-47.46,430.81",
@@ -6841,7 +6526,6 @@
     },
     {
       "name": "Watcher Ommo",
-      "name_sortable": "watcherommo",
       "race": [
         "erudite"
       ],
@@ -6860,7 +6544,6 @@
     },
     {
       "name": "Wounded Scout",
-      "name_sortable": "woundedscout",
       "race": [
         "human"
       ],
@@ -6878,7 +6561,6 @@
     },
     {
       "name": "Xrinchel",
-      "name_sortable": "xrinchel",
       "level": 13,
       "locations": [
         "-1221.37,-68.34,313.54"
@@ -6886,7 +6568,6 @@
     },
     {
       "name": "a young vulrich",
-      "name_sortable": "youngvulrich",
       "locations": [
         "-1184.53,-65.87,-293.81",
         "-1189.41,-66.44,-265.00",
@@ -6914,7 +6595,6 @@
     },
     {
       "name": "Yrrey Burbridge",
-      "name_sortable": "yrreyburbridge",
       "locations": [
         "-497.68,-43.71,-263.95"
       ],
@@ -6927,7 +6607,6 @@
     },
     {
       "name": "Zaikik",
-      "name_sortable": "zaikik",
       "race": [
         "ratonga"
       ],
@@ -6943,7 +6622,6 @@
     },
     {
       "name": "ZaZa Lenska",
-      "name_sortable": "zazalenska",
       "race": [
         "ratonga"
       ],
@@ -7347,32 +7025,25 @@
   ],
   "resourceNodes": [
     {
-      "name": "a band of fish",
-      "name_sortable": "bandoffish"
+      "name": "a band of fish"
     },
     {
-      "name": "the cloven ore",
-      "name_sortable": "clovenore"
+      "name": "the cloven ore"
     },
     {
-      "name": "the critter den",
-      "name_sortable": "critterden"
+      "name": "the critter den"
     },
     {
-      "name": "the desert roots",
-      "name_sortable": "desertroots"
+      "name": "the desert roots"
     },
     {
-      "name": "the oasis shrubbery",
-      "name_sortable": "oasisshrubbery"
+      "name": "the oasis shrubbery"
     },
     {
-      "name": "the wind felled tree",
-      "name_sortable": "windfelledtree"
+      "name": "the wind felled tree"
     },
     {
       "name": "the wind swept rock",
-      "name_sortable": "windsweptrock",
       "locations": [
         "-534.98,-47.68,-202.32"
       ]

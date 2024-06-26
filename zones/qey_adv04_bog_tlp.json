@@ -1,10 +1,13 @@
 {
   "name": "The Peat Bog",
-  "name_sortable": "peatbog",
   "flags": "origins",
   "category": "Karan",
-  "zonerect": "-936.08,336.30,-463.13,692.21",
   "levels": "5-10",
+  "maps": [
+    {
+      "zonerect": "-936.08,336.30,-463.13,692.21"
+    }
+  ],
   "connections": [
     {
       "key": "antonica",
@@ -26,7 +29,6 @@
   "npcs": [
     {
       "name": "a Bloodsaber plaguebearer",
-      "name_sortable": "bloodsaberplaguebearer",
       "locations": [
         "675.26,-33.34,417.41",
         "679.01,-33.27,423.17"
@@ -38,7 +40,6 @@
     },
     {
       "name": "a bog sludge",
-      "name_sortable": "bogsludge",
       "locations": [
         "658.55,-33.40,434.71",
         "603.23,-33.12,446.70",
@@ -73,7 +74,6 @@
     },
     {
       "name": "a bog slug",
-      "name_sortable": "bogslug",
       "locations": [
         "667.67,-33.96,444.59",
         "660.55,-33.90,437.52",
@@ -128,7 +128,6 @@
     },
     {
       "name": "a bog slug hatchling",
-      "name_sortable": "bogslughatchling",
       "locations": [
         "690.21,-33.95,448.42",
         "666.62,-33.50,412.61",
@@ -155,7 +154,6 @@
     },
     {
       "name": "a bogwood termite",
-      "name_sortable": "bogwoodtermite",
       "locations": [
         "617.98,-33.09,458.80",
         "604.97,-32.99,453.23",
@@ -170,7 +168,6 @@
     },
     {
       "name": "Botanist Lith",
-      "name_sortable": "botanistlith",
       "race": [
         "kerran"
       ],
@@ -187,7 +184,6 @@
     },
     {
       "name": "Ferius Mentus",
-      "name_sortable": "feriusmentus",
       "race": [
         "human"
       ],
@@ -207,7 +203,6 @@
     },
     {
       "name": "Guard Black",
-      "name_sortable": "guardblack",
       "utterances": [
         "Summon help!  We have invaders!",
         "To arms!",
@@ -216,7 +211,6 @@
     },
     {
       "name": "Guard Moor",
-      "name_sortable": "guardmoor",
       "utterances": [
         "Summon help!  We have invaders!",
         "To arms!",
@@ -225,7 +219,6 @@
     },
     {
       "name": "Lieutenant Dawson",
-      "name_sortable": "lieutenantdawson",
       "race": [
         "human"
       ],
@@ -242,7 +235,6 @@
     },
     {
       "name": "Oakvil",
-      "name_sortable": "oakvil",
       "race": [
         "human"
       ],
@@ -312,7 +304,6 @@
     },
     {
       "name": "a puny scavenger",
-      "name_sortable": "punyscavenger",
       "locations": [
         "671.02,-33.31,430.36",
         "679.47,-33.55,430.82",
@@ -344,7 +335,6 @@
     },
     {
       "name": "Rujiarmo Oolamein",
-      "name_sortable": "rujiarmooolamein",
       "race": [
         "erudite"
       ],
@@ -360,7 +350,6 @@
     },
     {
       "name": "Siahtra Slenloolian",
-      "name_sortable": "siahtraslenloolian",
       "race": [
         "erudite"
       ],
@@ -376,7 +365,6 @@
     },
     {
       "name": "a sporeal seedling",
-      "name_sortable": "sporealseedling",
       "locations": [
         "628.61,-33.53,452.40",
         "625.21,-33.23,439.24",
@@ -400,32 +388,25 @@
   ],
   "resourceNodes": [
     {
-      "name": "an assortment of fish",
-      "name_sortable": "assortmentoffish"
+      "name": "an assortment of fish"
     },
     {
-      "name": "the creature den",
-      "name_sortable": "creatureden"
+      "name": "the creature den"
     },
     {
-      "name": "the dense felled arbor",
-      "name_sortable": "densefelledarbor"
+      "name": "the dense felled arbor"
     },
     {
-      "name": "the misty stone",
-      "name_sortable": "mistystone"
+      "name": "the misty stone"
     },
     {
-      "name": "the murky ore",
-      "name_sortable": "murkyore"
+      "name": "the murky ore"
     },
     {
-      "name": "the natural garden",
-      "name_sortable": "naturalgarden"
+      "name": "the natural garden"
     },
     {
-      "name": "the wilted roots",
-      "name_sortable": "wiltedroots"
+      "name": "the wilted roots"
     }
   ]
 }

@@ -1,6 +1,5 @@
 {
   "name": "The Ring of Wanderlust",
-  "name_sortable": "ringofwanderlust",
   "flags": "pre-lu62",
   "category": "Crafting Hubs",
   "connections": [
@@ -12,7 +11,6 @@
   "npcs": [
     {
       "name": "Anise Wavechaser",
-      "name_sortable": "anisewavechaser",
       "race": [
         "human"
       ],
@@ -29,7 +27,6 @@
     },
     {
       "name": "Katia Aruzia",
-      "name_sortable": "katiaaruzia",
       "race": [
         "barbarian"
       ],
@@ -46,7 +43,6 @@
     },
     {
       "name": "Naia Vesat",
-      "name_sortable": "naiavesat",
       "race": [
         "human"
       ],
@@ -63,7 +59,6 @@
     },
     {
       "name": "Sandra Windwalker",
-      "name_sortable": "sandrawindwalker",
       "race": [
         "half elf"
       ],
@@ -80,17 +75,16 @@
     },
     {
       "name": "Wholesaler Kenda Foamrider",
-      "name_sortable": "wholesalerkendafoamrider",
       "race": [
         "half elf"
       ],
       "gender": [
         "female"
       ],
+      "purpose": "wholesaler",
       "locations": [
         "-2.17,-0.18,9.08"
       ],
-      "purpose": "wholesaler",
       "utterances": [
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
       ],

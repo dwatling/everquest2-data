@@ -1,11 +1,14 @@
 {
   "name": "Steamfont Mountains",
-  "name_sortable": "steamfontmountains",
   "expansion": "exp03",
   "category": "Faydwer",
   "description": "These ancient hills full of geysers and hotsprings are home to the gnomes and their mechanical creations. The Mines of Meldrath and the city of Klak'Anon lie within these hills.",
-  "zonerect": "-470.72,259.11,1707.27,1889.73",
   "levels": "35-50",
+  "maps": [
+    {
+      "zonerect": "-470.72,259.11,1707.27,1889.73"
+    }
+  ],
   "connections": [
     {
       "key": "exp03_rgn_loping_plains"
@@ -26,7 +29,6 @@
   "npcs": [
     {
       "name": "a Chronomage",
-      "name_sortable": "chronomage",
       "locations": [
         "17.72,93.86,1288.62",
         "34.9,93.33,1291.26",
@@ -39,7 +41,6 @@
     },
     {
       "name": "Finbert Lintzig",
-      "name_sortable": "finbertlintzig",
       "utterances": [
         "Don't touch that please! Your primitive intellect wouldn't understand alloys and compositions, things with mechanamagical structures.",
         "Eugene, please take these mana couplings to Hodgemottin and be very careful with them. They are delicate mechanamagical instruments and it would be a shame to have to refabricate them.",
@@ -48,7 +49,6 @@
     },
     {
       "name": "Fresa Wealgear",
-      "name_sortable": "fresawealgear",
       "locations": [
         "-594.75,174.93,1080.08"
       ],
@@ -58,7 +58,6 @@
     },
     {
       "name": "Jin Findintide",
-      "name_sortable": "jinfindintide",
       "locations": [
         "-598.59,174.93,1082.47"
       ],
@@ -68,7 +67,6 @@
     },
     {
       "name": "Professor What",
-      "name_sortable": "professorwhat",
       "utterances": [
         "You there!  You have a burning interest in gnomish history, do you not?",
         "Perfect!  I knew I would find like-minded kin during Tinkerfest!  I'm Andipholitz Whatzzit, but my friends call me Professor What... I bet.",
@@ -81,14 +79,12 @@
     },
     {
       "name": "Rizo Voombin",
-      "name_sortable": "rizovoombin",
       "utterances": [
         "Hey you Number Two! Watch out where you point that torch!"
       ]
     },
     {
       "name": "Sergi Voombin",
-      "name_sortable": "sergivoombin",
       "locations": [
         "-597.34,175.54,1084.83"
       ],
@@ -102,14 +98,12 @@
     },
     {
       "name": "Tomker",
-      "name_sortable": "tomker",
       "utterances": [
         "Oh dear, where is that courier?"
       ]
     },
     {
       "name": "Waynil Garwater",
-      "name_sortable": "waynilgarwater",
       "utterances": [
         "Well hello there! Welcome to Gnomeland Security Headquarters!"
       ]
@@ -132,8 +126,7 @@
   ],
   "resourceNodes": [
     {
-      "name": "the burnished stone",
-      "name_sortable": "burnishedstone"
+      "name": "the burnished stone"
     }
   ]
 }

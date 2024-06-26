@@ -1,9 +1,12 @@
 {
   "name": "Temple Street: Vault of Necromechanica",
-  "name_sortable": "templestreetvaultofnecromechanica",
   "category": "Villages",
   "subcategory": "Freeport",
-  "zonerect": "-318.06,-122.85,233.45,290.97",
+  "maps": [
+    {
+      "zonerect": "-318.06,-122.85,233.45,290.97"
+    }
+  ],
   "connections": [
     {
       "key": "freeport_combined"

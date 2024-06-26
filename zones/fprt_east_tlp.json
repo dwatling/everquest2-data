@@ -1,14 +1,16 @@
 {
   "name": "Freeport East",
-  "name_sortable": "freeporteast",
   "removed": "lu62",
   "category": "Cities",
   "subcategory": "Freeport",
-  "zonerect": "-12.08,-230.06,526.27,181.38",
+  "maps": [
+    {
+      "zonerect": "-12.08,-230.06,526.27,181.38"
+    }
+  ],
   "npcs": [
     {
       "name": "Aemilia Sevso",
-      "name_sortable": "aemiliasevso",
       "race": [
         "human"
       ],
@@ -28,7 +30,6 @@
     },
     {
       "name": "Alypia Damian",
-      "name_sortable": "alypiadamian",
       "race": [
         "human"
       ],
@@ -46,7 +47,6 @@
     },
     {
       "name": "Annia Velithe",
-      "name_sortable": "anniavelithe",
       "race": [
         "half elf"
       ],
@@ -62,7 +62,6 @@
     },
     {
       "name": "Armormaster Ikthar Icehammer",
-      "name_sortable": "armormasteriktharicehammer",
       "race": [
         "barbarian"
       ],
@@ -82,7 +81,6 @@
     },
     {
       "name": "Atianoo Donicus",
-      "name_sortable": "atianoodonicus",
       "race": [
         "erudite"
       ],
@@ -105,7 +103,6 @@
     },
     {
       "name": "Bruccius Capito",
-      "name_sortable": "brucciuscapito",
       "race": [
         "human"
       ],
@@ -121,7 +118,6 @@
     },
     {
       "name": "Carius Aruns",
-      "name_sortable": "cariusaruns",
       "race": [
         "human"
       ],
@@ -141,7 +137,6 @@
     },
     {
       "name": "Chonax Bonedancer",
-      "name_sortable": "chonaxbonedancer",
       "race": [
         "troll"
       ],
@@ -162,7 +157,6 @@
     },
     {
       "name": "City Registrar Glamis",
-      "name_sortable": "cityregistrarglamis",
       "race": [
         "human"
       ],
@@ -179,7 +173,6 @@
     },
     {
       "name": "Culdor",
-      "name_sortable": "culdor",
       "race": [
         "human"
       ],
@@ -197,7 +190,6 @@
     },
     {
       "name": "Dalal Akilia",
-      "name_sortable": "dalalakilia",
       "race": [
         "erudite"
       ],
@@ -215,7 +207,6 @@
     },
     {
       "name": "Damar G`Thez",
-      "name_sortable": "damargthez",
       "race": [
         "dark elf"
       ],
@@ -231,7 +222,6 @@
     },
     {
       "name": "Decius Dekarn",
-      "name_sortable": "deciusdekarn",
       "race": [
         "human"
       ],
@@ -247,7 +237,6 @@
     },
     {
       "name": "Dyric Pire",
-      "name_sortable": "dyricpire",
       "race": [
         "human"
       ],
@@ -263,7 +252,6 @@
     },
     {
       "name": "Fadia Coggles",
-      "name_sortable": "fadiacoggles",
       "race": [
         "gnome"
       ],
@@ -282,7 +270,6 @@
     },
     {
       "name": "Fichman",
-      "name_sortable": "fichman",
       "race": [
         "human"
       ],
@@ -295,7 +282,6 @@
     },
     {
       "name": "First-Mate Gimblefuzzle",
-      "name_sortable": "firstmategimblefuzzle",
       "race": [
         "gnome"
       ],
@@ -314,7 +300,6 @@
     },
     {
       "name": "Fisherman Zogz",
-      "name_sortable": "fishermanzogz",
       "race": [
         "troll"
       ],
@@ -332,7 +317,6 @@
     },
     {
       "name": "Foreman Asprenus",
-      "name_sortable": "foremanasprenus",
       "race": [
         "human"
       ],
@@ -348,7 +332,6 @@
     },
     {
       "name": "G`Thal",
-      "name_sortable": "gthal",
       "race": [
         "dark elf"
       ],
@@ -362,7 +345,6 @@
     },
     {
       "name": "Harbinger McDannis",
-      "name_sortable": "harbingermcdannis",
       "race": [
         "barbarian"
       ],
@@ -388,7 +370,6 @@
     },
     {
       "name": "Harbormaster Duskmark",
-      "name_sortable": "harbormasterduskmark",
       "race": [
         "half elf"
       ],
@@ -404,7 +385,6 @@
     },
     {
       "name": "Irena",
-      "name_sortable": "irena",
       "race": [
         "ratonga"
       ],
@@ -424,7 +404,6 @@
     },
     {
       "name": "Javvy",
-      "name_sortable": "javvy",
       "race": [
         "human"
       ],
@@ -440,7 +419,6 @@
     },
     {
       "name": "Jistarr",
-      "name_sortable": "jistarr",
       "race": [
         "iksar"
       ],
@@ -458,7 +436,6 @@
     },
     {
       "name": "Josef",
-      "name_sortable": "josef",
       "race": [
         "ratonga"
       ],
@@ -479,7 +456,6 @@
     },
     {
       "name": "Julie Danerous",
-      "name_sortable": "juliedanerous",
       "race": [
         "human"
       ],
@@ -495,7 +471,6 @@
     },
     {
       "name": "Kirsteh the Witch",
-      "name_sortable": "kirstehthewitch",
       "race": [
         "gnome"
       ],
@@ -511,7 +486,6 @@
     },
     {
       "name": "Kouryick",
-      "name_sortable": "kouryick",
       "race": [
         "ratonga"
       ],
@@ -528,7 +502,6 @@
     },
     {
       "name": "Kronasoo",
-      "name_sortable": "kronasoo",
       "race": [
         "erudite"
       ],
@@ -549,7 +522,6 @@
     },
     {
       "name": "Livia Caepio",
-      "name_sortable": "liviacaepio",
       "race": [
         "iksar"
       ],
@@ -562,7 +534,6 @@
     },
     {
       "name": "Loche V'Lys",
-      "name_sortable": "lochevlys",
       "race": [
         "dark elf"
       ],
@@ -579,7 +550,6 @@
     },
     {
       "name": "Lollia Parnesius",
-      "name_sortable": "lolliaparnesius",
       "race": [
         "human"
       ],
@@ -595,7 +565,6 @@
     },
     {
       "name": "Marcia Betto",
-      "name_sortable": "marciabetto",
       "race": [
         "human"
       ],
@@ -614,7 +583,6 @@
     },
     {
       "name": "Mariner D`Vez",
-      "name_sortable": "marinerdvez",
       "race": [
         "dark elf"
       ],
@@ -631,7 +599,6 @@
     },
     {
       "name": "Mariner Ninetails",
-      "name_sortable": "marinerninetails",
       "race": [
         "kerran"
       ],
@@ -650,7 +617,6 @@
     },
     {
       "name": "Master Archer Hawkeye Hallard",
-      "name_sortable": "masterarcherhawkeyehallard",
       "race": [
         "human"
       ],
@@ -670,7 +636,6 @@
     },
     {
       "name": "Mehina ",
-      "name_sortable": "mehina",
       "utterances": [
         "I don't care what they say.  This town is not much to look at, is it?",
         "There's no place for the elderly in this town."
@@ -678,7 +643,6 @@
     },
     {
       "name": "Melenia Scantus",
-      "name_sortable": "meleniascantus",
       "race": [
         "barbarian"
       ],
@@ -696,7 +660,6 @@
     },
     {
       "name": "Moirae Nalascos",
-      "name_sortable": "moiraenalascos",
       "race": [
         "human"
       ],
@@ -712,7 +675,6 @@
     },
     {
       "name": "Neskavul",
-      "name_sortable": "neskavul",
       "race": [
         "iksar"
       ],
@@ -729,7 +691,6 @@
     },
     {
       "name": "Odyssneu",
-      "name_sortable": "odyssneu",
       "race": [
         "erudite"
       ],
@@ -747,7 +708,6 @@
     },
     {
       "name": "Progenitus",
-      "name_sortable": "progenitus",
       "race": [
         "human"
       ],
@@ -763,7 +723,6 @@
     },
     {
       "name": "Putad Bloodrinker",
-      "name_sortable": "putadbloodrinker",
       "race": [
         "troll"
       ],
@@ -784,7 +743,6 @@
     },
     {
       "name": "Ranik Calman",
-      "name_sortable": "ranikcalman",
       "race": [
         "human"
       ],
@@ -800,7 +758,6 @@
     },
     {
       "name": "Rashja",
-      "name_sortable": "rashja",
       "race": [
         "ogre"
       ],
@@ -817,7 +774,6 @@
     },
     {
       "name": "Renny Parvat",
-      "name_sortable": "rennyparvat",
       "race": [
         "ratonga"
       ],
@@ -834,7 +790,6 @@
     },
     {
       "name": "Rumdum",
-      "name_sortable": "rumdum",
       "race": [
         "ogre"
       ],
@@ -850,7 +805,6 @@
     },
     {
       "name": "a Safar of Maj'dul",
-      "name_sortable": "safarofmajdul",
       "gender": [
         "female"
       ],
@@ -860,7 +814,6 @@
     },
     {
       "name": "Salonia Siculus",
-      "name_sortable": "saloniasiculus",
       "race": [
         "human"
       ],
@@ -919,7 +872,6 @@
     },
     {
       "name": "Seafury Felvonitor",
-      "name_sortable": "seafuryfelvonitor",
       "race": [
         "human"
       ],
@@ -938,7 +890,6 @@
     },
     {
       "name": "Seafury Skysearch",
-      "name_sortable": "seafuryskysearch",
       "race": [
         "human"
       ],
@@ -956,7 +907,6 @@
     },
     {
       "name": "Sergeant Typhoeus",
-      "name_sortable": "sergeanttyphoeus",
       "race": [
         "human"
       ],
@@ -972,14 +922,12 @@
     },
     {
       "name": "Shadow",
-      "name_sortable": "shadow",
       "locations": [
         "-101.73,-37.71,-0.25"
       ]
     },
     {
       "name": "Sileni T`Rhizius",
-      "name_sortable": "silenitrhizius",
       "race": [
         "dark elf"
       ],
@@ -1002,7 +950,6 @@
     },
     {
       "name": "Sirraw Swiftpaw",
-      "name_sortable": "sirrawswiftpaw",
       "race": [
         "ratonga"
       ],
@@ -1018,7 +965,6 @@
     },
     {
       "name": "Skaznik",
-      "name_sortable": "skaznik",
       "race": [
         "iksar"
       ],
@@ -1038,7 +984,6 @@
     },
     {
       "name": "Slaughtergrott the Vigilant",
-      "name_sortable": "slaughtergrottthevigilant",
       "race": [
         "ogre"
       ],
@@ -1056,7 +1001,6 @@
     },
     {
       "name": "Syrinis H`Gez",
-      "name_sortable": "syrinishgez",
       "race": [
         "half elf"
       ],
@@ -1075,7 +1019,6 @@
     },
     {
       "name": "Tarragar Caroom",
-      "name_sortable": "tarragarcaroom",
       "race": [
         "kerran"
       ],
@@ -1094,7 +1037,6 @@
     },
     {
       "name": "Thanatos Kividius",
-      "name_sortable": "thanatoskividius",
       "race": [
         "human"
       ],
@@ -1117,7 +1059,6 @@
     },
     {
       "name": "Toban Cogscamper",
-      "name_sortable": "tobancogscamper",
       "race": [
         "gnome"
       ],
@@ -1140,7 +1081,6 @@
     },
     {
       "name": "Urania Helvonius",
-      "name_sortable": "uraniahelvonius",
       "race": [
         "half elf"
       ],
@@ -1158,7 +1098,6 @@
     },
     {
       "name": "Uthngar",
-      "name_sortable": "uthngar",
       "race": [
         "ogre"
       ],
@@ -1178,7 +1117,6 @@
     },
     {
       "name": "Vhishall",
-      "name_sortable": "vhishall",
       "race": [
         "iksar"
       ],
@@ -1237,7 +1175,6 @@
     },
     {
       "name": "Viducius Festus",
-      "name_sortable": "viduciusfestus",
       "race": [
         "human"
       ],
@@ -1256,7 +1193,6 @@
     },
     {
       "name": "Yohance",
-      "name_sortable": "yohance",
       "race": [
         "kerran"
       ],
@@ -1277,7 +1213,6 @@
     },
     {
       "name": "Zizwold",
-      "name_sortable": "zizwold",
       "race": [
         "gnome"
       ],

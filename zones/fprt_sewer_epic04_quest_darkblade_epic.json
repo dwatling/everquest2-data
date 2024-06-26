@@ -1,11 +1,14 @@
 {
   "name": "The Darkblade Den of Assassins",
-  "name_sortable": "darkbladedenofassassins",
   "category": "Dungeons",
-  "zonerect": "-28.00,-32.00,29.00,35.00",
   "levels": "8-10",
   "access_quests": [
     48146532
+  ],
+  "maps": [
+    {
+      "zonerect": "-28.00,-32.00,29.00,35.00"
+    }
   ],
   "connections": [
     {
@@ -15,7 +18,6 @@
   "npcs": [
     {
       "name": "a Darkblade assassin",
-      "name_sortable": "darkbladeassassin",
       "level": 10,
       "locations": [
         "-0.84,-0.28,13.90",
@@ -42,7 +44,6 @@
     },
     {
       "name": "Sinyaz V'rix",
-      "name_sortable": "sinyazvrix",
       "level": 10,
       "difficulty": "heroic",
       "locations": [
@@ -53,7 +54,6 @@
     },
     {
       "name": "Zaynis V'rix",
-      "name_sortable": "zaynisvrix",
       "level": 10,
       "difficulty": "heroic",
       "locations": [

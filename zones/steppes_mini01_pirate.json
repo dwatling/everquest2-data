@@ -1,9 +1,12 @@
 {
   "name": "Heroic: A Pirate's Hidden Stash",
-  "name_sortable": "heroicapirateshiddenstash",
   "category": "Dungeons",
-  "zonerect": "-920.00,1021.00,-816.00,1139.00",
   "levels": "20-25",
+  "maps": [
+    {
+      "zonerect": "-920.00,1021.00,-816.00,1139.00"
+    }
+  ],
   "connections": [
     {
       "key": "steppes"
@@ -12,7 +15,6 @@
   "npcs": [
     {
       "name": "a cave forager",
-      "name_sortable": "caveforager",
       "level": 22,
       "difficulty": "heroic",
       "locations": [
@@ -27,7 +29,6 @@
     },
     {
       "name": "an intoxicated pirate",
-      "name_sortable": "intoxicatedpirate",
       "level": 24,
       "difficulty": "heroic",
       "locations": [
@@ -39,7 +40,6 @@
     },
     {
       "name": "a pirate guard",
-      "name_sortable": "pirateguard",
       "level": 25,
       "difficulty": "heroic",
       "locations": [
@@ -68,7 +68,6 @@
     },
     {
       "name": "a treasure hoarder",
-      "name_sortable": "treasurehoarder",
       "level": 26,
       "difficulty": "heroic",
       "locations": [
@@ -88,7 +87,6 @@
     },
     {
       "name": "a treasure sorter",
-      "name_sortable": "treasuresorter",
       "level": 23,
       "difficulty": "heroic",
       "locations": [

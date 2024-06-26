@@ -1,6 +1,5 @@
 {
   "name": "The Shimmering Citadel",
-  "name_sortable": "shimmeringcitadel",
   "expansion": "exp01",
   "category": "Desert of Ro",
   "zonerect": "-188.00,-316.00,303.00,254.00",
@@ -33,7 +32,6 @@
   "npcs": [
     {
       "name": "an Aravu watchmistress",
-      "name_sortable": "aravuwatchmistress",
       "drops": [
         {
           "gamelink": "\\aITEM -828547253 615914939:Indicolite Relic\\/a",
@@ -43,12 +41,10 @@
       "faction_changes": [
         {
           "name": "The Court of the Master Djinn",
-          "name_sortable": "courtofthemasterdjinn",
           "value": 50
         },
         {
           "name": "The Aravu Naga",
-          "name_sortable": "aravunaga",
           "value": -100
         }
       ]

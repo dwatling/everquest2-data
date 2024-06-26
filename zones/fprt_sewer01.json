@@ -1,9 +1,12 @@
 {
   "name": "The Thieves' Way",
-  "name_sortable": "thievesway",
   "category": "D'Lere",
-  "zonerect": "-42.00,-34.00,202.00,248.00",
   "levels": "5-10",
+  "maps": [
+    {
+      "zonerect": "-42.00,-34.00,202.00,248.00"
+    }
+  ],
   "connections": [
     {
       "key": "fprt_sewer02"
@@ -23,7 +26,6 @@
   "npcs": [
     {
       "name": "a corruptor",
-      "name_sortable": "corruptor",
       "level": 11,
       "locations": [
         "-30,0,197",
@@ -65,7 +67,6 @@
     },
     {
       "name": "a Darkblade bodyguard",
-      "name_sortable": "darkbladebodyguard",
       "race": [
         "human"
       ],
@@ -97,7 +98,6 @@
     },
     {
       "name": "a Darkblade brigand",
-      "name_sortable": "darkbladebrigand",
       "race": [
         "human",
         "ratonga",
@@ -137,7 +137,6 @@
     },
     {
       "name": "a Darkblade fury",
-      "name_sortable": "darkbladefury",
       "race": [
         "ratonga",
         "human",
@@ -167,7 +166,6 @@
     },
     {
       "name": "a Darkblade maiden",
-      "name_sortable": "darkblademaiden",
       "level": 9,
       "locations": [
         "-83,1,115",
@@ -187,7 +185,6 @@
     },
     {
       "name": "a Darkblade noble",
-      "name_sortable": "darkbladenoble",
       "race": [
         "half elf"
       ],
@@ -206,7 +203,6 @@
     },
     {
       "name": "a Darkblade scout",
-      "name_sortable": "darkbladescout",
       "race": [
         "human",
         "ratonga",
@@ -257,7 +253,6 @@
     },
     {
       "name": "a diseased ratonga",
-      "name_sortable": "diseasedratonga",
       "race": [
         "ratonga"
       ],
@@ -319,7 +314,6 @@
     },
     {
       "name": "a drowned protector",
-      "name_sortable": "drownedprotector",
       "level": 12,
       "locations": [
         "-30,0,197"
@@ -327,7 +321,6 @@
     },
     {
       "name": "a fallen crusader",
-      "name_sortable": "fallencrusader",
       "level": 11,
       "locations": [
         "-30,0,197",
@@ -352,7 +345,6 @@
     },
     {
       "name": "a juvenile mucus",
-      "name_sortable": "juvenilemucus",
       "level": 6,
       "locations": [
         "-119.35,1.00,78.45",
@@ -379,7 +371,6 @@
     },
     {
       "name": "Krakamen",
-      "name_sortable": "krakamen",
       "level": 9,
       "difficulty": "heroic",
       "locations": [
@@ -399,7 +390,6 @@
     },
     {
       "name": "Lady Darkblade",
-      "name_sortable": "ladydarkblade",
       "race": [
         "human"
       ],
@@ -419,7 +409,6 @@
     },
     {
       "name": "M`Polo Danukh",
-      "name_sortable": "m`polodanukh",
       "purpose": "General Goods",
       "locations": [
         "-31,1,154"
@@ -477,7 +466,6 @@
     },
     {
       "name": "Marius Darkblade",
-      "name_sortable": "mariusdarkblade",
       "race": [
         "human"
       ],
@@ -507,7 +495,6 @@
     },
     {
       "name": "Mikela Osa",
-      "name_sortable": "mikelaosa",
       "race": [
         "iksar"
       ],
@@ -521,7 +508,6 @@
     },
     {
       "name": "M`Polo Danukh",
-      "name_sortable": "mpolodanukh",
       "race": [
         "kerran"
       ],
@@ -538,7 +524,6 @@
     },
     {
       "name": "a Murkwater Infiltrator",
-      "name_sortable": "murkwaterinfiltrator",
       "race": [
         "ratonga"
       ],
@@ -557,7 +542,6 @@
     },
     {
       "name": "a netherot chanter",
-      "name_sortable": "netherotchanter",
       "race": [
         "human"
       ],
@@ -583,7 +567,6 @@
     },
     {
       "name": "Nikho Tambolo",
-      "name_sortable": "nikhotambolo",
       "race": [
         "half elf"
       ],
@@ -671,9 +654,8 @@
     },
     {
       "name": "a ravenous cube",
-      "name_sortable": "ravenouscube",
-      "aggressive": true,
       "level": 7,
+      "aggressive": true,
       "locations": [
         "-34,0,107",
         "-113.85,0.00,78.35",
@@ -698,7 +680,6 @@
     },
     {
       "name": "a refuse roach",
-      "name_sortable": "refuseroach",
       "level": 6,
       "locations": [
         "-117,1,78",
@@ -725,7 +706,6 @@
     },
     {
       "name": "Sali Va`ah",
-      "name_sortable": "saliva`ah",
       "purpose": "Armorsmith",
       "locations": [
         "-33,1,156"
@@ -734,7 +714,6 @@
     },
     {
       "name": "Sali Va`ah",
-      "name_sortable": "salivaah",
       "race": [
         "dark elf"
       ],
@@ -750,7 +729,6 @@
     },
     {
       "name": "a sewage rat",
-      "name_sortable": "sewagerat",
       "level": 6,
       "locations": [
         "-117,1,78",
@@ -782,7 +760,6 @@
     },
     {
       "name": "a sewer rat",
-      "name_sortable": "sewerrat",
       "level": 5,
       "locations": [
         "-117,1,78"
@@ -790,7 +767,6 @@
     },
     {
       "name": "a sewer slime",
-      "name_sortable": "sewerslime",
       "level": 6,
       "locations": [
         "-4,0,98",
@@ -842,7 +818,6 @@
     },
     {
       "name": "Shift Boss Local 858",
-      "name_sortable": "shiftbosslocal858",
       "level": 8,
       "difficulty": "heroic",
       "locations": [
@@ -851,7 +826,6 @@
     },
     {
       "name": "a sludgewalker hatchling",
-      "name_sortable": "sludgewalkerhatchling",
       "level": 6,
       "locations": [
         "-25,0,50",
@@ -887,7 +861,6 @@
     },
     {
       "name": "a trash hopper",
-      "name_sortable": "trashhopper",
       "level": 6,
       "locations": [
         "-181,0,177",
@@ -905,7 +878,6 @@
     },
     {
       "name": "a union member Local 858",
-      "name_sortable": "unionmemberlocal858",
       "level": 8,
       "locations": [
         "-115,1,57"
@@ -917,7 +889,6 @@
     },
     {
       "name": "a union mender Local 858",
-      "name_sortable": "unionmenderlocal858",
       "race": [
         "gnome"
       ],
@@ -951,7 +922,6 @@
     },
     {
       "name": "Zatzy",
-      "name_sortable": "zatzy",
       "locations": [
         "-1,0,-7"
       ],

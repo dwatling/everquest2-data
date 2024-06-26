@@ -1,6 +1,5 @@
 {
   "name": "Deathfist Citadel",
-  "name_sortable": "deathfistcitadel",
   "category": "Dungeons",
   "subcategory": "Group",
   "levels": "35-45",
@@ -26,7 +25,6 @@
   "npcs": [
     {
       "name": "Agtak",
-      "name_sortable": "agtak",
       "utterances": [
         "I don't need your help, fool! Go away. I can endure any pain they inflict. When I'm through with them, your kind is next!",
         "You talk too much. I'll have your tongue ripped from your gullet! I'm not the ruler of this empire. I'm the ruler of empires to come. ",
@@ -37,23 +35,19 @@
     },
     {
       "name": "Alchemist Yallessul",
-      "name_sortable": "alchemistyallessul",
       "faction_changes": [
         {
           "name": "The Green Hoods",
-          "name_sortable": "greenhoods",
           "value": 50
         },
         {
           "name": "The Deathfist Orcs",
-          "name_sortable": "deathfistorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Arena Champion Kraz'k",
-      "name_sortable": "arenachampionkrazk",
       "drops": [
         {
           "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
@@ -63,37 +57,31 @@
       "faction_changes": [
         {
           "name": "The Green Hoods",
-          "name_sortable": "greenhoods",
           "value": 50
         },
         {
           "name": "The Deathfist Orcs",
-          "name_sortable": "deathfistorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Blacksmith Balgok",
-      "name_sortable": "blacksmithbalgok",
       "drop_coin_min": 395,
       "drop_coin_max": 395,
       "faction_changes": [
         {
           "name": "The Green Hoods",
-          "name_sortable": "greenhoods",
           "value": 50
         },
         {
           "name": "The Deathfist Orcs",
-          "name_sortable": "deathfistorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Blademaster Gromgak",
-      "name_sortable": "blademastergromgak",
       "drops": [
         {
           "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
@@ -103,7 +91,6 @@
     },
     {
       "name": "Chief Torturer Goortz",
-      "name_sortable": "chieftorturergoortz",
       "drops": [
         {
           "gamelink": "\\aITEM -1057538332 470544897:Deathfist jail master key\\/a",
@@ -113,19 +100,16 @@
       "faction_changes": [
         {
           "name": "The Green Hoods",
-          "name_sortable": "greenhoods",
           "value": 50
         },
         {
           "name": "The Deathfist Orcs",
-          "name_sortable": "deathfistorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Deathfist archer",
-      "name_sortable": "deathfistarcher",
       "utterances": [
         "Who dares enter the citadel?!",
         "I've got somethin' fer ya!  Hahaha!",
@@ -139,25 +123,21 @@
     },
     {
       "name": "a Deathfist bloodguard",
-      "name_sortable": "deathfistbloodguard",
       "drop_coin_min": 1629,
       "drop_coin_max": 2464,
       "faction_changes": [
         {
           "name": "The Green Hoods",
-          "name_sortable": "greenhoods",
           "value": 50
         },
         {
           "name": "The Deathfist Orcs",
-          "name_sortable": "deathfistorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Deathfist priest",
-      "name_sortable": "deathfistpriest",
       "drops": [
         {
           "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
@@ -193,19 +173,16 @@
       "faction_changes": [
         {
           "name": "The Green Hoods",
-          "name_sortable": "greenhoods",
           "value": 50
         },
         {
           "name": "The Deathfist Orcs",
-          "name_sortable": "deathfistorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Deathfist sentinel",
-      "name_sortable": "deathfistsentinel",
       "drops": [
         {
           "gamelink": "\\aITEM 2033207547 2132039548:Rise of the Orcs - The Rousing  - Page 10\\/a",
@@ -215,19 +192,16 @@
       "faction_changes": [
         {
           "name": "The Green Hoods",
-          "name_sortable": "greenhoods",
           "value": 50
         },
         {
           "name": "The Deathfist Orcs",
-          "name_sortable": "deathfistorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Deathfist siege operator",
-      "name_sortable": "deathfistsiegeoperator",
       "drops": [
         {
           "gamelink": "\\aITEM -26685399 680889659:Feysteel Relic\\/a",
@@ -239,19 +213,16 @@
       "faction_changes": [
         {
           "name": "The Green Hoods",
-          "name_sortable": "greenhoods",
           "value": 50
         },
         {
           "name": "The Deathfist Orcs",
-          "name_sortable": "deathfistorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Deathfist soothsayer",
-      "name_sortable": "deathfistsoothsayer",
       "drops": [
         {
           "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
@@ -267,19 +238,16 @@
       "faction_changes": [
         {
           "name": "The Green Hoods",
-          "name_sortable": "greenhoods",
           "value": 50
         },
         {
           "name": "The Deathfist Orcs",
-          "name_sortable": "deathfistorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Deathfist traitor",
-      "name_sortable": "deathfisttraitor",
       "drops": [
         {
           "gamelink": "\\aITEM -2103372807 -329902704:Rujarkian Battle Charm\\/a",
@@ -301,7 +269,6 @@
     },
     {
       "name": "a Deathfist warrior",
-      "name_sortable": "deathfistwarrior",
       "drops": [
         {
           "gamelink": "\\aITEM 1555822525 859721010:Opal Scrying Stone\\/a",
@@ -329,19 +296,16 @@
       "faction_changes": [
         {
           "name": "The Green Hoods",
-          "name_sortable": "greenhoods",
           "value": 50
         },
         {
           "name": "The Deathfist Orcs",
-          "name_sortable": "deathfistorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Emperor Fyst",
-      "name_sortable": "emperorfyst",
       "locations": [
         "0.99,16.22,8.96"
       ],
@@ -362,19 +326,16 @@
       "faction_changes": [
         {
           "name": "The Green Hoods",
-          "name_sortable": "greenhoods",
           "value": 50
         },
         {
           "name": "The Deathfist Orcs",
-          "name_sortable": "deathfistorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Grassblade",
-      "name_sortable": "grassblade",
       "utterances": [
         "Are you daft or what? You're gonna get yourself killed in this place! ",
         "You, rescue me? Ha! Please! This is no place for humor. I'm working for the Glademaster and I can assure you ... I can pop this lock and be out of this place whenever I want, but I have work to do.",
@@ -383,7 +344,6 @@
     },
     {
       "name": "a Herald of Zek",
-      "name_sortable": "heraldofzek",
       "drops": [
         {
           "gamelink": "\\aITEM 1328289081 -1699088314:an orc spine\\/a",
@@ -397,80 +357,67 @@
       "faction_changes": [
         {
           "name": "The Green Hoods",
-          "name_sortable": "greenhoods",
           "value": 50
         },
         {
           "name": "The Deathfist Orcs",
-          "name_sortable": "deathfistorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "High Priest Kuzbak",
-      "name_sortable": "highpriestkuzbak",
       "faction_changes": [
         {
           "name": "The Green Hoods",
-          "name_sortable": "greenhoods",
           "value": 50
         },
         {
           "name": "The Deathfist Orcs",
-          "name_sortable": "deathfistorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Prince Gluntok",
-      "name_sortable": "princegluntok",
       "utterances": [
         "Their service has ended."
       ],
       "faction_changes": [
         {
           "name": "The Green Hoods",
-          "name_sortable": "greenhoods",
           "value": 50
         },
         {
           "name": "The Deathfist Orcs",
-          "name_sortable": "deathfistorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Prince Valtoris",
-      "name_sortable": "princevaltoris",
       "utterances": [
         "Guards, send more defenders!"
       ],
       "faction_changes": [
         {
           "name": "The Green Hoods",
-          "name_sortable": "greenhoods",
           "value": 50
         },
         {
           "name": "The Deathfist Orcs",
-          "name_sortable": "deathfistorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Rinis Nightsong",
-      "name_sortable": "rinisnightsong",
       "utterances": [
         "I don't want to create these poisons!  Don't make me do it!"
       ]
     },
     {
       "name": "Torth Korgus",
-      "name_sortable": "torthkorgus",
       "utterances": [
         "Kill them all. I care not! They cannot see the truth! The true one shall rule the empire and even you shall fall before the might of Deathfist! You will die! They will die! We shall rule!",
         "No! No! I can't die now. I long to see the true one rule. I'll do anything. Do not send me to the beyond. No! No! Not yet! ",
@@ -479,7 +426,6 @@
     },
     {
       "name": "Vuzak the Traitor",
-      "name_sortable": "vuzakthetraitor",
       "utterances": [
         "Oy!  Yous come to get me outta here, yes?",
         "Dat's great!  I was afraid I was gonna die down here!  Let me know when you are ready!"
@@ -487,7 +433,6 @@
     },
     {
       "name": "Wulbir Wight",
-      "name_sortable": "wulbirwight",
       "utterances": [
         "I'm sure my brother will come looking for me eventually..."
       ]

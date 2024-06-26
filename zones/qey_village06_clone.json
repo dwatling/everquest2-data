@@ -1,11 +1,14 @@
 {
   "name": "The Baubbleshire",
-  "name_sortable": "baubbleshire",
   "flags": "pre-lu64",
   "category": "Villages",
   "subcategory": "Qeynos",
-  "zonerect": "-1202.29,-731.03,-545.37,-218.19",
-    "connections": [
+  "maps": [
+    {
+      "zonerect": "-1202.29,-731.03,-545.37,-218.19"
+    }
+  ],
+  "connections": [
     {
       "key": "qey_adv02_ruins",
       "location": "888.48,-12.38,-547.30"
@@ -26,7 +29,6 @@
   "npcs": [
     {
       "name": "Algan Tinmizer",
-      "name_sortable": "algantinmizer",
       "locations": [
         "862.86,-12.33,-412.63"
       ],
@@ -36,7 +38,6 @@
     },
     {
       "name": "Barmaid Estella Muddyfoot",
-      "name_sortable": "barmaidestellamuddyfoot",
       "locations": [
         "882.52, -18.31, -444.83"
       ],
@@ -47,7 +48,6 @@
     },
     {
       "name": "Bizrinn Clamorclang",
-      "name_sortable": "bizrinnclamorclang",
       "locations": [
         "900.38,-18.01,-482.13"
       ],
@@ -57,7 +57,6 @@
     },
     {
       "name": "Bolo Brassharp",
-      "name_sortable": "bolobrassharp",
       "locations": [
         "893.63,-17.93,-493.21"
       ],
@@ -67,14 +66,12 @@
     },
     {
       "name": "Brera Pinthumb",
-      "name_sortable": "brerapinthumb",
       "locations": [
         "832.92,-13.79,-475.26"
       ]
     },
     {
       "name": "Byrtle Bobblepeg",
-      "name_sortable": "byrtlebobblepeg",
       "locations": [
         "905.56, -17.76, -488.95"
       ],
@@ -85,7 +82,6 @@
     },
     {
       "name": "Deputy Splitshin",
-      "name_sortable": "deputysplitshin",
       "utterances": [
         "Hail and welcome to the city, friend!",
         "Well, looks like it's getting close to naptime again."
@@ -93,7 +89,6 @@
     },
     {
       "name": "Diggin Diggs",
-      "name_sortable": "diggindiggs",
       "locations": [
         "855.88,-18.08,-520.59"
       ],
@@ -105,7 +100,6 @@
     },
     {
       "name": "Dondl Fuzzlecutter",
-      "name_sortable": "dondlfuzzlecutter",
       "locations": [
         "833.43,-17.78,-482.31"
       ],
@@ -123,7 +117,6 @@
     },
     {
       "name": "Drizzcopper",
-      "name_sortable": "drizzcopper",
       "locations": [
         "894.31,-17.59,-485.19"
       ],
@@ -133,7 +126,6 @@
     },
     {
       "name": "Drundo Parn",
-      "name_sortable": "drundoparn",
       "locations": [
         "884.16,-18.31,-442.62"
       ],
@@ -143,14 +135,12 @@
     },
     {
       "name": "a duck",
-      "name_sortable": "duck",
       "locations": [
         "944.44,-18.03,-436.26"
       ]
     },
     {
       "name": "Fillzer Fuzzle",
-      "name_sortable": "fillzerfuzzle",
       "locations": [
         "812.26,-14.74,-454.58"
       ],
@@ -160,7 +150,6 @@
     },
     {
       "name": "Fullgrin",
-      "name_sortable": "fullgrin",
       "locations": [
         "823.24,-20.62,-519.09"
       ],
@@ -170,7 +159,6 @@
     },
     {
       "name": "Ganla Dindlenod",
-      "name_sortable": "ganladindlenod",
       "locations": [
         "862.92,-18.9,-465.5"
       ],
@@ -180,7 +168,6 @@
     },
     {
       "name": "Geologist Quardifle",
-      "name_sortable": "geologistquardifle",
       "locations": [
         "839.51,-19.56,-428.07"
       ],
@@ -192,7 +179,6 @@
     },
     {
       "name": "Gornit Penwiggle",
-      "name_sortable": "gornitpenwiggle",
       "locations": [
         "886.77,-18.31,-440.5"
       ],
@@ -203,7 +189,6 @@
     },
     {
       "name": "Innkeeper Millbanks",
-      "name_sortable": "innkeepermillbanks",
       "locations": [
         "899.02,-17.14,-490.5"
       ],
@@ -216,7 +201,6 @@
     },
     {
       "name": "Jayla Midhop",
-      "name_sortable": "jaylamidhop",
       "locations": [
         "860.81,-18,-520.07"
       ],
@@ -226,7 +210,6 @@
     },
     {
       "name": "Jum Jum",
-      "name_sortable": "jumjum",
       "locations": [
         "834.82,-14.18,-475.52",
         "845.76,-19.16,-431.07"
@@ -234,7 +217,6 @@
     },
     {
       "name": "Kaldin Deeppockets",
-      "name_sortable": "kaldindeeppockets",
       "locations": [
         "882.69,-18.19,-437.36"
       ],
@@ -246,7 +228,6 @@
     },
     {
       "name": "Lozoria Shinkicker",
-      "name_sortable": "lozoriashinkicker",
       "locations": [
         "878.24,-18.31,-440.68"
       ],
@@ -257,7 +238,6 @@
     },
     {
       "name": "Maela Meadows",
-      "name_sortable": "maelameadows",
       "locations": [
         "857.3,-11.98,-417.38"
       ],
@@ -267,7 +247,6 @@
     },
     {
       "name": "Mangler XII",
-      "name_sortable": "mangler12",
       "locations": [
         "888.27,-18.16,-453.9",
         "845.98,-19.86,-449"
@@ -275,14 +254,12 @@
     },
     {
       "name": "Mangler XIII",
-      "name_sortable": "mangler13",
       "locations": [
         "835.95,-17.69,-483.17"
       ]
     },
     {
       "name": "Marshal Surefoot",
-      "name_sortable": "marshalsurefoot",
       "locations": [
         "886.88,-17.87,-452.06",
         "881.41,-16.95,-510.97"
@@ -290,7 +267,6 @@
     },
     {
       "name": "Mirf Guinders",
-      "name_sortable": "mirfguinders",
       "locations": [
         "882.99,-13.38,-439.77"
       ],
@@ -301,7 +277,6 @@
     },
     {
       "name": "Neezer Grund",
-      "name_sortable": "neezergrund",
       "locations": [
         "947.33,-18.05,-440.97"
       ],
@@ -313,14 +288,12 @@
     },
     {
       "name": "Nyla Diggs",
-      "name_sortable": "nyladiggs",
       "locations": [
         "844.16,-17.74,-469.96"
       ]
     },
     {
       "name": "Peona Toughins",
-      "name_sortable": "peonatoughins",
       "locations": [
         "827.76,-17.91,-501.89"
       ],
@@ -333,7 +306,6 @@
     },
     {
       "name": "Rala Eurocarry",
-      "name_sortable": "ralaeurocarry",
       "locations": [
         "822.05,-8.79,-475.66"
       ],
@@ -343,14 +315,12 @@
     },
     {
       "name": "Rebik Sprocketrock",
-      "name_sortable": "rebiksprocketrock",
       "locations": [
         "855.46,-17.82,-516.19"
       ]
     },
     {
       "name": "Remo Zigg",
-      "name_sortable": "remozigg",
       "locations": [
         "802.47,-1.51,-452.5"
       ],
@@ -360,21 +330,18 @@
     },
     {
       "name": "Rondo \"The Belly\" Roundstew",
-      "name_sortable": "rondothebellyroundstew",
       "locations": [
         "947.36,-18.05,-436.11"
       ]
     },
     {
       "name": "Sage Xoort",
-      "name_sortable": "sagexoort",
       "locations": [
         "868.02,-18.58,-481.33"
       ]
     },
     {
       "name": "Smithy Findlebop",
-      "name_sortable": "smithyfindlebop",
       "locations": [
         "854.63,-18.22,-517.66"
       ],
@@ -382,7 +349,6 @@
     },
     {
       "name": "Tapster Bregun",
-      "name_sortable": "tapsterbregun",
       "locations": [
         "883.88,-18.29,-439.3"
       ],
@@ -393,7 +359,6 @@
     },
     {
       "name": "Tawli Whiskwind",
-      "name_sortable": "tawliwhiskwind",
       "locations": [
         "826.81,-13.79,-487.89"
       ],
@@ -403,14 +368,12 @@
     },
     {
       "name": "Tinkerer Spindlecog",
-      "name_sortable": "tinkererspindlecog",
       "locations": [
         "891.03,-17.95,-481.5"
       ]
     },
     {
       "name": "Wazzleburn",
-      "name_sortable": "wazzleburn",
       "locations": [
         "857.11, -18.12, -506.81"
       ],
@@ -441,7 +404,6 @@
     },
     {
       "name": "Yola Sindlefop",
-      "name_sortable": "yolasindlefop",
       "locations": [
         "846.72,-19.56,-441.12"
       ],
@@ -451,7 +413,6 @@
     },
     {
       "name": "Zipiff Clamorclang",
-      "name_sortable": "zipiffclamorclang",
       "locations": [
         "859.88,-18.23,-509.88"
       ],

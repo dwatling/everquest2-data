@@ -1,6 +1,5 @@
 {
   "name": "The Wailing Caves",
-  "name_sortable": "wailingcaves",
   "category": "Dungeons",
   "subcategory": "Public",
   "levels": "10-20",
@@ -23,7 +22,6 @@
   "npcs": [
     {
       "name": "Advisor Kre'lak",
-      "name_sortable": "advisorkrelak",
       "level": 16,
       "difficulty": "heroic^^^",
       "locations": [
@@ -32,14 +30,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Ariana Neovra",
-      "name_sortable": "ariananeovra",
       "race": [
         "human"
       ],
@@ -52,7 +48,6 @@
     },
     {
       "name": "a blackguard",
-      "name_sortable": "blackguard",
       "level": 18,
       "aggressive": true,
       "difficulty": "heroic",
@@ -78,14 +73,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a bloodthirsty worg",
-      "name_sortable": "bloodthirstyworg",
       "level": 18,
       "aggressive": true,
       "difficulty": "heroic",
@@ -106,14 +99,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Cog Burn",
-      "name_sortable": "cogburn",
       "race": [
         "gnome"
       ],
@@ -134,7 +125,6 @@
     },
     {
       "name": "a concubine",
-      "name_sortable": "concubine",
       "race": [
         "human"
       ],
@@ -154,14 +144,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a debris scavenger",
-      "name_sortable": "debrisscavenger",
       "level": 14,
       "difficulty": "heroic^^",
       "locations": [
@@ -176,7 +164,6 @@
     },
     {
       "name": "a dervish cutthroat",
-      "name_sortable": "dervishcutthroat",
       "level": 17,
       "aggressive": true,
       "difficulty": "heroic",
@@ -195,14 +182,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Druhdak Shin`Ree",
-      "name_sortable": "druhdakshinree",
       "level": 15,
       "aggressive": true,
       "difficulty": "heroic^^^",
@@ -212,7 +197,6 @@
     },
     {
       "name": "Garreg Stonecrusher",
-      "name_sortable": "garregstonecrusher",
       "level": 15,
       "aggressive": true,
       "difficulty": "heroic",
@@ -226,14 +210,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Ghi'Zard the Worg Master",
-      "name_sortable": "ghizardtheworgmaster",
       "gender": [
         "male"
       ],
@@ -249,14 +231,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a hoard hound",
-      "name_sortable": "hoardhound",
       "level": 15,
       "aggressive": true,
       "difficulty": "heroic^^^",
@@ -272,14 +252,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Kyllik the Fated",
-      "name_sortable": "kyllikthefated",
       "level": 17,
       "aggressive": true,
       "difficulty": "heroic^^^",
@@ -292,14 +270,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Lord Ree",
-      "name_sortable": "lordree",
       "level": 18,
       "difficulty": "heroic^^^",
       "locations": [
@@ -315,7 +291,6 @@
     },
     {
       "name": "a loyal attendant",
-      "name_sortable": "loyalattendant",
       "level": 17,
       "aggressive": true,
       "difficulty": "heroic",
@@ -332,14 +307,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a lurid crawler",
-      "name_sortable": "luridcrawler",
       "level": 13,
       "aggressive": true,
       "locations": [
@@ -366,7 +339,6 @@
     },
     {
       "name": "a lurid creeper",
-      "name_sortable": "luridcreeper",
       "level": 14,
       "aggressive": true,
       "locations": [
@@ -387,7 +359,6 @@
     },
     {
       "name": "a lurid feeder",
-      "name_sortable": "luridfeeder",
       "level": 15,
       "aggressive": true,
       "difficulty": "heroic",
@@ -404,7 +375,6 @@
     },
     {
       "name": "a lurid ripper",
-      "name_sortable": "luridripper",
       "level": 14,
       "aggressive": true,
       "difficulty": "heroic",
@@ -421,7 +391,6 @@
     },
     {
       "name": "a lurid shadowlurker",
-      "name_sortable": "luridshadowlurker",
       "level": 17,
       "aggressive": true,
       "difficulty": "heroic^^^",
@@ -442,7 +411,6 @@
     },
     {
       "name": "Mess Sergeant Slogg",
-      "name_sortable": "messsergeantslogg",
       "level": 16,
       "difficulty": "heroic^^^",
       "locations": [
@@ -451,14 +419,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a primordial menace",
-      "name_sortable": "primordialmenace",
       "level": 14,
       "locations": [
         "9.64,-10.94,-70.80",
@@ -478,7 +444,6 @@
     },
     {
       "name": "a primordial seep",
-      "name_sortable": "primordialseep",
       "level": 13,
       "locations": [
         "-12.04,-7.37,-50.89",
@@ -494,7 +459,6 @@
     },
     {
       "name": "Punisher Kharg",
-      "name_sortable": "punisherkharg",
       "level": 16,
       "aggressive": true,
       "difficulty": "heroic^^^",
@@ -512,14 +476,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Raid Chief Kregahn",
-      "name_sortable": "raidchiefkregahn",
       "level": 17,
       "aggressive": true,
       "difficulty": "heroic",
@@ -531,14 +493,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a raider of Ree",
-      "name_sortable": "raiderofree",
       "level": 16,
       "aggressive": true,
       "difficulty": "heroicvv",
@@ -570,14 +530,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a raid leader",
-      "name_sortable": "raidleader",
       "level": 17,
       "aggressive": true,
       "difficulty": "heroic",
@@ -588,14 +546,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a raid schemer",
-      "name_sortable": "raidschemer",
       "level": 17,
       "aggressive": true,
       "difficulty": "heroic",
@@ -616,14 +572,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Ree armorer",
-      "name_sortable": "reearmorer",
       "level": 15,
       "aggressive": true,
       "difficulty": "heroic^^^",
@@ -651,14 +605,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Ree channeler",
-      "name_sortable": "reechanneler",
       "level": 16,
       "aggressive": true,
       "difficulty": "heroicvv",
@@ -679,14 +631,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Ree defender",
-      "name_sortable": "reedefender",
       "level": 15,
       "aggressive": true,
       "difficulty": "heroic^^^",
@@ -737,14 +687,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Ree jailer",
-      "name_sortable": "reejailer",
       "level": 16,
       "aggressive": true,
       "difficulty": "heroic^^",
@@ -780,14 +728,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Ree protector",
-      "name_sortable": "reeprotector",
       "level": 16,
       "aggressive": true,
       "difficulty": "heroic",
@@ -823,14 +769,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Ree recruit",
-      "name_sortable": "reerecruit",
       "level": 15,
       "aggressive": true,
       "difficulty": "heroic^",
@@ -863,14 +807,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Ree spiritkeeper",
-      "name_sortable": "reespiritkeeper",
       "level": 16,
       "aggressive": true,
       "difficulty": "heroic^^^",
@@ -898,14 +840,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Ree steelworker",
-      "name_sortable": "reesteelworker",
       "level": 16,
       "aggressive": true,
       "difficulty": "heroicvv",
@@ -925,14 +865,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Ree underguard",
-      "name_sortable": "reeunderguard",
       "level": 17,
       "aggressive": true,
       "difficulty": "heroic^^",
@@ -1002,14 +940,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Ree weaponsmith",
-      "name_sortable": "reeweaponsmith",
       "level": 15,
       "aggressive": true,
       "difficulty": "heroicv",
@@ -1025,14 +961,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a scout of Ree",
-      "name_sortable": "scoutofree",
       "level": 14,
       "aggressive": true,
       "difficulty": "heroic^",
@@ -1066,14 +1000,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a sentry of Ree",
-      "name_sortable": "sentryofree",
       "level": 15,
       "aggressive": true,
       "difficulty": "heroic^^",
@@ -1164,14 +1096,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Shin`Ree aggressor",
-      "name_sortable": "shinreeaggressor",
       "level": 15,
       "aggressive": true,
       "difficulty": "heroic^",
@@ -1191,7 +1121,6 @@
     },
     {
       "name": "a Shin`Ree apprentice",
-      "name_sortable": "shinreeapprentice",
       "level": 13,
       "aggressive": true,
       "locations": [
@@ -1212,7 +1141,6 @@
     },
     {
       "name": "a Shin`Ree augur",
-      "name_sortable": "shinreeaugur",
       "level": 15,
       "aggressive": true,
       "difficulty": "heroicv",
@@ -1228,7 +1156,6 @@
     },
     {
       "name": "a Shin`Ree avenger",
-      "name_sortable": "shinreeavenger",
       "level": 14,
       "aggressive": true,
       "locations": [
@@ -1254,7 +1181,6 @@
     },
     {
       "name": "a Shin`Ree pawn",
-      "name_sortable": "shinreepawn",
       "level": 13,
       "aggressive": true,
       "difficulty": "heroic",
@@ -1277,7 +1203,6 @@
     },
     {
       "name": "a Shin'Ree spirit",
-      "name_sortable": "shinreespirit",
       "level": 17,
       "aggressive": true,
       "difficulty": "heroic^^^",
@@ -1302,7 +1227,6 @@
     },
     {
       "name": "a Shin`Ree spiritist",
-      "name_sortable": "shinreespiritist",
       "level": 14,
       "aggressive": true,
       "locations": [
@@ -1322,7 +1246,6 @@
     },
     {
       "name": "a Shin`Ree stalker",
-      "name_sortable": "shinreestalker",
       "level": 15,
       "aggressive": true,
       "difficulty": "heroicv",
@@ -1338,7 +1261,6 @@
     },
     {
       "name": "Soulspike",
-      "name_sortable": "soulspike",
       "level": 15,
       "difficulty": "heroic^^",
       "locations": [
@@ -1347,7 +1269,6 @@
     },
     {
       "name": "a spectral shriller",
-      "name_sortable": "spectralshriller",
       "level": 14,
       "locations": [
         "-37.65,-2.91,-18.78",
@@ -1389,7 +1310,6 @@
     },
     {
       "name": "a storeroom laborer",
-      "name_sortable": "storeroomlaborer",
       "level": 15,
       "aggressive": true,
       "difficulty": "heroic^",
@@ -1425,14 +1345,12 @@
       "faction_changes": [
         {
           "name": "The Ree Orcs",
-          "name_sortable": "reeorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a strongbox deceiver",
-      "name_sortable": "strongboxdeceiver",
       "level": 15,
       "aggressive": true,
       "difficulty": "heroic^^",

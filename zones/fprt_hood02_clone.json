@@ -1,10 +1,13 @@
 {
   "name": "Stonestair Byway",
-  "name_sortable": "stonestairbyway",
   "flags": "pre-lu62",
   "category": "Villages",
   "subcategory": "Freeport",
-  "zonerect": "-167.84, -157.10, 164.91, 89.21",
+  "maps": [
+    {
+      "zonerect": "-167.84, -157.10, 164.91, 89.21"
+    }
+  ],
   "connections": [
     {
       "key": "freeport_combined",
@@ -26,14 +29,12 @@
   "npcs": [
     {
       "name": "an abandoned kitty",
-      "name_sortable": "abandonedkitty",
       "locations": [
         "-6.9,-4.0,-85.58"
       ]
     },
     {
       "name": "an angered erudite",
-      "name_sortable": "angerederudite",
       "race": [
         "erudite"
       ],
@@ -48,7 +49,6 @@
     },
     {
       "name": "Arms Dealer Melai",
-      "name_sortable": "armsdealermelai",
       "race": [
         "kerran"
       ],
@@ -69,7 +69,6 @@
     },
     {
       "name": "Batarra",
-      "name_sortable": "batarra",
       "race": [
         "kerran"
       ],
@@ -85,7 +84,6 @@
     },
     {
       "name": "an enraged kerra",
-      "name_sortable": "enragedkerra",
       "race": [
         "kerran"
       ],
@@ -100,7 +98,6 @@
     },
     {
       "name": "Fariola",
-      "name_sortable": "fariola",
       "race": [
         "erudite"
       ],
@@ -118,7 +115,6 @@
     },
     {
       "name": "Galenus Vatia",
-      "name_sortable": "galenusvatia",
       "race": [
         "erudite"
       ],
@@ -134,7 +130,6 @@
     },
     {
       "name": "Habika",
-      "name_sortable": "habika",
       "race": [
         "kerran"
       ],
@@ -150,7 +145,6 @@
     },
     {
       "name": "Innkeeper Zahar",
-      "name_sortable": "innkeeperzahar",
       "race": [
         "erudite"
       ],
@@ -194,7 +188,6 @@
     },
     {
       "name": "Irian",
-      "name_sortable": "irian",
       "race": [
         "erudite"
       ],
@@ -212,7 +205,6 @@
     },
     {
       "name": "Jackal",
-      "name_sortable": "jackal",
       "level": 3,
       "locations": [
         "-15.71,-4.38,-23.59",
@@ -221,7 +213,6 @@
     },
     {
       "name": "Jasper",
-      "name_sortable": "jasper",
       "level": 3,
       "locations": [
         "-35.1,-4.38,-25.09",
@@ -230,7 +221,6 @@
     },
     {
       "name": "Jezrina",
-      "name_sortable": "jezrina",
       "race": [
         "erudite"
       ],
@@ -250,7 +240,6 @@
     },
     {
       "name": "Johari",
-      "name_sortable": "johari",
       "race": [
         "erudite"
       ],
@@ -285,7 +274,6 @@
     },
     {
       "name": "Jojo Karanja",
-      "name_sortable": "jojokaranja",
       "race": [
         "kerran"
       ],
@@ -301,7 +289,6 @@
     },
     {
       "name": "Juma",
-      "name_sortable": "juma",
       "race": [
         "kerran"
       ],
@@ -317,7 +304,6 @@
     },
     {
       "name": "Kaman",
-      "name_sortable": "kaman",
       "purpose": "Banker",
       "utterances": [
         "Hello! Your valuables are safe with Kaman. Trust me.  I'm the last of a long line of bankers. What guild do you belong to?"
@@ -325,7 +311,6 @@
     },
     {
       "name": "Kejeka",
-      "name_sortable": "kejeka",
       "level": 1,
       "locations": [
         "25.05,0.0,-78.29",
@@ -335,14 +320,12 @@
     },
     {
       "name": "Miss Mansfred",
-      "name_sortable": "missmansfred",
       "locations": [
         "7.77,-4.37,-84.78"
       ]
     },
     {
       "name": "Nashii",
-      "name_sortable": "nashii",
       "race": [
         "kerran"
       ],
@@ -371,7 +354,6 @@
     },
     {
       "name": "Nisra",
-      "name_sortable": "nisra",
       "race": [
         "kerran"
       ],
@@ -388,11 +370,9 @@
         "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
       ],
       "store_template": "shieldsmith"
-
     },
     {
       "name": "Ozzaranu",
-      "name_sortable": "ozzaranu",
       "race": [
         "erudite"
       ],
@@ -410,14 +390,12 @@
     },
     {
       "name": "Paragon",
-      "name_sortable": "paragon",
       "locations": [
         "13.34,0.0,-46.15"
       ]
     },
     {
       "name": "Pona",
-      "name_sortable": "pona",
       "race": [
         "kerran"
       ],
@@ -433,7 +411,6 @@
     },
     {
       "name": "a rat",
-      "name_sortable": "rat",
       "level": 1,
       "locations": [
         "-51.09,0.27,-4.76",
@@ -445,7 +422,6 @@
     },
     {
       "name": "Rori",
-      "name_sortable": "rori",
       "race": [
         "kerran"
       ],
@@ -461,7 +437,6 @@
     },
     {
       "name": "Rosali",
-      "name_sortable": "rosali",
       "race": [
         "kerran"
       ],
@@ -475,7 +450,6 @@
     },
     {
       "name": "Savanuu",
-      "name_sortable": "savanuu",
       "race": [
         "erudite"
       ],
@@ -491,7 +465,6 @@
     },
     {
       "name": "a seething kerra",
-      "name_sortable": "seethingkerra",
       "race": [
         "kerran"
       ],
@@ -508,7 +481,6 @@
     },
     {
       "name": "Sevri Il'Bethod",
-      "name_sortable": "sevriilbethod",
       "race": [
         "erudite"
       ],
@@ -521,7 +493,6 @@
     },
     {
       "name": "Shatana Kamelia",
-      "name_sortable": "shatanakamelia",
       "race": [
         "human"
       ],
@@ -539,7 +510,6 @@
     },
     {
       "name": "Street Witch Azreana",
-      "name_sortable": "streetwitchazreana",
       "race": [
         "erudite"
       ],
@@ -555,7 +525,6 @@
     },
     {
       "name": "Thindel",
-      "name_sortable": "thindel",
       "race": [
         "kerran"
       ],
@@ -575,7 +544,6 @@
     },
     {
       "name": "Vess Al'Ishni",
-      "name_sortable": "vessalishni",
       "race": [
         "erudite"
       ],
@@ -591,7 +559,6 @@
     },
     {
       "name": "Washaso",
-      "name_sortable": "washaso",
       "race": [
         "kerran"
       ],
@@ -611,7 +578,6 @@
     },
     {
       "name": "a whispering Erudite",
-      "name_sortable": "whisperingerudite",
       "race": [
         "erudite"
       ],

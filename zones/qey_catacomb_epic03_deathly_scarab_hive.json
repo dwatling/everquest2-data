@@ -1,11 +1,14 @@
 {
   "name": "The Deathly Scarab Hive",
-  "name_sortable": "deathlyscarabhive",
   "category": "Dungeons",
-  "zonerect": "-10.00,-34.00,49.00,35.00",
   "levels": "23-27",
   "access_quests": [
     1259642412
+  ],
+  "maps": [
+    {
+      "zonerect": "-10.00,-34.00,49.00,35.00"
+    }
   ],
   "connections": [
     {
@@ -15,7 +18,6 @@
   "npcs": [
     {
       "name": "a deathly scarab",
-      "name_sortable": "deathlyscarab",
       "level": 23,
       "difficulty": "heroic^^^",
       "locations": [
@@ -30,7 +32,6 @@
     },
     {
       "name": "a deathly scarab broodling",
-      "name_sortable": "deathlyscarabbroodling",
       "level": 25,
       "locations": [
         "-30.72,1.54,0.84"
@@ -44,7 +45,6 @@
     },
     {
       "name": "a deathly scarab hatchling",
-      "name_sortable": "deathlyscarabhatchling",
       "level": 10,
       "locations": [
         "-25.4,-0.93,-12.26",
@@ -66,7 +66,6 @@
     },
     {
       "name": "a deathly scarab worker",
-      "name_sortable": "deathlyscarabworker",
       "level": 24,
       "difficulty": "heroic",
       "locations": [
@@ -84,7 +83,6 @@
     },
     {
       "name": "Guardian Ankhemaufut",
-      "name_sortable": "guardianankhemaufut",
       "level": 25,
       "difficulty": "heroic^^",
       "locations": [
@@ -93,7 +91,6 @@
     },
     {
       "name": "Guardian Ankhentaris",
-      "name_sortable": "guardianankhentaris",
       "level": 25,
       "difficulty": "heroic^^",
       "locations": [
@@ -102,7 +99,6 @@
     },
     {
       "name": "Guardian Ankhrenlai",
-      "name_sortable": "guardianankhrenlai",
       "level": 25,
       "difficulty": "heroic^^",
       "locations": [
@@ -113,7 +109,6 @@
     },
     {
       "name": "Guardian Ankhumyal",
-      "name_sortable": "guardianankhumyal",
       "level": 25,
       "difficulty": "heroic^^",
       "locations": [
@@ -129,7 +124,6 @@
     },
     {
       "name": "Queen Ankhestara",
-      "name_sortable": "queenankhestara",
       "level": 25,
       "difficulty": "heroic^^^",
       "locations": [

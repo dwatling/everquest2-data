@@ -1,8 +1,11 @@
 {
   "name": "Queen's Colony",
-  "name_sortable": "queenscolony",
-  "zonerect": "-499.08,-319.57,459.67,401.19",
   "levels": "2-8",
+  "maps": [
+    {
+      "zonerect": "-499.08,-319.57,459.67,401.19"
+    }
+  ],
   "connections": [
     {
       "key": "qey_tradeskill01_island"
@@ -14,7 +17,6 @@
   "npcs": [
     {
       "name": "an average sparring partner",
-      "name_sortable": "averagesparringpartner",
       "race": [
         "dwarf"
       ],
@@ -32,7 +34,6 @@
     },
     {
       "name": "Banker Bogfoot",
-      "name_sortable": "bankerbogfoot",
       "race": [
         "halfling"
       ],
@@ -46,7 +47,6 @@
     },
     {
       "name": "Barth Mignus",
-      "name_sortable": "barthmignus",
       "race": [
         "barbarian"
       ],
@@ -62,7 +62,6 @@
     },
     {
       "name": "Captain Varlos",
-      "name_sortable": "captainvarlos",
       "race": [
         "human"
       ],
@@ -86,7 +85,6 @@
     },
     {
       "name": "Captain Warrik",
-      "name_sortable": "captainwarrik",
       "race": [
         "human"
       ],
@@ -119,7 +117,6 @@
     },
     {
       "name": "Cleric Mara'Vaen",
-      "name_sortable": "clericmaravaen",
       "race": [
         "high elf"
       ],
@@ -145,7 +142,6 @@
     },
     {
       "name": "a coastal crab",
-      "name_sortable": "coastalcrab",
       "level": 2,
       "locations": [
         "-75.53,-8.41,93.29",
@@ -174,7 +170,6 @@
     },
     {
       "name": "The Dark Blademaster",
-      "name_sortable": "darkblademaster",
       "locations": [
         "154.66,1.38,-178.16",
         "101.34,-1.79,-156.73"
@@ -188,7 +183,6 @@
     },
     {
       "name": "The Dark Puppeteer",
-      "name_sortable": "darkpuppeteer",
       "level": 5,
       "locations": [
         "-121.57,4.51,-31.95"
@@ -196,7 +190,6 @@
     },
     {
       "name": "a dead deer",
-      "name_sortable": "deaddeer",
       "locations": [
         "187.62,1.31,27.42",
         "121.57,1.54,80.81"
@@ -204,7 +197,6 @@
     },
     {
       "name": "a dead soldier",
-      "name_sortable": "deadsoldier",
       "locations": [
         "117.2,-3.8,182.02",
         "140.89,-3.41,151.43",
@@ -213,7 +205,6 @@
     },
     {
       "name": "Defender Bristlebrow",
-      "name_sortable": "defenderbristlebrow",
       "race": [
         "barbarian"
       ],
@@ -234,7 +225,6 @@
     },
     {
       "name": "Defender Kuglup",
-      "name_sortable": "defenderkuglup",
       "race": [
         "barbarian"
       ],
@@ -254,7 +244,6 @@
     },
     {
       "name": "a defiled grove deer",
-      "name_sortable": "defiledgrovedeer",
       "level": 3,
       "locations": [
         "155.6,1.32,9.03",
@@ -269,7 +258,6 @@
     },
     {
       "name": "a defiled mage",
-      "name_sortable": "defiledmage",
       "level": 4,
       "locations": [
         "236.53,-1.41,-122.68",
@@ -282,7 +270,6 @@
     },
     {
       "name": "a defiled priest",
-      "name_sortable": "defiledpriest",
       "level": 4,
       "locations": [
         "202.87,0.78,-126.5",
@@ -299,7 +286,6 @@
     },
     {
       "name": "a defiled scout",
-      "name_sortable": "defiledscout",
       "level": 4,
       "locations": [
         "234.41,-5.07,-12.05",
@@ -323,7 +309,6 @@
     },
     {
       "name": "a defiled soldier",
-      "name_sortable": "defiledsoldier",
       "level": 4,
       "locations": [
         "129.86,0.4,-166.82",
@@ -343,7 +328,6 @@
     },
     {
       "name": "Deianeira",
-      "name_sortable": "deianeira",
       "race": [
         "half elf"
       ],
@@ -369,7 +353,6 @@
     },
     {
       "name": "Direspike",
-      "name_sortable": "direspike",
       "level": 4,
       "locations": [
         "89.78,5.02,124.29",
@@ -384,7 +367,6 @@
     },
     {
       "name": "Durg",
-      "name_sortable": "durg",
       "gender": [
         "male"
       ],
@@ -398,7 +380,6 @@
     },
     {
       "name": "Ebik Wobblecog",
-      "name_sortable": "ebikwobblecog",
       "race": [
         "gnome"
       ],
@@ -436,7 +417,6 @@
     },
     {
       "name": "a fallen assassin",
-      "name_sortable": "fallenassassin",
       "level": 6,
       "locations": [
         "-103.15,4.26,-105.89",
@@ -452,7 +432,6 @@
     },
     {
       "name": "a fallen brigand",
-      "name_sortable": "fallenbrigand",
       "level": 6,
       "locations": [
         "-107.27,4.48,-121.43",
@@ -479,7 +458,6 @@
     },
     {
       "name": "a fallen pirate",
-      "name_sortable": "fallenpirate",
       "level": 6,
       "locations": [
         "-139.77,4.73,-89.81",
@@ -512,7 +490,6 @@
     },
     {
       "name": "The Forest Keeper",
-      "name_sortable": "forestkeeper",
       "gender": [
         "male"
       ],
@@ -528,7 +505,6 @@
     },
     {
       "name": "a formidable sparring partner",
-      "name_sortable": "formidablesparringpartner",
       "race": [
         "barbarian"
       ],
@@ -546,7 +522,6 @@
     },
     {
       "name": "Galan Crestrider",
-      "name_sortable": "galancrestrider",
       "race": [
         "half elf"
       ],
@@ -775,7 +750,6 @@
     },
     {
       "name": "Geredo",
-      "name_sortable": "geredo",
       "race": [
         "gnome"
       ],
@@ -792,7 +766,6 @@
     },
     {
       "name": "a ghostly sapling",
-      "name_sortable": "ghostlysapling",
       "level": 4,
       "locations": [
         "149.21,0.15,-10.29",
@@ -828,7 +801,6 @@
     },
     {
       "name": "a ghostly treant",
-      "name_sortable": "ghostlytreant",
       "level": 5,
       "locations": [
         "101.97,1.45,-99.77",
@@ -851,7 +823,6 @@
     },
     {
       "name": "a giant coastal crab",
-      "name_sortable": "giantcoastalcrab",
       "level": 4,
       "locations": [
         "19.09,-10.21,-68.61",
@@ -868,7 +839,6 @@
     },
     {
       "name": "Goggin Cogspring",
-      "name_sortable": "goggincogspring",
       "race": [
         "gnome"
       ],
@@ -884,7 +854,6 @@
     },
     {
       "name": "Gonk",
-      "name_sortable": "gonk",
       "gender": [
         "male"
       ],
@@ -898,7 +867,6 @@
     },
     {
       "name": "Grakus Stonemallet",
-      "name_sortable": "grakusstonemallet",
       "race": [
         "dwarf"
       ],
@@ -914,7 +882,6 @@
     },
     {
       "name": "Grimroot",
-      "name_sortable": "grimroot",
       "level": 6,
       "locations": [
         "58.35,1.81,-110.31"
@@ -928,7 +895,6 @@
     },
     {
       "name": "Groak",
-      "name_sortable": "groak",
       "locations": [
         "-47.73,-6.35,69.21"
       ],
@@ -938,7 +904,6 @@
     },
     {
       "name": "a grove deer",
-      "name_sortable": "grovedeer",
       "level": 2,
       "locations": [
         "77.77,-4.53,223.08",
@@ -956,7 +921,6 @@
     },
     {
       "name": "The Guurok",
-      "name_sortable": "guurok",
       "level": 6,
       "difficulty": "heroic^^^",
       "locations": [
@@ -965,7 +929,6 @@
     },
     {
       "name": "Hanna Deeppockets",
-      "name_sortable": "hannadeeppockets",
       "race": [
         "halfling"
       ],
@@ -1433,7 +1396,6 @@
     },
     {
       "name": "Helmsman Nyles",
-      "name_sortable": "helmsmannyles",
       "race": [
         "human"
       ],
@@ -1448,7 +1410,6 @@
     },
     {
       "name": "High Chieftain Grexx",
-      "name_sortable": "highchieftaingrexx",
       "gender": [
         "male"
       ],
@@ -1465,7 +1426,6 @@
     },
     {
       "name": "Ingrid",
-      "name_sortable": "ingrid",
       "race": [
         "high elf"
       ],
@@ -1483,7 +1443,6 @@
     },
     {
       "name": "Kander",
-      "name_sortable": "kander",
       "locations": [
         "-4.12,-7.41,264.43"
       ],
@@ -1494,7 +1453,6 @@
     },
     {
       "name": "a large coastal crab",
-      "name_sortable": "largecoastalcrab",
       "level": 3,
       "locations": [
         "-83.62,-8.47,36.05",
@@ -1519,7 +1477,6 @@
     },
     {
       "name": "Lieutenant Westfall",
-      "name_sortable": "lieutenantwestfall",
       "race": [
         "human"
       ],
@@ -1535,7 +1492,6 @@
     },
     {
       "name": "a lost scout",
-      "name_sortable": "lostscout",
       "level": 3,
       "locations": [
         "245.74,-5.28,125.67",
@@ -1575,7 +1531,6 @@
     },
     {
       "name": "Maylin Meadowlark",
-      "name_sortable": "maylinmeadowlark",
       "race": [
         "wood elf"
       ],
@@ -1591,7 +1546,6 @@
     },
     {
       "name": "Mender Mannus",
-      "name_sortable": "mendermannus",
       "race": [
         "barbarian"
       ],
@@ -1609,7 +1563,6 @@
     },
     {
       "name": "Meri Bogfoot",
-      "name_sortable": "meribogfoot",
       "race": [
         "halfling"
       ],
@@ -1625,7 +1578,6 @@
     },
     {
       "name": "a Morak devourer",
-      "name_sortable": "morakdevourer",
       "level": 3,
       "locations": [
         "239.39,-5.26,135.17",
@@ -1698,7 +1650,6 @@
     },
     {
       "name": "a Morak mangler",
-      "name_sortable": "morakmangler",
       "level": 5,
       "locations": [
         "-5.6,2.06,-195.41",
@@ -1726,7 +1677,6 @@
     },
     {
       "name": "Murrar Shar",
-      "name_sortable": "murrarshar",
       "race": [
         "kerran"
       ],
@@ -1769,7 +1719,6 @@
     },
     {
       "name": "Nebble Underroot",
-      "name_sortable": "nebbleunderroot",
       "race": [
         "halfling"
       ],
@@ -1786,7 +1735,6 @@
     },
     {
       "name": "a needlefang",
-      "name_sortable": "needlefang",
       "level": 4,
       "locations": [
         "-78.86,-10.95,12.97",
@@ -1804,7 +1752,6 @@
     },
     {
       "name": "Oshar Grahl",
-      "name_sortable": "oshargrahl",
       "purpose": "Guard",
       "level": 102,
       "locations": [
@@ -1816,7 +1763,6 @@
     },
     {
       "name": "Paula Marx",
-      "name_sortable": "paulamarx",
       "race": [
         "human"
       ],
@@ -1835,7 +1781,6 @@
     },
     {
       "name": "Predator Sha'dur",
-      "name_sortable": "predatorshadur",
       "race": [
         "kerran"
       ],
@@ -1859,7 +1804,6 @@
     },
     {
       "name": "a Qeynos Guardsman",
-      "name_sortable": "qeynosguardsman",
       "race": [
         "dwarf",
         "kerran",
@@ -1882,7 +1826,6 @@
     },
     {
       "name": "a Qeynosian scout",
-      "name_sortable": "qeynosianscout",
       "race": [
         "wood elf"
       ],
@@ -1903,7 +1846,6 @@
     },
     {
       "name": "a razortooth shark",
-      "name_sortable": "razortoothshark",
       "level": 5,
       "locations": [
         "-93.71,-10.95,3.24",
@@ -1929,7 +1871,6 @@
     },
     {
       "name": "a reef turtle",
-      "name_sortable": "reefturtle",
       "level": 2,
       "locations": [
         "-121.8,-10.91,57.78",
@@ -1961,7 +1902,6 @@
     },
     {
       "name": "a Sapswill soothsayer",
-      "name_sortable": "sapswillsoothsayer",
       "gender": [
         "male"
       ],
@@ -1983,7 +1923,6 @@
     },
     {
       "name": "a Sapswill survivor",
-      "name_sortable": "sapswillsurvivor",
       "gender": [
         "male"
       ],
@@ -2007,7 +1946,6 @@
     },
     {
       "name": "a Sapswill villager",
-      "name_sortable": "sapswillvillager",
       "gender": [
         "male"
       ],
@@ -2029,7 +1967,6 @@
     },
     {
       "name": "a sawtooth shark",
-      "name_sortable": "sawtoothshark",
       "level": 4,
       "locations": [
         "60.06,-10.9,-65.56",
@@ -2055,7 +1992,6 @@
     },
     {
       "name": "a seaside falcon",
-      "name_sortable": "seasidefalcon",
       "level": 2,
       "locations": [
         "96.41,-4.07,198.89",
@@ -2075,7 +2011,6 @@
     },
     {
       "name": "Sergeant Haggus",
-      "name_sortable": "sergeanthaggus",
       "race": [
         "barbarian"
       ],
@@ -2098,7 +2033,6 @@
     },
     {
       "name": "a shoal glider",
-      "name_sortable": "shoalglider",
       "level": 3,
       "locations": [
         "-131.14,-10.9,54.97",
@@ -2132,7 +2066,6 @@
     },
     {
       "name": "a silt sucker",
-      "name_sortable": "siltsucker",
       "level": 4,
       "locations": [
         "3.73,-0.02,-230.49",
@@ -2157,7 +2090,6 @@
     },
     {
       "name": "a small coastal crab",
-      "name_sortable": "smallcoastalcrab",
       "level": 1,
       "locations": [
         "0.28,-7.82,243.39",
@@ -2182,7 +2114,6 @@
     },
     {
       "name": "Sorcerer Oofala",
-      "name_sortable": "sorcereroofala",
       "race": [
         "erudite"
       ],
@@ -2207,7 +2138,6 @@
     },
     {
       "name": "a tainted falcon",
-      "name_sortable": "taintedfalcon",
       "level": 2,
       "locations": [
         "157.59,-3.16,138.86",
@@ -2234,7 +2164,6 @@
     },
     {
       "name": "a tainted grove deer",
-      "name_sortable": "taintedgrovedeer",
       "level": 4,
       "locations": [
         "152.2,-3.58,180.37",
@@ -2246,7 +2175,6 @@
     },
     {
       "name": "a tainted Sapswill ambusher",
-      "name_sortable": "taintedsapswillambusher",
       "level": 5,
       "locations": [
         "-50.69,2.03,-156.70",
@@ -2256,7 +2184,6 @@
     },
     {
       "name": "a tainted Sapswill fighter",
-      "name_sortable": "taintedsapswillfighter",
       "level": 4,
       "locations": [
         "232.98,-5.07,-18.4",
@@ -2275,7 +2202,6 @@
     },
     {
       "name": "a tainted Sapswill grunt",
-      "name_sortable": "taintedsapswillgrunt",
       "level": 2,
       "locations": [
         "192.42,-4.13,185.09",
@@ -2304,7 +2230,6 @@
     },
     {
       "name": "a tainted Sapswill hunter",
-      "name_sortable": "taintedsapswillhunter",
       "level": 5,
       "locations": [
         "146.76,0.81,-179.59",
@@ -2330,7 +2255,6 @@
     },
     {
       "name": "a tainted Sapswill invader",
-      "name_sortable": "taintedsapswillinvader",
       "level": 1,
       "locations": [
         "100.22,-4.2,169.37",
@@ -2384,7 +2308,6 @@
     },
     {
       "name": "a tainted Sapswill scout",
-      "name_sortable": "taintedsapswillscout",
       "level": 3,
       "locations": [
         "228.68,-4.94,-9.46",
@@ -2432,7 +2355,6 @@
     },
     {
       "name": "a tainted Sapswill tapper",
-      "name_sortable": "taintedsapswilltapper",
       "level": 3,
       "locations": [
         "149.2,0.19,-5.01",
@@ -2462,7 +2384,6 @@
     },
     {
       "name": "a tainted Sapswill warrior",
-      "name_sortable": "taintedsapswillwarrior",
       "level": 5,
       "locations": [
         "159.13,-0.55,-181.69",
@@ -2494,7 +2415,6 @@
     },
     {
       "name": "Timbo Alefirst",
-      "name_sortable": "timboalefirst",
       "race": [
         "halfling"
       ],
@@ -2510,7 +2430,6 @@
     },
     {
       "name": "a toxic crawler",
-      "name_sortable": "toxiccrawler",
       "level": 3,
       "locations": [
         "121.92,1.38,99.77",
@@ -2551,7 +2470,6 @@
     },
     {
       "name": "Trainer Borda Gemseeker",
-      "name_sortable": "trainerbordagemseeker",
       "race": [
         "dwarf"
       ],
@@ -2574,7 +2492,6 @@
     },
     {
       "name": "Trainer Charlene Stoutmuffin",
-      "name_sortable": "trainercharlenestoutmuffin",
       "race": [
         "halfling"
       ],
@@ -2604,7 +2521,6 @@
     },
     {
       "name": "Trainer Cheye Seawind",
-      "name_sortable": "trainercheyeseawind",
       "race": [
         "half elf"
       ],
@@ -2631,7 +2547,6 @@
     },
     {
       "name": "Trainer Gregory Collins",
-      "name_sortable": "trainergregorycollins",
       "race": [
         "human"
       ],
@@ -2655,7 +2570,6 @@
     },
     {
       "name": "Trainer Gurga Trueheart",
-      "name_sortable": "trainergurgatrueheart",
       "race": [
         "froglok"
       ],
@@ -2680,7 +2594,6 @@
     },
     {
       "name": "Trainer Hayl McGuinness",
-      "name_sortable": "trainerhaylmcguinness",
       "race": [
         "barbarian"
       ],
@@ -2722,7 +2635,6 @@
     },
     {
       "name": "Trainer Marla Gilliam",
-      "name_sortable": "trainermarlagilliam",
       "race": [
         "human"
       ],
@@ -2754,7 +2666,6 @@
     },
     {
       "name": "Trainer Myrrin the Magnific",
-      "name_sortable": "trainermyrrinthemagnific",
       "race": [
         "high elf"
       ],
@@ -2786,7 +2697,6 @@
     },
     {
       "name": "Trainer Verrin Glimmertide",
-      "name_sortable": "trainerverringlimmertide",
       "race": [
         "half elf"
       ],
@@ -2818,7 +2728,6 @@
     },
     {
       "name": "Trainer Zidget Sprogrudder",
-      "name_sortable": "trainerzidgetsprogrudder",
       "race": [
         "gnome"
       ],
@@ -2841,7 +2750,6 @@
     },
     {
       "name": "a triggerfish",
-      "name_sortable": "triggerfish",
       "level": 2,
       "locations": [
         "-124.09,-10.93,54.09",
@@ -2876,7 +2784,6 @@
     },
     {
       "name": "Vim",
-      "name_sortable": "vim",
       "race": [
         "human"
       ],
@@ -2893,7 +2800,6 @@
     },
     {
       "name": "The Vulth",
-      "name_sortable": "vulth",
       "level": 5,
       "difficulty": "herioc",
       "locations": [
@@ -2908,7 +2814,6 @@
     },
     {
       "name": "Waulon",
-      "name_sortable": "waulon",
       "locations": [
         "-75.19,-4.58,257.98"
       ],
@@ -2918,7 +2823,6 @@
     },
     {
       "name": "a weak sparring partner",
-      "name_sortable": "weaksparringpartner",
       "race": [
         "human"
       ],
@@ -3030,7 +2934,6 @@
   "resourceNodes": [
     {
       "name": "the budding natural garden",
-      "name_sortable": "buddingnaturalgarden",
       "locations": [
         "251.94,-5.69,130.62",
         "237.05,-6.67,110.53",
@@ -3038,19 +2941,16 @@
       ]
     },
     {
-      "name": "the coffee bush",
-      "name_sortable": "coffeebush"
+      "name": "the coffee bush"
     },
     {
       "name": "the felled elm tree",
-      "name_sortable": "felledelmtree",
       "locations": [
         "145.11,-3.81,138.3"
       ]
     },
     {
       "name": "the roots",
-      "name_sortable": "roots",
       "locations": [
         "259.18,-6.0,132.12",
         "257.4,-6.82,88.21",
@@ -3059,7 +2959,6 @@
     },
     {
       "name": "the rugged stones",
-      "name_sortable": "ruggedstones",
       "locations": [
         "184.48,-4.06,192.83",
         "265.43,-5.09,-6.18",
@@ -3069,14 +2968,12 @@
     },
     {
       "name": "the school of fish",
-      "name_sortable": "schooloffish",
       "locations": [
         "-17.72,0.04,-207.28"
       ]
     },
     {
       "name": "the unearthed ore",
-      "name_sortable": "unearthedore",
       "locations": [
         "153.9,-4.18,214.47",
         "277.1,-4.42,-5.3",

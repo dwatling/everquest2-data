@@ -1,11 +1,14 @@
 {
   "name": "The Cove of Decay: A Treaty for Treasure",
-  "name_sortable": "coveofdecayatreatyfortreasure",
   "category": "Dungeons",
-  "zonerect": "46.00,990.00,405.00,1406.00",
   "levels": "20-30",
   "access_quests": [
     915766997
+  ],
+  "maps": [
+    {
+      "zonerect": "46.00,990.00,405.00,1406.00"
+    }
   ],
   "connections": [
     {
@@ -15,7 +18,6 @@
   "npcs": [
     {
       "name": "a Bloodsaber diver",
-      "name_sortable": "bloodsaberdiver",
       "level": 26,
       "difficulty": "heroic",
       "locations": [
@@ -46,7 +48,6 @@
     },
     {
       "name": "a Bloodsaber elite guard",
-      "name_sortable": "bloodsabereliteguard",
       "level": 27,
       "difficulty": "heroic",
       "locations": [
@@ -58,7 +59,6 @@
     },
     {
       "name": "a Bloodsaber emissary",
-      "name_sortable": "bloodsaberemissary",
       "level": 27,
       "difficulty": "heroic",
       "locations": [
@@ -70,7 +70,6 @@
     },
     {
       "name": "a Bloodsaber guard",
-      "name_sortable": "bloodsaberguard",
       "level": 27,
       "difficulty": "heroic",
       "locations": [
@@ -87,7 +86,6 @@
     },
     {
       "name": "a Bloodsaber laborer",
-      "name_sortable": "bloodsaberlaborer",
       "level": 24,
       "difficulty": "heroic",
       "locations": [
@@ -112,7 +110,6 @@
     },
     {
       "name": "a Bloodsaber medic",
-      "name_sortable": "bloodsabermedic",
       "level": 24,
       "difficulty": "heroic",
       "locations": [
@@ -124,7 +121,6 @@
     },
     {
       "name": "a Bloodsaber surveyor",
-      "name_sortable": "bloodsabersurveyor",
       "level": 26,
       "difficulty": "heroic",
       "locations": [
@@ -133,7 +129,6 @@
     },
     {
       "name": "a Steelhoof defender",
-      "name_sortable": "steelhoofdefender",
       "level": 27,
       "difficulty": "heroic",
       "locations": [
@@ -156,24 +151,20 @@
       "faction_changes": [
         {
           "name": "The Steppes Settlers",
-          "name_sortable": "steppessettlers",
           "value": 50
         },
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": -100
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": 50
         }
       ]
     },
     {
       "name": "a Steelhoof inspector",
-      "name_sortable": "steelhoofinspector",
       "level": 26,
       "difficulty": "heroic",
       "locations": [
@@ -199,24 +190,20 @@
       "faction_changes": [
         {
           "name": "The Steppes Settlers",
-          "name_sortable": "steppessettlers",
           "value": 50
         },
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": -100
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": 50
         }
       ]
     },
     {
       "name": "a Steelhoof planner",
-      "name_sortable": "steelhoofplanner",
       "level": 26,
       "difficulty": "heroic",
       "locations": [
@@ -228,24 +215,20 @@
       "faction_changes": [
         {
           "name": "The Steppes Settlers",
-          "name_sortable": "steppessettlers",
           "value": 50
         },
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": -100
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": 50
         }
       ]
     },
     {
       "name": "a Steelhoof taskmaster",
-      "name_sortable": "steelhooftaskmaster",
       "level": 27,
       "difficulty": "heroic",
       "locations": [
@@ -257,24 +240,20 @@
       "faction_changes": [
         {
           "name": "The Steppes Settlers",
-          "name_sortable": "steppessettlers",
           "value": 50
         },
         {
           "name": "The Great Herd",
-          "name_sortable": "greatherd",
           "value": -100
         },
         {
           "name": "The Sabertooth Gnolls",
-          "name_sortable": "sabertoothgnolls",
           "value": 50
         }
       ]
     },
     {
       "name": "a tide octopus",
-      "name_sortable": "tideoctopus",
       "level": 24,
       "difficulty": "heroic",
       "locations": [

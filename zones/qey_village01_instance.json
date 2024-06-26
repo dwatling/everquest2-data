@@ -1,11 +1,14 @@
 {
   "name": "Nettleville: Strange Tidings",
-  "name_sortable": "nettlevillestrangetidings",
   "category": "Villages",
   "subcategory": "Qeynos",
-  "zonerect": "-884.86,153.19,-403.20,513.58",
-    "access_quests": [
+  "access_quests": [
     3789036044
+  ],
+  "maps": [
+    {
+      "zonerect": "-884.86,153.19,-403.20,513.58"
+    }
   ],
   "connections": [
     {
@@ -15,7 +18,6 @@
   "npcs": [
     {
       "name": "a blood-drained victim",
-      "name_sortable": "blooddrainedvictim",
       "locations": [
         "573.18,-20.38,342.04",
         "592.8,-26.53,384.27",
@@ -24,7 +26,6 @@
     },
     {
       "name": "a council captain",
-      "name_sortable": "councilcaptain",
       "purpose": "Circle of Ten Militia",
       "locations": [
         "587.02,-19.19,350.66",
@@ -39,7 +40,6 @@
     },
     {
       "name": "a council investigator",
-      "name_sortable": "councilinvestigator",
       "purpose": "Circle of Ten Militia",
       "locations": [
         "573.1,-20.35,339.4",
@@ -54,7 +54,6 @@
     },
     {
       "name": "a council reservist",
-      "name_sortable": "councilreservist",
       "purpose": "Circle of Ten Militia",
       "locations": [
         "672.2,-20.15,298.15",
@@ -90,7 +89,6 @@
     },
     {
       "name": "a crazed Freeblood",
-      "name_sortable": "crazedfreeblood",
       "locations": [
         "639.69,-20.56,295.31",
         "594.90,-25.95,375.06",
@@ -114,14 +112,12 @@
     },
     {
       "name": "a Freeblood prisoner",
-      "name_sortable": "freebloodprisoner",
       "locations": [
         "652.93,-24.91,349.23"
       ]
     },
     {
       "name": "a Freeblood refugee",
-      "name_sortable": "freebloodrefugee",
       "locations": [
         "575.52,-19.17,352.25",
         "596.25,-19.03,371.65",
@@ -135,7 +131,6 @@
     },
     {
       "name": "a Freeblood supplicant",
-      "name_sortable": "freebloodsupplicant",
       "locations": [
         "594.86,-20.35,303.26",
         "630.73,-20.41,285.39",
@@ -149,7 +144,6 @@
     },
     {
       "name": "Kaser",
-      "name_sortable": "kaser",
       "purpose": "Investigator Rashlas's shadowy assassin",
       "locations": [
         "595.84,-19.17,365.43"
@@ -157,7 +151,6 @@
     },
     {
       "name": "a Nettleville citizen",
-      "name_sortable": "nettlevillecitizen",
       "locations": [
         "657.99,-20.42,304.16",
         "611.71,-19.42,316.79",
@@ -177,7 +170,6 @@
     },
     {
       "name": "a Nettleville noble",
-      "name_sortable": "nettlevillenoble",
       "locations": [
         "683.48,-20.42,331.41"
       ],
@@ -187,7 +179,6 @@
     },
     {
       "name": "a Nettleville sympathizer",
-      "name_sortable": "nettlevillesympathizer",
       "locations": [
         "684.43,-20.36,329.42",
         "689.87,-20.43,331.92",

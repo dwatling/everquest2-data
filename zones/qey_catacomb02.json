@@ -1,9 +1,12 @@
 {
   "name": "Vermin's Snye",
-  "name_sortable": "verminssnye",
   "category": "Karan",
-  "zonerect": "-276.00,-273.00,34.00,84.00",
   "levels": "10-18",
+  "maps": [
+    {
+      "zonerect": "-276.00,-273.00,34.00,84.00"
+    }
+  ],
   "connections": [
     {
       "key": "qey_catacomb01"
@@ -18,7 +21,6 @@
   "npcs": [
     {
       "name": "Aleth'Rillix the Festering Seer",
-      "name_sortable": "alethrillixthefesteringseer",
       "level": 16,
       "locations": [
         "-14.13,-0.15,-113.39",
@@ -47,7 +49,6 @@
     },
     {
       "name": "Aleyna McMallon",
-      "name_sortable": "aleynamcmallon",
       "locations": [
         "130.1,-6.92,-105.1"
       ],
@@ -58,7 +59,6 @@
     },
     {
       "name": "Ayamia the Rat Queen",
-      "name_sortable": "ayamiatheratqueen",
       "locations": [
         "43.30,-0.34,-145.88"
       ],
@@ -79,7 +79,6 @@
     },
     {
       "name": "a Bloodsaber adept",
-      "name_sortable": "bloodsaberadept",
       "level": 13,
       "difficulty": "heroic",
       "locations": [
@@ -107,7 +106,6 @@
     },
     {
       "name": "a Bloodsaber proficient",
-      "name_sortable": "bloodsaberproficient",
       "level": 16,
       "difficulty": "heroic",
       "locations": [
@@ -189,7 +187,6 @@
     },
     {
       "name": "a Bloodsaber specialist",
-      "name_sortable": "bloodsaberspecialist",
       "level": 15,
       "difficulty": "heroic",
       "locations": [
@@ -252,7 +249,6 @@
     },
     {
       "name": "Brawler Bently",
-      "name_sortable": "brawlerbently",
       "locations": [
         "120.88,0.11,-107.45"
       ],
@@ -263,7 +259,6 @@
     },
     {
       "name": "Brother Garvis",
-      "name_sortable": "brothergarvis",
       "locations": [
         "125.69,-5.55,-84.71"
       ],
@@ -277,7 +272,6 @@
     },
     {
       "name": "a crumbling tomb guard",
-      "name_sortable": "crumblingtombguard",
       "level": 14,
       "difficulty": "heroic",
       "locations": [
@@ -367,7 +361,6 @@
     },
     {
       "name": "a crumbling tomb priest",
-      "name_sortable": "crumblingtombpriest",
       "level": 14,
       "difficulty": "heroic",
       "locations": [
@@ -407,7 +400,6 @@
     },
     {
       "name": "a crumbling tomb sentry",
-      "name_sortable": "crumblingtombsentry",
       "level": 14,
       "locations": [
         "77.68,-0.06,-134.22",
@@ -496,7 +488,6 @@
     },
     {
       "name": "Cryptcleaner Remy",
-      "name_sortable": "cryptcleanerremy",
       "locations": [
         "126.08,-6.92,-108.99"
       ],
@@ -506,7 +497,6 @@
     },
     {
       "name": "a festering zombie",
-      "name_sortable": "festeringzombie",
       "level": 14,
       "difficulty": "heroic",
       "locations": [
@@ -569,7 +559,6 @@
     },
     {
       "name": "a giant burrower",
-      "name_sortable": "giantburrower",
       "locations": [
         "42.20,0.00,-67.76",
         "30.48,0.07,-13.50",
@@ -601,7 +590,6 @@
     },
     {
       "name": "Gillin Blackfist",
-      "name_sortable": "gillinblackfist",
       "locations": [
         "112.05,-3.88,-86.87"
       ],
@@ -613,7 +601,6 @@
     },
     {
       "name": "a grave scorpius",
-      "name_sortable": "gravescorpius",
       "level": 13,
       "locations": [
         "125.74,-0.06,-166.83",
@@ -664,7 +651,6 @@
     },
     {
       "name": "an infected grave scorpius",
-      "name_sortable": "infectedgravescorpius",
       "level": 14,
       "locations": [
         "209.54,-6.99,-88.77",
@@ -673,7 +659,6 @@
     },
     {
       "name": "an infected tomb vermin",
-      "name_sortable": "infectedtombvermin",
       "level": 13,
       "locations": [
         "41.10,-0.34,-131.60",
@@ -683,7 +668,6 @@
     },
     {
       "name": "a large tomb vermin",
-      "name_sortable": "largetombvermin",
       "level": 16,
       "difficulty": "heroic",
       "locations": [
@@ -703,7 +687,6 @@
     },
     {
       "name": "Lika the Tortured",
-      "name_sortable": "likathetortured",
       "drops": [
         {
           "gamelink": "\\aITEM 763253293 2030737030:Scourge Warrior Leggings\\/a",
@@ -719,7 +702,6 @@
     },
     {
       "name": "Mehatrin the Festering Brute",
-      "name_sortable": "mehatrinthefesteringbrute",
       "drops": [
         {
           "gamelink": "\\aITEM 763253293 2030737030:Scourge Warrior Leggings\\/a",
@@ -729,7 +711,6 @@
     },
     {
       "name": "a rabid shriller",
-      "name_sortable": "rabidshriller",
       "level": 12,
       "locations": [
         "132.18,0.54,-152.64",
@@ -759,7 +740,6 @@
     },
     {
       "name": "a ravenous cube",
-      "name_sortable": "ravenouscube",
       "level": 15,
       "locations": [
         "122.71,-2.52,-61.38",
@@ -804,7 +784,6 @@
     },
     {
       "name": "Sivnillinicos",
-      "name_sortable": "sivnillinicos",
       "level": 17,
       "difficulty": "heroic",
       "locations": [
@@ -819,7 +798,6 @@
     },
     {
       "name": "a tomb vermin",
-      "name_sortable": "tombvermin",
       "level": 13,
       "locations": [
         "47.20,-0.34,-136.69",
@@ -902,7 +880,6 @@
     },
     {
       "name": "X'Loitl the Bloodsaber Fanatic",
-      "name_sortable": "xloitlthebloodsaberfanatic",
       "level": 17,
       "difficulty": "heroic^^^",
       "locations": [
@@ -928,7 +905,6 @@
     },
     {
       "name": "Zaen Kalystir",
-      "name_sortable": "zaenkalystir",
       "locations": [
         "50.84,-0.03,-163.15"
       ],

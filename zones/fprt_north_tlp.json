@@ -1,14 +1,16 @@
 {
   "name": "Freeport North",
-  "name_sortable": "freeportnorth",
   "removed": "lu62",
   "category": "Cities",
   "subcategory": "Freeport",
-  "zonerect": "-179.19,-422.78,367.82,-11.37",
+  "maps": [
+    {
+      "zonerect": "-179.19,-422.78,367.82,-11.37"
+    }
+  ],
   "npcs": [
     {
       "name": "Administrator Frugi",
-      "name_sortable": "administratorfrugi",
       "race": [
         "human"
       ],
@@ -24,7 +26,6 @@
     },
     {
       "name": "Archivist Jindlefog",
-      "name_sortable": "archivistjindlefog",
       "race": [
         "gnome"
       ],
@@ -41,7 +42,6 @@
     },
     {
       "name": "Atticus Merula",
-      "name_sortable": "atticusmerula",
       "race": [
         "human"
       ],
@@ -59,7 +59,6 @@
     },
     {
       "name": "Augurer Valgus",
-      "name_sortable": "augurervalgus",
       "race": [
         "human"
       ],
@@ -75,7 +74,6 @@
     },
     {
       "name": "Aulus Crispian",
-      "name_sortable": "auluscrispian",
       "race": [
         "human"
       ],
@@ -93,14 +91,12 @@
     },
     {
       "name": "Azrael",
-      "name_sortable": "azrael",
       "locations": [
         "-71.62,-34.59,-281.06"
       ]
     },
     {
       "name": "Bargiss Ranlor",
-      "name_sortable": "bargissranlor",
       "race": [
         "human"
       ],
@@ -116,7 +112,6 @@
     },
     {
       "name": "Blerrkt Marrowdrinker",
-      "name_sortable": "blerrktmarrowdrinker",
       "race": [
         "troll"
       ],
@@ -133,7 +128,6 @@
     },
     {
       "name": "Blight Sage Destroz",
-      "name_sortable": "blightsagedestroz",
       "race": [
         "iksar"
       ],
@@ -150,7 +144,6 @@
     },
     {
       "name": "Brinegaggle",
-      "name_sortable": "brinegaggle",
       "race": [
         "gnome"
       ],
@@ -370,7 +363,6 @@
     },
     {
       "name": "Caphion",
-      "name_sortable": "caphion",
       "race": [
         "human"
       ],
@@ -387,7 +379,6 @@
     },
     {
       "name": "Cipius Abito",
-      "name_sortable": "cipiusabito",
       "race": [
         "human"
       ],
@@ -405,7 +396,6 @@
     },
     {
       "name": "Claudia Quarto",
-      "name_sortable": "claudiaquarto",
       "race": [
         "human"
       ],
@@ -422,7 +412,6 @@
     },
     {
       "name": "Consternator Soulinus",
-      "name_sortable": "consternatorsoulinus",
       "race": [
         "human"
       ],
@@ -438,7 +427,6 @@
     },
     {
       "name": "Convert Y`Ral",
-      "name_sortable": "convertyral",
       "race": [
         "dark elf"
       ],
@@ -455,7 +443,6 @@
     },
     {
       "name": "Courtesan Aconia Angelus",
-      "name_sortable": "courtesanaconiaangelus",
       "race": [
         "half elf"
       ],
@@ -474,7 +461,6 @@
     },
     {
       "name": "Courtesan Fannia Falx",
-      "name_sortable": "courtesanfanniafalx",
       "race": [
         "human"
       ],
@@ -490,7 +476,6 @@
     },
     {
       "name": "Drund Mordgraahl Skullsprain",
-      "name_sortable": "drundmordgraahlskullsprain",
       "race": [
         "ogre"
       ],
@@ -506,7 +491,6 @@
     },
     {
       "name": "Dyvll Ssavan",
-      "name_sortable": "dyvllssavan",
       "race": [
         "iksar"
       ],
@@ -523,7 +507,6 @@
     },
     {
       "name": "Electra J`ventius",
-      "name_sortable": "electrajventius",
       "race": [
         "dark elf"
       ],
@@ -540,7 +523,6 @@
     },
     {
       "name": "Ellynottin Zookbiddle",
-      "name_sortable": "ellynottinzookbiddle",
       "race": [
         "gnome"
       ],
@@ -557,7 +539,6 @@
     },
     {
       "name": "Elma Lowe",
-      "name_sortable": "elmalowe",
       "race": [
         "human"
       ],
@@ -575,7 +556,6 @@
     },
     {
       "name": "Elon Gallwin",
-      "name_sortable": "elongallwin",
       "race": [
         "human"
       ],
@@ -589,7 +569,6 @@
     },
     {
       "name": "Emissary Midia",
-      "name_sortable": "emissarymidia",
       "race": [
         "ratonga"
       ],
@@ -605,7 +584,6 @@
     },
     {
       "name": "Enyo Vivaron",
-      "name_sortable": "enyovivaron",
       "race": [
         "human"
       ],
@@ -624,7 +602,6 @@
     },
     {
       "name": "Euphemius Granius",
-      "name_sortable": "euphemiusgranius",
       "race": [
         "human"
       ],
@@ -642,14 +619,12 @@
     },
     {
       "name": "Faye",
-      "name_sortable": "faye",
       "locations": [
         "-71.62,-34.59,-281.06"
       ]
     },
     {
       "name": "Fethar Lothki",
-      "name_sortable": "fetharlothki",
       "race": [
         "human"
       ],
@@ -663,7 +638,6 @@
     },
     {
       "name": "Flaerius Rubico",
-      "name_sortable": "flaeriusrubico",
       "race": [
         "gnome"
       ],
@@ -680,7 +654,6 @@
     },
     {
       "name": "Forbidden Lore",
-      "name_sortable": "forbiddenlore",
       "locations": [
         "-79.87,-7.28,-165.58"
       ],
@@ -690,7 +663,6 @@
     },
     {
       "name": "Fryda Brushwuttle",
-      "name_sortable": "frydabrushwuttle",
       "race": [
         "gnome"
       ],
@@ -750,7 +722,6 @@
     },
     {
       "name": "Gadko",
-      "name_sortable": "gadko",
       "race": [
         "ratonga"
       ],
@@ -767,7 +738,6 @@
     },
     {
       "name": "Girafer L`Un",
-      "name_sortable": "giraferlun",
       "race": [
         "dark elf"
       ],
@@ -785,7 +755,6 @@
     },
     {
       "name": "Hardunk Breathstealer",
-      "name_sortable": "hardunkbreathstealer",
       "race": [
         "troll"
       ],
@@ -803,7 +772,6 @@
     },
     {
       "name": "Hazrulin Vextrik",
-      "name_sortable": "hazrulinvextrik",
       "race": [
         "gnome"
       ],
@@ -819,7 +787,6 @@
     },
     {
       "name": "Hector Alpalor",
-      "name_sortable": "hectoralpalor",
       "race": [
         "barbarian"
       ],
@@ -840,7 +807,6 @@
     },
     {
       "name": "Jabir Maridar",
-      "name_sortable": "jabirmaridar",
       "race": [
         "erudite"
       ],
@@ -857,7 +823,6 @@
     },
     {
       "name": "Julia Florens",
-      "name_sortable": "juliaflorens",
       "race": [
         "human"
       ],
@@ -876,7 +841,6 @@
     },
     {
       "name": "Kanos X'aphon",
-      "name_sortable": "kanosxaphon",
       "race": [
         "dark elf"
       ],
@@ -892,7 +856,6 @@
     },
     {
       "name": "Kenyatta",
-      "name_sortable": "kenyatta",
       "race": [
         "kerran"
       ],
@@ -909,7 +872,6 @@
     },
     {
       "name": "Kryva",
-      "name_sortable": "kryva",
       "race": [
         "ratonga"
       ],
@@ -928,7 +890,6 @@
     },
     {
       "name": "Kurid T'Sal",
-      "name_sortable": "kuridtsal",
       "race": [
         "dark elf"
       ],
@@ -945,7 +906,6 @@
     },
     {
       "name": "Librarian Motius Feldarn",
-      "name_sortable": "librarianmotiusfeldarn",
       "race": [
         "human"
       ],
@@ -962,7 +922,6 @@
     },
     {
       "name": "Librarian Zabnolique",
-      "name_sortable": "librarianzabnolique",
       "race": [
         "erudite"
       ],
@@ -978,7 +937,6 @@
     },
     {
       "name": "Livilla Ramio",
-      "name_sortable": "livillaramio",
       "race": [
         "half elf"
       ],
@@ -996,7 +954,6 @@
     },
     {
       "name": "Matthias Siegemaker",
-      "name_sortable": "matthiassiegemaker",
       "race": [
         "human"
       ],
@@ -1013,7 +970,6 @@
     },
     {
       "name": "Metilia Arcavius",
-      "name_sortable": "metiliaarcavius",
       "race": [
         "human"
       ],
@@ -1031,7 +987,6 @@
     },
     {
       "name": "Missionary G`Zule",
-      "name_sortable": "missionarygzule",
       "race": [
         "dark elf"
       ],
@@ -1049,7 +1004,6 @@
     },
     {
       "name": "Mizzog the Sighted",
-      "name_sortable": "mizzogthesighted",
       "race": [
         "troll"
       ],
@@ -1065,7 +1019,6 @@
     },
     {
       "name": "Modinite Z'Vol",
-      "name_sortable": "modinitezvol",
       "race": [
         "dark elf"
       ],
@@ -1081,7 +1034,6 @@
     },
     {
       "name": "Mordin Rageblade",
-      "name_sortable": "mordinrageblade",
       "race": [
         "barbarian"
       ],
@@ -1098,7 +1050,6 @@
     },
     {
       "name": "Nahirra Usharva",
-      "name_sortable": "nahirrausharva",
       "race": [
         "dark elf"
       ],
@@ -1115,7 +1066,6 @@
     },
     {
       "name": "Navarius Orvalis",
-      "name_sortable": "navariusorvalis",
       "race": [
         "human"
       ],
@@ -1133,7 +1083,6 @@
     },
     {
       "name": "Neophyte Jhanov",
-      "name_sortable": "neophytejhanov",
       "race": [
         "ratonga"
       ],
@@ -1150,7 +1099,6 @@
     },
     {
       "name": "Nexa L'Dur",
-      "name_sortable": "nexaldur",
       "race": [
         "dark elf"
       ],
@@ -1164,7 +1112,6 @@
     },
     {
       "name": "Occultist Levonicus",
-      "name_sortable": "occultistlevonicus",
       "race": [
         "human"
       ],
@@ -1181,7 +1128,6 @@
     },
     {
       "name": "Occultist L'Takk",
-      "name_sortable": "occultistltakk",
       "race": [
         "dark elf"
       ],
@@ -1195,7 +1141,6 @@
     },
     {
       "name": "Octavius Syntral",
-      "name_sortable": "octaviussyntral",
       "race": [
         "erudite"
       ],
@@ -1215,7 +1160,6 @@
     },
     {
       "name": "Oracle Porcia Aponius",
-      "name_sortable": "oracleporciaaponius",
       "race": [
         "human"
       ],
@@ -1231,7 +1175,6 @@
     },
     {
       "name": "Overseer Targon",
-      "name_sortable": "overseertargon",
       "race": [
         "ogre"
       ],
@@ -1248,7 +1191,6 @@
     },
     {
       "name": "Painter Brushwuttle",
-      "name_sortable": "painterbrushwuttle",
       "race": [
         "gnome"
       ],
@@ -1267,7 +1209,6 @@
     },
     {
       "name": "Paragon Jalex",
-      "name_sortable": "paragonjalex",
       "race": [
         "dark elf"
       ],
@@ -1284,14 +1225,12 @@
     },
     {
       "name": "Patches",
-      "name_sortable": "patches",
       "locations": [
         "-78.13,-34.59,-308.6"
       ]
     },
     {
       "name": "Preceptor Nyjuss",
-      "name_sortable": "preceptornyjuss",
       "race": [
         "erudite"
       ],
@@ -1307,7 +1246,6 @@
     },
     {
       "name": "Prisca Ursus",
-      "name_sortable": "priscaursus",
       "race": [
         "human"
       ],
@@ -1325,7 +1263,6 @@
     },
     {
       "name": "Proctor Fergus",
-      "name_sortable": "proctorfergus",
       "race": [
         "human"
       ],
@@ -1343,7 +1280,6 @@
     },
     {
       "name": "Profallia",
-      "name_sortable": "profallia",
       "race": [
         "human"
       ],
@@ -1360,7 +1296,6 @@
     },
     {
       "name": "Qalantir",
-      "name_sortable": "qalantir",
       "race": [
         "human"
       ],
@@ -1376,7 +1311,6 @@
     },
     {
       "name": "Sabina Thallis",
-      "name_sortable": "sabinathallis",
       "race": [
         "dark elf"
       ],
@@ -1394,7 +1328,6 @@
     },
     {
       "name": "Savant Ka'im",
-      "name_sortable": "savantkaim",
       "race": [
         "erudite"
       ],
@@ -1408,7 +1341,6 @@
     },
     {
       "name": "Scipia Nailbind",
-      "name_sortable": "scipianailbind",
       "race": [
         "troll"
       ],
@@ -1427,7 +1359,6 @@
     },
     {
       "name": "Speculator Montanlooa",
-      "name_sortable": "speculatormontanlooa",
       "race": [
         "erudite"
       ],
@@ -1443,7 +1374,6 @@
     },
     {
       "name": "Thaumaturge Ranollious",
-      "name_sortable": "thaumaturgeranollious",
       "race": [
         "human"
       ],
@@ -1460,7 +1390,6 @@
     },
     {
       "name": "Tome Warden K'Narn",
-      "name_sortable": "tomewardenknarn",
       "race": [
         "dark elf"
       ],
@@ -1477,7 +1406,6 @@
     },
     {
       "name": "Torlig the Alchemist",
-      "name_sortable": "torligthealchemist",
       "race": [
         "erudite"
       ],
@@ -1494,7 +1422,6 @@
     },
     {
       "name": "Tullia Sulla",
-      "name_sortable": "tulliasulla",
       "race": [
         "human"
       ],
@@ -1511,7 +1438,6 @@
     },
     {
       "name": "Turia Quietus",
-      "name_sortable": "turiaquietus",
       "race": [
         "human"
       ],
@@ -1529,7 +1455,6 @@
     },
     {
       "name": "Ubaj",
-      "name_sortable": "ubaj",
       "race": [
         "kerran"
       ],
@@ -1547,7 +1472,6 @@
     },
     {
       "name": "Vassi Darkscale",
-      "name_sortable": "vassidarkscale",
       "race": [
         "iksar"
       ],
@@ -1563,7 +1487,6 @@
     },
     {
       "name": "Venal T`Lar",
-      "name_sortable": "venaltlar",
       "race": [
         "dark elf"
       ],
@@ -1581,7 +1504,6 @@
     },
     {
       "name": "Venetia Galatea",
-      "name_sortable": "venetiagalatea",
       "race": [
         "half elf"
       ],
@@ -1600,7 +1522,6 @@
     },
     {
       "name": "Vesta Hesperus",
-      "name_sortable": "vestahesperus",
       "race": [
         "human"
       ],
@@ -1617,7 +1538,6 @@
     },
     {
       "name": "Vibia Valens",
-      "name_sortable": "vibiavalens",
       "race": [
         "human"
       ],
@@ -1635,7 +1555,6 @@
     },
     {
       "name": "Xeuxa Foamheart",
-      "name_sortable": "xeuxafoamheart",
       "race": [
         "half elf"
       ],
@@ -1652,7 +1571,6 @@
     },
     {
       "name": "Zur",
-      "name_sortable": "zur",
       "race": [
         "dark elf"
       ],

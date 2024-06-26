@@ -1,10 +1,13 @@
 {
   "name": "Phantom Sea",
-  "name_sortable": "phantomsea",
   "expansion": "exp11",
   "description": "In what was once the heart of the continent Antonica, now lies an assortment of mysterious islands full of ruins and remnants of renowned locations including Highpass, Kithicor Forest, and Ssraeszha Temple",
-  "zonerect": "-2167.00,-1587.00,2199.00,1712.00",
   "levels": "95-100",
+  "maps": [
+    {
+      "zonerect": "-2167.00,-1587.00,2199.00,1712.00"
+    }
+  ],
   "connections": [
     {
       "key": "exp11_rgn_southseas"
@@ -13,7 +16,6 @@
   "npcs": [
     {
       "name": "Scruffy T.",
-      "name_sortable": "scruffyt",
       "locations": [
         "801.19,11.12,-414.22"
       ]

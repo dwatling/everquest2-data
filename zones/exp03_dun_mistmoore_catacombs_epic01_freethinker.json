@@ -1,11 +1,14 @@
 {
   "name": "Freethinker Hideout",
-  "name_sortable": "freethinkerhideout",
   "expansion": "exp03",
   "category": "Dungeons",
   "subcategory": "Raids",
-  "zonerect": "-169.00,-142.00,25.00,134.00",
   "levels": "70",
+  "maps": [
+    {
+      "zonerect": "-169.00,-142.00,25.00,134.00"
+    }
+  ],
   "connections": [
     {
       "key": "exp03_dun_kaladim_stormguard_hall_mar12"
@@ -20,7 +23,6 @@
   "npcs": [
     {
       "name": "a marrow ripper",
-      "name_sortable": "marrowripper",
       "drops": [
         {
           "gamelink": "\\aITEM 1871773141 25375289:Faywax Sealed Document\\/a",

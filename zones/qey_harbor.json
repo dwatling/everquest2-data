@@ -1,10 +1,13 @@
 {
   "name": "Qeynos Harbor",
-  "name_sortable": "qeynosharbor",
   "removed": "lu64",
   "category": "Cities",
   "subcategory": "Qeynos",
-  "zonerect": "-1044.11,-155.04,-585.95,-188.59",
+  "maps": [
+    {
+      "zonerect": "-1044.11,-155.04,-585.95,-188.59"
+    }
+  ],
   "connections": [
     {
       "key": "qey_elddar"
@@ -13,7 +16,6 @@
   "npcs": [
     {
       "name": "Aeris Lightwind",
-      "name_sortable": "aerislightwind",
       "race": [
         "human"
       ],
@@ -31,7 +33,6 @@
     },
     {
       "name": "Alexander Kerr",
-      "name_sortable": "alexanderkerr",
       "race": [
         "human"
       ],
@@ -51,7 +52,6 @@
     },
     {
       "name": "Aliindar",
-      "name_sortable": "aliindar",
       "race": [
         "erudite"
       ],
@@ -70,7 +70,6 @@
     },
     {
       "name": "Alissa Cleeway",
-      "name_sortable": "alissacleeway",
       "race": [
         "human"
       ],
@@ -88,7 +87,6 @@
     },
     {
       "name": "Ashilda MacHinry",
-      "name_sortable": "ashildamachinry",
       "race": [
         "barbarian"
       ],
@@ -104,7 +102,6 @@
     },
     {
       "name": "Barmaid Ceilia Abbot",
-      "name_sortable": "barmaidceiliaabbot",
       "race": [
         "human"
       ],
@@ -119,7 +116,6 @@
     },
     {
       "name": "Birney Abbot",
-      "name_sortable": "birneyabbot",
       "race": [
         "human"
       ],
@@ -137,7 +133,6 @@
     },
     {
       "name": "Borden Mannus",
-      "name_sortable": "bordenmannus",
       "race": [
         "barbarian"
       ],
@@ -155,7 +150,6 @@
     },
     {
       "name": "Boulden Smitestone",
-      "name_sortable": "bouldensmitestone",
       "race": [
         "dwarf"
       ],
@@ -174,7 +168,6 @@
     },
     {
       "name": "Carpenter Paddock",
-      "name_sortable": "carpenterpaddock",
       "race": [
         "human"
       ],
@@ -192,7 +185,6 @@
     },
     {
       "name": "Dajor Botswein",
-      "name_sortable": "dajorbotswein",
       "race": [
         "human"
       ],
@@ -209,7 +201,6 @@
     },
     {
       "name": "Erwin Rohand",
-      "name_sortable": "erwinrohand",
       "race": [
         "human"
       ],
@@ -228,7 +219,6 @@
     },
     {
       "name": "Gael Pinewhisper",
-      "name_sortable": "gaelpinewhisper",
       "race": [
         "half elf"
       ],
@@ -246,7 +236,6 @@
     },
     {
       "name": "Grisvane Stonearm",
-      "name_sortable": "grisvanestonearm",
       "race": [
         "dwarf"
       ],
@@ -263,7 +252,6 @@
     },
     {
       "name": "Harbormaster Crestbreak",
-      "name_sortable": "harbormastercrestbreak",
       "race": [
         "half elf"
       ],
@@ -298,7 +286,6 @@
     },
     {
       "name": "Harron Griswald",
-      "name_sortable": "harrongriswald",
       "race": [
         "human"
       ],
@@ -316,7 +303,6 @@
     },
     {
       "name": "Heather Atherton",
-      "name_sortable": "heatheratherton",
       "race": [
         "human"
       ],
@@ -336,7 +322,6 @@
     },
     {
       "name": "Ian Cathlan",
-      "name_sortable": "iancathlan",
       "race": [
         "human"
       ],
@@ -352,7 +337,6 @@
     },
     {
       "name": "Innkeeper Galsway",
-      "name_sortable": "innkeepergalsway",
       "race": [
         "human"
       ],
@@ -370,7 +354,6 @@
     },
     {
       "name": "Jarek O'Kelly",
-      "name_sortable": "jarekokelly",
       "race": [
         "barbarian"
       ],
@@ -390,7 +373,6 @@
     },
     {
       "name": "Keigwyn Macinshire",
-      "name_sortable": "keigwynmacinshire",
       "race": [
         "half elf"
       ],
@@ -406,7 +388,6 @@
     },
     {
       "name": "Kizmit",
-      "name_sortable": "kizmit",
       "race": [
         "kerran"
       ],
@@ -423,7 +404,6 @@
     },
     {
       "name": "Madam Istynia",
-      "name_sortable": "madamistynia",
       "race": [
         "erudite"
       ],
@@ -441,7 +421,6 @@
     },
     {
       "name": "Marius Ironflint",
-      "name_sortable": "mariusironflint",
       "race": [
         "human"
       ],
@@ -458,7 +437,6 @@
     },
     {
       "name": "Mary Dillon",
-      "name_sortable": "marydillon",
       "race": [
         "human"
       ],
@@ -475,7 +453,6 @@
     },
     {
       "name": "Minda Broadfeet",
-      "name_sortable": "mindabroadfeet",
       "race": [
         "dwarf"
       ],
@@ -494,7 +471,6 @@
     },
     {
       "name": "Nelis Greenpocket",
-      "name_sortable": "nelisgreenpocket",
       "race": [
         "halfling"
       ],
@@ -512,7 +488,6 @@
     },
     {
       "name": "Phen Domlinson",
-      "name_sortable": "phendomlinson",
       "race": [
         "human"
       ],
@@ -540,7 +515,6 @@
     },
     {
       "name": "Portis Bonham",
-      "name_sortable": "portisbonham",
       "race": [
         "human"
       ],
@@ -558,7 +532,6 @@
     },
     {
       "name": "Praxum",
-      "name_sortable": "praxum",
       "race": [
         "human"
       ],
@@ -576,7 +549,6 @@
     },
     {
       "name": "Rabbleson",
-      "name_sortable": "rabbleson",
       "race": [
         "human"
       ],
@@ -595,7 +567,6 @@
     },
     {
       "name": "Renee Atherton",
-      "name_sortable": "reneeatherton",
       "race": [
         "half elf"
       ],
@@ -613,7 +584,6 @@
     },
     {
       "name": "Robert Newbury",
-      "name_sortable": "robertnewbury",
       "race": [
         "human"
       ],
@@ -630,7 +600,6 @@
     },
     {
       "name": "Royal Accountant Fowler",
-      "name_sortable": "royalaccountantfowler",
       "race": [
         "human"
       ],
@@ -647,7 +616,6 @@
     },
     {
       "name": "a Safar of Maj'dul",
-      "name_sortable": "safarofmajdul",
       "gender": [
         "female"
       ],
@@ -657,7 +625,6 @@
     },
     {
       "name": "Sean Wellfayer",
-      "name_sortable": "seanwellfayer",
       "race": [
         "human"
       ],
@@ -674,7 +641,6 @@
     },
     {
       "name": "Shanda Tierbold",
-      "name_sortable": "shandatierbold",
       "race": [
         "barbarian"
       ],
@@ -690,7 +656,6 @@
     },
     {
       "name": "Sheldon Lamport",
-      "name_sortable": "sheldonlamport",
       "race": [
         "human"
       ],
@@ -806,7 +771,6 @@
     },
     {
       "name": "Sir Aidan Godard",
-      "name_sortable": "siraidangodard",
       "race": [
         "human"
       ],
@@ -822,7 +786,6 @@
     },
     {
       "name": "Smith Holgren",
-      "name_sortable": "smithholgren",
       "race": [
         "barbarian"
       ],
@@ -840,7 +803,6 @@
     },
     {
       "name": "Squire Moorford",
-      "name_sortable": "squiremoorford",
       "race": [
         "human"
       ],
@@ -857,7 +819,6 @@
     },
     {
       "name": "Tabatha Cantra",
-      "name_sortable": "tabathacantra",
       "race": [
         "erudite"
       ],
@@ -874,7 +835,6 @@
     },
     {
       "name": "Tala McMorgan",
-      "name_sortable": "talamcmorgan",
       "race": [
         "barbarian"
       ],
@@ -892,7 +852,6 @@
     },
     {
       "name": "Thomas Bodley",
-      "name_sortable": "thomasbodley",
       "race": [
         "human"
       ],
@@ -912,7 +871,6 @@
     },
     {
       "name": "Umli Grayfist",
-      "name_sortable": "umligrayfist",
       "race": [
         "dwarf"
       ],
@@ -930,7 +888,6 @@
     },
     {
       "name": "Vernon Tinworthy",
-      "name_sortable": "vernontinworthy",
       "race": [
         "human"
       ],
@@ -947,7 +904,6 @@
     },
     {
       "name": "Zara",
-      "name_sortable": "zara",
       "race": [
         "human"
       ],

@@ -1,9 +1,12 @@
 {
   "name": "Beggar's Court: Sweat-Stained Cobbles",
-  "name_sortable": "beggarscourtsweatstainedcobbles",
   "category": "Villages",
   "subcategory": "Freeport",
-  "zonerect": "-225.80,-137.49,181.39,158.88",
+  "maps": [
+    {
+      "zonerect": "-225.80,-137.49,181.39,158.88"
+    }
+  ],
   "connections": [
     {
       "key": "freeport_combined",
@@ -13,7 +16,6 @@
   "npcs": [
     {
       "name": "a captive Ayr'Dal",
-      "name_sortable": "captiveayrdal",
       "race": [
         "half elf"
       ],
@@ -28,7 +30,6 @@
     },
     {
       "name": "a captive worker",
-      "name_sortable": "captiveworker",
       "race": [
         "ratonga",
         "gnome",
@@ -82,7 +83,6 @@
     },
     {
       "name": "Enforcer Moxog",
-      "name_sortable": "enforcermoxog",
       "race": [
         "ogre"
       ],
@@ -98,7 +98,6 @@
     },
     {
       "name": "a Freeport loyalist",
-      "name_sortable": "freeportloyalist",
       "race": [
         "barbarian",
         "human"
@@ -140,7 +139,6 @@
     },
     {
       "name": "a hapless resident",
-      "name_sortable": "haplessresident",
       "race": [
         "human",
         "barbarian"
@@ -163,7 +161,6 @@
     },
     {
       "name": "a Militia guard",
-      "name_sortable": "militiaguard",
       "race": [
         "ogre",
         "half elf",
@@ -197,7 +194,6 @@
     },
     {
       "name": "Snars",
-      "name_sortable": "snars",
       "gender": [
         "male"
       ],

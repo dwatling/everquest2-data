@@ -1,9 +1,12 @@
 {
   "name": "The Crypt of Betrayal",
-  "name_sortable": "cryptofbetrayal",
   "category": "Karan",
-  "zonerect": "-194.00,-235.00,48.00,46.00",
   "levels": "18-26",
+  "maps": [
+    {
+      "zonerect": "-194.00,-235.00,48.00,46.00"
+    }
+  ],
   "connections": [
     {
       "key": "qey_catacomb02"
@@ -16,7 +19,6 @@
   "npcs": [
     {
       "name": "Adun",
-      "name_sortable": "adun",
       "locations": [
         "127.92,8.47,15.83"
       ],
@@ -32,7 +34,6 @@
     },
     {
       "name": "an agonized essence",
-      "name_sortable": "agonizedessence",
       "level": 25,
       "locations": [
         "-3.97,0.66,-72.55",
@@ -82,7 +83,6 @@
     },
     {
       "name": "Anguish",
-      "name_sortable": "anguish",
       "locations": [
         "70.57,-4.16,-161.16"
       ],
@@ -93,7 +93,6 @@
     },
     {
       "name": "Ankhefemut",
-      "name_sortable": "ankhefemut",
       "level": 22,
       "locations": [
         "159.89,11.31,-209.78",
@@ -103,7 +102,6 @@
     },
     {
       "name": "an Archaic Fury",
-      "name_sortable": "archaicfury",
       "level": 23,
       "difficulty": "heroic^^^",
       "locations": [
@@ -115,7 +113,6 @@
     },
     {
       "name": "a Bloodsaber assassin",
-      "name_sortable": "bloodsaberassassin",
       "level": 25,
       "locations": [
         "2.82,-0.07,-141.41",
@@ -150,7 +147,6 @@
     },
     {
       "name": "a Bloodsaber highguard",
-      "name_sortable": "bloodsaberhighguard",
       "level": 25,
       "locations": [
         "-39.96,-0.18,-170.01",
@@ -178,7 +174,6 @@
     },
     {
       "name": "a Bloodsaber inquisitor",
-      "name_sortable": "bloodsaberinquisitor",
       "level": 25,
       "locations": [
         "3.80,-0.01,-148.39",
@@ -227,7 +222,6 @@
     },
     {
       "name": "a Bloodsaber medic",
-      "name_sortable": "bloodsabermedic",
       "level": 25,
       "locations": [
         "2.79,6.93,-17.84",
@@ -264,7 +258,6 @@
     },
     {
       "name": "a Bloodsaber ritualist",
-      "name_sortable": "bloodsaberritualist",
       "level": 25,
       "locations": [
         "30.69,-0.16,-156.29",
@@ -283,7 +276,6 @@
     },
     {
       "name": "a Bloodsaber ruffian",
-      "name_sortable": "bloodsaberruffian",
       "level": 25,
       "locations": [
         "48.70,-0.17,-30.18",
@@ -331,7 +323,6 @@
     },
     {
       "name": "a Bloodsaber sentinel",
-      "name_sortable": "bloodsabersentinel",
       "level": 25,
       "locations": [
         "19.25,-0.08,-2.69",
@@ -361,7 +352,6 @@
     },
     {
       "name": "Bodyguard Greiwolv",
-      "name_sortable": "bodyguardgreiwolv",
       "locations": [
         "168.01,6.89,-187.5"
       ],
@@ -371,7 +361,6 @@
     },
     {
       "name": "Bodyguard Harn",
-      "name_sortable": "bodyguardharn",
       "locations": [
         "172.62,6.89,-193.45"
       ],
@@ -381,7 +370,6 @@
     },
     {
       "name": "Borthen",
-      "name_sortable": "borthen",
       "locations": [
         "156.87,8.49,9.25"
       ],
@@ -398,7 +386,6 @@
     },
     {
       "name": "Cryptkeeper Maglus",
-      "name_sortable": "cryptkeepermaglus",
       "locations": [
         "169.93,6.89,-188.78"
       ],
@@ -427,7 +414,6 @@
     },
     {
       "name": "a crypt tempest",
-      "name_sortable": "crypttempest",
       "level": 25,
       "locations": [
         "77.67,6.82,16.59",
@@ -477,7 +463,6 @@
     },
     {
       "name": "a deathly scarab",
-      "name_sortable": "deathlyscarab",
       "level": 23,
       "locations": [
         "150.52,9.17,-200.85",
@@ -556,7 +541,6 @@
     },
     {
       "name": "a diseased corpse",
-      "name_sortable": "diseasedcorpse",
       "level": 22,
       "locations": [
         "152.61,8.10,-193.02",
@@ -594,7 +578,6 @@
     },
     {
       "name": "Draemeth the Bleak",
-      "name_sortable": "draemeththebleak",
       "level": 25,
       "difficulty": "heroic^^^",
       "locations": [
@@ -603,7 +586,6 @@
     },
     {
       "name": "Faylia the Dark",
-      "name_sortable": "fayliathedark",
       "level": 25,
       "locations": [
         "157.34,6.99,-43.31"
@@ -611,7 +593,6 @@
     },
     {
       "name": "a forsaken shriller",
-      "name_sortable": "forsakenshriller",
       "level": 22,
       "locations": [
         "154.19,7.80,-192.65",
@@ -642,7 +623,6 @@
     },
     {
       "name": "a grotesque mass",
-      "name_sortable": "grotesquemass",
       "level": 20,
       "locations": [
         "61.58,6.98,-57.70",
@@ -664,7 +644,6 @@
     },
     {
       "name": "an ire minion",
-      "name_sortable": "ireminion",
       "level": 25,
       "locations": [
         "167.00,6.88,-150.00",
@@ -690,7 +669,6 @@
     },
     {
       "name": "an ire warlock",
-      "name_sortable": "irewarlock",
       "level": 25,
       "locations": [
         "171.00,6.88,-154.00",
@@ -715,7 +693,6 @@
     },
     {
       "name": "Irisor the Insane",
-      "name_sortable": "irisortheinsane",
       "level": 25,
       "difficulty": "heroic^^^",
       "locations": [
@@ -727,7 +704,6 @@
     },
     {
       "name": "Misery",
-      "name_sortable": "misery",
       "level": 26,
       "difficulty": "heroic^^^",
       "locations": [
@@ -746,7 +722,6 @@
     },
     {
       "name": "Redgar the Rotten",
-      "name_sortable": "redgartherotten",
       "level": 23,
       "locations": [
         "113.46,7.00,-128.12",
@@ -761,7 +736,6 @@
     },
     {
       "name": "a restless corpse",
-      "name_sortable": "restlesscorpse",
       "level": 22,
       "locations": [
         "165.82,7.01,-176.35",
@@ -804,7 +778,6 @@
     },
     {
       "name": "The Specter of Ire",
-      "name_sortable": "specterofire",
       "level": 25,
       "locations": [
         "171.00,6.88,-154.00"
@@ -814,7 +787,6 @@
     },
     {
       "name": "Spike",
-      "name_sortable": "spike",
       "level": 27,
       "difficulty": "heroic^^^",
       "locations": [
@@ -833,7 +805,6 @@
     },
     {
       "name": "Torg Bramblehair",
-      "name_sortable": "torgbramblehair",
       "locations": [
         "-32.3,7.22,-8.96"
       ],
@@ -849,7 +820,6 @@
     },
     {
       "name": "a tortured essence",
-      "name_sortable": "torturedessence",
       "level": 25,
       "locations": [
         "151.27,6.99,-41.83",
@@ -893,7 +863,6 @@
     },
     {
       "name": "Troizen the Blood Tempest",
-      "name_sortable": "troizenthebloodtempest",
       "level": 25,
       "locations": [
         "45.81,6.91,-25.19"
@@ -901,7 +870,6 @@
     },
     {
       "name": "Vargon",
-      "name_sortable": "vargon",
       "utterances": [
         "Why am I still held fast to this world?",
         "I do not remember my name.  Everything is clouded and obscure.  I must flee! But I cannot! I'm trapped, trapped like a rat in a cage! Why are you here?",
@@ -912,7 +880,6 @@
     },
     {
       "name": "Vegalys Keldrane",
-      "name_sortable": "vegalyskeldrane",
       "locations": [
         "123.83,8.46,-93.97"
       ],

@@ -1,10 +1,13 @@
 {
   "name": "Graystone Yard",
-  "name_sortable": "graystoneyard",
+  "removed": "lu64",
   "category": "Villages",
   "subcategory": "Qeynos",
-  "removed": "lu64",
-  "zonerect": "-1104.84,-289.78,-649.27,54.27",
+  "maps": [
+    {
+      "zonerect": "-1104.84,-289.78,-649.27,54.27"
+    }
+  ],
   "connections": [
     {
       "key": "qey_adv01_oakmyst_tlp",
@@ -26,7 +29,6 @@
   "npcs": [
     {
       "name": "Assistant Jalan",
-      "name_sortable": "assistantjalan",
       "race": [
         "barbarian"
       ],
@@ -42,7 +44,6 @@
     },
     {
       "name": "Assistant Tillheel",
-      "name_sortable": "assistanttillheel",
       "race": [
         "halfling"
       ],
@@ -63,7 +64,6 @@
     },
     {
       "name": "Barmaid Violet",
-      "name_sortable": "barmaidviolet",
       "race": [
         "dwarf"
       ],
@@ -83,7 +83,6 @@
     },
     {
       "name": "Barry Viceheart",
-      "name_sortable": "barryviceheart",
       "race": [
         "barbarian"
       ],
@@ -99,7 +98,6 @@
     },
     {
       "name": "Bonin Broadhammer",
-      "name_sortable": "boninbroadhammer",
       "race": [
         "dwarf"
       ],
@@ -118,7 +116,6 @@
     },
     {
       "name": "Boomcast",
-      "name_sortable": "boomcast",
       "race": [
         "gnome"
       ],
@@ -150,7 +147,6 @@
     },
     {
       "name": "Burk Stoneshatter",
-      "name_sortable": "burkstoneshatter",
       "race": [
         "barbarian"
       ],
@@ -167,7 +163,6 @@
     },
     {
       "name": "Carpenter Jorgie Icearmor",
-      "name_sortable": "carpenterjorgieicearmor",
       "race": [
         "barbarian"
       ],
@@ -183,7 +178,6 @@
     },
     {
       "name": "Coppershot",
-      "name_sortable": "coppershot",
       "race": [
         "dwarf"
       ],
@@ -203,7 +197,6 @@
     },
     {
       "name": "Dane Steelfist",
-      "name_sortable": "danesteelfist",
       "race": [
         "dwarf"
       ],
@@ -216,7 +209,6 @@
     },
     {
       "name": "Dorak Everstock",
-      "name_sortable": "dorakeverstock",
       "race": [
         "dwarf"
       ],
@@ -234,7 +226,6 @@
     },
     {
       "name": "Dori",
-      "name_sortable": "dori",
       "race": [
         "dwarf"
       ],
@@ -251,7 +242,6 @@
     },
     {
       "name": "Dunda Frostgrip",
-      "name_sortable": "dundafrostgrip",
       "race": [
         "barbarian"
       ],
@@ -267,7 +257,6 @@
     },
     {
       "name": "Fiercecry errr",
-      "name_sortable": "fiercecryerrr",
       "race": [
         "barbarian"
       ],
@@ -283,14 +272,12 @@
     },
     {
       "name": "Friskit",
-      "name_sortable": "friskit",
       "locations": [
         "868.3,-22.21,-147.08"
       ]
     },
     {
       "name": "Gnor Farven",
-      "name_sortable": "gnorfarven",
       "race": [
         "dwarf"
       ],
@@ -306,7 +293,6 @@
     },
     {
       "name": "Golan Panicward",
-      "name_sortable": "golanpanicward",
       "race": [
         "dwarf"
       ],
@@ -324,7 +310,6 @@
     },
     {
       "name": "Graystone Courier Dirvel",
-      "name_sortable": "graystonecourierdirvel",
       "race": [
         "barbarian"
       ],
@@ -348,7 +333,6 @@
     },
     {
       "name": "Gruffin Goldtooth",
-      "name_sortable": "gruffingoldtooth",
       "race": [
         "dwarf"
       ],
@@ -364,7 +348,6 @@
     },
     {
       "name": "Gurna Hadel",
-      "name_sortable": "gurnahadel",
       "race": [
         "dwarf"
       ],
@@ -380,7 +363,6 @@
     },
     {
       "name": "Hargan Icethaw",
-      "name_sortable": "harganicethaw",
       "race": [
         "barbarian"
       ],
@@ -396,7 +378,6 @@
     },
     {
       "name": "Innkeep Rothskild",
-      "name_sortable": "innkeeprothskild",
       "race": [
         "dwarf"
       ],
@@ -471,7 +452,6 @@
     },
     {
       "name": "Ironmallet",
-      "name_sortable": "ironmallet",
       "race": [
         "dwarf"
       ],
@@ -488,7 +468,6 @@
     },
     {
       "name": "Jodi",
-      "name_sortable": "jodi",
       "race": [
         "human"
       ],
@@ -504,7 +483,6 @@
     },
     {
       "name": "Karg Icemoore",
-      "name_sortable": "kargicemoore",
       "race": [
         "barbarian"
       ],
@@ -520,7 +498,6 @@
     },
     {
       "name": "Kaya",
-      "name_sortable": "kaya",
       "race": [
         "barbarian"
       ],
@@ -539,7 +516,6 @@
     },
     {
       "name": "Keldra Frosthaven",
-      "name_sortable": "keldrafrosthaven",
       "race": [
         "barbarian"
       ],
@@ -558,7 +534,6 @@
     },
     {
       "name": "Knight-Captain Salomar",
-      "name_sortable": "knightcaptainsalomar",
       "race": [
         "human"
       ],
@@ -574,7 +549,6 @@
     },
     {
       "name": "Lars Silverbrace",
-      "name_sortable": "larssilverbrace",
       "race": [
         "dwarf"
       ],
@@ -593,7 +567,6 @@
     },
     {
       "name": "Marus Donoval",
-      "name_sortable": "marusdonoval",
       "race": [
         "barbarian"
       ],
@@ -609,7 +582,6 @@
     },
     {
       "name": "Mav Boilfist",
-      "name_sortable": "mavboilfist",
       "race": [
         "dwarf"
       ],
@@ -626,7 +598,6 @@
     },
     {
       "name": "McGuiggen",
-      "name_sortable": "mcguiggen",
       "race": [
         "barbarian"
       ],
@@ -644,7 +615,6 @@
     },
     {
       "name": "Pathfinder Silentstride",
-      "name_sortable": "pathfindersilentstride",
       "race": [
         "wood elf"
       ],
@@ -660,7 +630,6 @@
     },
     {
       "name": "Rafki",
-      "name_sortable": "rafki",
       "race": [
         "kerran"
       ],
@@ -678,7 +647,6 @@
     },
     {
       "name": "Shipping Coordinator Hando",
-      "name_sortable": "shippingcoordinatorhando",
       "race": [
         "barbarian"
       ],
@@ -694,7 +662,6 @@
     },
     {
       "name": "Snowboot",
-      "name_sortable": "snowboot",
       "race": [
         "dwarf"
       ],
@@ -712,7 +679,6 @@
     },
     {
       "name": "Soulforge",
-      "name_sortable": "soulforge",
       "race": [
         "barbarian"
       ],
@@ -730,7 +696,6 @@
     },
     {
       "name": "Steelvein",
-      "name_sortable": "steelvein",
       "race": [
         "dwarf"
       ],
@@ -748,7 +713,6 @@
     },
     {
       "name": "Tacklemaster Moyna",
-      "name_sortable": "tacklemastermoyna",
       "race": [
         "barbarian"
       ],
@@ -768,7 +732,6 @@
     },
     {
       "name": "Watcher Curmogliel Kar`thal",
-      "name_sortable": "watchercurmoglielkarthal",
       "race": [
         "high elf"
       ],

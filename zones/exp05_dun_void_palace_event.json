@@ -1,9 +1,12 @@
 {
   "name": "A Memory of Nothingness",
-  "name_sortable": "memoryofnothingness",
   "expansion": "exp05",
   "category": "",
-  "zonerect": "-900.00,-900.00,800.00,459.00",
+  "maps": [
+    {
+      "zonerect": "-900.00,-900.00,800.00,459.00"
+    }
+  ],
   "connections": [
     {
       "key": "qeynos_combined01"
@@ -12,7 +15,6 @@
   "npcs": [
     {
       "name": "a drachnid guardian",
-      "name_sortable": "drachnidguardian",
       "locations": [
         "-16.09,13.26,-22.61",
         "11.09,13.26,-1.62",
@@ -40,7 +42,6 @@
     },
     {
       "name": "a phantom guardian",
-      "name_sortable": "phantomguardian",
       "locations": [
         "-47.58,12.53,-1.43",
         "35.02,24.68,85.24",
@@ -83,7 +84,6 @@
     },
     {
       "name": "a troll guardian",
-      "name_sortable": "trollguardian",
       "locations": [
         "-90.80,3.00,-12.84",
         "-88.88,3.13,-6.32",
@@ -135,7 +135,6 @@
     },
     {
       "name": "a voidbeast guardian",
-      "name_sortable": "voidbeastguardian",
       "locations": [
         "21.19,25.05,116.96",
         "67.42,19.57,-135.21"

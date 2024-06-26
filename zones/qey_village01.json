@@ -1,10 +1,13 @@
 {
   "name": "Nettleville",
-  "name_sortable": "nettleville",
+  "removed": "lu64",
   "category": "Villages",
   "subcategory": "Qeynos",
-  "removed": "lu64",
-  "zonerect": "-884.86,153.19,-403.20,513.58",
+  "maps": [
+    {
+      "zonerect": "-884.86,153.19,-403.20,513.58"
+    }
+  ],
   "connections": [
     {
       "key": "qey_adv04_bog",
@@ -32,7 +35,6 @@
   "npcs": [
     {
       "name": "Ajarn",
-      "name_sortable": "ajarn",
       "race": [
         "kerran"
       ],
@@ -50,7 +52,6 @@
     },
     {
       "name": "Aldin Dunwick",
-      "name_sortable": "aldindunwick",
       "race": [
         "human"
       ],
@@ -67,7 +68,6 @@
     },
     {
       "name": "Amazu Kharliko",
-      "name_sortable": "amazukharliko",
       "race": [
         "kerran"
       ],
@@ -83,7 +83,6 @@
     },
     {
       "name": "Bahati Linnxar",
-      "name_sortable": "bahatilinnxar",
       "race": [
         "kerran"
       ],
@@ -99,7 +98,6 @@
     },
     {
       "name": "Barika Ijumaa",
-      "name_sortable": "barikaijumaa",
       "race": [
         "kerran"
       ],
@@ -129,7 +127,6 @@
     },
     {
       "name": "Barmaid Lolla Cotgrove",
-      "name_sortable": "barmaidlollacotgrove",
       "race": [
         "human"
       ],
@@ -150,7 +147,6 @@
     },
     {
       "name": "Bowyer Fesante",
-      "name_sortable": "bowyerfesante",
       "race": [
         "kerran"
       ],
@@ -168,7 +164,6 @@
     },
     {
       "name": "Caroline Copperstone",
-      "name_sortable": "carolinecopperstone",
       "race": [
         "human"
       ],
@@ -182,7 +177,6 @@
     },
     {
       "name": "Caryn Swell",
-      "name_sortable": "carynswell",
       "race": [
         "human"
       ],
@@ -201,7 +195,6 @@
     },
     {
       "name": "Cayless Chambers",
-      "name_sortable": "caylesschambers",
       "race": [
         "human"
       ],
@@ -219,7 +212,6 @@
     },
     {
       "name": "Constable Arathur",
-      "name_sortable": "constablearathur",
       "race": [
         "half elf"
       ],
@@ -235,7 +227,6 @@
     },
     {
       "name": "Darian Wells",
-      "name_sortable": "darianwells",
       "race": [
         "human"
       ],
@@ -254,7 +245,6 @@
     },
     {
       "name": "Dirk Vagrin",
-      "name_sortable": "dirkvagrin",
       "race": [
         "human"
       ],
@@ -272,7 +262,6 @@
     },
     {
       "name": "Ehuraa Rotherham",
-      "name_sortable": "ehuraarotherham",
       "race": [
         "human"
       ],
@@ -291,7 +280,6 @@
     },
     {
       "name": "Fallsworth",
-      "name_sortable": "fallsworth",
       "race": [
         "human"
       ],
@@ -319,7 +307,6 @@
     },
     {
       "name": "Foster Graham",
-      "name_sortable": "fostergraham",
       "race": [
         "human"
       ],
@@ -338,7 +325,6 @@
     },
     {
       "name": "Friar Montego",
-      "name_sortable": "friarmontego",
       "race": [
         "halfling"
       ],
@@ -366,7 +352,6 @@
     },
     {
       "name": "Garion Dunam",
-      "name_sortable": "gariondunam",
       "race": [
         "human"
       ],
@@ -384,7 +369,6 @@
     },
     {
       "name": "Gunta",
-      "name_sortable": "gunta",
       "race": [
         "human"
       ],
@@ -401,7 +385,6 @@
     },
     {
       "name": "Innkeeper Baily Dowden",
-      "name_sortable": "innkeeperbailydowden",
       "race": [
         "human"
       ],
@@ -444,7 +427,6 @@
     },
     {
       "name": "Johfrit Gythell",
-      "name_sortable": "johfritgythell",
       "race": [
         "human"
       ],
@@ -460,7 +442,6 @@
     },
     {
       "name": "Karrie Clayton",
-      "name_sortable": "karrieclayton",
       "race": [
         "human"
       ],
@@ -476,7 +457,6 @@
     },
     {
       "name": "Kathey Brewsher",
-      "name_sortable": "katheybrewsher",
       "race": [
         "human"
       ],
@@ -497,7 +477,6 @@
     },
     {
       "name": "Knight-Captain Elgrondeth",
-      "name_sortable": "knightcaptainelgrondeth",
       "race": [
         "human"
       ],
@@ -514,7 +493,6 @@
     },
     {
       "name": "Knight-Captain Hastings",
-      "name_sortable": "knightcaptainhastings",
       "race": [
         "human"
       ],
@@ -528,7 +506,6 @@
     },
     {
       "name": "Kumbufu Ari",
-      "name_sortable": "kumbufuari",
       "race": [
         "kerran"
       ],
@@ -546,7 +523,6 @@
     },
     {
       "name": "Lakosha Maera",
-      "name_sortable": "lakoshamaera",
       "race": [
         "kerran"
       ],
@@ -563,7 +539,6 @@
     },
     {
       "name": "Laudine Shardalow",
-      "name_sortable": "laudineshardalow",
       "race": [
         "human"
       ],
@@ -579,7 +554,6 @@
     },
     {
       "name": "Logan MacAdie",
-      "name_sortable": "loganmacadie",
       "race": [
         "barbarian"
       ],
@@ -598,7 +572,6 @@
     },
     {
       "name": "Marjani Kenan",
-      "name_sortable": "marjanikenan",
       "race": [
         "kerran"
       ],
@@ -614,7 +587,6 @@
     },
     {
       "name": "Nawal Tahri",
-      "name_sortable": "nawaltahri",
       "race": [
         "kerran"
       ],
@@ -632,7 +604,6 @@
     },
     {
       "name": "Nia Jaja",
-      "name_sortable": "niajaja",
       "race": [
         "kerran"
       ],
@@ -645,7 +616,6 @@
     },
     {
       "name": "a rat",
-      "name_sortable": "rat",
       "locations": [
         "580.56,-20.32,317.69",
         "583.47,-26.86,385.00",
@@ -662,7 +632,6 @@
     },
     {
       "name": "Spiritist Laharn Rahai",
-      "name_sortable": "spiritistlaharnrahai",
       "race": [
         "kerran"
       ],
@@ -678,7 +647,6 @@
     },
     {
       "name": "a stone scrabbler",
-      "name_sortable": "stonescrabbler",
       "locations": [
         "684.03,-24.79,358.25",
         "681.32,-22.12,342.71"
@@ -686,7 +654,6 @@
     },
     {
       "name": "Varion Smitelin",
-      "name_sortable": "varionsmitelin",
       "race": [
         "human"
       ],
@@ -715,7 +682,6 @@
     },
     {
       "name": "Verth",
-      "name_sortable": "verth",
       "race": [
         "human"
       ],
@@ -731,7 +697,6 @@
     },
     {
       "name": "Vida Sweeps",
-      "name_sortable": "vidasweeps",
       "race": [
         "human"
       ],
@@ -750,7 +715,6 @@
     },
     {
       "name": "Willim Barclay",
-      "name_sortable": "willimbarclay",
       "race": [
         "human"
       ],

@@ -1,6 +1,5 @@
 {
   "name": "The Graveyard",
-  "name_sortable": "graveyard",
   "category": "D'Lere",
   "levels": "5-10",
   "connections": [
@@ -22,18 +21,15 @@
   "npcs": [
     {
       "name": "The Bonewatcher",
-      "name_sortable": "bonewatcher",
       "faction_changes": [
         {
           "name": "The Academy of Arcane Science",
-          "name_sortable": "academyofarcanescience",
           "value": -100
         }
       ]
     },
     {
       "name": "a boneyard watcher",
-      "name_sortable": "boneyardwatcher",
       "purpose": "Academy of Arcane Sciences",
       "level": 8,
       "locations": [
@@ -43,14 +39,12 @@
       "faction_changes": [
         {
           "name": "The Academy of Arcane Science",
-          "name_sortable": "academyofarcanescience",
           "value": -100
         }
       ]
     },
     {
       "name": "a brittle skeleton",
-      "name_sortable": "brittleskeleton",
       "level": 3,
       "locations": [
         "-76.14,-13.22,95.62",
@@ -96,12 +90,10 @@
     },
     {
       "name": "a contagious rat",
-      "name_sortable": "contagiousrat",
       "level": 4
     },
     {
       "name": "a crumbling skeleton",
-      "name_sortable": "crumblingskeleton",
       "level": 4,
       "locations": [
         "-82.43,-13.45,82.24",
@@ -139,7 +131,6 @@
     },
     {
       "name": "Custodian Zaddar Sullissia",
-      "name_sortable": "custodianzaddarsullissia",
       "locations": [
         "-73.33,-13.05,107.51"
       ],
@@ -242,7 +233,6 @@
     },
     {
       "name": "a dread spider",
-      "name_sortable": "dreadspider",
       "level": 8,
       "locations": [
         "67.72,-0.24,87.81",
@@ -260,7 +250,6 @@
     },
     {
       "name": "a durable skeleton",
-      "name_sortable": "durableskeleton",
       "level": 5,
       "locations": [
         "-16.84,-8.50,72.43",
@@ -283,7 +272,6 @@
     },
     {
       "name": "Durkix Kizzkin",
-      "name_sortable": "durkixkizzkin",
       "locations": [
         "-94.68,-15.66,-96.15"
       ],
@@ -301,14 +289,12 @@
     },
     {
       "name": "an Ethernere caretaker",
-      "name_sortable": "ethernerecaretaker",
       "utterances": [
         "Be gone! I have work to do."
       ]
     },
     {
       "name": "an Ethernere defender",
-      "name_sortable": "etherneredefender",
       "purpose": "Academy of Arcane Sciences",
       "level": 11,
       "difficulty": "heroic",
@@ -322,7 +308,6 @@
     },
     {
       "name": "an Ethernere guard",
-      "name_sortable": "ethernereguard",
       "level": 10,
       "locations": [
         "-19.67,-8.60,84.47",
@@ -347,14 +332,12 @@
       "faction_changes": [
         {
           "name": "The Academy of Arcane Science",
-          "name_sortable": "academyofarcanescience",
           "value": -100
         }
       ]
     },
     {
       "name": "an Ethernere undertaker",
-      "name_sortable": "ethernereundertaker",
       "purpose": "Academy of Arcane Sciences",
       "level": 11,
       "difficulty": "heroic",
@@ -367,7 +350,6 @@
     },
     {
       "name": "a fearsome spider",
-      "name_sortable": "fearsomespider",
       "level": 7,
       "locations": [
         "-3.24,-7.39,87.86",
@@ -385,7 +367,6 @@
     },
     {
       "name": "a fiendish ghoul",
-      "name_sortable": "fiendishghoul",
       "level": 11,
       "locations": [
         "10.31,-6.13,36.69",
@@ -423,7 +404,6 @@
     },
     {
       "name": "Guard Detlev",
-      "name_sortable": "guarddetlev",
       "locations": [
         "90.18,-1.67,26.14"
       ],
@@ -433,7 +413,6 @@
     },
     {
       "name": "Guard Kludd",
-      "name_sortable": "guardkludd",
       "locations": [
         "88.9,-1.68,25.94"
       ],
@@ -443,7 +422,6 @@
     },
     {
       "name": "Guard L'Sek",
-      "name_sortable": "guardlsek",
       "utterances": [
         "Turn around, this way is closed by order of the Overlord.",
         "This way is closed by order of the Overlord! "
@@ -451,7 +429,6 @@
     },
     {
       "name": "Guard T'Crit",
-      "name_sortable": "guardtcrit",
       "utterances": [
         "This way is closed by order of the Overlord! ",
         "Turn around, this way is closed by order of the Overlord."
@@ -459,7 +436,6 @@
     },
     {
       "name": "Hangman San'toth",
-      "name_sortable": "hangmansantoth",
       "locations": [
         "37.46,0.01,-2.08"
       ],
@@ -469,7 +445,6 @@
     },
     {
       "name": "The Keeper of Ethernere",
-      "name_sortable": "keeperofethernere",
       "purpose": "Academy of Arcane Sciences",
       "level": 11,
       "difficulty": "heroic",
@@ -482,7 +457,6 @@
     },
     {
       "name": "Keeper Varacus T`Kur",
-      "name_sortable": "keepervaracustkur",
       "purpose": "Academy of Arcane Sciences",
       "locations": [
         "90.9,-1.65,96.8"
@@ -501,7 +475,6 @@
     },
     {
       "name": "a novice graverobber",
-      "name_sortable": "novicegraverobber",
       "level": 7,
       "utterances": [
         "Greetings friend, how would you like to die?",
@@ -521,7 +494,6 @@
     },
     {
       "name": "a plague rat",
-      "name_sortable": "plaguerat",
       "level": 6,
       "locations": [
         "-45.76,-10.19,52.39",
@@ -544,7 +516,6 @@
     },
     {
       "name": "a putrid zombie",
-      "name_sortable": "putridzombie",
       "level": 8,
       "locations": [
         "41.86,-3.56,91.40",
@@ -554,7 +525,6 @@
     },
     {
       "name": "a rotting zombie",
-      "name_sortable": "rottingzombie",
       "level": 5,
       "locations": [
         "-10.04,-7.94,-53.99",
@@ -569,7 +539,6 @@
     },
     {
       "name": "R'Tok",
-      "name_sortable": "rtok",
       "purpose": "Merchant",
       "locations": [
         "-85.29,-13.44,121.24"
@@ -745,7 +714,6 @@
     },
     {
       "name": "a scourge bat",
-      "name_sortable": "scourgebat",
       "level": 7,
       "locations": [
         "-16.52,-8.35,81.80",
@@ -769,7 +737,6 @@
     },
     {
       "name": "a scourge rat",
-      "name_sortable": "scourgerat",
       "level": 8,
       "locations": [
         "50.42,-2.88,-84.04",
@@ -791,7 +758,6 @@
     },
     {
       "name": "Sir Ackmin",
-      "name_sortable": "sirackmin",
       "locations": [
         "-35.32,-10.62,-35.43",
         "5.28,-6.85,4.87"
@@ -799,7 +765,6 @@
     },
     {
       "name": "Sir Haligan",
-      "name_sortable": "sirhaligan",
       "drops": [
         {
           "gamelink": "\\aITEM -1460452271 877485774:Blade of the Traitor\\/a",
@@ -809,7 +774,6 @@
     },
     {
       "name": "Sir Haligan, Captain of the Knights of Truth",
-      "name_sortable": "sirhaligancaptainoftheknightsoftruth",
       "locations": [
         "-76.36,-15.53,20.11"
       ],
@@ -822,7 +786,6 @@
     },
     {
       "name": "Sir Ollin",
-      "name_sortable": "sirollin",
       "utterances": [
         "Seek death and it finds you.",
         "I'm shattered and broken.",
@@ -837,14 +800,12 @@
       "faction_changes": [
         {
           "name": "The Spirits of Marr",
-          "name_sortable": "spiritsofmarr",
           "value": -100
         }
       ]
     },
     {
       "name": "Sir Penan",
-      "name_sortable": "sirpenan",
       "utterances": [
         "Your blood calls to me.",
         "Final death comes at last."
@@ -852,14 +813,12 @@
       "faction_changes": [
         {
           "name": "The Spirits of Marr",
-          "name_sortable": "spiritsofmarr",
           "value": -100
         }
       ]
     },
     {
       "name": "Sir Xantille",
-      "name_sortable": "sirxantille",
       "level": 9,
       "difficulty": "heroic",
       "locations": [
@@ -887,14 +846,12 @@
       "faction_changes": [
         {
           "name": "The Spirits of Marr",
-          "name_sortable": "spiritsofmarr",
           "value": -100
         }
       ]
     },
     {
       "name": "a small spider",
-      "name_sortable": "smallspider",
       "level": 3,
       "locations": [
         "-94.95,-11.69,100.93",
@@ -912,7 +869,6 @@
     },
     {
       "name": "an undead battlepriest",
-      "name_sortable": "undeadbattlepriest",
       "level": 6,
       "locations": [
         "-51.02,-11.52,54.23",
@@ -959,14 +915,12 @@
       "faction_changes": [
         {
           "name": "The Spirits of Marr",
-          "name_sortable": "spiritsofmarr",
           "value": -100
         }
       ]
     },
     {
       "name": "an undead crusader",
-      "name_sortable": "undeadcrusader",
       "level": 8,
       "locations": [
         "73.95,-1.93,119.56",
@@ -989,14 +943,12 @@
       "faction_changes": [
         {
           "name": "The Spirits of Marr",
-          "name_sortable": "spiritsofmarr",
           "value": -100
         }
       ]
     },
     {
       "name": "an undead fighter",
-      "name_sortable": "undeadfighter",
       "level": 6,
       "locations": [
         "-46.41,-11.33,-21.11",
@@ -1045,14 +997,12 @@
       "faction_changes": [
         {
           "name": "The Spirits of Marr",
-          "name_sortable": "spiritsofmarr",
           "value": -100
         }
       ]
     },
     {
       "name": "an undead knight",
-      "name_sortable": "undeadknight",
       "level": 9,
       "locations": [
         "67.32,-1.98,80.50",
@@ -1086,14 +1036,12 @@
       "faction_changes": [
         {
           "name": "The Spirits of Marr",
-          "name_sortable": "spiritsofmarr",
           "value": -100
         }
       ]
     },
     {
       "name": "an undead lancer",
-      "name_sortable": "undeadlancer",
       "level": 9,
       "locations": [
         "35.17,-4.00,85.05",
@@ -1129,14 +1077,12 @@
       "faction_changes": [
         {
           "name": "The Spirits of Marr",
-          "name_sortable": "spiritsofmarr",
           "value": -100
         }
       ]
     },
     {
       "name": "an undead pikeman",
-      "name_sortable": "undeadpikeman",
       "level": 5,
       "locations": [
         "-16.39,-8.28,85.90",
@@ -1170,14 +1116,12 @@
       "faction_changes": [
         {
           "name": "The Spirits of Marr",
-          "name_sortable": "spiritsofmarr",
           "value": -100
         }
       ]
     },
     {
       "name": "an undead priest",
-      "name_sortable": "undeadpriest",
       "level": 8,
       "locations": [
         "37.10,-3.87,89.50",
@@ -1200,14 +1144,12 @@
       "faction_changes": [
         {
           "name": "The Spirits of Marr",
-          "name_sortable": "spiritsofmarr",
           "value": -100
         }
       ]
     },
     {
       "name": "an undead squire",
-      "name_sortable": "undeadsquire",
       "level": 6,
       "locations": [
         "-10.36,-7.93,95.21",
@@ -1244,14 +1186,12 @@
       "faction_changes": [
         {
           "name": "The Spirits of Marr",
-          "name_sortable": "spiritsofmarr",
           "value": -100
         }
       ]
     },
     {
       "name": "Volusa Tuditania",
-      "name_sortable": "volusatuditania",
       "locations": [
         "87.07,-1.71,24.2"
       ],
@@ -1261,7 +1201,6 @@
     },
     {
       "name": "a wooly spider",
-      "name_sortable": "woolyspider",
       "level": 4,
       "locations": [
         "-95.61,-12.05,93.44",
@@ -1286,7 +1225,6 @@
     },
     {
       "name": "Zekvila Dizelk",
-      "name_sortable": "zekviladizelk",
       "locations": [
         "88.31,-1.75,90.67"
       ],
@@ -1343,28 +1281,22 @@
   ],
   "resourceNodes": [
     {
-      "name": "the creature den",
-      "name_sortable": "creatureden"
+      "name": "the creature den"
     },
     {
-      "name": "the dismal ore",
-      "name_sortable": "dismalore"
+      "name": "the dismal ore"
     },
     {
-      "name": "the exhumed stones",
-      "name_sortable": "exhumedstones"
+      "name": "the exhumed stones"
     },
     {
-      "name": "the moldy roots",
-      "name_sortable": "moldyroots"
+      "name": "the moldy roots"
     },
     {
-      "name": "the ravaged natural garden",
-      "name_sortable": "ravagednaturalgarden"
+      "name": "the ravaged natural garden"
     },
     {
-      "name": "the withered arbor",
-      "name_sortable": "witheredarbor"
+      "name": "the withered arbor"
     }
   ]
 }

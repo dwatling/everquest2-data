@@ -1,14 +1,16 @@
 {
   "name": "Freeport South",
-  "name_sortable": "freeportsouth",
   "removed": "lu62",
   "category": "Cities",
   "subcategory": "Freeport",
-  "zonerect": "-188.17,40.52,360.64,449.48",
+  "maps": [
+    {
+      "zonerect": "-188.17,40.52,360.64,449.48"
+    }
+  ],
   "npcs": [
     {
       "name": "Agamennus",
-      "name_sortable": "agamennus",
       "race": [
         "human"
       ],
@@ -25,7 +27,6 @@
     },
     {
       "name": "Aldrevia Metilla",
-      "name_sortable": "aldreviametilla",
       "race": [
         "human"
       ],
@@ -43,7 +44,6 @@
     },
     {
       "name": "Alexandria Tal`Azroth",
-      "name_sortable": "alexandriatalazroth",
       "race": [
         "human"
       ],
@@ -59,7 +59,6 @@
     },
     {
       "name": "Amandio Sepunius",
-      "name_sortable": "amandiosepunius",
       "race": [
         "human"
       ],
@@ -77,7 +76,6 @@
     },
     {
       "name": "Annia Kaeso",
-      "name_sortable": "anniakaeso",
       "race": [
         "human"
       ],
@@ -95,7 +93,6 @@
     },
     {
       "name": "Apollonia Vibenius ",
-      "name_sortable": "apolloniavibenius",
       "race": [
         "human"
       ],
@@ -111,7 +108,6 @@
     },
     {
       "name": "Bassam",
-      "name_sortable": "bassam",
       "race": [
         "erudite"
       ],
@@ -129,14 +125,12 @@
     },
     {
       "name": "Buccio",
-      "name_sortable": "buccio",
       "locations": [
         "-47.91,-8.26,195.89"
       ]
     },
     {
       "name": "Caius Brucci",
-      "name_sortable": "caiusbrucci",
       "race": [
         "human"
       ],
@@ -154,7 +148,6 @@
     },
     {
       "name": "Caraw Slivermoon",
-      "name_sortable": "carawslivermoon",
       "race": [
         "kerran"
       ],
@@ -171,7 +164,6 @@
     },
     {
       "name": "Clara Maius",
-      "name_sortable": "claramaius",
       "race": [
         "human"
       ],
@@ -187,7 +179,6 @@
     },
     {
       "name": "Clodia Laeca",
-      "name_sortable": "clodialaeca",
       "race": [
         "human"
       ],
@@ -205,7 +196,6 @@
     },
     {
       "name": "Corporal Henk Rimebreaker",
-      "name_sortable": "corporalhenkrimebreaker",
       "race": [
         "barbarian"
       ],
@@ -220,7 +210,6 @@
     },
     {
       "name": "Crilt Browbeat",
-      "name_sortable": "criltbrowbeat",
       "race": [
         "ogre"
       ],
@@ -239,7 +228,6 @@
     },
     {
       "name": "a curious cat",
-      "name_sortable": "curiouscat",
       "locations": [
         "-127.14,-30.24,239.46",
         "-125.7,-30.24,231.52"
@@ -247,7 +235,6 @@
     },
     {
       "name": "Diometria Oppius",
-      "name_sortable": "diometriaoppius",
       "race": [
         "human"
       ],
@@ -264,7 +251,6 @@
     },
     {
       "name": "Elona Shawnasy",
-      "name_sortable": "elonashawnasy",
       "race": [
         "barbarian"
       ],
@@ -285,7 +271,6 @@
     },
     {
       "name": "Ghadah",
-      "name_sortable": "ghadah",
       "race": [
         "erudite"
       ],
@@ -302,7 +287,6 @@
     },
     {
       "name": "Glycon Duronius",
-      "name_sortable": "glyconduronius",
       "race": [
         "gnome"
       ],
@@ -320,7 +304,6 @@
     },
     {
       "name": "Haggler Verinus",
-      "name_sortable": "hagglerverinus",
       "race": [
         "gnome"
       ],
@@ -347,7 +330,6 @@
     },
     {
       "name": "Hrenga Heartcrush",
-      "name_sortable": "hrengaheartcrush",
       "race": [
         "troll"
       ],
@@ -363,7 +345,6 @@
     },
     {
       "name": "Jetsam Anchorwash",
-      "name_sortable": "jetsamanchorwash",
       "race": [
         "human"
       ],
@@ -379,7 +360,6 @@
     },
     {
       "name": "Lathergust",
-      "name_sortable": "lathergust",
       "race": [
         "human"
       ],
@@ -395,7 +375,6 @@
     },
     {
       "name": "Lavic N'Gam",
-      "name_sortable": "lavicngam",
       "race": [
         "dark elf"
       ],
@@ -413,7 +392,6 @@
     },
     {
       "name": "Lucilla Quietus",
-      "name_sortable": "lucillaquietus",
       "race": [
         "human"
       ],
@@ -431,7 +409,6 @@
     },
     {
       "name": "Mac Windstreaker",
-      "name_sortable": "macwindstreaker",
       "race": [
         "barbarian"
       ],
@@ -448,7 +425,6 @@
     },
     {
       "name": "Nipius Malchus",
-      "name_sortable": "nipiusmalchus",
       "race": [
         "human"
       ],
@@ -466,7 +442,6 @@
     },
     {
       "name": "Pamoja",
-      "name_sortable": "pamoja",
       "race": [
         "kerran"
       ],
@@ -486,7 +461,6 @@
     },
     {
       "name": "Pavel",
-      "name_sortable": "pavel",
       "race": [
         "ratonga"
       ],
@@ -508,7 +482,6 @@
     },
     {
       "name": "Razor",
-      "name_sortable": "razor",
       "locations": [
         "-151.26,-30.26,229.02",
         "-163.71,-28.97,233.62"
@@ -516,7 +489,6 @@
     },
     {
       "name": "Sasha",
-      "name_sortable": "sasha",
       "race": [
         "ratonga"
       ],
@@ -534,7 +506,6 @@
     },
     {
       "name": "Sergeant Nominus",
-      "name_sortable": "sergeantnominus",
       "race": [
         "human"
       ],
@@ -551,7 +522,6 @@
     },
     {
       "name": "Sidonius Baro",
-      "name_sortable": "sidoniusbaro",
       "race": [
         "human"
       ],
@@ -570,7 +540,6 @@
     },
     {
       "name": "Taba Curhunter",
-      "name_sortable": "tabacurhunter",
       "race": [
         "gnome"
       ],
@@ -587,14 +556,12 @@
     },
     {
       "name": "Trophimus",
-      "name_sortable": "trophimus",
       "locations": [
         "-47.91,-8.26,195.89"
       ]
     },
     {
       "name": "Urak Eyegouge",
-      "name_sortable": "urakeyegouge",
       "race": [
         "troll"
       ],
@@ -612,7 +579,6 @@
     },
     {
       "name": "Valokis",
-      "name_sortable": "valokis",
       "race": [
         "human"
       ],
@@ -630,7 +596,6 @@
     },
     {
       "name": "Vlenka Nightstalker",
-      "name_sortable": "vlenkanightstalker",
       "race": [
         "dark elf"
       ],
@@ -648,7 +613,6 @@
     },
     {
       "name": "Voula Redeye",
-      "name_sortable": "voularedeye",
       "race": [
         "ogre"
       ],

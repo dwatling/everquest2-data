@@ -1,15 +1,17 @@
 {
   "name": "Cobalt Scar",
-  "name_sortable": "cobaltscar",
   "expansion": "exp08",
   "category": "Velious",
   "description": "The ancestral home of the othmir, and the staging ground for Kerafyrm's onslaught of Skyshrine. Determined to be reunited with their long separated clan members, othmir pilgrims have accompanied a supply train headed to Scarstone, the newly constructed New Combine fort.",
-  "zonerect": "-6639.00,-584.00,-2129.00,2793.00",
   "levels": "95-100",
+  "maps": [
+    {
+      "zonerect": "-6639.00,-584.00,-2129.00,2793.00"
+    }
+  ],
   "npcs": [
     {
       "name": "a Combine factotum",
-      "name_sortable": "combinefactotum",
       "locations": [
         "4376.31,-821.45,386.93",
         "4329.63,-820.93,359.24",
@@ -20,7 +22,6 @@
     },
     {
       "name": "a Combine guard",
-      "name_sortable": "combineguard",
       "locations": [
         "4379.34,-821.13,334.98"
       ],
@@ -31,21 +32,18 @@
     },
     {
       "name": "Felina Purriss",
-      "name_sortable": "felinapurriss",
       "locations": [
         "4367.61,-821.29,380.64"
       ]
     },
     {
       "name": "Horc",
-      "name_sortable": "horc",
       "locations": [
         "4371.09,-821.3,380.05"
       ]
     },
     {
       "name": "Kssshi",
-      "name_sortable": "kssshi",
       "locations": [
         "4352.35,-821.33,301.15"
       ],

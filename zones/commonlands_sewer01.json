@@ -1,12 +1,15 @@
 {
   "name": "Gobblerock's Hideout",
-  "name_sortable": "gobblerockshideout",
   "category": "Dungeons",
   "subcategory": "Group",
-  "zonerect": "-20.00,-200.00,290.00,164.00",
   "levels": "25-40",
   "access_quests": [
     2828355062
+  ],
+  "maps": [
+    {
+      "zonerect": "-20.00,-200.00,290.00,164.00"
+    }
   ],
   "connections": [
     {
@@ -16,7 +19,6 @@
   "npcs": [
     {
       "name": "Boss Gobblerock",
-      "name_sortable": "bossgobblerock",
       "level": 30,
       "difficulty": "heroic^^^",
       "locations": [
@@ -25,7 +27,6 @@
     },
     {
       "name": "Cookie",
-      "name_sortable": "cookie",
       "level": 29,
       "difficulty": "heroic^^^",
       "locations": [
@@ -35,7 +36,6 @@
     },
     {
       "name": "The Gobbler",
-      "name_sortable": "gobbler",
       "level": 33,
       "difficulty": "heroic^^^",
       "locations": [
@@ -44,7 +44,6 @@
     },
     {
       "name": "Gobblerock brute",
-      "name_sortable": "gobblerockbrute",
       "level": 27,
       "difficulty": "heroic^^^",
       "locations": [
@@ -92,7 +91,6 @@
     },
     {
       "name": "Gobblerock butcher",
-      "name_sortable": "gobblerockbutcher",
       "level": 27,
       "difficulty": "heroic^^^",
       "locations": [
@@ -133,7 +131,6 @@
     },
     {
       "name": "Gobblerock grunt",
-      "name_sortable": "gobblerockgrunt",
       "level": 27,
       "difficulty": "heroic^^^",
       "locations": [
@@ -174,7 +171,6 @@
     },
     {
       "name": "Gobblerock haruspex",
-      "name_sortable": "gobblerockharuspex",
       "level": 27,
       "difficulty": "heroic^^^",
       "locations": [
@@ -195,7 +191,6 @@
     },
     {
       "name": "Gobblerock hooligan",
-      "name_sortable": "gobblerockhooligan",
       "level": 27,
       "difficulty": "heroic^^^",
       "locations": [
@@ -236,7 +231,6 @@
     },
     {
       "name": "Gobblerock prophet",
-      "name_sortable": "gobblerockprophet",
       "level": 27,
       "difficulty": "heroic^^^",
       "locations": [
@@ -265,7 +259,6 @@
     },
     {
       "name": "Gobblerock shaman",
-      "name_sortable": "gobblerockshaman",
       "level": 27,
       "difficulty": "heroic^^^",
       "locations": [
@@ -292,7 +285,6 @@
     },
     {
       "name": "Gobblerock swindler",
-      "name_sortable": "gobblerockswindler",
       "level": 27,
       "difficulty": "heroic^^^",
       "locations": [
@@ -335,7 +327,6 @@
     },
     {
       "name": "Gobblerock trickster",
-      "name_sortable": "gobblerocktrickster",
       "level": 27,
       "difficulty": "heroic^^^",
       "locations": [
@@ -368,7 +359,6 @@
     },
     {
       "name": "Gugrut",
-      "name_sortable": "gugrut",
       "level": 28,
       "difficulty": "heroic^^^",
       "locations": [
@@ -377,7 +367,6 @@
     },
     {
       "name": "Lieutenant Charg",
-      "name_sortable": "lieutenantcharg",
       "level": 29,
       "difficulty": "heroic^^^",
       "locations": [
@@ -386,7 +375,6 @@
     },
     {
       "name": "a trained slug",
-      "name_sortable": "trainedslug",
       "level": 28,
       "locations": [
         "36.91,0.00,-1.90",
@@ -409,7 +397,6 @@
     },
     {
       "name": "Trainer Mukluk",
-      "name_sortable": "trainermukluk",
       "level": 29,
       "difficulty": "heroic^^^",
       "locations": [

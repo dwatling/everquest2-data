@@ -1,6 +1,5 @@
 {
   "name": "The Ruins",
-  "name_sortable": "ruins",
   "category": "D'Lere",
   "levels": "10-15",
   "connections": [
@@ -11,7 +10,6 @@
   "npcs": [
     {
       "name": "an anchor grappler",
-      "name_sortable": "anchorgrappler",
       "locations": [
         "-196.48,-13.51,87.26"
       ],
@@ -24,7 +22,6 @@
     },
     {
       "name": "Arms Dealer Nylzs",
-      "name_sortable": "armsdealernylzs",
       "race": [
         "iksar"
       ],
@@ -62,7 +59,6 @@
     },
     {
       "name": "a Brokentusk crusher",
-      "name_sortable": "brokentuskcrusher",
       "level": 13,
       "locations": [
         "-74.27,-0.99,75.45",
@@ -94,14 +90,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Brokentusk guard",
-      "name_sortable": "brokentuskguard",
       "level": 11,
       "locations": [
         "-68.59,-2.77,32.16",
@@ -144,14 +138,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Brokentusk overseer",
-      "name_sortable": "brokentuskoverseer",
       "level": 14,
       "difficulty": "heroic",
       "locations": [
@@ -177,14 +169,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Brokentusk pawn",
-      "name_sortable": "brokentuskpawn",
       "purpose": "9",
       "locations": [
         "-121.43,2.03,112.40",
@@ -305,14 +295,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Brokentusk pounder",
-      "name_sortable": "brokentuskpounder",
       "level": 13,
       "locations": [
         "-61.02,-2.71,12.92",
@@ -328,14 +316,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Brokentusk prophet",
-      "name_sortable": "brokentuskprophet",
       "level": 14,
       "locations": [
         "-64.11,-0.99,67.75",
@@ -388,14 +374,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Brokentusk sentry",
-      "name_sortable": "brokentusksentry",
       "locations": [
         "-64.96,-2.80,23.51",
         "-71.44,-2.87,10.77",
@@ -425,14 +409,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Brokentusk shaman",
-      "name_sortable": "brokentuskshaman",
       "level": 13,
       "locations": [
         "-93.11,-2.48,-3.79",
@@ -451,14 +433,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Brokentusk warrior",
-      "name_sortable": "brokentuskwarrior",
       "level": 14,
       "locations": [
         "-34.65,-2.24,82.53",
@@ -488,14 +468,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Captain Arellius",
-      "name_sortable": "captainarellius",
       "race": [
         "human"
       ],
@@ -549,14 +527,12 @@
     },
     {
       "name": "a captured Lonetusk",
-      "name_sortable": "capturedlonetusk",
       "locations": [
         "15.32,-3.27,74.76"
       ]
     },
     {
       "name": "a courageous defender",
-      "name_sortable": "courageousdefender",
       "race": [
         "half elf",
         "human",
@@ -588,7 +564,6 @@
     },
     {
       "name": "Ernest Ironthumb",
-      "name_sortable": "ernestironthumb",
       "race": [
         "human"
       ],
@@ -612,7 +587,6 @@
     },
     {
       "name": "Fangtarn",
-      "name_sortable": "fangtarn",
       "race": [
         "ogre"
       ],
@@ -634,7 +608,6 @@
     },
     {
       "name": "General Lonetusk",
-      "name_sortable": "generallonetusk",
       "level": 18,
       "difficulty": "heroic^^^",
       "locations": [
@@ -643,14 +616,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a harried vagrant squatter",
-      "name_sortable": "harriedvagrantsquatter",
       "locations": [
         "-135.77,-2.46,6.61"
       ],
@@ -659,7 +630,6 @@
     },
     {
       "name": "Lieutenant Argosian",
-      "name_sortable": "lieutenantargosian",
       "race": [
         "human"
       ],
@@ -707,7 +677,6 @@
     },
     {
       "name": "Lieutenant Imperidus",
-      "name_sortable": "lieutenantimperidus",
       "purpose": "Freeport Militia",
       "locations": [
         "-23.75,-4.42,104.86"
@@ -728,7 +697,6 @@
     },
     {
       "name": "a Lonetusk Bloodseer",
-      "name_sortable": "lonetuskbloodseer",
       "level": 18,
       "locations": [
         "-58.32,-2.67,158.86"
@@ -742,14 +710,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Lonetusk champion",
-      "name_sortable": "lonetuskchampion",
       "level": 16,
       "locations": [
         "-20.56,-4.36,175.33",
@@ -768,14 +734,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Lonetusk crusher",
-      "name_sortable": "lonetuskcrusher",
       "level": 15,
       "difficulty": "heroic^^",
       "locations": [
@@ -797,14 +761,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Lonetusk pounder",
-      "name_sortable": "lonetuskpounder",
       "level": 14,
       "difficulty": "heroic^^",
       "locations": [
@@ -830,14 +792,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Lonetusk prophet",
-      "name_sortable": "lonetuskprophet",
       "level": 15,
       "difficulty": "heroic^^",
       "locations": [
@@ -865,14 +825,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Lonetusk sentry",
-      "name_sortable": "lonetusksentry",
       "level": 14,
       "difficulty": "heroic^^^",
       "locations": [
@@ -916,14 +874,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Lonetusk shaman",
-      "name_sortable": "lonetuskshaman",
       "level": 14,
       "difficulty": "heroic^^",
       "locations": [
@@ -939,14 +895,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a Lonetusk warrior",
-      "name_sortable": "lonetuskwarrior",
       "level": 145,
       "difficulty": "heroic^^",
       "locations": [
@@ -977,14 +931,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Mardyp Prunt",
-      "name_sortable": "mardypprunt",
       "race": [
         "troll"
       ],
@@ -1008,7 +960,6 @@
     },
     {
       "name": "Pitrova",
-      "name_sortable": "pitrova",
       "race": [
         "ratonga"
       ],
@@ -1029,7 +980,6 @@
     },
     {
       "name": "a prisoner guard",
-      "name_sortable": "prisonerguard",
       "level": 14,
       "difficulty": "heroic^^",
       "locations": [
@@ -1038,7 +988,6 @@
     },
     {
       "name": "a Rujarkian advisor",
-      "name_sortable": "rujarkianadvisor",
       "level": 16,
       "difficulty": "heroic^^^",
       "locations": [
@@ -1049,14 +998,12 @@
       "faction_changes": [
         {
           "name": "The Rujarkian Orcs",
-          "name_sortable": "rujarkianorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "a seasoned defender",
-      "name_sortable": "seasoneddefender",
       "level": 15,
       "difficulty": "heroic^^",
       "locations": [
@@ -1078,7 +1025,6 @@
     },
     {
       "name": "Slayn Brokentusk",
-      "name_sortable": "slaynbrokentusk",
       "locations": [
         "-86.01,-2.53,-2.22"
       ],
@@ -1087,14 +1033,12 @@
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
-          "name_sortable": "bloodskullorcs",
           "value": -100
         }
       ]
     },
     {
       "name": "Talia",
-      "name_sortable": "talia",
       "purpose": "Armorsmith",
       "locations": [
         "-20.61,-4.42,115.04"
@@ -1102,7 +1046,6 @@
     },
     {
       "name": "a vagrant squatter",
-      "name_sortable": "vagrantsquatter",
       "locations": [
         "-159.75,-2.40,29.51",
         "-158.41,-2.41,40.51"
@@ -1110,7 +1053,6 @@
     },
     {
       "name": "Visage of the Overlord",
-      "name_sortable": "visageoftheoverlord",
       "utterances": [
         "In story and legend, the sons of Zek are said to be stupid and disorganized. No more. The ancient curse that clouded their minds has been lifted, and today, the sons of Zek are as disciplined as any soldier of Qeynos. But now they face the warriors of Freeport: show them what this means. ",
         "But there are those among you who know little of my past and my glorious deed. I am Lucan D'Lere, and it is my will and steel that brought Freeport safely through the Age of Cataclysms. Even before the land was broken, I was renowned as a warrior, and I was chosen to rule this glorious city."
@@ -1175,32 +1117,25 @@
   ],
   "resourceNodes": [
     {
-      "name": "the creature den",
-      "name_sortable": "creatureden"
+      "name": "the creature den"
     },
     {
-      "name": "the gangly arbor",
-      "name_sortable": "ganglyarbor"
+      "name": "the gangly arbor"
     },
     {
-      "name": "a group of fish",
-      "name_sortable": "groupoffish"
+      "name": "a group of fish"
     },
     {
-      "name": "the pale roots",
-      "name_sortable": "paleroots"
+      "name": "the pale roots"
     },
     {
-      "name": "the ravaged natural garden",
-      "name_sortable": "ravagednaturalgarden"
+      "name": "the ravaged natural garden"
     },
     {
-      "name": "the rugged ore",
-      "name_sortable": "ruggedore"
+      "name": "the rugged ore"
     },
     {
-      "name": "the rustic stone",
-      "name_sortable": "rusticstone"
+      "name": "the rustic stone"
     }
   ]
 }

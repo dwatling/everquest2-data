@@ -1,8 +1,11 @@
 {
   "name": "The Chronoweave",
-  "name_sortable": "chronoweave",
   "category": "",
-  "zonerect": "-73.00, -73.00, 73.00, 73.00",
+  "maps": [
+    {
+      "zonerect": "-73.00, -73.00, 73.00, 73.00"
+    }
+  ],
   "connections": [
     {
       "key": "antonica"
@@ -35,7 +38,6 @@
   "npcs": [
     {
       "name": "Edalli",
-      "name_sortable": "edalli",
       "locations": [
         "-4.23,0.0,-12.85"
       ],
@@ -45,7 +47,6 @@
     },
     {
       "name": "Erben Delki",
-      "name_sortable": "erbendelki",
       "locations": [
         "-0.62,0.0,-10.41"
       ],
@@ -55,7 +56,6 @@
     },
     {
       "name": "Sorsaadh Jarae",
-      "name_sortable": "sorsaadhjarae",
       "locations": [
         "-40.19,0.0,-15.13"
       ],
@@ -65,7 +65,6 @@
     },
     {
       "name": "Tazstra K'Rzheett",
-      "name_sortable": "tazstrakrzheett",
       "locations": [
         "-28.8,0.0,13.06",
         "-21.9,0.0,31.57"
@@ -81,7 +80,6 @@
     },
     {
       "name": "Vusal Zaminli",
-      "name_sortable": "vusalzaminli",
       "locations": [
         "0.75,0.0,-1.97"
       ],
@@ -91,7 +89,6 @@
     },
     {
       "name": "Zendiel",
-      "name_sortable": "zendiel",
       "utterances": [
         "Thank the gods, a hero has arrived! Tell me, <player name>, have you some skilled agents in your employ?",
         "Quite right. Something remarkable and alarming has occurred; some dangerous beasts emerged from the chronoportals to the Age of Turmoil! It wasn't something that had occurred before. We weren't prepared for it!",

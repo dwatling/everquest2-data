@@ -1,12 +1,15 @@
 {
   "name": "The Tomb of Valor",
-  "name_sortable": "tombofvalor",
   "category": "Dungeons",
   "subcategory": "Group",
-  "zonerect": "-7.00,-71.00,52.00,-29.00",
   "levels": "25-35",
   "access_quests": [
     1001408625
+  ],
+  "maps": [
+    {
+      "zonerect": "-7.00,-71.00,52.00,-29.00"
+    }
   ],
   "connections": [
     {
@@ -16,7 +19,6 @@
   "npcs": [
     {
       "name": "Lord Chesgard",
-      "name_sortable": "lordchesgard",
       "level": 30,
       "difficulty": "heroic^^^",
       "locations": [
@@ -29,7 +31,6 @@
     },
     {
       "name": "a restless stormlord",
-      "name_sortable": "restlessstormlord",
       "level": 25,
       "difficulty": "heroic^^^",
       "locations": [

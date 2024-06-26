@@ -1,11 +1,14 @@
 {
   "name": "The Firemyst Gully",
-  "name_sortable": "firemystgully",
   "category": "Dungeons",
-  "zonerect": "1003.00,392.00,1324.00,763.00",
   "levels": "15-22",
   "access_quests": [
     3374032235
+  ],
+  "maps": [
+    {
+      "zonerect": "1003.00,392.00,1324.00,763.00"
+    }
   ],
   "connections": [
     {
@@ -15,21 +18,18 @@
   "npcs": [
     {
       "name": "Brother Bolerg",
-      "name_sortable": "brotherbolerg",
       "utterances": [
         "By Brell's hammer! Are you trying to get us all killed!?"
       ]
     },
     {
       "name": "Brother Gimeft",
-      "name_sortable": "brothergimeft",
       "utterances": [
         "Ahhh... Quit with your incessant poking!"
       ]
     },
     {
       "name": "Brother Morrim",
-      "name_sortable": "brothermorrim",
       "store": [
         {
           "gamelink": "\\aITEM -2026662392 -26413864:an old dwarven shovel\\/a",
@@ -51,7 +51,6 @@
     },
     {
       "name": "a charred acolyte",
-      "name_sortable": "charredacolyte",
       "utterances": [
         "To the grave with you!",
         "I'm shattered and broken.",
@@ -80,7 +79,6 @@
     },
     {
       "name": "a charred diviner",
-      "name_sortable": "charreddiviner",
       "utterances": [
         "As I rise from the grave,  you will now take my place!",
         "You cannot eliminate us!",
@@ -91,7 +89,6 @@
     },
     {
       "name": "a charred herald",
-      "name_sortable": "charredherald",
       "utterances": [
         "Seek death and it finds you.",
         "As I rise from the grave,  you will now take my place!",
@@ -109,7 +106,6 @@
     },
     {
       "name": "a charred magus",
-      "name_sortable": "charredmagus",
       "utterances": [
         "As I rise from the grave,  you will now take my place!",
         "You cannot eliminate us!",
@@ -133,7 +129,6 @@
     },
     {
       "name": "a charred minion",
-      "name_sortable": "charredminion",
       "utterances": [
         "Your eyes are so pretty.",
         "I didn't need those bones anyway.",
@@ -156,7 +151,6 @@
     },
     {
       "name": "a charred sentry",
-      "name_sortable": "charredsentry",
       "utterances": [
         "Your blood calls to me.",
         "Rest in peace.",
@@ -186,7 +180,6 @@
     },
     {
       "name": "Galintari the Apocryphal",
-      "name_sortable": "galintaritheapocryphal",
       "utterances": [
         "What do we have here? Intruders, hrmmm...? Well... I guess it is dinner time... RISE MY CHILDREN! RISE and feast upon the flesh of these insolent fools!"
       ],
@@ -201,7 +194,6 @@
     },
     {
       "name": "a scathe bishop",
-      "name_sortable": "scathebishop",
       "drops": [
         {
           "gamelink": "\\aITEM -663082198 781057701:plain crystal shard\\/a",
@@ -225,7 +217,6 @@
     },
     {
       "name": "a scathe harbinger",
-      "name_sortable": "scatheharbinger",
       "drops": [
         {
           "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
@@ -245,7 +236,6 @@
     },
     {
       "name": "a scathe knight",
-      "name_sortable": "scatheknight",
       "drops": [
         {
           "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
@@ -265,7 +255,6 @@
     },
     {
       "name": "Sir Thothur Dorarr",
-      "name_sortable": "sirthothurdorarr",
       "utterances": [
         "Hrmm... The unholy power seems to emanate from over there... that's where our brothers were lost... but what are... Oh, what is it?",
         "Well, nice to meet yah! We could really use your help.",
@@ -280,7 +269,6 @@
     },
     {
       "name": "a wraithly stalker",
-      "name_sortable": "wraithlystalker",
       "drops": [
         {
           "gamelink": "\\aITEM 1202278372 1384654712:advanced craftsman volume 10\\/a",

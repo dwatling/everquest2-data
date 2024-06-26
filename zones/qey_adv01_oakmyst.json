@@ -1,9 +1,12 @@
 {
   "name": "Oakmyst Forest",
-  "name_sortable": "oakmystforest",
   "category": "Karan",
-  "zonerect": "-1177.50,-462.25,-605.39,-33.11",
   "levels": "5-10",
+  "maps": [
+    {
+      "zonerect": "-1177.50,-462.25,-605.39,-33.11"
+    }
+  ],
   "connections": [
     {
       "key": "qey_village03_clone"
@@ -15,7 +18,6 @@
   "npcs": [
     {
       "name": "Adalin Emerael",
-      "name_sortable": "adalinemerael",
       "locations": [
         "745.14,10.59,-202.18"
       ],
@@ -25,7 +27,6 @@
     },
     {
       "name": "Akeera Sneakshot",
-      "name_sortable": "akeerasneakshot",
       "level": 10,
       "locations": [
         "893.78,2.26,-315.92",
@@ -46,7 +47,6 @@
     },
     {
       "name": "Ambassador Jalanderra",
-      "name_sortable": "ambassadorjalanderra",
       "level": 11,
       "difficulty": "heroic",
       "locations": [
@@ -58,7 +58,6 @@
     },
     {
       "name": "Ambassador Kialee",
-      "name_sortable": "ambassadorkialee",
       "level": 11,
       "difficulty": "heroic",
       "locations": [
@@ -70,7 +69,6 @@
     },
     {
       "name": "Aundor Singingsword",
-      "name_sortable": "aundorsingingsword",
       "locations": [
         "972.7,3.52,-204.84"
       ],
@@ -80,7 +78,6 @@
     },
     {
       "name": "a badger cub",
-      "name_sortable": "badgercub",
       "level": 6,
       "locations": [
         "953.18,2.27,-344.01",
@@ -93,7 +90,6 @@
     },
     {
       "name": "Bardrian Vorsuth",
-      "name_sortable": "bardrianvorsuth",
       "locations": [
         "1073.08,-10.0,-383.93"
       ],
@@ -103,7 +99,6 @@
     },
     {
       "name": "a bear cub",
-      "name_sortable": "bearcub",
       "level": 9,
       "locations": [
         "929.22,4.45,-299.28",
@@ -123,7 +118,6 @@
     },
     {
       "name": "Cailee Bluesheaf",
-      "name_sortable": "caileebluesheaf",
       "locations": [
         "890.36,2.4,-336.98"
       ],
@@ -134,7 +128,6 @@
     },
     {
       "name": "Calla Badgerbane",
-      "name_sortable": "callabadgerbane",
       "purpose": "Harvesting and Collections",
       "locations": [
         "977.5,2.61,-341.02"
@@ -151,7 +144,6 @@
     },
     {
       "name": "a clearwater frog",
-      "name_sortable": "clearwaterfrog",
       "level": 8,
       "locations": [
         "978.29,2.51,-200.93",
@@ -175,7 +167,6 @@
     },
     {
       "name": "a corrupted dryad",
-      "name_sortable": "corrupteddryad",
       "level": 8,
       "locations": [
         "897.18,3.17,-200.68",
@@ -215,7 +206,6 @@
     },
     {
       "name": "Empress Anassa",
-      "name_sortable": "empressanassa",
       "locations": [
         "1006.99,13.22,-320.4"
       ],
@@ -233,14 +223,12 @@
           "previous_quest": {
             "id": 1011215585,
             "name": "Judgement of the Dryads"
-          },
-          "hidden": false
+          }
         }
       ]
     },
     {
       "name": "Ferith`Anar",
-      "name_sortable": "ferithanar",
       "level": 11,
       "difficulty": "heroic",
       "locations": [
@@ -254,7 +242,6 @@
     },
     {
       "name": "a glowmyst beetle",
-      "name_sortable": "glowmystbeetle",
       "level": 6,
       "locations": [
         "777.16,8.35,-209.79",
@@ -280,13 +267,11 @@
     },
     {
       "name": "a gnoll assassin",
-      "name_sortable": "gnollassassin",
       "drop_coin_min": 36,
       "drop_coin_max": 36
     },
     {
       "name": "Grubdigger",
-      "name_sortable": "grubdigger",
       "level": 15,
       "difficulty": "heroic",
       "locations": [
@@ -319,7 +304,6 @@
     },
     {
       "name": "Henk Newfield",
-      "name_sortable": "henknewfield",
       "purpose": "Mender",
       "locations": [
         "992.43,2.25,-350.04"
@@ -330,7 +314,6 @@
     },
     {
       "name": "Huntmaster Krell",
-      "name_sortable": "huntmasterkrell",
       "locations": [
         "910.55,2.23,-306.2",
         "937.63,2.3,-332.26",
@@ -344,7 +327,6 @@
     },
     {
       "name": "Jemila",
-      "name_sortable": "jemila",
       "purpose": "General Goods",
       "utterances": [
         "Confound it! Where did I put that ledger?  It must be around here somewhere!",
@@ -369,7 +351,6 @@
     },
     {
       "name": "Judge Eunomia",
-      "name_sortable": "judgeeunomia",
       "locations": [
         "1008.88,13.28,-318.91"
       ],
@@ -386,14 +367,12 @@
           "previous_quest": {
             "id": 1814316317,
             "name": "Feed the Sapling"
-          },
-          "hidden": false
+          }
         }
       ]
     },
     {
       "name": "Lieutenant Charlin",
-      "name_sortable": "lieutenantcharlin",
       "locations": [
         "789.06,7.83,-200.36"
       ],
@@ -419,7 +398,6 @@
     },
     {
       "name": "Lieutenant Scyn",
-      "name_sortable": "lieutenantscyn",
       "drops": [
         {
           "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
@@ -431,7 +409,6 @@
     },
     {
       "name": "Lulien Leafven",
-      "name_sortable": "lulienleafven",
       "locations": [
         "885.97,2.48,-338.75"
       ],
@@ -443,7 +420,6 @@
     },
     {
       "name": "Madeline ",
-      "name_sortable": "madeline",
       "purpose": "Guard",
       "level": 25,
       "difficulty": "heroic",
@@ -454,7 +430,6 @@
     },
     {
       "name": "a mature bear cub",
-      "name_sortable": "maturebearcub",
       "locations": [
         "925.14,2.95,-296.39",
         "945.00,2.23,-260.28"
@@ -462,7 +437,6 @@
     },
     {
       "name": "a molting spider",
-      "name_sortable": "moltingspider",
       "level": 7,
       "locations": [
         "918.16,15.59,-200.02"
@@ -476,7 +450,6 @@
     },
     {
       "name": "Monteh Furthread",
-      "name_sortable": "montehfurthread",
       "level": 10,
       "locations": [
         "804.51,11.36,-271.03",
@@ -500,7 +473,6 @@
     },
     {
       "name": "a mystail matriarch",
-      "name_sortable": "mystailmatriarch",
       "level": 5,
       "locations": [
         "877.03,0.53,-187.42",
@@ -509,7 +481,6 @@
     },
     {
       "name": "a mystail yearling",
-      "name_sortable": "mystailyearling",
       "level": 5,
       "locations": [
         "840.79,3.17,-242.21",
@@ -518,7 +489,6 @@
     },
     {
       "name": "an Oakmyst doe",
-      "name_sortable": "oakmystdoe",
       "level": 7,
       "locations": [
         "848.89,4.12,-320.47",
@@ -534,7 +504,6 @@
     },
     {
       "name": "an Oakmyst fairy",
-      "name_sortable": "oakmystfairy",
       "level": 8,
       "locations": [
         "863.40,13.08,-217.82",
@@ -556,7 +525,6 @@
     },
     {
       "name": "an Oakmyst fawn",
-      "name_sortable": "oakmystfawn",
       "level": 6,
       "locations": [
         "843.05,2.89,-238.81",
@@ -569,7 +537,6 @@
     },
     {
       "name": "an Oakmyst great bear",
-      "name_sortable": "oakmystgreatbear",
       "level": 10,
       "locations": [
         "967.34,8.27,-300.11",
@@ -583,7 +550,6 @@
     },
     {
       "name": "an Oakmyst royal defender",
-      "name_sortable": "oakmystroyaldefender",
       "level": 10,
       "locations": [
         "1008.04,12.95,-305.13",
@@ -593,7 +559,6 @@
     },
     {
       "name": "an Oakmyst spider",
-      "name_sortable": "oakmystspider",
       "level": 8,
       "locations": [
         "930.35,2.26,-228.28",
@@ -615,7 +580,6 @@
     },
     {
       "name": "an Oakmyst spirit",
-      "name_sortable": "oakmystspirit",
       "level": 9,
       "locations": [
         "1017.90,13.71,-307.45",
@@ -635,7 +599,6 @@
     },
     {
       "name": "Observer Galadn",
-      "name_sortable": "observergaladn",
       "locations": [
         "975.57,2.26,-214.29"
       ],
@@ -645,7 +608,6 @@
     },
     {
       "name": "Rinduil Flintflight",
-      "name_sortable": "rinduilflintflight",
       "locations": [
         "899.28,2.59,-336.88"
       ],
@@ -655,7 +617,6 @@
     },
     {
       "name": "Rotweed Thistle",
-      "name_sortable": "rotweedthistle",
       "level": 13,
       "difficulty": "heroic",
       "locations": [
@@ -678,7 +639,6 @@
     },
     {
       "name": "Scholar Neola",
-      "name_sortable": "scholarneola",
       "locations": [
         "1012.2,13.22,-312.15"
       ],
@@ -691,14 +651,12 @@
       "quests": [
         {
           "id": 1814316317,
-          "name": "Feed the Sapling",
-          "hidden": false
+          "name": "Feed the Sapling"
         }
       ]
     },
     {
       "name": "a shady furrier",
-      "name_sortable": "shadyfurrier",
       "level": 6,
       "locations": [
         "831.57,4.47,-276.32",
@@ -722,7 +680,6 @@
     },
     {
       "name": "Solas",
-      "name_sortable": "solas",
       "purpose": "Guard",
       "level": 25,
       "difficulty": "heroic",
@@ -732,7 +689,6 @@
     },
     {
       "name": "Steward Tredo",
-      "name_sortable": "stewardtredo",
       "locations": [
         "1005.62,13.07,-261.18"
       ],
@@ -743,7 +699,6 @@
     },
     {
       "name": "Stormbrace",
-      "name_sortable": "stormbrace",
       "purpose": "Guard",
       "level": 25,
       "difficulty": "heroic",
@@ -753,7 +708,6 @@
     },
     {
       "name": "a sunshimmer sprite",
-      "name_sortable": "sunshimmersprite",
       "level": 8,
       "locations": [
         "874.71,15.54,-281.47",
@@ -778,7 +732,6 @@
     },
     {
       "name": "Toppa Doppster",
-      "name_sortable": "toppadoppster",
       "locations": [
         "776.47,8.87,-196.41"
       ],
@@ -792,7 +745,6 @@
     },
     {
       "name": "Tracker Galera",
-      "name_sortable": "trackergalera",
       "locations": [
         "797.41,6.87,-207.99",
         "841.0,3.79,-188.85",
@@ -806,7 +758,6 @@
     },
     {
       "name": "a treant sapling",
-      "name_sortable": "treantsapling",
       "locations": [
         "1007.0,12.97,-268.49"
       ],
@@ -816,14 +767,12 @@
     },
     {
       "name": "Truesteel",
-      "name_sortable": "truesteel",
       "locations": [
         "867.55,1.43,-187.01"
       ]
     },
     {
       "name": "a vicious badger",
-      "name_sortable": "viciousbadger",
       "level": 7,
       "locations": [
         "954.70,2.29,-339.74",
@@ -833,7 +782,6 @@
     },
     {
       "name": "a young mystail rat",
-      "name_sortable": "youngmystailrat",
       "level": 5,
       "locations": [
         "817.60,5.04,-219.82",
@@ -959,28 +907,22 @@
   ],
   "resourceNodes": [
     {
-      "name": "the compound ore",
-      "name_sortable": "compoundore"
+      "name": "the compound ore"
     },
     {
-      "name": "the creature den",
-      "name_sortable": "creatureden"
+      "name": "the creature den"
     },
     {
-      "name": "the grizzled arbor",
-      "name_sortable": "grizzledarbor"
+      "name": "the grizzled arbor"
     },
     {
-      "name": "the moss encased stone",
-      "name_sortable": "mossencasedstone"
+      "name": "the moss encased stone"
     },
     {
-      "name": "the muddy roots",
-      "name_sortable": "muddyroots"
+      "name": "the muddy roots"
     },
     {
-      "name": "the natural garden",
-      "name_sortable": "naturalgarden"
+      "name": "the natural garden"
     }
   ]
 }

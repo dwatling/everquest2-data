@@ -1,8 +1,11 @@
 {
   "name": "Frostfell Workshop",
-  "name_sortable": "frostfellworkshop",
   "category": "Everfrost",
-  "zonerect": "-832.00,-683.00,696.00,681.00",
+  "maps": [
+    {
+      "zonerect": "-832.00,-683.00,696.00,681.00"
+    }
+  ],
   "connections": [
     {
       "key": "everfrost_frostfell"
@@ -14,7 +17,6 @@
   "npcs": [
     {
       "name": "Berry Mistletoe",
-      "name_sortable": "berrymistletoe",
       "purpose": "Gift Supply Manager",
       "locations": [
         "-3.79,-5.31,-73.31"
@@ -33,12 +35,10 @@
       ]
     },
     {
-      "name": "a Frostfell elf worker",
-      "name_sortable": "frostfellelfworker"
+      "name": "a Frostfell elf worker"
     },
     {
       "name": "a Gigglegibber goblin",
-      "name_sortable": "gigglegibbergoblin",
       "locations": [
         "8.02,-5.31,-70.01",
         "5.46,-5.31,-60.4",
@@ -54,7 +54,6 @@
     },
     {
       "name": "Meg Gingersnap",
-      "name_sortable": "meggingersnap",
       "purpose": "Gift Supply Manager",
       "locations": [
         "-16.52,4.47,-56.23"
@@ -71,7 +70,6 @@
     },
     {
       "name": "a snowflurry",
-      "name_sortable": "snowflurry",
       "locations": [
         "-5.27,-8.36,252.00",
         "5.05,-5.49,265.26"

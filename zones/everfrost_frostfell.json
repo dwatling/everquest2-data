@@ -1,8 +1,11 @@
 {
   "name": "Frostfell Wonderland Village",
-  "name_sortable": "frostfellwonderlandvillage",
   "category": "Everfrost",
-  "zonerect": "-699.00,-1873.00,73.00,-1099.00",
+  "maps": [
+    {
+      "zonerect": "-699.00,-1873.00,73.00,-1099.00"
+    }
+  ],
   "connections": [
     {
       "key": "live_frostfell_workshop"
@@ -20,14 +23,12 @@
   "npcs": [
     {
       "name": "Acorn Kornelius",
-      "name_sortable": "acornkornelius",
       "locations": [
         "396.33,-36.39,-1257.04"
       ]
     },
     {
       "name": "Aildiun Mawdrun",
-      "name_sortable": "aildiunmawdrun",
       "purpose": "League of Freethinkers",
       "locations": [
         "51.13,-4.09,-1179.25"
@@ -48,7 +49,6 @@
     },
     {
       "name": "a candymaker",
-      "name_sortable": "candymaker",
       "locations": [
         "85.83,-34.85,-1625.93",
         "77.84,-34.85,-1631.99"
@@ -56,7 +56,6 @@
     },
     {
       "name": "Ceufroy Bilberry",
-      "name_sortable": "ceufroybilberry",
       "locations": [
         "260.39,-38.97,-1440.57"
       ],
@@ -66,14 +65,12 @@
     },
     {
       "name": "a drakerfly",
-      "name_sortable": "drakerfly",
       "locations": [
         "479.16,4.83,-1562.42"
       ]
     },
     {
       "name": "Frestishan",
-      "name_sortable": "frestishan",
       "purpose": "Candy Cane Committee",
       "locations": [
         "421.83,71.69,-1556.7"
@@ -88,7 +85,6 @@
     },
     {
       "name": "a frostfell cube",
-      "name_sortable": "frostfellcube",
       "locations": [
         "460.46,-38.97,-1403.33",
         "44.23,-38.97,-1275.73"
@@ -96,7 +92,6 @@
     },
     {
       "name": "a Frostfell elf miner",
-      "name_sortable": "frostfellelfminer",
       "locations": [
         "36.91,-3.52,-1210.88",
         "42.34,-3.46,-1227.35",
@@ -105,7 +100,6 @@
     },
     {
       "name": "a Frostfell faun",
-      "name_sortable": "frostfellfaun",
       "locations": [
         "71.14,-4.23,-1220.69",
         "76.33,-4.45,-1214.46",
@@ -113,12 +107,10 @@
       ]
     },
     {
-      "name": "Gardy Ex-Giftgiver",
-      "name_sortable": "gardyexgiftgiver"
+      "name": "Gardy Ex-Giftgiver"
     },
     {
       "name": "Garsleblat Gigglegibber",
-      "name_sortable": "garsleblatgigglegibber",
       "purpose": "Frostfell Vendor",
       "locations": [
         "125.1,-3.7,-1153.47"
@@ -148,7 +140,6 @@
     },
     {
       "name": "Gasher",
-      "name_sortable": "gasher",
       "purpose": "Santa Glug's helper",
       "locations": [
         "253.12,-29.83,-1368.76"
@@ -160,14 +151,12 @@
     },
     {
       "name": "Gate Captain H'Bri",
-      "name_sortable": "gatecaptainhbri",
       "locations": [
         "-0.7,0.63,-60.29"
       ]
     },
     {
       "name": "Gerbi Frostfoot",
-      "name_sortable": "gerbifrostfoot",
       "locations": [
         "177.66,-36.75,-1313.01"
       ],
@@ -177,7 +166,6 @@
     },
     {
       "name": "Giddlenerf Gigglegibber",
-      "name_sortable": "giddlenerfgigglegibber",
       "purpose": "Fuel Merchant",
       "locations": [
         "123.57,-18.52,-1528.75"
@@ -223,7 +211,6 @@
     },
     {
       "name": "Giffle Gigglegibber",
-      "name_sortable": "gifflegigglegibber",
       "purpose": "Mender",
       "locations": [
         "129.19,-3.22,-1154.9"
@@ -231,7 +218,6 @@
     },
     {
       "name": "Giggawat Gigglegibber",
-      "name_sortable": "giggawatgigglegibber",
       "purpose": "Frostfell Vendor",
       "locations": [
         "139.31,-9.11,-1240.43"
@@ -782,7 +768,6 @@
     },
     {
       "name": "a Gigglegibber Goblin Gamblin' Game Vendor",
-      "name_sortable": "gigglegibbergoblingamblingamevendor",
       "locations": [
         "89.27,-2.98,-1170.74"
       ],
@@ -806,7 +791,6 @@
     },
     {
       "name": "a Gigglegibber miner",
-      "name_sortable": "gigglegibberminer",
       "locations": [
         "38.24,-3.51,-1229.24",
         "28.54,-3.59,-1229.41",
@@ -815,7 +799,6 @@
     },
     {
       "name": "Glank Gigglegibber",
-      "name_sortable": "glankgigglegibber",
       "purpose": "Banker",
       "locations": [
         "139.86,-9.33,-1232.1"
@@ -823,7 +806,6 @@
     },
     {
       "name": "Glargle Gigglegibber",
-      "name_sortable": "glarglegigglegibber",
       "purpose": "Fuel Merchant",
       "locations": [
         "327.81,-23.78,-1511.28"
@@ -834,7 +816,6 @@
     },
     {
       "name": "Glitzen",
-      "name_sortable": "glitzen",
       "purpose": "Santa Glug's helper",
       "locations": [
         "246.63,-29.54,-1366.59"
@@ -845,7 +826,6 @@
     },
     {
       "name": "a Guardian of D'Ina",
-      "name_sortable": "guardianofdina",
       "locations": [
         "109.54,6.89,-80.15",
         "-83.08,15.85,-70.57",
@@ -855,7 +835,6 @@
     },
     {
       "name": "Guhtosle Gigglegibber",
-      "name_sortable": "guhtoslegigglegibber",
       "purpose": "Fuel Merchant",
       "locations": [
         "86.53,-35.12,-1622.2"
@@ -866,7 +845,6 @@
     },
     {
       "name": "Ice Maiden D'Ina",
-      "name_sortable": "icemaidendina",
       "utterances": [
         "Do not make me come down there myself!  Incompetent fools!",
         "These intruders anger me!",
@@ -875,7 +853,6 @@
     },
     {
       "name": "an Icy Shard",
-      "name_sortable": "icyshard",
       "locations": [
         "-76.13,0.63,-135.1",
         "-66.1,0.63,-162.5",
@@ -884,7 +861,6 @@
     },
     {
       "name": "Jarith Icewing",
-      "name_sortable": "jarithicewing",
       "purpose": "Frostfell Apprentice",
       "locations": [
         "333.31,-23.78,-1511.07"
@@ -897,7 +873,6 @@
     },
     {
       "name": "Jingle",
-      "name_sortable": "jingle",
       "utterances": [
         "Oh, goodness! What has befallen our Frostfell Wonderland!?",
         "I was late to arrive, having been delayed, only to find that the land has been transformed... beautifully.",
@@ -908,14 +883,12 @@
     },
     {
       "name": "Kastus",
-      "name_sortable": "kastus",
       "locations": [
         "-98.56,26.31,-85.03"
       ]
     },
     {
       "name": "Kaylie Brianne",
-      "name_sortable": "kayliebrianne",
       "locations": [
         "187.69,-38.97,-1241.49"
       ],
@@ -924,12 +897,10 @@
       ]
     },
     {
-      "name": "Mr. McScroogle",
-      "name_sortable": "mrmcscroogle"
+      "name": "Mr. McScroogle"
     },
     {
       "name": "Nathan Ironforge",
-      "name_sortable": "nathanironforge",
       "locations": [
         "40.45,-3.57,-1203.13"
       ],
@@ -940,7 +911,6 @@
     },
     {
       "name": "Pilip Mumbletoes",
-      "name_sortable": "pilipmumbletoes",
       "locations": [
         "282.19,-23.36,-1567.26"
       ],
@@ -954,7 +924,6 @@
     },
     {
       "name": "a reindeer",
-      "name_sortable": "reindeer",
       "locations": [
         "410.27,-36.38,-1441.42",
         "398.38,-32.06,-1396.18",
@@ -970,7 +939,6 @@
     },
     {
       "name": "Santa Glug",
-      "name_sortable": "santaglug",
       "purpose": "Frostfell Giftgiver",
       "locations": [
         "247.34,-29.43,-1368.65"
@@ -985,7 +953,6 @@
     },
     {
       "name": "Sogs Frostfoot",
-      "name_sortable": "sogsfrostfoot",
       "purpose": "Crafting Recruiter",
       "locations": [
         "199.14,-36.68,-1315.37"
@@ -1000,7 +967,6 @@
     },
     {
       "name": "Sugarbow",
-      "name_sortable": "sugarbow",
       "locations": [
         "41.1,-3.45,-1225.71"
       ],
@@ -1010,7 +976,6 @@
     },
     {
       "name": "a tamed yeti",
-      "name_sortable": "tamedyeti",
       "locations": [
         "-110.03,0.63,-48.63",
         "-130.25,0.63,-155.05",
@@ -1023,14 +988,12 @@
     },
     {
       "name": "Tamer Nicoli",
-      "name_sortable": "tamernicoli",
       "locations": [
         "-99.94,0.63,-138.36"
       ]
     },
     {
       "name": "Tinsel",
-      "name_sortable": "tinsel",
       "purpose": "sweatermaker",
       "locations": [
         "119.8,-18.52,-1522.64"
@@ -1041,7 +1004,6 @@
     },
     {
       "name": "a toymaker",
-      "name_sortable": "toymaker",
       "locations": [
         "322.18,-23.78,-1512.75",
         "299.28,-23.29,-1540.91"
@@ -1049,7 +1011,6 @@
     },
     {
       "name": "Twine",
-      "name_sortable": "twine",
       "purpose": "sweatermaker",
       "locations": [
         "128.09,-18.52,-1542.79"
@@ -1060,7 +1021,6 @@
     },
     {
       "name": "a unicorn",
-      "name_sortable": "unicorn",
       "locations": [
         "478.76,4.45,-1554.43"
       ]
@@ -1185,8 +1145,7 @@
   ],
   "resourceNodes": [
     {
-      "name": "the present",
-      "name_sortable": "present"
+      "name": "the present"
     }
   ]
 }

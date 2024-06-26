@@ -1,15 +1,17 @@
 {
   "name": "Frostfang Sea",
-  "name_sortable": "frostfangsea",
   "added": "lu56",
   "category": "Erollis",
   "description": "Within these frigid waters floats the island of Erollis, and the city of New Halas!",
-  "zonerect": "-192.07,-289.53,891.52,513.73",
   "levels": "1-20",
+  "maps": [
+    {
+      "zonerect": "-192.07,-289.53,891.52,513.73"
+    }
+  ],
   "npcs": [
     {
       "name": "Barker Gordon",
-      "name_sortable": "barkergordon",
       "locations": [
         "-346.18,30.68,205.35"
       ],
@@ -24,28 +26,24 @@
     },
     {
       "name": "Candal Embret",
-      "name_sortable": "candalembret",
       "locations": [
         "-357.2,29.19,207.42"
       ]
     },
     {
       "name": "Cheris Alton",
-      "name_sortable": "cherisalton",
       "locations": [
         "-359.54,29.19,208.86"
       ]
     },
     {
       "name": "a Far Seas dockhand",
-      "name_sortable": "farseasdockhand",
       "utterances": [
         "The Far Seas Trading Company is always looking for a few strong backs and brave souls."
       ]
     },
     {
       "name": "Joren Kalth",
-      "name_sortable": "jorenkalth",
       "locations": [
         "-359.63,29.19,206.16"
       ],

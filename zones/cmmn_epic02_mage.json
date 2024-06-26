@@ -1,16 +1,18 @@
 {
   "name": "The Eternal Gorge",
-  "name_sortable": "eternalgorge",
   "category": "Dungeons",
-  "zonerect": "-927.00,455.00,-667.00,756.00",
   "levels": "18-23",
   "access_quests": [
     1732100465
   ],
+  "maps": [
+    {
+      "zonerect": "-927.00,455.00,-667.00,756.00"
+    }
+  ],
   "npcs": [
     {
       "name": "a deathbone",
-      "name_sortable": "deathbone",
       "level": 19,
       "locations": [
         "829,-54.49,556.55",
@@ -42,12 +44,10 @@
       ]
     },
     {
-      "name": "a death silk spider",
-      "name_sortable": "deathsilkspider"
+      "name": "a death silk spider"
     },
     {
       "name": "Jeroel the famished",
-      "name_sortable": "jeroelthefamished",
       "locations": [
         "865.1,-52.96,534.24",
         "748.24,-53.87,635.48",
@@ -68,7 +68,6 @@
     },
     {
       "name": "a skeleton",
-      "name_sortable": "skeleton",
       "level": 10,
       "locations": [
         "857.06,-34.31,583.09",
@@ -88,8 +87,7 @@
   ],
   "resourceNodes": [
     {
-      "name": "the wind swept stones",
-      "name_sortable": "windsweptstones"
+      "name": "the wind swept stones"
     }
   ]
 }

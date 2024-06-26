@@ -1,10 +1,13 @@
 {
   "name": "A Secret Meeting",
-  "name_sortable": "secretmeeting",
   "category": "Dungeons",
-  "zonerect": "-28.00,-17.00,27.00,15.00",
   "access_quests": [
     3870678549
+  ],
+  "maps": [
+    {
+      "zonerect": "-28.00,-17.00,27.00,15.00"
+    }
   ],
   "connections": [
     {
@@ -14,7 +17,6 @@
   "npcs": [
     {
       "name": "a highwayman",
-      "name_sortable": "highwayman",
       "locations": [
         "-4.36,-0.39,2.46"
       ],
@@ -29,7 +31,6 @@
     },
     {
       "name": "a highwayman conspirator",
-      "name_sortable": "highwaymanconspirator",
       "locations": [
         "14.93,1.17,1.12"
       ],
@@ -40,7 +41,6 @@
     },
     {
       "name": "a highwayman meeting guard",
-      "name_sortable": "highwaymanmeetingguard",
       "locations": [
         "-14.65,-0.39,-8.13"
       ],

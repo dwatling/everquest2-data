@@ -1,6 +1,5 @@
 {
   "name": "Nektropos Castle",
-  "name_sortable": "nektroposcastle",
   "category": "Dungeons",
   "subcategory": "Group",
   "zonerect": "-87.00,-99.0,86.00,101.00",
@@ -30,7 +29,6 @@
   "npcs": [
     {
       "name": "an attendant of Everling",
-      "name_sortable": "attendantofeverling",
       "utterances": [
         "There is no rest for us. The fallen will return.",
         "The House of Everling does not tolerate intruders!"
@@ -44,7 +42,6 @@
     },
     {
       "name": "an Everling manservant",
-      "name_sortable": "everlingmanservant",
       "utterances": [
         "Beware of the son!",
         "There is no rest for us. The fallen will return."
@@ -64,21 +61,18 @@
     },
     {
       "name": "an Everling stable boy",
-      "name_sortable": "everlingstableboy",
       "utterances": [
         "Beware of the son!"
       ]
     },
     {
       "name": "Pelleas",
-      "name_sortable": "pelleas",
       "utterances": [
         "Beware of the son!"
       ]
     },
     {
       "name": "a personal attendant",
-      "name_sortable": "personalattendant",
       "utterances": [
         "There is no rest for us. The fallen will return."
       ],
@@ -91,7 +85,6 @@
     },
     {
       "name": "Swine Lord",
-      "name_sortable": "swinelord",
       "drops": [
         {
           "gamelink": "\\aITEM -1145219180 92763566:a polished boar tusk\\/a",

@@ -35,6 +35,258 @@
       "location": "787.30,-20.95,177.71"
     }
   ],
+  "objects": [
+    {
+      "name": "the old book",
+      "location": "701.09,82.93,130.09",
+      "actions": [
+        {
+          "label": "Take",
+          "category": "gives_item",
+          "gamelink": "\\aITEM -1219850657 -1719834661:The Words of Zebuxoruk\\/a"
+        }
+      ]
+    },
+    {
+      "name": "stack of books",
+      "location": "709.15,35.22,141.17",
+      "actions": [
+        {
+          "label": "Inspect",
+          "category": "book",
+          "pages": [
+            {
+              "text": "This group of books is made up of scientific subjects.",
+              "actions": [
+                {
+                  "label": "\"The Norrathian Code of Trade Standards\"",
+                  "page": "1"
+                },
+                {
+                  "label": "\"The Ulteran Spires\"",
+                  "page": "29"
+                },
+                {
+                  "label": "[Exit]",
+                  "page": "exit"
+                }
+              ]
+            },
+            {
+              "text": "The Norrathian Code of Trade Standards:  During the latter decades of the Age of Turmoil the city-state of Freeport grew to be the largest trade city on Norrath. Nearly every great empire had some trade connection to this hub of international trade routes. The amount of foreign goods eventually began to cause great confusion in the global trade community due to the varied units of measurements as well as the varied languages much of the cargo was designated with. This began to cause a great loss of profits for Freeport, a city that was built on trade and relied on taxation of goods and services to remain a dominant power in Norrath.",
+              "actions": [
+                {
+                  "label": "Turn the page.",
+                  "page": "+1"
+                },
+                {
+                  "label": "Close the book.",
+                  "page": "exit"
+                }
+              ]
+            },
+            {
+              "text": "The trade leaders of Freeport called upon the acting ruler, Sir Lucan, to demand the intellect of the Academy of Arcane Science that resided in the city to create a code of standards that would be expected of all trade empires. These codes would be applied to all goods. A universal trade language must also be created. This language would be called Norrathian, a common tongue in a trade cities. Sir Lucan sent word that the great scholars of the Academy must create these trade standards in one month's time or face punishment.",
+              "actions": [
+                {
+                  "label": "Turn the page.",
+                  "page": "+1"
+                },
+                {
+                  "label": "Close the book.",
+                  "page": "exit"
+                }
+              ]
+            },
+            {
+              "text": "The Academy of Arcane Science was a wealth of global knowledge in physical sciences, super sciences and the arcane. The institute was the largest and grandest of its kind even having a multiracial assemblage of scholars that was greater than the bounds of Freeport's common residents. The think tank charged with developing the standards were members of many great races including Koada'Dal, Erudite, Gnome, Dark Elf and even Aviak amongst others. This team of thinkers was directed by two gnomes formerly of the mechanical city of Ak'Akanon. The two gnomes directing this effort were Dooly Jonkers and the legendary gnome tinker known simply as Tinmizer, recently returned from an epic odyssey. Together these masterminds help direct the think tank and develop the Norrathian Code of Trade Standards.",
+              "actions": [
+                {
+                  "label": "The NCTS Calendar.",
+                  "page": "+1"
+                },
+                {
+                  "label": "The NCTS Language."
+                },
+                {
+                  "label": "Previous page.",
+                  "page": "-1"
+                },
+                {
+                  "label": "Close the book.",
+                  "page": "exit"
+                }
+              ]
+            },
+            {
+              "text": "The Starpyre Universal Calendar of Cosmic Chronology: As ages crept forward the NCTS became widely used and at some time during the Age of War it began to be used by nearly all races as a secondary language. These standards are currently being widely used in the Age of Destiny. Unfortunately the NCTS Calendar was the one exception."
+            },
+            {
+              "text": "The new calendar was created by Dooly Jonkers and a few of his stargazing colleagues from Observers in Ak'Anon. The Observers had a radical approach to time, one that contradicted the standard Antonican Calendar that the vast majority of societies employed. The Starpyre Universal Calendar of Cosmic Chronology was born from the NCTS. The Observers radically altered the known calendar. The Observers have been studying the cosmos far longer than any other intellectual community on Norrath and came to the conclusion that this calendar would be the most accurate ever created. "
+            },
+            {
+              "text": "But the changes were far too radical and even the members on the board of the NCTS could not accept the changes. The NCTS board knew that such changes would damage the current global economy and never be accepted by a world already attuned to the Antonican Calendar. The Starpyre Calendar was rejected, but the gnomes grew fond of it and knew full well that any calendar created by a gnome must surely be the most accurate. Many gnomes still believe this in the Age of Destiny and there are some so stubborn that refuse to see the days pass by any other way."
+            },
+            {
+              "text": "The Starpyre Calendar Days of the Week: The days of the week got their name through the work between the academy think tank and the local trade organization."
+            },
+            {
+              "text": "Day 1. FEASTDAY: This day is marked by the lack of work and the grand feasts. On this day most labor ends. Only the most essential positions are active. Guards are one such essential position. Most businesses are closed on this day. - Day 2. DARKDAY: On a few calendars this day is marked as the first day of the week. It is actually the first day of the work week so many trade calendars will place this day before all the others."
+            },
+            {
+              "text": "Day 3. BURNDAY: Burnday was named for the trade day to be set aside for burning refuse. This day would be known for its horrid stench. - Day 4. SOULDAY: Soulday is a day of remembrance. On this day most Norrathians find time to visit the graves of their ancestors and leave offerings at the gravesite or site of death."
+            },
+            {
+              "text": "Day 5. WINDDAY: In port cities this day brings the arrival of travelers. Although the wind does not pick up on this day globally, in the city this name was derived it most surely did. And with the wind came the transport ships. This day and Steelday are considered the middle of the week. Windday often brings the highest prices for goods as merchants raise the cost in hopes the visitors and refugees will be quick to fill their needs and desires after long passage."
+            },
+            {
+              "text": "Day 6. STEELDAY: This day is filled with the music of the forges. With most imports and components being delivered to the craftsmen they begin Steelday early. Their forge hammers acting like the rooster of the predawn. This is truly a noisy and smoke filled day. - Day 7. SPRYDAY: This day is the busiest day of the work week. Traders and merchants rush to package and deliver goods for travel aboard vessels. It is best to walk briskly within the streets on this day or you many be stampeded by couriers and sippers."
+            },
+            {
+              "text": "Day 8. MOORDAY: Moorday is the second busiest day of the week. It often involves more bustle about shipyards rather than all the streets of a city. Most goods are hoisted onto ships for transport. This is also when the ships that have been out all week harvesting goods have returned and their cargo is unloaded and delivered. Many ships and boats arriving are moored to docks on this day."
+            },
+            {
+              "text": "Day 9. BREWDAY: With most exports gone the only work left involves a local business. Much of this day involves work related to preparation of Feastday. - Day 10. MIRTHDAY: This day is set aside for fun. Most Norrathians spend their Mirthday by doing some form of pleasurable recreation. At night much of a community can be found swimming in libations. This was a day that came about after the Age of Cataclysms in hopes that people would find time to look upon the positive side of life."
+            },
+            {
+              "text": "The Starpyre Calendar Months: The Months and Seasons of Norrath were all taken from the Observers of Ak'Anon astronomical charts. Small local trade bazaars are commonly held at the end of each month. These festivals sprang from the end of a trade month where the abundance of goods and variety were heightened by traveling merchants. These trade festivals often last four weeks."
+            },
+            {
+              "text": "Month 1. DEEPICE: This month exists within the peak of the Decay season - Month 2. GRAYEVEN: This month exists within the late Decay season. - Month 3. STARGAZING: This month exists within the early Growth season. - Month 4. WEEPING: This month exists within middle of the Growth season."
+            },
+            {
+              "text": "Month 5. BLOSSOMING: This month exists within the peak of the Growth season. - Month 6. OCEANSFULL: This month exists within the late Growth season.  - Month 7. SCORCHEDSKY: This month exists within the early Harvest season. - Month 8. WARMSTILL: This month exists within middle of the Harvest season."
+            },
+            {
+              "text": "Month 9. BUSHELDOWN: This month exists within peak of the Harvest season. - Month 10. LASTLEAF: This month exists within the late Harvest season. - Month 11. FIRSTCHILL: This month exists within the early Decay season. - Month 12. DEADENING: This month exists within the middle of the Decay season."
+            },
+            {
+              "text": "The Starpyre Calendar Seasons: Every four months the season changes in Norrath. These seasons bring subtle changes to the environment, especially the trade winds. Numerous holidays appear in each season. Norrathians always look forward to holidays within a season."
+            },
+            {
+              "text": "Season 1. DECAY: Decay is usually the season of wind, cold and rain. Only the hardiest of crop types can survive through the Decay season."
+            },
+            {
+              "text": "Season 2. GROWTH: Growth brings rain and sunlight to the land. Seeds have been blown far by the winds of decay and now spring to life filling the land with beauty and abundant resources."
+            },
+            {
+              "text": "Season 3. HARVEST: The sunlight prevails as light rains appear and clouds begin to billow towards the end of the season. Most of this season is spent harvesting the resources nurtured by the Growth season."
+            },
+            {
+              "text": "The Starpyre Calendar Quatrain: The Starpyre Calendar Quatrain marks a passage of time that causes the repositioning of the stars. The entire solar system of Ro has revolved around an even greater force yet to be named. As it rolls along it brings about drastic climatic changes in the global environment of Norrath. No matter where you are on Norrath or what time it is in your corner of the world you will be affected by this global change in some form. Where the end meets the beginning of a cycle a grand event takes place in the starscape that causes the constellations to light up and burn brighter than ever. During this event a great global celebration occurs."
+            },
+            {
+              "text": "Year 1. THE YEAR OF XEGONY: This year is named for the ruling goddess of the Plane of Air, Xegony. With this year come incredibly strong winds and frequent downpours in many regions. As quickly as the rains arrive they are quick to leave and the sunlight or moonlight beams down upon the land. Cloud movement is brisk during this year. This year often brings about great beauty in nature."
+            },
+            {
+              "text": "Year 2. THE YEAR OF FENIN RO: This year is named for the ruling god of the Plane of Fire, Fenin Ro. This year brings less cloud cover and the temperature of Norrath begins to rise. It is beautiful season of raised temperatures. Beware of the deserts during this year. They are nearly inhospitable without magical aid."
+            },
+            {
+              "text": "Year 3. THE YEAR OF THE RATHE: This year is named for the ruling god of the Plane of Earth, a council of 12 beings called the Rathe. With this year comes a rise in geological disturbances such as tremors. Volcanic regions are extremely dangerous to travel during this year. Much of the ground is covered in foliage as quakes both small and large cause trees to tremble. To many this year is considered a frightful month and a remembrance of the myths of gods forsaking the land. Large festivals are held at the end of the season where Norrathians parade around in costumes of mythical gods and beasts causing pranks and sometimes destruction as if they were the gods smiting the land."
+            },
+            {
+              "text": "Year 4. THE YEAR OF THE TRIUMVERATE: This year is named after the council of three gods that rule the Plane of Water. This is the stormiest and coldest year of the quatrain. Ice and snow falls in abundance. The rains become furious and temperatures drop. Chilling desert winds race across dunes at nightfall. This year often causes long spells of near hibernation. The ending of this month of fury has a spot of season's long clear skies in most places. The sun beams down upon valleys of snow. This season of the year often has many festivals where Norrathians once offered sacrifices to the Triumvirate in thanks of clearing their flurry. Nowadays most Norrathians offer gifts to each other rather than the gods."
+            },
+            {
+              "text": "The trade leaders of Freeport called upon the acting ruler, Sir Lucan, to demand the intellect of the Academy of Arcane Science that resided in the city to create a code of standards that would be expected of all trade empires. These codes would be applied to all goods. A universal trade language must also be created. This language would be called Norrathian, a common tongue in a trade cities. Sir Lucan sent word that the great scholars of the Academy must create these trade standards in one month's time or face punishment."
+            },
+            {
+              "text": "The Academy of Arcane Science was a wealth of global knowledge in physical sciences, super sciences and the arcane. The institute was the largest and grandest of its kind even having a multiracial assemblage of scholars that was greater than the bounds of Freeport's common residents. The think tank charged with developing the standards were members of many great races including Koada'Dal, Erudite, Gnome, Dark Elf and even Aviak amongst others. This team of thinkers was directed by two gnomes formerly of the mechanical city of Ak'Akanon. The two gnomes directing this effort were Dooly Jonkers and the legendary gnome tinker known simply as Tinmizer, recently returned from an epic odyssey. Together these masterminds help direct the think tank and develop the Norrathian Code of Trade Standards."
+            },
+            {
+              "text": "This book is filled with all sorts of arcane formulas and complex engineering blueprints. Some of the sketches bear a striking similarity to the ruined spires found throughout the Shattered Lands. Clearly only the most intellectual persons on Norrath could ever understand this, but there are a few pages that catch your attention.",
+              "actions": [
+                {
+                  "label": "Read the page.",
+                  "page": "+1"
+                },
+                {
+                  "label": "[Exit]",
+                  "page": "exit"
+                }
+              ]
+            },
+            {
+              "text": "We the Minds of Quellithule offer these spires to all Norrathians. Many of the lesser minds of Mechanimagica and the Arcane Sciences believe our theories presented here to be faulty. This is impossible. We highmen have long applied the arcane art of teleportation. It has long been a standard within our societies. No other people have the heightened knowledge of such arts.",
+              "actions": [
+                {
+                  "label": "Next page.",
+                  "page": "+1"
+                },
+                {
+                  "label": "Close the book.",
+                  "page": "exit"
+                }
+              ]
+            },
+            {
+              "text": "Refining newfound arts of teleportation and displacement we have produced these new theories that will now be the basis for the new Ulteran Spire network of Norrath. This will replace the void that has existed since the dawn of the Age of War. The absence of the Combine Spires has made a large negative impact on foreign affairs, even between long allied nations.",
+              "actions": [
+                {
+                  "label": "Next page.",
+                  "page": "+1"
+                },
+                {
+                  "label": "Previous page.",
+                  "page": "-1"
+                },
+                {
+                  "label": "Close the book.",
+                  "page": "exit"
+                }
+              ]
+            },
+            {
+              "text": "Since our reemergence and the bloodshed of the Age of War we have seen the value of harmony at all costs. If our nations are divided Norrath shall surely fail. We must maintain the bonds we have forged and strive to build new alliances. So we offer these new spires to Norrath and know that their existence will allow all civilized nations to work towards global harmony. - Quell'Azar of the Minds of Quellithule",
+              "actions": [
+                {
+                  "label": "Previous page.",
+                  "page": "-1"
+                },
+                {
+                  "label": "Close the book.",
+                  "page": "exit"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "stack of books",
+      "location": "707.88,82.43,127.15",
+      "actions": [
+        {
+          "label": "Inspect",
+          "category": "basic_book",
+          "basic_page_config": {
+            "exit": "Stop browsing",
+            "first_page_action": "\"The Words of Pure Magic\"",
+            "next_page": "Next Page",
+            "prev_page": "Previous Page."
+          },
+          "basic_pages": [
+            "Dear reader, I bring to you what you already have. This world of ours is crossed by a great many powers that bind life together as nails and glue bind two boards. Without the nails and glue there would be no hull or no wall to a greater thing. All that we know is bound by forces greater than the planes themselves. And from one of these forces the gift of Druzaic comes to us.",
+            "Druzaic is the true language of the arcane. The forces of magic can only be represented by most powerful of symbols, symbols so complex and enlightened that they breathe a sentience to the beholder, buy only the beholder that can understand the language of Druzaic. I comprehend this language of true magic and I offer my knowledge to you.",
+            "Druzaic originates in a well of knowledge greater than all New Tanaan can offer. This well is all around us and is part of everything we see and are, it is the binding force of magic. Although this force is one of many that bind our realm, it is the only one to my knowledge that has presented corporeal gifts unto our world. It is from these gifts that I have deciphered Druzaic.",
+            "Druzaic has always existed, but only now has it made its way to Norrath. I am a seeker of knowledge bound to no emperor or overlord. The knowledge of this world shall not be bound to a state and confined within vaults of knowledge. I trek for the freedom of knowledge and in my journeys across these Shattered Lands I have encountered sights both wondrous and shocking, but I have yet to encounter anything like the Druzaic Shrines.",
+            "As I traverse the stormy highlands of the once plains I first gazed upon the beauty of the Druzaic Shrine. At first it was a glint from afar that called to me, beckoned me in some hypnotic fashion like a siren to the sailor. As I drew closer I could see the aura of magnificence sparkling and swirling about, I added haste to my steps.",
+            "I came upon the Druzaic Shrine and found myself in awe of the splendor that danced all about. I must have been in a trance for days my thirst and hunger fed by the song of the shrine. Finally my eyes began to clear and I found myself bolts away from the shrine, partially bathed in its brilliance. Now with my senses intact I was finally able to gaze upon the shrine and record my sight.",
+            "All about the image I found runes, symbols... a form of alphabet. As I stood there studying these runes thinking I would never be able to decipher such a complex code the shrine began to hum. The rhythm of the shrine began to seep into my mind and for an instance I could begin to read the runes, and then the unexpected occurred- the shrine vanished!",
+            "Where once it did sit the Druzaic Shrine was no more! The beauty of the shrine had vanished before my eyes taking with it the key to a new language, a language of magic. I was on the brink of discovery and in an instant it was swiped from me. I wept for the grandeur that was almost comprehended, having seen a glimpse of arcane purity.",
+            "The days went on and my exploration of the Shattered Lands had only begun. I continued on recording my sights, sights that could not compare to the song of the Druzaic Shrine. I had met up with my friend from ages past as he toured the land taking notes to be shared with all Norrathians. I too wished to share my knowledge and wished to share what would have been a new arcane language if the shrine would never have left me. I was alone with memories from within and beyond, words of pure magic.",
+            "We had sailed to new lands together, my old friend and I. We walked over dangerous lands and all the while I believed the shrine to be gone forever. It was at this end of hope that the sound overtook my mind yet again, I could hear the song of the shrine! I swiped my friend's magic boots, boots of great haste, with them I soon found myself face to face with the shrine again, or so I thought.",
+            "What I saw before me sang the song of the shrine, but contained runes of a different sort. This shrine was a member of the greatness that the first shrine was. With it I listened and learned more of the language unknown. I was yet again in a trance when my old friend awoke me, he had finally found me after three moons passed. As he shouted at me for foolish ventures we both were interrupted by the farewell of the new shrine. It was gone in an instant just as the one before.",
+            "Weeks passed and my friend and I had almost lost interest in our conversations of the shrine. We found ourselves on a more terrestrial wonder, the extreme grandeur of a land ablaze- Lavastorm! It was on this land that I encountered another friend from my past, the first shrine!",
+            "The shrine had appeared to me, popped into existence in the blink of an eye right before us as if it was there all the time. What was amazing was that when at first I met the shrine it was spellbinding and it's runes indecipherable, but now I could partially comprehend what I read upon the shrine. The shrine's language was almost mine, but I could learn no more from this one.",
+            "My friend and I stayed at the shrine and planned to make camp there, but the dangers of the region forced us to abandon our safe haven. I left that land with more than the sights i had seen, I knew now that there were a few more of these shrines, I could feel them. I bid farewell to my friend as he boarded the Far Trotter for other sights. I must go on alone in search of the remaining shrines.",
+            "I could tell you the end of this tale dear reader, but the mystery must not be destroyed. In a sense the mystery was what aided in my comprehension of the new language of arch mages and magical beasts. I know Druzaic and you now know it lives in our realm. Seek the splendor and song when you are in your journeys. Seek the dancing lights and the brilliant spheres of Kab, Zet, Uzu and Myr. These are your keys to Druzaic, language of pure magic."
+          ]
+        }
+      ]
+    }
+  ],
   "npcs": [
     {
       "name": "Aesthetic Winchester",

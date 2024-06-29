@@ -37,6 +37,66 @@
       "key": "befallen_epic01_mi_pirate_hideout"
     }
   ],
+  "objects": [
+    {
+      "name": "storage box",
+      "location": "-2104.11,-43.75,438.61",
+      "actions": [
+        {
+          "label": "examine box",
+          "command": "open_book",
+          "book_pages": [
+            {
+              "text": "Within the storage box you find a leather bound manifest.  It appears to be untouched for quite some time, but the leather is still in excellent condition.",
+              "actions": [
+                {
+                  "label": "Open manifest",
+                  "commands": [
+                    {
+                      "command": "give_quest",
+                      "quest": "Hunter's Manifest"
+                    },
+                    {
+                      "command": "goto_page",
+                      "page": "1"
+                    }
+                  ]
+                },
+                {
+                  "label": "Leave the manifest alone.",
+                  "command": "exit"
+                }
+              ]
+            },
+            {
+              "text": "The manifest once belonged to a hunter, that apparently had something to do with organizing hunts for Qeynosian royalty.  Great hunts were organized, where hunters from all over Norrath were invited to participate, competing for prizes and prestige.  The manifest is not particularly well written, but it sparks your imagination nonetheless.",
+              "actions": [
+                {
+                  "label": "I will hunt game in Antonica.",
+                  "command": "exit"
+                },
+                {
+                  "label": "exit",
+                  "command": "exit"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "chest",
+      "location": "-2110.27,-43.89,432.02",
+      "actions": [
+        {
+          "labels": "open chest",
+          "command": "give_item",
+          "gamelink": "\\aITEM -208547450 1663244787:Know Your Gnolls\\/a"
+        }
+      ]
+    }
+  ],
   "npcs": [
     {
       "name": "Able Tucksmeet",

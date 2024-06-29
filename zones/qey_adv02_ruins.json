@@ -29,7 +29,12 @@
     {
       "name": "Condemned Catacomb Entrance",
       "location": "1041.82,-19.27,-798.09",
-      "category": "markable"
+      "actions": [
+        {
+          "label": "mark",
+          "category": "markable"
+        }
+      ]
     }
   ],
   "npcs": [

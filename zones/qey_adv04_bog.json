@@ -1,5 +1,6 @@
 {
   "name": "The Peat Bog",
+  "flags": "origins",
   "category": "Karan",
   "levels": "5-10",
   "maps": [
@@ -9,287 +10,188 @@
   ],
   "connections": [
     {
-      "key": "antonica"
+      "key": "antonica",
+      "location": "665.72,-32.66,394.20"
     },
     {
-      "key": "qey_catacomb02"
+      "key": "qey_catacomb02",
+      "location": "578.51,-32.80,507.34"
     },
     {
-      "key": "qey_village01_clone"
+      "key": "qey_village01",
+      "location": "573.73,-26.39,401.60"
     },
     {
-      "key": "qey_village02_clone"
+      "key": "qey_village02",
+      "location": "770.05,-26.40,361.58"
     }
   ],
   "npcs": [
     {
-      "name": "a Bloodsaber watcher",
-      "level": 7,
+      "name": "a Bloodsaber plaguebearer",
       "locations": [
-        "656.84,-32.84,569.36",
-        "608.85,-32.7,542.66",
-        "613.23,-32.78,547.78",
-        "623.69,-34.18,583.97",
-        "623.22,-32.33,618.60",
-        "664.48,-32.71,551.52"
+        "675.26,-33.34,417.41",
+        "679.01,-33.27,423.17"
       ],
       "utterances": [
-        "Come back you coward! I'm not dead yet.",
-        "I'm gonna give you a smile like ol' one tooth!",
-        "Is this supposed to hurt?",
-        "Feel kinda sleepy. Whacha do to me?"
-      ],
-      "drop_coin_min": 7,
-      "drop_coin_max": 7
-    },
-    {
-      "name": "a bog faerie",
-      "level": 7,
-      "locations": [
-        "633.83,-32.34,552.97",
-        "624.22,-33.84,565.09",
-        "592.82,-30.92,562.29",
-        "604.26,-32.72,534.29",
-        "622.91,-30.46,548.33",
-        "634.30,-27.81,642.39",
-        "607.82,-28.49,632.19",
-        "608.90,-27.40,626.54",
-        "608.75,-25.59,620.13"
-      ],
-      "utterances": [
-        "Oh, ouch! Stop it!",
-        "Trick or trick!  Time to treat... Myself!",
-        "Poor fairy! Look what you did!",
-        "Now why would you want to hurt lil' ol' me?",
-        "Grin and bear the beating!",
-        "Now who will I play pranks on?",
-        "Not the wings! Don't pluck my wings!"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1334963291 -888860409:a fairy eye\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2067929346 1951232146:a fairy antenna\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -694632991 -1021080484:a fairy wing\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 824217830 -1152420037:a fairy dust jar\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 949411021 -1489862085:a fairy ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1583379081 1458214899:a fairy essence\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1775129948 148489377:Far Seas Trading Requisition PBG0295\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1385603239 -898323231:a vial of fairy blood\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 4,
-      "drop_coin_max": 70
+        "Me going to eat your kidney first.",
+        "I'm gonna give you a smile like ol' one tooth!"
+      ]
     },
     {
       "name": "a bog sludge",
-      "level": 4,
       "locations": [
-        "768.26,-33.98,399.1",
-        "773.93,-34.08,395.39",
-        "794.26,-33.54,400.94",
-        "614.23,-33.27,431.05",
-        "590.70,-33.25,453.74",
-        "662.49,-33.47,447.56",
-        "718.37,-33.77,473.27",
-        "726.01,-34.26,445.99",
-        "728.94,-33.99,455.92",
-        "736.55,-33.29,445.61",
-        "689.55,-34.34,439.92",
-        "770.21,-33.26,404.69",
-        "762.25,-33.52,407.81"
+        "658.55,-33.40,434.71",
+        "603.23,-33.12,446.70",
+        "637.00,-32.64,428.47",
+        "649.72,-33.35,434.74",
+        "699.70,-34.07,409.06",
+        "693.12,-33.26,424.00",
+        "665.45,-33.99,438.57",
+        "693.59,-34.30,409.28",
+        "749.52,-33.20,404.24",
+        "669.31,-34.27,407.89",
+        "611.05,-33.29,433.89",
+        "688.41,-34.41,440.16",
+        "694.10,-33.06,465.32",
+        "764.18,-33.37,404.75",
+        "587.60,-33.48,459.58"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1791809415 -329822486:an accumulation of plasma\\/a",
+          "gamelink": "\\aITEM 1791809415 902329307:an accumulation of plasma\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1995047784 -1016770421:a mucous encrusted tendril\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 467778097 -1617601716:Advanced Artisan Volume 5\\/a",
+          "chest": true
         }
       ]
     },
     {
       "name": "a bog slug",
-      "level": 4,
       "locations": [
-        "705.62,-32.76,452.67",
-        "613.46,-33.29,426.91",
-        "663.48,-33.91,436.78",
-        "717.09,-34.24,445.99",
-        "688.44,-34.01,436.20",
-        "698.89,-33.77,413.06",
-        "648.70,-33.31,434.81"
+        "667.67,-33.96,444.59",
+        "660.55,-33.90,437.52",
+        "669.65,-33.83,411.24",
+        "689.14,-34.03,449.68",
+        "696.47,-34.04,405.41",
+        "652.84,-33.48,435.88",
+        "774.07,-34.25,394.85",
+        "692.02,-33.70,434.70",
+        "693.58,-34.05,414.91",
+        "692.37,-33.96,443.34",
+        "691.35,-34.11,407.04",
+        "794.76,-33.90,394.43",
+        "702.61,-33.15,409.04",
+        "616.35,-33.03,433.85",
+        "760.77,-33.46,401.05"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 2006611716 -369658925:a vial of mucus\\/a",
+          "gamelink": "\\aITEM 1205117057 -1316931119:bronze parrying blade\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2006611716 1669346638:a vial of mucus\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -226353404 1995898489:Advanced Artisan Volume 3\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1068392054 593058446:Minor Florescense (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1296545647 -923685626:a slug antenna\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1900387289 668888967:bronze knuckles\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -921260083 1810690739:Double Shot (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -535538128 1781778535:bronze short sword\\/a",
+          "chest": true
         }
       ]
     },
     {
       "name": "a bog slug hatchling",
       "locations": [
-        "700.78,-32.69,454.07",
-        "654.33,-33.27,440.16"
+        "690.21,-33.95,448.42",
+        "666.62,-33.50,412.61",
+        "699.42,-32.78,400.13",
+        "644.68,-32.74,434.30",
+        "697.82,-34.15,408.53",
+        "696.11,-33.24,436.81",
+        "697.44,-33.29,418.94",
+        "793.33,-34.39,393.53",
+        "690.41,-33.27,429.02",
+        "755.25,-34.12,406.88",
+        "760.00,-33.16,397.98"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2006611716 1669346638:a vial of mucus\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1296545647 -923685626:a slug antenna\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a bogwood termite",
+      "locations": [
+        "617.98,-33.09,458.80",
+        "604.97,-32.99,453.23",
+        "610.32,-33.00,448.62"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 446684787 1499328814:an insect shell\\/a",
+          "chest": false
+        }
       ]
     },
     {
       "name": "Botanist Lith",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
-        "584.08,-32.65,444.37",
-        "594.45,-33.37,455.1"
+        "586.88,-32.74,446.18",
+        "589.13,-32.77,466.01"
       ],
       "utterances": [
         "The plant life here is absolutely astounding."
       ]
     },
     {
-      "name": "a faerie abbot",
-      "level": 12,
-      "locations": [
-        "738.21,-32.4,527.5",
-        "720.19,-33.15,526.54",
-        "712.62,-32.88,539.29",
-        "738.39,-28.65,547.13",
-        "711.95,-28.65,547.07"
-      ],
-      "utterances": [
-        "Poor fairy! Look what you did!",
-        "Now who will I play pranks on?"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1486270158 1484298989:a vial of fairy blood\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 23,
-      "drop_coin_max": 33
-    },
-    {
-      "name": "a faerie gatekeeper",
-      "level": 10,
-      "locations": [
-        "745.7,-32.68,523.83",
-        "751.31,-32.69,526.87"
-      ],
-      "utterances": [
-        "Poor fairy! Look what you did!",
-        "Now why would you want to hurt lil' ol' me?"
-      ]
-    },
-    {
-      "name": "a faerie guardian",
-      "level": 12,
-      "locations": [
-        "734.63,-32.71,519.96",
-        "725.62,-33.11,535.29",
-        "709.64,-32.8,529.92",
-        "702.2,-33.49,508.61",
-        "714.60,-28.34,500.55"
-      ],
-      "utterances": [
-        "Poor fairy! Look what you did!",
-        "Now who will I play pranks on?"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1486270158 1484298989:a vial of fairy blood\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 24,
-      "drop_coin_max": 30
-    },
-    {
-      "name": "a faerie noblesse",
-      "level": 13,
-      "difficulty": "heroic",
-      "locations": [
-        "697.38,-31.27,538.39",
-        "689.86,-31.54,539.54"
-      ],
-      "utterances": [
-        "Now who will I play pranks on?"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1486270158 1484298989:a vial of fairy blood\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a fay tangleroot",
-      "level": 11,
-      "locations": [
-        "679.14,-33.15,522.7",
-        "680.08,-33.36,547.1",
-        "704.47,-33.31,563.38",
-        "728.04,-33.36,542.73",
-        "723.12,-33.56,516.18",
-        "721.90,-33.40,553.93",
-        "690.95,-33.50,518.10"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 984980240 -1574956445:wooden splinter\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1920229993 1831389544:Far Seas Trading Requisition PBG0162\\/a",
-          "chest": true
-        }
-      ]
-    },
-    {
       "name": "Ferius Mentus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
-        "567.73,-28.59,420.08"
+        "568.37,-28.71,420.21"
       ],
       "utterances": [
         "Yes, yes, you're here, I'm here, why don't we talk, eh? No thanks.",
@@ -300,324 +202,66 @@
       ]
     },
     {
-      "name": "a fungus crawler",
-      "level": 8,
-      "locations": [
-        "803.96,-33.09,560.77",
-        "797.84,-32.93,542.39",
-        "811.65,-32.74,532.42",
-        "793.59,-32.98,612.03"
-      ]
-    },
-    {
-      "name": "a Gaseous Seep",
-      "locations": [
-        "769.71,-36.12,586.69"
-      ]
-    },
-    {
-      "name": "a greater bog faerie",
-      "level": 9,
-      "locations": [
-        "777.05,-32.99,475.13",
-        "765.94,-32.93,485.81",
-        "829.37,-31.94,605.85",
-        "783.99,-27.74,469.54"
-      ],
-      "utterances": [
-        "Poor fairy! Look what you did!"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1385603239 -898323231:a vial of fairy blood\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "Guard Andrews",
-      "purpose": "Guard",
-      "level": 25,
-      "difficulty": "heroic",
-      "locations": [
-        "571.10,-26.39,405.30"
-      ],
-      "utterances": [
-        "Duty above all else, citizen, except honor!",
-        "Good day to you, citizen. All preserve Queen Antonia."
-      ]
-    },
-    {
       "name": "Guard Black",
-      "purpose": "Guard",
-      "level": 25,
-      "difficulty": "heroic",
-      "locations": [
-        "667.71,-33.36,422.99"
-      ],
       "utterances": [
+        "Summon help!  We have invaders!",
         "To arms!",
-        "Summon help!  We have invaders!"
-      ]
-    },
-    {
-      "name": "Guard Dierdra",
-      "purpose": "Guard",
-      "level": 25,
-      "difficulty": "heroic",
-      "locations": [
-        "574.56,-26.39,405.5"
+        "Prepare to face your doom, meddler."
       ]
     },
     {
       "name": "Guard Moor",
-      "purpose": "Guard",
-      "level": 25,
-      "difficulty": "heroic",
       "utterances": [
-        "To arms!"
-      ]
-    },
-    {
-      "name": "Guard Nander",
-      "purpose": "Guard",
-      "level": 25,
-      "difficulty": "heroic",
-      "locations": [
-        "772,-26.39,365.05"
-      ],
-      "utterances": [
-        "I hate working this shift!  If the gnolls don't attack now I may die of boredom.",
-        "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out."
-      ]
-    },
-    {
-      "name": "Guard Vivian",
-      "purpose": "Guard",
-      "level": 25,
-      "difficulty": "heroic",
-      "locations": [
-        "769.75,-26.39,365.39",
-        "768.83,-26.46,379.39"
-      ]
-    },
-    {
-      "name": "Jasarn",
-      "locations": [
-        "697.38,-31.27,538.39"
-      ]
-    },
-    {
-      "name": "King Itchhide",
-      "level": 10,
-      "locations": [
-        "650.87,-35.58,609.26"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -339805538 519648700:rotten rodent tail\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "Knight-Captain Santis",
-      "locations": [
-        "778.91,-26.39,375.77"
-      ],
-      "utterances": [
-        "Have you a moment?  We guards could use your assistance!",
-        "Good day to you.  I've been hearing reports that the Peat Bog here isn't safe right now.  I hope you didn't have any trouble if you came through this way.",
-        "The Bog Sludges have swelled in number, spreading like pestilence.  This vermin has become a serious menace to the refugees here.  The Sludges must be exterminated for the safety of the people.  I hope you're not too squeamish for such a job.  ",
-        "Excellent!  Slay several sludges here and report back to me.  I will reward you for your service to Qeynos. "
-      ]
-    },
-    {
-      "name": "Knight-Captain Santis",
-      "locations": [
-        "779.2,-26.39,376.39"
-      ],
-      "utterances": [
-        "Have you a moment?  We guards could use your assistance!",
-        "Good day to you.  I've been hearing reports that the Peat Bog here isn't safe right now.  I hope you didn't have any trouble if you came through this way.",
-        "The Bog Sludges have swelled in number, spreading like pestilence.  This vermin has become a serious menace to the refugees here.  The Sludges must be exterminated for the safety of the people.  I hope you're not too squeamish for such a job.  "
-      ]
-    },
-    {
-      "name": "a large scavenger",
-      "level": 7,
-      "locations": [
-        "648.08,-32.36,494.08",
-        "638.13,-35.04,603.64",
-        "647.61,-34.15,584.49",
-        "655.94,-33.74,586.51",
-        "669.94,-33.07,605.52",
-        "657.76,-33.69,614.84",
-        "645.68,-35.40,611.05",
-        "649.75,-33.43,625.02",
-        "675.14,-32.74,605.17",
-        "660.49,-34.35,595.30",
-        "655.76,-34.58,602.52",
-        "631.20,-33.66,606.63",
-        "622.72,-30.17,639.57",
-        "628.82,-34.06,598.31",
-        "634.68,-34.26,595.57",
-        "672.50,-32.65,618.64"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -123510831 961099883:rotten rodent meat\\/a",
-          "chest": false
-        }
+        "Summon help!  We have invaders!",
+        "To arms!",
+        "Prepare to face your doom, meddler."
       ]
     },
     {
       "name": "Lieutenant Dawson",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Qeynos Guard",
       "locations": [
-        "563.51,-27.12,415.82"
+        "562.72,-26.6,412.69"
       ],
       "utterances": [
-        "Return to me when you're a bit more experienced, I think I could use your help.",
-        "Do you have a question? Please be brief, my mind is occupied at the moment.",
-        "I'm not entirely sure yet. Strange things have been happening in the Peat Bog. The ecology here has taken a staggering turn and that has attracted attention. I am trying to provide a strong presence here but with no direct support from Qeynos that is tough. I just need to show Qeynos that investing more people here is necessary.",
-        "That is yet another thing I'm not quite certain of yet. I need time to think that over but there are enough mundane problems that I've very little time to think. Care to lend a hand?",
-        "You can take care of some of the recurring problems while I try to focus my mind elsewhere. The fungus men around here have been causing enough incidents to warrant action. And the ravenous bog slugs are becoming more active. Take some of them out for me and it will give me the time needed to plan. Whadya say?",
-        "Great. The fungus men can be found around the mushrooms that dot the landscape. The ravenous bog slugs can be found south of here: if you follow this path to where the sewer grate lies and then head south, heading east once you hit the water, then further south, you should find them."
-      ]
-    },
-    {
-      "name": "Lurkblister",
-      "level": 15,
-      "difficulty": "heroic",
-      "locations": [
-        "684.84,-34.32,445.52",
-        "694.8,-33.78,470.2",
-        "683.96,-32.78,475.84",
-        "675.43,-32.81,469.74",
-        "670.5,-34.12,487.86",
-        "657.83,-32.57,515.23",
-        "645.38,-32.73,545.83",
-        "619.23,-34.48,534.29"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 342190699 355608387:Muck Stained Spaulders\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1700581584 -1564337946:an accumulation of plasma\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -556387069 -2093279945:Stalk (Adept)\\/a",
-          "chest": true
-        }
-      ]
-    },
-    {
-      "name": "a marsh hatchling",
-      "level": 8,
-      "locations": [
-        "702.89,-34.47,607.70",
-        "752.77,-32.55,612.92",
-        "745.50,-32.89,620.00"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1168732856 733388760:reptile meat\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a marsh mauler",
-      "level": 10,
-      "locations": [
-        "800.9,-32.65,613.01",
-        "803.96,-33.09,560.77",
-        "768.18,-33.79,505.3",
-        "810.30,-32.24,617.69",
-        "824.75,-32.61,592.82",
-        "806.23,-32.16,535.44"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a mist stalker",
-      "level": 11,
-      "locations": [
-        "785.45,-33.75,476.53",
-        "798.97,-33.2,472.56",
-        "778.82,-33.26,476.18",
-        "758.41,-32.67,487.09",
-        "785.77,-33.09,462.40"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1024480043 347122643:canine saliva\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a muck toad",
-      "level": 6,
-      "locations": [
-        "760.21,-32.75,435.97",
-        "782.22,-33.12,450.48",
-        "764.99,-32.71,425.05",
-        "682.81,-34.38,491.7",
-        "652.67,-32.83,491.24",
-        "655.72,-33.19,505.19",
-        "662.97,-33.2,515.94",
-        "676.81,-33.1,487.09",
-        "649.49,-33.55,539.73",
-        "643.58,-33.7,540.05",
-        "743.42,-33.35,599.12",
-        "797.84,-32.93,542.39",
-        "644.38,-34.16,565.23",
-        "765.70,-32.90,446.71",
-        "776.46,-32.76,453.91"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1329575188 870687383:a vial of frog blood\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1920229993 1831389544:Far Seas Trading Requisition PBG0162\\/a",
-          "chest": true
-        }
+        "Return to me when you're a bit more experience, I think I could use your help."
       ]
     },
     {
       "name": "Oakvil",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "General Goods",
       "locations": [
-        "759.65, -26.23, 379.46"
+        "759.96,-26.23,379.69"
       ],
       "utterances": [
         "Confound it! Where did I put that ledger?  It must be around here somewhere!",
-        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
         "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
         "Welcome! What can I help you with?"
       ],
       "store": [
         {
-          "gamelink": "\\aITEM 1659182822 2099621516:a torch\\/a",
+          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
           "prices": [
             {
-              "coin": 60
+              "coin": 540
             }
           ]
         },
         {
-          "gamelink": "\\aITEM 2208995 -860442438:dried bread\\/a",
+          "gamelink": "\\aITEM 2208995 -860442438 0 0 0:dried bread\\/a",
           "prices": [
             {
               "coin": 7
@@ -625,7 +269,7 @@
           ]
         },
         {
-          "gamelink": "\\aITEM -101702825 -210262797:flask of murky water\\/a",
+          "gamelink": "\\aITEM -101702825 -210262797 0 0 0:flask of murky water\\/a",
           "prices": [
             {
               "coin": 7
@@ -633,122 +277,72 @@
           ]
         },
         {
-          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a",
+          "gamelink": "\\aITEM -426289183 -435115855 0 0 0:flask of pond water\\/a",
           "prices": [
             {
-              "coin": 19
+              "coin": 29
             }
           ]
         },
         {
-          "gamelink": "\\aITEM -1347014509 -1543938383:plain bread\\/a",
+          "gamelink": "\\aITEM -1347014509 -1543938383 0 0 0:plain bread\\/a",
           "prices": [
             {
-              "coin": 19
+              "coin": 29
             }
           ]
         },
         {
-          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a",
+          "gamelink": "\\aITEM -1241081646 1636802182 0 0 0:rawhide leather rucksack\\/a",
           "prices": [
             {
-              "coin": 81
+              "coin": 180
             }
           ]
         }
-      ],
-      "store_template": "general_goods"
+      ]
     },
     {
       "name": "a puny scavenger",
-      "level": 3,
       "locations": [
-        "607.5,-33.07,456.2",
-        "773.27,-33.27,405.55",
-        "622.00,-32.74,434.29",
-        "611.90,-32.66,410.56",
+        "671.02,-33.31,430.36",
+        "679.47,-33.55,430.82",
+        "802.19,-32.33,404.28",
+        "745.86,-32.91,434.80",
+        "637.21,-33.12,408.00",
+        "647.08,-32.74,408.13",
+        "619.74,-32.99,460.28",
+        "659.03,-33.11,414.41",
         "617.84,-33.09,412.77",
-        "695.75,-33.32,440.25",
-        "685.70,-33.93,449.48",
-        "782.82,-33.12,405.99",
-        "639.89,-32.81,416.35"
-      ]
-    },
-    {
-      "name": "Queen Ezeldra",
-      "level": 13,
-      "difficulty": "heroic",
-      "locations": [
-        "693.52,-31.28,538.90"
-      ],
-      "utterances": [
-        "So they finally got rid of me..."
+        "782.96,-33.39,399.10",
+        "642.16,-32.93,414.41",
+        "685.58,-33.32,429.63"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1509592360 1943132032:Ezeldra's Wand\\/a",
+          "gamelink": "\\aITEM -1659113820 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 216783527 -145256761:Minor Recovery (Adept I)\\/a",
           "chest": true
-        }
-      ],
-      "drop_coin_min": 36,
-      "drop_coin_max": 36
-    },
-    {
-      "name": "a ravenous bog slug",
-      "level": 8,
-      "locations": [
-        "599.18,-32.7,562.37",
-        "604.02,-33.35,578.85",
-        "627.74,-32.85,627.66",
-        "611.09,-32.80,621.99",
-        "608.20,-33.14,598.96"
-      ],
-      "drops": [
+        },
         {
-          "gamelink": "\\aITEM 2006611716 -369658925:a vial of mucus\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a refuse burrower",
-      "level": 9,
-      "locations": [
-        "649.41,-35.71,610.73"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -123510831 961099883:rotten rodent meat\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a rot crawler",
-      "level": 9,
-      "locations": [
-        "794.5,-32.58,607.15",
-        "797.53,-33.78,550.87",
-        "777.29,-34.41,491.78",
-        "821.93,-31.93,590.67",
-        "819.42,-32.33,580.16",
-        "804.06,-33.02,566.84",
-        "815.30,-32.69,562.62",
-        "791.53,-34.12,552.94",
-        "811.37,-32.68,535.42",
-        "774.95,-34.48,499.43"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1733310877 1095896343:an insect antenna\\/a",
-          "chest": false
+          "gamelink": "\\aITEM -311462812 1191822828:malachite earring\\/a",
+          "chest": true
         }
       ]
     },
     {
       "name": "Rujiarmo Oolamein",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
-        "769.24,-26.45,378.82"
+        "769.34,-26.46,379.04"
       ],
       "utterances": [
         "The Peat Bog is not generally a welcoming place."
@@ -756,288 +350,51 @@
     },
     {
       "name": "Siahtra Slenloolian",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
-        "657.56,-32.18,397.69"
+        "657.56,-32.18,397.71"
       ],
       "utterances": [
-        "There appears to be increased troll activity in the Peat Bog.  Curious.",
-        "Curious to see how quickly these creatures have grown in recent times.",
-        "My soil and water samples are producing some curious results.  I wonder what could be causing this?"
-      ]
-    },
-    {
-      "name": "a silt sucker",
-      "level": 7,
-      "locations": [
-        "667.11,-34.26,510.38",
-        "671.29,-34.17,498.5",
-        "665.93,-34.26,497.24"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1791809415 -329822486:an accumulation of plasma\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1995047784 955189645:a mucous encrusted tendril\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a sporeal guard",
-      "level": 6,
-      "locations": [
-        "765.94,-33.14,436.82",
-        "780.47,-34.21,437.89"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -533752806 1025360918:pungent fungus spore\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a sporeal herbalist",
-      "level": 6,
-      "locations": [
-        "779.01,-33.97,446.49",
-        "784.09,-34.13,436.32"
-      ]
-    },
-    {
-      "name": "a sporeal knight",
-      "level": 6,
-      "locations": [
-        "778.65,-34.06,436.84",
-        "785.81,-33.81,436.37"
-      ]
-    },
-    {
-      "name": "a Sporeal Propogator",
-      "locations": [
-        "788.46,-33.84,443.03"
+        "Curious to see how quickly these creatures have grown in recent times."
       ]
     },
     {
       "name": "a sporeal seedling",
-      "level": 5,
       "locations": [
-        "621.21,-33.09,452.47",
-        "718.76,-33.7,464.84",
-        "689.50,-32.59,496.38"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -533752806 1025360918:pungent fungus spore\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a swamp seep",
-      "level": 8,
-      "locations": [
-        "702.25,-32.44,631.54",
-        "711.37,-35.39,602.19",
-        "693.25,-35.22,611.21",
-        "725.11,-34.12,587.93",
-        "749.10,-33.08,617.82",
-        "700.22,-33.39,623.42",
-        "708.28,-32.90,630.18",
-        "775.96,-35.30,591.74",
-        "758.12,-35.74,580.97",
-        "767.96,-35.30,581.88",
-        "770.78,-36.04,586.97",
-        "799.19,-33.91,555.02"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1791809415 -329822486:an accumulation of plasma\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "Tanaira",
-      "locations": [
-        "759.86,-26.39,365.44"
-      ],
-      "utterances": [
-        "Come on, Santis ... Just take one look my way ... Oh, hello! Sorry, I didn't see you.  My eyes tend to wander toward Santis.",
-        "Oh, hello! Sorry, I didn't see you.  My eyes tend to wander towards Santis over there.",
-        "Oh!  Santis has occupied so much of my thoughts that I forgot about this requisition I placed weeks ago.  I may have forgotten but I am glad you did not.",
-        "Please mind the plates, they're very hot.",
-        "Tell me, do you prefer Halfling or Elven cuisine?  I myself have a hard time deciding between the two."
-      ],
-      "store": [
-        {
-          "gamelink": "\\aITEM 502648298 -366828437:canteen of pond water\\/a",
-          "prices": [
-            {
-              "coin": 38
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1639422081 1158610386:chopped walnuts\\/a",
-          "prices": [
-            {
-              "coin": 29
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -426289183 -435115855:flask of pond water\\/a",
-          "prices": [
-            {
-              "coin": 19
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1182665080 1921937698:moist fish sticks\\/a",
-          "prices": [
-            {
-              "coin": 29
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1471233703 -1931167001:pasta puffs\\/a",
-          "prices": [
-            {
-              "coin": 29
-            }
-          ]
-        }
-      ],
-      "store_template": "provisioner"
-    },
-    {
-      "name": "a toxic bog slug",
-      "level": 6,
-      "locations": [
-        "635.51,-33.79,558.36",
-        "640.61,-33.89,538.30",
-        "704.22,-34.35,478.89",
-        "712.29,-34.73,483.71"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 2006611716 -369658925:a vial of mucus\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a wetland monitor",
-      "level": 8,
-      "locations": [
-        "686.31,-33.44,621.97",
-        "704,-34,616.93",
-        "712.77,-35.08,606.87",
-        "730.42,-34.47,597.1",
-        "779.27,-34.65,593.25",
-        "698.67,-34.64,612.43",
-        "715.38,-34.81,598.12",
-        "702.95,-33.84,586.97",
-        "725.56,-34.01,602.72",
-        "742.00,-33.39,599.00",
-        "753.48,-32.51,612.74",
-        "742.63,-31.45,641.27",
-        "717.79,-33.31,617.15",
-        "694.57,-34.06,619.64",
-        "748.74,-34.34,586.60",
-        "784.27,-34.13,585.81"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -602141270 -322998714:a split tongue\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1168732856 733388760:reptile meat\\/a",
-          "chest": false
-        }
+        "628.61,-33.53,452.40",
+        "625.21,-33.23,439.24",
+        "630.22,-32.97,430.36"
       ]
     }
   ],
   "shinies": [
     {
-      "gamelink": "\\aITEM -1832140126 2119420903:chipped shard of abjuration\\/a"
+      "gamelink": "\\aITEM -327615186 -1572251097:plain violet butterfly\\/a"
     },
     {
-      "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a",
-      "locations": [
-        "692.36,-34.00,607.97"
-      ]
+      "gamelink": "\\aITEM -2008154588 -2059816185:scuffed shard of evocation\\/a"
     },
     {
-      "gamelink": "\\aITEM -1868197541 -626008118:chipped shard of conjuration\\/a",
-      "locations": [
-        "804.18,-32.00,546.01"
-      ]
+      "gamelink": "\\aITEM -1722451200 1090205410:shattered gnome bone fragment\\/a"
     },
     {
-      "gamelink": "\\aITEM -1535866014 503544685:cracked iksar bone fragment\\/a",
-      "locations": [
-        "596.27,-34.26,510.59"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1827919267 674824625:plain purple butterfly\\/a",
-      "locations": [
-        "710.54,-33.37,507.93"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1981956052 -733463829:scuffed shard of alteration\\/a",
-      "locations": [
-        "614.11,-31.00,627.60"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1039265482 2033830644:shattered half elf bone fragment\\/a",
-      "locations": [
-        "726.31,-34.12,599.56"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1744325928 182650452:shattered ogre bone fragment\\/a",
-      "locations": [
-        "775.36,-33.24,535.58"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 2076496326 1196186978:shattered wood elf bone fragment\\/a",
-      "locations": [
-        "733.59,-32.00,536.31"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1810895498 719705793:striped blue butterfly\\/a",
-      "locations": [
-        "780.64,-34.48,583.48"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -140875129 -614209625:striped purple butterfly\\/a",
-      "locations": [
-        "769.21,-32.00,519.67"
-      ]
+      "gamelink": "\\aITEM 1185753733 -1190212496:shattered high elf bone fragment\\/a"
     }
   ],
   "resourceNodes": [
     {
+      "name": "an assortment of fish"
+    },
+    {
       "name": "the creature den"
     },
     {
-      "name": "the dense felled arbor",
-      "locations": [
-        "635.97,-32.39,400.82"
-      ]
+      "name": "the dense felled arbor"
     },
     {
       "name": "the misty stone"

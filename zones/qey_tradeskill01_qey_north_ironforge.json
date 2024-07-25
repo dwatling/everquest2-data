@@ -8,14 +8,21 @@
   ],
   "npcs": [
     {
-      "name": "Crier Madlyn Treebright",
-      "utterances": [
-        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
-      ]
+      "name": "Crier Madlyn Treebright"
     },
     {
       "name": "Hyacinth Hagglefoot",
-      "purpose": "Broker"
+      "purpose": "Broker",
+      "utterances": [
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Welcome! What can I help you with?"
+      ]
+    },
+    {
+      "name": "Executor Adept Sal`ynelle",
+      "utterances": [
+        "I'm sorry but I'm unable to assign you a writ at this time.  Until the city is able to adapt to the new recipes we have to take inventory and cannot accept any new goods."
+      ]
     }
   ]
 }

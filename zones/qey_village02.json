@@ -36,19 +36,6 @@
       ],
       "locations": [
         "776.41,-20.55,281.53"
-      ],
-      "utterances": [
-        "Mediating in the villages is so difficult.  I shall be an elder by the time I'm ready to begin my tutelage in the Arcanic Combat.",
-        "As my concentration is disrupted, I will give you the answers you seek.  Arcanic Combat is the use of magic in the combative arts. It is an age-old discipline passed down from the Ashen Order to the peoples of Freeport and Qeynos.  The monastery in the Elddar Grove is the primary keeper of this discipline.",
-        "During the Age of Turmoil, the Ashen Order was a society of monks dedicated to the perfection of combative discipline and grace.  They left the city of Freeport when Lucan D`Lere ascended to power.",
-        "The corruption of the city and imbalance of the world had disrupted their neutral and passive ways.  They retreated into perfect solitude.  Two centuries passed before they returned with the knowledge of Arcanic Combat.",
-        "They returned to aid the people of Freeport and Qeynos in the war against the Rallosian Empire.  If it had not been for them, the entire world would have fallen to the ruin of war.",
-        "I do not presume to know their motives, but I believe that their dedication to neutrality and balance spurred them to this decision.  They realized the irreversible devastation that would have occured, had the Rallosian armies been victorious.",
-        "When the Rallosian armies were defeated, the Ashen Order returned to their solitude.  We are not certain where they have retreated. Most people respect the privacy of the Order and leave them in peace. Should the Ashen Order wish to return to the affairs of the world, they shall.",
-        "Location of their monastery remains a secret.  Some believe that they exist beyond this world, but all is speculation.  The Ashen Order's secrets are their own.",
-        "The Ashen Order did not present the history of the discipline when they granted it to the people of the world.  I believe that this is their secret to covet and one that we must trust to their care.",
-        "If the Ashen Order had not descended upon the peoples of the world in their time of need, we would not be here.  Their motivations are those of neutrality and the maintenance of balance; they are neither villains nor heroes of this world.  Distrust of the Arcanic Combats in the modern world is unnecessary.  It would be wasteful not to use Arcanic Combative arts.",
-        "All modern combative disciplines are forms of Arcanic Combat.  The Ashen Order was remarkable in the adaptation of this art.  This art form allows the combatant to tap into arcane forces in order to strengthen their feats.  The usage of Arcanic Combat is no great mystery, nor is it a rarity in this modern world."
       ]
     },
     {
@@ -61,9 +48,6 @@
       ],
       "locations": [
         "765.56,-20.38,242.8"
-      ],
-      "utterances": [
-        "Those who have neither the abilities nor the aspirations to pursue the intellectual arts will find a home at the Ironforge Exchange."
       ]
     },
     {
@@ -76,9 +60,6 @@
       ],
       "locations": [
         "727.25,-20.46,260.2"
-      ],
-      "utterances": [
-        "Hello to you!  If you enjoy my dancing please be sure to leave a tip on the counter!"
       ]
     },
     {
@@ -97,7 +78,8 @@
         "All manner of fermented beverages available here, all with my special Glowmyst juice added!",
         "It's a special juice I squeeze from the glowmyst beetles and I'm running short on the stuff; my customers love it.  Hey, you're a stout one, would you mind squeezing me some?",
         "You must go to the Oakymyst forest and harvest the beetles. I'll need at least a handful of the beetles -- their juice doesn't add to or take away from the flavor of my drinks, but it gives them a slight, radiant glow.",
-        "I must have my glowmyst! My customers won't settle for anything other than that glowing concoction!"
+        "I must have my glowmyst! My customers won't settle for anything other than that glowing concoction!",
+        "Great! This will last at least a week!  If you wait just a minute... Ahh, here we are!  Take some money for your troubles. I insist!"
       ],
       "store_template": "bartender"
     },
@@ -112,9 +94,6 @@
       "purpose": "Human Mentor",
       "locations": [
         "724.85,-20.4,326.58"
-      ],
-      "utterances": [
-        "I would give you something to do, but I have nothing to do myself!"
       ]
     },
     {
@@ -127,9 +106,6 @@
       ],
       "locations": [
         "726.08,-20.46,267.83"
-      ],
-      "utterances": [
-        "Unless you possess the knowledge we seek and will help us, I suggest you leave us with this human. Now, go, leave us to our business!"
       ]
     },
     {
@@ -144,9 +120,6 @@
       "locations": [
         "790.59,-20.34,277.4"
       ],
-      "utterances": [
-        "You have learned everything I have to teach at the moment.  You are free to use our crafting facilities to hone your skills."
-      ],
       "store_template": "crafting_trainer"
     },
     {
@@ -159,9 +132,6 @@
       ],
       "locations": [
         "723.07,-20.46,269.62"
-      ],
-      "utterances": [
-        "Hey, I don't know what they are talking about.  I've never seen such a scroll in my life!"
       ]
     },
     {
@@ -176,7 +146,11 @@
         "789.3,-24.52,321.11"
       ],
       "utterances": [
-        "Welcome to the village!  I hope you find everything you need.  I wish I had!"
+        "Welcome to the village!  I hope you find everything you need.  I wish I had!",
+        "Well ... I hate to complain, but I thought the village would have more trees. Yes, I know ... I could move elsewhere, but I've come to love my new home.  Hmm... I wonder... would you help me bring a little more greenery to the area?",
+        "It would be nice to have more trees, but that's not practical. I'm building a garden behind my house, so I can look at it and imagine the whole village is verdant. The first thing I need is soil.",
+        "Oh I suppose I'll need some seeds too. And I don't just need soil, I need things to enrich the soil I already have. I'd like to get some diatomaceous sand from the crabs of antonica. I believe fish eggs would help with that too, so I'd like some of those as well. As for seeds, I'm sure you can collect some stuck to the fur of some of the mammals that wander around Antonica. If you could bring me all of these items it would help me greatly!",
+        "Wonderful! Thank you so much."
       ]
     },
     {
@@ -192,7 +166,8 @@
         "797.99,-25.71,328.46"
       ],
       "utterances": [
-        "Sorry, friend. I don't think you can help me."
+        "Come close!  Come close!  See what I have to offer today!",
+        "My requisition! I've waited for this for far too long. You would think a local requisition could be filled much quicker! Take your fee and be off."
       ],
       "store_template": "bowyer"
     },
@@ -207,9 +182,6 @@
       "purpose": "Housing",
       "locations": [
         "735.07,-20.46,262.35"
-      ],
-      "utterances": [
-        "Hello there <player name>, what can I help you with?"
       ],
       "store": [
         {
@@ -269,9 +241,6 @@
       ],
       "locations": [
         "818.74,-20.4,268.88"
-      ],
-      "utterances": [
-        "I'm contemplating how this tree symbolizes a person's life ... We all come from a solid trunk grounded in history, and the tree branches represent the random choices we make in life..."
       ]
     },
     {
@@ -285,9 +254,6 @@
       "purpose": "Erudite Mentor",
       "locations": [
         "721.37,-20.25,317.23"
-      ],
-      "utterances": [
-        "I suppose I appreciate your interest in speaking with me, but I am here as a service to those of my own kind."
       ]
     },
     {
@@ -317,9 +283,6 @@
       "locations": [
         "822.7,-20.45,285.13"
       ],
-      "utterances": [
-        "Can't you see I'm busy organizing my collections of wisdom? I've no time for chatting. Leave me alone!"
-      ],
       "store": [
         {
           "gamelink": "\\aITEM 128450204 1303912758 0 0 0:Erudian Language Primer\\/a",
@@ -343,9 +306,6 @@
       "locations": [
         "811.92,-20.45,300.13"
       ],
-      "utterances": [
-        "Though one sees many things, the unseen are the hardest to find!"
-      ],
       "store_template": "alchemist"
     },
     {
@@ -358,9 +318,6 @@
       ],
       "locations": [
         "715.97,-20.35,299.66"
-      ],
-      "utterances": [
-        "'Tis not just the victory I enjoy. To see this one writhe in frustration is highly amusing."
       ]
     },
     {
@@ -398,9 +355,6 @@
       ],
       "locations": [
         "724.63,-20.46,259.14"
-      ],
-      "utterances": [
-        "Step up to the bar, my friend. Never has coin been better spent. "
       ]
     },
     {
@@ -422,9 +376,6 @@
       ],
       "locations": [
         "781.39,-20.36,295.88"
-      ],
-      "utterances": [
-        "Oh, a moment of peace. What I'd give for one moment without little human girls, felines ... or inquisitive adventurers... What do you want? Unless you're of any use, get out of my sight."
       ]
     },
     {
@@ -467,8 +418,7 @@
         "735.02,-20.43,306.47"
       ],
       "utterances": [
-        "Can you believe Vandis? You'd think he'd want help considering the mess he's in. But, ooohhh no... He's too stubborn to listen to any advice. When will he learn that he can't win without help?",
-        "Sorry, friend. I don't think you can help with my cunning scheme."
+        "Can you believe Vandis? You'd think he'd want help considering the mess he's in. But, ooohhh no... He's too stubborn to listen to any advice. When will he learn that he can't win without help?"
       ]
     },
     {
@@ -483,9 +433,6 @@
       "locations": [
         "805.06,-25.94,324.11"
       ],
-      "utterances": [
-        "What happened to the highly explosive bottle that was on my desk?  Have you seen it?"
-      ],
       "store_template": "provisioner"
     },
     {
@@ -499,10 +446,6 @@
       "purpose": "Tailor",
       "locations": [
         "770.53,-24.86,326.33"
-      ],
-      "utterances": [
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
-        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
       ],
       "store": [
         {
@@ -542,9 +485,6 @@
       ],
       "locations": [
         "716.71,-20.25,302.99"
-      ],
-      "utterances": [
-        "Can't you see I'm in the middle of a game of King's Field?  And no, you can't help!"
       ]
     },
     {
@@ -581,15 +521,15 @@
       ],
       "locations": [
         "724.03,-20.46,266.83"
-      ],
-      "utterances": [
-        "Hmm ... you appear no more knowledgeable than this silly human we've collared.  Oh well.\t\t\t\t"
       ]
     },
     {
-      "name": "Zinun Loospakina",
+      "name": "Zinun Loospakina"
+    },
+    {
+      "name": "Barrik",
       "utterances": [
-        "Welcome! What can I help you with?"
+        "Hello there!  Will you be needin' a new sword today?  I forge the best blades this side of the Tranquil Sea... Bested only by the Ironforge smiths. I've no work for you today, perhaps come back another day."
       ]
     }
   ]

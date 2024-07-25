@@ -31,9 +31,6 @@
       "locations": [
         "709.67,-17.06,-311.36"
       ],
-      "utterances": [
-        "Hello there!  Can I interest you in any wares for your travels?"
-      ],
       "store_template": "provisioner"
     },
     {
@@ -47,9 +44,6 @@
       "purpose": "Broker",
       "locations": [
         "707.22,-17.06,-316.96"
-      ],
-      "utterances": [
-        "Don't worry, friend, if it's not on our lists then the goods do not exist."
       ]
     },
     {
@@ -64,10 +58,7 @@
         "554.0,-16.98,-412.85"
       ],
       "utterances": [
-        "Welcome to the city, adventurer. Be mindful of the peace and quiet.  Here in Qeynos, we value our privacy.",
-        "Ahhhhh, that's what I love about Qeynos.  So many bakeries and so many pies!",
-        "Nostalgia isn't what it used to be.",
-        "I just need enough to tide me over until I need more."
+        "Hail and welcome to the city, friend!"
       ]
     },
     {
@@ -82,7 +73,8 @@
         "565.54,-17.66,-418.55"
       ],
       "utterances": [
-        "Now, if you hope to be as fine an archer as me, you should be off practicing instead of talking to me!"
+        "Now, if you hope to be as fine an archer as me, you should be off practicing instead of talking to me!",
+        "Ha! A bullseye! I knew I would hit it soon. Take a look at this, friend!"
       ]
     },
     {
@@ -95,12 +87,6 @@
       ],
       "locations": [
         "703.41,-15.94,-421.2"
-      ],
-      "utterances": [
-        "Be on the lookout, friend!  I just spoke to the guards.  I've no doubt gnolls are scouting the nearby area.",
-        "Laziness is nothing more than the habit of resting before you get tired.",
-        "Do you like muffins?  Muffins are my favorite, I eat them every chance I get.",
-        "If a thing isn't worth saying, you sing it."
       ]
     },
     {
@@ -116,7 +102,7 @@
         "654.55,10.91,-390.96"
       ],
       "utterances": [
-        "I'm sorry. I cannot help you."
+        "My apologies, friend. I did not see you there ... What is it you need?"
       ],
       "store_template": "alchemist"
     },
@@ -229,13 +215,6 @@
       "locations": [
         "787.12,-22.64,-513.31",
         "710.53,-17.06,-318.92"
-      ],
-      "utterances": [
-        "Hail, it is encouraging to see bright faces such as yours arrive in the everlasting city of Qeynos.",
-        "Hello, young adventurer. It is with the utmost delight that I greet you.",
-        "Wonderful to make your acquaintance. Do you find this scenery as whimsical as I? The day is truly blessed.",
-        "Hail to you, it is indeed a pleasure.",
-        "It is with honor that I welcome you to our community."
       ]
     },
     {
@@ -249,9 +228,6 @@
       "purpose": "Swashbuckler Trainer",
       "locations": [
         "667.68,12.19,-375.38"
-      ],
-      "utterances": [
-        "Well, well, what have we here?"
       ]
     },
     {
@@ -264,9 +240,6 @@
       ],
       "locations": [
         "737.78,-21.29,-402.74"
-      ],
-      "utterances": [
-        "Sorry, friend. I can't offer you help at this time. Good day!"
       ]
     },
     {
@@ -279,9 +252,6 @@
       ],
       "locations": [
         "792.36,-19.11,-406.14"
-      ],
-      "utterances": [
-        "May your path always be clear."
       ]
     },
     {
@@ -294,9 +264,6 @@
       ],
       "locations": [
         "576.74,-18.16,-408.59"
-      ],
-      "utterances": [
-        "I can't ever seem to find the arrows I need! Nightbow's shop here is good, but it's a bit pricey."
       ]
     },
     {
@@ -321,9 +288,6 @@
       ],
       "locations": [
         "769.33,-19.26,-384.37"
-      ],
-      "utterances": [
-        "Sorry, I can't speak now.  I must prepare for my sparring exercises."
       ]
     },
     {
@@ -336,9 +300,6 @@
       ],
       "locations": [
         "767.23,-19.26,-373.01"
-      ],
-      "utterances": [
-        "Tread softly and speak your purpose."
       ]
     },
     {
@@ -363,10 +324,6 @@
       ],
       "locations": [
         "624.29,-14.84,-346.27"
-      ],
-      "utterances": [
-        "I don't spend as much time grooming as the others say I do.",
-        "I don't care what they say I have a lovely singing voice."
       ]
     },
     {
@@ -382,10 +339,8 @@
         "666.56,-19.6,-273.8"
       ],
       "utterances": [
-        "As with all relationships in life sometimes desire can lead to misfortune.  I strive to temper love and discipline.",
-        "So much blood and so many lost.  I never believed it would end this way.",
-        "I never thought it would be so difficult to carry on.  I have no songs left in my heart.",
-        "The forces of good are all wrought from the strength of the innocent."
+        "Such a beautiful day!  All I need now is a nice vintage of elven mulberry and my relaxation will be complete.",
+        "I've found that the right amount of patience and enthusiasm can open almost any door."
       ]
     },
     {
@@ -399,13 +354,6 @@
       "locations": [
         "773.32,-21.09,-338.74",
         "683.14,-16.8,-258.82"
-      ],
-      "utterances": [
-        "Will you quit pestering me?  Don't force me to summon the guards!",
-        "Ah, what have we here? Glad to see you endured the journey here, adventurer.",
-        "As a citizen of the mighty city, Qeynos, I greet you openly.",
-        "Greetings visitor, I'm glad to meet you.",
-        "Well met, friend.  It's good to make your acquaintance!"
       ]
     },
     {
@@ -420,8 +368,7 @@
         "576.47,-18.16,-411.79"
       ],
       "utterances": [
-        "Nice piercing.  I'm getting another one later today.",
-        "Good to have someone like you around to watch my back.",
+        "I have nothing to say to you right now.",
         "You talk to strangers?  What's the purpose of that?"
       ]
     },
@@ -435,14 +382,6 @@
       ],
       "locations": [
         "792.42,-22.69,-527.5"
-      ],
-      "utterances": [
-        "Hail, friend and well met. I do hope your visits to our village are frequent. Too often do adventurers fail to return.",
-        "Greetings. Welcome to our asylum from the torment that plagues the lands of Norrath.",
-        "How do you do! I am always pleased to meet a capable being, such as yourself.",
-        "I hope you have been sent by someone of importance. I'm quite busy.",
-        "It brings comfort to my heart to see you come to us in safety.",
-        "Ah, it brings me happiness to see so many newcomers arriving to the exalted city of Qeynos."
       ]
     },
     {
@@ -456,9 +395,6 @@
       "purpose": "Monk Trainer",
       "locations": [
         "769.46,-19.26,-375.38"
-      ],
-      "utterances": [
-        "May yourr life be uneventful frriend."
       ]
     },
     {
@@ -472,9 +408,6 @@
       "purpose": "Troubador Trainer",
       "locations": [
         "659.39,10.91,-393.11"
-      ],
-      "utterances": [
-        "Well met, <player name>.  What brings you to the Elddar Grove this fine day?"
       ]
     },
     {
@@ -504,13 +437,6 @@
       ],
       "locations": [
         "570.82,-20.22,-372.57"
-      ],
-      "utterances": [
-        "Don't let the nice day fool you.  My knee is acting up, a storm is brewing.  I can smell it.",
-        "Death, rebirth, and entropy are all a part of the cycle.  Without balance there can be no peace.",
-        "We must remain steadfast and vigilant against tyranny.  This will allow nature to shape Norrath around us.   ",
-        "Patience they say, is a virtue.  It has taken a lot of patience to rebuild our lives so far from home.",
-        "The Elddar Grove is truly a marvel in these troubled times.  "
       ]
     },
     {
@@ -526,10 +452,7 @@
         "572.99,-18.16,-409.79"
       ],
       "utterances": [
-        "Welcome! What can I help you with?",
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
-        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
-        "What is it you need, traveler?"
+        "Welcome to In-Range.  If you need help with anything, just let me know."
       ],
       "store_template": "bowyer"
     },
@@ -543,9 +466,6 @@
       ],
       "locations": [
         "670.01,10.92,-391.27"
-      ],
-      "utterances": [
-        "Well met, friend!  Do you have business with our guild?"
       ]
     },
     {
@@ -559,13 +479,6 @@
       "locations": [
         "713.0,-20.61,-449.47",
         "536.9,-17.48,-384.46"
-      ],
-      "utterances": [
-        "Welcome to Qeynos, traveler, know that you are among allies.",
-        "Hail, good traveler!",
-        "Hello there, friend, I hope the day finds you well.",
-        "Greetings traveler and welcome to our village. Be sure to help us keep it tidy.",
-        "Hello and welcome to the city.  Everything you need can be found here in Qeynos.  "
       ]
     },
     {
@@ -580,9 +493,6 @@
       "locations": [
         "713.76,-17.06,-321.97"
       ],
-      "utterances": [
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
-      ],
       "store_template": "city_merchant"
     },
     {
@@ -595,9 +505,6 @@
       ],
       "locations": [
         "705.78,-14.48,-423.42"
-      ],
-      "utterances": [
-        "Perhaps I could entertain you with a song?"
       ]
     },
     {
@@ -610,11 +517,6 @@
       ],
       "locations": [
         "554.2,-16.98,-414.58"
-      ],
-      "utterances": [
-        "So, do you look at a tankard and consider it half full?  Or half empty?",
-        "I'm sure we've met someplace before, you look so familiar!",
-        "A good joke deserves a good audience, I always say!"
       ]
     },
     {
@@ -628,9 +530,6 @@
       "purpose": "Tunarian Alliance Grove Warden",
       "locations": [
         "670.07,10.93,-382.76"
-      ],
-      "utterances": [
-        "Nothing on Norrath can replicate the natural creations that are right in front of us."
       ]
     },
     {
@@ -656,9 +555,6 @@
       ],
       "locations": [
         "763.38,-19.1,-335.63"
-      ],
-      "utterances": [
-        "Shoo shoo!  I'm too busy to speak with you now!"
       ]
     },
     {
@@ -690,7 +586,11 @@
       ],
       "utterances": [
         "Welcome to the Elddar grove, young one.  Enjoy the shelter which the trees provide.",
-        "Though it's the only remaining tree of its kind, the Elddar grows ever larger.  Perhaps a symbol of Qeynos and her people even more fitting than the Claymore itself."
+        "Though it's the only remaining tree of its kind, the Elddar grows ever larger.  Perhaps a symbol of Qeynos and her people even more fitting than the Claymore itself.",
+        "I don't believe I've met you before, young one.  I should introduce myself.  I am Rask Helstot, a druid, and one of the last followers of Karana you're likely to meet!  If you're amiable to a task, I wouldn't mind finding out what you're made of.  I could use someone to investigate some things for me, but I need to be certain you're up to the challenge.",
+        "Of late, two groups have been exposed that could hinder the growth of our fair city.  On the one hand, we've got the wild and savage gnolls.  Filthy and wild, they prey on the weak and unprepared.  On the other, the Bloodsabers have been said to be stalking the outskirts of the city, and perhaps even have agents in the catacombs.  If you were to choose one evil to fight, which would it be?",
+        "Very good!  If Fippy had not returned to a wilder state after his adventuring days, I'm certain the gnolls habits would be much different.  Alas, that is neither a story for now, nor does it do much good to dwell on the past.  Perhaps some other time I can tell you that tale... For now though, prove your worth by killing ten of the beasts for me.",
+        "The Bloodsabers are a nasty lot.  They're devoted to the god of death and decay, Bertoxxulous, or at least they were.  I'm not so certain of their religious affiliations these days, but rest assured, they're no good.  If you can manage it, check the catacombs or outside the city and kill ten of their members.  If we make it dangerous to be a member, perhaps others will think long and hard before joining their cause."
       ]
     },
     {
@@ -704,9 +604,6 @@
       "locations": [
         "773.67,-19.26,-378.56",
         "783.39,-19.63,-392.54"
-      ],
-      "utterances": [
-        "It's a great day to be alive and be in Qeynos."
       ]
     },
     {
@@ -720,9 +617,6 @@
       "purpose": "Dirge Trainer",
       "locations": [
         "666.51,10.92,-388.27"
-      ],
-      "utterances": [
-        "Well met, <player name>.  What brings you to the Elddar Grove this fine day?"
       ]
     },
     {
@@ -752,11 +646,6 @@
       "locations": [
         "799.93,-22.04,-532.43",
         "696.35,-16.82,-447.62"
-      ],
-      "utterances": [
-        "To be among the highest leaves and branches of a tree is to feel free.",
-        "The blessing of Tunare is the highest blessing of all.",
-        "Is there no place on your body left unpierced? Nay, do not answer -- I'm afraid to know!"
       ]
     },
     {
@@ -770,12 +659,6 @@
       "purpose": "Mender",
       "locations": [
         "716.23,-17.06,-310.08"
-      ],
-      "utterances": [
-        "Hello there, my fine adventurer.  Just give me that armor right quick and I'll hammer it up good as new!",
-        "Hello, adventurer.  Looking to get some items repaired after a hard day of dragon slaying?",
-        "Welcome! Is there anything I can help you with or are you looking to find an apprenticeship?",
-        "Greetings there, have something that you think needs a bit of repair?"
       ]
     },
     {
@@ -788,9 +671,6 @@
       ],
       "locations": [
         "658.17,-10.08,-392.08"
-      ],
-      "utterances": [
-        "I fear that the Concordium is unable to control its disciples. If corrupted the sorcerers would surely bring harm to the woodlands and their creatures."
       ]
     },
     {
@@ -804,9 +684,6 @@
       "purpose": "General Goods",
       "locations": [
         "806.33,-20.27,-540.63"
-      ],
-      "utterances": [
-        "I just got a shipment in from the Far Sea's Trading Company.  I don't just show anybody this stuff so, shhhh!  "
       ],
       "store_template": "general_goods"
     },
@@ -822,10 +699,7 @@
         "567.89,-17.94,-416.67"
       ],
       "utterances": [
-        "Let us meet later for a goblet of wine!  I'm sure you have great tales to tell.",
-        "I don't understand the need for piercings, but they look fine on you.",
-        "The blessing of Tunare is the highest blessing of all.",
-        "To be among the highest leaves and branches of a tree is to feel free."
+        "The blessing of Tunare is the highest blessing of all."
       ]
     },
     {
@@ -840,7 +714,10 @@
         "711.18,-17.1,-279.85"
       ],
       "utterances": [
-        "I have nothing to say to you right now."
+        "I have nothing to say to you right now.",
+        "You talk to strangers?  What's the purpose of that?",
+        "Nice piercing.  I might get another one later today.",
+        "Better for us to watch each other's back than to find a blade in them."
       ]
     },
     {
@@ -855,7 +732,27 @@
         "692.26,-16.4,-451.8"
       ],
       "utterances": [
-        "Well? What do you want?"
+        "Well? What do you want?",
+        "Finally! Someone who recognizes my true worth! I'm sure that Erudite paid someone to put in a good word for her so-called theory. Bah! Just ask Arbuthnot Jumroller over in Baubbleshire.  He'll tell you!",
+        "Well! I never!",
+        "She's the most annoying Erudite.  Harrumph! She would never have gotten through her theoretical undergraduate work if I hadn't been there to help her out.",
+        "I don't mind helping people who need assistance.  My friend Arbuthnot Jumroller over in Baubbleshire needed help getting through his secondary training and I was more than willing to help.  He's a much more grateful student than Ellinnea ever was.",
+        "She certainly didn't charm her way to the top.  How'd you hear about the competition anyway? It was all very hush-hush, city security and all that.",
+        "Ellinnea's a braggart and a security risk.  The magical shielding device she supposedly developed drew directly from my own research and conclusions.  She copied my work and passed it off as her own!",
+        "Of course my device would be better.  She's only creating an array to cover Qeynos and its hub villages.  My device would use a wider network to protect some of the outlying farmlands as well.",
+        "Apparently you and Arbuthnot Jumroller are the only ones who recognize my true worth.  Ah, well! Good thing I already live within an area that will be protected by the shielding!  If you stay within the city's limits, you'll be protected as well.",
+        "It was my design.  She stole it!",
+        "Vernon sent you... And? You want a xegonite medal or something?",
+        "I might ask you the same question! Whose side ARE you on? Do you even know?",
+        "You're telling me...I should have bribed someone to win the design contest, but we were all so sure... Anyway, what did you find out?",
+        "Typical bureaucracy! They should have picked ME when they had the chance! We'll need to break into the lock box in the Mage Tower and get the schedule ourselves.",
+        "Settle down, gnollslayer! The box is locked and you won't be able to just wander off with it.  You'll need to take this key replicator and use it in the lock to get a good impression of it.  And go at night, when it'll be harder for folks to see what you're doing.",
+        "When you get the impression, go back over to Arbuthnot Jumroller in the Baubbleshire.  Mind you, he won't know you need this for any useful purpose, so don't tell him why you need it.  Just tell him you're doing me a favor. Come back here when you're finished with everything.",
+        "One of the best, though he's put that behind him now to work on other projects.  HE still thinks Queenie will fix all that's wrong with this city.  I'm ready to leave this behind me and go where my skills are appreciated, that's what!",
+        "Bad attitude? You call THIS a bad attitude? You should have seen me BEFORE I learned the truth about Queenie and her little schemes! What's it to you, anyway?",
+        "Friend, you're still all starry-eyed and misty-minded.  Under HER influence! She must put something into the water.  I bring my own, from Freeport, thank you, rather than drink HER swill.",
+        "What? And make me lose out on my commission?  No, thank you! Well...don't dally, what did you learn?  Did you get the box open?",
+        "Great!  We've no time to lose! Let's just hope your delays haven't cost us everything. Before you take care of things, clear out your inn room and vault.  No sense leaving anything that might be used as evidence in case anything goes wrong.  There's no turning back now.  Are you ready to finish the job?"
       ]
     },
     {
@@ -869,9 +766,6 @@
       "purpose": "Gildas' Assistant",
       "locations": [
         "737.54,-21.29,-396.44"
-      ],
-      "utterances": [
-        "Greetings citizen.  Please see me if you have any armor from Gildas that you wish to be rid of, I have some newer armor that may interest you. "
       ]
     },
     {
@@ -1140,13 +1034,6 @@
       "locations": [
         "784.83,-22.21,-531.78",
         "711.97,-20.62,-450.27"
-      ],
-      "utterances": [
-        "Are my roots showing?  I think I'll go for a light blueberry mixed with jum-jum highlights.",
-        "I've gotta get rid of these clothes; they're so one-hundred years ago.",
-        "As soon as I get my own boat, I'm outta here!",
-        "Me and my friends have all agreed to be non-conformists.",
-        "I don't know why the ancestors whine so much!  I really like Qeynos, why would they want to leave?"
       ]
     },
     {
@@ -1162,7 +1049,8 @@
         "665.08,-10.04,-392.12"
       ],
       "utterances": [
-        "The beauty of this grove never ceases to amaze me.  Even in these troubled times, it's nice to have a place like this to call home."
+        "...",
+        "Hello, friend. Welcome to the Elddar Grove. We of the Tunarian Alliance believe in the preservation of Tunare and all of the creatures of Norrath.  I'm glad you could join us to help out today.  Here's a list of what we need.  Once you're done, come back, and we'll see what else you can do to help!"
       ]
     },
     {
@@ -1176,9 +1064,6 @@
       "purpose": "Tunarian Alliance Grove Warden",
       "locations": [
         "673.93,-10.35,-384.35"
-      ],
-      "utterances": [
-        "Keep your eyes on the horizon, my friend.  Only through vigilance and defense can we keep Qeynos safe."
       ]
     },
     {
@@ -1191,10 +1076,6 @@
       ],
       "locations": [
         "751.94,-16.19,-299.59"
-      ],
-      "utterances": [
-        "Shh!  Old Treebark's talking!",
-        "Goodbye!"
       ]
     },
     {
@@ -1209,7 +1090,10 @@
         "661.21,10.91,-392.87"
       ],
       "utterances": [
-        "Hail traveler!  All friends of the Elddar are welcome."
+        "Hail traveler!  All friends of the Elddar are welcome.",
+        "I've uncovered the location of a tome hidden by Karana's  followers long before the gods left this world.  I recently discovered its location with the aid of Duvos.  My duties here do not permit the time to recover the tome. I can charge you with recovering this treasure - if you're capable of such an invaluable task.",
+        "You will need to venture to the great oak in the fields outside the city where the tomb has been hidden for many decades. You must thoroughly search the tree. Remember, the tome has been missing for many years. Use care when handling this precious treasure. ",
+        "Please, you must recover the tome! Qeynos depends on you!"
       ]
     }
   ]

@@ -33,10 +33,6 @@
       "locations": [
         "14.68,-4.0,-95.16"
       ],
-      "utterances": [
-        "...revenge...",
-        "What do you want?"
-      ],
       "store_template": "weaponsmith"
     },
     {
@@ -84,9 +80,6 @@
       "locations": [
         "-50.35,-4.37,-15.69"
       ],
-      "utterances": [
-        "The stuff's over there.  Just let me know if you find anything you like."
-      ],
       "store_template": "armorsmith"
     },
     {
@@ -99,9 +92,6 @@
       ],
       "locations": [
         "44.77,-3.5,-18.24"
-      ],
-      "utterances": [
-        "I miss my home on Odus. All my friends were there, but they're all dead now. At least I have a place to shelter these old bones of mine. Back in my day, we didn't ha---"
       ]
     },
     {
@@ -130,9 +120,6 @@
       "purpose": "Housing",
       "locations": [
         "7.8,0.0,-45.61"
-      ],
-      "utterances": [
-        "Hello there <player name>, what can I help you with?"
       ],
       "store": [
         {
@@ -205,9 +192,6 @@
       "locations": [
         "-40.56,1.36,-55.26"
       ],
-      "utterances": [
-        "I've got these fine scrolls for sale, do take a look at them."
-      ],
       "store": [
         {
           "gamelink": "\\aITEM 128450204 1303912758 0 0 0:Erudian Language Primer\\/a",
@@ -238,9 +222,6 @@
       ],
       "locations": [
         "53.05,-4.35,-31.28"
-      ],
-      "utterances": [
-        "Greetings, friend... Come sit awhile if you are weary from travel."
       ]
     },
     {
@@ -269,9 +250,6 @@
       "purpose": "Banker",
       "locations": [
         "55.16,-2.87,-75.01"
-      ],
-      "utterances": [
-        "Hello! Your valuables are safe with Kaman. Trust me.  I'm the last of a long line of bankers."
       ]
     },
     {
@@ -302,7 +280,7 @@
         "74.73,-4.0,-37.88"
       ],
       "utterances": [
-        "I do believe a gratuity is in order."
+        "You want to talk?  If you want us to be friends all you need to do is buy a drink!"
       ],
       "store_template": "bartender"
     },
@@ -316,9 +294,6 @@
       ],
       "locations": [
         "70.64,-4.0,-39.93"
-      ],
-      "utterances": [
-        "Shouldn't you be out slaying a dragon or something?"
       ]
     },
     {
@@ -331,20 +306,6 @@
       ],
       "locations": [
         "-28.47,-3.5,-12.86"
-      ],
-      "utterances": [
-        "The presence of the Erudites amidst the reign of Lucan disturbs me. I do not think it's wise to get involved in their affairs.  My advice to you, traveler, is to let them be; let their plans unfold and let their fate be achieved.",
-        "Aside from the turbulent history that binds my kin and the Erudites together as hated enemies, they have come beyond their natural selves.  The nature of their magical evolution only lends to the suspicion of their more recent subservient disposition. ",
-        "Tales of kerran history are well kept by its people.  The legend of the Erudites' ascension has been recited since the dawn of this event.  I would offer you this tale, should you have the ears for it.",
-        "It is said that all Erudites on Odus set aside their differences some time before the great wars and the Shattering.  The combined forces of the Heretics and disciples of Erud ventured to the Stonebrunt Mountains and built their fortress of tranquility and fear.",
-        "Hehe, indeed, my friend.  The citadel was designed to hold the temple to each of the patron deities these societies revered.  The Erudites tried to conceal their work from the world beneath this citadel.  However, history would not allow our ancestors to be so passive and unassuming.",
-        "Our ancestors took to sabotaging the citadel's construction during the night.  It was when the Erudites stationed more guards that the ancestors were  forced to dig beneath the site. That was how they discovered the truth behind the Erudites' efforts.",
-        "The Erudites had constructed a base of concentrated arcane power that was obviously the foundation and core of their plans.  Fearing another catastrophic event engineered at the hands of careless Erudite meddling, the ancestors took sanctuary on Kerra Isle, abandoning their homeland to the inevitable fate of the continent. ",
-        "What happened shortly after the ancestors' retreat was both awesome and frightful.  Nearly a week after the retreat, on the onset of dawn, a great sound echoed from the continent like the song of a thousand great whales.  Within a few moments, the sound went still and all was suddenly quiet...",
-        "A cloud of mist radiated from the north, enshrouding the entirety of the continent and the surrounding shores in a thick, shimmering veil of impenetrable fog.  All grew eerily quiet. This phenomenon lasted by a few short minutes before the mists retreated.",
-        "No, Odus remained, and to the surprise of those who bore witness, it was as if nothing had occurred.  The forests of Toxxulia remained and the snow-capped peaks of Stonebrunt could be seen upon the northern horizon.  However, all remained silent and deathly still for the days that would pass.",
-        "None dared to tread upon the land, believing it was now cursed or fouled by the Erudites' magic.  As the first of the silent days passed, many came to accept that the Erudites had destroyed themselves and all living creatures upon the continent.  A lunar cycle would pass before our ancestors learned otherwise.",
-        "They saw the Erudites much as we see them now.  Their altered forms frightened many, warding the ancestors from the continent for many generations to come.  What magics occurred beneath the mist are a mystery.  The Erudites will not share this tale openly with most, for we think that they too are without answers to their mysterious transformation."
       ]
     },
     {
@@ -360,8 +321,7 @@
         "-4.28,-4.38,-25.13"
       ],
       "utterances": [
-        "The stuff's over there.  Just let me know if you find anything you like.",
-        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
       ],
       "store_template": "shieldsmith"
     },
@@ -378,7 +338,7 @@
         "45.5,-4.35,-63.49"
       ],
       "utterances": [
-        "In spite of the cost of living, it's still quite a popular item."
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
       ],
       "store_template": "tailor"
     },
@@ -404,9 +364,6 @@
       ],
       "locations": [
         "69.49,-4.0,-45.31"
-      ],
-      "utterances": [
-        "Can't you adventurers find some other place to drink?"
       ]
     },
     {
@@ -419,9 +376,6 @@
       ],
       "locations": [
         "23.8,0.0,-75.47"
-      ],
-      "utterances": [
-        "What are you looking at, tough guy?"
       ]
     },
     {
@@ -435,10 +389,6 @@
       "purpose": "Mender",
       "locations": [
         "15.3,-4.0,-93.47"
-      ],
-      "utterances": [
-        "Once we're done, you'll have the strongest armor in all of the city!  I guarantee it!",
-        "Nah, no need to buy a completely new set.  I'll use some of this special solvent I have.  It'll fix it up good as new!"
       ]
     },
     {
@@ -468,9 +418,6 @@
       "locations": [
         "18.49,-4.37,-72.94"
       ],
-      "utterances": [
-        "You have learned everything I have to teach at the moment.  You are free to use our crafting facilities to hone your skills."
-      ],
       "store_template": "crafting_trainer"
     },
     {
@@ -483,9 +430,6 @@
       ],
       "locations": [
         "20.08,-4.35,-36.41"
-      ],
-      "utterances": [
-        "Hmmm ... yes ... this is interesting ... interesting indeed..."
       ]
     },
     {
@@ -500,9 +444,6 @@
       "locations": [
         "16.45,-4.37,-80.64"
       ],
-      "utterances": [
-        "Come closer, see the wares!"
-      ],
       "store_template": "bowyer"
     },
     {
@@ -515,9 +456,6 @@
       ],
       "locations": [
         "69.95,-4.0,-54.02"
-      ],
-      "utterances": [
-        "Miala will never notice me. I've been here forever and she hasn't even looked at me."
       ]
     },
     {
@@ -549,7 +487,7 @@
         "11.64,0.0,-24.36"
       ],
       "utterances": [
-        "Please don't touch anything.  This isn't a museum. If you break it, you buy it!"
+        "Welcome friend of the Overlord,  please look around.  We have several pieces from the Citadel itself!"
       ],
       "store_template": "general_goods"
     },
@@ -564,11 +502,10 @@
       ],
       "locations": [
         "-48.56,1.02,7.96"
-      ],
-      "utterances": [
-        "Stonestair Byway is overrun with these rats!",
-        "This infestation of vermin disgusts me; surely the Overlord will do something someday?"
       ]
+    },
+    {
+      "name": "Vanalotoia"
     }
   ]
 }

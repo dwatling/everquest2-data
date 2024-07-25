@@ -36,18 +36,6 @@
         "-43.21,0.12,210.02",
         "-30.22,0.00,190.20"
       ],
-      "utterances": [
-        "As I rise from the grave,  you will now take my place!",
-        "I didn't need those bones anyway.",
-        "I'm shattered and broken.",
-        "Your blood calls to me.",
-        "Seek death and it finds you.",
-        "You've shaken the dust from my bones.",
-        "You cannot eliminate us!",
-        "Final death comes at last.",
-        "Your eyes are so pretty.",
-        "That pile of bones was my friend!"
-      ],
       "drops": [
         {
           "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
@@ -77,15 +65,6 @@
       "locations": [
         "-103,1,133",
         "-107.63,0.64,156.62"
-      ],
-      "utterances": [
-        "Thanks!  I always hated that one!",
-        "No matter what I promise, you will not survive!",
-        "I will have vengeance!",
-        "Hold them and I'll return with help!",
-        "Now who will pick the locks?!",
-        "Hrmmm... This isn't going as planned.",
-        "That just improves my cut of the loot!"
       ],
       "drops": [
         {
@@ -122,16 +101,6 @@
         "-2.84,1.31,133.73",
         "-85.02,1.31,153.24"
       ],
-      "utterances": [
-        null,
-        "No where to run, craven!",
-        "Thanks!  I always hated that one!",
-        "Now who will pick the locks?!",
-        "Now who is going to pick the locks?!",
-        "That just improves my cut of the loot!",
-        "Time to leave, yes. Definitely time to leave.",
-        "Flee and take care of them later."
-      ],
       "drop_coin_min": 5,
       "drop_coin_max": 8
     },
@@ -154,13 +123,6 @@
         "-60.39,1.03,156.11",
         "-8.86,1.0,152.53"
       ],
-      "utterances": [
-        "Now who will pick the locks?!",
-        "That just improves my cut of the loot!",
-        "Now who is going to pick the locks?!",
-        "Come on out, taffer!",
-        "Nowhere to run, craven!"
-      ],
       "drop_coin_min": 10,
       "drop_coin_max": 10
     },
@@ -174,11 +136,6 @@
         "-59.49,1.31,108.79",
         "-101.86,0.02,147.02",
         "-126.65,0.53,140.20"
-      ],
-      "utterances": [
-        "Fall back, order a tactical retreat!",
-        "Now who will pick the locks?!",
-        "That just improves my cut of the loot!"
       ],
       "drop_coin_min": 8,
       "drop_coin_max": 8
@@ -196,9 +153,6 @@
         "-76,0,106",
         "-92.99,1.00,111.99",
         "-92.75,1.0,97.67"
-      ],
-      "utterances": [
-        "Now who is going to pick the locks?!"
       ]
     },
     {
@@ -234,13 +188,6 @@
         "-11.77,1.0,153.3",
         "-30.71,0.0,143.61",
         "-101.86,0.02,147.02"
-      ],
-      "utterances": [
-        "Should have escaped while I had the chance.",
-        "Now who will pick the locks?!",
-        "Now who is going to pick the locks?!",
-        "That just improves my cut of the loot!",
-        "Come on out, taffer!"
       ],
       "drops": [
         {
@@ -288,16 +235,6 @@
         "19.65,1.40,22.26",
         "20.52,1.6,78.96",
         "20.08,1.34,96.36"
-      ],
-      "utterances": [
-        "Startle us, you did! We'll remedy that.",
-        "Sees us, did we? Must not let you talk then.",
-        "Don't hurt us! We're no threat to your mightiness.",
-        "Time to leave, yes. Definitely time to leave.",
-        "Take my secrets to my grave, I shall.",
-        "Flee and take care of them later.",
-        "You're not as sneaky as you thought.",
-        "Should have escaped while I had the chance."
       ],
       "drops": [
         {
@@ -517,9 +454,6 @@
       "locations": [
         "-31,1,154"
       ],
-      "utterances": [
-        "Don't fret, the smell can be easily washed out of anything you buy from me."
-      ],
       "store_template": "weaponsmith"
     },
     {
@@ -535,9 +469,6 @@
         "-76,0,160",
         "-128,1,148",
         "-101.33,0.66,137.56"
-      ],
-      "utterances": [
-        "Time to leave, yes. Definitely time to leave."
       ]
     },
     {
@@ -556,13 +487,6 @@
         "-126.65,0.53,140.20",
         "-83.07,0.53,68.1",
         "-83.17,1.00,61.67"
-      ],
-      "utterances": [
-        "Keep up the assault, no matter what the cost in lives!",
-        "Take my secrets to my grave, I shall.",
-        "Looks like it's time to move on!",
-        "Cover me while we regroup!",
-        "All hands retreat!"
       ]
     },
     {
@@ -722,9 +646,6 @@
       ],
       "locations": [
         "-33.97,1.04,155.46"
-      ],
-      "utterances": [
-        "Isn't it dark down here?"
       ]
     },
     {
@@ -881,10 +802,6 @@
       "level": 8,
       "locations": [
         "-115,1,57"
-      ],
-      "utterances": [
-        "Get the guards, quickly!",
-        "No fair!  They have better weapons."
       ]
     },
     {
@@ -911,13 +828,6 @@
         "-79.56,0.84,109.44",
         "-90.29,0.99,109.91",
         "-92.34,0.95,86.51"
-      ],
-      "utterances": [
-        "Run away before we all die!",
-        "No fair!  They have better weapons.",
-        "Hey! You're not in the union.",
-        "Get the guards, quickly!",
-        "Summon all the members. I'll deal with the intruders."
       ]
     },
     {
@@ -929,10 +839,8 @@
         "Go!  Get away from me!  I'm in hiding!",
         "I told you to leave!  I don't want to draw attention to myself!  Go, go away!",
         "I told you to leave me alone! If they finds me, they'll kill me!  They've already killed everyone else. I'm the only one left.  They killed them, and there was nothing I could do.  What was I supposed to do?  I'm just a small ratonga, little, so little.  ",
-        "The Darkblades did it! They're all killers!  You find them in the sewers; it's a fitting place for filth.  You do me favor and kill them, kill them all, and I'll tell you where their secret den is.  You can find much wealth there. ",
-        "You will do this for me?  Even though I am so very small?  They took my trinket. You bring it back to me, and I'll tell you where their secret den is.  You do this, okay?",
-        "You're back!  Did you kill them all?  Are they all dead?  Did you find the trinket?",
-        "This is very good news for little me, but very bad news for you.  That's no trinket, you fool!  It's the key to the Darkblades' den, and now they're all dead! I can plunder to my little black heart's content."
+        "The Darkblades did it! They're all killers!  You find them in the sewers; it's a fitting place for them filth.  You do me favor and kill them, kill them all, and I'll tell you where their secret den is.  You can find much wealth there. ",
+        "You will do this for me?  Even though I am so very small?  They took my trinket. You bring it back to me, and I'll tell you where their secret den is.  You do this, okay?"
       ]
     }
   ]

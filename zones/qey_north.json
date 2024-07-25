@@ -53,9 +53,6 @@
       "locations": [
         "472.75,-5.0,-29.6"
       ],
-      "utterances": [
-        "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out."
-      ],
       "store": [
         {
           "gamelink": "\\aITEM -1203768665 -829192609 0 0 0:\"Sir Lucan\"\\/a",
@@ -366,9 +363,6 @@
       "purpose": "Fury Trainer",
       "locations": [
         "499.89,-31.74,-247.58"
-      ],
-      "utterances": [
-        "What brings you to the Temple of Life, <player name>?"
       ]
     },
     {
@@ -382,13 +376,6 @@
       "locations": [
         "-6.95,-4.04,8.92",
         "12.67,-3.92,-2.8"
-      ],
-      "utterances": [
-        "Were they to encounter a god, the Concordium would drop their staves and bow before the might of a true power.",
-        "While their fellow citizens struggle against the tides of evil, the Tunarian Alliance worries itself with the plight of soulless plants and animals.",
-        "The Ironforge Exchange neglects the spiritual through its devotion to the physical materials and pleasures of this world.",
-        "The Qeynos Guard blindly strikes at the darkness rather than see the opportunity for redemption that lies within even the most lost of us.",
-        "The Celestial Watch preserves the rituals of servitude to the gods so that all might experience through worship the return of the ancient deities."
       ]
     },
     {
@@ -403,11 +390,6 @@
       "locations": [
         "283.3,-16.45,37.29"
       ],
-      "utterances": [
-        "Good day! Ahh ... the smell of freshly baked bread, is there anything like it? To be honest, it's why I got into this business in the first place. Take a look around; I'm sure you'll find a tasty treat that suits your fancy.",
-        "Welcome friend, welcome.  I hope you brought your appetite with you!",
-        "I love the smell of fresh bread in the oven!"
-      ],
       "store_template": "provisioner"
     },
     {
@@ -421,9 +403,6 @@
       "purpose": "Templar Trainer",
       "locations": [
         "508.25,-31.74,-259.07"
-      ],
-      "utterances": [
-        "Hello there <player name>, what brings you to the Temple of Life this fine day?"
       ]
     },
     {
@@ -436,9 +415,6 @@
       ],
       "locations": [
         "327.59,-20.99,145.55"
-      ],
-      "utterances": [
-        "Treasures from the past can be found throughout the lands, for those who care to look."
       ]
     },
     {
@@ -481,7 +457,8 @@
         "479.05,-20.1,-250.12"
       ],
       "utterances": [
-        "Welcome to the Temple of Life.  May the peace and prosperity of those within remove all doubt and questions from your mind."
+        "...",
+        "Greetings and welcome to the Temple of Life, my young initiate.  Here at the temple, we use the divinity of spiritual guides to follow the path of righteousness and protect our city. Please take this writ, and do as it asks.  Before you lies the gateway to inner salvation and the sanctity of serving your homeland."
       ]
     },
     {
@@ -495,9 +472,6 @@
       "purpose": "Banker",
       "locations": [
         "268.9,-17.18,-124.58"
-      ],
-      "utterances": [
-        "Greetings, would you like to open an account or is there something else I can help with?"
       ]
     },
     {
@@ -511,9 +485,6 @@
       "purpose": "Jeweler",
       "locations": [
         "387.27,-18.86,-243.09"
-      ],
-      "utterances": [
-        "I have some nice new suits of chain that have stood up very well.  Would you like to see them?"
       ]
     },
     {
@@ -529,7 +500,9 @@
         "351.62,-22.5,-205.45"
       ],
       "utterances": [
-        "Whatever shall I do?  I'm out of dyes, and I simply must finish these yards of cloth today!  I'll certainly never make it all the way across town to get more and still have time to finish with my sewing!"
+        "Whatever shall I do?  I'm out of dyes, and I simply must finish these yards of cloth today!  I'll certainly never make it all the way across town to get more and still have time to finish with my sewing!",
+        "Well, I am always having a problem getting bear pelts of a quality that I can work with and truly make shine.  If you could bring me four preserved bear hides, I can reward you for your efforts.",
+        "Perfect, once I am done with all the sewing and dying for this job I can get started on some top notch pelt work!"
       ],
       "store_template": "tailor"
     },
@@ -544,11 +517,6 @@
       "locations": [
         "444.54,-20.47,-263.84",
         "488.25,-20.09,-277.27"
-      ],
-      "utterances": [
-        "The Ironforge Exchange constructed, brewed, tailored, forged, baked, or scribed just about everything you see here in Qeynos.",
-        "The Qeynos Guard recruits those who are attracted to physical activity but lack the creativity and talent required to join the Ironforge Exchange.",
-        "The Tunarian Alliance refuses to acknowledge that a balance can be found between the growing needs of our citizenry and the desire to preserve the woodlands."
       ]
     },
     {
@@ -561,9 +529,6 @@
       ],
       "locations": [
         "287.54,-21.0,-35.42"
-      ],
-      "utterances": [
-        "Hello! I'm Dawson Magnificent, the renowned street performer!  I'm known throughout the land for my troupe.  My brother Gray is to my left, and to my right is our lovely assistant Andrea!"
       ]
     },
     {
@@ -576,9 +541,6 @@
       ],
       "locations": [
         "302.4,-21.23,-46.47"
-      ],
-      "utterances": [
-        "So, do you look at a tankard and consider it half full?  Or half empty?"
       ]
     },
     {
@@ -592,9 +554,6 @@
       "purpose": "Celestial Watch Priest",
       "locations": [
         "507.67,-31.75,-214.05"
-      ],
-      "utterances": [
-        "Only through eternal vigilance can we find inner peace."
       ]
     },
     {
@@ -620,9 +579,6 @@
       "purpose": "Paladin Trainer",
       "locations": [
         "396.89,-16.55,-38.43"
-      ],
-      "utterances": [
-        "Well met, hero!"
       ]
     },
     {
@@ -637,9 +593,6 @@
       "locations": [
         "398.72,-20.92,-179.06"
       ],
-      "utterances": [
-        "Nothing's cozier than a nice hot forge!"
-      ],
       "store_template": "weaponsmith"
     },
     {
@@ -653,9 +606,6 @@
       "purpose": "Banker",
       "locations": [
         "271.51,-17.18,-113.89"
-      ],
-      "utterances": [
-        "Has anyone told you about our new retirement savings programs?"
       ]
     },
     {
@@ -670,7 +620,11 @@
         "514.54,-31.74,-244.92"
       ],
       "utterances": [
-        "Forgive me but I must return to my work.  Please speak with one of the other priests.  I'm certain they will be more than happy to assist you."
+        "Forgive me but I must return to my work.  Please speak with one of the other priests.  I'm certain they will be more than happy to assist you.",
+        "I'm overseeing the research of a new infection spreading among the vermin populace in the catacombs.  We've learned from the past years that prevention is the best cure for any ailment.",
+        "I'm not entirely certain.  I've only been able to identify the species that carry the infection.  The malady has eluded any real research because it dies with the host. What I need are some living hosts to study...",
+        "Your help would come as a blessing.  The tomb leeches, giant burrowers, and tomb vermin that  infest the Vermin's Snye catacomb are the species that carry the infection.  I need a live specimen from each of these host species to progress in my research.",
+        "Please be careful  transporting the diseased creatures. I would hate for you to become infected."
       ]
     },
     {
@@ -684,9 +638,6 @@
       "purpose": "Warden Trainer",
       "locations": [
         "503.32,-31.74,-254.32"
-      ],
-      "utterances": [
-        "Good day to you, <player name>.  What brings you to the Temple of Life?"
       ]
     },
     {
@@ -699,11 +650,6 @@
       ],
       "locations": [
         "277.85,-21.35,-3.75"
-      ],
-      "utterances": [
-        "Greetings visitor, I'm glad to meet you.",
-        "Well met, friend.  It's good to make your acquaintance!",
-        "Will you quit pestering me?  Don't force me to summon the guards!"
       ]
     },
     {
@@ -730,9 +676,6 @@
       "purpose": "Qeynos Guard Officer",
       "locations": [
         "457.05,-5.0,-9.97"
-      ],
-      "utterances": [
-        "Hail, citizen of Qeynos.  The Qeynos Guard protects!"
       ]
     },
     {
@@ -747,9 +690,6 @@
       "locations": [
         "341.93,-20.63,-105.78"
       ],
-      "utterances": [
-        "Good day! Please take a look around my shop. My fine furniture spruces up any home. "
-      ],
       "store_template": "bowyer"
     },
     {
@@ -762,9 +702,6 @@
       ],
       "locations": [
         "301.95,-21.24,-45.37"
-      ],
-      "utterances": [
-        "The other races of Qeynos might give you some respect if ya didn't pierce yourselves like a smelly troll."
       ]
     },
     {
@@ -778,9 +715,6 @@
       "purpose": "Shieldsmith",
       "locations": [
         "399.56,-20.9,-173.68"
-      ],
-      "utterances": [
-        "Hail and well met!  I am Gavin Ironforge, an apprentice shieldsmith.  Sometimes I help Tara--from the Jewel Box--with her duties, but I'm unusually busy today and can't get to everything."
       ],
       "store_template": "shieldsmith"
     },
@@ -806,9 +740,6 @@
       ],
       "locations": [
         "343.99,-20.99,151.36"
-      ],
-      "utterances": [
-        "Greetings, traveler!  My tavern's warm, and the company's good."
       ]
     },
     {
@@ -822,9 +753,6 @@
       "purpose": "Bartender",
       "locations": [
         "351.09,-20.99,151.07"
-      ],
-      "utterances": [
-        "Hail traveler.  Can I offer you a drink to quench your thirst?"
       ],
       "store_template": "bartender"
     },
@@ -840,7 +768,13 @@
         "283.81,-16.99,-165.22"
       ],
       "utterances": [
-        "Can I help you?"
+        "Can I help you?",
+        "Are you with the Alchemists' Guild?",
+        "It was an accident.  We were in the pub and Towser was being so smug about whatever it is he was doing.  He wouldn't say what it was, so I tipped some of this vial into his drink.",
+        "I didn't think the potion would work! It's in early development! Please don't turn me out of our Guild!",
+        "Don't tell Magus Weskah I found out about the shield! There were only four of us in the pub at the time anyway -- Towser, his wife, Arbuthnot and myself.",
+        "Not much, really.  Towser lost the design contest and was rather bitter.  And he hates the hat his wife was wearing.  He didn't know when the shield would be built, if ever, or where it would be centered.  Only the Magus knows that!",
+        "Yes, here it is.  Please let me remain in the Guild!"
       ]
     },
     {
@@ -854,9 +788,6 @@
       "purpose": "Mystic Trainer",
       "locations": [
         "516.45,-31.74,-256.39"
-      ],
-      "utterances": [
-        "What brings you to the Temple of Life, <player name>?"
       ]
     },
     {
@@ -870,9 +801,6 @@
       "purpose": "Qeynos Guard Officer",
       "locations": [
         "476.91,3.5,-10.04"
-      ],
-      "utterances": [
-        "Hail, citizen of Qeynos.  The Qeynos Guard protects!"
       ]
     },
     {
@@ -886,9 +814,6 @@
       "purpose": "Qeynos Guard Officer",
       "locations": [
         "439.36,-11.46,-24.93"
-      ],
-      "utterances": [
-        "Hail, citizen.  Welcome to the castle.  Only nobility or those with court business may proceed inside."
       ]
     },
     {
@@ -903,7 +828,10 @@
         "263.2,-21.46,-19.05"
       ],
       "utterances": [
-        "Hail and well met!  Please beware that while you are safe within Qeynos' mighty walls, the outside world is not as forgiving. Dangerous creatures roam the lands beyond these gates.  Beware!"
+        "Hail and well met!  Please beware that while you are safe within Qeynos' mighty walls, the outside world is not as forgiving. Dangerous creatures roam the lands beyond these gates.  Beware!",
+        "Famous, eh?  Best keep your feet planted before your head floats off.  Though, if you're looking for some recognition, I've been having some problems with the gnolls outside the gates here.  I can't spare the men to go hunt them down, you wouldn't be interested in helping out, would you?",
+        "Such an eager recruit! Bring me back the ears of ten gnolls.  That should be sufficient to bring their population down to a reasonable level for now.  You'll find them around the gates of the city, roaming like the dogs they are!",
+        "So you did... so you did.  Well met adventurer you may be famous one day after all.  Let me see, I think the city can afford to pay you a bit for your work here.  Take this bag of coins, it should suffice."
       ]
     },
     {
@@ -930,7 +858,14 @@
         "332.07,-20.99,148.05"
       ],
       "utterances": [
-        "Is there something I can help you with?"
+        "Is there something I can help you with?",
+        "Hiding? That's a good term for it.  I am actually learning about the brewing process from these good folks.",
+        "I'm curious about fermentation.",
+        "Fermentation is vital! Without the processes behind it, why, we'd have no bread! No ale! No ale, indeed.",
+        "Do you? I must admit, all this talk about fermentation has made me a bit...heh...thirsty.",
+        "A vial? How interesting...does it...well, I never! This is the worst tasting ale I've ever had!",
+        "It's a magical shield to protect Qeynos in case of assault, using funds raised through recent tax increases.  While there is no evidence of an imminent threat, we must remain vigilant! Supplies arrive daily to assist us in maintaining the shield.  It is heavily guarded.",
+        "It's centralized at the Mage's Tower and...wait a minute, no one keeps ale in a vial! Off with you before I call the guards!"
       ]
     },
     {
@@ -943,9 +878,6 @@
       ],
       "locations": [
         "442.73,-20.4,-300.13"
-      ],
-      "utterances": [
-        "Sorry, I can't visit right now.  Too much work to do around the Ironforge estate."
       ]
     },
     {
@@ -958,12 +890,6 @@
       ],
       "locations": [
         "353.22,-22.5,-197.56"
-      ],
-      "utterances": [
-        "The secret to creativity is knowing how to hide your sources - especially from the neighbors.",
-        "Invention is ninety-three percent perspiration, six percent explosion, and something else that I always forget.",
-        "If my calculations are correct, the equation itself is wrong.",
-        "An invention in repair is worth two in the scrap heap."
       ]
     },
     {
@@ -978,7 +904,11 @@
         "507.64,-31.75,-228.19"
       ],
       "utterances": [
-        "May the light of the Prime Healer guide you.  My spells and religious symbols will aid you in your quest to further the cause of good. Please, come closer, adventurer."
+        "May the light of the Prime Healer guide you.  My spells and religious symbols will aid you in your quest to further the cause of good. Please, come closer, adventurer.",
+        "Another capacity?  Well, we do need help gathering components for our potions. We supply the guards with an antidote in case something poisonous attacks them on their rounds.",
+        "Splendid! Now, pay close attention. We need the venom sacs of white spiders and albino cave snakes. I'll write down in your journal the amount we need and where you can find them. ",
+        "Be safe, please!",
+        "Wonderful!  These samples will do nicely!  Don't be surprised if one day these very venom sacs save the life of one of our guards."
       ]
     },
     {
@@ -991,9 +921,6 @@
       ],
       "locations": [
         "507.14,-31.75,-225.48"
-      ],
-      "utterances": [
-        "Rodcet's blessings upon you. How may the Temple of Life assist you today?"
       ]
     },
     {
@@ -1007,10 +934,6 @@
       "purpose": "Merchant",
       "locations": [
         "3.52,-3.78,14.72"
-      ],
-      "utterances": [
-        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
       ],
       "store": [
         {
@@ -1324,7 +1247,8 @@
       ],
       "utterances": [
         "Hello, traveler!  How I envy you.  What I wouldn't give to journey the world as I did in my youth.   Alas, I am an old man, but at least I can occupy myself with my various trinkets and collections that I picked up in my travels.",
-        "Why, any sort of collection. There's so much out there to  find! Just open your eyes and peek under the rocks.  If you find anything interesting, let me have a look. Collecting is the only way I seem to relive my youth! "
+        "Why, any sort of collection. There's so much out there to  find! Just open your eyes and peek under the rocks.  If you find anything interesting, let me have a look. Collecting is the only way I seem to relive my youth! ",
+        "This is a magnificent find! Here, take this for all your hard work."
       ]
     },
     {
@@ -1337,12 +1261,6 @@
       ],
       "locations": [
         "279.97,-21.18,-6.02"
-      ],
-      "utterances": [
-        "Many times I've faced death with no one to know.",
-        "There is always a way, if desire is coupled with courage.",
-        "I fear no man or beast.",
-        "Strength and honor will serve you better than gold."
       ]
     },
     {
@@ -1356,9 +1274,6 @@
       "purpose": "Celestial Watch Priest",
       "locations": [
         "-9.73,-3.92,-8.8"
-      ],
-      "utterances": [
-        "We must always temper justice with mercy and forgiveness."
       ]
     },
     {
@@ -1384,9 +1299,6 @@
       ],
       "locations": [
         "332.81,-20.99,137.76"
-      ],
-      "utterances": [
-        "Greetings! I welcome you to Irontoe East! Please speak with Harold or Gretta if you need help!"
       ]
     },
     {
@@ -1399,13 +1311,6 @@
       ],
       "locations": [
         "441.79,-20.83,-253.38"
-      ],
-      "utterances": [
-        "So ... You got any coin?",
-        "I'm only happy when it rains.  Well.. I like sunny days too.  Okay... I'm actually happy all the time.",
-        "Are my roots showing?  I think I'll go for a light blueberry mixed with jum-jum highlights.",
-        "I've gotta get rid of these clothes; they're so one-hundred years ago.",
-        "I don't know why the ancestors whine so much!  I really like Qeynos, why would they want to leave?"
       ]
     },
     {
@@ -1419,9 +1324,6 @@
       "purpose": "Celestial Watch Priest",
       "locations": [
         "-11.16,-3.94,-6.41"
-      ],
-      "utterances": [
-        "Welcome to the sanctuary of the Temple of Life.  Always let your inner strength burn brightly against the forces of evil."
       ]
     },
     {
@@ -1434,9 +1336,6 @@
       ],
       "locations": [
         "275.18,-16.45,34.13"
-      ],
-      "utterances": [
-        "Shoo ... Shoo ... Out of my way. I'm so very late! If you keep pestering me, I'll never finish preparing Lord and Lady Ironforge's supper."
       ]
     },
     {
@@ -1450,9 +1349,6 @@
       "purpose": "Celestial Watch Priest",
       "locations": [
         "525.72,-32.0,-171.69"
-      ],
-      "utterances": [
-        "Welcome to the sanctuary of the Temple of Life.  Always let your inner strength burn brightly against the forces of evil."
       ]
     },
     {
@@ -1465,9 +1361,6 @@
       ],
       "locations": [
         "7.85,-3.96,-9.69"
-      ],
-      "utterances": [
-        "Rodcet's blessing be upon you.  I am a priestess of this temple.  As you can see, though the gods have left Norrath, our faith sustains us and strengthens our resolve.  When the Prime Healer returns to us, it shall be a glorious day indeed!"
       ]
     },
     {
@@ -1480,9 +1373,6 @@
       ],
       "locations": [
         "11.01,-3.85,-8.89"
-      ],
-      "utterances": [
-        "Raise not your hand in judgment of others, for one day they may be your salvation."
       ]
     },
     {
@@ -1496,9 +1386,6 @@
       "purpose": "Guardian Trainer",
       "locations": [
         "400.45,-16.5,1.33"
-      ],
-      "utterances": [
-        "Well met friend!"
       ]
     },
     {
@@ -1525,9 +1412,6 @@
       "locations": [
         "349.93,-22.5,-197.64"
       ],
-      "utterances": [
-        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
-      ],
       "store_template": "tailor"
     },
     {
@@ -1541,11 +1425,6 @@
       "purpose": "Barber",
       "locations": [
         "380.8,-12.4,-235.55"
-      ],
-      "utterances": [
-        "Come here, come here.  We simply must do something about your look!",
-        "That hair style... that choice of clothes... Sayergei isn't a wizard but this will take serious magic.",
-        "That color?  Seriously..."
       ],
       "store": [
         {
@@ -1569,9 +1448,6 @@
       "purpose": "Qeynos Guard Officer",
       "locations": [
         "467.6,-5.0,-9.25"
-      ],
-      "utterances": [
-        "Hail, citizen. I'm on duty and can't speak.  If you need the assitance of the guard,  let us know."
       ]
     },
     {
@@ -1587,7 +1463,8 @@
         "402.35,-15.49,-25.97"
       ],
       "utterances": [
-        "Welcome, citizen. I'm afraid the castle is closed to those not of noblility.  If you need the help of the guard, we're ever vigilant in the protection of Qeynos."
+        "...",
+        "Welcome to the castle, citizen.  If you wish to serve the city's defenses, you've come to the right place.  Here's a writ from the sergeant about some disturbances we've encountered.  Please see to them, and return to me once you complete this task. All hail Queen Antonia!"
       ]
     },
     {
@@ -1600,13 +1477,6 @@
       ],
       "locations": [
         "279.46,-21.34,-0.86"
-      ],
-      "utterances": [
-        "Life's not all cogs and sprocket, you know.  There are fractions, too!",
-        "If there's more to life than tinkering, I don't want to know.",
-        "If a gear is lost in a forest and no one can find it, did it ever exist to begin with?",
-        "Once I can get the steam to stop being hot,  I can give my invention to everyone!",
-        "I wonder how efficient waterfalls would be to power a combustible chocolatizing confectionator?"
       ]
     },
     {
@@ -1620,9 +1490,6 @@
       "purpose": "Berseker Trainer",
       "locations": [
         "397.87,-16.55,-32.33"
-      ],
-      "utterances": [
-        "Ho, ho, the weather is fine and the ale is cold.  What more can you ask for?"
       ]
     },
     {
@@ -1636,9 +1503,6 @@
       "purpose": "Jeweler",
       "locations": [
         "385.53,-18.86,-237.75"
-      ],
-      "utterances": [
-        "Hello, friend! I've just received some fine gems from the hard-working dwarves in the village! Take a look. See if anything strikes your fancy."
       ],
       "store_template": "jeweler"
     },
@@ -1654,9 +1518,6 @@
       "locations": [
         "412.76,-20.72,-193.77"
       ],
-      "utterances": [
-        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
-      ],
       "store_template": "city_merchant"
     },
     {
@@ -1669,9 +1530,6 @@
       ],
       "locations": [
         "275.58,-17.95,-115.04"
-      ],
-      "utterances": [
-        "Harrumph.  Can't ye see I'm busy?  Go pester someone else!"
       ]
     },
     {
@@ -1684,9 +1542,6 @@
       ],
       "locations": [
         "535.3,-32.0,-174.38"
-      ],
-      "utterances": [
-        "Greetings, adventurer.  It's good to see citizens visiting the Temple of Life.  Many great blessings can come from following the doctrines taught here."
       ]
     },
     {
@@ -1699,10 +1554,6 @@
       ],
       "locations": [
         "302.31,-21.2,-47.94"
-      ],
-      "utterances": [
-        "It's a great day to be alive and to be in Qeynos.",
-        "Almost time to stop and have an ale, isn't it?"
       ]
     },
     {
@@ -1717,13 +1568,71 @@
       "locations": [
         "407.7,-20.72,-192.93"
       ],
-      "utterances": [
-        "May I interest you in seeing some of the fine armor and weapons that made the Ironforge family famous?",
-        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
-        "Are you interested in my armor? I've no time for small talk and don't need any help."
-      ],
       "store_template": "armorsmith"
+    },
+    {
+      "name": "Lord Drystan Ironforge",
+      "utterances": [
+        "As a citizen of the mighty city, Qeynos, I greet you openly."
+      ]
+    },
+    {
+      "name": "The Seeress",
+      "utterances": [
+        "Welcome to the city, newcomer.  All are welcome in the court of Antonia Bayle."
+      ]
+    },
+    {
+      "name": "Elbow",
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+      ]
+    },
+    {
+      "name": "Scholar Demini",
+      "utterances": [
+        "Yes, you must be one of those adventurers, all right.  If the stories about you folks are true, then I'm sure you're willing to undertake a dangerous task just for the thrill of it. Am I right?",
+        "Oh yes, the mysterious items of mystical magic part!  Yes, yes, I know all about that too!  You see, my name is Demini, and I'm a historian who has read all about you people.  ",
+        "What am I thinking?  I'm not even doing this right!  Brave adventurer, I have a noble quest for you.  In return for you undertaking this dangerous task, I shall grant you a mysterious artifact from my personal collection.  How's that?",
+        "Oh, oh, yes.  Well, you see, I've been researching the Sage of Ages, and I purchased a book written by one of his attendants.  The problem is that the book is missing some pages.  According to the traveler I purchased it from, the book was found in Antonica."
+      ]
+    },
+    {
+      "name": "Captain Lovallo",
+      "utterances": [
+        "Those gnolls don't scare me!  Well, maybe just a little.",
+        "Who would have known that one's paws could become so stained from pie?",
+        "I keep my wit as sharp as my claws.  I never know which one I will need to rely on. "
+      ]
+    },
+    {
+      "name": "Janessa",
+      "utterances": [
+        "Tell me, do you prefer Halfling or Elven cuisine?  I myself have a hard time deciding between the two.",
+        "Please mind the plates, they're very hot."
+      ]
+    },
+    {
+      "name": "Fob Subbletog",
+      "utterances": [
+        "If a gear is lost in a forest and no one can find it, did it ever exist to begin with?",
+        "Wouldn't it be great if fruit was explosive?  It would be a wonderful power source and delicious at the same time!",
+        "For every invention there is an equally opposite explosion."
+      ]
+    },
+    {
+      "name": "Kyla Roundwillow",
+      "utterances": [
+        "If a thing isn't worth saying, you sing it.",
+        "Get the wash, get the wash.  This whole city would fall apart if I didn't deliver the clothes on time.  ",
+        "Do you like muffins?  Muffins are my favorite, I eat them every chance I get."
+      ]
+    },
+    {
+      "name": "Trilin",
+      "utterances": [
+        "The Qeynos Guard demands from its recruits adherence to a code of honor and justice."
+      ]
     }
   ]
 }

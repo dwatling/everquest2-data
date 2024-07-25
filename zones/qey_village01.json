@@ -44,9 +44,6 @@
       "locations": [
         "592.93,-19.17,351.27"
       ],
-      "utterances": [
-        "Welcome! What can I help you with?"
-      ],
       "store_template": "shieldsmith"
     },
     {
@@ -60,9 +57,6 @@
       "purpose": "Mender",
       "locations": [
         "588.14,-19.17,360.05"
-      ],
-      "utterances": [
-        "Hello there, my fine adventurer.  Just give me that armor right quick and I'll hammer it up good as new!"
       ]
     },
     {
@@ -75,9 +69,6 @@
       ],
       "locations": [
         "659.5,-24.46,373.09"
-      ],
-      "utterances": [
-        "No need to tremble before me... Unless you were the one who took my fish!"
       ]
     },
     {
@@ -90,9 +81,6 @@
       ],
       "locations": [
         "595.39,-19.17,360.81"
-      ],
-      "utterances": [
-        "Take a look at the stock my colleague has. You'll never beat these prices in the city! "
       ]
     },
     {
@@ -108,8 +96,6 @@
         "615.14,-26.4,379.89"
       ],
       "utterances": [
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
-        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
         "Welcome! What can I help you with?"
       ],
       "store": [
@@ -136,12 +122,6 @@
       "locations": [
         "672.24,-24.67,366.36"
       ],
-      "utterances": [
-        "I love the smell of fresh bread in the oven!",
-        "Can't you see I'm busy? I've no time for small talk!",
-        "Tell me, do you prefer Halfling or Elven cuisine?  I myself have a hard time deciding between the two.",
-        "Welcome friend, welcome.  I hope you brought your appetite with you!"
-      ],
       "store_template": "provisioner"
     },
     {
@@ -155,9 +135,6 @@
       "purpose": "Bowyer",
       "locations": [
         "594.81,-19.17,356.96"
-      ],
-      "utterances": [
-        "Greetings, traveler! We have the finest supplies to fill your adventuring needs."
       ],
       "store_template": "bowyer"
     },
@@ -186,10 +163,6 @@
       "locations": [
         "607.61,-26.52,383.3"
       ],
-      "utterances": [
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
-        "Welcome! What can I help you with?"
-      ],
       "store_template": "bowyer"
     },
     {
@@ -204,9 +177,6 @@
       "locations": [
         "594.72,-19.17,365.98"
       ],
-      "utterances": [
-        "Welcome to the Knight's Edge. Looking for fine quality armors? I'm your lady.  Place your order and stand back."
-      ],
       "store_template": "armorsmith"
     },
     {
@@ -219,9 +189,6 @@
       ],
       "locations": [
         "569.27,-19.17,364.08"
-      ],
-      "utterances": [
-        "Hail, Qeynosian. Please be on the lookout for any illicit trade activities. We must all do our part to keep corruption from creeping into our fair city. "
       ]
     },
     {
@@ -235,10 +202,6 @@
       "purpose": "General Goods",
       "locations": [
         "600.22,-26.53,382.5"
-      ],
-      "utterances": [
-        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
-        "Welcome! What can I help you with?"
       ],
       "store_template": "general_goods"
     },
@@ -254,9 +217,7 @@
         "643.55,-22.3,332.88"
       ],
       "utterances": [
-        "Ehh?  Who goes there? You looking for adventure?  I bet my shineys will tempt you!",
-        "Bah!  Go away or I'll ... I'll ... I don't know.   Just go away!",
-        "Bah!  Off with ye!  These barrels are mine!  Mine!"
+        "Ehh?  Who goes there? You looking for adventure?  I bet my shineys will tempt you!"
       ]
     },
     {
@@ -271,10 +232,6 @@
       "locations": [
         "677.47,-20.38,320.44"
       ],
-      "utterances": [
-        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
-        "Welcome! What can I help you with?"
-      ],
       "store_template": "tailor"
     },
     {
@@ -288,20 +245,6 @@
       "purpose": "Qeynos Guard",
       "locations": [
         "685.62,-20.27,329.27"
-      ],
-      "utterances": [
-        "Welcome to the kingdom of Qeynos, young traveler!  I'm certain you will find yourself right at home in this fair hovel.  Aaaah, but I see the spark of adventure in your eyes.  Indeed, there's a great deal to explore in the city alone!  But do not let Qeynos' grandeur deceive you from caution, my friend.",
-        "Of course you are well protected inside the city and village gates, so please do not let my words frighten you here.  However, should you venture into the catacombs, as so many young and curious adventurers do, it would be best for you to leave the comfort and safety of the city behind.",
-        "The catacombs are quite dangerous, yes.  A great many unsavory characters have been known to take shelter in these often unchecked environments.  Of course the riff-raff are the usual thieves or smugglers and are relatively easy to remove, but there have been some rumors as of late that hint at a more disturbing presence in the catacombs.",
-        "I really shouldn't be telling you this; I don't want to frighten you, or worse, spur you into action, but I think that you ought to know for your own safety.  These rumors, and mind you they are unconfirmed at this time, hint at the possible return of the Bloodsaber cult.",
-        "The Bloodsabers were an underground cult dedicated to the god of plagues, Bertoxxulous.  They were eradicated after their defeat in the War of Plagues during the Age of Turmoil, so these rumors are to be taken under a bit of skepticism.",
-        "During the Age of Turmoil, the War of Plagues spanned over the near entirety of the Qeynos kingdom.  The Bloodsabers had conjured an army of plague-ridden undead soldiers and sent this festering horde upon the innocents of the kingdom.  An undead knight known then as Lord Grimrot led this invasion.  His thirst for destruction and power was overwhelming.  For a time, it seemed he would be victorious.",
-        "Although the war lasted no more than two months, a great many innocents and noble warriors were lost.  The undead horde, along with Lord Grimrot himself, eventually fell to the might of Qeynos' armies and its valiant and brave people.  Still, so many had been lost and the earth itself had been soiled with the plague carried by the undead.",
-        "Indeed, the spirit of Qeynos could not be broken and the kingdom moved past the atrocities of the war. The undead hordes were forced into the earth, buried for all time by the powers of Qeynos' combined priesthoods.  However, Qeynos would face yet another mournful loss; the senseless treachery of one of our own was revealed.",
-        "Antonious Bayle IV, the then current ruler of Qeynos, had a half-brother, Kane Bayle.  Kane had served as Captain of the Guard for most of Antonious' rule.  Kane's jealousy at his brother's ascension had corrupted his judgment and he had allied himself in secret with the Bloodsabers many years before the war.",
-        "Kane had assured that the armies of Qeynos were spread thin throughout the world before the time of the Bloodsaber's invasion.  When the hordes came, Qeynos was unprepared.  Although Kane survived the war, he did not escape the justice of Qeynos.  He was put to death along with the other captured Bloodsabers.  The Bloodsabers had been defeated and forever eradicated from Qeynos, or so it was thought.",
-        "As I've said, there are only rumors floating about regarding the return of a Bloodsaber presence in the catacombs, but our history with the War of Plagues has forced us to handle these rumors with a degree of seriousness.  The Qeynos guard has been into the catacombs numerous times, but we have found no definitive evidence of any such revival.",
-        "No, I wouldn't dare put you in possible danger.  The discovery of the cult, if there even is one, is for the Qeynos guard to handle.  I do appreciate your brave and honorable offer.  I just want you to be fairly warned in case that these rumors do turn out to be true. "
       ]
     },
     {
@@ -319,7 +262,8 @@
         "Come to gaze upon me, have you?",
         "Ahh... my reflection in the water.  How glorious! Nothing is more pleasurable than gazing upon my own beauty.",
         "What!  It cannot be!  Nooooo... Where is my face cream?  My \"Erollisi's Bane?\"  Have I run out?  Its secret ingredient is rare; the local shops have all been depleted of it.  Alas!",
-        "Thank you, friend!  Your plain looks veil a superior heart.  The secret ingredient comes from the gland of the toxic bog slug, which crawls about the local peat bog.  I need several of the toxic glands."
+        "Thank you, friend!  Your plain looks veil a superior heart.  The secret ingredient comes from the gland of the toxic bog slug, which crawls about the local peat bog.  I need several of the toxic glands.",
+        "Many thanks, my homely friend.  Take this payment for your service and use it to improve your looks.        "
       ]
     },
     {
@@ -335,8 +279,7 @@
         "644.03,-24.66,380.42"
       ],
       "utterances": [
-        "Alms for the poor... Anyone, anyone?",
-        "Please give to the Nettleville Restoration Project, building homes for those who have none."
+        "Alms for the poor... Anyone, anyone?"
       ],
       "store": [
         {
@@ -362,7 +305,8 @@
         "653.96,-20.42,282.89"
       ],
       "utterances": [
-        "Are you wounded?  I just made up a fresh batch of healing potions an hour ago."
+        "There are no refunds for caster error at this shop! Oh ... hello you're not here about a refund.",
+        "What happened to the highly explosive bottle that was on my desk?  Have you seen it?"
       ],
       "store_template": "alchemist"
     },
@@ -393,9 +337,6 @@
       "purpose": "Housing",
       "locations": [
         "654.43,-24.93,338.59"
-      ],
-      "utterances": [
-        "Hello there <player name>, what can I help you with?"
       ],
       "store": [
         {
@@ -434,9 +375,6 @@
       ],
       "locations": [
         "609.78,-20.59,345.03"
-      ],
-      "utterances": [
-        "Hello!  I hope your day is rewarding for you."
       ]
     },
     {
@@ -449,9 +387,6 @@
       ],
       "locations": [
         "653.28,-24.78,376.63"
-      ],
-      "utterances": [
-        "Oh my!  Yet another overzealous admirer. Please wait till after the show for autographs."
       ]
     },
     {
@@ -465,12 +400,6 @@
       "purpose": "Bartender",
       "locations": [
         "666.04,-24.52,367.69"
-      ],
-      "utterances": [
-        "The best part about this job is all the extra coin I get.",
-        "I bet you have some stories, eh?  Adventuring must be an exciting life!",
-        "What can I get for ya?",
-        "Might I interest you in some meat and cheese to go with that tall glass of ale?"
       ],
       "store_template": "bartender"
     },
@@ -487,7 +416,9 @@
         "665.96,-20.39,274.73"
       ],
       "utterances": [
-        "Thank the gods you came along! Just when I need an extra set of hands!"
+        "Thank the gods you came along! Just when I need an extra set of hands!",
+        "One of the guards didn't show up for his shift, and I have reports that I need investigated. It's not easy work, but you look up for a challenge. What do you say? You want to help me out with my investigation?",
+        "First, I need you to investigate the sudden increase of vermin in Antonica. The beasts are eating away at our food stores and must be destroyed. I would send a guard, but we have more reports than my guards can handle. Are you ready to help?"
       ]
     },
     {
@@ -515,9 +446,6 @@
       "locations": [
         "583.13,-19.17,354.44"
       ],
-      "utterances": [
-        "Never go into battle without a tried and trusted weapon. Take a look at what we have in stock."
-      ],
       "store_template": "weaponsmith"
     },
     {
@@ -531,9 +459,6 @@
       "purpose": "Kerra Mentor",
       "locations": [
         "673.27,-20.57,334.74"
-      ],
-      "utterances": [
-        "I am sorry, but I am not in a mood to speak."
       ]
     },
     {
@@ -546,9 +471,6 @@
       ],
       "locations": [
         "660.04,-24.93,345.8"
-      ],
-      "utterances": [
-        "It is a beautiful day! I hope the gods are smiling upon you."
       ]
     },
     {
@@ -561,12 +483,6 @@
       ],
       "locations": [
         "653.65,-24.72,371.51"
-      ],
-      "utterances": [
-        "Some of my friends tell me I'm weak.  I think its true, I've only been able to lift two goblins and an orc lately.",
-        "Strength isn't just the size of your muscles... It's, well... Yeah it is.",
-        "Well its not easy being the best looking guy in town, but I think I pull it off well.",
-        "Funny, the wound didn't smell like that yesterday."
       ]
     },
     {
@@ -581,7 +497,7 @@
         "639.21,-20.42,284.8"
       ],
       "utterances": [
-        "I heard the Ratonga play it for fun."
+        "I'm dying to know what's in that castle."
       ]
     },
     {
@@ -595,9 +511,6 @@
       "purpose": "Crafting Trainer",
       "locations": [
         "598.91,-20.49,343.05"
-      ],
-      "utterances": [
-        "You have learned everything I have to teach at the moment.  You are free to use our crafting facilities to hone your skills."
       ],
       "store_template": "crafting_trainer"
     },
@@ -639,9 +552,6 @@
       ],
       "locations": [
         "572.48,-19.02,350.27"
-      ],
-      "utterances": [
-        "Sometimes there is little we can do to prevent tragedy. Other times, that which we do need to do is relatively little."
       ]
     },
     {
@@ -666,7 +576,9 @@
       "utterances": [
         "Interested in the magical arts, are you?",
         "Good. That's what I like to hear! I'm working on a levitation spell, but I'm running low on Bog Faeries. If you go to the Peat Bog and round up some of the wings, I'll gladly pay you for this deed.",
-        "Fabulous!  I need a handful of the wings to restock my supply. Good luck in that nasty bog and be careful!"
+        "Fabulous!  I need a handful of the wings to restock my supply. Good luck in that nasty bog and be careful!",
+        "Excellent!  These will do most nicely! I hope getting the wings wasn't too difficult. As promised, here's your reward. ",
+        "Thank you for refilling my jars. I knew they were empty, but could not find the time to make the trip to Oakmyst Forest. Please take this payment as a reward for your good deed."
       ],
       "store": [
         {
@@ -689,9 +601,6 @@
       ],
       "locations": [
         "608.19,-20.26,293.87"
-      ],
-      "utterances": [
-        "That meddling Falkoner didn't see you come back here, did he?  Hmmm... I don't know if I can trust you. You better leave, now!"
       ]
     },
     {
@@ -709,7 +618,9 @@
         "So much to do!  So little time! I must finish my sweeping, but I need a new broom. Perhaps you'll help me in return for a precious stone?",
         "So much to do!  So little time!  I must get these tents in order, and all this sweeping is giving me blisters.  It wouldn't be so bad if there weren't all these little rocks about.",
         "These stones on the ground, of course ... I guess I swept away most of the pebbles, but I did keep one strange blue rock that I found in the dust.  If you agree to help me, I'll give you the precious stone as payment. Unfortunately, I'm short on coin.",
-        "Great!  I need you to pick up my new broom. Don't worry! It's already paid for; I just haven't picked it up. Tawli Whiskwind, a halfling lass in the Baubbleshire, should have it ready for me. You may have a difficult time finding her -- she's always running around looking for the finest materials for her brooms."
+        "Great!  I need you to pick up my new broom. Don't worry! It's already paid for; I just haven't picked it up. Tawli Whiskwind, a halfling lass in the Baubbleshire, should have it ready for me. You may have a difficult time finding her -- she's always running around looking for the finest materials for her brooms.",
+        "Aye, I told you she was a bit flighty.  Thank you for the broom and here is the stone I promised.  I hope it brings you good luck.",
+        "I suppose that is up to you.  Maybe you can take it to a mineral expert somewhere in the city."
       ]
     },
     {
@@ -722,9 +633,6 @@
       ],
       "locations": [
         "614.25,-26.33,368.57"
-      ],
-      "utterances": [
-        "Perhaps we can speak another time?  I have to allocate the barley, inventory the chicken feed, and distribute the wool."
       ]
     }
   ]

@@ -38,9 +38,9 @@
         "826.21,-21.25,-635.01"
       ],
       "utterances": [
-        "Welcome! What can I help you with?",
         "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "Welcome! What can I help you with?"
       ],
       "store_template": "provisioner"
     },
@@ -55,9 +55,6 @@
       "purpose": "Wood Elf Mentor",
       "locations": [
         "831.56,-20.7,-760.73"
-      ],
-      "utterances": [
-        "Ayr'Dal like yourself should speak with Daelyn Twinstar, I am sure he can help you more than I can."
       ]
     },
     {
@@ -73,9 +70,6 @@
         "851.26,-19.6,-595.53"
       ],
       "utterances": [
-        "You can never be too careful when it comes to protection.  Here try on one of these.",
-        "Coin is no object when gaining protection from your enemies.  What price can be put on your safety? ",
-        "I have some nice new suits of chain that have stood up very well.  Would you like to see them?",
         "Argh!  I bent the tongs again!  I must have Ironmallet fix them! Greetings, adventurer! What do you need?"
       ],
       "store_template": "armorsmith"
@@ -93,9 +87,7 @@
         "858.26,-19.6,-600.43"
       ],
       "utterances": [
-        "Well, that suit is looking a might worn.  Can I interest you in a new suit of fine armor? ",
-        "Coin is no object when gaining protection from your enemies.  What price can be put on your safety? ",
-        "You can never be too careful when it comes to protection.  Here try on one of these."
+        "Coin is no object when gaining protection from your enemies.  What price can be put on your safety? "
       ],
       "store_template": "weaponsmith"
     },
@@ -118,7 +110,7 @@
         "Heh. I wager you're a sentimentalist, then.",
         "I'm not always right, I just see patterns sometimes. Tell me, do you ever regret your heritage?",
         "That's good to hear. I used to feel shame when I thought of my heritage, but I've come to know better.",
-        "By experiencing the world. I believed a lot of lies when I was younger. The only thing that can dispel lies you've known all your life is experience, and not even that always works. I don't know your past, but I guarantee you have room to learn, we all do.",
+        "Well, I could teach you if you like, but you may find the lessons boring. I have a friend who might be able to entertain you though. What do you say?",
         "Nothing, really. I'm no teacher. I can only put you in situations that you may learn from. I can try to help guide you, of course, but most of the work will be yours.",
         "I would like you to speak with two people and help them in their day to day business. Please seek out Gar Smolten and Lia Serene. Pay close attention to how they treat you. Gar should be behind the inn, speak with him first. Lia should be near the entrance to the Elddar Grove.",
         "I'm glad to hear it. Return to me when you have spoken to them.",
@@ -153,9 +145,6 @@
       ],
       "locations": [
         "850.73,-20.92,-663.1"
-      ],
-      "utterances": [
-        "Sorry, I'm kind of busy right now."
       ]
     },
     {
@@ -187,8 +176,10 @@
         "840.28,-20.17,-658.07"
       ],
       "utterances": [
+        "Welcome! What can I help you with?",
         "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
-        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Hello there!  Can I interest you in some of the finest merchandise this side of Norrath?"
       ],
       "store_template": "general_goods"
     },
@@ -204,10 +195,6 @@
         "870.75,-18.34,-600.55"
       ],
       "utterances": [
-        "Is there no place on your body left unpierced? Nay, do not answer -- I'm afraid to know!",
-        "Stop sniffing around my pockets, you!  Go back to the sewers and keep to yourselves.",
-        "When we recreate our ancestral home, why don't you come live there amongst the Feir'Dal?",
-        "The blessing of Tunare is the highest blessing of all.",
         "To be among the highest leaves and branches of a tree is to feel free."
       ]
     },
@@ -233,7 +220,6 @@
         "And the one marked raisins & dried apricots?",
         "And finally the box marked herbs?",
         "All right. Great, this is just the kind of information I needed.",
-        "Er, well now wait a minute. I can see from here that one of those boxes doesn't contain what you said. Please double check your work.",
         "Well that's a relief, I was afraid I would never get around to checking those boxes. You're a quick worker. I'm sorry about snapping at you earlier, I get like that from time to time. I was just stressed over those mischievous kids, among other things. Thanks for the help."
       ]
     },
@@ -249,11 +235,6 @@
       "locations": [
         "817.83,-21.25,-645.12"
       ],
-      "utterances": [
-        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
-        "Welcome! What can I help you with?"
-      ],
       "store_template": "shieldsmith"
     },
     {
@@ -267,9 +248,6 @@
       "purpose": "Bartender",
       "locations": [
         "860.11,-20.48,-622.19"
-      ],
-      "utterances": [
-        "Might I interest you in some meat and cheese to go with that tall glass of ale?"
       ],
       "store_template": "bartender"
     },
@@ -286,7 +264,8 @@
       ],
       "utterances": [
         "I don't know how he snuck past the patrols. If you approach slowly, he may let you touch him.",
-        "What do you need? I'm very busy."
+        "What do you need? I'm very busy.",
+        "Yes, yes, that's fine.  I suppose it would be rude of me not to offer you anything in return. It's not much, but it's something."
       ]
     },
     {
@@ -316,7 +295,7 @@
       "utterances": [
         "Hello <player name>, I am the Innkeeper for this village.  We have received word of your arrival and have a room prepared for you.  Would you like to know more about housing?",
         "What would you like to know?",
-        "You will find that your house has many uses, the first of which is the ability to store house items.  Each house has a limit to the number of house items you can place in it, so as you gain more possessions you wish to display you will need larger houses to do so."
+        "Hello there <player name>, what can I help you with?"
       ],
       "store": [
         {
@@ -379,9 +358,6 @@
       ],
       "locations": [
         "829.22,-20.07,-604.02"
-      ],
-      "utterances": [
-        "That's right! Lots of things you need inside the Scribe's shop!"
       ]
     },
     {
@@ -394,9 +370,6 @@
       ],
       "locations": [
         "825.7,-20.61,-740.36"
-      ],
-      "utterances": [
-        "Sorry, friend. I can't chat. I'm waiting for my brother and I'd hate to miss him!"
       ]
     },
     {
@@ -409,9 +382,6 @@
       ],
       "locations": [
         "838.52,-20.9,-613.22"
-      ],
-      "utterances": [
-        "Hail fair, adventurer. Please be on your way. I've no time for chatting with commoners. I must warm up my voice. My fans await me..."
       ]
     },
     {
@@ -435,8 +405,7 @@
         "Goodness, no. Your scent would only ensure their demise. Please bring the eggs back to me. I can care for them and may be able to get their mothers to accept them again.",
         "It's just like an Ayr'Dal to ask a question like that. Um, no offense. I know where the birds of this village nest, and what their eggs look like. This is how I know where to look, and where to tell you where to look. Check under the north-east corner of the inn roof, north of that location check under the tree near the entrance to the docks, then check under the tree just down the path from the entrance to the Forest Ruins, which is in the south-western area of the village.",
         "Did you find any eggs?",
-        "I'm relieved. It looks like you handled these with great care. I believe we can save all of them, thank you.",
-        "Thank you again for your help, Ayr'Dal."
+        "I'm relieved. It looks like you handled these with great care. I believe we can save all of them, thank you."
       ]
     },
     {
@@ -493,8 +462,6 @@
         "850.37,-20.55,-632.4"
       ],
       "utterances": [
-        "You show interest in the crafting trade, good.  Qeynos can always use talented artisans within the walls of our great city.  I can help you get started and offer you some of the basic recipes at no charge.  Would you be interested?",
-        "There, you now have the basic recipes and the knowledge to begin crafting.  Everything else you need to get yourself started can be found right here.",
         "You have learned everything I have to teach at the moment.  You are free to use our crafting facilities to hone your skills."
       ],
       "store_template": "crafting_trainer"
@@ -512,8 +479,7 @@
         "815.19,-19.94,-609.27"
       ],
       "utterances": [
-        "Are you wounded?  I just made up a fresh batch of healing potions an hour ago.",
-        "Hello, adventurer! Are you looking for a specific potion or ingredient?"
+        "There are no refunds for caster error at this shop! Oh ... hello you're not here about a refund."
       ],
       "store": [
         {
@@ -560,9 +526,6 @@
       ],
       "locations": [
         "865.17,-18.87,-613.3"
-      ],
-      "utterances": [
-        "Another face I do not recognize.  Are you new here, good traveler?"
       ]
     },
     {
@@ -576,6 +539,9 @@
       "purpose": "Spell Scrolls",
       "locations": [
         "822.07,-19.94,-604.8"
+      ],
+      "utterances": [
+        "The amazing thing about nature is its ability to balance life with no assistance.  Unfortunately, the influx of people to this city is disrupting this balance. "
       ],
       "store": [
         {
@@ -623,9 +589,6 @@
       ],
       "locations": [
         "857.76,-20.48,-631.26"
-      ],
-      "utterances": [
-        "Not in a chatting mood right now, friend."
       ]
     },
     {
@@ -671,8 +634,7 @@
       ],
       "utterances": [
         "Welcome to my humble shop.  We have quite a selection of weapons to choose from.  See for yourself...",
-        "Never go into battle without a tried and trusted weapon. Take a look at what we have in stock.",
-        "Is there something you need to have custom made?  I can see if I can get one of my lads to look into it!"
+        "I just got a shipment in from the Far Sea's Trading Company.  I don't just show anybody this stuff so, shhhh!  "
       ],
       "store": [
         {
@@ -714,9 +676,18 @@
         "869.75,-18.46,-601.58"
       ],
       "utterances": [
-        "I don't understand the need for piercings, but they look fine on you.",
+        "To be among the highest leaves and branches of a tree is to feel free.",
         "The blessing of Tunare is the highest blessing of all.",
-        "To be among the highest leaves and branches of a tree is to feel free."
+        "I, too, long for my home in Faydark.  Someday, Tunare will answer us, I'm sure.",
+        "The weather would be much more pleasant if there were more trees around here.",
+        "No, I won't go out for a dwarven ale with you. Elven wine tastes perfectly fine to me.",
+        "I don't understand the need for piercings, but they look fine on you.",
+        "Yes, I'm keeping busy.  Thank you for asking.  May Tunare bless your family!",
+        "The Feir`Dal will not let this traitor of the elven race reside within these city walls. Expect no more than a short welcome here.",
+        "No, I haven't got a foozlewicket, or whatever it is you're looking for.",
+        "Let us meet later for a goblet of wine!  I'm sure you have great tales to tell.",
+        "May Tunare's blessings be with you and yours.",
+        "Whatever the deities had in mind in creating you is veiled to me.  I cannot begin to understand."
       ]
     },
     {
@@ -732,9 +703,7 @@
         "856.3,-20.91,-642.76"
       ],
       "utterances": [
-        "Welcome! What can I help you with?",
-        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
       ],
       "store_template": "bowyer"
     },

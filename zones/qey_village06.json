@@ -38,7 +38,12 @@
         "862.77,-12.31,-412.95"
       ],
       "utterances": [
-        "Greetings!  Looking for a bashcogglinator or perhaps a metefozic thermogauge?"
+        "Greetings!  Looking for a bashcogglinator or perhaps a metefozic thermogauge?",
+        "Oh my, it does indeed!  I thought I'd lost those parts.  You've saved me a great deal of trouble, friend.  Let me compensate you for your keen eyes and good nature.",
+        "I see my superior intellect confuses you.  Don't worry, it perplexes many people - tis' the curse of the Tinmizer name.  However, I can use your help, for even simple minds contribute to the greatness of Qeynos.",
+        "You must venture into the Forest Ruins. Tavern tales claim the remnants of the magi tower of the Order of Three exist there. You must reveal the truth of this mystery.",
+        "Good! I can't wait to hear about it!",
+        "This is wonderful news!  Someday, I must explore the ruins but not today.  I thank you for your service, adventurer."
       ]
     },
     {
@@ -53,7 +58,17 @@
         "866.22,-12.23,-418.7"
       ],
       "utterances": [
-        "Well, then, what can I do for you?"
+        "Well, then, what can I do for you?",
+        "Magical shield? Is that what they were designing? I thought it was a new brewery system! Hah! Imagine that! Ha! Um, yeah.",
+        "Towser didn't tell me at first what he was working on, no.  If you ask me, though, whatever Towser designed should have been good enough for the committee.  I don't know what Magus Weskah was thinking!",
+        "I asked him a few times, but he was very closed about it.  He takes a lot of pride in his discretion.  Since he lost the competition, he's been a little bitter.  That won't affect his work, though.",
+        "There isn't anything Towser can't do once he's put his mind to it.  He's been a bit down lately since Magus Weskah over in North Qeynos picked someone else's design, but I'm sure he'll pull through things just fine.  Are you a friend of his, too?",
+        "I can't say much about the contest since I didn't enter it myself.  In fact, without that truth potion, Jo Ironshield gave him, Towser wouldn't have said a word about it!  He hates to lose, you see!",
+        "Jo slipped him some at the pub. It was funny at the time, though his wife didn't think so.  All I know is that poor Towser couldn't stop telling the truth about things, even that ugly hat of hers! The Qeynos North Alchemists' Guild that Jo belongs to won't be so amused either, I guess.",
+        "Good old Towser! I'm glad to see you're becoming friends with him, too.  Especially after all he's been through! Let me see...yes, yes...",
+        "Not too long at all, friend!  Towser seems to lose keys every other day.  He's a great guy, but I'm constantly having to make new keys for him.  He must have a lock on every door and drawer in his house! Heh!",
+        "There you go, right as rain!",
+        "Tell Towser that me and the missus hope he and the family can join us for supper again sometime soon."
       ]
     },
     {
@@ -69,8 +84,7 @@
         "883.3,-18.31,-444.99"
       ],
       "utterances": [
-        "Welcome friend, welcome.  I hope you brought your appetite with you!",
-        "I love the smell of fresh bread in the oven!"
+        "Fresh baubbleberry pie, come and get some while it's hot!"
       ],
       "store_template": "provisioner"
     },
@@ -84,9 +98,6 @@
       ],
       "locations": [
         "900.33,-18.01,-482.3"
-      ],
-      "utterances": [
-        "Oh! Why hello there!  I am so behind on tinker work that I am not taking anymore orders at the moment ... What is it you want?"
       ]
     },
     {
@@ -99,9 +110,6 @@
       ],
       "locations": [
         "893.69,-17.91,-492.43"
-      ],
-      "utterances": [
-        "I know you'd love to speak with me, but I'm a little busy right now."
       ]
     },
     {
@@ -115,11 +123,6 @@
       "purpose": "Mender",
       "locations": [
         "832.39,-13.81,-475.49"
-      ],
-      "utterances": [
-        "Greetings there, have something that you think needs a bit of repair?",
-        "Hello, adventurer.  Looking to get some items repaired after a hard day of dragon slaying?",
-        "Welcome! Is there anything I can help you with or are you looking to find an apprenticeship?"
       ]
     },
     {
@@ -135,9 +138,7 @@
         "905.26,-17.76,-489.23"
       ],
       "utterances": [
-        "Welcome! What can I help you with?",
-        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+        "Welcome! What can I help you with?"
       ],
       "store": [
         {
@@ -152,10 +153,7 @@
       "store_template": "bowyer"
     },
     {
-      "name": "Deputy Splitshin",
-      "utterances": [
-        "Ah good, another refugee in the city.  I hope you're not a worthless lay about!  We don't abide apathy here."
-      ]
+      "name": "Deputy Splitshin"
     },
     {
       "name": "Diggin Diggs",
@@ -189,9 +187,6 @@
       "purpose": "Provisioner",
       "locations": [
         "833.48,-17.77,-482.45"
-      ],
-      "utterances": [
-        "...The tract-o-fizzle attaches to the wizgiggler.  Or is it the other way around?  What do you think my friend?"
       ],
       "store": [
         {
@@ -231,9 +226,6 @@
       ],
       "locations": [
         "884.17,-18.31,-442.64"
-      ],
-      "utterances": [
-        "Don't bother me, I'm drinking!"
       ]
     },
     {
@@ -246,9 +238,6 @@
       ],
       "locations": [
         "817.52,-15.0,-452.38"
-      ],
-      "utterances": [
-        "Not now, I'm looking for treasure!"
       ]
     },
     {
@@ -261,9 +250,6 @@
       ],
       "locations": [
         "862.3,-18.85,-465.21"
-      ],
-      "utterances": [
-        "What brings you to the fair vale of Baubbleshire? Seeking a bit of merriment among the stouts? "
       ]
     },
     {
@@ -288,10 +274,6 @@
       ],
       "locations": [
         "887.21,-18.31,-440.65"
-      ],
-      "utterances": [
-        "Can't you see I'm busy? I'm the kegkeeper of the tavern, and as you can see, these lot drink a lot ... Ha! ... Made a funny!",
-        "I agree! But what's a stout to do? My grandparents granted me this atrocious name. They say it was the name of a ferocious giant, a pirate even! Saw it on a journey once, they say. Even spoke to him! Tall tales I say."
       ]
     },
     {
@@ -315,7 +297,7 @@
         "898.51,-17.69,-490.57"
       ],
       "utterances": [
-        "Hello there <player name>, what can I help you with?"
+        "Welcome to the Inn, adventurer.  You look absolutely exhausted. Here, let us take your things!"
       ],
       "store": [
         {
@@ -378,9 +360,6 @@
       ],
       "locations": [
         "860.47,-18.02,-520.06"
-      ],
-      "utterances": [
-        "Sorry, I'd prefer not to talk right now."
       ]
     },
     {
@@ -394,10 +373,6 @@
       "purpose": "General Goods",
       "locations": [
         "883.59,-18.18,-436.98"
-      ],
-      "utterances": [
-        "My name is Deeppockets.  Pleased to meet you, I am!  Perhaps we'll talk again some day!",
-        "The best part about this job is all the extra coin I get."
       ],
       "store": [
         {
@@ -421,9 +396,6 @@
       ],
       "locations": [
         "878.34,-18.31,-440.63"
-      ],
-      "utterances": [
-        "Bring me another pint, Bregun!  Mine's almost empty!  What brings you into my papa's fine establishment, friend?"
       ]
     },
     {
@@ -436,9 +408,6 @@
       ],
       "locations": [
         "857.3,-11.98,-417.39"
-      ],
-      "utterances": [
-        "I simply love this view."
       ]
     },
     {
@@ -456,7 +425,8 @@
         "Stand stout! You'd make a fine deputy.",
         "Aha!  A mercenary!  I can use your mettle for testing the strengths of the enemy.  Can you overcome the titans of the forest?  What do ya say, soldier?",
         "Then stand firm and venture to the Forest Ruins.  The foes act as Forgotten Guardians.  They prey upon the people ... stand tall, soldier!  Crush a few and return with a tale of victory!",
-        "Good! Return when you've bested them."
+        "Good! Return when you've bested them.",
+        "What bravery!  You laughed in the face of death! You are a true protector of the forest realms.  I shall seek you out when I recruit my force of Leatherfoot deputies.  You are relieved for now."
       ]
     },
     {
@@ -469,9 +439,6 @@
       ],
       "locations": [
         "883.3,-13.4,-439.62"
-      ],
-      "utterances": [
-        "Search within your soul! Reclaim your faith! Bristlebane lives within us. Do not abandon his mirth! We are not forsaken!"
       ]
     },
     {
@@ -485,10 +452,6 @@
       "purpose": "Gnome Mentor",
       "locations": [
         "946.78,-18.06,-440.73"
-      ],
-      "utterances": [
-        "Ah yes, hello, hello. I'm afraid I'm quite busy at the moment.",
-        "Erm... thinking... I'm busy thinking... about gnomish things! I'm busy thinking about gnomish things, I'm afraid you wouldn't understand."
       ]
     },
     {
@@ -516,9 +479,8 @@
         "827.66,-17.9,-501.86"
       ],
       "utterances": [
-        "Dare I say, it's a fine day for shopping. How can I help you?",
-        "You can never be too careful when it comes to protecting yourself. Why not try something new?",
         "Your garb looks a might worn.  Can I interest you in a fine new set of armor?",
+        "You can never be too careful when it comes to protecting yourself. Why not try something new?",
         "Hello there!  Can I interest you in some of the finest merchandise this side of Norrath?"
       ],
       "store_template": "tailor"
@@ -533,17 +495,6 @@
       ],
       "locations": [
         "849.18,-19.05,-487.75"
-      ],
-      "utterances": [
-        "Oh! Excuse me for not recognizing your face.  I've only just arrived.  You know, this place is nice enough, but it still doesn't compare to the Vale ... Aaah, I guess I'll just have to make the best of it.",
-        "Oh, I just miss the Vale terribly, and I know that I'll never see it again. It'll never be as it was before, well, before I came here, anyway.",
-        "You're ... you're right, I do, but I'm hesitant. I think that if I talk about it ... if someone else knows what I've seen, then ... then it'll be real.  I don't want it to be real.",
-        "Well ... I ... I can't, I just can't describe the things I've seen. I can tell you what I feel, and what I think, I suppose.  Yes, it's better this way.  The world should know that the Vale ... well, it just might not be there anymore, at least not in the way we know it.",
-        "Oh, I know. But you see, Rivervale and the Misty Thicket were special; they weren't harmed in the Cataclysms!  Somehow our lands survived unscathed!  It was a paradise when the rest of the world was broken and shattered.",
-        "Yes. It did.  Something is happening in the vale at this very moment!  It's ... it's terrible!  I just ... I just don't want to think about it!  I can't!  I'm really very sorry, but I just can't.  Not yet.  I need time, just a little time for the nightmares to go away...",
-        "I know, I know, but you haven't seen what I've seen!  You haven't heard the screams in the night!  Oh, those ghastly, horrific screams of pain and ... and merriment!  Cries of merriment in the slaughter!  It's ... it's happening now!  Right now!  They're suffering and I can't help them!  No one can help them!",
-        "Death and suffering!  All of them dead and suffering!  They ... they bring it!  They revel in it!  It's like wine and song to them!  They're beyond evil, and they won't stop until they reave every last bit of life from the land!",
-        "Terrible, horrible things in the night.  They shriek and howl, and then they sing softly and tenderly and sooth the nightmares away.  They're here for all of us; they won't stop until they've drained all life away.  Oh no, Launa!  My sweet Launa!  She's still there!  I abandoned her!  I had to, my sweet Launa, I had to ...  you were lost to them, but I couldn't do it!  I just couldn't do it!  Oh, please forgive me..."
       ]
     },
     {
@@ -557,9 +508,6 @@
       "purpose": "Crafting Trainer",
       "locations": [
         "821.21,-8.82,-475.89"
-      ],
-      "utterances": [
-        "You have learned everything I have to teach at the moment.  You are free to use our crafting facilities to hone your skills."
       ],
       "store": [
         {
@@ -589,9 +537,6 @@
       ],
       "locations": [
         "855.68,-18.22,-516.48"
-      ],
-      "utterances": [
-        "Well met, good friend!  I'm  busy working on this new lock here!  I think it'll be unpickable once I'm done!"
       ]
     },
     {
@@ -604,9 +549,6 @@
       ],
       "locations": [
         "802.49,-1.56,-452.63"
-      ],
-      "utterances": [
-        "Leave me alone!"
       ]
     },
     {
@@ -637,7 +579,9 @@
         "Hello there!  How can I be of service?",
         "Nothing much, just a schematic I'm working on.  I can't find a power source for it ... Oh, Solusek's flame! How in the name of Brell can I make this thing work?",
         "Fire's no good. It doesn't get hot enough or burn long enough.  WAIT!  HAH! Oh, you're right! I need a special type of coal.  You thought of it, so you can fetch it. I need still-burning embers from the forgotten guardians in the Forest Ruins.",
-        "Well?  What are you waiting for?  Go, go, GO!"
+        "Well?  What are you waiting for?  Go, go, GO!",
+        "So, you return with the coals ... I hope you didn't get burned! Let me take a look...",
+        "Oh yes! These shall work nicely!  Tell you what -- take this money for your work. I planned on buying a spell for creating a power source but because of your smart thinking and hard work, I need no spell!"
       ]
     },
     {
@@ -653,8 +597,8 @@
         "854.71,-18.22,-517.01"
       ],
       "utterances": [
-        "Is there something you need to have custom made?  I can see if I can get one of my lads to look into it!",
-        "Now, if I can only figure out how the sprocket will fit in this device, I'll be set! Why are you interrupting my work?  Can't you see I'm busy? "
+        "Never go into battle without a tried and trusted weapon. Take a look at what we have in stock.",
+        "Welcome to my humble shop.  We have quite a selection of weapons to choose from.  See for yourself..."
       ],
       "store_template": "weaponsmith"
     },
@@ -671,8 +615,7 @@
         "883.89,-18.31,-439.19"
       ],
       "utterances": [
-        "I bet you have some stories, eh?  Adventuring must be an exciting life!",
-        "The best part about this job is all the extra coin I get."
+        "What can I get for ya?"
       ],
       "store_template": "bartender"
     },
@@ -717,9 +660,8 @@
         "857.17,-17.87,-507.1"
       ],
       "utterances": [
-        "All right where is my pen?  How am I supposed to scribe anything without my pen?",
-        "Be careful, it's best not to read the scrolls.  If you want to know what they are, just ask me.",
-        "Blast it! Who keeps taking all of the parchment?  "
+        "Blast it! Who keeps taking all of the parchment?  ",
+        "All right where is my pen?  How am I supposed to scribe anything without my pen?"
       ],
       "store": [
         {
@@ -750,9 +692,6 @@
       ],
       "locations": [
         "846.7,-19.56,-441.1"
-      ],
-      "utterances": [
-        "Hello there!  Isn't this a lovely spot?  It's not the vale, but I was too young to really remember much when we left anyway."
       ]
     },
     {
@@ -765,9 +704,6 @@
       ],
       "locations": [
         "859.99,-18.23,-509.9"
-      ],
-      "utterances": [
-        "Careful where you walk!   I don't want you bending a sprocket or tweaking a spring, and you mustn't crimp a cog!  If I have to uncrimp just one more cog..."
       ]
     }
   ]

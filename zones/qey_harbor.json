@@ -25,9 +25,6 @@
       "locations": [
         "924.63,-25.53,30.93"
       ],
-      "utterances": [
-        "Look around? Freshest catch on the docks."
-      ],
       "store_template": "provisioner"
     },
     {
@@ -41,11 +38,6 @@
       "purpose": "Bowyer",
       "locations": [
         "722.21,-20.64,-6.6"
-      ],
-      "utterances": [
-        "You can never be too careful when it comes to protection.  Here try on one of these.",
-        "I have some nice new suits of chain that have stood up very well.  Would you like to see them?",
-        "Well, that suit is looking a might worn.  Can I interest you in a new suit of fine armor? "
       ],
       "store_template": "bowyer"
     },
@@ -62,9 +54,7 @@
         "862.5,-25.37,102.98"
       ],
       "utterances": [
-        "Welcome, friend! The wares of an entire city are at your fingertips. So please make your selection.",
-        "Greetings and salutations, my fair patron.  So, what is it within the confines of majestic Qeynos that I may provide for you?",
-        "Yes, I know you seek what I have access to. Then again, who doesn't?  So what can I help you acquire?"
+        "The Ironforge Exchange?  the Far Seas Trading Company?  Insects of industry, my friend, waiting to be crushed beneath my boot heel!"
       ]
     },
     {
@@ -79,9 +69,6 @@
       "locations": [
         "914.22,-25.49,61.92"
       ],
-      "utterances": [
-        "Browse the docks all you want, I guarantee you won't find better fish than mine."
-      ],
       "store_template": "general_goods"
     },
     {
@@ -94,9 +81,6 @@
       ],
       "locations": [
         "949.92,-25.5,35.74"
-      ],
-      "utterances": [
-        "I fear no man or beast."
       ]
     },
     {
@@ -125,9 +109,6 @@
       "locations": [
         "804.63,-23.77,54.71"
       ],
-      "utterances": [
-        "What can I get for ya?"
-      ],
       "store_template": "bartender"
     },
     {
@@ -141,9 +122,6 @@
       "purpose": "Bartender",
       "locations": [
         "936.53,-19.55,10.56"
-      ],
-      "utterances": [
-        "Listen here,  this ain't no public brew hall! The Mermaid's Lure is for Marauders only. "
       ],
       "store_template": "bartender"
     },
@@ -160,9 +138,8 @@
         "949.67,-25.5,33.4"
       ],
       "utterances": [
-        "We can't take any chances that the Rallosian Empire will rebuild itself.  Who will heed my call!?",
-        "I'm sorry, but you look a bit green for something as momentous as this.  Come and talk to me after you've sunk your teeth into some real adventure.",
-        "Now is the time we must band together and find what's left of the Feerrott!"
+        "Now is the time we must band together and find what's left of the Feerrott!",
+        "We can't take any chances that the Rallosian Empire will rebuild itself.  Who will heed my call!?"
       ]
     },
     {
@@ -175,11 +152,6 @@
       ],
       "locations": [
         "937.72,-25.27,98.22"
-      ],
-      "utterances": [
-        "We're running low on wood, but I don't want to mention it to Overseer Scarbourough until he calms down.",
-        "I'm very busy! I must get more wood! ",
-        "I'm very busy! Sorry, I've no time to talk!"
       ]
     },
     {
@@ -192,10 +164,6 @@
       ],
       "locations": [
         "984.38,-25.47,2.19"
-      ],
-      "utterances": [
-        "Don't let the pretty waves fool you; life at sea is no holiday, what with serpents, sirens and pirates.",
-        "She's beautiful, isn't she?  And deadly."
       ]
     },
     {
@@ -212,7 +180,9 @@
       ],
       "utterances": [
         "She's still out there, I can feel it.  When I have enough money, I am heading out to sea to find my one true love. Won't you help me, friend? Just a small purchase?",
-        "Sailors are always looking for ways to keep warm on the high seas. Wolf hides offer warmth and protection from the bone chilling waters. If you could bring me some sleek hides, the money I make selling them, will bring me closer to finding my love."
+        "Sailors are always looking for ways to keep warm on the high seas. Wolf hides offer warmth and protection from the bone chilling waters. If you could bring me some sleek hides, the money I make selling them, will bring me closer to finding my love.",
+        "Thank you!",
+        "Your kindness is appreciated. These wolf hides are premium wares and will fetch a handsome price."
       ],
       "store_template": "provisioner"
     },
@@ -228,9 +198,6 @@
       "locations": [
         "866.61,-25.29,-52.01"
       ],
-      "utterances": [
-        "Welcome! What can I help you with?"
-      ],
       "store_template": "bowyer"
     },
     {
@@ -244,9 +211,6 @@
       "purpose": "Banker",
       "locations": [
         "677.55,-19.42,-43.46"
-      ],
-      "utterances": [
-        "Hello there.  I'll take care of your coin and goods if they need safekeeping."
       ]
     },
     {
@@ -259,10 +223,6 @@
       ],
       "locations": [
         "962.21,-25.47,7.46"
-      ],
-      "utterances": [
-        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
       ],
       "store": [
         {
@@ -295,9 +255,6 @@
       "locations": [
         "947.77,-25.55,7.81"
       ],
-      "utterances": [
-        "If you're looking for the bar, it's upstairs. Be careful of the Coldwind Marauders ... they really enjoy their drink."
-      ],
       "store_template": "general_goods"
     },
     {
@@ -312,11 +269,6 @@
       "locations": [
         "736.59,-20.73,-71.93"
       ],
-      "utterances": [
-        "Welcome to my humble shop.  We have quite a selection of weapons to choose from.  See for yourself...",
-        "Is there something you need to have custom made?  I can see if I can get one of my lads to look into it!",
-        "Never go into battle without a tried and trusted weapon. Take a look at what we have in stock."
-      ],
       "store_template": "tailor"
     },
     {
@@ -329,9 +281,6 @@
       ],
       "locations": [
         "795.63,-20.64,-31.9"
-      ],
-      "utterances": [
-        "I'm sorry. I don't know who ye are.  If ye'd be so kind as ta leave me to my business, I'd appreciate it.  Good day ta ye."
       ]
     },
     {
@@ -345,9 +294,6 @@
       "purpose": "General Goods",
       "locations": [
         "817.67,-23.27,52.18"
-      ],
-      "utterances": [
-        "What is it you need, traveler? If it's reasonable rates, fine food and ale you desire, you've come to the right inn."
       ],
       "store_template": "general_goods"
     },
@@ -363,11 +309,6 @@
       "locations": [
         "718.68,-20.63,-83.97"
       ],
-      "utterances": [
-        "I just got a shipment in from the Far Sea's Trading Company.  I don't just show anybody this stuff so, shhhh!  ",
-        "Never go into battle without a tried and trusted weapon. Take a look at what we have in stock.",
-        "Is there something you need to have custom made?  I can see if I can get one of my lads to look into it!"
-      ],
       "store_template": "armorsmith"
     },
     {
@@ -382,6 +323,9 @@
         "815.83,-17.27,52.19"
       ],
       "utterances": [
+        "I have nothing to say to you right now.",
+        "Nice piercing.  I might get another one later today.",
+        "Better for us to watch each other's back than to find a blade in them.",
         "You talk to strangers?  What's the purpose of that?"
       ]
     },
@@ -396,9 +340,6 @@
       "purpose": "Banker",
       "locations": [
         "682.89,-19.41,-39.64"
-      ],
-      "utterances": [
-        "Welcome to the bank, citizen. How can I assist you?"
       ]
     },
     {
@@ -414,8 +355,7 @@
         "794.04,-23.26,95.94"
       ],
       "utterances": [
-        "Blast it! Who keeps taking all of the parchment?  ",
-        "Ah, a student of the arcane.  Is there something I can help you find?"
+        "All right where is my pen?  How am I supposed to scribe anything without my pen?"
       ]
     },
     {
@@ -429,9 +369,6 @@
       "purpose": "Ian's Assistant",
       "locations": [
         "800.11,-20.64,-28.73"
-      ],
-      "utterances": [
-        "Good day to you citizen.  If you've got any of that armor from ol' Ian here, I'd be happy to offer ya some of the newer stuff."
       ]
     },
     {
@@ -447,7 +384,14 @@
       ],
       "utterances": [
         "Just leave me alone. Please!",
-        "What?"
+        "If they ever finish that shield, I'm going to smash Thierry's skull in with it, that's what.",
+        "What?",
+        "I'm fine.  I don't need Thierry, that scurvy skirt-chaser of a husband! So he took off and left me here all alone! I'm sure he's much happier with that scrawny Erudite anyway.  Always talking about math and ballistics and shielding.  Bah!",
+        "That's right! I cooked and cleaned house for Thierry so that he could concentrate on that stupid shield. He doesn't know anything about magic! Not a thing! I'm sure that Erudite put some kind of spell on him.",
+        "If only I didn't miss him.  He moved away to South Qeynos.  I know it's not far away, but I can't bear the thought of seeing him with her! My heart's been broken.  I won't let him step on it, too.",
+        "Some stupid shield.  He never talked to me much about it, but I guess he talked at lot to that Erudite.  Said she was clever.  Said she didn't drink.  I didn't used to drink, either, till he met HER.",
+        "He sure did.  Some Erudite caught his eye and next thing you know, he's working late every night.  Small wonder I come here.  I want to forget that lousy man!",
+        "I feel better after talking to you.  He's out of my life and I don't need him, do I? After all, if he wasn't drawing up plans with that gnome, he was always talking about her.  Why would anyone need a gnome for a magical shield anyway?"
       ]
     },
     {
@@ -463,7 +407,6 @@
         "763.17,-21.05,-7.32"
       ],
       "utterances": [
-        "I have some nice new suits of chain that have stood up very well.  Would you like to see them?",
         "You can never be too careful when it comes to protection.  Here try on one of these."
       ],
       "store_template": "general_goods"
@@ -497,9 +440,6 @@
       "locations": [
         "884.67,-25.43,55.43"
       ],
-      "utterances": [
-        "Fresh supplies every week! Step up and see for yourself."
-      ],
       "store": [
         {
           "gamelink": "\\aITEM 25756897 -1188173387:tin arrow\\/a",
@@ -524,9 +464,6 @@
       "locations": [
         "825.19,-23.56,32.33"
       ],
-      "utterances": [
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
-      ],
       "store_template": "provisioner"
     },
     {
@@ -542,8 +479,7 @@
         "672.32,-20.66,8.73"
       ],
       "utterances": [
-        "Hello there, my fine adventurer.  Just give me that armor right quick and I'll hammer it up good as new!",
-        "Greetings there, have something that you think needs a bit of repair?"
+        "Hello, adventurer.  Looking to get some items repaired after a hard day of dragon slaying?"
       ]
     },
     {
@@ -559,8 +495,8 @@
         "899.91,-25.37,53.7"
       ],
       "utterances": [
-        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
-        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
       ],
       "store_template": "city_merchant"
     },
@@ -576,9 +512,6 @@
       "locations": [
         "769.4,-20.66,-33.61"
       ],
-      "utterances": [
-        "You can never be too careful when it comes to protection.  Here try on one of these."
-      ],
       "store_template": "bartender"
     },
     {
@@ -592,9 +525,6 @@
       "purpose": "Banker",
       "locations": [
         "677.89,-19.43,-49.39"
-      ],
-      "utterances": [
-        "I'll take care of your coin and goods if they need safekeeping."
       ]
     },
     {
@@ -608,9 +538,6 @@
       "purpose": "Guild Registrar",
       "locations": [
         "828.73,-23.55,127.35"
-      ],
-      "utterances": [
-        "Hello, fellow citizen. I'm the Royal Accountant for the city of Qeynos.  When you wish to form a guild within the city, you simply need to bring six members here and pay a nominal fee."
       ]
     },
     {
@@ -632,10 +559,6 @@
       ],
       "locations": [
         "996.36,-25.09,14.26"
-      ],
-      "utterances": [
-        "Please, try your luck. I've been fishing here since I was a small boy, and I still have great luck hooking fish.",
-        "If fishing doesn't interest you, perhaps bait does!"
       ]
     },
     {
@@ -648,9 +571,6 @@
       ],
       "locations": [
         "951.55,-19.55,10.64"
-      ],
-      "utterances": [
-        "Stop right there! No one goes through this door without explicit permission."
       ]
     },
     {
@@ -666,8 +586,7 @@
         "830.28,-23.55,122.41"
       ],
       "utterances": [
-        "All right where is my pen?  How am I supposed to scribe anything without my pen?",
-        "Blast it! Who keeps taking all of the parchment?  "
+        "All right where is my pen?  How am I supposed to scribe anything without my pen?"
       ],
       "store": [
         {
@@ -778,9 +697,6 @@
       ],
       "locations": [
         "687.75,-20.89,3.28"
-      ],
-      "utterances": [
-        "Before you stands the Hall of Steel.  Within these walls is the birthplace of the Steel Warriors, the greatest fighters in all of Norrath."
       ]
     },
     {
@@ -796,7 +712,7 @@
         "683.51,-20.66,26.21"
       ],
       "utterances": [
-        "Never go into battle without a tried and trusted weapon. Take a look at what we have in stock."
+        "I just got a shipment in from the Far Sea's Trading Company.  I don't just show anybody this stuff so, shhhh!  "
       ],
       "store_template": "weaponsmith"
     },
@@ -811,9 +727,6 @@
       "purpose": "Qeynos Guard",
       "locations": [
         "974.4,-25.52,21.99"
-      ],
-      "utterances": [
-        "Hello!  How can I help you? It's my proud duty to help keep this harbor safe!"
       ]
     },
     {
@@ -827,9 +740,6 @@
       "purpose": "Arcane Transcription",
       "locations": [
         "799.46,-23.26,101.43"
-      ],
-      "utterances": [
-        "Greetings Citizen.  Are you in need of my transcription services?"
       ]
     },
     {
@@ -843,9 +753,6 @@
       "purpose": "Shieldsmith",
       "locations": [
         "796.96,-20.75,-46.15"
-      ],
-      "utterances": [
-        "You can never be too careful when it comes to protection.  Here try on one of these."
       ],
       "store_template": "shieldsmith"
     },
@@ -861,11 +768,6 @@
       "locations": [
         "747.34,-20.95,-69.03"
       ],
-      "utterances": [
-        "Coin is no object when gaining protection from your enemies.  What price can be put on your safety? ",
-        "Well, that suit is looking a might worn.  Can I interest you in a new suit of fine armor? ",
-        "I have some nice new suits of chain that have stood up very well.  Would you like to see them?"
-      ],
       "store_template": "general_goods"
     },
     {
@@ -879,9 +781,6 @@
       "purpose": "Bartender",
       "locations": [
         "923.18,-25.49,44.05"
-      ],
-      "utterances": [
-        "Have I got a bargain for you!  Come now, step up, I don't bite.  Check my goods and see if we can't make a whale of a deal! Ha ha ha ha ...Whale of a deal, get it?"
       ],
       "store_template": "bartender"
     },
@@ -898,7 +797,28 @@
         "807.62,-13.93,44.39"
       ],
       "utterances": [
-        "What do you want?"
+        "It's all about the profit margins.",
+        "What do you want?",
+        "Lots of people speak with me.  Did Sprock tell you why you might find me an interesting conversationalist?",
+        "Ah...a trader, eh?  That's rich! Let me get a look at you.  Yes...yes...I can see why he sent you.  How much are you involved in the politics of this town?",
+        "Everything! Grease a palm there, pay off someone here...sounds like business, but it's really all politics.  You gotta pay the right piper.  So, you deep into things in Qeynos or what?",
+        "Then you don't come with something worth trading.  See you around when you've got something of value.",
+        "My time, for one thing.  Listen, if you want to work the game, you gotta show me why I need you around.  Plenty of folks want to get in on the trade.  You gotta know the folks around town, get them talking.",
+        "You can prove it to me by chatting up the locals.  Find out whether there's really going to be some kind of shelter around Qeynos.  You get the information, then you have something worth trading to me.  You don't get the information, then you find another line of work.  Deal?",
+        "This isn't a stroll around the Harbor.  Keep your eyes peeled and talk to everyone.  Start in the pub downstairs and work your way around the Harbor.  Then come back when you think you have something worth trading to me.",
+        "Yeah? We'll see.",
+        "Trading's good business, ain't it?",
+        "So what? You want a reward for that?  I talk with folks all the time.",
+        "Calm down, pal.  You didn't sign up to be coddled.  You want to make changes in how these folks operate.  If your skin's too thin to handle it, maybe you should quit.",
+        "Then tell me what you've heard.  What's this shelter they're making?",
+        "A magical shield?  More like a magical waste of coin! \"Now you see your hard-earned coppers...and now you don't!\" What won't that little girl think of next? We wouldn't stand for this kind of waste in Freeport.",
+        "I like you, pal.  You're direct and honest.  You've got a bright future ahead for you in Freeport.  That is...if you have the guts to continue \"trading\" for us.",
+        "Ha! I knew you were right for the job! Listen up: all this information you got from the locals boils down to Qeynos making some kind of shield, right?  Freeport's not on the offense, so what they're protecting is a little vague, isn't it?",
+        "We need details.  Even if it's a magical device, it has to have a physical presence and that's what we need to target.",
+        "Sure, sure...right before that truth potion wore off, eh? I don't trust 'em, pal.  And neither should you.",
+        "The first rule in the business is that you confirm everything twice, three times if possible.  This time, we need to find out from the Concordium when they'll be working.  They'll know when and where extra guards are being scheduled.  That's how we'll know where this thing really is, and when it'll be there.",
+        "No, but they yap their mouths off when they're bored, especially on the night shift.  Go around to several places where you see some of those Augurers hanging around, wait a while and listen.  But don't let them see you, whatever you do.  Take this voice modulator. It's a gnomish device that will let you listen in without getting caught. The Concordium will have your head if they suspect you're onto them.",
+        "Good luck, pal.  Folks'll talk if you keep coming back here.  Our friend Towser in Elddar Grove will take it from here with you.  He was supposed to be our inside contact, until he lost that contest.  But you can trust him.  See you around."
       ]
     },
     {
@@ -914,11 +834,57 @@
         "794.67,-23.26,107.55"
       ],
       "utterances": [
-        "Ah, a student of the arcane.  Is there something I can help you find?",
-        "Blast it! Who keeps taking all of the parchment?  ",
-        "All right where is my pen?  How am I supposed to scribe anything without my pen?"
+        "Be careful, it's best not to read the scrolls.  If you want to know what they are, just ask me."
       ],
       "store_template": "alchemist"
+    },
+    {
+      "name": "Sprockfuddle",
+      "utterances": [
+        "Stupid taxes!",
+        "There's a better life out there.  A much better life.",
+        "Admiring the fine stock of goods, are you?",
+        "Sometimes.  It pays to have connections.  I do quite a bit of trading and supplying.  Not just goods, but other things...if you take my meaning.",
+        "You're here because you want a good deal on things that you might not otherwise come by, right?  Same with me.  I might pick up a tidbit of information that's every bit as valuable as the next thing.",
+        "Spying's for amateurs! No, I'm not a spy; I'm more than that.  A trader, a procurer of rare objects, an inventor -- that's me! But even someone with my skills can always use a hand now and then.  Interested in learning how you can help?",
+        "That's the spirit! Do you want to live the good life by making simple trades -- commodities, information or items?  It's easy; anyone can do it.  Your pockets fill with coin -- and none of it's taxable since it's under the table.",
+        "There's the oppressive taxes that Queen Antonia puts on the folks who live here.  You never see her lift a hand to help the poor, do you?  That's why my job's so important.  I provide a few cheap trinkets to folks who starve themselves putting chickens in the pots of every Qeynosian noble.",
+        "She has everyone mark up the goods and taxes both buyer and seller.  Sickening, I tell you! Now, I might add a premium to some things, but I'm honest about it.  Folks from Freeport are honest, whatever else you might call 'em.",
+        "You'll find Freeport's an honest place.  Someone doesn't like you, they'll tell you to your face.  None of this secretive mumbity-jumbity stuff.  You seem the honest sort, eager to do what's right by yourself. You would do much better in Freeport, wouldn't you?",
+        "Tell you what: you need time to think and that's natural.  Go see a pal of mine on the third floor of the pub here.  He'll explain things a bit plainer than I can...and I need to get back to work."
+      ]
+    },
+    {
+      "name": "Alfred Ironforge",
+      "utterances": [
+        "I'm glad you have come back for more training, it looks like you've learned quite a bit in a very short time.  I can certify you in your chosen trade class. Before I begin your paperwork I'll need your name.",
+        "Best of luck!",
+        "You're not skilled enough to receive certification in a tradesman class.  Practice your skills, and return to me after you gain more experience."
+      ]
+    },
+    {
+      "name": "Nathan Ironforge",
+      "utterances": [
+        "Have you been inside the castle? I want to go there someday!",
+        "I want to join the Qeynos Guard when I grow up!"
+      ]
+    },
+    {
+      "name": "Mariner Whistlethorn",
+      "utterances": [
+        "Get out of my face, scum!  You don't need to talk to me, buy your stuff and move on.",
+        "If you want a friend, buy a pet.  I'm not here to chit-chat with you adventurer.",
+        "I may be a hired hand of the Far Sea Trading Company, but I take pride in my work.",
+        "What do you think you're looking at?"
+      ]
+    },
+    {
+      "name": "Mariner Kajiz",
+      "utterances": [
+        "This ain't a show stranger, buy your goods and shove-off!",
+        "I may be a hired hand of the Far Sea Trading Company, but I take pride in my work.",
+        "Get out of my face, scum!  You don't need to talk to me, buy your stuff and move on."
+      ]
     }
   ]
 }

@@ -38,8 +38,6 @@
         "13.14,0.0,7.77"
       ],
       "utterances": [
-        "You show interest in the crafting trade, good.  Freeport can always use talented artisans within the walls of our great city.  I can help you get started and offer you some of the basic recipes at no charge.  Would you be interested?",
-        "There, you now have the basic recipes and the knowledge to begin crafting.  Everything else you need to get yourself started can be found right here.",
         "You have learned everything I have to teach at the moment.  You are free to use our crafting facilities to hone your skills."
       ],
       "store_template": "crafting_trainer"
@@ -55,9 +53,6 @@
       "purpose": "Dark Elf Mentor",
       "locations": [
         "-50.6,-4.66,-63.53"
-      ],
-      "utterances": [
-        "Come back when you are finished with the task I gave you."
       ]
     },
     {
@@ -73,7 +68,7 @@
         "16.96,0.0,-2.14"
       ],
       "utterances": [
-        "The only thing separating you from death in this city are your wits.  I wouldn't call that adequate protection."
+        "We have a nice selection of previously owned weapons for those with modest funds."
       ],
       "store_template": "weaponsmith"
     },
@@ -88,10 +83,6 @@
       "purpose": "Mender",
       "locations": [
         "24.62,-0.01,-16.27"
-      ],
-      "utterances": [
-        "I can emphatically say repairing weapons is much more reliable than buying new ones.  Would I lie?",
-        "You need help fixing that pile of junk?  Well it's going to cost you."
       ]
     },
     {
@@ -105,13 +96,6 @@
       "locations": [
         "2.06,0.0,-28.79",
         "-33.56,-2.74,-38.41"
-      ],
-      "utterances": [
-        "The Seafuries are just a bunch of ruffians that pirate ships and trade on the black market.",
-        "The Dismal Rage is such a group of pure evil, that how they be trusted to heal anyone.",
-        "How is it any different to overprice your goods than to steal a few coin from an unsuspecting customer? Such are the ways of the Coalition of Tradefolke. Be careful if you ever deal with them.",
-        "When it comes to arcane knowledge, no one knows more about it than Arcane Scientists.",
-        "Mindless brutes that feed on the weak make up the ranks of the Freeport Militia."
       ]
     },
     {
@@ -171,9 +155,9 @@
       "utterances": [
         "Hello <player name>, I am the Innkeeper for this district. We have received word of your arrival and have a room prepared for you.  Would you like to know more about housing?",
         "What would you like to know?",
-        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
-        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
-        "Hello there <player name>, what can I help you with?"
+        "Hello there <player name>, what can I help you with?",
+        "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor are you?",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
       ],
       "store": [
         {
@@ -214,17 +198,7 @@
         "32.39,1.0,20.29"
       ],
       "utterances": [
-        "Don't expect anything from me, young one.  This place is but a mere rest stop before I move on.",
-        "Neriak is the place of my birth, and it shall be the place of my death.  While you remain here in the care of the humans, I will be home. ",
-        "Yes, Neriak was once lost to us, but not all of us chose to debase ourselves in a contemptible union with the humans.  Those of us who care about our heritage, those of us who are truly Teir`Dal, are searching for a way to return to the grace and legacy of our people.  It would seem that such a way has already been found...",
-        "Not entirely. The loyalists to the cause believe that they have uncovered what was once an entrance to the Foreign Quarter.  However, as that portion of the city was destroyed in the siege, we may have some time left before we can find our home.",
-        "During the age of Turmoil, Neriak was besieged by Leatherfoot Raiders. The forces of Neriak were thin, as Faydwer had deployed most of the Indigo Brotherhood. So we were unsuspecting and unprepared for such an attack. ",
-        "In a way, yes, but the city also fell to the greedy ambitions of a warlord king who neglected the needs of his people and soiled the legacy of his great heritage in pursuit of conquest over the refuse and swine that slithers upon the surface of this world.",
-        "If the city has been shut out from the rest of the world and returned to its proper place of dominion in the Underfoot, then there are no longer any wasteful attempts at conquering this abominable haven of refuse, now are there?",
-        "No surface campaign has proved fruitful.  The Teir`Dal are the ruling force in the Underfoot.  No subterranean race rivals our power and none can withstand our dominion.  Besides, ownership of the surface world would be tantamount to owning a dung hill festering with maggots and flies.",
-        "I long for the day when I return home.  While I am still here, though, I choose to educate curiosity-seekers.  Would you like to know anything else?",
-        "The loyalists are all that is left of the Teir`Dal; all the others are traitorous whelps who only wear our dark skin and fair hair.  The loyalists are dedicated to the cause of being restored to our nation.",
-        "I was very young when the siege began, but I saw the entrance collapsing as I fought in the forest with the other dragoons.  It became silent as the rumbling destruction came to pass.  All fighting ceased; everyone was in awe of the unexpected event.  I can't be certain of what happened, exactly.  All that I know is that a great force collapsed the cavern."
+        "Don't expect anything from me, young one.  This place is but a mere rest stop before I move on."
       ]
     },
     {
@@ -264,7 +238,7 @@
         "-21.24,0.0,14.77"
       ],
       "utterances": [
-        "Be careful what you touch in here. You're liable to kill us all!"
+        "Let me guess, you're looking for poison, right?"
       ],
       "store_template": "alchemist"
     },
@@ -354,9 +328,6 @@
       ],
       "locations": [
         "-2.54,0.0,-20.59"
-      ],
-      "utterances": [
-        "If you couldn't tell, I'm enjoying a drink. Now that your curiousity has been sated, perhaps you'll leave me alone?"
       ]
     },
     {
@@ -369,9 +340,6 @@
       ],
       "locations": [
         "58.08,-1.02,1.34"
-      ],
-      "utterances": [
-        "How dare you barge into my house! Who do you think you are, fool?"
       ]
     },
     {
@@ -387,7 +355,7 @@
         "30.86,3.03,34.98"
       ],
       "utterances": [
-        "Curses have been a big seller.  Is there anyone in particular you're looking to torment?"
+        "So are you planning to master your art at the academy?  We keep all of the required supplies right here!"
       ],
       "store": [
         {
@@ -485,8 +453,6 @@
         "21.09,-0.01,-11.3"
       ],
       "utterances": [
-        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
-        "The stuff's over there.  Just let me know if you find anything you like.",
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
       ],
       "store_template": "shieldsmith"
@@ -501,10 +467,6 @@
       ],
       "locations": [
         "-1.39,0.0,-19.2"
-      ],
-      "utterances": [
-        "Hmm, this bread tastes a bit better then normal, almost fresh.",
-        "Wait.. Argh...."
       ]
     },
     {
@@ -520,8 +482,7 @@
         "-18.03,0.0,-7.51"
       ],
       "utterances": [
-        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
-        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+        "The stuff's over there.  Just let me know if you find anything you like."
       ],
       "store_template": "tailor"
     },
@@ -554,6 +515,7 @@
         "-9.77,0.0,19.83"
       ],
       "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
         "In spite of the cost of living, it's still quite a popular item."
       ],
       "store_template": "bowyer"
@@ -568,13 +530,6 @@
       ],
       "locations": [
         "2.01,0.0,-28.76"
-      ],
-      "utterances": [
-        "Those Seafury Buccaneers wouldn't know what a fair deal was if it hit them on the head.",
-        "The withering hands of the Dismal Rage priests look more like hands of death than hands that can heal people.",
-        "There's nothing that the Coalition of Tradesfolke can't make a profit out of.",
-        "The arcane scientists hone their minds through the study of arcane arts, but they will never become as cunning as a skilled trader.",
-        "Although they serve to protect the city, the individuals of the Freeport Militia are only loyal to their own self interest and nothing more."
       ]
     },
     {
@@ -587,9 +542,6 @@
       ],
       "locations": [
         "15.85,1.5,12.97"
-      ],
-      "utterances": [
-        "Do not waste my precious time by begging for attention."
       ]
     },
     {
@@ -602,9 +554,25 @@
       ],
       "locations": [
         "-30.69,4.0,45.65"
-      ],
+      ]
+    },
+    {
+      "name": "Vela M`Rev",
       "utterances": [
-        "That no-good, two-timing, imp ... I'll teach him to stare at that trollop! ...What? What do you want, you babbling fool?"
+        "I refuse to be told what to do by a group of simple-minded buffoons!"
+      ]
+    },
+    {
+      "name": "Dimal B`Orin",
+      "utterances": [
+        "Avert your eyes as I pass, commoner.",
+        "I'm sorry, I haven't any coin for beggars and vagabonds."
+      ]
+    },
+    {
+      "name": "V`Tun",
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
       ]
     }
   ]

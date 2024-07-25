@@ -21,15 +21,6 @@
   ],
   "npcs": [
     {
-      "name": "The Bonewatcher",
-      "faction_changes": [
-        {
-          "name": "The Academy of Arcane Science",
-          "value": -100
-        }
-      ]
-    },
-    {
       "name": "a boneyard watcher",
       "purpose": "Academy of Arcane Sciences",
       "level": 8,
@@ -74,10 +65,6 @@
       ],
       "drop_coin_min": 4,
       "drop_coin_max": 31
-    },
-    {
-      "name": "a contagious rat",
-      "level": 4
     },
     {
       "name": "a crumbling skeleton",
@@ -201,9 +188,6 @@
       ]
     },
     {
-      "name": "an Ethernere caretaker"
-    },
-    {
       "name": "an Ethernere defender",
       "purpose": "Academy of Arcane Sciences",
       "level": 11,
@@ -310,12 +294,6 @@
       "locations": [
         "88.9,-1.68,25.94"
       ]
-    },
-    {
-      "name": "Guard L'Sek"
-    },
-    {
-      "name": "Guard T'Crit"
     },
     {
       "name": "Hangman San'toth",
@@ -682,15 +660,6 @@
           "chest": true
         }
       ],
-      "faction_changes": [
-        {
-          "name": "The Spirits of Marr",
-          "value": -100
-        }
-      ]
-    },
-    {
-      "name": "Sir Penan",
       "faction_changes": [
         {
           "name": "The Spirits of Marr",

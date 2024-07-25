@@ -63,7 +63,7 @@
                     },
                     {
                       "command": "goto_page",
-                      "page": "1"
+                      "page": 1
                     }
                   ]
                 },
@@ -678,7 +678,8 @@
         "Then make haste to the old mill on Windstalker Pond.  Seek out Riason Hanagom ... and kill him.  He is one of their leaders, and a traitor against Qeynos.  After you have finished the deed, return to me and give me any further information you have discovered.  This is urgent.",
         "This letter cannot be read.  It must've been enspelled with a cipher.  Take it to the tower, and find a magi who can unlock the code.  We need to know what this says before we plan our next move.",
         "I've heard he has talent.  Hmm ... interesting.  There's a plan to join forces with something called the Dark Coven -- a cabal of renegade priests and magis.  The Bloodsabers have sent a courier to meet them.  Shall we foil this plan?",
-        "You must stop that courier. A union between the Bloodsabers and the Dark Coven would be terrible for our fair city. Take the south road, and hurry. I will speak with Wesaelen, and see if he has uncovered more information."
+        "You must stop that courier. A union between the Bloodsabers and the Dark Coven would be terrible for our fair city. Take the south road, and hurry. I will speak with Wesaelen, and see if he has uncovered more information.",
+        "Go then.  You'll find the Keep on the north side of the ridge, just this side of the Tower of the Oracles. It's one of the few keeps in pristine condition."
       ]
     },
     {
@@ -2393,7 +2394,9 @@
         "Your eyes are so pretty.",
         "Seek death and it finds you.",
         "Your blood calls to me.",
-        "Final death comes at last."
+        "Final death comes at last.",
+        "Rest in peace.",
+        "You've shaken the dust from my bones."
       ],
       "drops": [
         {
@@ -3422,7 +3425,8 @@
         "Easy now!  Don't go dropping it all over! I'll just have to pick it up later!",
         "Har har har!  Don't tell me that!  I have to do this all day long!  The forge is a cruel mistress, but she rewards well!",
         "I've got some coin for ya, but how about I enlist you to help with another task?  What's that? Yes? Great!",
-        "The captain of the guards requested I forge a rather special sword, and I'm having a slight problem finding the materials I need.  That's a dandy little book you've got there; I'll just write down what I need."
+        "The captain of the guards requested I forge a rather special sword, and I'm having a slight problem finding the materials I need.  That's a dandy little book you've got there; I'll just write down what I need.",
+        "Ahh, too much to do here!  There's no way I can get it all done!"
       ]
     },
     {
@@ -3807,7 +3811,9 @@
       ],
       "utterances": [
         "Hello!  As you journey into the city, keep in mind that you may not enter the citadel within North Qeynos at this time.  You'll find better adventuring elsewhere.",
-        "Outside the gates of Qeynos, Antonica is riddled with vermin. Serve Qeynos by destroying these infectious beasts."
+        "Outside the gates of Qeynos, Antonica is riddled with vermin. Serve Qeynos by destroying these infectious beasts.",
+        "Rid Antonica of the rats, snakes and beetles that plague Qeynos.  Dispatch of no less than ten of each and we shall reward your service.",
+        "You served Qeynos well and shall be rewarded."
       ]
     },
     {
@@ -6116,7 +6122,8 @@
         "-2135.08,-46.13,395.37"
       ],
       "utterances": [
-        "Hah!  We've so many adventurers out these days that I think the gnolls decided to push back a bit.  We heard that they're plotting inside Blackburrow.  Think you could help us out?"
+        "Hah!  We've so many adventurers out these days that I think the gnolls decided to push back a bit.  We heard that they're plotting inside Blackburrow.  Think you could help us out?",
+        "Hoy! You look right strong, care to do a job for the guard?"
       ]
     },
     {
@@ -7121,6 +7128,12 @@
           "gamelink": "\\aITEM -742202141 1746681072:Lesser Blood of the Wolf\\/a",
           "chest": false
         }
+      ]
+    },
+    {
+      "name": "a griffon tamer",
+      "utterances": [
+        "Where would you like to go?"
       ]
     }
   ],

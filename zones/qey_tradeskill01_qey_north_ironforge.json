@@ -9,7 +9,16 @@
   "npcs": [
     {
       "name": "Hyacinth Hagglefoot",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
       "purpose": "Broker",
+      "locations": [
+        "9.80,-0.48,-9.91"
+      ],
       "utterances": [
         "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
         "Welcome! What can I help you with?"
@@ -17,6 +26,15 @@
     },
     {
       "name": "Executor Adept Sal`ynelle",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-0.98,-0.48,-9.40"
+      ],
       "utterances": [
         "I'm sorry but I'm unable to assign you a writ at this time.  Until the city is able to adapt to the new recipes we have to take inventory and cannot accept any new goods."
       ]

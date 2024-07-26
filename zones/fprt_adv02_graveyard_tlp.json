@@ -141,7 +141,34 @@
         "Well done! I'm sure it was difficult to convince Varacus to part with it. But this is indeed the Staff of Ethernere.",
         "Do you see these runes inscribed upon it? They are written in the language of the dead. When spoken to the living, this language sounds like mere whispers, but to the undead it sounds as clear as how you and I are speaking now.",
         "Confront the local grave robbers and determine if one of them has obtained the Book of the Dead. The grave robbers tend to work at night, so begin your search then.",
-        "Excellent. Return to me when you have found it."
+        "Excellent. Return to me when you have found it.",
+        "Have you found the Book of the Dead?",
+        "Excellent work, <player name>! I must say, you are turning out to be quite a useful aide. You've done almost as well as if I had done this task myself! Now quickly, hand me the book.",
+        "Look at how the parchment pages you retrieved are binding themselves inside the Book of the Dead! It truly is a mysterious and powerful tome. I will use the Staff of Ethernere during the ritual to focus the power of the spell we cast.",
+        "I will tell you the ancient words of binding. You chant them, and I will repeat them after you. Only by working together can we complete the spell and save Freeport. Understood?",
+        "I must read the words from the pages of parchment that are now within the Book of the Dead. They are difficult to decipher, even with my skills. Give me a moment to study them.",
+        "I've managed to translate the words from the ancient pages you've attained for me. Shall we begin?",
+        "The first words are \"Graddah, Shollamak, Hakah.\" Ready?",
+        "Let the ritual begin!",
+        "Graddah, Shollamak, Hakah!",
+        "Something is wrong. The incantation will not take effect!",
+        "Are you certain that all of the tombs of the Knights of Truth were sealed? If even one of them remains opened, it might prevent the binding ward from taking hold.",
+        "<player name>, you must go to the tombs at once and verify that each seal is intact. This is the only way we can complete the ritual and renew the ward upon the Graveyard to keep the undead at bay. Hurry! The fate of Freeport is in your hands!",
+        "The second set of words are, \"Golotu, Quandar, Gunoo.\"  Ready?",
+        "Proceed!",
+        "Golotu, Quandar, Gunoo!",
+        "The final set of words are the most important. \"Waktana, Shollamak, Quandar, Hakah.\"  Here we go!",
+        "Recite the words, <player name>.",
+        "Waktana, Shollamak, Quandar, Hakah!",
+        "Exellent job, <player name>! I think we've done it! I must admit, I doubt even I could have accomplished this task without your help.",
+        "The enemies of the Overlord are thwarted, and the Knights of Truth shall remain bound to this graveyard for the rest of time.",
+        "Your reward is well deserved. You have my thanks. Your name will be well known within the Academy of Arcane Science.",
+        "Your assistance to the Academy of Arcane Science and Freeport has been invaluable. But now more help is needed from you. Freeport is not out of danger! You must take the knowledge you have learned here and travel to the Ruins. Are you willing?",
+        "An outlying district of Freeport known as the Ruins is under attack. You must make your way there and report to Captain Arellius of the Freeport Militia. She will guide your efforts to help save our city.",
+        "Make your way to the Ruins by traveling back to the docks of your home district. Use the mariner's bell to summon transportation outside of Freeport proper and ask to be taken to the Ruins. You should find Captain Arellius nearby. Hurry, hero of Freeport, there is no time to waste!",
+        "Eager, aren't we? Well, I know some thug named Enforcer Kurdek in the Sprawl needs help, and a fellow named Inquisitor Thorson in the Sunken City could use a hand.",
+        "Enforcer Kurdek on the Sprawl could use a hand keeping the local gangs in line. To journey to the Sprawl, use the mariner's bell on the docks of your home district to travel to Big Bend. Follow the halls north, then take the west passageway to the west gate.",
+        "Inquisitor Thorson in the Sunken City needs help investigating ancient mysteries that threaten Freeport's safety. To travel to the Sunken City, use the mariner's bell on the docks of your home district to travel outside Freeport and choose Sunken City as your destination."
       ]
     },
     {
@@ -210,7 +237,9 @@
         "Freeport has need of your services, will you fulfill your duty?",
         "Ancient spirits have recently awoken, their graves disturbed by the graverobbers in this area.  The graverobbers have taken ancient holy relics from them and they wander in search of that which was taken.",
         "You must recover these holy relics and return them to the graves of the awakened spirits for them to find rest again.",
-        "There is no escape for you now!"
+        "There is no escape for you now!",
+        "Were you successful in your mission?",
+        "Excellent, thank you for your service to Freeport and the Keepers of Ethernere!  Please, take this for your trouble."
       ],
       "drop_coin_min": 10,
       "drop_coin_max": 10,
@@ -344,12 +373,20 @@
       "name": "a novice graverobber",
       "level": 7,
       "locations": [
-        "-50.00,-11.30,-15.14"
+        "-50.00,-11.30,-15.14",
+        "-51.98,-11.58,-20.44",
+        "-67.50,-12.25,17.58"
       ],
       "utterances": [
         "Not very nice of you to be all sneaky.",
         "Shifty thingsies you are.",
-        "Take my secrets to my grave, I shall."
+        "Take my secrets to my grave, I shall.",
+        "That wasn't very nice to do, friend.",
+        "Greetings friend, how would you like to die?",
+        "Should of escaped while I had the chance.",
+        "Carve your tonguesies out, I will!",
+        "No more snooping for you.",
+        "Overhear my plansies. Gore you I will!"
       ],
       "drops": [
         {
@@ -743,7 +780,9 @@
         "-44.58,-9.90,46.17",
         "-61.19,-12.32,-82.23",
         "-12.97,-8.30,-67.35",
-        "-48.86,-10.78,82.78"
+        "-48.86,-10.78,82.78",
+        "-29.45,-9.66,76.04",
+        "-42.81,-10.96,62.97"
       ],
       "utterances": [
         "Brains! Its what's for dinner.",
@@ -755,6 +794,10 @@
         {
           "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2098664565 110889718:Advanced Artisan Volume 6\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 1399953986 1780527766:black spider silk\\/a",
@@ -885,10 +928,13 @@
         "16.58,-5.92,6.16",
         "44.16,-3.02,-109.71",
         "33.06,-2.88,-80.13",
-        "22.71,-2.88,-111.66"
+        "22.71,-2.88,-111.66",
+        "44.93,-3.36,84.48"
       ],
       "utterances": [
-        "Your blood calls to me."
+        "Your blood calls to me.",
+        "Your eyes are so pretty.",
+        "Rest in peace."
       ],
       "drops": [
         {
@@ -896,7 +942,7 @@
           "chest": false
         }
       ],
-      "drop_coin_min": 5,
+      "drop_coin_min": 3,
       "drop_coin_max": 5,
       "faction_changes": [
         {
@@ -1122,6 +1168,9 @@
     },
     {
       "gamelink": "\\aITEM -672434816 -519027784:shattered dark elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1306389734 1869011176:shattered froglok bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM -1526825307 2113563307:shattered human bone fragment\\/a",

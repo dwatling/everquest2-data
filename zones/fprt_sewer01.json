@@ -9,18 +9,18 @@
   ],
   "connections": [
     {
-      "key": "fprt_sewer02"
-    },
-    {
-      "key": "fprt_sewer_epic04_quest_darkblade_epic"
-    },
-    {
       "key": "fprt_hood02",
       "location": "0.26,-0.37,0.28"
     },
     {
       "key": "fprt_hood05",
       "location": "-61.78,0.10,-3.81"
+    },
+    {
+      "key": "fprt_sewer02"
+    },
+    {
+      "key": "fprt_sewer_epic04_quest_darkblade_epic"
     }
   ],
   "npcs": [
@@ -38,7 +38,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "gamelink": "\\aITEM 705602020 -966949899:cracked iron stein\\/a",
           "chest": false
         },
         {
@@ -46,7 +46,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 705602020 -966949899:cracked iron stein\\/a",
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
           "chest": false
         }
       ],
@@ -238,11 +238,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
+          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
+          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
           "chest": false
         }
       ],
@@ -269,11 +269,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
       ],
@@ -316,11 +316,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 284686259 1348802406:Provoke III (Adept)\\/a",
+          "gamelink": "\\aITEM -1557061661 -130709509:Outlaw's Spear\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -1557061661 -130709509:Outlaw's Spear\\/a",
+          "gamelink": "\\aITEM 284686259 1348802406:Provoke III (Adept)\\/a",
           "chest": true
         }
       ]
@@ -342,6 +342,48 @@
           "gamelink": "\\aITEM -727464254 1888290491:copper hoop\\/a",
           "chest": true
         }
+      ]
+    },
+    {
+      "name": "Marius Darkblade",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "level": 12,
+      "locations": [
+        "-123,1,152"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1638835026 413298385:Flash of Steel III (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1461102860 1061991594:Splintering Elm Cudgel\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1553018005 -24868568:tin spear\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 229,
+      "drop_coin_max": 229
+    },
+    {
+      "name": "Mikela Osa",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "Weaponsmith",
+      "locations": [
+        "-28,1,152"
       ]
     },
     {
@@ -399,48 +441,6 @@
             }
           ]
         }
-      ]
-    },
-    {
-      "name": "Marius Darkblade",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "level": 12,
-      "locations": [
-        "-123,1,152"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1638835026 413298385:Flash of Steel III (Adept)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1553018005 -24868568:tin spear\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1461102860 1061991594:Splintering Elm Cudgel\\/a",
-          "chest": true
-        }
-      ],
-      "drop_coin_min": 229,
-      "drop_coin_max": 229
-    },
-    {
-      "name": "Mikela Osa",
-      "race": [
-        "iksar"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "Weaponsmith",
-      "locations": [
-        "-28,1,152"
       ]
     },
     {
@@ -591,11 +591,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1955109996 138277739:a vial of viscid slime\\/a",
+          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
+          "gamelink": "\\aITEM -1955109996 138277739:a vial of viscid slime\\/a",
           "chest": false
         }
       ],

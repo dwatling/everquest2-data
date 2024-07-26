@@ -45,11 +45,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
           "chest": false
         }
       ],
@@ -144,16 +144,16 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1136651119 1578780024:intricately carved acorn\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -201763999 522300914:Pledge of Armament (Adept)\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
         }
       ]
     },
@@ -175,7 +175,11 @@
       "name": "a scathe bishop",
       "drops": [
         {
-          "gamelink": "\\aITEM -663082198 781057701:plain crystal shard\\/a",
+          "gamelink": "\\aITEM -2129749343 -119286990:advanced craftsman volume 15\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
           "chest": false
         },
         {
@@ -183,12 +187,8 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "gamelink": "\\aITEM -663082198 781057701:plain crystal shard\\/a",
           "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2129749343 -119286990:advanced craftsman volume 15\\/a",
-          "chest": true
         }
       ],
       "drop_coin_min": 16,
@@ -198,15 +198,15 @@
       "name": "a scathe harbinger",
       "drops": [
         {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         }
       ],

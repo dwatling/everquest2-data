@@ -63,6 +63,12 @@
       ]
     },
     {
+      "name": "Barrik",
+      "utterances": [
+        "Hello there!  Will you be needin' a new sword today?  I forge the best blades this side of the Tranquil Sea... Bested only by the Ironforge smiths. I've no work for you today, perhaps come back another day."
+      ]
+    },
+    {
       "name": "Bermo",
       "race": [
         "human"
@@ -397,12 +403,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1302044914 -23402794:a fish meat\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -2054869102 32624367:Advanced Artisan Volume 2\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1302044914 -23402794:a fish meat\\/a",
+          "chest": false
         }
       ]
     },
@@ -521,12 +527,6 @@
       ],
       "locations": [
         "724.03,-20.46,266.83"
-      ]
-    },
-    {
-      "name": "Barrik",
-      "utterances": [
-        "Hello there!  Will you be needin' a new sword today?  I forge the best blades this side of the Tranquil Sea... Bested only by the Ironforge smiths. I've no work for you today, perhaps come back another day."
       ]
     }
   ]

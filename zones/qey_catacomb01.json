@@ -9,10 +9,7 @@
   ],
   "connections": [
     {
-      "key": "qeynos_combined01"
-    },
-    {
-      "key": "qeynos_combined02"
+      "key": "qey_adv03_caves"
     },
     {
       "key": "qey_catacomb02"
@@ -24,7 +21,10 @@
       "key": "qey_catacomb_epic01_scout"
     },
     {
-      "key": "qey_adv03_caves"
+      "key": "qeynos_combined01"
+    },
+    {
+      "key": "qeynos_combined02"
     }
   ],
   "npcs": [
@@ -282,11 +282,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1569006869 1387402648:a venom gland\\/a",
+          "gamelink": "\\aITEM 1560357389 1897618518:an insect antenna\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1560357389 1897618518:an insect antenna\\/a",
+          "gamelink": "\\aITEM 1569006869 1387402648:a venom gland\\/a",
           "chest": false
         }
       ]
@@ -374,11 +374,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
           "chest": false
         },
         {
@@ -529,20 +529,8 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1253182384 872654418:a tarnished scepter\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -660008099 412037475:Bloody Reminder (Adept)\\/a",
           "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
-          "chest": false
         },
         {
           "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
@@ -555,6 +543,18 @@
         {
           "gamelink": "\\aITEM 2096053587 1975965991:intricate metal bowl\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1253182384 872654418:a tarnished scepter\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 4,
@@ -615,11 +615,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
+          "gamelink": "\\aITEM -1819652885 1717248412:an insect antenna\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1819652885 1717248412:an insect antenna\\/a",
+          "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
           "chest": false
         }
       ]
@@ -682,15 +682,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
           "chest": false
         }
       ],

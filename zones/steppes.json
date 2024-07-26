@@ -5,13 +5,22 @@
   "levels": "20-30",
   "connections": [
     {
+      "key": "adv02_dun_sundered_foreshadow2"
+    },
+    {
+      "key": "adv02_dun_sundered_splitpaw_playground"
+    },
+    {
       "key": "antonica"
     },
     {
-      "key": "varsoon"
+      "key": "exile_city"
     },
     {
-      "key": "varsoon_fabled"
+      "key": "exp03_rgn_butcherblock"
+    },
+    {
+      "key": "obelisk_of_lostsouls"
     },
     {
       "key": "steppes_epic01_cove"
@@ -23,15 +32,6 @@
       "key": "steppes_epic01_cove_raid"
     },
     {
-      "key": "steppes_mini01_solo"
-    },
-    {
-      "key": "steppes_mini01_undead_solo"
-    },
-    {
-      "key": "steppes_mini01_undead"
-    },
-    {
       "key": "steppes_mini01"
     },
     {
@@ -41,19 +41,19 @@
       "key": "steppes_mini01_pirate_solo"
     },
     {
-      "key": "adv02_dun_sundered_foreshadow2"
+      "key": "steppes_mini01_solo"
     },
     {
-      "key": "adv02_dun_sundered_splitpaw_playground"
+      "key": "steppes_mini01_undead"
     },
     {
-      "key": "obelisk_of_lostsouls"
+      "key": "steppes_mini01_undead_solo"
     },
     {
-      "key": "exile_city"
+      "key": "varsoon"
     },
     {
-      "key": "exp03_rgn_butcherblock"
+      "key": "varsoon_fabled"
     }
   ],
   "npcs": [
@@ -98,19 +98,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1460933134 -1511590904:a strand of golden hair\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -151171484 1525557672:a vocal nerve\\/a",
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "gamelink": "\\aITEM -1460933134 -1511590904:a strand of golden hair\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -151171484 1525557672:a vocal nerve\\/a",
           "chest": false
         }
       ],
@@ -878,12 +878,12 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -289215874 -2114663629:The Treaty for Treasure\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -289215874 -2114663629:The Treaty for Treasure\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 81,
@@ -906,11 +906,11 @@
       "name": "a Dustpaw guard",
       "drops": [
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
@@ -1131,19 +1131,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -953055295 -1080640652:a giants beard\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -289215874 -2114663629:The Treaty for Treasure\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM -1729241156 -2110506842:a giant finger\\/a",
           "chest": false
         },
         {
@@ -1151,7 +1139,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -953055295 -1080640652:a giants beard\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 31755782 1098695081:a giant tooth\\/a",
           "chest": false
         },
         {
@@ -1163,12 +1159,16 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1729241156 -2110506842:a giant finger\\/a",
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 31755782 1098695081:a giant tooth\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -289215874 -2114663629:The Treaty for Treasure\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 86,
@@ -1195,7 +1195,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "gamelink": "\\aITEM -430136575 -2121467061:a giant ear\\/a",
           "chest": false
         },
         {
@@ -1203,11 +1203,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -430136575 -2121467061:a giant ear\\/a",
+          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
           "chest": false
         }
       ],
@@ -1273,11 +1273,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
           "chest": false
         },
         {
@@ -1285,7 +1281,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -1818,11 +1818,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1849005594 -1995514244:a bird skull\\/a",
+          "gamelink": "\\aITEM 509310624 -1924355139:a bird beak\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 509310624 -1924355139:a bird beak\\/a",
+          "gamelink": "\\aITEM -1849005594 -1995514244:a bird skull\\/a",
           "chest": false
         }
       ]
@@ -1901,15 +1901,7 @@
       "name": "a Mudpaw lookout",
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 295026780 -1433839586:a gnoll paw\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -1917,7 +1909,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 295026780 -1433839586:a gnoll paw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -2284,15 +2284,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
           "chest": false
         }
       ],
@@ -2327,11 +2327,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -2373,15 +2373,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -658420854 385425044:ancient copper coin\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -658420854 385425044:ancient copper coin\\/a",
           "chest": false
         },
         {
@@ -2435,15 +2435,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -2743,11 +2743,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 512790155 320744539:crab meat\\/a",
+          "gamelink": "\\aITEM -2136398151 1163100270:a crab claw\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -2136398151 1163100270:a crab claw\\/a",
+          "gamelink": "\\aITEM 512790155 320744539:crab meat\\/a",
           "chest": false
         }
       ]
@@ -2832,7 +2832,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "gamelink": "\\aITEM 1019381428 -593234954:bag of bone dust\\/a",
           "chest": false
         },
         {
@@ -2840,15 +2840,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1019381428 -593234954:bag of bone dust\\/a",
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -3089,11 +3089,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -3324,11 +3324,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -380209937 1983585223:small disk of metal\\/a",
+          "gamelink": "\\aITEM -1223917500 -959190015:a centaur mane\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1223917500 -959190015:a centaur mane\\/a",
+          "gamelink": "\\aITEM -380209937 1983585223:small disk of metal\\/a",
           "chest": false
         },
         {
@@ -3408,11 +3408,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM 1354018115 2012604226:a centaur hand\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1354018115 2012604226:a centaur hand\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -3821,11 +3821,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
           "chest": false
         }
       ],
@@ -3860,11 +3860,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "gamelink": "\\aITEM -486559289 -1607777479:a flickering lightstone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -486559289 -1607777479:a flickering lightstone\\/a",
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
         }
       ]

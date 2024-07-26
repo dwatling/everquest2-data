@@ -17,6 +17,14 @@
   ],
   "npcs": [
     {
+      "name": "Anius Oakwind",
+      "utterances": [
+        "They were weak!  I am not!",
+        "Who disturbs my rest?",
+        "They will join us in death..."
+      ]
+    },
+    {
       "name": "Ashir",
       "race": [
         "kerran"
@@ -97,11 +105,11 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1290674712 523118281:Shark Jaw Scimitar\\/a",
+          "gamelink": "\\aITEM 2092639765 -2084559259:Bladefin Leggings\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 2092639765 -2084559259:Bladefin Leggings\\/a",
+          "gamelink": "\\aITEM 1290674712 523118281:Shark Jaw Scimitar\\/a",
           "chest": true
         }
       ]
@@ -600,12 +608,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1792642557 386945135:hoof\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1524412914 -338403869:Antler Plated Chestguard\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1792642557 386945135:hoof\\/a",
+          "chest": false
         }
       ]
     },
@@ -1535,11 +1543,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
+          "gamelink": "\\aITEM -399600502 1011028463:dropped ledger\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -399600502 1011028463:dropped ledger\\/a",
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
           "chest": false
         },
         {
@@ -1547,9 +1555,17 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
           "chest": false
         }
+      ]
+    },
+    {
+      "name": "a shipwrecked explorer",
+      "utterances": [
+        "Never too early to slumber in the grave.",
+        "You cannot eliminate us!",
+        "That pile of bones was my friend!"
       ]
     },
     {
@@ -1839,6 +1855,13 @@
       ]
     },
     {
+      "name": "Trainer Nogg Dreadscar",
+      "utterances": [
+        "Well met, <player name>. The Overlord demands that his subjects maintain a healthy body and a keen mind. He has charged me with training new recruits about your physical attributes: Strength, Agility, Stamina, Intelligence, and Wisdom.",
+        "Charles Barker? Larker? Jarker? Nope, never heard of him."
+      ]
+    },
+    {
       "name": "Trainer Sythor the All-Seeing",
       "race": [
         "human"
@@ -1951,11 +1974,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1302044914 -342858235:a fish meat\\/a",
+          "gamelink": "\\aITEM 562003704 745063728:a fish eye\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 562003704 745063728:a fish eye\\/a",
+          "gamelink": "\\aITEM -1302044914 -342858235:a fish meat\\/a",
           "chest": false
         }
       ]
@@ -2051,16 +2074,16 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -1463685657 612992231:Horse Sentry Pauldrons\\/a",
           "chest": true
         },
         {
           "gamelink": "\\aITEM 1394743414 -90333821:Necrotic Reconstruction (Adept)\\/a",
           "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
-          "chest": false
         }
       ]
     },
@@ -2134,15 +2157,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -875565441 -1127668917:fearsome carved wooden mask\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
           "chest": false
         }
       ]
@@ -2202,12 +2225,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1533459695 1256560616:Sandstalker Legplates\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1007229239 -1993518350:ink sack\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1533459695 1256560616:Sandstalker Legplates\\/a",
+          "chest": true
         }
       ]
     },
@@ -2221,6 +2244,17 @@
       ],
       "locations": [
         "-91.67,-5.26,229.87"
+      ]
+    },
+    {
+      "name": "Visage of the Overlord",
+      "utterances": [
+        "You show potential, but there are many who seek the auspices of Lucan, and I only have time for champions.",
+        "Prove yourself, and I shall grant you shelter at the edge of my city, and the chance to earn your place as a proud citizen of Freeport.",
+        "Go now, and begin the trials that I have set for you.",
+        "Succeed, and you will share the fortunes of Freeport as we reshape this broken world.",
+        "Together we will restore the glory of ages past, crush the Sons of Zek, and sweep aside the decadent nation of Qeynos!",
+        "With my guidance, you shall gain power and glory as you have never imagined, but should you turn against me, you will find that my wrath is a terrible thing ... Now go!"
       ]
     },
     {
@@ -2357,11 +2391,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 641537398 409580744:Weakened Blood of the Wolf\\/a",
+          "gamelink": "\\aITEM -982875894 -747549538:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -982875894 -747549538:canine saliva\\/a",
+          "gamelink": "\\aITEM 641537398 409580744:Weakened Blood of the Wolf\\/a",
           "chest": false
         }
       ]
@@ -2407,40 +2441,6 @@
       ],
       "locations": [
         "-41.66,-5.59,70.88"
-      ]
-    },
-    {
-      "name": "Trainer Nogg Dreadscar",
-      "utterances": [
-        "Well met, <player name>. The Overlord demands that his subjects maintain a healthy body and a keen mind. He has charged me with training new recruits about your physical attributes: Strength, Agility, Stamina, Intelligence, and Wisdom.",
-        "Charles Barker? Larker? Jarker? Nope, never heard of him."
-      ]
-    },
-    {
-      "name": "a shipwrecked explorer",
-      "utterances": [
-        "Never too early to slumber in the grave.",
-        "You cannot eliminate us!",
-        "That pile of bones was my friend!"
-      ]
-    },
-    {
-      "name": "Visage of the Overlord",
-      "utterances": [
-        "You show potential, but there are many who seek the auspices of Lucan, and I only have time for champions.",
-        "Prove yourself, and I shall grant you shelter at the edge of my city, and the chance to earn your place as a proud citizen of Freeport.",
-        "Go now, and begin the trials that I have set for you.",
-        "Succeed, and you will share the fortunes of Freeport as we reshape this broken world.",
-        "Together we will restore the glory of ages past, crush the Sons of Zek, and sweep aside the decadent nation of Qeynos!",
-        "With my guidance, you shall gain power and glory as you have never imagined, but should you turn against me, you will find that my wrath is a terrible thing ... Now go!"
-      ]
-    },
-    {
-      "name": "Anius Oakwind",
-      "utterances": [
-        "They were weak!  I am not!",
-        "Who disturbs my rest?",
-        "They will join us in death..."
       ]
     }
   ],

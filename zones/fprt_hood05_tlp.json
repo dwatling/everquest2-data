@@ -8,20 +8,20 @@
   ],
   "connections": [
     {
-      "key": "fprt_north_tlp",
-      "location": "16.10,3.00,75.60"
-    },
-    {
-      "key": "fprt_tradeskill01_hood05",
-      "location": "14.55,0.57,5.33"
-    },
-    {
       "key": "fprt_adv02_graveyard_tlp",
       "location": "53.70,-2.00,-19.89"
     },
     {
+      "key": "fprt_north_tlp",
+      "location": "16.10,3.00,75.60"
+    },
+    {
       "key": "fprt_sewer01",
       "location": "43.47,-0.87,-22.96"
+    },
+    {
+      "key": "fprt_tradeskill01_hood05",
+      "location": "14.55,0.57,5.33"
     }
   ],
   "npcs": [
@@ -96,6 +96,13 @@
       "locations": [
         "2.06,0.0,-28.79",
         "-33.56,-2.74,-38.41"
+      ]
+    },
+    {
+      "name": "Dimal B`Orin",
+      "utterances": [
+        "Avert your eyes as I pass, commoner.",
+        "I'm sorry, I haven't any coin for beggars and vagabonds."
       ]
     },
     {
@@ -521,6 +528,12 @@
       "store_template": "bowyer"
     },
     {
+      "name": "Vela M`Rev",
+      "utterances": [
+        "I refuse to be told what to do by a group of simple-minded buffoons!"
+      ]
+    },
+    {
       "name": "Vorshar L`Faz",
       "race": [
         "dark elf"
@@ -530,6 +543,24 @@
       ],
       "locations": [
         "2.01,0.0,-28.76"
+      ]
+    },
+    {
+      "name": "V`Tun",
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ]
+    },
+    {
+      "name": "Wholesaler Zarethe N'Kor",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-5.34,0.00,-18.59"
       ]
     },
     {
@@ -554,37 +585,6 @@
       ],
       "locations": [
         "-30.69,4.0,45.65"
-      ]
-    },
-    {
-      "name": "Vela M`Rev",
-      "utterances": [
-        "I refuse to be told what to do by a group of simple-minded buffoons!"
-      ]
-    },
-    {
-      "name": "Dimal B`Orin",
-      "utterances": [
-        "Avert your eyes as I pass, commoner.",
-        "I'm sorry, I haven't any coin for beggars and vagabonds."
-      ]
-    },
-    {
-      "name": "V`Tun",
-      "utterances": [
-        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
-      ]
-    },
-    {
-      "name": "Wholesaler Zarethe N'Kor",
-      "race": [
-        "dark elf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "-5.34,0.00,-18.59"
       ]
     }
   ]

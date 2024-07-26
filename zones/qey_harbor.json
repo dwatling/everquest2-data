@@ -42,6 +42,14 @@
       "store_template": "bowyer"
     },
     {
+      "name": "Alfred Ironforge",
+      "utterances": [
+        "I'm glad you have come back for more training, it looks like you've learned quite a bit in a very short time.  I can certify you in your chosen trade class. Before I begin your paperwork I'll need your name.",
+        "Best of luck!",
+        "You're not skilled enough to receive certification in a tradesman class.  Practice your skills, and return to me after you gain more experience."
+      ]
+    },
+    {
       "name": "Aliindar",
       "race": [
         "erudite"
@@ -359,6 +367,23 @@
       ]
     },
     {
+      "name": "Mariner Kajiz",
+      "utterances": [
+        "This ain't a show stranger, buy your goods and shove-off!",
+        "I may be a hired hand of the Far Sea Trading Company, but I take pride in my work.",
+        "Get out of my face, scum!  You don't need to talk to me, buy your stuff and move on."
+      ]
+    },
+    {
+      "name": "Mariner Whistlethorn",
+      "utterances": [
+        "Get out of my face, scum!  You don't need to talk to me, buy your stuff and move on.",
+        "If you want a friend, buy a pet.  I'm not here to chit-chat with you adventurer.",
+        "I may be a hired hand of the Far Sea Trading Company, but I take pride in my work.",
+        "What do you think you're looking at?"
+      ]
+    },
+    {
       "name": "Marius Ironflint",
       "race": [
         "human"
@@ -410,6 +435,13 @@
         "You can never be too careful when it comes to protection.  Here try on one of these."
       ],
       "store_template": "general_goods"
+    },
+    {
+      "name": "Nathan Ironforge",
+      "utterances": [
+        "Have you been inside the castle? I want to go there someday!",
+        "I want to join the Qeynos Guard when I grow up!"
+      ]
     },
     {
       "name": "Nelis Greenpocket",
@@ -717,6 +749,22 @@
       "store_template": "weaponsmith"
     },
     {
+      "name": "Sprockfuddle",
+      "utterances": [
+        "Stupid taxes!",
+        "There's a better life out there.  A much better life.",
+        "Admiring the fine stock of goods, are you?",
+        "Sometimes.  It pays to have connections.  I do quite a bit of trading and supplying.  Not just goods, but other things...if you take my meaning.",
+        "You're here because you want a good deal on things that you might not otherwise come by, right?  Same with me.  I might pick up a tidbit of information that's every bit as valuable as the next thing.",
+        "Spying's for amateurs! No, I'm not a spy; I'm more than that.  A trader, a procurer of rare objects, an inventor -- that's me! But even someone with my skills can always use a hand now and then.  Interested in learning how you can help?",
+        "That's the spirit! Do you want to live the good life by making simple trades -- commodities, information or items?  It's easy; anyone can do it.  Your pockets fill with coin -- and none of it's taxable since it's under the table.",
+        "There's the oppressive taxes that Queen Antonia puts on the folks who live here.  You never see her lift a hand to help the poor, do you?  That's why my job's so important.  I provide a few cheap trinkets to folks who starve themselves putting chickens in the pots of every Qeynosian noble.",
+        "She has everyone mark up the goods and taxes both buyer and seller.  Sickening, I tell you! Now, I might add a premium to some things, but I'm honest about it.  Folks from Freeport are honest, whatever else you might call 'em.",
+        "You'll find Freeport's an honest place.  Someone doesn't like you, they'll tell you to your face.  None of this secretive mumbity-jumbity stuff.  You seem the honest sort, eager to do what's right by yourself. You would do much better in Freeport, wouldn't you?",
+        "Tell you what: you need time to think and that's natural.  Go see a pal of mine on the third floor of the pub here.  He'll explain things a bit plainer than I can...and I need to get back to work."
+      ]
+    },
+    {
       "name": "Squire Moorford",
       "race": [
         "human"
@@ -837,54 +885,6 @@
         "Be careful, it's best not to read the scrolls.  If you want to know what they are, just ask me."
       ],
       "store_template": "alchemist"
-    },
-    {
-      "name": "Sprockfuddle",
-      "utterances": [
-        "Stupid taxes!",
-        "There's a better life out there.  A much better life.",
-        "Admiring the fine stock of goods, are you?",
-        "Sometimes.  It pays to have connections.  I do quite a bit of trading and supplying.  Not just goods, but other things...if you take my meaning.",
-        "You're here because you want a good deal on things that you might not otherwise come by, right?  Same with me.  I might pick up a tidbit of information that's every bit as valuable as the next thing.",
-        "Spying's for amateurs! No, I'm not a spy; I'm more than that.  A trader, a procurer of rare objects, an inventor -- that's me! But even someone with my skills can always use a hand now and then.  Interested in learning how you can help?",
-        "That's the spirit! Do you want to live the good life by making simple trades -- commodities, information or items?  It's easy; anyone can do it.  Your pockets fill with coin -- and none of it's taxable since it's under the table.",
-        "There's the oppressive taxes that Queen Antonia puts on the folks who live here.  You never see her lift a hand to help the poor, do you?  That's why my job's so important.  I provide a few cheap trinkets to folks who starve themselves putting chickens in the pots of every Qeynosian noble.",
-        "She has everyone mark up the goods and taxes both buyer and seller.  Sickening, I tell you! Now, I might add a premium to some things, but I'm honest about it.  Folks from Freeport are honest, whatever else you might call 'em.",
-        "You'll find Freeport's an honest place.  Someone doesn't like you, they'll tell you to your face.  None of this secretive mumbity-jumbity stuff.  You seem the honest sort, eager to do what's right by yourself. You would do much better in Freeport, wouldn't you?",
-        "Tell you what: you need time to think and that's natural.  Go see a pal of mine on the third floor of the pub here.  He'll explain things a bit plainer than I can...and I need to get back to work."
-      ]
-    },
-    {
-      "name": "Alfred Ironforge",
-      "utterances": [
-        "I'm glad you have come back for more training, it looks like you've learned quite a bit in a very short time.  I can certify you in your chosen trade class. Before I begin your paperwork I'll need your name.",
-        "Best of luck!",
-        "You're not skilled enough to receive certification in a tradesman class.  Practice your skills, and return to me after you gain more experience."
-      ]
-    },
-    {
-      "name": "Nathan Ironforge",
-      "utterances": [
-        "Have you been inside the castle? I want to go there someday!",
-        "I want to join the Qeynos Guard when I grow up!"
-      ]
-    },
-    {
-      "name": "Mariner Whistlethorn",
-      "utterances": [
-        "Get out of my face, scum!  You don't need to talk to me, buy your stuff and move on.",
-        "If you want a friend, buy a pet.  I'm not here to chit-chat with you adventurer.",
-        "I may be a hired hand of the Far Sea Trading Company, but I take pride in my work.",
-        "What do you think you're looking at?"
-      ]
-    },
-    {
-      "name": "Mariner Kajiz",
-      "utterances": [
-        "This ain't a show stranger, buy your goods and shove-off!",
-        "I may be a hired hand of the Far Sea Trading Company, but I take pride in my work.",
-        "Get out of my face, scum!  You don't need to talk to me, buy your stuff and move on."
-      ]
     }
   ]
 }

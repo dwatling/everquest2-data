@@ -10,21 +10,6 @@
   ],
   "connections": [
     {
-      "key": "freeport_combined"
-    },
-    {
-      "key": "darklight_wood"
-    },
-    {
-      "key": "nektulos"
-    },
-    {
-      "key": "fallengate"
-    },
-    {
-      "key": "wailingcaves"
-    },
-    {
       "key": "cmmn_epic01_orc_excavation"
     },
     {
@@ -34,25 +19,41 @@
       "key": "cmmn_epic02_mage_mage_valley_solo"
     },
     {
-      "key": "fprt_adv03_sprawl_tlp"
-    },
-    {
       "key": "commonlands_sewer01"
     },
     {
-      "key": "fprt_adv02_graveyard_tlp"
-    },
-    {
-      "key": "exp05_dun_befallen_forsaken"
+      "key": "darklight_wood"
     },
     {
       "key": "exp05_dun_befallen_asylum"
     },
     {
+      "key": "exp05_dun_befallen_cavern"
+    },
+    {
       "key": "exp05_dun_befallen_cavern_raid"
     },
     {
-      "key": "exp05_dun_befallen_cavern"
+      "key": "exp05_dun_befallen_forsaken"
+    },
+    {
+      "key": "fallengate"
+    },
+    {
+      "key": "fprt_adv02_graveyard_tlp"
+    },
+    {
+      "key": "fprt_adv03_sprawl_tlp"
+    },
+    {
+      "key": "fprt_epic01_storeroom01",
+      "accessible": false
+    },
+    {
+      "key": "freeport_combined"
+    },
+    {
+      "key": "nektulos"
     },
     {
       "key": "obelisk_of_lostsouls"
@@ -61,8 +62,7 @@
       "key": "qey_catacomb_epic02_mi_undead_easy"
     },
     {
-      "key": "fprt_epic01_storeroom01",
-      "accessible": false
+      "key": "wailingcaves"
     }
   ],
   "npcs": [
@@ -77,11 +77,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
         },
         {
@@ -89,7 +89,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -458,11 +458,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
           "chest": false
         },
         {
@@ -470,7 +470,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -500,19 +500,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -544,15 +544,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -636,23 +636,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
@@ -660,11 +644,27 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
       ],
@@ -712,15 +712,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -748,11 +748,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -663082198 781057701:plain crystal shard\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -760,7 +756,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -663082198 781057701:plain crystal shard\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
       ],
@@ -796,19 +796,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1294750651 -1669415379:a dull wedge\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1189922624 134728149:Far Seas Requisition - WC 124\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
           "chest": false
         },
         {
@@ -816,7 +804,19 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -1294750651 -1669415379:a dull wedge\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1189922624 134728149:Far Seas Requisition - WC 124\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
           "chest": false
         }
       ],
@@ -935,11 +935,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -951,35 +955,23 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1994384884 -601719179:Far Seas Requisition - FG 073\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
+          "gamelink": "\\aITEM -1555036024 -1987479682:Far Seas Requisition - WC 077\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
           "chest": false
         },
         {
@@ -987,8 +979,16 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1555036024 -1987479682:Far Seas Requisition - WC 077\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 16,
@@ -1071,15 +1071,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1262149691 443101017:Bone Beaded Bangle\\/a",
           "chest": true
         },
         {
           "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         }
       ],
@@ -1580,8 +1580,20 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1409721994 -1246992863:Far Seas Requisition - FG 212\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1669633344 -431690929:Far Seas Requisition - WC 002\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
@@ -1590,18 +1602,6 @@
         {
           "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
           "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1669633344 -431690929:Far Seas Requisition - WC 002\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1409721994 -1246992863:Far Seas Requisition - FG 212\\/a",
-          "chest": true
         },
         {
           "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
@@ -1655,6 +1655,14 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1862335373 50588349:advanced craftsman volume 17\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
@@ -1663,11 +1671,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
@@ -1675,11 +1679,7 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1862335373 50588349:advanced craftsman volume 17\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -1757,12 +1757,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -738456813 540695488:Shortsword of the Fray\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738456813 540695488:Shortsword of the Fray\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 18,
@@ -1796,6 +1796,10 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
@@ -1804,7 +1808,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         },
         {
@@ -1812,11 +1816,7 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -1863,12 +1863,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 610874452 1997196792:Boon of the Damned (Adept)\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM -1072498694 1172754859:Far Seas Requisition - FG 244\\/a",
@@ -1919,11 +1919,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -1969,11 +1969,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
+          "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
+          "chest": true
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -1981,8 +1981,8 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 17,
@@ -2025,24 +2025,24 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
+          "gamelink": "\\aITEM 49021708 328512049:Acid III (Adept)\\/a",
+          "chest": true
         },
         {
-          "gamelink": "\\aITEM -738456813 540695488:Shortsword of the Fray\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 1756516814 -2137737252:Breeze (Adept)\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 49021708 328512049:Acid III (Adept)\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738456813 540695488:Shortsword of the Fray\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 31,
@@ -2113,11 +2113,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 248074692 -162106332:an insect wing\\/a",
+          "gamelink": "\\aITEM -1968962735 -339631279:an insect stinger\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1968962735 -339631279:an insect stinger\\/a",
+          "gamelink": "\\aITEM 248074692 -162106332:an insect wing\\/a",
           "chest": false
         }
       ]
@@ -2283,11 +2283,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
@@ -2299,7 +2299,7 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
+          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
           "chest": false
         }
       ],
@@ -2368,8 +2368,8 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -989003161 1420590974:a fragment of terrain\\/a",
-          "chest": false
+          "gamelink": "\\aITEM -214340711 2003617483:Bootstrutter's Field Guide to the Commonlands\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
@@ -2380,8 +2380,8 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -214340711 2003617483:Bootstrutter's Field Guide to the Commonlands\\/a",
-          "chest": true
+          "gamelink": "\\aITEM -989003161 1420590974:a fragment of terrain\\/a",
+          "chest": false
         }
       ]
     },
@@ -2473,19 +2473,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
-          "chest": false
+          "gamelink": "\\aITEM -622687454 1705625455:Advanced Outfitter Volume 17\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -214340711 2003617483:Bootstrutter's Field Guide to the Commonlands\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -622687454 1705625455:Advanced Outfitter Volume 17\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
         },
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
           "chest": false
         }
       ]
@@ -2557,11 +2557,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -2569,11 +2565,15 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
           "chest": false
         }
       ],
@@ -2639,15 +2639,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
           "chest": false
         }
       ],
@@ -2672,12 +2672,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -2001152374 -156740137:advanced craftsman volume 19\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
@@ -2869,11 +2869,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -2005436878 2046850352:crab meat\\/a",
+          "gamelink": "\\aITEM 847432297 2013097042:a crab claw\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 847432297 2013097042:a crab claw\\/a",
+          "gamelink": "\\aITEM -2005436878 2046850352:crab meat\\/a",
           "chest": false
         }
       ]
@@ -3002,15 +3002,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
       ],
@@ -3107,11 +3107,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1682766616 702835349:vulrich meat\\/a",
+          "gamelink": "\\aITEM 1421950762 154156331:a bird feather\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1421950762 154156331:a bird feather\\/a",
+          "gamelink": "\\aITEM 1682766616 702835349:vulrich meat\\/a",
           "chest": false
         }
       ]
@@ -3204,11 +3204,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
           "chest": false
         }
       ]
@@ -3979,12 +3979,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1718827623 754545517:Far Seas Requisition - WC 045\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
+          "chest": false
         }
       ],
       "faction_changes": [
@@ -4568,12 +4568,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -2129749343 -119286990:advanced craftsman volume 15\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
+          "chest": false
         }
       ]
     },
@@ -4783,19 +4783,19 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
       ],
@@ -5257,7 +5257,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
           "chest": false
         },
         {
@@ -5265,7 +5269,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
@@ -5274,10 +5278,6 @@
         },
         {
           "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
           "chest": false
         },
         {
@@ -5331,6 +5331,10 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -382271913 550690500:Borderland Bounty for Bloodskull warriors\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
         },
@@ -5339,16 +5343,12 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1189922624 134728149:Far Seas Requisition - WC 124\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -382271913 550690500:Borderland Bounty for Bloodskull warriors\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1041976406 1193510754:an elemental planar seed\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1189922624 134728149:Far Seas Requisition - WC 124\\/a",
+          "chest": true
         }
       ]
     },
@@ -5515,11 +5515,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1611629912 -2012559103:a strangely marked hide\\/a",
+          "gamelink": "\\aITEM 15564315 -1468797977:Advanced Carpenter Volume 24\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 15564315 -1468797977:Advanced Carpenter Volume 24\\/a",
+          "gamelink": "\\aITEM 1611629912 -2012559103:a strangely marked hide\\/a",
           "chest": true
         }
       ]
@@ -5675,11 +5675,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -595786562 -1168539999:a fish meat\\/a",
+          "gamelink": "\\aITEM 1394747759 1963691358:a fish eye\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1394747759 1963691358:a fish eye\\/a",
+          "gamelink": "\\aITEM -595786562 -1168539999:a fish meat\\/a",
           "chest": false
         }
       ]
@@ -5705,11 +5705,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
+          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
+          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
           "chest": false
         },
         {
@@ -5824,11 +5824,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 220303815 -2092524802:a vial of spectral essence\\/a",
+          "gamelink": "\\aITEM -704384670 1077323225:an ethereal nerve\\/a",
           "chest": false
         },
         {
@@ -5836,7 +5832,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -704384670 1077323225:an ethereal nerve\\/a",
+          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 220303815 -2092524802:a vial of spectral essence\\/a",
           "chest": false
         }
       ],
@@ -5907,20 +5907,20 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1883221997 1788663479:Borderland Bounty for Dervish Cutthroats\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1010661454 1680206675:Lead Weighted Hammer\\/a",
           "chest": true
         },
         {
           "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1010661454 1680206675:Lead Weighted Hammer\\/a",
+          "chest": true
         }
       ],
       "faction_changes": [
@@ -6080,12 +6080,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -636291851 -1051593857:Advanced Scholar Volume 12\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 26,
@@ -6229,7 +6229,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -211262820 88743151:a ghost ethereal strand\\/a",
+          "gamelink": "\\aITEM -2001152374 -156740137:advanced craftsman volume 19\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1434976134 1508506194:Advanced Scholar Volume 17\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 128098823 602113696:A Broken Harness\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
@@ -6237,27 +6249,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -86102345 -151067204:a ghost vile plasm \\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2073079286 -33985810:a ghost phantasmal echo\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1867521536 -523124861:Savannah Bleached Shoulderpads\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 472806346 -1877249332:Inlaid Stone Earrings\\/a",
+          "gamelink": "\\aITEM -755419959 -1407654822:Far Seas Requisition - FG 158\\/a",
           "chest": true
         },
         {
@@ -6265,35 +6257,7 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1784754982 -1802704099:a ghost emotion resonance\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1189922624 134728149:Far Seas Requisition - WC 124\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2001152374 -156740137:advanced craftsman volume 19\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -755419959 -1407654822:Far Seas Requisition - FG 158\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 493224880 -714950344:a ghost remnant memory\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 128098823 602113696:A Broken Harness\\/a",
           "chest": true
         },
         {
@@ -6301,8 +6265,44 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -1434976134 1508506194:Advanced Scholar Volume 17\\/a",
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1784754982 -1802704099:a ghost emotion resonance\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -211262820 88743151:a ghost ethereal strand\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2073079286 -33985810:a ghost phantasmal echo\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 493224880 -714950344:a ghost remnant memory\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -86102345 -151067204:a ghost vile plasm \\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 472806346 -1877249332:Inlaid Stone Earrings\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1867521536 -523124861:Savannah Bleached Shoulderpads\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 18,
@@ -6481,7 +6481,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1970929353 -1964109827:Son of the Sky\\/a",
+          "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
           "chest": true
         },
         {
@@ -6489,7 +6489,7 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
+          "gamelink": "\\aITEM 1970929353 -1964109827:Son of the Sky\\/a",
           "chest": true
         }
       ],
@@ -6650,120 +6650,6 @@
       ]
     },
     {
-      "gamelink": "\\aITEM 690633881 2006986525:Dwarf egg\\/a",
-      "locations": [
-        "399.07,-47.00,321.87"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -127782164 -1994111504:Froglok fin\\/a",
-      "locations": [
-        "447.49,-46.00,-32.86",
-        "-581.96,-43.00,-148.36",
-        "496.06,-47.00,236.17"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 881145389 -1257983659:Iksar wing\\/a",
-      "locations": [
-        "19.79,-42.00,19.35"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 2041055964 1709117635:Ivory Rose Petal\\/a",
-      "locations": [
-        "-1258.87,-88.59,41.06",
-        "-1200.06,-79.23,40.68",
-        "-1157.79,-69.16,90.19",
-        "-603.70,-46.95,-271.43",
-        "-471.84,-44.99,-289.88",
-        "-1284.06,-88.16,49.53"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1913161908 -135970516:Kerra scales\\/a",
-      "locations": [
-        "935.46,-42.00,-546.94",
-        "-1101.88,-54.00,-304.44"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1545792971 2005925826:Mark of Blackburrow\\/a",
-      "locations": [
-        "-556.06,-47.16,-359.69",
-        "-600.07,-47.94,-294.85",
-        "-588.32,-47.94,-340.15",
-        "-617.97,-48.02,-308.94",
-        "-597.50,-47.77,-365.07"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 491367518 -1346774644:Mark of the Kromise\\/a",
-      "locations": [
-        "-574.33,-47.79,-361.96"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1740421467 1340305692:Orc tail\\/a",
-      "locations": [
-        "-99.94,-47.00,-603.00"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 2081551614 186916899:Ratonga hoof\\/a",
-      "locations": [
-        "335.46,-47.00,-403.44",
-        "-223.72,-47.00,362.77",
-        "-523.72,-47.00,449.97",
-        "237.44,-44.00,-13.83",
-        "263.99,-43.00,-53.83"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -196955907 250027482:Royal Rose Petal\\/a",
-      "locations": [
-        "-1162.90,-69.65,-2.72",
-        "-954.56,-48.43,-1.50",
-        "-922.33,-47.81,-20.30",
-        "-891.37,-47.55,-27.55",
-        "-684.71,-48.09,-206.51",
-        "-571.82,-45.50,-232.44",
-        "-513.79,-44.54,-310.08",
-        "-740.62,-47.43,-177.21",
-        "-607.24,-49.87,-636.64"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1464794927 -809516526:Sootfoot Mark\\/a",
-      "locations": [
-        "-597.34,-48.01,-335.83",
-        "-598.28,-48.03,-308.63",
-        "-574.33,-47.79,-361.96",
-        "-617.97,-48.02,-308.94",
-        "-586.24,-47.53,-378.45",
-        "-575.32,-47.15,-334.71",
-        "-636.18,-48.04,-313.82",
-        "-556.06,-47.16,-359.69"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 699234980 -855475702:Sunset Chrysanthemum Petal\\/a",
-      "locations": [
-        "-1202.03,-75.60,115.60",
-        "-1118.32,-58.89,117.81",
-        "-1018.63,-50.22,16.55",
-        "-740.62,-47.43,-177.21",
-        "-636.86,-47.99,-233.17",
-        "-1258.87,-88.59,41.06"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 311520287 -690295344:Yha-lei fur\\/a",
-      "locations": [
-        "-1347.88,-82.00,-354.58"
-      ]
-    },
-    {
       "gamelink": "\\aITEM -1832140126 2119420903:chipped shard of abjuration\\/a",
       "locations": [
         "916.39,-43.00,-548.12"
@@ -6875,6 +6761,69 @@
       "gamelink": "\\aITEM -1104592590 977881333:cracked ratonga bone fragment\\/a"
     },
     {
+      "gamelink": "\\aITEM 690633881 2006986525:Dwarf egg\\/a",
+      "locations": [
+        "399.07,-47.00,321.87"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -127782164 -1994111504:Froglok fin\\/a",
+      "locations": [
+        "447.49,-46.00,-32.86",
+        "-581.96,-43.00,-148.36",
+        "496.06,-47.00,236.17"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 881145389 -1257983659:Iksar wing\\/a",
+      "locations": [
+        "19.79,-42.00,19.35"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 2041055964 1709117635:Ivory Rose Petal\\/a",
+      "locations": [
+        "-1258.87,-88.59,41.06",
+        "-1200.06,-79.23,40.68",
+        "-1157.79,-69.16,90.19",
+        "-603.70,-46.95,-271.43",
+        "-471.84,-44.99,-289.88",
+        "-1284.06,-88.16,49.53"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1913161908 -135970516:Kerra scales\\/a",
+      "locations": [
+        "935.46,-42.00,-546.94",
+        "-1101.88,-54.00,-304.44"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1190729474 -2001384598:the lore of fauna: the behemoth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1545792971 2005925826:Mark of Blackburrow\\/a",
+      "locations": [
+        "-556.06,-47.16,-359.69",
+        "-600.07,-47.94,-294.85",
+        "-588.32,-47.94,-340.15",
+        "-617.97,-48.02,-308.94",
+        "-597.50,-47.77,-365.07"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 491367518 -1346774644:Mark of the Kromise\\/a",
+      "locations": [
+        "-574.33,-47.79,-361.96"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1740421467 1340305692:Orc tail\\/a",
+      "locations": [
+        "-99.94,-47.00,-603.00"
+      ]
+    },
+    {
       "gamelink": "\\aITEM 191027657 -1161592086:page 11 of The Lore of Fauna: The Behemoth\\/a"
     },
     {
@@ -6894,6 +6843,30 @@
     },
     {
       "gamelink": "\\aITEM -230125234 653655030:plain white moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 2081551614 186916899:Ratonga hoof\\/a",
+      "locations": [
+        "335.46,-47.00,-403.44",
+        "-223.72,-47.00,362.77",
+        "-523.72,-47.00,449.97",
+        "237.44,-44.00,-13.83",
+        "263.99,-43.00,-53.83"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -196955907 250027482:Royal Rose Petal\\/a",
+      "locations": [
+        "-1162.90,-69.65,-2.72",
+        "-954.56,-48.43,-1.50",
+        "-922.33,-47.81,-20.30",
+        "-891.37,-47.55,-27.55",
+        "-684.71,-48.09,-206.51",
+        "-571.82,-45.50,-232.44",
+        "-513.79,-44.54,-310.08",
+        "-740.62,-47.43,-177.21",
+        "-607.24,-49.87,-636.64"
+      ]
     },
     {
       "gamelink": "\\aITEM -1341170799 881072848:scuffed shard of abjuration\\/a"
@@ -6961,6 +6934,19 @@
       ]
     },
     {
+      "gamelink": "\\aITEM -1464794927 -809516526:Sootfoot Mark\\/a",
+      "locations": [
+        "-597.34,-48.01,-335.83",
+        "-598.28,-48.03,-308.63",
+        "-574.33,-47.79,-361.96",
+        "-617.97,-48.02,-308.94",
+        "-586.24,-47.53,-378.45",
+        "-575.32,-47.15,-334.71",
+        "-636.18,-48.04,-313.82",
+        "-556.06,-47.16,-359.69"
+      ]
+    },
+    {
       "gamelink": "\\aITEM -832401687 1102518604:spotted black moth\\/a",
       "locations": [
         "-673.71,-46.00,-327.98",
@@ -7012,10 +6998,24 @@
       ]
     },
     {
-      "gamelink": "\\aITEM -1190729474 -2001384598:the lore of fauna: the behemoth\\/a"
+      "gamelink": "\\aITEM 699234980 -855475702:Sunset Chrysanthemum Petal\\/a",
+      "locations": [
+        "-1202.03,-75.60,115.60",
+        "-1118.32,-58.89,117.81",
+        "-1018.63,-50.22,16.55",
+        "-740.62,-47.43,-177.21",
+        "-636.86,-47.99,-233.17",
+        "-1258.87,-88.59,41.06"
+      ]
     },
     {
       "gamelink": "\\aITEM 1826682885 274604835:weathered orc bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 311520287 -690295344:Yha-lei fur\\/a",
+      "locations": [
+        "-1347.88,-82.00,-354.58"
+      ]
     }
   ],
   "resourceNodes": [

@@ -10,16 +10,7 @@
   ],
   "connections": [
     {
-      "key": "qeynos_combined01"
-    },
-    {
-      "key": "qey_adv04_bog_tlp"
-    },
-    {
-      "key": "steppes"
-    },
-    {
-      "key": "blackburrow"
+      "key": "antonica_catacomb01"
     },
     {
       "key": "antonica_epic01_vale_invasion_solo"
@@ -28,13 +19,22 @@
       "key": "antonica_epic02_firemyst"
     },
     {
-      "key": "antonica_catacomb01"
-    },
-    {
       "key": "befallen"
     },
     {
       "key": "befallen_epic01_mi_pirate_hideout"
+    },
+    {
+      "key": "blackburrow"
+    },
+    {
+      "key": "qey_adv04_bog_tlp"
+    },
+    {
+      "key": "qeynos_combined01"
+    },
+    {
+      "key": "steppes"
     }
   ],
   "objects": [
@@ -304,11 +304,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1241584883 1094293198:Trinket: A Small Metal Figure\\/a",
+          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "gamelink": "\\aITEM 1241584883 1094293198:Trinket: A Small Metal Figure\\/a",
           "chest": false
         }
       ],
@@ -361,28 +361,28 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 966154019 1295163645:Peanut Brittle\\/a",
-          "chest": false
+          "gamelink": "\\aITEM 378721923 1543671770:Advanced Jeweler Volume 28\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 1819718321 -461691665:Alleviation II (Adept)\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -1950696293 2064195645:Curse of Void (Adept)\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "gamelink": "\\aITEM 966154019 1295163645:Peanut Brittle\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 378721923 1543671770:Advanced Jeweler Volume 28\\/a",
-          "chest": true
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 88,
@@ -517,20 +517,20 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1281363586 -1091903142:Searing Shot II (Adept)\\/a",
           "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
         }
       ],
       "drop_coin_min": 17,
@@ -586,11 +586,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
@@ -598,7 +598,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
           "chest": false
         }
       ],
@@ -640,11 +640,11 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
@@ -656,15 +656,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1782216618 -1777164146:Harbinger II (Adept)\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM 1782216618 -1777164146:Harbinger II (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -807,16 +807,16 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 828347673 526887905:ray meat\\/a",
-          "chest": false
+          "gamelink": "\\aITEM -1051500582 548157122:Far Seas Trading Requisition ANT037\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -920390916 661502238:a poison gland\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1051500582 548157122:Far Seas Trading Requisition ANT037\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 828347673 526887905:ray meat\\/a",
+          "chest": false
         }
       ]
     },
@@ -854,12 +854,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1715014641 -1581280969:ink sack\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1165459183 1011394565:Far Seas Trading Requisition ANT0229\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1715014641 -1581280969:ink sack\\/a",
+          "chest": false
         }
       ]
     },
@@ -962,15 +962,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1061912288 -2039705745:Far Seas Trading Requisition ANT0424\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -1928599602 -991468335:a broken barracuda fang\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1269626589 1655321168:Far Seas Trading Requisition ANT0221\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1061912288 -2039705745:Far Seas Trading Requisition ANT0424\\/a",
           "chest": true
         }
       ]
@@ -1145,31 +1145,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 705602020 -966949899:cracked iron stein\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "gamelink": "\\aITEM 1627573543 -1966055113:bride's promise\\/a",
           "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1440351109 846870321:Far Seas Trading Requisition ANT0235\\/a",
-          "chest": true
         },
         {
           "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -1177,7 +1161,51 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 705602020 -966949899:cracked iron stein\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1440351109 846870321:Far Seas Trading Requisition ANT0235\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1838982612 289946543:Far Seas Trading Requisition ANT0244\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -443962824 767118680:Far Seas Trading Requisition ANT0724\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         },
         {
@@ -1187,34 +1215,6 @@
         {
           "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1627573543 -1966055113:bride's promise\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -443962824 767118680:Far Seas Trading Requisition ANT0724\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1838982612 289946543:Far Seas Trading Requisition ANT0244\\/a",
-          "chest": true
         }
       ],
       "drop_coin_min": 16,
@@ -1323,11 +1323,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -1367,11 +1367,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -1379,23 +1375,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
         },
         {
@@ -1403,7 +1387,23 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
           "chest": false
         }
       ],
@@ -1430,11 +1430,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 277865908 127596559:Pierced Gnoll Earstud\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
         },
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
           "chest": false
         },
         {
@@ -1442,11 +1442,11 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
-          "chest": false
+          "gamelink": "\\aITEM 277865908 127596559:Pierced Gnoll Earstud\\/a",
+          "chest": true
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -1503,14 +1503,6 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1161459075 1625987143:a small bronze key with a strange handle\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
@@ -1520,6 +1512,14 @@
         },
         {
           "gamelink": "\\aITEM 1440351109 846870321:Far Seas Trading Requisition ANT0235\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1161459075 1625987143:a small bronze key with a strange handle\\/a",
           "chest": true
         }
       ],
@@ -1626,15 +1626,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
@@ -1642,11 +1634,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
@@ -1658,11 +1646,23 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -1740,15 +1740,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1136651119 1578780024:intricately carved acorn\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
           "chest": false
         },
         {
@@ -1756,11 +1748,19 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 295026780 -1433839586:a gnoll paw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1136651119 1578780024:intricately carved acorn\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -1870,11 +1870,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1698232697 159043196:Chirannite Threat Totem\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -1882,15 +1878,19 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -1698232697 159043196:Chirannite Threat Totem\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1838982612 289946543:Far Seas Trading Requisition ANT0244\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -1898,8 +1898,8 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1838982612 289946543:Far Seas Trading Requisition ANT0244\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 26,
@@ -1976,11 +1976,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
           "chest": false
         }
       ],
@@ -2020,15 +2020,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1627573543 -1966055113:bride's promise\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -2227,11 +2227,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -742202141 1746681072:Lesser Blood of the Wolf\\/a",
+          "gamelink": "\\aITEM 1024480043 347122643:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1024480043 347122643:canine saliva\\/a",
+          "gamelink": "\\aITEM -742202141 1746681072:Lesser Blood of the Wolf\\/a",
           "chest": false
         }
       ]
@@ -2463,19 +2463,19 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -1698232697 159043196:Chirannite Threat Totem\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ]
@@ -2500,15 +2500,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1553813050 1911047336:Trinket: Petrified Bark\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -2516,7 +2508,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1553813050 1911047336:Trinket: Petrified Bark\\/a",
           "chest": false
         }
       ],
@@ -2574,16 +2574,16 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 469903258 -1286815199:Bootstrutter's Field Guide to Antonica\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 1968300802 -935180340:reptile meat\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -140988503 1787831725:a split tongue\\/a",
           "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 469903258 -1286815199:Bootstrutter's Field Guide to Antonica\\/a",
-          "chest": true
         }
       ]
     },
@@ -2684,6 +2684,12 @@
       "name": "a griffin tamer",
       "locations": [
         "-909.71,-7.23,-608.17"
+      ]
+    },
+    {
+      "name": "a griffon tamer",
+      "utterances": [
+        "Where would you like to go?"
       ]
     },
     {
@@ -2835,20 +2841,20 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -879262502 97524837:a strange gem\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
           "chest": true
         },
         {
           "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -879262502 97524837:a strange gem\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 16,
@@ -2910,7 +2916,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -731545264 -1794770025:Trinket: A Small Cube\\/a",
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
           "chest": false
         },
         {
@@ -2922,7 +2928,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "gamelink": "\\aITEM -731545264 -1794770025:Trinket: A Small Cube\\/a",
           "chest": false
         }
       ],
@@ -3033,8 +3039,16 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -1084678629 -801963948:Far Seas Trading Requisition ANT0437\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 260830704 1813928113:A Half Eaten Order Slip\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
@@ -3042,14 +3056,6 @@
         },
         {
           "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1084678629 -801963948:Far Seas Trading Requisition ANT0437\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
           "chest": false
         }
       ]
@@ -3072,11 +3078,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
+          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
+          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
           "chest": false
         }
       ]
@@ -3156,12 +3162,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1619371586 1391256459:woven cordovan shoulder pads\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1619371586 1391256459:woven cordovan shoulder pads\\/a",
+          "chest": true
         }
       ]
     },
@@ -3183,11 +3189,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
+          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
+          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
           "chest": false
         }
       ]
@@ -3196,18 +3202,6 @@
       "name": "Knight-Captain Antillin",
       "locations": [
         "-107.01,-27.37,600.67"
-      ]
-    },
-    {
-      "name": "Knight-Lieutenant Alesso",
-      "locations": [
-        "183.03,-20.69,-10.88"
-      ],
-      "utterances": [
-        "Hello!  As you journey into the city, keep in mind that you may not enter the citadel within North Qeynos at this time.  You'll find better adventuring elsewhere.",
-        "Outside the gates of Qeynos, Antonica is riddled with vermin. Serve Qeynos by destroying these infectious beasts.",
-        "Rid Antonica of the rats, snakes and beetles that plague Qeynos.  Dispatch of no less than ten of each and we shall reward your service.",
-        "You served Qeynos well and shall be rewarded."
       ]
     },
     {
@@ -3226,6 +3220,18 @@
       "name": "Knight Grel Stoneshearer",
       "locations": [
         "-398.3,15.6,-304.72"
+      ]
+    },
+    {
+      "name": "Knight-Lieutenant Alesso",
+      "locations": [
+        "183.03,-20.69,-10.88"
+      ],
+      "utterances": [
+        "Hello!  As you journey into the city, keep in mind that you may not enter the citadel within North Qeynos at this time.  You'll find better adventuring elsewhere.",
+        "Outside the gates of Qeynos, Antonica is riddled with vermin. Serve Qeynos by destroying these infectious beasts.",
+        "Rid Antonica of the rats, snakes and beetles that plague Qeynos.  Dispatch of no less than ten of each and we shall reward your service.",
+        "You served Qeynos well and shall be rewarded."
       ]
     },
     {
@@ -3698,11 +3704,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM -959107685 1296290369:a goblin ear\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -959107685 1296290369:a goblin ear\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -3728,11 +3734,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -3753,7 +3759,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM -959107685 1296290369:a goblin ear\\/a",
           "chest": false
         },
         {
@@ -3761,7 +3767,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -959107685 1296290369:a goblin ear\\/a",
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         },
         {
@@ -3853,10 +3859,6 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
@@ -3865,7 +3867,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
           "chest": false
         },
         {
@@ -3874,6 +3876,10 @@
         },
         {
           "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -4024,16 +4030,16 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1146587553 -1892260771:Rear Shot II (Adept)\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -1401906576 341490251:a bird beak\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 397119710 408683460:a bird skull\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1146587553 -1892260771:Rear Shot II (Adept)\\/a",
+          "chest": true
         }
       ]
     },
@@ -4069,11 +4075,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
           "chest": false
         }
       ],
@@ -4128,7 +4134,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
@@ -4136,15 +4146,11 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
           "chest": false
         }
       ],
@@ -4257,23 +4263,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
@@ -4281,7 +4271,23 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
       ],
@@ -4327,18 +4333,6 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
@@ -4347,7 +4341,19 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
           "chest": false
         },
         {
@@ -4359,11 +4365,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
           "chest": false
         }
       ],
@@ -4465,7 +4471,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -4473,7 +4479,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
           "chest": false
         },
         {
@@ -4481,11 +4487,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -4613,19 +4619,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
           "chest": false
         },
         {
@@ -4633,12 +4627,16 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 469903258 -1286815199:Bootstrutter's Field Guide to Antonica\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
@@ -4649,47 +4647,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 469903258 -1286815199:Bootstrutter's Field Guide to Antonica\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1084678629 -801963948:Far Seas Trading Requisition ANT0437\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1061912288 -2039705745:Far Seas Trading Requisition ANT0424\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2096053587 1975965991:intricate metal bowl\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1051500582 548157122:Far Seas Trading Requisition ANT037\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
         },
         {
@@ -4697,20 +4659,64 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "gamelink": "\\aITEM 1165459183 1011394565:Far Seas Trading Requisition ANT0229\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1440351109 846870321:Far Seas Trading Requisition ANT0235\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1051500582 548157122:Far Seas Trading Requisition ANT037\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1061912288 -2039705745:Far Seas Trading Requisition ANT0424\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1084678629 -801963948:Far Seas Trading Requisition ANT0437\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1165459183 1011394565:Far Seas Trading Requisition ANT0229\\/a",
+          "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 295026780 -1433839586:a gnoll paw\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1440351109 846870321:Far Seas Trading Requisition ANT0235\\/a",
-          "chest": true
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2096053587 1975965991:intricate metal bowl\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
@@ -4755,11 +4761,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
@@ -4767,19 +4773,19 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 295026780 -1433839586:a gnoll paw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -4825,18 +4831,6 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
@@ -4849,6 +4843,22 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 705602020 -966949899:cracked iron stein\\/a",
           "chest": false
         },
@@ -4857,19 +4867,15 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -4991,11 +4997,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -367974197 -1578483498:a turtle shell\\/a",
+          "gamelink": "\\aITEM -543271895 402308311:turtle meat\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -543271895 402308311:turtle meat\\/a",
+          "gamelink": "\\aITEM -367974197 -1578483498:a turtle shell\\/a",
           "chest": false
         }
       ]
@@ -5300,11 +5306,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 610721675 -1689715601:a split tongue\\/a",
+          "gamelink": "\\aITEM 1574255205 902748530:reptile meat\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1574255205 902748530:reptile meat\\/a",
+          "gamelink": "\\aITEM 610721675 -1689715601:a split tongue\\/a",
           "chest": false
         }
       ]
@@ -5317,11 +5323,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1023812709 154628380:Trinket: A Bone Carving\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
           "chest": false
         },
         {
@@ -5329,7 +5335,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "gamelink": "\\aITEM 1023812709 154628380:Trinket: A Bone Carving\\/a",
           "chest": false
         }
       ],
@@ -5537,11 +5543,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -989003161 1420590974:a fragment of terrain\\/a",
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "gamelink": "\\aITEM -989003161 1420590974:a fragment of terrain\\/a",
           "chest": false
         }
       ]
@@ -5569,11 +5575,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
         },
         {
@@ -5625,16 +5631,16 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -742202141 1746681072:Lesser Blood of the Wolf\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1024480043 347122643:canine saliva\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 260830704 1813928113:A Half Eaten Order Slip\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -742202141 1746681072:Lesser Blood of the Wolf\\/a",
+          "chest": false
         }
       ]
     },
@@ -5690,15 +5696,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         }
       ],
@@ -5951,20 +5957,41 @@
           "chest": false
         }
       ]
-    },
-    {
-      "name": "a griffon tamer",
-      "utterances": [
-        "Where would you like to go?"
-      ]
     }
   ],
   "shinies": [
+    {
+      "gamelink": "\\aITEM 790136953 1614490007:antonican ficus light brown leaf\\/a",
+      "locations": [
+        "-229.93,-24.00,729.68"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1393712698 100965568:black glass coin of erudin\\/a",
+      "locations": [
+        "-151.50,-14.00,-20.06"
+      ]
+    },
     {
       "gamelink": "\\aITEM -416322056 1294650281:Bloodskull Mark\\/a",
       "locations": [
         "-866.33,-27.06,202.42",
         "-926.49,-31.24,223.18"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1832140126 2119420903:chipped shard of abjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1424402151 -1053334447:chipped shard of alteration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1331551958 515627370:chipped shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a",
+      "locations": [
+        "-1772.95,-8.00,-614.51"
       ]
     },
     {
@@ -5974,6 +6001,31 @@
         "342.01,-16.78,737.98",
         "373.91,-12.55,801.81",
         "356.38,-13.86,788.15"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 356197014 1645576032:clear glass coin of erudin\\/a",
+      "locations": [
+        "190.12,-22.00,729.68",
+        "-261.98,-14.00,101.30"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1571977034 220596429:cracked barbarian bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 861846032 -2042465446:cracked halfling bone fragment\\/a",
+      "locations": [
+        "-169.91,-16.00,182.21"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1518761661 -1817126979:cracked high elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1743752702 -338028587:cracked wood elf bone fragment\\/a",
+      "locations": [
+        "-2129.96,-44.00,361.39"
       ]
     },
     {
@@ -6011,66 +6063,6 @@
       "gamelink": "\\aITEM -196955907 250027482:Royal Rose Petal\\/a",
       "locations": [
         "-663.93,-16.03,159.94"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 699234980 -855475702:Sunset Chrysanthemum Petal\\/a",
-      "locations": [
-        "-450.03,-18.10,179.37",
-        "-277.77,-10.09,204.67",
-        "392.13,-20.75,344.83"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 790136953 1614490007:antonican ficus light brown leaf\\/a",
-      "locations": [
-        "-229.93,-24.00,729.68"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1393712698 100965568:black glass coin of erudin\\/a",
-      "locations": [
-        "-151.50,-14.00,-20.06"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1832140126 2119420903:chipped shard of abjuration\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1424402151 -1053334447:chipped shard of alteration\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1331551958 515627370:chipped shard of channeling\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a",
-      "locations": [
-        "-1772.95,-8.00,-614.51"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 356197014 1645576032:clear glass coin of erudin\\/a",
-      "locations": [
-        "190.12,-22.00,729.68",
-        "-261.98,-14.00,101.30"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1571977034 220596429:cracked barbarian bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 861846032 -2042465446:cracked halfling bone fragment\\/a",
-      "locations": [
-        "-169.91,-16.00,182.21"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1518761661 -1817126979:cracked high elf bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1743752702 -338028587:cracked wood elf bone fragment\\/a",
-      "locations": [
-        "-2129.96,-44.00,361.39"
       ]
     },
     {
@@ -6113,6 +6105,14 @@
       "gamelink": "\\aITEM -1004669040 447686829:shattered troll bone fragment\\/a",
       "locations": [
         "-1464.31,-12.00,-348.34"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 699234980 -855475702:Sunset Chrysanthemum Petal\\/a",
+      "locations": [
+        "-450.03,-18.10,179.37",
+        "-277.77,-10.09,204.67",
+        "392.13,-20.75,344.83"
       ]
     }
   ],

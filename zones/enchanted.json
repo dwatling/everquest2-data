@@ -10,13 +10,13 @@
   ],
   "connections": [
     {
-      "key": "runnyeye"
+      "key": "enchanted_mini01"
     },
     {
       "key": "rivervale"
     },
     {
-      "key": "enchanted_mini01"
+      "key": "runnyeye"
     }
   ],
   "npcs": [
@@ -106,7 +106,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1072808167 -1146792546:The Storm Shepherds - Gremius Hazzengrav - Page 10\\/a",
+          "gamelink": "\\aITEM 522050599 -1478227999:a crude blueprint\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -503583588 -395043050:Far Seas Trading Requisition Enc0457\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 149792389 1916384666:Gel Sealed Document\\/a",
           "chest": false
         },
         {
@@ -114,16 +122,8 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 149792389 1916384666:Gel Sealed Document\\/a",
+          "gamelink": "\\aITEM -1072808167 -1146792546:The Storm Shepherds - Gremius Hazzengrav - Page 10\\/a",
           "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -503583588 -395043050:Far Seas Trading Requisition Enc0457\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 522050599 -1478227999:a crude blueprint\\/a",
-          "chest": true
         }
       ]
     },

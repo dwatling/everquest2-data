@@ -14,12 +14,16 @@
       "location": "425.25,-20.98,298.66"
     },
     {
-      "key": "qey_north",
-      "location": "396.17,-21.05,140.56"
-    },
-    {
       "key": "qey_catacomb01",
       "location": "364.53,-20.28,174.34"
+    },
+    {
+      "key": "qey_harbor",
+      "location": "787.30,-20.95,177.71"
+    },
+    {
+      "key": "qey_north",
+      "location": "396.17,-21.05,140.56"
     },
     {
       "key": "qey_village01",
@@ -28,10 +32,6 @@
     {
       "key": "qey_village02",
       "location": "695.19,-20.53,266.64"
-    },
-    {
-      "key": "qey_harbor",
-      "location": "787.30,-20.95,177.71"
     }
   ],
   "objects": [
@@ -1047,6 +1047,50 @@
       ]
     },
     {
+      "name": "Augurer Arnon",
+      "utterances": [
+        "I do not suspect we will have any problems with the delivery here. I am sure Vharlan will see more action tonight than we will."
+      ]
+    },
+    {
+      "name": "Augurer Caranthir",
+      "utterances": [
+        "We have all worked very hard to ensure the shield will be delivered tonight. Remember, we go directly to the Mage Tower in the morning to setup everything."
+      ]
+    },
+    {
+      "name": "Augurer Ortasco",
+      "utterances": [
+        "Quit your complaining before someone notices us.",
+        "Calm yourself Vharlan. The shield's safe delivery is our only concern, we are stationed here for an important reason and you know it. Novitiate Shorechaser can handle herself quite well."
+      ]
+    },
+    {
+      "name": "Augurer Phineas",
+      "utterances": [
+        "Augurer Arnon is in place near the gates to Antonica. He will be protecting the shield once it enters the city. I hope he is wary of potential sabotage."
+      ]
+    },
+    {
+      "name": "Augurer Simias",
+      "utterances": [
+        "Watching Vharlan trying to blend in with the patrons of the Lion's Mane would be an event worth seeing."
+      ]
+    },
+    {
+      "name": "Augurer Vharlan",
+      "utterances": [
+        "We are two erudite mages in a bar... How do you suggest we remain conspicuous?",
+        "I cannot believe we are stuck here, in this... Pub. It's filthy in here. Why are we stuck here and that Novitiate is guarding the harbor gate?"
+      ]
+    },
+    {
+      "name": "Augurer Zhorshan",
+      "utterances": [
+        "Arnon is a great mage. The shield is in good hands, but we shouldn't speak openly of these things."
+      ]
+    },
+    {
       "name": "Azima Kaddor",
       "race": [
         "erudite"
@@ -1083,6 +1127,12 @@
       ],
       "locations": [
         "710.82,-20.36,121.93"
+      ]
+    },
+    {
+      "name": "Chronicler Saerfas",
+      "utterances": [
+        "Yes, Augurer Caranthir. I hope the Queen will visit the Mage Tower once the shield is enabled."
       ]
     },
     {
@@ -1288,6 +1338,17 @@
       "purpose": "Selwyn's Assistant",
       "locations": [
         "445.61,-19.59,187.52"
+      ]
+    },
+    {
+      "name": "Ellinnea Umalia",
+      "utterances": [
+        "You're interrupting my work.",
+        "I am not here to provide a basic tutorial on magical theory.  Do you have something specific to ask?",
+        "One flows naturally from the other.  We see magic used in some way and then theorize how it could be improved or changed.  Sometimes we see a need and seek a magical answer.  Not everyone can be so flexible, of course.",
+        "I realize everyone else has their limitations.  My talents are considerable, which is why my theories were selected over that of the competition. Not that Towser Flizgibbert is anywhere near my league.",
+        "Flizgibbert thinks he's a theoretical magician from Elddar Grove.  He's really nothing more than a theoreticist and not a very good one at that.  He had no idea that the irregular borders of Qeynos and its villages would affect dispersement.  Imagine!",
+        "My thoughts precisely.  With all the angles and dimensions to consider, this work is beyond his grasp.  Qeynos will be very well protected from any magical bombardment regardless of its source once my shielding is in place.  Flizgibbert doubtless thinks otherwise."
       ]
     },
     {
@@ -2475,6 +2536,12 @@
       ]
     },
     {
+      "name": "Tabby Copperpot",
+      "utterances": [
+        "I have many baked goods that would be sure to tickle your taste buds and satisfy your tummy."
+      ]
+    },
+    {
       "name": "Telamoninioon Orinsidian",
       "race": [
         "erudite"
@@ -2510,6 +2577,12 @@
         "Ellinnea Umalia near the Mage Tower is a brilliant theoretical magician and like a lot of Erudites can sometimes talk over peoples' heads.  Mary didn't like feeling stupid.  She's not, she just felt intimidated by Ellinnea.  That led to her feeling jealous and that led to Mary spending more and more time in the pubs.",
         "I wish Mary understood how much the project will mean for the safety of Qeynos.  For the safety of our children -- when we have them!  When we're done with our work, Qeynos will be safe from any type of incursion.  That's worthwhile, don't you think?",
         "Yes...and no.  This project is for the future of the city.  If I have to sacrifice my personal happiness, then so be it.  I can only hope that someday Mary will understand."
+      ]
+    },
+    {
+      "name": "Tibby Copperpot",
+      "utterances": [
+        "I sure do love to cook.  Yummy baked goods and cakes.  I make my sister do all the selling.  To tell you the truth I think she likes it."
       ]
     },
     {
@@ -2572,79 +2645,6 @@
       ],
       "locations": [
         "564.29,-9.56,132.49"
-      ]
-    },
-    {
-      "name": "Tabby Copperpot",
-      "utterances": [
-        "I have many baked goods that would be sure to tickle your taste buds and satisfy your tummy."
-      ]
-    },
-    {
-      "name": "Tibby Copperpot",
-      "utterances": [
-        "I sure do love to cook.  Yummy baked goods and cakes.  I make my sister do all the selling.  To tell you the truth I think she likes it."
-      ]
-    },
-    {
-      "name": "Ellinnea Umalia",
-      "utterances": [
-        "You're interrupting my work.",
-        "I am not here to provide a basic tutorial on magical theory.  Do you have something specific to ask?",
-        "One flows naturally from the other.  We see magic used in some way and then theorize how it could be improved or changed.  Sometimes we see a need and seek a magical answer.  Not everyone can be so flexible, of course.",
-        "I realize everyone else has their limitations.  My talents are considerable, which is why my theories were selected over that of the competition. Not that Towser Flizgibbert is anywhere near my league.",
-        "Flizgibbert thinks he's a theoretical magician from Elddar Grove.  He's really nothing more than a theoreticist and not a very good one at that.  He had no idea that the irregular borders of Qeynos and its villages would affect dispersement.  Imagine!",
-        "My thoughts precisely.  With all the angles and dimensions to consider, this work is beyond his grasp.  Qeynos will be very well protected from any magical bombardment regardless of its source once my shielding is in place.  Flizgibbert doubtless thinks otherwise."
-      ]
-    },
-    {
-      "name": "Augurer Ortasco",
-      "utterances": [
-        "Quit your complaining before someone notices us.",
-        "Calm yourself Vharlan. The shield's safe delivery is our only concern, we are stationed here for an important reason and you know it. Novitiate Shorechaser can handle herself quite well."
-      ]
-    },
-    {
-      "name": "Augurer Vharlan",
-      "utterances": [
-        "We are two erudite mages in a bar... How do you suggest we remain conspicuous?",
-        "I cannot believe we are stuck here, in this... Pub. It's filthy in here. Why are we stuck here and that Novitiate is guarding the harbor gate?"
-      ]
-    },
-    {
-      "name": "Augurer Phineas",
-      "utterances": [
-        "Augurer Arnon is in place near the gates to Antonica. He will be protecting the shield once it enters the city. I hope he is wary of potential sabotage."
-      ]
-    },
-    {
-      "name": "Augurer Zhorshan",
-      "utterances": [
-        "Arnon is a great mage. The shield is in good hands, but we shouldn't speak openly of these things."
-      ]
-    },
-    {
-      "name": "Augurer Arnon",
-      "utterances": [
-        "I do not suspect we will have any problems with the delivery here. I am sure Vharlan will see more action tonight than we will."
-      ]
-    },
-    {
-      "name": "Augurer Simias",
-      "utterances": [
-        "Watching Vharlan trying to blend in with the patrons of the Lion's Mane would be an event worth seeing."
-      ]
-    },
-    {
-      "name": "Augurer Caranthir",
-      "utterances": [
-        "We have all worked very hard to ensure the shield will be delivered tonight. Remember, we go directly to the Mage Tower in the morning to setup everything."
-      ]
-    },
-    {
-      "name": "Chronicler Saerfas",
-      "utterances": [
-        "Yes, Augurer Caranthir. I hope the Queen will visit the Mage Tower once the shield is enabled."
       ]
     }
   ]

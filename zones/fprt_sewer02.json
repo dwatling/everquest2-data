@@ -9,6 +9,9 @@
   ],
   "connections": [
     {
+      "key": "fprt_adv03_sprawl_tlp"
+    },
+    {
       "key": "fprt_sewer01"
     },
     {
@@ -16,9 +19,6 @@
     },
     {
       "key": "fprt_sewer_epic03_quest_serpentsewer_epic"
-    },
-    {
-      "key": "fprt_adv03_sprawl_tlp"
     }
   ],
   "npcs": [
@@ -99,11 +99,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
@@ -111,19 +107,23 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 610874452 1997196792:Boon of the Damned (Adept)\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
       ],
@@ -260,12 +260,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -392376538 -274558298:pet report\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -2005436878 2046850352:crab meat\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -392376538 -274558298:pet report\\/a",
+          "chest": true
         }
       ]
     },
@@ -313,11 +313,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 795592345 -735735222:iron lance\\/a",
+          "gamelink": "\\aITEM 1225141396 1027670627:Advanced Scholar Volume 15\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1225141396 1027670627:Advanced Scholar Volume 15\\/a",
+          "gamelink": "\\aITEM 795592345 -735735222:iron lance\\/a",
           "chest": true
         }
       ]
@@ -523,11 +523,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1048400360 2091807454:steel platemail helm\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1106202717 739058315:Lay on Hands (Adept)\\/a",
+          "gamelink": "\\aITEM 34077879 -1207375267:Blackened Iron Crescent Axe\\/a",
           "chest": true
         },
         {
@@ -535,11 +531,15 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -849373482 -1176889462:Stench's Fang\\/a",
+          "gamelink": "\\aITEM 1106202717 739058315:Lay on Hands (Adept)\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 34077879 -1207375267:Blackened Iron Crescent Axe\\/a",
+          "gamelink": "\\aITEM 1048400360 2091807454:steel platemail helm\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -849373482 -1176889462:Stench's Fang\\/a",
           "chest": true
         }
       ]

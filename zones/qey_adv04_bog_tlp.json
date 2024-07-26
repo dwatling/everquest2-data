@@ -38,6 +38,24 @@
       ]
     },
     {
+      "name": "a Bloodsaber watcher",
+      "utterances": [
+        "Me going to eat your kidney first.",
+        "I'm gonna give you a smile like ol' one tooth!",
+        "Is this supposed to hurt?",
+        "Not nice to interrupt dinner.",
+        "Come back you coward! I'm not dead yet."
+      ]
+    },
+    {
+      "name": "a bog faerie",
+      "utterances": [
+        "Grin and bear the beating!",
+        "Trick or trick!  Time to treat... Myself!",
+        "Now who will I play pranks on?"
+      ]
+    },
+    {
       "name": "a bog sludge",
       "locations": [
         "658.55,-33.40,434.71",
@@ -62,12 +80,12 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1995047784 -1016770421:a mucous encrusted tendril\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 467778097 -1617601716:Advanced Artisan Volume 5\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1995047784 -1016770421:a mucous encrusted tendril\\/a",
+          "chest": false
         }
       ]
     },
@@ -92,15 +110,23 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -226353404 1995898489:Advanced Artisan Volume 3\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1900387289 668888967:bronze knuckles\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 1205117057 -1316931119:bronze parrying blade\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 2006611716 1669346638:a vial of mucus\\/a",
-          "chest": false
+          "gamelink": "\\aITEM -535538128 1781778535:bronze short sword\\/a",
+          "chest": true
         },
         {
-          "gamelink": "\\aITEM -226353404 1995898489:Advanced Artisan Volume 3\\/a",
+          "gamelink": "\\aITEM -921260083 1810690739:Double Shot (Adept I)\\/a",
           "chest": true
         },
         {
@@ -112,16 +138,8 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1900387289 668888967:bronze knuckles\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -921260083 1810690739:Double Shot (Adept I)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -535538128 1781778535:bronze short sword\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 2006611716 1669346638:a vial of mucus\\/a",
+          "chest": false
         }
       ]
     },
@@ -142,11 +160,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 2006611716 1669346638:a vial of mucus\\/a",
+          "gamelink": "\\aITEM 1296545647 -923685626:a slug antenna\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1296545647 -923685626:a slug antenna\\/a",
+          "gamelink": "\\aITEM 2006611716 1669346638:a vial of mucus\\/a",
           "chest": false
         }
       ]
@@ -179,6 +197,12 @@
       ]
     },
     {
+      "name": "a faerie guardian",
+      "utterances": [
+        "Now who will I play pranks on?"
+      ]
+    },
+    {
       "name": "Ferius Mentus",
       "race": [
         "human"
@@ -198,6 +222,13 @@
         "Did you get the frogs?",
         "Ah, perfect! Thanks! So much nicer than that one who ran off earlier. Thank you.",
         "If I can perfect this, it may be amazingly useful."
+      ]
+    },
+    {
+      "name": "a greater bog faerie",
+      "utterances": [
+        "Trick or trick!  Time to treat... Myself!",
+        "Now who will I play pranks on?"
       ]
     },
     {
@@ -342,16 +373,16 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1659113820 446323017:rawhide leather pelt\\/a",
-          "chest": false
+          "gamelink": "\\aITEM -311462812 1191822828:malachite earring\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 216783527 -145256761:Minor Recovery (Adept I)\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -311462812 1191822828:malachite earring\\/a",
-          "chest": true
+          "gamelink": "\\aITEM -1659113820 446323017:rawhide leather pelt\\/a",
+          "chest": false
         }
       ]
     },
@@ -385,37 +416,6 @@
         "628.61,-33.53,452.40",
         "625.21,-33.23,439.24",
         "630.22,-32.97,430.36"
-      ]
-    },
-    {
-      "name": "a bog faerie",
-      "utterances": [
-        "Grin and bear the beating!",
-        "Trick or trick!  Time to treat... Myself!",
-        "Now who will I play pranks on?"
-      ]
-    },
-    {
-      "name": "a Bloodsaber watcher",
-      "utterances": [
-        "Me going to eat your kidney first.",
-        "I'm gonna give you a smile like ol' one tooth!",
-        "Is this supposed to hurt?",
-        "Not nice to interrupt dinner.",
-        "Come back you coward! I'm not dead yet."
-      ]
-    },
-    {
-      "name": "a faerie guardian",
-      "utterances": [
-        "Now who will I play pranks on?"
-      ]
-    },
-    {
-      "name": "a greater bog faerie",
-      "utterances": [
-        "Trick or trick!  Time to treat... Myself!",
-        "Now who will I play pranks on?"
       ]
     }
   ],

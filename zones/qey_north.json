@@ -9,23 +9,23 @@
   ],
   "connections": [
     {
-      "key": "qey_tradeskill01_qey_north_ironforge",
-      "location": "487.52,-19.72,-379.37"
-    },
-    {
-      "key": "qey_elddar",
-      "location": "508.51,-21.38,-286.28"
+      "key": "antonica"
     },
     {
       "key": "qey_catacomb01",
       "location": "443.33,-16.50,85.20"
     },
     {
-      "key": "antonica"
+      "key": "qey_elddar",
+      "location": "508.51,-21.38,-286.28"
     },
     {
       "key": "qey_south",
       "location": "393.02,-21.23,135.79"
+    },
+    {
+      "key": "qey_tradeskill01_qey_north_ironforge",
+      "location": "487.52,-19.72,-379.37"
     }
   ],
   "objects": [
@@ -432,6 +432,14 @@
       "store_template": "alchemist"
     },
     {
+      "name": "Captain Lovallo",
+      "utterances": [
+        "Those gnolls don't scare me!  Well, maybe just a little.",
+        "Who would have known that one's paws could become so stained from pie?",
+        "I keep my wit as sharp as my claws.  I never know which one I will need to rely on. "
+      ]
+    },
+    {
       "name": "Captain Woug",
       "race": [
         "human"
@@ -609,6 +617,12 @@
       ]
     },
     {
+      "name": "Elbow",
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+      ]
+    },
+    {
       "name": "Elsabethia Hartsunder",
       "race": [
         "human"
@@ -693,6 +707,14 @@
       "store_template": "bowyer"
     },
     {
+      "name": "Fob Subbletog",
+      "utterances": [
+        "If a gear is lost in a forest and no one can find it, did it ever exist to begin with?",
+        "Wouldn't it be great if fruit was explosive?  It would be a wonderful power source and delicious at the same time!",
+        "For every invention there is an equally opposite explosion."
+      ]
+    },
+    {
       "name": "Frubbuppa Bogstomper",
       "race": [
         "froglok"
@@ -755,6 +777,13 @@
         "351.09,-20.99,151.07"
       ],
       "store_template": "bartender"
+    },
+    {
+      "name": "Janessa",
+      "utterances": [
+        "Tell me, do you prefer Halfling or Elven cuisine?  I myself have a hard time deciding between the two.",
+        "Please mind the plates, they're very hot."
+      ]
     },
     {
       "name": "Jo Ironshield",
@@ -835,6 +864,14 @@
       ]
     },
     {
+      "name": "Kyla Roundwillow",
+      "utterances": [
+        "If a thing isn't worth saying, you sing it.",
+        "Get the wash, get the wash.  This whole city would fall apart if I didn't deliver the clothes on time.  ",
+        "Do you like muffins?  Muffins are my favorite, I eat them every chance I get."
+      ]
+    },
+    {
       "name": "Lodo Bightn",
       "race": [
         "halfling"
@@ -844,6 +881,12 @@
       ],
       "locations": [
         "340.4,-26.99,156.43"
+      ]
+    },
+    {
+      "name": "Lord Drystan Ironforge",
+      "utterances": [
+        "As a citizen of the mighty city, Qeynos, I greet you openly."
       ]
     },
     {
@@ -1438,6 +1481,21 @@
       ]
     },
     {
+      "name": "Scholar Demini",
+      "utterances": [
+        "Yes, you must be one of those adventurers, all right.  If the stories about you folks are true, then I'm sure you're willing to undertake a dangerous task just for the thrill of it. Am I right?",
+        "Oh yes, the mysterious items of mystical magic part!  Yes, yes, I know all about that too!  You see, my name is Demini, and I'm a historian who has read all about you people.  ",
+        "What am I thinking?  I'm not even doing this right!  Brave adventurer, I have a noble quest for you.  In return for you undertaking this dangerous task, I shall grant you a mysterious artifact from my personal collection.  How's that?",
+        "Oh, oh, yes.  Well, you see, I've been researching the Sage of Ages, and I purchased a book written by one of his attendants.  The problem is that the book is missing some pages.  According to the traveler I purchased it from, the book was found in Antonica."
+      ]
+    },
+    {
+      "name": "The Seeress",
+      "utterances": [
+        "Welcome to the city, newcomer.  All are welcome in the court of Antonia Bayle."
+      ]
+    },
+    {
       "name": "Sergeant-at-Arms Ironcast",
       "race": [
         "dwarf"
@@ -1557,6 +1615,12 @@
       ]
     },
     {
+      "name": "Trilin",
+      "utterances": [
+        "The Qeynos Guard demands from its recruits adherence to a code of honor and justice."
+      ]
+    },
+    {
       "name": "Walter Channing",
       "race": [
         "human"
@@ -1569,70 +1633,6 @@
         "407.7,-20.72,-192.93"
       ],
       "store_template": "armorsmith"
-    },
-    {
-      "name": "Lord Drystan Ironforge",
-      "utterances": [
-        "As a citizen of the mighty city, Qeynos, I greet you openly."
-      ]
-    },
-    {
-      "name": "The Seeress",
-      "utterances": [
-        "Welcome to the city, newcomer.  All are welcome in the court of Antonia Bayle."
-      ]
-    },
-    {
-      "name": "Elbow",
-      "utterances": [
-        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
-      ]
-    },
-    {
-      "name": "Scholar Demini",
-      "utterances": [
-        "Yes, you must be one of those adventurers, all right.  If the stories about you folks are true, then I'm sure you're willing to undertake a dangerous task just for the thrill of it. Am I right?",
-        "Oh yes, the mysterious items of mystical magic part!  Yes, yes, I know all about that too!  You see, my name is Demini, and I'm a historian who has read all about you people.  ",
-        "What am I thinking?  I'm not even doing this right!  Brave adventurer, I have a noble quest for you.  In return for you undertaking this dangerous task, I shall grant you a mysterious artifact from my personal collection.  How's that?",
-        "Oh, oh, yes.  Well, you see, I've been researching the Sage of Ages, and I purchased a book written by one of his attendants.  The problem is that the book is missing some pages.  According to the traveler I purchased it from, the book was found in Antonica."
-      ]
-    },
-    {
-      "name": "Captain Lovallo",
-      "utterances": [
-        "Those gnolls don't scare me!  Well, maybe just a little.",
-        "Who would have known that one's paws could become so stained from pie?",
-        "I keep my wit as sharp as my claws.  I never know which one I will need to rely on. "
-      ]
-    },
-    {
-      "name": "Janessa",
-      "utterances": [
-        "Tell me, do you prefer Halfling or Elven cuisine?  I myself have a hard time deciding between the two.",
-        "Please mind the plates, they're very hot."
-      ]
-    },
-    {
-      "name": "Fob Subbletog",
-      "utterances": [
-        "If a gear is lost in a forest and no one can find it, did it ever exist to begin with?",
-        "Wouldn't it be great if fruit was explosive?  It would be a wonderful power source and delicious at the same time!",
-        "For every invention there is an equally opposite explosion."
-      ]
-    },
-    {
-      "name": "Kyla Roundwillow",
-      "utterances": [
-        "If a thing isn't worth saying, you sing it.",
-        "Get the wash, get the wash.  This whole city would fall apart if I didn't deliver the clothes on time.  ",
-        "Do you like muffins?  Muffins are my favorite, I eat them every chance I get."
-      ]
-    },
-    {
-      "name": "Trilin",
-      "utterances": [
-        "The Qeynos Guard demands from its recruits adherence to a code of honor and justice."
-      ]
     }
   ]
 }

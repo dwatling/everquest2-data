@@ -16,7 +16,22 @@
       "key": "darklight_wood"
     },
     {
-      "key": "shard_of_hate"
+      "key": "exile_city"
+    },
+    {
+      "key": "exp03_rgn_butcherblock"
+    },
+    {
+      "key": "fallengate_epic01_boss_solo_nektulos"
+    },
+    {
+      "key": "live_haunted_cauldroncove"
+    },
+    {
+      "key": "mod01_dun_tombs_of_night_event01"
+    },
+    {
+      "key": "mod01_dun_tombs_of_night_playground"
     },
     {
       "key": "nektropos_castle"
@@ -25,10 +40,10 @@
       "key": "nektropos_castle_final"
     },
     {
-      "key": "mod01_dun_tombs_of_night_playground"
+      "key": "nektulos_epic01_cauldroncove"
     },
     {
-      "key": "mod01_dun_tombs_of_night_event01"
+      "key": "nektulos_epic01_cauldroncove_the_witches_cove"
     },
     {
       "key": "nektulos_mini01_crypt01"
@@ -40,22 +55,7 @@
       "key": "nektulos_mini03_solo"
     },
     {
-      "key": "nektulos_epic01_cauldroncove"
-    },
-    {
-      "key": "nektulos_epic01_cauldroncove_the_witches_cove"
-    },
-    {
-      "key": "exile_city"
-    },
-    {
-      "key": "exp03_rgn_butcherblock"
-    },
-    {
-      "key": "live_haunted_cauldroncove"
-    },
-    {
-      "key": "fallengate_epic01_boss_solo_nektulos"
+      "key": "shard_of_hate"
     }
   ],
   "npcs": [
@@ -145,11 +145,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 915367656 636238602:a vial of spectral essence\\/a",
+          "gamelink": "\\aITEM 493224880 -714950344:a ghost remnant memory\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 493224880 -714950344:a ghost remnant memory\\/a",
+          "gamelink": "\\aITEM 915367656 636238602:a vial of spectral essence\\/a",
           "chest": false
         }
       ],
@@ -203,12 +203,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1706685597 -300337142:clipped owlbear feather\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1241011086 -1583820418:Bear Claw\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1706685597 -300337142:clipped owlbear feather\\/a",
+          "chest": true
         }
       ]
     },
@@ -316,15 +316,15 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -2073079286 -33985810:a ghost phantasmal echo\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 493224880 -714950344:a ghost remnant memory\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2073079286 -33985810:a ghost phantasmal echo\\/a",
           "chest": false
         }
       ]
@@ -500,7 +500,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -720942830 -1560342492:a treant bark\\/a",
+          "gamelink": "\\aITEM 948898575 -1319863439:Charred Bone - Left Tibia\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1515551044 1004600881:a chunk of timber\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1426650769 -1162542819:a clump of fungus\\/a",
           "chest": false
         },
         {
@@ -508,7 +516,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1515551044 1004600881:a chunk of timber\\/a",
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 303095370 1141724326:one too many\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -720942830 -1560342492:a treant bark\\/a",
           "chest": false
         },
         {
@@ -520,32 +536,16 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 990455870 -548010639:a treant leaf\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1426650769 -1162542819:a clump of fungus\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 948898575 -1319863439:Charred Bone - Left Tibia\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1414122065 -1267645977:a treant root\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -823169464 1810761809:treant hard candy\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "gamelink": "\\aITEM 990455870 -548010639:a treant leaf\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 303095370 1141724326:one too many\\/a",
-          "chest": true
+          "gamelink": "\\aITEM -1414122065 -1267645977:a treant root\\/a",
+          "chest": false
         }
       ]
     },
@@ -951,11 +951,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 474339348 384324053:an insect wing\\/a",
+          "gamelink": "\\aITEM 157473402 1750079734:an insect stinger\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 157473402 1750079734:an insect stinger\\/a",
+          "gamelink": "\\aITEM 474339348 384324053:an insect wing\\/a",
           "chest": false
         }
       ]
@@ -1002,15 +1002,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1555822525 859721010:Opal Scrying Stone\\/a",
-          "chest": false
+          "gamelink": "\\aITEM 948898575 -1319863439:Charred Bone - Left Tibia\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 1105778909 -1684024372:a chunk of timber\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
           "chest": false
         },
         {
@@ -1018,24 +1014,28 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1414122065 -1267645977:a treant root\\/a",
+          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1343104170 1056608866:a finely hammered blade\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 948898575 -1319863439:Charred Bone - Left Tibia\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 1555822525 859721010:Opal Scrying Stone\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 29919963 -24410400:Three Black Rings\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -1343104170 1056608866:a finely hammered blade\\/a",
-          "chest": true
+          "gamelink": "\\aITEM -1414122065 -1267645977:a treant root\\/a",
+          "chest": false
         }
       ]
     },
@@ -1169,12 +1169,12 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1317754168 1332130336:Opal Amulet\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -1840724252 1428185358:Charred Bone - Right Tibia\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1317754168 1332130336:Opal Amulet\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 565,
@@ -1197,12 +1197,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -1021718107 -1931005735:Charred Bone - Ribcage\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
         }
       ]
     },
@@ -1249,7 +1249,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "gamelink": "\\aITEM 1019381428 -593234954:bag of bone dust\\/a",
           "chest": false
         },
         {
@@ -1257,7 +1257,7 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1019381428 -593234954:bag of bone dust\\/a",
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
           "chest": false
         }
       ],
@@ -1298,11 +1298,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
           "chest": false
         }
       ]
@@ -1338,7 +1338,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "gamelink": "\\aITEM 1019381428 -593234954:bag of bone dust\\/a",
           "chest": false
         },
         {
@@ -1350,7 +1350,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1019381428 -593234954:bag of bone dust\\/a",
+          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
           "chest": false
         }
       ],
@@ -1477,19 +1477,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 492368361 1735703568:an old key\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 32254955 -761269504:Charred Bone - Left Femur\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 29919963 -24410400:Three Black Rings\\/a",
+          "gamelink": "\\aITEM 661999661 -1196246600:a cold kukri\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 661999661 -1196246600:a cold kukri\\/a",
+          "gamelink": "\\aITEM 492368361 1735703568:an old key\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 29919963 -24410400:Three Black Rings\\/a",
           "chest": true
         }
       ]
@@ -1642,11 +1642,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 366774295 -1953251951:premature\\/a",
+          "gamelink": "\\aITEM -1840724252 1428185358:Charred Bone - Right Tibia\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -1840724252 1428185358:Charred Bone - Right Tibia\\/a",
+          "gamelink": "\\aITEM 366774295 -1953251951:premature\\/a",
           "chest": true
         }
       ]
@@ -1779,15 +1779,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 29919963 -24410400:Three Black Rings\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
           "chest": false
         },
         {
@@ -1795,8 +1787,16 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 29919963 -24410400:Three Black Rings\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 87,
@@ -1978,15 +1978,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -953055295 -1080640652:a giants beard\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 942338143 -894051179:application for citizenship\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
           "chest": false
         },
         {
@@ -1994,7 +1990,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
+          "gamelink": "\\aITEM -953055295 -1080640652:a giants beard\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
           "chest": false
         }
       ],
@@ -2234,11 +2234,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 915367656 636238602:a vial of spectral essence\\/a",
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "gamelink": "\\aITEM 915367656 636238602:a vial of spectral essence\\/a",
           "chest": false
         }
       ]
@@ -2257,15 +2257,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -15032031 1384694691:Fortify Elements II (Adept)\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 1134475843 -1884128155:Group of Pine Needles\\/a",
           "chest": true
         },
         {
           "gamelink": "\\aITEM -337872247 1975288810:Infused Student's Leggings\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -15032031 1384694691:Fortify Elements II (Adept)\\/a",
           "chest": true
         },
         {
@@ -2319,11 +2319,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 915367656 636238602:a vial of spectral essence\\/a",
+          "gamelink": "\\aITEM 493224880 -714950344:a ghost remnant memory\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 493224880 -714950344:a ghost remnant memory\\/a",
+          "gamelink": "\\aITEM 915367656 636238602:a vial of spectral essence\\/a",
           "chest": false
         }
       ]
@@ -2563,15 +2563,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 492368361 1735703568:an old key\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "gamelink": "\\aITEM 685460663 -56890563:a goblin claw\\/a",
           "chest": false
         },
         {
@@ -2579,15 +2575,19 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM -815570512 1462756580:a goblin spine\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 492368361 1735703568:an old key\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -946289874 -1251160878:simple arcane formula\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -815570512 1462756580:a goblin spine\\/a",
           "chest": false
         },
         {
@@ -2595,7 +2595,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 685460663 -56890563:a goblin claw\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -2625,23 +2625,23 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1608285217 265160279:a goblin tooth\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1699090909 -1328714666:Broken Vessel\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "gamelink": "\\aITEM 1608285217 265160279:a goblin tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
           "chest": false
         }
       ],
@@ -3035,11 +3035,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 512790155 320744539:crab meat\\/a",
+          "gamelink": "\\aITEM -2136398151 1163100270:a crab claw\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -2136398151 1163100270:a crab claw\\/a",
+          "gamelink": "\\aITEM 512790155 320744539:crab meat\\/a",
           "chest": false
         },
         {
@@ -3321,35 +3321,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 31755782 1098695081:a giant tooth\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -898368698 -1285985171:strange dark powder\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -430136575 -2121467061:a giant ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -269816022 1680276565:a giant toe\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -953055295 -1080640652:a giants beard\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
         },
         {
@@ -3357,7 +3329,35 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -953055295 -1080640652:a giants beard\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -269816022 1680276565:a giant toe\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 31755782 1098695081:a giant tooth\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1994636944 1314615482:a giant whisker\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -898368698 -1285985171:strange dark powder\\/a",
           "chest": false
         }
       ]
@@ -3462,15 +3462,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 595293245 -1286279070:Magma Chamber III (Adept)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 7601189 -2024119295:impure chunk of arcane stone\\/a",
+          "gamelink": "\\aITEM -61203924 -290617416:a golem sentience leash\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -61203924 -290617416:a golem sentience leash\\/a",
+          "gamelink": "\\aITEM 7601189 -2024119295:impure chunk of arcane stone\\/a",
           "chest": false
         },
         {
@@ -3480,6 +3476,10 @@
         {
           "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 595293245 -1286279070:Magma Chamber III (Adept)\\/a",
+          "chest": true
         }
       ]
     },
@@ -3628,6 +3628,14 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -1515551044 1004600881:a chunk of timber\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1426650769 -1162542819:a clump of fungus\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
           "chest": false
         },
@@ -3636,19 +3644,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1515551044 1004600881:a chunk of timber\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1577027196 -1331922931:a treant branch\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 303095370 1141724326:one too many\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1426650769 -1162542819:a clump of fungus\\/a",
+          "gamelink": "\\aITEM -1577027196 -1331922931:a treant branch\\/a",
           "chest": false
         }
       ]
@@ -3669,11 +3669,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ]
@@ -3735,11 +3735,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1950789536 -565531029:wooden splinter\\/a",
+          "gamelink": "\\aITEM 1117322001 1866678792:fungus\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1117322001 1866678792:fungus\\/a",
+          "gamelink": "\\aITEM 1950789536 -565531029:wooden splinter\\/a",
           "chest": false
         }
       ]
@@ -4147,15 +4147,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 718179049 760842906:Transference Directive\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -62429073 -449997272:a shadowman vortex ripple\\/a",
           "chest": false
         },
         {
@@ -4163,31 +4155,39 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 306776387 -1819980222:a shadowman swirling shadow\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 29919963 -24410400:Three Black Rings\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 366774295 -1953251951:premature\\/a",
           "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1171037491 -842416485:Shadow Rose\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1958717191 -126204865:a shadowman planar fiber\\/a",
-          "chest": false
         },
         {
           "gamelink": "\\aITEM 1828222462 1612045278:a shadowman aspect of shadow\\/a",
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -1958717191 -126204865:a shadowman planar fiber\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 306776387 -1819980222:a shadowman swirling shadow\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1699625429 567562697:a shadowman void kernel\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -62429073 -449997272:a shadowman vortex ripple\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1171037491 -842416485:Shadow Rose\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 29919963 -24410400:Three Black Rings\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 718179049 760842906:Transference Directive\\/a",
           "chest": false
         },
         {
@@ -4413,11 +4413,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1296364617 1592738683:a mucous encrusted tendril\\/a",
+          "gamelink": "\\aITEM 1365385384 1432105181:an accumulation of plasma\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1365385384 1432105181:an accumulation of plasma\\/a",
+          "gamelink": "\\aITEM -1296364617 1592738683:a mucous encrusted tendril\\/a",
           "chest": false
         }
       ]
@@ -4612,15 +4612,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -658420854 385425044:ancient copper coin\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -4712,7 +4712,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
           "chest": false
         },
         {
@@ -4720,7 +4720,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -5063,44 +5063,15 @@
   ],
   "shinies": [
     {
-      "gamelink": "\\aITEM -2138407993 1925374679:Chewing Gum\\/a",
-      "locations": [
-        "754.32,1.05,-193.50"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 2106803051 -1585298617:Cupcake\\/a",
-      "locations": [
-        "822.23,0.92,-228.52",
-        "847.81,1.15,-200.59"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -295014750 -1567603847:Gummy Worms\\/a",
-      "locations": [
-        "807.11,-0.90,-143.78"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1998903051 -1094405532:Spine Tingle\\/a",
-      "locations": [
-        "687.40,-0.87,-152.99",
-        "782.34,2.43,-160.40",
-        "877.16,-0.78,-224.08",
-        "734.54,-0.57,-267.00",
-        "755.23,3.71,-268.07"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 224916200 2011328784:Sudden Fright\\/a",
-      "locations": [
-        "727.59,-0.90,-145.28"
-      ]
-    },
-    {
       "gamelink": "\\aITEM 499501274 537092120:blue nektulos pine needle\\/a",
       "locations": [
         "962.95,0.00,-282.08"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -2138407993 1925374679:Chewing Gum\\/a",
+      "locations": [
+        "754.32,1.05,-193.50"
       ]
     },
     {
@@ -5141,6 +5112,13 @@
       ]
     },
     {
+      "gamelink": "\\aITEM 2106803051 -1585298617:Cupcake\\/a",
+      "locations": [
+        "822.23,0.92,-228.52",
+        "847.81,1.15,-200.59"
+      ]
+    },
+    {
       "gamelink": "\\aITEM -807039365 1532502838:dark brown nektulos pine needle\\/a",
       "locations": [
         "-526.73,60.37,-1552.49"
@@ -5156,6 +5134,12 @@
       "gamelink": "\\aITEM -1475232015 2140803050:green nektulos pine needle\\/a",
       "locations": [
         "-271.44,2.00,-451.37"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -295014750 -1567603847:Gummy Worms\\/a",
+      "locations": [
+        "807.11,-0.90,-143.78"
       ]
     },
     {
@@ -5186,6 +5170,16 @@
       ]
     },
     {
+      "gamelink": "\\aITEM 1998903051 -1094405532:Spine Tingle\\/a",
+      "locations": [
+        "687.40,-0.87,-152.99",
+        "782.34,2.43,-160.40",
+        "877.16,-0.78,-224.08",
+        "734.54,-0.57,-267.00",
+        "755.23,3.71,-268.07"
+      ]
+    },
+    {
       "gamelink": "\\aITEM 833029593 -519945908:spotted grey spider\\/a",
       "locations": [
         "-9.07,2.00,-403.86"
@@ -5195,6 +5189,12 @@
       "gamelink": "\\aITEM -1578966196 228827806:spotted red spider\\/a",
       "locations": [
         "-1291.26,120.00,-1959.03"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 224916200 2011328784:Sudden Fright\\/a",
+      "locations": [
+        "727.59,-0.90,-145.28"
       ]
     },
     {

@@ -154,7 +154,11 @@
         "1037.90,-27.70,-912.00",
         "1044.21,-24.58,-894.56",
         "971.25,-24.71,-868.78",
-        "973.14,-21.60,-817.75"
+        "973.14,-21.60,-817.75",
+        "959.54,-24.97,-853.39",
+        "1,005.68,-25.76,-900.86",
+        "989.75,-25.13,-886.19",
+        "1,020.65,-25.20,-894.33"
       ],
       "utterances": [
         "Sees us, did we? Must not let you talk then.",
@@ -172,6 +176,10 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1202278372 -1670721896:advanced craftsman volume 10\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM -1255926754 -1670363261:Advanced Scholar Volume 10\\/a",
           "chest": true
         },
@@ -182,6 +190,12 @@
         {
           "gamelink": "\\aITEM 812378501 -1056832727:Wolf-hide Boots\\/a",
           "chest": true
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Academy of Arcane Science",
+          "value": -100
         }
       ]
     },
@@ -301,7 +315,8 @@
         "1046.24,-9.91,-773.84",
         "1039.21,-10.25,-767.63",
         "1065.26,-9.72,-786.21",
-        "964.15,-25.34,-865.44"
+        "964.15,-25.34,-865.44",
+        "1,029.63,-26.15,-902.30"
       ],
       "utterances": [
         "Sees us, did we? Must not let you talk then.",
@@ -334,7 +349,21 @@
         }
       ],
       "drop_coin_min": 17,
-      "drop_coin_max": 214
+      "drop_coin_max": 214,
+      "faction_changes": [
+        {
+          "name": "The Academy of Arcane Science",
+          "value": -100
+        },
+        {
+          "name": "The Qeynos Guard",
+          "value": 50
+        },
+        {
+          "name": "The Concordium",
+          "value": 50
+        }
+      ]
     },
     {
       "name": "a bonecutter fish",
@@ -726,11 +755,22 @@
         "950.00,-28.50,-590.52",
         "966.78,-27.11,-596.46",
         "953.49,-27.16,-596.69",
-        "955.62,-27.11,-612.88"
+        "955.62,-27.11,-612.88",
+        "944.49,-27.28,-587.66",
+        "945.56,-28.97,-602.91",
+        "966.66,-27.31,-614.74"
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1080130292 -1731950312:bronze hatchet\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 63211282 2010308565:Kick (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -275019547 1525240433:tin tulwar\\/a",
           "chest": true
         },
         {
@@ -880,7 +920,9 @@
         "1031.44,-19.79,-599.89",
         "1026.43,-21.77,-598.82",
         "1036.00,-20.27,-606.73",
-        "1041.45,-20.68,-598.94"
+        "1041.45,-20.68,-598.94",
+        "1,018.99,-22.21,-578.93",
+        "1,027.56,-21.97,-576.69"
       ],
       "drops": [
         {
@@ -910,6 +952,12 @@
         {
           "gamelink": "\\aITEM 1166576126 -1541417864:waxed tunic\\/a",
           "chest": true
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Concordium",
+          "value": 50
         }
       ]
     },
@@ -1026,7 +1074,8 @@
         "936.07,-30.80,-888.70",
         "968.99,-29.65,-899.99",
         "1050.08,-30.17,-940.32",
-        "1029.34,-31.57,-922.83"
+        "1029.34,-31.57,-922.83",
+        "1,006.82,-26.12,-905.08"
       ],
       "utterances": [
         "Dying didn't feel good the first time.",
@@ -1042,10 +1091,20 @@
         {
           "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1261960677:small decaying bone\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 4,
-      "drop_coin_max": 40
+      "drop_coin_max": 40,
+      "faction_changes": [
+        {
+          "name": "The Academy of Arcane Science",
+          "value": -100
+        }
+      ]
     },
     {
       "name": "The Spectral Headmaster",
@@ -1154,7 +1213,14 @@
         "976.10,-29.65,-595.63",
         "983.00,-26.30,-622.00",
         "965.29,-21.88,-641.35",
-        "941.44,-26.25,-624.39"
+        "941.44,-26.25,-624.39",
+        "949.54,-29.44,-594.31",
+        "953.78,-28.64,-625.49",
+        "962.43,-27.03,-619.73",
+        "969.32,-27.02,-603.29",
+        "969.32,-33.02,-603.29",
+        "969.29,-30.81,-595.37",
+        "965.12,-27.08,-613.22"
       ],
       "drops": [
         {
@@ -1162,7 +1228,15 @@
           "chest": true
         },
         {
+          "gamelink": "\\aITEM 965654835 -402176760:Evade (Adept I)\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 785690852 665888271:Sand Blast (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -624188016 2027814957:tin kukri\\/a",
           "chest": true
         },
         {
@@ -1367,9 +1441,16 @@
         "1023.32,-21.95,-578.40",
         "966.76,-24.06,-564.36",
         "985.53,-24.60,-575.43",
-        "992.65,-24.37,-590.74"
+        "992.65,-24.37,-590.74",
+        "1,002.83,-22.07,-566.26",
+        "1,024.89,-21.93,-576.13",
+        "1,010.69,-23.48,-594.39"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM 467778097 -1617601716:Advanced Artisan Volume 5\\/a",
+          "chest": true
+        },
         {
           "gamelink": "\\aITEM 1284315391 1116309167:Brawler's Stance (Adept I)\\/a",
           "chest": true
@@ -1403,6 +1484,12 @@
       ]
     },
     {
+      "gamelink": "\\aITEM -1832140126 1193284294:chipped shard of abjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1331551958 -1699344718:chipped shard of channeling\\/a"
+    },
+    {
       "gamelink": "\\aITEM 164202245 -601729183:chipped shard of divination\\/a",
       "locations": [
         "941.93,-20.00,-637.84"
@@ -1417,6 +1504,21 @@
         "987.27,-25.00,-891.33",
         "1029.12,-26.00,-904.12"
       ]
+    },
+    {
+      "gamelink": "\\aITEM -1571977034 771614206:cracked barbarian bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1375121630 1171599299:cracked froglok bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 381703662 1246298828:cracked gnome bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 518819436 909311260:plain blue butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1827919267 -43288604:plain purple butterfly\\/a"
     },
     {
       "gamelink": "\\aITEM -327615186 -1226570096:plain violet butterfly\\/a"
@@ -1434,6 +1536,9 @@
       ]
     },
     {
+      "gamelink": "\\aITEM -1341170799 308633262:scuffed shard of abjuration\\/a"
+    },
+    {
       "gamelink": "\\aITEM 1981956052 -733463829:scuffed shard of alteration\\/a",
       "locations": [
         "966.84,-18.00,-675.00"
@@ -1446,13 +1551,55 @@
       ]
     },
     {
+      "gamelink": "\\aITEM 722279990 -1989731575:scuffed shard of divination\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -686869063 2018792859:shattered barbarian bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -672434816 285511061:shattered dark elf bone fragment\\/a"
+    },
+    {
       "gamelink": "\\aITEM -1389794325 -2065648483:shattered dwarf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 211153600 898123469:shattered erudite bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM 1306389734 920109425:shattered froglok bone fragment\\/a"
     },
     {
+      "gamelink": "\\aITEM -107810075 -1730039780:shattered gnoll bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1722451200 1090205410:shattered gnome bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1039265482 989022440:shattered half elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1526825307 2113563307:shattered human bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1433267108 -1162128573:shattered kerra bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1744325928 1349035949:shattered ogre bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1576919798 399529188:shattered ratonga bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1004669040 447686829:shattered troll bone fragment\\/a"
+    },
+    {
       "gamelink": "\\aITEM 792936304 790984077:spotted blue butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -920795723 769305171:spotted purple butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -140875129 -614209625:striped purple butterfly\\/a"
     },
     {
       "gamelink": "\\aITEM -1997619724 -2076063132:striped violet butterfly\\/a",

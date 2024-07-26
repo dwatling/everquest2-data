@@ -49,11 +49,68 @@
     },
     {
       "name": "a bog faerie",
+      "locations": [
+        "578.46,-33.79,494.29",
+        "595.47,-34.01,509.50",
+        "593.24,-31.12,564.91",
+        "594.77,-32.94,550.92",
+        "610.20,-32.33,554.64",
+        "585.67,-33.20,489.48",
+        "621.00,-33.00,497.00",
+        "619.33,-33.00,491.00",
+        "611.69,-33.54,494.73",
+        "605.60,-33.56,496.37",
+        "597.20,-33.92,497.99",
+        "617.24,-31.41,626.64",
+        "629.80,-32.46,616.05",
+        "623.03,-27.40,647.80",
+        "605.86,-28.59,633.29",
+        "603.05,-28.05,534.85",
+        "586.04,-33.29,530.29",
+        "600.46,-30.94,616.32",
+        "589.52,-31.07,594.53",
+        "632.92,-33.66,563.05",
+        "584.80,-31.18,561.52",
+        "586.73,-33.66,519.92",
+        "584.10,-28.04,538.91"
+      ],
       "utterances": [
         "Grin and bear the beating!",
         "Trick or trick!  Time to treat... Myself!",
         "Now who will I play pranks on?"
-      ]
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1340122114 895932012:bronze symbol\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 976091221 1459092375:Fabric Patch\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2067929346 -483898265:a fairy antenna\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1583379081 -1463017611:a fairy essence\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1334963291 -129332497:a fairy eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1394122634 -257532895:Fiery Carnelian\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1385603239 -1287925213:a vial of fairy blood\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 4
     },
     {
       "name": "a bog sludge",
@@ -72,7 +129,12 @@
         "688.41,-34.41,440.16",
         "694.10,-33.06,465.32",
         "764.18,-33.37,404.75",
-        "587.60,-33.48,459.58"
+        "587.60,-33.48,459.58",
+        "680.00,-33.70,446.84",
+        "688.00,-32.92,402.97",
+        "596.73,-33.39,460.19",
+        "680.81,-33.22,406.60",
+        "667.74,-33.95,444.97"
       ],
       "drops": [
         {
@@ -226,6 +288,9 @@
     },
     {
       "name": "a greater bog faerie",
+      "locations": [
+        "796.72,-33.18,466.05"
+      ],
       "utterances": [
         "Trick or trick!  Time to treat... Myself!",
         "Now who will I play pranks on?"
@@ -287,6 +352,38 @@
         "He may have bodyguards, but I'm sure you can handle it.",
         "Have you disposed of Dentfang?",
         "Good. With him gone the gnoll presence here will not be able to regain strength. They will flee or be killed. You have done a great thing for us, <player name>. I appreciate it more than you know. And Qeynos, too, appreciates it."
+      ]
+    },
+    {
+      "name": "a marsh mauler",
+      "locations": [
+        "770.37,-33.23,519.16"
+      ]
+    },
+    {
+      "name": "a mist stalker",
+      "locations": [
+        "754.65,-32.67,492.40",
+        "791.53,-33.22,463.73"
+      ]
+    },
+    {
+      "name": "a muck toad",
+      "locations": [
+        "678.03,-33.36,488.77",
+        "666.03,-33.05,481.75",
+        "658.00,-34.00,496.00",
+        "652.61,-32.66,496.93"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 866891400 861249659:machinist's cape\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1329575188 1200982834:a vial of frog blood\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -356,6 +453,18 @@
       ]
     },
     {
+      "name": "Overseer Dentfang",
+      "locations": [
+        "785.00,-33.82,486.28"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Qeynos Guard",
+          "value": 50
+        }
+      ]
+    },
+    {
       "name": "a puny scavenger",
       "locations": [
         "671.02,-33.31,430.36",
@@ -387,6 +496,26 @@
       ]
     },
     {
+      "name": "a ravenous bog slug",
+      "locations": [
+        "623.00,-33.88,572.53",
+        "639.50,-32.83,640.01",
+        "598.00,-32.66,548.00"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -18133391 -778281693:Decree (Adept I)\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a refuse burrower",
+      "locations": [
+        "650.41,-33.94,602.69"
+      ]
+    },
+    {
       "name": "Rujiarmo Oolamein",
       "race": [
         "erudite"
@@ -415,22 +544,73 @@
       "locations": [
         "628.61,-33.53,452.40",
         "625.21,-33.23,439.24",
-        "630.22,-32.97,430.36"
+        "630.22,-32.97,430.36",
+        "704.60,-33.07,457.11",
+        "628.26,-34.84,519.27",
+        "693.83,-32.69,493.60",
+        "717.56,-33.62,461.26"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Qeynos Guard",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a toxic bog slug",
+      "locations": [
+        "704.00,-33.57,485.71",
+        "698.55,-32.85,489.74",
+        "715.21,-34.04,479.41"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2006611716 1669346638:a vial of mucus\\/a",
+          "chest": false
+        }
       ]
     }
   ],
   "shinies": [
     {
+      "gamelink": "\\aITEM -1868197541 -626008118:chipped shard of conjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1827919267 -43288604:plain purple butterfly\\/a"
+    },
+    {
       "gamelink": "\\aITEM -327615186 -1572251097:plain violet butterfly\\/a"
     },
     {
+      "gamelink": "\\aITEM -1450331100 1726103362:plain yellow butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1838761957 -806141222:scuffed shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 794244308 -1718389780:scuffed shard of conjuration\\/a"
+    },
+    {
       "gamelink": "\\aITEM -2008154588 -2059816185:scuffed shard of evocation\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -672434816 285511061:shattered dark elf bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM -1722451200 1090205410:shattered gnome bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM 1185753733 -1190212496:shattered high elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 2076496326 1196186978:shattered wood elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1234627898 1928890256:spotted violet butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -140875129 -614209625:striped purple butterfly\\/a"
     }
   ],
   "resourceNodes": [

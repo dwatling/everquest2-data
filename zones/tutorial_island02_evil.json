@@ -18,10 +18,27 @@
   "npcs": [
     {
       "name": "Anius Oakwind",
+      "locations": [
+        "-119.67,4.47,-37.25"
+      ],
       "utterances": [
         "They were weak!  I am not!",
         "Who disturbs my rest?",
         "They will join us in death..."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1394743414 1978503041:Heal Minion (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 965315134 -110279663:Oakwind's Maul\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 220303815 1408642818:a vial of spectral essence\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -642,7 +659,8 @@
       "name": "a fallen Tunarian",
       "level": 5,
       "locations": [
-        "-123.76,4.57,-44.73"
+        "-123.76,4.57,-44.73",
+        "-137.07,4.57,-56.92"
       ],
       "utterances": [
         "Who dares distrupt our final ceremony?",
@@ -661,7 +679,9 @@
           "gamelink": "\\aITEM 220303815 1408642818:a vial of spectral essence\\/a",
           "chest": false
         }
-      ]
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4
     },
     {
       "name": "a Field Investigator",
@@ -820,7 +840,9 @@
         "You cannot kill the dead.",
         "Die, Freeport scum!",
         "Decay will surround you."
-      ]
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4
     },
     {
       "name": "a large sand tortoise",
@@ -1562,6 +1584,9 @@
     },
     {
       "name": "a shipwrecked explorer",
+      "locations": [
+        "-97.55,-10.81,-15.77"
+      ],
       "utterances": [
         "Never too early to slumber in the grave.",
         "You cannot eliminate us!",
@@ -1585,7 +1610,7 @@
         "Final death comes at last."
       ],
       "drop_coin_min": 2,
-      "drop_coin_max": 2
+      "drop_coin_max": 3
     },
     {
       "name": "a shoal glider",
@@ -1721,7 +1746,16 @@
         "138.65,0.49,-175.07",
         "155.60,3.78,-142.22",
         "239.73,-3.90,-20.55",
-        "226.10,-3.83,-0.35"
+        "226.10,-3.83,-0.35",
+        "-108.85,4.29,-154.51",
+        "-97.59,4.39,-138.27",
+        "-107.40,4.48,-146.68"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1987273570 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -1729,7 +1763,9 @@
       "level": 4,
       "locations": [
         "-86.24,2.09,-236.09",
-        "204.68,0.86,-125.44"
+        "204.68,0.86,-125.44",
+        "-87.36,1.68,-182.09",
+        "-109.65,4.31,-157.58"
       ]
     },
     {
@@ -1745,9 +1781,19 @@
         "-59.32,2.05,-168.81",
         "-97.59,4.39,-138.27",
         "-109.72,4.29,-100.00",
-        "-60.44,13.56,-159.86"
+        "-60.44,13.56,-159.86",
+        "-110.53,4.50,-146.36",
+        "-115.62,3.69,-114.66"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM 252923125 652074171:Bristles (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -982875894 1086350915:canine saliva\\/a",
+          "chest": false
+        },
         {
           "gamelink": "\\aITEM -384518907 -1424034998:Undead Knight (Adept)\\/a",
           "chest": true
@@ -1997,12 +2043,20 @@
         "211.25,-0.75,-137.50",
         "241.23,-0.86,-144.60",
         "236.70,-4.79,-21.92",
-        "223.84,-3.86,-2.39"
+        "223.84,-3.86,-2.39",
+        "-98.13,4.39,-144.03",
+        "-108.85,4.29,-154.51",
+        "-92.68,4.23,-125.41",
+        "-106.75,4.40,-148.31"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -314315859 -974327301:Beastmaster Sleeves\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
@@ -2018,7 +2072,9 @@
         "-84.03,1.87,-229.11",
         "203.05,0.76,-127.31",
         "216.30,-0.89,-72.19",
-        "281.73,-4.35,-0.08"
+        "281.73,-4.35,-0.08",
+        "-85.51,1.67,-182.21",
+        "-110.53,4.30,-156.03"
       ]
     },
     {
@@ -2030,7 +2086,8 @@
         "-15.63,3.08,-175.02",
         "-11.96,2.13,-138.24",
         "-1.24,2.05,-209.36",
-        "-47.12,2.14,-176.70"
+        "-47.12,2.14,-176.70",
+        "-87.44,1.88,-221.28"
       ],
       "drop_coin_min": 3,
       "drop_coin_max": 3
@@ -2040,7 +2097,8 @@
       "level": 5,
       "aggressive": true,
       "locations": [
-        "-129.15,4.54,-37.43"
+        "-129.15,4.54,-37.43",
+        "-123.27,4.52,-49.60"
       ]
     },
     {
@@ -2070,7 +2128,9 @@
         "174.36,1.16,-2.70",
         "191.83,1.86,23.83",
         "170.50,1.37,35.50",
-        "172.66,1.16,29.10"
+        "172.66,1.16,29.10",
+        "-109.28,4.50,-123.50",
+        "-102.98,4.27,-154.67"
       ],
       "drops": [
         {
@@ -2085,7 +2145,9 @@
           "gamelink": "\\aITEM 1394743414 -90333821:Necrotic Reconstruction (Adept)\\/a",
           "chest": true
         }
-      ]
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 4
     },
     {
       "name": "a Tunarian lookout",
@@ -2108,20 +2170,23 @@
         "100.48,1.62,121.41"
       ],
       "drop_coin_min": 2,
-      "drop_coin_max": 2
+      "drop_coin_max": 3
     },
     {
       "name": "a Tunarian mourner",
       "level": 5,
       "aggressive": true,
       "locations": [
-        "-124.56,4.33,-43.33"
+        "-124.56,4.33,-43.33",
+        "-137.17,4.57,-59.54"
       ],
       "utterances": [
         "Farewell good souls.",
         "Your lives will not be forgotten!",
         "Why?  Why must you leave us?"
-      ]
+      ],
+      "drop_coin_min": 3,
+      "drop_coin_max": 3
     },
     {
       "name": "a Tunarian protector",
@@ -2153,12 +2218,25 @@
         "-123.86,4.53,-77.18",
         "244.83,-3.92,-29.54",
         "231.72,-1.04,-102.38",
-        "-59.60,13.53,-155.05"
+        "-59.60,13.53,-155.05",
+        "-110.53,4.50,-146.36",
+        "-112.66,4.31,-160.35",
+        "-136.77,4.47,-78.23",
+        "-81.07,1.81,-215.73",
+        "-102.81,4.27,-144.80"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 356758634 1380729574:Bloodseeker's Bracelet\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 151745054 1334942741:Bloody Sleeves\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -875565441 -1127668917:fearsome carved wooden mask\\/a",
@@ -2167,6 +2245,14 @@
         {
           "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
           "chest": false
+        }
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 4,
+      "faction_changes": [
+        {
+          "name": "The City of Freeport",
+          "value": 50
         }
       ]
     },
@@ -2204,8 +2290,12 @@
         "-98.13,4.39,-144.03",
         "-112.62,4.30,-102.43",
         "-138.42,4.59,-95.24",
-        "-59.71,13.49,-161.20"
-      ]
+        "-59.71,13.49,-161.20",
+        "-113.45,4.43,-154.79",
+        "-114.00,3.63,-116.00"
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4
     },
     {
       "name": "a vicious sandstalker",
@@ -2387,12 +2477,27 @@
         "-121.09,3.65,-112.39",
         "-102.38,4.46,-96.49",
         "50.91,1.68,-224.54",
-        "59.26,1.84,-239.33"
+        "59.26,1.84,-239.33",
+        "-93.78,4.38,-160.00",
+        "-114.40,4.07,-120.99",
+        "-89.49,4.36,-134.71",
+        "-141.38,4.11,-107.40",
+        "-94.00,1.90,-194.32",
+        "-102.76,4.42,-158.27",
+        "-111.13,4.50,-141.78"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM -982875894 -747549538:canine saliva\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 126592549 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 725938481 -776468382:Studded Wolf Skin Gloves\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 641537398 409580744:Weakened Blood of the Wolf\\/a",
@@ -2566,6 +2671,9 @@
     },
     {
       "name": "the unearthed ore"
+    },
+    {
+      "name": "the unearthed stone"
     }
   ]
 }

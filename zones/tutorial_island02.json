@@ -242,7 +242,17 @@
         "165.66,-0.56,-211.76"
       ],
       "drop_coin_min": 10,
-      "drop_coin_max": 10
+      "drop_coin_max": 10,
+      "faction_changes": [
+        {
+          "name": "The City of Qeynos",
+          "value": 50
+        },
+        {
+          "name": "The City of Freeport",
+          "value": -100
+        }
+      ]
     },
     {
       "name": "a defiled scout",
@@ -265,7 +275,7 @@
         }
       ],
       "drop_coin_min": 6,
-      "drop_coin_max": 6
+      "drop_coin_max": 36
     },
     {
       "name": "a defiled soldier",
@@ -2147,7 +2157,7 @@
         "1.89,2.59,-167.86",
         "-17.15,2.64,-140.34"
       ],
-      "drop_coin_min": 8,
+      "drop_coin_min": 4,
       "drop_coin_max": 10
     },
     {

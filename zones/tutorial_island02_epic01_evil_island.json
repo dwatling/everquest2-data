@@ -18,7 +18,8 @@
       "name": "Breeze",
       "level": 6,
       "locations": [
-        "9.20,0.00,-6.52"
+        "9.20,0.00,-6.52",
+        "-10.37,0.01,-3.77"
       ]
     },
     {
@@ -43,13 +44,24 @@
           "gamelink": "\\aITEM 736537324 -510169129:Totem of the Circle\\/a",
           "chest": true
         }
+      ],
+      "faction_changes": [
+        {
+          "name": "The City of Qeynos",
+          "value": -100
+        },
+        {
+          "name": "The City of Freeport",
+          "value": 50
+        }
       ]
     },
     {
       "name": "Rush",
       "level": 6,
       "locations": [
-        "-2.57,0.00,3.52"
+        "-2.57,0.00,3.52",
+        "-9.15,0.00,-3.92"
       ]
     },
     {
@@ -67,7 +79,8 @@
       "difficulty": "heroic",
       "locations": [
         "-3.18,0.00,-4.76",
-        "-3.29,0.00,1.10"
+        "-3.29,0.00,1.10",
+        "-8.82,0.00,0.78"
       ]
     }
   ]

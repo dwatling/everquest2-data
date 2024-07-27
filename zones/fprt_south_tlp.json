@@ -29,96 +29,13 @@
   ],
   "npcs": [
     {
-      "name": "Agamennus",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Broker",
-      "locations": [
-        "-216.74,-56.44,155.08"
-      ]
-    },
-    {
-      "name": "Aldrevia Metilla",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "Tailor",
-      "locations": [
-        "-141.16,-34.3,150.01"
-      ],
-      "store_template": "tailor"
-    },
-    {
-      "name": "Alexandria Tal`Azroth",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "-123.62,-18.02,294.44"
-      ]
-    },
-    {
-      "name": "Amandio Sepunius",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "10.84,-8.21,238.11"
-      ]
-    },
-    {
       "name": "Annia Kaeso",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "Armorsmith",
-      "locations": [
-        "-215.85,-56.51,184.51"
-      ],
       "utterances": [
         "Hello.  Hello.  Welcome.  You look out of place here in Freeport.  Almost as if you were something blown in by the wind or swept ashore by the tide.  No wait.  It was that dream!"
-      ],
-      "store_template": "armorsmith"
-    },
-    {
-      "name": "Apollonia Vibenius",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "-181.88,-40.34,295.77"
       ]
     },
     {
       "name": "Bassam",
-      "race": [
-        "erudite"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "9.12,-8.21,239.57"
-      ],
       "utterances": [
         "My time is too valuable to be spent chatting.",
         "Greetings.  One day I hope everyone bows before my intellect.",
@@ -126,130 +43,21 @@
       ]
     },
     {
-      "name": "Buccio",
-      "locations": [
-        "-47.91,-8.26,195.89"
+      "name": "Caius Brucci",
+      "utterances": [
+        "Fair weather and prosperous harvest to you.  What might I interest you in today?"
       ]
     },
     {
-      "name": "Caius Brucci",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "General Goods",
-      "locations": [
-        "-234.35,-56.04,173.32"
-      ],
-      "utterances": [
-        "Fair weather and prosperous harvest to you.  What might I interest you in today?"
-      ],
-      "store_template": "general_goods"
-    },
-    {
       "name": "Caraw Slivermoon",
-      "race": [
-        "kerran"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "-144.99,-34.03,198.4"
-      ],
       "utterances": [
         "Can you see the beauty of the open plains?"
       ]
     },
     {
-      "name": "Clara Maius",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "-81.07,-25.02,222.12"
-      ]
-    },
-    {
       "name": "Clodia Laeca",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "Bowyer",
-      "locations": [
-        "-221.6,-56.07,156.01"
-      ],
       "utterances": [
         "If you need supplies, you best get 'em now! My wares go quickly. Hurry over, traveler. You mustn't wait! Come now!"
-      ],
-      "store_template": "bowyer"
-    },
-    {
-      "name": "Corporal Henk Rimebreaker",
-      "race": [
-        "barbarian"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Freeport Militia",
-      "locations": [
-        "-92.32,-25.01,221.98",
-        "-101.8,-24.95,186.4"
-      ]
-    },
-    {
-      "name": "Crilt Browbeat",
-      "race": [
-        "ogre"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "-111.82,-24.97,205.02",
-        "-90.89,-25.01,222.22",
-        "-110.4,-25.01,224.91"
-      ]
-    },
-    {
-      "name": "a curious cat",
-      "locations": [
-        "-127.14,-30.24,239.46",
-        "-125.7,-30.24,231.52"
-      ]
-    },
-    {
-      "name": "Diometria Oppius",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "-144.36,-30.25,233.09"
-      ]
-    },
-    {
-      "name": "Elona Shawnasy",
-      "race": [
-        "barbarian"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "-135.91,-34.3,152.68",
-        "-159.49,-35.2,155.37"
       ]
     },
     {
@@ -259,199 +67,13 @@
       ]
     },
     {
-      "name": "Ghadah",
-      "race": [
-        "erudite"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "-79.56,-18.65,181.16"
-      ]
-    },
-    {
       "name": "Glycon Duronius",
-      "race": [
-        "gnome"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "-116.82,-18.02,261.96"
-      ],
       "utterances": [
         "Ah!  Another test subject ... Er... I mean to say, another adventurer!"
       ]
     },
     {
-      "name": "Haggler Verinus",
-      "race": [
-        "gnome"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "-175.12,-56.9,134.7"
-      ],
-      "store": [
-        {
-          "gamelink": "\\aITEM 169988129 -1391261252 0 0 0:fish meat\\/a",
-          "prices": [
-            {
-              "coin": 1
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Hrenga Heartcrush",
-      "race": [
-        "troll"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "52.86,-12.09,210.27"
-      ]
-    },
-    {
-      "name": "Jetsam Anchorwash",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "-140.84,-18.02,303.94"
-      ]
-    },
-    {
-      "name": "Lathergust",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "-123.44,-35.21,199.7"
-      ]
-    },
-    {
-      "name": "Lavic N'Gam",
-      "race": [
-        "dark elf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "-78.89,-25.02,171.05"
-      ]
-    },
-    {
-      "name": "Lucilla Quietus",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "Weaponsmith",
-      "locations": [
-        "39.38,-12.1,211.26"
-      ],
-      "store_template": "weaponsmith"
-    },
-    {
-      "name": "Mac Windstreaker",
-      "race": [
-        "barbarian"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "58.03,-12.09,209.26"
-      ]
-    },
-    {
-      "name": "Nipius Malchus",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Armorsmith",
-      "locations": [
-        "-209.0,-56.47,184.88"
-      ],
-      "store_template": "armorsmith"
-    },
-    {
-      "name": "Pamoja",
-      "race": [
-        "kerran"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "15.1,-8.2,239.2"
-      ]
-    },
-    {
-      "name": "Pavel",
-      "race": [
-        "ratonga"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "-216.88,-56.5,166.34",
-        "-231.35,-56.07,139.83",
-        "-201.99,-56.71,201.96"
-      ]
-    },
-    {
-      "name": "Razor",
-      "locations": [
-        "-151.26,-30.26,229.02",
-        "-163.71,-28.97,233.62"
-      ]
-    },
-    {
-      "name": "Sasha",
-      "race": [
-        "ratonga"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "7.49,-8.22,236.7"
-      ]
-    },
-    {
       "name": "Sergeant Nominus",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Freeport Militia",
-      "locations": [
-        "-105.94,-24.97,198.23"
-      ],
       "utterances": [
         "Hail, citizen.  If you have something to report then speak up.  Otherwise, move along.",
         "Hmmm ... perhaps you can help me.  I'm trying to track down a rogue who's preying upon the fisherman and clergy folk here in South Freeport.  His name is Pythus.",
@@ -462,91 +84,14 @@
     },
     {
       "name": "Sidonius Baro",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Alchemist",
-      "locations": [
-        "-212.48,-56.47,155.3"
-      ],
       "utterances": [
         "Be careful what you touch in here.  Your liable to kill us all!"
-      ],
-      "store_template": "alchemist"
+      ]
     },
     {
       "name": "Squab Kalina",
       "utterances": [
         "Ha!The life of a free trader is not all fun and games, you know!  We Seafury Buccaneers have a responsibility to guard the waterways in the name of the Overlord!  It's a responsibility we take seriously."
-      ]
-    },
-    {
-      "name": "Taba Curhunter",
-      "race": [
-        "gnome"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "-143.27,-35.34,192.29"
-      ]
-    },
-    {
-      "name": "Trophimus",
-      "locations": [
-        "-47.91,-8.26,195.89"
-      ]
-    },
-    {
-      "name": "Urak Eyegouge",
-      "race": [
-        "troll"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "-143.89,-30.25,235.65"
-      ]
-    },
-    {
-      "name": "Valokis",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "44.09,-12.09,172.77"
-      ]
-    },
-    {
-      "name": "Vlenka Nightstalker",
-      "race": [
-        "dark elf"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "-135.47,-34.3,152.09"
-      ]
-    },
-    {
-      "name": "Voula Redeye",
-      "race": [
-        "ogre"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "-197.13,-57.12,171.2"
       ]
     }
   ]

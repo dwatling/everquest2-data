@@ -14,34 +14,6 @@
   ],
   "npcs": [
     {
-      "name": "Aeris Lightwind",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "Provisioner",
-      "locations": [
-        "924.63,-25.53,30.93"
-      ],
-      "store_template": "provisioner"
-    },
-    {
-      "name": "Alexander Kerr",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Bowyer",
-      "locations": [
-        "722.21,-20.64,-6.6"
-      ],
-      "store_template": "bowyer"
-    },
-    {
       "name": "Alfred Ironforge",
       "utterances": [
         "I'm glad you have come back for more training, it looks like you've learned quite a bit in a very short time.  I can certify you in your chosen trade class. Before I begin your paperwork I'll need your name.",
@@ -51,285 +23,28 @@
     },
     {
       "name": "Aliindar",
-      "race": [
-        "erudite"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Broker",
-      "locations": [
-        "862.5,-25.37,102.98"
-      ],
       "utterances": [
         "The Ironforge Exchange?  the Far Seas Trading Company?  Insects of industry, my friend, waiting to be crushed beneath my boot heel!"
       ]
     },
     {
-      "name": "Alissa Cleeway",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "General Goods",
-      "locations": [
-        "914.22,-25.49,61.92"
-      ],
-      "store_template": "general_goods"
-    },
-    {
-      "name": "Ashilda MacHinry",
-      "race": [
-        "barbarian"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "949.92,-25.5,35.74"
-      ]
-    },
-    {
-      "name": "Barmaid Ceilia Abbot",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "Provisioner",
-      "locations": [
-        "810.82,-17.27,48.63"
-      ],
-      "store_template": "provisioner"
-    },
-    {
-      "name": "Birney Abbot",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Bartender",
-      "locations": [
-        "804.63,-23.77,54.71"
-      ],
-      "store_template": "bartender"
-    },
-    {
-      "name": "Borden Mannus",
-      "race": [
-        "barbarian"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Bartender",
-      "locations": [
-        "936.53,-19.55,10.56"
-      ],
-      "store_template": "bartender"
-    },
-    {
       "name": "Boulden Smitestone",
-      "race": [
-        "dwarf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "936.37,-25.53,29.92",
-        "949.67,-25.5,33.4"
-      ],
       "utterances": [
         "Now is the time we must band together and find what's left of the Feerrott!",
         "We can't take any chances that the Rallosian Empire will rebuild itself.  Who will heed my call!?"
       ]
     },
     {
-      "name": "Carpenter Paddock",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "937.72,-25.27,98.22"
-      ]
-    },
-    {
-      "name": "Dajor Botswein",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "984.38,-25.47,2.19"
-      ]
-    },
-    {
       "name": "Erwin Rohand",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Provisioner",
-      "locations": [
-        "938.88,-25.55,8.6"
-      ],
       "utterances": [
         "She's still out there, I can feel it.  When I have enough money, I am heading out to sea to find my one true love. Won't you help me, friend? Just a small purchase?",
         "Sailors are always looking for ways to keep warm on the high seas. Wolf hides offer warmth and protection from the bone chilling waters. If you could bring me some sleek hides, the money I make selling them, will bring me closer to finding my love.",
         "Thank you!",
         "Your kindness is appreciated. These wolf hides are premium wares and will fetch a handsome price."
-      ],
-      "store_template": "provisioner"
-    },
-    {
-      "name": "Gael Pinewhisper",
-      "race": [
-        "half elf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Bowyer",
-      "locations": [
-        "866.61,-25.29,-52.01"
-      ],
-      "store_template": "bowyer"
-    },
-    {
-      "name": "Grisvane Stonearm",
-      "race": [
-        "dwarf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Banker",
-      "locations": [
-        "677.55,-19.42,-43.46"
       ]
-    },
-    {
-      "name": "Harbormaster Crestbreak",
-      "race": [
-        "half elf"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "962.21,-25.47,7.46"
-      ],
-      "store": [
-        {
-          "gamelink": "\\aITEM -1912235001 1286872394 0 0 0:Nektulos Forest ticket\\/a",
-          "prices": [
-            {
-              "coin": 6000
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -2035622395 1287169655 0 0 0:Thundering Steppes ticket\\/a",
-          "prices": [
-            {
-              "coin": 6000
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Harron Griswald",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "General Goods",
-      "locations": [
-        "947.77,-25.55,7.81"
-      ],
-      "store_template": "general_goods"
-    },
-    {
-      "name": "Heather Atherton",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "tailor",
-      "locations": [
-        "736.59,-20.73,-71.93"
-      ],
-      "store_template": "tailor"
-    },
-    {
-      "name": "Ian Cathlan",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "795.63,-20.64,-31.9"
-      ]
-    },
-    {
-      "name": "Innkeeper Galsway",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "General Goods",
-      "locations": [
-        "817.67,-23.27,52.18"
-      ],
-      "store_template": "general_goods"
-    },
-    {
-      "name": "Jarek O'Kelly",
-      "race": [
-        "barbarian"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Armorsmith",
-      "locations": [
-        "718.68,-20.63,-83.97"
-      ],
-      "store_template": "armorsmith"
     },
     {
       "name": "Keigwyn Macinshire",
-      "race": [
-        "half elf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "815.83,-17.27,52.19"
-      ],
       "utterances": [
         "I have nothing to say to you right now.",
         "Nice piercing.  I might get another one later today.",
@@ -338,30 +53,7 @@
       ]
     },
     {
-      "name": "Kizmit",
-      "race": [
-        "kerran"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "Banker",
-      "locations": [
-        "682.89,-19.41,-39.64"
-      ]
-    },
-    {
       "name": "Madam Istynia",
-      "race": [
-        "erudite"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "Alchemist",
-      "locations": [
-        "794.04,-23.26,95.94"
-      ],
       "utterances": [
         "All right where is my pen?  How am I supposed to scribe anything without my pen?"
       ]
@@ -384,29 +76,7 @@
       ]
     },
     {
-      "name": "Marius Ironflint",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Ian's Assistant",
-      "locations": [
-        "800.11,-20.64,-28.73"
-      ]
-    },
-    {
       "name": "Mary Dillon",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "801.44,-23.77,60.49"
-      ],
       "utterances": [
         "Just leave me alone. Please!",
         "If they ever finish that shield, I'm going to smash Thierry's skull in with it, that's what.",
@@ -421,20 +91,9 @@
     },
     {
       "name": "Minda Broadfeet",
-      "race": [
-        "dwarf"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "General Goods",
-      "locations": [
-        "763.17,-21.05,-7.32"
-      ],
       "utterances": [
         "You can never be too careful when it comes to protection.  Here try on one of these."
-      ],
-      "store_template": "general_goods"
+      ]
     },
     {
       "name": "Nathan Ironforge",
@@ -445,308 +104,34 @@
     },
     {
       "name": "Nelis Greenpocket",
-      "race": [
-        "halfling"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Tailor",
-      "locations": [
-        "915.36,-25.43,12.06"
-      ],
       "utterances": [
         "Welcome! What can I help you with?"
-      ],
-      "store_template": "tailor"
-    },
-    {
-      "name": "Phen Domlinson",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Bowyer",
-      "locations": [
-        "884.67,-25.43,55.43"
-      ],
-      "store": [
-        {
-          "gamelink": "\\aITEM 25756897 -1188173387:tin arrow\\/a",
-          "prices": [
-            {
-              "coin": 1
-            }
-          ]
-        }
-      ],
-      "store_template": "bowyer"
-    },
-    {
-      "name": "Portis Bonham",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "General Goods",
-      "locations": [
-        "825.19,-23.56,32.33"
-      ],
-      "store_template": "provisioner"
+      ]
     },
     {
       "name": "Praxum",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Mender",
-      "locations": [
-        "672.32,-20.66,8.73"
-      ],
       "utterances": [
         "Hello, adventurer.  Looking to get some items repaired after a hard day of dragon slaying?"
       ]
     },
     {
       "name": "Rabbleson",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "City Merchant",
-      "locations": [
-        "899.91,-25.37,53.7"
-      ],
       "utterances": [
         "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
         "Confound it! Where did I put that ledger?  It must be around here somewhere!"
-      ],
-      "store_template": "city_merchant"
-    },
-    {
-      "name": "Renee Atherton",
-      "race": [
-        "half elf"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "Bartender",
-      "locations": [
-        "769.4,-20.66,-33.61"
-      ],
-      "store_template": "bartender"
-    },
-    {
-      "name": "Robert Newbury",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Banker",
-      "locations": [
-        "677.89,-19.43,-49.39"
-      ]
-    },
-    {
-      "name": "Royal Accountant Fowler",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Guild Registrar",
-      "locations": [
-        "828.73,-23.55,127.35"
-      ]
-    },
-    {
-      "name": "a Safar of Maj'dul",
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "925.8,-25.5,38.48"
-      ]
-    },
-    {
-      "name": "Sean Wellfayer",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "996.36,-25.09,14.26"
-      ]
-    },
-    {
-      "name": "Shanda Tierbold",
-      "race": [
-        "barbarian"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "951.55,-19.55,10.64"
       ]
     },
     {
       "name": "Sheldon Lamport",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Jeweler",
-      "locations": [
-        "830.28,-23.55,122.41"
-      ],
       "utterances": [
         "All right where is my pen?  How am I supposed to scribe anything without my pen?"
-      ],
-      "store": [
-        {
-          "gamelink": "\\aITEM 725497081 760508368 0 0 0:lead band\\/a",
-          "prices": [
-            {
-              "coin": 144
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 303860314 -1427924057 0 0 0:lead bangle\\/a",
-          "prices": [
-            {
-              "coin": 144
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1781007958 -757655637 0 0 0:lead girdle\\/a",
-          "prices": [
-            {
-              "coin": 144
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1306270891 1270237058 0 0 0:lead hoop\\/a",
-          "prices": [
-            {
-              "coin": 144
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -507032768 1496865469 0 0 0:lead torque\\/a",
-          "prices": [
-            {
-              "coin": 144
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1302756035 29776554 0 0 0:malachite bracelet\\/a",
-          "prices": [
-            {
-              "coin": 144
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1312420557 1191822828 0 0 0:malachite earring\\/a",
-          "prices": [
-            {
-              "coin": 144
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1930265429 -1064149822 0 0 0:malachite necklace\\/a",
-          "prices": [
-            {
-              "coin": 144
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -125050963 1200380416 0 0 0:malachite ring\\/a",
-          "prices": [
-            {
-              "coin": 144
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1948282230 1184438040 0 0 0:rawhide belt\\/a",
-          "prices": [
-            {
-              "coin": 144
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -359208475 -1011287745 0 0 0:threadbare sash\\/a",
-          "prices": [
-            {
-              "coin": 144
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1910309181 401741031 0 0 0:threadbare scarf\\/a",
-          "prices": [
-            {
-              "coin": 144
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Sir Aidan Godard",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "687.75,-20.89,3.28"
       ]
     },
     {
       "name": "Smith Holgren",
-      "race": [
-        "barbarian"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Weaponsmith",
-      "locations": [
-        "683.51,-20.66,26.21"
-      ],
       "utterances": [
         "I just got a shipment in from the Far Sea's Trading Company.  I don't just show anybody this stuff so, shhhh!  "
-      ],
-      "store_template": "weaponsmith"
+      ]
     },
     {
       "name": "Sprockfuddle",
@@ -765,85 +150,7 @@
       ]
     },
     {
-      "name": "Squire Moorford",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Qeynos Guard",
-      "locations": [
-        "974.4,-25.52,21.99"
-      ]
-    },
-    {
-      "name": "Tabatha Cantra",
-      "race": [
-        "erudite"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "Arcane Transcription",
-      "locations": [
-        "799.46,-23.26,101.43"
-      ]
-    },
-    {
-      "name": "Tala McMorgan",
-      "race": [
-        "barbarian"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "Shieldsmith",
-      "locations": [
-        "796.96,-20.75,-46.15"
-      ],
-      "store_template": "shieldsmith"
-    },
-    {
-      "name": "Thomas Bodley",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "General Goods",
-      "locations": [
-        "747.34,-20.95,-69.03"
-      ],
-      "store_template": "general_goods"
-    },
-    {
-      "name": "Umli Grayfist",
-      "race": [
-        "dwarf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Bartender",
-      "locations": [
-        "923.18,-25.49,44.05"
-      ],
-      "store_template": "bartender"
-    },
-    {
       "name": "Vernon Tinworthy",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Bar Patron",
-      "locations": [
-        "807.62,-13.93,44.39"
-      ],
       "utterances": [
         "It's all about the profit margins.",
         "What do you want?",
@@ -871,20 +178,9 @@
     },
     {
       "name": "Zara",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "Alchemist Assistant",
-      "locations": [
-        "794.67,-23.26,107.55"
-      ],
       "utterances": [
         "Be careful, it's best not to read the scrolls.  If you want to know what they are, just ask me."
-      ],
-      "store_template": "alchemist"
+      ]
     }
   ]
 }

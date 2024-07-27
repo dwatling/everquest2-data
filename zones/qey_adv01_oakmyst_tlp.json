@@ -17,45 +17,12 @@
   ],
   "npcs": [
     {
-      "name": "Adalin Emerael",
-      "race": [
-        "high elf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "745.52,10.52,-201.89"
-      ]
-    },
-    {
       "name": "Bardrian Vorsuth",
-      "race": [
-        "barbarian"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "1072.09,-9.92,-384.75"
-      ],
       "utterances": [
         "What do ya need? I'm waiting for someone.",
         "I see. Well, then listen up. We've got an issue here. We found this box, no post markings at all, and finally our curiosity forced us to open it. Inside was this... machine.",
         "I have no idea. It looks to be some sort of power or speed variable control system, but that's just a rough guess. It could likely be plugged into any number of other devices, but by itself it isn't especially useful. That fact and the lack of markings on the box are what make it suspicious, and why we contacted Charlin.",
         "Nope, but I figured this all was suspicious enough to get the guards interested."
-      ]
-    },
-    {
-      "name": "Cailee Bluesheaf",
-      "race": [
-        "wood elf"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "890.25,2.43,-337.38"
       ]
     },
     {
@@ -131,10 +98,8 @@
     {
       "name": "a glowmyst beetle",
       "locations": [
-        "758.79,11.44,-191.66",
-        "768.37,9.92,-206.76",
-        "773.86,8.88,-199.32",
-        "762.77,10.20,-202.33",
+        "771.54,9.35,-203.47",
+        "766.41,10.11,-202.48",
         "757.67,10.23,-201.62",
         "782.03,7.61,-203.28",
         "793.09,7.15,-219.37",
@@ -176,42 +141,7 @@
         }
       ],
       "drop_coin_min": 8,
-      "drop_coin_max": 8,
-      "faction_changes": [
-        {
-          "name": "The Tunarian Alliance",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Huntmaster Krell",
-      "race": [
-        "barbarian"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "876.74,1.87,-333.25",
-        "926.9,2.55,-320.97",
-        "952.62,2.28,-352.54",
-        "980.53,2.15,-348.89"
-      ]
-    },
-    {
-      "name": "Jemila",
-      "race": [
-        "kerran"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "General Goods",
-      "locations": [
-        "898.53,2.29,-346.77"
-      ],
-      "store_template": "general_goods"
+      "drop_coin_max": 8
     },
     {
       "name": "Judge Eunomia",
@@ -224,16 +154,6 @@
     },
     {
       "name": "Lieutenant Charlin",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "Qeynos Guard",
-      "locations": [
-        "788.84,7.36,-201.24"
-      ],
       "utterances": [
         "Be careful out there, citizen.",
         "Oh, I don't know, what was it last time I checked? Poachers maybe, or corruption spreading through the forest, I even heard some guy mention a gnoll. Things are bad, don't let me convince you otherwise, but don't believe the people who say the Oakmyst Forest is in serious danger.",
@@ -276,40 +196,6 @@
       "name": "Lieutenant Scyn",
       "locations": [
         "910.67,21.09,-240.48"
-      ],
-      "faction_changes": [
-        {
-          "name": "The Qeynos Guard",
-          "value": 50
-        },
-        {
-          "name": "The Tunarian Alliance",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Lulien Leafven",
-      "race": [
-        "wood elf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "885.69,2.5,-338.77"
-      ]
-    },
-    {
-      "name": "Marv Boilfist",
-      "race": [
-        "dwarf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "858.44,2.09,-194.2"
       ]
     },
     {
@@ -329,24 +215,6 @@
           "gamelink": "\\aITEM 830377007 -657580033:an arachnid leg\\/a",
           "chest": false
         }
-      ],
-      "faction_changes": [
-        {
-          "name": "The Tunarian Alliance",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Rinduil Flintflight",
-      "race": [
-        "wood elf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "899.23,2.56,-337.24"
       ]
     },
     {
@@ -377,13 +245,7 @@
         "Fall back in formation, and regroup at the rendezvous."
       ],
       "drop_coin_min": 2,
-      "drop_coin_max": 3,
-      "faction_changes": [
-        {
-          "name": "The Tunarian Alliance",
-          "value": 50
-        }
-      ]
+      "drop_coin_max": 3
     },
     {
       "name": "Steward Tredo",
@@ -395,15 +257,6 @@
     },
     {
       "name": "Toppa Doppster",
-      "race": [
-        "halfling"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "777.45,8.66,-196.67"
-      ],
       "utterances": [
         "You there! Do you think you can help me?",
         "My friends sent me out to collect some glowmyst juice from the beetles here in Oakmyst. You see, we're trying to start our own tavern and we're working on our craft. I was sent out here to collect some glowmyst juice, but...",
@@ -416,30 +269,9 @@
     },
     {
       "name": "Tracker Galera",
-      "race": [
-        "wood elf"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "876.32,0.6,-191.17"
-      ],
       "utterances": [
         "The beauty of Oakmyst sometimes overwhelms me but not as much as the sight of Ferith'Anar!",
         "I thank you, as do the creatures of the Oakmyst. These pelts shall prove to the Qeynos Guard that these woods are not properly protected.  "
-      ]
-    },
-    {
-      "name": "Tracker Kelnis",
-      "race": [
-        "high elf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "869.06,3.29,-347.97"
       ]
     },
     {
@@ -501,9 +333,6 @@
     },
     {
       "gamelink": "\\aITEM 736208268 -898305246:shattered iksar bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -207856692 -1236016395:spotted yellow butterfly\\/a"
     },
     {
       "gamelink": "\\aITEM -1810895498 767179960:striped blue butterfly\\/a"

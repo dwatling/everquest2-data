@@ -19,7 +19,8 @@
       "key": "fprt_north_tlp"
     },
     {
-      "key": "fprt_sewer01"
+      "key": "fprt_sewer01",
+      "location": "303.63,-2.85,-23.12"
     },
     {
       "key": "fprt_south_tlp",
@@ -66,6 +67,40 @@
         "I'm glad you have come back for more training, it looks like you've learned quite a bit in a very short time.  I can certify you in your chosen trade class. Before I begin your paperwork I'll need your name.",
         "Best of luck!",
         "You're not skilled enough to receive certification in a tradesman class.  Practice your skills, and return to me after you gain more experience."
+      ]
+    },
+    {
+      "name": "Alkham",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "220.75,3.84,157.00"
+      ],
+      "utterances": [
+        "You thought you were so superior, and look who you come to for protection when things get rough.",
+        "Yes, yes, hello. I'm busy.",
+        "Oh, drat, I hope not. Oh, sorry, I thought you might have meant the weather."
+      ]
+    },
+    {
+      "name": "Anessa Bonefetter",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "218.48,-3.98,166.10"
+      ],
+      "utterances": [
+        "This city isn't safe for lazy and weak. Be on your way...",
+        "Watch your step in this here tavern. This is buccaneer territory and I am the second mate of Siren. You had best have good reason to intrude upon my presence.",
+        "Your mouth is quick--I'm sure you'll pay for it someday. For now, take this message to Lollia Parnesius in East Freeport."
       ]
     },
     {
@@ -254,6 +289,23 @@
       ]
     },
     {
+      "name": "Bendl Fizztuzzle",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Bartender",
+      "locations": [
+        "216.85,-3.98,168.85"
+      ],
+      "utterances": [
+        "Hey!  I see you found your way into my bar.  Now don't take up a seat if you ain't gonna drink!  Ain't that right, Jetsam?"
+      ],
+      "store_template": "bartender"
+    },
+    {
       "name": "Boomba",
       "race": [
         "ogre"
@@ -312,6 +364,73 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Bouncer Flotsam",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "221.18,-3.99,175.65"
+      ],
+      "utterances": [
+        "I don't know why we are here, but I'm sure that it's not to enjoy ourselves. ",
+        "You don't want to play my type of games.  "
+      ]
+    },
+    {
+      "name": "Bouncer Jetsam",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "224.10,-3.99,175.77"
+      ],
+      "utterances": [
+        "How could you stand living underground for so long?",
+        "Can you see the beauty of the open plains?"
+      ]
+    },
+    {
+      "name": "Bouncer Raga",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "225.01,-3.98,164.69"
+      ],
+      "utterances": [
+        "Serve the Overlord is good!",
+        "Might of the empire of Zek always greater than Neriak."
+      ]
+    },
+    {
+      "name": "Broll",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "293.59,-2.90,82.59"
+      ],
+      "utterances": [
+        "Hey do you see any water around here?  Oh well, who needs to wash their hands?",
+        "The Ogre bread takes an extra long time to bake.  Hey, they like large servings.",
+        "Man do I love gnome bread!  The trolls, they just love gnomes period!"
+      ],
+      "store_template": "provisioner"
     },
     {
       "name": "Caius Callidus",
@@ -424,6 +543,37 @@
         "119.65,-3.91,-103.68",
         "131.28,-3.86,-112.64",
         "144.64,-3.96,-109.65"
+      ]
+    },
+    {
+      "name": "Cyclops",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "289.38,8.91,108.74"
+      ]
+    },
+    {
+      "name": "Dancer Francine Defury",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "217.44,2.81,156.43"
+      ],
+      "utterances": [
+        "I'd rather be stranded overboard than be converted by the dark beliefs that Dismal Rage preaches.",
+        "The Seafury Buccaneers are feared by all others on the open sea. They show no mercy to the dogs that try to sail the sea unprotected.",
+        "You might as well hand your loot to the Coalition of Tradefolke if you ever decide to work for them.",
+        "I don't trust the Freeport Militia. Neither should you, mate.",
+        "It's weak to rely on magic for everything. If ye have the same weakness, the Academy of Arcane Sciences is for you."
       ]
     },
     {
@@ -759,6 +909,24 @@
       ]
     },
     {
+      "name": "Gorgemond",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "215.64,-3.98,163.75",
+        "240.13,-3.98,169.57",
+        "224.47,-3.98,137.31",
+        "216.51,-3.98,130.06"
+      ],
+      "utterances": [
+        "I haven't that much to drink yet, I got here when... Bah, I forgot!"
+      ]
+    },
+    {
       "name": "Grevak Stonecatcher",
       "race": [
         "ogre"
@@ -773,6 +941,23 @@
         "I've lived this long thanks to my ability to kill.",
         "Armor could be useful. But I've never needed it."
       ]
+    },
+    {
+      "name": "Grum Zoomly",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "Provisioner",
+      "locations": [
+        "228.76,-3.98,163.33"
+      ],
+      "utterances": [
+        "I don't want any trouble here in my bar, understand?  People really hate it when I get angry."
+      ],
+      "store_template": "provisioner"
     },
     {
       "name": "Guard Fazio",
@@ -823,6 +1008,25 @@
         "A good weapon at your side is the only real friend you'll ever have!"
       ],
       "store_template": "shieldsmith"
+    },
+    {
+      "name": "Innkeeper Sirconium",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "297.04,-3.90,129.53"
+      ],
+      "utterances": [
+        "What!  What do you want?",
+        "Room rates are by the night not by the hour!",
+        "Look I'm no cook, but I was going to have some fresh kidneys myself.  You want me to get you a pair?"
+      ],
+      "store_template": "general_goods"
     },
     {
       "name": "Intelligence Officer Rainus",
@@ -884,6 +1088,15 @@
       "utterances": [
         "You need help fixing that pile of junk?  Well it's going to cost you!",
         "I can emphatically say repairing weapons is much more reliable than buying new ones.  Would I lie?"
+      ]
+    },
+    {
+      "name": "Izzay Meestere",
+      "utterances": [
+        "Something is going on...but what?",
+        "They listens in to us.  It's only fair to listens to them.",
+        "What is the Militia doing this time?",
+        "It is sure ugly here!"
       ]
     },
     {
@@ -980,6 +1193,18 @@
       ]
     },
     {
+      "name": "Kreglebop Yekl",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "290.79,8.91,87.91"
+      ]
+    },
+    {
       "name": "Kroona Skinflayer",
       "race": [
         "troll"
@@ -1062,14 +1287,28 @@
       ]
     },
     {
+      "name": "Lupin",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "290.94,8.73,137.16",
+        "268.54,-4.81,137.89",
+        "251.30,-4.81,176.41"
+      ]
+    },
+    {
       "name": "Macia Victus",
-      "purpose": "General Goods",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
+      "purpose": "General Goods",
       "locations": [
         "231.80,-3.49,76.00"
       ],
@@ -1080,18 +1319,19 @@
     },
     {
       "name": "Mallium",
-      "purpose": "Broker",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
+      "purpose": "Broker",
       "locations": [
         "298.83,-3.90,107.33"
       ],
       "utterances": [
-        "I can only offer you what my contacts have been able to locate.  These are the best goods that the citizens have to offer."
+        "I can only offer you what my contacts have been able to locate.  These are the best goods that the citizens have to offer.",
+        "Looking for the best goods in the whole of Freeport?  Well, my friend, you've come to the right place! "
       ]
     },
     {
@@ -1196,6 +1436,13 @@
       "locations": [
         "125.28,-3.98,-85.76",
         "136.29,-3.89,-103.13"
+      ]
+    },
+    {
+      "name": "Raugal",
+      "utterances": [
+        "I haven't that much to drink yet, I got here when... bah I forgot.",
+        "Ahhh ... quit your whinin'! I paid ya with my jokes and fine company."
       ]
     },
     {

@@ -72,14 +72,124 @@
   ],
   "npcs": [
     {
+      "name": "Anders Blackhammer",
+      "level": 20,
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-522.81,-44.11,-301.97"
+      ]
+    },
+    {
+      "name": "Arconicus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-507.43,-44.93,-317.31"
+      ],
+      "utterances": [
+        "What do you want? Please don't tell me you're another one of these country bumpkins who has never seen a mage before.",
+        "I am conducting research on the qualities of certain natural reagents in the surrounding area. Perhaps you  can help me? If you help gather some of these resources, then I might be able to pay you for your time, hmm?"
+      ]
+    },
+    {
+      "name": "a burly armadillo",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "-830.54,-48.02,-163.20",
+        "-841.41,-47.45,-177.87",
+        "-835.14,-48.01,-191.94",
+        "-750.88,-47.98,-217.23"
+      ]
+    },
+    {
+      "name": "Cannix Silverflame",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-311.01,-47.31,-361.69"
+      ],
+      "utterances": [
+        "Greetings to you as well, traveler.  Now if you'll excuse me, I must remain vigilant while this time is appointed unto me.",
+        "A guard? No. I suppose if I have a title, you can call me a ... a pilgrim.  Yes, just a pilgrim looking for the light of truth.  Aren't we all seeking a little truth in these turbulent times?"
+      ]
+    },
+    {
+      "name": "Captain Feralis",
+      "purpose": "Freeport Militia Commander",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-428.41,-44.09,-281.03"
+      ],
+      "utterances": [
+        "There is little to limit one's potential when they know how to exploit others... except others exploiting them, of course."
+      ]
+    },
+    {
+      "name": "Captain Vertas",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-510.16,-43.68,-283.59",
+        "-505.11,-45.63,-330.14"
+      ],
+      "utterances": [
+        "Pah, the orcs and the dervish... Listen, the Freeport Militia requires your help. Will you do a service for the Militia?",
+        "Pay... PAY? You insolent pig, you should be bowing down at my feet asking me for forgiveness. You ought to  be paying homage to the Overlord for all he has given you!",
+        "You will be compensated for your time. There have been reports of a growing threat in the Commonlands. The militia requires you to travel to the west to the road beyond the druid ring to find the orc emissary.   Our reports tell us the emissary is the one who is passing stolen information to the Deathfist Empire.",
+        "Deal with him by any means necessary! Bring back to me any evidence you may find."
+      ]
+    },
+    {
+      "name": "Fisherman Safiya",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-472.70,-45.73,-352.79"
+      ],
+      "utterances": [
+        "At least I can find peace and solitude in fishing."
+      ]
+    },
+    {
       "name": "Gerun Pontian",
+      "purpose": "Militia Gate Patrol",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Militia Gate Patrol",
       "locations": [
         "-1,265.16,-87.93,53.38",
         "-1,284.98,-87.86,55.94"
@@ -91,6 +201,186 @@
         "Venom has been selling quite nicely. There are quite a few speckled rattlers around here. They're a great source of venom. If you bring me back the venom from eight of them I'll give you a portion of what the profit will be. Sound good?",
         "Great! I'll be here, of course.",
         "Did you get the venom?"
+      ]
+    },
+    {
+      "name": "Gimble Cognoggin",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-225.68,-47.39,-474.83",
+        "-255.63,-46.59,-430.87",
+        "-223.73,-47.30,-541.87",
+        "-221.66,-47.34,-638.14",
+        "-217.72,-47.27,-657.69",
+        "-200.46,-47.33,-668.74",
+        "-160.14,-47.37,-670.72",
+        "-119.66,-47.31,-661.24",
+        "-103.36,-47.48,-659.90"
+      ],
+      "utterances": [
+        "No, no, that won't do.  Oh, whatever shall I do, it's too dangerous for me to do.  But need those reagents I do!   Why are you bothering me?  Can't you see I'm busy thinking?  No, too oblivious for that I'm sure!  You oaf!",
+        "Hmm ...  yes, yes, yes!  You CAN help me!  But what would it cost, I wonder ... I would have to divulge the components ... but I suppose I have no other choice.  Will you help me or not?"
+      ]
+    },
+    {
+      "name": "Grandma Twirlwhizzer",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-507.02,-43.25,-263.66"
+      ],
+      "utterances": [
+        "Oh dear me, who are you?"
+      ]
+    },
+    {
+      "name": "Gubta",
+      "purpose": "Mender",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-504.98,-43.45,-256.68"
+      ],
+      "utterances": [
+        "Nah, no need to buy a completely new set.  I'll use some of this special solvent I have.  It'll fix it up good as new!",
+        "You need help fixing that pile of junk?  Well it's going to cost you!",
+        "Once we're done, you'll have the strongest armor in all of the city!  I guarantee it!"
+      ]
+    },
+    {
+      "name": "Impelia Abettus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-431.82,-44.09,-275.62"
+      ],
+      "utterances": [
+        "Please.  Don't come near me.  I'm very sick right now, and I don't want to harm anyone else.  Let me just pass.  In peace."
+      ]
+    },
+    {
+      "name": "Inquisitor Irizan",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-442.87,-43.73,-303.67"
+      ],
+      "utterances": [
+        "Stop! Get over here, now!",
+        "I don't believe we've met. I am the Overlord's chief inquisitor. Oh, don't be nervous--that is unless you've something to be nervous about.  "
+      ]
+    },
+    {
+      "name": "Janus Fieri",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-461.99,-45.03,-335.86"
+      ],
+      "utterances": [
+        "Greetings.  Janus Fieri, at your service."
+      ]
+    },
+    {
+      "name": "J.P. Feterman",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-477.10,-44.67,-253.18"
+      ]
+    },
+    {
+      "name": "Madam Vi",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-470.34,-44.86,-294.07"
+      ],
+      "utterances": [
+        "I need some assistance. Would you be willing to aid me?",
+        "The heat out here is ridiculous and I am parched. I would do anything for some nice cool water. The water around here gets so filthy from the livestock. Even as hot as it is, I can't just drink any water, you know? Do you think you could go out and fill each of these flasks with clean water from the lake and river for me? Oh, and I will also need one of them filled from the sea. Mooshga always needs more salt for curing her specialties."
+      ]
+    },
+    {
+      "name": "Merchant Edmond",
+      "purpose": "Provisioner",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-493.63,-43.89,-262.09"
+      ],
+      "utterances": [
+        "Are you looking for something in particular? "
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Merchant Valary",
+      "purpose": "Weaponsmith",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-529.61,-44.13,-299.54"
+      ],
+      "utterances": [
+        "My wares are the finest in the land. Won't you look?"
+      ]
+    },
+    {
+      "name": "Merchant William",
+      "purpose": "Armorsmith",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-529.91,-44.14,-311.76"
+      ],
+      "utterances": [
+        "Buy here!  Buy now!  Best goods you'll find in all the land."
       ]
     },
     {
@@ -140,6 +430,77 @@
       ]
     },
     {
+      "name": "a parched nomad",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-137.18,-48.00,-809.90"
+      ],
+      "utterances": [
+        "Mighty hot out here in the Commonlands, one can build up quite a thirst.  Have you seen a Madam Vi perhaps?  We seem to have lost her."
+      ]
+    },
+    {
+      "name": "Rilkrik",
+      "purpose": "Crossroads Supplies Officer",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-521.24,-44.13,-306.48"
+      ],
+      "utterances": [
+        "Not everything I have for sale is useful to everyone. Keep that in mind."
+      ]
+    },
+    {
+      "name": "Ronam Olansk",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-156.56,-47.78,-832.69"
+      ],
+      "utterances": [
+        "Please stay away from here! The dead souls of orcs callout for vengeance, and I'll not put you or the rest of my people in danger.",
+        "I'm not so certain...  but I suppose there's no harm in letting you risk your own life trying.  If you kill enough of the skeletons inside the cave, the skeletons outside may return to their resting place.  My people and I will scrape together what little we have to pay for your services."
+      ]
+    },
+    {
+      "name": "a seagull",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-477.82,-45.34,-330.05"
+      ]
+    },
+    {
+      "name": "Sian D'ior",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-945.18,-48.87,-56.32"
+      ]
+    },
+    {
       "name": "a small emerald beetle",
       "locations": [
         "-1,205.03,-77.79,84.27"
@@ -152,12 +513,87 @@
       ]
     },
     {
+      "name": "Taskmaster's Assistant Koz'ma",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-492.04,-43.89,-260.22"
+      ],
+      "utterances": [
+        "Bring your FSR's  to me.  You don't have them, then I don't want to talk to you.",
+        "Where's your requisition? Only those who filled requisitions should speak to me.",
+        "Why are you wasting my time? The Far Seas Trading Company pays huntsmen to track down various items and beasts. Sometimes the huntsmen inadvertently feed the beasts and never return. Too bad ... for them.",
+        "No! No, no, no! We have plenty of huntsmen!  No more huntsmen! And that means you!  Okay?  Got it?  ... That is, unless of course, you happens to find an unfilled order. Get it?"
+      ]
+    },
+    {
+      "name": "Ventar T'Kal",
+      "purpose": "Slayer of Orcs",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-152.59,-47.89,-817.88"
+      ],
+      "utterances": [
+        "These nomads can be quite pleasant to deal with."
+      ]
+    },
+    {
+      "name": "V'tal Narin",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-480.50,-45.48,-334.62"
+      ],
+      "utterances": [
+        "Get away from me! You're like the others!",
+        "You ridicule my loss as well!"
+      ]
+    },
+    {
       "name": "Watcher Daenso",
       "utterances": [
         "Your service is required, citizen.",
         "Whatever He desires. You will give your service to the Commonlands in His name and report to Gerun Pontian here in the Commonlands at the gates to West Freeport.",
         "Serve the Overlord well, citizen. May you have all the luck you require."
       ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM 381703662 1246298828:cracked gnome bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 861846032 -1689084433:cracked halfling bone fragment\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the cloven ore"
+    },
+    {
+      "name": "the critter den"
+    },
+    {
+      "name": "the desert roots"
+    },
+    {
+      "name": "the oasis shrubbery"
+    },
+    {
+      "name": "the wind swept rock"
     }
   ]
 }

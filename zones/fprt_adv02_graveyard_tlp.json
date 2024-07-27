@@ -22,80 +22,7 @@
   ],
   "npcs": [
     {
-      "name": "a boneyard watcher",
-      "purpose": "Academy of Arcane Sciences",
-      "level": 8,
-      "locations": [
-        "13.56,-7.35,-3.90",
-        "8.77,-7.35,-35.47"
-      ],
-      "faction_changes": [
-        {
-          "name": "The Academy of Arcane Science",
-          "value": -100
-        }
-      ]
-    },
-    {
-      "name": "a brittle skeleton",
-      "level": 3,
-      "locations": [
-        "-76.14,-13.22,95.62",
-        "-79.02,-13.33,88.64",
-        "-76.17,-13.11,78.73",
-        "-68.13,-12.58,88.58",
-        "-55.75,-11.82,72.81"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 4,
-      "drop_coin_max": 31
-    },
-    {
-      "name": "a crumbling skeleton",
-      "level": 4,
-      "locations": [
-        "-82.43,-13.45,82.24",
-        "-71.22,-12.93,81.64",
-        "-31.85,-9.16,85.80",
-        "-31.81,-8.57,92.37",
-        "-61.19,-11.58,32.35",
-        "-37.94,-10.00,37.78"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 549628887 -1812218170:oak-handled great spear\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 4,
-      "drop_coin_max": 7
-    },
-    {
       "name": "Custodian Zaddar Sullissia",
-      "locations": [
-        "-73.33,-13.05,107.51"
-      ],
       "utterances": [
         "Hmmmm, and who might you be? Come forward so I can look upon you, stranger.",
         "Ah, yes. You look exactly how you were described to me.",
@@ -172,38 +99,7 @@
       ]
     },
     {
-      "name": "a dread spider",
-      "level": 8,
-      "locations": [
-        "67.72,-0.24,87.81",
-        "64.82,-1.77,96.68",
-        "70.75,-1.77,102.57",
-        "-9.02,-8.01,-1.65",
-        "37.59,-3.55,10.96"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a durable skeleton",
-      "level": 5,
-      "locations": [
-        "-16.84,-8.50,72.43",
-        "-64.98,-11.54,33.08",
-        "-38.38,-10.00,33.22"
-      ],
-      "drop_coin_min": 4,
-      "drop_coin_max": 4
-    },
-    {
       "name": "Durkix Kizzkin",
-      "locations": [
-        "-94.68,-15.66,-96.15"
-      ],
       "utterances": [
         "Fragments to dust. I'm a genius!",
         "A bonemud golem! Or maybe a mudbone golem. I'll be famous!",
@@ -216,22 +112,7 @@
       ]
     },
     {
-      "name": "an Ethernere defender",
-      "purpose": "Academy of Arcane Sciences",
-      "level": 11,
-      "difficulty": "heroic",
-      "locations": [
-        "88.82,-1.78,103.56",
-        "87.37,-1.34,109.52"
-      ]
-    },
-    {
       "name": "an Ethernere guard",
-      "level": 10,
-      "locations": [
-        "-19.67,-8.60,84.47",
-        "4.79,-6.80,33.73"
-      ],
       "utterances": [
         "Hail Citizen!",
         "Freeport has need of your services, will you fulfill your duty?",
@@ -240,112 +121,16 @@
         "There is no escape for you now!",
         "Were you successful in your mission?",
         "Excellent, thank you for your service to Freeport and the Keepers of Ethernere!  Please, take this for your trouble."
-      ],
-      "drop_coin_min": 10,
-      "drop_coin_max": 10,
-      "faction_changes": [
-        {
-          "name": "The Academy of Arcane Science",
-          "value": -100
-        }
-      ]
-    },
-    {
-      "name": "an Ethernere undertaker",
-      "purpose": "Academy of Arcane Sciences",
-      "level": 11,
-      "difficulty": "heroic",
-      "locations": [
-        "91.62,-1.34,109.34"
       ]
     },
     {
       "name": "a fearsome spider",
-      "level": 7,
       "locations": [
-        "-3.24,-7.39,87.86",
-        "-3.56,-7.54,102.16",
-        "2.34,-7.19,103.20",
-        "-6.77,-7.78,115.78",
-        "0.67,-7.08,82.83"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a fiendish ghoul",
-      "level": 11,
-      "locations": [
-        "10.31,-6.13,36.69",
-        "-9.05,-7.92,25.08",
-        "6.72,-6.58,20.45",
-        "6.80,-7.35,-3.73",
-        "0.41,-7.35,-11.29",
-        "10.20,-7.35,-21.78",
-        "2.82,-7.35,-33.21",
-        "6.19,-7.35,-27.80",
-        "16.09,-7.35,-35.44",
-        "16.73,-6.13,-51.39",
-        "23.68,-5.25,-51.36",
-        "46.49,-3.22,-33.43",
-        "34.70,-6.10,12.96"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "Guard Detlev",
-      "locations": [
-        "90.18,-1.67,26.14"
-      ]
-    },
-    {
-      "name": "Guard Kludd",
-      "locations": [
-        "88.9,-1.68,25.94"
-      ]
-    },
-    {
-      "name": "Hangman San'toth",
-      "locations": [
-        "37.46,0.01,-2.08"
-      ]
-    },
-    {
-      "name": "The Keeper of Ethernere",
-      "purpose": "Academy of Arcane Sciences",
-      "level": 11,
-      "difficulty": "heroic",
-      "locations": [
-        "90.95,-1.34,111.52"
+        "2.34,-7.14,101.14"
       ]
     },
     {
       "name": "Keeper Varacus T`Kur",
-      "purpose": "Academy of Arcane Sciences",
-      "locations": [
-        "90.9,-1.65,96.8"
-      ],
       "utterances": [
         "Yes, what is it?",
         "Well, that all depends. Who are you?",
@@ -371,7 +156,6 @@
     },
     {
       "name": "a novice graverobber",
-      "level": 7,
       "locations": [
         "-50.00,-11.30,-15.14",
         "-51.98,-11.58,-20.44",
@@ -390,307 +174,27 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -196651399 -421473663:a dirty graverobber note\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -498696341 -216827613:Elemental Cover (Adept I)\\/a",
           "chest": true
         }
-      ],
-      "drop_coin_min": 6,
-      "drop_coin_max": 6
-    },
-    {
-      "name": "a plague rat",
-      "level": 6,
-      "locations": [
-        "-45.76,-10.19,52.39",
-        "-56.00,-11.59,40.00",
-        "-63.28,-11.56,14.72",
-        "-80.49,-11.39,-38.65",
-        "-49.72,-11.48,-6.75",
-        "-60.31,-11.58,1.88",
-        "-73.92,-11.48,-2.26",
-        "-73.93,-11.48,11.57",
-        "-48.65,-11.13,25.25",
-        "-59.32,-11.59,31.17"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 610256078 -369843498:tarnished brass ring\\/a",
-          "chest": true
-        }
-      ]
-    },
-    {
-      "name": "a putrid zombie",
-      "level": 8,
-      "locations": [
-        "41.86,-3.56,91.40",
-        "36.00,-3.94,98.42",
-        "44.54,-3.38,83.13"
       ]
     },
     {
       "name": "a rotting zombie",
-      "level": 5,
       "locations": [
-        "-10.04,-7.94,-53.99",
-        "-56.88,-12.04,-78.3",
         "-2.60,-7.34,87.43"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
-          "chest": false
-        }
       ]
     },
     {
       "name": "R'Tok",
-      "purpose": "Merchant",
-      "locations": [
-        "-85.29,-13.44,121.24"
-      ],
       "utterances": [
         "In spite of the cost of living, it's still quite a popular item."
-      ],
-      "store": [
-        {
-          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
-          "prices": [
-            {
-              "coin": 2
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1135016146 -1004037174 0 0 0:Abrasive Goo\\/a",
-          "prices": [
-            {
-              "coin": 18
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 2033408167 -567541670 0 0 0:Abrasive Lick\\/a",
-          "prices": [
-            {
-              "coin": 18
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1813824429 331176307 0 0 0:Blight of the Morning\\/a",
-          "prices": [
-            {
-              "coin": 18
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1638300712 1439622804 0 0 0:Caress of the Shadow\\/a",
-          "prices": [
-            {
-              "coin": 18
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1170403870 1780713826 0 0 0:Decomposing Sludge\\/a",
-          "prices": [
-            {
-              "coin": 18
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 451893134 1724005240 0 0 0:elm buckler\\/a",
-          "prices": [
-            {
-              "coin": 187
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1471612922 673044865 0 0 0:elm fiber tome\\/a",
-          "prices": [
-            {
-              "coin": 234
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1555345365 1477013349 0 0 0:elm round shield\\/a",
-          "prices": [
-            {
-              "coin": 281
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 373476425 1791190410 0 0 0:flask of water\\/a",
-          "prices": [
-            {
-              "coin": 29
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1821722332 -1754947257 0 0 0:Minor Anti-Venin\\/a",
-          "prices": [
-            {
-              "coin": 18
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 879449092 -1789016330 0 0 0:Minor Elemental Ointment\\/a",
-          "prices": [
-            {
-              "coin": 18
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -301567800 2017367346 0 0 0:Minor Enigmatic Formula\\/a",
-          "prices": [
-            {
-              "coin": 18
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1686889297 325957772 0 0 0:Minor Salve\\/a",
-          "prices": [
-            {
-              "coin": 18
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 331790605 -1707704134 0 0 0:odyssey stone\\/a",
-          "prices": [
-            {
-              "coin": 180
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 645642884 1202802744 0 0 0:ration\\/a",
-          "prices": [
-            {
-              "coin": 29
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 2004072001 2140207675 0 0 0:rawhide fiber tome\\/a",
-          "prices": [
-            {
-              "coin": 234
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1241081646 1326260278 0 0 0:rawhide leather rucksack\\/a",
-          "prices": [
-            {
-              "coin": 180
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -182855303 1419465232 0 0 0:softly glowing pearl\\/a",
-          "prices": [
-            {
-              "coin": 18000
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 25756897 -1188173387 0 0 0:tin arrow\\/a",
-          "prices": [
-            {
-              "coin": 2
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1988968200 1153538523 0 0 0:tin symbol\\/a",
-          "prices": [
-            {
-              "coin": 234
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "a scourge bat",
-      "level": 7,
-      "locations": [
-        "-16.52,-8.35,81.80",
-        "-40.51,-7.37,82.16",
-        "-5.15,-3.60,76.69",
-        "1.98,-5.25,100.36",
-        "-48.11,-9.04,-4.53",
-        "-68.40,-9.85,-4.50",
-        "-78.09,-8.56,9.18"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 421411360 -1091731321:a bat ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1913082592 1233444867:a bat eye\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a scourge rat",
-      "level": 8,
-      "locations": [
-        "50.42,-2.88,-84.04",
-        "41.28,-2.88,-103.60",
-        "33.92,-2.88,-104.60",
-        "8.90,-2.88,-101.01",
-        "13.13,-2.88,-74.26",
-        "23.99,-2.88,-80.23",
-        "-13.55,-8.23,-54.00",
-        "-27.71,-9.83,-48.96",
-        "-60.76,-12.29,-102.07",
-        "-79.35,-13.67,-110.45",
-        "-53.49,-11.77,-83.13",
-        "43.76,-2.88,-85.58",
-        "49.34,-3.53,-104.53",
-        "53.68,-2.96,15.14",
-        "14.58,-5.23,2.90"
-      ]
-    },
-    {
-      "name": "Sir Ackmin",
-      "locations": [
-        "-35.32,-10.62,-35.43",
-        "5.28,-6.85,4.87"
-      ]
-    },
-    {
-      "name": "Sir Haligan",
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1460452271 877485774:Blade of the Traitor\\/a",
-          "chest": true
-        }
       ]
     },
     {
       "name": "Sir Haligan, Captain of the Knights of Truth",
       "locations": [
-        "-76.36,-15.53,20.11",
+        "-75.70,-15.53,20.45",
         "91.42,-1.34,111.59"
       ],
       "utterances": [
@@ -700,89 +204,20 @@
       ]
     },
     {
-      "name": "Sir Ollin",
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1673875626 1163613356:Bulwark of Marr\\/a",
-          "chest": true
-        }
-      ],
-      "faction_changes": [
-        {
-          "name": "The Spirits of Marr",
-          "value": -100
-        }
-      ]
-    },
-    {
-      "name": "Sir Xantille",
-      "level": 9,
-      "difficulty": "heroic",
-      "locations": [
-        "-51.97,-11.57,33.11",
-        "-54.45,-11.62,45.88",
-        "-53.54,-11.62,-15.52",
-        "-50.52,-11.48,56.5",
-        "-38.36,-10.63,68.59",
-        "-39.08,-10.63,63.22"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 944365900 -1571599303:Bloodcoil (Adept)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1673875626 1163613356:Bulwark of Marr\\/a",
-          "chest": true
-        }
-      ],
-      "faction_changes": [
-        {
-          "name": "The Spirits of Marr",
-          "value": -100
-        }
-      ]
-    },
-    {
-      "name": "a small spider",
-      "level": 3,
-      "locations": [
-        "-94.95,-11.69,100.93",
-        "-85.54,-13.56,102.39",
-        "-103.43,-13.75,92.57",
-        "-89.94,-12.18,95.85",
-        "-61.92,-11.09,107.02"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
       "name": "an undead battlepriest",
-      "level": 6,
       "locations": [
-        "-51.02,-11.52,54.23",
-        "-47.05,-11.20,40.88",
-        "-49.11,-11.26,63.02",
-        "-43.72,-10.48,54.95",
-        "-17.10,-8.38,87.15",
-        "-20.18,-8.67,80.00",
-        "-35.64,-10.26,75.79",
-        "-27.67,-9.07,83.21",
-        "-23.11,-9.04,74.55",
-        "-60.80,-11.58,-2.44",
-        "-5.76,-7.11,-75.11",
         "-4.00,-7.61,92.65",
         "-4.34,-7.54,98.32",
+        "-42.17,-10.76,58.60",
         "-44.58,-9.90,46.17",
         "-61.19,-12.32,-82.23",
         "-12.97,-8.30,-67.35",
         "-48.86,-10.78,82.78",
+        "-37.10,-10.40,76.10",
+        "-53.30,-11.51,55.64",
+        "-49.88,-11.36,67.78",
         "-29.45,-9.66,76.04",
-        "-42.81,-10.96,62.97"
+        "-54.43,-11.57,50.56"
       ],
       "utterances": [
         "Brains! Its what's for dinner.",
@@ -792,16 +227,8 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -2098664565 110889718:Advanced Artisan Volume 6\\/a",
           "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1399953986 1780527766:black spider silk\\/a",
-          "chest": false
         },
         {
           "gamelink": "\\aITEM -627252023 13220682:copper two handed sword\\/a",
@@ -810,52 +237,25 @@
         {
           "gamelink": "\\aITEM 1271296919 1886379139:a corrupted zombie brain\\/a",
           "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1225232718 802813239:Dissolve II (Adept)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1314876081 -1879151183:oxidized copper axe\\/a",
-          "chest": true
         }
       ],
       "drop_coin_min": 2,
-      "drop_coin_max": 9,
+      "drop_coin_max": 4,
       "faction_changes": [
         {
           "name": "The Spirits of Marr",
           "value": -100
-        },
-        {
-          "name": "The Academy of Arcane Science",
-          "value": 50
         }
       ]
     },
     {
       "name": "an undead crusader",
-      "level": 8,
       "locations": [
-        "73.95,-1.93,119.56",
-        "48.14,-2.53,111.87",
-        "84.37,-1.76,65.62",
-        "24.54,-2.88,-77.04",
         "81.98,-1.80,104.88"
       ],
       "utterances": [
         "To the grave with you!",
         "That pile of bones was my friend!"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
-          "chest": false
-        }
       ],
       "faction_changes": [
         {
@@ -866,48 +266,12 @@
     },
     {
       "name": "an undead fighter",
-      "level": 6,
       "locations": [
-        "-46.41,-11.33,-21.11",
-        "-76.54,-15.53,18.45",
-        "-1.03,-7.39,103.26",
-        "-12.14,-7.99,98.00",
-        "1.22,-7.37,109.42",
-        "-8.46,-7.86,106.20",
-        "-3.44,-6.54,-80.09",
-        "-28.05,-9.83,-36.88",
-        "-48.61,-11.32,-41.57",
-        "-57.21,-11.56,-32.64",
-        "-64.65,-11.55,3.61",
-        "-33.65,-10.17,-83.51",
-        "-43.69,-10.98,-90.14",
-        "-56.57,-12.02,-75.24",
-        "1.58,-6.94,-71.57",
         "-18.62,-9.02,-61.42"
       ],
       "utterances": [
         "Your eyes are so pretty."
       ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1781021878 -1291300464:a rusty symbol of Marr\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 3,
-      "drop_coin_max": 8,
       "faction_changes": [
         {
           "name": "The Spirits of Marr",
@@ -917,18 +281,7 @@
     },
     {
       "name": "an undead knight",
-      "level": 9,
       "locations": [
-        "67.32,-1.98,80.50",
-        "51.28,-2.53,117.82",
-        "75.39,-1.90,61.63",
-        "87.29,-1.27,72.89",
-        "65.84,-2.22,58.27",
-        "9.58,-6.50,7.16",
-        "16.58,-5.92,6.16",
-        "44.16,-3.02,-109.71",
-        "33.06,-2.88,-80.13",
-        "22.71,-2.88,-111.66",
         "44.93,-3.36,84.48"
       ],
       "utterances": [
@@ -936,48 +289,8 @@
         "Your eyes are so pretty.",
         "Rest in peace."
       ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
-          "chest": false
-        }
-      ],
       "drop_coin_min": 3,
-      "drop_coin_max": 5,
-      "faction_changes": [
-        {
-          "name": "The Spirits of Marr",
-          "value": -100
-        }
-      ]
-    },
-    {
-      "name": "an undead lancer",
-      "level": 9,
-      "locations": [
-        "35.17,-4.00,85.05",
-        "96.46,-1.44,80.02",
-        "54.67,-2.05,66.25",
-        "12.14,-2.57,-83.87",
-        "18.19,-2.88,-76.42",
-        "8.34,-2.88,-110.03"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1314876081 -1879151183:oxidized copper axe\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 7,
-      "drop_coin_max": 36,
+      "drop_coin_max": 3,
       "faction_changes": [
         {
           "name": "The Spirits of Marr",
@@ -987,12 +300,7 @@
     },
     {
       "name": "an undead pikeman",
-      "level": 5,
       "locations": [
-        "-16.39,-8.28,85.90",
-        "-4.17,-7.47,81.90",
-        "-75.25,-15.53,16.57",
-        "-60.43,-12.27,-108.23",
         "-0.52,-7.27,98.32",
         "-72.79,-13.44,-74.81",
         "-61.19,-12.32,-82.23",
@@ -1008,18 +316,6 @@
         "Dying didn't feel good the first time."
       ],
       "drops": [
-        {
-          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
-          "chest": false
-        },
         {
           "gamelink": "\\aITEM -1420769013 -1078754291:a skeleton sorrow core\\/a",
           "chest": false
@@ -1039,34 +335,8 @@
       ]
     },
     {
-      "name": "an undead priest",
-      "level": 8,
-      "locations": [
-        "37.10,-3.87,89.50",
-        "51.85,-2.91,50.35",
-        "35.96,-4.03,70.12",
-        "12.59,-2.73,-79.52",
-        "43.16,-2.92,-111.79",
-        "17.92,-2.88,-110.25",
-        "9.68,-2.88,-106.83"
-      ],
-      "faction_changes": [
-        {
-          "name": "The Spirits of Marr",
-          "value": -100
-        }
-      ]
-    },
-    {
       "name": "an undead squire",
-      "level": 6,
       "locations": [
-        "-10.36,-7.93,95.21",
-        "-43.38,-11.56,-20.30",
-        "-4.17,-7.47,81.90",
-        "-5.76,-7.11,-75.11",
-        "-20.27,-9.12,-53.92",
-        "-70.35,-12.88,-102.36",
         "-75.25,-15.53,16.57",
         "-20.51,-8.68,-73.89"
       ],
@@ -1075,70 +345,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 549628887 -1812218170:oak-handled great spear\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -1781021878 -12999458:a rusty symbol of Marr\\/a",
           "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
-          "chest": false
         }
       ],
-      "drop_coin_min": 6,
-      "drop_coin_max": 6,
       "faction_changes": [
         {
           "name": "The Spirits of Marr",
           "value": -100
-        },
-        {
-          "name": "The Academy of Arcane Science",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Volusa Tuditania",
-      "locations": [
-        "87.07,-1.71,24.2"
-      ]
-    },
-    {
-      "name": "a wooly spider",
-      "level": 4,
-      "locations": [
-        "-95.61,-12.05,93.44",
-        "-90.69,-13.61,105.47",
-        "-61.53,-11.34,93.12",
-        "-57.47,-11.44,86.20",
-        "-47.47,-11.23,74.06",
-        "-85.54,-13.55,95.45",
-        "-105.43,-13.87,106.35",
-        "-28.48,-9.27,81.55"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1554869237 -862558788:dread spider fang\\/a",
-          "chest": true
         }
       ]
     },
     {
       "name": "Zekvila Dizelk",
-      "locations": [
-        "88.31,-1.75,90.67"
-      ],
       "utterances": [
         "You are not who I was expecting.  What game are you playing with me?",
         "Gyah! How dare you speak to me with a sharp tongue! Who do you think you are, fool? You do not bear the dark instrument; therefore, I've no need for you. Unless ... yes ... yes ... unless my emissary failed at his task. Yes, you shall succeed where the emissary failed. Trust me - it is in your best interest to agree with me.",
@@ -1149,55 +368,15 @@
   ],
   "shinies": [
     {
-      "gamelink": "\\aITEM -1868197541 -626008118:chipped shard of conjuration\\/a",
-      "locations": [
-        "-50.95,-11.00,-22.12"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1321366674 1325276780:chipped shard of evocation\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 956491458 -50916358:plain black moth\\/a",
-      "locations": [
-        "-21.37,-8.00,79.69"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -2008154588 1880837041:scuffed shard of evocation\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -672434816 -519027784:shattered dark elf bone fragment\\/a"
+      "gamelink": "\\aITEM -1868197541 -626008118:chipped shard of conjuration\\/a"
     },
     {
       "gamelink": "\\aITEM 1306389734 1869011176:shattered froglok bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1526825307 2113563307:shattered human bone fragment\\/a",
-      "locations": [
-        "3.28,-6.00,109.63",
-        "23.00,-4.00,1.83"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1433267108 -1162128573:shattered kerra bone fragment\\/a",
-      "locations": [
-        "3.28,-6.00,109.63"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 2013405720 831809963:shattered orc bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1576919798 -605338864:shattered ratonga bone fragment\\/a"
     }
   ],
   "resourceNodes": [
     {
       "name": "the creature den"
-    },
-    {
-      "name": "the dismal ore"
     },
     {
       "name": "the exhumed stones"
@@ -1207,9 +386,6 @@
     },
     {
       "name": "the ravaged natural garden"
-    },
-    {
-      "name": "the withered arbor"
     }
   ]
 }

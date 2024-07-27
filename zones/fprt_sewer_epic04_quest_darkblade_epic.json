@@ -14,59 +14,5 @@
     {
       "key": "fprt_sewer01"
     }
-  ],
-  "npcs": [
-    {
-      "name": "a Darkblade assassin",
-      "level": 10,
-      "locations": [
-        "-0.84,-0.28,13.90",
-        "4.78,-0.28,14.37",
-        "12.03,-0.59,-6.10",
-        "9.82,-0.28,-12.75"
-      ],
-      "utterances": [
-        "Sees us, did we? Must not let you talk then.",
-        "Flee and take care of them later."
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 25,
-      "drop_coin_max": 41
-    },
-    {
-      "name": "Sinyaz V'rix",
-      "level": 10,
-      "difficulty": "heroic",
-      "locations": [
-        "-7.33,-1.28,9.17"
-      ],
-      "drop_coin_min": 24,
-      "drop_coin_max": 39
-    },
-    {
-      "name": "Zaynis V'rix",
-      "level": 10,
-      "difficulty": "heroic",
-      "locations": [
-        "-10.33,-1.28,11.17"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 27,
-      "drop_coin_max": 27
-    }
   ]
 }

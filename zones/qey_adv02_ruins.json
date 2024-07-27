@@ -40,15 +40,6 @@
   "npcs": [
     {
       "name": "Acting Lieutenant Germain",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "899.46,-15.06,-576.16"
-      ],
       "utterances": [
         "Welcome, citizen. Please be careful around here.",
         "Yes, quite dangerous. We have been getting reports, strange reports, over the past few days. Nobody is sure exactly what is going on, and we don't have the manpower to find out once and for all. I've got scouts but even they can only do so much. We've got so few people that it's hard to take care of all the little things.  Ever since the pirates landed the Concordium has been asking for more and more protection.",
@@ -80,81 +71,11 @@
         "Good. Very good. Well done. This is a huge relief. With Malox gone the other gnolls won't last much longer, at least the ones here won't. <player name>, Qeynos has sent word back. The Rockpaw Gnolls are responsible for what has happened here. It is time to move.",
         "We have gone on the offensive. The Rockpaw Gnolls have made their base within The Caves for quite some time, and we've decided to attack. Travel there and speak with Consul Bree, she will have orders for you. Thanks again, <player name>, you really came through for us out here.",
         "I wish I could go with you into the Caves. Good luck."
-      ],
-      "quests": [
-        {
-          "id": 2436558414,
-          "name": "Favors"
-        },
-        {
-          "id": 2019117947,
-          "name": "Uncover the Caches"
-        }
-      ]
-    },
-    {
-      "name": "Aedre",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "898.47, -14.35, -563.55"
-      ],
-      "store": [
-        {
-          "gamelink": "\\aITEM -1241081646 1326260278:rawhide leather rucksack\\/a",
-          "prices": [
-            {
-              "coin": 81
-            }
-          ]
-        }
-      ],
-      "store_template": "general_goods"
-    },
-    {
-      "name": "Ahnrisk",
-      "locations": [
-        "992.31,-13.98,-698.14"
-      ]
-    },
-    {
-      "name": "an Antonican hawk",
-      "level": 7,
-      "locations": [
-        "1156.30,-21.64,-754.68",
-        "984.47,-20.04,-573.06",
-        "949.45,-16.40,-651.76",
-        "1091.98,-17.61,-819.55",
-        "1111.74,-17.66,-806.16",
-        "1136.28,-17.48,-795.44",
-        "1152.67,-17.30,-746.66",
-        "1149.28,-14.91,-728.18",
-        "1101.55,-18.61,-623.97",
-        "1063.36,-17.61,-589.02"
-      ]
-    },
-    {
-      "name": "The Basalt Watcher",
-      "locations": [
-        "1036.58,-8.96,-677.59"
       ]
     },
     {
       "name": "a Blackfurl deckhand",
-      "level": 10,
       "locations": [
-        "973.00,-23.35,-847.00",
-        "951.55,-26.45,-869.29",
-        "968.27,-26.80,-889.61",
-        "1006.65,-25.49,-897.16",
-        "1037.90,-27.70,-912.00",
-        "1044.21,-24.58,-894.56",
-        "971.25,-24.71,-868.78",
-        "973.14,-21.60,-817.75",
         "959.54,-24.97,-853.39",
         "1,005.68,-25.76,-900.86",
         "989.75,-25.13,-886.19",
@@ -178,18 +99,6 @@
         {
           "gamelink": "\\aITEM 1202278372 -1670721896:advanced craftsman volume 10\\/a",
           "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1255926754 -1670363261:Advanced Scholar Volume 10\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 812378501 -1056832727:Wolf-hide Boots\\/a",
-          "chest": true
         }
       ],
       "faction_changes": [
@@ -201,121 +110,36 @@
     },
     {
       "name": "a Blackfurl lubber",
-      "level": 10,
-      "locations": [
-        "1083.76,-10.25,-672.90",
-        "1027.26,-9.81,-766.42",
-        "1065.26,-9.72,-786.21",
-        "1031.20,-9.84,-777.75",
-        "1064.12,-9.87,-793.34"
-      ],
       "utterances": [
         "I hope you put your affairs in order."
-      ],
-      "drop_coin_min": 16,
-      "drop_coin_max": 16
+      ]
     },
     {
       "name": "a Blackfurl medic",
-      "level": 10,
-      "locations": [
-        "1087.10,-10.14,-674.76",
-        "1031.20,-9.84,-777.75",
-        "1064.12,-9.87,-793.34",
-        "1029.27,-9.83,-767.50",
-        "1057.90,-9.88,-794.34"
-      ],
       "utterances": [
         "Not nice to interrupt dinner.",
         "I'm gonna give you a smile like ol' one tooth!",
         "Me going to eat your kidney first."
-      ],
-      "drop_coin_min": 32,
-      "drop_coin_max": 32
+      ]
     },
     {
       "name": "a Blackfurl oarcaller",
-      "level": 10,
-      "locations": [
-        "1023.58,-25.29,-895.21",
-        "1062.89,-24.11,-896.21",
-        "1067.83,-25.69,-909.66",
-        "1009.24,-10.25,-707.66",
-        "1039.28,-10.25,-753.86"
-      ],
       "utterances": [
         "Fall back and regroup.  The enemy has the upper hand!"
       ]
     },
     {
       "name": "a Blackfurl scout",
-      "level": 10,
-      "locations": [
-        "937.53,-25.81,-864.25",
-        "931.94,-25.06,-861.53",
-        "1027.53,-24.62,-892.27",
-        "1058.63,-24.27,-895.37",
-        "1069.07,-24.96,-904.65",
-        "1101.63,-21.09,-716.02",
-        "1036.01,-19.01,-653.98",
-        "1009.49,-19.00,-657.98",
-        "996.56,-10.25,-701.68",
-        "1002.18,-10.25,-699.99",
-        "1000.91,-10.25,-713.25",
-        "1025.84,-10.25,-710.15",
-        "1040.50,-10.25,-756.33",
-        "1041.38,-9.92,-772.13",
-        "1110.65,-10.25,-723.57",
-        "1106.87,-9.25,-744.21",
-        "1112.05,-9.25,-758.87",
-        "1108.32,-9.25,-749.43",
-        "1114.19,-8.37,-742.70"
-      ],
       "utterances": [
         "Flee and take care of them later.",
         "Should of escaped while I had the chance.",
         "Not very nice of you to be all sneaky.",
         "Take my secrets to my grave, I shall."
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 21,
-      "drop_coin_max": 264
+      ]
     },
     {
       "name": "a Blackfurl swabbie",
-      "level": 10,
       "locations": [
-        "931.12,-25.99,-867.23",
-        "1023.47,-24.15,-889.31",
-        "1031.89,-26.66,-906.01",
-        "1061.34,-23.36,-891.34",
-        "1072.17,-25.35,-909.55",
-        "999.43,-10.25,-706.20",
-        "1085.56,-10.25,-670.92",
-        "1059.32,-10.25,-671.54",
-        "1050.44,-10.25,-760.05",
-        "1039.14,-10.09,-758.92",
-        "1029.27,-9.83,-767.50",
-        "1040.81,-9.45,-777.57",
-        "1057.90,-9.88,-794.34",
-        "1112.48,-7.65,-743.78",
-        "1046.24,-9.91,-773.84",
-        "1039.21,-10.25,-767.63",
-        "1065.26,-9.72,-786.21",
-        "964.15,-25.34,-865.44",
         "1,029.63,-26.15,-902.30"
       ],
       "utterances": [
@@ -326,241 +150,21 @@
         "Flee and take care of them later.",
         "Not nice to interrupt dinner."
       ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 347909080 -1870992907:waxed skullcap\\/a",
-          "chest": true
-        }
-      ],
-      "drop_coin_min": 17,
-      "drop_coin_max": 214,
       "faction_changes": [
         {
           "name": "The Academy of Arcane Science",
           "value": -100
-        },
-        {
-          "name": "The Qeynos Guard",
-          "value": 50
-        },
-        {
-          "name": "The Concordium",
-          "value": 50
         }
       ]
-    },
-    {
-      "name": "a bonecutter fish",
-      "level": 6,
-      "locations": [
-        "1130.61,-28.06,-675.56",
-        "981.05,-24.84,-796.54",
-        "982.98,-24.93,-780.42",
-        "993.85,-22.50,-775.66",
-        "988.64,-23.75,-779.00",
-        "1133.07,-27.11,-681.81"
-      ]
-    },
-    {
-      "name": "a bound watcher",
-      "level": 10,
-      "locations": [
-        "1055.33,-15.03,-732.23",
-        "1027.48,-15.05,-718.00",
-        "1040.57,-14.94,-715.50",
-        "1044.89,-15.05,-747.21"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1264913566 511431544:Brainshock II (Adept)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1080130292 -1709324196:Bronze Hatchet\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 42170032 -1866821051:a globe of water\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a bristly tarantula",
-      "level": 5,
-      "locations": [
-        "1100.00,-21.60,-625.84",
-        "1090.76,-20.61,-619.55",
-        "1082.00,-21.36,-600.00",
-        "1083.04,-19.06,-634.13",
-        "1091.28,-20.62,-625.33",
-        "1085.68,-20.08,-616.84"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a brittle accountant",
-      "level": 10,
-      "locations": [
-        "1077.39,-10.25,-670.06",
-        "1070.01,-10.10,-673.18",
-        "1072.06,-10.11,-686.53"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 7,
-      "drop_coin_max": 7
-    },
-    {
-      "name": "a centipede",
-      "level": 8,
-      "locations": [
-        "980.97,-18.54,-697.56",
-        "964.81,-20.52,-690.34",
-        "957.88,-21.77,-693.81",
-        "975.84,-19.12,-705.85",
-        "950.77,-21.85,-672.02",
-        "953.80,-22.09,-682.18",
-        "959.47,-21.22,-687.83",
-        "960.08,-22.04,-705.87"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1890619312 1429455608:Bronze Harpoon\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1560357389 1897618518:an insect antenna\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 14920725 1871977281:Rotted Kite Shield\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1569006869 1387402648:a venom gland\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "Colonel Belaridonis",
-      "locations": [
-        "886.29,-12.13,-556.81"
-      ]
-    },
-    {
-      "name": "a deep lurker",
-      "level": 6,
-      "locations": [
-        "1130.02,-27.00,-674.00",
-        "1132.75,-24.17,-704.95",
-        "1137.91,-30.00,-701.85",
-        "1130.98,-30.00,-700.74"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 14920725 1871977281:Rotted Kite Shield\\/a",
-          "chest": true
-        }
-      ]
-    },
-    {
-      "name": "a devoted follower",
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 18,
-      "drop_coin_max": 173
     },
     {
       "name": "Dig Supervisor T'narl",
-      "level": 11,
-      "difficulty": "heroic",
-      "locations": [
-        "1083.38,-0.92,-776.12"
-      ],
       "utterances": [
         "Look what strolled into the spider's web!"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1329104420 -935035637:Hunter's Instinct (Adept)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 2056514007 -661217797:T'narl's Dagger\\/a",
-          "chest": true
-        }
-      ]
-    },
-    {
-      "name": "Dockins",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "1001.41,-22.25,-553.89"
       ]
     },
     {
       "name": "Elvic Garrett",
-      "race": [
-        "half elf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "914.34,-19.57,-573.17"
-      ],
       "utterances": [
         "These lands are not as safe as they once were.",
         "Ah, this is fortuitious. It has been some time since Daelyn has written something. My mind has been occupied as of late, I may have to save reading this for a time when I can focus more on my people.",
@@ -569,196 +173,22 @@
         "Thank you.  I am sure this will be very helpful.",
         "Have you found any clues yet?",
         "Hm, let me see that. Hmm, this note is written in gnollish. This... the Qeynos Guard needs to know of this, immediately. You must take this to Lieutenant Germain, he will know what to do. Offer him whatever help you can. And... thank you."
-      ],
-      "quests": [
-        {
-          "id": 3656481881,
-          "name": "For Qeynos"
-        }
       ]
-    },
-    {
-      "name": "a fiery forgotten guardian",
-      "level": 8,
-      "locations": [
-        "969.00,-18.66,-647.05",
-        "980.58,-18.34,-645.56",
-        "1053.69,-18.47,-611.59",
-        "1020.22,-18.90,-626.20",
-        "1009.86,-18.82,-631.09",
-        "1015.61,-19.01,-648.98",
-        "1028.86,-19.12,-612.24"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1925395467 -1686408835:charred tinder\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1045585543 1169903901:charred tinder\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1226603712 634580495:an elemental fascination rune\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "Findle Gimblesled",
-      "locations": [
-        "1069.17,-22.97,-853.94"
-      ]
-    },
-    {
-      "name": "a Flamepaw loyalist",
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a fleshless martyr",
-      "level": 11,
-      "difficulty": "heroic",
-      "locations": [
-        "1075.19,-1.67,-773.23"
-      ]
-    },
-    {
-      "name": "a fleshless stormer",
-      "level": 11,
-      "difficulty": "heroic",
-      "locations": [
-        "1076.35,-3.31,-774.40",
-        "1086.60,-1.67,-767.88"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a forgotten guardian",
-      "level": 8,
-      "locations": [
-        "992.35,-18.95,-632.55",
-        "1007.98,-19.29,-623.50",
-        "1020.22,-18.90,-626.20",
-        "1009.86,-18.82,-631.09",
-        "1024.79,-19.01,-648.98",
-        "1037.87,-20.14,-606.73"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 821228530 691737450:a fragment of terrain\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1784369501 -1609277764:worn chain bracelet\\/a",
-          "chest": true
-        }
-      ]
-    },
-    {
-      "name": "a gossamer groundskeeper",
-      "level": 10,
-      "locations": [
-        "1060.10,-10.25,-674.92",
-        "1051.24,-10.25,-677.11",
-        "1017.87,-10.25,-687.41"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 39,
-      "drop_coin_max": 39
-    },
-    {
-      "name": "Grekin",
-      "locations": [
-        "885.54,-13.66,-573.67"
-      ],
-      "store_template": "bowyer"
     },
     {
       "name": "Ilaen Lilac",
-      "locations": [
-        "966.33,-21.22,-811.49"
-      ],
       "utterances": [
         "There is no failing greater than a child unable to protect a parent."
-      ],
-      "quests": [
-        {
-          "id": 2803330793,
-          "name": "Unnatural Causes",
-          "ends_at_npc": "Acting Lieutenant Germain",
-          "related_items": [
-            {
-              "id": 612207850
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Ingraham",
-      "level": 25,
-      "locations": [
-        "889.08,-12.08,-553.48"
-      ]
-    },
-    {
-      "name": "Kinloc Flamepaw's Remains",
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1114811548 467564743:Flame Forged Hauberk\\/a",
-          "chest": true
-        }
-      ]
-    },
-    {
-      "name": "a lake swarmer",
-      "level": 6,
-      "locations": [
-        "1108.63,-22.70,-670.31",
-        "1150.74,-16.63,-719.65",
-        "1121.53,-16.16,-665.26",
-        "1126.24,-18.05,-660.08",
-        "1136.69,-16.45,-667.30"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1633297914 396025219:an insect wing\\/a",
-          "chest": false
-        }
       ]
     },
     {
       "name": "a leathershell snapper",
-      "level": 6,
       "locations": [
-        "977.95,-30.00,-601.18",
-        "973.89,-30.00,-612.22",
-        "973.95,-29.00,-618.90",
-        "957.09,-28.85,-602.39",
-        "966.48,-29.28,-590.01",
-        "980.12,-29.86,-609.05",
-        "950.00,-28.50,-590.52",
-        "966.78,-27.11,-596.46",
-        "953.49,-27.16,-596.69",
-        "955.62,-27.11,-612.88",
         "944.49,-27.28,-587.66",
+        "945.27,-28.43,-595.44",
         "945.56,-28.97,-602.91",
-        "966.66,-27.31,-614.74"
+        "966.66,-27.31,-614.74",
+        "950.74,-28.76,-608.27"
       ],
       "drops": [
         {
@@ -766,78 +196,23 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 63211282 2010308565:Kick (Adept I)\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -275019547 1525240433:tin tulwar\\/a",
           "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 345112318 805644505:turtle meat\\/a",
-          "chest": false
         }
       ]
-    },
-    {
-      "name": "a molting scavenger",
-      "level": 8,
-      "locations": [
-        "991.25,-14.33,-696.00"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a necrotic archaeologist",
-      "level": 11,
-      "difficulty": "heroic",
-      "locations": [
-        "1081.55,-3.03,-779.54",
-        "1080.84,-3.03,-774.07"
-      ],
-      "drop_coin_min": 31,
-      "drop_coin_max": 31
     },
     {
       "name": "Outlander Vaughn",
-      "locations": [
-        "946.52,-20.70,-644.52",
-        "1181.84,-23.33,-768.16"
-      ],
       "utterances": [
         "Am I ever in a bind! Will you please help me?",
         "Those wretched Blackfurl deckhands stole my satchel!  It had everything that was important to me. Please, recover my satchel!",
         "What's that you have? You found my stuff!  That's fantastic!  I can't thank you enough.",
         "Thank you so very much for finding my dear possessions! Can you help me with one more small favor?",
         "I need you to take this letter to Hunter Forestdeep. You'll find him in the Willow Wood village."
-      ],
-      "quests": [
-        {
-          "id": 3769006108,
-          "name": "Letter for Hunter Forestdeep"
-        },
-        {
-          "id": 2041522598,
-          "name": "Vaughn's Stuff"
-        }
       ]
     },
     {
       "name": "Poko Zing",
-      "race": [
-        "gnome"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "887.75,-12.87,-563"
-      ],
       "utterances": [
         "How come nobody seems to realize how busy I am? Let me guess, you want me to do something very boring for your benefit, am I right?",
         "Analyze? Why wo- ooh, is it glowing? This is an amazing find. Where DID you find it?",
@@ -849,96 +224,14 @@
       ]
     },
     {
-      "name": "a prowler pup",
-      "level": 4,
-      "locations": [
-        "1175.42,-19.89,-791.49",
-        "1174.18,-22.63,-806.96",
-        "1178.91,-23.28,-774.72"
-      ]
-    },
-    {
-      "name": "a Rabid Badger",
-      "level": 6,
-      "locations": [
-        "1020.00,-21.99,-577.00",
-        "1016.20,-22.53,-601.72",
-        "1004.20,-23.42,-584.30"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1853059425 1932165374:Armor of Seasons (Adept)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1790226715 -1295267523:Badgerbite Dirk\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1564630001 1075925754:Badger Hide Cap\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 7014402 874665795:Badger Skin Belt\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1466305269 1655146994:silver cluster\\/a",
-          "chest": true
-        }
-      ]
-    },
-    {
-      "name": "Remmy Tumbub",
-      "race": [
-        "halfling"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "1013.54,-22.38,-577.77"
-      ],
-      "quests": [
-        {
-          "id": 2569200347,
-          "name": "Clearing Remmy's Name"
-        }
-      ]
-    },
-    {
       "name": "a rock adder",
-      "level": 6,
       "locations": [
-        "1014.22,-22.48,-603.84",
-        "1024.02,-20.67,-606.00",
-        "1019.66,-22.84,-590.29",
-        "1025.84,-22.03,-582.29",
-        "1033.71,-21.57,-588.75",
-        "1030.36,-21.67,-593.81",
-        "1040.03,-21.12,-592.61",
-        "1031.44,-19.79,-599.89",
-        "1026.43,-21.77,-598.82",
-        "1036.00,-20.27,-606.73",
-        "1041.45,-20.68,-598.94",
         "1,018.99,-22.21,-578.93",
         "1,027.56,-21.97,-576.69"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 467778097 -1617601716:Advanced Artisan Volume 5\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -2098664565 110889718:Advanced Artisan Volume 6\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -1890619312 1474986940:bronze harpoon\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -117919123 1826588280:bronze knotted club\\/a",
           "chest": true
         },
         {
@@ -946,135 +239,29 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -2059754501 -1803583786:a poison gland\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1166576126 -1541417864:waxed tunic\\/a",
           "chest": true
-        }
-      ],
-      "faction_changes": [
-        {
-          "name": "The Concordium",
-          "value": 50
         }
       ]
     },
     {
       "name": "a rotting pathfinder",
-      "level": 11,
-      "difficulty": "heroic",
-      "locations": [
-        "1090.91,-1.67,-776.78"
-      ],
       "utterances": [
         "Your blood calls to me."
-      ],
-      "drop_coin_min": 33,
-      "drop_coin_max": 33
-    },
-    {
-      "name": "a ruins prowler",
-      "level": 7,
-      "locations": [
-        "1149.93,-19.90,-768.00",
-        "1146.94,-22.10,-806.50",
-        "1154.12,-20.79,-787.23",
-        "1176.52,-19.49,-799.03",
-        "1174.13,-22.76,-804.60",
-        "1179.75,-23.33,-776.58"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -982875894 -747549538:canine saliva\\/a",
-          "chest": false
-        }
       ]
     },
     {
       "name": "Sergeant at Arms Uthros",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "894.2,-13.66,-564.93",
-        "894.49,-14.43,-573.03"
-      ],
       "utterances": [
         "Watch your step, friend. Many adventurers get injured because they don't know the dangers that lurk here. These grounds are home to the ruins of the old mage academy.  It was destroyed during the wars that raged centuries ago.  And aside from the already dangerous inhabitants of these ruins,  elemental servants of mages lurk about. Scared yet? ... If you're intent on staying in Qeynos, I suppose we can use your help.",
         "Well, then, make yourself useful and kill some of the nasty vermin who live in this area.   And if you need something to do later, come on back, I always need help!",
         "Hey! Great work on the vermin.  Can you spare more time to help Qeynos?",
         "Great! Then go and kill more vermin."
-      ],
-      "quests": [
-        {
-          "id": 2815070672,
-          "name": "Forest Ruins Volunteer"
-        }
       ]
-    },
-    {
-      "name": "a skittering scavenger",
-      "level": 8,
-      "locations": [
-        "1064.69,-19.02,-645.57",
-        "1057.74,-19.03,-647.00",
-        "1071.41,-19.00,-659.82",
-        "1061.67,-19.01,-660.60",
-        "989.31,-18.30,-662.62",
-        "997.58,-21.67,-675.09"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a slabshell snapper",
-      "level": 9,
-      "locations": [
-        "1036.45,-24.00,-727.73",
-        "1081.90,-24.00,-705.95"
-      ]
-    },
-    {
-      "name": "Sleeble Gimblesled",
-      "locations": [
-        "1072.50,-23.43,-840.76"
-      ]
-    },
-    {
-      "name": "a sleepless one",
-      "level": 10,
-      "locations": [
-        "1085.56,-10.25,-670.92",
-        "1020.22,-10.25,-708.54",
-        "1008.62,-10.25,-708.20"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 6,
-      "drop_coin_max": 10
     },
     {
       "name": "a sodden victim",
-      "level": 10,
       "locations": [
-        "936.46,-29.05,-880.24",
-        "936.07,-30.80,-888.70",
-        "968.99,-29.65,-899.99",
-        "1050.08,-30.17,-940.32",
-        "1029.34,-31.57,-922.83",
         "1,006.82,-26.12,-905.08"
       ],
       "utterances": [
@@ -1085,135 +272,14 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1993577523 1261960677:small decaying bone\\/a",
           "chest": false
         }
-      ],
-      "drop_coin_min": 4,
-      "drop_coin_max": 40,
-      "faction_changes": [
-        {
-          "name": "The Academy of Arcane Science",
-          "value": -100
-        }
       ]
-    },
-    {
-      "name": "The Spectral Headmaster",
-      "level": 10,
-      "difficulty": "heroic",
-      "locations": [
-        "1083.38,-0.92,-776.12"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a spectral instructor",
-      "level": 10,
-      "locations": [
-        "1088.00,-9.29,-746.39",
-        "1079.02,-1.67,-783.27",
-        "1076.35,-3.31,-774.40",
-        "1090.91,-1.67,-776.78",
-        "1033.18,-9.45,-757.65",
-        "1041.82,-10.25,-767.20",
-        "1027.89,-9.45,-772.41",
-        "1040.81,-9.45,-777.57"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -86102345 -151067204:a ghost vile plasm \\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a spectral student",
-      "level": 10,
-      "locations": [
-        "1016.56,-10.25,-705.42",
-        "1014.55,-10.25,-698.84",
-        "1002.18,-10.25,-699.99",
-        "999.43,-10.25,-706.20",
-        "1000.91,-10.25,-713.25",
-        "1010.56,-10.25,-706.51",
-        "1039.28,-10.25,-753.86",
-        "1039.14,-10.09,-758.92",
-        "1041.38,-9.92,-772.13",
-        "1031.20,-9.84,-777.75",
-        "1029.27,-9.83,-767.50",
-        "1065.26,-9.72,-786.21",
-        "1057.90,-9.88,-794.34",
-        "1064.12,-9.87,-793.34"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -704384670 1077323225:an ethereal nerve\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -211262820 88743151:a ghost ethereal strand\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 19,
-      "drop_coin_max": 258
     },
     {
       "name": "a stoneshell snapper",
-      "level": 6,
       "locations": [
-        "985.13,-23.62,-584.71",
-        "977.29,-26.56,-588.89",
-        "986.14,-26.57,-609.20",
-        "974.25,-25.70,-630.00",
-        "966.45,-25.51,-635.49",
-        "947.18,-25.62,-577.64",
-        "1137.95,-22.47,-723.82",
-        "1120.40,-18.95,-712.58",
-        "1111.95,-23.75,-694.20",
-        "1099.96,-23.79,-701.33",
-        "1128.23,-23.17,-660.48",
-        "1112.32,-23.36,-673.60",
-        "988.23,-24.24,-603.95",
-        "985.43,-26.02,-598.29",
-        "976.10,-29.65,-595.63",
-        "983.00,-26.30,-622.00",
-        "965.29,-21.88,-641.35",
-        "941.44,-26.25,-624.39",
         "949.54,-29.44,-594.31",
         "953.78,-28.64,-625.49",
         "962.43,-27.03,-619.73",
@@ -1224,15 +290,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -2098664565 110889718:Advanced Artisan Volume 6\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 965654835 -402176760:Evade (Adept I)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 785690852 665888271:Sand Blast (Adept I)\\/a",
           "chest": true
         },
         {
@@ -1240,77 +298,13 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1852418953 1450020491:turtle meat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1123670209 -1456067402:turtle shell\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a sun beetle",
-      "level": 6,
-      "locations": [
-        "971.92,-22.35,-763.20",
-        "975.05,-18.68,-686.41",
-        "978.00,-18.90,-696.64",
-        "970.94,-20.92,-714.07",
-        "981.00,-19.47,-713.12",
-        "970.95,-21.96,-732.97",
-        "959.90,-22.71,-740.31",
-        "964.93,-22.25,-734.08",
-        "972.82,-21.12,-721.94",
-        "993.78,-20.19,-750.38"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a tarantula hawk",
-      "level": 6,
-      "locations": [
-        "1078.25,-20.98,-598.67",
-        "1048.00,-16.25,-596.89",
-        "1054.85,-15.58,-597.10"
-      ]
-    },
-    {
-      "name": "a tattered spellbook",
-      "level": 10,
-      "locations": [
-        "1112.96,-9.25,-740.36",
-        "1108.69,-4.61,-745.48",
-        "1114.47,-7.97,-766.40",
-        "1119.63,-8.06,-749.91"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1890619312 1429455608:Bronze Harpoon\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1789422850 813018423:a ripped enchanted page\\/a",
+          "gamelink": "\\aITEM 1852418953 1167854381:turtle meat\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "Thenatren Lightarrow",
-      "race": [
-        "wood elf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "933.36,-15.51,-581.85"
-      ],
       "utterances": [
         "Watch yourself near those ruins, they are dangerous!",
         "Careful near those ruins friend!  It's a magical place and full of danger!"
@@ -1318,15 +312,6 @@
     },
     {
       "name": "Therven Senshun",
-      "race": [
-        "half elf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "944.94,-22.09,-573.56"
-      ],
       "utterances": [
         "Hello there! Have you got time to lend a hand?",
         "Well, I'm trying some new leather tanning methods and in my work I've found that some of my techniques create an amazingly soft product when used on turtle shells. Amazing, I know! I'm not sure what use it may have, but I'd like to perfect the process anyway.",
@@ -1335,113 +320,11 @@
         "Bring them back as soon as you get them!",
         "Did you get the shells?",
         "Thanks! I appreciate it! You've really helped me a lot."
-      ],
-      "quests": [
-        {
-          "id": 2609752943,
-          "name": "Snapper Shells"
-        }
-      ]
-    },
-    {
-      "name": "a timber deer",
-      "level": 6,
-      "locations": [
-        "1006.01,-20.22,-779.98",
-        "999.58,-21.29,-795.55",
-        "1101.61,-23.12,-830.06",
-        "1109.83,-21.93,-818.63",
-        "1115.39,-22.04,-819.84",
-        "1149.76,-20.05,-782.50"
-      ]
-    },
-    {
-      "name": "a timber fawn",
-      "level": 4,
-      "locations": [
-        "1008.31,-22.24,-572.41",
-        "966.73,-23.95,-557.64",
-        "1005.97,-21.85,-565.04",
-        "992.32,-24.45,-581.40",
-        "1112.73,-22.45,-825.07"
-      ]
-    },
-    {
-      "name": "Tinshen Brinth's Remains",
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1454290935 2038916471:Primal Reflexes (Adept)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -396473352 -575378048:Sun Bleached Pike\\/a",
-          "chest": true
-        }
-      ]
-    },
-    {
-      "name": "a tireless student",
-      "level": 10,
-      "locations": [
-        "1039.29,-23.62,-725.09",
-        "1042.24,-21.61,-744.58",
-        "1074.86,-23.33,-704.91"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 347909080 -1870992907:waxed skullcap\\/a",
-          "chest": true
-        }
-      ],
-      "drop_coin_min": 8,
-      "drop_coin_max": 33
-    },
-    {
-      "name": "a tool guardian",
-      "locations": [
-        "1032.29,-21.57,-585.06",
-        "1040.15,-21.99,-582.39"
-      ]
-    },
-    {
-      "name": "Winterburn",
-      "level": 25,
-      "locations": [
-        "890.14,-14.03,-572.28"
       ]
     },
     {
       "name": "a woodland badger",
-      "level": 5,
       "locations": [
-        "947.26,-20.99,-560.58",
-        "954.99,-23.09,-564.32",
-        "973.87,-24.92,-567.03",
-        "997.73,-24.64,-589.16",
-        "985.49,-25.09,-567.57",
-        "996.69,-22.40,-559.36",
-        "1011.08,-23.47,-594.70",
-        "1023.39,-22.13,-571.66",
-        "1015.24,-22.91,-584.88",
-        "994.57,-24.46,-583.62",
-        "1008.71,-23.00,-605.25",
-        "936.44,-20.06,-560.24",
-        "958.88,-23.23,-557.29",
-        "1000.59,-22.27,-567.59",
-        "991.59,-24.16,-572.61",
-        "967.27,-24.17,-559.12",
-        "1023.32,-21.95,-578.40",
-        "966.76,-24.06,-564.36",
-        "985.53,-24.60,-575.43",
-        "992.65,-24.37,-590.74",
         "1,002.83,-22.07,-566.26",
         "1,024.89,-21.93,-576.13",
         "1,010.69,-23.48,-594.39"
@@ -1452,37 +335,13 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1284315391 1116309167:Brawler's Stance (Adept I)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1080130292 -1731950312:bronze hatchet\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1753327823 1032961193:Far Seas Trading Requisition FRN0378\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1377657043 446323017:rawhide leather pelt\\/a",
           "chest": false
         }
       ]
-    },
-    {
-      "name": "Yestura Rhamrey's Remains",
-      "locations": [
-        "1018.08,-10.25,-708.26"
-      ]
     }
   ],
   "shinies": [
-    {
-      "gamelink": "\\aITEM -1770462429 -1506854305:abalone shell\\/a",
-      "locations": [
-        "963.36,-25.00,-870.03"
-      ]
-    },
     {
       "gamelink": "\\aITEM -1832140126 1193284294:chipped shard of abjuration\\/a"
     },
@@ -1490,20 +349,7 @@
       "gamelink": "\\aITEM 1331551958 -1699344718:chipped shard of channeling\\/a"
     },
     {
-      "gamelink": "\\aITEM 164202245 -601729183:chipped shard of divination\\/a",
-      "locations": [
-        "941.93,-20.00,-637.84"
-      ]
-    },
-    {
       "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1612899270 -1960681747:conch shell\\/a",
-      "locations": [
-        "987.27,-25.00,-891.33",
-        "1029.12,-26.00,-904.12"
-      ]
     },
     {
       "gamelink": "\\aITEM -1571977034 771614206:cracked barbarian bone fragment\\/a"
@@ -1521,34 +367,13 @@
       "gamelink": "\\aITEM -1827919267 -43288604:plain purple butterfly\\/a"
     },
     {
-      "gamelink": "\\aITEM -327615186 -1226570096:plain violet butterfly\\/a"
+      "gamelink": "\\aITEM -327615186 -1572251097:plain violet butterfly\\/a"
     },
     {
-      "gamelink": "\\aITEM -1450331100 1726103362:plain yellow butterfly\\/a",
-      "locations": [
-        "973.48,-20.00,-723.31"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1880258538 -1100483940:regal violet butterfly\\/a",
-      "locations": [
-        "955.21,-21.00,-678.72"
-      ]
+      "gamelink": "\\aITEM -1450331100 1726103362:plain yellow butterfly\\/a"
     },
     {
       "gamelink": "\\aITEM -1341170799 308633262:scuffed shard of abjuration\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1981956052 -733463829:scuffed shard of alteration\\/a",
-      "locations": [
-        "966.84,-18.00,-675.00"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1838761957 -806141222:scuffed shard of channeling\\/a",
-      "locations": [
-        "1154.63,-20.00,-777.23"
-      ]
     },
     {
       "gamelink": "\\aITEM 722279990 -1989731575:scuffed shard of divination\\/a"
@@ -1560,13 +385,7 @@
       "gamelink": "\\aITEM -672434816 285511061:shattered dark elf bone fragment\\/a"
     },
     {
-      "gamelink": "\\aITEM -1389794325 -2065648483:shattered dwarf bone fragment\\/a"
-    },
-    {
       "gamelink": "\\aITEM 211153600 898123469:shattered erudite bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1306389734 920109425:shattered froglok bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM -107810075 -1730039780:shattered gnoll bone fragment\\/a"
@@ -1593,7 +412,7 @@
       "gamelink": "\\aITEM -1004669040 447686829:shattered troll bone fragment\\/a"
     },
     {
-      "gamelink": "\\aITEM 792936304 790984077:spotted blue butterfly\\/a"
+      "gamelink": "\\aITEM 792936304 1175841208:spotted blue butterfly\\/a"
     },
     {
       "gamelink": "\\aITEM -920795723 769305171:spotted purple butterfly\\/a"
@@ -1602,10 +421,7 @@
       "gamelink": "\\aITEM -140875129 -614209625:striped purple butterfly\\/a"
     },
     {
-      "gamelink": "\\aITEM -1997619724 -2076063132:striped violet butterfly\\/a",
-      "locations": [
-        "1007.73,-20.00,-808.64"
-      ]
+      "gamelink": "\\aITEM -1997619724 -2076063132:striped violet butterfly\\/a"
     }
   ],
   "resourceNodes": [

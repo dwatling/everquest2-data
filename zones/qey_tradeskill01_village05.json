@@ -9,29 +9,7 @@
   ],
   "npcs": [
     {
-      "name": "Arolair Swellbreak",
-      "race": [
-        "half elf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "-1.09,-0.48,-9.61"
-      ]
-    },
-    {
       "name": "Cliffjumper",
-      "race": [
-        "half elf"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "Broker",
-      "locations": [
-        "9.69,-0.48,-9.94"
-      ],
       "utterances": [
         "Welcome! What can I help you with?",
         "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
@@ -41,15 +19,6 @@
     },
     {
       "name": "Kezlack Cogturner",
-      "race": [
-        "gnome"
-      ],
-      "gender": [
-        "male"
-      ],
-      "locations": [
-        "1.95,-0.48,5.01"
-      ],
       "utterances": [
         "Hello there, what can I do for you?",
         "Training, eh?  Good to hear, willing able bodied citizens are sometimes hard to find.  To craft items you will either need to head out and harvest the raw materials on your own, or you might be able to buy them off the wholesaler downstairs.  To get started let us start with the most important thing in life, food and drink!  Provisioners are chefs and brewers, applying their culinary skills to provide a valuable service for the benefit of their allies.  Food and drink refresh the weary hero and can provide regenerative benefits.  To sample a taste of provisioning please create a Fried Frog Leg and then return to me.",
@@ -66,73 +35,13 @@
     },
     {
       "name": "Wholesaler Jaenia Shoalslyder",
-      "race": [
-        "half elf"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "1.25,-6.48,11.56"
-      ],
       "utterances": [
         "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
         "Welcome! What can I help you with?",
         "Confound it! Where did I put that ledger?  It must be around here somewhere!",
         "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
         "Hello there!  Can I interest you in some of the finest merchandise this side of Norrath?"
-      ],
-      "store": [
-        {
-          "gamelink": "\\aITEM -1271224269 -804077048:walnut kindling\\/a",
-          "prices": [
-            {
-              "coin": 1
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1626387386 1649787993:filament\\/a",
-          "prices": [
-            {
-              "coin": 6
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -48950061 -1941863546:coal\\/a",
-          "prices": [
-            {
-              "coin": 6
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -2118643994 206395803:sandpaper\\/a",
-          "prices": [
-            {
-              "coin": 6
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1901169081 231047307:dough\\/a",
-          "prices": [
-            {
-              "coin": 18
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -72718082 1138320361:milk\\/a",
-          "prices": [
-            {
-              "coin": 6
-            }
-          ]
-        }
-      ],
-      "store_template": "wholesaler"
+      ]
     }
   ]
 }

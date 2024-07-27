@@ -30,214 +30,63 @@
   "npcs": [
     {
       "name": "Adair Barnes",
-      "purpose": "General Goods",
-      "locations": [
-        "-13,0,-6"
-      ],
       "utterances": [
         "Ahhh... bringing yourself down into the muck, eh? Gets mighty dark down these parts. Interest you in a fine torch?",
         "Are you looking for anything in particular?",
         "Aren't you a curious bugger! I'll tell you why, it fills my pockets with coin. You'd be surprised by the folks who come down here to buy this or that.  Say, why don't you help me fill some orders? There's coin in it for you.",
         "Good. Let me write down in your journal what I need you to get.  Now hurry up, this stuff needs to stay fresh, got it?",
         "I see that you got everything. Good. Keep in mind that I always need help retrieving goods. If you're ever looking for something to do that'll pass the time, think of me!"
-      ],
-      "store": [
-        {
-          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
-          "prices": [
-            {
-              "coin": 60
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 2208995 -860442438 0 0 0:dried bread\\/a",
-          "prices": [
-            {
-              "coin": 7
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -101702825 -210262797 0 0 0:flask of murky water\\/a",
-          "prices": [
-            {
-              "coin": 7
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -426289183 -435115855 0 0 0:flask of pond water\\/a",
-          "prices": [
-            {
-              "coin": 19
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1347014509 -1543938383 0 0 0:plain bread\\/a",
-          "prices": [
-            {
-              "coin": 19
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1241081646 1326260278 0 0 0:rawhide leather rucksack\\/a",
-          "prices": [
-            {
-              "coin": 81
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "a Bloodsaber Adjunct",
-      "level": 10,
-      "difficulty": "heroic",
-      "locations": [
-        "6,0,-141",
-        "7.47,-0.32,-146.74"
-      ]
-    },
-    {
-      "name": "a Bloodsaber Deepguard",
-      "locations": [
-        "-99.36,-0.61,-102.95",
-        "-99.36,-0.11,-97.76"
-      ]
-    },
-    {
-      "name": "a Bloodsaber enforcer",
-      "level": 10,
-      "locations": [
-        "6,0,-67"
       ]
     },
     {
       "name": "a Bloodsaber initiate",
-      "level": 8,
       "locations": [
-        "6,0,-128",
-        "4.69,0.00,-117.33",
-        "21.48,-3.16,-137.66",
-        "10.59,0.30,-136.65",
-        "9.44,0.00,-143.75",
-        "7.27,-2.37,-150.92",
-        "4.59,0.30,-137.86",
-        "11.81,0.00,-120.20",
-        "-11.28,-4.00,-138.88",
-        "15.88,-0.33,-139.17",
         "7.72,-0.08,-111.70",
-        "-2.91,-0.80,-139.79"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1399953986 1780527766:black spider silk\\/a",
-          "chest": false
-        }
+        "-11.96,-4.00,-138.49",
+        "0.00,0.00,-139.23",
+        "7.22,0.00,-132.67",
+        "14.98,0.00,-139.60",
+        "7.40,0.00,-144.00"
       ],
       "drop_coin_min": 2,
-      "drop_coin_max": 10
+      "drop_coin_max": 4
     },
     {
       "name": "a Bloodsaber lookout",
-      "level": 4,
       "locations": [
-        "-6,0,-108",
-        "5.73,-0.09,-107.42",
-        "20.44,-0.09,-107.10"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
-          "chest": false
-        }
+        "20.44,-0.09,-107.10",
+        "3.53,-0.09,-106.60"
       ],
       "drop_coin_min": 4,
-      "drop_coin_max": 36
+      "drop_coin_max": 4
     },
     {
       "name": "a Bloodsaber meddler",
-      "level": 8,
       "locations": [
-        "6,0,-126",
-        "8.53,-0.09,-106.08",
-        "12.93,0.00,-138.56",
-        "8.79,-2.51,-151.00",
-        "-2.23,-0.54,-139.43",
-        "-14.21,-4.00,-137.90",
-        "5.65,0.00,-144.82"
+        "-12.32,-4.00,-140.87",
+        "0.00,0.00,-137.39",
+        "13.43,0.00,-136.56",
+        "5.65,0.00,-144.82",
+        "4.85,-0.06,-107.48"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 483754019 902041739:bloodstained bat fang\\/a",
           "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
-          "chest": false
         }
       ],
       "drop_coin_min": 2,
-      "drop_coin_max": 36
-    },
-    {
-      "name": "a coiled burrower",
-      "level": 6,
-      "locations": [
-        "-66,0,-155",
-        "-111.36,-0.09,-112.63",
-        "-117.40,-0.03,-163.29",
-        "-59.84,-0.05,-154.76",
-        "-31.73,-0.08,-121.40",
-        "24.07,-0.90,-78.13",
-        "-13.53,-0.08,-52.56",
-        "-153.20,-0.22,-177.49"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -2059754501 -1803583786:a poison gland\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a corrupted Qeynos guard",
-      "locations": [
-        "-10.54,-0.07,-35.46"
-      ]
-    },
-    {
-      "name": "The Creeper",
-      "level": 11,
-      "difficulty": "heroic",
-      "locations": [
-        "-135,7,-193"
-      ]
+      "drop_coin_max": 4
     },
     {
       "name": "a creeper protector",
-      "level": 8,
       "locations": [
-        "-135,7,-193",
-        "-138.69,9.90,-198.45",
         "-135.78,7.00,-204.93"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
-          "chest": false
-        }
       ]
     },
     {
       "name": "a Crypt Protector",
-      "level": 10,
-      "difficulty": "heroic",
       "locations": [
-        "-202,0,-123",
         "-190.63,0.00,-130.44"
       ],
       "drops": [
@@ -248,183 +97,18 @@
       ]
     },
     {
-      "name": "a crypt substance",
-      "level": 6,
-      "locations": [
-        "-66,0,-155",
-        "-8.84,-0.07,-31.84",
-        "-14.11,-0.03,-43.15",
-        "-125.18,-0.07,-150.52",
-        "-71.12,-0.06,-145.75",
-        "-46.80,-1.07,-142.29",
-        "-41.35,-0.62,-138.87",
-        "-33.12,-0.12,-121.77",
-        "-24.86,-1.14,-102.86",
-        "-18.39,0.18,-96.45",
-        "-10.41,-0.11,-93.80",
-        "20.47,-0.09,-104.24",
-        "7.64,-0.12,-60.17",
-        "2.56,-0.08,-60.60",
-        "-8.68,-0.08,-56.75",
-        "13.07,-0.03,-60.17",
-        "-154.75,-0.34,-172.64",
-        "-171.00,0.00,-178.97",
-        "-136.37,0.33,-137.37",
-        "-158.76,-0.03,-132.99",
-        "-152.36,-0.08,-82.60"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1791809415 -329822486:an accumulation of plasma\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1995047784 955189645:a mucous encrusted tendril\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a dust crawler hatchling",
-      "level": 6,
-      "locations": [
-        "-66,0,-155",
-        "-44.75,-1.08,-138.75",
-        "-35.50,-0.01,-122.01",
-        "-22.76,-1.10,-100.74",
-        "-150.81,-0.33,-174.59",
-        "-150.76,-0.09,-84.79"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1560357389 1897618518:an insect antenna\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1569006869 1387402648:a venom gland\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
       "name": "Falin Shaloon",
-      "race": [
-        "dwarf"
-      ],
-      "gender": [
-        "male"
-      ],
-      "purpose": "General Goods",
-      "locations": [
-        "-195.78,-0.1,-200.52"
-      ],
       "utterances": [
         "If I don't have what you want, you don't need it!",
         "Word gets around quickly down here; so don't think about trying to pull one over on me.  I won't have you working for me while you're doing work for Barnes, got it!?"
-      ],
-      "store": [
-        {
-          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
-          "prices": [
-            {
-              "coin": 60
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 2208995 -860442438 0 0 0:dried bread\\/a",
-          "prices": [
-            {
-              "coin": 7
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -101702825 -210262797 0 0 0:flask of murky water\\/a",
-          "prices": [
-            {
-              "coin": 7
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -426289183 -435115855 0 0 0:flask of pond water\\/a",
-          "prices": [
-            {
-              "coin": 19
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1347014509 -1543938383 0 0 0:plain bread\\/a",
-          "prices": [
-            {
-              "coin": 19
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -1241081646 1326260278 0 0 0:rawhide leather rucksack\\/a",
-          "prices": [
-            {
-              "coin": 81
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "a fallen bodyguard",
-      "level": 13,
-      "locations": [
-        "-172,7,-11"
-      ]
-    },
-    {
-      "name": "a fallen noble",
-      "level": 12,
-      "difficulty": "heroic",
-      "locations": [
-        "-172,7,-11"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 33,
-      "drop_coin_max": 40
-    },
-    {
-      "name": "a Fallen Price",
-      "level": 13,
-      "difficulty": "heroic",
-      "locations": [
-        "-172,7,-11"
       ]
     },
     {
       "name": "a forgotten soul",
-      "level": 11,
       "locations": [
-        "-146,-1,-84",
-        "-189.30,-0.02,-95.04",
-        "-198.51,-0.00,-92.00",
-        "-217.41,-0.01,-72.45",
-        "-219.25,-0.01,-60.26",
-        "-198.91,0.00,-39.00",
-        "-190.00,-0.04,-60.86",
         "-197.74,0.01,-99.86",
         "-204.97,0.29,-93.40",
+        "-202.02,0.14,-40.39",
         "-189.00,0.27,-69.36",
         "-185.00,-0.08,-36.91",
         "-216.72,-0.08,-92.64"
@@ -450,77 +134,26 @@
           "gamelink": "\\aITEM 1253182384 -835651230:a tarnished scepter\\/a",
           "chest": true
         }
-      ],
-      "drop_coin_min": 6,
-      "drop_coin_max": 37
+      ]
     },
     {
       "name": "a frenzied watcher",
-      "level": 9,
       "locations": [
-        "-136,7,209",
-        "-120.11,2.00,-207.92",
-        "-137.69,7.00,-210.04"
+        "-133.28,7.00,-208.00",
+        "-120.11,2.00,-207.92"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
+          "gamelink": "\\aITEM 830377007 -657580033:an arachnid leg\\/a",
           "chest": false
         }
-      ]
-    },
-    {
-      "name": "a juvenile shriller",
-      "level": 6,
-      "locations": [
-        "-192,0,-61",
-        "-11.94,0.43,-28.67",
-        "6.21,-0.09,-71.43",
-        "9.97,2.30,0.66",
-        "-152.14,0.32,-168.99",
-        "-173.86,0.50,-174.85",
-        "-191.76,0.50,-198.26",
-        "-163.56,1.50,-73.84"
-      ]
-    },
-    {
-      "name": "Lachlyn Cauldthorn",
-      "locations": [
-        "6,0,-67"
-      ]
-    },
-    {
-      "name": "a malefic arachnid",
-      "level": 7,
-      "locations": [
-        "-90,0,-167",
-        "-118.28,-0.05,-175.61",
-        "-108.55,-0.11,-170.60",
-        "-95.77,-0.08,-163.67",
-        "-89.62,-0.04,-174.78",
-        "-107.01,-0.12,-178.75",
-        "-114.96,0.09,-167.65",
-        "-121.54,-0.05,-168.66"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a mysterious liaison",
-      "locations": [
-        "-100.46,-0.73,-100.16"
       ]
     },
     {
       "name": "a putrid vermin",
-      "level": 7,
       "locations": [
-        "-76,-1,-102",
-        "-89.88,-0.11,-106.36"
+        "-86.96,-0.11,-109.26",
+        "-89.67,-0.36,-104.00"
       ],
       "drops": [
         {
@@ -530,26 +163,17 @@
       ]
     },
     {
-      "name": "a rabid pack rat",
-      "level": 7,
-      "locations": [
-        "-84,0,-122"
-      ]
-    },
-    {
       "name": "a rabid shriller",
-      "level": 9,
       "locations": [
-        "-192,0,-61",
-        "-220.31,-0.00,-91.48",
-        "-198.64,-0.08,-57.94",
-        "-188.50,1.00,-73.91",
         "-214.45,-0.01,-89.36",
-        "-191.33,-0.03,-66.78"
+        "-191.33,-0.03,-66.78",
+        "-190.46,-0.07,-57.22",
+        "-183.94,-0.08,-73.31",
+        "-216.46,-0.08,-94.52"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 421411360 -1091731321:a bat ear\\/a",
+          "gamelink": "\\aITEM 421411360 1418213343:a bat ear\\/a",
           "chest": false
         },
         {
@@ -564,82 +188,16 @@
     },
     {
       "name": "a rotting citizen",
-      "level": 12,
       "locations": [
-        "-179,1,-16",
-        "-188.00,0.00,-29.27",
-        "-196.84,0.00,-42.28",
-        "-190.10,0.00,-23.42",
-        "-184.36,0.00,0.32",
-        "-174.54,-0.08,-32.33",
         "-203.56,-0.08,-40.62"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -660008099 412037475:Bloody Reminder (Adept)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -612798970 943460484:a decomposing zombie organ\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 2096053587 1975965991:intricate metal bowl\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1253182384 872654418:a tarnished scepter\\/a",
-          "chest": true
-        }
-      ],
-      "drop_coin_min": 4,
-      "drop_coin_max": 20
-    },
-    {
-      "name": "a rotting royal",
-      "level": 12,
-      "locations": [
-        "-179,1,-16",
-        "-192.24,0.00,-21.13",
-        "-168.59,7.00,-11.39",
-        "-184.50,7.00,-0.08"
-      ],
-      "drop_coin_min": 35,
-      "drop_coin_max": 273
-    },
-    {
-      "name": "a Rotting Vermin",
-      "level": 9,
-      "difficulty": "heroic",
-      "locations": [
-        "-89,0,-94"
       ]
     },
     {
       "name": "a shriller",
-      "level": 8,
       "locations": [
-        "-146,0,-145",
-        "-96.92,-0.04,-167.18",
-        "-147.51,1.50,-185.79"
+        "-145.74,-0.07,-141.13"
       ],
       "drops": [
-        {
-          "gamelink": "\\aITEM 421411360 -1091731321:a bat ear\\/a",
-          "chest": false
-        },
         {
           "gamelink": "\\aITEM 2111220072 -529644309:woven rawhide sandals\\/a",
           "chest": true
@@ -648,12 +206,7 @@
     },
     {
       "name": "a tomb forager",
-      "level": 7,
       "locations": [
-        "-76,-1,-102",
-        "-79.32,-0.11,-107.21",
-        "-85.00,-0.06,-115.86",
-        "-81.30,-0.05,-122.02",
         "-61.14,-0.12,-94.79"
       ],
       "drops": [
@@ -665,23 +218,11 @@
     },
     {
       "name": "a tomb rifter bleeder",
-      "level": 8,
       "locations": [
-        "-202,0,-124",
-        "-178.01,1.17,-121.59",
-        "-198.81,-0.39,-130.17",
         "-190.99,-0.39,-132.13",
         "-162.53,-0.08,-118.90"
       ],
       "drops": [
-        {
-          "gamelink": "\\aITEM -1819652885 1717248412:an insect antenna\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
-          "chest": false
-        },
         {
           "gamelink": "\\aITEM 1443804415 1499328814:an insect shell\\/a",
           "chest": false
@@ -689,126 +230,50 @@
       ]
     },
     {
-      "name": "a tomb rifter hatchling",
-      "level": 7,
-      "locations": [
-        "-159,-0,-119",
-        "-129.00,0.21,-128.50",
-        "-117.66,-0.08,-119.00",
-        "-130.61,-0.05,-135.00",
-        "-146.72,-0.04,-138.73",
-        "-155.91,-0.14,-135.20",
-        "-184.27,-0.12,-107.87",
-        "-189.85,-0.07,-104.40"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "a tomb rifter pest",
-      "level": 8,
-      "locations": [
-        "-172,1,-119",
-        "-187.16,1.17,-116.16",
-        "-178.05,1.17,-127.08",
-        "-168.30,0.00,-134.20",
-        "-180.38,0.00,-135.42",
-        "-209.98,0.00,-135.33",
-        "-210.08,-0.39,-117.60",
-        "-194.01,-0.39,-117.32"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
       "name": "a tortured soul",
-      "level": 11,
-      "locations": [
-        "-192,0,-27",
-        "-207.65,1.56,-29.86",
-        "-202.32,0.00,-29.93"
-      ],
       "utterances": [
         "Your eyes are so pretty.",
         "Your blood calls to me."
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 5,
-      "drop_coin_max": 52
+      ]
     },
     {
       "name": "a venomous keeper",
-      "level": 8,
       "locations": [
-        "-100,0,-200",
-        "-97.79,0.00,-208.28",
-        "-113.74,0.00,-199.45",
         "-121.55,0.00,-195.22",
+        "-97.79,0.00,-208.28",
         "-106.56,0.00,-202.67",
-        "-122.62,0.00,-202.49"
+        "-99.80,0.00,-203.06",
+        "-122.62,0.00,-202.49",
+        "-114.68,0.00,-200.83"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
+          "gamelink": "\\aITEM 830377007 -657580033:an arachnid leg\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a venomous watcher",
-      "level": 6,
       "locations": [
-        "-124,0,-196",
-        "-113.67,0.00,-192.98",
-        "-129.58,0.00,-191.63",
-        "-129.37,0.00,-202.57"
+        "-112.00,0.00,-192.00",
+        "-125.26,0.00,-204.26"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
+          "gamelink": "\\aITEM 830377007 -657580033:an arachnid leg\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a venom spitter",
-      "level": 7,
       "locations": [
-        "-121,0,-203",
-        "-129.37,0.00,-202.57",
-        "-127.32,0.00,-197.24",
-        "-121.32,0.00,-197.36",
-        "-99.93,0.00,-199.00",
-        "-110.33,0.00,-202.56"
+        "-112.60,0.00,-204.51"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
+          "gamelink": "\\aITEM 830377007 -657580033:an arachnid leg\\/a",
           "chest": false
         }
       ]

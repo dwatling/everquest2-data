@@ -15,28 +15,14 @@
   ],
   "npcs": [
     {
-      "name": "a defiled mage",
-      "level": 6,
-      "locations": [
-        "6.97,0.00,1.74"
-      ],
-      "drop_coin_min": 10,
-      "drop_coin_max": 10
-    },
-    {
       "name": "a defiled priest",
-      "level": 6,
       "locations": [
-        "6.56,0.00,4.00",
-        "7.04,0.00,-1.89",
         "1.38,0.00,-5.76"
       ]
     },
     {
       "name": "a defiled scout",
-      "level": 6,
       "locations": [
-        "6.99,0.00,3.82",
         "-7.08,0.00,-0.91"
       ],
       "utterances": [
@@ -46,37 +32,18 @@
     },
     {
       "name": "a tainted Sapswill hunter",
-      "level": 5,
       "locations": [
-        "4.49,0.00,-7.17",
         "-8.00,0.00,-2.99"
-      ],
-      "drop_coin_min": 6,
-      "drop_coin_max": 6
+      ]
     },
     {
       "name": "a tainted Sapswill warrior",
-      "level": 5,
       "locations": [
-        "1.86,0.00,5.79",
-        "1.36,0.00,-1.41",
         "-6.86,0.00,-4.29"
-      ],
-      "drop_coin_min": 4,
-      "drop_coin_max": 4
+      ]
     },
     {
       "name": "Vith L'Tar",
-      "race": [
-        "dark elf"
-      ],
-      "gender": [
-        "female"
-      ],
-      "level": 6,
-      "locations": [
-        "10.67,0.78,0.56"
-      ],
       "utterances": [
         "Haha, you think you can defeat me?  You can't even touch me.",
         "Why don't you say hello to some old friends?",

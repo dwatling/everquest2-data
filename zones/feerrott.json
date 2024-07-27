@@ -15,49 +15,5 @@
     {
       "key": "feerrott_epic01_temple"
     }
-  ],
-  "npcs": [
-    {
-      "name": "Elvann Livshire",
-      "utterances": [
-        "My head... the hum... make the hum stop..."
-      ]
-    },
-    {
-      "name": "Keevan Fastmarch",
-      "utterances": [
-        "Hail to you too.  Are you lost?"
-      ]
-    },
-    {
-      "name": "Merchant Klobruk Pulp",
-      "locations": [
-        "-130.17,13.72,186.08"
-      ],
-      "utterances": [
-        "Wares and goods, all you see is for sale."
-      ],
-      "store_template": "general_goods_2"
-    },
-    {
-      "name": "Merchant Murgina",
-      "locations": [
-        "-141.58,13.72,184.18"
-      ],
-      "utterances": [
-        "Don't listen to old Klobruk, I have what you need."
-      ],
-      "store": [
-        {
-          "gamelink": "\\aITEM -640571978 -1461519408:Vinegar\\/a"
-        }
-      ]
-    },
-    {
-      "name": "Verita N'miiel",
-      "utterances": [
-        "Don't you have anything better to do right now?"
-      ]
-    }
   ]
 }

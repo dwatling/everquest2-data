@@ -13,43 +13,5 @@
     {
       "key": "qey_catacomb01"
     }
-  ],
-  "npcs": [
-    {
-      "name": "a highwayman",
-      "locations": [
-        "-4.36,-0.39,2.46"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 316935679 -843172065:Bayberry Sealed Document\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 2690,
-      "drop_coin_max": 2690
-    },
-    {
-      "name": "a highwayman conspirator",
-      "locations": [
-        "14.93,1.17,1.12"
-      ],
-      "utterances": [
-        "There they are! We will slay you where you stand!",
-        "The trap worked, get em!"
-      ]
-    },
-    {
-      "name": "a highwayman meeting guard",
-      "locations": [
-        "-14.65,-0.39,-8.13"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1890812893 1610908502:Advanced Carpenter Volume 49\\/a",
-          "chest": true
-        }
-      ]
-    }
   ]
 }

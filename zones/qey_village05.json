@@ -41,7 +41,8 @@
       "utterances": [
         "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
         "Confound it! Where did I put that ledger?  It must be around here somewhere!",
-        "Welcome! What can I help you with?"
+        "Welcome! What can I help you with?",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
       ],
       "store_template": "provisioner"
     },
@@ -71,7 +72,10 @@
         "851.26,-19.6,-595.53"
       ],
       "utterances": [
-        "Argh!  I bent the tongs again!  I must have Ironmallet fix them! Greetings, adventurer! What do you need?"
+        "Argh!  I bent the tongs again!  I must have Ironmallet fix them! Greetings, adventurer! What do you need?",
+        "Be careful, friend. I have many sharp, heavy and scalding hot wares in my shop. Now, what is it you need? ",
+        "Coin is no object when gaining protection from your enemies.  What price can be put on your safety? ",
+        "You can never be too careful when it comes to protection.  Here try on one of these."
       ],
       "store_template": "armorsmith"
     },
@@ -88,7 +92,9 @@
         "858.26,-19.6,-600.43"
       ],
       "utterances": [
-        "Coin is no object when gaining protection from your enemies.  What price can be put on your safety? "
+        "Coin is no object when gaining protection from your enemies.  What price can be put on your safety? ",
+        "You can never be too careful when it comes to protection.  Here try on one of these.",
+        "Well, that suit is looking a might worn.  Can I interest you in a new suit of fine armor? "
       ],
       "store_template": "weaponsmith"
     },
@@ -146,6 +152,9 @@
       ],
       "locations": [
         "850.73,-20.92,-663.1"
+      ],
+      "utterances": [
+        "Sorry, I'm kind of busy right now."
       ]
     },
     {
@@ -196,7 +205,10 @@
         "870.75,-18.34,-600.55"
       ],
       "utterances": [
-        "To be among the highest leaves and branches of a tree is to feel free."
+        "To be among the highest leaves and branches of a tree is to feel free.",
+        "Is there no place on your body left unpierced? Nay, do not answer -- I'm afraid to know!",
+        "The blessing of Tunare is the highest blessing of all.",
+        "When we recreate our ancestral home, why don't you come live there amongst the Feir'Dal?"
       ]
     },
     {
@@ -221,7 +233,8 @@
         "And the one marked raisins & dried apricots?",
         "And finally the box marked herbs?",
         "All right. Great, this is just the kind of information I needed.",
-        "Well that's a relief, I was afraid I would never get around to checking those boxes. You're a quick worker. I'm sorry about snapping at you earlier, I get like that from time to time. I was just stressed over those mischievous kids, among other things. Thanks for the help."
+        "Well that's a relief, I was afraid I would never get around to checking those boxes. You're a quick worker. I'm sorry about snapping at you earlier, I get like that from time to time. I was just stressed over those mischievous kids, among other things. Thanks for the help.",
+        "Hey, thanks again. You should sell your services as stress reduction, hah hah!"
       ]
     },
     {
@@ -235,6 +248,10 @@
       ],
       "locations": [
         "817.83,-21.25,-645.12"
+      ],
+      "utterances": [
+        "Welcome! What can I help you with?",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
       ],
       "store_template": "shieldsmith"
     },
@@ -359,6 +376,9 @@
       ],
       "locations": [
         "829.22,-20.07,-604.02"
+      ],
+      "utterances": [
+        "That's right! Lots of things you need inside the Scribe's shop!"
       ]
     },
     {
@@ -383,6 +403,11 @@
       ],
       "locations": [
         "838.52,-20.9,-613.22"
+      ],
+      "utterances": [
+        "Hail fair, adventurer. Please be on your way. I've no time for chatting with commoners. I must warm up my voice. My fans await me...",
+        "Hail, fair adventurer. If you can spare some time, my devotees are gathering to hear the latest masterpiece from yours truly. ",
+        "Gather around people ... gather around. I'll be warming up my voice in a few minutes."
       ]
     },
     {
@@ -447,7 +472,8 @@
         "It most certainly is. I'm the luckiest man alive. Lyssia is angelic. I have no idea what she sees in a plain-old guy like me, but I don't intend to question my luck! She's amazing.",
         "Obviously you've never seen her. Aside from being the most beautiful woman in the entire village--perhaps in all of Qeynos--she has unmatched grace. But inside, below the surface, is where she's most amazing. She's got a very quick wit which makes her a joy to talk to, and her wisdom is, well, elven!",
         "And even when I mess up--which I do a lot--she is even tempered. The fact that she accepts all my faults is most endearing.",
-        "You have no idea how lucky."
+        "You have no idea how lucky.",
+        "I am so lucky!"
       ]
     },
     {
@@ -480,7 +506,10 @@
         "815.19,-19.94,-609.27"
       ],
       "utterances": [
-        "There are no refunds for caster error at this shop! Oh ... hello you're not here about a refund."
+        "There are no refunds for caster error at this shop! Oh ... hello you're not here about a refund.",
+        "Hello, adventurer! Are you looking for a specific potion or ingredient?",
+        "What happened to the highly explosive bottle that was on my desk?  Have you seen it?",
+        "Are you wounded?  I just made up a fresh batch of healing potions an hour ago."
       ],
       "store": [
         {
@@ -527,6 +556,10 @@
       ],
       "locations": [
         "865.17,-18.87,-613.3"
+      ],
+      "utterances": [
+        "Another face I do not recognize.  Are you new here, good traveler?",
+        "Ah, you seem very busy.  Be at peace, dear stranger."
       ]
     },
     {
@@ -542,7 +575,9 @@
         "822.07,-19.94,-604.8"
       ],
       "utterances": [
-        "The amazing thing about nature is its ability to balance life with no assistance.  Unfortunately, the influx of people to this city is disrupting this balance. "
+        "The amazing thing about nature is its ability to balance life with no assistance.  Unfortunately, the influx of people to this city is disrupting this balance. ",
+        "You seem more interested in adventure than the balance of nature. Please, browse at your leisure and be on your way.",
+        "Hello, friend. Please take your time and browse at your leisure."
       ],
       "store": [
         {
@@ -635,7 +670,8 @@
       ],
       "utterances": [
         "Welcome to my humble shop.  We have quite a selection of weapons to choose from.  See for yourself...",
-        "I just got a shipment in from the Far Sea's Trading Company.  I don't just show anybody this stuff so, shhhh!  "
+        "I just got a shipment in from the Far Sea's Trading Company.  I don't just show anybody this stuff so, shhhh!  ",
+        "Never go into battle without a tried and trusted weapon. Take a look at what we have in stock."
       ],
       "store": [
         {
@@ -704,7 +740,9 @@
         "856.3,-20.91,-642.76"
       ],
       "utterances": [
-        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Welcome! What can I help you with?",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
       ],
       "store_template": "bowyer"
     },

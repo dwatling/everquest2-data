@@ -9,10 +9,12 @@
   ],
   "connections": [
     {
-      "key": "qey_village05"
+      "key": "qey_village05",
+      "location": "886.80,-14.34,-581.61"
     },
     {
-      "key": "qey_village06"
+      "key": "qey_village06",
+      "location": "888.61,-11.86,-549.15"
     }
   ],
   "objects": [
@@ -40,6 +42,16 @@
   "npcs": [
     {
       "name": "Acting Lieutenant Germain",
+      "purpose": "Qeynos Guard",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "900.13,-15.18,-576.13"
+      ],
       "utterances": [
         "Welcome, citizen. Please be careful around here.",
         "Yes, quite dangerous. We have been getting reports, strange reports, over the past few days. Nobody is sure exactly what is going on, and we don't have the manpower to find out once and for all. I've got scouts but even they can only do so much. We've got so few people that it's hard to take care of all the little things.  Ever since the pirates landed the Concordium has been asking for more and more protection.",
@@ -70,11 +82,51 @@
         "Malox?",
         "Good. Very good. Well done. This is a huge relief. With Malox gone the other gnolls won't last much longer, at least the ones here won't. <player name>, Qeynos has sent word back. The Rockpaw Gnolls are responsible for what has happened here. It is time to move.",
         "We have gone on the offensive. The Rockpaw Gnolls have made their base within The Caves for quite some time, and we've decided to attack. Travel there and speak with Consul Bree, she will have orders for you. Thanks again, <player name>, you really came through for us out here.",
-        "I wish I could go with you into the Caves. Good luck."
+        "I wish I could go with you into the Caves. Good luck.",
+        "Thank you again for all you've done."
+      ]
+    },
+    {
+      "name": "Aedre",
+      "purpose": "General Goods",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "898.26,-14.27,-563.42"
+      ],
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "an Antonican hawk",
+      "level": 6,
+      "locations": [
+        "954.14,-22.66,-699.54",
+        "1,084.95,-19.00,-800.38",
+        "1,129.30,-17.24,-807.87",
+        "1,116.92,-17.47,-807.05",
+        "1,105.66,-16.88,-791.61",
+        "1,159.18,-15.99,-742.47",
+        "1,149.07,-21.93,-741.82",
+        "1,099.00,-20.00,-630.00",
+        "983.96,-25.27,-566.58"
+      ]
+    },
+    {
+      "name": "The Basalt Watcher",
+      "locations": [
+        "1,036.76,-8.95,-677.48"
       ]
     },
     {
       "name": "a Blackfurl deckhand",
+      "level": 10,
       "locations": [
         "959.54,-24.97,-853.39",
         "1,005.68,-25.76,-900.86",
@@ -93,7 +145,8 @@
         "Neat, that'll leave a pretty scar",
         "Is this supposed to hurt?",
         "Feel kinda sleepy. Whacha do to me?",
-        "I will have vengeance!"
+        "I will have vengeance!",
+        "I hope you put your affairs in order."
       ],
       "drops": [
         {
@@ -110,37 +163,89 @@
     },
     {
       "name": "a Blackfurl lubber",
+      "level": 10,
+      "locations": [
+        "1,058.12,-24.07,-894.17",
+        "1,069.07,-24.96,-904.65",
+        "942.29,-25.70,-862.37"
+      ],
       "utterances": [
-        "I hope you put your affairs in order."
+        "I hope you put your affairs in order.",
+        "Look what strolled into the spider's web!",
+        "There is no escape for you now!"
+      ],
+      "drop_coin_min": 9,
+      "drop_coin_max": 9,
+      "faction_changes": [
+        {
+          "name": "The Academy of Arcane Science",
+          "value": -100
+        }
       ]
     },
     {
       "name": "a Blackfurl medic",
+      "level": 10,
+      "locations": [
+        "1,060.50,-23.28,-890.95",
+        "1,068.93,-25.08,-905.41",
+        "940.96,-25.70,-862.72"
+      ],
       "utterances": [
         "Not nice to interrupt dinner.",
         "I'm gonna give you a smile like ol' one tooth!",
-        "Me going to eat your kidney first."
+        "Me going to eat your kidney first.",
+        "Come back you coward! I'm not dead yet.",
+        "Neat, that'll leave a pretty scar",
+        "Feel kinda sleepy. Whacha do to me?"
+      ],
+      "drop_coin_min": 8,
+      "drop_coin_max": 11,
+      "faction_changes": [
+        {
+          "name": "The Academy of Arcane Science",
+          "value": -100
+        }
       ]
     },
     {
       "name": "a Blackfurl oarcaller",
+      "level": 10,
       "utterances": [
         "Fall back and regroup.  The enemy has the upper hand!"
       ]
     },
     {
       "name": "a Blackfurl scout",
+      "level": 10,
+      "locations": [
+        "1,023.58,-25.29,-895.21",
+        "1,017.50,-25.57,-896.59"
+      ],
       "utterances": [
         "Flee and take care of them later.",
         "Should of escaped while I had the chance.",
         "Not very nice of you to be all sneaky.",
         "Take my secrets to my grave, I shall."
+      ],
+      "drop_coin_min": 8,
+      "drop_coin_max": 8,
+      "faction_changes": [
+        {
+          "name": "The Academy of Arcane Science",
+          "value": -100
+        }
       ]
     },
     {
       "name": "a Blackfurl swabbie",
+      "level": 10,
       "locations": [
-        "1,029.63,-26.15,-902.30"
+        "1,029.63,-26.15,-902.30",
+        "1,016.00,-25.45,-895.83",
+        "1,059.93,-23.77,-893.07",
+        "1,068.50,-25.23,-906.34",
+        "939.58,-25.90,-864.43"
       ],
       "utterances": [
         "Sees us, did we? Must not let you talk then.",
@@ -148,13 +253,46 @@
         "That patch of fur will never grow back, you know.",
         "Now I'm really angry!",
         "Flee and take care of them later.",
-        "Not nice to interrupt dinner."
+        "Not nice to interrupt dinner.",
+        "Is that all you have?",
+        "I'm gonna give you a smile like ol' one tooth!",
+        "Neat, that'll leave a pretty scar"
       ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 14920725 1871977281:Rotted Kite Shield\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 7,
+      "drop_coin_max": 7,
       "faction_changes": [
         {
           "name": "The Academy of Arcane Science",
           "value": -100
         }
+      ]
+    },
+    {
+      "name": "a brittle accountant",
+      "race": [
+        "human"
+      ],
+      "locations": [
+        "1,066.48,-10.13,-676.59",
+        "1,076.45,-10.16,-670.87"
+      ],
+      "utterances": [
+        "My progress will not be halted!",
+        "You cannot defeat us all!"
+      ]
+    },
+    {
+      "name": "a deep lurker",
+      "level": 7,
+      "locations": [
+        "1,136.87,-24.16,-683.45",
+        "1,131.23,-24.22,-695.95"
       ]
     },
     {
@@ -165,6 +303,15 @@
     },
     {
       "name": "Elvic Garrett",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "914.58,-19.64,-572.98"
+      ],
       "utterances": [
         "These lands are not as safe as they once were.",
         "Ah, this is fortuitious. It has been some time since Daelyn has written something. My mind has been occupied as of late, I may have to save reading this for a time when I can focus more on my people.",
@@ -172,17 +319,72 @@
         "Perhaps you can. I've been patrolling the land around the ruins lately, occasionally I come across abandoned camps. Usually a fire pit or a collection of firewood that hasn't yet been burnt. Sometimes these abandoned camps have what may end up being clues, other times they contain worthless junk. If you could do me the favor of seeking out these camps it may help unwravel the mystery that is going on here.",
         "Thank you.  I am sure this will be very helpful.",
         "Have you found any clues yet?",
-        "Hm, let me see that. Hmm, this note is written in gnollish. This... the Qeynos Guard needs to know of this, immediately. You must take this to Lieutenant Germain, he will know what to do. Offer him whatever help you can. And... thank you."
+        "Hm, let me see that. Hmm, this note is written in gnollish. This... the Qeynos Guard needs to know of this, immediately. You must take this to Lieutenant Germain, he will know what to do. Offer him whatever help you can. And... thank you.",
+        "Well you certainly proved what you were made of. Good job! If only Qeynos had more citizens like you."
+      ]
+    },
+    {
+      "name": "a fiery forgotten guardian",
+      "level": 10,
+      "locations": [
+        "1,025.84,-18.95,-621.13"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1918332018 1816120840:waxed pants\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Findle Gimblesled",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "1,068.71,-22.70,-854.25"
+      ]
+    },
+    {
+      "name": "a gossamer groundskeeper",
+      "locations": [
+        "1,053.08,-11.34,-667.52"
       ]
     },
     {
       "name": "Ilaen Lilac",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "966.80,-21.26,-810.86"
+      ],
       "utterances": [
         "There is no failing greater than a child unable to protect a parent."
       ]
     },
     {
+      "name": "a lake swarmer",
+      "level": 6,
+      "locations": [
+        "1,127.80,-24.18,-701.22"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1633297914 340444211:an insect wing\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "a leathershell snapper",
+      "level": 6,
       "locations": [
         "944.49,-27.28,-587.66",
         "945.27,-28.43,-595.44",
@@ -203,6 +405,15 @@
     },
     {
       "name": "Outlander Vaughn",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "1,082.39,-18.70,-796.82"
+      ],
       "utterances": [
         "Am I ever in a bind! Will you please help me?",
         "Those wretched Blackfurl deckhands stole my satchel!  It had everything that was important to me. Please, recover my satchel!",
@@ -213,6 +424,15 @@
     },
     {
       "name": "Poko Zing",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "887.72,-12.89,-563.13"
+      ],
       "utterances": [
         "How come nobody seems to realize how busy I am? Let me guess, you want me to do something very boring for your benefit, am I right?",
         "Analyze? Why wo- ooh, is it glowing? This is an amazing find. Where DID you find it?",
@@ -220,11 +440,29 @@
         "I'm looking for a reason for the activity around here lately, the sudden interest. Who knows, maybe this leaf will prove to be that reason. But, I won't abandon my other theories. As such I'd like you to collect bark samples from the trees around here. My theory is--well that's not important. I need bark samples from trees both outside and inside the ruins, as well as from both north and south of the river that runs through them. I would also like some rock samples from the ruins.",
         "Do you have my requested materials yet?",
         "Good, give them to me.",
-        "Oh, right. The leaf wasn't real at all. It was part of some sort of illusion. The plant it came from was meant to hide something. I've already told all of this to Lieutenant Germain, go talk to him, I'm busy."
+        "Oh, right. The leaf wasn't real at all. It was part of some sort of illusion. The plant it came from was meant to hide something. I've already told all of this to Lieutenant Germain, go talk to him, I'm busy.",
+        "I am very, very busy. Please respect that."
+      ]
+    },
+    {
+      "name": "a prowler pup",
+      "locations": [
+        "1,170.02,-22.67,-790.86"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -982875894 1086350915:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 126592549 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        }
       ]
     },
     {
       "name": "a rock adder",
+      "level": 6,
       "locations": [
         "1,018.99,-22.21,-578.93",
         "1,027.56,-21.97,-576.69"
@@ -251,7 +489,30 @@
       ]
     },
     {
+      "name": "a ruins prowler",
+      "locations": [
+        "1,170.12,-23.16,-788.39",
+        "1,151.27,-21.92,-799.59"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -982875894 1086350915:canine saliva\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "Sergeant at Arms Uthros",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "895.01,-14.57,-572.57",
+        "892.50,-13.35,-563.49"
+      ],
       "utterances": [
         "Watch your step, friend. Many adventurers get injured because they don't know the dangers that lurk here. These grounds are home to the ruins of the old mage academy.  It was destroyed during the wars that raged centuries ago.  And aside from the already dangerous inhabitants of these ruins,  elemental servants of mages lurk about. Scared yet? ... If you're intent on staying in Qeynos, I suppose we can use your help.",
         "Well, then, make yourself useful and kill some of the nasty vermin who live in this area.   And if you need something to do later, come on back, I always need help!",
@@ -260,15 +521,52 @@
       ]
     },
     {
-      "name": "a sodden victim",
+      "name": "a skittering scavenger",
       "locations": [
-        "1,006.82,-26.12,-905.08"
+        "1,007.00,-19.00,-661.80",
+        "1,001.26,-19.37,-669.42"
+      ]
+    },
+    {
+      "name": "Sleeble Gimblesled",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "1,071.92,-23.56,-840.74"
+      ]
+    },
+    {
+      "name": "a sleepless one",
+      "race": [
+        "human"
+      ],
+      "locations": [
+        "1,083.82,-10.25,-674.14"
+      ],
+      "utterances": [
+        "My progress will not be halted!",
+        "Do not disturb me!",
+        "I am weakening!"
+      ]
+    },
+    {
+      "name": "a sodden victim",
+      "level": 9,
+      "locations": [
+        "1,006.82,-26.12,-905.08",
+        "966.00,-29.17,-897.00",
+        "928.75,-29.35,-879.24"
       ],
       "utterances": [
         "Dying didn't feel good the first time.",
         "That pile of bones was my friend!",
         "As I rise from the grave,  you will now take my place!",
-        "Seek death and it finds you."
+        "Seek death and it finds you.",
+        "Your eyes are so pretty."
       ],
       "drops": [
         {
@@ -278,7 +576,33 @@
       ]
     },
     {
+      "name": "a spectral student",
+      "level": 10,
+      "gender": [
+        "female",
+        "male"
+      ],
+      "locations": [
+        "1,002.18,-10.25,-699.99",
+        "1,017.23,-10.07,-716.63"
+      ],
+      "utterances": [
+        "Time to teach you a lesson about disturbing the dead!",
+        "You shall regret waking the dead.",
+        "You invoke my wrath.",
+        "I will not miss a second time!",
+        "Fascinating, you can actually damage me!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -45192848 1408642818:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "a stoneshell snapper",
+      "level": 7,
       "locations": [
         "949.54,-29.44,-594.31",
         "953.78,-28.64,-625.49",
@@ -286,7 +610,9 @@
         "969.32,-27.02,-603.29",
         "969.32,-33.02,-603.29",
         "969.29,-30.81,-595.37",
-        "965.12,-27.08,-613.22"
+        "965.12,-27.08,-613.22",
+        "1,149.38,-21.97,-724.56",
+        "1,130.29,-22.77,-717.62"
       ],
       "drops": [
         {
@@ -304,7 +630,42 @@
       ]
     },
     {
+      "name": "a tarantula hawk",
+      "locations": [
+        "1,060.73,-20.07,-595.58",
+        "1,052.48,-16.43,-591.77"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -156007451 340444211:an insect wing\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a tattered spellbook",
+      "locations": [
+        "1,107.40,-9.24,-741.49",
+        "1,116.00,-7.00,-752.00"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1080130292 -1731950312:bronze hatchet\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
       "name": "Thenatren Lightarrow",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "933.38,-15.52,-581.82"
+      ],
       "utterances": [
         "Watch yourself near those ruins, they are dangerous!",
         "Careful near those ruins friend!  It's a magical place and full of danger!"
@@ -312,6 +673,15 @@
     },
     {
       "name": "Therven Senshun",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "944.65,-22.09,-573.83"
+      ],
       "utterances": [
         "Hello there! Have you got time to lend a hand?",
         "Well, I'm trying some new leather tanning methods and in my work I've found that some of my techniques create an amazingly soft product when used on turtle shells. Amazing, I know! I'm not sure what use it may have, but I'd like to perfect the process anyway.",
@@ -319,15 +689,43 @@
         "Excellent! If you could get me six leathershell snapper shells and six stoneshell snapper shells I think that would be enough to finalize this process. You can find them in the pond north west of here.",
         "Bring them back as soon as you get them!",
         "Did you get the shells?",
-        "Thanks! I appreciate it! You've really helped me a lot."
+        "Thanks! I appreciate it! You've really helped me a lot.",
+        "This stuff is much harder to work with than I anticipated."
+      ]
+    },
+    {
+      "name": "a timber deer",
+      "level": 5,
+      "locations": [
+        "1,104.84,-20.52,-804.42",
+        "1,136.82,-22.31,-818.44",
+        "1,051.34,-18.07,-822.88"
+      ]
+    },
+    {
+      "name": "a timber fawn",
+      "level": 4,
+      "locations": [
+        "1,107.96,-20.20,-800.62",
+        "995.04,-24.74,-588.14",
+        "990.14,-24.56,-582.91",
+        "978.42,-25.03,-571.51"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 805826025 -1933740147:a damaged low quality deer hide\\/a",
+          "chest": false
+        }
       ]
     },
     {
       "name": "a woodland badger",
+      "level": 5,
       "locations": [
         "1,002.83,-22.07,-566.26",
         "1,024.89,-21.93,-576.13",
-        "1,010.69,-23.48,-594.39"
+        "1,010.69,-23.48,-594.39",
+        "984.14,-25.07,-563.69"
       ],
       "drops": [
         {

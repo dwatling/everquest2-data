@@ -1,20 +1,26 @@
 {
   "name": "Edgewater Drains",
   "category": "D'Lere",
-  "zonerect": "-220.00,-165.00,22.00,120.00",
   "levels": "20-25",
   "maps": [
     {
       "name": "Upper",
-      "index": 0
+      "index": 0,
+      "zonerect": "-220.00,-165.00,22.00,120.00",
+      "heightmin": 20
     },
     {
       "name": "Middle",
-      "index": 1
+      "index": 1,
+      "zonerect": "-220.00,-165.00,22.00,120.00",
+      "heightmin": 15,
+      "heightmax": 20
     },
     {
       "name": "Lower",
-      "index": 2
+      "index": 2,
+      "zonerect": "-264.00,-150.00,-18.00,131.00",
+      "heightmax": 15
     }
   ],
   "connections": [

@@ -7,22 +7,28 @@
     {
       "name": "Top Floor",
       "index": 0,
-      "zonerect": "-55.00,-54.00,51.00,69.00"
+      "zonerect": "-55.00,-54.00,51.00,69.00",
+      "heightmin": 5
     },
     {
       "name": "Main Floor",
       "index": 1,
-      "zonerect": "-55.00,-54.00,51.00,69.00"
+      "zonerect": "-55.00,-54.00,51.00,69.00",
+      "heightmin": -5,
+      "heightmax": 5
     },
     {
       "name": "Basement",
       "index": 2,
-      "zonerect": "-57.00,-58.00,52.00,68.00"
+      "zonerect": "-57.00,-58.00,52.00,68.00",
+      "heightmin": -15,
+      "heightmax": -5
     },
     {
       "name": "Arena",
       "index": 3,
-      "zonerect": "-55.00,-54.00,51.00,69.00"
+      "zonerect": "-55.00,-54.00,51.00,69.00",
+      "heightmax": -15
     }
   ],
   "connections": [

@@ -7,17 +7,21 @@
     {
       "name": "Surface",
       "index": 0,
-      "zonerect": "-98.00,-165.00,116.00,80.00"
+      "zonerect": "-98.00,-165.00,116.00,80.00",
+      "heightmin": -9
     },
     {
       "name": "Gnoll Hideout",
       "index": 1,
-      "zonerect": "-80.00,-85.00,138.00,142.00"
+      "zonerect": "-80.00,-85.00,138.00,142.00",
+      "heightmin": -20,
+      "heightmax": -12
     },
     {
       "name": "Spider Caves",
       "index": 2,
-      "zonerect": "-120.00,-124.00,99.00,128.00"
+      "zonerect": "-120.00,-124.00,99.00,128.00",
+      "heightmax": -22
     }
   ],
   "connections": [

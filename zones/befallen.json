@@ -7,22 +7,28 @@
     {
       "name": "Top Floor",
       "index": 0,
-      "zonerect": "-132.00,-231.00,173.00,126.00"
+      "zonerect": "-132.00,-231.00,173.00,126.00",
+      "heightmin": -9
     },
     {
       "name": "Quarters",
       "index": 1,
-      "zonerect": "-132.00,-231.00,173.00,126.00"
+      "zonerect": "-132.00,-231.00,173.00,126.00",
+      "heightmin": -35,
+      "heightmax": -9
     },
     {
       "name": "Dungeon",
       "index": 2,
-      "zonerect": "-132.00,-231.00,173.00,126.00"
+      "zonerect": "-132.00,-231.00,173.00,126.00",
+      "heightmin": -57,
+      "heightmax": -35
     },
     {
       "name": "Cavern",
       "index": 3,
-      "zonerect": "-177.00,-163.00,-16.00,76.00"
+      "zonerect": "-177.00,-163.00,-16.00,76.00",
+      "heightmax": -35
     }
   ],
   "connections": [

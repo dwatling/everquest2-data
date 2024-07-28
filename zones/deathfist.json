@@ -1,20 +1,24 @@
 {
   "name": "Deathfist Citadel",
-  "category": "Dungeons",
+  "category": "Zek",
   "subcategory": "Group",
   "levels": "35-45",
   "maps": [
     {
-      "name": "Top Floor"
+      "name": "Top Floor",
+      "index": 0
     },
     {
-      "name": "Main Floor"
+      "name": "Main Floor",
+      "index": 1
     },
     {
-      "name": "Basement"
+      "name": "Basement",
+      "index": 2
     },
     {
-      "name": "Arena"
+      "name": "Arena",
+      "index": 3
     }
   ],
   "connections": [

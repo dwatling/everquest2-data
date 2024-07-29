@@ -28,6 +28,9 @@
   "npcs": [
     {
       "name": "Custodian Zaddar Sullissia",
+      "locations": [
+        "-73.33,-13.05,107.51"
+      ],
       "utterances": [
         "Hmmmm, and who might you be? Come forward so I can look upon you, stranger.",
         "Ah, yes. You look exactly how you were described to me.",
@@ -105,6 +108,9 @@
     },
     {
       "name": "Durkix Kizzkin",
+      "locations": [
+        "-94.68,-15.66,-96.15"
+      ],
       "utterances": [
         "Fragments to dust. I'm a genius!",
         "A bonemud golem! Or maybe a mudbone golem. I'll be famous!",
@@ -118,6 +124,10 @@
     },
     {
       "name": "an Ethernere guard",
+      "locations": [
+        "-19.67,-8.60,84.47",
+        "4.79,-6.80,33.73"
+      ],
       "utterances": [
         "Hail Citizen!",
         "Freeport has need of your services, will you fulfill your duty?",
@@ -136,6 +146,10 @@
     },
     {
       "name": "Keeper Varacus T`Kur",
+      "purpose": "Academy of Arcane Sciences",
+      "locations": [
+        "90.9,-1.65,96.8"
+      ],
       "utterances": [
         "Yes, what is it?",
         "Well, that all depends. Who are you?",
@@ -192,6 +206,10 @@
     },
     {
       "name": "R'Tok",
+      "purpose": "Merchant",
+      "locations": [
+        "-85.29,-13.44,121.24"
+      ],
       "utterances": [
         "In spite of the cost of living, it's still quite a popular item."
       ]
@@ -363,6 +381,9 @@
     },
     {
       "name": "Zekvila Dizelk",
+      "locations": [
+        "88.31,-1.75,90.67"
+      ],
       "utterances": [
         "You are not who I was expecting.  What game are you playing with me?",
         "Gyah! How dare you speak to me with a sharp tongue! Who do you think you are, fool? You do not bear the dark instrument; therefore, I've no need for you. Unless ... yes ... yes ... unless my emissary failed at his task. Yes, you shall succeed where the emissary failed. Trust me - it is in your best interest to agree with me.",

@@ -16,21 +16,65 @@
   "npcs": [
     {
       "name": "a Blackshield pirate",
+      "level": 10,
+      "locations": [
+        "40.27,1.57,-3.32",
+        "73.46,2.35,-32.99",
+        "108.40,1.92,-3.75",
+        "57.97,1.26,-42.72",
+        "65.01,1.02,2.78"
+      ],
       "utterances": [
+        "What smells so good?",
+        "I'll take their share.",
+        "I'll rend you limb from limb.",
+        "Come back you coward! I'm not dead yet.",
         "They were weak and deserved to die."
       ]
     },
     {
       "name": "a Blackshield plunderer",
+      "level": 10,
+      "locations": [
+        "39.47,1.55,-5.71",
+        "59.00,1.02,-46.00",
+        "85.57,1.88,-6.00",
+        "100.98,2.17,1.81",
+        "94.11,2.41,3.87"
+      ],
       "utterances": [
-        "Death was your only escape from me, coward!"
-      ]
+        "Here they come!",
+        "Enemies approach. Kill them all!",
+        "You'll pay for that!",
+        "Alert the commander that intruders are here!",
+        "Do not surrender to the invaders!",
+        "Combat withdrawal! Follow me!",
+        "Fall back and regroup.  The enemy has the upper hand!"
+      ],
+      "drop_coin_min": 9,
+      "drop_coin_max": 9
     },
     {
       "name": "a Blackshield raider",
+      "level": 10,
+      "locations": [
+        "106.18,1.88,24.00",
+        "73.49,2.33,-36.47",
+        "64.82,1.53,-43.74",
+        "66.10,1.02,5.39",
+        "85.28,1.88,-4.45"
+      ],
       "utterances": [
-        "That'll grow back."
-      ]
+        "I'm gonna give you a smile like ol' one tooth!",
+        "I'll rend you limb from limb.",
+        "Feel kinda sleepy. Whacha do to me?",
+        "That'll grow back.",
+        "I'll take their share.",
+        "Not nice to interrupt dinner.",
+        "Come back you coward! I'm not dead yet."
+      ],
+      "drop_coin_min": 10,
+      "drop_coin_max": 10
     },
     {
       "name": "a brine sifter",
@@ -44,6 +88,12 @@
         "-43.27,-0.57,-67.57",
         "-75.44,-0.59,-50.51",
         "-77.23,-0.57,-25.33"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -97902171 -1752183025:crab meat\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -177,8 +227,19 @@
     },
     {
       "name": "an excavator of Prexian artifacts",
+      "purpose": "Dismal Rage",
+      "level": 9,
+      "locations": [
+        "42.85,1.02,50.56",
+        "7.98,1.02,63.6"
+      ],
       "utterances": [
-        "Look what strolled into the spider's web!"
+        "I hope you put your affairs in order.",
+        "These artifacts are very interesting, judging by what I see here...",
+        "It seems an ancient cult once resided in this district.",
+        "Look what strolled into the spider's web!",
+        "There is no escape for you now!",
+        "Get up! Death isn't good enough for you!"
       ]
     },
     {
@@ -312,10 +373,18 @@
     },
     {
       "name": "an investigator of Prexian artifacts",
+      "purpose": "Dismal Rage",
+      "level": 9,
+      "locations": [
+        "52.22,0.78,70.39",
+        "39.9,1.02,49.51",
+        "21.42,1.15,49.38",
+        "7.98,1.02,63.6"
+      ],
       "utterances": [
         "Summon help!  We have invaders!",
-        "To arms!",
-        "One down!"
+        "Prepare to face your doom, meddler.",
+        "To arms!"
       ]
     },
     {
@@ -523,7 +592,16 @@
       "gamelink": "\\aITEM 1331551958 -1699344718:chipped shard of channeling\\/a"
     },
     {
+      "gamelink": "\\aITEM 956491458 -50916358:plain black moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -576796482 1310961989:plain brown moth\\/a"
+    },
+    {
       "gamelink": "\\aITEM -1278528964 -238418132:plain tan moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -230125234 722129119:plain white moth\\/a"
     },
     {
       "gamelink": "\\aITEM 1039265482 989022440:shattered half elf bone fragment\\/a"
@@ -537,10 +615,16 @@
   ],
   "resourceNodes": [
     {
+      "name": "a collection of fish"
+    },
+    {
       "name": "the creature den"
     },
     {
       "name": "the cruddy ore"
+    },
+    {
+      "name": "the decomposed arbor"
     },
     {
       "name": "the eroded stone"

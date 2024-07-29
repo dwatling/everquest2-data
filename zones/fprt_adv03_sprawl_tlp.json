@@ -29,6 +29,15 @@
   "npcs": [
     {
       "name": "Crispin Luvinius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-83.18,-4.42,-51.2"
+      ],
       "utterances": [
         "Do you have a problem? You're gonna have one soon if you don't keep walking.",
         "A problem solver, huh? You can talk the talk, but can you walk the walk? Yeah ... I got a problem. One of our customers isn't paying us for our \"services,\" if you know what I'm saying. Maybe you can fix this problem for us, huh?",
@@ -54,12 +63,25 @@
     },
     {
       "name": "Enforcer Kurdek",
+      "purpose": "Dreadnaught",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-83.78,-4.68,-36.07"
+      ],
       "utterances": [
         "The Dreadnaughts control the Sprawl!"
       ]
     },
     {
       "name": "Liege Aquila",
+      "locations": [
+        "-124.76,-4.42,88.9"
+      ],
       "utterances": [
         "Greetings, citizen. Are you prepared to do your duty for the Freeport Militia?",
         "The gangs here in the Sprawl are out of control! Clearly it's time that the Militia took control of the situation. The Dreadnaughts aren't doing enough to maintain order.",

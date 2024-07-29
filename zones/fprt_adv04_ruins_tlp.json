@@ -11,5 +11,198 @@
     {
       "key": "fprt_adv03_sprawl_tlp"
     }
+  ],
+  "npcs": [
+    {
+      "name": "Armsdealer Nylzs",
+      "purpose": "Weaponsmith",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-104.11,-2.67,89.93"
+      ],
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item.",
+        "Are you going to buy anything today, or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "a Brokentusk pawn",
+      "level": 10,
+      "locations": [
+        "-119.43,2.13,135.12",
+        "-129.99,2.26,131.87",
+        "-89.71,-3.03,45.96",
+        "-97.32,-2.74,36.18",
+        "-82.59,-2.76,37.98"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 687543723 751914930:Shadowfire (Adept I)\\/a",
+          "chest": true
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Captain Arellius",
+      "purpose": "Freeport Militia",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-166.01,-1.00,80.83"
+      ],
+      "utterances": [
+        "Stand your ground! I will defend Freeport to my dying breath! Are you friend or foe?",
+        "You've entered a war zone, citizen. The Freeport Militia is here in force to defend our city. Two orc clans seem to be working together in an attempt to take over the Ruins and use it as a staging ground to attack Freeport.",
+        "You seem inexperienced.  Perhaps if you delivered something for me in the Commonlands, the journey would better prepare you for what lies beyond these walls. ",
+        "Both tribes have been lurking in the Ruins for some time, but they've never been this aggressive before. They seem to have become more organized and have obtained better weapons and armor.",
+        "The weaker of the two tribes is called the Brokentusk. The stronger clan is known as the Lonetusk. I don't know much about their background personally, but my lieutenants stationed in the field may have more information.",
+        "I must remain here to give assignments to incoming troops. Go through the archway and report to one of my lieutenants, Argosian. He will tell you how you can best serve our cause.",
+        "Good. Oh, be sure to pay homage to the statue of our beloved Overlord. It would prove most beneficial for you to bask in the wisdom of his visage.",
+        "Lieutenant Argosian at the first outpost will be responsible for your initial training. Do not return to me until he has ordered you to do so.",
+        "Have you completed your assignments for Lieutenant Argosian at the first outpost?"
+      ]
+    },
+    {
+      "name": "Lieutenant Argosian",
+      "purpose": "Freeport Militia",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-103.82,-2.67,82.09"
+      ],
+      "utterances": [
+        "The Ruins won't be safe until the orcs are eliminated completely!",
+        "There's no time for chatting. I need to mobilize my forces to take care of these cursed orcs!",
+        "Good, we can always use more recruits to help our cause. Freeport must be defended.",
+        "The Ruins are being overrun, and it's time for us to take a stand. We must ensure that the orcs don't infiltrate the rest of the city.",
+        "We haven't uncovered that yet, and frankly I don't have time to play detective. Are you willing to help the Freeport Militia turn back this tide of aggression?",
+        "Excellent! It looks like the captain was wise to send you to me. Our outpost here is being beset on both sides by the Brokentusk clan of orcs. Once they were pathetically weak, but they seem to be training for a larger offensive.",
+        "A large number of Brokentusk pawns have been seen gathering to the south. Go up the stairs and help my troops strike some fear into them.",
+        "I mean make them DEAD! Look, if this is too much for you, move along, because I've got other recruits to train. Will you help us or not?",
+        "Good! Let's test your mettle against the pawns. Kill at least ten of those beasts before you dare return to me. If you succeed, I'll gain some confidence in your abilities.",
+        "Get to work, citizen. You have your orders, now carry them out."
+      ]
+    },
+    {
+      "name": "Mardyp Prunt",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-115.65,-2.51,68.73"
+      ],
+      "utterances": [
+        "Respect enemies!",
+        "If enemies strong, respect them!",
+        "Orc strong! Not THAT strong, but strong enough for respect! Mardyp talk to friend in Big Bend. Friend tell Mardyp that something in orc tusks make orcs more fierce, more strong! Mardyp killing orcs fine, but crushing fangs to eat takes time. You help Mardyp?",
+        "Get more fangs while Mardyp crush ones I already have. All orcs have fangs. Mardyp need 20!",
+        "Good! Mardyp go back to crushing."
+      ]
+    },
+    {
+      "name": "Merchant Pitrova",
+      "purpose": "General Goods",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-154.89,-1.02,87.84"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "The stuff's over there.  Just let me know if you find anything you like."
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "a puny squalid vermin",
+      "level": 5,
+      "locations": [
+        "-109.44,-2.39,68.92",
+        "-107.20,-2.48,76.44",
+        "-99.13,-2.65,75.36",
+        "-102.95,-2.39,68.54"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1659113820 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a shoreside asp",
+      "level": 5,
+      "locations": [
+        "-100.62,-2.39,71.91",
+        "-108.47,-2.38,73.55",
+        "-100.54,-2.67,79.85",
+        "-98.37,-2.48,61.88",
+        "-122.35,-2.42,96.56"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1818901842 -1476400509:a damaged low quality snake skin\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a shoreside racer",
+      "level": 5,
+      "locations": [
+        "-123.54,2.19,136.62",
+        "-90.01,-2.97,43.42"
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM 1331551958 -1699344718:chipped shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -832401687 1102518604:spotted black moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 86571365 -1773479319:spotted white moth\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the creature den"
+    },
+    {
+      "name": "the gangly arbor"
+    },
+    {
+      "name": "the rugged ore"
+    }
   ]
 }

@@ -35,6 +35,15 @@
     },
     {
       "name": "a Bloodsaber watcher",
+      "level": 7,
+      "locations": [
+        "656.84,-32.84,569.36",
+        "608.85,-32.7,542.66",
+        "613.23,-32.78,547.78",
+        "623.69,-34.18,583.97",
+        "623.22,-32.33,618.60",
+        "664.48,-32.71,551.52"
+      ],
       "utterances": [
         "Me going to eat your kidney first.",
         "I'm gonna give you a smile like ol' one tooth!",
@@ -45,6 +54,7 @@
     },
     {
       "name": "a bog faerie",
+      "level": 7,
       "locations": [
         "578.46,-33.79,494.29",
         "595.47,-34.01,509.50",
@@ -110,6 +120,7 @@
     },
     {
       "name": "a bog sludge",
+      "level": 4,
       "locations": [
         "680.00,-33.70,446.84",
         "688.00,-32.92,402.97",
@@ -127,12 +138,23 @@
     },
     {
       "name": "a faerie guardian",
+      "level": 12,
+      "locations": [
+        "734.63,-32.71,519.96",
+        "725.62,-33.11,535.29",
+        "709.64,-32.8,529.92",
+        "702.2,-33.49,508.61",
+        "714.60,-28.34,500.55"
+      ],
       "utterances": [
         "Now who will I play pranks on?"
       ]
     },
     {
       "name": "Ferius Mentus",
+      "locations": [
+        "567.73,-28.59,420.08"
+      ],
       "utterances": [
         "Yes, yes, you're here, I'm here, why don't we talk, eh? No thanks.",
         "My research is coming to a stand still! I paid some young lad to go fetch me frogs and he just took my money and left! Can you believe that? Now I have no frogs.",
@@ -146,8 +168,12 @@
     },
     {
       "name": "a greater bog faerie",
+      "level": 9,
       "locations": [
-        "796.72,-33.18,466.05"
+        "777.05,-32.99,475.13",
+        "765.94,-32.93,485.81",
+        "829.37,-31.94,605.85",
+        "783.99,-27.74,469.54"
       ],
       "utterances": [
         "Trick or trick!  Time to treat... Myself!",
@@ -156,6 +182,12 @@
     },
     {
       "name": "Guard Black",
+      "purpose": "Guard",
+      "level": 25,
+      "difficulty": "heroic",
+      "locations": [
+        "667.71,-33.36,422.99"
+      ],
       "utterances": [
         "Prepare to face your doom, meddler.",
         "To arms!",
@@ -165,6 +197,9 @@
     },
     {
       "name": "Guard Moor",
+      "purpose": "Guard",
+      "level": 25,
+      "difficulty": "heroic",
       "utterances": [
         "Prepare to face your doom, meddler.",
         "To arms!",
@@ -173,6 +208,10 @@
     },
     {
       "name": "Lieutenant Dawson",
+      "purpose": "Qeynos Guard",
+      "locations": [
+        "563.51,-27.12,415.82"
+      ],
       "utterances": [
         "Do you have a question? Please be brief, my mind is occupied at the moment.",
         "I'm not entirely sure yet. The Peat Bog has had strange things happening in it lately. The ecology here has taken a staggering turn and that has attracted attention. I am trying to provide a strong presence here but with no direct support from Qeynos that is tough. I just need to show Qeynos that investing more people here is necessary.",
@@ -204,12 +243,14 @@
     },
     {
       "name": "a marsh mauler",
+      "level": 10,
       "locations": [
         "770.37,-33.23,519.16"
       ]
     },
     {
       "name": "a mist stalker",
+      "level": 11,
       "locations": [
         "754.65,-32.67,492.40",
         "791.53,-33.22,463.73"
@@ -217,6 +258,7 @@
     },
     {
       "name": "a muck toad",
+      "level": 6,
       "locations": [
         "678.03,-33.36,488.77",
         "666.03,-33.05,481.75",
@@ -236,9 +278,13 @@
     },
     {
       "name": "Oakvil",
+      "locations": [
+        "759.65, -26.23, 379.46"
+      ],
       "utterances": [
         "Welcome! What can I help you with?"
-      ]
+      ],
+      "store_template": "general_goods"
     },
     {
       "name": "Overseer Dentfang",
@@ -248,6 +294,7 @@
     },
     {
       "name": "a ravenous bog slug",
+      "level": 8,
       "locations": [
         "623.00,-33.88,572.53",
         "639.50,-32.83,640.01",
@@ -262,12 +309,14 @@
     },
     {
       "name": "a refuse burrower",
+      "level": 9,
       "locations": [
         "650.41,-33.94,602.69"
       ]
     },
     {
       "name": "a sporeal seedling",
+      "level": 5,
       "locations": [
         "625.60,-33.10,443.55",
         "704.60,-33.07,457.11",
@@ -278,6 +327,7 @@
     },
     {
       "name": "a toxic bog slug",
+      "level": 6,
       "locations": [
         "704.00,-33.57,485.71",
         "698.55,-32.85,489.74",

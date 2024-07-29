@@ -30,16 +30,22 @@
   "npcs": [
     {
       "name": "Adair Barnes",
+      "purpose": "General Goods",
+      "locations": [
+        "-13,0,-6"
+      ],
       "utterances": [
         "Ahhh... bringing yourself down into the muck, eh? Gets mighty dark down these parts. Interest you in a fine torch?",
         "Are you looking for anything in particular?",
         "Aren't you a curious bugger! I'll tell you why, it fills my pockets with coin. You'd be surprised by the folks who come down here to buy this or that.  Say, why don't you help me fill some orders? There's coin in it for you.",
         "Good. Let me write down in your journal what I need you to get.  Now hurry up, this stuff needs to stay fresh, got it?",
         "I see that you got everything. Good. Keep in mind that I always need help retrieving goods. If you're ever looking for something to do that'll pass the time, think of me!"
-      ]
+      ],
+      "store_template": "general_goods"
     },
     {
       "name": "a Bloodsaber initiate",
+      "level": 8,
       "locations": [
         "7.72,-0.08,-111.70",
         "-11.96,-4.00,-138.49",
@@ -53,6 +59,7 @@
     },
     {
       "name": "a Bloodsaber lookout",
+      "level": 4,
       "locations": [
         "20.44,-0.09,-107.10",
         "3.53,-0.09,-106.60"
@@ -62,6 +69,7 @@
     },
     {
       "name": "a Bloodsaber meddler",
+      "level": 8,
       "locations": [
         "-12.32,-4.00,-140.87",
         "0.00,0.00,-137.39",
@@ -80,6 +88,7 @@
     },
     {
       "name": "a creeper protector",
+      "level": 8,
       "locations": [
         "-135.78,7.00,-204.93"
       ]
@@ -98,13 +107,25 @@
     },
     {
       "name": "Falin Shaloon",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "purpose": "General Goods",
+      "locations": [
+        "-195.78,-0.1,-200.52"
+      ],
       "utterances": [
         "If I don't have what you want, you don't need it!",
         "Word gets around quickly down here; so don't think about trying to pull one over on me.  I won't have you working for me while you're doing work for Barnes, got it!?"
-      ]
+      ],
+      "store_template": "general_goods"
     },
     {
       "name": "a forgotten soul",
+      "level": 11,
       "locations": [
         "-197.74,0.01,-99.86",
         "-204.97,0.29,-93.40",
@@ -138,6 +159,7 @@
     },
     {
       "name": "a frenzied watcher",
+      "level": 9,
       "locations": [
         "-133.28,7.00,-208.00",
         "-120.11,2.00,-207.92"
@@ -151,6 +173,7 @@
     },
     {
       "name": "a putrid vermin",
+      "level": 7,
       "locations": [
         "-86.96,-0.11,-109.26",
         "-89.67,-0.36,-104.00"
@@ -164,6 +187,7 @@
     },
     {
       "name": "a rabid shriller",
+      "level": 9,
       "locations": [
         "-214.45,-0.01,-89.36",
         "-191.33,-0.03,-66.78",
@@ -188,12 +212,14 @@
     },
     {
       "name": "a rotting citizen",
+      "level": 12,
       "locations": [
         "-203.56,-0.08,-40.62"
       ]
     },
     {
       "name": "a shriller",
+      "level": 8,
       "locations": [
         "-145.74,-0.07,-141.13"
       ],
@@ -206,6 +232,7 @@
     },
     {
       "name": "a tomb forager",
+      "level": 7,
       "locations": [
         "-61.14,-0.12,-94.79"
       ],
@@ -218,6 +245,7 @@
     },
     {
       "name": "a tomb rifter bleeder",
+      "level": 8,
       "locations": [
         "-190.99,-0.39,-132.13",
         "-162.53,-0.08,-118.90"
@@ -231,6 +259,7 @@
     },
     {
       "name": "a tortured soul",
+      "level": 11,
       "utterances": [
         "Your eyes are so pretty.",
         "Your blood calls to me."
@@ -238,6 +267,7 @@
     },
     {
       "name": "a venomous keeper",
+      "level": 8,
       "locations": [
         "-121.55,0.00,-195.22",
         "-97.79,0.00,-208.28",
@@ -255,6 +285,7 @@
     },
     {
       "name": "a venomous watcher",
+      "level": 6,
       "locations": [
         "-112.00,0.00,-192.00",
         "-125.26,0.00,-204.26"
@@ -268,6 +299,7 @@
     },
     {
       "name": "a venom spitter",
+      "level": 7,
       "locations": [
         "-112.60,0.00,-204.51"
       ],
@@ -275,203 +307,6 @@
         {
           "gamelink": "\\aITEM 830377007 -657580033:an arachnid leg\\/a",
           "chest": false
-        }
-      ]
-    }
-  ],
-  "quests": [
-    {
-      "id": 2049314902,
-      "name": "Far Seas Requisition #DB0436",
-      "giver_item": {
-        "id": 1610323160,
-        "name": "Far Seas Trading Requisition DB0436",
-        "icon_id": 0
-      },
-      "related_npcs": [
-        {
-          "name": "dust crawler hatchling"
-        },
-        {
-          "name": "putrid vermin"
-        },
-        {
-          "name": "shriller"
-        },
-        {
-          "name": "Bartender Bulurg",
-          "ends_quest": true
-        }
-      ]
-    },
-    {
-      "id": 3811525100,
-      "name": "Far Seas Requisition #DB0372",
-      "giver_item": {
-        "id": 304995332,
-        "name": "Far Seas Trading Requisition DB0372",
-        "icon_id": 0
-      },
-      "related_npcs": [
-        {
-          "name": "coiled burrower"
-        },
-        {
-          "name": "crypt substance"
-        },
-        {
-          "name": "tomb forager"
-        },
-        {
-          "name": "Bartender Bulurg",
-          "ends_quest": true
-        }
-      ]
-    },
-    {
-      "id": 974565471,
-      "name": "An Intriguing Eye",
-      "related_npcs": [
-        {
-          "name": "Bloodsaber meddler"
-        },
-        {
-          "name": "Gornit Penwiggle"
-        },
-        {
-          "name": "coiled burrower"
-        },
-        {
-          "name": "rabid shriller"
-        },
-        {
-          "name": "Constable Arthur"
-        },
-        {
-          "name": "fallen noble"
-        }
-      ]
-    },
-    {
-      "id": 860163062,
-      "name": "The Motley Merchant Manifest",
-      "previous_quest": {
-        "id": 974565471,
-        "name": "An Intriguing Eye"
-      },
-      "related_npcs": [
-        {
-          "name": "Gornit Penwiggle"
-        },
-        {
-          "name": "Proprietor Blagard"
-        },
-        {
-          "name": "Karg Icemoore"
-        },
-        {
-          "name": "Borden Mannus"
-        },
-        {
-          "name": "P.T. Irontoe"
-        }
-      ]
-    },
-    {
-      "id": 1684190060,
-      "name": "Evidence for Constable Arathur",
-      "giver_item": {
-        "id": 4041766059,
-        "name": "Motley Merchant Manifest",
-        "icon_id": 0
-      },
-      "previous_quest": {
-        "id": 974565471,
-        "name": "An Intriguing Eye"
-      },
-      "related_npcs": [
-        {
-          "name": "Gornit Penwiggle"
-        },
-        {
-          "name": "Proprietor Blagard"
-        },
-        {
-          "name": "Karg Icemoore"
-        },
-        {
-          "name": "Borden Mannus"
-        },
-        {
-          "name": "P.T. Irontoe"
-        },
-        {
-          "name": "Constable Arathur",
-          "ends_quest": true
-        }
-      ]
-    },
-    {
-      "id": 1404327261,
-      "name": "A Crumpled Note",
-      "related_npcs": [
-        {
-          "name": "Ian Turner",
-          "ends_quest": true
-        }
-      ]
-    },
-    {
-      "id": 4265011621,
-      "name": "Goods Down Below",
-      "related_npcs": [
-        {
-          "name": "malefic arachnid"
-        },
-        {
-          "name": "venom spitter"
-        },
-        {
-          "name": "crypt substance"
-        },
-        {
-          "name": "coiled burrower"
-        },
-        {
-          "name": "tomb forager"
-        },
-        {
-          "name": "tomb rifter hatchling"
-        },
-        {
-          "name": "tomb rifter pest"
-        },
-        {
-          "name": "tomb rifter bleeder"
-        }
-      ]
-    },
-    {
-      "id": 2098937321,
-      "name": "Working the Down Below",
-      "related_npcs": [
-        {
-          "name": "forgotten soul"
-        },
-        {
-          "name": "tortured soul"
-        },
-        {
-          "name": "venomous watcher"
-        },
-        {
-          "name": "frenzied watcher"
-        },
-        {
-          "name": "rabid shriller"
-        },
-        {
-          "name": "venomous keeper"
         }
       ]
     }

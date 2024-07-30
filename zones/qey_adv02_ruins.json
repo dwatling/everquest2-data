@@ -175,7 +175,8 @@
       "locations": [
         "1,058.12,-24.07,-894.17",
         "1,069.07,-24.96,-904.65",
-        "942.29,-25.70,-862.37"
+        "942.29,-25.70,-862.37",
+        "1,065.85,-9.97,-791.44"
       ],
       "utterances": [
         "I hope you put your affairs in order.",
@@ -197,7 +198,8 @@
       "locations": [
         "1,060.50,-23.28,-890.95",
         "1,068.93,-25.08,-905.41",
-        "940.96,-25.70,-862.72"
+        "940.96,-25.70,-862.72",
+        "1,065.26,-9.72,-786.21"
       ],
       "utterances": [
         "Not nice to interrupt dinner.",
@@ -238,16 +240,27 @@
       "locations": [
         "1,023.58,-25.29,-895.21",
         "1,017.50,-25.57,-896.59",
-        "1,009.13,-18.95,-625.64"
+        "1,009.13,-18.95,-625.64",
+        "1,015.07,-19.00,-637.14"
       ],
       "utterances": [
         "Flee and take care of them later.",
         "Should of escaped while I had the chance.",
         "Not very nice of you to be all sneaky.",
-        "Take my secrets to my grave, I shall."
+        "Take my secrets to my grave, I shall.",
+        "Greetings friend, how would you like to die?",
+        "You're not as sneaky as you thought.",
+        "Overhear my plansies. Gore you I will!",
+        "Time to leave, yes. Definitely time to leave."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
+          "chest": false
+        }
       ],
       "drop_coin_min": 8,
-      "drop_coin_max": 8,
+      "drop_coin_max": 17,
       "faction_changes": [
         {
           "name": "The Academy of Arcane Science",
@@ -264,7 +277,8 @@
         "1,059.93,-23.77,-893.07",
         "1,068.50,-25.23,-906.34",
         "939.58,-25.90,-864.43",
-        "1,000.93,-25.51,-899.00"
+        "1,000.93,-25.51,-899.00",
+        "1,064.00,-10.25,-790.36"
       ],
       "utterances": [
         "Sees us, did we? Must not let you talk then.",
@@ -293,9 +307,24 @@
       ]
     },
     {
-      "name": "a bristly tarantula",
+      "name": "a bound watcher",
+      "level": 10,
       "locations": [
-        "1,092.03,-21.61,-614.66"
+        "1,043.03,-24.97,-743.63"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 540174769 -1951374594:Agitation (Adept I)\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a bristly tarantula",
+      "level": 8,
+      "locations": [
+        "1,092.03,-21.61,-614.66",
+        "1,078.12,-18.48,-623.82"
       ]
     },
     {
@@ -315,11 +344,13 @@
     },
     {
       "name": "a centipede",
+      "level": 7,
       "locations": [
         "980.88,-19.64,-715.68",
         "971.56,-21.18,-720.13",
         "959.02,-22.03,-702.28",
-        "963.80,-22.30,-721.86"
+        "963.80,-22.30,-721.86",
+        "963.03,-21.86,-712.02"
       ]
     },
     {
@@ -388,6 +419,24 @@
       ],
       "locations": [
         "1,068.71,-22.70,-854.25"
+      ]
+    },
+    {
+      "name": "a forgotten guardian",
+      "level": 10,
+      "locations": [
+        "1,009.94,-18.82,-630.29",
+        "1,020.22,-18.90,-626.20"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1255926754 2024575747:Advanced Scholar Volume 10\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -989003161 311524032:a fragment of terrain\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -585,6 +634,13 @@
       ]
     },
     {
+      "name": "a slabshell snapper",
+      "level": 8,
+      "locations": [
+        "1,017.34,-23.85,-743.69"
+      ]
+    },
+    {
       "name": "Sleeble Gimblesled",
       "race": [
         "gnome"
@@ -693,9 +749,14 @@
     },
     {
       "name": "a sun beetle",
+      "level": 7,
       "locations": [
         "965.78,-20.37,-691.42",
-        "979.02,-18.66,-695.01"
+        "979.02,-18.66,-695.01",
+        "981.48,-19.73,-718.43",
+        "971.34,-21.34,-722.15",
+        "962.89,-21.92,-713.16",
+        "957.84,-22.36,-704.94"
       ]
     },
     {
@@ -787,6 +848,17 @@
           "gamelink": "\\aITEM 805826025 -1933740147:a damaged low quality deer hide\\/a",
           "chest": false
         }
+      ]
+    },
+    {
+      "name": "a tireless student",
+      "level": 8,
+      "locations": [
+        "1,042.24,-21.61,-744.58"
+      ],
+      "utterances": [
+        "I am weakening!",
+        "You cannot defeat us all!"
       ]
     },
     {

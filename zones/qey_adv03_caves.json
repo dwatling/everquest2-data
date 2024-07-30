@@ -23,107 +23,24 @@
   "npcs": [
     {
       "name": "an alabaster behemoth",
-      "level": 12,
       "locations": [
-        "31.47,38.74,-64.11",
-        "-3.92,37.91,-81.51",
-        "5.15,37.79,-82.62",
-        "-47.31,16.22,-125.53",
-        "-39.29,16.14,-124.08",
-        "-60.25,18.34,-129.86",
-        "-60.39,18.14,-124.53",
-        "38.39,37.87,-44.42",
         "16.99,37.87,-78.82",
         "23.01,38.65,-60.38"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 527044354 1657123123:advanced craftsman volume 12\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1956828486 234429739:a golem animating force\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 467810091 -703431601:a golem obedience chain\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -61203924 -290617416:a golem sentience leash\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1994939444 -48636944:impure chunk of arcane stone\\/a",
-          "chest": false
-        }
       ]
     },
     {
       "name": "an alabaster golem",
-      "level": 10,
       "locations": [
-        "-15.99,12.09,-56.07",
-        "13.36,13.56,-85.01",
-        "48.98,13.00,-121.15",
-        "53.99,13.00,-112.75",
-        "57.54,12.32,-105.11",
-        "51.76,12.38,-104.36",
-        "8.95,13.36,-114.37",
-        "15.08,13.04,-102.63",
         "7.93,14.86,-84.59",
         "-7.33,14.17,-69.64",
         "45.87,12.45,-112.69",
         "15.16,14.14,-90.23",
-        "56.08,12.39,-77.57"
+        "56.08,12.39,-77.57",
+        "52.77,12.38,-102.61"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -272717028 -2050908586:Blackened Iron Tulwar\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1214901854 2074147517:glimmering stone fragment\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1995435705 -1921232873:glimmering stone fragment\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1956828486 234429739:a golem animating force\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1699957654 -220990493:a golem corporeal shell\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 307526400 1745667756:a golem motive prism\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 467810091 -703431601:a golem obedience chain\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -61203924 -290617416:a golem sentience leash\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1994939444 -48636944:impure chunk of arcane stone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 538775320 1158209847:impure chunk of arcane stone\\/a",
+          "gamelink": "\\aITEM 307526400 -829308237:a golem motive prism\\/a",
           "chest": false
         },
         {
@@ -138,29 +55,16 @@
     },
     {
       "name": "an albino arachnid",
-      "level": 11,
       "locations": [
-        "-1.26,37.87,-58.08",
-        "-3.39,37.87,-40.37",
-        "-6.15,38.72,-47.45",
         "20.66,37.14,-34.65",
-        "-6.01,37.69,-74.66"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
-          "chest": false
-        }
+        "-6.01,37.69,-74.66",
+        "-4.58,38.21,-57.07"
       ]
     },
     {
       "name": "an albino python",
       "locations": [
-        "20.55,37.87,-23.25",
-        "28.00,37.87,-29.63",
-        "28.01,37.87,-24.00",
-        "37.80,37.87,-30.04",
-        "33.58,37.87,-35.35",
+        "27.27,37.87,-27.78",
         "24.29,37.14,-34.78",
         "22.76,38.61,-59.39",
         "17.32,37.14,-37.46",
@@ -169,31 +73,14 @@
       ]
     },
     {
-      "name": "Atramentor",
-      "level": 14,
-      "difficulty": "heroic^^^",
-      "locations": [
-        "-44.41,16.14,-127.07"
-      ]
-    },
-    {
       "name": "a cave serpent",
-      "level": 10,
       "locations": [
-        "5.85,2.75,-24.93",
-        "12.00,12.22,-48.93",
-        "9.43,2.51,-15.00",
-        "-2.91,3.63,-34.87",
-        "15.95,3.38,-45.79",
-        "15.67,5.33,-15.02",
-        "41.56,3.52,-51.49",
-        "46.83,3.38,-72.66",
-        "35.70,3.38,-72.56",
-        "-12.25,12.97,-51.52",
-        "-0.79,3.53,-20.54",
         "-0.01,12.62,-52.00",
+        "18.56,3.71,-16.60",
         "-20.34,12.92,-63.51",
-        "-21.36,12.96,-72.45"
+        "-21.36,12.96,-72.45",
+        "44.02,3.49,-52.00",
+        "11.30,12.27,-48.55"
       ],
       "drops": [
         {
@@ -201,25 +88,13 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1987642321 423420640:Far Seas Direct Requisition Order CVS0431\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 350124153 812122303:Notched Leather Belt\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 947828686 -1926162362:tanned leather bracers\\/a",
           "chest": true
         }
       ]
     },
     {
       "name": "Consul Bree",
-      "purpose": "Qeynos Guard",
-      "locations": [
-        "0.03,3.62,-34.77"
-      ],
       "utterances": [
         "I am glad you are here.",
         "There are problems here that must be solved. You and I are part of that solution.",
@@ -246,34 +121,7 @@
       ]
     },
     {
-      "name": "a desperate defender",
-      "level": 13,
-      "locations": [
-        "0.00,37.87,-18.00",
-        "-9.93,37.90,-22.77",
-        "9.35,37.87,-20.04",
-        "14.38,37.87,-19.55"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
-        }
-      ],
-      "faction_changes": [
-        {
-          "name": "The Qeynos Guard",
-          "value": -100
-        }
-      ]
-    },
-    {
       "name": "The Devoured",
-      "level": 13,
-      "difficulty": "heroic^^^",
-      "locations": [
-        "18.68,37.79,-50.59"
-      ],
       "utterances": [
         "I'll rip your throat open!",
         "Your fight is hopeless!",
@@ -282,10 +130,7 @@
     },
     {
       "name": "Dustcaller Sleg",
-      "level": 11,
-      "difficulty": "heroic^^",
       "locations": [
-        "26.83,19.90,-126.29",
         "32.25,12.38,-106.90",
         "40.41,12.38,-108.82"
       ],
@@ -298,58 +143,32 @@
           "gamelink": "\\aITEM 1043294733 -619968018:Dusty Scarf\\/a",
           "chest": true
         }
-      ],
-      "drop_coin_min": 27,
-      "drop_coin_max": 28
+      ]
     },
     {
       "name": "a Dustpaw armorer",
-      "level": 11,
       "locations": [
-        "58.39,13.20,-74.12",
-        "67.54,12.40,-69.27",
-        "64.17,12.57,-76.83",
         "53.35,12.38,-74.72",
         "47.37,12.38,-80.41",
+        "58.53,13.22,-74.95",
         "33.96,12.38,-80.00"
       ],
       "utterances": [
         "Bite! Show sharp teeth!",
         "That one will never mate!",
         "Not allowed here!"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 35,
-      "drop_coin_max": 35
+      ]
     },
     {
       "name": "a Dustpaw guard",
-      "level": 10,
       "locations": [
-        "19.42,4.96,-58.97",
-        "23.95,5.12,-75.92",
-        "56.75,12.38,-84.52",
         "39.53,3.83,-65.03",
         "29.48,3.34,-85.48",
         "33.92,3.46,-62.44",
-        "26.25,5.26,-66.00"
+        "21.17,4.94,-71.72",
+        "53.10,12.38,-88.96",
+        "26.25,5.26,-66.00",
+        "55.22,12.38,-80.44"
       ],
       "utterances": [
         "Not allowed here!",
@@ -358,7 +177,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM -995437396 1086350915:canine saliva\\/a",
           "chest": false
         },
         {
@@ -368,24 +187,18 @@
         {
           "gamelink": "\\aITEM 254183980 -1846212575:Paraffin Sealed Document\\/a",
           "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1537370945 993864962:tanned leather gloves\\/a",
-          "chest": true
         }
       ],
       "drop_coin_min": 10,
-      "drop_coin_max": 14
+      "drop_coin_max": 10
     },
     {
       "name": "a Dustpaw lookout",
-      "level": 10,
       "locations": [
-        "23.04,4.92,-67.06",
-        "56.66,12.38,-81.61",
         "39.00,3.79,-66.93",
         "33.82,3.50,-62.09",
-        "55.14,12.38,-89.47"
+        "55.14,12.38,-89.47",
+        "24.94,5.06,-67.18"
       ],
       "utterances": [
         "Bite! Show sharp teeth!",
@@ -395,43 +208,21 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -272717028 -1824968337:blackened iron tulwar\\/a",
           "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
-          "chest": false
         },
         {
           "gamelink": "\\aITEM -1698232697 -1628225413:Chirannite Threat Totem\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -1693304572 -1066926646:roughspun fist wraps\\/a",
           "chest": true
-        }
-      ],
-      "faction_changes": [
-        {
-          "name": "The Qeynos Guard",
-          "value": 50
         }
       ]
     },
     {
       "name": "Emma Torque",
-      "purpose": "Field Engineer",
-      "locations": [
-        "-18.19,3.66,-34.8"
-      ],
       "utterances": [
         "Great job!",
         "Is that the information I need? This is most precise!",
@@ -454,40 +245,22 @@
       ]
     },
     {
-      "name": "Geologist Quardifle",
+      "name": "Fulkoir Haggleton",
       "locations": [
-        "-7.03,3.63,-25.67"
+        "41.95,37.87,-94.59"
+      ],
+      "utterances": [
+        "This is entirely unacceptable!"
       ]
     },
     {
       "name": "High Shaman Zen'Durath",
-      "level": 14,
       "locations": [
-        "25,15,-110",
         "33.63,12.38,-111.44"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
-          "chest": false
-        }
-      ],
-      "faction_changes": [
-        {
-          "name": "The Royal Antonican Guard",
-          "value": 50
-        },
-        {
-          "name": "The Qeynos Guard",
-          "value": 50
-        }
       ]
     },
     {
       "name": "Kahla Ulno",
-      "locations": [
-        "0.49,3.62,-23.01"
-      ],
       "utterances": [
         "Greetings! I don't suppose you have some time to help an information-hungry kerra like myself, do you?",
         "Well, I'm very interested in the creatures that inhabit these caves. I am trying to catalog these creatures so I can better compare them with their cousins found elsewhere. But I've run into a problem.",
@@ -500,10 +273,6 @@
     },
     {
       "name": "Lieutenant Delsun",
-      "purpose": "Qeynos Guard",
-      "locations": [
-        "0.21,4.34,-31.64"
-      ],
       "utterances": [
         "Well met. If you're here it's probably because you can help. I'm Lieutenant Delsun of the Qeynos Guard.",
         "Well. Consul Bree has a plan of attack that she may need help with. So speak to her if you want to offer your services. As for me, I am more interested in the gnolls than their plans. If you want to help me by taking some of them out, I will gladly accept it.",
@@ -516,12 +285,7 @@
     },
     {
       "name": "a Mudpaw guard",
-      "level": 11,
       "locations": [
-        "30.82,19.89,-127.33",
-        "57.14,12.35,-103.84",
-        "45.75,11.97,-87.78",
-        "23.12,20.27,-127.98",
         "33.50,12.34,-106.14",
         "36.73,12.38,-114.78"
       ],
@@ -533,52 +297,19 @@
         "Spin, weave, dodge, attack!!!",
         "Not allowed here!",
         "That one will never mate!"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2117239122 2115474395:Miner's Ring\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 33,
-      "drop_coin_max": 33
+      ]
     },
     {
       "name": "a Mudpaw lookout",
-      "level": 10,
       "locations": [
-        "10.17,12.43,-51.03",
-        "4.87,13.86,-67.29",
-        "15.34,13.48,-94.49",
-        "30.82,19.89,-127.33",
-        "43.82,11.98,-84.28",
-        "-2.31,14.70,-73.30",
-        "6.36,14.61,-74.62",
-        "19.40,12.59,-86.25",
-        "20.88,12.58,-97.17",
         "7.81,12.65,-58.53",
         "14.28,12.38,-71.04",
+        "12.40,12.29,-53.13",
+        "7.87,13.22,-67.34",
         "23.12,12.31,-60.40",
+        "7.03,14.42,-76.14",
+        "1.80,15.24,-77.92",
+        "18.46,14.16,-89.61",
         "39.51,12.38,-102.48"
       ],
       "utterances": [
@@ -591,19 +322,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM -995437396 1086350915:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1493644228 574369999:Charm II (Adept)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1698232697 159043196:Chirannite Threat Totem\\/a",
+          "gamelink": "\\aITEM -1698232697 -1628225413:Chirannite Threat Totem\\/a",
           "chest": false
         },
         {
@@ -611,84 +338,29 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "gamelink": "\\aITEM 1720905930 -425953569:a gnoll tooth\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 254183980 -1846212575:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 599111897 -672231565:pouch of peat\\/a",
           "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1537370945 993864962:tanned leather gloves\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1543838002 2091384456:tanned leather tunic\\/a",
-          "chest": true
         }
       ],
       "drop_coin_min": 7,
-      "drop_coin_max": 40,
-      "faction_changes": [
-        {
-          "name": "The Qeynos Guard",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "a pale adder",
-      "level": 12,
-      "locations": [
-        "-29.65,33.84,-37.40",
-        "-29.69,33.62,-43.93"
-      ]
-    },
-    {
-      "name": "The Pale Broodmother",
-      "level": 10,
-      "difficulty": "heroic^^^",
-      "locations": [
-        "56.90,0.97,-102.94"
-      ]
-    },
-    {
-      "name": "a river behemoth",
-      "level": 13,
-      "difficulty": "heroic^^",
-      "locations": [
-        "29.38,37.52,-126.27",
-        "19.13,38.06,-125.45"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1214901854 2074147517:glimmering stone fragment\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1994939444 -48636944:impure chunk of arcane stone\\/a",
-          "chest": false
-        }
-      ]
+      "drop_coin_max": 7
     },
     {
       "name": "a Rockpaw guard",
-      "level": 13,
       "locations": [
-        "51.77,38.00,-69.57",
-        "45.94,37.55,-101.42",
-        "47.28,37.85,-112.57",
-        "52.73,37.99,-119.19",
-        "21.08,37.89,-112.97",
-        "19.66,38.20,-104.55",
-        "-30.53,21.10,-88.89",
-        "47.74,37.85,-80.03",
+        "45.84,37.90,-79.13",
         "40.00,37.87,-76.83",
-        "38.60,38.32,-86.18"
+        "44.23,37.70,-101.85",
+        "38.60,38.32,-86.18",
+        "42.61,38.30,-114.85"
       ],
       "utterances": [
         "That one never mate!",
@@ -696,37 +368,13 @@
         "Another member of the pack down!",
         "That one will never mate!",
         "Bite! Show sharp teeth!"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 295026780 -1433839586:a gnoll paw\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 16,
-      "drop_coin_max": 229
+      ]
     },
     {
       "name": "a Rockpaw scout",
-      "level": 13,
       "locations": [
-        "46.72,37.49,-98.67",
-        "47.56,38.52,-117.29",
-        "21.68,37.87,-109.78",
-        "-23.20,21.27,-99.45",
         "41.94,37.90,-90.16",
+        "22.32,37.62,-105.64",
         "25.09,37.99,-90.33"
       ],
       "utterances": [
@@ -736,41 +384,11 @@
         "That one never mate!",
         "Not allowed here!",
         "Spin, weave, dodge, attack!!!"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 20,
-      "drop_coin_max": 248
-    },
-    {
-      "name": "a Rockpaw stonemaster",
-      "level": 15,
-      "locations": [
-        "-40.19,16.14,-122.56",
-        "-33.67,16.95,-122.29"
-      ],
-      "drop_coin_min": 32,
-      "drop_coin_max": 32
+      ]
     },
     {
       "name": "a Rockpaw striker",
-      "level": 13,
       "locations": [
-        "-4.77,37.87,-22.75",
-        "27.28,38.04,-113.78",
-        "37.25,38.01,-113.82",
         "13.73,37.14,-41.99",
         "26.00,38.70,-121.72",
         "-5.23,38.72,-48.74"
@@ -780,80 +398,25 @@
         "Bite! Show sharp teeth!",
         "Another member of the pack down!",
         "Not allowed here!"
-      ],
-      "drop_coin_min": 17,
-      "drop_coin_max": 40
+      ]
     },
     {
       "name": "a shale bat",
-      "level": 10,
       "locations": [
-        "0.81,12.79,-52.03",
-        "-6.23,12.81,-55.64",
-        "41.79,7.42,-57.94",
-        "43.61,6.43,-70.48",
-        "21.33,16.65,-61.64",
-        "-3.73,17.84,-76.53",
         "-5.96,3.63,-34.46",
         "-17.58,12.34,-68.34",
-        "-4.32,13.65,-65.88"
+        "-4.32,13.65,-65.88",
+        "24.00,13.00,-60.04"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1127098598 -837078682:a bat ear\\/a",
+          "gamelink": "\\aITEM 1127098598 1418213343:a bat ear\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1359041271 -1145894628:Radiant Strike (Adept I)\\/a",
           "chest": true
         }
-      ]
-    },
-    {
-      "name": "a silverfish",
-      "level": 10,
-      "locations": [
-        "-22.39,0.96,-23.38",
-        "-28.20,0.97,-31.21",
-        "-22.87,0.05,-30.42",
-        "34.26,0.00,-13.43",
-        "20.39,-1.00,-8.66",
-        "44.26,0.00,-28.43"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -595786562 -1168539999:a fish meat\\/a",
-          "chest": false
-        }
-      ]
-    },
-    {
-      "name": "Slaverjaw",
-      "level": 16,
-      "difficulty": "heroic^^^",
-      "locations": [
-        "-15.33,38.49,-49.94",
-        "18.32,38.16,-114.32",
-        "29.54,38.44,-89.31",
-        "41.21,37.87,-77.21",
-        "55.2,38.15,-70.0",
-        "77.33,35.52,-71.39",
-        "68.72,28.13,-53.41",
-        "57.87,24.29,-70.26",
-        "62.77,19.37,-81.65",
-        "49.17,12.2,-90.33",
-        "27.17,11.93,-99.13",
-        "5.75,12.31,-108.31",
-        "3.46,12.28,-98.06",
-        "-17.12,12.09,-91.97",
-        "-16.24,12.14,-73.73",
-        "7.02,13.61,-67.77",
-        "20.78,12.38,-65.98",
-        "17.78,12.38,-76.96",
-        "15.75,12.96,-98.61",
-        "27.44,16.64,-118.78",
-        "51.25,13.0,-113.25",
-        "60.51,12.34,-103.68"
       ]
     },
     {
@@ -890,117 +453,40 @@
           "gamelink": "\\aITEM -1900972368 -1885126073:Spark Scarred Gloves\\/a",
           "chest": true
         }
-      ],
-      "faction_changes": [
-        {
-          "name": "The Qeynos Guard",
-          "value": 50
-        }
       ]
     },
     {
       "name": "a terra bat",
-      "level": 12,
       "locations": [
-        "18.81,37.41,-85.10",
-        "48.77,40.69,-82.00",
-        "26.20,40.96,-112.18",
-        "40.69,40.73,-100.00",
-        "37.07,38.14,-114.62",
-        "25.06,41.19,-88.28",
-        "45.69,42.26,-87.10",
         "43.39,37.90,-75.45",
-        "44.17,37.74,-94.56"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 1127098598 -837078682:a bat ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1537370945 993864962:tanned leather gloves\\/a",
-          "chest": true
-        }
-      ],
-      "faction_changes": [
-        {
-          "name": "The Qeynos Guard",
-          "value": 50
-        }
+        "37.40,38.27,-115.50",
+        "44.17,37.74,-94.56",
+        "22.96,37.53,-93.21"
       ]
     },
     {
-      "name": "Warmonger Gurne",
-      "level": 14,
-      "difficulty": "heroic^^^",
-      "locations": [
-        "-23.77,21.17,-90.12"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
-          "chest": false
-        }
-      ],
-      "drop_coin_min": 37,
-      "drop_coin_max": 37
-    },
-    {
       "name": "a white spider",
-      "level": 10,
       "locations": [
-        "20.81,3.32,-44.18",
-        "51.96,2.76,-96.86",
-        "51.96,0.51,-106.86",
-        "27.18,12.38,-52.64",
-        "-7.13,12.80,-55.16",
-        "-21.73,12.86,-66.70",
-        "-8.68,13.19,-62.90",
         "6.61,12.76,-61.56",
+        "-3.46,12.80,-53.56",
         "16.46,12.17,-55.49",
         "14.40,12.38,-72.86"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1163703835 1698426441:bone cudgel\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1597999582 -1680139941:a poison gland\\/a",
+          "gamelink": "\\aITEM 2112874147 -657580033:an arachnid leg\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a white spiderling",
-      "level": 10,
       "locations": [
-        "5.76,2.75,-33.68",
-        "8.00,2.75,-26.82",
-        "16.18,3.38,-29.32",
-        "20.41,3.75,-23.62",
-        "17.47,3.38,-43.84",
-        "28.21,3.84,-39.35",
-        "33.32,3.93,-39.27",
-        "41.74,3.83,-57.81",
-        "52.41,3.38,-63.72",
-        "39.40,3.83,-65.22",
         "9.82,3.38,-42.89",
+        "12.00,3.38,-33.70",
         "36.47,3.38,-72.16"
       ],
       "drops": [
-        {
-          "gamelink": "\\aITEM 1202278372 1384654712:advanced craftsman volume 10\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
-          "chest": false
-        },
         {
           "gamelink": "\\aITEM -1163703835 1698426441:bone cudgel\\/a",
           "chest": true
@@ -1014,27 +500,11 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -1963727073 1172430953:Nature's Embrace II (Adept)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1597999582 -1680139941:a poison gland\\/a",
+          "gamelink": "\\aITEM -1597999582 -118836942:a poison gland\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -1001458319 1257821299:Spidersilk Gown\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1863899816 1337605406:tanned leather boots\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 947828686 -1926162362:tanned leather bracers\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -754783456 936122982:Taunting Blow II (Adept)\\/a",
           "chest": true
         }
       ]
@@ -1042,117 +512,25 @@
   ],
   "shinies": [
     {
-      "gamelink": "\\aITEM -1832140126 1193284294:chipped shard of abjuration\\/a",
-      "locations": [
-        "18.25,13.00,-61.13"
-      ]
+      "gamelink": "\\aITEM -1832140126 1193284294:chipped shard of abjuration\\/a"
     },
     {
-      "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a",
-      "locations": [
-        "-4.63,38.00,-73.72"
-      ]
+      "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a"
     },
     {
-      "gamelink": "\\aITEM 1331551958 515627370:chipped shard of channeling\\/a"
+      "gamelink": "\\aITEM 518819436 909311260:plain blue butterfly\\/a"
     },
     {
-      "gamelink": "\\aITEM -1868197541 -1710679381:chipped shard of conjuration\\/a"
+      "gamelink": "\\aITEM -1827919267 -43288604:plain purple butterfly\\/a"
     },
     {
-      "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a",
-      "locations": [
-        "33.62,13.00,-114.01",
-        "-9.06,15.00,-72.70"
-      ]
+      "gamelink": "\\aITEM -1450331100 1726103362:plain yellow butterfly\\/a"
     },
     {
-      "gamelink": "\\aITEM 1743752702 191170084:cracked wood elf bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 518819436 909311260:plain blue butterfly\\/a",
-      "locations": [
-        "30.72,40.00,-94.04"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1827919267 674824625:plain purple butterfly\\/a",
-      "locations": [
-        "14.71,4.00,-40.09"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -327615186 -1572251097:plain violet butterfly\\/a",
-      "locations": [
-        "14.84,14.00,-84.26"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1450331100 1954652540:plain yellow butterfly\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1880258538 332036934:regal violet butterfly\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -904347364 2060228601:regal yellow butterfly\\/a",
-      "locations": [
-        "25.08,13.00,-102.44"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1981956052 735753576:scuffed shard of alteration\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1838761957 -806141222:scuffed shard of channeling\\/a",
-      "locations": [
-        "25.08,14.00,-105.75"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -686869063 575531348:shattered barbarian bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -672434816 285511061:shattered dark elf bone fragment\\/a",
-      "locations": [
-        "22.28,4.00,-18.09",
-        "30.20,13.00,-100.79"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1389794325 228147189:shattered dwarf bone fragment\\/a",
-      "locations": [
-        "31.37,4.00,-45.09"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 211153600 994283553:shattered erudite bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1306389734 920109425:shattered froglok bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -107810075 -1730039780:shattered gnoll bone fragment\\/a",
-      "locations": [
-        "-11.05,4.00,-27.09"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1039265482 989022440:shattered half elf bone fragment\\/a",
-      "locations": [
-        "8.97,39.00,-76.26"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1185753733 1391894927:shattered high elf bone fragment\\/a"
+      "gamelink": "\\aITEM 1185753733 -1190212496:shattered high elf bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM -1526825307 2113563307:shattered human bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1744325928 1349035949:shattered ogre bone fragment\\/a",
-      "locations": [
-        "10.16,3.50,-35.09"
-      ]
     },
     {
       "gamelink": "\\aITEM -1576919798 399529188:shattered ratonga bone fragment\\/a"
@@ -1161,34 +539,7 @@
       "gamelink": "\\aITEM 2076496326 1196186978:shattered wood elf bone fragment\\/a"
     },
     {
-      "gamelink": "\\aITEM 792936304 790984077:spotted blue butterfly\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -920795723 769305171:spotted purple butterfly\\/a",
-      "locations": [
-        "38.74,13.00,-99.14"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1234627898 -64928650:spotted violet butterfly\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -1810895498 719705793:striped blue butterfly\\/a"
-    },
-    {
-      "gamelink": "\\aITEM -140875129 -569972932:striped purple butterfly\\/a",
-      "locations": [
-        "-4.63,40.00,-45.78"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1997619724 -2076063132:striped violet butterfly\\/a",
-      "locations": [
-        "18.25,13.00,-69.39"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -853805826 -343823822:striped yellow butterfly\\/a"
+      "gamelink": "\\aITEM -1997619724 -2076063132:striped violet butterfly\\/a"
     }
   ],
   "resourceNodes": [

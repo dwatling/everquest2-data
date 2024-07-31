@@ -253,7 +253,8 @@
         "It seems an ancient cult once resided in this district.",
         "Look what strolled into the spider's web!",
         "There is no escape for you now!",
-        "Get up! Death isn't good enough for you!"
+        "Get up! Death isn't good enough for you!",
+        "Get up! death isn't good enough for you!"
       ]
     },
     {
@@ -349,13 +350,20 @@
         "Wait... what is going on? This journal isn't about ending the threat of the undead and keeping Freeport safe. It contains notes on how to recreate the spell used by Elwyn Aquel and the Circle of Darkfathom to destroy our city!",
         "I'd heard it said that members of the investigator's family were worshipers of Prexus. They must have been members of the Circle of Darkfathom. Our city is in grave danger! We have to stop him!",
         "There's no time to waste! Curfeld must not be allowed to complete this unholy ritual. The safety of Freeport itself is at stake! Go back and face him. You must put an end to his foul scheme before all is lost.",
-        "You have my full authority to take whatever action is necessary. Fear not; I will ensure that the high priestess and the rest of the Dismal Rage know that your actions were necessary to save our city. Do this, and not only will you be rewarded but your fame will grow. Hurry, go!"
+        "You have my full authority to take whatever action is necessary. Fear not; I will ensure that the high priestess and the rest of the Dismal Rage know that your actions were necessary to save our city. Do this, and not only will you be rewarded but your fame will grow. Hurry, go!",
+        "You're back! Did you stop Investigator Curfeld?",
+        "Splendid work! I cannot express how pleased I am with all you have done for us. Your name shall be known within the Dismal Rage as a true hero. I would not be surprised if the Overlord himself hears of your actions this day. Please, take this reward as a token of thanks.",
+        "I must remain here to finish my report for the Dismal Rage. However, I would like you to journey to the Freeport Ruins and seek out an acquaintance of mine named Captain Arellius. I have heard that your help is much needed there. I will send word that you are coming, hero of Freeport.",
+        "The fastest route to the Ruins is to use the mariner's bell at the end of the dock for traveling outside the city proper. This will summon transportation to take you to the Ruins, where Captain Arellius of the Freeport Militia will be awaiting your assistance.",
+        "You can speak to Custodian Zaddar in the Graveyard and Enforcer Kurdek in the Sprawl. They both could use assistance from an able adventurer.",
+        "Enforcer Kurdek in the Sprawl could use a hand keeping the local gangs in line. To journey to the Sprawl, use the mariner's bell on the docks of your home district to travel to Big Bend. Follow the halls north, then take the west passageway to the west gate.",
+        "Custodian Zaddar in the Graveyard is trying to determine what's behind a recent increase in undead attacks. Use the mariner's bell on the docks of your home district to travel to Stonestair Byway. Head west until you see a passage to the south. The gate at the end leads to the Graveyard."
       ]
     },
     {
       "name": "Investigator Curfeld",
-      "level": 7,
       "purpose": "Dismal Rage",
+      "level": 7,
       "race": [
         "human"
       ],
@@ -383,7 +391,11 @@
         "Did you find the shrine of Prexus? Does it still resonate with power?",
         "Magnificent news! Then it might still be possible! This confirms all my fondest hopes!",
         "Uh... nothing! You have no right to question me! Go back to Thorson, for I have no further use for you.",
-        "Why must I be constantly bogged down by the trivialities of lesser beings? Fine, anything to be rid of you. Take this journal to Thorson and trouble me no more."
+        "Why must I be constantly bogged down by the trivialities of lesser beings? Fine, anything to be rid of you. Take this journal to Thorson and trouble me no more.",
+        "You again! I thought I sent you back to Thorson.",
+        "In my journal? What do you... oh, I, uh, seem to have given you the wrong notes to take to him. Just some old scribbles, nothing too interesting. You two didn't read it, did you?",
+        "I do not need to explain myself to lesser beings like you. Soon I will recreate Aquel's ritual, only this time I will succeed in sinking Freeport to the bottom of the ocean. And the delicious irony is that you will be the one who helped me do it!",
+        "When I have caused the waters to rise and drown this city, Prexus will return and bless me with unlimited power! Even the Overlord's floating citadel will sink to the depths, leaving me to rule all of Norrath!"
       ]
     },
     {
@@ -438,6 +450,12 @@
         "Did you hear that, boys? This runt wants to join our gang! HA HA HA HA! You couldn't fight your way out of a wet parchment bag let alone join us. HA HA HA! We keep people safe inside the city districts!  You're better off paying us for protection, runt.",
         "A test, huh? Yeah ... hey, boys ... let's give this runt a bit of a test. Okay, here's your test: Go deeper in this place and find some of the lackeys who hang around the raiders. Kill some of them and maybe you can work for us.",
         "Don't even both coming back if they ain't!"
+      ]
+    },
+    {
+      "name": "a perished citizen",
+      "locations": [
+        "-5.21,0.20,23.01"
       ]
     },
     {
@@ -531,7 +549,8 @@
         "12.38,1.09,46.16",
         "-3.33,1.02,43.84",
         "-3.43,1.02,61.25",
-        "17.76,0.67,58.30"
+        "17.76,0.67,58.30",
+        "60.73,0.73,65.00"
       ],
       "drops": [
         {
@@ -556,7 +575,9 @@
         "68.50,1.07,63.64",
         "55.90,0.53,57.24",
         "51.43,0.69,69.12",
-        "44.52,1.02,50.81"
+        "44.52,1.02,50.81",
+        "85.56,0.97,63.21",
+        "7.35,0.89,62.16"
       ],
       "utterances": [
         "Your struggle is for naught!",
@@ -564,8 +585,11 @@
         "The dead feel no pain!",
         "I will show you the true pain of death!",
         "Mortal agony is nothing compared to the torment that awaits you!",
-        "You cannot kill what is already dead!"
-      ]
+        "You cannot kill what is already dead!",
+        "You cannot run from death, mortal!"
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 2
     },
     {
       "name": "a spectral resident",

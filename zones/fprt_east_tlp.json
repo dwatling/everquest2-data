@@ -23,6 +23,30 @@
   ],
   "npcs": [
     {
+      "name": "Barrius Iacomus",
+      "purpose": "Provisioner",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-233.51,-55.18,-20.57"
+      ],
+      "utterances": [
+        "Ahoy!  Welcome to the Seafarer's Roost.  Name's Barrius, but all these scallywags just call me Bar.  Be sure to mind your manners.  I don't want any more trouble!"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Bernice",
+      "utterances": [
+        "I could use another ale for the road anytime now.",
+        "Look sir, I had just one ale an hour ago with dinner."
+      ]
+    },
+    {
       "name": "Fichman",
       "race": [
         "human"
@@ -31,17 +55,67 @@
         "male"
       ],
       "locations": [
-        "-236.94,-48.96,7.83"
+        "-236.94,-48.96,7.83",
+        "-233.14,-55.18,8.84"
       ],
       "utterances": [
         "I haven't that much to drink yet, I got here when... bah I forgot.",
-        "Ahhh ... quit your whinin'! I paid ya with my jokes and fine company."
+        "Ahhh ... quit your whinin'! I paid ya with my jokes and fine company.",
+        "What do you mean ye drank more than I did?"
+      ]
+    },
+    {
+      "name": "Fisherman Zogz",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-274.47,-56.07,58.22"
+      ],
+      "utterances": [
+        "Tasty treats, lots of meats.",
+        "Treat us badly in Neriak! I laugh now we in same spot!",
+        "Nasty scars and boiled tar!  Warriors is what we are!"
       ]
     },
     {
       "name": "Gladiator Skullgrind",
       "utterances": [
         "I love to crush those who think they can speak to me."
+      ]
+    },
+    {
+      "name": "Harbormaster Duskmark",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-253.35,-56.07,-81.99"
+      ],
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item.",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ]
+    },
+    {
+      "name": "Javvy",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-233.60,-56.13,-8.35"
+      ],
+      "utterances": [
+        "Shove off! Not interested in company. Leave me to my grog. "
       ]
     },
     {
@@ -61,22 +135,202 @@
       ]
     },
     {
-      "name": "Mehina",
+      "name": "Kronasoo",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-208.24,-56.07,-73.09"
+      ],
       "utterances": [
-        "Ah, to think of all the time I've wasted in this wretched place!"
+        "The mind is a terrible thing to waste.  Feeling guilty, are we?"
+      ]
+    },
+    {
+      "name": "Livia Caepio",
+      "purpose": "Tailor",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-234.38,-56.14,-3.93"
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "Lollia Parnesius",
+      "purpose": "General Goods",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-236.87,-55.18,17.52"
+      ],
+      "utterances": [
+        "Oh, hello there! Perhaps my eyes fail me, but you look like you're handy with a quill. Can you do some scribe work for me?",
+        "Oh, Anessa! I've been waiting some time for this message.  I sure hope you weren't taking your sweet time with it."
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Mehina",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-236.94,-55.18,-26.93"
+      ],
+      "utterances": [
+        "Ah, to think of all the time I've wasted in this wretched place!",
+        "These stone walls don't keep things out; they keep us in!",
+        "I don't care what they say.  This town is not much to look at, is it?",
+        "There's no place for the elderly in this town."
+      ]
+    },
+    {
+      "name": "Odyssneu",
+      "purpose": "Broker",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-242.37,-56.01,80.61"
+      ],
+      "utterances": [
+        "Yes, I know you seek what I have access to. Then again, who doesn't?  So what can I help you acquire?"
       ]
     },
     {
       "name": "Progenitus",
+      "purpose": "City Merchant",
       "utterances": [
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
       ]
     },
     {
       "name": "Ranik Calman",
+      "purpose": "Bartender",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-232.67,-55.18,13.38"
+      ],
       "utterances": [
         "Aye. Welcome to the Seafarer's Roost. Been out at sea for a while, or just stopping through? Put some coin in my hand and I'll sell ye drinks until ye sail out again."
+      ],
+      "store_template": "bartender"
+    },
+    {
+      "name": "Renny Parvat",
+      "purpose": "Collector",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-281.19,-56.07,101.59"
+      ],
+      "utterances": [
+        "What are you looking at?   Stay away from me, and keep your hands off my collections, you scumbag!",
+        "What collections?  What do you mean, \"What collections?\" My collections, you fool! If you think you're going to get them from me, you're wrong!   But if you have something to donate, then maybe we can talk.",
+        "This is a decent find, I suppose. I can give you a small reward for it."
       ]
+    },
+    {
+      "name": "Rumdum",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-236.20,-55.18,13.75"
+      ],
+      "utterances": [
+        "What in Zek do you want?  Can't ya see I'm drinkin' here..."
+      ]
+    },
+    {
+      "name": "a Safar of Maj'dul",
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-301.32,-56.07,62.47"
+      ]
+    },
+    {
+      "name": "Sergeant Typhoeus",
+      "purpose": "Freeport Militia",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-201.60,-56.07,-81.39"
+      ],
+      "utterances": [
+        "It's hard to impress the Overlord. Trust me, I know."
+      ]
+    },
+    {
+      "name": "Slaughtergrott the Vigilant",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-214.03,-56.07,-82.44"
+      ],
+      "utterances": [
+        "Exciting journeys at sea!  See the new world!",
+        "You're of no use to me. You're incapable of finding what I need."
+      ]
+    },
+    {
+      "name": "Viducius Festus",
+      "purpose": "General Goods",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-244.64,-56.03,80.21"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "In spite of the cost of living, it's still quite a popular item."
+      ],
+      "store_template": "general_goods"
     }
   ]
 }

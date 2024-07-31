@@ -27,9 +27,16 @@
       ],
       "utterances": [
         "In spite of the cost of living, it's still quite a popular item.",
-        "Are you going to buy anything today, or am I just wasting my time?  This isn't a museum display you know!"
+        "Are you going to buy anything today, or am I just wasting my time?  This isn't a museum display you know!",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
       ],
       "store_template": "weaponsmith"
+    },
+    {
+      "name": "a Brokentusk defender",
+      "locations": [
+        "-132.96,2.41,156.00"
+      ]
     },
     {
       "name": "a Brokentusk guard",
@@ -54,14 +61,42 @@
         "-115.56,2.13,122.59",
         "-126.75,2.13,122.90",
         "-124.97,2.14,113.78",
-        "-89.37,-2.72,31.96"
+        "-89.37,-2.72,31.96",
+        "-124.63,2.26,131.60",
+        "-134.00,2.13,119.00",
+        "-146.54,2.26,130.16",
+        "-137.16,2.26,142.00",
+        "-107.31,-2.45,75.43",
+        "-146.00,2.28,115.00",
+        "-134.53,-1.92,156.22",
+        "-133.23,2.20,126.71",
+        "-123.45,1.05,108.32",
+        "-119.96,-2.42,95.92"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM 1232349070 1161282377:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 700495345 -1676341369:cracked malachite\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1591577579 1448945516:an orc skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1344527781 937834785:Orc Smuggler Requisition\\/a",
+          "chest": false
+        },
         {
           "gamelink": "\\aITEM 687543723 751914930:Shadowfire (Adept I)\\/a",
           "chest": true
         }
       ],
+      "drop_coin_min": 3,
+      "drop_coin_max": 18,
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
@@ -90,7 +125,9 @@
         "I must remain here to give assignments to incoming troops. Go through the archway and report to one of my lieutenants, Argosian. He will tell you how you can best serve our cause.",
         "Good. Oh, be sure to pay homage to the statue of our beloved Overlord. It would prove most beneficial for you to bask in the wisdom of his visage.",
         "Lieutenant Argosian at the first outpost will be responsible for your initial training. Do not return to me until he has ordered you to do so.",
-        "Have you completed your assignments for Lieutenant Argosian at the first outpost?"
+        "Have you completed your assignments for Lieutenant Argosian at the first outpost?",
+        "Hail, citizen of Freeport. I've heard that you have been sent here by Inquisitor Thorson, the officer of the Dismal Rage who is stationed in the Sunken City.",
+        "Thorson informed me how you helped uncover Curfeld's plot to destroy Freeport. The help of true heroes of Freeport like you is needed if we are to defend our city against this attack."
       ]
     },
     {
@@ -122,7 +159,15 @@
         "A large number of Brokentusk pawns have been seen gathering to the south. Go up the stairs and help my troops strike some fear into them.",
         "I mean make them DEAD! Look, if this is too much for you, move along, because I've got other recruits to train. Will you help us or not?",
         "Good! Let's test your mettle against the pawns. Kill at least ten of those beasts before you dare return to me. If you succeed, I'll gain some confidence in your abilities.",
-        "Get to work, citizen. You have your orders, now carry them out."
+        "Get to work, citizen. You have your orders, now carry them out.",
+        "These filthy Brokentusk must be extinguished!",
+        "Hello, recruit. Did you fulfill your duty to Freeport against the Brokentusk pawns?",
+        "Well, nice work. It's almost as if you've killed orc pawns before! Maybe I can trust you with a more challenging task.",
+        "Those pawns were child's play, really. I just wanted to test your dedication to our cause. Now I need you to take on some tougher members of the Brokentusk clan.",
+        "Some more formidable Brokentusk orcs are gathering to the north. They've taken up residence in some of the abandoned ruins there, and I've gotten reports that they have captured some of the vagrant squatters that used to reside there.",
+        "After Shoreside was abandoned and became known as the Ruins, groups of vagrant beggars moved in here and seemed to coexist with the orcs. Our patrols have discovered that the Brokentusk recently killed most of the squatters, however, and are keeping a few as captives.",
+        "Even though the squatters are not citizens, the Overlord will not tolerate unsanctioned violence within his borders. I need you to head north and teach the Brokentusk a lesson. Take special care to rid the area of any overseers you notice holding prisoners.",
+        "I knew I could count on you. Return to me when the orcs have paid for their crimes."
       ]
     },
     {
@@ -154,7 +199,9 @@
         "If enemies strong, respect them!",
         "Orc strong! Not THAT strong, but strong enough for respect! Mardyp talk to friend in Big Bend. Friend tell Mardyp that something in orc tusks make orcs more fierce, more strong! Mardyp killing orcs fine, but crushing fangs to eat takes time. You help Mardyp?",
         "Get more fangs while Mardyp crush ones I already have. All orcs have fangs. Mardyp need 20!",
-        "Good! Mardyp go back to crushing."
+        "Good! Mardyp go back to crushing.",
+        "Orc fangs?",
+        "Good! Mardyp very happy! Soon Mardyp make these into soup or drink or something! Unless that too much work, then Mardyp just eat it."
       ]
     },
     {
@@ -200,7 +247,8 @@
         "-108.47,-2.38,73.55",
         "-100.54,-2.67,79.85",
         "-98.37,-2.48,61.88",
-        "-122.35,-2.42,96.56"
+        "-122.35,-2.42,96.56",
+        "-120.27,-2.54,90.49"
       ],
       "drops": [
         {
@@ -214,13 +262,46 @@
       "level": 5,
       "locations": [
         "-123.54,2.19,136.62",
-        "-90.01,-2.97,43.42"
+        "-90.01,-2.97,43.42",
+        "-117.42,2.13,139.98",
+        "-127.00,-1.92,98.00"
+      ]
+    },
+    {
+      "name": "a vagrant squatter",
+      "locations": [
+        "-152.48,2.26,141.28",
+        "-127.27,-1.43,99.70"
+      ]
+    },
+    {
+      "name": "Visage of the Overlord",
+      "utterances": [
+        "Remember: you are citizens of Freeport. My fire is in your blood, and my will guides your blade. You have the strength of D'Lere, and nothing can stand against you. "
       ]
     }
   ],
   "shinies": [
     {
       "gamelink": "\\aITEM 1331551958 -1699344718:chipped shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 956491458 -50916358:plain black moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -576796482 1310961989:plain brown moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -230125234 722129119:plain white moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -686869063 2018792859:shattered barbarian bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 736208268 -898305246:shattered iksar bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1004669040 447686829:shattered troll bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM -832401687 1102518604:spotted black moth\\/a"

@@ -21,13 +21,36 @@
       "key": "fprt_hood05_tlp"
     },
     {
-      "key": "fprt_sewer01"
+      "key": "fprt_sewer01",
+      "location": "18.64,-19.22,-206.46"
     },
     {
       "key": "fprt_west_tlp"
     }
   ],
   "npcs": [
+    {
+      "name": "Archivist Severina",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-63.08,-20.34,-270.21"
+      ],
+      "utterances": [
+        "When it comes to arcane knowledge, no one knows more about it than Arcane Scientists.",
+        "The Seafuries are just a bunch of ruffians that pirate ships and trade on the black market."
+      ]
+    },
+    {
+      "name": "Azrael",
+      "locations": [
+        "-49.83,-20.05,-309.96"
+      ]
+    },
     {
       "name": "Chronicler Paracog",
       "race": [
@@ -37,10 +60,86 @@
         "male"
       ],
       "locations": [
-        "-38.67,-20.18,-243.47"
+        "-38.67,-20.18,-243.47",
+        "-114.10,-46.06,-185.63"
       ],
       "utterances": [
-        "My work would be so much further along if the voices would stop."
+        "My work would be so much further along if the voices would stop.",
+        "Through the advances in modern magic, anything is possible.",
+        "So far, I have found kerrans to have only one life, not nine.  I insist on finding the other eight!",
+        "It is said there is more than one way to skin a cat.  My research proves that saying correct."
+      ]
+    },
+    {
+      "name": "Clergy Sejanus",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-63.95,-20.34,-253.45"
+      ],
+      "utterances": [
+        "I do not speak with animals.  Try to understand, will you?",
+        "Idiots should speak only when spoken to."
+      ]
+    },
+    {
+      "name": "Electra J`ventius",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-110.08,-46.05,-190.79"
+      ],
+      "utterances": [
+        "What a foul, dirty place this is compared to Neriak.",
+        "We'll rise again, and then nothing will stop us.",
+        "It's a fine day for evil to flourish!"
+      ]
+    },
+    {
+      "name": "Enyo Vivaron",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-63.08,-20.34,-270.21"
+      ],
+      "utterances": [
+        "If you're looking for trouble, I've got a whole fistful of it waiting for you.",
+        "Knowing the right people will keep you safe in this city.  You aren't one of them.",
+        "Is it even possible for this city to get more corrupt?"
+      ]
+    },
+    {
+      "name": "Faunus Belicius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-116.33,-46.06,-186.63"
+      ],
+      "utterances": [
+        "Yes, yes, hello. I'm busy.",
+        "You thought you were so superior, and look who you come to for protection when things get rough."
+      ]
+    },
+    {
+      "name": "Faye",
+      "locations": [
+        "-144.54,-53.12,-361.61"
       ]
     },
     {
@@ -61,6 +160,23 @@
       ]
     },
     {
+      "name": "Iulus U`Vas",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-53.00,-20.05,-266.26"
+      ],
+      "utterances": [
+        "If you have friends watching your back, you might live through this.",
+        "I gotta get into the Militia.  Then I could legally beat up people.",
+        "I'm in the mood to kick someone in the teeth."
+      ]
+    },
+    {
       "name": "Kanos X'aphon",
       "race": [
         "dark elf"
@@ -69,7 +185,8 @@
         "male"
       ],
       "locations": [
-        "12.40,-20.06,-217.09"
+        "12.40,-20.06,-217.09",
+        "6.13,-20.07,-215.59"
       ],
       "utterances": [
         "You mean nothing to me, whelp. I seek one with ability enough to do my bidding.  Now, back out the door whence you came with your tail between your legs before I disembowel you and leave your entrails for the vermin infesting this filthy human city."
@@ -84,10 +201,52 @@
         "male"
       ],
       "locations": [
-        "-63.67,-20.21,-253.08"
+        "-63.67,-20.21,-253.08",
+        "-146.10,-53.12,-364.31"
       ],
       "utterances": [
-        "How could you stand living underground for so long?"
+        "How could you stand living underground for so long?",
+        "One day, we shall be free in a place of our own once more.",
+        "Can you see the beauty of the open plains?"
+      ]
+    },
+    {
+      "name": "Kryva",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-206.09,-58.68,-177.30"
+      ],
+      "utterances": [
+        "Perhaps the dark ones will require our services in the future.",
+        "Ohh, they'll never suspect that, no they won't!",
+        "Yes, yes, that will do nicely... err, hello, who are you?"
+      ]
+    },
+    {
+      "name": "Neophyte Jhanov",
+      "purpose": "Arcane Scientist",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-0.09,-5.68,-115.08"
+      ],
+      "utterances": [
+        "All who seek understanding of the Arcane are welcome within the walls of the Academy. Always remember, that above all else, we serve the Overlord!"
+      ]
+    },
+    {
+      "name": "Patches",
+      "locations": [
+        "-139.64,-53.12,-352.48"
       ]
     },
     {
@@ -116,10 +275,13 @@
         "female"
       ],
       "locations": [
-        "-41.85,-20.34,-246.56"
+        "-41.85,-20.34,-246.56",
+        "-206.51,-58.83,-175.57"
       ],
       "utterances": [
-        "Greetings.  One day I hope everyone bows before my intellect."
+        "Greetings.  One day I hope everyone bows before my intellect.",
+        "Salutations, dark one.",
+        "My time is too valuable to be spent chatting."
       ]
     },
     {
@@ -131,10 +293,61 @@
         "male"
       ],
       "locations": [
-        "-49.92,-20.34,-253.07"
+        "-49.92,-20.34,-253.07",
+        "-63.95,-20.34,-253.45"
       ],
       "utterances": [
-        "The arcane power of Dismal Rage is what gives spiritual strength to us all."
+        "The arcane power of Dismal Rage is what gives spiritual strength to us all.",
+        "You must learn to release the chaos and destruction of your power."
+      ]
+    },
+    {
+      "name": "Venal T`Lar",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-145.84,-53.12,-358.32"
+      ],
+      "utterances": [
+        "Pardon me, but you have me mistaken for someone cares.",
+        "What I would give to strike down a Feir'Dal in battle.",
+        "If you do it right, pain is the gift that keeps on giving."
+      ]
+    },
+    {
+      "name": "Vesta Hesperus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-144.40,-53.12,-362.58"
+      ],
+      "utterances": [
+        "Didn't I see your corpse in the alley?  Hmmm ... Maybe it was someone else.",
+        "The next time that guy leers at me, I'm gonna punch him in the throat.",
+        "If you keep bothering me, I'll scream for help!!"
+      ]
+    },
+    {
+      "name": "Zaveda X'vch",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "8.47,-20.07,-205.24"
+      ],
+      "utterances": [
+        "How dare you address me! I have important things to attend to, now leave before others see you conversing with me; I don't want them to think I socialize with scum."
       ]
     }
   ]

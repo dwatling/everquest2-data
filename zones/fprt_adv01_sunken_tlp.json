@@ -22,14 +22,23 @@
         "73.46,2.35,-32.99",
         "108.40,1.92,-3.75",
         "57.97,1.26,-42.72",
-        "65.01,1.02,2.78"
+        "65.01,1.02,2.78",
+        "30.04,0.67,17.36"
       ],
       "utterances": [
         "What smells so good?",
         "I'll take their share.",
         "I'll rend you limb from limb.",
         "Come back you coward! I'm not dead yet.",
-        "They were weak and deserved to die."
+        "They were weak and deserved to die.",
+        "Is this supposed to hurt?",
+        "Feel kinda sleepy. Whacha do to me?"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 307754522 -1776085145:Advanced Artisan Volume 9\\/a",
+          "chest": true
+        }
       ]
     },
     {
@@ -63,7 +72,8 @@
         "73.49,2.33,-36.47",
         "64.82,1.53,-43.74",
         "66.10,1.02,5.39",
-        "85.28,1.88,-4.45"
+        "85.28,1.88,-4.45",
+        "29.49,0.67,15.34"
       ],
       "utterances": [
         "I'm gonna give you a smile like ol' one tooth!",
@@ -72,7 +82,8 @@
         "That'll grow back.",
         "I'll take their share.",
         "Not nice to interrupt dinner.",
-        "Come back you coward! I'm not dead yet."
+        "Come back you coward! I'm not dead yet.",
+        "I can taste my own blood."
       ],
       "drop_coin_min": 10,
       "drop_coin_max": 10
@@ -395,7 +406,8 @@
         "You again! I thought I sent you back to Thorson.",
         "In my journal? What do you... oh, I, uh, seem to have given you the wrong notes to take to him. Just some old scribbles, nothing too interesting. You two didn't read it, did you?",
         "I do not need to explain myself to lesser beings like you. Soon I will recreate Aquel's ritual, only this time I will succeed in sinking Freeport to the bottom of the ocean. And the delicious irony is that you will be the one who helped me do it!",
-        "When I have caused the waters to rise and drown this city, Prexus will return and bless me with unlimited power! Even the Overlord's floating citadel will sink to the depths, leaving me to rule all of Norrath!"
+        "When I have caused the waters to rise and drown this city, Prexus will return and bless me with unlimited power! Even the Overlord's floating citadel will sink to the depths, leaving me to rule all of Norrath!",
+        "You again? You can't stop a son of Prexus. Maybe the next fool who comes after you will have better luck!"
       ]
     },
     {
@@ -507,7 +519,8 @@
       "locations": [
         "-56.60,-0.52,-72.46",
         "-28.87,-0.53,-42.55",
-        "-47.56,0.24,-15.49"
+        "-47.56,0.24,-15.49",
+        "19.61,0.51,8.92"
       ]
     },
     {
@@ -656,6 +669,9 @@
     },
     {
       "gamelink": "\\aITEM 1185753733 -1190212496:shattered high elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1576919798 399529188:shattered ratonga bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM 86571365 -1773479319:spotted white moth\\/a"

@@ -72,15 +72,24 @@
         "-133.23,2.20,126.71",
         "-123.45,1.05,108.32",
         "-119.96,-2.42,95.92",
-        "-101.03,-2.41,69.44"
+        "-101.03,-2.41,69.44",
+        "-133.91,2.13,112.71"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM 307754522 -1776085145:Advanced Artisan Volume 9\\/a",
+          "chest": true
+        },
         {
           "gamelink": "\\aITEM 1232349070 1161282377:badge of honor\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 700495345 -1676341369:cracked malachite\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -702200701 -2029343647:an orc eye\\/a",
           "chest": false
         },
         {
@@ -128,7 +137,11 @@
         "Lieutenant Argosian at the first outpost will be responsible for your initial training. Do not return to me until he has ordered you to do so.",
         "Have you completed your assignments for Lieutenant Argosian at the first outpost?",
         "Hail, citizen of Freeport. I've heard that you have been sent here by Inquisitor Thorson, the officer of the Dismal Rage who is stationed in the Sunken City.",
-        "Thorson informed me how you helped uncover Curfeld's plot to destroy Freeport. The help of true heroes of Freeport like you is needed if we are to defend our city against this attack."
+        "Thorson informed me how you helped uncover Curfeld's plot to destroy Freeport. The help of true heroes of Freeport like you is needed if we are to defend our city against this attack.",
+        "Hail, Citizen of Freeport. I have been informed that you are in the service of Custodian Zaddar, that haughty Erudite from the Graveyard.",
+        "Zaddar informed me how crucial your help was in repairing the ward in the Graveyard. The help of true heroes of Freeport like you is needed if we are to defend our city against this attack.",
+        "Take this letter to Mooshga, an ogre who works at the Crossroads in the Commonlands. Are you familiar with the area?",
+        "Remember that the Commonlands can be a dangerous place. Judge your battles carefully, <player name>. When you gather allies and are ready to undertake the fight against the Lonetusk orcs, return here."
       ]
     },
     {
@@ -169,7 +182,8 @@
         "After Shoreside was abandoned and became known as the Ruins, groups of vagrant beggars moved in here and seemed to coexist with the orcs. Our patrols have discovered that the Brokentusk recently killed most of the squatters, however, and are keeping a few as captives.",
         "Even though the squatters are not citizens, the Overlord will not tolerate unsanctioned violence within his borders. I need you to head north and teach the Brokentusk a lesson. Take special care to rid the area of any overseers you notice holding prisoners.",
         "I knew I could count on you. Return to me when the orcs have paid for their crimes.",
-        "All citizens should take up arms against these orc beasts!"
+        "All citizens should take up arms against these orc beasts!",
+        "We will make our stand against the Brokentusk and erase them from our city."
       ]
     },
     {
@@ -327,6 +341,9 @@
     },
     {
       "name": "the gangly arbor"
+    },
+    {
+      "name": "the ravaged natural garden"
     },
     {
       "name": "the rugged ore"

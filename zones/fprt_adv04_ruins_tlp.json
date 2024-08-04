@@ -43,7 +43,16 @@
       "locations": [
         "-82.28,-3.08,40.74",
         "-87.96,-2.70,28.12",
-        "-108.00,-2.34,72.00"
+        "-108.00,-2.34,72.00",
+        "-97.67,-2.69,34.23",
+        "-89.27,-2.73,34.83",
+        "-96.99,-2.70,53.36"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
       ]
     },
     {
@@ -73,7 +82,8 @@
         "-123.45,1.05,108.32",
         "-119.96,-2.42,95.92",
         "-101.03,-2.41,69.44",
-        "-133.91,2.13,112.71"
+        "-133.91,2.13,112.71",
+        "-140.68,2.26,136.92"
       ],
       "drops": [
         {
@@ -115,6 +125,18 @@
       ]
     },
     {
+      "name": "a Brokentusk prophet",
+      "locations": [
+        "-66.80,-1.13,53.26"
+      ]
+    },
+    {
+      "name": "a Brokentusk warrior",
+      "locations": [
+        "-67.00,-1.10,52.00"
+      ]
+    },
+    {
       "name": "Captain Arellius",
       "purpose": "Freeport Militia",
       "race": [
@@ -148,7 +170,10 @@
       "name": "a courageous defender",
       "locations": [
         "-89.98,-2.71,31.26",
-        "-80.74,-2.91,38.00"
+        "-80.74,-2.91,38.00",
+        "-113.55,2.13,126.74",
+        "-106.93,1.97,126.91",
+        "-115.03,2.13,121.53"
       ]
     },
     {
@@ -189,14 +214,31 @@
     {
       "name": "a Lonetusk guard",
       "locations": [
-        "-92.33,-2.69,27.25"
+        "-92.33,-2.69,27.25",
+        "-80.77,-2.76,36.63"
       ]
     },
     {
       "name": "a Lonetusk pawn",
       "locations": [
         "-94.57,-2.58,53.22",
-        "-83.66,-2.72,30.48"
+        "-83.66,-2.72,30.48",
+        "-85.00,-2.76,37.95",
+        "-73.56,-2.83,34.30"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1344527781 937834785:Orc Smuggler Requisition\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4
+    },
+    {
+      "name": "a Lonetusk sentry",
+      "locations": [
+        "-79.05,-2.86,36.41"
       ]
     },
     {
@@ -241,7 +283,8 @@
       "utterances": [
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
         "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
-        "The stuff's over there.  Just let me know if you find anything you like."
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor are you?"
       ],
       "store_template": "general_goods"
     },
@@ -286,14 +329,16 @@
         "-123.54,2.19,136.62",
         "-90.01,-2.97,43.42",
         "-117.42,2.13,139.98",
-        "-127.00,-1.92,98.00"
+        "-127.00,-1.92,98.00",
+        "-76.00,-2.96,36.00"
       ]
     },
     {
       "name": "a vagrant squatter",
       "locations": [
         "-152.48,2.26,141.28",
-        "-127.27,-1.43,99.70"
+        "-127.27,-1.43,99.70",
+        "-145.00,2.54,112.00"
       ]
     },
     {
@@ -320,7 +365,13 @@
       "gamelink": "\\aITEM -230125234 722129119:plain white moth\\/a"
     },
     {
+      "gamelink": "\\aITEM -1341170799 308633262:scuffed shard of abjuration\\/a"
+    },
+    {
       "gamelink": "\\aITEM -686869063 2018792859:shattered barbarian bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1039265482 989022440:shattered half elf bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM 736208268 -898305246:shattered iksar bone fragment\\/a"
@@ -341,6 +392,9 @@
     },
     {
       "name": "the gangly arbor"
+    },
+    {
+      "name": "the pale roots"
     },
     {
       "name": "the ravaged natural garden"

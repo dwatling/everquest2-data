@@ -15,6 +15,48 @@
   ],
   "npcs": [
     {
+      "name": "a Blackshield marauder",
+      "locations": [
+        "84.00,1.91,21.36",
+        "61.38,1.14,-12.30",
+        "55.67,1.02,3.97",
+        "38.83,1.26,-11.27",
+        "96.00,2.41,6.59"
+      ],
+      "utterances": [
+        "Welcome to torment and destruction!",
+        "You may escape, but we will find you!",
+        "More intruders to deal with?  Stop them!",
+        "How dare you!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 475563480 389464353:sundered obsidian\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 2
+    },
+    {
+      "name": "a Blackshield pillager",
+      "locations": [
+        "46.32,1.48,-0.62",
+        "85.17,1.79,22.96",
+        "48.38,0.93,16.98",
+        "52.72,1.61,23.88"
+      ],
+      "utterances": [
+        "Look what strolled into the spider's web!",
+        "How dare you!",
+        "I hope you put your affairs in order.",
+        "Welcome to torment and destruction!",
+        "There is no escape for you now!",
+        "How dare you strike me!",
+        "Hold them and I'll return with help!"
+      ]
+    },
+    {
       "name": "a Blackshield pirate",
       "level": 10,
       "locations": [
@@ -23,7 +65,12 @@
         "108.40,1.92,-3.75",
         "57.97,1.26,-42.72",
         "65.01,1.02,2.78",
-        "30.04,0.67,17.36"
+        "30.04,0.67,17.36",
+        "55.35,1.24,28.16",
+        "55.97,1.21,8.94",
+        "48.56,0.67,10.94",
+        "92.33,2.63,8.00",
+        "102.72,1.50,13.69"
       ],
       "utterances": [
         "What smells so good?",
@@ -32,14 +79,21 @@
         "Come back you coward! I'm not dead yet.",
         "They were weak and deserved to die.",
         "Is this supposed to hurt?",
-        "Feel kinda sleepy. Whacha do to me?"
+        "Feel kinda sleepy. Whacha do to me?",
+        "Neat, that'll leave a pretty scar",
+        "Me going to eat your kidney first.",
+        "I'm gonna give you a smile like ol' one tooth!",
+        "That'll grow back.",
+        "I can taste my own blood."
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 307754522 -1776085145:Advanced Artisan Volume 9\\/a",
           "chest": true
         }
-      ]
+      ],
+      "drop_coin_min": 3,
+      "drop_coin_max": 3
     },
     {
       "name": "a Blackshield plunderer",
@@ -49,7 +103,18 @@
         "59.00,1.02,-46.00",
         "85.57,1.88,-6.00",
         "100.98,2.17,1.81",
-        "94.11,2.41,3.87"
+        "94.11,2.41,3.87",
+        "61.10,1.12,1.27",
+        "95.00,2.25,-7.27",
+        "89.35,2.17,16.33",
+        "64.01,1.04,23.29",
+        "90.95,1.67,23.23",
+        "44.64,1.02,35.50",
+        "40.72,1.02,12.26",
+        "84.02,1.87,21.63",
+        "58.27,1.26,-11.16",
+        "104.00,1.72,12.16",
+        "44.70,1.75,-8.32"
       ],
       "utterances": [
         "Here they come!",
@@ -59,7 +124,9 @@
         "Do not surrender to the invaders!",
         "Combat withdrawal! Follow me!",
         "Fall back and regroup.  The enemy has the upper hand!",
-        "Death was your only escape from me, coward!"
+        "Death was your only escape from me, coward!",
+        "You may win the battle, but the war is far from over!",
+        "Now I'm really angry!"
       ],
       "drop_coin_min": 9,
       "drop_coin_max": 9
@@ -73,7 +140,11 @@
         "64.82,1.53,-43.74",
         "66.10,1.02,5.39",
         "85.28,1.88,-4.45",
-        "29.49,0.67,15.34"
+        "29.49,0.67,15.34",
+        "42.65,1.06,31.87",
+        "48.10,1.89,-7.73",
+        "59.63,1.02,6.75",
+        "62.43,1.07,26.18"
       ],
       "utterances": [
         "I'm gonna give you a smile like ol' one tooth!",
@@ -83,7 +154,11 @@
         "I'll take their share.",
         "Not nice to interrupt dinner.",
         "Come back you coward! I'm not dead yet.",
-        "I can taste my own blood."
+        "I can taste my own blood.",
+        "What smells so good?",
+        "Me going to eat your kidney first.",
+        "Wuh? Time for pain!",
+        "They were weak and deserved to die."
       ],
       "drop_coin_min": 10,
       "drop_coin_max": 10
@@ -92,7 +167,19 @@
       "name": "a Blackshield ravager",
       "locations": [
         "39.53,1.52,-4.69",
-        "-2.27,-0.13,12.62"
+        "-2.27,-0.13,12.62",
+        "62.10,1.12,14.20",
+        "70.39,2.18,-31.53",
+        "39.97,1.26,-12.32",
+        "54.70,1.05,2.13"
+      ],
+      "utterances": [
+        "Here they come!",
+        "Agggggh!  There is no pain only death and failure!",
+        "Feel the might of Rallos!",
+        "Do not surrender to the invaders!",
+        "Destroy all of the intruders!",
+        "Your petty weapons are no match for me!"
       ]
     },
     {
@@ -110,7 +197,8 @@
         "-42.65,-0.12,48.51",
         "-32.00,-0.62,-2.11",
         "-44.50,0.29,-8.10",
-        "11.64,0.33,3.33"
+        "11.64,0.33,3.33",
+        "-67.97,-1.20,59.37"
       ],
       "drops": [
         {
@@ -442,7 +530,8 @@
       "utterances": [
         "This place is a wellspring for me.  Look around!  Crates and barrels full of abandoned goods just waiting to be uncovered.  There are far too many for me to search alone.",
         "My name's Lukur, and I deal antiques.  I was told of the riches waiting to be discovered here, but I didn't believe it until I arrived.  Will you help me search for some valuables?",
-        "I need to add a few specific relics to my collection.  Return when you fulfill my order."
+        "I need to add a few specific relics to my collection.  Return when you fulfill my order.",
+        "Look at the amazing quality of these ancient masks! You did well. Here is your reward."
       ],
       "store_template": "general_goods"
     },
@@ -461,7 +550,14 @@
         "Mind your own business. If you keep gawking, you'll be walking away with a limp. And that's only because I'm in a good mood today.",
         "Did you hear that, boys? This runt wants to join our gang! HA HA HA HA! You couldn't fight your way out of a wet parchment bag let alone join us. HA HA HA! We keep people safe inside the city districts!  You're better off paying us for protection, runt.",
         "A test, huh? Yeah ... hey, boys ... let's give this runt a bit of a test. Okay, here's your test: Go deeper in this place and find some of the lackeys who hang around the raiders. Kill some of them and maybe you can work for us.",
-        "Don't even both coming back if they ain't!"
+        "Don't even both coming back if they ain't!",
+        "Crispin already heard. Hpmh ... You got lucky, I guess. Either way, those Raiders won't bother our clients in the Court anymore. I don't know if I should let you join our gang ... let me think about it."
+      ]
+    },
+    {
+      "name": "Muck Raker",
+      "locations": [
+        "-66.96,-0.58,-66.27"
       ]
     },
     {
@@ -619,13 +715,21 @@
         "52.01,1.46,-9.73",
         "88.00,1.99,-6.00",
         "103.72,2.07,-4.15",
-        "46.60,1.08,32.51"
+        "46.60,1.08,32.51",
+        "40.44,1.63,-4.18",
+        "73.53,1.99,-30.13",
+        "46.66,1.93,-4.73",
+        "53.24,0.98,8.20",
+        "60.06,1.06,18.43"
       ],
       "utterances": [
         "Must you aggravate me so!",
         "One down!  An eternity to go.",
         "I will not lose count ,and you will suffer the lot!",
-        "Prepare to face your doom, meddler."
+        "Prepare to face your doom, meddler.",
+        "No. I'm unrest and you will suffer.",
+        "For Thull's sake!",
+        "They can't all be this easy."
       ]
     },
     {
@@ -652,7 +756,13 @@
       "gamelink": "\\aITEM -1832140126 1193284294:chipped shard of abjuration\\/a"
     },
     {
+      "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a"
+    },
+    {
       "gamelink": "\\aITEM 1331551958 -1699344718:chipped shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1868197541 -626008118:chipped shard of conjuration\\/a"
     },
     {
       "gamelink": "\\aITEM 956491458 -50916358:plain black moth\\/a"
@@ -667,13 +777,31 @@
       "gamelink": "\\aITEM -230125234 722129119:plain white moth\\/a"
     },
     {
+      "gamelink": "\\aITEM -672434816 285511061:shattered dark elf bone fragment\\/a"
+    },
+    {
       "gamelink": "\\aITEM 1039265482 989022440:shattered half elf bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM 1185753733 -1190212496:shattered high elf bone fragment\\/a"
     },
     {
+      "gamelink": "\\aITEM -1526825307 2113563307:shattered human bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 736208268 -898305246:shattered iksar bone fragment\\/a"
+    },
+    {
       "gamelink": "\\aITEM -1576919798 399529188:shattered ratonga bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1004669040 447686829:shattered troll bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 2076496326 1196186978:shattered wood elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -517034753 1805225270:spotted tan moth\\/a"
     },
     {
       "gamelink": "\\aITEM 86571365 -1773479319:spotted white moth\\/a"

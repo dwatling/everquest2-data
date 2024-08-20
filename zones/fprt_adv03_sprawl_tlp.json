@@ -147,7 +147,9 @@
         "-78.70,-4.24,58.29",
         "-74.59,-4.42,66.93",
         "-70.20,-4.42,101.95",
-        "-92.33,-4.19,-41.01"
+        "-92.33,-4.19,-41.01",
+        "-86.97,-4.24,11.15",
+        "-83.57,-4.76,-40.78"
       ],
       "drops": [
         {
@@ -180,8 +182,13 @@
         "-92.37,-4.36,-43.67",
         "-77.04,-5.31,-30.07",
         "-77.04,-5.31,-23.33",
-        "-96.65,-4.28,-58.00"
+        "-96.65,-4.28,-58.00",
+        "-83.90,-4.24,20.49",
+        "-92.51,-4.42,14.35",
+        "-73.77,-4.42,17.53"
       ],
+      "drop_coin_min": 14,
+      "drop_coin_max": 14,
       "faction_changes": [
         {
           "name": "The Dervish Cutthroats",
@@ -247,7 +254,15 @@
         "She said \"the Marked\"? That's very interesting. I've heard rumors of other ratonga around Norrath muttering that phrase in veiled whispers. It seems like something big might be brewing. I'll let my superiors back in the city know what you found out. Well done!",
         "The largest gang here in the Sprawl is without question the most dangerous. The Dervish Cutthroats are scum, pure and simple. They need to be taught a lesson.",
         "To the south of here you'll find the streets lined with those accursed Dervish. These lowlifes are nowhere near as tough as their superiors in the Commonlands, but beware their numbers. I need you to thin them out a bit and show them that the Dreadnaughts are still in control around here.",
-        "Take out some of the Dervish hooligans, hoodlums, and crooks. You may have to fight your way deeper in to find some of them. Watch your back, because the Dervish don't fight fairly. But then again, neither should you! Return to me when you've taught them a lesson and I'll reward you handsomely on behalf of the Dreadnaughts."
+        "Take out some of the Dervish hooligans, hoodlums, and crooks. You may have to fight your way deeper in to find some of them. Watch your back, because the Dervish don't fight fairly. But then again, neither should you! Return to me when you've taught them a lesson and I'll reward you handsomely on behalf of the Dreadnaughts.",
+        "Did you teach those filthy Dervish a lesson?",
+        "Nice work! Those Dervish will know better than to mess with us in the future. I must say, I was skeptical when I first saw you, but you've proven yourself to be Dreadnaught material! You've really helped us out here in the Sprawl, so accept this reward on behalf of the Dreadnaughts.",
+        "I've got to get back to my own duties. I told Trainer Durbok that you might be interested in lending a hand in keeping his training ground clear, so you might want to have a word with him. You could also strike out on your own and clear some of the thugs from these mean streets. But like I warned you before, if you mess with the Giantslayers you will draw the attention of the Dreadnaughts.",
+        "Don't linger here too long, adventurer. I just got word of something major happening in the Ruins of old Freeport. You need to get there as soon as possible and lend a hand in defending the city.",
+        "Your best route is to go back through the city, either through Big Bend or the Scale Yard. Head to the docks, then ring the bell to travel outside Freeport proper. Head to the Ruins and seek out a friend of mine in the Freeport Militia, Captain Arellius. Get moving!",
+        "I know of others in Freeport who could use your help as well. Custodian Zaddar in the Graveyard is investigating a rise in undead activity, and Inquisitor Throson in the Sunken City is delving into an ancient mystery. Both could use the aid of a hero like you, <player name>.",
+        "Inquisitor Thorson in the Sunken City needs help investigating ancient mysteries that threaten Freeport's safety. To travel to the Sunken City, use the mariner's bell on the docks of your home district to travel outside Freeport and chose Sunken City as your destination.",
+        "Custodian Zaddar in the Graveyard is trying to determine what's behind a recent increase in undead attacks. Use the mariner's bell on the docks of your home district to travel to Stonestair Byway. Head west until you see a passage to the south. The gate at the end leads to the Graveyard."
       ]
     },
     {
@@ -301,7 +316,8 @@
       "name": "Loria",
       "utterances": [
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
-        "The stuff's over there.  Just let me know if you find anything you like."
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
       ]
     },
     {

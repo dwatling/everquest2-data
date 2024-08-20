@@ -107,12 +107,33 @@
       "name": "a banded armadillo",
       "level": 11,
       "locations": [
-        "-1,041.68,-51.45,-5.96"
+        "-1,041.68,-51.45,-5.96",
+        "-1,051.97,-52.63,4.70",
+        "-1,015.08,-50.21,5.29",
+        "-975.12,-48.27,-68.41",
+        "-961.67,-47.61,-85.89",
+        "-959.85,-47.17,-70.45"
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -2040308040 -345113074:advanced craftsman volume 11\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 128098823 2103956891:A Broken Harness\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 1293859609 -2104687560:a damaged average quality armadillo hide\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1555036024 121619110:Far Seas Requisition - WC 077\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1911494856 -1210200216:Oaken Wand of Wrath\\/a",
+          "chest": true
         }
       ]
     },
@@ -140,7 +161,15 @@
         "-830.54,-48.02,-163.20",
         "-841.41,-47.45,-177.87",
         "-835.14,-48.01,-191.94",
-        "-750.88,-47.98,-217.23"
+        "-750.88,-47.98,-217.23",
+        "-967.26,-49.16,-13.61",
+        "-987.93,-49.63,-6.74"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1293859609 -2104687560:a damaged average quality armadillo hide\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -202,7 +231,48 @@
       "name": "a carrion hound",
       "level": 10,
       "locations": [
-        "-1,078.45,-56.40,-32.00"
+        "-1,078.45,-56.40,-32.00",
+        "-1,145.09,-66.84,11.75",
+        "-1,151.16,-68.36,13.76",
+        "-1,136.63,-65.42,12.19",
+        "-1,000.37,-49.07,-54.70",
+        "-1,051.20,-52.50,-31.66",
+        "-933.89,-47.97,-78.60",
+        "-930.54,-47.88,-102.24",
+        "-952.43,-47.58,-117.66",
+        "-1,064.07,-54.10,-21.62",
+        "-1,045.27,-51.92,-25.06",
+        "-1,087.48,-57.44,-47.04"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1211035744 2038352317:canine incisor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -755419959 -1719754628:Far Seas Requisition - FG 158\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1409721994 528560703:Far Seas Requisition - FG 212\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1034168081 -1184561711:tanned leather pelt\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a carrion hound pup",
+      "locations": [
+        "-1,035.41,-47.50,-218.22"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1034168081 -1184561711:tanned leather pelt\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -246,7 +316,11 @@
         "Do you have the shells?",
         "Great! Are you tired yet or can you do more?",
         "All right. I've got some buyers lined up for some armadillo hides. You can find some if you follow the road west and along the wall that stretches to the north. I need ten of their hides.",
-        "I'm sure you will."
+        "I'm sure you will.",
+        "Did you get the hides?",
+        "Good work. You've made us both quite a bit of coin. Thanks for the help. I'm sorry that my tasks have been so dull, it's hard to pull the important missions when you're a lowly gate patrol. I do have something a bit more exciting if you're interested.",
+        "Well, a while back I got a low priority assignment to take care of the ghostly orcs north of here in the Siegelands. I've been putting it off. I hate orcs almost as much as I hate ghosts. If you take care of these ghostly orcs for me I'll pay you what I was slated to receive. What do you say?",
+        "Great, that's a relief to hear. Don't worry about the spectral defenders. Like the ghostly orcs, they imagine they are in some never-ending war. I don't think they even realize they're dead. It's sad, really. Anyway, ghostly orcs: take out ten of them, those were my orders."
       ]
     },
     {
@@ -401,6 +475,15 @@
       ]
     },
     {
+      "name": "Master of the Hunt",
+      "utterances": [
+        "Stay clear of that lot down there.",
+        "What is it?  Did Iziran send you to check up on me?",
+        "That's the first lot of good news I've heard all day.  These undead orcs have no strategy, no rhyme or reason to their actions; they just continue to relentlessly, albeit feebly, attack our city. Huh?  Say, since Iziran didn't send you, are your skills for hire?",
+        "Splendid. A ratonga stole my hunting journal, the little wretch.  Find him, kill him, and return with my journal.  Is that understood?"
+      ]
+    },
+    {
       "name": "Merchant Edmond",
       "purpose": "Provisioner",
       "race": [
@@ -469,7 +552,13 @@
         "Mooshga hungry for jerky. Plus Mooshga try to make old secret recipe of famous ancestor chef. You go collect pieces for jerky so Mooshga can figure out recipe! It made from hyena meat. Get carrion hound ears for Mooshga.",
         "Good...Yes, Mooshga make Hyena Jerky for you.",
         "You don't look hungry enough. You go away! NO FOOD FOR YOU!",
-        "So, you be adventurer sent by Militia to help Mooshga? You look like you hungry! Mooshga feed you good!"
+        "So, you be adventurer sent by Militia to help Mooshga? You look like you hungry! Mooshga feed you good!",
+        "You back so quick! What you have for Mooshga?",
+        "Oh, thanks you! You make Mooshga happy Ogre.",
+        "You still look hungry! You hungry? Mooshga knows when people hungry. Mooshga will feed you but you do something for Mooshga first.",
+        "Mooshga make special surprise today. Mooshga needs claws for surprise recipe she figure out.",
+        "Mooshga need special claws from crabs. The HUGE ones. You find crabs in southeast. They live in freshwater. Near old tower there is good spot. You go find crabs and snap tasty claws off, then bring back to Mooshga.",
+        "Mooshga will make seafood surprise for you!"
       ]
     },
     {
@@ -591,6 +680,10 @@
         {
           "gamelink": "\\aITEM -1294750651 3609158:a dull wedge\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 446684787 1499328814:an insect shell\\/a",
+          "chest": false
         }
       ]
     },
@@ -673,6 +766,21 @@
         "Whatever He desires. You will give your service to the Commonlands in His name and report to Gerun Pontian here in the Commonlands at the gates to West Freeport.",
         "Serve the Overlord well, citizen. May you have all the luck you require."
       ]
+    },
+    {
+      "name": "a young armadillo",
+      "locations": [
+        "-1,043.04,-51.56,0.00",
+        "-975.08,-48.10,-71.43",
+        "-964.31,-47.59,-84.41",
+        "-963.06,-48.19,-70.42"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1293859609 -2104687560:a damaged average quality armadillo hide\\/a",
+          "chest": false
+        }
+      ]
     }
   ],
   "shinies": [
@@ -684,6 +792,9 @@
     }
   ],
   "resourceNodes": [
+    {
+      "name": "a band of fish"
+    },
     {
       "name": "the cloven ore"
     },

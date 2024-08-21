@@ -22,21 +22,6 @@
       "key": "commonlands_sewer01"
     },
     {
-      "key": "darklight_wood"
-    },
-    {
-      "key": "exp05_dun_befallen_asylum"
-    },
-    {
-      "key": "exp05_dun_befallen_cavern"
-    },
-    {
-      "key": "exp05_dun_befallen_cavern_raid"
-    },
-    {
-      "key": "exp05_dun_befallen_forsaken"
-    },
-    {
       "key": "fallengate",
       "location": "1484.00,-38.00,-405.30"
     },
@@ -71,6 +56,25 @@
     }
   ],
   "npcs": [
+    {
+      "name": "Amoora",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-195.59,-47.83,163.64"
+      ],
+      "utterances": [
+        "Every day is the same, now that he's gone.",
+        "How did you know? Do you know him? Is he here? Father will kill him if he is!",
+        "How sweet of him. There is just no talking sense into my father, Jaharin. He will hear nothing of our love. I am afraid I have been forbidden to see Ferink.",
+        "It's you! Thank you so much!  Fenrik and I are to be wed in the spring!",
+        "...sigh... Hello there... You remind me of him, somehow..."
+      ]
+    },
     {
       "name": "Anders Blackhammer",
       "level": 20,
@@ -139,13 +143,42 @@
     },
     {
       "name": "Brandus Levine",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1041.58,-144.94,-669.09"
+      ],
       "utterances": [
         "Hrmmm... You do have the look of a citizen about you.  You're not just random rabble from the streets.  I could use your help.",
         "You do realize I can find someone else.  And maybe you'll just fade into obscurity.  But, since you've at least shown some interest then perhaps I can use you.",
         "I've been waiting on a very special shipment to arrive.  It was due here three days ago and there has been no sign of the individuals who were supposed to bring it.  I've had to send the boat to the Freeport docks and every day it sits there it's costing me money.  I need you to find out what happened to my shipment or why they are so late.",
         "That little bit of information you don't need to know.  All I'm asking for is that you find my missing cargo.",
         "Fine, if I have to hold your hand through everything.  You might start with Nethet near the main gates of Freeport.  He watches most of who enter or leave the city.  If anyone knows anything about where my missing cargo went it would likely be him.",
-        "Watch your coin around his type."
+        "Watch your coin around his type.",
+        "What did Nethet tell you?  That rat had better have known something or I'm back where I started.  That will not make me a happy man.",
+        "Don't tell me your whining stories about what other people had you do.  He could have made you shovel pig dung for all I care, did you get the information or not?",
+        "The dervishes stole it!?  You can't be serious.  Argh!!  I'm tired of those lowlifes messing with my business.  I need you to do me a favor and kill a few dozen of them.",
+        "That's exactly what I wanted to hear.  Once you've thinned out the number of the dervishes for me I have a feeling they might be willing to negotiate a deal afterwards.  I want them to learn a lesson in fouling my business.  You can find one of the larger encampments on the far Western end of the Commonlands.",
+        "You'll be back when THEY'RE done, heh.",
+        "That was faster than I expected, you're quite the dangerous one aren't you?  Well done, I applaud you and your efforts in our partnership here.  Keep it up and we might get very rich together.  Tell me, how many did you get rid of before coming back?",
+        "I understand what you mean perfectly.  Here is the first of your profits, if you keep doing such excellent work there is a lot more where this came from.",
+        "Shall we continue our business venture, partner?",
+        "Good.  The dervishes are still not willing to negotiate.  I'm guessing they have either become more foolish than normal or they no longer have my shipment.",
+        "Yes, but I have another source that we might be able to use to our advantage.  Another militia guard by the name of Captain Vertas is stationed out in the Crossroads.  He has no love for the dervishes and keeps a close eye on them.",
+        "Hrm, you have?  Then what can you tell me about the dervishes that you learned from him?",
+        "Yes, see what information he has on the dervishes and what we might be able to use. ",
+        "He may have some other work for you while I try to find my sorcerer partner.",
+        "Have you spoken with captain Vertas?",
+        "The Deathfist?  You cannot be serious.  Bah!  That's probably where my shipment went, there's no way I'm getting that back by now.  The orcs also have to pay for this, they had to know that shipment was mine.  Do you mind playing enforcer again?",
+        "Good, then I need you to find out what the connection is with with dervishes and the orcs.  If you watch carefully you can sometimes see orc runners near the encampments in the Southern part of the Commonlands.  I want the information they might be carrying.  Let me know what you find.",
+        "It's good to see you again.  What did you learn from the orcs?",
+        "Hrmmm.  So they are having a meeting are they?  Let me look into this and verify it isn't a trap.  Come back when you're ready to crash their meeting.",
+        "Ah yes, your reward.  Here it is.  Remember that I have more work and more rewards when you return.",
+        "Good, good, I like to see such eagerness in a citizen of Freeport."
       ]
     },
     {
@@ -245,12 +278,35 @@
         "-1,045.27,-51.92,-25.06",
         "-1,087.48,-57.44,-47.04",
         "-1,130.73,-64.49,4.86",
-        "-1,105.77,-60.71,-27.59"
+        "-1,105.77,-60.71,-27.59",
+        "-936.58,-47.85,-94.27",
+        "-978.81,-48.01,-72.81",
+        "-993.70,-47.30,-105.90",
+        "-990.58,-47.27,-87.55",
+        "-1,035.41,-47.59,-210.01",
+        "-999.40,-47.83,-142.15",
+        "-1,009.50,-47.30,-196.47",
+        "-964.58,-45.58,-249.06",
+        "-957.14,-43.10,-246.78",
+        "-982.60,-47.35,-217.66",
+        "-996.21,-47.80,-277.35",
+        "-985.66,-47.65,-246.25",
+        "-993.55,-47.78,-233.77",
+        "-979.69,-47.57,-238.02",
+        "-984.42,-47.04,-278.88"
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -382271913 -1028482898:Borderland Bounty for Bloodskull warriors\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 1211035744 2038352317:canine incisor\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 28003531 1995777950:Carrion Chestplate\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -755419959 -1719754628:Far Seas Requisition - FG 158\\/a",
@@ -272,14 +328,65 @@
     },
     {
       "name": "a carrion hound pup",
+      "level": 10,
       "locations": [
-        "-1,035.41,-47.50,-218.22"
+        "-1,035.41,-47.50,-218.22",
+        "-999.37,-47.67,-220.94",
+        "-957.14,-43.17,-246.78",
+        "-982.87,-47.38,-219.41",
+        "-994.36,-47.87,-274.49",
+        "-996.46,-47.84,-235.43",
+        "-975.70,-47.48,-237.24",
+        "-984.69,-46.92,-280.63"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM -1034168081 -1184561711:tanned leather pelt\\/a",
           "chest": false
         }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Seafury Buccaneers",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "Ferink",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-289.33,-46.43,56.86"
+      ],
+      "utterances": [
+        "Oh whys oh whys can't we be together?  Oh whys oh whys. My true love, the loves of my life is locked away on the other sides of the river and I can't be with her. Oh whys does it has to be this ways? It's not fair, not fair at all. Something must be done!",
+        "Amoora, my love. She is the love of my life, the shining beacon of my heart, my passion, my preciouses Amoora has my heart and holds it captive. I aches so when I can't be nears her, when I can't smell her sweet smelling fur.",
+        "Oh, just because I'm a ratonga doesn't means I can't be with the loves of my life. No, it does not! This is just not right! I should go to her now! But I can't;  her parents don't like me. I don't know why... I'm a nice person, right?  Oh, my Amoora.",
+        "Go to her! Tell her I loves her! Tell her I'll give anything to be with her! Tell her...  just tell her I loves her for me.  My Amoora.",
+        "My Amoora...",
+        "Sob!... Sniffle! ...",
+        "She was?  Oh my Amoora! I am lost without her.",
+        "I must gets her back! Did you see her? Did you... did you tell her I loves her?  Did you? Answer me!  ",
+        "How was she? What did she say to you? You must tells me. You see why I loves her so... her voice, her beauty, even the day seems brighter when she's nearby. ",
+        "More beautiful than anyone! I has an idea... maybe if you talks to her father and my mother... If you talks to them they might agree to let us be together. Yes, will you do this for me?  My Amoora!",
+        "Oh good... You will need to go to the ratongas and talks to my mother. You will needs to go to the kerra and talk to her father. Yes, you tells them we love each other and wants to spend our lives together for ever and always. You go tell them, all right?",
+        "Thanks you, thanks you!",
+        "I know! It's awful! I haves to think of something.",
+        "Oh my heart aches, I needs my Amoora. Our parents are set in the old ways. It seems like there is nothing that will change their minds about us. Wait, I haves an idea!  Will you do me a favor?",
+        "You go find my friend. My friend's name is Jojo.  He'll knows what to do. He always knows what to do.",
+        "My friend Jojo Karanja rests in the Seafarer's Roost in the City of Freeport. Jojo is very smart. Yes, he knows what to do. He help Amoora and mes.  He knows!",
+        "You'll do that for me? Oh thank you; you are a good friend. I will be grateful to you always!  Her fur is so soft... ",
+        "Wonderful! I knews you could do it. Now, if somehow we can convice Jaharin.",
+        "Danger! There is much danger now. You came just in time to help me! She is in danger! You must helps me defend my Amoora.",
+        "The orcses! They're coming to hurts my Amoora. Oh, I couldn't let anything happens to my Amoora, my love, the passions of my life. No I would just die inside if anything were to happens to my Amoora. You will help me, yes?",
+        "When the orcses come, you fight them away. The orcses are coming to hurts Amoora and her family! We must not let them! We keep the orcses away!",
+        "The orcses are coming now. Quickly now, cross the river to her huts! We must stop the orcs from hurting my Amoora! I'll meets you there!",
+        "Well, I was right behind you... I was about to charge into the battle, but then I thoughts of Amoora and how upset she would be if I got hurt... Anyways, you were amazing! Thank you so much! Now I can be with my Amoora again! Here, takes this as a small token of my appreciation."
       ]
     },
     {
@@ -327,7 +434,8 @@
         "Did you get the hides?",
         "Good work. You've made us both quite a bit of coin. Thanks for the help. I'm sorry that my tasks have been so dull, it's hard to pull the important missions when you're a lowly gate patrol. I do have something a bit more exciting if you're interested.",
         "Well, a while back I got a low priority assignment to take care of the ghostly orcs north of here in the Siegelands. I've been putting it off. I hate orcs almost as much as I hate ghosts. If you take care of these ghostly orcs for me I'll pay you what I was slated to receive. What do you say?",
-        "Great, that's a relief to hear. Don't worry about the spectral defenders. Like the ghostly orcs, they imagine they are in some never-ending war. I don't think they even realize they're dead. It's sad, really. Anyway, ghostly orcs: take out ten of them, those were my orders."
+        "Great, that's a relief to hear. Don't worry about the spectral defenders. Like the ghostly orcs, they imagine they are in some never-ending war. I don't think they even realize they're dead. It's sad, really. Anyway, ghostly orcs: take out ten of them, those were my orders.",
+        "Are the orcs dead?"
       ]
     },
     {
@@ -347,11 +455,14 @@
         "-200.46,-47.33,-668.74",
         "-160.14,-47.37,-670.72",
         "-119.66,-47.31,-661.24",
-        "-103.36,-47.48,-659.90"
+        "-103.36,-47.48,-659.90",
+        "-220.11,-47.37,-618.50",
+        "-222.49,-47.37,-563.73"
       ],
       "utterances": [
         "No, no, that won't do.  Oh, whatever shall I do, it's too dangerous for me to do.  But need those reagents I do!   Why are you bothering me?  Can't you see I'm busy thinking?  No, too oblivious for that I'm sure!  You oaf!",
-        "Hmm ...  yes, yes, yes!  You CAN help me!  But what would it cost, I wonder ... I would have to divulge the components ... but I suppose I have no other choice.  Will you help me or not?"
+        "Hmm ...  yes, yes, yes!  You CAN help me!  But what would it cost, I wonder ... I would have to divulge the components ... but I suppose I have no other choice.  Will you help me or not?",
+        "Folks are so greedy these days.  I suppose I don't blame them.  In recent years, it's become every gnome for himself.  I need you to venture into the Wailing Caves and retrieve some reagents. I can't tell you why I need them, but I will reward you well if you return with the ingredients. Here, let me write in your journal what I need."
       ]
     },
     {
@@ -482,12 +593,28 @@
       ]
     },
     {
+      "name": "a massive emerald beetle",
+      "locations": [
+        "-402.18,-48.04,-75.40"
+      ]
+    },
+    {
       "name": "Master of the Hunt",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-1,082.44,-49.30,-236.30"
+      ],
       "utterances": [
         "Stay clear of that lot down there.",
         "What is it?  Did Iziran send you to check up on me?",
         "That's the first lot of good news I've heard all day.  These undead orcs have no strategy, no rhyme or reason to their actions; they just continue to relentlessly, albeit feebly, attack our city. Huh?  Say, since Iziran didn't send you, are your skills for hire?",
-        "Splendid. A ratonga stole my hunting journal, the little wretch.  Find him, kill him, and return with my journal.  Is that understood?"
+        "Splendid. A ratonga stole my hunting journal, the little wretch.  Find him, kill him, and return with my journal.  Is that understood?",
+        "If this task was too difficult, you should not have agreed to help me. I don't want to see your face until you have my journal."
       ]
     },
     {
@@ -598,7 +725,8 @@
         "I can't just gives my secrets aways for free now cans I?   Maybe if you do me a favors I helps try to find out for you hrm?  We have a deals?",
         "I has a friends whos in troubles with the Blackshield smugglers.  He went to speaks with thems but I'm not sures they wanted to chat.  I'm thinkin' he's needin' a hand from someones likes you.  If you helps him I'll be thinkin of where Brandus' cargo might be.",
         "He wents north along the coast.  He says the Blackshield have their own dock to do their business just northwest of the flying griffon tower.  Makes sure you come in from the land, they watches the docks carefully and its dangerous.  Look for anothers ratonga, his names is Nikora.",
-        "I knows."
+        "I knows.",
+        "Yous is back.  Whats did you learn of my friend?"
       ]
     },
     {
@@ -645,14 +773,12 @@
       ],
       "utterances": [
         "Please stay away from here! The dead souls of orcs callout for vengeance, and I'll not put you or the rest of my people in danger.",
-        "I'm not so certain...  but I suppose there's no harm in letting you risk your own life trying.  If you kill enough of the skeletons inside the cave, the skeletons outside may return to their resting place.  My people and I will scrape together what little we have to pay for your services."
+        "I'm not so certain...  but I suppose there's no harm in letting you risk your own life trying.  If you kill enough of the skeletons inside the cave, the skeletons outside may return to their resting place.  My people and I will scrape together what little we have to pay for your services.",
+        "I know the task will not be easy.The halls of the Wailing Caves are haunted with the angry, tormented ghosts of orcs left to a grisly death by the members of the Freeport Militia.  I imagine quite a few will need to fall before any progress can be made."
       ]
     },
     {
       "name": "a seagull",
-      "race": [
-        "unknown"
-      ],
       "gender": [
         "male"
       ],
@@ -701,7 +827,8 @@
         "-1,234.34,-82.99,93.22",
         "-1,182.63,-74.56,66.72",
         "-1,218.23,-81.16,68.08",
-        "-1,212.42,-81.13,31.21"
+        "-1,212.42,-81.13,31.21",
+        "-1,139.77,-65.90,-1.07"
       ],
       "drops": [
         {
@@ -729,6 +856,18 @@
       ]
     },
     {
+      "name": "Twienel Marcannum",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1,297.59,-87.85,31.81"
+      ]
+    },
+    {
       "name": "Ventar T'Kal",
       "purpose": "Slayer of Orcs",
       "race": [
@@ -741,7 +880,8 @@
         "-152.59,-47.89,-817.88"
       ],
       "utterances": [
-        "These nomads can be quite pleasant to deal with."
+        "These nomads can be quite pleasant to deal with.",
+        "Overlord protect us!"
       ]
     },
     {
@@ -792,10 +932,25 @@
   ],
   "shinies": [
     {
+      "gamelink": "\\aITEM -1174002430 -1661849611:commonlands shrub green leaf\\/a"
+    },
+    {
       "gamelink": "\\aITEM 381703662 1246298828:cracked gnome bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM 861846032 -1689084433:cracked halfling bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 794244308 -1718389780:scuffed shard of conjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -686869063 2018792859:shattered barbarian bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -832401687 1102518604:spotted black moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 721330325 -211567629:spotted brown moth\\/a"
     }
   ],
   "resourceNodes": [
@@ -813,6 +968,9 @@
     },
     {
       "name": "the oasis shrubbery"
+    },
+    {
+      "name": "the wind felled tree"
     },
     {
       "name": "the wind swept rock"

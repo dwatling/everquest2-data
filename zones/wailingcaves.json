@@ -24,7 +24,7 @@
   "npcs": [
     {
       "name": "Advisor Kre'lak",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic^^^",
       "locations": [
         "-62.97,-38.81,-51.85"
@@ -50,7 +50,7 @@
     },
     {
       "name": "a blackguard",
-      "level": 18,
+      "levelRange": "18",
       "difficulty": "heroic",
       "aggressive": true,
       "locations": [
@@ -81,7 +81,7 @@
     },
     {
       "name": "a bloodthirsty worg",
-      "level": 18,
+      "levelRange": "18",
       "difficulty": "heroic",
       "aggressive": true,
       "locations": [
@@ -127,7 +127,7 @@
     },
     {
       "name": "a concubine",
-      "level": 18,
+      "levelRange": "18",
       "difficulty": "heroic",
       "race": [
         "human"
@@ -152,7 +152,7 @@
     },
     {
       "name": "a debris scavenger",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic^^",
       "locations": [
         "-35.50,-14.12,-108.76",
@@ -166,7 +166,7 @@
     },
     {
       "name": "a dervish cutthroat",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic",
       "aggressive": true,
       "locations": [
@@ -190,7 +190,7 @@
     },
     {
       "name": "Druhdak Shin`Ree",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic^^^",
       "aggressive": true,
       "locations": [
@@ -199,7 +199,7 @@
     },
     {
       "name": "Garreg Stonecrusher",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic",
       "aggressive": true,
       "locations": [
@@ -218,7 +218,7 @@
     },
     {
       "name": "Ghi'Zard the Worg Master",
-      "level": 18,
+      "levelRange": "18",
       "difficulty": "heroic^^",
       "gender": [
         "male"
@@ -239,7 +239,7 @@
     },
     {
       "name": "a hoard hound",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic^^^",
       "aggressive": true,
       "locations": [
@@ -260,7 +260,7 @@
     },
     {
       "name": "Kyllik the Fated",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic^^^",
       "aggressive": true,
       "locations": [
@@ -278,7 +278,7 @@
     },
     {
       "name": "Lord Ree",
-      "level": 18,
+      "levelRange": "18",
       "difficulty": "heroic^^^",
       "locations": [
         "-280.15,-49.44,-83.10"
@@ -293,7 +293,7 @@
     },
     {
       "name": "a loyal attendant",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic",
       "aggressive": true,
       "locations": [
@@ -315,7 +315,7 @@
     },
     {
       "name": "a lurid crawler",
-      "level": 13,
+      "levelRange": "13",
       "aggressive": true,
       "locations": [
         "-36.69,-3.97,-16.05",
@@ -341,7 +341,7 @@
     },
     {
       "name": "a lurid creeper",
-      "level": 14,
+      "levelRange": "14",
       "aggressive": true,
       "locations": [
         "36.24,-14.11,-62.04",
@@ -361,7 +361,7 @@
     },
     {
       "name": "a lurid feeder",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic",
       "aggressive": true,
       "locations": [
@@ -377,7 +377,7 @@
     },
     {
       "name": "a lurid ripper",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic",
       "aggressive": true,
       "locations": [
@@ -393,7 +393,7 @@
     },
     {
       "name": "a lurid shadowlurker",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic^^^",
       "aggressive": true,
       "locations": [
@@ -413,7 +413,7 @@
     },
     {
       "name": "Mess Sergeant Slogg",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic^^^",
       "locations": [
         "-45.08,-26.34,-43.89"
@@ -427,7 +427,7 @@
     },
     {
       "name": "a primordial menace",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "9.64,-10.94,-70.80",
         "9.67,-12.11,-77.78",
@@ -446,7 +446,7 @@
     },
     {
       "name": "a primordial seep",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "-12.04,-7.37,-50.89",
         "-28.56,-5.74,-61.25",
@@ -461,7 +461,7 @@
     },
     {
       "name": "Punisher Kharg",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic^^^",
       "aggressive": true,
       "locations": [
@@ -484,7 +484,7 @@
     },
     {
       "name": "Raid Chief Kregahn",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic",
       "aggressive": true,
       "locations": [
@@ -501,7 +501,7 @@
     },
     {
       "name": "a raider of Ree",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroicvv",
       "aggressive": true,
       "locations": [
@@ -538,7 +538,7 @@
     },
     {
       "name": "a raid leader",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic",
       "aggressive": true,
       "locations": [
@@ -554,7 +554,7 @@
     },
     {
       "name": "a raid schemer",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic",
       "aggressive": true,
       "locations": [
@@ -580,7 +580,7 @@
     },
     {
       "name": "a Ree armorer",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic^^^",
       "aggressive": true,
       "locations": [
@@ -613,7 +613,7 @@
     },
     {
       "name": "a Ree channeler",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroicvv",
       "aggressive": true,
       "locations": [
@@ -639,7 +639,7 @@
     },
     {
       "name": "a Ree defender",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic^^^",
       "aggressive": true,
       "locations": [
@@ -695,7 +695,7 @@
     },
     {
       "name": "a Ree jailer",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic^^",
       "aggressive": true,
       "locations": [
@@ -736,7 +736,7 @@
     },
     {
       "name": "a Ree protector",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic",
       "aggressive": true,
       "locations": [
@@ -777,7 +777,7 @@
     },
     {
       "name": "a Ree recruit",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic^",
       "aggressive": true,
       "locations": [
@@ -815,7 +815,7 @@
     },
     {
       "name": "a Ree spiritkeeper",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic^^^",
       "aggressive": true,
       "locations": [
@@ -848,7 +848,7 @@
     },
     {
       "name": "a Ree steelworker",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroicvv",
       "aggressive": true,
       "locations": [
@@ -873,7 +873,7 @@
     },
     {
       "name": "a Ree underguard",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic^^",
       "aggressive": true,
       "locations": [
@@ -948,7 +948,7 @@
     },
     {
       "name": "a Ree weaponsmith",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroicv",
       "aggressive": true,
       "locations": [
@@ -969,7 +969,7 @@
     },
     {
       "name": "a scout of Ree",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic^",
       "aggressive": true,
       "locations": [
@@ -1008,7 +1008,7 @@
     },
     {
       "name": "a sentry of Ree",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic^^",
       "aggressive": true,
       "locations": [
@@ -1104,7 +1104,7 @@
     },
     {
       "name": "a Shin`Ree aggressor",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic^",
       "aggressive": true,
       "locations": [
@@ -1123,7 +1123,7 @@
     },
     {
       "name": "a Shin`Ree apprentice",
-      "level": 13,
+      "levelRange": "13",
       "aggressive": true,
       "locations": [
         "-24.02,-5.12,-28.57",
@@ -1143,7 +1143,7 @@
     },
     {
       "name": "a Shin`Ree augur",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroicv",
       "aggressive": true,
       "locations": [
@@ -1158,7 +1158,7 @@
     },
     {
       "name": "a Shin`Ree avenger",
-      "level": 14,
+      "levelRange": "14",
       "aggressive": true,
       "locations": [
         "-1.96,-7.77,-64.66",
@@ -1183,7 +1183,7 @@
     },
     {
       "name": "a Shin`Ree pawn",
-      "level": 13,
+      "levelRange": "13",
       "difficulty": "heroic",
       "aggressive": true,
       "locations": [
@@ -1205,7 +1205,7 @@
     },
     {
       "name": "a Shin'Ree spirit",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic^^^",
       "aggressive": true,
       "locations": [
@@ -1229,7 +1229,7 @@
     },
     {
       "name": "a Shin`Ree spiritist",
-      "level": 14,
+      "levelRange": "14",
       "aggressive": true,
       "locations": [
         "-0.73,-7.81,-60.97",
@@ -1248,7 +1248,7 @@
     },
     {
       "name": "a Shin`Ree stalker",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroicv",
       "aggressive": true,
       "locations": [
@@ -1263,7 +1263,7 @@
     },
     {
       "name": "Soulspike",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic^^",
       "locations": [
         "53.33,-12.99,-15.84"
@@ -1271,7 +1271,7 @@
     },
     {
       "name": "a spectral shriller",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-37.65,-2.91,-18.78",
         "-51.55,-0.42,-36.00",
@@ -1312,7 +1312,7 @@
     },
     {
       "name": "a storeroom laborer",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic^",
       "aggressive": true,
       "locations": [
@@ -1353,7 +1353,7 @@
     },
     {
       "name": "a strongbox deceiver",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic^^",
       "aggressive": true,
       "locations": [

@@ -19,7 +19,7 @@
   "npcs": [
     {
       "name": "an assembler",
-      "level": 32,
+      "levelRange": "32",
       "difficulty": "heroic",
       "locations": [
         "106.02,0.00,92.44",
@@ -34,7 +34,7 @@
     },
     {
       "name": "an assembly overseer",
-      "level": 32,
+      "levelRange": "32",
       "difficulty": "heroic",
       "locations": [
         "130.65,0.00,109.13"
@@ -45,7 +45,7 @@
     },
     {
       "name": "a barrel cleaner",
-      "level": 32,
+      "levelRange": "32",
       "difficulty": "heroic",
       "utterances": [
         "Your presence is unwanted!"
@@ -53,7 +53,7 @@
     },
     {
       "name": "a brute caretaker",
-      "level": 34,
+      "levelRange": "34",
       "difficulty": "heroic",
       "locations": [
         "274.12,-7.80,50.52",
@@ -66,7 +66,7 @@
     },
     {
       "name": "a brute controller",
-      "level": 34,
+      "levelRange": "34",
       "difficulty": "heroic",
       "locations": [
         "274.40,-7.88,45.38",
@@ -85,7 +85,7 @@
     },
     {
       "name": "a cask keeper",
-      "level": 31,
+      "levelRange": "31",
       "difficulty": "heroic",
       "locations": [
         "146.80,-3.97,32.81",
@@ -104,7 +104,7 @@
     },
     {
       "name": "a cellar guard",
-      "level": 31,
+      "levelRange": "31",
       "difficulty": "heroic",
       "locations": [
         "145.29,-3.98,45.46"
@@ -124,7 +124,7 @@
     },
     {
       "name": "a Ci`Re apprentice",
-      "level": 32,
+      "levelRange": "32",
       "difficulty": "heroic",
       "utterances": [
         "The work is postponed."
@@ -132,7 +132,7 @@
     },
     {
       "name": "a Ci`Re guard",
-      "level": 32,
+      "levelRange": "32",
       "difficulty": "heroic",
       "utterances": [
         "You must do its work now.",
@@ -141,7 +141,7 @@
     },
     {
       "name": "a claychanter",
-      "level": 31,
+      "levelRange": "31",
       "difficulty": "heroic",
       "locations": [
         "116.60,0.00,100.29",
@@ -154,7 +154,7 @@
     },
     {
       "name": "a clay crawler",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-234.68,-0.68,-0.18",
@@ -186,7 +186,7 @@
     },
     {
       "name": "a clay guardian",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic",
       "locations": [
         "39.63,-0.03,31.71",
@@ -275,7 +275,7 @@
     },
     {
       "name": "The Creator",
-      "level": 32,
+      "levelRange": "32",
       "difficulty": "heroic",
       "locations": [
         "118.34,0.00,103.02"
@@ -295,7 +295,7 @@
     },
     {
       "name": "a deafening shrieker",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-271.33,1.04,-25.66",
@@ -338,7 +338,7 @@
     },
     {
       "name": "a dust shriller",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-248.47,-1.45,22.65",
@@ -356,7 +356,7 @@
     },
     {
       "name": "an enchanted clay",
-      "level": 31,
+      "levelRange": "31",
       "difficulty": "heroic",
       "locations": [
         "124.27,-0.46,94.94",
@@ -371,7 +371,7 @@
     },
     {
       "name": "an enchanted tome",
-      "level": 31,
+      "levelRange": "31",
       "difficulty": "heroic",
       "locations": [
         "16.15,4.00,65.98",
@@ -396,7 +396,7 @@
     },
     {
       "name": "an enraged Ci`Re apprentice",
-      "level": 34,
+      "levelRange": "34",
       "difficulty": "heroic",
       "utterances": [
         "You must do its work now.",
@@ -405,7 +405,7 @@
     },
     {
       "name": "an enraged Ci`Re guard",
-      "level": 34,
+      "levelRange": "34",
       "difficulty": "heroic",
       "utterances": [
         "You must do its work now."
@@ -413,7 +413,7 @@
     },
     {
       "name": "an enraged Sumyd apprentice",
-      "level": 34,
+      "levelRange": "34",
       "difficulty": "heroic",
       "locations": [
         "148.79,0.11,101.05",
@@ -433,7 +433,7 @@
     },
     {
       "name": "an enraged Sumyd guard",
-      "level": 34,
+      "levelRange": "34",
       "difficulty": "heroic",
       "locations": [
         "149.10,0.86,92.14",
@@ -449,7 +449,7 @@
     },
     {
       "name": "an enraged Ymeresh apprentice",
-      "level": 34,
+      "levelRange": "34",
       "difficulty": "heroic",
       "locations": [
         "309.45,-3.89,56.52",
@@ -467,7 +467,7 @@
     },
     {
       "name": "an enraged Ymeresh guard",
-      "level": 34,
+      "levelRange": "34",
       "difficulty": "heroic",
       "locations": [
         "298.22,-3.16,65.33"
@@ -478,7 +478,7 @@
     },
     {
       "name": "Erbmys Sumyd",
-      "level": 35,
+      "levelRange": "35",
       "difficulty": "heroic",
       "locations": [
         "158.05,-1.36,70.86"
@@ -486,7 +486,7 @@
     },
     {
       "name": "Et'sipe Ymeresh",
-      "level": 35,
+      "levelRange": "35",
       "difficulty": "heroic",
       "locations": [
         "294.33,-5.38,88.07"
@@ -497,7 +497,7 @@
     },
     {
       "name": "a forge ember",
-      "level": 34,
+      "levelRange": "34",
       "difficulty": "heroic",
       "locations": [
         "265.61,-12.88,17.55"
@@ -505,7 +505,7 @@
     },
     {
       "name": "Forge Overseer Eid'un",
-      "level": 34,
+      "levelRange": "34",
       "difficulty": "heroic",
       "locations": [
         "268.03,-7.88,28.90"
@@ -516,7 +516,7 @@
     },
     {
       "name": "a forge spark",
-      "level": 34,
+      "levelRange": "34",
       "difficulty": "heroic",
       "locations": [
         "266.61,-11.95,14.55",
@@ -531,7 +531,7 @@
     },
     {
       "name": "a forge stoker",
-      "level": 34,
+      "levelRange": "34",
       "difficulty": "heroic",
       "locations": [
         "269.26,-11.88,22.66",
@@ -553,7 +553,7 @@
     },
     {
       "name": "a gleam goblin",
-      "level": 30,
+      "levelRange": "30",
       "difficulty": "heroic",
       "locations": [
         "100.79,5.66,-48.34",
@@ -567,7 +567,7 @@
     },
     {
       "name": "a glimmer goblin",
-      "level": 30,
+      "levelRange": "30",
       "difficulty": "heroic",
       "locations": [
         "98.22,3.72,-48.55",
@@ -601,7 +601,7 @@
     },
     {
       "name": "a hulking clay guardian",
-      "level": 34,
+      "levelRange": "34",
       "difficulty": "heroic",
       "locations": [
         "163.05,7.60,13.82",
@@ -619,7 +619,7 @@
     },
     {
       "name": "an incomplete guardian",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic",
       "locations": [
         "124.61,0.00,107.60",
@@ -640,7 +640,7 @@
     },
     {
       "name": "a living clay",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-253.38,-1.19,20.94",
@@ -663,7 +663,7 @@
     },
     {
       "name": "a loam blister",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic",
       "locations": [
         "-189.60,1.78,31.38",
@@ -701,7 +701,7 @@
     },
     {
       "name": "a loam cyst",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-300.26,6.90,-109.13",
@@ -710,7 +710,7 @@
     },
     {
       "name": "Mibble Toad",
-      "level": 30,
+      "levelRange": "30",
       "difficulty": "heroic",
       "locations": [
         "92.73,3.91,-80.05"
@@ -721,7 +721,7 @@
     },
     {
       "name": "a mindless brute",
-      "level": 34,
+      "levelRange": "34",
       "difficulty": "heroic",
       "locations": [
         "287.21,-7.88,14.80"
@@ -734,7 +734,7 @@
     },
     {
       "name": "a mindless cook",
-      "level": 31,
+      "levelRange": "31",
       "difficulty": "heroic",
       "locations": [
         "70.38,-0.03,110.51",
@@ -749,7 +749,7 @@
     },
     {
       "name": "a mindless spinner",
-      "level": 31,
+      "levelRange": "31",
       "difficulty": "heroic",
       "locations": [
         "28.00,0.00,98.85"
@@ -761,7 +761,7 @@
     },
     {
       "name": "a mindless tailor",
-      "level": 31,
+      "levelRange": "31",
       "difficulty": "heroic",
       "locations": [
         "27.75,0.00,93.38"
@@ -776,7 +776,7 @@
     },
     {
       "name": "a mindless weaver",
-      "level": 31,
+      "levelRange": "31",
       "difficulty": "heroic",
       "locations": [
         "31.31,0.00,99.44",
@@ -789,7 +789,7 @@
     },
     {
       "name": "a mud shriller",
-      "level": 28,
+      "levelRange": "28",
       "difficulty": "heroic",
       "locations": [
         "-116.09,5.68,56.15",
@@ -824,7 +824,7 @@
     },
     {
       "name": "Pritchett the Taster",
-      "level": 32,
+      "levelRange": "32",
       "difficulty": "heroic",
       "locations": [
         "168.83,-3.99,39.78"
@@ -832,7 +832,7 @@
     },
     {
       "name": "a regal crawler",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-221.40,-13.68,-34.86"
@@ -840,7 +840,7 @@
     },
     {
       "name": "a replacement Ci`Re apprentice",
-      "level": 33,
+      "levelRange": "33",
       "difficulty": "heroic",
       "utterances": [
         "You must do its work now.",
@@ -849,7 +849,7 @@
     },
     {
       "name": "a replacement Ci`Re guard",
-      "level": 33,
+      "levelRange": "33",
       "difficulty": "heroic",
       "utterances": [
         "You must do its work now.",
@@ -858,7 +858,7 @@
     },
     {
       "name": "a replacement Sumyd apprentice",
-      "level": 33,
+      "levelRange": "33",
       "difficulty": "heroic",
       "locations": [
         "149.10,0.86,92.14",
@@ -871,7 +871,7 @@
     },
     {
       "name": "a replacement Sumyd guard",
-      "level": 33,
+      "levelRange": "33",
       "difficulty": "heroic",
       "locations": [
         "144.44,0.86,96.33",
@@ -890,7 +890,7 @@
     },
     {
       "name": "a replacement Ymeresh apprentice",
-      "level": 33,
+      "levelRange": "33",
       "difficulty": "heroic",
       "locations": [
         "309.45,-3.89,56.52",
@@ -902,7 +902,7 @@
     },
     {
       "name": "a replacement Ymeresh guard",
-      "level": 33,
+      "levelRange": "33",
       "difficulty": "heroic",
       "locations": [
         "303.52,-3.16,66.41"
@@ -913,7 +913,7 @@
     },
     {
       "name": "a reserve protector",
-      "level": 32,
+      "levelRange": "32",
       "difficulty": "heroic",
       "locations": [
         "145.19,-3.94,30.77",
@@ -933,7 +933,7 @@
     },
     {
       "name": "a servant of Varsoon",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic",
       "locations": [
         "11.14,0.00,23.52",
@@ -972,7 +972,7 @@
     },
     {
       "name": "a spirited tome",
-      "level": 31,
+      "levelRange": "31",
       "difficulty": "heroic",
       "locations": [
         "7.23,4.00,72.00",
@@ -997,7 +997,7 @@
     },
     {
       "name": "a Sumyd apprentice",
-      "level": 32,
+      "levelRange": "32",
       "difficulty": "heroic",
       "locations": [
         "162.21,0.11,93.27",
@@ -1011,7 +1011,7 @@
     },
     {
       "name": "a Sumyd guard",
-      "level": 32,
+      "levelRange": "32",
       "difficulty": "heroic",
       "locations": [
         "155.57,0.11,100.99",
@@ -1034,7 +1034,7 @@
     },
     {
       "name": "Thimzem Ci'Re",
-      "level": 35,
+      "levelRange": "35",
       "difficulty": "heroic",
       "locations": [
         "230.11,-5.28,122.52"
@@ -1047,7 +1047,7 @@
     },
     {
       "name": "a thought engineer",
-      "level": 32,
+      "levelRange": "32",
       "difficulty": "heroic",
       "locations": [
         "102.94,0.00,87.91",
@@ -1071,7 +1071,7 @@
     },
     {
       "name": "Tome of Death",
-      "level": 32,
+      "levelRange": "32",
       "difficulty": "heroic",
       "locations": [
         "226.80,-6.76,54.03"
@@ -1079,7 +1079,7 @@
     },
     {
       "name": "Tome of Life",
-      "level": 31,
+      "levelRange": "31",
       "difficulty": "heroic",
       "locations": [
         "12.21,5.26,72.03"
@@ -1087,7 +1087,7 @@
     },
     {
       "name": "a Varsoon alchemist",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic",
       "locations": [
         "-58.35,4.24,3.90"
@@ -1098,7 +1098,7 @@
     },
     {
       "name": "a Varsoon apprentice",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic",
       "locations": [
         "-62.09,3.30,-8.60"
@@ -1111,7 +1111,7 @@
     },
     {
       "name": "a Varsoon disciple",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic",
       "locations": [
         "-54.75,3.30,-8.70"
@@ -1124,7 +1124,7 @@
     },
     {
       "name": "a Varsoon guard",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic",
       "locations": [
         "-254.35,-0.07,69.82",
@@ -1171,7 +1171,7 @@
     },
     {
       "name": "a Varsoon jailor",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic",
       "locations": [
         "-252.13,-0.07,67.25"
@@ -1179,7 +1179,7 @@
     },
     {
       "name": "The Varsoon Painbringer",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic",
       "locations": [
         "-167.96,11.50,-50.83"
@@ -1190,7 +1190,7 @@
     },
     {
       "name": "a Varsoon scourge",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic",
       "locations": [
         "-159.78,11.50,-67.06"
@@ -1201,7 +1201,7 @@
     },
     {
       "name": "a Varsoon sergeant",
-      "level": 28,
+      "levelRange": "28",
       "difficulty": "heroic",
       "locations": [
         "-151.25,6.25,34.64"
@@ -1212,7 +1212,7 @@
     },
     {
       "name": "a Varsoon steward",
-      "level": 32,
+      "levelRange": "32",
       "difficulty": "heroic",
       "locations": [
         "155.55,-4.00,49.46"
@@ -1223,7 +1223,7 @@
     },
     {
       "name": "Weavemaster Esh'rax",
-      "level": 31,
+      "levelRange": "31",
       "difficulty": "heroic",
       "locations": [
         "26.41,0.00,96.16",
@@ -1236,7 +1236,7 @@
     },
     {
       "name": "a Ymeresh apprentice",
-      "level": 32,
+      "levelRange": "32",
       "difficulty": "heroic",
       "locations": [
         "309.45,-3.89,56.52",
@@ -1251,7 +1251,7 @@
     },
     {
       "name": "a Ymeresh guard",
-      "level": 32,
+      "levelRange": "32",
       "difficulty": "heroic",
       "locations": [
         "298.22,-3.16,65.33"
@@ -1262,7 +1262,7 @@
     },
     {
       "name": "a Ymeresh pounder",
-      "level": 34,
+      "levelRange": "34",
       "difficulty": "heroic",
       "locations": [
         "290.13,-3.91,65.41",

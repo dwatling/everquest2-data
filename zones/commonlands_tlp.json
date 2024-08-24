@@ -58,7 +58,7 @@
   "npcs": [
     {
       "name": "an advanced scout of Ree",
-      "level": 15,
+      "levelRange": "15",
       "aggressive": true,
       "locations": [
         "68.88,-47.43,-755.89",
@@ -120,7 +120,7 @@
     },
     {
       "name": "Anders Blackhammer",
-      "level": 20,
+      "levelRange": "20",
       "race": [
         "human"
       ],
@@ -204,7 +204,7 @@
     },
     {
       "name": "a banded armadillo",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-1176.87,-58.47,-153.61",
         "-1020.98,-50.43,-19.82",
@@ -214,7 +214,7 @@
     },
     {
       "name": "a Blackshield assassin",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-406.32,-47.76,-817.65",
         "-475.9,-48.04,-762.51",
@@ -252,7 +252,7 @@
     },
     {
       "name": "a Blackshield brute",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-372.42,-50.36,-861.81",
         "-370.04,-50.64,-869.68",
@@ -306,7 +306,7 @@
     },
     {
       "name": "a Blackshield smuggler",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-409.98,-47.84,-847.62",
         "-375.62,-53.08,-877.80"
@@ -324,7 +324,7 @@
     },
     {
       "name": "a Blackshield thug",
-      "level": 12,
+      "levelRange": "12",
       "utterances": [
         "Summon help!  We have invaders!",
         "Prepare to face your doom, meddler.",
@@ -339,7 +339,7 @@
     },
     {
       "name": "a black wolf",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-474.24,-46.82,-702.09",
         "-486.45,-47.48,-698.58",
@@ -410,7 +410,7 @@
     },
     {
       "name": "a Bloodskull lumberjack",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "-11.23,-48.04,501.83",
         "-25.65,-48.04,513.36",
@@ -449,7 +449,7 @@
     },
     {
       "name": "a Bloodskull mason",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-317.88,-48.43,539.33",
         "-327.67,-46.84,526.30",
@@ -488,7 +488,7 @@
     },
     {
       "name": "a Bloodskull messenger",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "256.00,-48.04,76.19"
       ]
@@ -525,7 +525,7 @@
     },
     {
       "name": "a Bloodskull orc",
-      "level": 15,
+      "levelRange": "15",
       "aggressive": true,
       "locations": [
         "-255.13,-48.47,339.98",
@@ -554,7 +554,7 @@
     },
     {
       "name": "a Bloodskull priest",
-      "level": 13,
+      "levelRange": "13",
       "aggressive": true,
       "locations": [
         "-1159.20,-47.01,581.81",
@@ -627,7 +627,7 @@
     },
     {
       "name": "a Bloodskull scout",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-430.31,-48.04,392.90"
       ],
@@ -640,7 +640,7 @@
     },
     {
       "name": "a Bloodskull shaman",
-      "level": 19,
+      "levelRange": "19",
       "aggressive": true,
       "locations": [
         "-299.23,-47.36,840.00",
@@ -677,7 +677,7 @@
     },
     {
       "name": "a Bloodskull soldier",
-      "level": 17,
+      "levelRange": "17",
       "aggressive": true,
       "locations": [
         "-657.59,-47.93,457.42",
@@ -714,7 +714,7 @@
     },
     {
       "name": "a Bloodskull tamer",
-      "level": 17,
+      "levelRange": "17",
       "aggressive": true,
       "locations": [
         "47.98,-46.84,428.47",
@@ -767,7 +767,7 @@
     },
     {
       "name": "a Bloodskull tower guard",
-      "level": 15,
+      "levelRange": "15",
       "aggressive": true,
       "locations": [
         "-333.46,-48.43,546.36",
@@ -787,7 +787,7 @@
     },
     {
       "name": "a Bloodskull warrior",
-      "level": 17,
+      "levelRange": "17",
       "aggressive": true,
       "locations": [
         "-414.83,-48.04,472.00",
@@ -960,7 +960,7 @@
     },
     {
       "name": "a brittle skeleton",
-      "level": 11,
+      "levelRange": "11",
       "aggressive": true,
       "locations": [
         "-1347.97,-69.5,323.25",
@@ -995,7 +995,7 @@
     },
     {
       "name": "a bull elephant",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "1071.75,-50.71,-182.17",
         "1035.23,-57.37,-260.84",
@@ -1005,7 +1005,7 @@
     },
     {
       "name": "a bull rhinoceros",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "274.42,-48.04,-306.42",
         "339.30,-47.64,-229.04",
@@ -1027,7 +1027,7 @@
     },
     {
       "name": "a burly armadillo",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-897.59,-71.95,-500.45",
         "-958.41,-72.17,-504.85",
@@ -1140,7 +1140,7 @@
     },
     {
       "name": "Captain Gaer",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic",
       "locations": [
         "-851.38,-47.63,671.38"
@@ -1157,7 +1157,7 @@
     },
     {
       "name": "Captain Garglass",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic^^",
       "locations": [
         "-353.38,-47.62,-788.01",
@@ -1201,7 +1201,7 @@
     },
     {
       "name": "Captain Ogof",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic",
       "locations": [
         "-654.83,-47.91,457.28",
@@ -1276,7 +1276,7 @@
     },
     {
       "name": "a carrion hawk",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "692.18,-53.22,-34.24",
         "682.70,-52.87,-42.82",
@@ -1288,7 +1288,7 @@
     },
     {
       "name": "a carrion hound",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-1195.70,-66.94,-326.29",
         "-1183.13,-64.18,-333.62",
@@ -1319,7 +1319,7 @@
     },
     {
       "name": "a carrion hound pup",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-1013.39,-47.57,-263.81",
         "-995.21,-47.87,-247.87",
@@ -1329,7 +1329,7 @@
     },
     {
       "name": "Commander Du'Nar",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "153.15,-47.85,595.26",
         "216.00,-48.03,389.55"
@@ -1354,7 +1354,7 @@
     },
     {
       "name": "Commander Grik'Sna",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-484.17,-47.88,478.43",
         "-442.44,-48.04,459.88",
@@ -1376,7 +1376,7 @@
     },
     {
       "name": "Commander Ralio",
-      "level": 20,
+      "levelRange": "20",
       "race": [
         "human"
       ],
@@ -1417,7 +1417,7 @@
     },
     {
       "name": "a Dervish assassin",
-      "level": 18,
+      "levelRange": "18",
       "race": [
         "ogre"
       ],
@@ -1503,7 +1503,7 @@
     },
     {
       "name": "a Dervish cutthroat",
-      "level": 18,
+      "levelRange": "18",
       "race": [
         "half elf"
       ],
@@ -1545,7 +1545,7 @@
     },
     {
       "name": "a Dervish go-between",
-      "level": 17,
+      "levelRange": "17",
       "race": [
         "human"
       ],
@@ -1573,7 +1573,7 @@
     },
     {
       "name": "a Dervish heretic",
-      "level": 18,
+      "levelRange": "18",
       "race": [
         "dark elf"
       ],
@@ -1623,7 +1623,7 @@
     },
     {
       "name": "a Dervish outlander",
-      "level": 18,
+      "levelRange": "18",
       "race": [
         "half elf"
       ],
@@ -1662,7 +1662,7 @@
     },
     {
       "name": "a Dervish ruffian",
-      "level": 18,
+      "levelRange": "18",
       "race": [
         "ogre"
       ],
@@ -1717,7 +1717,7 @@
     },
     {
       "name": "a Dervish thaumaturge",
-      "level": 18,
+      "levelRange": "18",
       "race": [
         "gnome"
       ],
@@ -1765,7 +1765,7 @@
     },
     {
       "name": "a Dervish thug",
-      "level": 18,
+      "levelRange": "18",
       "race": [
         "human"
       ],
@@ -1811,7 +1811,7 @@
     },
     {
       "name": "a Dervish zealot",
-      "level": 18,
+      "levelRange": "18",
       "race": [
         "iksar"
       ],
@@ -1859,7 +1859,7 @@
     },
     {
       "name": "a digger wasp",
-      "level": 12,
+      "levelRange": "12",
       "aggressive": true,
       "locations": [
         "-601.84,-39.84,-369.33",
@@ -1917,7 +1917,7 @@
     },
     {
       "name": "Drammer Quickblade",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "197.68,-47.25,-258.29"
       ],
@@ -1928,7 +1928,7 @@
     },
     {
       "name": "a dregs sneak",
-      "level": 14,
+      "levelRange": "14",
       "race": [
         "ratonga"
       ],
@@ -1967,7 +1967,7 @@
     },
     {
       "name": "a dregs vagrant",
-      "level": 14,
+      "levelRange": "14",
       "race": [
         "ratonga"
       ],
@@ -1995,7 +1995,7 @@
     },
     {
       "name": "a duststinger",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-911.62,-79.90,-617.30",
         "-896.28,-78.85,-614.57",
@@ -2023,7 +2023,7 @@
     },
     {
       "name": "a dusty cadaver",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "108.15,-47.24,-218.44",
         "120.69,-48.03,-201.46",
@@ -2055,7 +2055,7 @@
     },
     {
       "name": "an earthen rumbler",
-      "level": 18,
+      "levelRange": "18",
       "aggressive": true,
       "locations": [
         "1030.35,-44.23,280.82",
@@ -2071,7 +2071,7 @@
     },
     {
       "name": "an earthen tumbler",
-      "level": 18,
+      "levelRange": "18",
       "aggressive": true,
       "locations": [
         "1108.84,-46.13,-52.43",
@@ -2124,7 +2124,7 @@
     },
     {
       "name": "an elephant",
-      "level": 14,
+      "levelRange": "14",
       "aggressive": false,
       "locations": [
         "-302.87,-47.58,-518.6",
@@ -2181,7 +2181,7 @@
     },
     {
       "name": "a fallen apostle",
-      "level": 19,
+      "levelRange": "19",
       "aggressive": true,
       "locations": [
         "376.71,-47.08,218.87",
@@ -2229,7 +2229,7 @@
     },
     {
       "name": "a fallen champion",
-      "level": 20,
+      "levelRange": "20",
       "difficulty": "heroic",
       "aggressive": true,
       "locations": [
@@ -2252,7 +2252,7 @@
     },
     {
       "name": "a fallen crusader",
-      "level": 17,
+      "levelRange": "17",
       "aggressive": true,
       "locations": [
         "650.14,-55.67,357.63",
@@ -2303,7 +2303,7 @@
     },
     {
       "name": "a fallen defender",
-      "level": 19,
+      "levelRange": "19",
       "aggressive": true,
       "locations": [
         "371.44,-46.86,231.45",
@@ -2328,7 +2328,7 @@
     },
     {
       "name": "a fallen diplomat",
-      "level": 17,
+      "levelRange": "17",
       "aggressive": true,
       "utterances": [
         "Your presence enrages me!",
@@ -2343,7 +2343,7 @@
     },
     {
       "name": "a fallen disciple",
-      "level": 19,
+      "levelRange": "19",
       "aggressive": true,
       "locations": [
         "399.17,-49.64,344.90",
@@ -2373,7 +2373,7 @@
     },
     {
       "name": "a fallen guardian",
-      "level": 20,
+      "levelRange": "20",
       "aggressive": true,
       "locations": [
         "625.84,-55.49,376.64",
@@ -2406,7 +2406,7 @@
     },
     {
       "name": "a fallen orc",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-1017.54,-62.60,-437.49",
         "-1034.43,-63.70,-438.15",
@@ -2447,7 +2447,7 @@
     },
     {
       "name": "a fallen orc lieutenant",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-1034.32,-63.51,-442.27",
         "-1119.32,-57.46,-430.75",
@@ -2468,7 +2468,7 @@
     },
     {
       "name": "a farmer",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-222.37,-45.64,-134.09",
         "-239.10,-46.43,-161.25",
@@ -2524,7 +2524,7 @@
     },
     {
       "name": "a fierce carrion hound",
-      "level": 19,
+      "levelRange": "19",
       "aggressive": true,
       "locations": [
         "635.20,-59.80,7.06",
@@ -2548,7 +2548,7 @@
     },
     {
       "name": "a freshwater crab",
-      "level": 14,
+      "levelRange": "14",
       "aggressive": false,
       "locations": [
         "-1268.77,-47.53,591.01",
@@ -2582,7 +2582,7 @@
     },
     {
       "name": "Frund the Big Grin",
-      "level": 18,
+      "levelRange": "18",
       "race": [
         "ogre"
       ],
@@ -2595,7 +2595,7 @@
     },
     {
       "name": "General Vhar'Taug",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-556.36,-31.39,418.28"
       ],
@@ -2660,7 +2660,7 @@
     },
     {
       "name": "a ghast beetle",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "vv",
       "locations": [
         "-159.13,-45.42,-863.43"
@@ -2668,7 +2668,7 @@
     },
     {
       "name": "a ghostly orc",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-1256.48,-52.84,-482.79",
         "-1258.28,-69.91,-361.38",
@@ -2703,7 +2703,7 @@
     },
     {
       "name": "a ghostly orc messenger",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-1257.71,-55.60,-461.04"
       ],
@@ -2716,7 +2716,7 @@
     },
     {
       "name": "a giant grove wisp",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-608.27,-43.81,-622.54",
         "-680.96,-46.60,-627.70",
@@ -2731,7 +2731,7 @@
     },
     {
       "name": "a giant spider",
-      "level": 12,
+      "levelRange": "12",
       "aggressive": true,
       "locations": [
         "-1219.7,-67.9,275.34",
@@ -2777,7 +2777,7 @@
     },
     {
       "name": "a giant vulrich",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "953.12,-50.38,191.66",
         "948.13,-51.71,151.05",
@@ -2844,7 +2844,7 @@
     },
     {
       "name": "a grove wisp",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "-697.66,-49.35,-665.87",
         "-633.07,-42.00,-563.04",
@@ -2861,7 +2861,7 @@
     },
     {
       "name": "a grunt of Ree",
-      "level": 15,
+      "levelRange": "15",
       "aggressive": true,
       "locations": [
         "92.95,-39.18,-852.3",
@@ -3033,7 +3033,7 @@
     },
     {
       "name": "Gustfeather",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic^^",
       "locations": [
         "254.03,-38.66,-450.56",
@@ -3118,7 +3118,7 @@
     },
     {
       "name": "a huntsman",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "533.53,-59.80,-133.99"
       ],
@@ -3233,7 +3233,7 @@
     },
     {
       "name": "Jereth Blackshield",
-      "level": 20,
+      "levelRange": "20",
       "utterances": [
         "I expected that rat Nethet to show up in order to save his friend.  It seems he sent a different sort of vermin in his place.",
         "What do you want messenger?  This had better be good or I'll let the rest of the crew here have some fun with you.",
@@ -3283,7 +3283,7 @@
     },
     {
       "name": "Jyrok the Stone",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-314.21,-47.81,823.10"
       ],
@@ -3448,7 +3448,7 @@
     },
     {
       "name": "a kerran rogue",
-      "level": 16,
+      "levelRange": "16",
       "race": [
         "kerran"
       ],
@@ -3492,7 +3492,7 @@
     },
     {
       "name": "a kerran vagrant",
-      "level": 16,
+      "levelRange": "16",
       "race": [
         "kerran"
       ],
@@ -3516,7 +3516,7 @@
     },
     {
       "name": "Kraofla",
-      "level": 30,
+      "levelRange": "30",
       "locations": [
         "426.91,-24.9,-895.16"
       ],
@@ -3543,7 +3543,7 @@
     },
     {
       "name": "Lady Anyanka Polevshi",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "462.87,-54.42,502.14"
       ],
@@ -3582,7 +3582,7 @@
     },
     {
       "name": "Lieutenant Vrah'Kna",
-      "level": 19,
+      "levelRange": "19",
       "locations": [
         "-403.03,-47.91,456.20"
       ],
@@ -3612,7 +3612,7 @@
     },
     {
       "name": "Lightbringer Wisp",
-      "level": 18,
+      "levelRange": "18",
       "difficulty": "heroic",
       "drops": [
         {
@@ -3623,7 +3623,7 @@
     },
     {
       "name": "a lost soul",
-      "level": 10,
+      "levelRange": "10",
       "aggressive": true,
       "locations": [
         "-1354.58,-69.59,337.83",
@@ -3641,7 +3641,7 @@
     },
     {
       "name": "Lucanic Knight Initiate",
-      "level": 19,
+      "levelRange": "19",
       "locations": [
         "-309.76,-47.47,-364.87"
       ],
@@ -3793,7 +3793,7 @@
     },
     {
       "name": "a massive emerald beetle",
-      "level": 10,
+      "levelRange": "10",
       "aggressive": false,
       "locations": [
         "-472.09,-48.44,-172.05",
@@ -3978,7 +3978,7 @@
     },
     {
       "name": "a mere guardian",
-      "level": 16,
+      "levelRange": "16",
       "aggressive": true,
       "locations": [
         "-0.98,-52.74,-699.35",
@@ -3997,7 +3997,7 @@
     },
     {
       "name": "a mith deer",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-738.21,-61.08,-699.35",
         "-624.40,-49.51,-677.80",
@@ -4043,7 +4043,7 @@
     },
     {
       "name": "a molting scorpion",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-739.50,-47.59,146.91",
         "-757.25,-48.24,165.97",
@@ -4073,7 +4073,7 @@
     },
     {
       "name": "a monitor behemoth",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "189.12,-47.74,-91.19",
         "173.67,-47.98,-72.43",
@@ -4119,7 +4119,7 @@
     },
     {
       "name": "a monitor lizard",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-382.34,-47.59,137.25",
         "-351.77,-48.04,126.37",
@@ -4161,7 +4161,7 @@
     },
     {
       "name": "a moon wisp",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-177.54,-47.89,-470.6",
         "-120.01,-48.04,-421.32",
@@ -4295,7 +4295,7 @@
     },
     {
       "name": "Ohrgran Foulgore",
-      "level": 16,
+      "levelRange": "16",
       "aggressive": true,
       "locations": [
         "-1218.51,-47.50,610.56"
@@ -4319,7 +4319,7 @@
     },
     {
       "name": "an orc emissary",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-324.81,-47.58,539.34"
       ],
@@ -4336,7 +4336,7 @@
     },
     {
       "name": "Orc ghost",
-      "level": 20,
+      "levelRange": "20",
       "aggressive": true,
       "utterances": [
         "The living come to try their luck.",
@@ -4349,7 +4349,7 @@
     },
     {
       "name": "an orc runner",
-      "level": 14,
+      "levelRange": "14",
       "race": [
         "orc"
       ],
@@ -4438,7 +4438,7 @@
     },
     {
       "name": "a pirate of Gunthak",
-      "level": 15,
+      "levelRange": "15",
       "drops": [
         {
           "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
@@ -4448,7 +4448,7 @@
     },
     {
       "name": "a plains hunter",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "459.60,-49.17,-99.34",
         "474.03,-51.08,-110.76",
@@ -4471,7 +4471,7 @@
     },
     {
       "name": "a putrid cadaver",
-      "level": 15,
+      "levelRange": "15",
       "aggressive": true,
       "locations": [
         "119.55,-47.98,-208.88",
@@ -4490,7 +4490,7 @@
     },
     {
       "name": "a Qeynosian protector",
-      "level": 31,
+      "levelRange": "31",
       "aggressive": true,
       "locations": [
         "421.07,-24.83,-896.14",
@@ -4508,7 +4508,7 @@
     },
     {
       "name": "a Qeynosian scout",
-      "level": 30,
+      "levelRange": "30",
       "aggressive": true,
       "locations": [
         "421.33,-33.91,-874.32",
@@ -4570,7 +4570,7 @@
     },
     {
       "name": "Rama'nai",
-      "level": 18,
+      "levelRange": "18",
       "difficulty": "heroic^^^",
       "locations": [
         "876.51,-57.48,23.22",
@@ -4579,7 +4579,7 @@
     },
     {
       "name": "Reetusk",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-336.4,-46.56,-500.43"
       ],
@@ -4592,7 +4592,7 @@
     },
     {
       "name": "a rhinoceros",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "332.05,-48.04,-574.94",
         "342.72,-48.04,-630.17",
@@ -4685,7 +4685,7 @@
     },
     {
       "name": "a rock lion",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "364.29,-46.01,-737.12",
         "261.31,-44.86,-812.84",
@@ -4722,14 +4722,14 @@
     },
     {
       "name": "a rock lion cub",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "217.29,-49.02,-705.53"
       ]
     },
     {
       "name": "a rock lioness",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "218.45,-49.15,-711.88",
         "223.19,-48.85,-702.88",
@@ -4786,7 +4786,7 @@
     },
     {
       "name": "a rotting cadaver",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "107.84,-47.20,-228.00",
         "117.21,-47.82,-216.53",
@@ -4835,7 +4835,7 @@
     },
     {
       "name": "a runner of Ree",
-      "level": 15,
+      "levelRange": "15",
       "utterances": [
         "Smash them!",
         "Full retreat!  Regroup in the caves!"
@@ -4855,7 +4855,7 @@
     },
     {
       "name": "a sandstone giant",
-      "level": 19,
+      "levelRange": "19",
       "locations": [
         "1226.82,-51.37,-364.68",
         "1213.22,-31.89,-261.79",
@@ -4895,7 +4895,7 @@
     },
     {
       "name": "a savanna deer",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "713.14,-59.46,-109.93",
         "828.15,-60.72,-83.12",
@@ -4909,7 +4909,7 @@
     },
     {
       "name": "a savanna lion",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "796.06,-46.51,-406.41",
         "780.56,-54.49,-352.71",
@@ -4924,7 +4924,7 @@
     },
     {
       "name": "a savanna lioness",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "657.08,-45.62,-412.74",
         "625.04,-44.33,-372.92",
@@ -4940,7 +4940,7 @@
     },
     {
       "name": "a scourge rat",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-85.89,-47.34,-1.81",
         "-75.29,-46.52,-18.89",
@@ -4979,7 +4979,7 @@
     },
     {
       "name": "Scout Nonius",
-      "level": 30,
+      "levelRange": "30",
       "difficulty": "heroic^^^",
       "race": [
         "dark elf"
@@ -4993,7 +4993,7 @@
     },
     {
       "name": "a scrub rat",
-      "level": 11,
+      "levelRange": "11",
       "aggressive": false,
       "locations": [
         "-1268.46,-69.64,406.21",
@@ -5042,7 +5042,7 @@
     },
     {
       "name": "a Shin`Ree avenger",
-      "level": 13,
+      "levelRange": "13",
       "race": [
         "human"
       ],
@@ -5138,7 +5138,7 @@
     },
     {
       "name": "a silt eater",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "870.34,-42.45,414.90",
         "929.00,-43.85,420.40",
@@ -5163,7 +5163,7 @@
     },
     {
       "name": "a small bluegill",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-232.01,-49.97,60.4",
         "-349.61,-51.2,-471.16",
@@ -5203,7 +5203,7 @@
     },
     {
       "name": "a small emerald beetle",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-1157.37,-68.61,-11.17",
         "-1178.50,-71.95,-22.87",
@@ -5237,7 +5237,7 @@
     },
     {
       "name": "a small pike",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-230.33,-49.8,65.47",
         "-360.88,-49.97,-479.33",
@@ -5283,7 +5283,7 @@
     },
     {
       "name": "a speckled rattler",
-      "level": 11,
+      "levelRange": "11",
       "aggressive": false,
       "locations": [
         "-1336.98,-69.56,356.84",
@@ -5318,7 +5318,7 @@
     },
     {
       "name": "a spectral defender",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "-1299.75,-74.74,-210.98",
         "-1308.69,-76.07,-211.02",
@@ -5396,7 +5396,7 @@
     },
     {
       "name": "a stone beetle",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "161.26,-46.82,349.69",
         "121.64,-47.08,360.55",
@@ -5509,7 +5509,7 @@
     },
     {
       "name": "a Thexian dragoon",
-      "level": 19,
+      "levelRange": "19",
       "locations": [
         "1357.18,-39.08,-243.17",
         "1353.07,-40.74,-252.72",
@@ -5535,7 +5535,7 @@
     },
     {
       "name": "a Thexian excavator",
-      "level": 19,
+      "levelRange": "19",
       "locations": [
         "1333.39,-40.11,-240.79",
         "1331.23,-41.60,-246.94",
@@ -5584,7 +5584,7 @@
     },
     {
       "name": "a thresh bat",
-      "level": 10,
+      "levelRange": "10",
       "aggressive": false,
       "locations": [
         "-1419.29,-51.73,311.94",
@@ -5692,7 +5692,7 @@
     },
     {
       "name": "a Tortured Maid",
-      "level": 17,
+      "levelRange": "17",
       "aggressive": true,
       "utterances": [
         "Mortal agony is nothing compared to the torment that awaits you!",
@@ -5709,7 +5709,7 @@
     },
     {
       "name": "a tortured soul",
-      "level": 19,
+      "levelRange": "19",
       "aggressive": true,
       "utterances": [
         "You will see us again in your nightmares!",
@@ -5825,7 +5825,7 @@
     },
     {
       "name": "a twistroot spectre",
-      "level": 19,
+      "levelRange": "19",
       "locations": [
         "-327.56,-47.58,797.77",
         "-299.18,-47.88,804.65",
@@ -5847,7 +5847,7 @@
     },
     {
       "name": "a twitching cadaver",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "102.27,-46.80,-235.61",
         "121.66,-47.95,-214.92",
@@ -5922,7 +5922,7 @@
     },
     {
       "name": "a virulent leper",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "394.98,-47.66,-806.56",
         "404.95,-47.93,-797.38",
@@ -5988,7 +5988,7 @@
     },
     {
       "name": "a war elephant",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "41.18,-48.04,440.58",
         "44.65,-47.46,430.81",
@@ -6043,14 +6043,14 @@
     },
     {
       "name": "Xrinchel",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "-1221.37,-68.34,313.54"
       ]
     },
     {
       "name": "a young vulrich",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-1184.53,-65.87,-293.81",
         "-1189.41,-66.44,-265.00",

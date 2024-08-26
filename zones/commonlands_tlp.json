@@ -1,7 +1,7 @@
 {
   "name": "The Commonlands",
   "category": "D'Lere",
-  "description": "This battle-scarred savanna is home to the City of Freeport, the Wailing Caves and Fallen Gate.",
+  "notes": "This battle-scarred savanna is home to the City of Freeport, the Wailing Caves and Fallen Gate.",
   "levels": "10-20",
   "maps": [
     {
@@ -155,8 +155,15 @@
     },
     {
       "name": "Arconicus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
-        "-481.85,-45.14,-304.76"
+        "-481.85,-45.14,-304.76",
+        "-507.43,-44.93,-317.31"
       ],
       "utterances": [
         "What do you want? Please don't tell me you're another one of these country bumpkins who has never seen a mage before.",
@@ -209,7 +216,35 @@
         "-1176.87,-58.47,-153.61",
         "-1020.98,-50.43,-19.82",
         "-959.40,-48.54,-64.29",
-        "-972.41,-47.46,-90.52"
+        "-972.41,-47.46,-90.52",
+        "-1,051.97,-52.63,4.70",
+        "-1,015.08,-50.21,5.29",
+        "-975.12,-48.27,-68.41",
+        "-961.67,-47.61,-85.89",
+        "-1,043.89,-51.71,-13.49",
+        "-959.85,-47.17,-70.45"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -2040308040 -345113074:advanced craftsman volume 11\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 128098823 2103956891:A Broken Harness\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1293859609 -2104687560:a damaged average quality armadillo hide\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1555036024 121619110:Far Seas Requisition - WC 077\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1911494856 -1210200216:Oaken Wand of Wrath\\/a",
+          "chest": true
+        }
       ]
     },
     {
@@ -1071,9 +1106,18 @@
         "-951.86,-46.88,-138.86",
         "-984.95,-47.30,-119.67",
         "-961.04,-47.24,-145.34",
-        "-955.44,-46.80,-161.56"
+        "-955.44,-46.80,-161.56",
+        "-830.54,-48.02,-163.20",
+        "-835.14,-48.01,-191.94",
+        "-750.88,-47.98,-217.23",
+        "-967.26,-49.16,-13.61",
+        "-987.93,-49.63,-6.74"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM 1293859609 -2104687560:a damaged average quality armadillo hide\\/a",
+          "chest": false
+        },
         {
           "gamelink": "\\aITEM 1357887229 802173436:Far Seas Requisition - FG 016\\/a",
           "chest": true
@@ -1082,6 +1126,12 @@
     },
     {
       "name": "Cannix Silverflame",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-311.42,-47.28,-361.35"
       ],
@@ -1135,7 +1185,8 @@
         "Better than you know. Please, take this, the city of Freeport thanks you.",
         "No, thank you.",
         "Good work. The Overlord will hear of you.",
-        "Orcs, Undead... I'm more worried about what the Dervish Cutthroats are up to."
+        "Orcs, Undead... I'm more worried about what the Dervish Cutthroats are up to.",
+        "There is little to limit one's potential when they know how to exploit others... except others exploiting them, of course."
       ]
     },
     {
@@ -1228,7 +1279,9 @@
       ],
       "locations": [
         "-517.22,-43.44,-284.93",
-        "-481.49,-45.01,-295.28"
+        "-481.49,-45.01,-295.28",
+        "-510.16,-43.68,-283.59",
+        "-505.11,-45.63,-330.14"
       ],
       "utterances": [
         "Hail. What have you to report?",
@@ -1308,11 +1361,34 @@
         "-1013.47,-47.67,-164.71",
         "-1033.63,-47.90,-154.31",
         "-1056.66,-49.16,-172.14",
-        "-1023.17,-47.78,-111.83"
+        "-1023.17,-47.78,-111.83",
+        "-1,145.09,-66.84,11.75",
+        "-1,151.16,-68.36,13.76",
+        "-1,136.63,-65.42,12.19",
+        "-1,000.37,-49.07,-54.70",
+        "-1,051.20,-52.50,-31.66",
+        "-933.89,-47.97,-78.60",
+        "-930.54,-47.88,-102.24",
+        "-952.43,-47.58,-117.66",
+        "-1,064.07,-54.10,-21.62",
+        "-1,045.27,-51.92,-25.06",
+        "-1,087.48,-57.44,-47.04"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 1211035744 439759271:canine incisor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -755419959 -1719754628:Far Seas Requisition - FG 158\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1409721994 528560703:Far Seas Requisition - FG 212\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1034168081 -1184561711:tanned leather pelt\\/a",
           "chest": false
         }
       ]
@@ -1324,7 +1400,14 @@
         "-1013.39,-47.57,-263.81",
         "-995.21,-47.87,-247.87",
         "-985.06,-47.66,-251.26",
-        "-1022.75,-47.50,-218.35"
+        "-1022.75,-47.50,-218.35",
+        "-1,035.41,-47.50,-218.22"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1034168081 -1184561711:tanned leather pelt\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -2547,6 +2630,21 @@
       ]
     },
     {
+      "name": "Fisherman Safiya",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-472.70,-45.73,-352.79"
+      ],
+      "utterances": [
+        "At least I can find peace and solitude in fishing."
+      ]
+    },
+    {
       "name": "a freshwater crab",
       "levelRange": "14",
       "aggressive": false,
@@ -2631,7 +2729,9 @@
       ],
       "locations": [
         "-1276.01,-88.3,50.87",
-        "-1273.05,-88.18,40.52"
+        "-1273.05,-88.18,40.52",
+        "-1,265.16,-87.93,53.38",
+        "-1,284.98,-87.86,55.94"
       ],
       "utterances": [
         "Gerun Pontian of the Militia. I watch the gates. I assure you a more dreary job does not exist in all of D'Lere.",
@@ -2655,7 +2755,8 @@
         "Are the orcs dead?",
         "Ah, most excellent. Thank you very much. Listen... they sent you to me to see if you were able to get things done. I know I've been sending you around doing menial stuff, but you seem to follow orders quite well. If you're interested in working for us, and increasing your exposure--even to the Overlord himself--I have someone I can put you in contact with. Interested?",
         "I thought you might be. He won't be sending you after any armadillos either! Go south of here, past the Turmoil Cemetery. There is an old, ruined tower where you can find Rainus Canton. He will have tasks for you, without a doubt.",
-        "May the Overlord hasten your path, <player name>."
+        "May the Overlord hasten your path, <player name>.",
+        "Good work. You've made us both quite a bit of coin. Thanks for the help. I'm sorry that my tasks have been so dull, it's hard to pull the important missions when you're a lowly gate patrol. I do have something a bit more exciting if you're interested."
       ]
     },
     {
@@ -2825,6 +2926,30 @@
       ],
       "locations": [
         "-923.41,-47.93,13.8"
+      ]
+    },
+    {
+      "name": "Gimble Cognoggin",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-225.68,-47.39,-474.83",
+        "-255.63,-46.59,-430.87",
+        "-223.73,-47.30,-541.87",
+        "-221.66,-47.34,-638.14",
+        "-217.72,-47.27,-657.69",
+        "-200.46,-47.33,-668.74",
+        "-160.14,-47.37,-670.72",
+        "-119.66,-47.31,-661.24",
+        "-103.36,-47.48,-659.90"
+      ],
+      "utterances": [
+        "No, no, that won't do.  Oh, whatever shall I do, it's too dangerous for me to do.  But need those reagents I do!   Why are you bothering me?  Can't you see I'm busy thinking?  No, too oblivious for that I'm sure!  You oaf!",
+        "Hmm ...  yes, yes, yes!  You CAN help me!  But what would it cost, I wonder ... I would have to divulge the components ... but I suppose I have no other choice.  Will you help me or not?"
       ]
     },
     {
@@ -3029,6 +3154,11 @@
       ],
       "locations": [
         "-505.91,-43.35,-257.22"
+      ],
+      "utterances": [
+        "Nah, no need to buy a completely new set.  I'll use some of this special solvent I have.  It'll fix it up good as new!",
+        "You need help fixing that pile of junk?  Well it's going to cost you!",
+        "Once we're done, you'll have the strongest armor in all of the city!  I guarantee it!"
       ]
     },
     {
@@ -3188,7 +3318,8 @@
         "I don't believe we've met. I am the Overlord's chief inquisitor. Oh, don't be nervous--that is, unless you have something to be nervous about.  ",
         "Sure you're not and everyone in Freeport is a perfect angel, downright model citizens they are.  I have ways of finding out what I want.  Whether it's fact or fiction, that's what I get paid to decide.",
         "Yes!  Indeed. What do I want?  You're a quick one. You'll serve me well, and if you don't I'll mark you as traitor to Freeport and our Overlord.  Is that understood?",
-        "I'm pleased that we've come to an understanding so quickly. My request is quite simple. I need you to recover a few items for me. That's it. Merchant Edmond is your contact; he'll tell you what you need to do. Is this clear?"
+        "I'm pleased that we've come to an understanding so quickly. My request is quite simple. I need you to recover a few items for me. That's it. Merchant Edmond is your contact; he'll tell you what you need to do. Is this clear?",
+        "I don't believe we've met. I am the Overlord's chief inquisitor. Oh, don't be nervous--that is unless you've something to be nervous about.  "
       ]
     },
     {
@@ -3959,6 +4090,12 @@
     {
       "name": "Merchant Valary",
       "purpose": "Weaponsmith",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-527.89,-44.13,-302.02"
       ],
@@ -3969,6 +4106,12 @@
     {
       "name": "Merchant William",
       "purpose": "Armorsmith",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-527.68,-44.13,-311.61"
       ],
@@ -4150,7 +4293,8 @@
         "-574.75,-48.01,-1.90",
         "-578.95,-47.92,20.80",
         "-590.39,-46.04,19.83",
-        "-571.74,-47.90,66.85"
+        "-571.74,-47.90,66.85",
+        "-650.71,-37.96,-159.49"
       ],
       "drops": [
         {
@@ -4189,7 +4333,8 @@
         "female"
       ],
       "locations": [
-        "-1272.59,-87.82,28.21"
+        "-1272.59,-87.82,28.21",
+        "-1,271.33,-87.82,28.51"
       ],
       "utterances": [
         "So, you be adventurer sent by Militia to help Mooshga? You look like you hungry! Mooshga feed you good!",
@@ -4218,7 +4363,21 @@
         "Mooshga need three-toed rhino feets. You go get three-toed rhino feets for Mooshga, then will make best muffins for you!",
         "Yes. Rhino muffins very crunchy. Go collect for Mooshga.",
         "Just what Mooshga need. This good for big batch.",
-        "You come to help Mooshga again?"
+        "You come to help Mooshga again?",
+        "Mooshga meet new friend! You look hungry. Mooshga hungry. You hungry?",
+        "You don't look hungry enough. You go away! NO FOOD FOR YOU!"
+      ]
+    },
+    {
+      "name": "Nerl Vannis",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-1,296.71,-87.84,31.47"
       ]
     },
     {
@@ -4230,7 +4389,8 @@
         "male"
       ],
       "locations": [
-        "-1272.75,-87.82,61.64"
+        "-1272.75,-87.82,61.64",
+        "-1,272.63,-87.82,61.70"
       ],
       "utterances": [
         "Yous comes to Nethet to speaks of things yes?  What's it that you wants to knows?",
@@ -4416,6 +4576,12 @@
     },
     {
       "name": "a parched nomad",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-153.43,-47.87,-819.12",
         "-137.56,-48,-810.25"
@@ -4487,6 +4653,26 @@
       ],
       "drop_coin_min": 41,
       "drop_coin_max": 41
+    },
+    {
+      "name": "Pythus",
+      "notes": "Spawns only at night and triggered by walking by the sign post to the east of the crossroads towards the two crumbling towers.",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-753.95,-47.48,-129.03",
+        "-751.30,-47.45,-149.21",
+        "-735.10,-47.47,-183.65",
+        "-653.97,-48.21,-218.99",
+        "-754.25,-47.74,-115.49",
+        "-644.46,-48.11,-228.46",
+        "-619.26,-47.67,-240.20",
+        "-589.64,-44.55,-250.91"
+      ]
     },
     {
       "name": "a Qeynosian protector",
@@ -4755,6 +4941,12 @@
     },
     {
       "name": "Ronam Olansk",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-157.2,-47.8,-828.57"
       ],
@@ -5218,7 +5410,11 @@
         "-1163.36,-71.14,61.46",
         "-1128.65,-61.82,108.67",
         "-1157.53,-67.30,113.21",
-        "-1166.89,-69.58,109.10"
+        "-1166.89,-69.58,109.10",
+        "-1,260.77,-87.81,33.00",
+        "-1,205.03,-77.79,84.27",
+        "-1,193.04,-77.29,20.26",
+        "-1,221.38,-82.11,56.88"
       ],
       "drops": [
         {
@@ -5313,7 +5509,8 @@
         "-1174.29,-69.94,121.50",
         "-1102.86,-59.04,83.42",
         "-1108.66,-55.59,162.42",
-        "-931.15,-48.04,45.21"
+        "-931.15,-48.04,45.21",
+        "-1,234.34,-82.99,93.22"
       ]
     },
     {
@@ -5479,7 +5676,9 @@
         "Where's your requisition? Only those who filled requisitions should speak to me.",
         "Lets me see ... Yes, yes! Here we are. This order is overdue, and the Far Seas Trading Company never pays full price for late orders. Consider yourself lucky that you get paid at all.  Thank you, come again.",
         "Why are you wasting my time? The Far Seas Trading Company pays huntsmen to track down various items and beasts. Sometimes the huntsmen inadvertently feed the beasts and never return. Too bad ... for them.",
-        "No! No, no, no! We have plenty of huntsmen!  No more huntsmen! And that means you!  Okay?  Got it?  ... That is, unless of course, you happen to find an unfilled order. Get it?"
+        "No! No, no, no! We have plenty of huntsmen!  No more huntsmen! And that means you!  Okay?  Got it?  ... That is, unless of course, you happen to find an unfilled order. Get it?",
+        "Bring your FSR's  to me.  You don't have them, then I don't want to talk to you.",
+        "No! No, no, no! We have plenty of huntsmen!  No more huntsmen! And that means you!  Okay?  Got it?  ... That is, unless of course, you happens to find an unfilled order. Get it?"
       ]
     },
     {
@@ -5882,6 +6081,12 @@
     },
     {
       "name": "Ventar T'Kal",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-153.43,-47.87,-819.12"
       ],
@@ -6007,6 +6212,14 @@
       ]
     },
     {
+      "name": "Watcher Daenso",
+      "utterances": [
+        "Your service is required, citizen.",
+        "Whatever He desires. You will give your service to the Commonlands in His name and report to Gerun Pontian here in the Commonlands at the gates to West Freeport.",
+        "Serve the Overlord well, citizen. May you have all the luck you require."
+      ]
+    },
+    {
       "name": "Watcher Ommo",
       "purpose": "Freeport Militia",
       "race": [
@@ -6046,6 +6259,21 @@
       "levelRange": "13",
       "locations": [
         "-1221.37,-68.34,313.54"
+      ]
+    },
+    {
+      "name": "a young armadillo",
+      "locations": [
+        "-1,043.04,-51.56,0.00",
+        "-975.08,-48.10,-71.43",
+        "-964.31,-47.59,-84.41",
+        "-963.06,-48.19,-70.42"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1293859609 -2104687560:a damaged average quality armadillo hide\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -6124,6 +6352,9 @@
     }
   ],
   "shinies": [
+    {
+      "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a"
+    },
     {
       "gamelink": "\\aITEM -1174002430 -1661849611:commonlands shrub green leaf\\/a"
     },

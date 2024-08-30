@@ -4010,7 +4010,8 @@
         "So, you're the one he sent, huh?  I take it you want your assignment.",
         "No, no you don't.  And don't go getting any funny ideas.  A bit of free advice, stranger: Don't cross Irizan.  That is one man you don't want on your bad side.  Got it?",
         "All right. Find the dark elf at the other side of this here crossroads.  You can't miss her; just listen for the whiny little wretch.  You're going to lend her a hand.  Do what ever you can to help.  Your future is at stake.  Don't screw this up.  And whatever you find while aiding her, you return to me.  Understand?",
-        "Listen, pallie: either you do what I say or Iziran will send someone else to do this.  And if someone else has to do it, that's because you're dead.  Got it!?"
+        "Listen, pallie: either you do what I say or Iziran will send someone else to do this.  And if someone else has to do it, that's because you're dead.  Got it!?",
+        "Listen pallie, either you do what I say or Iziran will send someone else to do this, and if someone else has to do it, that's because you're dead.  Got it!?"
       ],
       "store": [
         {
@@ -4656,7 +4657,7 @@
     },
     {
       "name": "Pythus",
-      "notes": "Spawns only at night and triggered by walking by the sign post to the east of the crossroads towards the two crumbling towers.",
+      "notes": "Spawn is triggered by walking by the sign post to the east of the crossroads towards the two crumbling towers. Can only spawn once per Norrathian day.",
       "race": [
         "human"
       ],
@@ -4671,7 +4672,9 @@
         "-754.25,-47.74,-115.49",
         "-644.46,-48.11,-228.46",
         "-619.26,-47.67,-240.20",
-        "-589.64,-44.55,-250.91"
+        "-589.64,-44.55,-250.91",
+        "-747.56,-47.45,-158.64",
+        "-701.35,-47.89,-167.80"
       ]
     },
     {
@@ -5212,6 +5215,9 @@
     },
     {
       "name": "a seagull",
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-478.39,-44.4,-330.03"
       ]

@@ -28,7 +28,8 @@
       "utterances": [
         "In spite of the cost of living, it's still quite a popular item.",
         "Are you going to buy anything today, or am I just wasting my time?  This isn't a museum display you know!",
-        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "Hello! Can I offer you one of our new lifetime extended warranties for any merchandise you purchase?  "
       ],
       "store_template": "weaponsmith"
     },
@@ -39,9 +40,26 @@
       ]
     },
     {
+      "name": "a Brokentusk crusher",
+      "locations": [
+        "-122.43,2.16,115.27",
+        "-42.33,-2.38,78.27"
+      ],
+      "utterances": [
+        "Everyone, over here. Kill them and take their boots!",
+        "How did I do that?"
+      ]
+    },
+    {
       "name": "a Brokentusk defender",
       "locations": [
         "-132.96,2.41,156.00"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
       ]
     },
     {
@@ -54,7 +72,16 @@
         "-89.27,-2.73,34.83",
         "-96.99,-2.70,53.36",
         "-79.31,-2.75,34.99",
-        "-86.88,-2.84,47.67"
+        "-86.88,-2.84,47.67",
+        "-128.54,-1.06,82.93",
+        "-73.32,-2.85,34.89",
+        "-99.07,-2.55,63.55"
+      ],
+      "utterances": [
+        "Help! Intruders are here to kill us all.",
+        "Quick, get them off me!",
+        "Uh ohhhhhhhhh!",
+        "Perfect! This one has some nice things."
       ],
       "drop_coin_min": 12,
       "drop_coin_max": 12,
@@ -99,7 +126,27 @@
         "-119.96,-2.54,87.08",
         "-149.98,2.26,140.99",
         "-162.27,2.51,160.57",
-        "-140.79,2.13,122.63"
+        "-140.79,2.13,122.63",
+        "-121.42,2.28,123.14",
+        "-152.87,2.13,132.55",
+        "-153.32,2.50,157.56",
+        "-121.84,-0.44,103.10",
+        "-108.87,-2.67,83.85",
+        "-140.53,2.25,127.86",
+        "-150.91,2.48,167.03",
+        "-142.56,2.26,145.29",
+        "-150.82,2.26,148.76",
+        "-152.70,2.13,125.13",
+        "-155.86,2.26,146.69"
+      ],
+      "utterances": [
+        "Uh ohhhhhhhhh!",
+        "Everyone, over here. Kill them and take their boots!",
+        "Quick, get them off me!",
+        "Perfect! This one has some nice things.",
+        "Run!  They'll kill us all.",
+        "Help! Intruders are here to kill us all.",
+        "Help!  I can't feel my arm."
       ],
       "drops": [
         {
@@ -107,11 +154,35 @@
           "chest": true
         },
         {
+          "gamelink": "\\aITEM -1255926754 2024575747:Advanced Scholar Volume 10\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 1232349070 1161282377:badge of honor\\/a",
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 114184284:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 700495345 -1676341369:cracked malachite\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1394122634 -257532895:Fiery Carnelian\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -475535917 285733194:lustrous mineral cluster\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -544012120 -2034060801:an orc ear\\/a",
           "chest": false
         },
         {
@@ -127,12 +198,24 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 254183980 -1846212575:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 687543723 751914930:Shadowfire (Adept I)\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1261960677:small decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 475563480 389464353:sundered obsidian\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 3,
-      "drop_coin_max": 18,
+      "drop_coin_max": 130,
       "faction_changes": [
         {
           "name": "The Bloodskull Orcs",
@@ -145,12 +228,23 @@
       "locations": [
         "-66.80,-1.13,53.26",
         "-72.96,-0.99,62.50"
+      ],
+      "utterances": [
+        "Help! Intruders are here to kill us all.",
+        "Perfect! This one has some nice things."
       ]
     },
     {
       "name": "a Brokentusk warrior",
       "locations": [
-        "-67.00,-1.10,52.00"
+        "-67.00,-1.10,52.00",
+        "-40.01,-2.37,70.48",
+        "-34.65,-2.24,82.53",
+        "-40.58,-2.37,78.46"
+      ],
+      "utterances": [
+        "Perfect! This one has some nice things.",
+        "Run!  They'll kill us all."
       ]
     },
     {
@@ -182,7 +276,20 @@
         "Take this letter to Mooshga, an ogre who works at the Crossroads in the Commonlands. Are you familiar with the area?",
         "Remember that the Commonlands can be a dangerous place. Judge your battles carefully, <player name>. When you gather allies and are ready to undertake the fight against the Lonetusk orcs, return here.",
         "Hail, citizen of Freeport. I am told that you are currently in the service of Enforcer Kurdek, the Dreadnaught who dwells in the Sprawl.",
-        "Kurdek informed me how you helped him keep the rival gangs of the Sprawl in check. The help of true heroes of Freeport like you is needed if we are to defend our city against this attack."
+        "Kurdek informed me how you helped him keep the rival gangs of the Sprawl in check. The help of true heroes of Freeport like you is needed if we are to defend our city against this attack.",
+        "More recruits are needed to man the barricades!"
+      ]
+    },
+    {
+      "name": "a captured Lonetusk",
+      "race": [
+        "orc"
+      ],
+      "locations": [
+        "14.88,-3.27,74.52"
+      ],
+      "utterances": [
+        "Let me go! Please!"
       ]
     },
     {
@@ -192,7 +299,24 @@
         "-80.74,-2.91,38.00",
         "-113.55,2.13,126.74",
         "-106.93,1.97,126.91",
-        "-115.03,2.13,121.53"
+        "-115.03,2.13,121.53",
+        "-101.60,-2.52,38.95"
+      ]
+    },
+    {
+      "name": "an exiled orc",
+      "locations": [
+        "-25.65,-3.40,76.15",
+        "-33.66,-2.21,86.37",
+        "-42.72,-1.38,85.99",
+        "-53.08,-1.14,67.23",
+        "-44.68,-2.19,80.57"
+      ],
+      "utterances": [
+        "I cannot hold them much longer.",
+        "You should have left when you had a chance.",
+        "Sound the alarm. Destroy all trespassers!",
+        "Time to meet your end, intruder."
       ]
     },
     {
@@ -227,7 +351,8 @@
         "Even though the squatters are not citizens, the Overlord will not tolerate unsanctioned violence within his borders. I need you to head north and teach the Brokentusk a lesson. Take special care to rid the area of any overseers you notice holding prisoners.",
         "I knew I could count on you. Return to me when the orcs have paid for their crimes.",
         "All citizens should take up arms against these orc beasts!",
-        "We will make our stand against the Brokentusk and erase them from our city."
+        "We will make our stand against the Brokentusk and erase them from our city.",
+        "We make our stand against the Brokentusk here and now!"
       ]
     },
     {
@@ -235,7 +360,16 @@
       "locations": [
         "-92.33,-2.69,27.25",
         "-80.77,-2.76,36.63",
-        "-89.00,-2.74,36.00"
+        "-89.00,-2.74,36.00",
+        "-107.62,-2.47,76.74",
+        "-115.31,-2.51,69.14",
+        "-97.44,-2.54,55.48",
+        "-36.58,-2.19,74.74"
+      ],
+      "utterances": [
+        "You should have left when you had a chance.",
+        "Hold that one down and remove its hands!",
+        "There are too many!  We must regroup."
       ]
     },
     {
@@ -265,13 +399,22 @@
       "name": "a Lonetusk sentry",
       "locations": [
         "-79.05,-2.86,36.41",
-        "-93.46,-2.51,54.32"
+        "-93.46,-2.51,54.32",
+        "-109.23,-2.41,74.96",
+        "-35.75,-3.63,95.58"
+      ],
+      "utterances": [
+        "Sound the alarm. Destroy all trespassers!"
       ]
     },
     {
       "name": "a Lonetusk warrior",
       "locations": [
-        "-105.51,-2.44,75.87"
+        "-105.51,-2.44,75.87",
+        "-21.52,-4.46,121.21"
+      ],
+      "utterances": [
+        "Don't worry, were still winning!"
       ]
     },
     {
@@ -316,6 +459,19 @@
       "store_template": "general_goods"
     },
     {
+      "name": "Merchant Talia",
+      "utterances": [
+        "What do you want to purchase? Don't be shy.  My fine wares are worth spending your coin.",
+        "Barel, dead?! Really?! It took too long for that no-good son of a... Well, he deserved to die, you know! I hope it was painful! Now, let me unload some of your coin... I know you need something..."
+      ]
+    },
+    {
+      "name": "a nomad seer",
+      "locations": [
+        "-140.32,-1.96,156.28"
+      ]
+    },
+    {
       "name": "a puny squalid vermin",
       "levelRange": "5",
       "locations": [
@@ -329,6 +485,26 @@
           "gamelink": "\\aITEM -1659113820 446323017:rawhide leather pelt\\/a",
           "chest": false
         }
+      ]
+    },
+    {
+      "name": "Ringleader Radko",
+      "level": 10,
+      "difficulty": "heroic^3",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-129.33,2.26,157.68"
+      ]
+    },
+    {
+      "name": "a seasoned defender",
+      "locations": [
+        "-41.67,-2.36,78.70"
       ]
     },
     {
@@ -358,7 +534,18 @@
         "-117.42,2.13,139.98",
         "-127.00,-1.92,98.00",
         "-76.00,-2.96,36.00",
-        "-83.73,-3.22,43.31"
+        "-83.73,-3.22,43.31",
+        "-163.25,2.13,121.93"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1484816573 2144473772:Blazing Strikes (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1818901842 -1476400509:a damaged low quality snake skin\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -374,11 +561,21 @@
     },
     {
       "name": "Visage of the Overlord",
+      "race": [
+        "human"
+      ],
+      "locations": [
+        "-7.25,-4.24,84.74"
+      ],
       "utterances": [
         "Remember: you are citizens of Freeport. My fire is in your blood, and my will guides your blade. You have the strength of D'Lere, and nothing can stand against you. ",
         "My will shall reshape this world. ",
         "Look now to the past, to the humble beginnings of our nation. From trading village to walled metropolis, Freeport rose to become one of the greatest cities of the past age. However, all things come to an end.",
-        "But should you ever betray Freeport, or dare to rise against Lucan, you shall see why even the gods of old feared my wrath. Go, citizens of Freeport, and prepare for the work that lies ahead. The Age of Destiny has begun. "
+        "But should you ever betray Freeport, or dare to rise against Lucan, you shall see why even the gods of old feared my wrath. Go, citizens of Freeport, and prepare for the work that lies ahead. The Age of Destiny has begun. ",
+        "The sons of Zek are a scourge upon Norrath. During the Age of Cataclysms, I destroyed entire armies of these beasts with my blade alone. But today my duties lie here within the city. And so it is time for you to follow my lead, to bloody your blade in the name of Freeport and D'Lere.",
+        "Go forth and slaughter these twisted half men wherever you find them, from the Commonlands to the ocean waves and the lands that lie beyond. Show no mercy, for strength and steel are the only things these beasts understand. But a word of warning: do not underestimate the skills of these creatures.",
+        "In story and legend, the sons of Zek are said to be stupid and disorganized. No more. The ancient curse that clouded their minds has been lifted, and today, the sons of Zek are as disciplined as any soldier of Qeynos. But now they face the warriors of Freeport: show them what this means. ",
+        "I am more than a man. I am a force of destiny, far greater than any god. I am the Overlord of this age, and I shall reshape Norrath in my image. There is much to be done. The lost lands must be found and claimed in my name. We must seize the powers of the past. And we must show the fools who cling to the banner of Qeynos the error of their ways."
       ]
     }
   ],
@@ -414,10 +611,22 @@
       "gamelink": "\\aITEM 1981956052 -733463829:scuffed shard of alteration\\/a"
     },
     {
+      "gamelink": "\\aITEM 1838761957 -806141222:scuffed shard of channeling\\/a"
+    },
+    {
       "gamelink": "\\aITEM -686869063 2018792859:shattered barbarian bone fragment\\/a"
     },
     {
+      "gamelink": "\\aITEM -672434816 285511061:shattered dark elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1389794325 228147189:shattered dwarf bone fragment\\/a"
+    },
+    {
       "gamelink": "\\aITEM 1039265482 989022440:shattered half elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1526825307 2113563307:shattered human bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM 736208268 -898305246:shattered iksar bone fragment\\/a"

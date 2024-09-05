@@ -36,7 +36,9 @@
     {
       "name": "a blood viper",
       "locations": [
-        "-112.55,2.13,127.36"
+        "-112.55,2.13,127.36",
+        "-87.59,-2.74,15.54",
+        "-0.10,-4.42,115.55"
       ]
     },
     {
@@ -75,13 +77,20 @@
         "-86.88,-2.84,47.67",
         "-128.54,-1.06,82.93",
         "-73.32,-2.85,34.89",
-        "-99.07,-2.55,63.55"
+        "-99.07,-2.55,63.55",
+        "-83.03,-2.66,17.27",
+        "-18.00,-4.43,138.00",
+        "-10.99,-4.42,117.92"
       ],
       "utterances": [
         "Help! Intruders are here to kill us all.",
         "Quick, get them off me!",
         "Uh ohhhhhhhhh!",
-        "Perfect! This one has some nice things."
+        "Perfect! This one has some nice things.",
+        "Everyone, over here. Kill them and take their boots!",
+        "Help!  I can't feel my arm.",
+        "Time to meet your end, intruder.",
+        "Sound the alarm. Destroy all trespassers!"
       ],
       "drop_coin_min": 12,
       "drop_coin_max": 12,
@@ -137,7 +146,8 @@
         "-142.56,2.26,145.29",
         "-150.82,2.26,148.76",
         "-152.70,2.13,125.13",
-        "-155.86,2.26,146.69"
+        "-155.86,2.26,146.69",
+        "-80.90,-2.68,12.72"
       ],
       "utterances": [
         "Uh ohhhhhhhhh!",
@@ -235,16 +245,36 @@
       ]
     },
     {
+      "name": "a Brokentusk sentry",
+      "levelRange": "14",
+      "locations": [
+        "-92.11,-2.57,52.72"
+      ]
+    },
+    {
+      "name": "a Brokentusk shaman",
+      "locations": [
+        "-82.86,-2.67,11.21"
+      ]
+    },
+    {
       "name": "a Brokentusk warrior",
+      "levelRange": "13-14",
       "locations": [
         "-67.00,-1.10,52.00",
         "-40.01,-2.37,70.48",
         "-34.65,-2.24,82.53",
-        "-40.58,-2.37,78.46"
+        "-40.58,-2.37,78.46",
+        "-35.00,-2.32,76.00",
+        "-26.22,-3.35,80.61",
+        "-46.34,-2.35,78.53"
       ],
       "utterances": [
         "Perfect! This one has some nice things.",
-        "Run!  They'll kill us all."
+        "Run!  They'll kill us all.",
+        "Quick, get them off me!",
+        "Uh ohhhhhhhhh!",
+        "Everyone, over here. Kill them and take their boots!"
       ]
     },
     {
@@ -294,29 +324,64 @@
     },
     {
       "name": "a courageous defender",
+      "purpose": "Freeport Militia",
+      "levelRange": "14-15",
       "locations": [
         "-89.98,-2.71,31.26",
         "-80.74,-2.91,38.00",
         "-113.55,2.13,126.74",
         "-106.93,1.97,126.91",
         "-115.03,2.13,121.53",
-        "-101.60,-2.52,38.95"
+        "-101.60,-2.52,38.95",
+        "-25.46,-3.52,82.78"
+      ],
+      "utterances": [
+        "I have orders to fight, not to chit-chat.",
+        "These filthy beasts are an affront to the Overlord!"
+      ]
+    },
+    {
+      "name": "an ebon viper",
+      "levelRange": "8",
+      "locations": [
+        "-17.99,-5.14,26.57"
       ]
     },
     {
       "name": "an exiled orc",
+      "levelRange": "5",
       "locations": [
         "-25.65,-3.40,76.15",
         "-33.66,-2.21,86.37",
         "-42.72,-1.38,85.99",
         "-53.08,-1.14,67.23",
-        "-44.68,-2.19,80.57"
+        "-44.68,-2.19,80.57",
+        "-32.21,-2.37,75.91",
+        "-37.99,-2.26,74.10"
       ],
       "utterances": [
         "I cannot hold them much longer.",
         "You should have left when you had a chance.",
         "Sound the alarm. Destroy all trespassers!",
-        "Time to meet your end, intruder."
+        "Time to meet your end, intruder.",
+        "Fall back and get us a shaman!",
+        "I will hold them.  Fall back and get us help!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 475563480 389464353:sundered obsidian\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 28,
+      "drop_coin_max": 28
+    },
+    {
+      "name": "Koduhl Brokentusk",
+      "levelRange": "14",
+      "difficulty": "heroic^3",
+      "locations": [
+        "-11.76,-4.24,113.96"
       ]
     },
     {
@@ -356,6 +421,33 @@
       ]
     },
     {
+      "name": "Lieutenant Imperidus",
+      "purpose": "Freeport Militia",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-23.59,-4.42,105.33"
+      ],
+      "utterances": [
+        "You've entered dangerous territory, traveler. Unless you have been ordered to report for duty, I recommend you go back from whence you came.",
+        "We must take action against these cursed Lonetusks!",
+        "Now is the time to take back Shoreside from the Lonetusks!"
+      ]
+    },
+    {
+      "name": "a Lonetusk crusher",
+      "locations": [
+        "-97.46,-2.70,34.35"
+      ],
+      "utterances": [
+        "I cannot hold them much longer."
+      ]
+    },
+    {
       "name": "a Lonetusk guard",
       "locations": [
         "-92.33,-2.69,27.25",
@@ -364,7 +456,8 @@
         "-107.62,-2.47,76.74",
         "-115.31,-2.51,69.14",
         "-97.44,-2.54,55.48",
-        "-36.58,-2.19,74.74"
+        "-36.58,-2.19,74.74",
+        "-87.24,-2.66,18.62"
       ],
       "utterances": [
         "You should have left when you had a chance.",
@@ -380,6 +473,9 @@
         "-85.00,-2.76,37.95",
         "-73.56,-2.83,34.30"
       ],
+      "utterances": [
+        "You should have left when you had a chance."
+      ],
       "drops": [
         {
           "gamelink": "\\aITEM 1344527781 937834785:Orc Smuggler Requisition\\/a",
@@ -392,29 +488,53 @@
     {
       "name": "a Lonetusk prophet",
       "locations": [
-        "-117.63,-2.51,45.92"
+        "-117.63,-2.51,45.92",
+        "-97.16,-2.73,35.16"
       ]
     },
     {
       "name": "a Lonetusk sentry",
+      "levelRange": "14",
+      "race": [
+        "orc"
+      ],
       "locations": [
         "-79.05,-2.86,36.41",
         "-93.46,-2.51,54.32",
         "-109.23,-2.41,74.96",
-        "-35.75,-3.63,95.58"
+        "-35.75,-3.63,95.58",
+        "-43.16,-3.35,95.00",
+        "-32.04,-4.31,123.24",
+        "-19.61,-4.42,110.38",
+        "-30.04,-3.98,99.27",
+        "-19.95,-4.39,137.10"
       ],
       "utterances": [
-        "Sound the alarm. Destroy all trespassers!"
+        "Sound the alarm. Destroy all trespassers!",
+        "This must be my lucky day.",
+        "Those are nice boots!",
+        "Run for your life!"
       ]
     },
     {
       "name": "a Lonetusk warrior",
+      "levelRange": "14",
       "locations": [
         "-105.51,-2.44,75.87",
-        "-21.52,-4.46,121.21"
+        "-21.52,-4.46,121.21",
+        "-88.18,-2.75,37.04",
+        "-97.67,-2.72,35.32",
+        "-13.66,-4.36,118.13",
+        "-25.32,-3.50,89.09",
+        "-16.98,-4.23,136.30"
       ],
       "utterances": [
-        "Don't worry, were still winning!"
+        "Don't worry, were still winning!",
+        "I cannot hold them much longer.",
+        "This must be my lucky day.",
+        "Those are nice boots!",
+        "I can't see!  Where are they?",
+        "Run for your life!"
       ]
     },
     {
@@ -460,15 +580,41 @@
     },
     {
       "name": "Merchant Talia",
+      "purpose": "Armorsmith",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-20.86,-4.42,114.68"
+      ],
       "utterances": [
         "What do you want to purchase? Don't be shy.  My fine wares are worth spending your coin.",
         "Barel, dead?! Really?! It took too long for that no-good son of a... Well, he deserved to die, you know! I hope it was painful! Now, let me unload some of your coin... I know you need something..."
-      ]
+      ],
+      "store_template": "armorsmith"
     },
     {
       "name": "a nomad seer",
       "locations": [
         "-140.32,-1.96,156.28"
+      ]
+    },
+    {
+      "name": "a prisoner guard",
+      "purpose": "Freeport Militia",
+      "race": [
+        "half elf",
+        "erudite"
+      ],
+      "gender": [
+        "male",
+        "female"
+      ],
+      "locations": [
+        "14.22,-3.27,78.73"
       ]
     },
     {
@@ -478,7 +624,15 @@
         "-109.44,-2.39,68.92",
         "-107.20,-2.48,76.44",
         "-99.13,-2.65,75.36",
-        "-102.95,-2.39,68.54"
+        "-102.95,-2.39,68.54",
+        "-18.05,-5.23,35.40",
+        "-14.51,-5.19,26.09",
+        "-1.15,-4.33,34.45",
+        "3.67,-3.36,45.46",
+        "-8.19,-4.98,32.37",
+        "-4.33,-4.56,44.46",
+        "11.50,-3.07,38.16",
+        "4.03,-3.64,32.79"
       ],
       "drops": [
         {
@@ -503,8 +657,32 @@
     },
     {
       "name": "a seasoned defender",
+      "purpose": "Freeport Militia",
+      "levelRange": "15",
+      "race": [
+        "dark elf",
+        "ogre",
+        "erudite"
+      ],
+      "gender": [
+        "male",
+        "female"
+      ],
       "locations": [
-        "-41.67,-2.36,78.70"
+        "-41.67,-2.36,78.70",
+        "-17.38,-4.42,117.72",
+        "-1.49,-4.42,115.61",
+        "-19.76,-4.42,110.57",
+        "0.50,-4.42,98.37",
+        "9.52,-4.28,106.51",
+        "17.73,-3.03,62.73",
+        "7.66,-3.27,66.31",
+        "-11.59,-4.24,62.97",
+        "-20.86,-4.42,137.78",
+        "-37.49,-3.55,94.32"
+      ],
+      "utterances": [
+        "I have orders to fight, not to chit-chat."
       ]
     },
     {
@@ -516,7 +694,16 @@
         "-100.54,-2.67,79.85",
         "-98.37,-2.48,61.88",
         "-122.35,-2.42,96.56",
-        "-120.27,-2.54,90.49"
+        "-120.27,-2.54,90.49",
+        "-17.26,-5.13,25.71",
+        "-24.26,-5.31,26.72",
+        "-3.63,-4.77,36.01",
+        "10.49,-3.27,39.13",
+        "6.54,-3.56,76.87",
+        "-9.14,-5.20,35.61",
+        "-3.81,-4.61,43.58",
+        "7.56,-3.34,33.31",
+        "1.62,-3.98,33.51"
       ],
       "drops": [
         {
@@ -535,7 +722,11 @@
         "-127.00,-1.92,98.00",
         "-76.00,-2.96,36.00",
         "-83.73,-3.22,43.31",
-        "-163.25,2.13,121.93"
+        "-163.25,2.13,121.93",
+        "-81.89,-2.71,14.63",
+        "1.45,-3.27,64.74",
+        "-2.88,-4.42,94.53",
+        "14.90,-4.42,104.48"
       ],
       "drops": [
         {
@@ -550,13 +741,26 @@
     },
     {
       "name": "a vagrant squatter",
+      "levelRange": "5-6",
       "locations": [
         "-152.48,2.26,141.28",
         "-127.27,-1.43,99.70",
         "-145.00,2.54,112.00",
-        "-133.02,2.13,124.41"
+        "-133.02,2.13,124.41",
+        "8.94,-3.14,50.95",
+        "10.21,-3.14,56.00",
+        "16.81,-3.27,46.12",
+        "1.55,-3.87,43.45",
+        "3.63,-3.27,66.59",
+        "14.83,-3.11,63.50",
+        "9.13,-3.11,70.48",
+        "11.76,-4.14,115.02",
+        "-3.47,-4.42,105.45",
+        "5.26,-4.42,100.79",
+        "-3.59,-4.57,45.44",
+        "15.68,-2.81,40.91"
       ],
-      "drop_coin_min": 4,
+      "drop_coin_min": 2,
       "drop_coin_max": 4
     },
     {
@@ -575,7 +779,15 @@
         "The sons of Zek are a scourge upon Norrath. During the Age of Cataclysms, I destroyed entire armies of these beasts with my blade alone. But today my duties lie here within the city. And so it is time for you to follow my lead, to bloody your blade in the name of Freeport and D'Lere.",
         "Go forth and slaughter these twisted half men wherever you find them, from the Commonlands to the ocean waves and the lands that lie beyond. Show no mercy, for strength and steel are the only things these beasts understand. But a word of warning: do not underestimate the skills of these creatures.",
         "In story and legend, the sons of Zek are said to be stupid and disorganized. No more. The ancient curse that clouded their minds has been lifted, and today, the sons of Zek are as disciplined as any soldier of Qeynos. But now they face the warriors of Freeport: show them what this means. ",
-        "I am more than a man. I am a force of destiny, far greater than any god. I am the Overlord of this age, and I shall reshape Norrath in my image. There is much to be done. The lost lands must be found and claimed in my name. We must seize the powers of the past. And we must show the fools who cling to the banner of Qeynos the error of their ways."
+        "I am more than a man. I am a force of destiny, far greater than any god. I am the Overlord of this age, and I shall reshape Norrath in my image. There is much to be done. The lost lands must be found and claimed in my name. We must seize the powers of the past. And we must show the fools who cling to the banner of Qeynos the error of their ways.",
+        "I am Lucan D'Lere, and I am the last hope of this shattered world."
+      ]
+    },
+    {
+      "name": "Wele Lyoli",
+      "locations": [
+        "-90.45,-2.83,41.97",
+        "4.94,-4.42,102.92"
       ]
     }
   ],
@@ -614,6 +826,9 @@
       "gamelink": "\\aITEM 1838761957 -806141222:scuffed shard of channeling\\/a"
     },
     {
+      "gamelink": "\\aITEM 722279990 -1989731575:scuffed shard of divination\\/a"
+    },
+    {
       "gamelink": "\\aITEM -686869063 2018792859:shattered barbarian bone fragment\\/a"
     },
     {
@@ -621,6 +836,9 @@
     },
     {
       "gamelink": "\\aITEM -1389794325 228147189:shattered dwarf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1306389734 1869011176:shattered froglok bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM 1039265482 989022440:shattered half elf bone fragment\\/a"

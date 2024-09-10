@@ -89,6 +89,7 @@
     },
     {
       "name": "a Dervish crook",
+      "levelRange": "8",
       "locations": [
         "-84.22,-4.24,40.72",
         "-73.43,-4.42,59.73",
@@ -102,7 +103,8 @@
         "-77.64,-4.39,110.23",
         "-87.56,-4.24,110.61",
         "-70.46,-4.42,99.54",
-        "-70.81,-4.42,90.78"
+        "-70.81,-4.42,90.78",
+        "-125.08,-4.17,98.53"
       ],
       "drops": [
         {
@@ -267,8 +269,22 @@
     },
     {
       "name": "Gatekeeper Malren",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-131.62,-4.27,94.24"
+      ],
       "utterances": [
-        "Beyond this gate lies a warzone! Beware!"
+        "Beyond this gate lies a warzone! Beware!",
+        "Danger lies ahead, citizen!",
+        "Be wary, adventurer. Great danger lies beyond this gate!",
+        "This gate leads to the Freeport Ruins, which is currently under attack. If you seek to travel there, I highly recommend you go back through Big Bend or the Scale Yard instead.",
+        "Make your way to the docks in either district, then use the bell to summon transport outside of Freeport. You can select the Ruins as your destination.",
+        "Travel through this gate isn't very safe unless you bring a group of friends with you. Some very powerful orcs are clashing with the Freeport Militia just beyond it. Entering the Ruins by way of the docks is a much wiser approach."
       ]
     },
     {
@@ -314,10 +330,35 @@
     },
     {
       "name": "Loria",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-95.91,-4.19,-63.36"
+      ],
       "utterances": [
         "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
         "The stuff's over there.  Just let me know if you find anything you like.",
         "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ]
+    },
+    {
+      "name": "Sasha",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-120.53,-4.42,85.07"
+      ],
+      "utterances": [
+        "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor are you?",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
       ]
     },
     {
@@ -366,6 +407,12 @@
   ],
   "shinies": [
     {
+      "gamelink": "\\aITEM 1331551958 -1699344718:chipped shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -230125234 722129119:plain white moth\\/a"
+    },
+    {
       "gamelink": "\\aITEM -1341170799 308633262:scuffed shard of abjuration\\/a"
     },
     {
@@ -387,6 +434,9 @@
     },
     {
       "name": "the dusty ore"
+    },
+    {
+      "name": "the excavated stone"
     },
     {
       "name": "the feeble roots"

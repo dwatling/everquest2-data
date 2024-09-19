@@ -945,7 +945,151 @@
   ],
   "npcs": [
     {
+      "name": "Aesthetic Winchester",
+      "purpose": "Concordium Mage",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "713.18,48.31,87.24"
+      ],
+      "utterances": [
+        "Hail to you, fair citizen.  May your day be filled with discovery!"
+      ]
+    },
+    {
+      "name": "Albrecht Tesilah",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "536.13,-9.99,117.85"
+      ],
+      "utterances": [
+        "Welcome...welcome traveler, to the fair city of Qeynos! My, isn't it a magnificent day?",
+        "Welcome to Qeynos, friend.",
+        "As a citizen of the mighty city, Qeynos, I greet you openly.",
+        "Ah, what have we here? Glad to see you endured the journey here, adventurer.",
+        "Well met, friend.  It's good to make your acquaintance!"
+      ]
+    },
+    {
+      "name": "Amren Talbot",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "730.68,-20.36,122.08"
+      ],
+      "utterances": [
+        "Focus is the key to unlocking any illusion.  The mind's eye can do many wondrous things, once it focuses."
+      ]
+    },
+    {
+      "name": "Aristide Calais",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "710.51,41.31,107.46"
+      ],
+      "utterances": [
+        "Hello, adventurer.  Please mind the books and pages spread about.  I'm in the middle of researching methods of enchanting stones with magical properties and it wouldn't do to have foot prints and smudges on the documents."
+      ]
+    },
+    {
+      "name": "Arth Treeskipper",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "536.42,-9.99,117.75"
+      ],
+      "utterances": [
+        "The mechanical beasts of the Ironforge Exchange belch forth black clouds to choke out life within the forests.",
+        "While the land suffers and cries out for immediate protection the Celestial Watch is content to look to myths and superstitions for our salvation.",
+        "The Tunarian Alliance preserves our memories of the breathing trees and singing streams of Jaggedpine.",
+        "I fear that the Concordium is unable to control its disciples. If corrupted the sorcerers would surely bring harm to the woodlands and their creatures."
+      ]
+    },
+    {
+      "name": "Astrynia Burnwynd",
+      "purpose": "Wizard Trainer",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "715.34,41.31,89.99"
+      ],
+      "utterances": [
+        "Greetings <player name>, what brings you to the Concordium?"
+      ]
+    },
+    {
+      "name": "Atiyah Kaddor",
+      "purpose": "Weaponsmith",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "567.27,-17.12,264.41"
+      ],
+      "utterances": [
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Welcome! What can I help you with?",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "Auguer Prichard Fizzburn",
+      "purpose": "Concordium Mage",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "701.23,48.31,102.55"
+      ],
+      "utterances": [
+        "I'm afraid I cannot speak now, friend.  Please feel free to avail yourself of our knowledge.  Right now, the city requires my concentration."
+      ]
+    },
+    {
       "name": "Augurer Arnon",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "428.39,-20.70,266.08"
+      ],
       "utterances": [
         "I do not suspect we will have any problems with the delivery here. I am sure Vharlan will see more action tonight than we will."
       ]
@@ -958,6 +1102,15 @@
     },
     {
       "name": "Augurer Ortasco",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "525.93,-9.56,129.52"
+      ],
       "utterances": [
         "Quit your complaining before someone notices us.",
         "Calm yourself Vharlan. The shield's safe delivery is our only concern, we are stationed here for an important reason and you know it. Novitiate Shorechaser can handle herself quite well."
@@ -971,12 +1124,30 @@
     },
     {
       "name": "Augurer Simias",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "428.65,-20.74,267.89"
+      ],
       "utterances": [
         "Watching Vharlan trying to blend in with the patrons of the Lion's Mane would be an event worth seeing."
       ]
     },
     {
       "name": "Augurer Vharlan",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "522.32,-9.56,129.14"
+      ],
       "utterances": [
         "We are two erudite mages in a bar... How do you suggest we remain conspicuous?",
         "I cannot believe we are stuck here, in this... Pub. It's filthy in here. Why are we stuck here and that Novitiate is guarding the harbor gate?"
@@ -989,30 +1160,232 @@
       ]
     },
     {
+      "name": "Azima Kaddor",
+      "purpose": "Armorsmith",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "555.28,-17.12,263.16"
+      ],
+      "utterances": [
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "Welcome! What is it I can help you with?",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+      ],
+      "store_template": "armorsmith"
+    },
+    {
+      "name": "Bella Ward",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "563.04,-9.56,132.21"
+      ]
+    },
+    {
+      "name": "Bellengere the Three",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "710.94,-20.36,121.94"
+      ],
+      "utterances": [
+        "If knowledge is power, and power corrupts, then it is only logical to presume that knowledge corrupts.  Rubbish, I say.  The fundamental flaw in this theory is that power corrupts, whereas it should be stated that it CAN corrupt.  This is the most important lesson to learn when using the arcane forces... as you use its power, it can as easily use you.  Take heed of this warning, friend."
+      ]
+    },
+    {
       "name": "Chronicler Saerfas",
       "utterances": [
         "Yes, Augurer Caranthir. I hope the Queen will visit the Mage Tower once the shield is enabled."
       ]
     },
     {
+      "name": "Chronicler Steelwill",
+      "purpose": "Concordium Mage",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "719.17,35.22,141.68"
+      ],
+      "utterances": [
+        "Welcome to the Three Towers.  Here we pass on our mystical knowlege to those who prove their magical prowess by serving the city of Qeynos.  "
+      ]
+    },
+    {
+      "name": "Corryn Menai",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "724.90,-20.36,108.86"
+      ]
+    },
+    {
+      "name": "Drappi Oakheart",
+      "purpose": "Selwyn's Assistant",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "445.73,-19.59,187.47"
+      ],
+      "utterances": [
+        "Hello there!  If you have any of that old armor from my sweetheart here, I'd be more than happy to offer you some newer stuff!"
+      ]
+    },
+    {
       "name": "Ellinnea Umalia",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "647.15,-18.90,143.83"
+      ],
       "utterances": [
         "You're interrupting my work.",
         "I am not here to provide a basic tutorial on magical theory.  Do you have something specific to ask?",
         "One flows naturally from the other.  We see magic used in some way and then theorize how it could be improved or changed.  Sometimes we see a need and seek a magical answer.  Not everyone can be so flexible, of course.",
         "I realize everyone else has their limitations.  My talents are considerable, which is why my theories were selected over that of the competition. Not that Towser Flizgibbert is anywhere near my league.",
         "Flizgibbert thinks he's a theoretical magician from Elddar Grove.  He's really nothing more than a theoreticist and not a very good one at that.  He had no idea that the irregular borders of Qeynos and its villages would affect dispersement.  Imagine!",
-        "My thoughts precisely.  With all the angles and dimensions to consider, this work is beyond his grasp.  Qeynos will be very well protected from any magical bombardment regardless of its source once my shielding is in place.  Flizgibbert doubtless thinks otherwise."
+        "My thoughts precisely.  With all the angles and dimensions to consider, this work is beyond his grasp.  Qeynos will be very well protected from any magical bombardment regardless of its source once my shielding is in place.  Flizgibbert doubtless thinks otherwise.",
+        "I need to factor in wind variables...",
+        "There is no substitute for a good theoreticist."
+      ]
+    },
+    {
+      "name": "Elspeth Astley",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "730.74,-20.36,114.01"
+      ],
+      "utterances": [
+        "The winds of time change many things.  One thing remains the same, the might of the sorcerer."
+      ]
+    },
+    {
+      "name": "Eoradalanu Otuden",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "695.45,-21.00,111.18"
+      ],
+      "utterances": [
+        "Happiness is achieved by those who are kind within and respectful to others.",
+        "It is easy to disperse hateful attitudes with an act of kindness."
+      ]
+    },
+    {
+      "name": "Exalted Milanthroo",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "700.25,41.31,99.83"
+      ],
+      "utterances": [
+        "I'm afraid I cannot speak now, friend.  Please feel free to avail yourself of our knowledge.  Right now, the city requires my concentration."
       ]
     },
     {
       "name": "Faminae Telethar",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "609.10,-11.57,154.58",
+        "457.55,-19.83,197.30",
+        "543.95,-10.44,150.06"
+      ],
       "utterances": [
-        "Those who have neither the abilities nor the aspirations to pursue the intellectual arts will find a home at the Ironforge Exchange."
+        "Those who have neither the abilities nor the aspirations to pursue the intellectual arts will find a home at the Ironforge Exchange.",
+        "To aid the Concordium is to unleash the force for good that burns within us all."
+      ]
+    },
+    {
+      "name": "Feidre Kelin",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "533.38,-9.99,117.96"
+      ],
+      "utterances": [
+        "Tunare blesses those who remain faithful and trust in her return.",
+        "May your eyes be opened to the truth of Tunare's teachings.",
+        "Hmmm ... from the look in your eyes, you had potential but one of your parents made a poor choice in love."
+      ]
+    },
+    {
+      "name": "Felion Shadoweater",
+      "purpose": "Warlock Trainer",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "712.73,35.22,137.98"
+      ],
+      "utterances": [
+        "Greetings <player name>, what brings you to the Concordium?"
       ]
     },
     {
       "name": "Feodra Iceslayer",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "583.71,-3.48,133.93"
+      ],
       "utterances": [
         "Pay no attention to Warley down there he just probably didn't sleep last night and is a little grumpy. Isn't that right Warley?",
         "Warley went to the Tomb of Varsoon to prove he wasn't afraid of walking around on those islands. Sure enough, he didn't get to the first bridge before turning tail and running back home. Poor thing ... all grumpy ... no sleep.",
@@ -1024,69 +1397,710 @@
       ]
     },
     {
+      "name": "Fredrick Losce",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "575.86,-8.47,126.35"
+      ],
+      "utterances": [
+        "I'm sorry friend. I thought you were someone else."
+      ]
+    },
+    {
+      "name": "Gauldry",
+      "purpose": "Shieldsmith",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "572.75,-17.12,265.46"
+      ],
+      "utterances": [
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Welcome! What can I help you with?",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "My wares cost more than the cheap goods of the sisters in the other room, but one must pay a price for extravagance, am I right?"
+      ],
+      "store_template": "shieldsmith"
+    },
+    {
       "name": "Greldane Irongut",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "536.87,-9.56,132.56"
+      ],
       "utterances": [
         "I could use another ale for the road anytime now.",
         "What do you mean ye drank more than I did?"
       ]
     },
     {
+      "name": "Handla Taseela",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "533.38,-9.99,117.96"
+      ],
+      "utterances": [
+        "Get the wash, get the wash.  This whole city would fall apart if I didn't deliver the clothes on time.  ",
+        "You should head by the tavern later on! Every night in Qeynos is cause for celebration.",
+        "If a thing isn't worth saying, you sing it.",
+        "Be on the lookout, friend!  I just spoke to the guards.  I've no doubt gnolls are scouting the nearby area."
+      ]
+    },
+    {
       "name": "Indis Surion",
+      "purpose": "Sage",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "702.81,81.88,129.11"
+      ],
       "utterances": [
         "Search for the relics of the past Age of Turmoil.  Their discovery will gain you great power and prestige!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -692781748 -121888940 0 0 0:A Collection of Epitaphs\\/a",
+          "prices": [
+            {
+              "coin": 540
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1125012374 -1962932301 0 0 0:A Martyr's Tale\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1936103841 768969238 0 0 0:Antonica Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 5184
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -799475108 1793395161 0 0 0:Architecture of the Vermin's Snye\\/a",
+          "prices": [
+            {
+              "coin": 540
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 453063055 -299401543 0 0 0:Basic Mining Guide, Part One\\/a",
+          "prices": [
+            {
+              "coin": 540
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2113380299 -2055114194 0 0 0:Basic Mining Guide, Part Two\\/a",
+          "prices": [
+            {
+              "coin": 540
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -84572034 743442812 0 0 0:Cleaning with the Cryptkeeper\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1383283183 -1507742731 0 0 0:From the Trial of Kane Bayle\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1643415396 2020767213 0 0 0:Guide to Collecting Crypt Plates\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1360668484 1809640558 0 0 0:Ignatia Cellus' Family History Book\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1169113654 -1515044685 0 0 0:Ilene Cellus' Family History\\/a",
+          "prices": [
+            {
+              "coin": 900
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 376407865 -80595689 0 0 0:Iriana Cellus' Family History\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1943071022 -911656969 0 0 0:Isabella Cellus' Family History Book\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1690892980 466648205 0 0 0:Karath Smoothmane - The Breaking of the Pact\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1537263584 -1481260681 0 0 0:Karath Smoothmane - Winter Comes\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2045240065 1663244787 0 0 0:Know Your Gnolls\\/a",
+          "prices": [
+            {
+              "coin": 2
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1208298162 1207118204 0 0 0:Outlying Qeynos Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 5184
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1065230561 984214981 0 0 0:Qeynos Catacombs Creature Catalog\\/a",
+          "prices": [
+            {
+              "coin": 5184
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1687896909 1068785929 0 0 0:The History of Ayr'Dal\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1273100677 1774147882 0 0 0:The History of Barbarians\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 629496398 1117701139 0 0 0:The History of Dwarves\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1510044997 -1383872173 0 0 0:The History of Erudites\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 300173232 -1408905635 0 0 0:The History of Feir'Dal\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1805595001 -1515806790 0 0 0:The History of Gnomes\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 278317882 -815910386 0 0 0:The History of Halflings\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1879337817 52913112 0 0 0:The History of Humans\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -117758431 1611809264 0 0 0:The History of Kerra\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1496986056 -1567269176 0 0 0:The History of Koada'Dal\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1867458212 1798535204 0 0 0:The Rat Queen of Vermin's Snye\\/a",
+          "prices": [
+            {
+              "coin": 540
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -385763144 -1858725111 0 0 0:The Three Keys - The First Key\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1011497698 1358274641 0 0 0:The Three Keys - The Second Key\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1777884866 298843507 0 0 0:The Three Keys - The Third Key\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1100478864 -1676241418 0 0 0:Vaniki's Ring\\/a",
+          "prices": [
+            {
+              "coin": 2
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -9842771 453733182 0 0 0:Welcome to Qeynos, Citizen! - 2nd Edition\\/a",
+          "prices": [
+            {
+              "coin": 180
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -378859518 -763654224 0 0 0:Zapho's Celestial Guide to the Stars\\/a",
+          "prices": [
+            {
+              "coin": 54
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jebula Marrsing",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "469.61,-11.53,131.22"
+      ],
+      "utterances": [
+        "What hast thou done?  When thou greets a Daughter of Marr, a small bow is in order.",
+        "Hail to you!  I'd love to parlay but I'm afraid I don't like the cut of your jib.  Now please, move along.",
+        "How now, friend adventurer?  Hast thou seen other Daughters of Marr in the wilds?",
+        "The queen calls all of us to service.  We shall find our kin to serve her majesty."
       ]
     },
     {
       "name": "Jowling",
+      "purpose": "City Merchant",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "647.78,-12.92,245.00"
+      ],
       "utterances": [
-        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Welcome! What can I help you with?",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
       ]
     },
     {
       "name": "Katlyn Paisley",
+      "purpose": "Jeweler",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "657.77,-12.91,236.66"
+      ],
       "utterances": [
-        "What happened to the highly explosive bottle that was on my desk?  Have you seen it?"
+        "What happened to the highly explosive bottle that was on my desk?  Have you seen it?",
+        "Are you wounded?  I just made up a fresh batch of healing potions an hour ago.",
+        "There are no refunds for caster error at this shop! Oh ... hello you're not here about a refund."
+      ],
+      "store_template": "jeweler"
+    },
+    {
+      "name": "Kayben Eatny",
+      "purpose": "Bartender",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "583.84,-8.48,130.66"
+      ],
+      "store_template": "bartender"
+    },
+    {
+      "name": "Kellarra Cloudsend",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "539.17,-9.99,118.04"
+      ],
+      "utterances": [
+        "As with all relationships in life sometimes desire can lead to misfortune.  I strive to temper love and discipline.",
+        "The forces of good are all wrought from the strength of the innocent.",
+        "We must remain steady against the influence of evil.  Only with perseverance will Qeynos survive!"
       ]
     },
     {
       "name": "Khalil`mun",
+      "purpose": "Alchemist",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "660.41,-18.57,243.66"
+      ],
       "utterances": [
         "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ],
+      "store_template": "alchemist"
+    },
+    {
+      "name": "Knight-Lieutenant Ilgar",
+      "purpose": "Qeynos Guard",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "424.86,-20.90,171.00",
+        "446.17,-20.76,220.60",
+        "471.65,-20.98,193.77",
+        "435.16,-20.68,174.78"
       ]
     },
     {
       "name": "Leona Ward",
+      "purpose": "General Goods",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "477.68,-13.72,216.70"
+      ],
       "utterances": [
         "Welcome, traveler. Welcome to my shop.  Please, take a look around!"
-      ]
+      ],
+      "store_template": "general_goods"
     },
     {
       "name": "Librarian Dalmas",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "712.91,41.31,101.53"
+      ],
       "utterances": [
         "Please be quiet when inside this place.",
         "You do not look like as if you spend much time in libraries, but please browse around as you like, and close the door firmly when you leave."
       ]
     },
     {
-      "name": "Marcen Quillfingers",
+      "name": "Librarian Dungil",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "711.09,33.22,146.47"
+      ],
       "utterances": [
-        "Ah good, another refugee in the city.  I hope you're not a worthless lay about!  We don't abide apathy here."
+        "Please be quick, I am very busy."
+      ]
+    },
+    {
+      "name": "Loowoonla",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "535.22,-9.99,117.75"
+      ],
+      "utterances": [
+        "If power and greatness is what you seek, you must first master the difference between right and wrong.",
+        "If we focus on the higher truths that govern our actions, we fathom the underlying power within them.",
+        "The time for ego must be set aside.  Your faith in a higher power will preserve you in the times ahead.",
+        "You must not be afraid to trust others.  Openness is the key to finding a correct solution."
+      ]
+    },
+    {
+      "name": "Maile",
+      "purpose": "Broker",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "483.05,-19.72,214.82"
+      ],
+      "utterances": [
+        "Hello there, friend.  I believe we have that new medicine in stock that you were asking about.  That was you, wasn't it?  ",
+        "Wait a minute, please forgive me.  What was it you were looking for again?"
+      ]
+    },
+    {
+      "name": "a Maj'Dul",
+      "locations": [
+        "715.24,-20.37,128.87"
+      ]
+    },
+    {
+      "name": "Marcen Quillfingers",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "536.91,-9.99,117.52"
+      ],
+      "utterances": [
+        "Ah good, another refugee in the city.  I hope you're not a worthless lay about!  We don't abide apathy here.",
+        "Whoa, hello there!  Eager and in a hurry I see.  My advice, take your time.  The city isn't going anywhere.",
+        "Nice weather we're having.  Should make for a good harvest this season, if it holds up.",
+        "Nostalgia isn't what it used to be."
+      ]
+    },
+    {
+      "name": "Merriou",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "538.46,-9.99,117.69"
+      ],
+      "utterances": [
+        "You understand somewhat how the kerra feel.  You cannot deny it; it's in your blood.",
+        "Give me the simplicity of life as the kerra once knew it, and I'll be satisfied."
+      ]
+    },
+    {
+      "name": "Morgessa",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "709.07,-19.45,176.89"
+      ],
+      "utterances": [
+        "As soon as I get my own boat, I'm outta here!",
+        "Are my roots showing?  I think I'll go for a light blueberry mixed with jum-jum highlights.",
+        "I'm only happy when it rains.  Well.. I like sunny days too.  Okay... I'm actually happy all the time.",
+        "Me and my friends have all agreed to be non-conformists."
+      ]
+    },
+    {
+      "name": "Neena Ocoggin",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "533.38,-9.99,117.96"
+      ],
+      "utterances": [
+        "Cheers and boggle chippers to you!",
+        "Oh! Say, is that a minor absinthesizer you're wearing?  I've never seen one used quite that way before.",
+        "Have you any spare foozlebits?  Don't you hate being one foozlebit short of a fwinger?"
       ]
     },
     {
       "name": "Novitiate Emily Shorechaser",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "764.52,-20.10,192.56"
+      ],
       "utterances": [
         "I am suprised the Celestial Watch is assisting with the transport of the shield."
       ]
     },
     {
+      "name": "Percivous",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "537.55,-9.99,117.67"
+      ],
+      "utterances": [
+        "Well met, my astute traveler.  The evil rogues of Freeport would never trifle with so dashing an adventurer.",
+        "Hast thou any news of our lost kin?",
+        "I say, dost thou seeketh to stand with us against the evils and tyranny of the land?",
+        "Aye, I crave your pardon.  Good morrow to you stranger."
+      ]
+    },
+    {
       "name": "Prelate Farleaf",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "764.95,-20.40,190.25"
+      ],
       "utterances": [
         "Quiet child! Anyone could be listening to us. Once Augurer Caranthir returns from guarding the sewers I will alert him to your loose tongue."
       ]
     },
     {
       "name": "Pupil Adept Wazzlefop",
+      "purpose": "Concordium Mage",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "724.23,-20.37,129.91"
+      ],
       "utterances": [
         "...",
         "Are you a seeker of the arcane?  Do you thirst for the knowledge of the mystical?  You've come to the right place.  Here at the Concordium, we serve the queen by using our mystical prowess to aid those in need.  Take this writ and help us in our search for truth.",
@@ -1094,19 +2108,156 @@
       ]
     },
     {
-      "name": "Stable Hand Marcellun Iver",
+      "name": "Representative Klen`thall",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "485.39,-11.35,115.25"
+      ],
       "utterances": [
-        "Pets fuuuur sale! Pets fuuuur sale!"
+        "If you weren't so busy with your imaginary rebellion, you might do something productive and make a name for yourself."
+      ]
+    },
+    {
+      "name": "Rune Shimmerstar",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "714.30,41.31,105.57"
+      ],
+      "utterances": [
+        "What brings you to the Three Towers? Study of the arcane arts broadens your understanding of the world we live in. You would do well to remember this."
+      ]
+    },
+    {
+      "name": "Selwyn Oakheart",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "444.41,-19.63,188.69"
+      ],
+      "utterances": [
+        "I'm sorry, dear. I don't think I'd be able to help you with anything right now. I'm very busy."
+      ]
+    },
+    {
+      "name": "Shinolio",
+      "purpose": "Merchant",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "713.84,-20.37,129.25"
+      ],
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
+      ]
+    },
+    {
+      "name": "Squire Rion Rolana",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "489.75,-19.72,225.41"
+      ],
+      "utterances": [
+        "Move along citizen, I've a lot on my mind."
+      ]
+    },
+    {
+      "name": "Stable Hand Marcellun Iver",
+      "purpose": "Horse Merchant",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "406.51,-20.26,227.22"
+      ],
+      "utterances": [
+        "Pets fuuuur sale! Pets fuuuur sale!",
+        "Down, boy! Down, boy!",
+        "Whoa! Watch your fingers! Goliath hasn't eaten all day.",
+        "Buy today and you'll receive a free litter box!"
+      ]
+    },
+    {
+      "name": "Stable Hand Stonebear",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "395.42,-20.19,210.12"
       ]
     },
     {
       "name": "Tabby Copperpot",
+      "purpose": "Provisioner",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "568.54,-9.79,164.12"
+      ],
       "utterances": [
         "I have many baked goods that would be sure to tickle your taste buds and satisfy your tummy."
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Telamoninioon Orinsidian",
+      "purpose": "Illusionist Trainer",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "698.17,86.88,132.38"
+      ],
+      "utterances": [
+        "Good day <player name>, what brings you to the Concordium?"
       ]
     },
     {
       "name": "Thierry Dillon",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "595.93,-16.52,233.13"
+      ],
       "utterances": [
         "Excuse me?",
         "It's a simple civic improvement project run by Magus Weskah.  We're still in the planning stage.  I'm not sure how many positions we'll need to fill to get the job done, or when we'll start hiring.",
@@ -1122,8 +2273,93 @@
     },
     {
       "name": "Tibby Copperpot",
+      "purpose": "Baker",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "564.26,-9.79,168.01"
+      ],
       "utterances": [
         "I sure do love to cook.  Yummy baked goods and cakes.  I make my sister do all the selling.  To tell you the truth I think she likes it."
+      ]
+    },
+    {
+      "name": "Tilliana Steamsieve",
+      "purpose": "Conjuror Trainer",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "710.16,-20.37,110.73"
+      ],
+      "utterances": [
+        "Well, hello hello <player name>, welcome to the Concordium.  What can I do for you today?"
+      ]
+    },
+    {
+      "name": "Tristan Galliway",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "579.44,-8.48,126.27"
+      ],
+      "utterances": [
+        "Do I know you?"
+      ]
+    },
+    {
+      "name": "Vhret Retharo",
+      "purpose": "Concordium Mage",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "698.59,48.31,94.64"
+      ]
+    },
+    {
+      "name": "Vishra",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "728.35,-21.00,142.14"
+      ],
+      "utterances": [
+        "May I help you?"
+      ]
+    },
+    {
+      "name": "Warley Theodoric",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "551.84,-8.62,130.93"
+      ],
+      "utterances": [
+        "What do you mean ye drank more than I did?",
+        "I could use another ale for the road anytime now."
       ]
     }
   ]

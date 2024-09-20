@@ -1021,14 +1021,19 @@
         "-1353.1,-69.67,361.85",
         "-1344.89,-69.64,367.07",
         "-1352.99,-69.82,369.89",
-        "-1337.04,-69.56,357.84"
+        "-1337.04,-69.56,357.84",
+        "-1,302.00,-69.17,317.00",
+        "-1,342.89,-69.46,318.68",
+        "-1,360.90,-69.64,341.89"
       ],
       "utterances": [
         "As I rise from the grave,  you will now take my place!",
         "You cannot eliminate us!",
         "That pile of bones was my friend!",
         "Brains! Its what's for dinner.",
-        "I didn't need those bones anyway."
+        "I didn't need those bones anyway.",
+        "To the grave with you!",
+        "Dying didn't feel good the first time."
       ],
       "drops": [
         {
@@ -1036,12 +1041,22 @@
           "chest": true
         },
         {
+          "gamelink": "\\aITEM 2104020758 835785464:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
           "chest": false
         }
       ],
       "drop_coin_min": 19,
-      "drop_coin_max": 34
+      "drop_coin_max": 34,
+      "faction_changes": [
+        {
+          "name": "The Academy of Arcane Science",
+          "value": 50
+        }
+      ]
     },
     {
       "name": "a bull elephant",
@@ -2074,6 +2089,12 @@
     {
       "name": "Drammer Quickblade",
       "levelRange": "12",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "197.68,-47.25,-258.29"
       ],
@@ -2344,7 +2365,8 @@
         "female"
       ],
       "locations": [
-        "-1341.62,-69.53,337.95"
+        "-1341.62,-69.53,337.95",
+        "-1,341.97,-69.53,337.11"
       ],
       "utterances": [
         "Move along unless you want to join these skeletons."
@@ -3902,9 +3924,19 @@
       "locations": [
         "-1354.58,-69.59,337.83",
         "-1313.94,-69.38,347.85",
-        "-1313.27,-69.24,330.93"
+        "-1313.27,-69.24,330.93",
+        "-1,365.02,-69.76,351.36",
+        "-1,370.66,-70.06,347.91"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM 493224880 646750110:a ghost remnant memory\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1261960677:small decaying bone\\/a",
+          "chest": false
+        },
         {
           "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
           "chest": false
@@ -5555,7 +5587,8 @@
         "-175.96,-49.37,28.17",
         "-120.64,-50.00,29.07",
         "412.92,-49.00,-11.40",
-        "408.12,-49.65,-16.66"
+        "408.12,-49.65,-16.66",
+        "-704.43,-48.93,343.94"
       ],
       "drops": [
         {
@@ -6582,7 +6615,16 @@
       "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a"
     },
     {
+      "gamelink": "\\aITEM -1112052861 2089405631:commonlands shrub blue leaf\\/a"
+    },
+    {
       "gamelink": "\\aITEM -1174002430 -1661849611:commonlands shrub green leaf\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1379031202 -1065158918:commonlands shrub red leaf\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 582763781 120261595:cracked dwarf bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM 381703662 1246298828:cracked gnome bone fragment\\/a"

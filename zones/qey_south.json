@@ -1229,6 +1229,25 @@
       ]
     },
     {
+      "name": "Clarya Blake",
+      "purpose": "Bartender",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "583.98,-14.70,179.94"
+      ],
+      "utterances": [
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ],
+      "store_template": "bartender"
+    },
+    {
       "name": "Corryn Menai",
       "race": [
         "human"
@@ -1464,6 +1483,25 @@
         "If a thing isn't worth saying, you sing it.",
         "Be on the lookout, friend!  I just spoke to the guards.  I've no doubt gnolls are scouting the nearby area."
       ]
+    },
+    {
+      "name": "Hegrenn",
+      "purpose": "Bowyer",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "576.60,-8.70,183.09"
+      ],
+      "utterances": [
+        "Is there something you need to have custom made?  I can see if I can get one of my lads to look into it!",
+        "I just got a shipment in from the Far Sea's Trading Company.  I don't just show anybody this stuff so, shhhh!  ",
+        "Never go into battle without a tried and trusted weapon. Here, take a look at what we have in stock."
+      ],
+      "store_template": "bowyer"
     },
     {
       "name": "Indis Surion",
@@ -2021,7 +2059,8 @@
         "As soon as I get my own boat, I'm outta here!",
         "Are my roots showing?  I think I'll go for a light blueberry mixed with jum-jum highlights.",
         "I'm only happy when it rains.  Well.. I like sunny days too.  Okay... I'm actually happy all the time.",
-        "Me and my friends have all agreed to be non-conformists."
+        "Me and my friends have all agreed to be non-conformists.",
+        "The Tier'Dal are so romantic,  the way they're all dark and gloomy..."
       ]
     },
     {
@@ -2302,6 +2341,23 @@
       "utterances": [
         "Well, hello hello <player name>, welcome to the Concordium.  What can I do for you today?"
       ]
+    },
+    {
+      "name": "Trevor Minturn",
+      "purpose": "General Goods",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "571.06,-14.70,185.73"
+      ],
+      "utterances": [
+        "May I interest you in some of my fine wares, friend?"
+      ],
+      "store_template": "general_goods"
     },
     {
       "name": "Tristan Galliway",

@@ -3,13 +3,16 @@
   "category": "Karan",
   "connections": [
     {
-      "key": "qey_north"
+      "key": "qey_north",
+      "location": "-0.80,1.16,-13.66"
     }
   ],
   "npcs": [
     {
       "name": "Executor Adept Sal`ynelle",
+      "purpose": "Rush Orders",
       "race": [
+        "human",
         "wood elf"
       ],
       "gender": [
@@ -19,11 +22,29 @@
         "-0.98,-0.48,-9.40"
       ],
       "utterances": [
-        "I'm sorry but I'm unable to assign you a writ at this time.  Until the city is able to adapt to the new recipes we have to take inventory and cannot accept any new goods."
+        "I'm sorry but I'm unable to assign you a writ at this time.  Until the city is able to adapt to the new recipes we have to take inventory and cannot accept any new goods.",
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Hawthorne Carris",
+      "purpose": "Work Orders",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1.85,-0.48,-1.88"
+      ],
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
       ]
     },
     {
       "name": "Hyacinth Hagglefoot",
+      "purpose": "Broker",
       "race": [
         "halfling"
       ],
@@ -35,7 +56,9 @@
       ],
       "utterances": [
         "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
-        "Welcome! What can I help you with?"
+        "Welcome! What can I help you with?",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!"
       ]
     }
   ]

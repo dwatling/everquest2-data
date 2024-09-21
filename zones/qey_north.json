@@ -88,6 +88,40 @@
       ]
     },
     {
+      "name": "Aren Firerain",
+      "purpose": "Fury Trainer",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "499.95,-31.74,-247.34"
+      ],
+      "utterances": [
+        "What brings you to the Temple of Life, <player name>?"
+      ]
+    },
+    {
+      "name": "Arthin Dawnhammer",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "10.02,-4.09,3.18"
+      ],
+      "utterances": [
+        "Were they to encounter a god, the Concordium would drop their staves and bow before the might of a true power.",
+        "The Ironforge Exchange neglects the spiritual through its devotion to the physical materials and pleasures of this world.",
+        "The Celestial Watch preserves the rituals of servitude to the gods so that all might experience through worship the return of the ancient deities.",
+        "The Qeynos Guard blindly strikes at the darkness rather than see the opportunity for redemption that lies within even the most lost of us."
+      ]
+    },
+    {
       "name": "Arthur Jamison Jr.",
       "race": [
         "human"
@@ -112,6 +146,21 @@
       ]
     },
     {
+      "name": "Aurora Elianas",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "527.72,-32.00,-187.41"
+      ],
+      "utterances": [
+        "Though the deities have left, it is the faith we hold in our hearts that shows our devotion.  "
+      ]
+    },
+    {
       "name": "Baker Voleen",
       "purpose": "Provisioner",
       "race": [
@@ -130,6 +179,58 @@
         "Welcome friend, welcome.  I hope you brought your appetite with you!"
       ],
       "store_template": "provisioner"
+    },
+    {
+      "name": "Baron Ironforge",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "431.79,-20.43,-341.00"
+      ],
+      "utterances": [
+        "Well met, friend.  It's good to make your acquaintance!",
+        "Hail, pleasure to meet you.",
+        "Ah, what have we here? Glad to see you endured the journey here, adventurer.",
+        "Greetings visitor, I'm glad to meet you.",
+        "As a citizen of the mighty city, Qeynos, I greet you openly.",
+        "Another lovely day in the city of Qeynos!"
+      ]
+    },
+    {
+      "name": "Bexi Landro",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "439.73,-21.06,-249.95"
+      ],
+      "utterances": [
+        "There are many who would not speak with your kind, but I find your history intriguing.",
+        "I have learned that it is best to trust to your own wisdom rather than the weaponry of your acquaintances."
+      ]
+    },
+    {
+      "name": "Bleog Healbog",
+      "purpose": "Templar Trainer",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "508.52,-31.74,-259.19"
+      ],
+      "utterances": [
+        "Hello there <player name>, what brings you to the Temple of Life this fine day?"
+      ]
     },
     {
       "name": "Bouncer Johbal",
@@ -196,9 +297,36 @@
     },
     {
       "name": "Caretaker Nogfizzle",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "478.54,-20.04,-250.62"
+      ],
       "utterances": [
         "...",
-        "Greetings and welcome to the Temple of Life, my young initiate.  Here at the temple, we use the divinity of spiritual guides to follow the path of righteousness and protect our city. Please take this writ, and do as it asks.  Before you lies the gateway to inner salvation and the sanctity of serving your homeland."
+        "Greetings and welcome to the Temple of Life, my young initiate.  Here at the temple, we use the divinity of spiritual guides to follow the path of righteousness and protect our city. Please take this writ, and do as it asks.  Before you lies the gateway to inner salvation and the sanctity of serving your homeland.",
+        "Please return to me when you have completed your current task."
+      ]
+    },
+    {
+      "name": "Carey Meloy",
+      "purpose": "Banker",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "268.90,-17.18,-124.58"
+      ],
+      "utterances": [
+        "Welcome to the bank, citizen. How can I assist you?",
+        "Are you interested in qualifying for an equity line of coin on your livestock?"
       ]
     },
     {
@@ -226,12 +354,43 @@
       ]
     },
     {
+      "name": "Dana Ironforge",
+      "purpose": "Jeweler",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "387.55,-18.86,-243.41"
+      ],
+      "utterances": [
+        "Coin is no object when gaining protection from your enemies.  What price can be put on your safety? ",
+        "You can never be too careful when it comes to protection.  Here try on one of these.",
+        "Well, that suit is looking a might worn.  Can I interest you in a new suit of fine armor? ",
+        "I have some nice new suits of chain that have stood up very well.  Would you like to see them?"
+      ],
+      "store_template": "jeweler"
+    },
+    {
       "name": "Danielle Clothspinner",
+      "purpose": "Tailor",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "352.60,-22.50,-205.40"
+      ],
       "utterances": [
         "Whatever shall I do?  I'm out of dyes, and I simply must finish these yards of cloth today!  I'll certainly never make it all the way across town to get more and still have time to finish with my sewing!",
         "Well, I am always having a problem getting bear pelts of a quality that I can work with and truly make shine.  If you could bring me four preserved bear hides, I can reward you for your efforts.",
         "Perfect, once I am done with all the sewing and dying for this job I can get started on some top notch pelt work!"
-      ]
+      ],
+      "store_template": "tailor"
     },
     {
       "name": "Darla Fastanvil",
@@ -267,6 +426,23 @@
       ]
     },
     {
+      "name": "Deasie Warmhearth",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "446.84,-20.49,-257.05"
+      ],
+      "utterances": [
+        "So, do you look at a tankard and consider it half full?  Or half empty?",
+        "A good joke deserves a good audience, I always say!",
+        "I'm sure we've met someplace before, you look so familiar!"
+      ]
+    },
+    {
       "name": "Delacar Mithanson",
       "race": [
         "human"
@@ -279,6 +455,22 @@
       ],
       "utterances": [
         "The call to arms affects us all. Will you be ready when Qeynos needs your service?"
+      ]
+    },
+    {
+      "name": "Disciple Telas`velle",
+      "purpose": "Celestial Watch Priest",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "507.66,-31.75,-214.07"
+      ],
+      "utterances": [
+        "Only through eternal vigilance can we find inner peace."
       ]
     },
     {
@@ -328,6 +520,40 @@
       ]
     },
     {
+      "name": "Dylan Ironforge",
+      "purpose": "Weaponsmith",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "398.82,-20.92,-179.77"
+      ],
+      "utterances": [
+        "Nothing's cozier than a nice hot forge!"
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "Ealoonias",
+      "purpose": "Banker",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "271.51,-17.18,-113.89"
+      ],
+      "utterances": [
+        "Has anyone told you about our new retirement savings programs?",
+        "Greetings, would you like to open an account or is there something else I can help with?"
+      ]
+    },
+    {
       "name": "Elbow",
       "purpose": "Merchant",
       "race": [
@@ -345,12 +571,69 @@
     },
     {
       "name": "Elsabethia Hartsunder",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "514.37,-31.74,-245.12"
+      ],
       "utterances": [
         "Forgive me but I must return to my work.  Please speak with one of the other priests.  I'm certain they will be more than happy to assist you.",
         "I'm overseeing the research of a new infection spreading among the vermin populace in the catacombs.  We've learned from the past years that prevention is the best cure for any ailment.",
         "I'm not entirely certain.  I've only been able to identify the species that carry the infection.  The malady has eluded any real research because it dies with the host. What I need are some living hosts to study...",
         "Your help would come as a blessing.  The tomb leeches, giant burrowers, and tomb vermin that  infest the Vermin's Snye catacomb are the species that carry the infection.  I need a live specimen from each of these host species to progress in my research.",
         "Please be careful  transporting the diseased creatures. I would hate for you to become infected."
+      ]
+    },
+    {
+      "name": "Emma Healtoe",
+      "purpose": "Warden Trainer",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "503.43,-31.74,-254.50"
+      ],
+      "utterances": [
+        "Good day to you, <player name>.  What brings you to the Temple of Life?"
+      ]
+    },
+    {
+      "name": "Enursin Nightstalker",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "469.33,-20.68,-332.71"
+      ],
+      "utterances": [
+        "Well met, friend.  It's good to make your acquaintance!",
+        "Hail, pleasure to meet you.",
+        "Greetings visitor, I'm glad to meet you.",
+        "Welcome...welcome traveler, to the fair city of Qeynos! My, isn't it a magnificent day?",
+        "Welcome to Qeynos, friend."
+      ]
+    },
+    {
+      "name": "Ethri Vasou",
+      "purpose": "Celestial Watch Priest",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "523.64,-32.00,-171.01"
       ]
     },
     {
@@ -403,6 +686,40 @@
         "For every invention there is an equally opposite explosion.",
         "Life's not all cogs and sprocket, you know.  There are fractions, too!"
       ]
+    },
+    {
+      "name": "Frubbuppa Bogstomper",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "448.50,-20.32,-259.90"
+      ],
+      "utterances": [
+        "The other races of Qeynos might give you some respect if ya didn't pierce yourselves like a smelly troll.",
+        "Always step carefully within the city limits -- and even more carefully when outside of the city.",
+        "May the blessings of Mithaniel Marr be upon you."
+      ]
+    },
+    {
+      "name": "Gavin Ironforge",
+      "purpose": "Shieldsmith",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "399.92,-20.90,-173.65"
+      ],
+      "utterances": [
+        "Hail and well met!  I am Gavin Ironforge, an apprentice shieldsmith.  Sometimes I help Tara--from the Jewel Box--with her duties, but I'm unusually busy today and can't get to everything."
+      ],
+      "store_template": "shieldsmith"
     },
     {
       "name": "Gray Magnificent",
@@ -478,6 +795,24 @@
       ]
     },
     {
+      "name": "High Priestess Cassondra",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "519.36,-32.01,-170.33"
+      ],
+      "utterances": [
+        "Hello there, friend, I hope the day finds you well.",
+        "Greetings traveler and welcome to our village. Be sure to help us keep it tidy.",
+        "Hello and welcome to the city.  Everything you need can be found here in Qeynos.  ",
+        "Hail to you as well, traveler.  There is much work to be done in Qeynos, might as well get started on it now."
+      ]
+    },
+    {
       "name": "Hubert",
       "locations": [
         "368.35,-20.92,140.10"
@@ -526,6 +861,15 @@
     },
     {
       "name": "Jo Ironshield",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "284.16,-17.08,-165.33"
+      ],
       "utterances": [
         "Can I help you?",
         "Are you with the Alchemists' Guild?",
@@ -534,6 +878,40 @@
         "Don't tell Magus Weskah I found out about the shield! There were only four of us in the pub at the time anyway -- Towser, his wife, Arbuthnot and myself.",
         "Not much, really.  Towser lost the design contest and was rather bitter.  And he hates the hat his wife was wearing.  He didn't know when the shield would be built, if ever, or where it would be centered.  Only the Magus knows that!",
         "Yes, here it is.  Please let me remain in the Guild!"
+      ]
+    },
+    {
+      "name": "Jublx",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "441.70,-20.82,-253.70"
+      ],
+      "utterances": [
+        "I say, dost thou seeketh to stand with us against the evils and tyranny of the land?",
+        "Anon stranger!  If thou has any news of my kin, return to Castleview!",
+        "Aye, I crave your pardon.  Good morrow to you stranger.",
+        "Hast thou any news of our lost kin?"
+      ]
+    },
+    {
+      "name": "Kiriana Northsky",
+      "purpose": "Mystic Trainer",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "516.66,-31.74,-256.13"
+      ],
+      "utterances": [
+        "What brings you to the Temple of Life, <player name>?"
       ]
     },
     {
@@ -606,6 +984,18 @@
       ]
     },
     {
+      "name": "Lady Vivianne Ironforge",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "473.41,-19.76,-338.76"
+      ]
+    },
+    {
       "name": "Laura Ironforge",
       "race": [
         "human"
@@ -652,8 +1042,21 @@
     },
     {
       "name": "Lord Drystan Ironforge",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "474.70,-19.76,-339.70"
+      ],
       "utterances": [
-        "As a citizen of the mighty city, Qeynos, I greet you openly."
+        "As a citizen of the mighty city, Qeynos, I greet you openly.",
+        "What do you want? Leave me be!",
+        "Welcome to Qeynos, friend.",
+        "Welcome...welcome traveler, to the fair city of Qeynos! My, isn't it a magnificent day?",
+        "Ah, what have we here? Glad to see you endured the journey here, adventurer."
       ]
     },
     {
@@ -700,6 +1103,22 @@
       ]
     },
     {
+      "name": "Maid Patricia",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "436.95,-20.57,-334.34",
+        "431.65,-20.40,-327.74"
+      ],
+      "utterances": [
+        "Sorry, I can't visit right now.  Too much work to do around the Ironforge estate."
+      ]
+    },
+    {
       "name": "Mariana Gizmofidget",
       "race": [
         "gnome"
@@ -720,12 +1139,54 @@
     },
     {
       "name": "Medic Brendan",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "507.71,-31.75,-228.13"
+      ],
       "utterances": [
         "May the light of the Prime Healer guide you.  My spells and religious symbols will aid you in your quest to further the cause of good. Please, come closer, adventurer.",
         "Another capacity?  Well, we do need help gathering components for our potions. We supply the guards with an antidote in case something poisonous attacks them on their rounds.",
         "Splendid! Now, pay close attention. We need the venom sacs of white spiders and albino cave snakes. I'll write down in your journal the amount we need and where you can find them. ",
         "Be safe, please!",
         "Wonderful!  These samples will do nicely!  Don't be surprised if one day these very venom sacs save the life of one of our guards."
+      ]
+    },
+    {
+      "name": "Medic Rowena",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "507.10,-31.75,-225.80"
+      ],
+      "utterances": [
+        "Rodcet's blessings upon you. How may the Temple of Life assist you today?"
+      ]
+    },
+    {
+      "name": "Meredeth",
+      "purpose": "Merchant",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "3.55,-3.78,14.78"
+      ],
+      "utterances": [
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "Welcome! What can I help you with?",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
       ]
     },
     {
@@ -744,6 +1205,39 @@
         "Hello, traveler!  How I envy you.  What I wouldn't give to journey the world as I did in my youth.   Alas, I am an old man, but at least I can occupy myself with my various trinkets and collections that I picked up in my travels.",
         "Why, any sort of collection. There's so much out there to  find! Just open your eyes and peek under the rocks.  If you find anything interesting, let me have a look. Collecting is the only way I seem to relive my youth! ",
         "This is a magnificent find! Here, take this for all your hard work."
+      ]
+    },
+    {
+      "name": "Mina O`Grady",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "432.58,-20.82,-270.81"
+      ],
+      "utterances": [
+        "I'm not into politics. I'm into survival.",
+        "Many times I've faced death with no one to know.",
+        "I'm as nervous as a kerran in a room full of rocking chairs."
+      ]
+    },
+    {
+      "name": "Missionary Jenson",
+      "purpose": "Celestial Watch Priest",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-9.30,-3.93,-9.04"
+      ],
+      "utterances": [
+        "We must always temper justice with mercy and forgiveness."
       ]
     },
     {
@@ -793,6 +1287,22 @@
       ]
     },
     {
+      "name": "Partisan Keladerouo",
+      "purpose": "Celestial Watch Priest",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-11.09,-3.94,-6.41"
+      ],
+      "utterances": [
+        "Welcome to the sanctuary of the Temple of Life.  Always let your inner strength burn brightly against the forces of evil."
+      ]
+    },
+    {
       "name": "Penny Goodhearth",
       "race": [
         "halfling"
@@ -823,6 +1333,52 @@
       ]
     },
     {
+      "name": "Prelate Lorhym Ithpsym",
+      "purpose": "Celestial Watch Priest",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "526.09,-32.00,-171.71"
+      ],
+      "utterances": [
+        "Welcome to the sanctuary of the Temple of Life.  Always let your inner strength burn brightly against the forces of evil."
+      ]
+    },
+    {
+      "name": "Priestess Allora Reed",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "7.83,-3.96,-9.79"
+      ],
+      "utterances": [
+        "Rodcet's blessing be upon you.  I am a priestess of this temple.  As you can see, though the gods have left Norrath, our faith sustains us and strengthens our resolve.  When the Prime Healer returns to us, it shall be a glorious day indeed!"
+      ]
+    },
+    {
+      "name": "Priest Ian Turner",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "10.99,-3.84,-9.12"
+      ],
+      "utterances": [
+        "Raise not your hand in judgment of others, for one day they may be your salvation."
+      ]
+    },
+    {
       "name": "P.T. Irontoe",
       "race": [
         "dwarf"
@@ -835,9 +1391,57 @@
       ]
     },
     {
+      "name": "Rachael Clothspinner",
+      "purpose": "Tailor",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "349.83,-22.50,-197.52"
+      ],
+      "utterances": [
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs.",
+        "Welcome! What can I help you with?",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!"
+      ],
+      "store_template": "tailor"
+    },
+    {
       "name": "Roland",
       "locations": [
         "333.43,-20.95,126.95"
+      ]
+    },
+    {
+      "name": "Sayergei the Stylist",
+      "purpose": "Barber",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "380.91,-12.40,-235.57"
+      ],
+      "utterances": [
+        "Come here, come here.  We simply must do something about your look!",
+        "That hair style... that choice of clothes... Sayergei isn't a wizard but this will take serious magic.",
+        "That color?  Seriously..."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 238179391 1294322848 0 0 0:Shave and a Cut\\/a",
+          "prices": [
+            {
+              "coin": 14999
+            }
+          ]
+        }
       ]
     },
     {
@@ -861,8 +1465,22 @@
     },
     {
       "name": "The Seeress",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "436.28,-20.83,-271.64"
+      ],
       "utterances": [
-        "Welcome to the city, newcomer.  All are welcome in the court of Antonia Bayle."
+        "Welcome to the city, newcomer.  All are welcome in the court of Antonia Bayle.",
+        "Welcome to Qeynos, traveler, know that you are among allies.",
+        "Greetings traveler and welcome to our village. Be sure to help us keep it tidy.",
+        "Hello and welcome to the city.  Everything you need can be found here in Qeynos.  ",
+        "Hail to you as well, traveler.  There is much work to be done in Qeynos, might as well get started on it now.",
+        "Hail, good traveler!"
       ]
     },
     {
@@ -891,6 +1509,25 @@
       ]
     },
     {
+      "name": "Squire Mikkel",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "471.73,-20.67,-331.69"
+      ],
+      "utterances": [
+        "For every invention there is an equally opposite explosion.",
+        "I wonder how efficient waterfalls would be to power a combustible chocolatizing confectionator?",
+        "Once I can get the steam to stop being hot,  I can give my invention to everyone!",
+        "Life's not all cogs and sprocket, you know.  There are fractions, too!",
+        "If there's more to life than tinkering, I don't want to know."
+      ]
+    },
+    {
       "name": "Stom Bluntblade",
       "purpose": "Berserker Trainer",
       "race": [
@@ -904,6 +1541,69 @@
       ],
       "utterances": [
         "Ho, ho, the weather is fine and the ale is cold.  What more can you ask for?"
+      ]
+    },
+    {
+      "name": "Tara Ironforge",
+      "purpose": "Jeweler",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "385.40,-18.86,-237.49"
+      ],
+      "utterances": [
+        "Hello, friend! I've just received some fine gems from the hard-working dwarves in the village! Take a look. See if anything strikes your fancy."
+      ],
+      "store_template": "jeweler"
+    },
+    {
+      "name": "Tatterhorn",
+      "purpose": "City Merchant",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "412.78,-20.72,-193.77"
+      ],
+      "utterances": [
+        "Welcome! What can I help you with?"
+      ]
+    },
+    {
+      "name": "Thardrin Steeleye",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "275.64,-17.95,-114.99"
+      ],
+      "utterances": [
+        "Harrumph.  Can't ye see I'm busy?  Go pester someone else!"
+      ]
+    },
+    {
+      "name": "Toranim Skyblade",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "535.56,-32.00,-174.56"
+      ],
+      "utterances": [
+        "Greetings, adventurer.  It's good to see citizens visiting the Temple of Life.  Many great blessings can come from following the doctrines taught here."
       ]
     },
     {
@@ -927,6 +1627,27 @@
       "utterances": [
         "The Qeynos Guard demands from its recruits adherence to a code of honor and justice."
       ]
+    },
+    {
+      "name": "Walter Channing",
+      "purpose": "Armorsmith",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "407.98,-20.72,-193.14"
+      ],
+      "utterances": [
+        "May I interest you in seeing some of the fine armor and weapons that made the Ironforge family famous?",
+        "Go on, take a look at the stock.  You'll never beat this price in the city.  I guarantee it!",
+        "Confound it! Where did I put that ledger?  It must be around here somewhere!",
+        "Are you interested in my armor? I've no time for small talk and don't need any help.",
+        "Greetings, friend traveler! We have the finest supplies to fill your adventuring needs."
+      ],
+      "store_template": "armorsmith"
     }
   ]
 }

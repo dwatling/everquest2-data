@@ -55,7 +55,10 @@
         "24.00,12.38,-77.81",
         "59.40,12.62,-101.76",
         "34.85,12.10,-89.37",
-        "23.91,12.11,-98.92"
+        "23.91,12.11,-98.92",
+        "1.22,16.14,-92.09",
+        "10.81,13.30,-117.20",
+        "10.73,13.45,-110.89"
       ],
       "drops": [
         {
@@ -119,7 +122,8 @@
         "17.35,3.38,-36.06",
         "19.96,2.75,-28.81",
         "33.61,12.38,-52.83",
-        "-11.69,13.50,-82.53"
+        "-11.69,13.50,-82.53",
+        "2.41,3.36,-26.51"
       ],
       "drops": [
         {
@@ -134,6 +138,15 @@
     },
     {
       "name": "Consul Bree",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "1.06,3.62,-32.13"
+      ],
       "utterances": [
         "I am glad you are here.",
         "There are problems here that must be solved. You and I are part of that solution.",
@@ -156,7 +169,8 @@
         "Good. Take this staff to the large skull on the northern end one level above this one. Once there place the staff in the skull, this will bring forth Zen'Durath. Return to me when he is dead.",
         "And be careful. Zen'Durath will not be pleased to see you.",
         "Is Zen'Durath dead?",
-        "Then it is done, and the Rockpaw shall soon fall. I am very relieved, I am lucky to have you, <player name>. Please, take this as a sign of my thanks--and the thanks of the Queen. You have earned it."
+        "Then it is done, and the Rockpaw shall soon fall. I am very relieved, I am lucky to have you, <player name>. Please, take this as a sign of my thanks--and the thanks of the Queen. You have earned it.",
+        "The Queen was right about you. We may yet meet again."
       ]
     },
     {
@@ -230,7 +244,8 @@
       "utterances": [
         "Not allowed here!",
         "Spin, weave, dodge, attack!!!",
-        "Another member of the pack down!"
+        "Another member of the pack down!",
+        "Bite! Show sharp teeth!"
       ],
       "drops": [
         {
@@ -239,6 +254,10 @@
         },
         {
           "gamelink": "\\aITEM -1698232697 -1628225413:Chirannite Threat Totem\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1136651119 -744917932:intricately carved acorn\\/a",
           "chest": false
         },
         {
@@ -277,10 +296,21 @@
           "gamelink": "\\aITEM -1693304572 -1066926646:roughspun fist wraps\\/a",
           "chest": true
         }
-      ]
+      ],
+      "drop_coin_min": 15,
+      "drop_coin_max": 15
     },
     {
       "name": "Emma Torque",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-18.26,3.64,-34.66"
+      ],
       "utterances": [
         "Great job!",
         "Is that the information I need? This is most precise!",
@@ -299,7 +329,8 @@
         "Ah, yes. She had me studying those a while back. Very complicated procedure to draw the stone from a river behemoth. You need to kill one and then, from its remains, you can draw the stone to the surface. After that it is as simple as grabbing it. You'll need a Drawing Ray--one of my inventions--to get it.",
         "Sure. Be careful with it. I don't think it will explode and kill you, but I also don't want you using it anywhere near me.",
         "Most precise! I heard the explosions from here, I am glad you were not in them and that they were in the proper spots--they WERE in the proper spots, right?",
-        "Great! Consul Bree will be very pleased. You have done the Qeynos Guard a great service, <player name>. Take this, please. And thank you."
+        "Great! Consul Bree will be very pleased. You have done the Qeynos Guard a great service, <player name>. Take this, please. And thank you.",
+        "Fulkoir had a great mind, but a poor, poor heart."
       ]
     },
     {
@@ -323,6 +354,15 @@
     },
     {
       "name": "Kahla Ulno",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "0.26,3.62,-23.13"
+      ],
       "utterances": [
         "Greetings! I don't suppose you have some time to help an information-hungry kerra like myself, do you?",
         "Well, I'm very interested in the creatures that inhabit these caves. I am trying to catalog these creatures so I can better compare them with their cousins found elsewhere. But I've run into a problem.",
@@ -330,11 +370,21 @@
         "You can? That would be great. I think four of the spiders, four of the bats, and four of the flying serpents would be enough for me to get most of my research done.",
         "Great! I'll be here when you're done.",
         "Did you get the creatures?",
-        "Perfect! Thank you so much! This will help me a great deal."
+        "Perfect! Thank you so much! This will help me a great deal.",
+        "Still no conclusions."
       ]
     },
     {
       "name": "Lieutenant Delsun",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "0.88,3.62,-34.26"
+      ],
       "utterances": [
         "Well met. If you're here it's probably because you can help. I'm Lieutenant Delsun of the Qeynos Guard.",
         "Well. Consul Bree has a plan of attack that she may need help with. So speak to her if you want to offer your services. As for me, I am more interested in the gnolls than their plans. If you want to help me by taking some of them out, I will gladly accept it.",
@@ -342,7 +392,8 @@
         "Once you've done this return to me. The city of Qeynos will want to thank you properly.",
         "Have you done as I asked?",
         "Good. Though we may not directly attack their production as Consul Bree does, we've done a great part in thinning out their armies. Take this, the Qeynos Guard puts aside such things for times like this. I believe you deserve it.",
-        "You make Qeynos proud, soldier."
+        "You make Qeynos proud, soldier.",
+        "Thanks to you the city of Qeynos will be safe from the Rockpaw gnolls. We are in your debt."
       ]
     },
     {
@@ -400,7 +451,8 @@
         "39.97,12.29,-90.27",
         "27.96,12.38,-75.34",
         "35.54,12.38,-81.87",
-        "44.28,12.38,-96.33"
+        "44.28,12.38,-96.33",
+        "7.98,14.64,-83.10"
       ],
       "utterances": [
         "That one will never mate!",
@@ -442,6 +494,25 @@
       ],
       "drop_coin_min": 7,
       "drop_coin_max": 7
+    },
+    {
+      "name": "an overland specimen",
+      "locations": [
+        "1.22,3.58,-20.84"
+      ]
+    },
+    {
+      "name": "The Pale Broodmother",
+      "levelRange": "10",
+      "locations": [
+        "43.53,0.59,-112.12"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1144401952 -897576670:Spiderbite Coif\\/a",
+          "chest": true
+        }
+      ]
     },
     {
       "name": "a river behemoth",
@@ -546,6 +617,14 @@
           "gamelink": "\\aITEM 1359041271 -1145894628:Radiant Strike (Adept I)\\/a",
           "chest": true
         }
+      ]
+    },
+    {
+      "name": "a silverfish",
+      "levelRange": "10",
+      "locations": [
+        "38.26,0.00,-22.43",
+        "-20.32,-0.89,-28.52"
       ]
     },
     {
@@ -684,6 +763,9 @@
       "gamelink": "\\aITEM -1832140126 1193284294:chipped shard of abjuration\\/a"
     },
     {
+      "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a"
+    },
+    {
       "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a"
     },
     {
@@ -691,6 +773,9 @@
     },
     {
       "gamelink": "\\aITEM -1827919267 -43288604:plain purple butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -327615186 -1572251097:plain violet butterfly\\/a"
     },
     {
       "gamelink": "\\aITEM -1450331100 1726103362:plain yellow butterfly\\/a"

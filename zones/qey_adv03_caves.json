@@ -104,6 +104,7 @@
     },
     {
       "name": "a cave serpent",
+      "levelRange": "10",
       "locations": [
         "-0.01,12.62,-52.00",
         "18.56,3.71,-16.60",
@@ -123,7 +124,8 @@
         "19.96,2.75,-28.81",
         "33.61,12.38,-52.83",
         "-11.69,13.50,-82.53",
-        "2.41,3.36,-26.51"
+        "2.41,3.36,-26.51",
+        "-7.38,2.43,-20.29"
       ],
       "drops": [
         {
@@ -258,6 +260,10 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 295026780 -1353561431:a gnoll paw\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1136651119 -744917932:intricately carved acorn\\/a",
           "chest": false
         },
@@ -266,8 +272,8 @@
           "chest": false
         }
       ],
-      "drop_coin_min": 10,
-      "drop_coin_max": 10
+      "drop_coin_min": 9,
+      "drop_coin_max": 17
     },
     {
       "name": "a Dustpaw lookout",
@@ -286,6 +292,10 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -272717028 -1824968337:blackened iron tulwar\\/a",
           "chest": true
         },
@@ -298,7 +308,7 @@
           "chest": true
         }
       ],
-      "drop_coin_min": 15,
+      "drop_coin_min": 10,
       "drop_coin_max": 15
     },
     {
@@ -508,9 +518,18 @@
       "name": "The Pale Broodmother",
       "levelRange": "10",
       "locations": [
-        "43.53,0.59,-112.12"
+        "43.53,0.59,-112.12",
+        "46.96,2.68,-94.90"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM 2112874147 -657580033:an arachnid leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1781580354 -1429775759:Poke (Adept I)\\/a",
+          "chest": true
+        },
         {
           "gamelink": "\\aITEM 1144401952 -897576670:Spiderbite Coif\\/a",
           "chest": true
@@ -794,6 +813,12 @@
     },
     {
       "gamelink": "\\aITEM 2076496326 1196186978:shattered wood elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1234627898 1928890256:spotted violet butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -140875129 -614209625:striped purple butterfly\\/a"
     },
     {
       "gamelink": "\\aITEM -1997619724 -2076063132:striped violet butterfly\\/a"

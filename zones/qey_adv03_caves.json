@@ -108,7 +108,7 @@
     },
     {
       "name": "a cave serpent",
-      "levelRange": "10",
+      "levelRange": "9-10",
       "locations": [
         "-0.01,12.62,-52.00",
         "18.56,3.71,-16.60",
@@ -129,7 +129,8 @@
         "33.61,12.38,-52.83",
         "-11.69,13.50,-82.53",
         "2.41,3.36,-26.51",
-        "-7.38,2.43,-20.29"
+        "-7.38,2.43,-20.29",
+        "25.00,12.38,-54.00"
       ],
       "drops": [
         {
@@ -183,8 +184,15 @@
     {
       "name": "a desperate defender",
       "levelRange": "13",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
-        "-4.43,37.87,-22.12"
+        "-4.43,37.87,-22.12",
+        "-12.07,37.88,-27.42"
       ]
     },
     {
@@ -321,7 +329,7 @@
         }
       ],
       "drop_coin_min": 10,
-      "drop_coin_max": 15
+      "drop_coin_max": 137
     },
     {
       "name": "Emma Torque",
@@ -538,6 +546,21 @@
       ]
     },
     {
+      "name": "a pale adder",
+      "levelRange": "13",
+      "locations": [
+        "-42.76,33.28,-59.58",
+        "-41.57,33.32,-53.02",
+        "-36.99,33.33,-46.80"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 6906328 -1288574887:a damaged average quality snake skin\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "The Pale Broodmother",
       "levelRange": "10",
       "locations": [
@@ -640,7 +663,7 @@
     },
     {
       "name": "a shale bat",
-      "levelRange": "11", 
+      "levelRange": "11",
       "locations": [
         "-5.96,3.63,-34.46",
         "-17.58,12.34,-68.34",
@@ -656,7 +679,9 @@
         "-24.40,17.73,-62.65",
         "31.02,11.94,-92.24",
         "25.28,12.39,-76.75",
-        "25.64,12.39,-65.45"
+        "25.64,12.39,-65.45",
+        "17.71,12.39,-69.53",
+        "17.56,12.39,-76.80"
       ],
       "drops": [
         {
@@ -763,7 +788,8 @@
         "47.07,3.38,-70.76",
         "-11.44,12.70,-70.55",
         "1.00,13.06,-62.00",
-        "26.56,12.38,-60.13"
+        "26.56,12.38,-60.13",
+        "4.58,3.38,-17.00"
       ],
       "drops": [
         {
@@ -788,9 +814,15 @@
         "16.87,3.38,-41.61",
         "3.17,3.44,-23.57",
         "43.59,3.73,-67.48",
-        "17.09,2.73,-35.00"
+        "17.09,2.73,-35.00",
+        "17.13,3.51,-27.62",
+        "30.78,3.98,-37.22"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM 2112874147 -657580033:an arachnid leg\\/a",
+          "chest": false
+        },
         {
           "gamelink": "\\aITEM -1163703835 1698426441:bone cudgel\\/a",
           "chest": true
@@ -822,6 +854,9 @@
       "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a"
     },
     {
+      "gamelink": "\\aITEM 1331551958 -1699344718:chipped shard of channeling\\/a"
+    },
+    {
       "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a"
     },
     {
@@ -837,6 +872,9 @@
       "gamelink": "\\aITEM -1450331100 1726103362:plain yellow butterfly\\/a"
     },
     {
+      "gamelink": "\\aITEM 211153600 898123469:shattered erudite bone fragment\\/a"
+    },
+    {
       "gamelink": "\\aITEM 1185753733 -1190212496:shattered high elf bone fragment\\/a"
     },
     {
@@ -847,6 +885,9 @@
     },
     {
       "gamelink": "\\aITEM 2076496326 1196186978:shattered wood elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 792936304 1175841208:spotted blue butterfly\\/a"
     },
     {
       "gamelink": "\\aITEM -1234627898 1928890256:spotted violet butterfly\\/a"

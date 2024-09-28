@@ -50,5 +50,25 @@
 	{
 		"name": "Gnoll Extermination",
 		"category": "North Qeynos"
+	},
+	{
+		"id": 4133302910,
+		"category": "commonlands_tlp",
+		"name": "The Chamber of Suffering",
+		"level": 18,
+		"shareable": false,
+		"removed": true,
+		"starter_text": "I found a rust covered key in the Commonlands.",
+		"completion_text": "I used the key to open the mausoleum in the Commonlands.",
+		"stages": [
+			{
+				"starter_text": "I need to find the mausoleum that this key unlocks.",
+				"completion_text": "I found the mausoleum related to the key."
+			},
+			{
+				"starter_text": "I need to enter the Chamber of Suffering.",
+				"completion_text": "I have entered the Chamber of Suffering."
+			}
+		]
 	}
 ]

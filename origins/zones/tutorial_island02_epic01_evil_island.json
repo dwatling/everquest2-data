@@ -1,0 +1,63 @@
+{
+  "name": "The Circle of Elders",
+  "category": "Isle of Refuge",
+  "subcategory": "Dungeon",
+  "levels": "5-8",
+  "maps": [
+    {
+      "zonerect": "-17.00,-20.00,18.00,21.00"
+    }
+  ],
+  "connections": [
+    {
+      "key": "tutorial_island02_evil"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Breeze",
+      "locations": [
+        "-10.37,0.01,-3.77"
+      ]
+    },
+    {
+      "name": "Kayl of the Circle",
+      "utterances": [
+        "Noooooooo!"
+      ]
+    },
+    {
+      "name": "Old Bruiser",
+      "locations": [
+        "-4.00,0.00,-0.00"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -2026385022 1663615163:Old Bruiser's Claw\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Rush",
+      "locations": [
+        "-9.15,0.00,-3.92"
+      ]
+    },
+    {
+      "name": "Tayil N'Velex",
+      "utterances": [
+        "I knew we'd find you, Kayl. I see you've been doing well for yourself. Too bad your treasures are about to become mine!",
+        "That's not important, Qeynosian. What is important is that your days upon Norrath are at an end. Prepare to die!",
+        "Well done, <player name>. That fool Kayl had no idea what was coming! The Tunarians are finished on this island.",
+        "Yes, our efforts have been a success. The island is ours, and so is this fine assortment of valuables! The Overlord will hear of your bravery, <player name>. As promised, here is a reward that will  prove useful in your future adventures."
+      ]
+    },
+    {
+      "name": "a Tunarian elder",
+      "locations": [
+        "-8.82,0.00,0.78"
+      ]
+    }
+  ]
+}

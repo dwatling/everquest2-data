@@ -1,0 +1,1333 @@
+{
+  "name": "Stormhold",
+  "category": "Karan",
+  "subcategory": "Public",
+  "levels": "16-27",
+  "maps": [
+    {
+      "name": "Top Floor",
+      "index": 0,
+      "zonerect": "-132.00,-231.00,173.00,126.00",
+      "heightmin": -9
+    },
+    {
+      "name": "Quarters",
+      "index": 1,
+      "zonerect": "-132.00,-231.00,173.00,126.00",
+      "heightmin": -35,
+      "heightmax": -9
+    },
+    {
+      "name": "Dungeon",
+      "index": 2,
+      "zonerect": "-132.00,-231.00,173.00,126.00",
+      "heightmin": -57,
+      "heightmax": -35
+    },
+    {
+      "name": "Cavern",
+      "index": 3,
+      "zonerect": "-177.00,-163.00,-16.00,76.00",
+      "heightmax": -35
+    }
+  ],
+  "connections": [
+    {
+      "key": "antonica_tlp",
+      "location": "-29.79,22.57,43.90"
+    },
+    {
+      "key": "befallen_epic01"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "an anguished prisoner",
+      "levelRange": "25",
+      "difficulty": "heroic",
+      "locations": [
+        "81.57,-45.71,-148.18",
+        "45.84,-52.15,-161.17"
+      ],
+      "utterances": [
+        "Seek death and it finds you.",
+        "Your blood calls to me.",
+        "You've shaken the dust from my bones.",
+        "Your eyes are so pretty."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Archaeologist Elurad",
+      "utterances": [
+        "Hail adventurer!  You wouldn't happen to be interested in fortune and glory, would you?"
+      ]
+    },
+    {
+      "name": "Archiovianix the Scion of Darkness",
+      "levelRange": "23",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "73.84,4.27,-96.98"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1365385384 1432105181:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Battlepriest Alexandria",
+      "levelRange": "23",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-49.29,-24.82,-74.68"
+      ],
+      "utterances": [
+        "Seek Death and it finds you."
+      ]
+    },
+    {
+      "name": "Battlepriest Greyhorn",
+      "levelRange": "23",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-40.08,-24.49,-75.32"
+      ],
+      "utterances": [
+        "Your eyes are so pretty."
+      ]
+    },
+    {
+      "name": "a blackblood ooze",
+      "levelRange": "27",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "128.36,-49.07,-19.45",
+        "125.16,-50.83,-27.56",
+        "130.66,-50.06,-28.35"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1365385384 1432105181:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a blackblood salamander",
+      "levelRange": "26",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "140.00,-48.44,51.00",
+        "139.49,-50.79,57.93"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1810729564 1777972798:reptile meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Blacksmith Brigg",
+      "levelRange": "20",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-133.00,-1.06,-46.99"
+      ]
+    },
+    {
+      "name": "a bone blood arcanist",
+      "levelRange": "27",
+      "difficulty": "heroic^",
+      "locations": [
+        "66.93,-63.48,-60.18"
+      ],
+      "utterances": [
+        "Bag o' blood, bag o' blood, gonna burst!"
+      ]
+    },
+    {
+      "name": "a boneblood fisherman",
+      "levelRange": "26",
+      "difficulty": "heroic^^",
+      "locations": [
+        "111.15,-72.86,-86.88",
+        "83.53,-63.35,-125.18"
+      ],
+      "utterances": [
+        "Bag o' blood, bag o' blood, gonna burst!",
+        "Lossa bones coming at me!",
+        "You no supposed to win!",
+        "Haha!  Dinner!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a bone blood imp",
+      "levelRange": "27",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "87.42,-62.48,-60.99",
+        "69.26,-63.34,-57.82"
+      ],
+      "utterances": [
+        "Haha!  Dinner!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1311630067 965320946:a goblin eye\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a bone blood lookout",
+      "levelRange": "26",
+      "difficulty": "heroic",
+      "locations": [
+        "42.40,-45.63,10.83",
+        "110.13,-56.20,12.05",
+        "95.17,-69.14,-113.92",
+        "72.68,-64.63,-146.47",
+        "103.61,-45.54,-13.61"
+      ],
+      "utterances": [
+        "Lossa bones coming at me!",
+        "Bag o' blood, bag o' blood, gonna burst!",
+        "Haha!  Dinner!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a bone blood soldier",
+      "levelRange": "26",
+      "difficulty": "heroic^^",
+      "locations": [
+        "65.26,-59.94,-93.62"
+      ],
+      "utterances": [
+        "Haha!  Dinner!",
+        "Lossa bones coming at me!"
+      ]
+    },
+    {
+      "name": "a caveroot horror",
+      "levelRange": "20",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "6.96,-24.86,-120.64"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1950789536 -565531029:wooden splinter\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "The Char Fiend",
+      "levelRange": "17",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "83.05,6.27,-160.38"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1925395467 -1686408835:charred tinder\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Chest Terror",
+      "levelRange": "24",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-97.89,-32.00,-162.72"
+      ]
+    },
+    {
+      "name": "a condensed mist",
+      "levelRange": "21",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "23.33,-24.80,-120.00"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1365385384 1432105181:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a cornered kohlrat",
+      "levelRange": "19",
+      "locations": [
+        "-116.50,1.97,-85.19"
+      ]
+    },
+    {
+      "name": "The Corpse Hunter",
+      "levelRange": "25",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "63.05,-56.00,-123.00"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a crazed ghoul",
+      "levelRange": "20",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "79.85,-46.00,-152.82"
+      ]
+    },
+    {
+      "name": "a crazed kohlrat",
+      "levelRange": "18",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-128.85,4.99,-110.00"
+      ]
+    },
+    {
+      "name": "a crushed librarian",
+      "locations": [
+        "-105.62,-32.0,-157.8"
+      ]
+    },
+    {
+      "name": "a defiled acolyte",
+      "levelRange": "24",
+      "difficulty": "heroic^^",
+      "locations": [
+        "77.50,-16.57,-18.10",
+        "85.40,-16.57,-10.20",
+        "97.37,-16.57,-8.55",
+        "91.47,-16.08,-5.97",
+        "70.82,-21.57,17.88",
+        "44.08,-21.57,23.49",
+        "121.40,-24.72,-12.65"
+      ],
+      "utterances": [
+        "Your blood calls to me.",
+        "Your eyes are so pretty.",
+        "Final death comes at last.",
+        "You've shaken the dust from my bones.",
+        "Seek death and it finds you.",
+        "I'm shattered and broken."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a defiled bishop",
+      "levelRange": "20",
+      "difficulty": "heroic",
+      "locations": [
+        "67.28,5.00,-77.33"
+      ]
+    },
+    {
+      "name": "a defiled blacksmith",
+      "levelRange": "19",
+      "difficulty": "heroic^",
+      "locations": [
+        "-134.77,-1.03,-43.14",
+        "-134.00,-1.11,-50.00"
+      ],
+      "utterances": [
+        "I will  slowly strip the fleshy tissue from your body!",
+        "Now you've made me hungry!",
+        "You cannot stop us all!"
+      ]
+    },
+    {
+      "name": "a defiled cavalier",
+      "levelRange": "24",
+      "difficulty": "heroic^^",
+      "locations": [
+        "44.73,-24.82,-55.61",
+        "39.32,-24.82,-53.78",
+        "44.48,-24.82,-64.39",
+        "79.15,-16.57,-19.89",
+        "81.61,-16.57,-13.98",
+        "73.63,-16.57,-27.54",
+        "87.11,-16.57,-11.96",
+        "70.94,-21.57,23.05",
+        "48.06,-21.57,19.52",
+        "112.91,-18.72,-29.98",
+        "121.80,-24.72,-20.78",
+        "120.80,-24.72,-11.63",
+        "34.27,-20.82,-46.91"
+      ],
+      "utterances": [
+        "You've shaken the dust from my bones.",
+        "Your blood calls to me.",
+        "Your eyes are so pretty.",
+        "Seek death and it finds you.",
+        "Final death comes at last.",
+        "Rest in peace.",
+        "I'm shattered and broken."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 159,
+      "drop_coin_max": 159
+    },
+    {
+      "name": "a defiled crusader",
+      "levelRange": "23",
+      "difficulty": "heroic",
+      "locations": [
+        "23.32,-24.82,-56.04",
+        "-90.11,-24.74,-69.05"
+      ],
+      "utterances": [
+        "Your blood calls to me."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a defiled jailor",
+      "levelRange": "20",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "23.56,-48.00,-128.99"
+      ]
+    },
+    {
+      "name": "a defiled keeper",
+      "levelRange": "17",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "116.87,5.00,-90.74"
+      ],
+      "utterances": [
+        "Final death comes at last.",
+        "Your eyes are so pretty.",
+        "You've shaken the dust from my bones."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a defiled knight",
+      "levelRange": "20",
+      "difficulty": "heroic",
+      "locations": [
+        "76.96,5.00,-87.80",
+        "83.15,5.02,-108.96",
+        "84.33,5.00,-102.87",
+        "-155.00,-16.02,-91.00",
+        "-100.85,4.00,-93.47",
+        "-54.66,8.60,-78.91",
+        "-45.84,7.60,-86.63",
+        "-84.22,4.59,-67.00",
+        "-78.00,4.59,-67.00",
+        "-82.51,-24.82,-98.04"
+      ],
+      "utterances": [
+        "Your eyes are so pretty.",
+        "Seek death and it finds you.",
+        "Rest in peace.",
+        "Final death comes at last."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 103,
+      "drop_coin_max": 103
+    },
+    {
+      "name": "a defiled lancer",
+      "levelRange": "19",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-114.96,-0.01,-88.00",
+        "-56.22,5.00,-110.76",
+        "-48.87,1.99,-94.62"
+      ]
+    },
+    {
+      "name": "a defiled locksmith",
+      "levelRange": "19",
+      "difficulty": "heroic^^",
+      "utterances": [
+        "Feed on the fallen after we are victorious.",
+        "I will  slowly strip the fleshy tissue from your body!"
+      ],
+      "drop_coin_min": 32,
+      "drop_coin_max": 32
+    },
+    {
+      "name": "a defiled protector",
+      "levelRange": "20",
+      "difficulty": "heroic",
+      "locations": [
+        "-74.42,4.91,-157.49",
+        "-69.24,4.91,-157.63"
+      ],
+      "utterances": [
+        "Rest in peace."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a defiled sentry",
+      "levelRange": "15",
+      "difficulty": "heroic",
+      "locations": [
+        "-23.95,7.76,-8.82",
+        "-20.85,7.50,-31.28",
+        "-21.86,7.50,-43.21",
+        "-28.54,8.76,-80.61",
+        "-28.48,8.76,-108.72",
+        "-16.97,8.76,-99.74",
+        "-12.94,8.76,-109.99",
+        "-24.51,8.76,-123.93",
+        "-22.22,14.53,-123.61",
+        "18.89,5.00,-118.61",
+        "7.33,5.00,-78.76"
+      ],
+      "utterances": [
+        "Your eyes are so pretty.",
+        "Your blood calls to me.",
+        "Rest in peace.",
+        "I'm shattered and broken.",
+        "Final death comes at last.",
+        "Seek death and it finds you.",
+        "You've shaken the dust from my bones."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a defiled squall",
+      "levelRange": "23",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-71.65,-32.00,-137.88",
+        "-107.60,-32.00,-164.00"
+      ],
+      "utterances": [
+        "Your eyes are so pretty.",
+        "Seek death and it finds you."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a defiled squire",
+      "levelRange": "15",
+      "difficulty": "heroic",
+      "locations": [
+        "30.01,5.00,-107.26",
+        "39.64,5.00,-97.80",
+        "42.26,5.00,-113.79",
+        "52.51,4.95,-99.01",
+        "55.22,4.86,-84.05",
+        "44.16,5.00,-80.94",
+        "30.29,5.00,-83.62",
+        "18.85,5.00,-78.00",
+        "72.25,5.00,-84.83",
+        "66.87,5.07,-114.26",
+        "89.70,5.00,-102.35",
+        "118.96,5.00,-101.64",
+        "112.22,5.00,-93.79",
+        "29.72,1.89,-16.58"
+      ],
+      "utterances": [
+        "Final death comes at last.",
+        "That pile of bones was my friend!",
+        "You cannot eliminate us!",
+        "Brains! It's what's for dinner.",
+        "You've shaken the dust from my bones.",
+        "Your eyes are so pretty.",
+        "Seek death and it finds you.",
+        "Your blood calls to me.",
+        "I'm shattered and broken.",
+        "Rest in peace."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -663082198 781057701:plain crystal shard\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a defiled storm lord",
+      "levelRange": "25",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "7.82,-47.03,-100.50",
+        "16.82,-47.00,-90.25",
+        "18.27,-46.98,-107.97"
+      ],
+      "utterances": [
+        "Your blood calls to me.",
+        "Your eyes are so pretty.",
+        "Final death comes at last.",
+        "Seek death and it finds you."
+      ]
+    },
+    {
+      "name": "a defiled torrent",
+      "levelRange": "22",
+      "difficulty": "heroic^^",
+      "locations": [
+        "-58.59,-25.85,-58.00",
+        "-53.56,-24.79,-157.05",
+        "-56.87,-24.8,-128.03",
+        "-56.39,-24.79,-121.65",
+        "-44.17,-24.79,-121.02",
+        "-44.23,-24.79,-127.93",
+        "-42.11,-24.79,-115.06"
+      ],
+      "utterances": [
+        "Your blood calls to me."
+      ]
+    },
+    {
+      "name": "a deranged tormentor",
+      "levelRange": "20",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "51.83,-51.00,-158.25"
+      ]
+    },
+    {
+      "name": "a dirt crawler",
+      "levelRange": "22",
+      "difficulty": "heroic^^",
+      "locations": [
+        "73.84,-43.00,-69.40"
+      ]
+    },
+    {
+      "name": "a dust crawler",
+      "levelRange": "16",
+      "difficulty": "heroic^^",
+      "locations": [
+        "-103.89,4.99,-110.06"
+      ]
+    },
+    {
+      "name": "a fanatic inquisitor",
+      "levelRange": "25",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "76.00,-46.00,-128.96",
+        "68.32,-51.44,-177.83"
+      ],
+      "utterances": [
+        "Your eyes are so pretty.",
+        "Seek death and it finds you.",
+        "Rest in peace."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a fascinated prisoner",
+      "levelRange": "25",
+      "locations": [
+        "89.84,-48.00,-173.79",
+        "92.59,-47.79,-168.55"
+      ],
+      "utterances": [
+        "Your eyes are so pretty.",
+        "Seek death and it finds you.",
+        "Rest in peace.",
+        "You've shaken the dust from my bones."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a feign zombie",
+      "levelRange": "23",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "62.31,-16.57,-47.51",
+        "60.69,-16.57,-30.85",
+        "0.3,-24.8,-137.51",
+        "8.31,-24.82,-138.53",
+        "0.73,-24.82,-103.55",
+        "8.85,-24.8,-103.91"
+      ]
+    },
+    {
+      "name": "a fetid goo",
+      "locations": [
+        "84.39,4.75,-56.11",
+        "89.21,4.36,-61.22",
+        "89.73,4.38,-54.09"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1700581584 -1564337946:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a gelatinous cube",
+      "levelRange": "22",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-28.14,-24.79,-121.42",
+        "-24.16,-24.79,-127.34"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a ghoul canite",
+      "levelRange": "25",
+      "difficulty": "heroic^^",
+      "locations": [
+        "36.00,-47.00,-142.05",
+        "68.43,-51.24,-169.98",
+        "13.73,-47.03,-89.43"
+      ]
+    },
+    {
+      "name": "Guard Captain Hess",
+      "locations": [
+        "-71.63,5.16,-159.38"
+      ],
+      "utterances": [
+        "Seek Death and it finds you."
+      ]
+    },
+    {
+      "name": "a guardian writ",
+      "levelRange": "24",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-107.88,-31.00,-139.00",
+        "-113.03,-31.17,-156.73",
+        "-124.13,-32.00,-170.12",
+        "-105.19,-31.99,-178.92"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -609966514 -849741780:a wrinkled enchanted page\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Gydak minion",
+      "levelRange": "28",
+      "difficulty": "heroic^",
+      "locations": [
+        "69.26,-46.00,-148.83"
+      ],
+      "utterances": [
+        "Now you've made me hungry!"
+      ]
+    },
+    {
+      "name": "Hephinntari the Scion of Destruction",
+      "levelRange": "25",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-68.22,-24.82,-97.86"
+      ]
+    },
+    {
+      "name": "a horde knight",
+      "levelRange": "23",
+      "difficulty": "heroic^^",
+      "locations": [
+        "74.25,-43.00,-95.63",
+        "94.57,-38.00,-96.45",
+        "61.04,-27.00,-101.18"
+      ],
+      "utterances": [
+        "Seek death and it finds you.",
+        "Your eyes are so pretty.",
+        "Your blood calls to me."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an ice storm",
+      "levelRange": "30",
+      "difficulty": "heroic^^",
+      "locations": [
+        "118.67,-24.49,2.90"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -137237487 -1986448147:a broken-tipped javelin\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2136571386 -285379860:fragmented metal\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a life leech",
+      "levelRange": "17",
+      "difficulty": "heroic",
+      "locations": [
+        "-13.74,8.76,-112.50",
+        "41.59,5.00,-100.97",
+        "34.64,5.00,-99.99",
+        "56.43,4.87,-95.65",
+        "17.96,5.00,-67.07",
+        "73.29,4.27,-93.41",
+        "89.75,5.00,-99.31",
+        "58.46,4.88,-104.94",
+        "39.60,5.00,-89.98",
+        "50.54,5.00,-85.05",
+        "12.32,5.00,-63.11",
+        "3.87,4.97,-58.42",
+        "5.11,4.96,-66.05",
+        "27.01,2.92,0.68",
+        "27.01,3.80,15.88"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1700581584 -1564337946:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Locksmith Jarl",
+      "levelRange": "20",
+      "difficulty": "heroic^^",
+      "locations": [
+        "-69.29,4.80,-50.10"
+      ],
+      "utterances": [
+        "You cannot stop us all!",
+        "I will  slowly strip the fleshy tissue from your body!"
+      ]
+    },
+    {
+      "name": "Lord Androus",
+      "levelRange": "20",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "64.97,5.00,-77.13",
+        "71.81,5.00,-79.85"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -86102345 -151067204:a ghost vile plasm \\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1534061037 -1167709766:a rusted iron belt\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "The Maelstrom",
+      "utterances": [
+        "Look into the storm for your power and strength.",
+        "The power of the storm has subsided"
+      ]
+    },
+    {
+      "name": "Magnimaclus",
+      "levelRange": "30",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "121.45,-24.49,7.93"
+      ]
+    },
+    {
+      "name": "Marksman Trainer Quintos",
+      "levelRange": "23",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "13.22,-24.82,-77.12"
+      ]
+    },
+    {
+      "name": "a mimic",
+      "levelRange": "23",
+      "difficulty": "heroic^",
+      "locations": [
+        "-98.03,-32.00,-166.17",
+        "-92.55,-32.00,-162.58"
+      ]
+    },
+    {
+      "name": "The Orator",
+      "levelRange": "27",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "90.29,-47.58,-169.02"
+      ],
+      "utterances": [
+        "Your transgressions must be cleansed from your souls. Repent now or be cleansed by the trials."
+      ]
+    },
+    {
+      "name": "Qelinatias the Scion of Pain",
+      "levelRange": "24",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-6.75,-25.30,-120.97"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1365385384 1432105181:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Quartermaster Berlon",
+      "utterances": [
+        "Vengeance ... who will avenge us?..."
+      ]
+    },
+    {
+      "name": "a rot zombie",
+      "levelRange": "20",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "56.44,-19.57,15.27",
+        "69.63,-19.57,15.36"
+      ]
+    },
+    {
+      "name": "a sand storm",
+      "locations": [
+        "119.67,-24.51,5.90"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1041976406 1193510754:an elemental planar seed\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1555822525 859721010:Opal Scrying Stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a scorched skeleton",
+      "levelRange": "16",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "89.07,5.00,-132.17",
+        "81.19,5.00,-131.91",
+        "82.11,4.98,-146.50",
+        "89.09,4.98,-154.51"
+      ],
+      "utterances": [
+        "I'm shattered and broken.",
+        "Your blood calls to me.",
+        "Final death comes at last.",
+        "Rest in peace.",
+        "Your eyes are so pretty."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a scrounging zombie",
+      "levelRange": "17",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "58.49,5.00,-135.76",
+        "44.24,5.00,-137.09",
+        "33.76,4.79,-133.54"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a sealed strongbox",
+      "levelRange": "24",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-89.17,-24.75,-75.07",
+        "-74.02,-32.00,-171.93",
+        "-76.32,-32.00,-183.92"
+      ]
+    },
+    {
+      "name": "Sir Valinayle",
+      "locations": [
+        "-33.28,13.58,20.47"
+      ],
+      "utterances": [
+        "This way, fair adventurer!  I hold the key to the riddle of hidden treasure.",
+        "Well, glad you made it finally.  I was beginning to wonder if you were going to show up at all!",
+        "Why do you think I called out to you?  I had foreseen your arrival, and now I must share my knowledge with you.  Are you not the great defender of Norrath?",
+        "Patience, my brave adventurer, patience. Soon, all of the riches of Stormhold will be yours. I ask that you perform a simple service on my behalf. Is that too much for one as powerful as you?",
+        "Wonderful! I knew you were my savior! Those ridiculous fire things are at it again!  They've destroyed everything with their evil hands.  My precious books were lost to them in a fire, and I want vengeance!",
+        "Thank you, my friend, thank you.  After you have vanquished them, please return to me, and the secret of the treasure of Befallen shall be yours! Did I say Befallen? I meant Stormhold... Ah how I miss Befallen... these places are so similar I keep getting them confused.",
+        "I'm afraid I cannot offer you anything yet, my friend.  Now, quit wasting my time and finish what you've begun!"
+      ]
+    },
+    {
+      "name": "a skeleton archer",
+      "levelRange": "23",
+      "difficulty": "heroic^^",
+      "locations": [
+        "5.90,-24.82,-73.47"
+      ]
+    },
+    {
+      "name": "a small life leech",
+      "levelRange": "15",
+      "difficulty": "heroic",
+      "locations": [
+        "-24.92,7.50,-20.88",
+        "-23.70,8.76,-67.28",
+        "-17.23,8.76,-69.31",
+        "-16.84,8.76,-77.73",
+        "-19.76,8.76,-83.62",
+        "-22.83,8.76,-105.85"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1700581584 -1564337946:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Tome of Deceit",
+      "levelRange": "24",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-122.23,-30.98,-135.83"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -609966514 -849741780:a wrinkled enchanted page\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Tumarinan the Scion of Suffering",
+      "levelRange": "27",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "28.71,-51.26,12.57"
+      ]
+    },
+    {
+      "name": "a tunneling zombie",
+      "levelRange": "20",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-83.97,3.28,-116.54",
+        "-78.50,3.65,-118.94",
+        "-51.38,5.00,-118.98",
+        "-94.55,5.00,-78.58",
+        "-77.10,8.87,-85.56",
+        "-104.64,8.59,-67.06"
+      ]
+    },
+    {
+      "name": "a wandering ghoul",
+      "levelRange": "19",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-118.53,0.82,-56.53"
+      ]
+    },
+    {
+      "name": "Watcher of the Horde",
+      "levelRange": "23",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "97.37,-38.00,-98.95"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -671644311 964395107:a plagued eyeball\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a water storm",
+      "levelRange": "30",
+      "difficulty": "heroic",
+      "locations": [
+        "120.67,-24.49,7.90",
+        "120.30,-24.72,-3.12",
+        "115.67,-24.72,1.90"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1592928225 1406414422:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a zombie handmaiden",
+      "levelRange": "22",
+      "difficulty": "heroic",
+      "locations": [
+        "-101.02,-25.16,-72.39"
+      ],
+      "utterances": [
+        "Why do you pester me?",
+        "I will  slowly strip the fleshy tissue from your body!"
+      ]
+    },
+    {
+      "name": "a zombie knight",
+      "levelRange": "20",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-104.51,4.99,-125.30",
+        "-106.88,4.91,-143.77",
+        "-110.00,4.91,-150.00",
+        "-94.09,4.91,-153.15",
+        "-94.47,4.91,-139.04",
+        "-65.01,4.91,-152.00",
+        "-79.32,4.91,-146.32",
+        "-65.06,4.91,-131.93",
+        "-71.39,5.00,-125.66"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -2064923497 207187187:plain blue spider\\/a",
+      "locations": [
+        "-109.64,-28.00,-170.18"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 833029593 -519945908:spotted grey spider\\/a",
+      "locations": [
+        "-23.73,9.50,-70.80",
+        "60.09,5.50,-107.61"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1578966196 228827806:spotted red spider\\/a",
+      "locations": [
+        "120.67,-24.00,3.90",
+        "-17.73,9.50,-57.01"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -428349703 805739470:striped red spider\\/a",
+      "locations": [
+        "39.17,5.50,-90.61"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1642303140 1492039782:unscathed barbarian bone fragment\\/a",
+      "locations": [
+        "57.63,5.50,-92.61",
+        "126.67,-20.00,7.90"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 794780686 1818657285:unscathed high elf bone fragment\\/a",
+      "locations": [
+        "-15.73,11.00,-84.58",
+        "125.67,-24.00,3.90"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -62997325 216594679:unscathed human bone fragment\\/a",
+      "locations": [
+        "28.14,3.50,4.00"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1663224442 1807596273:unscathed troll bone fragment\\/a",
+      "locations": [
+        "-121.64,-31.00,-168.02"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 4143156 -1829155952:weathered gnome bone fragment\\/a",
+      "locations": [
+        "28.14,4.50,14.00"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1033125265 -1342695463:weathered human bone fragment\\/a",
+      "locations": [
+        "44.09,5.50,-103.61",
+        "46.55,5.50,-90.61"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 82494251 1603283083:weathered ogre bone fragment\\/a",
+      "locations": [
+        "-17.73,9.50,-112.14",
+        "126.67,-24.00,0.90"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 792439665 1688635161:weathered wood elf bone fragment\\/a",
+      "locations": [
+        "-28.73,9.50,-75.96"
+      ]
+    }
+  ]
+}

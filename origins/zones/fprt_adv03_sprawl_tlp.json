@@ -1,0 +1,459 @@
+{
+  "name": "The Sprawl",
+  "category": "D'Lere",
+  "levels": "5-10",
+  "maps": [
+    {
+      "zonerect": "-185.04,-119.14,213.28,181.75"
+    }
+  ],
+  "connections": [
+    {
+      "key": "commonlands_tlp"
+    },
+    {
+      "key": "fprt_adv04_ruins_tlp"
+    },
+    {
+      "key": "fprt_hood01_tlp",
+      "location": "-104.92,-4.42,-52.17"
+    },
+    {
+      "key": "fprt_hood06_tlp",
+      "location": "-101.72,-7.00,-30.02"
+    },
+    {
+      "key": "fprt_sewer02"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Arcanist Tikkeri",
+      "utterances": [
+        "Our plan is sound, yes. It cannot fail.",
+        "Why do you approach me, outsider? You could never understand the ways of the Black Magi. Move along.",
+        "That would be telling. We want... information. If you have nothing of value, you are useless to me.",
+        "You speak of this currency, yet give no indication of its worth. Tell me what you know, and I will judge you fairly.",
+        "The Wheel? You know of the Wheel? Tell me what you know! The Marked must obtain this information. By hook or by crook, we will!",
+        "Crafty outsider. If you truly knew of the Wheel, you would not ask such a question. Begone, and trouble me no more."
+      ]
+    },
+    {
+      "name": "Brutemaster Tarden",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "46.75,-2.67,-30.60"
+      ],
+      "utterances": [
+        "The Giantslayers are the toughest gang around!",
+        "Don't bother me! I have important work to do!",
+        "Don't forget to pay me 30% of all your extortion income!",
+        "Don't forget that you all work for me!",
+        "Pathetic? How dare you speak to me that way! I lead the Giantslayers, the most powerful gang in Freeport! I know the Dreadnaughts, and you are no Dreadnaught.",
+        "Lazy? Sloppy? Nobody talks to me that way! You had best move along, unless you're ready for a whole lot of trouble!",
+        "OOOF! Hey, I wasn't ready!",
+        "ARGH! No fair, give me a chance to prepare!",
+        "UGH! Okay, okay, I give up. So I guess you really are a Dreadnaught after all.",
+        "No! Uh, I mean I've seen enough, thanks. Okay, I admit I haven't worked as hard to train my Giantslayers as I probably should. I'll get to work on it right away.",
+        "No need for that, friend! Tell Enforcer Kurdek that I've turned over a new leaf. The Giantslayers are really going to buckle down, I promise!",
+        "I meant next to the Dreadnaughts, of course! Everyone knows you guys are the toughest around."
+      ]
+    },
+    {
+      "name": "Crispin Luvinius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-83.18,-4.42,-51.2"
+      ],
+      "utterances": [
+        "Do you have a problem? You're gonna have one soon if you don't keep walking.",
+        "A problem solver, huh? You can talk the talk, but can you walk the walk? Yeah ... I got a problem. One of our customers isn't paying us for our \"services,\" if you know what I'm saying. Maybe you can fix this problem for us, huh?",
+        "Okay, here's the deal. The guy is a vagrant who lives out in the ruins, right?  We want to send the message that no one messes with us. You need to head south of here and do some dirty work to his buddies, understand?",
+        "Come back when you're done.",
+        "I knew you'd take care of 'em! Good show! Oh, and here's a bit-o-coin for all your hard work. Heh, heh.",
+        "Oh!  I recognize you.  Glad you came along ... yeah ... very glad.  I hope your uh ... services ... are available again because ... uh ... there's this little matter... and I'm too busy to take care of it.  Yes, too busy.",
+        "That's what I like to hear!  Remember that dirty vagrant you delivered the message to?  Rumor has it he's hiding among rogues and scoundrels from the other districts -- a gang called the Giantslayers.  And his ... brethren ... have gotten their feathers all ruffled and are planning to come here to ... pay court ... if you understand me.  They want to send a message to their leader. Now, I enjoy a good tussle as much as anyone, of course, but, uh ... we don't want to rob you of an opportunity to prove your fighting skills. So, why don't you go to the Giantslayers and tan their mangy hides for us?",
+        "Good, maybe you'll earn some respect with us.",
+        "I knew you'd take care of 'em!  Good show! Oh, and here's a bit-o-coin for all your hard work.  Heh, heh."
+      ]
+    },
+    {
+      "name": "a Dervish crook",
+      "levelRange": "8",
+      "locations": [
+        "-84.22,-4.24,40.72",
+        "-73.43,-4.42,59.73",
+        "-82.71,-4.24,50.55",
+        "-117.32,-4.34,102.05",
+        "-118.72,-4.17,107.27",
+        "-97.45,-4.24,112.13",
+        "-84.01,-4.24,35.64",
+        "-79.85,-4.42,66.56",
+        "-69.99,-4.31,109.68",
+        "-77.64,-4.39,110.23",
+        "-87.56,-4.24,110.61",
+        "-70.46,-4.42,99.54",
+        "-70.81,-4.42,90.78",
+        "-125.08,-4.17,98.53",
+        "-131.00,-4.29,93.56"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1088723457 1978282795:Darkwater Lance\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -693205793 -1139182362:guttersnipe great axe\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1704233954 -399835069:guttersnipe rapier\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 4,
+      "faction_changes": [
+        {
+          "name": "The Dervish Cutthroats",
+          "value": -100
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Dervish hoodlum",
+      "locations": [
+        "-80.80,-5.18,-15.60",
+        "-82.22,-4.77,-10.28",
+        "-95.34,-4.28,-47.05",
+        "-97.48,-4.28,-52.54",
+        "-73.49,-5.31,-24.00",
+        "-74.76,-5.31,-29.51",
+        "-85.86,-4.24,5.98",
+        "-85.96,-4.24,22.31",
+        "-84.70,-4.24,39.00",
+        "-80.57,-4.26,48.08",
+        "-78.70,-4.24,58.29",
+        "-74.59,-4.42,66.93",
+        "-70.20,-4.42,101.95",
+        "-92.33,-4.19,-41.01",
+        "-86.97,-4.24,11.15",
+        "-83.57,-4.76,-40.78"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 64130951 -2117807552:Boon of the Shadows (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -693205793 -1139182362:guttersnipe great axe\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 3,
+      "drop_coin_max": 4,
+      "faction_changes": [
+        {
+          "name": "The Dervish Cutthroats",
+          "value": -100
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a Dervish hooligan",
+      "locations": [
+        "-67.99,-5.31,-25.05",
+        "-82.00,-4.98,-12.23",
+        "-92.37,-4.36,-43.67",
+        "-77.04,-5.31,-30.07",
+        "-77.04,-5.31,-23.33",
+        "-96.65,-4.28,-58.00",
+        "-83.90,-4.24,20.49",
+        "-92.51,-4.42,14.35",
+        "-73.77,-4.42,17.53"
+      ],
+      "drop_coin_min": 14,
+      "drop_coin_max": 14,
+      "faction_changes": [
+        {
+          "name": "The Dervish Cutthroats",
+          "value": -100
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "name": "a dune scorpion",
+      "locations": [
+        "-71.45,-5.31,-25.93"
+      ]
+    },
+    {
+      "name": "Enforcer Kurdek",
+      "purpose": "Dreadnaught",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-83.78,-4.68,-36.07"
+      ],
+      "utterances": [
+        "The Dreadnaughts control the Sprawl!",
+        "You must be braver than you look to disturb me! State your business, and do it quickly. That is, unless you're here looking to start trouble.",
+        "I'm Enforcer Kurdek of the Dreadnaughts. We are the fist of the Overlord, striking fear into the hearts of his rivals and crushing the bones of his enemies. The Militia may guard the walls of Freeport, but we rule its streets.",
+        "We do rule over all the gangs of Freeport, but the Dreadnaughts are a lot more than that. We keep the smaller gangs in line and maintain order on the streets of Freeport. We have a proud history dating back centuries.",
+        "The Dreadnaughts are made up of bruisers, which everyone knows are the toughest combatants in all of Norrath. We hone our bodies into lethal weapons, capable of both dishing out and sustaining heavy amounts of damage.",
+        "Once there was a weak caste of monks that lived here in Freeport called the Ashen Order. They were lazy anarchists, stubbornly refusing the Overlord's noble efforts to unite our city and lead us into the future. Fortunately, a number of their more enlightened members supported the Overlord and wanted to make something more of themselves.",
+        "Originally, yes. But these enlightened members of the order wanted to become something greater than they were. See, the Ashen Order had strength, but they refused to use it for anything productive. They would rather lay around in their dojo than help embrace Freeport's future. They allowed themselves to become weak and corrupt.",
+        "The Overlord did his best to reform them, but they were just too far gone. Finally he had no choice but to drive the Ashen Order from Freeport. They scurried off to the desert with their tails between their legs, never daring to set foot in our great city again.",
+        "Those who were wisest and strongest remained behind in Freeport, determined to build a new order that would be a part of our city's grand destiny. With the Overlord's blessing, the Dreadnaughts were formed. The discipline that the Ashen Order lost was restored, and combined with a new, tougher style of combat. That's why bruisers are so much better than monks at everything they do.",
+        "My job is to watch over the Sprawl and make sure the gangs that control it stay in line. We can't allow their petty rivalries to interfere with the Dreadnaughts' control.",
+        "There are three gangs that operate here. First is the Giantslayers, a bunch of ruffians who used to be little more than common thugs, though they liked to think they were in charge. The Dreadnaughts got tired of their bragging, so we taught them a lesson. Now they answer to us. Their best members may be allowed to join our order some day. I should warn you, if you mess with the Giantslayers, the Dreadnaughts will take notice.",
+        "Next are the Black Magi, an order of ratonga mages that appeared as Norrath was being torn apart by the Rending. Little is known about them, though they mostly keep to themselves. They seem to hate the Giantslayers, though. I'm under orders to keep a close eye on them.",
+        "Last, but most troubling, is the presence of the Dervish Cutthroats. They are a gang of criminals who work illegally out of a distant corner of the Commonlands. They seem to have taken over a very weak gang that used to hang out here, the Guttersnipes. One of my main duties is to find out what the Dervish want. Their presence here is a clear danger to Freeport.",
+        "Right to the point, eh? I like that. Well, you can lend a hand in checking on some of these gangs, making sure they're keeping in line.",
+        "I assigned one of our best trainers, an ogre named Durbok, to teach the Giantslayers some of our combat tactics. I need to you go to him and get a report on the progress of the trainees. Tell him I sent you so that he'll cooperate.",
+        "Trainer Durbok can be found ahead and to the right. Just follow the path to the west and north. You'll pass a whole lot of Giantslayers, but don't let them intimidate you. Remember, you're on official Dreadnaught business!",
+        "I'd better not catch any Ashen Order monks sneaking around here!",
+        "Did you get that progress report from Trainer Durbok yet?",
+        "That's what I suspected! Did he tell you why?",
+        "It's time to remind that fool Tarden of his responsibilities. Say, how would you like to play the role of a Dreadnaught Enforcer for a day?",
+        "Time to have a little fun with this buffoon! Go find the boss of the Giantslayers, Brutemaster Tarden. He is probably walking back and forth through the area where his gang hangs out. Confront him and tell him you're one of the Dreadnaughts. Let him know we're tired of his greed and laziness, and that he better get busy training his people.",
+        "Use whatever means are necessary to teach him a lesson. Don't be afraid to push him around, because all these Giantslayers understand is violence. Now get going!",
+        "Have you confronted Brutemaster Tarden and got him back on track yet?",
+        "Good work! Don't worry about roughing Tarden up. He had it coming to him! He won't be so quick to ignore orders from his superiors in the future.",
+        "I could really use your assistance in checking up on the other gangs here in the Sprawl. Will you lend me a hand?",
+        "Har! That's the spirit! I think you might make a good Dreadnaught some day. Okay, here's what I want you to do. Head past the Giantslayers and keep going south past the gateway to the Commonlands. You'll be in the heart of the Black Magi, those sneaky little ratonga.",
+        "Far back among the burned-out houses they inhabit is one of their leaders, a rat named Tikkeri. Find her and see if she'll talk to you. The Black Magi are extremely secretive, so I'm not sure if Tikkeri will trust you.",
+        "Well, she won't respond if she thinks you're there on Dreadnaught business. Hmm... Wait, I have an idea! Tell her you've got information on \"the wheel.\"",
+        "You don't need to know what it means. Maybe you'll find out someday. Anyhow, just tell her you might be willing to trade information on \"the wheel\" if you know you can trust her. That might get Tikkeri to open up. Come back after you've learned something useful from her.",
+        "Oh, just a word of warning. The Black Magi are fair game if you want to fight any of them, but it will be a lot harder for you to reach Tikkeri if you make an enemy out of their gang. I suggest you finish this task before you do much ratonga hunting.",
+        "Did you find Tikkeri and learn anything about the Black Magi?",
+        "Well, something is better than nothing. What did she say?",
+        "She said \"the Marked\"? That's very interesting. I've heard rumors of other ratonga around Norrath muttering that phrase in veiled whispers. It seems like something big might be brewing. I'll let my superiors back in the city know what you found out. Well done!",
+        "The largest gang here in the Sprawl is without question the most dangerous. The Dervish Cutthroats are scum, pure and simple. They need to be taught a lesson.",
+        "To the south of here you'll find the streets lined with those accursed Dervish. These lowlifes are nowhere near as tough as their superiors in the Commonlands, but beware their numbers. I need you to thin them out a bit and show them that the Dreadnaughts are still in control around here.",
+        "Take out some of the Dervish hooligans, hoodlums, and crooks. You may have to fight your way deeper in to find some of them. Watch your back, because the Dervish don't fight fairly. But then again, neither should you! Return to me when you've taught them a lesson and I'll reward you handsomely on behalf of the Dreadnaughts.",
+        "Did you teach those filthy Dervish a lesson?",
+        "Nice work! Those Dervish will know better than to mess with us in the future. I must say, I was skeptical when I first saw you, but you've proven yourself to be Dreadnaught material! You've really helped us out here in the Sprawl, so accept this reward on behalf of the Dreadnaughts.",
+        "I've got to get back to my own duties. I told Trainer Durbok that you might be interested in lending a hand in keeping his training ground clear, so you might want to have a word with him. You could also strike out on your own and clear some of the thugs from these mean streets. But like I warned you before, if you mess with the Giantslayers you will draw the attention of the Dreadnaughts.",
+        "Don't linger here too long, adventurer. I just got word of something major happening in the Ruins of old Freeport. You need to get there as soon as possible and lend a hand in defending the city.",
+        "Your best route is to go back through the city, either through Big Bend or the Scale Yard. Head to the docks, then ring the bell to travel outside Freeport proper. Head to the Ruins and seek out a friend of mine in the Freeport Militia, Captain Arellius. Get moving!",
+        "I know of others in Freeport who could use your help as well. Custodian Zaddar in the Graveyard is investigating a rise in undead activity, and Inquisitor Throson in the Sunken City is delving into an ancient mystery. Both could use the aid of a hero like you, <player name>.",
+        "Inquisitor Thorson in the Sunken City needs help investigating ancient mysteries that threaten Freeport's safety. To travel to the Sunken City, use the mariner's bell on the docks of your home district to travel outside Freeport and chose Sunken City as your destination.",
+        "Custodian Zaddar in the Graveyard is trying to determine what's behind a recent increase in undead attacks. Use the mariner's bell on the docks of your home district to travel to Stonestair Byway. Head west until you see a passage to the south. The gate at the end leads to the Graveyard."
+      ]
+    },
+    {
+      "name": "Gatekeeper Malora",
+      "utterances": [
+        "Danger lies ahead! Beware!"
+      ]
+    },
+    {
+      "name": "Gatekeeper Malren",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-131.62,-4.27,94.24"
+      ],
+      "utterances": [
+        "Beyond this gate lies a warzone! Beware!",
+        "Danger lies ahead, citizen!",
+        "Be wary, adventurer. Great danger lies beyond this gate!",
+        "This gate leads to the Freeport Ruins, which is currently under attack. If you seek to travel there, I highly recommend you go back through Big Bend or the Scale Yard instead.",
+        "Make your way to the docks in either district, then use the bell to summon transport outside of Freeport. You can select the Ruins as your destination.",
+        "Travel through this gate isn't very safe unless you bring a group of friends with you. Some very powerful orcs are clashing with the Freeport Militia just beyond it. Entering the Ruins by way of the docks is a much wiser approach.",
+        "Heed my warning! Beware the danger ahead, adventurer!"
+      ]
+    },
+    {
+      "name": "a Giantslayer basher",
+      "locations": [
+        "-46.72,-4.28,-39.06",
+        "-27.25,-2.73,-50.75",
+        "-14.22,-2.53,-50.80"
+      ],
+      "utterances": [
+        "Next time Durbok's back is turned, he's going to get what's coming to him!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Ashen Order",
+          "value": 50
+        },
+        {
+          "name": "The Ashen Disciples",
+          "value": -100
+        },
+        {
+          "name": "The Dreadnaughts",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Liege Aquila",
+      "locations": [
+        "-124.76,-4.42,88.9"
+      ],
+      "utterances": [
+        "Greetings, citizen. Are you prepared to do your duty for the Freeport Militia?",
+        "The gangs here in the Sprawl are out of control! Clearly it's time that the Militia took control of the situation. The Dreadnaughts aren't doing enough to maintain order.",
+        "The Dreadnaughts are supposed to have the run of this place, but in my opinion things would be better if the Militia came here in force and took over. Are you willing to help us do that?",
+        "We need to handle some of these Dervish. They've infested the Sprawl from their bandit camps in the Commonlands. We've got to show them who's in charge around here! I think it will take a few sweeps to really strike fear into them.",
+        "Glad to hear it. Defeat them and return to me for your payment.",
+        "So, did you strike some fear into the hearts of the Dervish?",
+        "Well done. You show some potential as a worthy servant of the Freeport Militia. Return to me when you are ready for another assignment.",
+        "You've done well for the Freeport Militia so far, but your job isn't over yet, you know."
+      ]
+    },
+    {
+      "name": "Loria",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-95.91,-4.19,-63.36"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ]
+    },
+    {
+      "name": "Sasha",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-120.53,-4.42,85.07"
+      ],
+      "utterances": [
+        "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor are you?",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ]
+    },
+    {
+      "name": "a shoreside asp",
+      "locations": [
+        "-71.21,-5.31,-27.92"
+      ]
+    },
+    {
+      "name": "Trainer Durbok",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-23.88,-2.67,-12.08"
+      ],
+      "utterances": [
+        "Tarden's laziness has been rubbing off on you Giantslayers!",
+        "Hey! Can't you see I'm busy training these recruits how to fight?",
+        "That figures. Kurdek can't be bothered to ask me himself, eh? Fine, I suppose I can tell you instead.",
+        "There are a few worthwhile Giantslayers here, but for the most part they're too sloppy to ever become Dreadnaughts. I don't really blame them, though. Clearly they aren't getting the proper direction.",
+        "The one who claims to be the leader of the Giantslayers is a worthless barbarian named Brutemaster Tarden. I think he cares more about extorting money from the locals than he does about making sure his gang controls the Black Magi and the Dervish.",
+        "I recommend that we strike a little fear into Tarden so that he remembers who's really in charge around here. Tell Enforcer Kurdek that it's time to teach that lazy Giantslayer a lesson he won't soon forget."
+      ]
+    },
+    {
+      "name": "a wild dog",
+      "locations": [
+        "-0.86,-2.41,-16.54",
+        "-6.13,-2.67,1.92",
+        "-54.23,-2.83,83.18",
+        "-22.42,-2.47,86.44",
+        "24.00,2.26,77.74",
+        "-25.83,-2.66,33.15"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1369930651 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM 1331551958 -1699344718:chipped shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -230125234 722129119:plain white moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1341170799 308633262:scuffed shard of abjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -672434816 285511061:shattered dark elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1004669040 447686829:shattered troll bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 721330325 -211567629:spotted brown moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -517034753 1805225270:spotted tan moth\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the creature den"
+    },
+    {
+      "name": "the dusty ore"
+    },
+    {
+      "name": "the excavated stone"
+    },
+    {
+      "name": "the feeble roots"
+    },
+    {
+      "name": "the felled arbor"
+    },
+    {
+      "name": "the ravaged natural garden"
+    }
+  ]
+}

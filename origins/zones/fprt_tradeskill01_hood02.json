@@ -1,0 +1,97 @@
+{
+  "name": "Nepeta Cataria",
+  "removed": "lu62",
+  "category": "D'Lere",
+  "connections": [
+    {
+      "key": "fprt_hood02_tlp",
+      "location": "6.49,0.79,-3.43"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Bahina Adeola",
+      "purpose": "Rush Orders",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-2.03,-0.19,-4.02"
+      ],
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Jekath Veris",
+      "purpose": "Tradeskill Tutorial",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-16.4,-0.17,-3.93"
+      ],
+      "utterances": [
+        "Hello, friend!  I'm here to teach interested people a little bit about how to harvest crafting materials, and how to craft tradeskilled items.  Are you interested?"
+      ]
+    },
+    {
+      "name": "Kupel Inisem",
+      "purpose": "Broker",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-2.06,-19.59,13.56"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "In spite of the cost of living, it's still quite a popular item."
+      ]
+    },
+    {
+      "name": "Tainy Nyril",
+      "purpose": "Work Orders",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-2.99,-0.19,-2.79"
+      ],
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Wholesaler Kali Uzima",
+      "purpose": "Wholesaler",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-2.28,-0.18,8.69"
+      ],
+      "utterances": [
+        "You show interest in the crafting trade, good.  Freeport can always use talented artisans within the walls of our great city.  I can help you get started and offer you some of the basic recipes at no charge.  Would you be interested?",
+        "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor, are you?",
+        "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor are you?"
+      ],
+      "store_template": "wholesaler"
+    }
+  ]
+}

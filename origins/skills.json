@@ -1,0 +1,171 @@
+{
+    "Adventure": {
+        "Combat": [
+            {
+                "name": "Aim",
+                "description": "This is how well you use crossbows."
+            },
+            {
+                "name": "Crushing",
+                "description": "This is how well you use hammers, maces, staves, and even your own fists."
+            },
+            {
+                "name": "Focus",
+                "description": "This is how well you maintain your concentration in battle. This will help you cast spells or perform combat arts while under attack."
+            },
+            {
+                "name": "Piercing",
+                "description": "This is how well you use daggers and spears."
+            },
+            {
+                "name": "Poisoning",
+                "description": ""
+            },
+            {
+                "name": "Ranged",
+                "description": ""
+            },
+            {
+                "name": "Slashing",
+                "description": ""
+            }
+        ],
+        "Spellcasting": [
+            {
+                "name": "Disruption",
+                "description": "This reduces your target's resistance to your Disruption spells."
+            },
+            {
+                "name": "Ministration",
+                "description": "This is how well you use spells that heal and cure."
+            },
+            {
+                "name": "Ordination",
+                "description": "This is how well you use spells that augment your friends and weaken your enemies."
+            },
+            {
+                "name": "Subjugation",
+                "description": "This is how well you use spells to command pets and control monsters."
+            }
+        ],
+        "Avoidance": [
+            {
+                "name": "Defense",
+                "description": "This is how well you avoid physical attacks."
+            },
+            {
+                "name": "Parry",
+                "description": ""
+            }
+        ]
+    },
+    "Tradeskill": {
+        "Craftsman": [
+            {
+                "name": "Artistry",
+                "description": ""
+            },
+            {
+                "name": "Fletching",
+                "description": ""
+            },
+            {
+                "name": "Sculpting",
+                "description": ""
+            }
+        ],
+        "Outfitter": [
+            {
+                "name": "Metal Shaping",
+                "description": ""
+            },
+            {
+                "name": "Metalworking",
+                "description": ""
+            },
+            {
+                "name": "Tailoring",
+                "description": ""
+            }
+        ],
+        "Scholar": [
+            {
+                "name": "Artificing",
+                "description": ""
+            },
+            {
+                "name": "Chemistry",
+                "description": ""
+            },
+            {
+                "name": "Scribing",
+                "description": ""
+            }
+        ],
+        "Secondary Tradeskills": [
+            {
+                "name": "Adorning",
+                "description": "This allows you to create adornments from the component essences created by deconstructing regular items."
+            },
+            {
+                "name": "Experimentation",
+                "description": "Allows you to improve handcrafted items with risky experiments."
+            },
+            {
+                "name": "Tinkering",
+                "description": "This allows you to make Gadgets, Gizmos, and Doohickeys"
+            }
+        ]
+    },
+    "General": {
+        "Harvesting": [
+            {
+                "name": "Fishing",
+                "description": ""
+            },
+            {
+                "name": "Foresting",
+                "description": ""
+            },
+            {
+                "name": "Gathering",
+                "description": ""
+            },
+            {
+                "name": "Mining",
+                "description": "This is how well you mine for ore and minerals."
+            },
+            {
+                "name": "Transmuting",
+                "description": "This allows you to deconstruct used or unwanted items into their base essences, which can then be used by a transmuter to create adornments."
+            },
+            {
+                "name": "Trapping",
+                "description": "This is how well you catch small game animals."
+            }
+        ],
+        "General": [
+            {
+                "name": "Alcohol Tolerance",
+                "description": "This is how well you tolerate the effects of alcohol."
+            },
+            {
+                "name": "Disarm Trap",
+                "description": ""
+            },
+            {
+                "name": "Safe Fall",
+                "description": ""
+            },
+            {
+                "name": "Swimming",
+                "description": "This is how well you swim in water."
+            },
+            {
+                "name": "Tracking",
+                "description": ""
+            }
+        ],
+        "Language": []
+    }
+}

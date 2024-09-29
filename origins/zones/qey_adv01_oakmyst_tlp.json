@@ -1,0 +1,437 @@
+{
+  "name": "Oakmyst Forest",
+  "category": "Karan",
+  "levels": "5-10",
+  "maps": [
+    {
+      "zonerect": "-1177.50,-462.25,-605.39,-33.11"
+    }
+  ],
+  "connections": [
+    {
+      "key": "qey_village03"
+    },
+    {
+      "key": "qey_village04"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Bardrian Vorsuth",
+      "locations": [
+        "1073.08,-10.0,-383.93"
+      ],
+      "utterances": [
+        "What do ya need? I'm waiting for someone.",
+        "I see. Well, then listen up. We've got an issue here. We found this box, no post markings at all, and finally our curiosity forced us to open it. Inside was this... machine.",
+        "I have no idea. It looks to be some sort of power or speed variable control system, but that's just a rough guess. It could likely be plugged into any number of other devices, but by itself it isn't especially useful. That fact and the lack of markings on the box are what make it suspicious, and why we contacted Charlin.",
+        "Nope, but I figured this all was suspicious enough to get the guards interested."
+      ]
+    },
+    {
+      "name": "a clearwater frog",
+      "locations": [
+        "948.72,2.26,-236.70",
+        "958.97,3.64,-212.67",
+        "957.56,3.45,-218.37"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1329575188 1200982834:a vial of frog blood\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a corrupted dryad",
+      "locations": [
+        "916.08,16.19,-190.71",
+        "916.00,12.67,-170.44",
+        "950.65,4.80,-206.53",
+        "872.99,0.82,-192.73",
+        "938.42,3.74,-215.11",
+        "932.35,5.09,-204.64",
+        "902.84,3.21,-202.11",
+        "921.06,12.46,-170.31"
+      ],
+      "utterances": [
+        "Our darkness spreads. ",
+        "Bet you didn't think you'd run into me here. ",
+        "Going for a nice walk in the woods? ",
+        "Only I shall foul up this land. ",
+        "You are indeed strong, but you cannot stop our scourge.",
+        "My blood will continue to taint this land. ",
+        "My Death only furthers my goals."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 976091221 1459092375:Fabric Patch\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Empress Anassa",
+      "locations": [
+        "1006.99,13.22,-320.4"
+      ],
+      "utterances": [
+        "Greetings and welcome to our hollowed grove. What is it you seek?",
+        "You're the one Eunomia speaks of so highly. You served us well, but the corruption spoiling this forest still looms. We must destroy it!",
+        "The evil calls itself Rotweed and lurks in the darkness of Teardrop Cave. It buries itself in the cave walls and exudes corruption upon this woodland. ",
+        "In this age, all woodlands fight a silent battle. The forces of nature have become twisted and tormented. Rotweed is one of these corrupted creations that taints the woodlands of Norrath."
+      ]
+    },
+    {
+      "name": "Fulkoir Haggleton",
+      "utterances": [
+        "I'd have to be five times as crazy as I already am to stay here!"
+      ]
+    },
+    {
+      "name": "Gilrix",
+      "locations": [
+        "999.29,15.49,-236.29",
+        "995.32,13.16,-244.25"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -6577808 -1333605123:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 -1846212575:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a glowmyst beetle",
+      "locations": [
+        "771.54,9.35,-203.47",
+        "766.41,10.11,-202.48",
+        "757.67,10.23,-201.62",
+        "782.03,7.61,-203.28",
+        "793.09,7.15,-219.37",
+        "796.06,6.96,-210.30",
+        "778.53,8.13,-210.65",
+        "761.33,10.28,-209.87",
+        "794.44,7.08,-200.13",
+        "787.00,7.19,-208.79",
+        "809.77,5.72,-196.12",
+        "766.46,10.21,-211.76",
+        "812.95,6.07,-205.80"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 467778097 -1617601716:Advanced Artisan Volume 5\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1877002214 -304504923:Courage (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 446684787 1499328814:an insect shell\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a gnoll assassin",
+      "locations": [
+        "997.11,15.26,-235.35",
+        "990.07,12.68,-241.79",
+        "1000.62,15.74,-236.34"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1698232697 -1628225413:Chirannite Threat Totem\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 -1846212575:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 8,
+      "drop_coin_max": 8
+    },
+    {
+      "name": "Judge Eunomia",
+      "locations": [
+        "1008.88,13.28,-318.91"
+      ],
+      "utterances": [
+        "Justice is our only recourse when the forests are torn asunder.",
+        "You are the one who aided our sapling. You can help me execute my judgement. Twisted, disloyal imposters live in the woodland. They hide amongst the noble, but they don't fool me or my sisters.",
+        "They're corrupted fayfolke--bright with beauty but twisted and corrupted to the core. They're called the sunshimmer sprites.  You must destroy them.",
+        "You proved your devotion to the dryads of this forest. The Empress has taken note of your good deeds. She awaits you."
+      ]
+    },
+    {
+      "name": "Lieutenant Charlin",
+      "locations": [
+        "789.06,7.83,-200.36"
+      ],
+      "utterances": [
+        "Be careful out there, citizen.",
+        "Oh, I don't know, what was it last time I checked? Poachers maybe, or corruption spreading through the forest, I even heard some guy mention a gnoll. Things are bad, don't let me convince you otherwise, but don't believe the people who say the Oakmyst Forest is in serious danger.",
+        "Well... I do get nervous when the Tunarian Alliance steps in. It's probably nothing, but they requested a stronger Qeynos Guard presence here. I think they know more than I do.  Still, the danger Oakmyst Forest is in is pretty minor.",
+        "Minor danger. Sure, we can use help, but it's not an emergency like some might have you believe. Would you care to volunteer?",
+        "Good, glad to hear it. Even without all this \"supposed\" stuff going on I've got my share of duties. An adventurer was slain recently in these parts. Our initial report back seems to suggest poison. The problem is we have no idea what kind of poison. We know that certain animals in the forest use poison. We suspect that the poachers also use it.",
+        "Well, the poachers are spry enough to avoid detection, so we can't get a sample of their poison from them. We can, however, collect poison samples from some of the wildlife here and use that as a starting point. At most, we can find out what caused the death, and at the least we eliminate some possibilities. What do you say?",
+        "Good. Collect some poison samples from frogs, mystail rats, and the spiders. They can all be found in Oakmyst.",
+        "Be careful out there.",
+        "Have you collected the poison samples yet?",
+        "Excellent. I'll send these back to Qeynos as soon as I can. In the mean time we can still use your help, are you willing?",
+        "Another one of those weird reports. Dirt piles have been turning up all around the Oakmyst Forest and we have no idea why. I'd like you to go get some mineral samples from the piles and maybe we'll be able to figure out who put them there and why.",
+        "It may be nothing, but it may help us greatly.  Thanks for doing this.",
+        "Have you collected the soil yet?",
+        "Thanks. Maybe this will turn something up, maybe not. I'll send it off to be studied and we'll get some answers. I've received an unofficial request for my presence at the docks west of here. I'm sure it's nothing too important, how' d you like to go in my place?",
+        "Great. Go speak with Bardrian Vorsuth, a dock worker. If experience teaches anything my money says Bardrian's going to report \"something strange\" that \"confuses\" him and he doesn't know what to do.",
+        "Bring his news back to me. We'll add it to what we've already got.",
+        "Bardrian?",
+        "Strange machine? What else can you tell me? This may relate to information we discovered from a book we found on a Freeportian gnome a short while ago.",
+        "And the other machines?",
+        "Hmmm, according to data we intercepted there should have been. You know, things may be starting to come together. There are at least two other machines, I believe we've already seen signs of one: the dirt piles. It was meant as a dirt displacement device, and according to information we intercepted it was being tested here.",
+        "No... But the soil you recovered did have elements consistent with processing: the grains were uniform in size, the soil had small traces of elements that are not natural to Oakmyst Forest. To make matters worse none of the soil recovered was top soil, whoever is digging has been digging deep.",
+        "The other machine's purpose was unknown, but we know it involved water in some capacity. Maybe that machine is another test or maybe its purpose is more sinister, either way we need to find it. It will be in or near water, you need to figure out where it is. If it can be easily removed do so, but otherwise do not worry about that--just find out where it is located and report back to me. The most likely spot is near the Western Falls.",
+        "Did you find the machine?",
+        "Good work, we'll get our people on that right away. I've had my people searching for the other machine but they're coming up without results. Something in my gut tells me it doesn't matter, that it's no longer here. But that doesn't matter, at least not yet. What does matter is our men displacing the machine you found. While they do that I have another task for you.",
+        "We've intercepted clues about a possible meeting regarding the machine we found on the docks, apparently it was supposed to be removed from the docks quite some time ago but never was. We don't know who will be involved in this meeting but we'd like you to break it up. Once we figure out who is behind this it will give us a big clue as to what's been going on around here.",
+        "Be safe. They won't appreciate this, heh.",
+        "Did you interrupt the meeting?",
+        "What did you discover?",
+        "Gnolls? Then all the reports were right. And that Gilrix. He was mentioned in one of the materials we obtained concerning this whole mess. But we may be a step ahead of them for once.",
+        "The book we obtained had lots of notes and plans. The book you've provided to us has all their contingency plans. If you've disrupted the meeting then the gnolls won't know precisely what happened and will fall to one of their backup plans. This gives us an excellent opportunity to strike.",
+        "Well, with this book we've got the locations where the gnoll lieutenants will be in hiding while they await orders from Gilrix. While they wait, they are vulnerable. One will be near here--take the path west and turn north before you go under the bridge, that should put you very near him, he's hiding in an alcove.",
+        "Another will be on the rocky hill south east of Clearwater Pond. The last will be in a small alcove just north west of the Western Falls.",
+        "Taking them out will be a huge victory for us here, good luck.",
+        "Have you taken out the lieutenants?",
+        "This is great news! With their lieutenants dead the gnoll presence here will be in shambles. Those that don't flee will easily be captured. You have done a great, great thing."
+      ]
+    },
+    {
+      "name": "Lieutenant Chorsun",
+      "locations": [
+        "835.32,4.37,-266.66"
+      ]
+    },
+    {
+      "name": "Lieutenant Gnar'Sok",
+      "locations": [
+        "968.63,2.26,-224.27",
+        "982.96,2.35,-238.00"
+      ]
+    },
+    {
+      "name": "Lieutenant Scyn",
+      "locations": [
+        "910.67,21.09,-240.48"
+      ]
+    },
+    {
+      "name": "a mystail yearling",
+      "locations": [
+        "797.95,7.38,-225.61"
+      ]
+    },
+    {
+      "name": "an Oakmyst great bear",
+      "locations": [
+        "1001.76,13.93,-239.30",
+        "968.99,14.62,-261.26"
+      ]
+    },
+    {
+      "name": "an Oakmyst spider",
+      "locations": [
+        "924.00,2.23,-243.60",
+        "941.88,2.77,-226.25",
+        "946.36,4.25,-214.18",
+        "955.53,3.33,-210.76",
+        "947.36,5.11,-206.26",
+        "925.39,2.41,-233.29",
+        "914.09,2.29,-226.25",
+        "933.72,2.26,-230.40",
+        "932.28,2.26,-237.80",
+        "918.74,15.95,-192.29"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 830377007 -657580033:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Rotweed Thistle",
+      "locations": [
+        "917.93,12.36,-169.37",
+        "925.96,12.18,-170.00"
+      ]
+    },
+    {
+      "name": "Scholar Neola",
+      "locations": [
+        "1012.2,13.22,-312.15"
+      ],
+      "utterances": [
+        "Why do you trod upon the fertile ground? Doing so taints the lustrous blades that our young sapling needs to grow.",
+        "The young sapling is still weak. It feeds upon the mana of this thicket but needs greater nutrients to prosper in this woodland.",
+        "I cannot leave this woodland, but you can. Within the village of Nettleville Hovel an alchemist has created a powerful nutrient that will aid the sapling. Retrieve this prized item and feed it to the growing tree. ",
+        "The sapling has a long battle ahead to become a timber lord. Your help brings it closer to this goal. Now you must seek out the Judge. She awaits those who aid this forest. "
+      ]
+    },
+    {
+      "name": "a shady furrier",
+      "locations": [
+        "769.00,13.35,-245.66",
+        "758.06,13.65,-243.11"
+      ],
+      "utterances": [
+        "You must flee!  I'll try to hold them.",
+        "Alarm!  Skirmishers approaching!",
+        "Fall back in formation, and regroup at the rendezvous."
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 3
+    },
+    {
+      "name": "Steward Tredo",
+      "locations": [
+        "1005.62,13.07,-261.18"
+      ],
+      "utterances": [
+        "Oh no! Poacher! Poacher! I can tell! I can tell!",
+        "Not a poacher, I see. Thank the misty winds! Sorry for thinking otherwise. With all the babble of poachers lurking Oakmyst, I thought for sure your strange face would be the last sight I'd see!",
+        "A new defender of Oakmyst? Grand! Tracker Galera seeks proof of the poachers' existence. They say they lurk the shadows at night. Bring her proof, and I'm sure she'll be grateful."
+      ]
+    },
+    {
+      "name": "Toppa Doppster",
+      "locations": [
+        "776.47,8.87,-196.41"
+      ],
+      "utterances": [
+        "You there! Do you think you can help me?",
+        "My friends sent me out to collect some glowmyst juice from the beetles here in Oakmyst. You see, we're trying to start our own tavern and we're working on our craft. I was sent out here to collect some glowmyst juice, but...",
+        "These bugs are so disgusting! I can't stand touching them. Don't even get me started on extracting their fluid sacs.",
+        "Would you? That would be wonderful! I need ten glowmyst fluid sacs.",
+        "Great! Thank you!",
+        "Did you get the glowmyst juice?",
+        "Wonderful! Thank you so much! My friends will be pleased!"
+      ]
+    },
+    {
+      "name": "Tracker Galera",
+      "locations": [
+        "797.41,6.87,-207.99",
+        "841.0,3.79,-188.85",
+        "868.97,1.19,-187.86",
+        "891.78,2.75,-201.1"
+      ],
+      "utterances": [
+        "The beauty of Oakmyst sometimes overwhelms me but not as much as the sight of Ferith'Anar!",
+        "I thank you, as do the creatures of the Oakmyst. These pelts shall prove to the Qeynos Guard that these woods are not properly protected.  "
+      ]
+    },
+    {
+      "name": "a treant sapling",
+      "locations": [
+        "1007.0,12.97,-268.49"
+      ],
+      "utterances": [
+        "..."
+      ]
+    },
+    {
+      "name": "a young mystail rat",
+      "locations": [
+        "801.85,6.89,-216.23",
+        "810.39,6.13,-220.65",
+        "791.08,6.95,-210.21",
+        "836.57,7.38,-208.75"
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1832140126 1193284294:chipped shard of abjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1267259774 270343299:cracked troll bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1827919267 -43288604:plain purple butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -327615186 -1572251097:plain violet butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1450331100 1726103362:plain yellow butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 794244308 -1718389780:scuffed shard of conjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1306389734 1869011176:shattered froglok bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -107810075 -1730039780:shattered gnoll bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1722451200 1090205410:shattered gnome bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1039265482 989022440:shattered half elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 457189842 935647064:shattered halfling bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1185753733 -1190212496:shattered high elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 736208268 -898305246:shattered iksar bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1810895498 767179960:striped blue butterfly\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "a cluster of fish"
+    },
+    {
+      "name": "the compound ore"
+    },
+    {
+      "name": "the creature den"
+    },
+    {
+      "name": "the grizzled arbor"
+    },
+    {
+      "name": "the moss encased stone"
+    },
+    {
+      "name": "the natural garden"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "The Circle of Vaniki",
+  "removed": "lu62",
+  "category": "D'Lere",
+  "connections": [
+    {
+      "key": "fprt_hood03_tlp",
+      "location": "6.49,0.79,-3.43"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Dustinz",
+      "purpose": "Broker",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1.36,-19.59,12.96"
+      ],
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item."
+      ]
+    },
+    {
+      "name": "Kamilis Shrezil",
+      "purpose": "Tradeskill Tutorial",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-16.13,-0.17,-3.84"
+      ],
+      "utterances": [
+        "Hello, friend!  I'm here to teach interested people a little bit about how to harvest crafting materials, and how to craft tradeskilled items.  Are you interested?"
+      ]
+    },
+    {
+      "name": "Nunai Oehu",
+      "purpose": "Work Orders",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-2.97,-0.18,-2.82"
+      ],
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Wholesaler Kazi",
+      "purpose": "Wholesaler",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-2.2,-0.18,8.94"
+      ],
+      "utterances": [
+        "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor, are you?"
+      ],
+      "store_template": "wholesaler"
+    },
+    {
+      "name": "Yokla",
+      "purpose": "Rush Orders",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-1.61,-0.19,-3.97"
+      ],
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    }
+  ]
+}

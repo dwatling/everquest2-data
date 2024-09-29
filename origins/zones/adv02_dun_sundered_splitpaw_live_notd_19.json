@@ -1,0 +1,190 @@
+{
+  "name": "Splitpaw Crypts",
+  "category": "Karan",
+  "connections": [
+    {
+      "key": "steppes"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a mindless bonescavenger",
+      "locations": [
+        "-45.22,-65.72,-234.92",
+        "-59.55,-66.25,-238.83",
+        "-41.11,-68.28,-240.30",
+        "-52.88,-64.75,-224.38"
+      ]
+    },
+    {
+      "name": "a mindless bonescrapper",
+      "locations": [
+        "-56.52,-68.67,-245.51",
+        "-41.09,-68.97,-243.48"
+      ]
+    },
+    {
+      "name": "Rawndoc Gorepelt",
+      "locations": [
+        "-53.78,-65.11,-233.51"
+      ],
+      "utterances": [
+        "RAAAAAAaaaaawwwrr!"
+      ],
+      "drop_coin_min": 74,
+      "drop_coin_max": 74
+    },
+    {
+      "name": "riled cave bats",
+      "locations": [
+        "-18.15,-63.65,-110.28",
+        "12.67,-58.56,-118.48",
+        "-1.19,-59.49,-134.78",
+        "-34.86,-63.60,-124.00",
+        "-7.00,-61.00,-110.35"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1384243284 1942572763:a bat ear\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Splitpaw bonescavenger",
+      "locations": [
+        "-48.22,-65.10,-229.38"
+      ]
+    },
+    {
+      "name": "a Splitpaw bonescrapper",
+      "locations": [
+        "-44.57,-67.35,-240.18",
+        "-55.40,-64.70,-225.27",
+        "-50.24,-65.09,-231.62"
+      ]
+    },
+    {
+      "name": "sticky web",
+      "locations": [
+        "-82.17,-71.43,-155.25"
+      ]
+    },
+    {
+      "name": "Thieving Hardy",
+      "utterances": [
+        "Got what he deserved, if you ask me.",
+        "This was to be a two man job. I heard of these crypts. I got the rune bones to get in here. We were going to do this together.",
+        "And dumped my body in someone else's grave. No respect, not even in death. What scum.",
+        "He woke something terrible here, and paid the price. I'm not sorry to see it, but I will be sorry if this trouble escapes these crypts. No one else out there deserves to die like this.",
+        "But you didn't put them back to rest. Whatever Nekrasov did to anger them must be undone! You've got to find a way to undo the damage and let these gnolls rest in peace."
+      ]
+    },
+    {
+      "name": "a vengeful familiar",
+      "locations": [
+        "-34.21,-61.57,-58.63"
+      ]
+    },
+    {
+      "name": "a vengeful Splitpaw scavenger",
+      "locations": [
+        "-77.58,-67.92,-52.85",
+        "-61.88,-70.50,-71.72",
+        "-77.65,-74.48,-118.00",
+        "-8.66,-65.42,-181.06",
+        "-94.00,-69.12,-53.07",
+        "-117.80,-71.50,-64.76",
+        "-127.62,-70.22,-85.46",
+        "-69.96,-75.33,-131.27"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1425878673 -555665176:Body Like Mountain (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a vengeful Splitpaw scrapper",
+      "locations": [
+        "-62.23,-68.45,-93.99",
+        "-10.40,-68.99,-170.17",
+        "-92.90,-68.40,-55.58",
+        "-98.92,-69.66,-52.33",
+        "-129.39,-70.86,-75.38",
+        "-129.51,-69.91,-85.20",
+        "-72.00,-69.44,-52.74",
+        "-61.06,-68.81,-99.52",
+        "-1.15,-64.32,-193.66",
+        "-63.77,-70.50,-74.71"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -287105225 -891350273:Advanced Carpenter Volume 26\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 966154019 1295163645:Peanut Brittle\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a vengeful Splitpaw sorcerer",
+      "locations": [
+        "-33.40,-61.56,-57.96",
+        "-13.42,-68.94,-170.99",
+        "-101.77,-69.92,-84.48"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 966154019 1295163645:Peanut Brittle\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 374145289 -1404463015:Virtue (Adept)\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 93,
+      "drop_coin_max": 93
+    },
+    {
+      "name": "a wall weaver",
+      "locations": [
+        "-82.17,-74.37,-161.37",
+        "-83.85,-73.57,-175.28",
+        "-84.47,-72.68,-187.11",
+        "-79.72,-73.37,-168.01",
+        "-89.02,-73.58,-171.57"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1470342857 -228464395:an arachnid leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1265556846 -146694324:Licorice Rope\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ]
+}

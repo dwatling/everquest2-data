@@ -1,0 +1,633 @@
+{
+  "name": "Graystone Yard",
+  "removed": "lu64",
+  "category": "Karan",
+  "maps": [
+    {
+      "zonerect": "-1104.84,-289.78,-649.27,54.27"
+    }
+  ],
+  "connections": [
+    {
+      "key": "qey_adv01_oakmyst_tlp",
+      "location": "857.83,-5.02,-204.29"
+    },
+    {
+      "key": "qey_catacomb01",
+      "location": "813.43,-25.45,-148.87"
+    },
+    {
+      "key": "qey_harbor",
+      "location": "865.20,-25.50,-96.50"
+    },
+    {
+      "key": "qey_tradeskill01_village03",
+      "location": "835.25,-20.93,-130.97"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Assistant Jalan",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "920.85,-20.73,-97.8"
+      ]
+    },
+    {
+      "name": "Assistant Tillheel",
+      "purpose": "Alchemist",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "824.44,-20.96,-99.04"
+      ],
+      "store_template": "alchemist"
+    },
+    {
+      "name": "Barmaid Violet",
+      "purpose": "Provisioner",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "859.1,-20.06,-122.09",
+        "883.5,-14.06,-118.96",
+        "885.69,-11.06,-127.6"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Barry Viceheart",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "916.46,-20.73,-100.64"
+      ]
+    },
+    {
+      "name": "Bonin Broadhammer",
+      "purpose": "Tailor",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "868.7,-22.21,-141.64"
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "Boomcast",
+      "purpose": "Spell Scrolls",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "825.18,-20.5,-108.02"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1645837523 -70293945 0 0 0:Dwarven Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -997096989 1349224818 0 0 0:Halasian Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Burk Stoneshatter",
+      "purpose": "Barbarian Mentor",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "923.7,-25.05,-149.93"
+      ]
+    },
+    {
+      "name": "Carpenter Jorgie Icearmor",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "878.6,-23.23,-166.08"
+      ]
+    },
+    {
+      "name": "Coppershot",
+      "purpose": "Bartender",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "880.08,-20.06,-115.59"
+      ],
+      "store_template": "bartender"
+    },
+    {
+      "name": "Dane Steelfist",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "880.49,-14.06,-122.23"
+      ]
+    },
+    {
+      "name": "Dorak Everstock",
+      "purpose": "Crafting Trainer",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "833.61,-20.93,-128.12"
+      ],
+      "store_template": "crafting_trainer"
+    },
+    {
+      "name": "Dori",
+      "purpose": "Banker",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "915.63,-20.73,-90.75"
+      ]
+    },
+    {
+      "name": "Dunda Frostgrip",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "848.4,-20.92,-93.02"
+      ]
+    },
+    {
+      "name": "Fiercecry errr",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "911.27,-20.04,-118.47"
+      ]
+    },
+    {
+      "name": "Friskit",
+      "locations": [
+        "868.3,-22.21,-147.08"
+      ]
+    },
+    {
+      "name": "Gnor Farven",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "876.1,-20.06,-114.91"
+      ]
+    },
+    {
+      "name": "Golan Panicward",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "898.32,-22.61,-97.96"
+      ],
+      "utterances": [
+        "Ah, what I wouldn't give to cradle a mug of good Dwarven Ale just now."
+      ]
+    },
+    {
+      "name": "Graystone Courier Dirvel",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "915.28,-25.11,-156.15",
+        "896.92,-24.95,-148.43",
+        "866.6,-22.48,-152.04",
+        "854.65,-24.23,-151.79",
+        "839.87,-22.55,-146.07",
+        "814.73,-20.93,-93.34"
+      ],
+      "utterances": [
+        "I need a break like Lucan needs a vacation.",
+        "There has to be a more efficient way of doing this."
+      ]
+    },
+    {
+      "name": "Gruffin Goldtooth",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "882.91,-23.45,-174.62"
+      ]
+    },
+    {
+      "name": "Gurna Hadel",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "867.46,-20.06,-120.55"
+      ]
+    },
+    {
+      "name": "Hargan Icethaw",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "875.54,-23.0,-169.66"
+      ]
+    },
+    {
+      "name": "Innkeep Rothskild",
+      "purpose": "Housing",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "877.42,-14.06,-126.57"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 2070083359 -1758676590 0 0 0:a Kaladim bucket\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1192413674 -55368781 0 0 0:a Qeynosian large wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -568616880 1329473188 0 0 0:a Qeynosian medium wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1457739578 -655029930 0 0 0:a Qeynosian small wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 30
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -949197158 -767980191 0 0 0:a wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1579048607 -882452909 0 0 0:an antonican wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 729139268 0 0 0:an enchanter's candelabra\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ironmallet",
+      "purpose": "Mender",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "914.4,-20.06,-134.57"
+      ]
+    },
+    {
+      "name": "Jodi",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "914.95,-20.73,-101.76"
+      ]
+    },
+    {
+      "name": "Karg Icemoore",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "884.61,-20.06,-118.67"
+      ]
+    },
+    {
+      "name": "Kaya",
+      "purpose": "Bowyer",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "917.16,-20.06,-125.63"
+      ],
+      "store_template": "bowyer"
+    },
+    {
+      "name": "Keldra Frosthaven",
+      "purpose": "General Goods",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "872.04,-22.21,-140.93"
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Knight-Captain Salomar",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "863.64,-20.01,-112.62"
+      ]
+    },
+    {
+      "name": "Lars Silverbrace",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "917.95,-20.73,-99.34"
+      ]
+    },
+    {
+      "name": "Marus Donoval",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "875.87,-20.56,-123.88"
+      ]
+    },
+    {
+      "name": "Mav Boilfist",
+      "purpose": "Dwarf Mentor",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "905.93,-24.93,-144.73"
+      ]
+    },
+    {
+      "name": "McGuiggen",
+      "purpose": "General Goods",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "890.77,-22.61,-90.16"
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Pathfinder Silentstride",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "909.96,-20.04,-119.58"
+      ]
+    },
+    {
+      "name": "Rafki",
+      "purpose": "Provisioner",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "909.99,-25.11,-154.12"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Shipping Coordinator Hando",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "938.07,-25.24,-156.92"
+      ]
+    },
+    {
+      "name": "Snowboot",
+      "purpose": "Armorsmith",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "908.31,-20.06,-133.08"
+      ],
+      "store_template": "armorsmith"
+    },
+    {
+      "name": "Soulforge",
+      "purpose": "Weaponsmith",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "917.69,-20.06,-130.55"
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "Steelvein",
+      "purpose": "Shieldsmith",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "908.24,-20.06,-131.16"
+      ],
+      "store_template": "shieldsmith"
+    },
+    {
+      "name": "Tacklemaster Moyna",
+      "purpose": "General Goods",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "896.28,-24.94,-147.3"
+      ],
+      "utterances": [
+        "Welcome to Graystone! With our Kerran population, the fish supply is never enough. If you're looking to fill that supply, you'll need some of my goods. Care to have a look?",
+        "You're in luck. I need more bait.  If you're interested, you could fetch me some centipede meat. Ubani and Brice catch all the fish from the pier, and I always need more bait.",
+        "It'll pay but not too well.  The bait business is decent next to the pier, but the stuff isn't exactly worth its weight in platinum, if you know what I mean.  I need you to gather some centipede meat for me from the Forest Ruins.",
+        "What's taking you so long, friend? I don't have all day! Fetch me my centipedes!",
+        "Thank you!  With this supply, I can keep my bait buckets filled for at least another day or two. Well done. Here's your reward as promised."
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Watcher Curmogliel Kar`thal",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "909.15,-20.06,-134.37"
+      ]
+    }
+  ]
+}

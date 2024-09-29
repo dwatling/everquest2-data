@@ -1,0 +1,119 @@
+{
+  "name": "The Dark Bargainers",
+  "removed": "lu62",
+  "category": "D'Lere",
+  "connections": [
+    {
+      "key": "fprt_hood05_tlp",
+      "location": "6.49,0.79,-3.43"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Dris Loth",
+      "purpose": "Rush Orders",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1.29,-0.19,-3.98"
+      ],
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Ieam D'Lax",
+      "purpose": "Broker",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1.47,-19.59,13.2"
+      ],
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item.",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ]
+    },
+    {
+      "name": "Lamados Dinaris",
+      "purpose": "Tradeskill Tasks",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-16.23,-0.17,-3.92"
+      ],
+      "utterances": [
+        "Hello there.  If you're of the artisan-minded sort, perhaps you could be of use to us. However, you must decide on one profession to pursue; do you require guidance to choose a profession?",
+        "Very well, we shall begin right away. To craft items you will either need to harvest the raw materials from areas outside of the city or you might be able to buy them from our Wholesaler. We will begin your lessons with food and drink. Provisioners are chefs and brewers, applying their culinary skills to provide a valuable service for the benefit of their allies.  Food and drink refresh the weary hero and can provide regenerative benefits.  To sample a taste of provisioning please create a Fried Frog Leg and then return to me.",
+        "Well done for a beginner.  When you have reached the fourth rank of professionalism you will be able to purchase new recipe books and learn from them.  You will want to scribe artisan essentials volume 4 into your recipe book. Your second lesson will be on alchemy. Alchemists create deadly poisons and magic potions from almost any material, benign or otherwise.  These concoctions provide benefits in battle, such as replenishment for the part or extra damage against a foe.  To begin, go craft a potion.  Bring me a Lesser Noxious Remedy.",
+        "This potion is sufficient; we shall proceed to the next lesson.  You will now learn of the path of a sage. Sages possess an unsurpassed knowledge of the arcane.  They apply this knowledge by scribing combat arts and spells onto scrolls that increase the might of adventurers.  Create a scroll of arcane bindings and bring it to me.",
+        "You have proven yourself a fine artisan so far, try not to fall behind.  From pure magic to pure might, let us turn your training to the creation of weapons and heavy armor.  Weaponsmiths are masters of metallic weaponry including swords, axes, daggers, and hammers.  Only the most foolish adventurer would dare explore dangerous territory without a well made weapon at the ready.  Armorers are crucial when it comes to preparing fighters and adventurers for battle.  The longevity of even the greatest soldiers is dependent upon the skill of the armorer who equipped them.  Even though I am only having you create a tin greatsword, I want you to study what the forge has to offer for both Weaponsmiths and Armorers, and then bring the sword to me. Proceed to the forge.",
+        "Please return when you have completed what I have asked of you.",
+        "The armorer will focus on heavy armor, but a tailor will focus on the creation of light armor.    Tailors provide quality protective leather and cloth equipment for those adventurers who prefer to wear light armor.  They also craft backpacks and other items from cloth or leather.  Show me that you can create a tailored rawhide skullcap and I will continue your training.",
+        "You are quite the efficient artisan. Another way that an adventurer can protect themselves is with a sturdy shield.  Woodworkers are skilled crafters creating staves, bows, and arrows for the defense of their allies as well as musical instruments for the higher pursuits of art and entertainment.  They also craft powerful totems that possess restorative properties.  Show me that you have what it takes to be a woodworker and return to me with an elm round shield.",
+        "This is a decent shield. While you still have the sandpaper calloused hands, you should see if you are interested in carpentry.  Carpenters are much valued by their customers, particularly homeowners.  With their superb knowledge of craftsmanship and sculpting, there is no household furnishing they cannot create.  A sturdy chair is always welcome addition to any home, show me that you can make a primative elm chair.",
+        "Very nice!  The last profession that I could teach you is jewelcrafting.  Jewelers create talismans and jewelry.  These valuable items protect the wearer from harm and can increase the physical attributes of the adventurer.  Show me that you can create a lead hoop, and your training will be complete!",
+        "Your basic tradeskill training is now complete; you have done well. Now that you know what each profession entails, you will need to go to Coalition of Tradesfolke and register for which field you would like to go into.  Seek out Alethea Augustine on the second floor.  If you liked provisioning, woodworking, or carpentry you will need to first hone your skills a Craftsman.  If you liked being an armorer, weaponsmith, or tailor, you will first need to hone your skills as an Outfitter.  If you liked jeweler, sage, or alchemist you will first need to hone your skills as a scholar."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 617705409 1533974061 0 0 0:Starting a Tradeskill Profession\\/a",
+          "prices": [
+            {
+              "coin": 720
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sasit Soroth",
+      "purpose": "Work Orders",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-3.14,-0.03,-2.93"
+      ],
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Wholesaler Zarethe N'Kor",
+      "purpose": "Wholesaler",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-2.27,-0.18,9.08"
+      ],
+      "utterances": [
+        "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor are you?",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "In spite of the cost of living, it's still quite a popular item."
+      ],
+      "store_template": "wholesaler"
+    }
+  ]
+}

@@ -1,0 +1,1895 @@
+{
+  "name": "Freeport North",
+  "removed": "lu62",
+  "category": "D'Lere",
+  "maps": [
+    {
+      "zonerect": "-179.19,-422.78,367.82,-11.37"
+    }
+  ],
+  "connections": [
+    {
+      "key": "fprt_east_tlp"
+    },
+    {
+      "key": "fprt_hood02_tlp"
+    },
+    {
+      "key": "fprt_hood04_tlp"
+    },
+    {
+      "key": "fprt_hood05_tlp"
+    },
+    {
+      "key": "fprt_sewer01",
+      "location": "18.64,-19.22,-206.46"
+    },
+    {
+      "key": "fprt_west_tlp"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Administrator Frugi",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-81.82,-8.98,-122.45"
+      ],
+      "utterances": [
+        "Eh? Speak up!"
+      ]
+    },
+    {
+      "name": "Archivist Jindlefog",
+      "purpose": "Arcane Scientist",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "8.41,-37.95,-122.73"
+      ],
+      "utterances": [
+        "At last! Someone who recognizes my refined upbringing and overabundance of natural qualities. Arise, humble servant!  Here we are all loyal subjects of the Overlord."
+      ]
+    },
+    {
+      "name": "Archivist Severina",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-63.08,-20.34,-270.21"
+      ],
+      "utterances": [
+        "When it comes to arcane knowledge, no one knows more about it than Arcane Scientists.",
+        "The Seafuries are just a bunch of ruffians that pirate ships and trade on the black market."
+      ]
+    },
+    {
+      "name": "Atticus Merula",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-97.28,-11.00,-76.76"
+      ],
+      "utterances": [
+        "Knowing the right people will keep you safe in this city.  You aren't one of them.",
+        "Is it even possible for this city to get more corrupt?",
+        "If you're looking for trouble, I've got a whole fistful of it waiting for you."
+      ]
+    },
+    {
+      "name": "Augurer Valgus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-80.65,-7.28,-168.50"
+      ],
+      "utterances": [
+        "Your strength is the heart of Freeport, citizen."
+      ]
+    },
+    {
+      "name": "Aulus Crispian",
+      "purpose": "Alchemist",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-61.12,-24.43,-72.87"
+      ],
+      "utterances": [
+        "Welcome to Torlig's Herbs and Potions.  I sell many magicial reagents and herbs.  But, I warn you, you must possess amazing skill to handle them properly."
+      ]
+    },
+    {
+      "name": "Azrael",
+      "locations": [
+        "-49.83,-20.05,-309.96"
+      ]
+    },
+    {
+      "name": "Bargiss Ranlor",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-109.25,-21.43,-77.21"
+      ],
+      "utterances": [
+        "Can't you see I am busy waiting on my order? Leave me alone. I came here to eat not to talk. Oh, here comes my order now. 'Bout time, the service here is the worst!"
+      ]
+    },
+    {
+      "name": "Blerrkt Marrowdrinker",
+      "purpose": "Warden Trainer",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-72.97,-9.91,-148.15"
+      ],
+      "utterances": [
+        "What brings you to the Temple of War, <player name>?"
+      ]
+    },
+    {
+      "name": "Blight Sage Destroz",
+      "purpose": "Dismal Rage Priest",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-88.78,-7.27,-184.80"
+      ],
+      "utterances": [
+        "Insolent swine! For this impudence I should slice open your belly and roast your entrails on a spit.  Do not dare to interrupt my private meditations again!"
+      ]
+    },
+    {
+      "name": "Brinegaggle",
+      "purpose": "Merchant",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "4.64,-34.26,-149.47"
+      ],
+      "utterances": [
+        "The stuff's over there.  Just let me know if you find anything you like."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1668863364 150215911 0 0 0:a heretic's cauldron\\/a",
+          "prices": [
+            {
+              "coin": 4500,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 907926368 1788776844 0 0 0:a necromantic skull lamp\\/a",
+          "prices": [
+            {
+              "coin": 72000,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
+          "prices": [
+            {
+              "coin": 2
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 522230146 -1341500544 0 0 0:Ally: Academy of Arcane Sciences\\/a",
+          "prices": [
+            {
+              "coin": 5529600,
+              "status": 50000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1256438961 1499309453 0 0 0:an academy canopic pot\\/a",
+          "prices": [
+            {
+              "coin": 4500,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2108308366 1879783819 0 0 0:an academy lab table\\/a",
+          "prices": [
+            {
+              "coin": 4500,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -854885715 1459519748 0 0 0:an arcane lab distillery set\\/a",
+          "prices": [
+            {
+              "coin": 18000,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -977191635 -467959805 0 0 0:arcane ceremonial officer boots\\/a",
+          "prices": [
+            {
+              "coin": 864000,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2073610476 1485889638 0 0 0:arcane ceremonial officer gloves\\/a",
+          "prices": [
+            {
+              "coin": 950400,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -201221397 -1706556961 0 0 0:arcane ceremonial officer robe\\/a",
+          "prices": [
+            {
+              "coin": 1296000,
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1673658144 1750103209 0 0 0:arcane scientist's ceremonial gloves\\/a",
+          "prices": [
+            {
+              "coin": 158400,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 281083001 -1681034723 0 0 0:arcane scientist's ceremonial robe\\/a",
+          "prices": [
+            {
+              "coin": 216000,
+              "status": 27000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1219144632 50201463 0 0 0:arcane scientist's ceremonial shoes\\/a",
+          "prices": [
+            {
+              "coin": 144000,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 917045627 2030253262 0 0 0:Initiate: Academy of Arcane Sciences\\/a",
+          "prices": [
+            {
+              "coin": 230400,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1383899054 742693549 0 0 0:maj'dul enchanted scroll\\/a",
+          "prices": [
+            {
+              "coin": 16200000,
+              "status": 337500
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1143086249 -1781411135 0 0 0:Member: Academy of Arcane Sciences\\/a",
+          "prices": [
+            {
+              "coin": 921600,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1627704942 222248460 0 0 0:Officer: Academy of Arcane Sciences\\/a",
+          "prices": [
+            {
+              "coin": 3686400,
+              "status": 40000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chronicler Paracog",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-38.67,-20.18,-243.47",
+        "-114.10,-46.06,-185.63"
+      ],
+      "utterances": [
+        "My work would be so much further along if the voices would stop.",
+        "Through the advances in modern magic, anything is possible.",
+        "So far, I have found kerrans to have only one life, not nine.  I insist on finding the other eight!",
+        "It is said there is more than one way to skin a cat.  My research proves that saying correct."
+      ]
+    },
+    {
+      "name": "Cipius Abito",
+      "purpose": "Provisioner",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-123.88,-21.43,-77.18"
+      ],
+      "utterances": [
+        "Hail to ye.  Are you interested in some groceries?  Real fresh like.  High quality goods at low prices."
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Claudia Quarto",
+      "purpose": "Warlock Trainer",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "25.52,-7.00,-120.41"
+      ],
+      "utterances": [
+        "Who goes there?  Are you a true believer in the Powers?  Have you conviction enough to smite your enemies and empower your allies?  Only those who are worthy may touch these magical wares.  If you  dare defile them, then be gone!"
+      ]
+    },
+    {
+      "name": "Clergy Sejanus",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-63.95,-20.34,-253.45"
+      ],
+      "utterances": [
+        "I do not speak with animals.  Try to understand, will you?",
+        "Idiots should speak only when spoken to."
+      ]
+    },
+    {
+      "name": "Consternator Soulinus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-77.63,-7.28,-167.79"
+      ],
+      "utterances": [
+        "I am busy. Maybe when I'm done with my current work I'll send for you. Until then, leave me be."
+      ]
+    },
+    {
+      "name": "Convert Y`Ral",
+      "purpose": "Dismal Rage Priest",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-99.90,-9.91,-136.83"
+      ],
+      "utterances": [
+        "We must preserve the strength of our faith in order to endure the trials ahead!"
+      ]
+    },
+    {
+      "name": "Courtesan Aconia Angelus",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-91.49,-11.00,-79.47"
+      ],
+      "utterances": [
+        "Get your foul orc-breath away from me!",
+        "If I ruled this city, there would be statues of me EVERYWHERE!",
+        "Whoa!!!  I don't remember saying I wanted to talk to you!",
+        "I already stuck three people today.  Do you want to be the one to make it four?",
+        "I didn't see or hear anything!  I swear!"
+      ]
+    },
+    {
+      "name": "Courtesan Fannia Falx",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-92.36,-11.00,-75.68"
+      ],
+      "utterances": [
+        "Greetings, adventurer.  Looking for some company?  Someone to keep you entertained?  Perhaps we could chat!  Or  I can dance a little dance or sing a song for your enjoyment!  Maybe we can play a game. Do you like games? I know several!"
+      ]
+    },
+    {
+      "name": "Drund Mordgraahl Skullsprain",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-87.65,-8.99,-116.94"
+      ],
+      "utterances": [
+        "Commoner! You dare to speak so freely to a Drund in this place of reverence?! You best have good reason for this intrusion."
+      ]
+    },
+    {
+      "name": "Dyvll Ssavan",
+      "purpose": "Defiler Trainer",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-94.84,-9.91,-154.14"
+      ],
+      "utterances": [
+        "What brings you to the Temple of War, <player name>?"
+      ]
+    },
+    {
+      "name": "Elder Clurg",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-105.40,-24.37,-51.88"
+      ],
+      "utterances": [
+        "I've lived this long thanks to my ability to kill.",
+        "The best dreams are the flashbacks of the battlefield.",
+        "Sharp teeth, the better to tear flesh with."
+      ]
+    },
+    {
+      "name": "Electra J`ventius",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-110.08,-46.05,-190.79"
+      ],
+      "utterances": [
+        "What a foul, dirty place this is compared to Neriak.",
+        "We'll rise again, and then nothing will stop us.",
+        "It's a fine day for evil to flourish!"
+      ]
+    },
+    {
+      "name": "Ellynottin Zookbiddle",
+      "purpose": "Necromancer Trainer",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "20.46,-7.00,-125.35"
+      ],
+      "utterances": [
+        "Well, well <player name> what brings you to the Academy of Arcane Science?"
+      ]
+    },
+    {
+      "name": "Elma Lowe",
+      "purpose": "Bartender",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-101.56,-21.43,-84.19"
+      ],
+      "utterances": [
+        "Come in. Come in.  Welcome to the Jade Tiger's Den, the finest tavern in all of Freeport.  Feel free to browse our menu. I personally guarantee that we serve only the highest-quality food and brews. "
+      ]
+    },
+    {
+      "name": "Elon Gallwin",
+      "purpose": "Arcane Scientist",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "7.92,7.30,-108.31"
+      ]
+    },
+    {
+      "name": "Emissary Midia",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-92.68,-21.43,-84.54"
+      ],
+      "utterances": [
+        "Come back when you are stronger, yes?"
+      ]
+    },
+    {
+      "name": "Enyo Vivaron",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-63.08,-20.34,-270.21"
+      ],
+      "utterances": [
+        "If you're looking for trouble, I've got a whole fistful of it waiting for you.",
+        "Knowing the right people will keep you safe in this city.  You aren't one of them.",
+        "Is it even possible for this city to get more corrupt?"
+      ]
+    },
+    {
+      "name": "Euphemius Granius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "27.39,-7.00,-133.98"
+      ],
+      "utterances": [
+        "Hello there. You look eager. Will you help me? If you're a good citizen, you know the importance of academic research.",
+        "As you know, producing golems takes a great deal of time, energy, and money. I've gathered valuable information on creating and controlling the beasts...",
+        "I believe I can construct golems using the same forces that animate the undead.  I'm in the midst of in-depth research and I need you to collect samples of undead troll and ogre remains from the Fallengate area. Can you handle this task?"
+      ]
+    },
+    {
+      "name": "Faunus Belicius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-116.33,-46.06,-186.63"
+      ],
+      "utterances": [
+        "Yes, yes, hello. I'm busy.",
+        "You thought you were so superior, and look who you come to for protection when things get rough."
+      ]
+    },
+    {
+      "name": "Faye",
+      "locations": [
+        "-144.54,-53.12,-361.61",
+        "-63.38,-24.37,-45.63"
+      ]
+    },
+    {
+      "name": "Fethar Lothki",
+      "purpose": "Dismal Rage Priest",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-92.00,-9.91,-163.02"
+      ]
+    },
+    {
+      "name": "Forbidden Lore",
+      "locations": [
+        "-79.78,-7.28,-165.18"
+      ],
+      "utterances": [
+        "Ha fool!  You are not ready for these teachings.  Just a mere glance upon these pages would burn the eyes from your sockets.  Return to me when you have purified your spirit and only then will you receive what you seek!"
+      ]
+    },
+    {
+      "name": "Fryda Brushwuttle",
+      "purpose": "Merchant",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-57.71,-24.15,-26.16"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 60045435 -1062013118 0 0 0:a clay urn\\/a",
+          "prices": [
+            {
+              "coin": 32805
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1587219939 960819059 0 0 0:a marble vase\\/a",
+          "prices": [
+            {
+              "coin": 10935
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1921505199 -390315862 0 0 0:a portrait of a teenage girl\\/a",
+          "prices": [
+            {
+              "coin": 14
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 404116146 1691725333 0 0 0:an oil painting of a castle\\/a",
+          "prices": [
+            {
+              "coin": 10935
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -787770832 -933230236 0 0 0:an oil painting of a cathedral \\/a",
+          "prices": [
+            {
+              "coin": 32805
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gadko",
+      "purpose": "Vassi's Assistant",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-75.69,-11.00,-70.43"
+      ],
+      "utterances": [
+        "Gadko takes old Vassi armor and sell you new armor, yes?  Come, come then! Gadko no like to waste time!"
+      ]
+    },
+    {
+      "name": "Girafer L`Un",
+      "purpose": "Jeweler",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-137.12,-22.53,-88.39"
+      ],
+      "utterances": [
+        "Welcome to the Blue Building.  If you're here, then you know what we sell.  You can see it sparkling before you, sparkling with the allure that only gems and jewelry of such perfection exude.  Look around and see what we have for sale.  I'll be here to take your money when you decide which of our decadent pieces you desire."
+      ],
+      "store_template": "jeweler"
+    },
+    {
+      "name": "Hardunk Breathstealer",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-50.07,-20.05,-266.41",
+        "-142.70,-24.37,-54.66"
+      ],
+      "utterances": [
+        "Treat us badly in Neriak! I laugh now we in same spot!",
+        "Nasty scars and boiled tar!  Warriors is what we are!",
+        "Tasty treats, lots of meats."
+      ]
+    },
+    {
+      "name": "Hazrulin Vextrik",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-54.87,-24.43,-72.74"
+      ],
+      "utterances": [
+        "I do not need your help. Begone."
+      ]
+    },
+    {
+      "name": "Hector Alpalor",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-64.13,-24.37,-46.81"
+      ],
+      "utterances": [
+        "Straying a bit, are we?",
+        "Hah! New around these parts?",
+        "Watch yerself, this city can be rough."
+      ]
+    },
+    {
+      "name": "Iulus U`Vas",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-53.00,-20.05,-266.26"
+      ],
+      "utterances": [
+        "If you have friends watching your back, you might live through this.",
+        "I gotta get into the Militia.  Then I could legally beat up people.",
+        "I'm in the mood to kick someone in the teeth.",
+        "Now ... Whose coin purse am I going to take today?"
+      ]
+    },
+    {
+      "name": "Jabir Maridar",
+      "purpose": "Wizard Trainer",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "20.96,-7.00,-128.34"
+      ],
+      "utterances": [
+        "Eh ... what's that? Sorry, do you need something?"
+      ]
+    },
+    {
+      "name": "Julia Florens",
+      "purpose": "Bartender",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-106.39,-21.43,-84.87"
+      ],
+      "utterances": [
+        "Come in, please come in.  Welcome to the Jade Tiger's Den.  I'm Hostess Julia.   Perhaps you came to try a Jade Tiger cocktail?",
+        "That's... uhh ... Please tell our good friend that I will have her payment by tomorrow night.  I will pay her in full and give her a nice keg of ale as a gift for her graciousness in this matter.  I beg of you, please tell her that last part and express my sincere gratitude for her patience in this matter.",
+        "Honey, if you have to ask it's not for you."
+      ]
+    },
+    {
+      "name": "Kanos X'aphon",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "12.40,-20.06,-217.09",
+        "6.13,-20.07,-215.59"
+      ],
+      "utterances": [
+        "You mean nothing to me, whelp. I seek one with ability enough to do my bidding.  Now, back out the door whence you came with your tail between your legs before I disembowel you and leave your entrails for the vermin infesting this filthy human city."
+      ]
+    },
+    {
+      "name": "Kenyatta",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-63.67,-20.21,-253.08",
+        "-146.10,-53.12,-364.31"
+      ],
+      "utterances": [
+        "How could you stand living underground for so long?",
+        "One day, we shall be free in a place of our own once more.",
+        "Can you see the beauty of the open plains?"
+      ]
+    },
+    {
+      "name": "Kryva",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-206.09,-58.68,-177.30"
+      ],
+      "utterances": [
+        "Perhaps the dark ones will require our services in the future.",
+        "Ohh, they'll never suspect that, no they won't!",
+        "Yes, yes, that will do nicely... err, hello, who are you?"
+      ]
+    },
+    {
+      "name": "Kurid T'Sal",
+      "purpose": "Inquisitor Trainer",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-70.37,-9.91,-156.39"
+      ],
+      "utterances": [
+        "What brings you to the hallowed halls of the Temple of War?"
+      ]
+    },
+    {
+      "name": "Librarian Motius Feldarn",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "27.28,-7.00,-114.68"
+      ],
+      "utterances": [
+        "The Dismal Rage is an evil entity that can destroy your soul.",
+        "The Seafuries are just a bunch of mindless sea dwellers.",
+        "The minds at the Acadamy of Arcane Science are infinite.",
+        "The Freeport Militia is only as competent as their ability to swing a longsword."
+      ]
+    },
+    {
+      "name": "Librarian Zabnolique",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "17.71,-7.00,-136.29"
+      ],
+      "utterances": [
+        "Please be quick, I am very busy."
+      ]
+    },
+    {
+      "name": "Livilla Ramio",
+      "purpose": "Tailor",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-79.88,-24.43,-26.44"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "The stuff's over there.  Just let me know if you find anything you like."
+      ]
+    },
+    {
+      "name": "Matthias Siegemaker",
+      "purpose": "Acolyte of the Grand Inquisitor",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-82.44,-7.27,-183.66"
+      ],
+      "utterances": [
+        "Wreak your vengeance upon the helpless, my dear friend."
+      ]
+    },
+    {
+      "name": "Missionary G`Zule",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-97.20,-9.00,-120.44"
+      ],
+      "utterances": [
+        "You better watch your step if you choose to enter the Temple of War. I would suspect the greeting for a person like yourself would be a dagger in the back rather than a handshake.",
+        "I could take the symbol of Marr off your hands.  You certainly don't want to carry that thing openly around here.  I won't even charge the usual fee to dispose of it.",
+        "Fine, here is a small pouch of coins for the symbol.  You know it's worthless to you anyway.",
+        "I wouldn't take these warnings lightly ...  Watch yourself, not everyone in Freeport is as forgiving as I.  Take this death certificate to merchant Talia. You'll find her peddling her wares in the ruins.",
+        "It is my station to be here, you worm.  Soon enough I'll take my place inside the temple.",
+        "I'll have you know that I have done all the sacrificing I need to do, lucky for your worthless carcass.  I only have to find a symbol of the old paladins to desecrate to fulfill my advancement.",
+        "Adventure you say? Well, let's see what you're made of ... Grave robbers are desecrating our cemetery for the bones of the recently deceased. You must stop these scoundrels' looting and return with their spoils. If you can't complete this menial task, don't bother returning.",
+        "Hand it over already! I don't have all day!... Now take your service fee and your leave."
+      ]
+    },
+    {
+      "name": "Mizzog the Sighted",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-45.02,-24.44,-52.68"
+      ],
+      "utterances": [
+        "Can you hear them?  Mizzog hears them.  The spirits are all around us.  Mizzog sees them through blind eyes, yes.  "
+      ]
+    },
+    {
+      "name": "Modinite Z'Vol",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-82.75,-7.27,-188.53"
+      ],
+      "utterances": [
+        "Only through intense suffering can one be purified of all weaknesses and frailty.  The Threshing separates the weak willed from the mighty in faith.  Pray that you are not found wanting when your personal Threshing comes..."
+      ]
+    },
+    {
+      "name": "Mordin Rageblade",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-96.64,-11.00,-80.65"
+      ],
+      "utterances": [
+        "Hah! New around these parts?",
+        "Straying a bit, are we?"
+      ]
+    },
+    {
+      "name": "Nahirra Usharva",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-75.06,-9.91,-161.29"
+      ],
+      "utterances": [
+        "You must learn to release the chaos and destruction of your power."
+      ]
+    },
+    {
+      "name": "Navarius Orvalis",
+      "purpose": "Sage",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "10.65,-7.00,-134.62"
+      ],
+      "utterances": [
+        "Search for the relics of the past Age of Turmoil.  Their discovery will gain you great power and prestige!"
+      ]
+    },
+    {
+      "name": "Neophyte Jhanov",
+      "purpose": "Arcane Scientist",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-0.09,-5.68,-115.08"
+      ],
+      "utterances": [
+        "All who seek understanding of the Arcane are welcome within the walls of the Academy. Always remember, that above all else, we serve the Overlord!",
+        "...",
+        "Welcome, seeker of knowledge. The Academy bids you thanks in heeding the call to assist us in these troubled times.  We use our influence to extend the reaches of Freeport and conquer and crush the enemies of the Overlord.  Here, take this writ. Let's see if you can handle a simple task before we send you into certain doom!"
+      ]
+    },
+    {
+      "name": "Nexa L'Dur",
+      "purpose": "Achievement Counsel",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-2.91,-42.76,-140.84"
+      ]
+    },
+    {
+      "name": "Occultist Levonicus",
+      "purpose": "Dismal Rage Priest",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-85.31,-10.27,-157.23"
+      ],
+      "utterances": [
+        "Please do not interrupt my meditations, fool!  I need absolute silence to ponder this important matter."
+      ]
+    },
+    {
+      "name": "Occultist L'Takk",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-85.56,-9.91,-164.10"
+      ]
+    },
+    {
+      "name": "Oracle Porcia Aponius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-102.35,-24.43,-37.38"
+      ],
+      "utterances": [
+        "Clearly your intellect is your best asset. The world shall marvel at the wonders you control."
+      ]
+    },
+    {
+      "name": "Overseer Targon",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-65.81,-24.37,-46.23"
+      ],
+      "utterances": [
+        "Might of the empire of Zek always greater than Neriak.",
+        "I greet you.  Now go.",
+        "Serve the Overlord is good!"
+      ]
+    },
+    {
+      "name": "Painter Brushwuttle",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-71.71,-24.15,-28.47"
+      ],
+      "utterances": [
+        "For the last time, gnomes didn't make Luclin explode!  We would have gone with disintegration.",
+        "No, no, no!!!  That will never work!  The person still needs to breathe, don't they?  Don't they?",
+        "I will prove to them that I'm not mad!  If I have to kill everyone of them to prove it, I will!",
+        "It is said there is more than one way to skin a cat.  My research proves that saying correct.",
+        "Oh no!  Not another failed experiment.  Oh ... It's just a person."
+      ]
+    },
+    {
+      "name": "Paragon Jalex",
+      "purpose": "Arcane Scientist",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1.34,7.30,-110.72"
+      ],
+      "utterances": [
+        "I don't know who permitted you inside, but it's considered rude for a whelp to interfere with the studies of a Paragon such as me.  Please remove yourself from my sight!"
+      ]
+    },
+    {
+      "name": "Patches",
+      "locations": [
+        "-139.64,-53.12,-352.48"
+      ]
+    },
+    {
+      "name": "Preceptor Nyjuss",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-73.77,-21.43,-66.69"
+      ],
+      "utterances": [
+        "What is it you want?  I'm trying to concentrate here."
+      ]
+    },
+    {
+      "name": "Prisca Ursus",
+      "purpose": "Armorsmith",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-79.34,-24.43,-29.07"
+      ],
+      "utterances": [
+        "You can always go with the chain over the vanguard.  It's cheaper, but tell me, will you buy yourself a new life?",
+        "What can I do to convince you to walk out of here with that plate mail suit you've been checking out?"
+      ]
+    },
+    {
+      "name": "Proctor Fergus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-23.80,-18.80,-254.53"
+      ],
+      "utterances": [
+        "Fate has smiled on you, my friend.  You are lucky to be alive during such a time. The gods and their petty squabbling are all but forgotten in the hearts of our people.  The world is ours to command now!",
+        "All of them.  The gods are a myth.  A tale to tell children.  Tools of control that outlived their usefulness.  But we have outlived them.  They did their worst and we are still here.  Let the people worship us!",
+        "What if they return?  They... they won't.  They saw that we couldn't be broken and they retreated.  I don't fear them!"
+      ]
+    },
+    {
+      "name": "Profallia",
+      "purpose": "Broker",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-69.43,-24.43,-36.50"
+      ],
+      "utterances": [
+        "Oh, hello! I'm sorry, was I helping you with something?",
+        "Please don't hurt me! You can have whatever! Wait a minute, you're not here to rob me?",
+        "Wait a minute, please forgive me.  What was it you were looking for again?",
+        "Hey, you look just like my cousin Flavious.  Well, except for the big scar and missing teeth, you're almost identical!"
+      ]
+    },
+    {
+      "name": "Qalantir",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "3.65,-7.00,-141.18"
+      ],
+      "utterances": [
+        "Good day! How can I help you, my friend? Do you stand before me in search of knowledge?"
+      ]
+    },
+    {
+      "name": "Sabina Thallis",
+      "purpose": "Jeweler",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-149.18,-22.53,-94.48"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store_template": "jeweler"
+    },
+    {
+      "name": "Savant Ka'im",
+      "purpose": "Arcane Scientist",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "3.71,7.30,-124.95"
+      ]
+    },
+    {
+      "name": "Scipia Nailbind",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-142.71,-24.37,-56.30"
+      ],
+      "utterances": [
+        "Overlord is the strongest troll ever!  He kill twenty of us troll last week.  Wow!",
+        "It would have been fun to be on Luclin when it blew up.  Wheee!",
+        "So many things to kill me, dont know where to start.",
+        "You lucky I don't kill you then eat you!  You luckier I don't eat you then kill you!",
+        "Sometimes I sneak into houses and hide under the bed."
+      ]
+    },
+    {
+      "name": "Speculator Montanlooa",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-41.85,-20.34,-246.56",
+        "-206.51,-58.83,-175.57"
+      ],
+      "utterances": [
+        "Greetings.  One day I hope everyone bows before my intellect.",
+        "Salutations, dark one.",
+        "My time is too valuable to be spent chatting."
+      ]
+    },
+    {
+      "name": "Sulpiciao Mallius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-49.92,-20.34,-253.07",
+        "-63.95,-20.34,-253.45"
+      ],
+      "utterances": [
+        "The arcane power of Dismal Rage is what gives spiritual strength to us all.",
+        "You must learn to release the chaos and destruction of your power."
+      ]
+    },
+    {
+      "name": "Thaumaturge Ranollious",
+      "purpose": "Arcane Scientist",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "19.31,-42.77,-145.71"
+      ],
+      "utterances": [
+        "I see a slew of possibilities within you.  You have the look of an adventurer. Such courage is uncommon, but Freeport still doubts your fortitude."
+      ]
+    },
+    {
+      "name": "Tome Warden K'Narn",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "18.68,-7.00,-131.71"
+      ],
+      "utterances": [
+        "Busy! Very busy! Books, tomes, scrolls and lexicons ... the knowledge never ends nor does my work. ",
+        "My task you ask? Look about! Walls and walls of knowledge ... many once lost and newly recovered by agents of the Academy. I am the Tome Warden. I must organize! Place this book here and that book there! It never ends! I am also the first to touch the lost tomes and the one to reward any offering of lost knowledge.   "
+      ]
+    },
+    {
+      "name": "Torga Anun",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-106.68,-24.37,-50.73"
+      ],
+      "utterances": [
+        "Welcome. We greet you."
+      ]
+    },
+    {
+      "name": "Torlig the Alchemist",
+      "purpose": "Alchemist",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-56.23,-24.43,-65.71"
+      ],
+      "utterances": [
+        "Shhhh! Don't distract me ... I need a steady hand to ensure I combine this potion correctly. One mistake and the blast will reduce this building to rubble. Deal with my apprentices if you want to buy something."
+      ]
+    },
+    {
+      "name": "Tullia Sulla",
+      "purpose": "Coercer Trainer",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "15.11,-7.00,-134.29"
+      ],
+      "utterances": [
+        "Welcome to the Academy of Arcane Science.  If you are one of the gifted few that has begun their studies into the mysteries of the arcane, the wonders of pure magic, the marvels of...  But I digress.  If you are one of these select few, then I have materials that are of great interest to you."
+      ]
+    },
+    {
+      "name": "Turia Quietus",
+      "purpose": "Shieldsmith",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-87.61,-24.43,-36.52"
+      ],
+      "utterances": [
+        "Hello! Can I offer you one of our new lifetime extended warranties for any merchandise you purchase?  "
+      ]
+    },
+    {
+      "name": "Ubaj",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-93.99,-11.00,-81.73"
+      ],
+      "utterances": [
+        "The bigger the smile, the sharper the claws.",
+        "For Thule's sake!  What is it?",
+        "The ratonga are intended to teach us that not everything in nature has a purpose."
+      ]
+    },
+    {
+      "name": "an Undead Servant",
+      "locations": [
+        "-90.74,-9.91,-170.76"
+      ]
+    },
+    {
+      "name": "Vassi Darkscale",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-74.85,-11.00,-76.01"
+      ],
+      "utterances": [
+        "Vassi does not like the looks of you.  Please move out of his view so he may continue to enjoy it."
+      ]
+    },
+    {
+      "name": "Venal T`Lar",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-145.84,-53.12,-358.32"
+      ],
+      "utterances": [
+        "Pardon me, but you have me mistaken for someone cares.",
+        "What I would give to strike down a Feir'Dal in battle.",
+        "If you do it right, pain is the gift that keeps on giving."
+      ]
+    },
+    {
+      "name": "Venetia Galatea",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-138.28,-24.37,-56.61"
+      ],
+      "utterances": [
+        "Freeport has everything you could want: intrigue, murder, and greed!",
+        "Get out of here, before I get a few friends and teach you whose turf this is!",
+        "Sometimes you have to take what you want."
+      ]
+    },
+    {
+      "name": "Vesta Hesperus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-144.40,-53.12,-362.58"
+      ],
+      "utterances": [
+        "Didn't I see your corpse in the alley?  Hmmm ... Maybe it was someone else.",
+        "The next time that guy leers at me, I'm gonna punch him in the throat.",
+        "If you keep bothering me, I'll scream for help!!"
+      ]
+    },
+    {
+      "name": "Vibia Valens",
+      "purpose": "General Goods",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-131.86,-21.43,-71.42"
+      ],
+      "utterances": [
+        "Please take a look at my wares. Don't hesitate to ask me any questions.",
+        "You're in luck. It just so happens that I need someone like you; someone who's not afraid of a few ghost stories.  I need you to acquire some important items for me. I'll pay you, of course. Interested?",
+        "Old legends say that the caverns are haunted.  It's all superstitious rubbish, of course!  The way everyone cowers in fear at the mention of the caves, you'd think they'd never heard of the walking dead before those silly legends!",
+        "I'm talking about the Wailing Caves. What other haunted caverns are there?  Despite the rumors you may have heard, the caverns are no more haunted than the savannah.",
+        "Precisely!  I need someone to venture into the caverns and gather a few ingredients for me.  The task shouldn't be too difficult for someone like you.",
+        "Oh, just a bit of seep bile from a primordial and the venom sac of a rare spider called Soulspike. Hardly a worthy task for one with such ... worldly experience, but still, I humble myself to ask for your services.",
+        "Soulspike is a Wailing Spider, one of the species that live in the caverns; he's a bit larger than the rest. His venom is said to be incredibly potent, though encountering Soulspike is extremely rare. Still, nothing for a brave adventurer to fear. ",
+        "A client of mine has requested a very... interesting potion from me.  Of course I'm more than capable of brewing it, but only if I have those ingredients.  So, are you interested in the job?",
+        "Excellent! You've put all my worries to rest. Make sure that you gather two samples of primordial seep bile, and we only need one venom sac from Soulspike."
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Xeuxa Foamheart",
+      "purpose": "Fury Trainer",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-97.34,-9.91,-145.71"
+      ],
+      "utterances": [
+        "What brings you to the Temple of War, <player name>?"
+      ]
+    },
+    {
+      "name": "Zaveda X'vch",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "8.47,-20.07,-205.24"
+      ],
+      "utterances": [
+        "How dare you address me! I have important things to attend to, now leave before others see you conversing with me; I don't want them to think I socialize with scum."
+      ]
+    },
+    {
+      "name": "Zur",
+      "purpose": "Merchant",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-88.53,-9.91,-171.82"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 968323787 -706617734 0 0 0:a dismal orb of decadence\\/a",
+          "prices": [
+            {
+              "coin": 18000,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 58658999 -927445944 0 0 0:a heretic's chanting podium\\/a",
+          "prices": [
+            {
+              "coin": 4500,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1689922432 2015993986 0 0 0:a human skeleton display\\/a",
+          "prices": [
+            {
+              "coin": 4500,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
+          "prices": [
+            {
+              "coin": 2
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -853320200 1899364709 0 0 0:a vivisection table\\/a",
+          "prices": [
+            {
+              "coin": 869247,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 364743154 1905698841 0 0 0:Ally: Dismal Rage\\/a",
+          "prices": [
+            {
+              "coin": 5529600,
+              "status": 50000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2100494003 1711253028 0 0 0:an iron maiden casket\\/a",
+          "prices": [
+            {
+              "coin": 4500,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1261954748 -1922064778 0 0 0:dismal ceremonial officer breastplate\\/a",
+          "prices": [
+            {
+              "coin": 1296000,
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -921415937 740343961 0 0 0:dismal ceremonial officer gauntlets\\/a",
+          "prices": [
+            {
+              "coin": 950400,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1234626964 -1003822191 0 0 0:dismal ceremonial officer helm\\/a",
+          "prices": [
+            {
+              "coin": 1036800,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -363733475 258297979 0 0 0:dismal ceremonial officer legplates\\/a",
+          "prices": [
+            {
+              "coin": 1123200,
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 568395887 -992639479 0 0 0:dismal ceremonial officer pauldrons\\/a",
+          "prices": [
+            {
+              "coin": 1036800,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1661999831 1575210908 0 0 0:dismal ceremonial officer tonlets\\/a",
+          "prices": [
+            {
+              "coin": 864000,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2065856704 -1642662234 0 0 0:dismal ceremonial officer vambraces\\/a",
+          "prices": [
+            {
+              "coin": 864000,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 339270507 -2087523485 0 0 0:dismal rage ceremonial boots\\/a",
+          "prices": [
+            {
+              "coin": 144000,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1777301190 2014356532 0 0 0:dismal rage ceremonial bracers\\/a",
+          "prices": [
+            {
+              "coin": 144000,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 532180612 1733422735 0 0 0:dismal rage ceremonial coat\\/a",
+          "prices": [
+            {
+              "coin": 216000,
+              "status": 27000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 618173892 1546720719 0 0 0:dismal rage ceremonial coif\\/a",
+          "prices": [
+            {
+              "coin": 172800,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 453585495 356845653 0 0 0:dismal rage ceremonial gloves\\/a",
+          "prices": [
+            {
+              "coin": 158400,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -352833813 229508033 0 0 0:dismal rage ceremonial leggings\\/a",
+          "prices": [
+            {
+              "coin": 187200,
+              "status": 27000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -601067373 -765439343 0 0 0:dismal rage ceremonial mantle\\/a",
+          "prices": [
+            {
+              "coin": 172800,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1703550942 -267229865 0 0 0:Initiate: Dismal Rage\\/a",
+          "prices": [
+            {
+              "coin": 230400,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1990885286 -1190083095 0 0 0:Member: Dismal Rage\\/a",
+          "prices": [
+            {
+              "coin": 921600,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -242656356 -1639988936 0 0 0:Officer: Dismal Rage\\/a",
+          "prices": [
+            {
+              "coin": 3686400,
+              "status": 40000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2067118534 582776284 0 0 0:undead mount summoner\\/a",
+          "prices": [
+            {
+              "coin": 16200000,
+              "status": 337500
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

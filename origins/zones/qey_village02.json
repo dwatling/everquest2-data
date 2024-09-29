@@ -1,0 +1,533 @@
+{
+  "name": "Starcrest Commune",
+  "removed": "lu64",
+  "category": "Karan",
+  "maps": [
+    {
+      "zonerect": "-994.10,133.09,-534.37,477.61"
+    }
+  ],
+  "connections": [
+    {
+      "key": "qey_adv04_bog_tlp",
+      "location": "769.92,-26.54,363.13"
+    },
+    {
+      "key": "qey_catacomb01",
+      "location": "809.81,-19.90,257.08"
+    },
+    {
+      "key": "qey_south",
+      "location": "701.50,-20.00,265.00"
+    },
+    {
+      "key": "qey_tradeskill01_village02",
+      "location": "788.99,-19.17,275.94"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Alamara Luthanyia",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "776.41,-20.55,281.53"
+      ]
+    },
+    {
+      "name": "Anevaya Starchaser",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "765.56,-20.38,242.8"
+      ]
+    },
+    {
+      "name": "Angelia Clayton",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "727.25,-20.46,260.2"
+      ]
+    },
+    {
+      "name": "Barrik",
+      "utterances": [
+        "Hello there!  Will you be needin' a new sword today?  I forge the best blades this side of the Tranquil Sea... Bested only by the Ironforge smiths. I've no work for you today, perhaps come back another day."
+      ]
+    },
+    {
+      "name": "Bermo",
+      "purpose": "Bartender",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "721.4,-20.46,261.05"
+      ],
+      "utterances": [
+        "All manner of fermented beverages available here, all with my special Glowmyst juice added!",
+        "It's a special juice I squeeze from the glowmyst beetles and I'm running short on the stuff; my customers love it.  Hey, you're a stout one, would you mind squeezing me some?",
+        "You must go to the Oakymyst forest and harvest the beetles. I'll need at least a handful of the beetles -- their juice doesn't add to or take away from the flavor of my drinks, but it gives them a slight, radiant glow.",
+        "I must have my glowmyst! My customers won't settle for anything other than that glowing concoction!",
+        "Great! This will last at least a week!  If you wait just a minute... Ahh, here we are!  Take some money for your troubles. I insist!"
+      ],
+      "store_template": "bartender"
+    },
+    {
+      "name": "Burt Everett",
+      "purpose": "Human Mentor",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "724.85,-20.4,326.58"
+      ]
+    },
+    {
+      "name": "Elliasenka Croosinaden",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "726.08,-20.46,267.83"
+      ]
+    },
+    {
+      "name": "Erian Seaver",
+      "purpose": "Crafting Trainer",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "790.59,-20.34,277.4"
+      ],
+      "store_template": "crafting_trainer"
+    },
+    {
+      "name": "Farnsby Dunworth",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "723.07,-20.46,269.62"
+      ]
+    },
+    {
+      "name": "Fawn Starstone",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "789.3,-24.52,321.11"
+      ],
+      "utterances": [
+        "Welcome to the village!  I hope you find everything you need.  I wish I had!",
+        "Well ... I hate to complain, but I thought the village would have more trees. Yes, I know ... I could move elsewhere, but I've come to love my new home.  Hmm... I wonder... would you help me bring a little more greenery to the area?",
+        "It would be nice to have more trees, but that's not practical. I'm building a garden behind my house, so I can look at it and imagine the whole village is verdant. The first thing I need is soil.",
+        "Oh I suppose I'll need some seeds too. And I don't just need soil, I need things to enrich the soil I already have. I'd like to get some diatomaceous sand from the crabs of antonica. I believe fish eggs would help with that too, so I'd like some of those as well. As for seeds, I'm sure you can collect some stuck to the fur of some of the mammals that wander around Antonica. If you could bring me all of these items it would help me greatly!",
+        "Wonderful! Thank you so much."
+      ]
+    },
+    {
+      "name": "Grekin",
+      "purpose": "Bowyer",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "797.99,-25.71,328.46"
+      ],
+      "utterances": [
+        "Come close!  Come close!  See what I have to offer today!",
+        "My requisition! I've waited for this for far too long. You would think a local requisition could be filled much quicker! Take your fee and be off."
+      ],
+      "store_template": "bowyer"
+    },
+    {
+      "name": "Innkeeper Jerben Sleepwell",
+      "purpose": "Housing",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "735.07,-20.46,262.35"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1457739578 -655029930 0 0 0:a Qeynosian small wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 30
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -949197158 -767980191 0 0 0:a wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1579048607 -882452909 0 0 0:an antonican wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knight-Captain Santis",
+      "purpose": "Qeynos Guard",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "754.02,-24.8,335.56",
+        "769.47,-25.81,352.19",
+        "761.56,-25.04,341.6"
+      ],
+      "utterances": [
+        "Good day to you.  I've been hearing reports that the Peat Bog isn't safe right now.  I hope you didn't have any trouble if you came in that way.",
+        "The Bog Sludges have swelled in number, spreading like pestilence.  This vermin has become a serious menace to the refugees in that region.  The Sludges must be exterminated for the safety of the people.  I hope you're not too squeamish for such a job.  ",
+        "Excellent!  Go to the Peat Bog, slay several sludges and report back to me.  I will reward you for your service to Qeynos. ",
+        "You are truly valuable to Qeynos.  I'm already receiving optimistic reports that the Bog Sludge are finally under control.  Please accept this reward for a job well done."
+      ]
+    },
+    {
+      "name": "Luvile Binlee",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "818.74,-20.4,268.88"
+      ]
+    },
+    {
+      "name": "Maareona Ludimintium",
+      "purpose": "Erudite Mentor",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "721.37,-20.25,317.23"
+      ]
+    },
+    {
+      "name": "Molly Daysun",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "775.66,-20.54,274.97"
+      ],
+      "utterances": [
+        "Stop, Kitty!  Come back here!"
+      ]
+    },
+    {
+      "name": "Ommanoden",
+      "purpose": "Spell Scrolls",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "822.7,-20.45,285.13"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 128450204 1303912758 0 0 0:Erudian Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oolimeminoso Pindiliana",
+      "purpose": "Alchemist",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "811.92,-20.45,300.13"
+      ],
+      "store_template": "alchemist"
+    },
+    {
+      "name": "Oomitelmora",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "715.97,-20.35,299.66"
+      ]
+    },
+    {
+      "name": "Orudormo",
+      "purpose": "Banker",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "735.02,-20.46,263.44"
+      ]
+    },
+    {
+      "name": "Philosopher Orrinalanya",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "767.42,-20.47,273.16"
+      ]
+    },
+    {
+      "name": "Proprietor Blagard",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "724.63,-20.46,259.14"
+      ]
+    },
+    {
+      "name": "a rat",
+      "locations": [
+        "807.80,-20.51,259.15",
+        "814.54,-20.32,270.73",
+        "821.07,-20.34,272.00",
+        "825.07,-20.26,278.24"
+      ]
+    },
+    {
+      "name": "Scholar Obidudyn",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "781.39,-20.36,295.88"
+      ]
+    },
+    {
+      "name": "a scrawny rat",
+      "locations": [
+        "803.79,-25.95,309.92",
+        "776.88,-20.38,246.42",
+        "825.50,-20.27,281.04"
+      ]
+    },
+    {
+      "name": "a shining nibbler",
+      "locations": [
+        "734.13,-41.50,327.21",
+        "729.01,-37.57,323.69",
+        "721.20,-42.51,293.48",
+        "727.20,-37.51,312.68",
+        "726.15,-42.61,308.28"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -2054869102 32624367:Advanced Artisan Volume 2\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1302044914 -23402794:a fish meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Taggan Brookrich",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "735.02,-20.43,306.47"
+      ],
+      "utterances": [
+        "Can you believe Vandis? You'd think he'd want help considering the mess he's in. But, ooohhh no... He's too stubborn to listen to any advice. When will he learn that he can't win without help?"
+      ]
+    },
+    {
+      "name": "Tanaira",
+      "purpose": "Provisioner",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "805.06,-25.94,324.11"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Unuesh",
+      "purpose": "Tailor",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "770.53,-24.86,326.33"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -794330433 -1667077087:rawhide gloves\\/a",
+          "prices": [
+            {
+              "coin": 172
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 286601620 432915096:rawhide shoulder pads\\/a",
+          "prices": [
+            {
+              "coin": 187
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 333400460 1385962076:rawhide wristguards\\/a",
+          "prices": [
+            {
+              "coin": 156
+            }
+          ]
+        }
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "Vandis",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "716.71,-20.25,302.99"
+      ]
+    },
+    {
+      "name": "Vondorinsarnoo",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "720.37,-20.2,274.18"
+      ]
+    },
+    {
+      "name": "Wilhemena",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "713.38,-20.01,283.65"
+      ]
+    },
+    {
+      "name": "Zentomaron Croosinaden",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "724.03,-20.46,266.83"
+      ]
+    }
+  ]
+}

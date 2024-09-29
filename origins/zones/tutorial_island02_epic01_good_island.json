@@ -1,0 +1,60 @@
+{
+  "name": "The Source of Evil",
+  "category": "Isle of Refuge",
+  "subcategory": "Dungeon",
+  "levels": "5-8",
+  "maps": [
+    {
+      "zonerect": "-17.00,-20.00,18.00,21.00"
+    }
+  ],
+  "connections": [
+    {
+      "key": "tutorial_island02"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a defiled priest",
+      "locations": [
+        "1.38,0.00,-5.76"
+      ]
+    },
+    {
+      "name": "a defiled scout",
+      "locations": [
+        "-7.08,0.00,-0.91"
+      ],
+      "utterances": [
+        "To the grave with you!",
+        "You cannot eliminate us!"
+      ]
+    },
+    {
+      "name": "a tainted Sapswill hunter",
+      "locations": [
+        "-8.00,0.00,-2.99"
+      ]
+    },
+    {
+      "name": "a tainted Sapswill warrior",
+      "locations": [
+        "-6.86,0.00,-4.29"
+      ]
+    },
+    {
+      "name": "Vith L'Tar",
+      "locations": [
+        "1.00,0.00,-2.00"
+      ],
+      "utterances": [
+        "Haha, you think you can defeat me?  You can't even touch me.",
+        "Why don't you say hello to some old friends?",
+        "Don't touch those!",
+        "No, not the totems!  How did you know?",
+        "Quite a nuisance you are.  My patience is gone, prepare for my wrath!",
+        "Now rot like your friends!"
+      ]
+    }
+  ]
+}

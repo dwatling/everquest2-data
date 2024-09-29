@@ -1,0 +1,639 @@
+{
+  "name": "Nettleville",
+  "removed": "lu64",
+  "category": "Karan",
+  "maps": [
+    {
+      "zonerect": "-884.86,153.19,-403.20,513.58"
+    }
+  ],
+  "connections": [
+    {
+      "key": "qey_adv04_bog_tlp",
+      "location": "574.12,-26.53,401.43"
+    },
+    {
+      "key": "qey_catacomb01",
+      "location": "663.67,-21.74,332.49"
+    },
+    {
+      "key": "qey_south",
+      "location": "671.40,-20.40,273.50"
+    },
+    {
+      "key": "qey_tradeskill01_village01",
+      "location": "599.72,-19.50,340.65"
+    }
+  ],
+  "objects": [
+    {
+      "name": "a bookshelf",
+      "location": "655.60,-20.42,281.93"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Ajarn",
+      "purpose": "Shieldsmith",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "592.93,-19.17,351.27"
+      ],
+      "store_template": "shieldsmith"
+    },
+    {
+      "name": "Aldin Dunwick",
+      "purpose": "Mender",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "588.14,-19.17,360.05"
+      ]
+    },
+    {
+      "name": "Amazu Kharliko",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "659.5,-24.46,373.09"
+      ]
+    },
+    {
+      "name": "Bahati Linnxar",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "595.39,-19.17,360.81"
+      ]
+    },
+    {
+      "name": "Barika Ijumaa",
+      "purpose": "General Goods",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "615.14,-26.4,379.89"
+      ],
+      "utterances": [
+        "Welcome! What can I help you with?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1241081646 1636802182:rawhide leather rucksack\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        }
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Barmaid Lolla Cotgrove",
+      "purpose": "Provisioner",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "672.24,-24.67,366.36"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Bowyer Fesante",
+      "purpose": "Bowyer",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "594.81,-19.17,356.96"
+      ],
+      "store_template": "bowyer"
+    },
+    {
+      "name": "Caroline Copperstone",
+      "purpose": "Banker",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "651.96,-24.93,352.59"
+      ]
+    },
+    {
+      "name": "Caryn Swell",
+      "purpose": "Bowyer",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "607.61,-26.52,383.3"
+      ],
+      "store_template": "bowyer"
+    },
+    {
+      "name": "Cayless Chambers",
+      "purpose": "Armorsmith",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "594.72,-19.17,365.98"
+      ],
+      "store_template": "armorsmith"
+    },
+    {
+      "name": "Constable Arathur",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "569.27,-19.17,364.08"
+      ]
+    },
+    {
+      "name": "Darian Wells",
+      "purpose": "General Goods",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "600.22,-26.53,382.5"
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Dirk Vagrin",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "643.55,-22.3,332.88"
+      ],
+      "utterances": [
+        "Ehh?  Who goes there? You looking for adventure?  I bet my shineys will tempt you!"
+      ]
+    },
+    {
+      "name": "Ehuraa Rotherham",
+      "purpose": "Tailor",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "677.47,-20.38,320.44"
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "Fallsworth",
+      "purpose": "Qeynos Guard",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "685.62,-20.27,329.27"
+      ]
+    },
+    {
+      "name": "Foster Graham",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "638.61,-24.84,374.56"
+      ],
+      "utterances": [
+        "Come to gaze upon me, have you?",
+        "Ahh... my reflection in the water.  How glorious! Nothing is more pleasurable than gazing upon my own beauty.",
+        "What!  It cannot be!  Nooooo... Where is my face cream?  My \"Erollisi's Bane?\"  Have I run out?  Its secret ingredient is rare; the local shops have all been depleted of it.  Alas!",
+        "Thank you, friend!  Your plain looks veil a superior heart.  The secret ingredient comes from the gland of the toxic bog slug, which crawls about the local peat bog.  I need several of the toxic glands.",
+        "Many thanks, my homely friend.  Take this payment for your service and use it to improve your looks.        "
+      ]
+    },
+    {
+      "name": "Friar Montego",
+      "purpose": "Nettleville Hovel Restoration Project",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "644.03,-24.66,380.42"
+      ],
+      "utterances": [
+        "Alms for the poor... Anyone, anyone?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 50070973 1579220581 0 0 0:a donation receipt\\/a",
+          "prices": [
+            {
+              "coin": 10000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garion Dunam",
+      "purpose": "Alchemist",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "653.96,-20.42,282.89"
+      ],
+      "utterances": [
+        "There are no refunds for caster error at this shop! Oh ... hello you're not here about a refund.",
+        "What happened to the highly explosive bottle that was on my desk?  Have you seen it?"
+      ],
+      "store_template": "alchemist"
+    },
+    {
+      "name": "Gunta",
+      "purpose": "Assistant Alchemist",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "655.89,-20.42,282.23"
+      ],
+      "utterances": [
+        "I am very, very busy."
+      ]
+    },
+    {
+      "name": "Innkeeper Baily Dowden",
+      "purpose": "Housing",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "654.43,-24.93,338.59"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1457739578 -655029930 0 0 0:a Qeynosian small wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 30
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -949197158 -767980191 0 0 0:a wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1579048607 -882452909 0 0 0:an antonican wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Johfrit Gythell",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "609.78,-20.59,345.03"
+      ]
+    },
+    {
+      "name": "Karrie Clayton",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "653.28,-24.78,376.63"
+      ]
+    },
+    {
+      "name": "Kathey Brewsher",
+      "purpose": "Bartender",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "666.04,-24.52,367.69"
+      ],
+      "store_template": "bartender"
+    },
+    {
+      "name": "Knight-Captain Elgrondeth",
+      "purpose": "Qeynos Guard",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "665.96,-20.39,274.73"
+      ],
+      "utterances": [
+        "Thank the gods you came along! Just when I need an extra set of hands!",
+        "One of the guards didn't show up for his shift, and I have reports that I need investigated. It's not easy work, but you look up for a challenge. What do you say? You want to help me out with my investigation?",
+        "First, I need you to investigate the sudden increase of vermin in Antonica. The beasts are eating away at our food stores and must be destroyed. I would send a guard, but we have more reports than my guards can handle. Are you ready to help?"
+      ]
+    },
+    {
+      "name": "Knight-Captain Hastings",
+      "purpose": "Qeynos Guard",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "661.32,-20.31,282.72"
+      ]
+    },
+    {
+      "name": "Kumbufu Ari",
+      "purpose": "Weaponsmith",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "583.13,-19.17,354.44"
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "Lakosha Maera",
+      "purpose": "Kerra Mentor",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "673.27,-20.57,334.74"
+      ]
+    },
+    {
+      "name": "Laudine Shardalow",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "660.04,-24.93,345.8"
+      ]
+    },
+    {
+      "name": "Logan MacAdie",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "653.65,-24.72,371.51"
+      ]
+    },
+    {
+      "name": "Marjani Kenan",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "639.21,-20.42,284.8"
+      ],
+      "utterances": [
+        "I'm dying to know what's in that castle."
+      ]
+    },
+    {
+      "name": "Nawal Tahri",
+      "purpose": "Crafting Trainer",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "598.91,-20.49,343.05"
+      ],
+      "store_template": "crafting_trainer"
+    },
+    {
+      "name": "Nia Jaja",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "631.35,-22.51,361.24"
+      ]
+    },
+    {
+      "name": "a rat",
+      "locations": [
+        "580.56,-20.32,317.69",
+        "583.47,-26.86,385.00",
+        "705.00,-25.22,333.60",
+        "701.50,-28.22,341.47",
+        "695.13,-30.50,343.64"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1659113820 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Spiritist Laharn Rahai",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "572.48,-19.02,350.27"
+      ]
+    },
+    {
+      "name": "a stone scrabbler",
+      "locations": [
+        "684.03,-24.79,358.25",
+        "681.32,-22.12,342.71"
+      ]
+    },
+    {
+      "name": "Varion Smitelin",
+      "purpose": "Spell Scrolls",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "637.56,-20.42,283.39"
+      ],
+      "utterances": [
+        "Interested in the magical arts, are you?",
+        "Good. That's what I like to hear! I'm working on a levitation spell, but I'm running low on Bog Faeries. If you go to the Peat Bog and round up some of the wings, I'll gladly pay you for this deed.",
+        "Fabulous!  I need a handful of the wings to restock my supply. Good luck in that nasty bog and be careful!",
+        "Excellent!  These will do most nicely! I hope getting the wings wasn't too difficult. As promised, here's your reward. ",
+        "Thank you for refilling my jars. I knew they were empty, but could not find the time to make the trip to Oakmyst Forest. Please take this payment as a reward for your good deed."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1384598 274987165 0 0 0:Kerran Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Verth",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "608.19,-20.26,293.87"
+      ]
+    },
+    {
+      "name": "Vida Sweeps",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "675.09,-20.42,311.23"
+      ],
+      "utterances": [
+        "So much to do!  So little time! I must finish my sweeping, but I need a new broom. Perhaps you'll help me in return for a precious stone?",
+        "So much to do!  So little time!  I must get these tents in order, and all this sweeping is giving me blisters.  It wouldn't be so bad if there weren't all these little rocks about.",
+        "These stones on the ground, of course ... I guess I swept away most of the pebbles, but I did keep one strange blue rock that I found in the dust.  If you agree to help me, I'll give you the precious stone as payment. Unfortunately, I'm short on coin.",
+        "Great!  I need you to pick up my new broom. Don't worry! It's already paid for; I just haven't picked it up. Tawli Whiskwind, a halfling lass in the Baubbleshire, should have it ready for me. You may have a difficult time finding her -- she's always running around looking for the finest materials for her brooms.",
+        "Aye, I told you she was a bit flighty.  Thank you for the broom and here is the stone I promised.  I hope it brings you good luck.",
+        "I suppose that is up to you.  Maybe you can take it to a mineral expert somewhere in the city."
+      ]
+    },
+    {
+      "name": "Willim Barclay",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "614.25,-26.33,368.57"
+      ]
+    }
+  ]
+}

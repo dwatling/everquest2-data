@@ -1,0 +1,632 @@
+{
+  "name": "Longshadow Alley",
+  "category": "D'Lere",
+  "maps": [
+    {
+      "zonerect": "-185.63,-147.51,165.21,126.03"
+    }
+  ],
+  "connections": [
+    {
+      "key": "fprt_adv02_graveyard_tlp",
+      "location": "53.70,-2.00,-19.89"
+    },
+    {
+      "key": "fprt_north_tlp",
+      "location": "16.10,3.00,75.60"
+    },
+    {
+      "key": "fprt_sewer01",
+      "location": "43.47,-0.87,-22.96"
+    },
+    {
+      "key": "fprt_tradeskill01_hood05",
+      "location": "14.55,0.57,5.33"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Alanaramal Z'Aste",
+      "purpose": "Crafting Trainer",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "13.14,0.0,7.77"
+      ],
+      "utterances": [
+        "You have learned everything I have to teach at the moment.  You are free to use our crafting facilities to hone your skills."
+      ],
+      "store_template": "crafting_trainer"
+    },
+    {
+      "name": "Aldera V'Exxa",
+      "purpose": "Dark Elf Mentor",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-50.6,-4.66,-63.53"
+      ],
+      "utterances": [
+        "There is nothing left for you here."
+      ]
+    },
+    {
+      "name": "Armsdealer T`Nyvez",
+      "purpose": "Weaponsmith",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "16.96,0.0,-2.14"
+      ],
+      "utterances": [
+        "We have a nice selection of previously owned weapons for those with modest funds.",
+        "The only thing separating you from death in this city are your wits.  I wouldn't call that adequate protection.",
+        "A good weapon at your side is the only real friend you'll ever have!",
+        "Is there a specific way you're looking to kill someone?  Disemboweling, beheading, impaling, strangulation?"
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "Brelslade",
+      "purpose": "Mender",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "24.62,-0.01,-16.27"
+      ],
+      "utterances": [
+        "Nah, no need to buy a completely new set.  I'll use some of this special solvent I have.  It'll fix it up good as new!"
+      ]
+    },
+    {
+      "name": "Cizra J`Yax",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "2.06,0.0,-28.79",
+        "-33.56,-2.74,-38.41"
+      ]
+    },
+    {
+      "name": "Dimal B`Orin",
+      "utterances": [
+        "Avert your eyes as I pass, commoner.",
+        "I'm sorry, I haven't any coin for beggars and vagabonds.",
+        "Show your enemies the mercy they deserve: none."
+      ]
+    },
+    {
+      "name": "Divek L`Narr",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-0.65,0.35,26.91"
+      ]
+    },
+    {
+      "name": "Ezria M'Linar",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-10.19,0.12,-19.27"
+      ],
+      "utterances": [
+        "Ah.  How lovely.  Perhaps you are a fellow sophisticate with a palate for the finer things?  I am a vintner, you see.  Ezria M'Linar is my name.  My wines capture the essence of a long lost Neriak."
+      ]
+    },
+    {
+      "name": "Imnat D`Vren",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "24.45,0.49,5.17"
+      ],
+      "utterances": [
+        "Bah! That Maliz keeps breaking everything. He's not allowed near what little furniture we have left! What do you want? Can't you see I'm busy!"
+      ]
+    },
+    {
+      "name": "Innkeeper T`Mel",
+      "purpose": "Housing",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-51.64,2.39,4.47"
+      ],
+      "utterances": [
+        "Hello <player name>, I am the Innkeeper for this district. We have received word of your arrival and have a room prepared for you.  Would you like to know more about housing?",
+        "What would you like to know?",
+        "Hello there <player name>, what can I help you with?",
+        "Only traitors to the Overlord would pass up a bargain like this.  You're not a traitor are you?",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "In spite of the cost of living, it's still quite a popular item.",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1948997447 910538981 0 0 0:a generic wall sconce\\/a",
+          "prices": [
+            {
+              "coin": 1215
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -696290415 -1683006441 0 0 0:an armorwasher's bucket\\/a",
+          "prices": [
+            {
+              "coin": 135
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 729139268 0 0 0:an enchanter's candelabra\\/a",
+          "prices": [
+            {
+              "coin": 32805
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Innurae V`Tarris",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "32.39,1.0,20.29"
+      ],
+      "utterances": [
+        "Don't expect anything from me, young one.  This place is but a mere rest stop before I move on."
+      ]
+    },
+    {
+      "name": "Juturna Postumus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-44.87,-3.0,-38.69"
+      ],
+      "utterances": [
+        "What do you want from me?",
+        "Forgive me...that was rather rude of me!  You caught me remembering the past...thinking about my son, may the gods preserve his memory.",
+        "I don't want to burden you with the details.  He's...been dead now for many years.  Even now, though, I remember his smile and laugh.  If only I'd listened to my heart and left when I had the chance.",
+        "I have relatives...elsewhere.  They're warm, friendly and caring people.  Their minds and hearts are open.  Their lives are rich and full of beauty.  I'm not speaking of wealth, but of another sort of richness.",
+        "My husband would not leave Freeport then.  When he finally did leave, it was to take our son and...and... Well...my husband got what he deserved in the end, but not my son.  He deserved a much better end.",
+        "You seem like an open-minded person.  We squires can sense that about others.  I...can tell you more about this, if you would become a client of mine.",
+        "There are a handful of squires in Freeport who assist their clients in learning more about other places, where our lives would not be filled with the stress that living here in Freeport can bring.",
+        "Widowed as young as I was, I've been unable to save anything.  I barely scrape by as it is.  If...if you could lend me five hundred gold, I could go to my relatives.  I'd pay you back...I would!",
+        "I was right: your heart and mind are open.  There is no need to give me anything.  I have much that I can give you, though.  There is a way to freedom and security.  Are you interested in learning about it?",
+        "A stockpile of weapons and armor is hidden somewhere in Freeport.  We must locate it before it's distributed where it will do harm.  A gnomish squire invented a clever device -- a listenomitron -- that allows someone to hear things from quite a distance away.  The listenomitrons only work at night, so someone whose bones do not creak as mine do is the best person for the task.",
+        "You are most kind.  Once you've placed the listenomitrons, please visit the squire in the pub room at the Blood Haze Inn in West Freeport.  You'll receive further directions then.  The blessings of the gods go with you."
+      ]
+    },
+    {
+      "name": "Kalraath L'Vin",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-6.28,3.0,62.66"
+      ]
+    },
+    {
+      "name": "K`Tolia",
+      "purpose": "Alchemist",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-21.24,0.0,14.77"
+      ],
+      "utterances": [
+        "Let me guess, you're looking for poison, right?",
+        "I need to get some eye of griffon, a bears paw, the heart of an innocent man.  That'll be tough in this city!"
+      ],
+      "store_template": "alchemist"
+    },
+    {
+      "name": "Kylanith D`Lar",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-41.15,4.0,42.94"
+      ]
+    },
+    {
+      "name": "L`Dor",
+      "purpose": "Armorsmith",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-56.34,-4.66,-62.1"
+      ],
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item."
+      ],
+      "store_template": "armorsmith"
+    },
+    {
+      "name": "Lotni K`Iria",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-23.35,-1.5,-29.25"
+      ],
+      "utterances": [
+        "Another refugee... What do YOU want, peasant?"
+      ]
+    },
+    {
+      "name": "Lynsia T'Kanix",
+      "purpose": "Provisioner",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-4.28,0.0,-19.29"
+      ],
+      "utterances": [
+        "The wine I serve tastes like the wines of Neriak. Ah ... how I miss drinking the fine wine of my homeland. Now, what do you want, peasant?"
+      ],
+      "store_template": "provisioner+bartender"
+    },
+    {
+      "name": "Maliz T`Raan",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "23.45,0.49,1.98"
+      ],
+      "utterances": [
+        "Living in these slums is sickening! What do you want from me?"
+      ]
+    },
+    {
+      "name": "Modian K`Jarr",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-2.54,0.0,-20.59"
+      ]
+    },
+    {
+      "name": "Nezzka S`Tai",
+      "utterances": [
+        "The Coalition of Tradesfolke aren't capable of serving anyone other than their own greed."
+      ]
+    },
+    {
+      "name": "Orian D`Rak",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "58.08,-1.02,1.34"
+      ]
+    },
+    {
+      "name": "P`Thek",
+      "purpose": "Spell Scrolls",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "30.86,3.03,34.98"
+      ],
+      "utterances": [
+        "So are you planning to master your art at the academy?  We keep all of the required supplies right here!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1862455715 467547746 0 0 0:Amplify (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 180
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1320469098 394750934 0 0 0:Arcane Bindings (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 180
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1819394391 608300717 0 0 0:Cold Whorl (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 180
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 452200260 279621482 0 0 0:Engulf (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 180
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1614381346 -1086851150 0 0 0:Fire Chamber (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 180
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -751764190 1338585788 0 0 0:Lightning Burst (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 180
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -491295980 899297730 0 0 0:Lightning Shock (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 180
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -182855303 1967098650 0 0 0:softly glowing pearl\\/a",
+          "prices": [
+            {
+              "coin": 18000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 762376709 1461305910 0 0 0:Storm of Lightning (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 180
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 510408638 -1857459123 0 0 0:Thexian Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sh`Nra",
+      "purpose": "Shieldsmith",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "21.09,-0.01,-11.3"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "shieldsmith"
+    },
+    {
+      "name": "Teah J'Nar",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1.39,0.0,-19.2"
+      ]
+    },
+    {
+      "name": "T`Gask",
+      "purpose": "Tailor",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-18.03,0.0,-7.51"
+      ],
+      "utterances": [
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "T`Val",
+      "purpose": "Banker",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-31.85,1.11,11.6"
+      ],
+      "utterances": [
+        "Hail to you.  Currency exchange, secure storage of goods, I offer a range of services tailored to the needs of Freeport guild members."
+      ]
+    },
+    {
+      "name": "V`Dyhn",
+      "purpose": "Bowyer",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-9.77,0.0,19.83"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "In spite of the cost of living, it's still quite a popular item."
+      ],
+      "store_template": "bowyer"
+    },
+    {
+      "name": "Vela M`Rev",
+      "utterances": [
+        "I refuse to be told what to do by a group of simple-minded buffoons!",
+        "Anyone who dares to disagree with me will feel the taste of my steel."
+      ]
+    },
+    {
+      "name": "Vorshar L`Faz",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "2.01,0.0,-28.76"
+      ],
+      "utterances": [
+        "The withering hands of the Dismal Rage priests look more like hands of death than hands that can heal people.",
+        "There's nothing that the Coalition of Tradesfolke can't make a profit out of."
+      ]
+    },
+    {
+      "name": "V`Tun",
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ]
+    },
+    {
+      "name": "Wholesaler Zarethe N'Kor",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-5.34,0.00,-18.59"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ]
+    },
+    {
+      "name": "Yarana D'Ven",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "15.85,1.5,12.97"
+      ]
+    },
+    {
+      "name": "Zelina T`Von",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-30.69,4.0,45.65"
+      ]
+    }
+  ]
+}

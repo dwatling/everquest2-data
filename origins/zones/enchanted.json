@@ -1,0 +1,22 @@
+{
+  "name": "Enchanted Lands",
+  "category": "The Enchanted Lands",
+  "notes": "Home to the merry halflings of Rivervale and the wretched goblins of Runnyeye.",
+  "levels": "30-40",
+  "maps": [
+    {
+      "zonerect": "-919.73,-1398.81,1263.92,238.36"
+    }
+  ],
+  "connections": [
+    {
+      "key": "enchanted_mini01"
+    },
+    {
+      "key": "rivervale"
+    },
+    {
+      "key": "runnyeye"
+    }
+  ]
+}

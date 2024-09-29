@@ -1,0 +1,729 @@
+{
+  "name": "Big Bend",
+  "category": "D'Lere",
+  "maps": [
+    {
+      "zonerect": "-268.73,-156.94,241.76,233.74"
+    }
+  ],
+  "connections": [
+    {
+      "key": "fprt_adv03_sprawl_tlp"
+    },
+    {
+      "key": "fprt_sewer01"
+    },
+    {
+      "key": "fprt_south_tlp"
+    },
+    {
+      "key": "fprt_tradeskill01_hood01"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Armsdealer Blort",
+      "purpose": "Weaponsmith",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "17.43,0.0,3.21"
+      ],
+      "utterances": [
+        "Come talk to Blort about buying cutters and slicers!",
+        "You like my cutters and slicers? Choose quick or Blort test these weapons on you."
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "a barbarian prisoner",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-29.42,4.0,-44.77"
+      ]
+    },
+    {
+      "name": "Barch",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "7.52,0.0,1.74"
+      ],
+      "utterances": [
+        "Barch strong and mighty hunter!  What about you?"
+      ]
+    },
+    {
+      "name": "Barmaid Poppaea",
+      "purpose": "Provisioner",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "2.43,0.1,16.82"
+      ],
+      "utterances": [
+        "Hey you want that spicy cake to go?  Be careful, that one will singe your nose hairs!",
+        "The Ogre bread takes an extra long time to bake.  Hey, they like large servings.",
+        "Hey do you see any water around here?  Oh well, who needs to wash their hands?",
+        "Man do I love gnome bread!  The trolls, they just love gnomes period!"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "a Big Bend rat",
+      "levelRange": "4",
+      "locations": [
+        "86.11,-2.00,13.88",
+        "89.99,-2.00,-9.99",
+        "83.13,-2.00,4.36"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1827048103 -393057318:Advanced Artisan Volume 4\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1659113820 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Braz Gutpounder",
+      "purpose": "Troll Mentor",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-29.22,-4.67,84.76"
+      ],
+      "languages": [
+        "Ykeshan"
+      ]
+    },
+    {
+      "name": "Crantik the Crazed",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "87.23,-2.0,-5.54"
+      ],
+      "utterances": [
+        "Up is down and down is up, yet both are still sideways!  Hoooooooo hee hee haaaaaaaa!"
+      ]
+    },
+    {
+      "name": "Crattok",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "4.16,2.46,-27.12"
+      ],
+      "utterances": [
+        "You give hunting work for Crattok?"
+      ]
+    },
+    {
+      "name": "Darby",
+      "purpose": "Tailor",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-15.2,0.0,-16.77"
+      ],
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item.",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "a dwarven prisoner",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
+      "locations": [
+        "-30.55,4.0,-43.61"
+      ],
+      "utterances": [
+        "Stop bothering me, filth!"
+      ]
+    },
+    {
+      "name": "Enforcer Drulk",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-21.25,0.0,-6.97"
+      ],
+      "utterances": [
+        "What do you want, little one?"
+      ]
+    },
+    {
+      "name": "Firda",
+      "purpose": "Shieldsmith",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "17.31,0.0,-2.4"
+      ],
+      "utterances": [
+        "Hello! Can I offer you one of our new lifetime extended warranties for any merchandise you purchase?  ",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store_template": "shieldsmith"
+    },
+    {
+      "name": "Galbran",
+      "purpose": "Mender",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "23.02,-0.01,6.69"
+      ],
+      "utterances": [
+        "I can emphatically say repairing weapons is much more reliable than buying new ones.  Would I lie?",
+        "You need help fixing that pile of junk?  Well it's going to cost you.",
+        "Nah, no need to buy a completely new set.  I'll use some of this special solvent I have.  It'll fix it up good as new!"
+      ]
+    },
+    {
+      "name": "Galenus Fulvianus",
+      "purpose": "Bartender",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "1.04,0.0,20.41"
+      ],
+      "utterances": [
+        "So tell me, what's your poison?",
+        "It sure is warm today. Try a drink to quench your thirst.",
+        "You want to talk?  If you want us to be friends all you need to do is buy a drink!"
+      ],
+      "store_template": "bartender"
+    },
+    {
+      "name": "Graktak Splatterblood",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-37.05,-4.67,74.39"
+      ],
+      "languages": [
+        "Ykeshan"
+      ]
+    },
+    {
+      "name": "Grazzgrat",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "5.12,0.0,-4.94"
+      ],
+      "utterances": [
+        "This place is no good.  It's too dry, too crowded, and there's nothing to hunt but rats.  No, this place is not so good as Grazzgrat's swamp.",
+        "Ahh, you think you smarter than Grazzgrat?  Well, you not so smart because Grazzgrat would be in swamp now if he could.  But swamp was destroyed so long ago and Grazzgrat forced to live in dry, crowded place until he find new swamp.",
+        "The swamp was destroyed in the Shattering.  Great fire rocks fell from the sky and boiled the swamp.  Everything died; Grazzgrat almost died.",
+        "Ahahaha!  Grazzgrat is tougher than little snakes, lizards, and frogloks.  The boiling water only burned and blistered Grazzgrat while he swam to muddy shore.  That boiled too, the mud, but it was not so bad for Grazzgrat.",
+        "Swamp was to the south and ran deep for miles and miles.  It had lots of things to feed Grazzgrat, lots of frogloks for Grazzgrat and Grazzgrat's many children to eat, and lots of ruined rocks to make Grazzgrat's home.  Yes, that swamp was a good swamp.  Grazzgrat is... disappointed now that it's gone.",
+        "Grazzgrat only know what he heard and smelled.  They screamed so loud in pain and fear and Grazzgrat could smell their skins melting in the swamp.  It was terrible and sad thing the frogloks' boiling alive, not that they died, but that Grazzgrat could not enjoy the slaughter.",
+        "Yes, many brothers, sisters and children of Grazzgrat hunted frogloks in the swamp.  They were pleased with the swamp, as Grazzgrat was pleased, but no more.  They are probably dead, boiled or crushed by fire rocks from the sky."
+      ]
+    },
+    {
+      "name": "Hurska",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-15.51,-4.67,75.97"
+      ],
+      "utterances": [
+        "Why are you botherin' Hurska?"
+      ]
+    },
+    {
+      "name": "Innkeeper Uglar Splinterthumb",
+      "purpose": "Housing",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-18.17,0.0,-13.72"
+      ],
+      "utterances": [
+        "Hello there <player name>, what can I help you with?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 850442521 -1052691867 0 0 0:a Freeport wooden counter\\/a",
+          "prices": [
+            {
+              "coin": 810
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -696290415 -1683006441 0 0 0:an armorwasher's bucket\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 729139268 0 0 0:an enchanter's candelabra\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jezranaz Rottingskin",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-53.81,0.5,26.61"
+      ],
+      "utterances": [
+        "Curses, where is da doctor in the district?"
+      ]
+    },
+    {
+      "name": "Kaboomga",
+      "purpose": "Alchemist",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-40.5,1.5,9.71"
+      ],
+      "utterances": [
+        "Poison testers, it's been my biggest seller for the past several months.  Of course poison was a close second. ",
+        "I need to get some eye of griffon, a bears paw, the heart of an innocent man.  That'll be tough in this city!",
+        "Be careful what you touch in here. You're liable to kill us all!"
+      ],
+      "store_template": "alchemist"
+    },
+    {
+      "name": "Karakiat Bonewalker",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-20.21,-1.66,37.82"
+      ],
+      "utterances": [
+        "Treat us badly in Neriak! I laugh now we in same spot!",
+        "Tasty treats, lots of meats.",
+        "Nasty scars and boiled tar!  Warriors is what we are!"
+      ]
+    },
+    {
+      "name": "Klott",
+      "purpose": "Bowyer",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-24.18,0.0,-9.31"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "In spite of the cost of living, it's still quite a popular item."
+      ],
+      "store_template": "bowyer"
+    },
+    {
+      "name": "Korkoof Crackstone",
+      "purpose": "Crafting Trainer",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "2.71,0.0,-14.29"
+      ],
+      "utterances": [
+        "You have learned everything I have to teach at the moment.  You are free to use our crafting facilities to hone your skills."
+      ],
+      "store_template": "crafting_trainer"
+    },
+    {
+      "name": "Kroota Gukbutcher",
+      "purpose": "Ogre Mentor",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-24.66,-4.66,88.03"
+      ],
+      "utterances": [
+        "I have no time to waste on pleasantries."
+      ]
+    },
+    {
+      "name": "Lochugh",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "58.28,-1.02,-10.64"
+      ],
+      "utterances": [
+        "Can't ya see, I'm busy?"
+      ]
+    },
+    {
+      "name": "Molg",
+      "purpose": "Armorsmith",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-20.82,-4.19,61.42"
+      ],
+      "utterances": [
+        "Molg here!  Things for sale!  Buy!  Buy!  Buy!  Things!",
+        "All kinds of things!  Big things, little things, shiny things, even dull things!  But not so much the dull things.  Molg also buys things you know.  But Molg is a discriminating shopper.  Buy things!"
+      ],
+      "store_template": "armorsmith"
+    },
+    {
+      "name": "Muzmog",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "3.52,0.11,20.49"
+      ],
+      "languages": [
+        "Oggish"
+      ]
+    },
+    {
+      "name": "Papilius Ahala",
+      "purpose": "Spell Scrolls",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "19.44,3.04,-41.1"
+      ],
+      "utterances": [
+        "Interested in a writing sample?  Or am I wasting my time on another worthless lout who can't read?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -124194618 1455173999 0 0 0:Oggish Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 804047334 -700984756 0 0 0:Ykeshan Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -751764190 1338585788:Lightning Burst (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1614381346 -1086851150:Fire Chamber (Apprentice II)\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        }
+      ],
+      "store_template": "wizard_trainer"
+    },
+    {
+      "name": "Quintius Calacicus",
+      "purpose": "Banker",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-33.67,2.07,-1.17"
+      ],
+      "utterances": [
+        "Welcome to the Freeport Reserve. Will you entrust me with your valuables and cash? I'll take fine care of them."
+      ]
+    },
+    {
+      "name": "Ralianazz Skullcracker",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "6.74,3.0,-65.1"
+      ],
+      "languages": [
+        "Oggish"
+      ]
+    },
+    {
+      "name": "a rat",
+      "levelRange": "1",
+      "locations": [
+        "-25.18,-4.65,104.00"
+      ]
+    },
+    {
+      "name": "Ratcatcher Zarbt",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "23.65,0.92,-22.85"
+      ],
+      "languages": [
+        "Ykeshan"
+      ]
+    },
+    {
+      "name": "Skagga",
+      "purpose": "General Goods",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-19.0,0.0,5.97"
+      ],
+      "utterances": [
+        "Whazza yoo want, eh? You wanna give Skagga money for Skagga's precious wares?"
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Slaver Brona",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-27.99,4.0,-40.86"
+      ],
+      "utterances": [
+        "It's hard to find help that's not afraid of me!",
+        "You dare approach me, peasant?!  You look like one of my miserable thralls, so I know you've no coin. Begone!"
+      ]
+    },
+    {
+      "name": "Somdoq",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "55.38,-1.02,-10.11"
+      ],
+      "utterances": [
+        "This does not interest you!  Begone."
+      ]
+    },
+    {
+      "name": "Talanakiat",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "7.66,3.0,-63.86"
+      ],
+      "languages": [
+        "Ykeshan"
+      ]
+    },
+    {
+      "name": "Thick-Headed Ruzb",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-49.14,4.0,-31.67"
+      ],
+      "languages": [
+        "Ykeshan"
+      ]
+    },
+    {
+      "name": "Uggruk",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-0.81,0.0,7.99"
+      ],
+      "utterances": [
+        "I am no city guide. Find your idle chat from some runt race, not from a son of Oggok. Begone before you find my rage!"
+      ]
+    },
+    {
+      "name": "Vakiza Skinner",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-40.94,4.13,-45.84"
+      ],
+      "languages": [
+        "Ykeshan"
+      ]
+    },
+    {
+      "name": "Zukogg",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-24.23,0.0,-2.2"
+      ],
+      "utterances": [
+        "I am busy.  What do you need?"
+      ]
+    }
+  ]
+}

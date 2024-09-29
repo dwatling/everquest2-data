@@ -1,0 +1,480 @@
+{
+  "name": "Castleview Hamlet",
+  "removed": "lu64",
+  "category": "Karan",
+  "maps": [
+    {
+      "zonerect": "-1012.90,-312.79,-553.08,41.48"
+    }
+  ],
+  "connections": [
+    {
+      "key": "qey_adv01_oakmyst_tlp",
+      "location": "751.46,-5.57,-196.06"
+    },
+    {
+      "key": "qey_catacomb01",
+      "location": "793.90,-21.07,-97.85"
+    },
+    {
+      "key": "qey_harbor",
+      "location": "728.60,-21.10,-123.40"
+    },
+    {
+      "key": "qey_tradeskill01_village04",
+      "location": "746.68,-15.21,-156.92"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Apprentice Boggi",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "712.2,-21.03,-133.28"
+      ]
+    },
+    {
+      "name": "Bleemeb",
+      "purpose": "Spell Scrolls",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "696.6,-15.69,-138.75"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1051399116 1002640051 0 0 0:Guktan Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1922632856 -1872524725 0 0 0:Koada'Dal Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bulurg",
+      "purpose": "Bartender",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "741.33,-20.6,-106.91"
+      ],
+      "store_template": "bartender"
+    },
+    {
+      "name": "Cilindari",
+      "purpose": "Alchemist",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "700.99,-15.19,-157.95"
+      ],
+      "store_template": "alchemist"
+    },
+    {
+      "name": "Dalonalis",
+      "purpose": "Banker",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "745.35,-14.69,-136.73"
+      ]
+    },
+    {
+      "name": "Daylena Telanthis",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "796.65,-16.12,-111.9"
+      ]
+    },
+    {
+      "name": "Dolthyryr Helyanwe",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "778.06,-15.23,-137.3"
+      ]
+    },
+    {
+      "name": "Eireneith Alannia",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "724.76,-21.04,-143.03"
+      ]
+    },
+    {
+      "name": "Entertainer Faeadaen",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "742.68,-21.22,-118.51"
+      ]
+    },
+    {
+      "name": "Fevalin",
+      "purpose": "Provisioner",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "727.99,-15.22,-164.19"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Frup Groaak",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "763.37,-18.05,-109.75"
+      ],
+      "utterances": [
+        "Frooooaaaak! Have you seen any of my brothers?"
+      ]
+    },
+    {
+      "name": "Gilcirith Elensar",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "740.21,-14.69,-144.07"
+      ]
+    },
+    {
+      "name": "Glump Marrblade",
+      "purpose": "Crafting Trainer",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "748.9,-15.21,-157.61"
+      ],
+      "store_template": "crafting_trainer"
+    },
+    {
+      "name": "Graac Justheart",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "797.68,-16.0,-105.45"
+      ]
+    },
+    {
+      "name": "Grommluk Oognee",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "792.89,-17.13,-160.38"
+      ]
+    },
+    {
+      "name": "Innkeeper Valean",
+      "purpose": "Housing",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "783.25,-15.23,-137.76"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1192413674 -55368781 0 0 0:a Qeynosian large wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -568616880 1329473188 0 0 0:a Qeynosian medium wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1457739578 -655029930 0 0 0:a Qeynosian small wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 40
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -949197158 -767980191 0 0 0:a wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1579048607 -882452909 0 0 0:an antonican wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 360
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 729139268 0 0 0:an enchanter's candelabra\\/a",
+          "prices": [
+            {
+              "coin": 29160
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kethelin Shadowcross",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "796.63,-16.17,-115.34"
+      ]
+    },
+    {
+      "name": "Knight-Captain Gerathalas",
+      "purpose": "Qeynos Guard",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "735.57,-21.34,-125.63"
+      ]
+    },
+    {
+      "name": "Kruuprum",
+      "purpose": "General Goods",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "736.47,-15.21,-163.12"
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Kwa Stalwart",
+      "purpose": "Froklok Mentor",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "782.07,-21.06,-92.62"
+      ]
+    },
+    {
+      "name": "Listalania Vainederian",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "770.63,-18.22,-116.95"
+      ]
+    },
+    {
+      "name": "Rrak Boldfist",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "708.34,-15.69,-141.92"
+      ]
+    },
+    {
+      "name": "Shae'Ahla",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "717.45,-21.06,-142.09"
+      ]
+    },
+    {
+      "name": "a shining nibbler",
+      "locations": [
+        "756.46,-43.50,-94.07",
+        "760.48,-38.18,-95.73"
+      ]
+    },
+    {
+      "name": "Sir Antylus Teraeth",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "771.73,-16.22,-156.68"
+      ]
+    },
+    {
+      "name": "a stingrat",
+      "locations": [
+        "751.16,-12.55,-177.38"
+      ]
+    },
+    {
+      "name": "Taneranthalis Nedaiveren",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "768.55,-18.22,-115.7"
+      ]
+    },
+    {
+      "name": "Valinar",
+      "purpose": "Tailor",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "717.8,-16.15,-162.37"
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "Vindain Greenfaith",
+      "purpose": "High Elf Mentor",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "789.52,-21.17,-99.66"
+      ]
+    },
+    {
+      "name": "Waitress Brooak",
+      "race": [
+        "froglok"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "739.5,-21.24,-109.79"
+      ]
+    },
+    {
+      "name": "Yanari Cyellann",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "692.18,-15.19,-154.18"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "The Serpent Sewer",
+  "category": "D'Lere",
+  "levels": "15-20",
+  "maps": [
+    {
+      "zonerect": "-20.00,-200.00,290.00,164.00"
+    }
+  ],
+  "connections": [
+    {
+      "key": "fprt_adv03_sprawl_tlp"
+    },
+    {
+      "key": "fprt_sewer01"
+    },
+    {
+      "key": "fprt_sewer03"
+    },
+    {
+      "key": "fprt_sewer_epic03_quest_serpentsewer_epic"
+    }
+  ]
+}

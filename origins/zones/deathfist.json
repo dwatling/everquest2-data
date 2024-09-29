@@ -1,0 +1,399 @@
+{
+  "name": "Deathfist Citadel",
+  "category": "Zek",
+  "subcategory": "Group",
+  "levels": "35-45",
+  "maps": [
+    {
+      "name": "Top Floor",
+      "index": 0,
+      "zonerect": "-55.00,-54.00,51.00,69.00",
+      "heightmin": 5
+    },
+    {
+      "name": "Main Floor",
+      "index": 1,
+      "zonerect": "-55.00,-54.00,51.00,69.00",
+      "heightmin": -5,
+      "heightmax": 5
+    },
+    {
+      "name": "Basement",
+      "index": 2,
+      "zonerect": "-57.00,-58.00,52.00,68.00",
+      "heightmin": -15,
+      "heightmax": -5
+    },
+    {
+      "name": "Arena",
+      "index": 3,
+      "zonerect": "-55.00,-54.00,51.00,69.00",
+      "heightmax": -15
+    }
+  ],
+  "connections": [
+    {
+      "key": "orcishwastes"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Agtak",
+      "utterances": [
+        "I don't need your help, fool! Go away. I can endure any pain they inflict. When I'm through with them, your kind is next!",
+        "You talk too much. I'll have your tongue ripped from your gullet! I'm not the ruler of this empire. I'm the ruler of empires to come. ",
+        "My words are not riddles. They're a forewarning of your doom. I am a prince ... a prince denied by Fyst. To him I am nothing but a mutt. He wishes to veil me from the empire, here in this oubliette!",
+        "As I said, I don't need your help! But you may need mine. I'll let you use me. I'll aid your hopeless cause and do away with my obstacles, orcish obstacles. ",
+        "I've spent too many hours in this wretched place; hours spent thinking of those who stand in my way. Dispatch of my adversaries, and I shall reward you generously."
+      ]
+    },
+    {
+      "name": "Arena Champion Kraz'k",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Green Hoods",
+          "value": 50
+        },
+        {
+          "name": "The Deathfist Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Blademaster Gromgak",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Chief Torturer Goortz",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1057538332 470544897:Deathfist jail master key\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Green Hoods",
+          "value": 50
+        },
+        {
+          "name": "The Deathfist Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Deathfist archer",
+      "utterances": [
+        "Who dares enter the citadel?!",
+        "I've got somethin' fer ya!  Hahaha!",
+        "There's one!",
+        "Run cowards!",
+        "Intruder!  Intruder in the courtyard!",
+        "I'm injured! Call for a healer.",
+        "Avenge the fallen.",
+        "We will remember your sacrifice."
+      ]
+    },
+    {
+      "name": "a Deathfist priest",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2073012232 -609012107:crystal bottle of perfume\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -26685399 680889659:Feysteel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 149792389 1916384666:Gel Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 284,
+      "drop_coin_max": 4376,
+      "faction_changes": [
+        {
+          "name": "The Green Hoods",
+          "value": 50
+        },
+        {
+          "name": "The Deathfist Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Deathfist sentinel",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2033207547 2132039548:Rise of the Orcs - The Rousing  - Page 10\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Green Hoods",
+          "value": 50
+        },
+        {
+          "name": "The Deathfist Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Deathfist siege operator",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -26685399 680889659:Feysteel Relic\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 440,
+      "drop_coin_max": 4851,
+      "faction_changes": [
+        {
+          "name": "The Green Hoods",
+          "value": 50
+        },
+        {
+          "name": "The Deathfist Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Deathfist soothsayer",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2103372807 -329902704:Rujarkian Battle Charm\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 1323,
+      "drop_coin_max": 1323,
+      "faction_changes": [
+        {
+          "name": "The Green Hoods",
+          "value": 50
+        },
+        {
+          "name": "The Deathfist Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Deathfist traitor",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -26685399 680889659:Feysteel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 164292662 263407248:flask of pond water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2103372807 -329902704:Rujarkian Battle Charm\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a Deathfist warrior",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -26685399 680889659:Feysteel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 164292662 263407248:flask of pond water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 681934951 -1605491064:glass eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1555822525 859721010:Opal Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 287,
+      "drop_coin_max": 657,
+      "faction_changes": [
+        {
+          "name": "The Green Hoods",
+          "value": 50
+        },
+        {
+          "name": "The Deathfist Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Emperor Fyst",
+      "locations": [
+        "0.99,16.22,8.96"
+      ],
+      "utterances": [
+        "So, here are the troublemakers I've been hearing so much about.  First, allow me to welcome all of you to my home; Deathfist Citadel.",
+        "As much as I enjoy unexpected company, this intrusion shall not go unpunished.  Your judgment for this attempt at sabotage, whether you care or not, is death.  This sentence is to be carried out at the hands of our arena champion, Kraz'k.",
+        "Kraz'k is the only orc strong enough to challenge me in the arena and live.  Enjoy your stay... while it lasts.",
+        "Unfortunately, I don't have time to stay and watch you die, but I'm sure I'll hear your screams from my chambers.  Hahaha!",
+        "You've defeated my Captains and Lieutenants and even my own kin!  Now you shall all perish by my own hand!  Come forth and face your ruin, invaders!",
+        "We will remember your sacrifice."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Green Hoods",
+          "value": 50
+        },
+        {
+          "name": "The Deathfist Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Grassblade",
+      "utterances": [
+        "Are you daft or what? You're gonna get yourself killed in this place! ",
+        "You, rescue me? Ha! Please! This is no place for humor. I'm working for the Glademaster and I can assure you ... I can pop this lock and be out of this place whenever I want, but I have work to do.",
+        "What? Trying to steal my glory? I think not! But ya can complete a few tasks appointed to a fella who, unlike you, never made it past the guards. Here's a list of his tasks. Get 'em done and make sure not to keep the Glademaster waitin'. Off with ya'."
+      ]
+    },
+    {
+      "name": "a Herald of Zek",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 997738340 350045168:Celestial Quartz\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1328289081 -1699088314:an orc spine\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Green Hoods",
+          "value": 50
+        },
+        {
+          "name": "The Deathfist Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Prince Gluntok",
+      "utterances": [
+        "Their service has ended."
+      ],
+      "faction_changes": [
+        {
+          "name": "The Green Hoods",
+          "value": 50
+        },
+        {
+          "name": "The Deathfist Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Prince Valtoris",
+      "utterances": [
+        "Guards, send more defenders!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Green Hoods",
+          "value": 50
+        },
+        {
+          "name": "The Deathfist Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Rinis Nightsong",
+      "utterances": [
+        "I don't want to create these poisons!  Don't make me do it!"
+      ]
+    },
+    {
+      "name": "Torth Korgus",
+      "utterances": [
+        "Kill them all. I care not! They cannot see the truth! The true one shall rule the empire and even you shall fall before the might of Deathfist! You will die! They will die! We shall rule!",
+        "No! No! I can't die now. I long to see the true one rule. I'll do anything. Do not send me to the beyond. No! No! Not yet! ",
+        "Agtak is the one, the true one. Yes! He shall rule. We shall conquer. You all shall die! Yes, yes... you all shall die."
+      ]
+    },
+    {
+      "name": "Vuzak the Traitor",
+      "utterances": [
+        "Oy!  Yous come to get me outta here, yes?",
+        "Dat's great!  I was afraid I was gonna die down here!  Let me know when you are ready!"
+      ]
+    },
+    {
+      "name": "Wulbir Wight",
+      "utterances": [
+        "I'm sure my brother will come looking for me eventually..."
+      ]
+    }
+  ]
+}

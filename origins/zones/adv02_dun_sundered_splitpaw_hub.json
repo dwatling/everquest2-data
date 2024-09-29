@@ -1,0 +1,51 @@
+{
+  "name": "Sundered Splitpaw: Splitpaw Den",
+  "added": "lu11",
+  "category": "Dungeons",
+  "connections": [
+    {
+      "key": "adv02_dun_drowned_caverns_playground"
+    },
+    {
+      "key": "adv02_dun_sundered_splitpaw_destroy_supplies"
+    },
+    {
+      "key": "adv02_dun_sundered_splitpaw_hold_the_line"
+    },
+    {
+      "key": "adv02_dun_sundered_splitpaw_solo_arena"
+    },
+    {
+      "key": "adv02_dun_sundered_splitpaw_two_group_raid"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "an attentive gnoll",
+      "utterances": [
+        "Please don't bother me!  My favorite part's coming up!",
+        "Can you keep it down?  I can't hear what he's saying!"
+      ]
+    },
+    {
+      "name": "Garar Splitscar",
+      "utterances": [
+        "A torch and some bravery are all you'll need in here."
+      ]
+    },
+    {
+      "name": "Guard Furscratch",
+      "utterances": [
+        "We only accept team challenges in here!  Bring a friend or be turned away!"
+      ]
+    },
+    {
+      "name": "Sarchel the Storyteller",
+      "utterances": [
+        "Harclave felt a terrible woe befall him as he groped around in the dark.  It was at this moment that he spied a glowing light gleaming through a crack in the distant wall.",
+        "Desperate for light, Harclave strode towards the wall, unaware of the deep chasm echoing in the distance.  With a yelp of surprise, our hero plunged into the depths of the caverns!",
+        "Fortunately, Harclave landed in one of the cavern's deep pools, or our tale would end here. But our hero was destined for greatness. As Harclave pulled his bedraggled body from the dark waters, he found himself surrounded by a band of Zygomyd hunters."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "The Drowned Caverns: Hot Water",
+  "added": "lu11",
+  "category": "Karan",
+  "connections": [
+    {
+      "key": "adv02_dun_drowned_caverns_playground"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a desolate Nisch Mas",
+      "utterances": [
+        "He'll taste even better this time around."
+      ]
+    },
+    {
+      "name": "an embering avenger",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -712489304 -1961771009:ink sack\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a forsaken Lteth Mas",
+      "utterances": [
+        "I feel no pain."
+      ]
+    },
+    {
+      "name": "a gaduladian sparker",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1085004108 -533242885:flying snake skin\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "The Ghastly Rosch Mal",
+      "utterances": [
+        "He was weak. We shall feed on him."
+      ]
+    },
+    {
+      "name": "an infernal Garatch Mas",
+      "utterances": [
+        "Just more bones to chew."
+      ]
+    },
+    {
+      "name": "a tormented Garatch Mal",
+      "utterances": [
+        "Just more bones to chew.",
+        "You'll make a better meal than I would've made.",
+        "Join us ... for dinner."
+      ]
+    }
+  ]
+}

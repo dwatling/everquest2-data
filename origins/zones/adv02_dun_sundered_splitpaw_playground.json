@@ -1,0 +1,24 @@
+{
+  "name": "Sundered Splitpaw: Upper Tunnels",
+  "added": "lu11",
+  "category": "Dungeons",
+  "connections": [
+    {
+      "key": "adv02_dun_sundered_splitpaw_hub"
+    },
+    {
+      "key": "steppes"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a sedimentary trembler",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -412301464 1517978432:fragmented stone\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ]
+}

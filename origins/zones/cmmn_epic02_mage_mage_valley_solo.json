@@ -1,0 +1,146 @@
+{
+  "name": "Valley of the Rogue Magi",
+  "category": "Dungeons",
+  "levels": "15-20",
+  "access_quests": [
+    3118128649
+  ],
+  "maps": [
+    {
+      "zonerect": "-927.00,455.00,-667.00,756.00"
+    }
+  ],
+  "connections": [
+    {
+      "key": "commonlands_tlp"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Archmagus Naerius D'Lyle",
+      "utterances": [
+        "Seek death and it finds you.",
+        "Rest in peace."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 701937148 94072471:Flowing Robes of D'Lyle\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Captain Gaurk",
+      "utterances": [
+        "Combat withdrawal! Follow me!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 29702892 729038651:Gaurk's Gorget\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "an earthcrafted guardian",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -989003161 1420590974:a fragment of terrain\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Magus Geofry Marus",
+      "levelRange": "19",
+      "locations": [
+        "842.00,-53.87,579.23"
+      ],
+      "utterances": [
+        "Summon help!  We have invaders!",
+        "I can't hold them forever!",
+        "Cover me while we regroup!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1411058990 594004132:Headband of Vigor\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a perennial charmer",
+      "utterances": [
+        "Your blood calls to me.",
+        "Final death comes at last."
+      ]
+    },
+    {
+      "name": "a perennial defender",
+      "utterances": [
+        "Your eyes are so pretty.",
+        "Rest in peace."
+      ]
+    },
+    {
+      "name": "a perennial marauder",
+      "utterances": [
+        "Your blood calls to me.",
+        "Final death comes at last."
+      ]
+    },
+    {
+      "name": "a perennial ruffian",
+      "utterances": [
+        "Your blood calls to me.",
+        "Rest in peace."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a rogue diabolist",
+      "utterances": [
+        "Go get help. I'll hold them off.",
+        "There are too many."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a rogue diviner",
+      "utterances": [
+        "Help! Intruders! Someone get the guard!",
+        "Run! Run for your lives!"
+      ]
+    },
+    {
+      "name": "a rogue soothsayer",
+      "utterances": [
+        "Me going to eat your kidney first."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a rogue theurgist",
+      "utterances": [
+        "Winds carried your voice long ago. I'm prepared now.",
+        "You covered your approach well, but it doesn't matter much now.",
+        "And so the circle is complete."
+      ]
+    }
+  ]
+}

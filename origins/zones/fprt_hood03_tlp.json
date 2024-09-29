@@ -1,0 +1,676 @@
+{
+  "name": "Temple Street",
+  "category": "D'Lere",
+  "maps": [
+    {
+      "zonerect": "-318.06,-122.85,233.45,290.97"
+    }
+  ],
+  "connections": [
+    {
+      "key": "fprt_sewer01"
+    },
+    {
+      "key": "fprt_south_tlp"
+    },
+    {
+      "key": "fprt_tradeskill01_hood03"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Armsdealer Shinska",
+      "purpose": "Weaponsmith",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "10.76,3.0,65.74"
+      ],
+      "utterances": [
+        "Hmmmmmm ...  You looks like you could use somethings to protect yourself."
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "Barmaid Krasa",
+      "purpose": "Provisioner",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "98.41,-4.57,97.37"
+      ],
+      "languages": [
+        "Ratongan"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Brashk",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-30.06,2.8,112.33"
+      ],
+      "utterances": [
+        "A new treasure lurks in every corner! Ooooh! "
+      ]
+    },
+    {
+      "name": "Captain Molacus",
+      "purpose": "Freeport Militia",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "22.5,2.92,34.58"
+      ],
+      "utterances": [
+        "Move along - you wouldn't want us to arrest you for loitering, would you?"
+      ]
+    },
+    {
+      "name": "Chef Schmenko",
+      "purpose": "Provisioner",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "4.24,3.0,86.39",
+        "-12.66,3.0,104.4",
+        "-40.54,2.83,110.63",
+        "-6.58,3.0,89.91"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Chrna",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "32.11,2.92,10.5"
+      ],
+      "utterances": [
+        "Chrna look for hidden treasures.  Maybe you see where they are, yes?  "
+      ]
+    },
+    {
+      "name": "Chuggle Valvesplitter",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "6.07,3.13,77.78"
+      ],
+      "utterances": [
+        "Sorry, sorry.  What is it?  I can't really help out much since those local 858 union members stole my blasted toolbox!"
+      ]
+    },
+    {
+      "name": "Darsus Tavalin",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-26.32,3.0,87.49"
+      ],
+      "utterances": [
+        "I can't talk, I'm waiting for someone."
+      ]
+    },
+    {
+      "name": "Fedul",
+      "purpose": "Ratonga Mentor",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-30.75,2.75,109.9"
+      ],
+      "utterances": [
+        "You leaves... Fedul haves nothing for you."
+      ]
+    },
+    {
+      "name": "a feverish ratonga",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-6.28,3.05,66.44"
+      ],
+      "utterances": [
+        "..."
+      ]
+    },
+    {
+      "name": "Frizi Figglesnip",
+      "purpose": "Spell Scrolls",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "52.49,3.5,79.49"
+      ],
+      "utterances": [
+        "I'm busy with other customers. Come back later."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 585316378 303462942 0 0 0:Gnomish Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -776851233 631758097 0 0 0:Ratongan Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        }
+      ],
+      "store_template": "wizard_trainer"
+    },
+    {
+      "name": "Frondo Wignin",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "110.76,-4.57,106.38"
+      ],
+      "utterances": [
+        "For every twelve pigs I raise my hair averages an inch of growth.",
+        "You know, pigs have four toes on each hoof even though they only walk on two."
+      ]
+    },
+    {
+      "name": "Fubbledodge",
+      "purpose": "Shieldsmith",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "15.09,2.92,39.52"
+      ],
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item."
+      ],
+      "store_template": "shieldsmith"
+    },
+    {
+      "name": "Innkeeper Zixi Wuggle",
+      "purpose": "Housing",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "11.54,3.0,88.32"
+      ],
+      "utterances": [
+        "Hello there <player name>, what can I help you with?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -696290415 -1683006441 0 0 0:an armorwasher's bucket\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 -941911935 0 0 0:an enchanter's candelabra\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jubil Frankobi",
+      "purpose": "Temple Street Doctor",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-8.47,3.0,85.12"
+      ],
+      "utterances": [
+        "Sorry, I'm very busy dealing with this patient right now.",
+        "She can't hear you."
+      ]
+    },
+    {
+      "name": "Kavina",
+      "purpose": "Bowyer",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "102.94,-4.57,109.95"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "The stuff's over there.  Just let me know if you find anything you like."
+      ],
+      "store_template": "bowyer"
+    },
+    {
+      "name": "Krellian",
+      "purpose": "Mender",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "10.65,3.05,61.12"
+      ],
+      "utterances": [
+        "Nah, no need to buy a completely new set.  I'll use some of this special solvent I have.  It'll fix it up good as new!",
+        "Once we're done, you'll have the strongest armor in all of the city!  I guarantee it!"
+      ]
+    },
+    {
+      "name": "Krysa",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "99.64,-4.57,102.32"
+      ],
+      "utterances": [
+        "Welcome to Pshavost's bar!  You want a drink?"
+      ]
+    },
+    {
+      "name": "Malvir Destrin",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "6.58,2.92,28.89"
+      ],
+      "utterances": [
+        "Not now, I'm looking at merchandise."
+      ]
+    },
+    {
+      "name": "Malyk",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-24.34,3.04,92.26"
+      ],
+      "utterances": [
+        "Malyk helps many, but not you, and not right now."
+      ]
+    },
+    {
+      "name": "a mute ratonga",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-8.38,3.0,87.08"
+      ]
+    },
+    {
+      "name": "Neezer Grund",
+      "purpose": "Gnome Mentor",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-33.29,2.83,123.06"
+      ],
+      "utterances": [
+        "Our proximity concerns me."
+      ]
+    },
+    {
+      "name": "Old Man Muckwort",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-22.29,3.0,71.3"
+      ],
+      "utterances": [
+        "Darn pests ... messing up my yard and sneaking up on my porch ... What do you need, ya' snot-nosed punk?",
+        "Bah!  Keep your meddling to yourself, leave me be ... and STAY OFF MY PORCH! You heard me, get out of here!"
+      ]
+    },
+    {
+      "name": "Plordo Blotterdook",
+      "purpose": "Alchemist",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "33.02,2.92,27.22"
+      ],
+      "utterances": [
+        "Yes, yes, I am hurrying.  What can good 'ole Plordo sell you today?"
+      ],
+      "store_template": "alchemist"
+    },
+    {
+      "name": "Pshavost",
+      "purpose": "Bartender",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "95.3,-4.57,99.58"
+      ],
+      "utterances": [
+        "So tell me, what's your poison?"
+      ],
+      "store_template": "bartender"
+    },
+    {
+      "name": "Qwergo Togglesmeet",
+      "purpose": "General Goods",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "60.0,2.97,71.07"
+      ],
+      "utterances": [
+        "Buy from the Togglesmeets!  Those rats have inferior goods made from shoddy workmanship. Don't believe their lies, I tell you."
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "a rat",
+      "locations": [
+        "91.10,-4.57,112.32",
+        "20.65,2.92,29.17"
+      ]
+    },
+    {
+      "name": "Regias Flutzrubble",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "37.73,3.03,102.69"
+      ],
+      "utterances": [
+        "No!  Go away!  You're disrupting my concentration!  I must have total and complete and utter quiet if I'm going to finish these schematics!  Now, go away!  Away!",
+        "Hmmm?  You're interested in my work, are you?  Well, why didn't you say so?!  Please, please, have a seat and listen!  I'm currently working on schematics for a very powerful, very sturdy ship that can withstand even the worst of the Shattered Seas' fits!  It's all very exciting!",
+        "Uuuummm... no, well, yes, I mean yes, a war ship, but it's so much more than that!  Don't you see!  It'll be able to carry an army of a thousand men, and will be able to traverse any part of the Shattered Seas with ease!",
+        "Aside from creating the greatest invention ever invented in Freeport, I've always dreamed of traveling the world's oceans, just like my great, great, great grandfather, Captain Nalot! ",
+        "Are you mad?!  The seas are too terrible, too unpredictable!  The effects of the great cataclysms haven't subsided entirely, you know.  We need powerful, secure and sturdy vessels in order to travel and explore the unexplored reaches of the world!",
+        "It takes thousands of years for such dramatic environmental effects to subside, don't you know anything?!  The seas are still raging, and besides, the known shores of the world are as of yet uncharted.  Who knows what sort of troubles one could run into.",
+        "Maps schmaps!  They don't mean nothin' anymore!  Since the ice of Velious and Everfrost melted, the sea levels have risen so high that we don't know how shorelines have shifted. Not to mention all the earthquakes. The continents may have shifted to other hemispheres!"
+      ]
+    },
+    {
+      "name": "Sipka",
+      "purpose": "Tailor",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "80.42,-2.59,110.21"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "Sparzit Cogsnibble",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "96.48,-4.57,100.59"
+      ],
+      "utterances": [
+        "Those voices ... why I do I keep hearing those maddening voices? You there ... do you hear the voices?"
+      ]
+    },
+    {
+      "name": "Spezi the Street Hag",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-8.79,3.0,59.15"
+      ],
+      "languages": [
+        "Ratongan"
+      ]
+    },
+    {
+      "name": "Svasha",
+      "purpose": "Armorsmith",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "41.73,3.03,96.65"
+      ],
+      "utterances": [
+        "We don't sell contraband furnishings here.  We sell only pieces approved by the Overlord!",
+        "Please don't touch anything.  This isn't a museum. If you break it, you buy it!"
+      ],
+      "store_template": "armorsmith"
+    },
+    {
+      "name": "Tarakh",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "93.33,-4.57,99.32"
+      ],
+      "utterances": [
+        "Keep your tongue to yourself, lest you find it missing.",
+        "Try me!  First I'll gut you then I'll return to your grave to rob it!  Though it's unlikely you would have anything of value in your pine box."
+      ]
+    },
+    {
+      "name": "Tuber Fattleweeble",
+      "purpose": "Crafting Trainer",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "1.53,3.0,114.92"
+      ],
+      "utterances": [
+        "You have learned everything I have to teach at the moment.  You are free to use our crafting facilities to hone your skills."
+      ],
+      "store_template": "crafting_trainer"
+    },
+    {
+      "name": "Twergo Togglesmeet",
+      "purpose": "Jeweler",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "57.51,3.0,72.38"
+      ],
+      "utterances": [
+        "My dad runs the best shop in town!  A much better shop, mind you, than those ratmen trying to ruin our business."
+      ],
+      "store_template": "jewler"
+    },
+    {
+      "name": "Vleko",
+      "purpose": "Tailor",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "61.55,3.0,62.05"
+      ],
+      "utterances": [
+        "You need supplies? My poppa sells best supplies in all of Freeport. You come look..."
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "Vlepo",
+      "purpose": "Alchemist",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "61.22,4.12,65.5"
+      ],
+      "utterances": [
+        "You like good wares? You come to my stall!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 2101037654 -691033172 0 0 0:an emerald gem\\/a",
+          "prices": [
+            {
+              "coin": 176
+            }
+          ]
+        }
+      ],
+      "store_template": "alchemist"
+    },
+    {
+      "name": "Zninki Flatzazzle",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "45.25,3.0,105.07"
+      ],
+      "languages": [
+        "Gnomish"
+      ]
+    }
+  ]
+}

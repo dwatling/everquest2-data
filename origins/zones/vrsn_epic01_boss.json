@@ -1,0 +1,104 @@
+{
+  "name": "Chamber of Immortality",
+  "category": "Karan",
+  "levels": "30-45",
+  "access_quests": [
+    1248080770
+  ],
+  "maps": [
+    {
+      "zonerect": "-234.00,88.00,-166.00,164.00"
+    }
+  ],
+  "connections": [
+    {
+      "key": "varsoon"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "an ethereal fiend",
+      "levelRange": "34",
+      "difficulty": "heroic",
+      "locations": [
+        "201.44,-12.14,136.70"
+      ]
+    },
+    {
+      "name": "an extraplanar aggressor",
+      "levelRange": "33",
+      "difficulty": "heroic",
+      "locations": [
+        "201.35,-12.76,124.64",
+        "193.52,-12.29,143.85"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -481309520 -1456064028:a vial of darkness\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an extraplanar denizen",
+      "levelRange": "33",
+      "difficulty": "heroic",
+      "locations": [
+        "205.43,-12.14,133.97",
+        "196.05,-12.14,134.23"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 679525849 1039711504:a darkened antenna\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -481309520 -1456064028:a vial of darkness\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an extraplanar invader",
+      "levelRange": "33",
+      "difficulty": "heroic",
+      "locations": [
+        "195.00,-12.14,133.97",
+        "187.35,-12.76,138.39"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -481309520 -1456064028:a vial of darkness\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an extraplanar lurker",
+      "levelRange": "33",
+      "difficulty": "heroic",
+      "locations": [
+        "201.10,-12.18,131.82",
+        "187.35,-12.76,138.39",
+        "196.57,-12.14,139.34"
+      ]
+    },
+    {
+      "name": "Varsoon the Undying",
+      "levelRange": "35",
+      "difficulty": "heroic",
+      "locations": [
+        "201.41,-12.14,140.48"
+      ],
+      "utterances": [
+        "It seems my messages were finally heeded.  However, I was expecting someone else.  No matter, your bodies will do just as well.  Kill them.",
+        "You force me to let slip more of these creatures!  I need your corporeal forms!",
+        "Submit to me now!  You cannot comprehend the situation here!",
+        "Destroy them!",
+        "No!  I will not be lost to the Void!"
+      ],
+      "drop_coin_min": 304,
+      "drop_coin_max": 304
+    }
+  ]
+}

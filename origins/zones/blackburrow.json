@@ -1,0 +1,1270 @@
+{
+  "name": "Blackburrow",
+  "category": "Dungeons",
+  "subcategory": "Public",
+  "levels": "10-20",
+  "maps": [
+    {
+      "name": "Surface",
+      "index": 0,
+      "zonerect": "-98.00,-165.00,116.00,80.00",
+      "heightmin": -9
+    },
+    {
+      "name": "Gnoll Hideout",
+      "index": 1,
+      "zonerect": "-80.00,-85.00,138.00,142.00",
+      "heightmin": -20,
+      "heightmax": -12
+    },
+    {
+      "name": "Spider Caves",
+      "index": 2,
+      "zonerect": "-120.00,-124.00,99.00,128.00",
+      "heightmax": -22
+    }
+  ],
+  "connections": [
+    {
+      "key": "antonica_tlp"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Assistant Wilabus",
+      "locations": [
+        "46.89,-40.73,-16.91"
+      ],
+      "utterances": [
+        "Looks like another one of those adventurous types, doesn't it Fribden?  I wonder if they fell down the waterfall again. ",
+        "Traveling with Master Fribden has opened my eyes to the world.  It has also shown me the devastation inflicted upon Norrath.  It's also left me very thirsty... What I wouldn't give for some more of that gnoll brew.",
+        "I've done a bit of exploring down here myself and found a brewery.  Yeah, no fooling! But watch out for the gnolls there, they're far more unpleasant than the others.  Say ... I'll make it worth your while if you fetch me a jug of their brew.",
+        "Oh, that'd be great!! Do me a favor though.  Don't mention this to Fribden, eh, you know what I'm saying."
+      ]
+    },
+    {
+      "name": "a blightfang broodtender",
+      "levelRange": "19",
+      "difficulty": "heroic^3",
+      "locations": [
+        "15.00,-37.77,-9.53",
+        "31.47,-37.73,14.00",
+        "42.40,-37.95,16.68",
+        "45.41,-34.97,1.47"
+      ]
+    },
+    {
+      "name": "a blightfang hatchling",
+      "levelRange": "19",
+      "locations": [
+        "33.96,-38.02,10.53",
+        "31.09,-37.71,18.60",
+        "29.17,-36.97,5.21",
+        "42.00,-37.88,13.83",
+        "43.16,-34.85,0.72"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a blightfang spider",
+      "levelRange": "17",
+      "difficulty": "heroic^3",
+      "locations": [
+        "-30.04,-29.61,-57.68",
+        "-23.05,-31.64,-54.69",
+        "-16.96,-35.06,-40.50",
+        "-7.73,-38.15,-38.66",
+        "-1.29,-40.70,-13.70"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1597999582 -1680139941:a poison gland\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a burly Sabertooth",
+      "levelRange": "14",
+      "difficulty": "heroic^3",
+      "locations": [
+        "-28.12,-0.22,-10.62",
+        "-37.76,-0.22,-9.47",
+        "-32.46,-0.22,-17.49",
+        "-14.77,-10.54,-33.40",
+        "-14.84,-11.77,-25.00",
+        "-24.84,-11.81,-22.36",
+        "6.09,-12.00,5.52",
+        "-2.75,-12.00,-1.64",
+        "4.04,-12.00,-1.12"
+      ],
+      "utterances": [
+        "That one died.",
+        "That one will never mate!",
+        "Not allowed here!",
+        "Spin, weave, dodge, attack!!!",
+        "To arms!",
+        "Kill it!  Kill it!",
+        "That one never mate!",
+        "Another member of the pack down!",
+        "Bite! Show sharp teeth!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a cave shimmer",
+      "levelRange": "15",
+      "difficulty": "heroic^3",
+      "locations": [
+        "-61.63,-18.27,20.37",
+        "-53.83,-12.45,26.69"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a crag rat",
+      "levelRange": "13",
+      "locations": [
+        "3.38,1.60,1.38",
+        "-92.29,-0.71,-95.82",
+        "-97.22,-0.71,-86.06",
+        "-88.77,-0.76,-15.08",
+        "-80.81,-0.91,-11.15",
+        "-10.77,0.44,-24.17",
+        "-5.57,-1.97,-28.00",
+        "-11.55,-11.06,-27.04"
+      ]
+    },
+    {
+      "name": "a crimson constrictor",
+      "locations": [
+        "-45.49,2.30,-17.93",
+        "-6.58,-12.18,-7.75"
+      ]
+    },
+    {
+      "name": "a dark lasher",
+      "levelRange": "15",
+      "locations": [
+        "-29.57,-15.34,17.68",
+        "-49.30,-18.11,9.97",
+        "-44.12,-18.76,-29.58",
+        "-54.26,-7.71,40.10"
+      ]
+    },
+    {
+      "name": "a fierce razorgill",
+      "levelRange": "14",
+      "locations": [
+        "-88.99,-11.15,-44.42",
+        "-58.72,-8.84,-67.22",
+        "-5.97,-48.62,43.79",
+        "-8.98,-50.18,38.16"
+      ]
+    },
+    {
+      "name": "Fishfang the Angler",
+      "levelRange": "13",
+      "difficulty": "heroic",
+      "locations": [
+        "-13.51,-1.17,26.46"
+      ],
+      "utterances": [
+        "Kill it!  Kill it!",
+        "That one died.",
+        "To arms!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 808341896 1356779749:Fishbone Dirk\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 16,
+      "drop_coin_max": 16,
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Geologist Fribden",
+      "locations": [
+        "45.24,-40.82,-16.82"
+      ],
+      "utterances": [
+        "I've found such amazing rock formation in these caves. They're dangerous, indeed, but the sights are worth the treacherous journey.",
+        "Why, isn't it obvious? Wilabus and I are studying the structure and mineral constitution of Antonica ... Perhaps it's not so obvious, you appear to be one of those adventuring types, am I right?",
+        "Why, yes, of course you are.  Say!  I need someone with your unique credentials.  While in the upper mines, I lost some rather rare samples that I had been collecting.  Would you venture to the mines and recover them for me?",
+        "Of course, I'll compensate you for your efforts.  I'll write down in your journal what I need recovered."
+      ]
+    },
+    {
+      "name": "a giant lasher",
+      "levelRange": "17",
+      "locations": [
+        "-45.29,-30.11,-68.66",
+        "-9.52,-37.50,-40.71",
+        "-59.19,-12.86,-5.95"
+      ]
+    },
+    {
+      "name": "a hoard watcher",
+      "levelRange": "17",
+      "difficulty": "heroic",
+      "locations": [
+        "-3.05,-15.46,69.11",
+        "2.78,-15.63,62.10",
+        "15.01,-14.07,50.00"
+      ],
+      "utterances": [
+        "Kill it!  Kill it!",
+        "Not allowed here!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Nantglas the Cold",
+      "levelRange": "16",
+      "locations": [
+        "-86.88,-0.93,-7.79"
+      ],
+      "utterances": [
+        "You gonna die so fast!",
+        "That one died.",
+        "To arms!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a patrolling Sabertoot",
+      "levelRange": "13",
+      "locations": [
+        "34.31,0.04,11.38",
+        "-44.21,0.62,-11.03",
+        "-0.27,-3.83,-31.73"
+      ],
+      "utterances": [
+        "Another member of the pack down!",
+        "I must fight for Sabertooth pride.",
+        "You gonna pay for that."
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a razorgill",
+      "levelRange": "13",
+      "locations": [
+        "-61.57,-3.49,-14.06",
+        "-49.63,-1.53,1.79",
+        "-76.36,-2.68,-23.22",
+        "-92.64,-2.67,-23.02",
+        "-82.19,-9.1,-49.82",
+        "-62.35,-9.43,-61.31",
+        "-58.72,-8.84,-67.22",
+        "-75.95,-2.74,-76.24",
+        "-84.33,-3.50,-20.78",
+        "7.81,-46.75,-28.53",
+        "-20.39,-44.58,2.25",
+        "-8.44,-44.52,2.21",
+        "-13.55,-45.53,-5.86"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -595786562 -1168539999:a fish meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a ridge rat",
+      "levelRange": "12",
+      "locations": [
+        "71.72,-1.15,18.17",
+        "56.53,-0.81,8.13",
+        "10.60,0.00,0.36"
+      ]
+    },
+    {
+      "name": "a Sabertooth angler",
+      "levelRange": "12",
+      "locations": [
+        "-22.96,-1.49,21.24",
+        "-26.63,-1.65,11.19",
+        "-34.66,-1.75,3.20",
+        "-14.96,-1.62,-13.29"
+      ],
+      "utterances": [
+        "That one died.",
+        "You gonna pay for that.",
+        "Kill it!  Kill it!",
+        "To arms!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -449689407 1929345100:gnoll hard candy\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 29,
+      "drop_coin_max": 35,
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth brewery guard",
+      "levelRange": "16",
+      "difficulty": "heroic",
+      "locations": [
+        "17.30,-40.43,53.95",
+        "17.30,-40.20,48.43",
+        "32.65,-39.11,54.79",
+        "44.13,-38.38,63.67",
+        "54.30,-38.66,61.95",
+        "66.62,-37.27,41.95"
+      ],
+      "utterances": [
+        "That one never mate!",
+        "Bite! Show sharp teeth!",
+        "That one died.",
+        "To arms!",
+        "Another member of the pack down!",
+        "Spin, weave, dodge, attack!!!",
+        "That one will never mate!",
+        "Not allowed here!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 295026780 -1433839586:a gnoll paw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth brewmaster",
+      "levelRange": "16",
+      "difficulty": "heroic",
+      "locations": [
+        "21.62,-40.09,63.00",
+        "29.46,-39.94,62.47",
+        "26.81,-39.84,71.22",
+        "35.80,-39.95,77.27"
+      ],
+      "utterances": [
+        "Another member of the pack down!",
+        "To arms!",
+        "You gonna die so fast!",
+        "Not allowed here!",
+        "Spin, weave, dodge, attack!!!",
+        "Bite! Show sharp teeth!",
+        "That one will never mate!",
+        "That one died."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth Champion",
+      "levelRange": "16",
+      "difficulty": "heroic^2",
+      "locations": [
+        "28.40,-39.82,64.00"
+      ],
+      "utterances": [
+        "You gonna die so fast!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth chanter",
+      "levelRange": "15",
+      "difficulty": "heroic",
+      "locations": [
+        "-17.01,-13.02,16.00",
+        "-47.71,-18.02,28.82",
+        "-62.80,-16.92,10.20",
+        "-58.40,-18.36,15.90",
+        "-33.12,-18.17,-20.76",
+        "-20.24,-13.44,22.67",
+        "-39.41,-16.92,3.82"
+      ],
+      "utterances": [
+        "To arms!",
+        "That one will never mate!",
+        "Spin, weave, dodge, attack!!!",
+        "That one died.",
+        "You gonna pay for that.",
+        "That one never mate!",
+        "Bite! Show sharp teeth!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -449689407 1929345100:gnoll hard candy\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth commander",
+      "levelRange": "17",
+      "difficulty": "heroic",
+      "locations": [
+        "-23.70,-16.24,76.63",
+        "-19.43,-15.55,86.99",
+        "-18.55,-15.52,95.93",
+        "-27.94,-16.23,93.10"
+      ],
+      "utterances": [
+        "Kill it!  Kill it!",
+        "Spin, weave, dodge, attack!!!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth diviner",
+      "levelRange": "14",
+      "difficulty": "heroic^2",
+      "locations": [
+        "-12.61,-10.33,-33.00",
+        "-22.95,-11.96,-20.71",
+        "-0.27,-11.45,-5.77"
+      ],
+      "utterances": [
+        "Spin, weave, dodge, attack!!!",
+        "That one died.",
+        "You gonna pay for that."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth elite guard",
+      "levelRange": "16",
+      "difficulty": "heroic^2",
+      "locations": [
+        "-17.73,-14.16,42.30",
+        "-17.01,-14.57,49.39",
+        "-10.99,-16.14,71.49"
+      ],
+      "utterances": [
+        "Bite! Show sharp teeth!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth guard",
+      "levelRange": "14",
+      "difficulty": "heroic^2",
+      "locations": [
+        "-18.85,-12.14,-5.75",
+        "-16.21,-12.07,8.62",
+        "-36.31,-19.14,-37.45",
+        "-40.00,-18.81,-29.70",
+        "-53.91,-18.74,-31.66",
+        "-48.21,-18.28,-22.01",
+        "-36.55,-20.78,-47.85",
+        "-57.07,-16.26,-15.91",
+        "-75.07,-8.38,14.45",
+        "-41.00,-4.74,34.10"
+      ],
+      "utterances": [
+        "Bite! Show sharp teeth!",
+        "That one will never mate!",
+        "You gonna pay for that.",
+        "To arms!",
+        "Another member of the pack down!",
+        "You gonna die so fast!",
+        "Spin, weave, dodge, attack!!!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth lookout",
+      "levelRange": "12",
+      "locations": [
+        "25.48,3.69,-6.41",
+        "-8.32,1.47,-4.92",
+        "-15.64,0.54,11.21"
+      ],
+      "utterances": [
+        "You gonna pay for that.",
+        "Bite! Show sharp teeth!",
+        "To arms!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth oracle",
+      "levelRange": "17",
+      "difficulty": "heroic",
+      "locations": [
+        "-18.38,-15.55,83.69",
+        "-24.83,-16.25,83.98",
+        "-24.12,-15.54,100.30",
+        "-24.87,-16.23,94.65",
+        "-12.99,-16.23,97.39"
+      ],
+      "utterances": [
+        "Another member of the pack down!",
+        "You gonna pay for that.",
+        "Kill it!  Kill it!",
+        "Spin, weave, dodge, attack!!!",
+        "You gonna die so fast!",
+        "That one died.",
+        "Not allowed here!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -449689407 1929345100:gnoll hard candy\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1339514676 398047436:a spiked strip\\/a",
+          "chest": true
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth pup",
+      "levelRange": "11",
+      "locations": [
+        "67.24,-0.64,10.90",
+        "37.23,0.75,12.05",
+        "30.20,3.25,-11.93",
+        "-9.66,2.33,-4.46"
+      ],
+      "utterances": [
+        "I must fight for Sabertooth pride.",
+        "You gonna pay for that.",
+        "That one will never mate!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -2125031066 -783736694:a badly-polished steel key\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth sentry",
+      "levelRange": "16",
+      "difficulty": "heroic^3",
+      "locations": [
+        "-45.70,-17.90,22.32",
+        "-43.53,-18.42,-20.22",
+        "-74.69,-8.27,20.70",
+        "-23.36,-14.39,44.18",
+        "-13.47,-14.51,45.77"
+      ],
+      "utterances": [
+        "You gonna pay for that.",
+        "That one never mate!",
+        "Spin, weave, dodge, attack!!!",
+        "Bite! Show sharp teeth!",
+        "You gonna die so fast!",
+        "To arms!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth spearfisher",
+      "levelRange": "13",
+      "difficulty": "heroic^2",
+      "locations": [
+        "-88.59,-0.74,-83.96",
+        "-83.28,-0.48,-17.22"
+      ],
+      "utterances": [
+        "Bite! Show sharp teeth!",
+        "Another member of the pack down!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Sabertooth tactician",
+      "levelRange": "17",
+      "difficulty": "heroic",
+      "locations": [
+        "-22.35,-16.25,82.79",
+        "-22.05,-15.53,94.67",
+        "-27.43,-16.23,93.71"
+      ],
+      "utterances": [
+        "Not allowed here!",
+        "Kill it!  Kill it!",
+        "Bite! Show sharp teeth!",
+        "Yip! Keep back!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -449689407 1929345100:gnoll hard candy\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a scrawny Sabertooth",
+      "levelRange": "12",
+      "locations": [
+        "32.63,0.00,11.80",
+        "36.41,1.01,-1.37",
+        "25.30,3.14,-8.21",
+        "10.56,0.00,-8.97",
+        "15.61,1.20,0.76",
+        "4.03,0.00,-5.90",
+        "4.18,0.00,-11.27",
+        "5.33,0.55,-20.37",
+        "-9.00,0.55,-8.00",
+        "-6.36,0.59,14.26",
+        "-23.51,-0.16,6.74"
+      ],
+      "utterances": [
+        "You gonna pay for that.",
+        "You're stronger than me.",
+        "That one never mate!",
+        "That one died.",
+        "To arms!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -449689407 1929345100:gnoll hard candy\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 36,
+      "drop_coin_max": 182,
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Splitpaw Scout",
+      "levelRange": "21",
+      "difficulty": "heroic^3",
+      "locations": [
+        "50.99,-40.71,-19.57"
+      ],
+      "utterances": [
+        "Ahh, a new slave."
+      ]
+    },
+    {
+      "name": "a stalwart Sabertooth",
+      "levelRange": "15",
+      "difficulty": "heroic",
+      "locations": [
+        "-13.75,-12.83,16.73",
+        "-44.97,-17.84,23.75",
+        "-62.54,-18.24,12.84",
+        "-53.08,-18.25,2.31",
+        "-35.19,-13.98,1.17",
+        "-31.86,-18.92,-24.17",
+        "10.64,-15.53,74.35",
+        "-0.61,-15.68,70.25",
+        "0.47,-15.60,64.85",
+        "12.23,-15.55,47.63",
+        "-15.78,-12.66,29.28"
+      ],
+      "utterances": [
+        "Bite! Show sharp teeth!",
+        "You gonna die so fast!",
+        "Kill it!  Kill it!",
+        "Not allowed here!",
+        "That one will never mate!",
+        "Spin, weave, dodge, attack!!!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 374464424 1249769028:a grubby bone key\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a stockpile protector",
+      "levelRange": "17",
+      "difficulty": "heroic",
+      "locations": [
+        "1.77,-15.58,68.05",
+        "5.88,-15.54,62.93",
+        "15.92,-15.50,62.35",
+        "12.71,-15.54,50.58"
+      ],
+      "utterances": [
+        "Kill it!  Kill it!",
+        "Not allowed here!",
+        "I must fight for Sabertooth pride."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a terrapede",
+      "levelRange": "13",
+      "locations": [
+        "-96.51,-0.42,-115.62",
+        "9.00,-10.59,11.35",
+        "14.93,-11.53,6.14"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1733310877 1095896343:an insect antenna\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a training spearfisher",
+      "levelRange": "13",
+      "difficulty": "heroic",
+      "locations": [
+        "-88.41,-0.83,-101.54",
+        "-87.96,-0.77,-93.63",
+        "-100.25,-0.81,-87.25",
+        "-93.91,-0.70,-95.64",
+        "-105.33,-0.89,-95.90",
+        "-105.08,-0.79,-104.40"
+      ],
+      "utterances": [
+        "That one will never mate!",
+        "Another member of the pack down!",
+        "Bite! Show sharp teeth!",
+        "Not allowed here!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1136651119 1578780024:intricately carved acorn\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 16,
+      "drop_coin_max": 16,
+      "faction_changes": [
+        {
+          "name": "The Great Herd",
+          "value": 50
+        },
+        {
+          "name": "The Far Seas Trading Company",
+          "value": 50
+        },
+        {
+          "name": "The Sabertooth Gnolls",
+          "value": -100
+        }
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM 1980226571 -1710111312:cracked gnoll bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 722279990 -215234753:scuffed shard of divination\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -686869063 2018792859:shattered barbarian bone fragment\\/a",
+      "locations": [
+        "1.77,1.00,12.04"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -107810075 -1730039780:shattered gnoll bone fragment\\/a",
+      "locations": [
+        "-34.48,-28.00,-60.34"
+      ]
+    }
+  ]
+}

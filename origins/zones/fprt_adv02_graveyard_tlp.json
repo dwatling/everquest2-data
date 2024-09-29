@@ -1,0 +1,451 @@
+{
+  "name": "The Graveyard",
+  "category": "D'Lere",
+  "levels": "5-10",
+  "maps": [
+    {
+      "zonerect": "-207.48,-161.07,242.19,165.89"
+    }
+  ],
+  "connections": [
+    {
+      "key": "commonlands_tlp",
+      "location": "97.34,-1.41,18.96"
+    },
+    {
+      "key": "fprt_adv01_sunken_tlp",
+      "location": "-98.49,-15.73,-92.84"
+    },
+    {
+      "key": "fprt_hood02_tlp",
+      "location": "-69.94,-12.86,132.26"
+    },
+    {
+      "key": "fprt_hood05_tlp",
+      "location": "-125.39,-17.82,72.98"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a brittle skeleton",
+      "locations": [
+        "-42.12,-10.96,71.94"
+      ]
+    },
+    {
+      "name": "Custodian Zaddar Sullissia",
+      "locations": [
+        "-73.33,-13.05,107.51"
+      ],
+      "utterances": [
+        "Hmmmm, and who might you be? Come forward so I can look upon you, stranger.",
+        "Ah, yes. You look exactly how you were described to me.",
+        "Oh come now, it's not often that the name of an adventurer of your stature passes outside of the districts, although it comes as no surprise to me that you have already risen above these other, lesser beings.",
+        "You mean to tell me you've never heard of me? Well, I shouldn't expect a common adventurer such as you to associate with people of my social status, so I guess I shouldn't be surprised.",
+        "Allow me to introduce myself. I am Zaddar, herald of the arcane, necromancer and custodian to the great library within the Academy of Arcance Science. I can assure you that you will meet none greater, no matter where your various exploits take you on Norrath.",
+        "This is not just a simple graveyard, mind you. There are more than just Freeport citizens buried here; this is where the enemies of the Overlord are entombed as well. You mean to tell me you were not aware of this?",
+        "I wouldn't trust anyone but a loyal follower of the Overlord with the task before me, I'm sure you understand. Normally I'd take care of such things myself, but these duties are far below my level of expertise and intellect. What do you say?",
+        "Good, I knew you would make the smart choice. Go check on the tombs of the fallen knights, make sure they're all still sealed and that grave robbers have not disturbed any of the mausoleums.",
+        "The Overlord will have us both executed if he finds out anyone has been tampering with the tombs in his graveyard! Report back with what you discover.",
+        "Back so soon? I certainly hope you didn't just sneak off somewhere and take a nap. The Overlord is not to be trifled with!",
+        "I am pleased to hear that you fulfilled my request. Was there any trouble?",
+        "Skeleton attacks are not uncommon in the Graveyard, as you have discovered. I presume this was just some ordinary fiend?",
+        "Fascinating! The Overlord was wise to have us check on the security of the tombs. I wonder if Varacus realizes what is transpiring here in the Graveyard.",
+        "Varacus T`Kur is the leader of the Keepers of Ethernere here in the Graveyard. He has some pages of an ancient tome that should help in my research. Tell him that I sent you, and if he gives you any trouble, remind him that this errand comes from the Overlord himself passed down through the Academy.",
+        "Go now, and return when you have the pages from Varacus.",
+        "Ah, <player name>, I see you have returned. Have you brought back the pages you obtained from Varacus of the Keepers of Ethernere?",
+        "Excellent work! Please give me the pages at once. There is no time to waste.",
+        "Interested in hearing more of my tale, are you? As you recall, the fallen Knights of Truth are buried here in the Graveyard.",
+        "Recently grave robbers have invaded the cemetery by night, breaking open the seals placed on the graves of the knights. This has enabled some of those cursed souls to rise and walk the land again.",
+        "It does indeed. But there is a greater concern we must face, which is why I needed these pages.",
+        "Long ago, our Overlord commanded the Foci and the priests of the Dismal Rage to place a powerful ward upon this graveyard. It bound the spirits of those buried here to this place, so that even if they escaped their tombs, they would be unable to leave the Graveyard.",
+        "The binding spell was lost long ago. But the increase in undead activity may mean that someone loyal to Mithaniel Marr, or even the god himself, might be trying to shatter the ward and let the undead travel beyond these walls into the city itself.",
+        "No one is certain what became of the ancient gods. It's best not to take chances in any case. It could be some fanatical follower of Marr behind this, or even those savages from the decrepit Kingdom of Qeynos.",
+        "I'm sure some of the corrupt citizens of Qeynos are still loyal to Marr. By breaking the binding ward, the fallen Knights of Truth would be free to rise and seek revenge on our beloved Overlord. This cannot come to pass!",
+        "Good, this is what I need done. I want you to take this ancient relic to the ruins of the Tower of Marr and place it in the doorway. The relic has been stained with the blood of the Knights of Truth and has been in the keeping of the Academy of Arcane Science since the day of that final battle.",
+        "Yes, the remains of that tower still serve as a tribute to Mithaniel Marr. Such a relic would be seen as an abomination to him.",
+        "Do not worry. The binding ward that keeps the undead here also prevents outside influences from entering the Graveyard and keeps any lingering energies in check. So long as the ward holds, you should be safe when you place that relic in the doorway.",
+        "What could happen? The gods have been gone for centuries. You have proven yourself to be a brave hero of Freeport. Do not waver now!",
+        "Spoken like a true citizen of Freeport! Listen, if you help me with this, I'll be sure you are rewarded for your efforts. The Academy will take notice of us both!",
+        "Just take the relic and place it in the doorway. And whatever you do, don't lose it! It is an ancient artifact, and neither the Academy nor the Overlord would be pleased if it was misplaced.",
+        "Welcome back, <player name>. I assume you concluded your investigation and found that the ward is still intact?",
+        "This is dark news indeed. Marr blessed that tower long ago, and if some of that energy is now bleeding through, the ward is certainly weak. Fortunately I've already begun translating the parchment pages you found for me in case they were needed. Oh, I'll need that artifact back, by the way.",
+        "While I finish the translation, I need you to help me once more. Are you willing?",
+        "It is up to the two of us to restore the ward that keeps the undead confined to the Graveyard. This is our chance to save Freeport!",
+        "There is no time to waste. True heroes must be prepared to rise to the occasion and embrace their destiny. You have a bold future ahead of you, <player name>. Now is the time to act!",
+        "Fame and fortune, of course! The Academy is sure to take notice of you when I report to them of what has occurred here today. You may even be noticed by the Overlord himself, <player name>.",
+        "I want you to go back to Varacus and the Keepers of Ethernere. Tell him that we need to restore the ward and that we need the Staff of Ethernere.",
+        "This staff has runes carved along its length that ward off the undead. It is often used by the Keepers of Ethernere during purifying rituals.",
+        "The Staff of Ethernere, when used along with the arcane power contained in the Book of the Dead, will help me repair the ward.",
+        "Time is of the essence, <player name>. The ward may be fading faster than we realize and we must repair it!",
+        "Have you obtained the Staff of Ethernere?",
+        "Well done! I'm sure it was difficult to convince Varacus to part with it. But this is indeed the Staff of Ethernere.",
+        "Do you see these runes inscribed upon it? They are written in the language of the dead. When spoken to the living, this language sounds like mere whispers, but to the undead it sounds as clear as how you and I are speaking now.",
+        "Confront the local grave robbers and determine if one of them has obtained the Book of the Dead. The grave robbers tend to work at night, so begin your search then.",
+        "Excellent. Return to me when you have found it.",
+        "Have you found the Book of the Dead?",
+        "Excellent work, <player name>! I must say, you are turning out to be quite a useful aide. You've done almost as well as if I had done this task myself! Now quickly, hand me the book.",
+        "Look at how the parchment pages you retrieved are binding themselves inside the Book of the Dead! It truly is a mysterious and powerful tome. I will use the Staff of Ethernere during the ritual to focus the power of the spell we cast.",
+        "I will tell you the ancient words of binding. You chant them, and I will repeat them after you. Only by working together can we complete the spell and save Freeport. Understood?",
+        "I must read the words from the pages of parchment that are now within the Book of the Dead. They are difficult to decipher, even with my skills. Give me a moment to study them.",
+        "I've managed to translate the words from the ancient pages you've attained for me. Shall we begin?",
+        "The first words are \"Graddah, Shollamak, Hakah.\" Ready?",
+        "Let the ritual begin!",
+        "Graddah, Shollamak, Hakah!",
+        "Something is wrong. The incantation will not take effect!",
+        "Are you certain that all of the tombs of the Knights of Truth were sealed? If even one of them remains opened, it might prevent the binding ward from taking hold.",
+        "<player name>, you must go to the tombs at once and verify that each seal is intact. This is the only way we can complete the ritual and renew the ward upon the Graveyard to keep the undead at bay. Hurry! The fate of Freeport is in your hands!",
+        "The second set of words are, \"Golotu, Quandar, Gunoo.\"  Ready?",
+        "Proceed!",
+        "Golotu, Quandar, Gunoo!",
+        "The final set of words are the most important. \"Waktana, Shollamak, Quandar, Hakah.\"  Here we go!",
+        "Recite the words, <player name>.",
+        "Waktana, Shollamak, Quandar, Hakah!",
+        "Exellent job, <player name>! I think we've done it! I must admit, I doubt even I could have accomplished this task without your help.",
+        "The enemies of the Overlord are thwarted, and the Knights of Truth shall remain bound to this graveyard for the rest of time.",
+        "Your reward is well deserved. You have my thanks. Your name will be well known within the Academy of Arcane Science.",
+        "Your assistance to the Academy of Arcane Science and Freeport has been invaluable. But now more help is needed from you. Freeport is not out of danger! You must take the knowledge you have learned here and travel to the Ruins. Are you willing?",
+        "An outlying district of Freeport known as the Ruins is under attack. You must make your way there and report to Captain Arellius of the Freeport Militia. She will guide your efforts to help save our city.",
+        "Make your way to the Ruins by traveling back to the docks of your home district. Use the mariner's bell to summon transportation outside of Freeport proper and ask to be taken to the Ruins. You should find Captain Arellius nearby. Hurry, hero of Freeport, there is no time to waste!",
+        "Eager, aren't we? Well, I know some thug named Enforcer Kurdek in the Sprawl needs help, and a fellow named Inquisitor Thorson in the Sunken City could use a hand.",
+        "Enforcer Kurdek on the Sprawl could use a hand keeping the local gangs in line. To journey to the Sprawl, use the mariner's bell on the docks of your home district to travel to Big Bend. Follow the halls north, then take the west passageway to the west gate.",
+        "Inquisitor Thorson in the Sunken City needs help investigating ancient mysteries that threaten Freeport's safety. To travel to the Sunken City, use the mariner's bell on the docks of your home district to travel outside Freeport and choose Sunken City as your destination.",
+        "Your help in the Ruins is desperately needed. Do not delay too long, for our great city of Freeport is in peril!"
+      ]
+    },
+    {
+      "name": "a dread spider",
+      "locations": [
+        "80.55,-1.80,90.93"
+      ]
+    },
+    {
+      "name": "Durkix Kizzkin",
+      "locations": [
+        "-94.68,-15.66,-96.15"
+      ],
+      "utterances": [
+        "Fragments to dust. I'm a genius!",
+        "A bonemud golem! Or maybe a mudbone golem. I'll be famous!",
+        "No, no, no! A golem made from mud that has ground bones in it! Maybe it will increase the potency of the creature, or maybe it will make it more resistant to certain attacks! Or maybe it won't do anything at all! I need some bone fragments to grind up!",
+        "Exactly! You should help me, then you can be famous too.",
+        "Great! Get me one hundred bone fragments. That should be enough. Don't bring me anything fresh, either. I need brittle bones so I can grind them... just bring me back bones from anything undead, that should do the trick.",
+        "Great! I'll be summoning these things in no time! Be quick!",
+        "Did you get the fragments?",
+        "Excellent! Now I just need some mud! I think I can collect that myself! I am quite familiar with mud! Thanks for your help! If I ever get rich and famous I'll let you know!"
+      ]
+    },
+    {
+      "name": "an Ethernere guard",
+      "locations": [
+        "-19.67,-8.60,84.47",
+        "4.79,-6.80,33.73"
+      ],
+      "utterances": [
+        "Hail Citizen!",
+        "Freeport has need of your services, will you fulfill your duty?",
+        "Ancient spirits have recently awoken, their graves disturbed by the graverobbers in this area.  The graverobbers have taken ancient holy relics from them and they wander in search of that which was taken.",
+        "You must recover these holy relics and return them to the graves of the awakened spirits for them to find rest again.",
+        "There is no escape for you now!",
+        "Were you successful in your mission?",
+        "Excellent, thank you for your service to Freeport and the Keepers of Ethernere!  Please, take this for your trouble."
+      ]
+    },
+    {
+      "name": "a fearsome spider",
+      "locations": [
+        "2.34,-7.14,101.14"
+      ]
+    },
+    {
+      "name": "a fiendish ghoul",
+      "locations": [
+        "-33.43,-10.43,-32.64"
+      ]
+    },
+    {
+      "name": "Keeper Varacus T`Kur",
+      "purpose": "Academy of Arcane Sciences",
+      "locations": [
+        "90.9,-1.65,96.8"
+      ],
+      "utterances": [
+        "Yes, what is it?",
+        "Well, that all depends. Who are you?",
+        "Zaddar sent you, eh? Far be it from him to get his hands dirty in the Graveyard, I suppose!",
+        "Though we Keepers of Ethernere must answer to the Academy of Arcane Science, ours is a grave responsibility. We watch over the tombs of Norrath and ensure that the spirits of the dead make their journey to the afterlife. You have no doubt seen our guards patrolling the Graveyard roads, and perhaps noticed the boneyard watchers we summon to watch for disturbances.",
+        "The Keepers of Ethernere come from a proud tradition of service to the House of the Dead in our ancient Teir'Dal city of Neriak. Ethernere is a dark realm of agony where spirits of the dead must travel. It is said that when a Norrathian dies, the bell in Deathtoll Tower at the heart of Ethernere rings to signal their spirit's arrival.",
+        "Ah yes, you seek the tome pages. Unfortunately, however, they have gone missing. They may be scattered about the Graveyard, or some might have fallen into the hands of the undead. Such creatures are drawn to objects of arcane power. I have other duties to attend to, so you will need to conduct your own search for the pages here in the Graveyard.",
+        "I had no idea this matter was so urgent to the Overlord! Please, hero of Freeport, you must find those pages. If not, I think all of us may face our master's wrath. Please let me know when you have found them.",
+        "I am very glad to hear it! Please let me know when you have found them.",
+        "I hope your search for the missing pages has been fruitful. Neither of us can afford to disappoint the Overlord.",
+        "Well done, <player name>! Zaddar was right to choose you for this duty. Where did you find the pages?",
+        "The undead had them, eh? It is as I feared. There has been a marked increase in their activities as of late, the investigation of which has monopolized my time.",
+        "Perhaps the veil between our world and Ethernere is weakening, or maybe the influence of Mithaniel Marr is returning in some way to awaken his fallen soldiers. In any case, the safety of Freeport demands that you get these pages to Zaddar right away.",
+        "Here, take this book cover and put the pages inside it for safe keeping. Take the tome to Zaddar so that he can finish his research.",
+        "Hello again, <player name>. What brings you back to the Keepers?",
+        "I have no more spell parchments, if that's what he's after.",
+        "The Staff of Ethernere is our most sacred relic, entrusted to our order when it was founded in Neriak. I couldn't possibly part with it, even for a short while.",
+        "Though my order now serves the Academy of Arcane Science, my vow to the Keepers of Ethernere supercedes the Academy's demands. Why does he need the staff?",
+        "That is dire news indeed! But wouldn't someone like Thaumaturge Ranollious at the Academy be better suited for this task?",
+        "Very well. Zaddar may use the Staff of Ethernere. He can return it to me when he's certain the binding ward is back in place.",
+        "Travel swiftly, <player name>. All of Freeport is depending on you now!"
+      ]
+    },
+    {
+      "name": "a novice graverobber",
+      "locations": [
+        "-50.00,-11.30,-15.14",
+        "-51.98,-11.58,-20.44",
+        "-67.50,-12.25,17.58"
+      ],
+      "utterances": [
+        "Not very nice of you to be all sneaky.",
+        "Shifty thingsies you are.",
+        "Take my secrets to my grave, I shall.",
+        "That wasn't very nice to do, friend.",
+        "Greetings friend, how would you like to die?",
+        "Should of escaped while I had the chance.",
+        "Carve your tonguesies out, I will!",
+        "No more snooping for you.",
+        "Overhear my plansies. Gore you I will!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -498696341 -216827613:Elemental Cover (Adept I)\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a plague rat",
+      "locations": [
+        "-50.95,-11.37,-12.44",
+        "-52.29,-11.51,8.86"
+      ]
+    },
+    {
+      "name": "a rotting zombie",
+      "locations": [
+        "-2.60,-7.34,87.43",
+        "-59.29,-11.59,-11.14",
+        "-45.82,-11.19,-44.27"
+      ]
+    },
+    {
+      "name": "R'Tok",
+      "purpose": "Merchant",
+      "locations": [
+        "-85.29,-13.44,121.24"
+      ],
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item."
+      ]
+    },
+    {
+      "name": "Sir Haligan, Captain of the Knights of Truth",
+      "locations": [
+        "-75.70,-15.53,20.45",
+        "91.42,-1.34,111.59"
+      ],
+      "utterances": [
+        "Who dares disturb my slumber?!",
+        "Your eyes are so pretty.",
+        "Final death comes at last."
+      ]
+    },
+    {
+      "name": "an undead battlepriest",
+      "locations": [
+        "-4.00,-7.61,92.65",
+        "-4.34,-7.54,98.32",
+        "-42.17,-10.76,58.60",
+        "-44.58,-9.90,46.17",
+        "-61.19,-12.32,-82.23",
+        "-12.97,-8.30,-67.35",
+        "-48.86,-10.78,82.78",
+        "-37.10,-10.40,76.10",
+        "-53.30,-11.51,55.64",
+        "-49.88,-11.36,67.78",
+        "-29.45,-9.66,76.04",
+        "-54.43,-11.57,50.56"
+      ],
+      "utterances": [
+        "Brains! Its what's for dinner.",
+        "You cannot eliminate us!",
+        "That pile of bones was my friend!",
+        "To the grave with you!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -2098664565 110889718:Advanced Artisan Volume 6\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -627252023 13220682:copper two handed sword\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1271296919 1886379139:a corrupted zombie brain\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 4,
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an undead crusader",
+      "locations": [
+        "81.98,-1.80,104.88"
+      ],
+      "utterances": [
+        "To the grave with you!",
+        "That pile of bones was my friend!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an undead fighter",
+      "locations": [
+        "-18.62,-9.02,-61.42"
+      ],
+      "utterances": [
+        "Your eyes are so pretty."
+      ],
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an undead knight",
+      "locations": [
+        "44.93,-3.36,84.48"
+      ],
+      "utterances": [
+        "Your blood calls to me.",
+        "Your eyes are so pretty.",
+        "Rest in peace."
+      ],
+      "drop_coin_min": 3,
+      "drop_coin_max": 3,
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an undead pikeman",
+      "locations": [
+        "-0.52,-7.27,98.32",
+        "-72.79,-13.44,-74.81",
+        "-61.19,-12.32,-82.23",
+        "-19.38,-9.04,-57.29",
+        "-14.36,-8.48,-68.75"
+      ],
+      "utterances": [
+        "As I rise from the grave,  you will now take my place!",
+        "That pile of bones was my friend!",
+        "To the grave with you!",
+        "You cannot eliminate us!",
+        "Brains! Its what's for dinner.",
+        "Dying didn't feel good the first time."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1420769013 -1078754291:a skeleton sorrow core\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 475563480 389464353:sundered obsidian\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4,
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an undead priest",
+      "locations": [
+        "84.09,-1.26,68.43"
+      ]
+    },
+    {
+      "name": "an undead squire",
+      "locations": [
+        "-75.25,-15.53,16.57",
+        "-20.51,-8.68,-73.89"
+      ],
+      "utterances": [
+        "Seek death and it finds you."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1781021878 -12999458:a rusty symbol of Marr\\/a",
+          "chest": true
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Spirits of Marr",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Zekvila Dizelk",
+      "locations": [
+        "88.31,-1.75,90.67"
+      ],
+      "utterances": [
+        "You are not who I was expecting.  What game are you playing with me?",
+        "Gyah! How dare you speak to me with a sharp tongue! Who do you think you are, fool? You do not bear the dark instrument; therefore, I've no need for you. Unless ... yes ... yes ... unless my emissary failed at his task. Yes, you shall succeed where the emissary failed. Trust me - it is in your best interest to agree with me.",
+        "You choose wisely, friend. I shall use the lessons taught to the Iksar by our dead emperor, Venril Sathir. This is where you come in ... the magic of the dead will put a stop to Ithelz's pompous belief that he is our new ruler.  I will tell you only once: take the crystal, go to the graveyard, and kill the undead knights. As the beasts die, hold out the crystal and collect their souls. Return when you fill the crystal.",
+        "Give me the crystal. Ah, yes, it's filled.  With these souls, Ithelz's puppet barbarians cannot prevent me from ruling over the district. You served me well, servant. Take this coin as a token of my gratitude."
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1868197541 -626008118:chipped shard of conjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1306389734 1869011176:shattered froglok bone fragment\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the creature den"
+    },
+    {
+      "name": "the exhumed stones"
+    },
+    {
+      "name": "the moldy roots"
+    },
+    {
+      "name": "the ravaged natural garden"
+    }
+  ]
+}

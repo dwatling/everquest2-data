@@ -1,0 +1,78 @@
+{
+  "name": "Nektropos Castle",
+  "category": "D'Lere",
+  "subcategory": "Group",
+  "levels": "30-40",
+  "connections": [
+    {
+      "key": "nektulos_tlp"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "an attendant of Everling",
+      "utterances": [
+        "There is no rest for us. The fallen will return.",
+        "The House of Everling does not tolerate intruders!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -958357921 -34756581:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an Everling manservant",
+      "utterances": [
+        "Beware of the son!",
+        "There is no rest for us. The fallen will return."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -2073079286 -33985810:a ghost phantasmal echo\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -958357921 -34756581:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 422,
+      "drop_coin_max": 436
+    },
+    {
+      "name": "an Everling stable boy",
+      "utterances": [
+        "Beware of the son!"
+      ]
+    },
+    {
+      "name": "Pelleas",
+      "utterances": [
+        "Beware of the son!"
+      ]
+    },
+    {
+      "name": "a personal attendant",
+      "utterances": [
+        "There is no rest for us. The fallen will return."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -26685399 680889659:Feysteel Relic\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Swine Lord",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1145219180 92763566:a polished boar tusk\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ]
+}

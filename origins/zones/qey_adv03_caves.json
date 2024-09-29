@@ -1,0 +1,925 @@
+{
+  "name": "The Caves",
+  "category": "Karan",
+  "levels": "10-15",
+  "maps": [
+    {
+      "name": "Lower",
+      "index": 0,
+      "zonerect": "-93.00,-171.00,78.00,32.00"
+    },
+    {
+      "name": "Upper",
+      "index": 1,
+      "zonerect": "-94.00,-168.00,78.00,32.00"
+    }
+  ],
+  "connections": [
+    {
+      "key": "qey_catacomb01",
+      "location": "-28.76,1.10,-76.20"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "an alabaster behemoth",
+      "levelRange": "12",
+      "locations": [
+        "16.99,37.87,-78.82",
+        "23.01,38.65,-60.38",
+        "31.94,38.21,-66.42",
+        "40.00,38.77,-64.00",
+        "-0.50,39.35,-88.46",
+        "17.14,37.79,-68.70"
+      ]
+    },
+    {
+      "name": "an alabaster golem",
+      "levelRange": "9",
+      "locations": [
+        "7.93,14.86,-84.59",
+        "-7.33,14.17,-69.64",
+        "45.87,12.45,-112.69",
+        "15.16,14.14,-90.23",
+        "56.08,12.39,-77.57",
+        "52.77,12.38,-102.61",
+        "-1.31,13.59,-65.44",
+        "7.35,14.29,-76.31",
+        "15.08,13.04,-102.63",
+        "18.60,12.38,-113.46",
+        "40.83,12.38,-107.79",
+        "17.02,12.71,-107.95",
+        "42.82,12.43,-120.90",
+        "27.79,16.41,-117.11",
+        "64.87,15.83,-92.03",
+        "44.05,12.32,-94.69",
+        "36.94,12.38,-115.97",
+        "24.00,12.38,-77.81",
+        "59.40,12.62,-101.76",
+        "34.85,12.10,-89.37",
+        "23.91,12.11,-98.92",
+        "1.22,16.14,-92.09",
+        "10.81,13.30,-117.20",
+        "10.73,13.45,-110.89"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 307526400 -829308237:a golem motive prism\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1311438430 -1344692837:snake fang bangle\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 947828686 -1926162362:tanned leather bracers\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "an albino arachnid",
+      "levelRange": "11",
+      "locations": [
+        "20.66,37.14,-34.65",
+        "-6.01,37.69,-74.66",
+        "-4.58,38.21,-57.07",
+        "-12.00,37.82,-64.00",
+        "10.59,37.73,-53.49",
+        "5.07,37.87,-56.72",
+        "22.25,37.58,-29.14",
+        "12.82,37.14,-39.42",
+        "-14.03,38.72,-57.42"
+      ]
+    },
+    {
+      "name": "an albino python",
+      "levelRange": "12",
+      "locations": [
+        "27.27,37.87,-27.78",
+        "24.29,37.14,-34.78",
+        "22.76,38.61,-59.39",
+        "17.32,37.14,-37.46",
+        "-6.14,38.72,-49.43",
+        "-4.31,38.24,-42.82",
+        "28.91,37.76,-44.00",
+        "35.06,37.87,-33.40"
+      ]
+    },
+    {
+      "name": "a cave serpent",
+      "levelRange": "9-10",
+      "locations": [
+        "-0.01,12.62,-52.00",
+        "18.56,3.71,-16.60",
+        "-20.34,12.92,-63.51",
+        "-21.36,12.96,-72.45",
+        "44.02,3.49,-52.00",
+        "11.30,12.27,-48.55",
+        "16.41,12.22,-52.27",
+        "-5.25,14.82,-74.11",
+        "-14.57,2.71,-31.57",
+        "0.85,3.32,-33.81",
+        "17.47,3.38,-43.84",
+        "-12.25,12.97,-51.52",
+        "33.44,3.54,-33.12",
+        "23.46,3.43,-37.98",
+        "17.35,3.38,-36.06",
+        "19.96,2.75,-28.81",
+        "33.61,12.38,-52.83",
+        "-11.69,13.50,-82.53",
+        "2.41,3.36,-26.51",
+        "-7.38,2.43,-20.29",
+        "25.00,12.38,-54.00"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 6906328 -1288574887:a damaged average quality snake skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 350124153 812122303:Notched Leather Belt\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "Consul Bree",
+      "purpose": "Qeynos Guard",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "1.06,3.62,-32.13"
+      ],
+      "utterances": [
+        "I am glad you are here.",
+        "There are problems here that must be solved. You and I are part of that solution.",
+        "The Rockpaw gnoll clan has wrested control of these caves to themselves. They are planning something very large.",
+        "To begin with you can help me retrieve an updated copy of the gnoll field book. My copy is more than a few weeks old and these gnolls are more organized than one would like to credit their race capable of. The leaders of each clan of gnolls within these caves will have the order book. There is a Dustpaw gnoll camp west of here, on this level. Retrieve their field book. It may be encoded, if you see a small symbol of a paw held to an eye then it is. If it is then you must find the key to the cipher, this will be carried by any gnoll. Once you have the key, bring it and the book back to me so I can study it.",
+        "And be wary of the Dustpaw. They didn't have the strength to beat the Rockpaw, but that doesn't mean they're docile.",
+        "That you are. I appreciate your answering the summons.",
+        "Have you gotten the gnollish order book yet?",
+        "Great! This will prove to be very useful I am certain.... yes, their plans are as we suspected. <player name>, we need to put an immediate halt to their production! Are you ready to act again?",
+        "The gnolls are creating an army that will be used to invade Qeynos. I have had Emma work up some explosives just for times like this. Take these charges. I need you to destroy the forge in the armory, it is on the level above this one. The gnolls also have a number of machine parts scattered around. These are not the two, main digging machines that they are using, but they are still part of the gnoll war machine and should be destroyed.",
+        "Thank you. The gnolls may not recover from this.",
+        "Have you done as I asked?",
+        "Wonderful. A setback like this will cost them dearly. They may not have proper time to recoup. I do not intend to give them that chance.",
+        "Zen'Durath. If we take him out now the Rockpaw gnolls will appear weak. The Mudpaw and Dustpaw gnolls will exploit that weakness, and the gnollish plans for Qeynos will never be realized.",
+        "I know enough of these gnolls. I did stay here for quite some time, hidden but among them, you realize. The Rockpaw have a ritual they use when they wish to speak with Zen'Durath. If we mimic that ritual he will show.",
+        "First you must collect the necessary items. You will need five crown scales from the albino pythons. You will also need some of the Rockpaw shaman's incantation powder, you can find this in the Rockpaw camps. Finally you will need a river stone from the river behemoths. These can all be found on the uppermost level here. However, the river stone may be difficult to get.",
+        "Speak with Emma about the river stone. I believe she has been working on something.",
+        "Have you collected the materials?",
+        "Then I have all I need. I will make the staff of summoning now. Do not be alarmed, the skeleton that adorns it is not a recent one. With this staff Zen'Durath will be summoned. Are you ready?",
+        "Good. Take this staff to the large skull on the northern end one level above this one. Once there place the staff in the skull, this will bring forth Zen'Durath. Return to me when he is dead.",
+        "And be careful. Zen'Durath will not be pleased to see you.",
+        "Is Zen'Durath dead?",
+        "Then it is done, and the Rockpaw shall soon fall. I am very relieved, I am lucky to have you, <player name>. Please, take this as a sign of my thanks--and the thanks of the Queen. You have earned it.",
+        "The Queen was right about you. We may yet meet again."
+      ]
+    },
+    {
+      "name": "a desperate defender",
+      "levelRange": "13",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-4.43,37.87,-22.12",
+        "-12.07,37.88,-27.42"
+      ]
+    },
+    {
+      "name": "The Devoured",
+      "levelRange": "13",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "24.32,37.87,-72.05",
+        "27.20,38.52,-65.08"
+      ],
+      "utterances": [
+        "I'll rip your throat open!",
+        "Your fight is hopeless!",
+        "I'll hunt you down for that!"
+      ]
+    },
+    {
+      "name": "Dustcaller Sleg",
+      "levelRange": "11",
+      "difficulty": "heroic^^",
+      "locations": [
+        "32.25,12.38,-106.90",
+        "40.41,12.38,-108.82",
+        "26.69,19.90,-127.67"
+      ],
+      "utterances": [
+        "Your death will please the clan!",
+        "Intruder!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1043294733 -619968018:Dusty Scarf\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a Dustpaw armorer",
+      "levelRange": "10",
+      "locations": [
+        "53.35,12.38,-74.72",
+        "47.37,12.38,-80.41",
+        "58.53,13.22,-74.95",
+        "33.96,12.38,-80.00",
+        "51.01,12.37,-85.57",
+        "64.00,12.41,-72.00",
+        "41.97,12.36,-95.24"
+      ],
+      "utterances": [
+        "Bite! Show sharp teeth!",
+        "That one will never mate!",
+        "Not allowed here!"
+      ]
+    },
+    {
+      "name": "a Dustpaw guard",
+      "levelRange": "10",
+      "locations": [
+        "39.53,3.83,-65.03",
+        "29.48,3.34,-85.48",
+        "33.92,3.46,-62.44",
+        "21.17,4.94,-71.72",
+        "53.10,12.38,-88.96",
+        "26.25,5.26,-66.00",
+        "55.22,12.38,-80.44",
+        "24.65,5.36,-58.69",
+        "27.88,5.46,-75.56",
+        "21.12,5.33,-66.00",
+        "37.00,2.65,-90.00"
+      ],
+      "utterances": [
+        "Not allowed here!",
+        "Spin, weave, dodge, attack!!!",
+        "Another member of the pack down!",
+        "Bite! Show sharp teeth!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -995437396 1086350915:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1698232697 -1628225413:Chirannite Threat Totem\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 295026780 -1353561431:a gnoll paw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1136651119 -744917932:intricately carved acorn\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 -1846212575:Paraffin Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 9,
+      "drop_coin_max": 17
+    },
+    {
+      "name": "a Dustpaw lookout",
+      "levelRange": "10",
+      "locations": [
+        "39.00,3.79,-66.93",
+        "33.82,3.50,-62.09",
+        "55.14,12.38,-89.47",
+        "24.94,5.06,-67.18",
+        "54.56,12.38,-80.95"
+      ],
+      "utterances": [
+        "Bite! Show sharp teeth!",
+        "That one never mate!",
+        "Spin, weave, dodge, attack!!!",
+        "Not allowed here!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -272717028 -1824968337:blackened iron tulwar\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1698232697 -1628225413:Chirannite Threat Totem\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1693304572 -1066926646:roughspun fist wraps\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 10,
+      "drop_coin_max": 137
+    },
+    {
+      "name": "Emma Torque",
+      "purpose": "Field Engineer",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-18.26,3.64,-34.66"
+      ],
+      "utterances": [
+        "Great job!",
+        "Is that the information I need? This is most precise!",
+        "I have almost everything I need! You know, most of my people are so preoccupied with creation that they forget to see the value in proper destruction.",
+        "Oh? Are you a fan of destruction? The elegant need for precise calculation is unobserved to many, but demolitions are not something suited to an ogre mind. Real demolitions, I mean. Sure an ogre can smash all he wants, but with a fraction of that effort a correctly placed explosive charge can render far more damage. That is why I am here.",
+        "Consul Bree asked for me. Well, not me specifically, but the Engineering Guild knew I was perfect for the job. These gnolls have come across some terrible machines, <player name>.",
+        "Devices that can be used to tunnel through rock with the speed of dynamite, but the subtlety of manual labor. I have reason to believe that these machines--among others--were provided to the gnolls by Freeportians. A pair of gnomes: Fulkoir and Fluwkowir Haggleton. Consul Bree has seen the machines, that is why she has called for me. And I'm almost ready to move.",
+        "As soon as I get a large enough collection of blasting powder. I have enough for the smaller devices, those that Consul Bree will be able to take care of--my precision won't really be needed. But the Freeportian gnomes have finished construction on two monstrous machines. Those machines are here, now in the Caves. And it falls to me to destroy them. But I need help.",
+        "All around here are the wasteful remnants of previous dig projects. You will find copious amounts of blasting powder among the ignored, powdered mineral that is spit out by their digging machines. Collect this powder for me.",
+        "The explosive potential is... amazing! I can't wait!",
+        "Have you collected the powder?",
+        "Most precise! This will be enough to create both charges. Are you ready to help me again?",
+        "When you find the machines, the 2830 series DDBDs, there should be two of them. For our purposes they are \"A\" and \"B.\" I doubt they'll even be labeled, but you should know them when you see them. It is important that you place these explosives on the main drive shaft, which is external to the inner workings. It will be outside the hardwood casing, it shouldn't be hard to spot. Consul Bree's information suggests that one of the two gnomes responsible for bringing this technology here is already dead. The remaining gnome, Fulkoir Haggleton, must be stopped. He will be near the Rockpaws, though he may be in hiding. Destroying his machines will certainly draw him out. Can you do this?",
+        "Good. The machines are likely a couple of levels up from this one. I'm sure I'll hear the explosions from here. I do hope you enjoy yourself, hah hah!",
+        "Well?",
+        "Ah, yes. She had me studying those a while back. Very complicated procedure to draw the stone from a river behemoth. You need to kill one and then, from its remains, you can draw the stone to the surface. After that it is as simple as grabbing it. You'll need a Drawing Ray--one of my inventions--to get it.",
+        "Sure. Be careful with it. I don't think it will explode and kill you, but I also don't want you using it anywhere near me.",
+        "Most precise! I heard the explosions from here, I am glad you were not in them and that they were in the proper spots--they WERE in the proper spots, right?",
+        "Great! Consul Bree will be very pleased. You have done the Qeynos Guard a great service, <player name>. Take this, please. And thank you.",
+        "Fulkoir had a great mind, but a poor, poor heart."
+      ]
+    },
+    {
+      "name": "Fulkoir Haggleton",
+      "levelRange": "13",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "41.95,37.87,-94.59",
+        "48.90,37.49,-94.86",
+        "41.35,37.87,-112.55"
+      ],
+      "utterances": [
+        "This is entirely unacceptable!"
+      ]
+    },
+    {
+      "name": "High Shaman Zen'Durath",
+      "levelRange": "14",
+      "difficulty": "heroic",
+      "locations": [
+        "33.63,12.38,-111.44",
+        "28.90,20.28,-128.77",
+        "28.23,18.11,-121.41"
+      ]
+    },
+    {
+      "name": "Kahla Ulno",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "0.26,3.62,-23.13"
+      ],
+      "utterances": [
+        "Greetings! I don't suppose you have some time to help an information-hungry kerra like myself, do you?",
+        "Well, I'm very interested in the creatures that inhabit these caves. I am trying to catalog these creatures so I can better compare them with their cousins found elsewhere. But I've run into a problem.",
+        "The amount of information I can get from living specimens is minimal. I tried to kill some, but I am no fighter. If I could get a number of dead specimens it would be a huge boon to my work.",
+        "You can? That would be great. I think four of the spiders, four of the bats, and four of the flying serpents would be enough for me to get most of my research done.",
+        "Great! I'll be here when you're done.",
+        "Did you get the creatures?",
+        "Perfect! Thank you so much! This will help me a great deal.",
+        "Still no conclusions."
+      ]
+    },
+    {
+      "name": "Lieutenant Delsun",
+      "purpose": "Qeynos Guard",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "0.88,3.62,-34.26"
+      ],
+      "utterances": [
+        "Well met. If you're here it's probably because you can help. I'm Lieutenant Delsun of the Qeynos Guard.",
+        "Well. Consul Bree has a plan of attack that she may need help with. So speak to her if you want to offer your services. As for me, I am more interested in the gnolls than their plans. If you want to help me by taking some of them out, I will gladly accept it.",
+        "That is good to hear. I'd like you to help me take out the gnollish fighting force. Slay thirty gnolls within the caves. Make sure two of 'em are the Mudpaw armorers from the level above us, and five of 'em are the Rockpaw guards from the level above that. From the same level as the Rockpaw guards, take out five of the gnoll guardians known as alabaster behemoths. Return to me when you're done.",
+        "Once you've done this return to me. The city of Qeynos will want to thank you properly.",
+        "Have you done as I asked?",
+        "Good. Though we may not directly attack their production as Consul Bree does, we've done a great part in thinning out their armies. Take this, the Qeynos Guard puts aside such things for times like this. I believe you deserve it.",
+        "You make Qeynos proud, soldier.",
+        "Thanks to you the city of Qeynos will be safe from the Rockpaw gnolls. We are in your debt."
+      ]
+    },
+    {
+      "name": "a Mudpaw guard",
+      "levelRange": "10",
+      "locations": [
+        "33.50,12.34,-106.14",
+        "36.73,12.38,-114.78",
+        "35.93,12.38,-83.17",
+        "27.42,12.38,-79.06",
+        "27.60,11.93,-91.05",
+        "23.01,12.38,-72.38",
+        "32.00,11.93,-98.28",
+        "48.81,12.38,-98.05",
+        "16.00,14.05,-86.97",
+        "63.43,15.48,-93.19",
+        "29.33,19.68,-127.40",
+        "37.81,12.38,-90.10",
+        "36.39,38.00,-77.83",
+        "23.12,20.27,-127.98",
+        "43.68,12.19,-92.97"
+      ],
+      "utterances": [
+        "Packmate not happy with scrawny catch.",
+        "Bite! Show sharp teeth!",
+        "Another member of the pack down!",
+        "That one never mate!",
+        "Spin, weave, dodge, attack!!!",
+        "Not allowed here!",
+        "That one will never mate!"
+      ]
+    },
+    {
+      "name": "a Mudpaw lookout",
+      "levelRange": "10",
+      "locations": [
+        "7.81,12.65,-58.53",
+        "14.28,12.38,-71.04",
+        "12.40,12.29,-53.13",
+        "7.87,13.22,-67.34",
+        "23.12,12.31,-60.40",
+        "7.03,14.42,-76.14",
+        "1.80,15.24,-77.92",
+        "18.46,14.16,-89.61",
+        "39.51,12.38,-102.48",
+        "-0.96,3.71,-30.37",
+        "29.08,12.38,-81.91",
+        "22.14,12.38,-74.18",
+        "19.94,12.38,-68.23",
+        "49.96,12.27,-89.11",
+        "37.24,11.97,-97.22",
+        "31.01,11.93,-99.66",
+        "23.98,12.34,-85.10",
+        "36.14,12.38,-109.92",
+        "29.52,12.06,-87.65",
+        "26.47,11.93,-93.19",
+        "39.97,12.29,-90.27",
+        "27.96,12.38,-75.34",
+        "35.54,12.38,-81.87",
+        "44.28,12.38,-96.33",
+        "7.98,14.64,-83.10"
+      ],
+      "utterances": [
+        "That one will never mate!",
+        "Bite! Show sharp teeth!",
+        "Spin, weave, dodge, attack!!!",
+        "Not allowed here!",
+        "That one never mate!",
+        "Another member of the pack down!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1086350915:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1698232697 -1628225413:Chirannite Threat Totem\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 404982903 -975839299:a gnoll ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1720905930 -425953569:a gnoll tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 -1846212575:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -672231565:pouch of peat\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 7,
+      "drop_coin_max": 7
+    },
+    {
+      "name": "an overland specimen",
+      "locations": [
+        "1.22,3.58,-20.84"
+      ]
+    },
+    {
+      "name": "a pale adder",
+      "levelRange": "13",
+      "locations": [
+        "-42.76,33.28,-59.58",
+        "-41.57,33.32,-53.02",
+        "-36.99,33.33,-46.80"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 6906328 -1288574887:a damaged average quality snake skin\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "The Pale Broodmother",
+      "levelRange": "10",
+      "locations": [
+        "43.53,0.59,-112.12",
+        "46.96,2.68,-94.90"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2112874147 -657580033:an arachnid leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1781580354 -1429775759:Poke (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1144401952 -897576670:Spiderbite Coif\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a river behemoth",
+      "levelRange": "13",
+      "locations": [
+        "30.02,37.21,-126.91",
+        "39.25,38.61,-118.52",
+        "29.64,38.74,-119.14"
+      ]
+    },
+    {
+      "name": "a Rockpaw guard",
+      "levelRange": "13-14",
+      "locations": [
+        "45.84,37.90,-79.13",
+        "40.00,37.87,-76.83",
+        "44.23,37.70,-101.85",
+        "38.60,38.32,-86.18",
+        "42.61,38.30,-114.85",
+        "28.72,38.04,-93.49",
+        "24.31,37.87,-109.28",
+        "43.93,37.87,-89.43",
+        "21.25,38.20,-104.25",
+        "29.90,37.87,-108.94",
+        "35.97,12.08,-94.79",
+        "52.19,37.98,-69.52",
+        "37.10,38.30,-91.48"
+      ],
+      "utterances": [
+        "That one never mate!",
+        "Not allowed here!",
+        "Another member of the pack down!",
+        "That one will never mate!",
+        "Bite! Show sharp teeth!"
+      ]
+    },
+    {
+      "name": "a Rockpaw scout",
+      "levelRange": "13-14",
+      "locations": [
+        "41.94,37.90,-90.16",
+        "22.32,37.62,-105.64",
+        "25.09,37.99,-90.33",
+        "42.83,37.87,-84.93",
+        "24.99,37.87,-111.76",
+        "45.17,37.91,-78.64",
+        "46.13,37.54,-101.24",
+        "38.57,37.87,-111.91"
+      ],
+      "utterances": [
+        "Another member of the pack down!",
+        "Bite! Show sharp teeth!",
+        "That one will never mate!",
+        "That one never mate!",
+        "Not allowed here!",
+        "Spin, weave, dodge, attack!!!"
+      ]
+    },
+    {
+      "name": "a Rockpaw striker",
+      "levelRange": "13",
+      "locations": [
+        "13.73,37.14,-41.99",
+        "26.00,38.70,-121.72",
+        "-5.23,38.72,-48.74",
+        "6.92,37.87,-58.75",
+        "37.08,38.07,-78.38",
+        "17.60,37.87,-74.77",
+        "45.00,37.63,-98.63",
+        "12.03,37.87,-21.64",
+        "29.33,38.39,-80.97",
+        "34.34,38.44,-87.71"
+      ],
+      "utterances": [
+        "That one will never mate!",
+        "Bite! Show sharp teeth!",
+        "Another member of the pack down!",
+        "Not allowed here!"
+      ]
+    },
+    {
+      "name": "a shale bat",
+      "levelRange": "11",
+      "locations": [
+        "-5.96,3.63,-34.46",
+        "-17.58,12.34,-68.34",
+        "-4.32,13.65,-65.88",
+        "24.00,13.00,-60.04",
+        "17.02,14.87,-58.86",
+        "7.84,13.25,-67.86",
+        "10.38,13.04,-79.25",
+        "45.62,5.00,-69.00",
+        "30.59,3.87,-67.63",
+        "34.48,12.39,-80.48",
+        "25.42,12.09,-87.49",
+        "-24.40,17.73,-62.65",
+        "31.02,11.94,-92.24",
+        "25.28,12.39,-76.75",
+        "25.64,12.39,-65.45",
+        "17.71,12.39,-69.53",
+        "17.56,12.39,-76.80"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1127098598 1418213343:a bat ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1359041271 -1145894628:Radiant Strike (Adept I)\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a silverfish",
+      "levelRange": "10",
+      "locations": [
+        "38.26,0.00,-22.43",
+        "-20.32,-0.89,-28.52"
+      ]
+    },
+    {
+      "name": "Slaverjaw",
+      "levelRange": "16",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "20.38,37.87,-80.18"
+      ]
+    },
+    {
+      "name": "Smithy Slampaw",
+      "levelRange": "10",
+      "locations": [
+        "61.46,13.78,-93.73",
+        "54.31,12.38,-90.27"
+      ],
+      "utterances": [
+        "Bite! Show sharp teeth!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -995437396 1086350915:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 573410820 814399420:Chipped Greatsword\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1606726287 1866527049:Consume Ego (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 207082281 1943708821:cured leather pelt\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 380501619 -1462756607:Greater Salve (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1900972368 -1885126073:Spark Scarred Gloves\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a terra bat",
+      "levelRange": "13",
+      "locations": [
+        "43.39,37.90,-75.45",
+        "37.40,38.27,-115.50",
+        "44.17,37.74,-94.56",
+        "22.96,37.53,-93.21",
+        "31.39,38.37,-122.67",
+        "37.29,38.53,-65.12",
+        "34.88,38.23,-92.89",
+        "23.83,37.66,-105.94",
+        "23.74,37.88,-71.23",
+        "27.80,38.10,-79.35",
+        "48.66,37.91,-66.99",
+        "42.52,37.89,-80.81",
+        "21.09,37.15,-34.88",
+        "31.33,38.45,-86.79",
+        "13.43,37.88,-79.03",
+        "19.28,37.88,-85.24"
+      ]
+    },
+    {
+      "name": "a white spider",
+      "levelRange": "10",
+      "locations": [
+        "6.61,12.76,-61.56",
+        "-3.46,12.80,-53.56",
+        "16.46,12.17,-55.49",
+        "14.40,12.38,-72.86",
+        "21.37,3.38,-38.99",
+        "9.64,2.70,-38.53",
+        "34.59,3.50,-68.00",
+        "44.95,0.88,-105.59",
+        "50.38,1.23,-99.52",
+        "12.04,12.28,-61.85",
+        "-8.00,15.07,-77.03",
+        "19.80,12.38,-70.35",
+        "47.07,3.38,-70.76",
+        "-11.44,12.70,-70.55",
+        "1.00,13.06,-62.00",
+        "26.56,12.38,-60.13",
+        "4.58,3.38,-17.00"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2112874147 -657580033:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a white spiderling",
+      "levelRange": "10",
+      "locations": [
+        "9.82,3.38,-42.89",
+        "12.00,3.38,-33.70",
+        "36.47,3.38,-72.16",
+        "23.13,3.38,-42.01",
+        "-4.95,3.49,-37.26",
+        "23.59,3.45,-36.42",
+        "25.12,5.09,-65.07",
+        "3.23,3.38,-43.04",
+        "16.25,3.49,-20.82",
+        "16.87,3.38,-41.61",
+        "3.17,3.44,-23.57",
+        "43.59,3.73,-67.48",
+        "17.09,2.73,-35.00",
+        "17.13,3.51,-27.62",
+        "30.78,3.98,-37.22"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2112874147 -657580033:an arachnid leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1163703835 1698426441:bone cudgel\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -952813271 -769133204:crooked staff\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1623445807 -345603151:Harl's Rousing Tune (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1597999582 -118836942:a poison gland\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1001458319 1257821299:Spidersilk Gown\\/a",
+          "chest": true
+        }
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1832140126 1193284294:chipped shard of abjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1331551958 -1699344718:chipped shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 518819436 909311260:plain blue butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1827919267 -43288604:plain purple butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -327615186 -1572251097:plain violet butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1450331100 1726103362:plain yellow butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 211153600 898123469:shattered erudite bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1185753733 -1190212496:shattered high elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1526825307 2113563307:shattered human bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1576919798 399529188:shattered ratonga bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 2076496326 1196186978:shattered wood elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 792936304 1175841208:spotted blue butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1234627898 1928890256:spotted violet butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -140875129 -614209625:striped purple butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1997619724 -2076063132:striped violet butterfly\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the creature den"
+    },
+    {
+      "name": "the dusky ore"
+    },
+    {
+      "name": "the fetid arbor"
+    },
+    {
+      "name": "the natural garden"
+    },
+    {
+      "name": "the rigid stone"
+    },
+    {
+      "name": "the stodgy roots"
+    },
+    {
+      "name": "the variety of fish"
+    }
+  ]
+}

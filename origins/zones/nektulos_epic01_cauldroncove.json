@@ -1,0 +1,43 @@
+{
+  "name": "The Cauldron Hollow",
+  "category": "D'Lere",
+  "subcategory": "Solo",
+  "levels": "30-36",
+  "access_quests": [
+    3204121933
+  ],
+  "maps": [
+    {
+      "zonerect": "-1042.00,-672.00,-847.00,-446.00"
+    }
+  ],
+  "connections": [
+    {
+      "key": "nektulos_tlp"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Haunted Nightmare",
+      "levelRange": "33",
+      "difficulty": "heroic",
+      "locations": [
+        "895.36,8.88,-511.13"
+      ]
+    },
+    {
+      "name": "a lost soul",
+      "levelRange": "33",
+      "locations": [
+        "895.36,8.19,-511.13"
+      ]
+    },
+    {
+      "name": "a restless soul",
+      "levelRange": "33",
+      "locations": [
+        "892.00,8.19,-515.00"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "name": "The Down Below",
+  "category": "Karan",
+  "levels": "5-12",
+  "maps": [
+    {
+      "zonerect": "-46.00,-261.00,239.00,68.00"
+    }
+  ],
+  "connections": [
+    {
+      "key": "qey_adv03_caves"
+    },
+    {
+      "key": "qey_catacomb02"
+    },
+    {
+      "key": "qey_catacomb_epic01"
+    },
+    {
+      "key": "qey_catacomb_epic01_scout"
+    },
+    {
+      "key": "qey_elddar"
+    },
+    {
+      "key": "qey_harbor"
+    },
+    {
+      "key": "qey_north"
+    },
+    {
+      "key": "qey_south"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Adair Barnes",
+      "purpose": "General Goods",
+      "locations": [
+        "-13,0,-6"
+      ],
+      "utterances": [
+        "Ahhh... bringing yourself down into the muck, eh? Gets mighty dark down these parts. Interest you in a fine torch?",
+        "Are you looking for anything in particular?",
+        "Aren't you a curious bugger! I'll tell you why, it fills my pockets with coin. You'd be surprised by the folks who come down here to buy this or that.  Say, why don't you help me fill some orders? There's coin in it for you.",
+        "Good. Let me write down in your journal what I need you to get.  Now hurry up, this stuff needs to stay fresh, got it?",
+        "I see that you got everything. Good. Keep in mind that I always need help retrieving goods. If you're ever looking for something to do that'll pass the time, think of me!"
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "a Bloodsaber initiate",
+      "levelRange": "8",
+      "locations": [
+        "7.72,-0.08,-111.70",
+        "-11.96,-4.00,-138.49",
+        "0.00,0.00,-139.23",
+        "7.22,0.00,-132.67",
+        "14.98,0.00,-139.60",
+        "7.40,0.00,-144.00"
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 4
+    },
+    {
+      "name": "a Bloodsaber lookout",
+      "levelRange": "4",
+      "locations": [
+        "20.44,-0.09,-107.10",
+        "3.53,-0.09,-106.60"
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4
+    },
+    {
+      "name": "a Bloodsaber meddler",
+      "levelRange": "8",
+      "locations": [
+        "-12.32,-4.00,-140.87",
+        "0.00,0.00,-137.39",
+        "13.43,0.00,-136.56",
+        "5.65,0.00,-144.82",
+        "4.85,-0.06,-107.48"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 483754019 902041739:bloodstained bat fang\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 4
+    },
+    {
+      "name": "a coiled burrower",
+      "locations": [
+        "-102.27,-0.10,-119.31"
+      ]
+    },
+    {
+      "name": "a creeper protector",
+      "levelRange": "8",
+      "locations": [
+        "-135.78,7.00,-204.93",
+        "-106.54,0.00,-190.28"
+      ]
+    },
+    {
+      "name": "a Crypt Protector",
+      "locations": [
+        "-190.63,0.00,-130.44"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1305058859 -1505285030:Savants Leggings\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a crypt substance",
+      "locations": [
+        "-12.23,-0.08,-31.20"
+      ]
+    },
+    {
+      "name": "Falin Shaloon",
+      "purpose": "General Goods",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-195.78,-0.1,-200.52"
+      ],
+      "utterances": [
+        "If I don't have what you want, you don't need it!",
+        "Word gets around quickly down here; so don't think about trying to pull one over on me.  I won't have you working for me while you're doing work for Barnes, got it!?",
+        "Buy something or be on your way!  I don't have time to chat with the likes of you...",
+        "I get requests for this or that, used for who knows what.  It seems that the majority of my clientele have to get their supplies here, 'cause it just ain't available top side. Say, how would you like to make yourself useful?"
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "a forgotten soul",
+      "levelRange": "11",
+      "locations": [
+        "-197.74,0.01,-99.86",
+        "-204.97,0.29,-93.40",
+        "-202.02,0.14,-40.39",
+        "-189.00,0.27,-69.36",
+        "-185.00,-0.08,-36.91",
+        "-216.72,-0.08,-92.64",
+        "-181.39,-0.16,-73.55",
+        "-189.12,0.48,-48.46",
+        "-176.69,-0.11,-36.43",
+        "-215.00,0.01,-52.00"
+      ],
+      "utterances": [
+        "Your blood calls to me.",
+        "Seek death and it finds you.",
+        "I didn't need those bones anyway.",
+        "Your eyes are so pretty.",
+        "As I rise from the grave,  you will now take my place!",
+        "You've shaken the dust from my bones.",
+        "You cannot eliminate us!",
+        "To the grave with you!",
+        "Final death comes at last.",
+        "Rest in peace.",
+        "I'm shattered and broken."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1561950944 -1175356782:a skeleton arm\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1261960677:small decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1253182384 -835651230:a tarnished scepter\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 17,
+      "drop_coin_max": 17
+    },
+    {
+      "name": "a frenzied watcher",
+      "levelRange": "9",
+      "locations": [
+        "-133.28,7.00,-208.00",
+        "-120.11,2.00,-207.92",
+        "-125.98,0.00,-203.10",
+        "-106.97,0.00,-192.78"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 830377007 -657580033:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a juvenile shriller",
+      "locations": [
+        "-163.56,1.50,-73.84"
+      ]
+    },
+    {
+      "name": "a malefic arachnid",
+      "locations": [
+        "-85.35,-0.10,-191.94",
+        "-136.52,-0.28,-179.84",
+        "-141.53,-0.32,-181.26"
+      ]
+    },
+    {
+      "name": "a putrid vermin",
+      "levelRange": "7",
+      "locations": [
+        "-86.96,-0.11,-109.26",
+        "-89.67,-0.36,-104.00",
+        "-97.87,-0.73,-100.08",
+        "-92.32,-0.11,-109.13",
+        "-81.96,-0.73,-99.45",
+        "-80.00,-5.74,-99.00"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1659113820 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a rabid shriller",
+      "levelRange": "9",
+      "locations": [
+        "-214.45,-0.01,-89.36",
+        "-191.33,-0.03,-66.78",
+        "-190.46,-0.07,-57.22",
+        "-183.94,-0.08,-73.31",
+        "-216.46,-0.08,-94.52",
+        "-181.81,-0.04,-41.50",
+        "-165.28,-0.23,-74.39",
+        "-188.39,0.43,-49.92"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 421411360 1418213343:a bat ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -461669163 563466609:Shout (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2111220072 -529644309:woven rawhide sandals\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a rotting citizen",
+      "levelRange": "12",
+      "locations": [
+        "-203.56,-0.08,-40.62",
+        "-177.83,-0.14,-35.22",
+        "-196.84,0.00,-42.28",
+        "-191.84,0.00,-23.24"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1253182384 -835651230:a tarnished scepter\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 98,
+      "drop_coin_max": 98
+    },
+    {
+      "name": "a rotting royal",
+      "locations": [
+        "-190.47,0.00,-21.71"
+      ]
+    },
+    {
+      "name": "a shriller",
+      "levelRange": "8",
+      "locations": [
+        "-145.74,-0.07,-141.13",
+        "-146.31,-0.23,-184.15",
+        "-156.60,-0.05,-97.87"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 421411360 1418213343:a bat ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2111220072 -529644309:woven rawhide sandals\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a tomb forager",
+      "levelRange": "7",
+      "locations": [
+        "-61.14,-0.12,-94.79",
+        "-88.37,-0.09,-134.37",
+        "-71.51,-0.64,-110.95",
+        "-72.72,-0.11,-101.73"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1659113820 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a tomb rifter bleeder",
+      "levelRange": "8",
+      "locations": [
+        "-190.99,-0.39,-132.13",
+        "-162.53,-0.08,-118.90",
+        "-175.23,1.17,-125.61",
+        "-199.82,-0.39,-130.13"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1443804415 1499328814:an insect shell\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 446684787 1499328814:an insect shell\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a tortured soul",
+      "levelRange": "11",
+      "locations": [
+        "-197.01,0.00,-32.83",
+        "-191.43,0.00,-31.52"
+      ],
+      "utterances": [
+        "Your eyes are so pretty.",
+        "Your blood calls to me.",
+        "Seek death and it finds you.",
+        "As I rise from the grave,  you will now take my place!",
+        "The weapon swings harder after death!",
+        "You cannot eliminate us!",
+        "I'm shattered and broken.",
+        "Dying didn't feel good the first time."
+      ],
+      "drop_coin_min": 70,
+      "drop_coin_max": 70
+    },
+    {
+      "name": "a venomous keeper",
+      "levelRange": "8",
+      "locations": [
+        "-121.55,0.00,-195.22",
+        "-97.79,0.00,-208.28",
+        "-106.56,0.00,-202.67",
+        "-99.80,0.00,-203.06",
+        "-122.62,0.00,-202.49",
+        "-114.68,0.00,-200.83"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 830377007 -657580033:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a venomous watcher",
+      "levelRange": "6",
+      "locations": [
+        "-112.00,0.00,-192.00",
+        "-125.26,0.00,-204.26",
+        "-124.83,0.00,-198.44",
+        "-106.69,0.00,-191.89"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 830377007 -657580033:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a venom spitter",
+      "levelRange": "7",
+      "locations": [
+        "-112.60,0.00,-204.51",
+        "-112.00,0.00,-193.85",
+        "-120.48,0.00,-199.62",
+        "-106.97,0.00,-192.26"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 830377007 -657580033:an arachnid leg\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ]
+}

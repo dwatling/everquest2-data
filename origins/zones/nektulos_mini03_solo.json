@@ -1,0 +1,164 @@
+{
+  "name": "The Underrot Caverns: Moldy Crypt",
+  "added": "lu05",
+  "category": "D'Lere",
+  "subcategory": "Group",
+  "levels": "35-40",
+  "access_quests": [
+    1332053343,
+    3125344113
+  ],
+  "connections": [
+    {
+      "key": "nektulos_tlp"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a bloodstone gargoyle",
+      "levelRange": "37",
+      "locations": [
+        "61.33,-6.63,-72.25",
+        "73.82,-7.39,-77.47",
+        "84.78,-7.67,-50.88",
+        "89.06,-7.78,-68.63",
+        "93.01,-6.81,-78.13",
+        "89.84,-6.44,-90.07"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -26685399 680889659:Feysteel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 13682131 668330589:stone debris\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a crumbling gargoyle",
+      "levelRange": "36",
+      "locations": [
+        "10.36,-13.59,-40.75",
+        "26.55,-14.50,-43.14",
+        "31.65,-13.81,-67.48",
+        "36.76,-12.11,-80.23",
+        "37.65,-11.55,-88.18",
+        "85.19,-12.21,-126.88",
+        "90.13,-13.50,-121.78"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 13682131 668330589:stone debris\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an ebon adherant",
+      "levelRange": "39",
+      "locations": [
+        "214.32,-1.23,-91.90",
+        "232.34,0.52,-82.77",
+        "214.08,2.59,-57.25"
+      ],
+      "utterances": [
+        "I will have vengeance!",
+        "I hope you put your affairs in order.",
+        "No matter what I promise, you will not survive!",
+        "Fall back, order a tactical retreat!"
+      ],
+      "drop_coin_min": 284,
+      "drop_coin_max": 284
+    },
+    {
+      "name": "an ebon neonate",
+      "levelRange": "38",
+      "locations": [
+        "159.94,-12.35,-36.93",
+        "170.22,-12.02,-35.55",
+        "165.03,-12.61,-36.53"
+      ],
+      "utterances": [
+        "I will have vengeance!",
+        "Hold them and I'll return with help!",
+        "No matter what I promise, you will not survive!",
+        "Fall back, order a tactical retreat!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 269172514 -115955947:Advanced Adornments Volume 4\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1317754168 1332130336:Opal Amulet\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 359,
+      "drop_coin_max": 3221
+    },
+    {
+      "name": "an ebon python",
+      "levelRange": "37",
+      "locations": [
+        "130.64,-14.77,-78.31",
+        "120.46,-14.75,-76.65",
+        "140.11,-13.53,-90.92",
+        "103.30,-15.86,-39.73",
+        "115.57,-15.44,-50.44",
+        "108.47,-15.43,-44.48",
+        "122.01,-15.11,-34.98",
+        "127.35,-14.23,-23.97",
+        "101.64,-13.87,-21.03",
+        "107.52,-14.05,-25.61",
+        "84.06,-15.19,-37.71",
+        "94.55,-13.25,-10.38"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1455739865 143018314:a poison gland\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "an ebon ritualist",
+      "levelRange": "38",
+      "locations": [
+        "159.19,-12.67,-51.99",
+        "197.89,-5.58,-56.96"
+      ],
+      "utterances": [
+        "Fall back, order a tactical retreat!",
+        "I will have vengeance!"
+      ]
+    },
+    {
+      "name": "a moldering gargoyle",
+      "levelRange": "36",
+      "locations": [
+        "-12.94,-7.91,-20.74"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -26685399 680889659:Feysteel Relic\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a pit striker",
+      "levelRange": "36",
+      "locations": [
+        "72.31,-12.85,-121.13",
+        "63.44,-12.66,-116.14",
+        "72.70,-12.57,-111.53",
+        "67.59,-13.04,-106.60",
+        "116.12,-16.74,-95.16",
+        "84.59,-9.62,-145.50"
+      ]
+    }
+  ]
+}

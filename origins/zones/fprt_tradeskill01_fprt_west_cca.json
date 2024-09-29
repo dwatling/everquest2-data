@@ -1,0 +1,79 @@
+{
+  "name": "The Coalition Crafter's Association",
+  "category": "D'Lere",
+  "connections": [
+    {
+      "key": "fprt_west_tlp",
+      "location": "6.49,0.79,-3.43"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Commissioner Venilos",
+      "purpose": "Rush Orders",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-1.86,-0.19,-3.85"
+      ],
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Gnaeus Ovidius",
+      "purpose": "Work Orders",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-2.99,-0.18,-2.79"
+      ],
+      "utterances": [
+        "I'm sorry, until you have chosen a specialty in your craft I do not have any work orders for you.  Come see me when you're more practiced in your trade."
+      ]
+    },
+    {
+      "name": "Jangles Zobblebok",
+      "purpose": "Broker",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1.56,-19.59,13.42"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "In spite of the cost of living, it's still quite a popular item."
+      ]
+    },
+    {
+      "name": "Juvena",
+      "purpose": "Merchant",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-1.82,-0.18,8.88"
+      ],
+      "utterances": [
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store_template": "wholesaler"
+    }
+  ]
+}

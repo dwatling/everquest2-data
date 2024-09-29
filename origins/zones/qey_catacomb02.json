@@ -1,0 +1,66 @@
+{
+  "name": "Vermin's Snye",
+  "category": "Karan",
+  "levels": "10-18",
+  "maps": [
+    {
+      "zonerect": "-276.00,-273.00,34.00,84.00"
+    }
+  ],
+  "connections": [
+    {
+      "key": "qey_adv04_bog_tlp"
+    },
+    {
+      "key": "qey_catacomb01"
+    },
+    {
+      "key": "qey_catacomb03"
+    },
+    {
+      "key": "qey_catacomb_epic02"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Aleyna McMallon",
+      "locations": [
+        "130.1,-6.92,-105.1"
+      ],
+      "utterances": [
+        "Yes!? What do you want?",
+        "Well, then, you best watch your back. This place is crawling with death and the festering plague."
+      ]
+    },
+    {
+      "name": "Brawler Bently",
+      "locations": [
+        "120.88,0.11,-107.45"
+      ],
+      "utterances": [
+        "Hey!  I heard you destroyed Lika the Tortured!"
+      ]
+    },
+    {
+      "name": "Brother Garvis",
+      "locations": [
+        "125.69,-5.55,-84.71"
+      ],
+      "utterances": [
+        "The Prime Healer is still among us!  Who will assist me with his work?",
+        "We must continue curing afflictions and healing wounds.  It's the will of the Prime Healer.",
+        "Excellent!  Excellent!  However, I must warn you.  We have a lot of hard work ahead of us. The catacombs are dangerous, and I don't want someone volunteering unwittingly.",
+        "Very good.  I know you can or I wouldn't have asked. I need you to collect venom sacs from poisonous serpents down in the catacombs.  This deed serves the healers two fold. You will eliminate the threat the snakes pose and will provide us with venom to create a serum for combating the snakes' deadly toxins."
+      ]
+    },
+    {
+      "name": "Cryptcleaner Remy",
+      "locations": [
+        "126.08,-6.92,-108.99"
+      ],
+      "utterances": [
+        "Why did I volunteer to clean up down here? It's so dark and spooky. "
+      ]
+    }
+  ]
+}

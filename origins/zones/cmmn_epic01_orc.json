@@ -1,0 +1,374 @@
+{
+  "name": "Bloodskull Valley: Maulic's Stronghold",
+  "category": "Dungeons",
+  "levels": "15-17",
+  "npcs": [
+    {
+      "name": "a Bloodskull battlehound",
+      "locations": [
+        "246.68,-48.04,862.22",
+        "248.29,-48.04,872.41",
+        "242.48,-47.93,872.41"
+      ]
+    },
+    {
+      "name": "a Bloodskull fanatic",
+      "locations": [
+        "-10.87,-47.92,820.50",
+        "-19.03,-47.90,828.69",
+        "-5.14,-47.88,831.08",
+        "-2.20,-48.04,841.85",
+        "0.76,-48.01,836.73",
+        "41.94,-45.32,809.03",
+        "308.72,-47.96,807.07",
+        "310.89,-48.75,798.98"
+      ],
+      "utterances": [
+        "You should have left when you had a chance.",
+        "I will hold them.  Fall back and get us help!",
+        "I cannot hold them much longer.",
+        "There are too many!  We must regroup.",
+        "Fall back and get us a shaman!",
+        "Time to meet your end, intruder."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 919677850 -1288633370:black face paint\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 93,
+      "drop_coin_max": 1159,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Bloodskull herald",
+      "locations": [
+        "315.00,-50.42,798.77",
+        "307.93,-47.95,804.11"
+      ],
+      "utterances": [
+        "There are too many!  We must regroup.",
+        "Fall back and get us a shaman!",
+        "I will hold them.  Fall back and get us help!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 919677850 -1288633370:black face paint\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 83,
+      "drop_coin_max": 83,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Bloodskull heretic",
+      "locations": [
+        "314.53,-50.59,797.17",
+        "316.70,-49.26,805.25",
+        "307.01,-47.95,804.98"
+      ],
+      "utterances": [
+        "There are too many!  We must regroup.",
+        "Fall back and get us a shaman!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Bloodskull high guard",
+      "locations": [
+        "244.82,-48.04,827.00"
+      ],
+      "utterances": [
+        "I will hold them.  Fall back and get us help!",
+        "Fall back and get us a shaman!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1328289081 -1699088314:an orc spine\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 111,
+      "drop_coin_max": 884,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Bloodskull high priest",
+      "locations": [
+        "250.14,-48.04,823.93"
+      ],
+      "utterances": [
+        "I cannot hold them much longer."
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Bloodskull lookout",
+      "locations": [
+        "-32.96,-48.00,779.98"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a Bloodskull soldier",
+      "locations": [
+        "-13.32,-47.91,829.22",
+        "0.49,-48.04,840.85",
+        "0.00,-47.97,833.77",
+        "-7.46,-48.01,841.83",
+        "37.31,-45.69,812.32",
+        "314.13,-48.44,804.63",
+        "308.70,-47.91,801.15"
+      ],
+      "utterances": [
+        "I cannot hold them much longer.",
+        "Time to meet your end, intruder.",
+        "Fall back and get us a shaman!",
+        "You should have left when you had a chance.",
+        "Sound the alarm. Destroy all trespassers!",
+        "I will hold them.  Fall back and get us help!",
+        "There are too many!  We must regroup."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 919677850 -1288633370:black face paint\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 1225,
+      "drop_coin_max": 1225,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a chosen Bloodskull herald",
+      "locations": [
+        "247.07,-48.04,824.75",
+        "249.92,-48.04,830.87"
+      ],
+      "utterances": [
+        "I will hold them.  Fall back and get us help!",
+        "There are too many!  We must regroup."
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an elect Bloodskull heretic",
+      "locations": [
+        "251.71,-48.04,828.24",
+        "243.97,-48.04,830.09"
+      ],
+      "utterances": [
+        "I cannot hold them much longer.",
+        "I will hold them.  Fall back and get us help!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 919677850 -1288633370:black face paint\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an elite Bloodskull fanatic",
+      "locations": [
+        "253.22,-48.04,835.40",
+        "244.00,-48.04,830.08",
+        "255.47,-48.04,827.00"
+      ],
+      "utterances": [
+        "I cannot hold them much longer.",
+        "I will hold them.  Fall back and get us help!",
+        "There are too many!  We must regroup."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 919677850 -1288633370:black face paint\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "an elite Bloodskull soldier",
+      "locations": [
+        "253.22,-48.04,824.75",
+        "250.14,-48.04,836.22",
+        "256.00,-48.04,830.08"
+      ],
+      "utterances": [
+        "I cannot hold them much longer.",
+        "Fall back and get us a shaman!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a frenzied Bloodskull high guard",
+      "locations": [
+        "253.22,-48.04,824.75"
+      ],
+      "utterances": [
+        "There are too many!  We must regroup."
+      ],
+      "drop_coin_min": 113,
+      "drop_coin_max": 113,
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "General Drull",
+      "locations": [
+        "244.63,-48.04,833.26"
+      ],
+      "utterances": [
+        "Fall back and get us a shaman!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "Legioneer Gorlak",
+      "locations": [
+        "307.70,-47.95,804.11"
+      ],
+      "utterances": [
+        "I cannot hold them much longer."
+      ],
+      "faction_changes": [
+        {
+          "name": "The Bloodskull Orcs",
+          "value": -100
+        }
+      ]
+    },
+    {
+      "name": "a redbelly slicer",
+      "locations": [
+        "330.73,-51.32,790.66"
+      ]
+    }
+  ]
+}

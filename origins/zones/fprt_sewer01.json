@@ -1,0 +1,93 @@
+{
+  "name": "The Thieves' Way",
+  "category": "D'Lere",
+  "levels": "5-10",
+  "maps": [
+    {
+      "zonerect": "-42.00,-34.00,202.00,248.00"
+    }
+  ],
+  "connections": [
+    {
+      "key": "fprt_hood02_tlp",
+      "location": "0.26,-0.37,0.28"
+    },
+    {
+      "key": "fprt_hood05_tlp",
+      "location": "-61.78,0.10,-3.81"
+    },
+    {
+      "key": "fprt_sewer02"
+    },
+    {
+      "key": "fprt_sewer_epic04_quest_darkblade_epic"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a Darkblade brigand",
+      "locations": [
+        "-22.80,1.00,113.99"
+      ],
+      "utterances": [
+        "You won't take me alive!"
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 2
+    },
+    {
+      "name": "a Darkblade fury",
+      "locations": [
+        "-20.13,1.00,112.61"
+      ],
+      "utterances": [
+        "No where to run, kraven!",
+        "Now who will pick the locks?!"
+      ]
+    },
+    {
+      "name": "a Darkblade scout",
+      "locations": [
+        "-17.00,0.00,102.00",
+        "-24.44,1.00,113.54"
+      ]
+    },
+    {
+      "name": "a netherot chanter",
+      "locations": [
+        "-83.94,1.00,54.23"
+      ],
+      "utterances": [
+        "Prepare to face your doom, meddler."
+      ]
+    },
+    {
+      "name": "a union member Local 858",
+      "locations": [
+        "-88.06,0.00,25.52"
+      ]
+    },
+    {
+      "name": "a union mender Local 858",
+      "locations": [
+        "-87.03,0.00,27.63",
+        "-87.00,0.00,22.00"
+      ]
+    },
+    {
+      "name": "Zatzy",
+      "locations": [
+        "-1.60,-0.02,-7.37"
+      ],
+      "utterances": [
+        "Go!  Get away from me!  I'm in hiding!",
+        "I told you to leave!  I don't want to draw attention to myself!  Go, go away!",
+        "I told you to leave me alone! If they finds me, they'll kill me!  They've already killed everyone else. I'm the only one left.  They killed them, and there was nothing I could do.  What was I supposed to do?  I'm just a small ratonga, little, so little.  ",
+        "The Darkblades did it! They're all killers!  You find them in the sewers; it's a fitting place for them filth.  You do me favor and kill them, kill them all, and I'll tell you where their secret den is.  You can find much wealth there. ",
+        "You will do this for me?  Even though I am so very small?  They took my trinket. You bring it back to me, and I'll tell you where their secret den is.  You do this, okay?",
+        "You're back!  Did you kill them all?  Are they all dead?  Did you find the trinket?",
+        "This is very good news for little me, but very bad news for you.  That's no trinket you fool!  It's the key to the Darkblades' den, and now they're all dead! I can plunder to my little black heart's content."
+      ]
+    }
+  ]
+}

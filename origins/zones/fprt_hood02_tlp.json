@@ -1,0 +1,514 @@
+{
+  "name": "Stonestair Byway",
+  "category": "D'Lere",
+  "maps": [
+    {
+      "zonerect": "-167.84, -157.10, 164.91, 89.21"
+    }
+  ],
+  "connections": [
+    {
+      "key": "fprt_adv02_graveyard_tlp"
+    },
+    {
+      "key": "fprt_north_tlp"
+    },
+    {
+      "key": "fprt_sewer01"
+    },
+    {
+      "key": "fprt_tradeskill01_hood02"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Armsdealer Melai",
+      "purpose": "Weaponsmith",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "14.68,-4.0,-95.16"
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "Barmaid Miala",
+      "purpose": "Provisioner",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "74.52,-4.0,-55.4"
+      ],
+      "utterances": [
+        "That guy won't stop staring at me. He's creepy!"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Batarra",
+      "purpose": "Kerra Mentor",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-76.62,-4.67,-20.61"
+      ],
+      "languages": [
+        "Kerran"
+      ]
+    },
+    {
+      "name": "Fariola",
+      "purpose": "Armorsmith",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-50.35,-4.37,-15.69"
+      ],
+      "store_template": "armorsmith"
+    },
+    {
+      "name": "Galenus Vatia",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "44.77,-3.5,-18.24"
+      ]
+    },
+    {
+      "name": "Habika",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-61.63,0.27,9.39"
+      ],
+      "languages": [
+        "Kerran"
+      ]
+    },
+    {
+      "name": "Innkeeper Zahar",
+      "purpose": "Housing",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "7.8,0.0,-45.61"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1948997447 910538981 0 0 0:a generic wall sconce\\/a",
+          "prices": [
+            {
+              "coin": 810
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2012617853 1591770237 0 0 0:a paladin brazier\\/a",
+          "prices": [
+            {
+              "coin": 7290
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 729139268 0 0 0:an enchanter's candelabra\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Irian",
+      "purpose": "Alchemist",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "33.42,0.0,-74.64"
+      ],
+      "utterances": [
+        "Take a look at my wares, I'm sure you'll find something useful."
+      ],
+      "store_template": "alchemist"
+    },
+    {
+      "name": "Jezrina",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-38.56,1.11,7.01"
+      ],
+      "languages": [
+        "Erudian"
+      ]
+    },
+    {
+      "name": "Johari",
+      "purpose": "Spell Scrolls",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-40.56,1.36,-55.26"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 128450204 1303912758 0 0 0:Erudian Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1384598 274987165 0 0 0:Kerran Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        }
+      ],
+      "store_template": "wizard_trainer"
+    },
+    {
+      "name": "Jojo Karanja",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "53.05,-4.35,-31.28"
+      ]
+    },
+    {
+      "name": "Juma",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-25.85,-4.0,-38.67"
+      ],
+      "languages": [
+        "Kerran"
+      ]
+    },
+    {
+      "name": "Kaman",
+      "purpose": "Banker",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "55.16,-2.87,-75.01"
+      ]
+    },
+    {
+      "name": "Kazar",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "69.64,-4.0,-47.45"
+      ],
+      "utterances": [
+        "Bah! Another adventurer.  Why don't you go bother one of those overgrown house cats?"
+      ]
+    },
+    {
+      "name": "Kolai",
+      "purpose": "Bartender",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "74.73,-4.0,-37.88"
+      ],
+      "utterances": [
+        "You want to talk?  If you want us to be friends all you need to do is buy a drink!"
+      ],
+      "store_template": "bartender"
+    },
+    {
+      "name": "Lirosi",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "70.64,-4.0,-39.93"
+      ]
+    },
+    {
+      "name": "Nashii",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-28.47,-3.5,-12.86"
+      ]
+    },
+    {
+      "name": "Nisra",
+      "purpose": "Shieldsmith",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-4.28,-4.38,-25.13"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "shieldsmith"
+    },
+    {
+      "name": "Ozzaranu",
+      "purpose": "Tailor",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "45.5,-4.35,-63.49"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "Pona",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-2.87,-4.66,-5.01"
+      ]
+    },
+    {
+      "name": "Raban",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "69.49,-4.0,-45.31"
+      ]
+    },
+    {
+      "name": "a rat",
+      "locations": [
+        "-26.48,-4.38,-25.59"
+      ]
+    },
+    {
+      "name": "Rori",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "23.8,0.0,-75.47"
+      ]
+    },
+    {
+      "name": "Rosali",
+      "purpose": "Mender",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "15.3,-4.0,-93.47"
+      ]
+    },
+    {
+      "name": "Sevri Il'Bethod",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "2.09,0.0,-36.78"
+      ],
+      "languages": [
+        "Erudian"
+      ]
+    },
+    {
+      "name": "Shatana Kamelia",
+      "purpose": "Crafting Trainer",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "18.49,-4.37,-72.94"
+      ],
+      "store_template": "crafting_trainer"
+    },
+    {
+      "name": "Street Witch Azreana",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "20.08,-4.35,-36.41"
+      ]
+    },
+    {
+      "name": "Thindel",
+      "purpose": "Bowyer",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "16.45,-4.37,-80.64"
+      ],
+      "store_template": "bowyer"
+    },
+    {
+      "name": "Tobial",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "69.95,-4.0,-54.02"
+      ]
+    },
+    {
+      "name": "Vess Al'Ishni",
+      "purpose": "Erudite Mentor",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-82.78,-4.65,-28.71"
+      ],
+      "languages": [
+        "Erudian"
+      ]
+    },
+    {
+      "name": "Washaso",
+      "purpose": "General Goods",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "11.64,0.0,-24.36"
+      ],
+      "utterances": [
+        "Welcome friend of the Overlord,  please look around.  We have several pieces from the Citadel itself!"
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "a whispering Erudite",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
+      "locations": [
+        "-48.56,1.02,7.96"
+      ]
+    }
+  ]
+}

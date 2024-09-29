@@ -1,0 +1,27 @@
+{
+  "name": "The Drowned Caverns: Flammable Fur",
+  "added": "lu11",
+  "category": "Karan",
+  "connections": [
+    {
+      "key": "adv02_dun_drowned_caverns_playground"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Garanim Brewgullet",
+      "utterances": [
+        "No! you can't defeat one of us."
+      ]
+    },
+    {
+      "name": "a Garatch Nim overseer",
+      "utterances": [
+        "No! you can't defeat one of us.",
+        "He has failed us.",
+        "You're no match for our might.",
+        "We won't let you live!"
+      ]
+    }
+  ]
+}

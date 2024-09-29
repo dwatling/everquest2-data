@@ -1,0 +1,265 @@
+{
+  "name": "The Far Journey",
+  "category": "Dungeons",
+  "levels": "1",
+  "maps": [
+    {
+      "zonerect": "-10.0,-30.0,10.0,30.0"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Anikra",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-6.47,-1.81,-1.08"
+      ],
+      "utterances": [
+        "I... I don't know how I did that. What was that?",
+        "Thanks for saving me."
+      ]
+    },
+    {
+      "name": "Captain Varlos",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "2.31,1.21,-16.75"
+      ],
+      "utterances": [
+        "Ahoy! 'Tis good to see you awake. Ya seem a little squiffy, least ya' cheated death!",
+        "Me apologies.",
+        "I am Captain Draik Varlos, and this 'ere fine ship is the Far Journey.",
+        "Me hearties pulled ya' from the sea, you an those other bilge rats. Do ya' remember?",
+        "We are heading to the Island of Refuge.",
+        "Ingrid! Quit gawking at the shorty and fix that yard-arm!",
+        "Don't want the ship to come apart in these high winds, do ya'?!",
+        "Ya think she'd never seen a gnome afore.",
+        "Whoa there, the seas are gettin' a bit angry. Go speak ta' me first mate, Waulon. He might have something for ya' ta' do.",
+        "Avast ye! We need to talk.",
+        "Well, 'tis a bit of a problem. Ya' see, there be rats on board. The vermin keep eating the supplies and I need ya' to go feed them to the deep, afore they eat anything else.",
+        "Yar! That's what we be needin'.",
+        "Wit this 'ere club. It is nice and splintered, sure ta' cause them some pain.",
+        "Ya' made quick work of them vermin.",
+        "Wait. Tis that a... No, it cain' be!",
+        "Blimey! That was close! It has been near two months since the last reported sightings of one of them.",
+        "That damnable goblin has escaped. An' look, me beautiful ship is on fire!",
+        "Ye must put an end to 'is life, afore he tears me ship apart!",
+        "Arr! Ya saved the Far Journey and me crew! Seems ya' proved ta' be quite a hero.  Well, with the help of that young lass there, ya' do.",
+        "There be the Island of Refuge, get ready ta' drop anchor. Just let me know when ya' want ta' go ashore.",
+        "Ingrid! Swing the lead and prepare to drop anchor!",
+        "So, ya' ready ta go ashore matey?",
+        "Don't ya' mind, we get paid ta' do that.",
+        "Quick! Ingrid, secure th'loot! Thar be a Drakota off the bow! Quick now! Secure those chests!",
+        "You still need to kill that landlubber of a goblin! Get to it mate!",
+        "Everyone down! Watch it!",
+        "Back ye up a few paces. I be needin' this room."
+      ]
+    },
+    {
+      "name": "Geredo",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "5.75,-2.07,-0.41"
+      ]
+    },
+    {
+      "name": "a goblin",
+      "levelRange": "1",
+      "locations": [
+        "-4.00,-2.07,7.00",
+        "-1.46,-2.06,-5.27",
+        "3.07,-2.07,3.75"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1311630067 965320946:a goblin eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Helmsman Nyles",
+      "race": [
+        "human"
+      ],
+      "locations": [
+        "3.94,1.19,-12.77"
+      ]
+    },
+    {
+      "name": "Ingrid",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "1.8,-2.07,-3.39"
+      ],
+      "utterances": [
+        "Aye, aye, Captain!",
+        "Hello, how are you?",
+        "I am fine, just... after the last pickup I have been working extra hard, since Vim said she would give me the piece of Luclin she found.",
+        "Yes, yes, Vim. The merchant over there. She found a small piece of the moon and is having me work for it. Maybe you can go buy it from her for me?",
+        "Maybe you have something she will buy. Why don't you go talk to her.",
+        "Ah! You got the shard. Great! Now I can stop doing this work and enjoy the rest of this trip. Here is some coin for your help."
+      ]
+    },
+    {
+      "name": "a rat",
+      "levelRange": "1",
+      "locations": [
+        "2.96,-2.07,-5.76",
+        "2.17,-2.07,3.95",
+        "-3.54,-2.04,-1.10"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 749248703 -1511630590:Dawnstrike (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1538486305 2099514904:rodent meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Valik",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-6.34,-1.81,-4.62",
+        "-5.83,-1.91,5.18"
+      ]
+    },
+    {
+      "name": "Vim",
+      "purpose": "Merchant",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-2.17,0.55,13.86"
+      ],
+      "utterances": [
+        "Looking for something sturdy to wear?",
+        "I love traveling the seas... Oh! Did you need something?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -121135065 -750570003 0 0 0:laborer's bloomers\\/a",
+          "prices": [
+            {
+              "coin": 156
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 793309886 -1541948286 0 0 0:laborer's cap\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 288244654 836113661 0 0 0:laborer's cape\\/a",
+          "prices": [
+            {
+              "coin": 144
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 2077029184 367923454 0 0 0:laborer's gloves\\/a",
+          "prices": [
+            {
+              "coin": 132
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -220087185 -235112623 0 0 0:laborer's shoes\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 652107030 -373759846 0 0 0:laborer's sleeves\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 813514734 529274325 0 0 0:laborer's vest\\/a",
+          "prices": [
+            {
+              "coin": 180
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2006957580 -1890768291:Shard of Luclin\\/a",
+          "prices": [
+            {
+              "coin": 36
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Waulon",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-2.95,1.21,-20.22"
+      ],
+      "utterances": [
+        "Wot? Oh, hey there, ye' startled me.",
+        "Can't seem ta' find me hat.",
+        "Sure! Me needs ya' ta' go lookie in them there boxes and if ye' find it, lets me know.",
+        "Where's me hat? Needs me lucky hat!",
+        "Ah, me hat! Was worried. See, dis' hat gives me the luck.",
+        "Now me is safe, thanks ta' ye. Here, take this charm. Ya' may find a use for it.",
+        "Well now, Ingrid o'er there, can show ya' the rest of the ship. Me needs ta' plot the course ta' the isles now."
+      ]
+    }
+  ]
+}

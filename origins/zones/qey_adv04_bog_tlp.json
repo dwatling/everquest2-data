@@ -1,0 +1,500 @@
+{
+  "name": "The Peat Bog",
+  "category": "Karan",
+  "levels": "5-10",
+  "maps": [
+    {
+      "zonerect": "-936.08,336.30,-463.13,692.21"
+    }
+  ],
+  "connections": [
+    {
+      "key": "antonica_tlp",
+      "location": "665.72,-32.66,394.20"
+    },
+    {
+      "key": "qey_catacomb02",
+      "location": "578.51,-32.80,507.34"
+    },
+    {
+      "key": "qey_village01",
+      "location": "573.73,-26.39,401.60"
+    },
+    {
+      "key": "qey_village02",
+      "location": "770.05,-26.40,361.58"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a Bloodsaber plaguebearer",
+      "locations": [
+        "672.31,-33.18,420.78",
+        "643.51,-33.36,421.28",
+        "676.19,-33.57,415.10"
+      ],
+      "utterances": [
+        "I'm gonna give you a smile like ol' one tooth!",
+        "Me going to eat your kidney first."
+      ]
+    },
+    {
+      "name": "a Bloodsaber watcher",
+      "levelRange": "7",
+      "locations": [
+        "656.84,-32.84,569.36",
+        "608.85,-32.7,542.66",
+        "613.23,-32.78,547.78",
+        "623.69,-34.18,583.97",
+        "623.22,-32.33,618.60",
+        "664.48,-32.71,551.52",
+        "632.93,-33.67,563.33",
+        "592.45,-33.64,492.03",
+        "599.53,-30.90,616.04",
+        "597.10,-30.83,610.03",
+        "650.05,-33.84,571.81",
+        "588.40,-33.10,483.26"
+      ],
+      "utterances": [
+        "Me going to eat your kidney first.",
+        "I'm gonna give you a smile like ol' one tooth!",
+        "Is this supposed to hurt?",
+        "Not nice to interrupt dinner.",
+        "Come back you coward! I'm not dead yet."
+      ]
+    },
+    {
+      "name": "a bog faerie",
+      "levelRange": "7",
+      "locations": [
+        "578.46,-33.79,494.29",
+        "595.47,-34.01,509.50",
+        "593.24,-31.12,564.91",
+        "594.77,-32.94,550.92",
+        "610.20,-32.33,554.64",
+        "585.67,-33.20,489.48",
+        "621.00,-33.00,497.00",
+        "619.33,-33.00,491.00",
+        "611.69,-33.54,494.73",
+        "605.60,-33.56,496.37",
+        "597.20,-33.92,497.99",
+        "617.24,-31.41,626.64",
+        "629.80,-32.46,616.05",
+        "623.03,-27.40,647.80",
+        "605.86,-28.59,633.29",
+        "603.05,-28.05,534.85",
+        "586.04,-33.29,530.29",
+        "600.46,-30.94,616.32",
+        "589.52,-31.07,594.53",
+        "632.92,-33.66,563.05",
+        "584.80,-31.18,561.52",
+        "586.73,-33.66,519.92",
+        "584.10,-28.04,538.91",
+        "595.05,-32.97,535.56",
+        "633.01,-32.00,534.00",
+        "590.72,-33.44,498.28",
+        "607.43,-35.30,509.92"
+      ],
+      "utterances": [
+        "Grin and bear the beating!",
+        "Trick or trick!  Time to treat... Myself!",
+        "Now who will I play pranks on?"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1340122114 895932012:bronze symbol\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 976091221 1459092375:Fabric Patch\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2067929346 -483898265:a fairy antenna\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1583379081 -1463017611:a fairy essence\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1334963291 -129332497:a fairy eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1394122634 -257532895:Fiery Carnelian\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1385603239 -1287925213:a vial of fairy blood\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 4
+    },
+    {
+      "name": "a bog sludge",
+      "levelRange": "4",
+      "locations": [
+        "680.00,-33.70,446.84",
+        "688.00,-32.92,402.97",
+        "596.73,-33.39,460.19",
+        "680.81,-33.22,406.60",
+        "667.74,-33.95,444.97",
+        "695.93,-34.00,413.22",
+        "694.68,-33.83,472.40",
+        "682.11,-32.80,474.83",
+        "689.20,-34.39,410.50",
+        "657.21,-33.51,438.78",
+        "756.68,-34.08,407.07"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1791809415 902329307:an accumulation of plasma\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a bog slug",
+      "locations": [
+        "687.18,-33.15,473.15",
+        "692.28,-33.68,472.40",
+        "651.61,-33.44,429.82"
+      ]
+    },
+    {
+      "name": "a bog slug hatchling",
+      "locations": [
+        "685.92,-32.63,465.73",
+        "668.00,-33.18,414.60",
+        "620.24,-32.75,435.29",
+        "700.55,-33.16,416.91"
+      ]
+    },
+    {
+      "name": "a faerie abbot",
+      "locations": [
+        "745.63,-32.69,519.17"
+      ]
+    },
+    {
+      "name": "a faerie guardian",
+      "levelRange": "12",
+      "locations": [
+        "734.63,-32.71,519.96",
+        "725.62,-33.11,535.29",
+        "709.64,-32.8,529.92",
+        "702.2,-33.49,508.61",
+        "714.60,-28.34,500.55",
+        "745.63,-32.69,519.17"
+      ],
+      "utterances": [
+        "Now who will I play pranks on?"
+      ]
+    },
+    {
+      "name": "a fay tangleroot",
+      "locations": [
+        "723.65,-33.13,556.77"
+      ]
+    },
+    {
+      "name": "Ferius Mentus",
+      "locations": [
+        "567.73,-28.59,420.08"
+      ],
+      "utterances": [
+        "Yes, yes, you're here, I'm here, why don't we talk, eh? No thanks.",
+        "My research is coming to a stand still! I paid some young lad to go fetch me frogs and he just took my money and left! Can you believe that? Now I have no frogs.",
+        "I already told you! I need them for research! The frogs here secrete a fluid that tastes HORRIBLE. It helps them avoid being eaten. With the influx of \"rehabilitated\" ogres coming in, I'm trying to come up with an easy way to remind them not to eat the gnomes and halflings.",
+        "You think so? I need some of the glands inside them. I don't expect you to be able to recognize it, so just bring me the whole body. Ten of them, in fact.",
+        "I should hope so; it isn't hard work! Come back quick!",
+        "Did you get the frogs?",
+        "Ah, perfect! Thanks! So much nicer than that one who ran off earlier. Thank you.",
+        "If I can perfect this, it may be amazingly useful."
+      ]
+    },
+    {
+      "name": "a greater bog faerie",
+      "levelRange": "9",
+      "locations": [
+        "777.05,-32.99,475.13",
+        "765.94,-32.93,485.81",
+        "829.37,-31.94,605.85",
+        "783.99,-27.74,469.54",
+        "796.72,-33.18,466.05"
+      ],
+      "utterances": [
+        "Trick or trick!  Time to treat... Myself!",
+        "Now who will I play pranks on?"
+      ]
+    },
+    {
+      "name": "Guard Black",
+      "purpose": "Guard",
+      "levelRange": "25",
+      "difficulty": "heroic",
+      "locations": [
+        "667.71,-33.36,422.99"
+      ],
+      "utterances": [
+        "Prepare to face your doom, meddler.",
+        "To arms!",
+        "Summon help!  We have invaders!",
+        "Flee now or meet this one's fate."
+      ]
+    },
+    {
+      "name": "Guard Moor",
+      "purpose": "Guard",
+      "levelRange": "25",
+      "difficulty": "heroic",
+      "utterances": [
+        "Prepare to face your doom, meddler.",
+        "To arms!",
+        "Summon help!  We have invaders!"
+      ]
+    },
+    {
+      "name": "a large scavenger",
+      "locations": [
+        "643.66,-32.45,494.46"
+      ]
+    },
+    {
+      "name": "Lieutenant Dawson",
+      "purpose": "Qeynos Guard",
+      "locations": [
+        "563.51,-27.12,415.82"
+      ],
+      "utterances": [
+        "Do you have a question? Please be brief, my mind is occupied at the moment.",
+        "I'm not entirely sure yet. The Peat Bog has had strange things happening in it lately. The ecology here has taken a staggering turn and that has attracted attention. I am trying to provide a strong presence here but with no direct support from Qeynos that is tough. I just need to show Qeynos that investing more people here is necessary.",
+        "That is yet another thing I'm not quite certain of yet. I need time to think that over but there are enough mundane problems that I've very little time to think. Care to lend a hand?",
+        "You can take care of some of the recurring problems while I try to get my mind focused elsewhere. The fungus men around here have been causing enough incidents to warrant action. And the ravenous bog slugs are also becoming more active. Take some of them out for me and it will give me the time needed to plan. What do you say?",
+        "Great. The fungus men can be found around the mushrooms that dot the landscape. The ravenous bog slugs can be found south of here: if you follow this path to where the sewer grate lies and then head south, heading east once you hit the water, then further south, you should find them.",
+        "Once you're done with that return to me.",
+        "Have you killed the slugs and fungus men?",
+        "Good, it's a relief to have those taken care of. This will allow us to expend resources in more important areas. Speaking of which, I've recently gotten some strange reports, how would you like to help me again?",
+        "The body of water you passed earlier: I have had at least two reports of some sort of machine in that water. I have alerted the research teams but they are busy elsewhere. In the mean time, it would be helpful if you could do two things for me. First, find the machine to verify it exists. And, second, if it does exist tag it with an arcanic beacon.",
+        "That should help the research teams find it when they do get the time. Thank you.",
+        "Did you find the machine?",
+        "A gnoll?! Things are worse here than I thought. Perhaps they... hmm... I still need your help, can you stay?",
+        "I am glad. A number of our research teams in the Peat Bog were recently ambushed. Nobody was killed, thankfully, but their work has been lost. We have escorted the researchers to safety and left the ambush sites undisturbed. I would like you to go to each site and check for any clues that may tell us who did this. It would be easy to assume it was the gnolls, but I would like evidence to complement my gut feeling.",
+        "The first is west from Two Logs Pond, which is south from the sewer grate. The second is east of the pond in the north eastern corner of the area there. The final ambush site is directly south of the second site.",
+        "Thank you for your help, be safe.",
+        "Have you examined all of the ambush sites?",
+        "That is good. Well, it's bad, but it's good--you know what I mean. This means much less to worry about. It seems the gnolls are on the move, probably because we've discovered them. If our intelligence is correct they're moving a number of machines out of the Peat Bog. I don't know if this is a retreat or some movement for another advance, but we need to stop those machines. Can you help?",
+        "Wonderful. Their exit route seems to start in the south-eastern most corner of the Peat Bog and move west from there. There should be three machines. Kill the gnolls protecting the machine, destroy the machine itself, and then move on to the next one. Our people will be along soon enough to take care of the remains.",
+        "Good. There's still a bit more to do. Good luck.",
+        "Did you stop all of the gnolls?",
+        "Good. I would hate to see one of the other Lieutenants clean up my mess. Thank you. There is still one loose end to clean up, if you're willing.",
+        "Dentfang. He was one of the gnolls in charge of this area. He knows he can't return after such a failure, perhaps he hopes to hide out here long enough to reclaim his honor by slaying the guards of Qeynos. Nobody wants to see that happen. My scouts have suggested three possible places within the Peat Bog that he may be hiding. I've already sent teams to two--the two I consider least likely. I'm rather positive he is at the final spot, and I would like you to take care of him, what do you say?",
+        "Good. If you start in the south western corner of the Peat Bog and then travel north you should come to the small area in which he is attempting to hide. Travel there and give him what he deserves.",
+        "He may have bodyguards, but I'm sure you can handle it.",
+        "Have you disposed of Dentfang?",
+        "Good. With him gone the gnoll presence here will not be able to regain strength. They will flee or be killed. You have done a great thing for us, <player name>. I appreciate it more than you know. And Qeynos, too, appreciates it."
+      ]
+    },
+    {
+      "name": "Lurkblister",
+      "locations": [
+        "674.74,-33.36,416.85"
+      ]
+    },
+    {
+      "name": "a marsh mauler",
+      "levelRange": "10",
+      "locations": [
+        "770.37,-33.23,519.16"
+      ]
+    },
+    {
+      "name": "a mist stalker",
+      "levelRange": "11",
+      "locations": [
+        "754.65,-32.67,492.40",
+        "791.53,-33.22,463.73"
+      ]
+    },
+    {
+      "name": "a muck toad",
+      "levelRange": "6",
+      "locations": [
+        "678.03,-33.36,488.77",
+        "666.03,-33.05,481.75",
+        "658.00,-34.00,496.00",
+        "652.61,-32.66,496.93",
+        "683.04,-34.00,497.00",
+        "653.33,-32.03,478.74"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 866891400 861249659:machinist's cape\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1329575188 1200982834:a vial of frog blood\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a mud seep",
+      "locations": [
+        "617.23,-34.12,538.78"
+      ]
+    },
+    {
+      "name": "Oakvil",
+      "locations": [
+        "759.65, -26.23, 379.46"
+      ],
+      "utterances": [
+        "Welcome! What can I help you with?"
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Overseer Dentfang",
+      "locations": [
+        "785.00,-33.82,486.28"
+      ]
+    },
+    {
+      "name": "a puny scavenger",
+      "locations": [
+        "673.74,-30.93,433.43",
+        "618.13,-32.91,433.14",
+        "642.31,-32.93,411.58",
+        "679.97,-33.43,428.00",
+        "674.63,-33.26,427.22",
+        "665.43,-33.07,425.15"
+      ]
+    },
+    {
+      "name": "a ravenous bog slug",
+      "levelRange": "8",
+      "locations": [
+        "623.00,-33.88,572.53",
+        "639.50,-32.83,640.01",
+        "598.00,-32.66,548.00",
+        "621.81,-33.98,564.00",
+        "598.30,-33.09,570.02",
+        "615.58,-33.77,573.68",
+        "608.94,-33.05,607.65",
+        "615.71,-34.06,558.09",
+        "610.70,-32.43,588.37",
+        "605.94,-33.24,599.50"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -18133391 -778281693:Decree (Adept I)\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a refuse burrower",
+      "levelRange": "9",
+      "locations": [
+        "650.41,-33.94,602.69"
+      ]
+    },
+    {
+      "name": "a silt sucker",
+      "locations": [
+        "668.34,-36.19,503.47",
+        "674.82,-35.79,499.73",
+        "656.55,-33.87,494.05",
+        "644.10,-32.37,490.88",
+        "687.37,-32.95,490.94"
+      ]
+    },
+    {
+      "name": "a sporeal knight",
+      "locations": [
+        "778.10,-33.98,436.01"
+      ]
+    },
+    {
+      "name": "a sporeal seedling",
+      "levelRange": "5",
+      "locations": [
+        "625.60,-33.10,443.55",
+        "704.60,-33.07,457.11",
+        "628.26,-34.84,519.27",
+        "693.83,-32.69,493.60",
+        "717.56,-33.62,461.26",
+        "702.35,-33.34,486.52",
+        "716.86,-33.94,453.89",
+        "629.34,-34.05,529.33",
+        "680.37,-32.61,482.87",
+        "637.23,-32.78,426.43"
+      ]
+    },
+    {
+      "name": "a toxic bog slug",
+      "levelRange": "6",
+      "locations": [
+        "704.00,-33.57,485.71",
+        "698.55,-32.85,489.74",
+        "715.21,-34.04,479.41",
+        "623.43,-34.62,505.82",
+        "634.16,-33.57,497.20",
+        "718.24,-34.54,484.66"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2006611716 1669346638:a vial of mucus\\/a",
+          "chest": false
+        }
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1868197541 -626008118:chipped shard of conjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1827919267 -43288604:plain purple butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -327615186 -1572251097:plain violet butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1450331100 1726103362:plain yellow butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1838761957 -806141222:scuffed shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 794244308 -1718389780:scuffed shard of conjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -672434816 285511061:shattered dark elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 2076496326 1196186978:shattered wood elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1234627898 1928890256:spotted violet butterfly\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -140875129 -614209625:striped purple butterfly\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the creature den"
+    },
+    {
+      "name": "the natural garden"
+    },
+    {
+      "name": "the wilted roots"
+    }
+  ]
+}

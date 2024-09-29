@@ -1,0 +1,1716 @@
+{
+  "name": "Freeport West",
+  "removed": "lu62",
+  "category": "D'Lere",
+  "maps": [
+    {
+      "zonerect": "-508.91,-170.01,40.31,241.36"
+    }
+  ],
+  "connections": [
+    {
+      "key": "commonlands_tlp"
+    },
+    {
+      "key": "fprt_east_tlp",
+      "location": "-13.61,-20.77,104.77"
+    },
+    {
+      "key": "fprt_north_tlp"
+    },
+    {
+      "key": "fprt_sewer01",
+      "location": "303.63,-2.85,-23.12"
+    },
+    {
+      "key": "fprt_south_tlp",
+      "location": "75.15,-20.21,119.60"
+    },
+    {
+      "key": "fprt_tradeskill01_fprt_west_cca",
+      "location": "17.99,-19.47,84.67"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Aelia Catus",
+      "purpose": "General Goods",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "29.10,-18.44,76.12"
+      ],
+      "utterances": [
+        "Hail, adventurer.  I'm glad you wandered into my shop. I have an important message, and I need someone to relay it to Ledger Didicus at the port authority.  If you could do this for me, I'd be very thankful.",
+        "You're looking for work from me?  You barely look suitable to beg for scraps on the street! What could you possibly offer me?  Hmm ... how well do your legs work and can you take a punch?",
+        "Hah! That attitude will serve you well around this district.  You'd better keep a strong sneer on your face when you're traveling on business for me.  I need you to give a merchant friend of mine a little reminder of a certain debt she owes.  If you're interested, I'll give you her name and location.  There may be a little coin in it for you, if you return with the response I'm looking for.",
+        "I've seen that look before.  You're going to prove to be quite handy after all.  Here, let me write down my friend's name and location for you.  You're looking for Julia Florens of the Jade Tiger's Den in North Freeport.  Just ask her when she's going to pay me.  Preface that with this: Any wrong answer will result in a visit from the Butcher.  Be sure to sneer during that part.  Hurry off now.  I'll be waiting on you.",
+        "It's always pleasant to find someone who's grateful.  Thank you for assisting me.  I expect that this small gift is enough for you to keep this business between the two of us. "
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Alethea Augustine",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "29.02,-12.43,89.86"
+      ],
+      "utterances": [
+        "I'm glad you have come back for more training, it looks like you've learned quite a bit in a very short time.  I can certify you in your chosen trade class. Before I begin your paperwork I'll need your name.",
+        "Best of luck!",
+        "You're not skilled enough to receive certification in a tradesman class.  Practice your skills, and return to me after you gain more experience."
+      ]
+    },
+    {
+      "name": "Alkham",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "220.75,3.84,157.00"
+      ],
+      "utterances": [
+        "You thought you were so superior, and look who you come to for protection when things get rough.",
+        "Yes, yes, hello. I'm busy.",
+        "Oh, drat, I hope not. Oh, sorry, I thought you might have meant the weather."
+      ]
+    },
+    {
+      "name": "Anessa Bonefetter",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "218.48,-3.98,166.10"
+      ],
+      "utterances": [
+        "This city isn't safe for lazy and weak. Be on your way...",
+        "Watch your step in this here tavern. This is buccaneer territory and I am the second mate of Siren. You had best have good reason to intrude upon my presence.",
+        "Your mouth is quick--I'm sure you'll pay for it someday. For now, take this message to Lollia Parnesius in East Freeport."
+      ]
+    },
+    {
+      "name": "Averus Justarius",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "57.71,-20.29,36.89"
+      ],
+      "utterances": [
+        "Just keep walking, gimpy.  This spot is mine, so toddle on by if you know what's good for you. ",
+        "You got a hearing problem? If you want a good shot of the next execution, then pick a seat like the rest of the losers do, but this spot is mine. Now shove off, filth licker!",
+        "Oh yeah? Who? You? Sure, buddy... \"oooh ... look at me ... I'm gonna talk tough ... I'm so scary ... ooooh!\"  Yeah ... just like everyone else here. The minute you lay one finger on me, those guards are gonna give you a little invitation to the Militia Holding Cells. Know what happens then, snot munch?",
+        "That's when you get to have \"Happy Time\" with the Militia. You get to play fun games like \"Accidentally Falling Down the Stairs\" or \"Who Put That Door There?\" My Dad's favorite was always, \"Look At Me When I'm Hitting You!\" The lucky ones wind up losing some teeth and maybe an eyeball or two. The others, like my pops, get to provide the daily entertainment.",
+        "No, you stupid orc kisser! I'm trying to delay it! He may have been a cruddy dad, but he's all I've got. They arrested him on trumped up charges of treason. Pfht--more like he mouthed off to a guard. I've bribed one of the guards to pick another guy each day ... HEY! Wanna make some money and maybe even a friend? I know a lot of people in Freeport ... I could introduce you to them...",
+        "I know some important people who work for the Coalition of Tradesfolke; they're the big money here in Freeport. One of their guys said they're sending people into the Wailing Caves to salvage armor from those dead orcs.",
+        "Get off it, already! Everyone's heard about the Wailing Caves. It's a story you tell to kids to get them to shut up. It's true, but it's still fun to watch the little kids wet themselves when they hear it. Any ways ... if you and me work together, we can beat everyone else to all that coin. I'll make enough coin to save my dad from the Pit, and you can do whatever with yours. Sound good?"
+      ]
+    },
+    {
+      "name": "Balex",
+      "purpose": "City Merchant",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "228.81,-3.67,111.78"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "Hello! Can I offer you one of our new lifetime extended warranties for any merchandise you purchase?  ",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "In spite of the cost of living, it's still quite a popular item."
+      ]
+    },
+    {
+      "name": "Banker Gavius Herenus",
+      "purpose": "Banker",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "198.35,-1.34,-134.02"
+      ],
+      "utterances": [
+        "Well, you might qualify for one of our low income account rates.  I'll double check and see.",
+        "Ouch, that's your balance?  ",
+        "No beggars and no solicitors.  If you don't have business to conduct then stand aside!"
+      ]
+    },
+    {
+      "name": "Banker Lusius Ulixes",
+      "purpose": "Banker",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "217.99,-1.34,-134.02"
+      ],
+      "utterances": [
+        "Hi.  The Overlord provides for us all, doesn't he?  I have a full range of banking services I can offer.  I just need to know your guild affiliation first."
+      ]
+    },
+    {
+      "name": "Banker Macrinus Sanctus",
+      "purpose": "Banker",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "227.87,-1.34,-125.46"
+      ],
+      "utterances": [
+        "Well, you might qualify for one of our low income account rates.  I'll double check and see.",
+        "No beggars and no solicitors.  If you don't have business to conduct then stand aside!",
+        "I'm sorry. I could tell you right now you don't qualify for any of our credit programs.",
+        "Ouch, that's your balance?  "
+      ]
+    },
+    {
+      "name": "Banker Magia Cotta",
+      "purpose": "Banker",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "188.22,-1.34,-125.35"
+      ],
+      "utterances": [
+        "Welcome to the Freeport Reserve, Freeport's finest banking institution.  Our vaults are as secure as The Overlord's sanctum, with magical wards and runes inscribed by the masters of the Academy of Arcane Science themselves.  How can I help you?"
+      ]
+    },
+    {
+      "name": "Barber Razorburn",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "116.34,-3.76,-68.97"
+      ],
+      "utterances": [
+        "Snippy snippy!  Clippy Clippy!",
+        "Where meez clipclips goez?",
+        "Hair choppy now?!"
+      ]
+    },
+    {
+      "name": "Barber Whiskerwuzzle",
+      "purpose": "Barber",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "121.92,-3.08,-68.69"
+      ],
+      "utterances": [
+        "Hey you!  Scruffy!  Get over here!  You could use some work done!",
+        "Got a hot date?  Ya need ta get yerself fixed up!",
+        "So ya want ta hide from someone huh?  Hey, it's none o' my buisness... Just curious..."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 238179391 1294322848 0 0 0:Shave and a Cut\\/a",
+          "prices": [
+            {
+              "coin": 14999
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Baron D`Unnar",
+      "purpose": "Guard",
+      "levelRange": "67",
+      "difficulty": "epicx3",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "151.51,-16.06,87.44"
+      ]
+    },
+    {
+      "name": "Baron Zafimus",
+      "purpose": "Freeport Militia Officer",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "159.57,0.65,124.82"
+      ],
+      "utterances": [
+        "Mercy and kindness are for the undisciplined.  Victory follows only from brutality.  "
+      ]
+    },
+    {
+      "name": "Bendl Fizztuzzle",
+      "purpose": "Bartender",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "216.85,-3.98,168.85"
+      ],
+      "utterances": [
+        "Hey!  I see you found your way into my bar.  Now don't take up a seat if you ain't gonna drink!  Ain't that right, Jetsam?"
+      ],
+      "store_template": "bartender"
+    },
+    {
+      "name": "Boomba",
+      "purpose": "Merchant",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "271.29,-3.52,-102.54"
+      ],
+      "utterances": [
+        "I am Boomba, and I sell pickles.  If you want to talk, find a Teir'Dal.",
+        "You dare  insult me! Thank your gods a guard is over there. Once he stops looking at us, I plan on cleaving your skull in two.",
+        "I'm from a proud line of Boombas. My greatest grand-sire sold pickles at this spot more than five hundreds years ago. Every generation of Boomba has given their firstborn the name of Boomba to honor our greatest ancestor. When I die, my daughter, Boomba, will take my place. I'm tired of talking. Purchase a pickle or leave!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 171204162 -967513212 0 0 0:Dwarf Pickles\\/a",
+          "prices": [
+            {
+              "coin": 2765
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1263232106 -2140945758 0 0 0:Elf Pickles\\/a",
+          "prices": [
+            {
+              "coin": 115
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 842602671 -1011369314 0 0 0:Erudite Pickles\\/a",
+          "prices": [
+            {
+              "coin": 1843
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 189553690 1467063681 0 0 0:Gnome Pickles\\/a",
+          "prices": [
+            {
+              "coin": 461
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1170754380 463023301 0 0 0:Halfling Pickles\\/a",
+          "prices": [
+            {
+              "coin": 29
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bouncer Flotsam",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "221.18,-3.99,175.65"
+      ],
+      "utterances": [
+        "I don't know why we are here, but I'm sure that it's not to enjoy ourselves. ",
+        "You don't want to play my type of games.  "
+      ]
+    },
+    {
+      "name": "Bouncer Jetsam",
+      "race": [
+        "kerran"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "224.10,-3.99,175.77"
+      ],
+      "utterances": [
+        "How could you stand living underground for so long?",
+        "Can you see the beauty of the open plains?"
+      ]
+    },
+    {
+      "name": "Bouncer Raga",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "225.01,-3.98,164.69"
+      ],
+      "utterances": [
+        "Serve the Overlord is good!",
+        "Might of the empire of Zek always greater than Neriak."
+      ]
+    },
+    {
+      "name": "Broll",
+      "purpose": "Provisioner",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "293.59,-2.90,82.59"
+      ],
+      "utterances": [
+        "Hey do you see any water around here?  Oh well, who needs to wash their hands?",
+        "The Ogre bread takes an extra long time to bake.  Hey, they like large servings.",
+        "Man do I love gnome bread!  The trolls, they just love gnomes period!"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Caius Callidus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "45.53,-12.07,87.51"
+      ],
+      "utterances": [
+        "I do not have the time or inclination for idle chatter, and I have no other business with you. Please be on your way."
+      ]
+    },
+    {
+      "name": "Caladon",
+      "purpose": "Guard",
+      "levelRange": "59",
+      "difficulty": "heroic^^^",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "136.37,-15.98,112.21"
+      ]
+    },
+    {
+      "name": "Captain D'Vall",
+      "purpose": "Freeport Militia Officer",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "134.32,-16.79,130.17"
+      ]
+    },
+    {
+      "name": "Captain Rillian",
+      "purpose": "Freeport Militia",
+      "levelRange": "42",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "236.89,-3.92,-77.59"
+      ]
+    },
+    {
+      "name": "Captain Vrondell",
+      "purpose": "Freeport Militia",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "140.81,0.65,125.14"
+      ],
+      "utterances": [
+        "You dare to approach a militia captain without being summoned? State your business or move along!"
+      ]
+    },
+    {
+      "name": "Commandant Dominicus",
+      "purpose": "Freeport Militia",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "118.27,-15.99,127.55"
+      ]
+    },
+    {
+      "name": "Commandant Vatinius",
+      "purpose": "Freeport Militia Officer",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "159.92,-16.79,121.04"
+      ]
+    },
+    {
+      "name": "a cow",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "119.65,-3.91,-103.68",
+        "131.28,-3.86,-112.64",
+        "144.64,-3.96,-109.65"
+      ]
+    },
+    {
+      "name": "Cyclops",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "289.38,8.91,108.74"
+      ]
+    },
+    {
+      "name": "Dancer Francine Defury",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "217.44,2.81,156.43"
+      ],
+      "utterances": [
+        "I'd rather be stranded overboard than be converted by the dark beliefs that Dismal Rage preaches.",
+        "The Seafury Buccaneers are feared by all others on the open sea. They show no mercy to the dogs that try to sail the sea unprotected.",
+        "You might as well hand your loot to the Coalition of Tradefolke if you ever decide to work for them.",
+        "I don't trust the Freeport Militia. Neither should you, mate.",
+        "It's weak to rely on magic for everything. If ye have the same weakness, the Academy of Arcane Sciences is for you."
+      ]
+    },
+    {
+      "name": "Dare Pauldenchair",
+      "purpose": "Tailor",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "61.81,-9.53,-36.99"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "The stuff's over there.  Just let me know if you find anything you like."
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "a dead kitten",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "102.08,-10.54,-69.41",
+        "99.95,-9.57,-59.79"
+      ]
+    },
+    {
+      "name": "Donovan O`Mallery",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "85.42,-10.02,-23.79"
+      ],
+      "utterances": [
+        "Straying a bit, are we?",
+        "Watch yerself, this city can be rough.",
+        "Hah! New around these parts?"
+      ]
+    },
+    {
+      "name": "Eamric Icefist",
+      "purpose": "Guardian Trainer",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "157.71,-16.79,125.09"
+      ],
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item.",
+        "Hello can I offer you one of our new lifetime extended warranties for any merchandise you purchase?  ",
+        "What do you want?"
+      ]
+    },
+    {
+      "name": "an Elddarian Charger",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "124.46,-4.00,-105.26"
+      ]
+    },
+    {
+      "name": "Gigantok",
+      "purpose": "Guard",
+      "levelRange": "65",
+      "difficulty": "heroic^^^",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "207.81,-2.47,-134.39"
+      ],
+      "utterances": [
+        "Do you have business with the Freeport Militia?",
+        "Do not challenge my authority citizen.  In Freeport, the Overlord's word is law!"
+      ]
+    },
+    {
+      "name": "Ginaluniaus",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "108.04,-22.95,37.15"
+      ],
+      "utterances": [
+        "The mindless babbling of a simpleton delights me to no end.",
+        "I am unable to grasp the concept of humility.  Perhaps I could watch you for a while?",
+        "Hello.  By the way, I dont care.  Thanks."
+      ]
+    },
+    {
+      "name": "Gorga",
+      "purpose": "Merchant",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "144.42,-16.79,139.38"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "In spite of the cost of living, it's still quite a popular item."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -765688569 -669189480 0 0 0:\"Fealty to Freeport\"\\/a",
+          "prices": [
+            {
+              "coin": 18000,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1514954196 -61591554 0 0 0:a dragon head fountain\\/a",
+          "prices": [
+            {
+              "coin": 72000,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1346861065 1820438169 0 0 0:a hanging steel cage\\/a",
+          "prices": [
+            {
+              "coin": 4500,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 474321147 605717289 0 0 0:a militia skull display shelf\\/a",
+          "prices": [
+            {
+              "coin": 4500,
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -752399199 -206209035 0 0 0:a mount of a boar's head\\/a",
+          "prices": [
+            {
+              "status": 10000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
+          "prices": [
+            {
+              "coin": 2
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -173989110 -1893491212 0 0 0:Ally: Freeport Militia\\/a",
+          "prices": [
+            {
+              "coin": 5529600,
+              "status": 50000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1811967967 1283828222 0 0 0:freeport militia ceremonial boots\\/a",
+          "prices": [
+            {
+              "coin": 144000,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 249887484 -677080823 0 0 0:freeport militia ceremonial chestguard\\/a",
+          "prices": [
+            {
+              "coin": 216000,
+              "status": 27000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1686524000 -1111082091 0 0 0:freeport militia ceremonial handguards\\/a",
+          "prices": [
+            {
+              "coin": 158400,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -620551601 -1042989341 0 0 0:freeport militia ceremonial helm\\/a",
+          "prices": [
+            {
+              "coin": 172800,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2122782809 -1174830867 0 0 0:freeport militia ceremonial leggings\\/a",
+          "prices": [
+            {
+              "coin": 187200,
+              "status": 27000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1292557109 -1968369205 0 0 0:freeport militia ceremonial shoulder pads\\/a",
+          "prices": [
+            {
+              "coin": 172800,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1247924425 2022730191 0 0 0:freeport militia ceremonial wristguards\\/a",
+          "prices": [
+            {
+              "coin": 144000,
+              "status": 25000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 218883855 677599057 0 0 0:Initiate: Freeport Militia\\/a",
+          "prices": [
+            {
+              "coin": 230400,
+              "status": 20000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2066504941 -390014973 0 0 0:Member: Freeport Militia\\/a",
+          "prices": [
+            {
+              "coin": 921600,
+              "status": 30000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1785955284 878917519 0 0 0:militia ceremonial officer barbute\\/a",
+          "prices": [
+            {
+              "coin": 1036800,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1278209573 -306141824 0 0 0:militia ceremonial officer cuirass\\/a",
+          "prices": [
+            {
+              "coin": 1296000,
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1132841468 -691641114 0 0 0:militia ceremonial officer gauntlets\\/a",
+          "prices": [
+            {
+              "coin": 950400,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -667480030 -2044222343 0 0 0:militia ceremonial officer greaves\\/a",
+          "prices": [
+            {
+              "coin": 1123200,
+              "status": 37000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1657019499 -1020569650 0 0 0:militia ceremonial officer gussets\\/a",
+          "prices": [
+            {
+              "coin": 864000,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -142279159 191063745 0 0 0:militia ceremonial officer sabatons\\/a",
+          "prices": [
+            {
+              "coin": 864000,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 994505371 1443389167 0 0 0:militia ceremonial officers spaulders\\/a",
+          "prices": [
+            {
+              "coin": 1036800,
+              "status": 35000
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1626653497 987998725 0 0 0:Officer: Freeport Militia\\/a",
+          "prices": [
+            {
+              "coin": 3686400,
+              "status": 40000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gorgemond",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "215.64,-3.98,163.75",
+        "240.13,-3.98,169.57",
+        "224.47,-3.98,137.31",
+        "216.51,-3.98,130.06"
+      ],
+      "utterances": [
+        "I haven't that much to drink yet, I got here when... Bah, I forgot!"
+      ]
+    },
+    {
+      "name": "Grevak Stonecatcher",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "63.72,-20.71,69.40"
+      ],
+      "utterances": [
+        "I've lived this long thanks to my ability to kill.",
+        "Armor could be useful. But I've never needed it."
+      ]
+    },
+    {
+      "name": "Grum Zoomly",
+      "purpose": "Provisioner",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "228.76,-3.98,163.33"
+      ],
+      "utterances": [
+        "I don't want any trouble here in my bar, understand?  People really hate it when I get angry."
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Guard Fazio",
+      "purpose": "Freeport Militia",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "120.55,-16.02,125.27"
+      ]
+    },
+    {
+      "name": "Gurb the Master Weaponsmith",
+      "purpose": "Weaponsmith",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "86.50,-9.52,-52.77"
+      ],
+      "utterances": [
+        "The only thing separating you from death in this city are your wits.  I wouldn't call that adequate protection.",
+        "We have a nice selection of previously owned weapons for those with modest funds.",
+        "Is there a specific way your looking to kill someone?  Disemboweling, beheading, impaling, strangulation?",
+        "A good weapon at your side is the only real friend you'll ever have!"
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "Helena Tullas",
+      "purpose": "Shieldsmith",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "96.17,-8.52,-67.22"
+      ],
+      "utterances": [
+        "A good weapon at your side is the only real friend you'll ever have!"
+      ],
+      "store_template": "shieldsmith"
+    },
+    {
+      "name": "Innkeeper Sirconium",
+      "purpose": "General Goods",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "297.04,-3.90,129.53"
+      ],
+      "utterances": [
+        "What!  What do you want?",
+        "Room rates are by the night not by the hour!",
+        "Look I'm no cook, but I was going to have some fresh kidneys myself.  You want me to get you a pair?"
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Intelligence Officer Rainus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "148.16,-7.05,122.13"
+      ],
+      "utterances": [
+        "Don't bother me now!  Emissary Millia just delivered a new set of reports I need to read over."
+      ]
+    },
+    {
+      "name": "Irek",
+      "purpose": "Guard",
+      "levelRange": "67",
+      "difficulty": "epicx3",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "153.24,-16.08,85.96"
+      ]
+    },
+    {
+      "name": "Irok",
+      "purpose": "Guard",
+      "levelRange": "67",
+      "difficulty": "epicx3",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "151.83,-16.08,85.21"
+      ]
+    },
+    {
+      "name": "Ironstar",
+      "purpose": "Mender",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "92.83,-9.52,-49.47"
+      ],
+      "utterances": [
+        "You need help fixing that pile of junk?  Well it's going to cost you!",
+        "I can emphatically say repairing weapons is much more reliable than buying new ones.  Would I lie?"
+      ]
+    },
+    {
+      "name": "Izzay Meestere",
+      "utterances": [
+        "Something is going on...but what?",
+        "They listens in to us.  It's only fair to listens to them.",
+        "What is the Militia doing this time?",
+        "It is sure ugly here!"
+      ]
+    },
+    {
+      "name": "Jarkish V`ounso",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "87.23,-10.01,-31.52"
+      ],
+      "utterances": [
+        "The arcane scientists hone their minds through the study of arcane arts, but they will never become as cunning as a skilled trader.",
+        "The withering hands of the Dismal Rage priests look more like hands of death than hands that can heal people.",
+        "Those Seafury Buccaneers wouldn't know what a fair deal was if it hit them on the head.",
+        "There's nothing that the Coalition of Tradesfolke can't make a profit out of."
+      ]
+    },
+    {
+      "name": "Julius Messor",
+      "purpose": "Armorsmith",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "209.63,-3.49,73.25"
+      ],
+      "utterances": [
+        "We have a nice selection of previously owned weapons for those with modest funds."
+      ],
+      "store_template": "armorsmith"
+    },
+    {
+      "name": "Justina Goldenbranch",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "117.62,-19.56,10.09",
+        "108.04,-22.95,37.15"
+      ],
+      "utterances": [
+        "Get out of here, before I get a few friends and teach you whose turf this is!",
+        "Freeport has everything you could want: intrigue, murder, and greed!"
+      ]
+    },
+    {
+      "name": "a Karana Planestrider",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "140.93,-3.98,-107.36"
+      ]
+    },
+    {
+      "name": "a kitten",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "105.70,-10.54,-71.03",
+        "112.27,-10.54,-60.20",
+        "106.86,-10.54,-63.46",
+        "99.37,-9.51,-51.54"
+      ]
+    },
+    {
+      "name": "Korong Shatterjaw",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "195.47,-3.54,75.45"
+      ],
+      "utterances": [
+        "I know you ain't eyeballing me, maggot. Scram, before I tenderize your face with my fist!"
+      ]
+    },
+    {
+      "name": "Kreglebop Yekl",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "290.79,8.91,87.91"
+      ]
+    },
+    {
+      "name": "Kroona Skinflayer",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "91.43,-10.01,-27.85"
+      ],
+      "utterances": [
+        "Treat us badly in Neriak! I laugh now we in same spot!",
+        "Nasty scars and boiled tar!  Warriors is what we are!"
+      ]
+    },
+    {
+      "name": "Krung Ironfist",
+      "purpose": "Bruiser Trainer",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "158.67,-16.09,91.16"
+      ],
+      "utterances": [
+        "In spite of the cost of living, it's still quite a popular item.",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "Ironfist, they call me that for a reason you know.  Now go away!"
+      ]
+    },
+    {
+      "name": "Liege K'Nar",
+      "purpose": "Guard",
+      "levelRange": "68",
+      "difficulty": "epicx2",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "230.77,-3.23,-51.39"
+      ]
+    },
+    {
+      "name": "Lieutenant Darrius",
+      "purpose": "Freeport Militia",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "136.18,-15.97,114.07"
+      ],
+      "utterances": [
+        "The militia has a task for you, citizen.  Will you accept the call to duty?",
+        "Our intelligence recently located a known enemy of the city, a Bloodskull officer named Ohrgran Foulgore. This beast is said to have ties to Freeport. ",
+        "This orcish officer has successfully eluded all attempts to destroy him in the past.  He knows the militia's tactics far too well, making his existence all the more threatening to our city.",
+        "Ohrgran expects a military attack and would take flight before our soldiers invaded.  What he does not expect is a civilian strike.  Your tactics are unknown to him and your appearance would not alarm his scouts.",
+        "Our intelligence spotted Ohrgran's scouts coming and going from the south.  We know an encampment of orc soldiers has set up camp in this area. It's only fitting that Ohrgran would return to man his post there.",
+        "Nothing short of Ohrgran's head will prove the task's end.  What say you, citizen?  Are you a child fearful of death, or are you prepared to serve the city of Freeport?",
+        "Then you accept the task until Ohrgran's death or yours.  We expect your return as quickly as possible.  The militia does not tolerate unnecessary delays.",
+        "The militia is looking for volunteers. Do you think yourself strong enough to meet our expectations?",
+        "The militia needs citizens to gather intelligence on a possible orc outpost in the savannah.",
+        "The Overlord requires concrete evidence of an established enemy stronghold in the hills before he orders an invasion.  The intelligence you gather will prove or discredit the belief of an organized orc presence in that area.",
+        "We believe the outpost is inside the Wailing Hill.  The superstitious ramblings of the past generations have inspired fear of the region.  This fear makes the caverns a secluded, tactical location.",
+        "It is suspected that arcane casters play a key role in this outpost.  Rumor is they are spiritkeepers. The militia expects no less than five scalps from any orcish spiritkeeper in that region to be presented from each volunteer before their duty is fulfilled.",
+        "I'm glad that we have such ... loyal and willing citizens in our midst. You have pledged your assistance to the militia; be sure that you see this task through to its end, or you will meet yours."
+      ]
+    },
+    {
+      "name": "L`Tor",
+      "purpose": "Berserker Trainer",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "139.28,-16.79,136.83"
+      ],
+      "utterances": [
+        "The stuff's over there.  Just let me know if you find anything you like.",
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!"
+      ]
+    },
+    {
+      "name": "Lupin",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "290.94,8.73,137.16",
+        "268.54,-4.81,137.89",
+        "251.30,-4.81,176.41",
+        "104.74,-22.47,30.63",
+        "104.81,-22.95,38.55"
+      ]
+    },
+    {
+      "name": "Macia Victus",
+      "purpose": "General Goods",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "231.80,-3.49,76.00"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!"
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Mallium",
+      "purpose": "Broker",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "298.83,-3.90,107.33"
+      ],
+      "utterances": [
+        "I can only offer you what my contacts have been able to locate.  These are the best goods that the citizens have to offer.",
+        "Looking for the best goods in the whole of Freeport?  Well, my friend, you've come to the right place! "
+      ]
+    },
+    {
+      "name": "Matthias Zoe",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "29.57,-12.40,102.86"
+      ],
+      "utterances": [
+        "You're not skilled enough to receive certification in a tradesman specialty. Practice your skills and return to me after you gain more experience."
+      ]
+    },
+    {
+      "name": "Merchant Mallius Otho",
+      "purpose": "Bowyer",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "206.85,-3.66,102.42"
+      ],
+      "utterances": [
+        "Do you want a drink?  Show me coin, and I'll fetch ya a drink.  No coin. No drink."
+      ],
+      "store_template": "bowyer"
+    },
+    {
+      "name": "Mulka the Skinner",
+      "purpose": "Pet Merchant",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "99.36,-10.54,-61.21"
+      ],
+      "utterances": [
+        "Yeah, that particular one was, uh, bred to have three legs.",
+        "\"House trained?\" What's that mean?",
+        "This isn't a petting zoo. Either buy something or get lost."
+      ]
+    },
+    {
+      "name": "Octavia Opus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "48.78,-19.75,72.14"
+      ],
+      "utterances": [
+        "The Seafury Bucaneers don't seem too bright. They probably lost their ability to think from travelling the seas for too long.",
+        "The souls of the Dismal Rage priests are so dark that their pale look will make you sick before they can ever heal you.",
+        "The Coalition of Tradesfolke sure knows how to make coins fall into their hands.",
+        "Those Arcane Scientists just spend way too much time studying in their confines. They need to get out more."
+      ]
+    },
+    {
+      "name": "Orpheus Maxanoius",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "87.45,-20.73,29.82"
+      ],
+      "utterances": [
+        "I'm bored... Won't anyone give me attention?"
+      ]
+    },
+    {
+      "name": "a Parade Rujarkian Clydesdale",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "120.95,-4.06,-94.82"
+      ]
+    },
+    {
+      "name": "a Parade Steppes Pony",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "136.94,-4.02,-92.81"
+      ]
+    },
+    {
+      "name": "a pig",
+      "race": [
+        "unknown"
+      ],
+      "gender": [
+        "neuter"
+      ],
+      "locations": [
+        "125.28,-3.98,-85.76",
+        "136.29,-3.89,-103.13"
+      ]
+    },
+    {
+      "name": "Raugal",
+      "utterances": [
+        "I haven't that much to drink yet, I got here when... bah I forgot.",
+        "Ahhh ... quit your whinin'! I paid ya with my jokes and fine company."
+      ]
+    },
+    {
+      "name": "Shirzzt Bonelasher",
+      "purpose": "Shadowknight Trainer",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "146.81,-16.79,118.40"
+      ],
+      "utterances": [
+        "Hello there, kind adventurer.  My merchandise carries the seal of the Overlord himself!  Go ahead, take a look!",
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "The stuff's over there.  Just let me know if you find anything you like."
+      ]
+    },
+    {
+      "name": "Slinko",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "85.24,-10.02,-26.88"
+      ],
+      "utterances": [
+        "Do you ever get the feeling someone is watching you?",
+        "I am in no way interested in that glittery thing you have.  I promise. ",
+        "I was never even near the bank.",
+        "I dabble in repossessions and personal loans. "
+      ]
+    },
+    {
+      "name": "a sparring Disciple",
+      "locations": [
+        "153.81,-16.09,85.37"
+      ]
+    },
+    {
+      "name": "a sparring Dreadnaught",
+      "locations": [
+        "151.22,-16.08,83.16"
+      ]
+    },
+    {
+      "name": "Stable Hand Pachomius",
+      "purpose": "Horse Merchant",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "130.45,-4.01,-92.61"
+      ],
+      "utterances": [
+        "Just don't feed 'em after midnight.",
+        "This isn't a petting zoo. Either buy something or get lost.",
+        "Yeah, that particular one was, uh, bred to have three legs."
+      ]
+    },
+    {
+      "name": "Stable Hand Verdantus",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "131.56,-3.99,-103.27"
+      ]
+    },
+    {
+      "name": "Statilia Messalina",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "112.65,-19.13,7.00"
+      ],
+      "utterances": [
+        "Only the strong survive around here.  Nice knowing you.",
+        "I wish those guards would just leave us alone.",
+        "If you keep bothering me, I'll scream for help!!",
+        "I'd give anything to leave this godsforsaken cesspool of a city.",
+        "You'd be a lot more interesting with a dagger sticking out of your back."
+      ]
+    },
+    {
+      "name": "Trooper Bonesaw",
+      "purpose": "Freeport Militia Officer",
+      "race": [
+        "ogre"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "150.41,-16.79,113.96"
+      ],
+      "utterances": [
+        "Death to those who betray the Overlord! Only the bravest and the strongest organizations can stand with Freeport and the Militia!"
+      ]
+    },
+    {
+      "name": "Varkazza Bonedust",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "80.28,-10.02,-22.94"
+      ],
+      "utterances": [
+        "Welcome. We greet you.",
+        "We share a similar fate -- cast from our homes by the destruction of our world.",
+        "If you need help, please find someone who'll provide it."
+      ]
+    },
+    {
+      "name": "Varski",
+      "utterances": [
+        "So what theys say is true, it is!  You're not as bigs as I thoughts you would be, though..."
+      ]
+    },
+    {
+      "name": "Venetirsk",
+      "purpose": "Alchemist",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "64.72,-9.53,-43.01"
+      ],
+      "utterances": [
+        "Poison testers, it's been my biggest seller for the past several months.  Of course poison was a close second. ",
+        "Let me guess, your looking for poison right?",
+        "I need to get some eye of griffon, a bears paw, the heart of an innocent man.  That'll be tough in this city!",
+        "Be careful what you touch in here.  Your liable to kill us all!"
+      ],
+      "store_template": "alchemist"
+    },
+    {
+      "name": "Viscount Gelvonius",
+      "purpose": "Freeport Militia Officer",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "156.07,0.65,134.01"
+      ],
+      "utterances": [
+        "Hail to you as well.  You're either very brave or very foolish to address me so casually.  Stand at attention when you speak to me, citizen!  Freeport is at war. and I've no time for you incoherant ramblings.  "
+      ]
+    },
+    {
+      "name": "Vissa D`Dbth",
+      "race": [
+        "dark elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "31.59,-18.43,111.30"
+      ],
+      "utterances": [
+        "I am very busy right now.  I have no time to carry on in meaningless conversations."
+      ]
+    },
+    {
+      "name": "Vivian Matho",
+      "purpose": "Guard",
+      "levelRange": "68",
+      "difficulty": "heroic^^^",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "138.06,-7.05,138.84",
+        "158.81,-7.05,118.01",
+        "166.69,-10.49,126.12",
+        "153.56,-16.10,135.35",
+        "144.47,-10.49,147.80"
+      ],
+      "utterances": [
+        "Do you have business with the Freeport Militia?",
+        "The Overlord commands me to work the night shift and so I must accept.",
+        "All praises to the Overlord.  The Militia protects loyal citizens of Freeport.",
+        "Do not challenge my authority citizen.  In Freeport, the Overlord's word is law!"
+      ]
+    },
+    {
+      "name": "a weary Kor shaman",
+      "utterances": [
+        "Please help me... hear my story and offer me succor."
+      ]
+    }
+  ]
+}

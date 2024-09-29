@@ -1,0 +1,259 @@
+{
+  "name": "The Firemyst Gully",
+  "category": "Karan",
+  "levels": "15-22",
+  "access_quests": [
+    3374032235
+  ],
+  "maps": [
+    {
+      "zonerect": "1003.00,392.00,1324.00,763.00"
+    }
+  ],
+  "connections": [
+    {
+      "key": "antonica_tlp"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Brother Bolerg",
+      "utterances": [
+        "By Brell's hammer! Are you trying to get us all killed!?"
+      ]
+    },
+    {
+      "name": "Brother Gimeft",
+      "utterances": [
+        "Ahhh... Quit with your incessant poking!"
+      ]
+    },
+    {
+      "name": "a charred acolyte",
+      "utterances": [
+        "To the grave with you!",
+        "I'm shattered and broken.",
+        "I didn't need those bones anyway.",
+        "Brains! It's what's for dinner.",
+        "Dying didn't feel good the first time.",
+        "You cannot eliminate us!",
+        "Your eyes are so pretty.",
+        "Final death comes at last.",
+        "Rest in peace.",
+        "Your blood calls to me.",
+        "You've shaken the dust from my bones."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 20,
+      "drop_coin_max": 20
+    },
+    {
+      "name": "a charred diviner",
+      "utterances": [
+        "As I rise from the grave,  you will now take my place!",
+        "You cannot eliminate us!",
+        "Your blood calls to me.",
+        "The chill of undeath calls for you.",
+        "I'm shattered and broken."
+      ]
+    },
+    {
+      "name": "a charred herald",
+      "utterances": [
+        "Seek death and it finds you.",
+        "As I rise from the grave,  you will now take my place!",
+        "That pile of bones was my friend!",
+        "Your eyes are so pretty.",
+        "I'm shattered and broken.",
+        "You've shaken the dust from my bones.",
+        "To the grave with you!",
+        "Dying didn't feel good the first time.",
+        "Final death comes at last.",
+        "Brains! It's what's for dinner.",
+        "Your blood calls to me.",
+        "Rest in peace."
+      ]
+    },
+    {
+      "name": "a charred magus",
+      "utterances": [
+        "As I rise from the grave,  you will now take my place!",
+        "You cannot eliminate us!",
+        "That pile of bones was my friend!",
+        "Brains! It's what's for dinner.",
+        "Seek death and it finds you.",
+        "Your blood calls to me.",
+        "Final death comes at last.",
+        "You've shaken the dust from my bones.",
+        "I'm shattered and broken.",
+        "Your eyes are so pretty."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1816513589 1840295947:Divine Smite III (Adept)\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 35,
+      "drop_coin_max": 35
+    },
+    {
+      "name": "a charred minion",
+      "utterances": [
+        "Your eyes are so pretty.",
+        "I didn't need those bones anyway.",
+        "I'm shattered and broken.",
+        "You've shaken the dust from my bones.",
+        "Your blood calls to me.",
+        "Seek death and it finds you.",
+        "As I rise from the grave,  you will now take my place!",
+        "That pile of bones was my friend!",
+        "Dying didn't feel good the first time."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 25,
+      "drop_coin_max": 32
+    },
+    {
+      "name": "a charred sentry",
+      "utterances": [
+        "Your blood calls to me.",
+        "Rest in peace.",
+        "To the grave with you!",
+        "I didn't need those bones anyway.",
+        "That pile of bones was my friend!",
+        "As I rise from the grave,  you will now take my place!",
+        "Dying didn't feel good the first time.",
+        "I'm shattered and broken.",
+        "Seek death and it finds you.",
+        "You cannot eliminate us!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1136651119 1578780024:intricately carved acorn\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -201763999 522300914:Pledge of Armament (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Galintari the Apocryphal",
+      "utterances": [
+        "What do we have here? Intruders, hrmmm...? Well... I guess it is dinner time... RISE MY CHILDREN! RISE and feast upon the flesh of these insolent fools!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1976706268 -1320949579:Apothecarys Quarterstaff\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 143,
+      "drop_coin_max": 143
+    },
+    {
+      "name": "a scathe bishop",
+      "drops": [
+        {
+          "gamelink": "\\aITEM -2129749343 -119286990:advanced craftsman volume 15\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -663082198 781057701:plain crystal shard\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 16,
+      "drop_coin_max": 35
+    },
+    {
+      "name": "a scathe harbinger",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 28,
+      "drop_coin_max": 28
+    },
+    {
+      "name": "a scathe knight",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 32,
+      "drop_coin_max": 127
+    },
+    {
+      "name": "Sir Thothur Dorarr",
+      "utterances": [
+        "Hrmm... The unholy power seems to emanate from over there... that's where our brothers were lost... but what are... Oh, what is it?",
+        "Well, nice to meet yah! We could really use your help.",
+        "We're in over our heads. Last week we lost several of our brothers to the undead, and now we struggle to hold down this small fort. It's difficult keeping the undead wards working while hordes of undead minions attack us. Can you fight them off for us?",
+        "Why are you back already? I can still see the undead roaming around out there!",
+        "Hrmm ... something's allowing them to return from their graves.",
+        "Perhaps a sigil of undeath ... Here, take this ward of undeath. You can destroy any sigils of undeath you come across with this. Simply touch the ward against the sigil.",
+        "Good! I appreciate your help!",
+        "Did you destroy all of the sigils?",
+        "Good job! I think we can take it from here. Soon we will rebuild this Gully. Thanks again for the help. Please take this."
+      ]
+    },
+    {
+      "name": "a wraithly stalker",
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1202278372 1384654712:advanced craftsman volume 10\\/a",
+          "chest": true
+        }
+      ]
+    }
+  ]
+}

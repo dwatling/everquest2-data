@@ -1,0 +1,609 @@
+{
+  "name": "Outpost of the Overlord",
+  "category": "Isle of Refuge",
+  "levels": "2-8",
+  "maps": [
+    {
+      "zonerect": "-499.08,-319.57,459.67,401.19"
+    }
+  ],
+  "connections": [
+    {
+      "key": "fprt_tradeskill01_tutorial"
+    },
+    {
+      "key": "tutorial_island02_epic01_evil_island"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Anius Oakwind",
+      "locations": [
+        "-119.67,4.47,-37.25"
+      ],
+      "utterances": [
+        "They were weak!  I am not!",
+        "Who disturbs my rest?",
+        "They will join us in death..."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1394743414 1978503041:Heal Minion (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 965315134 -110279663:Oakwind's Maul\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 220303815 1408642818:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Ashir",
+      "utterances": [
+        "I'll challenge my dried triggerfish to Gorga's stew any day."
+      ]
+    },
+    {
+      "name": "Assassin Vamir",
+      "utterances": [
+        "Hellos <player name>, Tayil sent word you were comings.  I's been scouting out the nearby areas, trying to get a better feels of what we's up against.  Beastmasters these Tunarians are, training the wild animals of the island to fight for them!",
+        "We's gonna cut off their resources to weaken them in the long terms, settings up our major attack after they are weakened.  If we take out their picks of the wild animals, they'll have nothing to train.",
+        "They trains the bears, hawks, and wolves on the island.  The wolves are a bits too deep to touch now, but the bears and hawks are nearby so we starts with those.  First, head north up the slope into the Wilderwood or west into Cliffdiver Canyon and lay down some bears.  Returns when you are done.",
+        "The bears are dead?  Good.  Nows for a tricky task, so pay attention!  The hawks you will now hunt reside high on the cliffs in Cliffdiver Canyon to the west of here.  Untils now, we've been unable to get to them.",
+        "The cliffdiver hawks perch high up and watch for foods to attack below. I's got some food for them right here, haha! Take these mole rats and when you think you are in a good position below the hawks, examine them in your inventory and release one. Return if you needs more.",
+        "Excellent job!  I think we's done a good job stoppings any new recruits for the Tunarians.  Here, this note was just delivered to us.  I believe it is from Tayil.",
+        "The Tunarians won't have many animals to train because of you.  Nice works!  Return to me if you ever needs more mole rats.",
+        "Is he that guy with the bad comb-over?"
+      ]
+    },
+    {
+      "name": "Bobble Whirlwidget",
+      "utterances": [
+        "How am I going to collect these lugsnibbets?  I can't swim, but that won't matter when the ship is done.",
+        "Shhhhh!  I need to keep this as quiet as possible, the Overlord demands it.  But I'm wizzlewogged here on my research and could use some help.",
+        "Okay, word has it that the Wobblecog family of Qeynos is on the verge of perfecting a ship that can travel underwater. The Overlord cannot let Qeynos get the upper hand, so I have been tasked with figuring out the process for creating these ships.",
+        "I've discovered a creature called the nautilus that uses air chambers within its shell to keep itself buoyant, similar to the pogflume dialator I've been working on. I believe that if I can get some of these specimens, I should be able to figure out the mechanism and apply it to a ship.",
+        "Good!  I'll be up here observing.  Hurry now, the Overlord awaits!",
+        "Holy snogratchets, that was quick!",
+        "Excellent!  This ship is gonna be magnificent.  Here take this for your efforts."
+      ]
+    },
+    {
+      "name": "Captain Pinious",
+      "utterances": [
+        "Hello there, <player name>. So you're the new addition to the outpost that we've been hearing about. I've been stationed here by the Overlord to instruct you in ways that you can interact with the world around you.",
+        "I've met many great heroes of the Overlord since arriving at the outpost, but I can't recall anyone by that name."
+      ]
+    },
+    {
+      "name": "Captain Tyreth",
+      "utterances": [
+        "You are not yet ready to serve me, adventurer. Talk with Tayil N'Velex back at the outpost if you need guidance.",
+        "Hahaha! The attack has begun and the enemy shall fall! You must be <player name>, here to take part in the festivities.",
+        "Ah, you were the one who coerced these sentries out of the area before the attack. Nicely done! It is time to complete our domination. The Militia are advancing and beginning to clear the area. It is time to strike, quickly!",
+        "Take this torch. Work your way in and set fire to two of the nearby tents. Others have begun the razing as well. If another's flame fails, make sure you finish the job. This island will soon be ours!",
+        "The rising smoke reveals your courage, but are you ready to finish what we have started?",
+        "We believe that the leader of these elves waits atop a tree house, located through the archway to the east. It is certain that the flames have been spotted, so we need to act quickly. You must travel to the top of this tree house and finish the battle.",
+        "So, Adrium is dead. I take it you found the key?",
+        "You still have much to learn <player name>, but I'll let you in on a little secret. Sometimes things are best left unsaid until they reveal themselves. We have been watching your every move, and you have proven quite worthy of our true goal.",
+        "Of course it is, but there is something more. You know that mine that you took the samples from? The samples were packed with precious lapis lazuli, more so than any other source near Freeport.",
+        "No <player name>, you've been training. Training for the final confrontation you are about to take part in. You think Tayil couldn't have just done this all herself? Prove to us you are ready to become an esteemed citizen of Freeport and share in the wealth.",
+        "We've been\"questioning\" some captives and had scouts follow the Tunarian haulers from the mine to a cave near the back of Adrium's tree house. We believe that this cave holds the true leaders of the elves, known as the Circle of Elders.",
+        "Ha ha, good form! You sound like a Freeport citizen already! The loot should be in the cave. Nothing has left the island for months, we've had it completely surrounded. Head in there and take care of the elders."
+      ]
+    },
+    {
+      "name": "Captain Varlos",
+      "utterances": [
+        "So, ya' ready ta go ashore matey?",
+        "Ya' best be sure ta' explore the whole island, ya' hear!  Norrath can be a dangerous place ya' know?",
+        "Yar! That's what we be needin'.  Ok then, off to Freeport!",
+        "Don't ya' mind, we get paid ta' do that."
+      ]
+    },
+    {
+      "name": "Charles Arker",
+      "utterances": [
+        "You're that new recruit I keep hearing about. <player name>, isn't it?",
+        "Your reputation precedes you -- as will mine, someday soon.  When I return to Freeport, my prestige will bring honor to my family.  I came here to make a name for myself, but it's been difficult to stand out in the crowd.  I have a new  assignment and it's puzzling me.  Would you help me unravel it?",
+        "There's a lot of undercover work here, which means even if you do well, the higher-ups may not know it's you doing the work.  Some of my best work was claimed by someone else and I mean to fix that.  Not long ago, I intercepted part of a note one of the Tunarian spies was delivering.  They've hidden the remaining pieces.  We need to get them all back to learn more of what they're doing.",
+        "I appreciate it, <player name>.  Whatever glory comes of this, we'll share in the credit.  I'm sure this will more than make up for the work I've done that others have taken credit for.",
+        "A word of warning: be wary of those wood elves.  They are more cunning than others may realize.",
+        "Have you found more of the missing pieces?",
+        "The Tunarian note is still incomplete, but this may be enough to advance our prestige, <player name>. You know, you're very good at this kind of thing. Tell me, would you be interested in helping me on a more personal level?",
+        "As you know, I came here to make more of a name for myself.  When I return home, my marriage will take place.  I've been betrothed since birth to a lady from a good family.  The match will elevate my family's status.  Unfortunately, my betrothed has the face of a horse.",
+        "Also unfortunately, I've found myself unnaturally attracted to one of those Tunarian spies.  A wood elf...she's graceful, beautiful and deadly.  Nothing must come of this fancy of mine.  I cannot let my reputation be sullied by even the merest hint of a romance with one of their kind.",
+        "Find Laena.  Kill her.  I'd do it myself, but I fear that seeing her again might weaken my resolve.  She could be anywhere on this island.  Once she's out of the way, I won't be tempted again and my family's honor will not be stained.  For all I know, she was put here specifically to entice men like me to falter.",
+        "There's no time like the present.",
+        "Is she...dead?",
+        "I don't care for details.  I...just want to make sure she died with honor.",
+        "I see.  I hadn't expected that.  The main thing is that Laena will no longer...bother me.  I wonder, though...who could've killed her?  We may never know...and I can marry my betrothed in peace. Thank you, <player name>.  ",
+        "What's that? You found more of the parchment?",
+        "I can't speak of it...here.  It is very important that we draw no attention to ourselves.  Meet me in the Wilderwood.  There's a shallow alcove known as \"the Nook\" beyond the trees, along the northern wall.",
+        "That note...do you have all of it?",
+        "Good.  I wrote this note -- that's probably what puzzled you.  It contained a hidden message to Laena. I was...planning to meet her secretly.  Then I realized how foolish that would be, but had already sent her the note.",
+        "By the Overlord, no! I waited for her here, as pre-arranged.  She did not come and next thing you know, one of the other men gave me part of the note and told me to investigate the Tunarians.  I couldn't tell if he knew my secret or not.",
+        "What is it with you and killing?  No! I was grateful for the chance to find the rest of my note and destroy it before anyone else realized I had signed it! I thought Laena might still have the rest of it...and you proved that she at least had some of it still.",
+        "Perhaps a jealous lover, or maybe she was torn apart by the wilderbears.  You must keep this secret.  My family will never understand the...indiscretion...I showed.  Nothing happened between Laena and me, so it's best forgotten.  Get rid of these scraps for me.  I must go back before I'm missed."
+      ]
+    },
+    {
+      "name": "Chef Gorga",
+      "utterances": [
+        "Need to wait for stew to be done, no firsties!  Many Militia to feed, your mouth no bigger than the rest.",
+        "Ahh yes, <player name>, Tayil said you comin'.  Good then, Gorga can stir the pot while you goes to collect more ingredients.  Heeheehee!",
+        "Seaside Stew!  Only a couple things we still needs to get.  First is the buzzers, buggin' Gorga they are.  Not sure how they taste, but less of 'em is better.  Be sure to pluck out the wings slowly, the last buzz is the best buzz.",
+        "Heeheehee!  Toss 'em in the pot.  The next yummies are the main pot filler, livers!  Those elks are eatin' up all the eatin' plants anyways, so we kill two halflings with one stone.  Bring back the elk livers when you're done.",
+        "Heeheehee!  Toss 'em in and smell the Gorga magic.  The stew is done now!  Head back to Tayil, she's waitin' for you.",
+        "Mmm, this stew is yums.  Livers!",
+        "Gorga not cook someone by that name. Not yet."
+      ]
+    },
+    {
+      "name": "Coercer Zlith",
+      "utterances": [
+        "So <player name>, ready for a little ssabotage? The mine is inside the Wilderwood in the far eastern corner.",
+        "Head in there and sstir up the hornet's nest. Take out some of their miners, and while you're at it, grab some of the loose ore around the mine. Tayil wants to know what it is that they're mining.",
+        "Nice work! As you probably noticed, there are additional Tunarian horse sentries being sent into the Wilderwood to check on the mine. We need another distraction to thin out the Qeynosian forces even more. It's time to deal with those meddling sentries once and for all.",
+        "Head back into the Wilderwood and take out some of these horse sentries. The more you slay, the more Qeynosians will be sent to investigate, which will provide our chance to attack. Return to me when the deed is done. By the way, I'll take those ore samples and make sure they find their way to Tayil.",
+        "You have done enough, <player name>. Tunarian reinforcements are on their way to the Wilderwood. Our time for attack is now! Tayil will be glad to hear of your work. Speaking of Tayil, take these sealed orders. She sent them for you, and if I were you I would not ignore them."
+      ]
+    },
+    {
+      "name": "Ebb Tide",
+      "utterances": [
+        "Got any goods for sale from your adventures?"
+      ]
+    },
+    {
+      "name": "a fallen Tunarian",
+      "locations": [
+        "-126.00,4.56,-45.66",
+        "-137.07,4.57,-56.92"
+      ],
+      "utterances": [
+        "Who dares distrupt our final ceremony?",
+        "They've come to defile our land! We must stop them forever!",
+        "They were weak!  I am not!",
+        "By the shattered towers of Feyspire!",
+        "We must retreat from the primal world!",
+        "You will pay for your foolishness!",
+        "You cannot do the same to me.",
+        "They will join us in death...",
+        "Decay will surround you.",
+        "To the gray fields with them!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 220303815 1408642818:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4
+    },
+    {
+      "name": "a Field Investigator",
+      "utterances": [
+        "You! I saw you put something into the fire! Come here!",
+        "The fire burns hot, hiding all tracesss of what's inssside.",
+        "Just curious.  I know you've been ssssseen ssspeaking with Charlesss Arker lately.",
+        "Defiant, aren't we? Well, <player name> -- don't look so surprised, of course I know your name -- there are those who would like more information about Mr. Arker's activites. I am Field Investigator Zherran Tzizzink. Can you help me?",
+        "This task is not too difficult.  His fiancee's family would like ssome information.  Casually chat up some of the other Freeportians around here to see if any of them say anything.  Complete this task and you will be rewarded.",
+        "Exssssss-cellent.",
+        "What have you discovered?",
+        "Interesting.  Charles had been sending word that he is very popular and renown for his exploits.  Well, I suppose a little bragging beats a little infidelity.  The marriage will proceed as planned."
+      ]
+    },
+    {
+      "name": "Gethe Huggs",
+      "utterances": [
+        "Hello there!  If you have any collections that you've completed, I can take them off your hands and reward you for your time.  I'm just crazy for collections!",
+        "This is a magnificent find! Here, take this for all your hard work."
+      ]
+    },
+    {
+      "name": "Greshar",
+      "utterances": [
+        "I can fix things that are damaged in battle.",
+        "Hello there, <player name>. Menders like me repair your equipment after it gets damaged due to death. To learn more about repairs, speak to Trainer Vissa Sathliss nearby. I'll fix your gear for a small fee, but menders in Freeport won't be quite so generous!",
+        "If your gear gets damaged in battle, return to me and I can repair it."
+      ]
+    },
+    {
+      "name": "Laena",
+      "utterances": [
+        "You cannot kill the dead.",
+        "Die, Freeport scum!",
+        "Decay will surround you."
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4
+    },
+    {
+      "name": "a Militia patroller",
+      "utterances": [
+        "For the strength of Freeport!",
+        "I can't wait to get back and hit the Seafarer's Roost for an ale.",
+        "I'll arm wrestle you for it tonight, but it was my kill!",
+        "Ha, I dare them to try!",
+        "Was it slash then parry or parry then slash?",
+        "I should be out on the front lines!",
+        "No one dares challenge the might of the Freeport Militia!",
+        "Wraaaa!"
+      ]
+    },
+    {
+      "name": "Murg Leechtongue",
+      "utterances": [
+        "Filthy elves!",
+        "Captain, they have cows!  Lemme Kill!"
+      ]
+    },
+    {
+      "name": "Oolar Omafa",
+      "utterances": [
+        "The Tunarians are no match for us.  Do not worry."
+      ]
+    },
+    {
+      "name": "Priestess Xaliea",
+      "utterances": [
+        "The life of a priestess isn't all posies and butterflies, you know? We aren't just here to heal and give you blessings.",
+        "No! There's so much more to our way of life. We constantly battle against the ever rising ranks of the undead. If it wasn't for us, you'd all have your brains sucked out by a legion of zombies!",
+        "I can't leave my post.",
+        "Hmm, but you can get around freely, can't you? Maybe you could help an old priestess relive her glory days?",
+        "Go find these skeletons and slay them. If you bring me three bone chips from them, I'll make this all worth your while.",
+        "I can hear them, out there in the distance. Their bones are rattling and crackling. Oh! How I want to feel them crumble beneath my grasp. Hurry up, bring me those bone chips!",
+        "Ah, the sweet smell of death! They're so dry and brittle, just like I remembered. Thank you.",
+        "Here, take this reward. This should be more than what the merchant would give you for these beauties."
+      ]
+    },
+    {
+      "name": "Pruk Skullpound",
+      "utterances": [
+        "I'm gonna take a souvenir back to Freeport.  Maybe a new set of ears!  Hahaha.",
+        "Burn the tents!"
+      ]
+    },
+    {
+      "name": "Saryl Scarscale",
+      "utterances": [
+        "All you sseek can be found here!",
+        "All the way back to the days of Cabilis, my family has provided goods to those in need."
+      ]
+    },
+    {
+      "name": "a shipwrecked explorer",
+      "locations": [
+        "-97.55,-10.81,-15.77",
+        "-81.70,-10.69,-23.43"
+      ],
+      "utterances": [
+        "Never too early to slumber in the grave.",
+        "You cannot eliminate us!",
+        "That pile of bones was my friend!"
+      ]
+    },
+    {
+      "name": "a shipwrecked swashbuckler",
+      "locations": [
+        "-98.44,-10.35,-15.87"
+      ],
+      "utterances": [
+        "As I rise from the grave,  you will now take my place!",
+        "You cannot eliminate us!",
+        "Final death comes at last."
+      ],
+      "drop_coin_min": 3,
+      "drop_coin_max": 3
+    },
+    {
+      "name": "Tayil N'Velex",
+      "utterances": [
+        "Ah, there you are, <player name>. I have been expecting you. There is much work ahead of us in establishing Freeport's dominance over this island. The Overlord's troops have secured the outpost, but there is a growing nuisance on the other side of the island that must be addressed. That is where you come in.",
+        "I am Tayil N'Velex, attendant and confidant of the Overlord. I am here to ensure that our operation on this island is successful. You, on the other hand, will be assisting us with some field work to help prepare you for life as a citizen of Freeport.",
+        "The Overlord is the fiercely courageous ruler of Freeport. A statue of his glorious visage graces the pond in the center of the outpost. Though he is merciless to his enemies, he is generous to those who serve him. Pray you never do anything to fall from his grace, <player name>.",
+        "Freeport is the center of power and commerce on Norrath. The city sits on the eastern edge of the continent of D'Lere. This grand city shall be your home here on Norrath, should you prove yourself worthy. If not, you can cower and beg for shelter at the gates of Qeynos.",
+        "The city of Qeynos is the enemy of Freeport. It is a weak land ruled by an incompetent queen, Antonia Bayle. I've had my share of battles with her and her pet kerra, I assure you. Qeynosians try to spread lies about the Overlord and portray him as some kind of power-mad tyrant. Don't believe their propaganda, <player name>!",
+        "Remember to always keep the will of the Overlord foremost in your thoughts and you will go far. The city of Freeport is a power unrivaled on Norrath, no matter what you might hear from Qeynosian riffraff. You must pledge yourself to this power and become part of it. Do this and I will reward you handsomely.",
+        "Excellent! There is indeed much potential in you. I think it is time to begin your training.",
+        "You must be strong if you wish to serve properly. Northwest of here you can find Trainer Darg Frostwind. Speak with him about combat training and do as he tells you.",
+        "In case you forget, I've written down his name and location in your quest journal.",
+        "So, <player name>, are you ready to learn more about the outpost and perform your first service for the Overlord?",
+        "This outpost was recently established as a training ground for potential citizens of Freeport to hone their skills. Our first scouts on the island reported it as being uninhabited, perfect for our needs. It soon became clear that the initial reports were incorrect, and those scouts have been permanently reassigned to the bottom of the bay. Such is the price of failure.",
+        "The intruders are a sect of the Tunarian Alliance, a lowly order of vermin originating from Qeynos. As a true servant of the Overlord, your duty is to eliminate them. This should prove extremely useful in preparing you for the challenges that lie ahead after you leave the outpost.",
+        "Not just yet, <player name>. You will strike against those Qeynosian scum when the time is right. First we need to see if that weapon of yours is working! Are you ready for your first test?",
+        "Go talk to Chef Gorga just past the west archway. She needs help gathering supplies to feed the members of the Freeport Militia who guard this outpost, which should provide a chance to test your combat skills. There is more to hunt on this island than just Qeynosians.",
+        "Report back to me when your duties with Chef Gorga are done.",
+        "Did you enjoy your hunting in the Seaside Glade with Chef Gorga?",
+        "Gorga was impressed with your handiwork. I'm sure the outpost Militia guards will be pleased with her stew, though I can't stomach troll cooking myself. You show potential indeed, <player name>. As promised, here is your reward.",
+        "So, <player name>, are you ready to prove your worth again?",
+        "Good, now listen closely. Though a direct attack upon your enemy can be quite satisfying, there are often more subtle means of inflicting damage. Cut off the feet and the head is sure to follow, if you get my meaning.",
+        "Indeed, cunning and subtlety are often effective. And who is more cunning and subtle than an assassin? We've established a camp through the archway to the west, at the far end of Seaside Glade. Go there and speak to Assassin Vamir, who has devised a plan to strike at the heart of the Tunarians.",
+        "Assassin Vamir will explain the details.  Good luck.",
+        "Perhaps you did not read my note.  Are you prepared to lend your services to the Overlord once again?",
+        "We have discovered that the Tunarian Alliance's main source of income is from a mine in the Wilderwood. The mine is the perfect setting to employ our next strategy for conquering the island: distraction. By causing a disruption at the mine, it will allow us to flank the Qeynosians from the opposite side.",
+        "Who better to teach you the fine art of distraction than a coercer? Return to the camp in Seaside Glade where Coercer Zlith will fill you in on the details of our plan.  Report back to me after you have succeeded against the Tunarians.",
+        "The Tunarian Alliance's resources are dwindling and their forces are focused on defending the mine. The time has come to strike the final blow. Are you prepared to face your greatest challenge so far?",
+        "The Militia has pushed through the Tunarian Alliance's line into the Valley of Discipline, the area they use to train their animals. Our forces have set up a forward camp in an alcove located in the eastern portion of the valley near the archway leading to the falls.",
+        "The Militia is using this position as our point of attack. Go to the camp and seek out Captain Tyreth, the leader of the forward operation. He will direct your efforts in this final phase of the assault. We will drive out the Tunarian Alliance and take their treasures as our own!",
+        "The Overlord is counting on you.",
+        "Your bravery has been noted, young one. The Tunarian Circle of Elders was defeated and their treasure is ours. The Militia troops will remain here to clear out the remaining Qeynosians, but they present no danger to us.",
+        "It was my pleasure to fight beside you. I have no doubt that you will be well received in Freeport. When you are ready to leave the outpost and venture to our great city, speak with Captain Varlos on the deck of the Far Journey. His ship is waiting on the dock through the south archway. Farewell."
+      ]
+    },
+    {
+      "name": "a trained bear",
+      "locations": [
+        "-108.85,4.29,-154.51",
+        "-97.59,4.39,-138.27",
+        "-107.40,4.48,-146.68"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1987273570 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "a trained hawk",
+      "locations": [
+        "-87.36,1.68,-182.09",
+        "-109.65,4.31,-157.58"
+      ]
+    },
+    {
+      "name": "a trained wolf",
+      "locations": [
+        "-110.53,4.50,-146.36",
+        "-115.62,3.69,-114.66",
+        "-80.25,1.76,-221.26",
+        "-122.79,4.53,-88.69"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 252923125 652074171:Bristles (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -982875894 1086350915:canine saliva\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
+      "name": "Trainer Corx Knickknack",
+      "utterances": [
+        "Good day, <player name>. I've been stationed here at the outpost to teach the Overlord's newest recruits about equipment and inventory space. Good equipment is one of the most important aspects of any adventurer!",
+        "Sorry, never met that person. You should see me about some training, though."
+      ]
+    },
+    {
+      "name": "Trainer Darg Frostwind",
+      "utterances": [
+        "Greetings, <player name>. I've been stationed here at the outpost to teach new recruits the finer points of combat. After all, it's our duty to honor the Overlord by achieving legendary victories in his glorious name.",
+        "Very well. The nearby sparring partners to my left are all looking to fight.  They may hurt you, but they won't kill you. Return to me once you've bested one of them in combat.",
+        "Have you defeated the sparring partner yet?",
+        "Good. The stronger you are the more use you are to us.",
+        "I'm sure of it! Go speak with Tayil N'Velex, she is just south of Sythor's Spire.",
+        "I've trained the greatest champions on this island. I've never heard of anyone by that name.",
+        "Well, what do you want to know? Something basic or something more advanced?",
+        "Many different elements are involved in successful combat. I can teach you a few of the basics, such as how to begin a fight, the difference between a melee and ranged combat, and earning rewards for victory."
+      ]
+    },
+    {
+      "name": "Trainer Jayla Surfrider",
+      "utterances": [
+        "Even the mightiest hero of the Overlord will meet an untimely end on occasion. Let me teach you the consequences of death and how you can recover properly.",
+        "Sorry, never heard of him. Did he die recently?"
+      ]
+    },
+    {
+      "name": "Trainer Nogg Dreadscar",
+      "utterances": [
+        "Well met, <player name>. The Overlord demands that his subjects maintain a healthy body and a keen mind. He has charged me with training new recruits about your physical attributes: Strength, Agility, Stamina, Intelligence, and Wisdom.",
+        "Charles Barker? Larker? Jarker? Nope, never heard of him."
+      ]
+    },
+    {
+      "name": "Trainer Vella N'Dur",
+      "utterances": [
+        "Come closer if you want me to answer any questions you have about collections or harvesting!",
+        "Sorry, but I can't say that I know this person."
+      ]
+    },
+    {
+      "name": "a Tunarian bearmaster",
+      "locations": [
+        "-98.13,4.39,-144.03",
+        "-108.85,4.29,-154.51",
+        "-92.68,4.23,-125.41",
+        "-106.75,4.40,-148.31"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -314315859 -974327301:Beastmaster Sleeves\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "a Tunarian falconer",
+      "locations": [
+        "-85.51,1.67,-182.21",
+        "-110.53,4.30,-156.03"
+      ]
+    },
+    {
+      "name": "a Tunarian fisher",
+      "locations": [
+        "-87.44,1.88,-221.28"
+      ]
+    },
+    {
+      "name": "a Tunarian gravedigger",
+      "locations": [
+        "-123.27,4.52,-49.60"
+      ]
+    },
+    {
+      "name": "a Tunarian horse sentry",
+      "locations": [
+        "-109.28,4.50,-123.50",
+        "-102.98,4.27,-154.67"
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 4
+    },
+    {
+      "name": "a Tunarian miner",
+      "drop_coin_min": 3,
+      "drop_coin_max": 3
+    },
+    {
+      "name": "a Tunarian mourner",
+      "locations": [
+        "-125.45,4.33,-47.73",
+        "-137.17,4.57,-59.54"
+      ],
+      "utterances": [
+        "Farewell good souls.",
+        "Your lives will not be forgotten!",
+        "Why?  Why must you leave us?"
+      ],
+      "drop_coin_min": 3,
+      "drop_coin_max": 3
+    },
+    {
+      "name": "a Tunarian protector",
+      "locations": [
+        "-110.53,4.50,-146.36",
+        "-112.66,4.31,-160.35",
+        "-136.77,4.47,-78.23",
+        "-81.07,1.81,-215.73",
+        "-86.32,1.87,-205.81",
+        "-102.81,4.27,-144.80"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 356758634 1380729574:Bloodseeker's Bracelet\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 151745054 1334942741:Bloody Sleeves\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 4
+    },
+    {
+      "name": "a Tunarian wolfmaster",
+      "locations": [
+        "-113.45,4.43,-154.79",
+        "-114.00,3.63,-116.00",
+        "-82.10,1.66,-221.07",
+        "-124.49,4.54,-87.94"
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4
+    },
+    {
+      "name": "Visage of the Overlord",
+      "utterances": [
+        "You show potential, but there are many who seek the auspices of Lucan, and I only have time for champions.",
+        "Prove yourself, and I shall grant you shelter at the edge of my city, and the chance to earn your place as a proud citizen of Freeport.",
+        "Go now, and begin the trials that I have set for you.",
+        "Succeed, and you will share the fortunes of Freeport as we reshape this broken world.",
+        "Together we will restore the glory of ages past, crush the Sons of Zek, and sweep aside the decadent nation of Qeynos!",
+        "With my guidance, you shall gain power and glory as you have never imagined, but should you turn against me, you will find that my wrath is a terrible thing ... Now go!"
+      ]
+    },
+    {
+      "name": "a weak sparring partner",
+      "utterances": [
+        "Well done!",
+        "Next!",
+        "Okay, who's next?"
+      ]
+    },
+    {
+      "name": "Whizratchet",
+      "utterances": [
+        "As a banker it is my job to hold items and coin for you for safe-keeping. If you would like to learn more, speak with Trainer Vissa Sathliss. She is just east of me, around the corner."
+      ]
+    },
+    {
+      "name": "a wilderwolf",
+      "locations": [
+        "-93.78,4.38,-160.00",
+        "-114.40,4.07,-120.99",
+        "-138.00,4.08,-109.04",
+        "-89.49,4.36,-134.71",
+        "-94.00,1.90,-194.32",
+        "-102.76,4.42,-158.27",
+        "-111.13,4.50,-141.78"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -982875894 1086350915:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 126592549 446323017:rawhide leather pelt\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 725938481 -776468382:Studded Wolf Skin Gloves\\/a",
+          "chest": true
+        }
+      ]
+    }
+  ],
+  "shinies": [
+    {
+      "gamelink": "\\aITEM -1770462429 -1506854305:abalone shell\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -267674522 -288450660:clam shell\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1612899270 -1960681747:conch shell\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1370134449 764332384:duck feather\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 732206996 486779589:eagle feather\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1971617133 813591611:falcon feather\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 2066139239 418255418:hawk feather\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1711639388 972268500:mussel shell\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 723338470 896860375:sparrow feather\\/a"
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the coffee bush"
+    },
+    {
+      "name": "the rugged ore"
+    },
+    {
+      "name": "the unearthed stone"
+    }
+  ]
+}

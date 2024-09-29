@@ -1,0 +1,172 @@
+{
+  "name": "Tradeskiller's Workshop",
+  "category": "Isle of Refuge",
+  "maps": [
+    {
+      "zonerect": "-21.00,-43.00,37.00,33.00"
+    }
+  ],
+  "connections": [
+    {
+      "key": "tutorial_island02_evil"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Garfa Gillgrinder",
+      "purpose": "Wholesaler",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-1.4,-0.18,-3.2"
+      ],
+      "utterances": [
+        "Are you going to buy anything today or am I just wasting my time?  This isn't a museum display you know!",
+        "You show interest in the crafting trade, good.  Freeport can always use talented artisans within the walls of our great city.  I can help you get started and offer you some of the basic recipes at no charge.  Would you be interested?",
+        "There, you now have the basic recipes and the knowledge to begin crafting.  Everything else you need to get yourself started can be found right here."
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1230680062 1846598759 0 0 0:aerated mineral water\\/a",
+          "prices": [
+            {
+              "coin": 4
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1911116894 1730016133 0 0 0:artisan essentials volume 1\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1407153616 -493180725 0 0 0:artisan essentials volume 2\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1211204294 -1537176998 0 0 0:artisan essentials volume 3\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1134949937 806500766 0 0 0:artisan essentials volume 4\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 541608783 -1943057601 0 0 0:artisan essentials volume 5\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -627330932 1830577290 0 0 0:artisan essentials volume 6\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -897612639 -584006509 0 0 0:artisan essentials volume 7\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1353595938 1152854445 0 0 0:artisan essentials volume 8\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -358211946 -813467030 0 0 0:artisan essentials volume 9\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1390415545 -127485400 0 0 0:Basic Candle\\/a",
+          "prices": [
+            {
+              "coin": 6
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -48950061 -853046774 0 0 0:Basic Coal\\/a",
+          "prices": [
+            {
+              "coin": 6
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1626387386 -1671104945 0 0 0:Basic Filament\\/a",
+          "prices": [
+            {
+              "coin": 6
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -539266589 13290626 0 0 0:Basic Incense\\/a",
+          "prices": [
+            {
+              "coin": 6
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1271224269 -1219423686 0 0 0:Basic Kindling\\/a",
+          "prices": [
+            {
+              "coin": 1
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2118643994 -127410696 0 0 0:Basic Sandpaper\\/a",
+          "prices": [
+            {
+              "coin": 6
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1901169081 231047307 0 0 0:dough\\/a",
+          "prices": [
+            {
+              "coin": 12
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

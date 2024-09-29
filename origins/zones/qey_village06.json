@@ -1,0 +1,747 @@
+{
+  "name": "The Baubbleshire",
+  "removed": "lu64",
+  "category": "Karan",
+  "maps": [
+    {
+      "zonerect": "-1202.29,-731.03,-545.37,-218.19"
+    }
+  ],
+  "connections": [
+    {
+      "key": "qey_adv02_ruins",
+      "location": "888.48,-12.38,-547.30"
+    },
+    {
+      "key": "qey_catacomb01",
+      "location": "854.40,-18.40,-530.09"
+    },
+    {
+      "key": "qey_elddar",
+      "location": "819.00,-20.80,-529.00"
+    },
+    {
+      "key": "qey_tradeskill01_village06",
+      "location": "827.99,-9.41,-468.18"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "Algan Tinmizer",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "862.77,-12.31,-412.95"
+      ],
+      "utterances": [
+        "Greetings!  Looking for a bashcogglinator or perhaps a metefozic thermogauge?",
+        "Oh my, it does indeed!  I thought I'd lost those parts.  You've saved me a great deal of trouble, friend.  Let me compensate you for your keen eyes and good nature.",
+        "I see my superior intellect confuses you.  Don't worry, it perplexes many people - tis' the curse of the Tinmizer name.  However, I can use your help, for even simple minds contribute to the greatness of Qeynos.",
+        "You must venture into the Forest Ruins. Tavern tales claim the remnants of the magi tower of the Order of Three exist there. You must reveal the truth of this mystery.",
+        "Good! I can't wait to hear about it!",
+        "This is wonderful news!  Someday, I must explore the ruins but not today.  I thank you for your service, adventurer."
+      ]
+    },
+    {
+      "name": "Arbuthnot Jumroller",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "866.22,-12.23,-418.7"
+      ],
+      "utterances": [
+        "Well, then, what can I do for you?",
+        "Magical shield? Is that what they were designing? I thought it was a new brewery system! Hah! Imagine that! Ha! Um, yeah.",
+        "Towser didn't tell me at first what he was working on, no.  If you ask me, though, whatever Towser designed should have been good enough for the committee.  I don't know what Magus Weskah was thinking!",
+        "I asked him a few times, but he was very closed about it.  He takes a lot of pride in his discretion.  Since he lost the competition, he's been a little bitter.  That won't affect his work, though.",
+        "There isn't anything Towser can't do once he's put his mind to it.  He's been a bit down lately since Magus Weskah over in North Qeynos picked someone else's design, but I'm sure he'll pull through things just fine.  Are you a friend of his, too?",
+        "I can't say much about the contest since I didn't enter it myself.  In fact, without that truth potion, Jo Ironshield gave him, Towser wouldn't have said a word about it!  He hates to lose, you see!",
+        "Jo slipped him some at the pub. It was funny at the time, though his wife didn't think so.  All I know is that poor Towser couldn't stop telling the truth about things, even that ugly hat of hers! The Qeynos North Alchemists' Guild that Jo belongs to won't be so amused either, I guess.",
+        "Good old Towser! I'm glad to see you're becoming friends with him, too.  Especially after all he's been through! Let me see...yes, yes...",
+        "Not too long at all, friend!  Towser seems to lose keys every other day.  He's a great guy, but I'm constantly having to make new keys for him.  He must have a lock on every door and drawer in his house! Heh!",
+        "There you go, right as rain!",
+        "Tell Towser that me and the missus hope he and the family can join us for supper again sometime soon."
+      ]
+    },
+    {
+      "name": "Barmaid Estella Muddyfoot",
+      "purpose": "Provisioner",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "883.3,-18.31,-444.99"
+      ],
+      "utterances": [
+        "Fresh baubbleberry pie, come and get some while it's hot!"
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "a Baubbleshire rat",
+      "levelRange": "4",
+      "locations": [
+        "838.00,-19.36,-517.93",
+        "844.69,-18.91,-523.69",
+        "856.24,-18.46,-527.76",
+        "866.63,-17.52,-531.78",
+        "866.72,-17.06,-523.71"
+      ]
+    },
+    {
+      "name": "Bizrinn Clamorclang",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "900.33,-18.01,-482.3"
+      ]
+    },
+    {
+      "name": "Bolo Brassharp",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "893.69,-17.91,-492.43"
+      ]
+    },
+    {
+      "name": "Brera Pinthumb",
+      "purpose": "Mender",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "832.39,-13.81,-475.49"
+      ],
+      "utterances": [
+        "Hello, adventurer.  Looking to get some items repaired after a hard day of dragon slaying?",
+        "Greetings there, have something that you think needs a bit of repair?"
+      ]
+    },
+    {
+      "name": "Byrtle Bobblepeg",
+      "purpose": "Bowyer",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "905.26,-17.76,-489.23"
+      ],
+      "utterances": [
+        "Welcome! What can I help you with?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1039560617 538023942:elm short bow\\/a",
+          "prices": [
+            {
+              "coin": 168
+            }
+          ]
+        }
+      ],
+      "store_template": "bowyer"
+    },
+    {
+      "name": "Diggin Diggs",
+      "purpose": "Armor and Shields",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "855.84,-18.21,-520.87"
+      ],
+      "utterances": [
+        "You're looking a might shabby there.  You could use some fine armor from Diggs' inventory.  I carry only the finest quality and sell at outrageously low, low prices!  I live for the community.",
+        "So, you're a worker with no task, eh?  If you're itchin' to fill your pockets with heavy coin, then I have a task for you.  Are you interested in hunting?",
+        "Then prepare for a hunting trip in the Forest Ruins.  I'll pay you handsomely for a bundle of badger pelts.  I may even toss in a bit of Diggs' finest armor.",
+        "Try to make them high quality pelts!",
+        "Fine work ... fine work!  I must tell you, I just paid my merchant taxes.  'Fraid the coin ain't as heavy as I promised.  Sorry, taxes you know?  I speak the truth!"
+      ],
+      "store_template": "shieldsmith_origins+armorsmith"
+    },
+    {
+      "name": "Dondl Fuzzlecutter",
+      "purpose": "Provisioner",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "833.48,-17.77,-482.45"
+      ],
+      "utterances": [
+        "...The tract-o-fizzle attaches to the wizgiggler.  Or is it the other way around?  What do you think my friend?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 2101037654 -691033172 0 0 0:an emerald gem\\/a",
+          "prices": [
+            {
+              "coin": 132
+            }
+          ]
+        }
+      ],
+      "store_template": "provisioner"
+    },
+    {
+      "name": "Drizzcopper",
+      "purpose": "Banker",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "893.63,-18.01,-485.35"
+      ],
+      "utterances": [
+        "The answer to your question is no. I'm afraid we don't extend lines of credit at this time."
+      ]
+    },
+    {
+      "name": "Drundo Parn",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "884.17,-18.31,-442.64"
+      ]
+    },
+    {
+      "name": "Fillzer Fuzzle",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "817.52,-15.0,-452.38"
+      ]
+    },
+    {
+      "name": "Ganla Dindlenod",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "862.3,-18.85,-465.21"
+      ]
+    },
+    {
+      "name": "Geologist Quardifle",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "839.69,-19.51,-428.42"
+      ]
+    },
+    {
+      "name": "Gornit Penwiggle",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "887.21,-18.31,-440.65"
+      ]
+    },
+    {
+      "name": "a honey guardian",
+      "locations": [
+        "862.43,-17.94,-439.52",
+        "891.51,-15.10,-443.94",
+        "937.00,-17.68,-438.21"
+      ]
+    },
+    {
+      "name": "Innkeeper Millbanks",
+      "purpose": "Housing",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "898.51,-17.69,-490.57"
+      ],
+      "utterances": [
+        "Welcome to the Inn, adventurer.  You look absolutely exhausted. Here, let us take your things!"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1192413674 -55368781 0 0 0:a Qeynosian large wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -568616880 1329473188 0 0 0:a Qeynosian medium wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1457739578 -655029930 0 0 0:a Qeynosian small wooden barrel\\/a",
+          "prices": [
+            {
+              "coin": 30
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -949197158 -767980191 0 0 0:a wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 90
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -1579048607 -882452909 0 0 0:an antonican wooden bucket\\/a",
+          "prices": [
+            {
+              "coin": 270
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -284346789 729139268 0 0 0:an enchanter's candelabra\\/a",
+          "prices": [
+            {
+              "coin": 21870
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jayla Midhop",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "860.47,-18.02,-520.06"
+      ],
+      "utterances": [
+        "Sorry, I'd prefer not to talk right now."
+      ]
+    },
+    {
+      "name": "Kaldin Deeppockets",
+      "purpose": "General Goods",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "883.59,-18.18,-436.98"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -1241081646 1636802182:rawhide leather rucksack\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        }
+      ],
+      "store_template": "general_goods"
+    },
+    {
+      "name": "Lozoria Shinkicker",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "878.34,-18.31,-440.63"
+      ]
+    },
+    {
+      "name": "Maela Meadows",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "857.3,-11.98,-417.39"
+      ]
+    },
+    {
+      "name": "Mangler XII",
+      "locations": [
+        "843.95,-18.42,-518.89"
+      ]
+    },
+    {
+      "name": "Marshal Surefoot",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "882.68,-13.14,-441.29"
+      ],
+      "utterances": [
+        "Stand stout! You'd make a fine deputy.",
+        "Aha!  A mercenary!  I can use your mettle for testing the strengths of the enemy.  Can you overcome the titans of the forest?  What do ya say, soldier?",
+        "Then stand firm and venture to the Forest Ruins.  The foes act as Forgotten Guardians.  They prey upon the people ... stand tall, soldier!  Crush a few and return with a tale of victory!",
+        "Good! Return when you've bested them.",
+        "What bravery!  You laughed in the face of death! You are a true protector of the forest realms.  I shall seek you out when I recruit my force of Leatherfoot deputies.  You are relieved for now."
+      ]
+    },
+    {
+      "name": "Mirf Guinders",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "883.3,-13.4,-439.62"
+      ]
+    },
+    {
+      "name": "Neezer Grund",
+      "purpose": "Gnome Mentor",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "946.78,-18.06,-440.73"
+      ]
+    },
+    {
+      "name": "Nyla Diggs",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "843.72,-17.72,-470.12"
+      ]
+    },
+    {
+      "name": "Peona Toughins",
+      "purpose": "Tailor",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "827.66,-17.9,-501.86"
+      ],
+      "utterances": [
+        "Your garb looks a might worn.  Can I interest you in a fine new set of armor?",
+        "You can never be too careful when it comes to protecting yourself. Why not try something new?",
+        "Hello there!  Can I interest you in some of the finest merchandise this side of Norrath?",
+        "Dare I say, it's a fine day for shopping. How can I help you?"
+      ],
+      "store_template": "tailor"
+    },
+    {
+      "name": "Pirnook Valewine",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "849.18,-19.05,-487.75"
+      ],
+      "utterances": [
+        "Oh! Excuse me for not recognizing your face.  I've only just arrived.  You know, this place is nice enough, but it still doesn't compare to the Vale ... Aaah, I guess I'll just have to make the best of it.",
+        "Oh, I just miss the Vale terribly, and I know that I'll never see it again. It'll never be as it was before, well, before I came here, anyway.",
+        "You're ... you're right, I do, but I'm hesitant. I think that if I talk about it ... if someone else knows what I've seen, then ... then it'll be real.  I don't want it to be real.",
+        "Well ... I ... I can't, I just can't describe the things I've seen. I can tell you what I feel, and what I think, I suppose.  Yes, it's better this way.  The world should know that the Vale ... well, it just might not be there anymore, at least not in the way we know it.",
+        "Oh, I know. But you see, Rivervale and the Misty Thicket were special; they weren't harmed in the Cataclysms!  Somehow our lands survived unscathed!  It was a paradise when the rest of the world was broken and shattered.",
+        "Yes. It did.  Something is happening in the vale at this very moment!  It's ... it's terrible!  I just ... I just don't want to think about it!  I can't!  I'm really very sorry, but I just can't.  Not yet.  I need time, just a little time for the nightmares to go away...",
+        "I know, I know, but you haven't seen what I've seen!  You haven't heard the screams in the night!  Oh, those ghastly, horrific screams of pain and ... and merriment!  Cries of merriment in the slaughter!  It's ... it's happening now!  Right now!  They're suffering and I can't help them!  No one can help them!",
+        "Death and suffering!  All of them dead and suffering!  They ... they bring it!  They revel in it!  It's like wine and song to them!  They're beyond evil, and they won't stop until they reave every last bit of life from the land!",
+        "Terrible, horrible things in the night.  They shriek and howl, and then they sing softly and tenderly and sooth the nightmares away.  They're here for all of us; they won't stop until they've drained all life away.  Oh no, Launa!  My sweet Launa!  She's still there!  I abandoned her!  I had to, my sweet Launa, I had to ...  you were lost to them, but I couldn't do it!  I just couldn't do it!  Oh, please forgive me..."
+      ]
+    },
+    {
+      "name": "Rala Eurocarry",
+      "purpose": "Crafting Trainer",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "821.21,-8.82,-475.89"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM -2098664565 110889718:Advanced Artisan Volume 6\\/a",
+          "prices": [
+            {
+              "coin": 120
+            }
+          ]
+        }
+      ],
+      "store_template": "crafting_trainer"
+    },
+    {
+      "name": "a rat",
+      "locations": [
+        "946.41,-18.08,-439.01"
+      ]
+    },
+    {
+      "name": "Rebik Sprocketrock",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "855.68,-18.22,-516.48"
+      ]
+    },
+    {
+      "name": "Remo Zigg",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "802.49,-1.56,-452.63"
+      ]
+    },
+    {
+      "name": "Rondo \"The Belly\" Roundstew",
+      "purpose": "Halfling Mentor",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "946.75,-18.05,-436.16"
+      ]
+    },
+    {
+      "name": "Sage Xoort",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "867.03,-18.63,-481.23"
+      ],
+      "utterances": [
+        "Hello there!  How can I be of service?",
+        "Nothing much, just a schematic I'm working on.  I can't find a power source for it ... Oh, Solusek's flame! How in the name of Brell can I make this thing work?",
+        "Fire's no good. It doesn't get hot enough or burn long enough.  WAIT!  HAH! Oh, you're right! I need a special type of coal.  You thought of it, so you can fetch it. I need still-burning embers from the forgotten guardians in the Forest Ruins.",
+        "Well?  What are you waiting for?  Go, go, GO!",
+        "So, you return with the coals ... I hope you didn't get burned! Let me take a look...",
+        "Oh yes! These shall work nicely!  Tell you what -- take this money for your work. I planned on buying a spell for creating a power source but because of your smart thinking and hard work, I need no spell!",
+        "Oh to Drunder with this! How will I ever be able to get this thing working?"
+      ]
+    },
+    {
+      "name": "Smithy Findlebop",
+      "purpose": "Weaponsmith",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "854.71,-18.22,-517.01"
+      ],
+      "utterances": [
+        "Never go into battle without a tried and trusted weapon. Take a look at what we have in stock.",
+        "Welcome to my humble shop.  We have quite a selection of weapons to choose from.  See for yourself..."
+      ],
+      "store_template": "weaponsmith"
+    },
+    {
+      "name": "Tapster Bregun",
+      "purpose": "Bartender",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "883.89,-18.31,-439.19"
+      ],
+      "utterances": [
+        "What can I get for ya?"
+      ],
+      "store_template": "bartender"
+    },
+    {
+      "name": "Tawli Whiskwind",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "826.52,-13.69,-488.5"
+      ],
+      "utterances": [
+        "Good day to you, deary!  I make the most wonderful brooms--strong bristles, stout handles, and quite stylish if you ask me.  Great for sweeping off your doorstep or scaring off little critters!",
+        "Well, if anyone can wear out a broom, it's Vida. She sweeps so much you could eat off her spotless floor! Here's her new broom. I hope she uses it well."
+      ]
+    },
+    {
+      "name": "Tinkerer Spindlecog",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "890.98,-18.01,-481.55"
+      ]
+    },
+    {
+      "name": "Wazzleburn",
+      "purpose": "Spell Scrolls",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "857.17,-17.87,-507.1"
+      ],
+      "utterances": [
+        "Blast it! Who keeps taking all of the parchment?  ",
+        "All right where is my pen?  How am I supposed to scribe anything without my pen?"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 585316378 303462942 0 0 0:Gnomish Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM 1810019329 957803865 0 0 0:Stout Language Primer\\/a",
+          "prices": [
+            {
+              "coin": 1800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yola Sindlefop",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "846.7,-19.56,-441.1"
+      ]
+    },
+    {
+      "name": "Zipiff Clamorclang",
+      "race": [
+        "gnome"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "859.99,-18.23,-509.9"
+      ]
+    }
+  ]
+}

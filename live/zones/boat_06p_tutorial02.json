@@ -77,7 +77,7 @@
     },
     {
       "name": "a goblin",
-      "level": 1,
+      "levelRange": "1",
       "locations": [
         "-4.00,-2.07,7.00",
         "-1.46,-2.06,-5.27"
@@ -130,19 +130,19 @@
     },
     {
       "name": "a rat",
-      "level": 1,
+      "levelRange": "1",
       "locations": [
         "2.96,-2.07,-5.76",
         "2.17,-2.07,3.95"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1538486305 2099514904:rodent meat\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 749248703 -1511630590:Dawnstrike (Adept)\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1538486305 2099514904:rodent meat\\/a",
+          "chest": false
         }
       ]
     },
@@ -165,13 +165,13 @@
     },
     {
       "name": "Vim",
+      "purpose": "Merchant",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Merchant",
       "locations": [
         "-2.17,0.55,13.86"
       ],

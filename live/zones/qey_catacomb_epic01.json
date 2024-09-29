@@ -18,7 +18,7 @@
   "npcs": [
     {
       "name": "a circle intiate",
-      "level": 10,
+      "levelRange": "10",
       "difficulty": "heroic",
       "locations": [
         "-12.00,-0.39,3.13",
@@ -33,7 +33,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -41,11 +45,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -72,7 +72,7 @@
     },
     {
       "name": "Rollus the Sly",
-      "level": 12,
+      "levelRange": "12",
       "difficulty": "heroic",
       "locations": [
         "5,1,6",
@@ -90,14 +90,14 @@
     },
     {
       "name": "an Unseen Hand intiate",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "8.88,0.12,9.00"
       ]
     },
     {
       "name": "an Unseen Hand taskmaster",
-      "level": 10,
+      "levelRange": "10",
       "difficulty": "heroic",
       "locations": [
         "-9,0,-2"

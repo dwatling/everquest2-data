@@ -22,7 +22,7 @@
   "npcs": [
     {
       "name": "Advisor Kre'lak",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic^^^",
       "locations": [
         "-62.97,-38.81,-51.85"
@@ -48,9 +48,9 @@
     },
     {
       "name": "a blackguard",
-      "level": 18,
-      "aggressive": true,
+      "levelRange": "18",
       "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "-285.46,-50.00,-78.39",
         "-276.09,-50.00,-77.06",
@@ -62,11 +62,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -79,20 +79,20 @@
     },
     {
       "name": "a bloodthirsty worg",
-      "level": 18,
-      "aggressive": true,
+      "levelRange": "18",
       "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "-277.13,-50.00,-80.54",
         "-284.06,-50.00,-79.47"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -742202141 1746681072:Lesser Blood of the Wolf\\/a",
+          "gamelink": "\\aITEM 1024480043 347122643:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1024480043 347122643:canine saliva\\/a",
+          "gamelink": "\\aITEM -742202141 1746681072:Lesser Blood of the Wolf\\/a",
           "chest": false
         }
       ],
@@ -125,15 +125,15 @@
     },
     {
       "name": "a concubine",
+      "levelRange": "18",
+      "difficulty": "heroic",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "level": 18,
       "aggressive": true,
-      "difficulty": "heroic",
       "locations": [
         "-275.15,-49.44,-85.28",
         "-283.08,-49.44,-84.4",
@@ -150,7 +150,7 @@
     },
     {
       "name": "a debris scavenger",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic^^",
       "locations": [
         "-35.50,-14.12,-108.76",
@@ -164,9 +164,9 @@
     },
     {
       "name": "a dervish cutthroat",
-      "level": 17,
-      "aggressive": true,
+      "levelRange": "17",
       "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "-109.40,-51.31,-63.38",
         "-104.23,-51.31,-57.76"
@@ -188,18 +188,18 @@
     },
     {
       "name": "Druhdak Shin`Ree",
-      "level": 15,
-      "aggressive": true,
+      "levelRange": "15",
       "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-66.86,-51.72,-178.47"
       ]
     },
     {
       "name": "Garreg Stonecrusher",
-      "level": 15,
-      "aggressive": true,
+      "levelRange": "15",
       "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "4.52,-14.47,-103.85"
       ],
@@ -216,11 +216,11 @@
     },
     {
       "name": "Ghi'Zard the Worg Master",
+      "levelRange": "18",
+      "difficulty": "heroic^^",
       "gender": [
         "male"
       ],
-      "level": 18,
-      "difficulty": "heroic^^",
       "locations": [
         "-281.26,-50.0,-80.26"
       ],
@@ -237,9 +237,9 @@
     },
     {
       "name": "a hoard hound",
-      "level": 15,
-      "aggressive": true,
+      "levelRange": "15",
       "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-42.39,-33.11,-92.70",
         "-42.73,-33.11,-85.40",
@@ -258,9 +258,9 @@
     },
     {
       "name": "Kyllik the Fated",
-      "level": 17,
-      "aggressive": true,
+      "levelRange": "17",
       "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-125.16,-50.75,-61.78"
       ],
@@ -276,7 +276,7 @@
     },
     {
       "name": "Lord Ree",
-      "level": 18,
+      "levelRange": "18",
       "difficulty": "heroic^^^",
       "locations": [
         "-280.15,-49.44,-83.10"
@@ -291,9 +291,9 @@
     },
     {
       "name": "a loyal attendant",
-      "level": 17,
-      "aggressive": true,
+      "levelRange": "17",
       "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "-119.68,-50.75,-62.28",
         "-125.30,-50.75,-52.67"
@@ -313,7 +313,7 @@
     },
     {
       "name": "a lurid crawler",
-      "level": 13,
+      "levelRange": "13",
       "aggressive": true,
       "locations": [
         "-36.69,-3.97,-16.05",
@@ -339,7 +339,7 @@
     },
     {
       "name": "a lurid creeper",
-      "level": 14,
+      "levelRange": "14",
       "aggressive": true,
       "locations": [
         "36.24,-14.11,-62.04",
@@ -359,9 +359,9 @@
     },
     {
       "name": "a lurid feeder",
-      "level": 15,
-      "aggressive": true,
+      "levelRange": "15",
       "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "52.09,-13.13,-19.39",
         "51.85,-13.69,-24.99"
@@ -375,9 +375,9 @@
     },
     {
       "name": "a lurid ripper",
-      "level": 14,
-      "aggressive": true,
+      "levelRange": "14",
       "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "36.14,-15.45,-29.45",
         "53.49,-14.18,-29.37"
@@ -391,9 +391,9 @@
     },
     {
       "name": "a lurid shadowlurker",
-      "level": 17,
-      "aggressive": true,
+      "levelRange": "17",
       "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-214.52,-47.00,-79.97",
         "-202.54,-46.56,-84.96",
@@ -411,7 +411,7 @@
     },
     {
       "name": "Mess Sergeant Slogg",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic^^^",
       "locations": [
         "-45.08,-26.34,-43.89"
@@ -425,7 +425,7 @@
     },
     {
       "name": "a primordial menace",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "9.64,-10.94,-70.80",
         "9.67,-12.11,-77.78",
@@ -433,18 +433,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 2038039599 -1763622889:a mucous encrusted tendril\\/a",
+          "gamelink": "\\aITEM -1700581584 -1564337946:an accumulation of plasma\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1700581584 -1564337946:an accumulation of plasma\\/a",
+          "gamelink": "\\aITEM 2038039599 -1763622889:a mucous encrusted tendril\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a primordial seep",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "-12.04,-7.37,-50.89",
         "-28.56,-5.74,-61.25",
@@ -459,9 +459,9 @@
     },
     {
       "name": "Punisher Kharg",
-      "level": 16,
-      "aggressive": true,
+      "levelRange": "16",
       "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-69.90,-26.34,-7.53"
       ],
@@ -482,9 +482,9 @@
     },
     {
       "name": "Raid Chief Kregahn",
-      "level": 17,
-      "aggressive": true,
+      "levelRange": "17",
       "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "-110.40,-51.31,-60.26"
       ],
@@ -499,9 +499,9 @@
     },
     {
       "name": "a raider of Ree",
-      "level": 16,
-      "aggressive": true,
+      "levelRange": "16",
       "difficulty": "heroicvv",
+      "aggressive": true,
       "locations": [
         "-54.45,-13.64,-110.29",
         "-56.09,-13.64,-123.93",
@@ -517,11 +517,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         }
       ],
@@ -536,9 +536,9 @@
     },
     {
       "name": "a raid leader",
-      "level": 17,
-      "aggressive": true,
+      "levelRange": "17",
       "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "-110.40,-51.31,-60.26",
         "-103.08,-51.29,-60.21"
@@ -552,20 +552,20 @@
     },
     {
       "name": "a raid schemer",
-      "level": 17,
-      "aggressive": true,
+      "levelRange": "17",
       "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "-104.23,-51.31,-57.76",
         "-107.28,-51.31,-64.28"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
       ],
@@ -578,9 +578,9 @@
     },
     {
       "name": "a Ree armorer",
-      "level": 15,
-      "aggressive": true,
+      "levelRange": "15",
       "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-63.43,-33.15,-97.13",
         "-73.55,-33.15,-81.68",
@@ -588,11 +588,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
           "chest": false
         },
         {
@@ -611,20 +611,20 @@
     },
     {
       "name": "a Ree channeler",
-      "level": 16,
-      "aggressive": true,
+      "levelRange": "16",
       "difficulty": "heroicvv",
+      "aggressive": true,
       "locations": [
         "-97.22,-33.26,-141.64",
         "-110.36,-33.32,-136.34"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1136651119 1578780024:intricately carved acorn\\/a",
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "gamelink": "\\aITEM 1136651119 1578780024:intricately carved acorn\\/a",
           "chest": false
         }
       ],
@@ -637,9 +637,9 @@
     },
     {
       "name": "a Ree defender",
-      "level": 15,
-      "aggressive": true,
+      "levelRange": "15",
       "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-37.95,-26.34,-16.33",
         "-41.74,-26.34,-21.68",
@@ -658,19 +658,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1328289081 -1699088314:an orc spine\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -678,7 +666,19 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1328289081 -1699088314:an orc spine\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -693,9 +693,9 @@
     },
     {
       "name": "a Ree jailer",
-      "level": 16,
-      "aggressive": true,
+      "levelRange": "16",
       "difficulty": "heroic^^",
+      "aggressive": true,
       "locations": [
         "-68.90,-26.34,-17.54",
         "-72.78,-26.34,-7.46",
@@ -711,15 +711,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 705602020 -966949899:cracked iron stein\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -734,9 +734,9 @@
     },
     {
       "name": "a Ree protector",
-      "level": 16,
-      "aggressive": true,
+      "levelRange": "16",
       "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "-60.81,-33.15,-86.10",
         "-86.27,-48.57,-52.00",
@@ -752,15 +752,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         }
       ],
@@ -775,9 +775,9 @@
     },
     {
       "name": "a Ree recruit",
-      "level": 15,
-      "aggressive": true,
+      "levelRange": "15",
       "difficulty": "heroic^",
+      "aggressive": true,
       "locations": [
         "-34.82,-26.34,-4.90",
         "-47.50,-26.34,-8.98",
@@ -785,6 +785,10 @@
         "-40.46,-26.34,-9.55"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
         {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
@@ -795,10 +799,6 @@
         },
         {
           "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         }
       ],
@@ -813,9 +813,9 @@
     },
     {
       "name": "a Ree spiritkeeper",
-      "level": 16,
-      "aggressive": true,
+      "levelRange": "16",
       "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-163.98,-55.56,-32.12",
         "-179.31,-56.21,-38.25",
@@ -827,12 +827,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -245200041 58246959:an old dagger\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 17,
@@ -846,9 +846,9 @@
     },
     {
       "name": "a Ree steelworker",
-      "level": 16,
-      "aggressive": true,
+      "levelRange": "16",
       "difficulty": "heroicvv",
+      "aggressive": true,
       "locations": [
         "-110.36,-33.32,-136.34",
         "-100.65,-33.28,-142.86",
@@ -871,9 +871,9 @@
     },
     {
       "name": "a Ree underguard",
-      "level": 17,
-      "aggressive": true,
+      "levelRange": "17",
       "difficulty": "heroic^^",
+      "aggressive": true,
       "locations": [
         "-96.39,-50.75,-44.92",
         "-106.30,-50.75,-46.99",
@@ -899,27 +899,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -783499979 1684659895:a ring blank\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 2096053587 1975965991:intricate metal bowl\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -933,6 +917,22 @@
         {
           "gamelink": "\\aITEM 705602020 -966949899:cracked iron stein\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2096053587 1975965991:intricate metal bowl\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -783499979 1684659895:a ring blank\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 17,
@@ -946,9 +946,9 @@
     },
     {
       "name": "a Ree weaponsmith",
-      "level": 15,
-      "aggressive": true,
+      "levelRange": "15",
       "difficulty": "heroicv",
+      "aggressive": true,
       "locations": [
         "-104.00,-33.29,-141.27"
       ],
@@ -967,9 +967,9 @@
     },
     {
       "name": "a scout of Ree",
-      "level": 14,
-      "aggressive": true,
+      "levelRange": "14",
       "difficulty": "heroic^",
+      "aggressive": true,
       "locations": [
         "3.04,-15.09,-112.40",
         "-4.85,-15.10,-114.97",
@@ -1006,9 +1006,9 @@
     },
     {
       "name": "a sentry of Ree",
-      "level": 15,
-      "aggressive": true,
+      "levelRange": "15",
       "difficulty": "heroic^^",
+      "aggressive": true,
       "locations": [
         "-50.19,-14.91,-147.67",
         "-73.87,-13.81,-169.14",
@@ -1039,7 +1039,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
           "chest": false
         },
         {
@@ -1051,15 +1051,23 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 1627573543 -1966055113:bride's promise\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1209777900 -1114230088:The Crimson Paw Cloak\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
@@ -1071,19 +1079,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1209777900 -1114230088:The Crimson Paw Cloak\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1627573543 -1966055113:bride's promise\\/a",
           "chest": false
         },
         {
@@ -1102,9 +1102,9 @@
     },
     {
       "name": "a Shin`Ree aggressor",
-      "level": 15,
-      "aggressive": true,
+      "levelRange": "15",
       "difficulty": "heroic^",
+      "aggressive": true,
       "locations": [
         "-59.36,-51.80,-161.05",
         "-65.28,-51.79,-174.70",
@@ -1121,7 +1121,7 @@
     },
     {
       "name": "a Shin`Ree apprentice",
-      "level": 13,
+      "levelRange": "13",
       "aggressive": true,
       "locations": [
         "-24.02,-5.12,-28.57",
@@ -1141,9 +1141,9 @@
     },
     {
       "name": "a Shin`Ree augur",
-      "level": 15,
-      "aggressive": true,
+      "levelRange": "15",
       "difficulty": "heroicv",
+      "aggressive": true,
       "locations": [
         "-64.00,-51.75,-177.02",
         "-69.59,-51.81,-156.57",
@@ -1156,7 +1156,7 @@
     },
     {
       "name": "a Shin`Ree avenger",
-      "level": 14,
+      "levelRange": "14",
       "aggressive": true,
       "locations": [
         "-1.96,-7.77,-64.66",
@@ -1181,9 +1181,9 @@
     },
     {
       "name": "a Shin`Ree pawn",
-      "level": 13,
-      "aggressive": true,
+      "levelRange": "13",
       "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "-36.77,-3.75,-22.14",
         "-34.01,-4.77,-37.61",
@@ -1203,9 +1203,9 @@
     },
     {
       "name": "a Shin'Ree spirit",
-      "level": 17,
-      "aggressive": true,
+      "levelRange": "17",
       "difficulty": "heroic^^^",
+      "aggressive": true,
       "locations": [
         "-177.12,-57.47,-27.02",
         "-188.97,-57.49,-19.24",
@@ -1227,7 +1227,7 @@
     },
     {
       "name": "a Shin`Ree spiritist",
-      "level": 14,
+      "levelRange": "14",
       "aggressive": true,
       "locations": [
         "-0.73,-7.81,-60.97",
@@ -1246,9 +1246,9 @@
     },
     {
       "name": "a Shin`Ree stalker",
-      "level": 15,
-      "aggressive": true,
+      "levelRange": "15",
       "difficulty": "heroicv",
+      "aggressive": true,
       "locations": [
         "-67.95,-51.82,-174.02",
         "-69.99,-51.81,-163.93",
@@ -1261,7 +1261,7 @@
     },
     {
       "name": "Soulspike",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic^^",
       "locations": [
         "53.33,-12.99,-15.84"
@@ -1269,7 +1269,7 @@
     },
     {
       "name": "a spectral shriller",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-37.65,-2.91,-18.78",
         "-51.55,-0.42,-36.00",
@@ -1289,7 +1289,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
@@ -1301,7 +1301,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
           "chest": false
         }
       ],
@@ -1310,9 +1310,9 @@
     },
     {
       "name": "a storeroom laborer",
-      "level": 15,
-      "aggressive": true,
+      "levelRange": "15",
       "difficulty": "heroic^",
+      "aggressive": true,
       "locations": [
         "-35.85,-33.11,-96.36",
         "-43.70,-33.11,-89.41",
@@ -1324,11 +1324,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1051274710 851941877:a stylized dagger\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
         },
         {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "gamelink": "\\aITEM 1328289081 -1699088314:an orc spine\\/a",
           "chest": false
         },
         {
@@ -1336,8 +1336,8 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1328289081 -1699088314:an orc spine\\/a",
-          "chest": false
+          "gamelink": "\\aITEM 1051274710 851941877:a stylized dagger\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 19,
@@ -1351,9 +1351,9 @@
     },
     {
       "name": "a strongbox deceiver",
-      "level": 15,
-      "aggressive": true,
+      "levelRange": "15",
       "difficulty": "heroic^^",
+      "aggressive": true,
       "locations": [
         "-58.15,-12.55,-124.69",
         "-49.94,-13.51,-122.44",
@@ -1368,11 +1368,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM 2096053587 1975965991:intricate metal bowl\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2096053587 1975965991:intricate metal bowl\\/a",
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],

@@ -13,7 +13,16 @@
       "key": "antonica"
     },
     {
-      "key": "qeynos_combined02"
+      "key": "arena_of_the_gods"
+    },
+    {
+      "key": "exp11_dun_precipice_of_power"
+    },
+    {
+      "key": "live_haunted_mansion_qey"
+    },
+    {
+      "key": "live_notd_mansion"
     },
     {
       "key": "qey_catacomb01"
@@ -22,16 +31,7 @@
       "key": "qey_tradeskill01_qey_north_ironforge"
     },
     {
-      "key": "exp11_dun_precipice_of_power"
-    },
-    {
-      "key": "arena_of_the_gods"
-    },
-    {
-      "key": "live_haunted_mansion_qey"
-    },
-    {
-      "key": "live_notd_mansion"
+      "key": "qeynos_combined02"
     }
   ],
   "npcs": [
@@ -1320,7 +1320,7 @@
     {
       "name": "Barr",
       "purpose": "Guard",
-      "level": 45,
+      "levelRange": "45",
       "locations": [
         "782.31,-21.01,185.14"
       ],
@@ -1360,7 +1360,7 @@
     {
       "name": "Bauer",
       "purpose": "Guard",
-      "level": 50,
+      "levelRange": "50",
       "locations": [
         "396.48,-20.99,129.55"
       ],
@@ -1523,7 +1523,7 @@
     {
       "name": "Blackhammer",
       "purpose": "Guard",
-      "level": 50,
+      "levelRange": "50",
       "locations": [
         "244.5,-21.44,-26.78"
       ],
@@ -1687,7 +1687,7 @@
     {
       "name": "Burkin",
       "purpose": "Guard",
-      "level": 50,
+      "levelRange": "50",
       "locations": [
         "412.33,-12.19,-24.27"
       ],
@@ -1721,7 +1721,7 @@
     {
       "name": "Captain Cahptor",
       "purpose": "Guard",
-      "level": 50,
+      "levelRange": "50",
       "difficulty": "epic^4",
       "locations": [
         "685.87,-19.52,211.78",
@@ -1736,7 +1736,7 @@
     {
       "name": "Captain Campos",
       "purpose": "Guard",
-      "level": 55,
+      "levelRange": "55",
       "difficulty": "epic^4",
       "locations": [
         "365.99,-20.97,131.02",
@@ -1752,7 +1752,7 @@
     {
       "name": "Captain Chapman",
       "purpose": "Guard",
-      "level": 50,
+      "levelRange": "50",
       "difficulty": "epic^4",
       "locations": [
         "436.7,-21.82,276.89",
@@ -1764,7 +1764,7 @@
     {
       "name": "Captain Lawler",
       "purpose": "Guard",
-      "level": 50,
+      "levelRange": "50",
       "difficulty": "epic^4",
       "locations": [
         "561.57,-17.7,241.87",
@@ -1776,7 +1776,7 @@
     {
       "name": "Captain Lovato",
       "purpose": "Guard",
-      "level": 55,
+      "levelRange": "55",
       "difficulty": "epic4",
       "locations": [
         "386.55,-17.53,-271.67",
@@ -1796,7 +1796,7 @@
     {
       "name": "Captain McDuffie",
       "purpose": "Guard",
-      "level": 55,
+      "levelRange": "55",
       "difficulty": "epic^4",
       "locations": [
         "359.65,-19.81,160.81",
@@ -1820,7 +1820,7 @@
     {
       "name": "Captain Penley",
       "purpose": "Guard",
-      "level": 55,
+      "levelRange": "55",
       "difficulty": "epic4",
       "locations": [
         "399.29,-23.39,-208.35",
@@ -2461,7 +2461,7 @@
     {
       "name": "Coalbeard",
       "purpose": "Guard",
-      "level": 50,
+      "levelRange": "50",
       "locations": [
         "499.07,-20.63,-276.7"
       ],
@@ -2701,13 +2701,13 @@
     },
     {
       "name": "Darkpaw Celebrator Katrynn",
+      "purpose": "Year of Darkpaw Merchant",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Year of Darkpaw Merchant",
       "locations": [
         "387.17,-15.2,-79.31"
       ],
@@ -3022,7 +3022,7 @@
     {
       "name": "Eraanus",
       "purpose": "Guard",
-      "level": 45,
+      "levelRange": "45",
       "locations": [
         "438.87,-20.83,241.21"
       ],
@@ -3080,7 +3080,7 @@
     {
       "name": "Feeyord",
       "purpose": "Guard",
-      "level": 53,
+      "levelRange": "53",
       "difficulty": "epic^2",
       "locations": [
         "250.33,-21.41,-19.09",
@@ -3273,7 +3273,7 @@
     {
       "name": "Galla",
       "purpose": "Guard",
-      "level": 48,
+      "levelRange": "48",
       "difficulty": "epic^2",
       "locations": [
         "674.19,-19.7,222.76",
@@ -3543,7 +3543,7 @@
     {
       "name": "Gavinfell",
       "purpose": "Guard",
-      "level": 48,
+      "levelRange": "48",
       "difficulty": "epic^2",
       "locations": [
         "674.19,-19.7,222.76",
@@ -3759,7 +3759,7 @@
     {
       "name": "Gyles",
       "purpose": "Guard",
-      "level": 53,
+      "levelRange": "53",
       "difficulty": "epic^2",
       "locations": [
         "342.15,-21.31,54.27",
@@ -4645,51 +4645,6 @@
       ]
     },
     {
-      "name": "a Heroes' Festival merchant",
-      "store": [
-        {
-          "gamelink": "\\aITEM -2054080482 -1219840007:Heroes' Festival Minstrel Boots\\/a",
-          "prices": [
-            {
-              "coin": 3600
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -768111414 870463827:Heroes' Festival Minstrel Coat\\/a",
-          "prices": [
-            {
-              "coin": 3600
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM 1006044679 1846385710:Heroes' Festival Minstrel Gloves\\/a",
-          "prices": [
-            {
-              "coin": 3600
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -351666511 265681230:Heroes' Festival Minstrel Greaves\\/a",
-          "prices": [
-            {
-              "coin": 3600
-            }
-          ]
-        },
-        {
-          "gamelink": "\\aITEM -53322557 1421997753:Heroes' Festival Minstrel Mantle\\/a",
-          "prices": [
-            {
-              "coin": 3600
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Hilirgo",
       "locations": [
         "388.87,-23.75,-123.4"
@@ -4720,7 +4675,7 @@
     {
       "name": "Icebear",
       "purpose": "Guard",
-      "level": 53,
+      "levelRange": "53",
       "difficulty": "epic^2",
       "locations": [
         "342.15,-21.31,54.27",
@@ -5659,7 +5614,7 @@
     {
       "name": "Johannus",
       "purpose": "Guard",
-      "level": 53,
+      "levelRange": "53",
       "difficulty": "epic^2",
       "locations": [
         "250.33,-21.41,-19.09",
@@ -7730,29 +7685,6 @@
       ]
     },
     {
-      "name": "Knight-Lieutenant Ilgar",
-      "purpose": "Qeynos Guard",
-      "locations": [
-        "471.54,-21.01,194.15",
-        "452.58,-22.01,240.67",
-        "422.63,-20.91,162.73",
-        "475.83,-20.75,189",
-        "460.89,-21.26,218.59"
-      ]
-    },
-    {
-      "name": "Knight-Lieutenant Laughlin",
-      "locations": [
-        "263.56,-21.46,-20.3"
-      ],
-      "utterances": [
-        "Hail and well met!  Please be aware that while you are safe within Qeynos' mighty walls, the outside world is not as forgiving. Dangerous creatures roam the lands beyond these gates.  Beware!",
-        "Famous, eh?  Best keep your feet planted before your head floats off.  Though, if you're looking for some recognition, I've been having some problems with the gnolls outside the gates here.  I can't spare the men to go hunt them down, you wouldn't be interested in helping out, would you?",
-        "Such an eager recruit! Bring me back the ears of ten gnolls.  That should be sufficient to bring their population down to a reasonable level for now.  You'll find them around the gates of the city, roaming like the dogs they are!",
-        "So you did... so you did.  Well met adventurer you may be famous one day after all.  Let me see, I think the city can afford to pay you a bit for your work here.  Take this bag of coins, it should suffice."
-      ]
-    },
-    {
       "name": "Knight-Captain Steelgaze",
       "locations": [
         "476.21,3.51,-11.67"
@@ -7764,7 +7696,7 @@
     {
       "name": "Knight Guardian Bestrom",
       "purpose": "Guard",
-      "level": 95,
+      "levelRange": "95",
       "difficulty": "epic^3",
       "locations": [
         "483.75,4.98,-15.66"
@@ -7776,7 +7708,7 @@
     {
       "name": "Knight Guardian MacMurris",
       "purpose": "Guard",
-      "level": 95,
+      "levelRange": "95",
       "difficulty": "epic^3",
       "locations": [
         "484.08,4.97,-24.55"
@@ -7799,6 +7731,17 @@
     },
     {
       "name": "Knight-Lieutenant Ilgar",
+      "purpose": "Qeynos Guard",
+      "locations": [
+        "471.54,-21.01,194.15",
+        "452.58,-22.01,240.67",
+        "422.63,-20.91,162.73",
+        "475.83,-20.75,189",
+        "460.89,-21.26,218.59"
+      ]
+    },
+    {
+      "name": "Knight-Lieutenant Ilgar",
       "locations": [
         "471.54,-21.01,194.15",
         "452.58,-22.01,240.67",
@@ -7811,12 +7754,24 @@
       "name": "Knight-Lieutenant Laughlin",
       "locations": [
         "263.56,-21.46,-20.3"
+      ],
+      "utterances": [
+        "Hail and well met!  Please be aware that while you are safe within Qeynos' mighty walls, the outside world is not as forgiving. Dangerous creatures roam the lands beyond these gates.  Beware!",
+        "Famous, eh?  Best keep your feet planted before your head floats off.  Though, if you're looking for some recognition, I've been having some problems with the gnolls outside the gates here.  I can't spare the men to go hunt them down, you wouldn't be interested in helping out, would you?",
+        "Such an eager recruit! Bring me back the ears of ten gnolls.  That should be sufficient to bring their population down to a reasonable level for now.  You'll find them around the gates of the city, roaming like the dogs they are!",
+        "So you did... so you did.  Well met adventurer you may be famous one day after all.  Let me see, I think the city can afford to pay you a bit for your work here.  Take this bag of coins, it should suffice."
+      ]
+    },
+    {
+      "name": "Knight-Lieutenant Laughlin",
+      "locations": [
+        "263.56,-21.46,-20.3"
       ]
     },
     {
       "name": "Krelal",
       "purpose": "Guard",
-      "level": 45,
+      "levelRange": "45",
       "difficulty": "heroic",
       "locations": [
         "625.78,-26.44,105.64"
@@ -7897,7 +7852,7 @@
     {
       "name": "Lanalie",
       "purpose": "Guard",
-      "level": 48,
+      "levelRange": "48",
       "difficulty": "epic^2",
       "locations": [
         "561.57,-17.7,241.87",
@@ -8653,7 +8608,7 @@
     {
       "name": "Lieutenant Erwin",
       "purpose": "Guard",
-      "level": 48,
+      "levelRange": "48",
       "difficulty": "epic^2",
       "locations": [
         "674.19,-19.7,222.76",
@@ -8672,7 +8627,7 @@
     {
       "name": "Lieutenant Raleigh",
       "purpose": "Guard",
-      "level": 48,
+      "levelRange": "48",
       "difficulty": "epic^2",
       "locations": [
         "561.57,-17.7,241.87",
@@ -8997,7 +8952,7 @@
     {
       "name": "Meyer",
       "purpose": "Guard",
-      "level": 50,
+      "levelRange": "50",
       "locations": [
         "243.85,-21.26,-14.18"
       ],
@@ -9014,7 +8969,7 @@
     {
       "name": "Milton",
       "purpose": "Guard",
-      "level": 53,
+      "levelRange": "53",
       "difficulty": "epic^2",
       "locations": [
         "342.15,-21.31,54.27",
@@ -9080,7 +9035,7 @@
     {
       "name": "Mott",
       "purpose": "Guard",
-      "level": 45,
+      "levelRange": "45",
       "locations": [
         "778.18,-21.01,174.39"
       ],
@@ -9544,19 +9499,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
-          "chest": false
+          "gamelink": "\\aITEM 1127740578 1644676632:Advanced Sage Volume 36\\/a",
+          "chest": true
         },
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "gamelink": "\\aITEM 826150606 -1200582802:ancient silver coin\\/a",
           "chest": false
         },
         {
@@ -9564,11 +9511,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -26685399 680889659:Feysteel Relic\\/a",
+          "gamelink": "\\aITEM 2073012232 -609012107:crystal bottle of perfume\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 826150606 -1200582802:ancient silver coin\\/a",
+          "gamelink": "\\aITEM -26685399 680889659:Feysteel Relic\\/a",
           "chest": false
         },
         {
@@ -9576,11 +9523,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2073012232 -609012107:crystal bottle of perfume\\/a",
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
           "chest": false
         },
         {
@@ -9588,8 +9539,12 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1127740578 1644676632:Advanced Sage Volume 36\\/a",
-          "chest": true
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 311,
@@ -9670,7 +9625,7 @@
     {
       "name": "Popelia",
       "purpose": "Guard",
-      "level": 45,
+      "levelRange": "45",
       "locations": [
         "442.01,-21.26,279.59"
       ],
@@ -10185,7 +10140,7 @@
     {
       "name": "Sergeant-at-Arms Illervo",
       "purpose": "Guard",
-      "level": 53,
+      "levelRange": "53",
       "difficulty": "epic^2",
       "locations": [
         "342.15,-21.31,54.27",
@@ -10226,7 +10181,7 @@
     {
       "name": "Sergeant-at-Arms Stoutiron",
       "purpose": "Guard",
-      "level": 53,
+      "levelRange": "53",
       "difficulty": "epic^2",
       "locations": [
         "250.33,-21.41,-19.09",
@@ -10630,7 +10585,7 @@
     {
       "name": "Stanhyl",
       "purpose": "Guard",
-      "level": 48,
+      "levelRange": "48",
       "difficulty": "epic^2",
       "locations": [
         "561.57,-17.7,241.87",
@@ -10722,7 +10677,7 @@
     {
       "name": "Sweeny",
       "purpose": "Guard",
-      "level": 50,
+      "levelRange": "50",
       "locations": [
         "436.23,-12.19,-15.66"
       ],
@@ -11008,7 +10963,7 @@
     {
       "name": "Thompson",
       "purpose": "Guard",
-      "level": 50,
+      "levelRange": "50",
       "locations": [
         "435.95,-12.19,-24.61"
       ],
@@ -11019,7 +10974,7 @@
     {
       "name": "Thorson",
       "purpose": "Guard",
-      "level": 50,
+      "levelRange": "50",
       "locations": [
         "387.68,-21.15,138.29"
       ],
@@ -11102,7 +11057,7 @@
     {
       "name": "Trilin",
       "purpose": "Guard",
-      "level": 50,
+      "levelRange": "50",
       "locations": [
         "411.9,-12.19,-16.04"
       ],
@@ -11594,7 +11549,7 @@
     {
       "name": "Urach",
       "purpose": "Guard",
-      "level": 45,
+      "levelRange": "45",
       "locations": [
         "406.5,-20.96,159.15"
       ],
@@ -11604,13 +11559,13 @@
     },
     {
       "name": "Vare Smothers",
+      "purpose": "Year of Darkpaw Harvester",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Year of Darkpaw Harvester",
       "locations": [
         "388.97,-15.17,-83.72"
       ],
@@ -11870,7 +11825,7 @@
     {
       "name": "Woodrow",
       "purpose": "Guard",
-      "level": 45,
+      "levelRange": "45",
       "locations": [
         "678.62,-20.92,146.86"
       ],
@@ -12024,9 +11979,24 @@
       ]
     },
     {
+      "gamelink": "\\aITEM 1597408866 -122030321:drop of mixed blood\\/a",
+      "locations": [
+        "270.45,-17.97,28.04",
+        "548.65,-17.43,266.61",
+        "453.80,-19.29,194.63",
+        "271.05,-18.26,-139.83"
+      ]
+    },
+    {
       "gamelink": "\\aITEM 1622156990 -1250978480:Ethernaut Charm Bracelet\\/a",
       "locations": [
         "353.64,-17.33,-62.88"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 883795308 1592893874:fine Ro sand\\/a",
+      "locations": [
+        "625.60,-20.04,113.58"
       ]
     },
     {
@@ -12082,6 +12052,13 @@
       ]
     },
     {
+      "gamelink": "\\aITEM 154032780 -1918353840:large crocodile tooth\\/a",
+      "locations": [
+        "723.80,-21.00,94.93",
+        "453.80,-19.29,194.63"
+      ]
+    },
+    {
       "gamelink": "\\aITEM -916763393 908313232:Licorice Candy\\/a",
       "locations": [
         "444.65,-20.33,-317.58"
@@ -12091,6 +12068,14 @@
       "gamelink": "\\aITEM 1265556846 -146694324:Licorice Rope\\/a",
       "locations": [
         "363.38,-19.06,117.79"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1915575573 -606522529:living root\\/a",
+      "locations": [
+        "648.49,-16.63,165.10",
+        "374.26,-19.89,-0.57",
+        "604.26,-11.68,162.15"
       ]
     },
     {
@@ -12124,70 +12109,6 @@
       ]
     },
     {
-      "gamelink": "\\aITEM 1466361711 -68860504:Popcorn Ball\\/a",
-      "locations": [
-        "311.65,-21.02,-10.01"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -384436765 -1149116279:Red Licorice\\/a",
-      "locations": [
-        "286.67,-21.33,4.13",
-        "428.17,-21.35,-250.19"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 535895275 818560737:Sparkly Pinecone\\/a",
-      "locations": [
-        "431.06,-21.58,-238.51",
-        "478.01,-20.59,-322.67",
-        "275.40,-21.50,-15.08",
-        "462.95,-19.76,-347.75",
-        "454.60,-22.13,241.41",
-        "346.38,-20.82,42.49"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 343261263 -1718749056:Straw Goat\\/a",
-      "locations": [
-        "557.78,-17.69,245.91",
-        "765.50,-21.17,184.81",
-        "443.82,-20.33,-328.17",
-        "354.51,-16.83,-71.94",
-        "294.11,-19.00,-115.08"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1597408866 -122030321:drop of mixed blood\\/a",
-      "locations": [
-        "270.45,-17.97,28.04",
-        "548.65,-17.43,266.61",
-        "453.80,-19.29,194.63",
-        "271.05,-18.26,-139.83"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 883795308 1592893874:fine Ro sand\\/a",
-      "locations": [
-        "625.60,-20.04,113.58"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 154032780 -1918353840:large crocodile tooth\\/a",
-      "locations": [
-        "723.80,-21.00,94.93",
-        "453.80,-19.29,194.63"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1915575573 -606522529:living root\\/a",
-      "locations": [
-        "648.49,-16.63,165.10",
-        "374.26,-19.89,-0.57",
-        "604.26,-11.68,162.15"
-      ]
-    },
-    {
       "gamelink": "\\aITEM -839935954 -1815450550:piece of cloud\\/a",
       "locations": [
         "578.14,-17.73,237.65",
@@ -12199,9 +12120,22 @@
       ]
     },
     {
+      "gamelink": "\\aITEM 1466361711 -68860504:Popcorn Ball\\/a",
+      "locations": [
+        "311.65,-21.02,-10.01"
+      ]
+    },
+    {
       "gamelink": "\\aITEM -271031834 795503246:rancid swamp water\\/a",
       "locations": [
         "389.78,-23.65,-127.56"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -384436765 -1149116279:Red Licorice\\/a",
+      "locations": [
+        "286.67,-21.33,4.13",
+        "428.17,-21.35,-250.19"
       ]
     },
     {
@@ -12226,6 +12160,27 @@
         "753.30,-20.15,117.23",
         "757.71,-19.35,220.88",
         "453.80,-19.29,194.63"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 535895275 818560737:Sparkly Pinecone\\/a",
+      "locations": [
+        "431.06,-21.58,-238.51",
+        "478.01,-20.59,-322.67",
+        "275.40,-21.50,-15.08",
+        "462.95,-19.76,-347.75",
+        "454.60,-22.13,241.41",
+        "346.38,-20.82,42.49"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 343261263 -1718749056:Straw Goat\\/a",
+      "locations": [
+        "557.78,-17.69,245.91",
+        "765.50,-21.17,184.81",
+        "443.82,-20.33,-328.17",
+        "354.51,-16.83,-71.94",
+        "294.11,-19.00,-115.08"
       ]
     },
     {

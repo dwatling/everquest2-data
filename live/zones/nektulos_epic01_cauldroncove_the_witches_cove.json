@@ -13,7 +13,7 @@
   "npcs": [
     {
       "name": "Master D'Vaen",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "locations": [
         "1013.69,10.15,-513.65"
@@ -27,7 +27,7 @@
     },
     {
       "name": "Shivantris the Wailing",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "locations": [
         "976.71,8.19,-621.21"
@@ -35,7 +35,7 @@
     },
     {
       "name": "a vile scoundrel",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "locations": [
         "895.77,8.19,-511.35",
@@ -74,7 +74,7 @@
     },
     {
       "name": "a vile summoner",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "locations": [
         "896.33,8.19,-509.09",
@@ -99,11 +99,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
           "chest": false
         }
       ],
@@ -112,7 +112,7 @@
     },
     {
       "name": "a vile witchdoctor",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "locations": [
         "897.08,8.02,-510.62",
@@ -135,11 +135,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "gamelink": "\\aITEM -1596355065 1021048920:foggy globe\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1596355065 1021048920:foggy globe\\/a",
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
           "chest": false
         }
       ],
@@ -148,7 +148,7 @@
     },
     {
       "name": "a wailing spirit",
-      "level": 24,
+      "levelRange": "24",
       "difficulty": "heroic",
       "locations": [
         "948.37,8.19,-491.49",
@@ -174,26 +174,26 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -671644311 964395107:a plagued eyeball\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -2030107986 712908976:cranial nerve\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -671644311 964395107:a plagued eyeball\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
         }
       ]
     },
     {
       "name": "a witchbone skeleton",
-      "level": 24,
+      "levelRange": "24",
       "difficulty": "heroic",
       "locations": [
         "888.96,7.86,-485.00",
@@ -223,12 +223,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1699090909 -1328714666:Broken Vessel\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",

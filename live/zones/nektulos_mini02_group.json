@@ -21,7 +21,7 @@
   "npcs": [
     {
       "name": "a disturbed fossil",
-      "level": 55,
+      "levelRange": "55",
       "difficulty": "heroic",
       "locations": [
         "8.67,-12.21,20.00",
@@ -51,7 +51,7 @@
     },
     {
       "name": "a stone sniper",
-      "level": 54,
+      "levelRange": "54",
       "difficulty": "heroic",
       "locations": [
         "79.11,-15.55,42.34",
@@ -75,7 +75,7 @@
     },
     {
       "name": "an undergoyle",
-      "level": 53,
+      "levelRange": "53",
       "difficulty": "heroic",
       "locations": [
         "36.08,-14.14,25.49",
@@ -100,18 +100,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1373206301 -1189155627:stone debris\\/a",
+          "gamelink": "\\aITEM -828547253 615914939:Indicolite Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -828547253 615914939:Indicolite Relic\\/a",
+          "gamelink": "\\aITEM 1373206301 -1189155627:stone debris\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a writhing viscera",
-      "level": 53,
+      "levelRange": "53",
       "locations": [
         "2.84,-16.15,59.50"
       ]

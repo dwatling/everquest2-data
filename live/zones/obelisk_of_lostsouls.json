@@ -1,28 +1,13 @@
 {
   "name": "The Obelisk of Lost Souls",
   "category": "Feerrott",
-  "zonerect": "-174.00,114.00,131.00,469.00",
   "levels": "37-50",
-  "maps": [
-    {
-      "name": "Cavern"
-    },
-    {
-      "name": "East Wing"
-    },
-    {
-      "name": "South Wing Maze"
-    },
-    {
-      "name": "Lower South Wing"
-    }
-  ],
   "connections": [
     {
-      "key": "feerrott"
+      "key": "antonica"
     },
     {
-      "key": "antonica"
+      "key": "feerrott"
     }
   ]
 }

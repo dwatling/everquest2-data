@@ -2,7 +2,7 @@
   "name": "Greater Faydark",
   "expansion": "exp03",
   "category": "Faydwer",
-  "description": "The greatest living forest on Norrath is home to the city of Kelethin, ancestral home of the wood elves and home of the fae.",
+  "notes": "The greatest living forest on Norrath is home to the city of Kelethin, ancestral home of the wood elves and home of the fae.",
   "levels": "1-20",
   "maps": [
     {
@@ -11,22 +11,22 @@
   ],
   "connections": [
     {
+      "key": "exp03_dun_crushbone_keep"
+    },
+    {
+      "key": "exp03_dun_felwithe"
+    },
+    {
       "key": "exp03_rgn_butcherblock"
+    },
+    {
+      "key": "exp03_rgn_lesser_faydark"
     },
     {
       "key": "exp03_rgn_loping_plains"
     },
     {
       "key": "exp03_rgn_steamfont"
-    },
-    {
-      "key": "exp03_dun_felwithe"
-    },
-    {
-      "key": "exp03_dun_crushbone_keep"
-    },
-    {
-      "key": "exp03_rgn_lesser_faydark"
     }
   ],
   "npcs": [
@@ -126,10 +126,6 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
           "chest": false
         },
@@ -139,6 +135,10 @@
         },
         {
           "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
           "chest": false
         }
       ],
@@ -208,15 +208,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -658420854 385425044:ancient copper coin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
           "chest": false
         }
       ],
@@ -241,11 +241,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
           "chest": false
         }
       ],
@@ -321,11 +321,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
           "chest": false
         }
       ],
@@ -813,15 +813,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1961261609 -872122557:a sharp spine\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -1483381617 -2005256287:Cloth Shirt\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1961261609 -872122557:a sharp spine\\/a",
           "chest": false
         }
       ]
@@ -830,15 +830,11 @@
       "name": "a Tuwasp soldier",
       "drops": [
         {
+          "gamelink": "\\aITEM -315033494 817341629:a bixie stinger\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 53909830 -951854558:a bixie wing\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1961261609 -872122557:a sharp spine\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
           "chest": false
         },
         {
@@ -846,7 +842,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -315033494 817341629:a bixie stinger\\/a",
+          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1961261609 -872122557:a sharp spine\\/a",
           "chest": false
         }
       ]
@@ -924,10 +924,16 @@
       ]
     },
     {
+      "gamelink": "\\aITEM -2007108236 -1909336206:bloody Fae bone\\/a"
+    },
+    {
       "gamelink": "\\aITEM 1992107427 259467993:Chocolate Peppermint Drops\\/a",
       "locations": [
         "234.83,112.30,402.13"
       ]
+    },
+    {
+      "gamelink": "\\aITEM 1838089029 -693193968:click beetle\\/a"
     },
     {
       "gamelink": "\\aITEM 1043760057 877568113:Dark Goat Horn\\/a",
@@ -935,12 +941,6 @@
         "323.16,109.04,129.06",
         "290.68,109.04,107.90"
       ]
-    },
-    {
-      "gamelink": "\\aITEM -2007108236 -1909336206:bloody Fae bone\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1838089029 -693193968:click beetle\\/a"
     },
     {
       "gamelink": "\\aITEM -319003151 -1188012536:diseased bugbear bone\\/a",

@@ -2,7 +2,7 @@
   "name": "Great Divide",
   "expansion": "exp07",
   "category": "Velious",
-  "description": "Venture through the frozen wastes of the Great Divide, home of the Coldain dwarves, Kromrif giants, and the mighty Tizmak!",
+  "notes": "Venture through the frozen wastes of the Great Divide, home of the Coldain dwarves, Kromrif giants, and the mighty Tizmak!",
   "levels": "87-93",
   "maps": [
     {
@@ -11,13 +11,13 @@
   ],
   "connections": [
     {
-      "key": "exp07_rgn_thurgadin_velious"
+      "key": "exp07_dun_tower_of_frozen_shadow"
     },
     {
       "key": "exp07_rgn_eastern_wastes"
     },
     {
-      "key": "exp07_dun_tower_of_frozen_shadow"
+      "key": "exp07_rgn_thurgadin_velious"
     }
   ],
   "npcs": [

@@ -19,7 +19,7 @@
   "npcs": [
     {
       "name": "Boss Gobblerock",
-      "level": 30,
+      "levelRange": "30",
       "difficulty": "heroic^^^",
       "locations": [
         "1.46,1.26,-140.24"
@@ -27,7 +27,7 @@
     },
     {
       "name": "Cookie",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic^^^",
       "locations": [
         "-38.85,1.26,-75.72",
@@ -36,7 +36,7 @@
     },
     {
       "name": "The Gobbler",
-      "level": 33,
+      "levelRange": "33",
       "difficulty": "heroic^^^",
       "locations": [
         "-3.40,-0.08,-110.38"
@@ -44,7 +44,7 @@
     },
     {
       "name": "Gobblerock brute",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic^^^",
       "locations": [
         "-18.71,1.26,-60.52",
@@ -74,7 +74,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM 826150606 -1200582802:ancient silver coin\\/a",
           "chest": false
         },
         {
@@ -82,7 +82,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 826150606 -1200582802:ancient silver coin\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -91,7 +91,7 @@
     },
     {
       "name": "Gobblerock butcher",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic^^^",
       "locations": [
         "-38.48,0.04,15.49",
@@ -131,7 +131,7 @@
     },
     {
       "name": "Gobblerock grunt",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic^^^",
       "locations": [
         "-108.36,0.28,63.10",
@@ -154,7 +154,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -898368698 -1285985171:strange dark powder\\/a",
+          "gamelink": "\\aITEM 685460663 -56890563:a goblin claw\\/a",
           "chest": false
         },
         {
@@ -162,7 +162,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 685460663 -56890563:a goblin claw\\/a",
+          "gamelink": "\\aITEM -898368698 -1285985171:strange dark powder\\/a",
           "chest": false
         }
       ],
@@ -171,7 +171,7 @@
     },
     {
       "name": "Gobblerock haruspex",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic^^^",
       "locations": [
         "-69.76,0.33,14.67",
@@ -191,7 +191,7 @@
     },
     {
       "name": "Gobblerock hooligan",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic^^^",
       "locations": [
         "-23.59,-0.04,-67.53",
@@ -231,7 +231,7 @@
     },
     {
       "name": "Gobblerock prophet",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic^^^",
       "locations": [
         "-13.26,1.20,-67.99",
@@ -259,7 +259,7 @@
     },
     {
       "name": "Gobblerock shaman",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic^^^",
       "locations": [
         "-117.43,0.07,59.71",
@@ -285,7 +285,7 @@
     },
     {
       "name": "Gobblerock swindler",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic^^^",
       "locations": [
         "-106.88,0.36,62.75",
@@ -306,19 +306,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1311630067 965320946:a goblin eye\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 685460663 -56890563:a goblin claw\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM -1311630067 965320946:a goblin eye\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -815570512 1462756580:a goblin spine\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -327,7 +327,7 @@
     },
     {
       "name": "Gobblerock trickster",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic^^^",
       "locations": [
         "-53.60,0.00,12.89",
@@ -359,7 +359,7 @@
     },
     {
       "name": "Gugrut",
-      "level": 28,
+      "levelRange": "28",
       "difficulty": "heroic^^^",
       "locations": [
         "-14.15,0.91,47.69"
@@ -367,7 +367,7 @@
     },
     {
       "name": "Lieutenant Charg",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic^^^",
       "locations": [
         "-50.09,2.19,-55.03"
@@ -375,7 +375,7 @@
     },
     {
       "name": "a trained slug",
-      "level": 28,
+      "levelRange": "28",
       "locations": [
         "36.91,0.00,-1.90",
         "-33.41,0.00,-0.44",
@@ -386,18 +386,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1545524487 -619569427:a vial of mucus\\/a",
+          "gamelink": "\\aITEM 1724061036 345372994:a slug antenna\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1724061036 345372994:a slug antenna\\/a",
+          "gamelink": "\\aITEM 1545524487 -619569427:a vial of mucus\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "Trainer Mukluk",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic^^^",
       "locations": [
         "-48.88,0.81,1.30"

@@ -10,8 +10,8 @@
   ],
   "connections": [
     {
-      "key": "freeport_combined",
-      "location": "6.01,-4.43,-103.74"
+      "key": "fprt_adv02_graveyard",
+      "location": "7.94,-5.70,12.13"
     },
     {
       "key": "fprt_sewer01",
@@ -22,8 +22,8 @@
       "location": "17.85,-3.88,-74.67"
     },
     {
-      "key": "fprt_adv02_graveyard",
-      "location": "7.94,-5.70,12.13"
+      "key": "freeport_combined",
+      "location": "6.01,-4.43,-103.74"
     }
   ],
   "npcs": [
@@ -49,13 +49,13 @@
     },
     {
       "name": "Arms Dealer Melai",
+      "purpose": "Weaponsmith",
       "race": [
         "kerran"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Weaponsmith",
       "locations": [
         "14.92,-4.0,-95.0"
       ],
@@ -98,13 +98,13 @@
     },
     {
       "name": "Fariola",
+      "purpose": "Armorsmith",
       "race": [
         "erudite"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Armorsmith",
       "locations": [
         "-49.92,-4.37,-15.71"
       ],
@@ -145,13 +145,13 @@
     },
     {
       "name": "Innkeeper Zahar",
+      "purpose": "Housing",
       "race": [
         "erudite"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Housing",
       "locations": [
         "7.72,0.0,-45.64"
       ],
@@ -188,13 +188,13 @@
     },
     {
       "name": "Irian",
+      "purpose": "Alchemist",
       "race": [
         "erudite"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Alchemist",
       "locations": [
         "33.0,0.0,-72.84"
       ],
@@ -205,7 +205,7 @@
     },
     {
       "name": "Jackal",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "-15.71,-4.38,-23.59",
         "8.99,-4.37,-88.04"
@@ -213,7 +213,7 @@
     },
     {
       "name": "Jasper",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "-35.1,-4.38,-25.09",
         "39.56,-4.35,-55.01"
@@ -240,13 +240,13 @@
     },
     {
       "name": "Johari",
+      "purpose": "Linguist",
       "race": [
         "erudite"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Linguist",
       "locations": [
         "0.19,-3.5,-64.55"
       ],
@@ -311,7 +311,7 @@
     },
     {
       "name": "Kejeka",
-      "level": 1,
+      "levelRange": "1",
       "locations": [
         "25.05,0.0,-78.29",
         "22.92,-4.35,-50.36",
@@ -354,13 +354,13 @@
     },
     {
       "name": "Nisra",
+      "purpose": "Shieldsmith",
       "race": [
         "kerran"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Shieldsmith",
       "locations": [
         "-4.17,-4.38,-25.11"
       ],
@@ -373,13 +373,13 @@
     },
     {
       "name": "Ozzaranu",
+      "purpose": "Tailor",
       "race": [
         "erudite"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Tailor",
       "locations": [
         "45.48,-4.35,-63.48"
       ],
@@ -411,7 +411,7 @@
     },
     {
       "name": "a rat",
-      "level": 1,
+      "levelRange": "1",
       "locations": [
         "-51.09,0.27,-4.76",
         "-60.02,0.27,-1.98",
@@ -437,28 +437,28 @@
     },
     {
       "name": "Rosali",
+      "purpose": "Mender",
       "race": [
         "kerran"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Mender",
       "locations": [
         "14.87,-4.0,-93.19"
       ]
     },
     {
       "name": "Savanuu",
+      "purpose": "Guard",
+      "levelRange": "17",
+      "difficulty": "heroic",
       "race": [
         "erudite"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Guard",
-      "level": 17,
-      "difficulty": "heroic",
       "locations": [
         "50.52,-2.87,-76.11"
       ]
@@ -493,13 +493,13 @@
     },
     {
       "name": "Shatana Kamelia",
+      "purpose": "Crafting Trainer",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Crafting Trainer",
       "locations": [
         "18.49,-4.37,-72.97"
       ],
@@ -525,13 +525,13 @@
     },
     {
       "name": "Thindel",
+      "purpose": "Bowyer",
       "race": [
         "kerran"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Bowyer",
       "locations": [
         "16.62,-4.37,-80.49"
       ],
@@ -559,13 +559,13 @@
     },
     {
       "name": "Washaso",
+      "purpose": "General Goods",
       "race": [
         "kerran"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "General Goods",
       "locations": [
         "11.51,0.0,-24.44"
       ],

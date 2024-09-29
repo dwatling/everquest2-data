@@ -2,22 +2,13 @@
   "name": "Mistmoore Catacombs",
   "expansion": "exp03",
   "category": "Faydwer",
-  "zonerect": "44.00,-133.00,278.00,140.00",
   "levels": "65-70",
-  "maps": [
-    {
-      "name": "Upper"
-    },
-    {
-      "name": "Lower"
-    }
-  ],
   "connections": [
     {
-      "key": "exp03_rgn_loping_plains"
+      "key": "exp03_dun_castle_mistmoore"
     },
     {
-      "key": "exp03_dun_castle_mistmoore"
+      "key": "exp03_rgn_loping_plains"
     }
   ],
   "npcs": [

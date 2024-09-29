@@ -13,7 +13,7 @@
   "npcs": [
     {
       "name": "Bek'Tar the Mighty",
-      "level": 30,
+      "levelRange": "30",
       "difficulty": "heroic",
       "locations": [
         "-100.96,-0.73,-101.08"
@@ -27,7 +27,7 @@
     },
     {
       "name": "Ch'Uman the Forgotten",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-191.52,-0.05,-107.01"
@@ -35,7 +35,7 @@
     },
     {
       "name": "Leetar the Old Crone",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic",
       "locations": [
         "-124.37,-0.08,-146.05"
@@ -52,7 +52,7 @@
     },
     {
       "name": "a Necrosis auger",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-220.52,0.03,-68.59",
@@ -72,7 +72,7 @@
     },
     {
       "name": "a Necrosis beldame",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic",
       "locations": [
         "-121.8,-0.03,-124.31",
@@ -98,22 +98,22 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 41005843 768497459:small polished bone\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 685460663 -56890563:a goblin claw\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 41005843 768497459:small polished bone\\/a",
+          "chest": false
         }
       ]
     },
     {
       "name": "a Necrosis conscript",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-220.52,0.03,-68.59",
@@ -147,7 +147,7 @@
     },
     {
       "name": "a Necrosis crone",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-191.5,-0.04,-96.29",
@@ -172,15 +172,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -815570512 1462756580:a goblin spine\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -815570512 1462756580:a goblin spine\\/a",
           "chest": false
         }
       ],
@@ -189,7 +189,7 @@
     },
     {
       "name": "a Necrosis elite guard",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic",
       "locations": [
         "-122.19,0.01,-121.77",
@@ -226,15 +226,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -815570512 1462756580:a goblin spine\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -658420854 385425044:ancient copper coin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
           "chest": false
         },
         {
@@ -246,7 +242,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "gamelink": "\\aITEM -815570512 1462756580:a goblin spine\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
           "chest": false
         }
       ],
@@ -255,7 +255,7 @@
     },
     {
       "name": "a Necrosis guard",
-      "level": 28,
+      "levelRange": "28",
       "difficulty": "heroic",
       "locations": [
         "-169.47,-0.21,-76.84",
@@ -283,11 +283,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "gamelink": "\\aITEM -1311630067 965320946:a goblin eye\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM -815570512 1462756580:a goblin spine\\/a",
           "chest": false
         },
         {
@@ -295,11 +295,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1311630067 965320946:a goblin eye\\/a",
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -815570512 1462756580:a goblin spine\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -308,7 +308,7 @@
     },
     {
       "name": "a Necrosis miner",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-182.74,0.01,-105.61",
@@ -337,7 +337,7 @@
     },
     {
       "name": "a Necrosis seer",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic",
       "locations": [
         "-122.19,0.01,-121.77",
@@ -371,7 +371,7 @@
     },
     {
       "name": "a Necrosis shrew",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-219.03,-0.02,-73.93",
@@ -391,11 +391,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
           "chest": false
         }
       ],
@@ -404,7 +404,7 @@
     },
     {
       "name": "a Necrosis thaumaturge",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-200.37,0.01,-99.68",
@@ -438,7 +438,7 @@
     },
     {
       "name": "Thaumaturge Zumzum",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic",
       "locations": [
         "-147,-0.08,-73.43"
@@ -452,7 +452,7 @@
     },
     {
       "name": "Wraithcaller Ji'Lum",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic",
       "locations": [
         "-78.76,-0.73,-81.73"

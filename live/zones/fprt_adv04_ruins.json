@@ -22,13 +22,13 @@
     },
     {
       "name": "Arms Dealer Nylzs",
+      "purpose": "Weaponsmith",
       "race": [
         "iksar"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Weaponsmith",
       "locations": [
         "-108.11,-2.67,91.36"
       ],
@@ -59,7 +59,7 @@
     },
     {
       "name": "a Brokentusk crusher",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "-74.27,-0.99,75.45",
         "-51.38,-1.21,62.33",
@@ -96,7 +96,7 @@
     },
     {
       "name": "a Brokentusk guard",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-68.59,-2.77,32.16",
         "-84.82,-2.74,33.60",
@@ -117,12 +117,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -555489665 -128620306:Advanced Scholar Volume 11\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
@@ -144,7 +144,7 @@
     },
     {
       "name": "a Brokentusk overseer",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic",
       "locations": [
         "-149.69,-2.67,21.20"
@@ -210,55 +210,19 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1202278372 1384654712:advanced craftsman volume 10\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1525376366 -1417116168:azure charm\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 353672532 -1527805147:gurgold axe\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1271892118 40390487:Supernatural Orb\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1328289081 -1699088314:an orc spine\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
@@ -270,24 +234,60 @@
           "chest": true
         },
         {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 353672532 -1527805147:gurgold axe\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM -1403161520 697071981:Misfortune's Kiss II (Adept)\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1344527781 -256503572:Orc Smuggler Requisition\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1328289081 -1699088314:an orc spine\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM -1414719550 -1201546633:Scout Grandmaster Recipes Volume II\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1202278372 1384654712:advanced craftsman volume 10\\/a",
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1271892118 40390487:Supernatural Orb\\/a",
           "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1525376366 -1417116168:azure charm\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
-          "chest": false
         }
       ],
       "drop_coin_min": 4,
@@ -301,7 +301,7 @@
     },
     {
       "name": "a Brokentusk pounder",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "-61.02,-2.71,12.92",
         "-90.65,-2.48,2.53"
@@ -322,7 +322,7 @@
     },
     {
       "name": "a Brokentusk prophet",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-64.11,-0.99,67.75",
         "-72.54,-0.99,62.33",
@@ -345,15 +345,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1045062603 1859248762:shoreside padded helmet\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 1328289081 -1699088314:an orc spine\\/a",
           "chest": false
         },
         {
@@ -361,12 +361,12 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1328289081 -1699088314:an orc spine\\/a",
-          "chest": false
+          "gamelink": "\\aITEM 1045062603 1859248762:shoreside padded helmet\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 19,
@@ -396,11 +396,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -415,7 +415,7 @@
     },
     {
       "name": "a Brokentusk shaman",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "-93.11,-2.48,-3.79",
         "-67.35,-2.83,21.44",
@@ -439,7 +439,7 @@
     },
     {
       "name": "a Brokentusk warrior",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-34.65,-2.24,82.53",
         "-36.16,-2.20,74.90",
@@ -474,13 +474,13 @@
     },
     {
       "name": "Captain Arellius",
+      "purpose": "Freeport Militia",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "-166.66,-1.01,80.73"
       ],
@@ -533,6 +533,8 @@
     },
     {
       "name": "a courageous defender",
+      "purpose": "Freeport Militia",
+      "levelRange": "12",
       "race": [
         "half elf",
         "human",
@@ -542,8 +544,6 @@
       "gender": [
         "female"
       ],
-      "purpose": "Freeport Militia",
-      "level": 12,
       "locations": [
         "-117.92,2.15,114.5",
         "-125.91,2.19,114.92",
@@ -564,13 +564,13 @@
     },
     {
       "name": "Ernest Ironthumb",
+      "purpose": "Harvesting and Collections",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Harvesting and Collections",
       "locations": [
         "-111.75,-2.67,92.41"
       ],
@@ -587,13 +587,13 @@
     },
     {
       "name": "Fangtarn",
+      "purpose": "Mender",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Mender",
       "locations": [
         "-106.3,-2.67,88.85"
       ],
@@ -608,7 +608,7 @@
     },
     {
       "name": "General Lonetusk",
-      "level": 18,
+      "levelRange": "18",
       "difficulty": "heroic^^^",
       "locations": [
         "-61.16,-2.67,157.09"
@@ -630,13 +630,13 @@
     },
     {
       "name": "Lieutenant Argosian",
+      "purpose": "Freeport Militia",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "-103.55,-2.67,81.95"
       ],
@@ -697,7 +697,7 @@
     },
     {
       "name": "a Lonetusk Bloodseer",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-58.32,-2.67,158.86"
       ],
@@ -716,7 +716,7 @@
     },
     {
       "name": "a Lonetusk champion",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "-20.56,-4.36,175.33",
         "41.17,-4.40,160.00",
@@ -740,7 +740,7 @@
     },
     {
       "name": "a Lonetusk crusher",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic^^",
       "locations": [
         "8.63,-4.40,188.06",
@@ -767,7 +767,7 @@
     },
     {
       "name": "a Lonetusk pounder",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic^^",
       "locations": [
         "-71.86,-2.42,96.53",
@@ -798,7 +798,7 @@
     },
     {
       "name": "a Lonetusk prophet",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic^^",
       "locations": [
         "-8.31,-4.41,151.88",
@@ -831,7 +831,7 @@
     },
     {
       "name": "a Lonetusk sentry",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic^^^",
       "locations": [
         "-91.70,-2.06,118.73",
@@ -880,7 +880,7 @@
     },
     {
       "name": "a Lonetusk shaman",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic^^",
       "locations": [
         "-49.79,-3.05,110.76",
@@ -901,7 +901,7 @@
     },
     {
       "name": "a Lonetusk warrior",
-      "level": 145,
+      "levelRange": "145",
       "difficulty": "heroic^^",
       "locations": [
         "-14.05,-4.24,130.09",
@@ -937,13 +937,13 @@
     },
     {
       "name": "Mardyp Prunt",
+      "purpose": "Armorsmith",
       "race": [
         "troll"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Armorsmith",
       "locations": [
         "-115.49,-2.51,68.62"
       ],
@@ -960,13 +960,13 @@
     },
     {
       "name": "Pitrova",
+      "purpose": "General Goods",
       "race": [
         "ratonga"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "General Goods",
       "locations": [
         "-154.89,-1.02,87.89"
       ],
@@ -980,7 +980,7 @@
     },
     {
       "name": "a prisoner guard",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic^^",
       "locations": [
         "18.4,-3.05,77.45"
@@ -988,7 +988,7 @@
     },
     {
       "name": "a Rujarkian advisor",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic^^^",
       "locations": [
         "14.93,-4.29,176.92"
@@ -1004,7 +1004,7 @@
     },
     {
       "name": "a seasoned defender",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic^^",
       "locations": [
         "-16.61,-4.26,131.10",

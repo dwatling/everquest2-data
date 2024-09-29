@@ -12,16 +12,16 @@
       "key": "qey_catacomb01"
     },
     {
-      "key": "qey_catacomb_epic02"
+      "key": "qey_catacomb03"
     },
     {
-      "key": "qey_catacomb03"
+      "key": "qey_catacomb_epic02"
     }
   ],
   "npcs": [
     {
       "name": "Aleth'Rillix the Festering Seer",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "-14.13,-0.15,-113.39",
         "66.49,-0.08,-18.34"
@@ -36,11 +36,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1509313505 763279144:Riana's Relentless Tune II (Adept)\\/a",
+          "gamelink": "\\aITEM -1153421550 -744426290:Mace of Twilight\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -1153421550 -744426290:Mace of Twilight\\/a",
+          "gamelink": "\\aITEM -1509313505 763279144:Riana's Relentless Tune II (Adept)\\/a",
           "chest": true
         }
       ],
@@ -64,22 +64,22 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
-          "chest": false
+          "gamelink": "\\aITEM -1612489550 1696341370:a burial shroud\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 763253293 2030737030:Scourge Warrior Leggings\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -1612489550 1696341370:a burial shroud\\/a",
-          "chest": true
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
         }
       ]
     },
     {
       "name": "a Bloodsaber adept",
-      "level": 13,
+      "levelRange": "13",
       "difficulty": "heroic",
       "locations": [
         "95.90,-0.08,-168.65",
@@ -106,7 +106,7 @@
     },
     {
       "name": "a Bloodsaber proficient",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic",
       "locations": [
         "97.26,-0.08,-180.81",
@@ -146,16 +146,16 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -316576098 422144074:roughspun pantaloons\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1136651119 1578780024:intricately carved acorn\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -179275446 1122447901:maple buckler\\/a",
+          "gamelink": "\\aITEM 698721607 886726209:Bloodsaber Adept Coin\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1627573543 -1966055113:bride's promise\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
@@ -166,19 +166,19 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 1136651119 1578780024:intricately carved acorn\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -179275446 1122447901:maple buckler\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1627573543 -1966055113:bride's promise\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 698721607 886726209:Bloodsaber Adept Coin\\/a",
+          "gamelink": "\\aITEM -316576098 422144074:roughspun pantaloons\\/a",
           "chest": true
         }
       ],
@@ -187,7 +187,7 @@
     },
     {
       "name": "a Bloodsaber specialist",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic",
       "locations": [
         "90.00,-0.70,-182.72",
@@ -224,24 +224,24 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
+          "gamelink": "\\aITEM 1402542342 -1727712110:a bow shaft\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 434546212 1048087633:ravenous report\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1402542342 -1727712110:a bow shaft\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 434546212 1048087633:ravenous report\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 17,
@@ -272,7 +272,7 @@
     },
     {
       "name": "a crumbling tomb guard",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic",
       "locations": [
         "-10.98,0.00,-116.46",
@@ -324,7 +324,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "gamelink": "\\aITEM 1225141396 1027670627:Advanced Scholar Volume 15\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 213982004 -1184282192:Carrion Warding (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
@@ -332,15 +344,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 213982004 -1184282192:Carrion Warding (Adept)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1225141396 1027670627:Advanced Scholar Volume 15\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
           "chest": false
         },
         {
@@ -350,10 +354,6 @@
         {
           "gamelink": "\\aITEM 1876370097 952575299:Tomb Guard's Broken Chair\\/a",
           "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
-          "chest": false
         }
       ],
       "drop_coin_min": 16,
@@ -361,7 +361,7 @@
     },
     {
       "name": "a crumbling tomb priest",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic",
       "locations": [
         "251.55,-6.86,-115.72",
@@ -400,7 +400,7 @@
     },
     {
       "name": "a crumbling tomb sentry",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "77.68,-0.06,-134.22",
         "74.96,-0.16,-116.05",
@@ -451,19 +451,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
@@ -475,11 +471,15 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -497,7 +497,7 @@
     },
     {
       "name": "a festering zombie",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic",
       "locations": [
         "141.59,0.01,-148.96",
@@ -518,31 +518,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1876370097 952575299:Tomb Guard's Broken Chair\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1660014060 1614064333:Hold the Line II (Adept)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         },
         {
@@ -552,6 +528,30 @@
         {
           "gamelink": "\\aITEM -612798970 943460484:a decomposing zombie organ\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1660014060 1614064333:Hold the Line II (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1876370097 952575299:Tomb Guard's Broken Chair\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 33,
@@ -571,11 +571,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 906123002 -2098653621:cordovan gloves\\/a",
+          "gamelink": "\\aITEM 2099484175 183962497:Advanced Outfitter Volume 13\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 2099484175 183962497:Advanced Outfitter Volume 13\\/a",
+          "gamelink": "\\aITEM 906123002 -2098653621:cordovan gloves\\/a",
           "chest": true
         },
         {
@@ -601,7 +601,7 @@
     },
     {
       "name": "a grave scorpius",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "125.74,-0.06,-166.83",
         "120.63,-0.09,-166.80",
@@ -616,7 +616,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -397583782 -2261665:roughspun scarf\\/a",
+          "gamelink": "\\aITEM 698721607 886726209:Bloodsaber Adept Coin\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1010574162 803672050:Half Bottle of Bloodsaber Brew\\/a",
           "chest": true
         },
         {
@@ -624,7 +628,7 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -1439043884 -940934384:woven cordovan tunic\\/a",
+          "gamelink": "\\aITEM -397583782 -2261665:roughspun scarf\\/a",
           "chest": true
         },
         {
@@ -636,22 +640,18 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -1010574162 803672050:Half Bottle of Bloodsaber Brew\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 698721607 886726209:Bloodsaber Adept Coin\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1876370097 952575299:Tomb Guard's Broken Chair\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1439043884 -940934384:woven cordovan tunic\\/a",
           "chest": true
         }
       ]
     },
     {
       "name": "an infected grave scorpius",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "209.54,-6.99,-88.77",
         "173.73,-7.79,-108.10"
@@ -659,7 +659,7 @@
     },
     {
       "name": "an infected tomb vermin",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "41.10,-0.34,-131.60",
         "-6.67,-0.14,-149.64",
@@ -668,7 +668,7 @@
     },
     {
       "name": "a large tomb vermin",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic",
       "locations": [
         "52.86,-0.34,-137.11",
@@ -689,11 +689,11 @@
       "name": "Lika the Tortured",
       "drops": [
         {
-          "gamelink": "\\aITEM 763253293 2030737030:Scourge Warrior Leggings\\/a",
+          "gamelink": "\\aITEM 337669599 -1918581612:Calcified Bone of the Tortured\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 337669599 -1918581612:Calcified Bone of the Tortured\\/a",
+          "gamelink": "\\aITEM 763253293 2030737030:Scourge Warrior Leggings\\/a",
           "chest": true
         }
       ],
@@ -711,7 +711,7 @@
     },
     {
       "name": "a rabid shriller",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "132.18,0.54,-152.64",
         "126.84,-0.10,-166.14",
@@ -725,22 +725,22 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1439043884 -940934384:woven cordovan tunic\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1127098598 -837078682:a bat ear\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 311260705 1508543682:little vermin notice\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1439043884 -940934384:woven cordovan tunic\\/a",
+          "chest": true
         }
       ]
     },
     {
       "name": "a ravenous cube",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "122.71,-2.52,-61.38",
         "130.31,-4.52,-54.42",
@@ -755,14 +755,6 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 199752622 -60057131:a vial of viscid slime\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -1618070079 1523523032:advanced craftsman volume 14\\/a",
           "chest": true
         },
@@ -771,11 +763,19 @@
           "chest": true
         },
         {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1295578389 927787154:specialist outlaw notice\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "gamelink": "\\aITEM 199752622 -60057131:a vial of viscid slime\\/a",
           "chest": false
         }
       ],
@@ -784,7 +784,7 @@
     },
     {
       "name": "Sivnillinicos",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic",
       "locations": [
         "172.13,-7.42,-58.71"
@@ -798,7 +798,7 @@
     },
     {
       "name": "a tomb vermin",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "47.20,-0.34,-136.69",
         "48.01,-0.34,-144.90",
@@ -853,19 +853,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 311260705 1508543682:little vermin notice\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1751990164 1953018519:advanced craftsman volume 13\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 186665103 1678272418:scrap of paper\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1295578389 927787154:specialist outlaw notice\\/a",
+          "gamelink": "\\aITEM 311260705 1508543682:little vermin notice\\/a",
           "chest": true
         },
         {
@@ -875,12 +867,20 @@
         {
           "gamelink": "\\aITEM -849848324 -1463719270:nuisance notice\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 186665103 1678272418:scrap of paper\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1295578389 927787154:specialist outlaw notice\\/a",
+          "chest": true
         }
       ]
     },
     {
       "name": "X'Loitl the Bloodsaber Fanatic",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic^^^",
       "locations": [
         "95.92,-0.08,-182.78",

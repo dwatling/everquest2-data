@@ -2,7 +2,7 @@
   "name": "Butcherblock Mountains",
   "expansion": "exp03",
   "category": "Faydwer",
-  "description": "Ancestral homeland of the dwarves of Kaladim.",
+  "notes": "Ancestral homeland of the dwarves of Kaladim.",
   "levels": "20-35",
   "maps": [
     {
@@ -11,19 +11,10 @@
   ],
   "connections": [
     {
-      "key": "steppes"
-    },
-    {
-      "key": "nektulos"
-    },
-    {
       "key": "exp03_dun_estate_of_unrest"
     },
     {
-      "key": "exp03_rgn_lesser_faydark"
-    },
-    {
-      "key": "exp03_rgn_steamfont"
+      "key": "exp03_dun_kaladim"
     },
     {
       "key": "exp03_dun_kaladim_stormguard_hall_mar12"
@@ -32,7 +23,16 @@
       "key": "exp03_rgn_greater_faydark"
     },
     {
-      "key": "exp03_dun_kaladim"
+      "key": "exp03_rgn_lesser_faydark"
+    },
+    {
+      "key": "exp03_rgn_steamfont"
+    },
+    {
+      "key": "nektulos"
+    },
+    {
+      "key": "steppes"
     }
   ],
   "npcs": [
@@ -69,7 +69,7 @@
     },
     {
       "name": "an anemone",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "414.73,3.62,-44.05",
         "401.38,15.11,-42.91",
@@ -92,7 +92,7 @@
     },
     {
       "name": "an aqua goblin",
-      "level": 22,
+      "levelRange": "22",
       "locations": [
         "921.84,36.65,104.74",
         "913.94,36.65,101.98",
@@ -118,7 +118,7 @@
     },
     {
       "name": "an aqua goblin mystic",
-      "level": 22,
+      "levelRange": "22",
       "locations": [
         "876.21,43.06,65.28",
         "846.81,46.89,98.99",
@@ -132,7 +132,7 @@
     },
     {
       "name": "an aquagoblin raider",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "877.16,43.24,69.24",
         "837.93,27.46,25.75",
@@ -145,7 +145,7 @@
     },
     {
       "name": "an aqua goblin runt",
-      "level": 22,
+      "levelRange": "22",
       "locations": [
         "478.98,21.66,-260.46",
         "470.78,22.08,-253.38",
@@ -165,11 +165,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -946289874 -1251160878:simple arcane formula\\/a",
+          "gamelink": "\\aITEM 1608285217 265160279:a goblin tooth\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1608285217 265160279:a goblin tooth\\/a",
+          "gamelink": "\\aITEM -946289874 -1251160878:simple arcane formula\\/a",
           "chest": false
         },
         {
@@ -182,7 +182,7 @@
     },
     {
       "name": "an aqua goblin wizard",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "924.64,36.63,99.12",
         "875.75,38.36,42.71",
@@ -200,13 +200,13 @@
     },
     {
       "name": "Argro Durthor",
+      "purpose": "Irontoe Brigade Recruit",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Irontoe Brigade Recruit",
       "locations": [
         "337.22,189.37,500.51"
       ]
@@ -228,7 +228,7 @@
     },
     {
       "name": "a barbtail ray",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "688.09,14.16,525.40",
         "709.68,14.17,531.44",
@@ -267,20 +267,20 @@
     },
     {
       "name": "Barnaby Blunderbuss",
+      "purpose": "Master of Coins and Contraptions",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Master of Coins and Contraptions",
       "locations": [
         "636.54,26.24,596.36"
       ]
     },
     {
       "name": "a basilisk hatchling",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "355.83,26.29,-98.38",
         "350.41,26.36,-93.40",
@@ -310,13 +310,13 @@
     },
     {
       "name": "Bellenda Drunkdrinker",
+      "purpose": "Bartender",
       "race": [
         "dwarf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Bartender",
       "locations": [
         "670.98,24.0,591.15"
       ],
@@ -326,13 +326,13 @@
     },
     {
       "name": "Bimini Bowchaser",
+      "purpose": "The Far Seas Trading Company",
       "race": [
         "halfling"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "The Far Seas Trading Company",
       "locations": [
         "668.38,22.0,566.58"
       ],
@@ -342,13 +342,13 @@
     },
     {
       "name": "Bronlor Stormhammer",
+      "purpose": "Conservator of the Underfoot",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Conservator of the Underfoot",
       "locations": [
         "334.53,189.14,508.29"
       ]
@@ -367,13 +367,13 @@
     },
     {
       "name": "Captain Stonnacky",
+      "purpose": "The Far Seas Trading Company",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "The Far Seas Trading Company",
       "locations": [
         "652.98,24.0,525.9"
       ],
@@ -383,20 +383,20 @@
     },
     {
       "name": "Civean Il'Pernod",
+      "purpose": "Prophet of Solusek Ro",
       "race": [
         "erudite"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Prophet of Solusek Ro",
       "locations": [
         "320.1,188.29,493.1"
       ]
     },
     {
       "name": "a coastal basilisk",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "400.99,24.97,-136.32",
         "401.91,26.08,-149.37",
@@ -437,13 +437,13 @@
     },
     {
       "name": "Cordelia Galeston",
+      "purpose": "Far Seas Trading Company",
       "race": [
         "half elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Far Seas Trading Company",
       "locations": [
         "698.58,24.08,580.89"
       ],
@@ -453,20 +453,20 @@
     },
     {
       "name": "Corianda Cogsworth",
+      "purpose": "Tinkering Merchant",
       "race": [
         "gnome"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Tinkering Merchant",
       "locations": [
         "634.39,26.0,595.47"
       ]
     },
     {
       "name": "a crab",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "605.60,3.31,546.49",
         "551.60,-1.57,524.91",
@@ -517,13 +517,13 @@
     },
     {
       "name": "Darious Stonemaul",
+      "purpose": "Banker",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Banker",
       "locations": [
         "713.28,24.08,595.35"
       ],
@@ -533,7 +533,7 @@
     },
     {
       "name": "a deepsea loggerhead",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "704.20,12.61,530.60",
         "608.59,10.37,537.00",
@@ -574,7 +574,7 @@
     },
     {
       "name": "a deepsea marlin",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "881.00,-5.75,212.90",
         "857.48,3.26,238.69",
@@ -705,7 +705,7 @@
     },
     {
       "name": "an edacious sharpfin",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "826.52,9.22,277.83",
         "818.83,12.21,282.28",
@@ -790,13 +790,13 @@
     },
     {
       "name": "Granar Brittlesmith",
+      "purpose": "Freeport Ambassador",
       "race": [
         "barbarian"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Ambassador",
       "locations": [
         "322.98,190.45,431.67"
       ]
@@ -825,13 +825,13 @@
     },
     {
       "name": "Griss Brumbaugh",
+      "purpose": "The Irontoe Brigade",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "The Irontoe Brigade",
       "locations": [
         "679.52,24.0,595.21"
       ],
@@ -841,15 +841,15 @@
     },
     {
       "name": "Guard Banning",
+      "purpose": "Butcherblock Dock Authority",
+      "levelRange": "35",
+      "difficulty": "heroic",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Butcherblock Dock Authority",
-      "level": 35,
-      "difficulty": "heroic",
       "locations": [
         "595.06,24.4,589.64",
         "626.05,25.91,590.29",
@@ -878,15 +878,15 @@
     },
     {
       "name": "Guard Gasden",
+      "purpose": "Butcherblock Dock Authority",
+      "levelRange": "35",
+      "difficulty": "heroic",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Butcherblock Dock Authority",
-      "level": 35,
-      "difficulty": "heroic",
       "locations": [
         "595.06,24.4,589.64",
         "626.05,25.91,590.29",
@@ -916,13 +916,13 @@
     },
     {
       "name": "Harbormaster Ironmend",
+      "purpose": "Harbormaster",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Harbormaster",
       "locations": [
         "743.47,24.0,513.34"
       ],
@@ -933,13 +933,13 @@
     },
     {
       "name": "Harbormaster Steelstrike",
+      "purpose": "Harbormaster",
       "race": [
         "dwarf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Harbormaster",
       "locations": [
         "646.58,24.0,512.94"
       ],
@@ -949,15 +949,15 @@
     },
     {
       "name": "Hessek Thornton",
+      "purpose": "Butcherblock Dock Authority",
+      "levelRange": "35",
+      "difficulty": "heroic",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Butcherblock Dock Authority",
-      "level": 35,
-      "difficulty": "heroic",
       "locations": [
         "595.06,24.4,589.64",
         "626.05,25.91,590.29",
@@ -984,7 +984,7 @@
     },
     {
       "name": "a hungry sawtooth",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "567.16,13.79,533.47",
         "434.23,12.99,438.49",
@@ -999,33 +999,33 @@
     },
     {
       "name": "Juna Crankfizz",
+      "purpose": "Historian/Merchant",
       "race": [
         "gnome"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Historian/Merchant",
       "locations": [
         "636.54,26.0,588.06"
       ]
     },
     {
       "name": "Karsh Cogsworth",
+      "purpose": "Tinkering Trainer",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Tinkering Trainer",
       "locations": [
         "637.05,26.53,594.97"
       ]
     },
     {
       "name": "a longbarb leviathan",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "878.31,-0.53,182.15",
         "849.76,3.24,256.27"
@@ -1039,13 +1039,13 @@
     },
     {
       "name": "Mizzen Staysail",
+      "purpose": "The Far Seas Trading Company",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "The Far Seas Trading Company",
       "locations": [
         "715.97,24.0,613.57"
       ],
@@ -1067,26 +1067,26 @@
     },
     {
       "name": "Ol' Man Silvers",
+      "purpose": "Roger Goldie's 1st Mate",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Roger Goldie's 1st Mate",
       "locations": [
         "321.21,190.0,424.68"
       ]
     },
     {
       "name": "Opus Froth",
+      "purpose": "The Irontoe Brigade",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "The Irontoe Brigade",
       "locations": [
         "695.14,24.0,603.86"
       ],
@@ -1108,13 +1108,13 @@
     },
     {
       "name": "Philosopher Rhimes",
+      "purpose": "Deity Historian",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Deity Historian",
       "locations": [
         "673.85,24.0,584.26"
       ],
@@ -1124,7 +1124,7 @@
     },
     {
       "name": "a protective basilisk",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "356.62,26.60,-85.52",
         "365.34,26.37,-94.08"
@@ -1138,10 +1138,10 @@
     },
     {
       "name": "Raghunatha",
+      "purpose": "Emissary of Gorowyn",
       "gender": [
         "male"
       ],
-      "purpose": "Emissary of Gorowyn",
       "locations": [
         "696.25,24.08,583.37"
       ],
@@ -1212,7 +1212,7 @@
     },
     {
       "name": "a rustfiend",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "390.24,25.52,-94.95",
         "347.42,27.09,-58.68",
@@ -1232,13 +1232,13 @@
     },
     {
       "name": "Sala Maki",
+      "purpose": "Adorning Trainer",
       "race": [
         "fae"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Adorning Trainer",
       "locations": [
         "760.19,26.6,600.89"
       ],
@@ -1249,13 +1249,13 @@
     },
     {
       "name": "Saldas Rubbleground",
+      "purpose": "Irontoe Heritage Foundation",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Irontoe Heritage Foundation",
       "locations": [
         "327.35,193.78,552.94"
       ]
@@ -1281,7 +1281,7 @@
     },
     {
       "name": "a sea cucumber",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "380.39,16.72,183.70",
         "386.05,14.40,174.71",
@@ -1292,7 +1292,7 @@
     },
     {
       "name": "a seahawk",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "331.33,38.68,72.78",
         "331.84,35.30,105.37",
@@ -1307,7 +1307,7 @@
     },
     {
       "name": "a sea slug",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "687.66,17.28,542.71",
         "706.12,-0.37,531.90",
@@ -1337,18 +1337,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1545524487 -619569427:a vial of mucus\\/a",
+          "gamelink": "\\aITEM 1724061036 345372994:a slug antenna\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1724061036 345372994:a slug antenna\\/a",
+          "gamelink": "\\aITEM 1545524487 -619569427:a vial of mucus\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a sea slug hatchling",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "574.98,-2.09,-7.70",
         "568.48,-5.59,6.24",
@@ -1367,13 +1367,13 @@
     },
     {
       "name": "Sertera Vantra",
+      "purpose": "Qeynos Ambassador",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Qeynos Ambassador",
       "locations": [
         "350.76,189.07,473.99"
       ]
@@ -1392,7 +1392,7 @@
     },
     {
       "name": "a small crab",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "574.84,16.27,2.71",
         "596.61,-5.75,-13.33",
@@ -1404,20 +1404,20 @@
     },
     {
       "name": "Strongarm Fellhorn",
+      "purpose": "Banker",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Banker",
       "locations": [
         "634.41,26.0,604.53"
       ]
     },
     {
       "name": "a sunken sailor",
-      "level": 22,
+      "levelRange": "22",
       "locations": [
         "752.58,3.23,100.90",
         "745.40,2.65,95.74",
@@ -1430,11 +1430,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 915367656 1408642818:a vial of spectral essence\\/a",
+          "gamelink": "\\aITEM 1019381428 -593234954:bag of bone dust\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1019381428 -593234954:bag of bone dust\\/a",
+          "gamelink": "\\aITEM 915367656 1408642818:a vial of spectral essence\\/a",
           "chest": false
         }
       ],
@@ -1443,13 +1443,13 @@
     },
     {
       "name": "Tally Topgallant",
+      "purpose": "The Far Seas Trading Company",
       "race": [
         "barbarian"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "The Far Seas Trading Company",
       "locations": [
         "605.0,59.77,607.22"
       ],
@@ -1471,7 +1471,7 @@
     },
     {
       "name": "a terratrodder",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "361.11,27.72,-31.76",
         "271.70,24.08,86.30",
@@ -1498,13 +1498,13 @@
     },
     {
       "name": "Thark Keycairn",
+      "purpose": "Mender",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Mender",
       "locations": [
         "667.69,24.0,597.86"
       ],
@@ -1526,7 +1526,7 @@
     },
     {
       "name": "a Tidesylph fouler",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "849.29,22.62,-279.66",
         "797.35,15.38,-248.03"
@@ -1543,7 +1543,7 @@
     },
     {
       "name": "a Tidesylph idolator",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "850.26,42.89,-64.11",
         "852.58,43.00,-73.20",
@@ -1562,15 +1562,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -1460933134 -1511590904:a strand of golden hair\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
         }
       ],
@@ -1579,7 +1579,7 @@
     },
     {
       "name": "a Tidesylph lamentor",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "872.23,19.46,-15.63",
         "832.87,42.92,-102.93",
@@ -1595,11 +1595,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -151171484 1525557672:a vocal nerve\\/a",
+          "gamelink": "\\aITEM -1460933134 -1511590904:a strand of golden hair\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1460933134 -1511590904:a strand of golden hair\\/a",
+          "gamelink": "\\aITEM -151171484 1525557672:a vocal nerve\\/a",
           "chest": false
         }
       ],
@@ -1608,7 +1608,7 @@
     },
     {
       "name": "a Tidesylph ritualist",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "830.21,23.36,-264.99",
         "829.04,23.38,-272.88",
@@ -1628,15 +1628,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1460933134 -1511590904:a strand of golden hair\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -151171484 1525557672:a vocal nerve\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
           "chest": false
         },
         {
@@ -1644,7 +1640,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "gamelink": "\\aITEM -1460933134 -1511590904:a strand of golden hair\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -151171484 1525557672:a vocal nerve\\/a",
           "chest": false
         }
       ],
@@ -1653,7 +1653,7 @@
     },
     {
       "name": "a Tidesylph sentinel",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "848.61,42.83,-60.30",
         "834.50,42.93,-103.58",
@@ -1665,7 +1665,7 @@
     },
     {
       "name": "a Tidesylph shriller",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "840.21,23.09,-269.91",
         "770.90,6.75,-268.71",
@@ -1676,18 +1676,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1460933134 -1511590904:a strand of golden hair\\/a",
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "gamelink": "\\aITEM -1460933134 -1511590904:a strand of golden hair\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a Tidesylph temptress",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "851.22,42.93,-65.52",
         "869.48,43.27,-132.57",
@@ -1699,19 +1699,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1460933134 -1511590904:a strand of golden hair\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1895137515 -723397983:a siren song\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1460933134 -1511590904:a strand of golden hair\\/a",
           "chest": false
         }
       ]
@@ -1742,13 +1742,13 @@
     },
     {
       "name": "Trader Whitlock",
+      "purpose": "Fuel Merchant",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Fuel Merchant",
       "locations": [
         "335.15,189.25,490.76"
       ]
@@ -1773,26 +1773,26 @@
     },
     {
       "name": "Tychus Zeksworn",
+      "purpose": "Harbinger of War",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Harbinger of War",
       "locations": [
         "336.6,189.44,399.4"
       ]
     },
     {
       "name": "Tyla Maki",
+      "purpose": "Adorning Merchant",
       "race": [
         "fae"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Adorning Merchant",
       "locations": [
         "762.42,26.0,600.81"
       ],
@@ -1802,7 +1802,7 @@
     },
     {
       "name": "a wandering anemone",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "435.33,-9.28,70.97",
         "459.55,-8.75,92.55"
@@ -1816,7 +1816,7 @@
     },
     {
       "name": "a young anemone",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "568.56,4.38,-44.87",
         "563.28,-4.83,5.81",

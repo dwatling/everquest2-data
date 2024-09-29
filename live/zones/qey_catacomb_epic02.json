@@ -19,7 +19,7 @@
   "npcs": [
     {
       "name": "a carrion eater",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "4.77,-1.04,-34.37",
         "-3.20,-1.04,-32.97",
@@ -31,7 +31,7 @@
     },
     {
       "name": "a crypt robber",
-      "level": 21,
+      "levelRange": "21",
       "difficulty": "heroic",
       "locations": [
         "-18.17,-1.04,10.42",
@@ -45,13 +45,8 @@
       ]
     },
     {
-      "name": "a desecrated remains",
-      "level": 17,
-      "difficulty": "heroic"
-    },
-    {
       "name": "a grave watcher",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic^",
       "locations": [
         "-13.14,-1.04,4.42",
@@ -77,7 +72,7 @@
     },
     {
       "name": "Ronicus the Red",
-      "level": 21,
+      "levelRange": "21",
       "difficulty": "heroic",
       "locations": [
         "-20.00,-1.04,8.00"

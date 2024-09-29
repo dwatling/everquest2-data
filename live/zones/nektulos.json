@@ -1,7 +1,7 @@
 {
   "name": "Nektulos Forest",
   "category": "D'Lere",
-  "description": "Nektulos Forest is the ancestral home of the Teir'Dal and the location of Nektropos Castle.",
+  "notes": "Nektulos Forest is the ancestral home of the Teir'Dal and the location of Nektropos Castle.",
   "levels": "20-30",
   "maps": [
     {
@@ -16,7 +16,22 @@
       "key": "darklight_wood"
     },
     {
-      "key": "shard_of_hate"
+      "key": "exile_city"
+    },
+    {
+      "key": "exp03_rgn_butcherblock"
+    },
+    {
+      "key": "fallengate_epic01_boss_solo_nektulos"
+    },
+    {
+      "key": "live_haunted_cauldroncove"
+    },
+    {
+      "key": "mod01_dun_tombs_of_night_event01"
+    },
+    {
+      "key": "mod01_dun_tombs_of_night_playground"
     },
     {
       "key": "nektropos_castle"
@@ -25,10 +40,10 @@
       "key": "nektropos_castle_final"
     },
     {
-      "key": "mod01_dun_tombs_of_night_playground"
+      "key": "nektulos_epic01_cauldroncove"
     },
     {
-      "key": "mod01_dun_tombs_of_night_event01"
+      "key": "nektulos_epic01_cauldroncove_the_witches_cove"
     },
     {
       "key": "nektulos_mini01_crypt01"
@@ -40,22 +55,7 @@
       "key": "nektulos_mini03_solo"
     },
     {
-      "key": "nektulos_epic01_cauldroncove"
-    },
-    {
-      "key": "nektulos_epic01_cauldroncove_the_witches_cove"
-    },
-    {
-      "key": "exile_city"
-    },
-    {
-      "key": "exp03_rgn_butcherblock"
-    },
-    {
-      "key": "live_haunted_cauldroncove"
-    },
-    {
-      "key": "fallengate_epic01_boss_solo_nektulos"
+      "key": "shard_of_hate"
     }
   ],
   "npcs": [
@@ -70,7 +70,7 @@
     },
     {
       "name": "an angry Nek wasp",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "-1161.82,0.63,-861.62",
         "-1152.68,0.84,-859.42",
@@ -145,11 +145,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 915367656 636238602:a vial of spectral essence\\/a",
+          "gamelink": "\\aITEM 493224880 -714950344:a ghost remnant memory\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 493224880 -714950344:a ghost remnant memory\\/a",
+          "gamelink": "\\aITEM 915367656 636238602:a vial of spectral essence\\/a",
           "chest": false
         }
       ],
@@ -158,7 +158,7 @@
     },
     {
       "name": "an ash owlbear",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "-839.84,30.09,-262.16",
         "-842.29,30.55,-269.26",
@@ -203,18 +203,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1706685597 -300337142:clipped owlbear feather\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1241011086 -1583820418:Bear Claw\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1706685597 -300337142:clipped owlbear feather\\/a",
+          "chest": true
         }
       ]
     },
     {
       "name": "an ash shriller",
-      "level": 22,
+      "levelRange": "22",
       "locations": [
         "-465.69,5.18,-1239.34",
         "-519.72,0.08,-1220.34",
@@ -229,7 +229,7 @@
     },
     {
       "name": "an ash viper",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "-486.45,0.19,-1228.74",
         "-519.72,0.08,-1220.34",
@@ -258,7 +258,7 @@
     },
     {
       "name": "an ash wolf",
-      "level": 27,
+      "levelRange": "27",
       "locations": [
         "-1272.06,46.61,-1490.05",
         "-1265.53,46.85,-1484.51",
@@ -316,15 +316,15 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -2073079286 -33985810:a ghost phantasmal echo\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 493224880 -714950344:a ghost remnant memory\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2073079286 -33985810:a ghost phantasmal echo\\/a",
           "chest": false
         }
       ]
@@ -403,7 +403,7 @@
     },
     {
       "name": "a blacktimber bee",
-      "level": 28,
+      "levelRange": "28",
       "locations": [
         "-378.94,84.24,-1879.58",
         "-368.27,61.05,-1587.58",
@@ -412,7 +412,7 @@
     },
     {
       "name": "a blacktimber treant",
-      "level": 28,
+      "levelRange": "28",
       "locations": [
         "-384.26,82.83,-1902.94",
         "-391.06,85.49,-1862.58",
@@ -500,7 +500,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -720942830 -1560342492:a treant bark\\/a",
+          "gamelink": "\\aITEM 948898575 -1319863439:Charred Bone - Left Tibia\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1515551044 1004600881:a chunk of timber\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1426650769 -1162542819:a clump of fungus\\/a",
           "chest": false
         },
         {
@@ -508,7 +516,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1515551044 1004600881:a chunk of timber\\/a",
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 303095370 1141724326:one too many\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -720942830 -1560342492:a treant bark\\/a",
           "chest": false
         },
         {
@@ -520,38 +536,22 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 990455870 -548010639:a treant leaf\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1426650769 -1162542819:a clump of fungus\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 948898575 -1319863439:Charred Bone - Left Tibia\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1414122065 -1267645977:a treant root\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -823169464 1810761809:treant hard candy\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "gamelink": "\\aITEM 990455870 -548010639:a treant leaf\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 303095370 1141724326:one too many\\/a",
-          "chest": true
+          "gamelink": "\\aITEM -1414122065 -1267645977:a treant root\\/a",
+          "chest": false
         }
       ]
     },
     {
       "name": "a bloated soul leech",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "-33.56,-1.85,-1040.31",
         "480.18,-2.21,-1290.36",
@@ -641,7 +641,7 @@
     },
     {
       "name": "a blood shriller",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "659.13,4.29,-538.68",
         "651.75,2.30,-535.86",
@@ -695,7 +695,7 @@
     },
     {
       "name": "a cackling cadaver",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "-79.71,-0.77,190.14",
         "-82.07,-0.61,201.80",
@@ -755,7 +755,7 @@
     },
     {
       "name": "Captain T'Sanne",
-      "level": 29,
+      "levelRange": "29",
       "locations": [
         "699.59,-0.0,-718.82"
       ],
@@ -766,7 +766,7 @@
     },
     {
       "name": "a Cave Bear",
-      "level": 28,
+      "levelRange": "28",
       "locations": [
         "-1467.52,17.97,-731.3"
       ]
@@ -900,7 +900,7 @@
     },
     {
       "name": "a deadly rumbleroot",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "-885.63,32.49,-207.82",
         "-860.79,32.77,-251.71",
@@ -942,7 +942,7 @@
     },
     {
       "name": "a deathbloom bee",
-      "level": 30,
+      "levelRange": "30",
       "locations": [
         "-275.59,89.48,-2060.11",
         "-279.34,89.92,-2047.46",
@@ -951,18 +951,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 474339348 384324053:an insect wing\\/a",
+          "gamelink": "\\aITEM 157473402 1750079734:an insect stinger\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 157473402 1750079734:an insect stinger\\/a",
+          "gamelink": "\\aITEM 474339348 384324053:an insect wing\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a deathbloom treant",
-      "level": 29,
+      "levelRange": "29",
       "locations": [
         "-273.18,89.14,-2128.36",
         "-391.33,89.42,-2175.87",
@@ -1002,15 +1002,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1555822525 859721010:Opal Scrying Stone\\/a",
-          "chest": false
+          "gamelink": "\\aITEM 948898575 -1319863439:Charred Bone - Left Tibia\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 1105778909 -1684024372:a chunk of timber\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
           "chest": false
         },
         {
@@ -1018,30 +1014,34 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1414122065 -1267645977:a treant root\\/a",
+          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1343104170 1056608866:a finely hammered blade\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 948898575 -1319863439:Charred Bone - Left Tibia\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 1555822525 859721010:Opal Scrying Stone\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 29919963 -24410400:Three Black Rings\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -1343104170 1056608866:a finely hammered blade\\/a",
-          "chest": true
+          "gamelink": "\\aITEM -1414122065 -1267645977:a treant root\\/a",
+          "chest": false
         }
       ]
     },
     {
       "name": "a decaying flesh being",
-      "level": 30,
+      "levelRange": "30",
       "locations": [
         "-1088.68,76.03,-1547.80",
         "-1068.66,95.02,-1632.44",
@@ -1076,7 +1076,7 @@
     },
     {
       "name": "Defender Spitecap",
-      "level": 23,
+      "levelRange": "23",
       "difficulty": "heroic",
       "locations": [
         "-203.09,3.5,-207.39"
@@ -1148,7 +1148,7 @@
     },
     {
       "name": "a Dragoon captain",
-      "level": 27,
+      "levelRange": "27",
       "locations": [
         "-293.6,90.54,-2151.17",
         "-414.4,86.08,-2183.64",
@@ -1169,12 +1169,12 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1317754168 1332130336:Opal Amulet\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -1840724252 1428185358:Charred Bone - Right Tibia\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1317754168 1332130336:Opal Amulet\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 565,
@@ -1182,7 +1182,7 @@
     },
     {
       "name": "a Dragoon dirth",
-      "level": 29,
+      "levelRange": "29",
       "locations": [
         "-269.45,89.16,-2132.37",
         "-541.17,77.2,-2178.43",
@@ -1197,18 +1197,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -1021718107 -1931005735:Charred Bone - Ribcage\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
         }
       ]
     },
     {
       "name": "Dragoon E`Brona",
-      "level": 28,
+      "levelRange": "28",
       "locations": [
         "-1568.41,8.6,-873.01",
         "-1568.21,8.14,-882.00"
@@ -1216,7 +1216,7 @@
     },
     {
       "name": "Dragoon J`Rais",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "-115.32,-0.27,127.68",
         "-72.21,-1.42,94.91"
@@ -1236,7 +1236,7 @@
     },
     {
       "name": "a Dragoon lieutenant",
-      "level": 28,
+      "levelRange": "28",
       "locations": [
         "640.94,0.8,-722.04",
         "687.45,0,-723.14",
@@ -1249,7 +1249,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "gamelink": "\\aITEM 1019381428 -593234954:bag of bone dust\\/a",
           "chest": false
         },
         {
@@ -1257,7 +1257,7 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1019381428 -593234954:bag of bone dust\\/a",
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
           "chest": false
         }
       ],
@@ -1266,7 +1266,7 @@
     },
     {
       "name": "a Dragoon patrolman",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "-1014.24,34.86,-1020.7",
         "-995.4,30.0,-964.92",
@@ -1284,7 +1284,7 @@
     },
     {
       "name": "a Dragoon sentinel",
-      "level": 28,
+      "levelRange": "28",
       "locations": [
         "640.87,0.67,-715.37",
         "681.62,0,-711.91",
@@ -1298,11 +1298,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
           "chest": false
         }
       ]
@@ -1338,7 +1338,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "gamelink": "\\aITEM 1019381428 -593234954:bag of bone dust\\/a",
           "chest": false
         },
         {
@@ -1350,7 +1350,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1019381428 -593234954:bag of bone dust\\/a",
+          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
           "chest": false
         }
       ],
@@ -1359,7 +1359,7 @@
     },
     {
       "name": "a Dragoon sylth",
-      "level": 29,
+      "levelRange": "29",
       "locations": [
         "-545.38,77.22,-2202.93",
         "-227.71,90.25,-2167.5",
@@ -1394,7 +1394,7 @@
     },
     {
       "name": "a dusk dart",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "770.52,-5.05,-26.27",
         "764.08,-16.31,-12.80",
@@ -1437,7 +1437,7 @@
     },
     {
       "name": "an elder ash owlbear",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "-736.83,75.82,172.82",
         "-725.51,75.82,172.28",
@@ -1477,19 +1477,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 492368361 1735703568:an old key\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 32254955 -761269504:Charred Bone - Left Femur\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 29919963 -24410400:Three Black Rings\\/a",
+          "gamelink": "\\aITEM 661999661 -1196246600:a cold kukri\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 661999661 -1196246600:a cold kukri\\/a",
+          "gamelink": "\\aITEM 492368361 1735703568:an old key\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 29919963 -24410400:Three Black Rings\\/a",
           "chest": true
         }
       ]
@@ -1505,7 +1505,7 @@
     },
     {
       "name": "a ferocious nek wasp",
-      "level": 22,
+      "levelRange": "22",
       "locations": [
         "599.64,2.72,-146.03",
         "631.19,5.16,-159.29"
@@ -1513,7 +1513,7 @@
     },
     {
       "name": "a ferocious Nerius crab",
-      "level": 22,
+      "levelRange": "22",
       "locations": [
         "749.76,0.22,-201.01"
       ],
@@ -1551,7 +1551,7 @@
     },
     {
       "name": "a firelight shriller",
-      "level": 26,
+      "levelRange": "26",
       "locations": [
         "-691.5,79.75,113.05",
         "-625.65,84.75,141.8",
@@ -1598,7 +1598,7 @@
     },
     {
       "name": "a forest leaper",
-      "level": 22,
+      "levelRange": "22",
       "locations": [
         "853.73,-0.32,-371.32",
         "858.21,-0.84,-348.43",
@@ -1642,18 +1642,18 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 366774295 -1953251951:premature\\/a",
+          "gamelink": "\\aITEM -1840724252 1428185358:Charred Bone - Right Tibia\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -1840724252 1428185358:Charred Bone - Right Tibia\\/a",
+          "gamelink": "\\aITEM 366774295 -1953251951:premature\\/a",
           "chest": true
         }
       ]
     },
     {
       "name": "Foulfeather",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "-559.66,40.96,132.76",
         "-565.72,43.37,142.77"
@@ -1661,7 +1661,7 @@
     },
     {
       "name": "a Freeport Militia sentry",
-      "level": 20,
+      "levelRange": "20",
       "difficulty": "heroic",
       "locations": [
         "-290.49,-0.01,202.42",
@@ -1725,7 +1725,7 @@
     },
     {
       "name": "a grizzled shadowmaw kodiak",
-      "level": 27,
+      "levelRange": "27",
       "locations": [
         "-1640.13,14.67,-1035.61",
         "-1643.9,12.67,-997.99",
@@ -1779,15 +1779,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 29919963 -24410400:Three Black Rings\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
           "chest": false
         },
         {
@@ -1795,8 +1787,16 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 29919963 -24410400:Three Black Rings\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 87,
@@ -1804,7 +1804,7 @@
     },
     {
       "name": "a Gul'Thex captain",
-      "level": 29,
+      "levelRange": "29",
       "locations": [
         "714.1,0.77,-678.2",
         "713.93,1.87,-672.16",
@@ -1817,7 +1817,7 @@
     },
     {
       "name": "a Gul'Thex cleric",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic",
       "locations": [
         "641.51,0.59,-699.27",
@@ -1842,7 +1842,7 @@
     },
     {
       "name": "a Gul'Thex heretic",
-      "level": 30,
+      "levelRange": "30",
       "locations": [
         "672.14,0.44,-680.44",
         "735.61,2.91,-754.2"
@@ -1850,7 +1850,7 @@
     },
     {
       "name": "a Gul'Thex high guard",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic",
       "locations": [
         "683.62,0,-714.98",
@@ -1874,7 +1874,7 @@
     },
     {
       "name": "a Gul'Thex lieutenant",
-      "level": 30,
+      "levelRange": "30",
       "locations": [
         "-382.96,60.59,-1374.08",
         "648.96,0.36,-693.32",
@@ -1889,7 +1889,7 @@
     },
     {
       "name": "a Gul'Thex mystic",
-      "level": 30,
+      "levelRange": "30",
       "locations": [
         "412.33,5.6,-814.02",
         "678.04,0.92,-763.68",
@@ -1909,7 +1909,7 @@
     },
     {
       "name": "a Gul'Thex patrolman",
-      "level": 29,
+      "levelRange": "29",
       "locations": [
         "651.22,-0.14,-697.35",
         "718.93,-0.33,-689.28",
@@ -1920,7 +1920,7 @@
     },
     {
       "name": "a Gul'Thex ravager",
-      "level": 30,
+      "levelRange": "30",
       "locations": [
         "685.03,-0.0,-706.08",
         "691.40,-0.00,-712.71",
@@ -1936,7 +1936,7 @@
     },
     {
       "name": "a Gul'Thex revenant",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic",
       "locations": [
         "720.26,6,-769.1",
@@ -1960,7 +1960,7 @@
     },
     {
       "name": "a Gul'Thex sentry",
-      "level": 30,
+      "levelRange": "30",
       "locations": [
         "660.27,0.06,-684.25",
         "706.58,0.27,-683.22",
@@ -1978,15 +1978,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -953055295 -1080640652:a giants beard\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 942338143 -894051179:application for citizenship\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
           "chest": false
         },
         {
@@ -1994,7 +1990,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
+          "gamelink": "\\aITEM -953055295 -1080640652:a giants beard\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
           "chest": false
         }
       ],
@@ -2023,7 +2023,7 @@
     },
     {
       "name": "a haze stalker",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "-428.91,0,-1157.51",
         "-412.2,0,-1186.1",
@@ -2072,7 +2072,7 @@
     },
     {
       "name": "an immense tree snake",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "613.28,-2.44,-548.66",
         "634.14,-3.73,-517.54",
@@ -2197,7 +2197,7 @@
     },
     {
       "name": "Kixizor Z'Nast",
-      "level": 26,
+      "levelRange": "26",
       "locations": [
         "-1369.19,25.79,-1358.32",
         "-1360.49,24.28,-1365.76"
@@ -2227,25 +2227,25 @@
     },
     {
       "name": "a knight of the beacon",
-      "level": 28,
+      "levelRange": "28",
       "difficulty": "heroic",
       "locations": [
         "-962.22,14.10,-741.74"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 915367656 636238602:a vial of spectral essence\\/a",
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "gamelink": "\\aITEM 915367656 636238602:a vial of spectral essence\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "Koylinite",
-      "level": 30,
+      "levelRange": "30",
       "locations": [
         "-1169.75,132.70,-1910.08",
         "-1176.45,127.39,-1908.99"
@@ -2257,15 +2257,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -15032031 1384694691:Fortify Elements II (Adept)\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 1134475843 -1884128155:Group of Pine Needles\\/a",
           "chest": true
         },
         {
           "gamelink": "\\aITEM -337872247 1975288810:Infused Student's Leggings\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -15032031 1384694691:Fortify Elements II (Adept)\\/a",
           "chest": true
         },
         {
@@ -2319,11 +2319,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 915367656 636238602:a vial of spectral essence\\/a",
+          "gamelink": "\\aITEM 493224880 -714950344:a ghost remnant memory\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 493224880 -714950344:a ghost remnant memory\\/a",
+          "gamelink": "\\aITEM 915367656 636238602:a vial of spectral essence\\/a",
           "chest": false
         }
       ]
@@ -2342,7 +2342,7 @@
     },
     {
       "name": "a lesser sap urchin",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "-307.98,2.21,-796.10"
       ]
@@ -2378,7 +2378,7 @@
     },
     {
       "name": "Lord J'Narus",
-      "level": 29,
+      "levelRange": "29",
       "locations": [
         "724.43,5.15,-765.23"
       ],
@@ -2394,7 +2394,7 @@
     },
     {
       "name": "a lost dragoon",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "-766.92,2.70,-427.16",
         "-766.04,2.18,-432.49",
@@ -2454,7 +2454,7 @@
     },
     {
       "name": "Mariner Guard Balstrom",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "772.21,2.61,-153.03",
         "766.13,2.43,-150.51",
@@ -2518,7 +2518,7 @@
     },
     {
       "name": "a mist grinnin",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "-201.92,0.00,-923.19",
         "82.41,1.48,-964.22",
@@ -2563,15 +2563,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 492368361 1735703568:an old key\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "gamelink": "\\aITEM 685460663 -56890563:a goblin claw\\/a",
           "chest": false
         },
         {
@@ -2579,15 +2575,19 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM -815570512 1462756580:a goblin spine\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 492368361 1735703568:an old key\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -946289874 -1251160878:simple arcane formula\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -815570512 1462756580:a goblin spine\\/a",
           "chest": false
         },
         {
@@ -2595,7 +2595,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 685460663 -56890563:a goblin claw\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -2625,23 +2625,23 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1608285217 265160279:a goblin tooth\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1699090909 -1328714666:Broken Vessel\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "gamelink": "\\aITEM 1608285217 265160279:a goblin tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
           "chest": false
         }
       ],
@@ -2663,7 +2663,7 @@
     },
     {
       "name": "a motley kodiak",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "-543.06,-6.94,-679.40",
         "-571.96,-5.52,-720.86",
@@ -2711,7 +2711,7 @@
     },
     {
       "name": "a mottled kodiak",
-      "level": 29,
+      "levelRange": "29",
       "locations": [
         "-1376.71,28.74,-697.98"
       ]
@@ -2739,7 +2739,7 @@
     },
     {
       "name": "a murkbloom defender",
-      "level": 22,
+      "levelRange": "22",
       "locations": [
         "-177.75,-0.02,-67.14",
         "-217.50,2.44,-317.73",
@@ -2758,7 +2758,7 @@
     },
     {
       "name": "a murkbloom feeder",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "-188.37,3.59,-299.97",
         "-177.51,4.00,-285.43",
@@ -2769,7 +2769,7 @@
     },
     {
       "name": "a murkbloom forager",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "-240.90,0.00,-857.69",
         "-553.74,0.30,-881.95",
@@ -2838,7 +2838,7 @@
     },
     {
       "name": "a Nek feeder",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "270.51,-3.99,-1139.64",
         "218.76,-3.01,-1126.04",
@@ -2892,7 +2892,7 @@
     },
     {
       "name": "a Nek wasp",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "-497.81,-0.38,-697.50",
         "-536.72,-3.39,-676.44",
@@ -2913,7 +2913,7 @@
     },
     {
       "name": "a Nek wasp larva",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "locations": [
         "-1161.31,0.72,-850.86",
@@ -2923,7 +2923,7 @@
     },
     {
       "name": "a Nek wasp scavenger",
-      "level": 26,
+      "levelRange": "26",
       "locations": [
         "-1291.24,55.31,-1492.29",
         "-1370.5,70.19,-1514.22",
@@ -2933,7 +2933,7 @@
     },
     {
       "name": "a Nerius bandit",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "814.42,0.14,-270.74",
         "807.00,-0.47,-279.00",
@@ -2947,7 +2947,7 @@
     },
     {
       "name": "a Nerius Commander",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "917.84,-0.89,-335.00"
       ],
@@ -2959,7 +2959,7 @@
     },
     {
       "name": "a Nerius crab",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "1022.43,-0.88,-326.48",
         "999.85,1.12,-334.95",
@@ -3035,11 +3035,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 512790155 320744539:crab meat\\/a",
+          "gamelink": "\\aITEM -2136398151 1163100270:a crab claw\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -2136398151 1163100270:a crab claw\\/a",
+          "gamelink": "\\aITEM 512790155 320744539:crab meat\\/a",
           "chest": false
         },
         {
@@ -3065,7 +3065,7 @@
     },
     {
       "name": "a Nerius fiddler",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "915.68,-0.89,-338.11",
         "941.51,-0.79,-360.24",
@@ -3110,7 +3110,7 @@
     },
     {
       "name": "a Nerius foreman",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "817.23,0.22,-260.62",
         "822.85,0.45,-272.70",
@@ -3152,7 +3152,7 @@
     },
     {
       "name": "a Nerius pirate",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "922.09,-0.46,-306.07",
         "915.81,0.55,-303.88",
@@ -3177,7 +3177,7 @@
     },
     {
       "name": "a Nerius Pirate Captain",
-      "level": 24,
+      "levelRange": "24",
       "difficulty": "heroic",
       "locations": [
         "814.03,-0.27,-257.76",
@@ -3206,7 +3206,7 @@
     },
     {
       "name": "a Nerius seer",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "817.23,0.22,-260.62",
         "580.18,-0.87,-155.55",
@@ -3222,7 +3222,7 @@
     },
     {
       "name": "a Nerius snapper",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "980.92,1.52,-309.53",
         "878.28,-0.90,-230.85",
@@ -3239,7 +3239,7 @@
     },
     {
       "name": "a Nerius Tactician",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "926.50,-0.90,-326.24"
       ],
@@ -3253,7 +3253,7 @@
     },
     {
       "name": "a Nerius vandal",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "595.50,-0.73,-212.92",
         "580.61,-0.89,-120.74"
@@ -3269,7 +3269,7 @@
     },
     {
       "name": "a Nightfall giant",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "-605.86,39.6,-173.89",
         "-594.28,37.39,-178.67",
@@ -3321,35 +3321,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 31755782 1098695081:a giant tooth\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -898368698 -1285985171:strange dark powder\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -430136575 -2121467061:a giant ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -269816022 1680276565:a giant toe\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -953055295 -1080640652:a giants beard\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
         },
         {
@@ -3357,7 +3329,35 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -953055295 -1080640652:a giants beard\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -269816022 1680276565:a giant toe\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 31755782 1098695081:a giant tooth\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1994636944 1314615482:a giant whisker\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -898368698 -1285985171:strange dark powder\\/a",
           "chest": false
         }
       ]
@@ -3400,14 +3400,14 @@
     },
     {
       "name": "Paddlefoot",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "-57.37,0.3,-244.4"
       ]
     },
     {
       "name": "a patchwork fleshripper",
-      "level": 29,
+      "levelRange": "29",
       "locations": [
         "-1331.32,113.69,-1952.12",
         "-1324.59,114.45,-1975.11",
@@ -3448,7 +3448,7 @@
     },
     {
       "name": "a patchwork man",
-      "level": 30,
+      "levelRange": "30",
       "locations": [
         "-1190.97,158.16,-1940.64",
         "-1089.28,77.44,-1552.76",
@@ -3462,15 +3462,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 595293245 -1286279070:Magma Chamber III (Adept)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 7601189 -2024119295:impure chunk of arcane stone\\/a",
+          "gamelink": "\\aITEM -61203924 -290617416:a golem sentience leash\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -61203924 -290617416:a golem sentience leash\\/a",
+          "gamelink": "\\aITEM 7601189 -2024119295:impure chunk of arcane stone\\/a",
           "chest": false
         },
         {
@@ -3480,6 +3476,10 @@
         {
           "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 595293245 -1286279070:Magma Chamber III (Adept)\\/a",
+          "chest": true
         }
       ]
     },
@@ -3562,7 +3562,7 @@
     },
     {
       "name": "a quetzanek",
-      "level": 27,
+      "levelRange": "27",
       "locations": [
         "-402.57,85.86,-1856.85",
         "-322.06,84.32,-1775.68",
@@ -3592,7 +3592,7 @@
     },
     {
       "name": "a river stone",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "450.82,-0.31,-1177.56",
         "449.64,0.00,-1194.29",
@@ -3609,7 +3609,7 @@
     },
     {
       "name": "a rotheart treant",
-      "level": 28,
+      "levelRange": "28",
       "locations": [
         "-456.86,84.69,-1780.79",
         "-403.38,83.71,-1768.36",
@@ -3628,6 +3628,14 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -1515551044 1004600881:a chunk of timber\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1426650769 -1162542819:a clump of fungus\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
           "chest": false
         },
@@ -3636,19 +3644,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1515551044 1004600881:a chunk of timber\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1577027196 -1331922931:a treant branch\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 303095370 1141724326:one too many\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1426650769 -1162542819:a clump of fungus\\/a",
+          "gamelink": "\\aITEM -1577027196 -1331922931:a treant branch\\/a",
           "chest": false
         }
       ]
@@ -3669,11 +3669,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ]
@@ -3699,7 +3699,7 @@
     },
     {
       "name": "a rumbleroot",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "-924.53,32.77,-202.60",
         "-911.33,32.64,-193.86",
@@ -3735,11 +3735,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1950789536 -565531029:wooden splinter\\/a",
+          "gamelink": "\\aITEM 1117322001 1866678792:fungus\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1117322001 1866678792:fungus\\/a",
+          "gamelink": "\\aITEM 1950789536 -565531029:wooden splinter\\/a",
           "chest": false
         }
       ]
@@ -3763,7 +3763,7 @@
     },
     {
       "name": "a sap urchin",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "-493.46,-3.63,-699.43",
         "-493.83,-2.51,-710.64",
@@ -3906,7 +3906,7 @@
     },
     {
       "name": "a scrounging ghoul",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "-654.8,2.97,-260.99",
         "-654.98,2.99,-271.68",
@@ -3997,7 +3997,7 @@
     },
     {
       "name": "a shade spinner",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "-603.38,0.5,-978.25",
         "-609.47,0.06,-938.14",
@@ -4060,7 +4060,7 @@
     },
     {
       "name": "a Shadespinner Queen",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "179.49,-0.92,-324.54"
       ],
@@ -4073,7 +4073,7 @@
     },
     {
       "name": "a shadowed man",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "-134.34,89.06,-2246.88",
         "-136.68,90.19,-2258.92",
@@ -4147,15 +4147,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 718179049 760842906:Transference Directive\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -62429073 -449997272:a shadowman vortex ripple\\/a",
           "chest": false
         },
         {
@@ -4163,31 +4155,39 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 306776387 -1819980222:a shadowman swirling shadow\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 29919963 -24410400:Three Black Rings\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 366774295 -1953251951:premature\\/a",
           "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1171037491 -842416485:Shadow Rose\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1958717191 -126204865:a shadowman planar fiber\\/a",
-          "chest": false
         },
         {
           "gamelink": "\\aITEM 1828222462 1612045278:a shadowman aspect of shadow\\/a",
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -1958717191 -126204865:a shadowman planar fiber\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 306776387 -1819980222:a shadowman swirling shadow\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1699625429 567562697:a shadowman void kernel\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -62429073 -449997272:a shadowman vortex ripple\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1171037491 -842416485:Shadow Rose\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 29919963 -24410400:Three Black Rings\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 718179049 760842906:Transference Directive\\/a",
           "chest": false
         },
         {
@@ -4220,7 +4220,7 @@
     },
     {
       "name": "a shadowmaw kodiak",
-      "level": 27,
+      "levelRange": "27",
       "locations": [
         "-1299.58,44.63,-1482.09",
         "-1364.1,48.89,-1504.01",
@@ -4244,7 +4244,7 @@
     },
     {
       "name": "a shadow wolf",
-      "level": 19,
+      "levelRange": "19",
       "locations": [
         "-522.86,0.58,-1016.63",
         "-87.13,-1.27,88.2"
@@ -4262,7 +4262,7 @@
     },
     {
       "name": "a shambling flesh being",
-      "level": 29,
+      "levelRange": "29",
       "locations": [
         "-1326.33,114.26,-1970.87",
         "-1361.97,111.57,-1966.25",
@@ -4337,7 +4337,7 @@
     },
     {
       "name": "a shriller",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "-209.80,4.02,76.52",
         "-204.88,5.58,53.73",
@@ -4360,7 +4360,7 @@
     },
     {
       "name": "a soul leech",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "-472.48,0.5,-1025",
         "-495.6,0.48,-1022.58",
@@ -4413,11 +4413,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1296364617 1592738683:a mucous encrusted tendril\\/a",
+          "gamelink": "\\aITEM 1365385384 1432105181:an accumulation of plasma\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1365385384 1432105181:an accumulation of plasma\\/a",
+          "gamelink": "\\aITEM -1296364617 1592738683:a mucous encrusted tendril\\/a",
           "chest": false
         }
       ]
@@ -4449,7 +4449,7 @@
     },
     {
       "name": "a Sullian fairy",
-      "level": 26,
+      "levelRange": "26",
       "locations": [
         "-1055.35,137.55,-1820.55",
         "-942.02,140.56,-1822.61",
@@ -4568,7 +4568,7 @@
     },
     {
       "name": "a Thexian assassin",
-      "level": 28,
+      "levelRange": "28",
       "locations": [
         "-1395.74,27.58,-1377.14",
         "-1289.46,46.37,-1494.07",
@@ -4592,7 +4592,7 @@
     },
     {
       "name": "a Thexian ruffian",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "-1336.3,23.82,-1357.47",
         "-1527.28,27.23,-1180.95",
@@ -4612,15 +4612,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -658420854 385425044:ancient copper coin\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -4629,7 +4629,7 @@
     },
     {
       "name": "a Thexian scout",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "-1342.39,26.28,-1345.24",
         "-1395.73,26.21,-1393.71",
@@ -4661,7 +4661,7 @@
     },
     {
       "name": "a thexian searcher",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "-592.16,-2.08,-750.87",
         "-600.45,-5.59,-683.55",
@@ -4695,7 +4695,7 @@
     },
     {
       "name": "a Thexian Vin chosen",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "-1385.73,25.25,-1386.87",
         "-1414.83,31.62,-1370.16",
@@ -4712,7 +4712,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
           "chest": false
         },
         {
@@ -4720,7 +4720,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -4729,7 +4729,7 @@
     },
     {
       "name": "a Thexian Vin guard",
-      "level": 27,
+      "levelRange": "27",
       "locations": [
         "-1346.49,25.04,-1354.42",
         "-1337.04,25.17,-1349.96",
@@ -4773,7 +4773,7 @@
     },
     {
       "name": "Tilberbous",
-      "level": 29,
+      "levelRange": "29",
       "locations": [
         "-1067.20,-2.69,-573.66",
         "-1058.53,-1.92,-578.86"
@@ -4787,7 +4787,7 @@
     },
     {
       "name": "a timid dusk leaper",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "-882.03,32.41,-207.35",
         "-865.20,33.03,-212.79",
@@ -4974,7 +4974,7 @@
     },
     {
       "name": "a vile shade spinner",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "293.52,4.11,-349.56",
         "286.54,4.40,-350.33",
@@ -5005,21 +5005,21 @@
     },
     {
       "name": "Warlord J'Narus",
-      "level": 29,
+      "levelRange": "29",
       "locations": [
         "468.89,0.19,-396.33"
       ]
     },
     {
       "name": "Warlord T'Velk",
-      "level": 29,
+      "levelRange": "29",
       "locations": [
         "-245.23,5.07,-658.14"
       ]
     },
     {
       "name": "Warlord U'Kaltax",
-      "level": 29,
+      "levelRange": "29",
       "locations": [
         "-394.07,57.00,-1286.10"
       ]
@@ -5063,44 +5063,15 @@
   ],
   "shinies": [
     {
-      "gamelink": "\\aITEM -2138407993 1925374679:Chewing Gum\\/a",
-      "locations": [
-        "754.32,1.05,-193.50"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 2106803051 -1585298617:Cupcake\\/a",
-      "locations": [
-        "822.23,0.92,-228.52",
-        "847.81,1.15,-200.59"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -295014750 -1567603847:Gummy Worms\\/a",
-      "locations": [
-        "807.11,-0.90,-143.78"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1998903051 -1094405532:Spine Tingle\\/a",
-      "locations": [
-        "687.40,-0.87,-152.99",
-        "782.34,2.43,-160.40",
-        "877.16,-0.78,-224.08",
-        "734.54,-0.57,-267.00",
-        "755.23,3.71,-268.07"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 224916200 2011328784:Sudden Fright\\/a",
-      "locations": [
-        "727.59,-0.90,-145.28"
-      ]
-    },
-    {
       "gamelink": "\\aITEM 499501274 537092120:blue nektulos pine needle\\/a",
       "locations": [
         "962.95,0.00,-282.08"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -2138407993 1925374679:Chewing Gum\\/a",
+      "locations": [
+        "754.32,1.05,-193.50"
       ]
     },
     {
@@ -5141,6 +5112,13 @@
       ]
     },
     {
+      "gamelink": "\\aITEM 2106803051 -1585298617:Cupcake\\/a",
+      "locations": [
+        "822.23,0.92,-228.52",
+        "847.81,1.15,-200.59"
+      ]
+    },
+    {
       "gamelink": "\\aITEM -807039365 1532502838:dark brown nektulos pine needle\\/a",
       "locations": [
         "-526.73,60.37,-1552.49"
@@ -5156,6 +5134,12 @@
       "gamelink": "\\aITEM -1475232015 2140803050:green nektulos pine needle\\/a",
       "locations": [
         "-271.44,2.00,-451.37"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -295014750 -1567603847:Gummy Worms\\/a",
+      "locations": [
+        "807.11,-0.90,-143.78"
       ]
     },
     {
@@ -5186,6 +5170,16 @@
       ]
     },
     {
+      "gamelink": "\\aITEM 1998903051 -1094405532:Spine Tingle\\/a",
+      "locations": [
+        "687.40,-0.87,-152.99",
+        "782.34,2.43,-160.40",
+        "877.16,-0.78,-224.08",
+        "734.54,-0.57,-267.00",
+        "755.23,3.71,-268.07"
+      ]
+    },
+    {
       "gamelink": "\\aITEM 833029593 -519945908:spotted grey spider\\/a",
       "locations": [
         "-9.07,2.00,-403.86"
@@ -5195,6 +5189,12 @@
       "gamelink": "\\aITEM -1578966196 228827806:spotted red spider\\/a",
       "locations": [
         "-1291.26,120.00,-1959.03"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 224916200 2011328784:Sudden Fright\\/a",
+      "locations": [
+        "727.59,-0.90,-145.28"
       ]
     },
     {

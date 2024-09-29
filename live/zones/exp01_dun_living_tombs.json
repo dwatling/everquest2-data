@@ -2,28 +2,13 @@
   "name": "The Living Tombs",
   "expansion": "exp01",
   "category": "Desert of Ro",
-  "zonerect": "492.00,66.00,776.00,395.00",
   "levels": "45-60",
-  "maps": [
-    {
-      "name": "Trade Court"
-    },
-    {
-      "name": "Residence Court"
-    },
-    {
-      "name": "Priestess' Court"
-    },
-    {
-      "name": "Statue Court"
-    }
-  ],
   "connections": [
     {
-      "key": "exp01_rgn_sinking_sands"
+      "key": "exp01_dun_silent_city"
     },
     {
-      "key": "exp01_dun_silent_city"
+      "key": "exp01_rgn_sinking_sands"
     }
   ]
 }

@@ -10,28 +10,28 @@
   ],
   "connections": [
     {
-      "key": "freeport_combined",
-      "location": "13.55,2.92,16.23"
-    },
-    {
       "key": "fprt_sewer01",
       "location": "53.62,3.84,43.65"
     },
     {
       "key": "fprt_tradeskill01_hood03",
       "location": "3.28,3.48,113.09"
+    },
+    {
+      "key": "freeport_combined",
+      "location": "13.55,2.92,16.23"
     }
   ],
   "npcs": [
     {
       "name": "Arms Dealer Shinska",
+      "purpose": "Weaponsmith",
       "race": [
         "ratonga"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Weaponsmith",
       "locations": [
         "11.09,3.0,66.51"
       ],
@@ -43,13 +43,13 @@
     },
     {
       "name": "Barmaid Krasa",
+      "purpose": "Provisioner",
       "race": [
         "ratonga"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Provisioner",
       "locations": [
         "98.0,-4.57,97.42"
       ],
@@ -69,13 +69,13 @@
     },
     {
       "name": "Captain Molacus",
+      "purpose": "Freeport Militia",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "16.67,2.92,27.53",
         "25.33,2.92,28.23",
@@ -84,13 +84,13 @@
     },
     {
       "name": "Chef Schmenko",
+      "purpose": "Provisioner",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Provisioner",
       "locations": [
         "-13.64,3.03,70.67",
         "32.45,3.0,82.48"
@@ -174,13 +174,13 @@
     },
     {
       "name": "Frizi Figglesnip",
+      "purpose": "Linguist",
       "race": [
         "gnome"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Linguist",
       "locations": [
         "52.11,3.5,79.68"
       ],
@@ -227,13 +227,13 @@
     },
     {
       "name": "Fubbledodge",
+      "purpose": "Shieldsmith",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Shieldsmith",
       "locations": [
         "16.82,2.92,39.67"
       ],
@@ -244,13 +244,13 @@
     },
     {
       "name": "Innkeeper Zixi Wuggle",
+      "purpose": "Housing",
       "race": [
         "gnome"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Housing",
       "locations": [
         "11.38,3.0,87.73"
       ],
@@ -275,13 +275,13 @@
     },
     {
       "name": "Jubil Frankobi",
+      "purpose": "Temple Street Doctor",
       "race": [
         "gnome"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Temple Street Doctor",
       "locations": [
         "-6.71,3.0,66.78"
       ],
@@ -292,13 +292,13 @@
     },
     {
       "name": "Kavina",
+      "purpose": "Bowyer",
       "race": [
         "ratonga"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Bowyer",
       "locations": [
         "35.41,2.92,22.11"
       ],
@@ -309,13 +309,13 @@
     },
     {
       "name": "Krellian",
+      "purpose": "Mender",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Mender",
       "locations": [
         "10.65,3.05,61.14"
       ]
@@ -424,7 +424,7 @@
     },
     {
       "name": "a pig",
-      "level": 9,
+      "levelRange": "9",
       "locations": [
         "111.03,-4.57,112.52"
       ],
@@ -437,13 +437,13 @@
     },
     {
       "name": "Plordo Blotterdook",
+      "purpose": "Alchemist",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Alchemist",
       "locations": [
         "33.83,2.92,26.45"
       ],
@@ -462,13 +462,13 @@
     },
     {
       "name": "Pshavost",
+      "purpose": "Bartender",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Bartender",
       "locations": [
         "95.82,-4.57,98.53"
       ],
@@ -479,13 +479,13 @@
     },
     {
       "name": "Qwergo Togglesmeet",
+      "purpose": "General Goods",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "General Goods",
       "locations": [
         "60.92,2.98,71.84"
       ],
@@ -496,7 +496,7 @@
     },
     {
       "name": "a rat",
-      "level": 2,
+      "levelRange": "2",
       "locations": [
         "-36.00,2.83,120.00",
         "-42.73,2.83,116.00",
@@ -530,26 +530,26 @@
     },
     {
       "name": "Sempronia Gallus",
+      "purpose": "Banker",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Banker",
       "locations": [
         "61.72,4.13,53.14"
       ]
     },
     {
       "name": "Sipka",
+      "purpose": "Tailor",
       "race": [
         "ratonga"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Tailor",
       "locations": [
         "85.86,-4.57,119.38"
       ],
@@ -600,13 +600,13 @@
     },
     {
       "name": "Svasha",
+      "purpose": "Armorsmith",
       "race": [
         "ratonga"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Armorsmith",
       "locations": [
         "30.55,2.92,13.7"
       ],
@@ -632,13 +632,13 @@
     },
     {
       "name": "Tuber Fattleweeble",
+      "purpose": "Crafting Trainer",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Crafting Trainer",
       "locations": [
         "1.41,3.0,115.04"
       ],
@@ -649,13 +649,13 @@
     },
     {
       "name": "Twergo Togglesmeet",
+      "purpose": "Jeweler",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Jeweler",
       "locations": [
         "58.62,3.0,73.77"
       ],
@@ -763,13 +763,13 @@
     },
     {
       "name": "Vleko",
+      "purpose": "Tailor",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Tailor",
       "locations": [
         "61.24,3.0,62.5"
       ],
@@ -780,13 +780,13 @@
     },
     {
       "name": "Vlepo",
+      "purpose": "Alchemist",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Alchemist",
       "locations": [
         "57.61,3.0,63.43"
       ],

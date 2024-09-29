@@ -9,10 +9,7 @@
   ],
   "connections": [
     {
-      "key": "qeynos_combined01"
-    },
-    {
-      "key": "qeynos_combined02"
+      "key": "qey_adv03_caves"
     },
     {
       "key": "qey_catacomb02"
@@ -24,7 +21,10 @@
       "key": "qey_catacomb_epic01_scout"
     },
     {
-      "key": "qey_adv03_caves"
+      "key": "qeynos_combined01"
+    },
+    {
+      "key": "qeynos_combined02"
     }
   ],
   "npcs": [
@@ -94,7 +94,7 @@
     },
     {
       "name": "a Bloodsaber Adjunct",
-      "level": 10,
+      "levelRange": "10",
       "difficulty": "heroic",
       "locations": [
         "6,0,-141",
@@ -110,14 +110,14 @@
     },
     {
       "name": "a Bloodsaber enforcer",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "6,0,-67"
       ]
     },
     {
       "name": "a Bloodsaber initiate",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "6,0,-128",
         "4.69,0.00,-117.33",
@@ -148,7 +148,7 @@
     },
     {
       "name": "a Bloodsaber lookout",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "-6,0,-108",
         "5.73,-0.09,-107.42",
@@ -169,7 +169,7 @@
     },
     {
       "name": "a Bloodsaber meddler",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "6,0,-126",
         "8.53,-0.09,-106.08",
@@ -195,7 +195,7 @@
     },
     {
       "name": "a coiled burrower",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-66,0,-155",
         "-111.36,-0.09,-112.63",
@@ -221,7 +221,7 @@
     },
     {
       "name": "The Creeper",
-      "level": 11,
+      "levelRange": "11",
       "difficulty": "heroic",
       "locations": [
         "-135,7,-193"
@@ -229,7 +229,7 @@
     },
     {
       "name": "a creeper protector",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "-135,7,-193",
         "-138.69,9.90,-198.45"
@@ -243,7 +243,7 @@
     },
     {
       "name": "a Crypt Protector",
-      "level": 10,
+      "levelRange": "10",
       "difficulty": "heroic",
       "locations": [
         "-202,0,-123"
@@ -251,7 +251,7 @@
     },
     {
       "name": "a crypt substance",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-66,0,-155",
         "-8.84,-0.07,-31.84",
@@ -288,7 +288,7 @@
     },
     {
       "name": "a dust crawler hatchling",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-66,0,-155",
         "-44.75,-1.08,-138.75",
@@ -299,24 +299,24 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1569006869 1387402648:a venom gland\\/a",
+          "gamelink": "\\aITEM 1560357389 1897618518:an insect antenna\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1560357389 1897618518:an insect antenna\\/a",
+          "gamelink": "\\aITEM 1569006869 1387402648:a venom gland\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "Falin Shaloon",
+      "purpose": "General Goods",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "General Goods",
       "locations": [
         "-195.78,-0.1,-200.52"
       ],
@@ -381,25 +381,25 @@
     },
     {
       "name": "a fallen bodyguard",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "-172,7,-11"
       ]
     },
     {
       "name": "a fallen noble",
-      "level": 12,
+      "levelRange": "12",
       "difficulty": "heroic",
       "locations": [
         "-172,7,-11"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
           "chest": false
         },
         {
@@ -412,7 +412,7 @@
     },
     {
       "name": "a Fallen Price",
-      "level": 13,
+      "levelRange": "13",
       "difficulty": "heroic",
       "locations": [
         "-172,7,-11"
@@ -420,7 +420,7 @@
     },
     {
       "name": "a forgotten soul",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-146,-1,-84",
         "-189.30,-0.02,-95.04",
@@ -447,7 +447,7 @@
     },
     {
       "name": "a frenzied watcher",
-      "level": 9,
+      "levelRange": "9",
       "locations": [
         "-136,7,209",
         "-120.11,2.00,-207.92",
@@ -462,7 +462,7 @@
     },
     {
       "name": "a juvenile shriller",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-192,0,-61",
         "-11.94,0.43,-28.67",
@@ -482,7 +482,7 @@
     },
     {
       "name": "a malefic arachnid",
-      "level": 7,
+      "levelRange": "7",
       "locations": [
         "-90,0,-167",
         "-118.28,-0.05,-175.61",
@@ -511,7 +511,7 @@
     },
     {
       "name": "a putrid vermin",
-      "level": 7,
+      "levelRange": "7",
       "locations": [
         "-76,-1,-102",
         "-89.88,-0.11,-106.36"
@@ -519,14 +519,14 @@
     },
     {
       "name": "a rabid pack rat",
-      "level": 7,
+      "levelRange": "7",
       "locations": [
         "-84,0,-122"
       ]
     },
     {
       "name": "a rabid shriller",
-      "level": 9,
+      "levelRange": "9",
       "locations": [
         "-192,0,-61",
         "-220.31,-0.00,-91.48",
@@ -558,7 +558,7 @@
     },
     {
       "name": "a rotting citizen",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-179,1,-16",
         "-188.00,0.00,-29.27",
@@ -569,20 +569,8 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1253182384 872654418:a tarnished scepter\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -660008099 412037475:Bloody Reminder (Adept)\\/a",
           "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
-          "chest": false
         },
         {
           "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
@@ -595,6 +583,18 @@
         {
           "gamelink": "\\aITEM 2096053587 1975965991:intricate metal bowl\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1253182384 872654418:a tarnished scepter\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 4,
@@ -602,7 +602,7 @@
     },
     {
       "name": "a rotting royal",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-179,1,-16",
         "-192.24,0.00,-21.13",
@@ -614,7 +614,7 @@
     },
     {
       "name": "a Rotting Vermin",
-      "level": 9,
+      "levelRange": "9",
       "difficulty": "heroic",
       "locations": [
         "-89,0,-94"
@@ -622,7 +622,7 @@
     },
     {
       "name": "a shriller",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "-146,0,-145",
         "-96.92,-0.04,-167.18",
@@ -637,7 +637,7 @@
     },
     {
       "name": "a tomb forager",
-      "level": 7,
+      "levelRange": "7",
       "locations": [
         "-76,-1,-102",
         "-79.32,-0.11,-107.21",
@@ -647,7 +647,7 @@
     },
     {
       "name": "a tomb rifter bleeder",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "-202,0,-124",
         "-178.01,1.17,-121.59",
@@ -655,18 +655,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
+          "gamelink": "\\aITEM -1819652885 1717248412:an insect antenna\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1819652885 1717248412:an insect antenna\\/a",
+          "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a tomb rifter hatchling",
-      "level": 7,
+      "levelRange": "7",
       "locations": [
         "-159,-0,-119",
         "-129.00,0.21,-128.50",
@@ -686,7 +686,7 @@
     },
     {
       "name": "a tomb rifter pest",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "-172,1,-119",
         "-187.16,1.17,-116.16",
@@ -706,7 +706,7 @@
     },
     {
       "name": "a tortured soul",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-192,0,-27",
         "-207.65,1.56,-29.86",
@@ -734,15 +734,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
           "chest": false
         }
       ],
@@ -751,7 +751,7 @@
     },
     {
       "name": "a venomous keeper",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "-100,0,-200",
         "-97.79,0.00,-208.28",
@@ -766,7 +766,7 @@
     },
     {
       "name": "a venomous watcher",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-124,0,-196",
         "-113.67,0.00,-192.98",
@@ -782,7 +782,7 @@
     },
     {
       "name": "a venom spitter",
-      "level": 7,
+      "levelRange": "7",
       "locations": [
         "-121,0,-203",
         "-129.37,0.00,-202.57",
@@ -795,203 +795,6 @@
         {
           "gamelink": "\\aITEM 830377007 -1427818524:an arachnid leg\\/a",
           "chest": false
-        }
-      ]
-    }
-  ],
-  "quests": [
-    {
-      "id": 2049314902,
-      "name": "Far Seas Requisition #DB0436",
-      "giver_item": {
-        "id": 1610323160,
-        "name": "Far Seas Trading Requisition DB0436",
-        "icon_id": 0
-      },
-      "related_npcs": [
-        {
-          "name": "dust crawler hatchling"
-        },
-        {
-          "name": "putrid vermin"
-        },
-        {
-          "name": "shriller"
-        },
-        {
-          "name": "Bartender Bulurg",
-          "ends_quest": true
-        }
-      ]
-    },
-    {
-      "id": 3811525100,
-      "name": "Far Seas Requisition #DB0372",
-      "giver_item": {
-        "id": 304995332,
-        "name": "Far Seas Trading Requisition DB0372",
-        "icon_id": 0
-      },
-      "related_npcs": [
-        {
-          "name": "coiled burrower"
-        },
-        {
-          "name": "crypt substance"
-        },
-        {
-          "name": "tomb forager"
-        },
-        {
-          "name": "Bartender Bulurg",
-          "ends_quest": true
-        }
-      ]
-    },
-    {
-      "id": 974565471,
-      "name": "An Intriguing Eye",
-      "related_npcs": [
-        {
-          "name": "Bloodsaber meddler"
-        },
-        {
-          "name": "Gornit Penwiggle"
-        },
-        {
-          "name": "coiled burrower"
-        },
-        {
-          "name": "rabid shriller"
-        },
-        {
-          "name": "Constable Arthur"
-        },
-        {
-          "name": "fallen noble"
-        }
-      ]
-    },
-    {
-      "id": 860163062,
-      "name": "The Motley Merchant Manifest",
-      "previous_quest": {
-        "id": 974565471,
-        "name": "An Intriguing Eye"
-      },
-      "related_npcs": [
-        {
-          "name": "Gornit Penwiggle"
-        },
-        {
-          "name": "Proprietor Blagard"
-        },
-        {
-          "name": "Karg Icemoore"
-        },
-        {
-          "name": "Borden Mannus"
-        },
-        {
-          "name": "P.T. Irontoe"
-        }
-      ]
-    },
-    {
-      "id": 1684190060,
-      "name": "Evidence for Constable Arathur",
-      "giver_item": {
-        "id": 4041766059,
-        "name": "Motley Merchant Manifest",
-        "icon_id": 0
-      },
-      "previous_quest": {
-        "id": 974565471,
-        "name": "An Intriguing Eye"
-      },
-      "related_npcs": [
-        {
-          "name": "Gornit Penwiggle"
-        },
-        {
-          "name": "Proprietor Blagard"
-        },
-        {
-          "name": "Karg Icemoore"
-        },
-        {
-          "name": "Borden Mannus"
-        },
-        {
-          "name": "P.T. Irontoe"
-        },
-        {
-          "name": "Constable Arathur",
-          "ends_quest": true
-        }
-      ]
-    },
-    {
-      "id": 1404327261,
-      "name": "A Crumpled Note",
-      "related_npcs": [
-        {
-          "name": "Ian Turner",
-          "ends_quest": true
-        }
-      ]
-    },
-    {
-      "id": 4265011621,
-      "name": "Goods Down Below",
-      "related_npcs": [
-        {
-          "name": "malefic arachnid"
-        },
-        {
-          "name": "venom spitter"
-        },
-        {
-          "name": "crypt substance"
-        },
-        {
-          "name": "coiled burrower"
-        },
-        {
-          "name": "tomb forager"
-        },
-        {
-          "name": "tomb rifter hatchling"
-        },
-        {
-          "name": "tomb rifter pest"
-        },
-        {
-          "name": "tomb rifter bleeder"
-        }
-      ]
-    },
-    {
-      "id": 2098937321,
-      "name": "Working the Down Below",
-      "related_npcs": [
-        {
-          "name": "forgotten soul"
-        },
-        {
-          "name": "tortured soul"
-        },
-        {
-          "name": "venomous watcher"
-        },
-        {
-          "name": "frenzied watcher"
-        },
-        {
-          "name": "rabid shriller"
-        },
-        {
-          "name": "venomous keeper"
         }
       ]
     }

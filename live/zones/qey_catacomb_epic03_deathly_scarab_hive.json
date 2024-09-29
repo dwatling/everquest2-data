@@ -18,7 +18,7 @@
   "npcs": [
     {
       "name": "a deathly scarab",
-      "level": 23,
+      "levelRange": "23",
       "difficulty": "heroic^^^",
       "locations": [
         "-20.85,3.07,14.49"
@@ -32,7 +32,7 @@
     },
     {
       "name": "a deathly scarab broodling",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "-30.72,1.54,0.84"
       ],
@@ -45,7 +45,7 @@
     },
     {
       "name": "a deathly scarab hatchling",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "-25.4,-0.93,-12.26",
         "-30.91,-0.93,5.68",
@@ -55,18 +55,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
+          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
+          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a deathly scarab worker",
-      "level": 24,
+      "levelRange": "24",
       "difficulty": "heroic",
       "locations": [
         "-0.29,-0.93,0.53",
@@ -83,7 +83,7 @@
     },
     {
       "name": "Guardian Ankhemaufut",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic^^",
       "locations": [
         "-25.03,3.07,5.56"
@@ -91,7 +91,7 @@
     },
     {
       "name": "Guardian Ankhentaris",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic^^",
       "locations": [
         "-14.41,3.07,5.62"
@@ -99,7 +99,7 @@
     },
     {
       "name": "Guardian Ankhrenlai",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic^^",
       "locations": [
         "-12.87,3.07,-5.19",
@@ -109,7 +109,7 @@
     },
     {
       "name": "Guardian Ankhumyal",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic^^",
       "locations": [
         "-14.06,3.07,-4.94",
@@ -124,7 +124,7 @@
     },
     {
       "name": "Queen Ankhestara",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic^^^",
       "locations": [
         "-19.37,-0.93,-17.26",

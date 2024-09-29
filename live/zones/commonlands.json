@@ -1,7 +1,7 @@
 {
   "name": "The Commonlands",
   "category": "D'Lere",
-  "description": "This battle-scarred savanna is home to the City of Freeport, the Wailing Caves and Fallen Gate.",
+  "notes": "This battle-scarred savanna is home to the City of Freeport, the Wailing Caves and Fallen Gate.",
   "levels": "10-20",
   "maps": [
     {
@@ -9,21 +9,6 @@
     }
   ],
   "connections": [
-    {
-      "key": "freeport_combined"
-    },
-    {
-      "key": "darklight_wood"
-    },
-    {
-      "key": "nektulos"
-    },
-    {
-      "key": "fallengate"
-    },
-    {
-      "key": "wailingcaves"
-    },
     {
       "key": "cmmn_epic01_orc_excavation"
     },
@@ -34,25 +19,41 @@
       "key": "cmmn_epic02_mage_mage_valley_solo"
     },
     {
-      "key": "fprt_adv03_sprawl"
-    },
-    {
       "key": "commonlands_sewer01"
     },
     {
-      "key": "fprt_adv02_graveyard"
-    },
-    {
-      "key": "exp05_dun_befallen_forsaken"
+      "key": "darklight_wood"
     },
     {
       "key": "exp05_dun_befallen_asylum"
     },
     {
+      "key": "exp05_dun_befallen_cavern"
+    },
+    {
       "key": "exp05_dun_befallen_cavern_raid"
     },
     {
-      "key": "exp05_dun_befallen_cavern"
+      "key": "exp05_dun_befallen_forsaken"
+    },
+    {
+      "key": "fallengate"
+    },
+    {
+      "key": "fprt_adv02_graveyard"
+    },
+    {
+      "key": "fprt_adv03_sprawl"
+    },
+    {
+      "key": "fprt_epic01_storeroom01",
+      "accessible": false
+    },
+    {
+      "key": "freeport_combined"
+    },
+    {
+      "key": "nektulos"
     },
     {
       "key": "obelisk_of_lostsouls"
@@ -61,14 +62,13 @@
       "key": "qey_catacomb_epic02_mi_undead_easy"
     },
     {
-      "key": "fprt_epic01_storeroom01",
-      "accessible": false
+      "key": "wailingcaves"
     }
   ],
   "npcs": [
     {
       "name": "an advanced scout of Ree",
-      "level": 15,
+      "levelRange": "15",
       "aggressive": true,
       "locations": [
         "68.88,-47.43,-755.89",
@@ -77,11 +77,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
         },
         {
@@ -89,7 +89,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -142,13 +142,13 @@
     },
     {
       "name": "Anders Blackhammer",
+      "levelRange": "20",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "level": 20,
       "locations": [
         "-521.99,-44.04,-301.5"
       ]
@@ -232,7 +232,7 @@
     },
     {
       "name": "a Blackshield assassin",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-406.32,-47.76,-817.65",
         "-475.9,-48.04,-762.51",
@@ -276,7 +276,7 @@
     },
     {
       "name": "a Blackshield brute",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-372.42,-50.36,-861.81",
         "-370.04,-50.64,-869.68",
@@ -330,7 +330,7 @@
     },
     {
       "name": "a Blackshield smuggler",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-409.98,-47.84,-847.62",
         "-375.62,-53.08,-877.80"
@@ -368,7 +368,7 @@
     },
     {
       "name": "a black wolf",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-474.24,-46.82,-702.09",
         "-486.45,-47.48,-698.58",
@@ -458,11 +458,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
           "chest": false
         },
         {
@@ -470,7 +470,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -500,19 +500,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -544,15 +544,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -636,23 +636,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
@@ -660,11 +644,27 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
       ],
@@ -712,15 +712,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -748,11 +748,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -663082198 781057701:plain crystal shard\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -760,7 +756,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -663082198 781057701:plain crystal shard\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
       ],
@@ -796,19 +796,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1294750651 -1669415379:a dull wedge\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1189922624 134728149:Far Seas Requisition - WC 124\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
           "chest": false
         },
         {
@@ -816,7 +804,19 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -1294750651 -1669415379:a dull wedge\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1189922624 134728149:Far Seas Requisition - WC 124\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
           "chest": false
         }
       ],
@@ -935,11 +935,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -951,35 +955,23 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1994384884 -601719179:Far Seas Requisition - FG 073\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
+          "gamelink": "\\aITEM -1555036024 -1987479682:Far Seas Requisition - WC 077\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
           "chest": false
         },
         {
@@ -987,8 +979,16 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1555036024 -1987479682:Far Seas Requisition - WC 077\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 16,
@@ -1049,7 +1049,7 @@
     },
     {
       "name": "a brittle skeleton",
-      "level": 11,
+      "levelRange": "11",
       "aggressive": true,
       "locations": [
         "-1347.97,-69.5,323.25",
@@ -1071,15 +1071,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1262149691 443101017:Bone Beaded Bangle\\/a",
           "chest": true
         },
         {
           "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         }
       ],
@@ -1226,13 +1226,13 @@
     },
     {
       "name": "Captain Feralis",
+      "purpose": "Freeport Militia Commander",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia Commander",
       "locations": [
         "-427.97,-44.09,-280.43"
       ],
@@ -1258,7 +1258,7 @@
     },
     {
       "name": "Captain Gaer",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic",
       "locations": [
         "-851.38,-47.63,671.38"
@@ -1275,7 +1275,7 @@
     },
     {
       "name": "Captain Garglass",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic^^",
       "locations": [
         "-353.38,-47.62,-788.01",
@@ -1319,7 +1319,7 @@
     },
     {
       "name": "Captain Ogof",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic",
       "locations": [
         "-654.83,-47.91,457.28",
@@ -1546,6 +1546,7 @@
     },
     {
       "name": "a Dervish assassin",
+      "levelRange": "18",
       "race": [
         "ogre"
       ],
@@ -1553,7 +1554,6 @@
         "male",
         "female"
       ],
-      "level": 18,
       "locations": [
         "1340.87,-30.38,14.58",
         "1254.98,-34.54,-130.27",
@@ -1580,8 +1580,20 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1409721994 -1246992863:Far Seas Requisition - FG 212\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1669633344 -431690929:Far Seas Requisition - WC 002\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
@@ -1590,18 +1602,6 @@
         {
           "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
           "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1669633344 -431690929:Far Seas Requisition - WC 002\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1409721994 -1246992863:Far Seas Requisition - FG 212\\/a",
-          "chest": true
         },
         {
           "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
@@ -1640,13 +1640,13 @@
     },
     {
       "name": "a Dervish cutthroat",
+      "levelRange": "18",
       "race": [
         "half elf"
       ],
       "gender": [
         "female"
       ],
-      "level": 18,
       "locations": [
         "1293.52,-29.02,-36.27",
         "1414.38,-34.73,163.90",
@@ -1654,6 +1654,14 @@
         "1422.15,-34.13,179.06"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1862335373 50588349:advanced craftsman volume 17\\/a",
+          "chest": true
+        },
         {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
@@ -1663,11 +1671,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
@@ -1675,11 +1679,7 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1862335373 50588349:advanced craftsman volume 17\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -1698,6 +1698,7 @@
     },
     {
       "name": "a Dervish go-between",
+      "levelRange": "17",
       "race": [
         "human"
       ],
@@ -1705,7 +1706,6 @@
         "female",
         "male"
       ],
-      "level": 17,
       "locations": [
         "1370.78,-33.89,147.34",
         "1369.52,-33.53,116.38",
@@ -1726,6 +1726,7 @@
     },
     {
       "name": "a Dervish heretic",
+      "levelRange": "18",
       "race": [
         "dark elf"
       ],
@@ -1733,7 +1734,6 @@
         "female",
         "male"
       ],
-      "level": 18,
       "locations": [
         "1259.92,-44.24,144.79",
         "1249.21,-41.46,223.68",
@@ -1757,12 +1757,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -738456813 540695488:Shortsword of the Fray\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738456813 540695488:Shortsword of the Fray\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 18,
@@ -1780,13 +1780,13 @@
     },
     {
       "name": "a Dervish outlander",
+      "levelRange": "18",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "level": 18,
       "locations": [
         "1235.37,-25.72,412.83",
         "1195.82,-33.76,442.50",
@@ -1796,6 +1796,10 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
@@ -1804,7 +1808,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         },
         {
@@ -1812,11 +1816,7 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -1835,13 +1835,13 @@
     },
     {
       "name": "a Dervish ruffian",
+      "levelRange": "18",
       "race": [
         "ogre"
       ],
       "gender": [
         "female"
       ],
-      "level": 18,
       "locations": [
         "1259.21,-44.26,193.71",
         "1328.21,-40.60,177.39",
@@ -1863,12 +1863,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 610874452 1997196792:Boon of the Damned (Adept)\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM -1072498694 1172754859:Far Seas Requisition - FG 244\\/a",
@@ -1890,13 +1890,13 @@
     },
     {
       "name": "a Dervish thaumaturge",
+      "levelRange": "18",
       "race": [
         "gnome"
       ],
       "gender": [
         "female"
       ],
-      "level": 18,
       "locations": [
         "1361.26,-34.65,92.05",
         "1287.91,-32.02,-21.17",
@@ -1919,11 +1919,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -1942,13 +1942,13 @@
     },
     {
       "name": "a Dervish thug",
+      "levelRange": "18",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "level": 18,
       "locations": [
         "1244.27,-42.07,-90.12",
         "1232.22,-41.52,-112.03",
@@ -1969,11 +1969,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
+          "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
+          "chest": true
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -1981,8 +1981,8 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 17,
@@ -2000,13 +2000,13 @@
     },
     {
       "name": "a Dervish zealot",
+      "levelRange": "18",
       "race": [
         "iksar"
       ],
       "gender": [
         "female"
       ],
-      "level": 18,
       "locations": [
         "1281.17,-41.30,122.13",
         "1227.34,-42.46,228.53",
@@ -2025,24 +2025,24 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
+          "gamelink": "\\aITEM 49021708 328512049:Acid III (Adept)\\/a",
+          "chest": true
         },
         {
-          "gamelink": "\\aITEM -738456813 540695488:Shortsword of the Fray\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 1756516814 -2137737252:Breeze (Adept)\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 49021708 328512049:Acid III (Adept)\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -738456813 540695488:Shortsword of the Fray\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 31,
@@ -2113,11 +2113,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 248074692 -162106332:an insect wing\\/a",
+          "gamelink": "\\aITEM -1968962735 -339631279:an insect stinger\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1968962735 -339631279:an insect stinger\\/a",
+          "gamelink": "\\aITEM 248074692 -162106332:an insect wing\\/a",
           "chest": false
         }
       ]
@@ -2140,18 +2140,18 @@
     },
     {
       "name": "drakota adept",
-      "level": 22,
-      "aggressive": true,
+      "levelRange": "22",
       "difficulty": "heroic^^",
+      "aggressive": true,
       "locations": [
         "1156.84,-32.37,-294.05"
       ]
     },
     {
       "name": "a drakota adjutant",
-      "level": 22,
-      "aggressive": true,
+      "levelRange": "22",
       "difficulty": "heroic^^",
+      "aggressive": true,
       "locations": [
         "1159.12,-32.12,-292.19"
       ]
@@ -2168,6 +2168,7 @@
     },
     {
       "name": "a dregs sneak",
+      "levelRange": "14",
       "race": [
         "ratonga"
       ],
@@ -2175,7 +2176,6 @@
         "female",
         "male"
       ],
-      "level": 14,
       "locations": [
         "-239.56,-47.4,-0.23",
         "-250.6,-47.98,-4.63",
@@ -2244,7 +2244,7 @@
     },
     {
       "name": "a duststinger",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-911.62,-79.90,-617.30",
         "-896.28,-78.85,-614.57",
@@ -2272,7 +2272,7 @@
     },
     {
       "name": "a dusty cadaver",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "108.15,-47.24,-218.44",
         "120.69,-48.03,-201.46",
@@ -2283,11 +2283,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
@@ -2299,7 +2299,7 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
+          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
           "chest": false
         }
       ],
@@ -2314,7 +2314,7 @@
     },
     {
       "name": "an earthen rumbler",
-      "level": 18,
+      "levelRange": "18",
       "aggressive": true,
       "locations": [
         "1030.35,-44.23,280.82",
@@ -2330,7 +2330,7 @@
     },
     {
       "name": "an earthen tumbler",
-      "level": 18,
+      "levelRange": "18",
       "aggressive": true,
       "locations": [
         "1108.84,-46.13,-52.43",
@@ -2368,8 +2368,8 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -989003161 1420590974:a fragment of terrain\\/a",
-          "chest": false
+          "gamelink": "\\aITEM -214340711 2003617483:Bootstrutter's Field Guide to the Commonlands\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
@@ -2380,14 +2380,14 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -214340711 2003617483:Bootstrutter's Field Guide to the Commonlands\\/a",
-          "chest": true
+          "gamelink": "\\aITEM -989003161 1420590974:a fragment of terrain\\/a",
+          "chest": false
         }
       ]
     },
     {
       "name": "an elephant",
-      "level": 14,
+      "levelRange": "14",
       "aggressive": false,
       "locations": [
         "-302.87,-47.58,-518.6",
@@ -2456,7 +2456,7 @@
     },
     {
       "name": "a fallen apostle",
-      "level": 19,
+      "levelRange": "19",
       "aggressive": true,
       "locations": [
         "376.71,-47.08,218.87",
@@ -2473,19 +2473,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
-          "chest": false
+          "gamelink": "\\aITEM -622687454 1705625455:Advanced Outfitter Volume 17\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -214340711 2003617483:Bootstrutter's Field Guide to the Commonlands\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -622687454 1705625455:Advanced Outfitter Volume 17\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
         },
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
           "chest": false
         }
       ]
@@ -2504,9 +2504,9 @@
     },
     {
       "name": "a fallen champion",
-      "level": 20,
-      "aggressive": true,
+      "levelRange": "20",
       "difficulty": "heroic",
+      "aggressive": true,
       "locations": [
         "382.94,-31.01,213.32"
       ],
@@ -2527,7 +2527,7 @@
     },
     {
       "name": "a fallen crusader",
-      "level": 17,
+      "levelRange": "17",
       "aggressive": true,
       "locations": [
         "650.14,-55.67,357.63",
@@ -2557,11 +2557,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -2569,11 +2565,15 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
           "chest": false
         }
       ],
@@ -2582,7 +2582,7 @@
     },
     {
       "name": "a fallen defender",
-      "level": 19,
+      "levelRange": "19",
       "aggressive": true,
       "locations": [
         "371.44,-46.86,231.45",
@@ -2607,7 +2607,7 @@
     },
     {
       "name": "a fallen diplomat",
-      "level": 17,
+      "levelRange": "17",
       "aggressive": true,
       "utterances": [
         "Your presence enrages me!",
@@ -2622,7 +2622,7 @@
     },
     {
       "name": "a fallen disciple",
-      "level": 19,
+      "levelRange": "19",
       "aggressive": true,
       "locations": [
         "399.17,-49.64,344.90",
@@ -2639,15 +2639,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1123466483 155428287:Undying Essence\\/a",
           "chest": false
         }
       ],
@@ -2656,7 +2656,7 @@
     },
     {
       "name": "a fallen guardian",
-      "level": 20,
+      "levelRange": "20",
       "aggressive": true,
       "locations": [
         "625.84,-55.49,376.64",
@@ -2672,12 +2672,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -2001152374 -156740137:advanced craftsman volume 19\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
@@ -2822,7 +2822,7 @@
     },
     {
       "name": "a fierce carrion hound",
-      "level": 19,
+      "levelRange": "19",
       "aggressive": true,
       "locations": [
         "635.20,-59.80,7.06",
@@ -2846,7 +2846,7 @@
     },
     {
       "name": "a freshwater crab",
-      "level": 14,
+      "levelRange": "14",
       "aggressive": false,
       "locations": [
         "-1268.77,-47.53,591.01",
@@ -2869,24 +2869,24 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -2005436878 2046850352:crab meat\\/a",
+          "gamelink": "\\aITEM 847432297 2013097042:a crab claw\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 847432297 2013097042:a crab claw\\/a",
+          "gamelink": "\\aITEM -2005436878 2046850352:crab meat\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "Frund the Big Grin",
+      "levelRange": "18",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "level": 18,
       "locations": [
         "1237.01,-40.82,338.56"
       ],
@@ -2899,7 +2899,7 @@
     },
     {
       "name": "General Vhar'Taug",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-556.36,-31.39,418.28"
       ],
@@ -2934,13 +2934,13 @@
     },
     {
       "name": "Gerun Pontian",
+      "purpose": "Militia Gate Patrol",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Militia Gate Patrol",
       "locations": [
         "-1276.01,-88.3,50.87",
         "-1273.05,-88.18,40.52"
@@ -2972,7 +2972,7 @@
     },
     {
       "name": "a ghast beetle",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "vv",
       "locations": [
         "-159.13,-45.42,-863.43"
@@ -2980,7 +2980,7 @@
     },
     {
       "name": "a ghostly orc",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-1256.48,-52.84,-482.79",
         "-1258.28,-69.91,-361.38",
@@ -3002,15 +3002,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
       ],
@@ -3031,7 +3031,7 @@
     },
     {
       "name": "a giant grove wisp",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-608.27,-43.81,-622.54",
         "-680.96,-46.60,-627.70",
@@ -3046,7 +3046,7 @@
     },
     {
       "name": "a giant spider",
-      "level": 12,
+      "levelRange": "12",
       "aggressive": true,
       "locations": [
         "-1219.7,-67.9,275.34",
@@ -3092,7 +3092,7 @@
     },
     {
       "name": "a giant vulrich",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "953.12,-50.38,191.66",
         "948.13,-51.71,151.05",
@@ -3107,11 +3107,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1682766616 702835349:vulrich meat\\/a",
+          "gamelink": "\\aITEM 1421950762 154156331:a bird feather\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1421950762 154156331:a bird feather\\/a",
+          "gamelink": "\\aITEM 1682766616 702835349:vulrich meat\\/a",
           "chest": false
         }
       ]
@@ -3194,7 +3194,7 @@
     },
     {
       "name": "a grove wisp",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "-697.66,-49.35,-665.87",
         "-633.07,-42.00,-563.04",
@@ -3204,18 +3204,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a grunt of Ree",
-      "level": 15,
+      "levelRange": "15",
       "aggressive": true,
       "locations": [
         "92.95,-39.18,-852.3",
@@ -3378,20 +3378,20 @@
     },
     {
       "name": "Gubta",
+      "purpose": "Mender",
       "race": [
         "ogre"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Mender",
       "locations": [
         "-505.91,-43.35,-257.22"
       ]
     },
     {
       "name": "Gustfeather",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic^^",
       "locations": [
         "254.03,-38.66,-450.56",
@@ -3476,7 +3476,7 @@
     },
     {
       "name": "a huntsman",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "533.53,-59.80,-133.99"
       ],
@@ -3591,7 +3591,7 @@
     },
     {
       "name": "Jereth Blackshield",
-      "level": 20,
+      "levelRange": "20",
       "utterances": [
         "I expected that rat Nethet to show up in order to save his friend.  It seems he sent a different sort of vermin in his place.",
         "What do you want messenger?  This had better be good or I'll let the rest of the crew here have some fun with you.",
@@ -3602,13 +3602,13 @@
     },
     {
       "name": "Jerimiah Halstetter",
+      "purpose": "Weaponsmith",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Weaponsmith",
       "locations": [
         "-1335.49,-53.32,576.09"
       ],
@@ -3641,7 +3641,7 @@
     },
     {
       "name": "Jyrok the Stone",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-314.21,-47.81,823.10"
       ],
@@ -3684,13 +3684,13 @@
     },
     {
       "name": "Karmen the Swindler",
+      "purpose": "Provisioner",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Provisioner",
       "locations": [
         "-1339.67,-53.38,578.96"
       ],
@@ -3810,6 +3810,7 @@
     },
     {
       "name": "a kerran rogue",
+      "levelRange": "16",
       "race": [
         "kerran"
       ],
@@ -3817,7 +3818,6 @@
         "female",
         "male"
       ],
-      "level": 16,
       "locations": [
         "-170.36,-46.32,67.92",
         "-161.28,-47.23,79.93",
@@ -3862,6 +3862,7 @@
     },
     {
       "name": "a kerran vagrant",
+      "levelRange": "16",
       "race": [
         "kerran"
       ],
@@ -3869,7 +3870,6 @@
         "male",
         "female"
       ],
-      "level": 16,
       "locations": [
         "-193.56,-45,58.7",
         "-178.36,-45.94,50.53",
@@ -3892,7 +3892,7 @@
     },
     {
       "name": "Kraofla",
-      "level": 30,
+      "levelRange": "30",
       "locations": [
         "426.91,-24.9,-895.16"
       ],
@@ -3919,7 +3919,7 @@
     },
     {
       "name": "Ladon",
-      "level": 22,
+      "levelRange": "22",
       "difficulty": "epicx2",
       "locations": [
         "1165.30,-31.90,-289.24"
@@ -3927,7 +3927,7 @@
     },
     {
       "name": "Lady Anyanka Polevshi",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "462.87,-54.42,502.14"
       ],
@@ -3966,7 +3966,7 @@
     },
     {
       "name": "Lieutenant Vrah'Kna",
-      "level": 19,
+      "levelRange": "19",
       "locations": [
         "-403.03,-47.91,456.20"
       ],
@@ -3979,12 +3979,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1718827623 754545517:Far Seas Requisition - WC 045\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
+          "chest": false
         }
       ],
       "faction_changes": [
@@ -3996,7 +3996,7 @@
     },
     {
       "name": "Lightbringer Wisp",
-      "level": 18,
+      "levelRange": "18",
       "difficulty": "heroic",
       "drops": [
         {
@@ -4007,7 +4007,7 @@
     },
     {
       "name": "a lost soul",
-      "level": 10,
+      "levelRange": "10",
       "aggressive": true,
       "locations": [
         "-1354.58,-69.59,337.83",
@@ -4025,7 +4025,7 @@
     },
     {
       "name": "Lucanic Knight Initiate",
-      "level": 19,
+      "levelRange": "19",
       "locations": [
         "-309.76,-47.47,-364.87"
       ],
@@ -4107,13 +4107,13 @@
     },
     {
       "name": "Marcus",
+      "purpose": "General Goods",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "General Goods",
       "locations": [
         "674.25,-52.65,438.27"
       ],
@@ -4187,7 +4187,7 @@
     },
     {
       "name": "a massive emerald beetle",
-      "level": 10,
+      "levelRange": "10",
       "aggressive": false,
       "locations": [
         "-472.09,-48.44,-172.05",
@@ -4258,13 +4258,13 @@
     },
     {
       "name": "Merchant Edmond",
+      "purpose": "Provisioner",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Provisioner",
       "locations": [
         "-492.26,-43.89,-261.98"
       ],
@@ -4372,7 +4372,7 @@
     },
     {
       "name": "a mere guardian",
-      "level": 16,
+      "levelRange": "16",
       "aggressive": true,
       "locations": [
         "-0.98,-52.74,-699.35",
@@ -4397,7 +4397,7 @@
     },
     {
       "name": "a mith deer",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-738.21,-61.08,-699.35",
         "-624.40,-49.51,-677.80",
@@ -4558,7 +4558,7 @@
     },
     {
       "name": "a moon wisp",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-177.54,-47.89,-470.6",
         "-120.01,-48.04,-421.32",
@@ -4568,12 +4568,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -2129749343 -119286990:advanced craftsman volume 15\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1111729527 975794846:a flickering lightstone\\/a",
+          "chest": false
         }
       ]
     },
@@ -4706,7 +4706,7 @@
     },
     {
       "name": "Ohrgran Foulgore",
-      "level": 16,
+      "levelRange": "16",
       "aggressive": true,
       "locations": [
         "-1218.51,-47.50,610.56"
@@ -4730,7 +4730,7 @@
     },
     {
       "name": "an orc emissary",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-324.81,-47.58,539.34"
       ],
@@ -4747,7 +4747,7 @@
     },
     {
       "name": "Orc ghost",
-      "level": 20,
+      "levelRange": "20",
       "aggressive": true,
       "utterances": [
         "The living come to try their luck.",
@@ -4760,10 +4760,10 @@
     },
     {
       "name": "an orc runner",
+      "levelRange": "14",
       "race": [
         "orc"
       ],
-      "level": 14,
       "locations": [
         "228.35,-48.04,403.52",
         "202.27,-47.91,394.60",
@@ -4783,19 +4783,19 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
       ],
@@ -4807,11 +4807,6 @@
           "value": -100
         }
       ]
-    },
-    {
-      "name": "Orc skeleton",
-      "level": 20,
-      "aggressive": true
     },
     {
       "name": "Orwen Neovra",
@@ -4892,7 +4887,7 @@
     },
     {
       "name": "a pirate of Gunthak",
-      "level": 15,
+      "levelRange": "15",
       "drops": [
         {
           "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
@@ -4902,7 +4897,7 @@
     },
     {
       "name": "a plains hunter",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "459.60,-49.17,-99.34",
         "474.03,-51.08,-110.76",
@@ -4931,7 +4926,7 @@
     },
     {
       "name": "a putrid cadaver",
-      "level": 15,
+      "levelRange": "15",
       "aggressive": true,
       "locations": [
         "119.55,-47.98,-208.88",
@@ -4950,7 +4945,7 @@
     },
     {
       "name": "a Qeynosian protector",
-      "level": 31,
+      "levelRange": "31",
       "aggressive": true,
       "locations": [
         "421.07,-24.83,-896.14",
@@ -4968,7 +4963,7 @@
     },
     {
       "name": "a Qeynosian scout",
-      "level": 30,
+      "levelRange": "30",
       "aggressive": true,
       "locations": [
         "421.33,-33.91,-874.32",
@@ -4990,13 +4985,13 @@
     },
     {
       "name": "Rainus Canton",
+      "purpose": "Hunter of Orcs",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Hunter of Orcs",
       "locations": [
         "-1315.84,-51.23,598.69"
       ],
@@ -5030,7 +5025,7 @@
     },
     {
       "name": "Rama'nai",
-      "level": 18,
+      "levelRange": "18",
       "difficulty": "heroic^^^",
       "locations": [
         "876.51,-57.48,23.22",
@@ -5039,7 +5034,7 @@
     },
     {
       "name": "Reetusk",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-336.4,-46.56,-500.43"
       ],
@@ -5052,7 +5047,7 @@
     },
     {
       "name": "a rhinoceros",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "332.05,-48.04,-574.94",
         "342.72,-48.04,-630.17",
@@ -5093,13 +5088,13 @@
     },
     {
       "name": "Rilkrik",
+      "purpose": "Crossroads Supplies officer",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Crossroads Supplies officer",
       "locations": [
         "-520.42,-44.13,-306.37"
       ],
@@ -5145,7 +5140,7 @@
     },
     {
       "name": "a rock lion",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "364.29,-46.01,-737.12",
         "261.31,-44.86,-812.84",
@@ -5182,14 +5177,14 @@
     },
     {
       "name": "a rock lion cub",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "217.29,-49.02,-705.53"
       ]
     },
     {
       "name": "a rock lioness",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "218.45,-49.15,-711.88",
         "223.19,-48.85,-702.88",
@@ -5246,7 +5241,7 @@
     },
     {
       "name": "a rotting cadaver",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "107.84,-47.20,-228.00",
         "117.21,-47.82,-216.53",
@@ -5262,7 +5257,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
           "chest": false
         },
         {
@@ -5270,7 +5269,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
@@ -5279,10 +5278,6 @@
         },
         {
           "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
           "chest": false
         },
         {
@@ -5295,7 +5290,7 @@
     },
     {
       "name": "a runner of Ree",
-      "level": 15,
+      "levelRange": "15",
       "utterances": [
         "Smash them!",
         "Full retreat!  Regroup in the caves!"
@@ -5315,7 +5310,7 @@
     },
     {
       "name": "a sandstone giant",
-      "level": 19,
+      "levelRange": "19",
       "locations": [
         "1226.82,-51.37,-364.68",
         "1213.22,-31.89,-261.79",
@@ -5336,6 +5331,10 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -382271913 550690500:Borderland Bounty for Bloodskull warriors\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
         },
@@ -5344,22 +5343,18 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1189922624 134728149:Far Seas Requisition - WC 124\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -382271913 550690500:Borderland Bounty for Bloodskull warriors\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1041976406 1193510754:an elemental planar seed\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1189922624 134728149:Far Seas Requisition - WC 124\\/a",
+          "chest": true
         }
       ]
     },
     {
       "name": "a savanna deer",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "713.14,-59.46,-109.93",
         "828.15,-60.72,-83.12",
@@ -5373,7 +5368,7 @@
     },
     {
       "name": "a savanna lion",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "796.06,-46.51,-406.41",
         "780.56,-54.49,-352.71",
@@ -5388,7 +5383,7 @@
     },
     {
       "name": "a savanna lioness",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "657.08,-45.62,-412.74",
         "625.04,-44.33,-372.92",
@@ -5442,21 +5437,21 @@
     },
     {
       "name": "Scout Nonius",
+      "levelRange": "30",
+      "difficulty": "heroic^^^",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "level": 30,
-      "difficulty": "heroic^^^",
       "locations": [
         "-931.58,-48.65,-26.49"
       ]
     },
     {
       "name": "a scrub rat",
-      "level": 11,
+      "levelRange": "11",
       "aggressive": false,
       "locations": [
         "-1268.46,-69.64,406.21",
@@ -5505,7 +5500,7 @@
     },
     {
       "name": "a shadowed rift watcher",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "1070.77,-36.21,-454.63",
         "1049.69,-37.47,-452.63",
@@ -5520,21 +5515,21 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1611629912 -2012559103:a strangely marked hide\\/a",
+          "gamelink": "\\aITEM 15564315 -1468797977:Advanced Carpenter Volume 24\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 15564315 -1468797977:Advanced Carpenter Volume 24\\/a",
+          "gamelink": "\\aITEM 1611629912 -2012559103:a strangely marked hide\\/a",
           "chest": true
         }
       ]
     },
     {
       "name": "a Shin`Ree avenger",
+      "levelRange": "13",
       "race": [
         "human"
       ],
-      "level": 13,
       "locations": [
         "-270.44,-37.82,-908.49",
         "-241.98,-48.02,-877.21",
@@ -5651,7 +5646,7 @@
     },
     {
       "name": "a small bluegill",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-232.01,-49.97,60.4",
         "-349.61,-51.2,-471.16",
@@ -5680,18 +5675,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -595786562 -1168539999:a fish meat\\/a",
+          "gamelink": "\\aITEM 1394747759 1963691358:a fish eye\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1394747759 1963691358:a fish eye\\/a",
+          "gamelink": "\\aITEM -595786562 -1168539999:a fish meat\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a small emerald beetle",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-1157.37,-68.61,-11.17",
         "-1178.50,-71.95,-22.87",
@@ -5710,11 +5705,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
+          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
+          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
           "chest": false
         },
         {
@@ -5725,7 +5720,7 @@
     },
     {
       "name": "a small pike",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-230.33,-49.8,65.47",
         "-360.88,-49.97,-479.33",
@@ -5771,7 +5766,7 @@
     },
     {
       "name": "a speckled rattler",
-      "level": 11,
+      "levelRange": "11",
       "aggressive": false,
       "locations": [
         "-1336.98,-69.56,356.84",
@@ -5829,11 +5824,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 220303815 -2092524802:a vial of spectral essence\\/a",
+          "gamelink": "\\aITEM -704384670 1077323225:an ethereal nerve\\/a",
           "chest": false
         },
         {
@@ -5841,7 +5832,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -704384670 1077323225:an ethereal nerve\\/a",
+          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 220303815 -2092524802:a vial of spectral essence\\/a",
           "chest": false
         }
       ],
@@ -5883,7 +5878,7 @@
     },
     {
       "name": "a stone beetle",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "161.26,-46.82,349.69",
         "121.64,-47.08,360.55",
@@ -5912,20 +5907,20 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1883221997 1788663479:Borderland Bounty for Dervish Cutthroats\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1010661454 1680206675:Lead Weighted Hammer\\/a",
           "chest": true
         },
         {
           "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1010661454 1680206675:Lead Weighted Hammer\\/a",
+          "chest": true
         }
       ],
       "faction_changes": [
@@ -5937,7 +5932,7 @@
     },
     {
       "name": "a strangely stitched zombie",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "927.73,-44.32,-604.94"
       ]
@@ -6003,7 +5998,7 @@
     },
     {
       "name": "a Thexian dragoon",
-      "level": 19,
+      "levelRange": "19",
       "locations": [
         "1357.18,-39.08,-243.17",
         "1353.07,-40.74,-252.72",
@@ -6039,7 +6034,7 @@
     },
     {
       "name": "a Thexian excavator",
-      "level": 19,
+      "levelRange": "19",
       "locations": [
         "1333.39,-40.11,-240.79",
         "1331.23,-41.60,-246.94",
@@ -6085,12 +6080,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -636291851 -1051593857:Advanced Scholar Volume 12\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 26,
@@ -6098,7 +6093,7 @@
     },
     {
       "name": "a thresh bat",
-      "level": 10,
+      "levelRange": "10",
       "aggressive": false,
       "locations": [
         "-1419.29,-51.73,311.94",
@@ -6206,7 +6201,7 @@
     },
     {
       "name": "a Tortured Maid",
-      "level": 17,
+      "levelRange": "17",
       "aggressive": true,
       "utterances": [
         "Mortal agony is nothing compared to the torment that awaits you!",
@@ -6223,7 +6218,7 @@
     },
     {
       "name": "a tortured soul",
-      "level": 19,
+      "levelRange": "19",
       "aggressive": true,
       "utterances": [
         "You will see us again in your nightmares!",
@@ -6234,7 +6229,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -211262820 88743151:a ghost ethereal strand\\/a",
+          "gamelink": "\\aITEM -2001152374 -156740137:advanced craftsman volume 19\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1434976134 1508506194:Advanced Scholar Volume 17\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 128098823 602113696:A Broken Harness\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
@@ -6242,27 +6249,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -86102345 -151067204:a ghost vile plasm \\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2073079286 -33985810:a ghost phantasmal echo\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1867521536 -523124861:Savannah Bleached Shoulderpads\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 472806346 -1877249332:Inlaid Stone Earrings\\/a",
+          "gamelink": "\\aITEM -755419959 -1407654822:Far Seas Requisition - FG 158\\/a",
           "chest": true
         },
         {
@@ -6270,35 +6257,7 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1784754982 -1802704099:a ghost emotion resonance\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1189922624 134728149:Far Seas Requisition - WC 124\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2001152374 -156740137:advanced craftsman volume 19\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -755419959 -1407654822:Far Seas Requisition - FG 158\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 493224880 -714950344:a ghost remnant memory\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 128098823 602113696:A Broken Harness\\/a",
           "chest": true
         },
         {
@@ -6306,8 +6265,44 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -1434976134 1508506194:Advanced Scholar Volume 17\\/a",
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1784754982 -1802704099:a ghost emotion resonance\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -211262820 88743151:a ghost ethereal strand\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2073079286 -33985810:a ghost phantasmal echo\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 493224880 -714950344:a ghost remnant memory\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -86102345 -151067204:a ghost vile plasm \\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 472806346 -1877249332:Inlaid Stone Earrings\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1867521536 -523124861:Savannah Bleached Shoulderpads\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -45192848 1925795437:a vial of spectral essence\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 18,
@@ -6366,7 +6361,7 @@
     },
     {
       "name": "a twitching cadaver",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "102.27,-46.80,-235.61",
         "121.66,-47.95,-214.92",
@@ -6441,7 +6436,7 @@
     },
     {
       "name": "a virulent leper",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "394.98,-47.66,-806.56",
         "404.95,-47.93,-797.38",
@@ -6486,7 +6481,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1970929353 -1964109827:Son of the Sky\\/a",
+          "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
           "chest": true
         },
         {
@@ -6494,7 +6489,7 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -4200932 -715222420:advanced craftsman volume 18\\/a",
+          "gamelink": "\\aITEM 1970929353 -1964109827:Son of the Sky\\/a",
           "chest": true
         }
       ],
@@ -6526,13 +6521,13 @@
     },
     {
       "name": "Watcher Ommo",
+      "purpose": "Freeport Militia",
       "race": [
         "erudite"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "-1437.62,-80.42,422.48"
       ],
@@ -6561,7 +6556,7 @@
     },
     {
       "name": "Xrinchel",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "-1221.37,-68.34,313.54"
       ]
@@ -6652,120 +6647,6 @@
         "-601.00,-47.97,-355.11",
         "-577.46,-47.72,-351.65",
         "-557.21,-46.65,-348.80"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 690633881 2006986525:Dwarf egg\\/a",
-      "locations": [
-        "399.07,-47.00,321.87"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -127782164 -1994111504:Froglok fin\\/a",
-      "locations": [
-        "447.49,-46.00,-32.86",
-        "-581.96,-43.00,-148.36",
-        "496.06,-47.00,236.17"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 881145389 -1257983659:Iksar wing\\/a",
-      "locations": [
-        "19.79,-42.00,19.35"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 2041055964 1709117635:Ivory Rose Petal\\/a",
-      "locations": [
-        "-1258.87,-88.59,41.06",
-        "-1200.06,-79.23,40.68",
-        "-1157.79,-69.16,90.19",
-        "-603.70,-46.95,-271.43",
-        "-471.84,-44.99,-289.88",
-        "-1284.06,-88.16,49.53"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1913161908 -135970516:Kerra scales\\/a",
-      "locations": [
-        "935.46,-42.00,-546.94",
-        "-1101.88,-54.00,-304.44"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1545792971 2005925826:Mark of Blackburrow\\/a",
-      "locations": [
-        "-556.06,-47.16,-359.69",
-        "-600.07,-47.94,-294.85",
-        "-588.32,-47.94,-340.15",
-        "-617.97,-48.02,-308.94",
-        "-597.50,-47.77,-365.07"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 491367518 -1346774644:Mark of the Kromise\\/a",
-      "locations": [
-        "-574.33,-47.79,-361.96"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1740421467 1340305692:Orc tail\\/a",
-      "locations": [
-        "-99.94,-47.00,-603.00"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 2081551614 186916899:Ratonga hoof\\/a",
-      "locations": [
-        "335.46,-47.00,-403.44",
-        "-223.72,-47.00,362.77",
-        "-523.72,-47.00,449.97",
-        "237.44,-44.00,-13.83",
-        "263.99,-43.00,-53.83"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -196955907 250027482:Royal Rose Petal\\/a",
-      "locations": [
-        "-1162.90,-69.65,-2.72",
-        "-954.56,-48.43,-1.50",
-        "-922.33,-47.81,-20.30",
-        "-891.37,-47.55,-27.55",
-        "-684.71,-48.09,-206.51",
-        "-571.82,-45.50,-232.44",
-        "-513.79,-44.54,-310.08",
-        "-740.62,-47.43,-177.21",
-        "-607.24,-49.87,-636.64"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1464794927 -809516526:Sootfoot Mark\\/a",
-      "locations": [
-        "-597.34,-48.01,-335.83",
-        "-598.28,-48.03,-308.63",
-        "-574.33,-47.79,-361.96",
-        "-617.97,-48.02,-308.94",
-        "-586.24,-47.53,-378.45",
-        "-575.32,-47.15,-334.71",
-        "-636.18,-48.04,-313.82",
-        "-556.06,-47.16,-359.69"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 699234980 -855475702:Sunset Chrysanthemum Petal\\/a",
-      "locations": [
-        "-1202.03,-75.60,115.60",
-        "-1118.32,-58.89,117.81",
-        "-1018.63,-50.22,16.55",
-        "-740.62,-47.43,-177.21",
-        "-636.86,-47.99,-233.17",
-        "-1258.87,-88.59,41.06"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 311520287 -690295344:Yha-lei fur\\/a",
-      "locations": [
-        "-1347.88,-82.00,-354.58"
       ]
     },
     {
@@ -6880,6 +6761,69 @@
       "gamelink": "\\aITEM -1104592590 977881333:cracked ratonga bone fragment\\/a"
     },
     {
+      "gamelink": "\\aITEM 690633881 2006986525:Dwarf egg\\/a",
+      "locations": [
+        "399.07,-47.00,321.87"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -127782164 -1994111504:Froglok fin\\/a",
+      "locations": [
+        "447.49,-46.00,-32.86",
+        "-581.96,-43.00,-148.36",
+        "496.06,-47.00,236.17"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 881145389 -1257983659:Iksar wing\\/a",
+      "locations": [
+        "19.79,-42.00,19.35"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 2041055964 1709117635:Ivory Rose Petal\\/a",
+      "locations": [
+        "-1258.87,-88.59,41.06",
+        "-1200.06,-79.23,40.68",
+        "-1157.79,-69.16,90.19",
+        "-603.70,-46.95,-271.43",
+        "-471.84,-44.99,-289.88",
+        "-1284.06,-88.16,49.53"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1913161908 -135970516:Kerra scales\\/a",
+      "locations": [
+        "935.46,-42.00,-546.94",
+        "-1101.88,-54.00,-304.44"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1190729474 -2001384598:the lore of fauna: the behemoth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1545792971 2005925826:Mark of Blackburrow\\/a",
+      "locations": [
+        "-556.06,-47.16,-359.69",
+        "-600.07,-47.94,-294.85",
+        "-588.32,-47.94,-340.15",
+        "-617.97,-48.02,-308.94",
+        "-597.50,-47.77,-365.07"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 491367518 -1346774644:Mark of the Kromise\\/a",
+      "locations": [
+        "-574.33,-47.79,-361.96"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1740421467 1340305692:Orc tail\\/a",
+      "locations": [
+        "-99.94,-47.00,-603.00"
+      ]
+    },
+    {
       "gamelink": "\\aITEM 191027657 -1161592086:page 11 of The Lore of Fauna: The Behemoth\\/a"
     },
     {
@@ -6899,6 +6843,30 @@
     },
     {
       "gamelink": "\\aITEM -230125234 653655030:plain white moth\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 2081551614 186916899:Ratonga hoof\\/a",
+      "locations": [
+        "335.46,-47.00,-403.44",
+        "-223.72,-47.00,362.77",
+        "-523.72,-47.00,449.97",
+        "237.44,-44.00,-13.83",
+        "263.99,-43.00,-53.83"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -196955907 250027482:Royal Rose Petal\\/a",
+      "locations": [
+        "-1162.90,-69.65,-2.72",
+        "-954.56,-48.43,-1.50",
+        "-922.33,-47.81,-20.30",
+        "-891.37,-47.55,-27.55",
+        "-684.71,-48.09,-206.51",
+        "-571.82,-45.50,-232.44",
+        "-513.79,-44.54,-310.08",
+        "-740.62,-47.43,-177.21",
+        "-607.24,-49.87,-636.64"
+      ]
     },
     {
       "gamelink": "\\aITEM -1341170799 881072848:scuffed shard of abjuration\\/a"
@@ -6966,6 +6934,19 @@
       ]
     },
     {
+      "gamelink": "\\aITEM -1464794927 -809516526:Sootfoot Mark\\/a",
+      "locations": [
+        "-597.34,-48.01,-335.83",
+        "-598.28,-48.03,-308.63",
+        "-574.33,-47.79,-361.96",
+        "-617.97,-48.02,-308.94",
+        "-586.24,-47.53,-378.45",
+        "-575.32,-47.15,-334.71",
+        "-636.18,-48.04,-313.82",
+        "-556.06,-47.16,-359.69"
+      ]
+    },
+    {
       "gamelink": "\\aITEM -832401687 1102518604:spotted black moth\\/a",
       "locations": [
         "-673.71,-46.00,-327.98",
@@ -7017,10 +6998,24 @@
       ]
     },
     {
-      "gamelink": "\\aITEM -1190729474 -2001384598:the lore of fauna: the behemoth\\/a"
+      "gamelink": "\\aITEM 699234980 -855475702:Sunset Chrysanthemum Petal\\/a",
+      "locations": [
+        "-1202.03,-75.60,115.60",
+        "-1118.32,-58.89,117.81",
+        "-1018.63,-50.22,16.55",
+        "-740.62,-47.43,-177.21",
+        "-636.86,-47.99,-233.17",
+        "-1258.87,-88.59,41.06"
+      ]
     },
     {
       "gamelink": "\\aITEM 1826682885 274604835:weathered orc bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 311520287 -690295344:Yha-lei fur\\/a",
+      "locations": [
+        "-1347.88,-82.00,-354.58"
+      ]
     }
   ],
   "resourceNodes": [

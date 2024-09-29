@@ -22,10 +22,10 @@
   ],
   "connections": [
     {
-      "key": "exp03_rgn_greater_faydark"
+      "key": "exp03_dun_crushbone_keep_epic01_throne"
     },
     {
-      "key": "exp03_dun_crushbone_keep_epic01_throne"
+      "key": "exp03_rgn_greater_faydark"
     }
   ],
   "npcs": [
@@ -133,7 +133,7 @@
     },
     {
       "name": "a conscripted Feir'Dal",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic^^^",
       "locations": [
         "10.10,-33.98,-78.43",
@@ -152,18 +152,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "gamelink": "\\aITEM 919677850 -1288633370:black face paint\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 919677850 -1288633370:black face paint\\/a",
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a conscripted Koada'Dal",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic^^^",
       "locations": [
         "-25.96,-34.00,-92.50",
@@ -185,7 +185,7 @@
     },
     {
       "name": "a Crushbone centurion",
-      "level": 29,
+      "levelRange": "29",
       "locations": [
         "-7.88,-0.04,37.51",
         "-19.34,-0.04,43.88",
@@ -262,15 +262,15 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1328289081 -1699088314:an orc spine\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 942351791 593929027:an orc tooth\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
           "chest": false
         }
       ],
@@ -283,7 +283,7 @@
     },
     {
       "name": "a Crushbone conscript",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic^^^",
       "locations": [
         "-19.49,-0.04,31.05",
@@ -317,11 +317,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
           "chest": false
         },
         {
@@ -329,11 +325,15 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -544012120 -1906567471:an orc ear\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
           "chest": false
         }
       ],
@@ -375,7 +375,7 @@
     },
     {
       "name": "a Crushbone emissary",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic^^^",
       "locations": [
         "-36.07,-0.07,70.62",
@@ -444,7 +444,7 @@
     },
     {
       "name": "a Crushbone legionnaire",
-      "level": 30,
+      "levelRange": "30",
       "difficulty": "heroic^^^",
       "locations": [
         "32.59,-39.68,-10.78",
@@ -517,7 +517,7 @@
     },
     {
       "name": "a Crushbone thaumaturgist",
-      "level": 28,
+      "levelRange": "28",
       "difficulty": "heroic^^^",
       "locations": [
         "-2.84,-33.98,-83.26",
@@ -560,7 +560,7 @@
     },
     {
       "name": "a Crushbone trainer",
-      "level": 30,
+      "levelRange": "30",
       "difficulty": "heroic^^^",
       "locations": [
         "11.98,-39.93,-9.63",
@@ -597,7 +597,7 @@
     },
     {
       "name": "a Crushbone watchman",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic^^^",
       "locations": [
         "-8.19,-0.04,22.86",
@@ -635,11 +635,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
+          "gamelink": "\\aITEM 149792389 1916384666:Gel Sealed Document\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 149792389 1916384666:Gel Sealed Document\\/a",
+          "gamelink": "\\aITEM -702200701 -877985661:an orc eye\\/a",
           "chest": false
         }
       ],
@@ -663,15 +663,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
         }
       ],
@@ -862,7 +862,7 @@
     },
     {
       "name": "a kobold captive",
-      "level": 28,
+      "levelRange": "28",
       "difficulty": "heroic^^^",
       "locations": [
         "68.32,-39.09,-31.83"
@@ -876,7 +876,7 @@
     },
     {
       "name": "a lingering remnant",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic^^^",
       "locations": [
         "39.06,-39.79,73.52",
@@ -959,11 +959,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1845291441 2048005038:small stained steam-scoured stone\\/a",
+          "gamelink": "\\aITEM 1555822525 859721010:Opal Scrying Stone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1555822525 859721010:Opal Scrying Stone\\/a",
+          "gamelink": "\\aITEM 1845291441 2048005038:small stained steam-scoured stone\\/a",
           "chest": false
         }
       ],
@@ -1049,7 +1049,7 @@
     },
     {
       "name": "Warden Kurgef",
-      "level": 28,
+      "levelRange": "28",
       "difficulty": "heroic^^^",
       "locations": [
         "33.32,-39.93,-20.28"

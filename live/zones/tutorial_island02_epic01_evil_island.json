@@ -15,14 +15,14 @@
   "npcs": [
     {
       "name": "Breeze",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "9.20,0.00,-6.52"
       ]
     },
     {
       "name": "Kayl of the Circle",
-      "level": 40,
+      "levelRange": "40",
       "utterances": [
         "How dare you break the circle! You have chosen your fate. Prepare yourself!",
         "Rush Attack!",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Old Bruiser",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-6.29,0.00,-2.03"
       ],
@@ -51,7 +51,7 @@
     },
     {
       "name": "Rush",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-2.57,0.00,3.52"
       ]
@@ -67,7 +67,7 @@
     },
     {
       "name": "a Tunarian elder",
-      "level": 6,
+      "levelRange": "6",
       "difficulty": "heroic",
       "locations": [
         "-3.18,0.00,-4.76",

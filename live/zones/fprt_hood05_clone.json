@@ -10,12 +10,12 @@
   ],
   "connections": [
     {
-      "key": "fprt_sewer01",
-      "location": "43.13,-0.87,-23.07"
-    },
-    {
       "key": "fprt_adv02_graveyard",
       "location": "53.63,-2.00,-19.84"
+    },
+    {
+      "key": "fprt_sewer01",
+      "location": "43.13,-0.87,-23.07"
     },
     {
       "key": "fprt_tradeskill01_hood05",
@@ -29,13 +29,13 @@
   "npcs": [
     {
       "name": "Alanaramal Z'Aste",
+      "purpose": "Crafting Trainer",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Crafting Trainer",
       "locations": [
         "12.24,0.0,7.01"
       ],
@@ -58,13 +58,13 @@
     },
     {
       "name": "Arms Dealer T`Nyvez",
+      "purpose": "Weaponsmith",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Weaponsmith",
       "locations": [
         "16.06,0.0,-7.76"
       ],
@@ -78,13 +78,13 @@
     },
     {
       "name": "Brelslade",
+      "purpose": "Mender",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Mender",
       "locations": [
         "24.76,0.21,-16.47"
       ]
@@ -177,13 +177,13 @@
     },
     {
       "name": "Innkeeper T`Mel",
+      "purpose": "Housing",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Housing",
       "locations": [
         "-51.89,2.7,4.99"
       ],
@@ -268,13 +268,13 @@
     },
     {
       "name": "K`Tolia",
+      "purpose": "Alchemist",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Alchemist",
       "locations": [
         "-21.48,0.67,15.34"
       ],
@@ -300,13 +300,13 @@
     },
     {
       "name": "L`Dor",
+      "purpose": "Armorsmith",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Armorsmith",
       "locations": [
         "-56.59,-4.67,-62.43"
       ],
@@ -332,13 +332,13 @@
     },
     {
       "name": "Lynsia T'Kanix",
+      "purpose": "Provisioner",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Provisioner",
       "locations": [
         "-4.77,0.0,-20.02"
       ],
@@ -426,13 +426,13 @@
     },
     {
       "name": "P`Thek",
+      "purpose": "Linguist",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Linguist",
       "locations": [
         "30.64,3.03,34.82"
       ],
@@ -471,13 +471,13 @@
     },
     {
       "name": "Sh`Nra",
+      "purpose": "Shieldsmith",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Shieldsmith",
       "locations": [
         "21.14,-0.01,-11.32"
       ],
@@ -490,7 +490,7 @@
     },
     {
       "name": "a spider hatchling",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "-31.22,4.00,36.48",
         "-42.23,5.01,34.96",
@@ -506,13 +506,13 @@
     },
     {
       "name": "T`Gask",
+      "purpose": "Tailor",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Tailor",
       "locations": [
         "-19.8,0.0,-9.12"
       ],
@@ -524,26 +524,26 @@
     },
     {
       "name": "T`Val",
+      "purpose": "Banker",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Banker",
       "locations": [
         "-32.05,1.12,12.12"
       ]
     },
     {
       "name": "V`Dyhn",
+      "purpose": "Bowyer",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Bowyer",
       "locations": [
         "-11.56,0.0,20.84"
       ],

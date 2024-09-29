@@ -2,7 +2,7 @@
   "name": "The City of Freeport",
   "added": "lu62",
   "category": "Cities",
-  "description": "Home of the overlord Lucan D'Lere and the citizens of Freeport",
+  "notes": "Home of the overlord Lucan D'Lere and the citizens of Freeport",
   "levels": "1-9",
   "maps": [
     {
@@ -15,15 +15,6 @@
       "location": "296.93,-3.81,-70.20"
     },
     {
-      "key": "fprt_sewer01",
-      "locations": [
-        "-126.90,-36.97,-22.49",
-        "17.11,-20.06,-207.67",
-        "-217.32,-55.25,240.34",
-        "305.51,-3.60,--22.79"
-      ]
-    },
-    {
       "key": "fprt_hood02_clone",
       "location": "-6.05,-17.64,-330.28"
     },
@@ -34,6 +25,15 @@
     {
       "key": "fprt_hood05_clone",
       "location": "-92.96,-34.55,-368.29"
+    },
+    {
+      "key": "fprt_sewer01",
+      "locations": [
+        "-126.90,-36.97,-22.49",
+        "17.11,-20.06,-207.67",
+        "-217.32,-55.25,240.34",
+        "305.51,-3.60,--22.79"
+      ]
     },
     {
       "key": "fprt_tradeskill01_fprt_west_cca",
@@ -129,13 +129,13 @@
     },
     {
       "name": "Adrianna",
+      "purpose": "Dismal Rage Priest",
       "race": [
         "erudite"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Dismal Rage Priest",
       "locations": [
         "-90.74,-9.91,-164.93"
       ],
@@ -146,10 +146,10 @@
     },
     {
       "name": "Aelia Catus",
+      "purpose": "General Goods",
       "gender": [
         "female"
       ],
-      "purpose": "General Goods",
       "locations": [
         "46.58,-12.07,89.25"
       ],
@@ -163,13 +163,13 @@
     },
     {
       "name": "Aemilia Sevso",
+      "purpose": "Alchemist",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Alchemist",
       "locations": [
         "-67.9,-37.78,28.12"
       ],
@@ -182,13 +182,13 @@
     },
     {
       "name": "Aezaar the Damned",
+      "purpose": "Nebulous Newsie",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Nebulous Newsie",
       "locations": [
         "-102.0,-8.11,-164.95"
       ],
@@ -198,13 +198,13 @@
     },
     {
       "name": "Agamennus",
+      "purpose": "Broker",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Broker",
       "locations": [
         "-217.75,-56.45,161.69"
       ],
@@ -217,7 +217,7 @@
     {
       "name": "Agar",
       "purpose": "Guard",
-      "level": 45,
+      "levelRange": "45",
       "difficulty": "heroic^3",
       "locations": [
         "-53.31,-22.24,83.97"
@@ -246,13 +246,13 @@
     },
     {
       "name": "Aldrevia Metilla",
+      "purpose": "Tailor",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Tailor",
       "locations": [
         "-125.94,-21.43,-69.07"
       ],
@@ -260,13 +260,13 @@
     },
     {
       "name": "Alethea Augustine",
+      "purpose": "Rush Orders",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Rush Orders",
       "locations": [
         "28.51,-12.43,89.86"
       ],
@@ -282,13 +282,13 @@
     },
     {
       "name": "Alypia Damian",
+      "purpose": "General Goods",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "General Goods",
       "locations": [
         "-252.35,-55.31,112.48"
       ],
@@ -398,26 +398,26 @@
     },
     {
       "name": "Ambassador Anttel V'Xeath",
+      "purpose": "Arasai Mentor",
       "race": [
         "arasai"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Arasai Mentor",
       "locations": [
         "-123.2,-37.86,23.7"
       ]
     },
     {
       "name": "Ambassador Brutus",
+      "purpose": "Change of Citizenship",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Change of Citizenship",
       "locations": [
         "-125.8,-37.77,39.72"
       ],
@@ -430,13 +430,13 @@
     },
     {
       "name": "Ambassador Erazak",
+      "purpose": "Sarnak Mentor",
       "race": [
         "sarnak"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Sarnak Mentor",
       "locations": [
         "-127.04,-45.53,-44.62"
       ],
@@ -446,13 +446,13 @@
     },
     {
       "name": "Ambassador Zrelach",
+      "purpose": "Gorowyn Emissary",
       "race": [
         "sarnak"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Gorowyn Emissary",
       "locations": [
         "-132.78,-44.62,-58.02"
       ],
@@ -465,7 +465,7 @@
     {
       "name": "Amulius Sarrius",
       "purpose": "Guard",
-      "level": 36,
+      "levelRange": "36",
       "difficulty": "heroic^3",
       "locations": [
         "-41.92,-8.26,220.73",
@@ -500,13 +500,13 @@
     },
     {
       "name": "Annia Kaeso",
+      "purpose": "Tailor",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Tailor",
       "locations": [
         "-213.6,-56.48,185.39"
       ],
@@ -528,13 +528,13 @@
     },
     {
       "name": "Archbishop Haleim Felmease",
+      "purpose": "High Speaker of Freeport",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "High Speaker of Freeport",
       "locations": [
         "-87.87,-7.27,-182.85"
       ],
@@ -556,13 +556,13 @@
     },
     {
       "name": "Archivist Jindlefog",
+      "purpose": "Arcane Scientist",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Arcane Scientist",
       "locations": [
         "8.28,-37.95,-122.47"
       ],
@@ -579,13 +579,13 @@
     },
     {
       "name": "Aric Pickhall",
+      "purpose": "Monk Trainer",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Monk Trainer",
       "locations": [
         "279.79,-3.99,111.68"
       ],
@@ -651,7 +651,7 @@
     {
       "name": "Ateius Aratus",
       "purpose": "Guard",
-      "level": 45,
+      "levelRange": "45",
       "difficulty": "heroic^3",
       "locations": [
         "-66.14,-22.89,69.74"
@@ -675,7 +675,7 @@
     {
       "name": "Atilus Crassus",
       "purpose": "Guard",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic^3",
       "locations": [
         "-100.86,-37.71,2.19",
@@ -695,7 +695,7 @@
     {
       "name": "Atria Silana",
       "purpose": "Guard",
-      "level": 46,
+      "levelRange": "46",
       "utterances": [
         "Do not challenge my authority, citizen.  In Freeport, the Overlord's word is law!"
       ]
@@ -738,7 +738,7 @@
     {
       "name": "Aulus Cittinus",
       "purpose": "Guard",
-      "level": 46,
+      "levelRange": "46",
       "difficulty": "heroic^3",
       "locations": [
         "-53.53,-18.62,-217.0"
@@ -746,13 +746,13 @@
     },
     {
       "name": "Aulus Crispian",
+      "purpose": "Alchemist",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Alchemist",
       "locations": [
         "-61.31,-24.43,-72.93"
       ],
@@ -795,13 +795,13 @@
     },
     {
       "name": "Azreana",
+      "purpose": "Erudite Mentor",
       "race": [
         "erudite"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Erudite Mentor",
       "locations": [
         "3.64,7.3,-117.83"
       ],
@@ -812,7 +812,7 @@
     {
       "name": "Azrog Eyegouger",
       "purpose": "Guard",
-      "level": 66,
+      "levelRange": "66",
       "difficulty": "heroic^3",
       "locations": [
         "115.21,-18.67,104.89"
@@ -820,13 +820,13 @@
     },
     {
       "name": "Banker Gavius Herenus",
+      "purpose": "Banker",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Banker",
       "locations": [
         "198.38,-1.34,-134.02"
       ],
@@ -838,13 +838,13 @@
     },
     {
       "name": "Banker Lusius Ulixes",
+      "purpose": "Banker",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Banker",
       "locations": [
         "217.7,-1.34,-133.97"
       ],
@@ -854,13 +854,13 @@
     },
     {
       "name": "Banker Macrinus Sanctus",
+      "purpose": "Banker",
       "race": [
         "erudite"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Banker",
       "locations": [
         "227.88,-1.34,-125.21"
       ],
@@ -872,13 +872,13 @@
     },
     {
       "name": "Banker Magia Cotta",
+      "purpose": "Banker",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Banker",
       "locations": [
         "188.22,-1.34,-125.2"
       ],
@@ -904,13 +904,13 @@
     },
     {
       "name": "Barber Whiskerwuzzle",
+      "purpose": "Barber",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Barber",
       "locations": [
         "206.3,-3.25,103.77"
       ],
@@ -962,13 +962,13 @@
     },
     {
       "name": "Barrius Iacomus",
+      "purpose": "Provisioner",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Provisioner",
       "locations": [
         "-233.59,-55.18,-20.0"
       ],
@@ -1055,10 +1055,10 @@
     },
     {
       "name": "Belimee Viperwing",
+      "purpose": "Aid to the Grand Inquisitor",
       "gender": [
         "female"
       ],
-      "purpose": "Aid to the Grand Inquisitor",
       "locations": [
         "-77.72,-9.91,-160.39"
       ],
@@ -1077,13 +1077,13 @@
     },
     {
       "name": "Bendl Fizztuzzle",
+      "purpose": "Bartender",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Bartender",
       "locations": [
         "209.43,-3.49,74.14"
       ],
@@ -1147,7 +1147,7 @@
     {
       "name": "Bezedd Headcrusher",
       "purpose": "Guard",
-      "level": 36,
+      "levelRange": "36",
       "difficulty": "heroic^3",
       "locations": [
         "-204.09,-56.72,174.1"
@@ -1161,13 +1161,13 @@
     },
     {
       "name": "Blerrkt Marrowdrinker",
+      "purpose": "Warden Trainer",
       "race": [
         "troll"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Warden Trainer",
       "locations": [
         "-73.26,-9.91,-147.47"
       ],
@@ -1196,13 +1196,13 @@
     },
     {
       "name": "Blight Sage Destroz",
+      "purpose": "Dismal Rage Priest",
       "race": [
         "iksar"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Dismal Rage Priest",
       "locations": [
         "-88.43,-7.27,-186.28"
       ],
@@ -1229,13 +1229,13 @@
     },
     {
       "name": "Boddy Runewick",
+      "purpose": "Apprentice Illusionist",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Apprentice Illusionist",
       "locations": [
         "-14.41,-7.93,-135.79"
       ],
@@ -1247,13 +1247,13 @@
     },
     {
       "name": "a Bonebreaker Champion",
+      "purpose": "The Dreadnaughts",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "The Dreadnaughts",
       "locations": [
         "281.3,-3.9,120.28"
       ],
@@ -1272,13 +1272,13 @@
     },
     {
       "name": "Boomba",
+      "purpose": "Merchant",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Merchant",
       "locations": [
         "270.62,-3.52,-103.23"
       ],
@@ -1437,7 +1437,7 @@
     {
       "name": "Boshank Dracious",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "epic^3",
       "locations": [
         "-295.48,-56.07,-76.9",
@@ -1447,7 +1447,7 @@
     {
       "name": "B'Rak",
       "purpose": "Guard",
-      "level": 49,
+      "levelRange": "49",
       "utterances": [
         "All praises to the Overlord.  The Militia protects loyal citizens of Freeport."
       ]
@@ -1501,13 +1501,13 @@
     },
     {
       "name": "Brinegaggle",
+      "purpose": "Arcane Scientist Merchant",
       "race": [
         "gnome"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Arcane Scientist Merchant",
       "locations": [
         "4.82,-34.26,-149.8"
       ],
@@ -1678,13 +1678,13 @@
     },
     {
       "name": "Broll",
+      "purpose": "Provisioner",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Provisioner",
       "locations": [
         "-228.71,-55.41,112.64"
       ],
@@ -1891,13 +1891,13 @@
     },
     {
       "name": "Bronson Thewlis",
+      "purpose": "Apprentice Illusionist",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Apprentice Illusionist",
       "locations": [
         "-15.1,-7.93,-131.61"
       ],
@@ -1930,7 +1930,7 @@
     {
       "name": "B'Ryk",
       "purpose": "Guard",
-      "level": 49,
+      "levelRange": "49",
       "utterances": [
         "All praises to the Overlord.  The Militia protects loyal citizens of Freeport."
       ]
@@ -1954,13 +1954,13 @@
     },
     {
       "name": "Caius Callidus",
+      "purpose": "Work Orders",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Work Orders",
       "locations": [
         "29.37,-12.43,90.0"
       ],
@@ -1971,13 +1971,13 @@
     },
     {
       "name": "Caltuur",
+      "purpose": "Kerra Mentor",
       "race": [
         "kerran"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Kerra Mentor",
       "locations": [
         "-200.85,-56.69,153.52"
       ],
@@ -1987,10 +1987,10 @@
     },
     {
       "name": "Candal Embret",
+      "purpose": "New Combine",
       "gender": [
         "male"
       ],
-      "purpose": "New Combine",
       "locations": [
         "-212.99,-56.07,62.08",
         "-213.21,-56.07,56.74"
@@ -1998,39 +1998,39 @@
     },
     {
       "name": "Captain Clausin Bludwins",
+      "purpose": "Freeport Militia",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "108.01,-19.95,110.24"
       ]
     },
     {
       "name": "Captain D'Vall",
+      "purpose": "Freeport Militia",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "134.21,-16.79,129.83"
       ]
     },
     {
       "name": "Captain Rillian",
+      "purpose": "Freeport Militia",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "248.96,-3.62,-70.35"
       ],
@@ -2050,13 +2050,13 @@
     },
     {
       "name": "Captain Stovka",
+      "purpose": "Seafury Buccaneer",
       "race": [
         "ratonga"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Seafury Buccaneer",
       "locations": [
         "-235.57,-48.96,-11.63"
       ]
@@ -2081,7 +2081,7 @@
     {
       "name": "Ceacilia Velva",
       "purpose": "Guard",
-      "level": 36,
+      "levelRange": "36",
       "difficulty": "heroic^3",
       "locations": [
         "-85.44,-6.83,202.62"
@@ -2089,10 +2089,10 @@
     },
     {
       "name": "Cheris Alton",
+      "purpose": "New Combine",
       "gender": [
         "male"
       ],
-      "purpose": "New Combine",
       "locations": [
         "-213.3,-56.07,57.87",
         "-208.1,-56.07,56.75"
@@ -2115,13 +2115,13 @@
     },
     {
       "name": "Cipius Abito",
+      "purpose": "Provisioner",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Provisioner",
       "locations": [
         "-124.17,-21.43,-77.13"
       ],
@@ -2182,13 +2182,13 @@
     },
     {
       "name": "City Registrar Glamis",
+      "purpose": "Guild Registrar",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Guild Registrar",
       "locations": [
         "-121.78,-37.77,40.1"
       ]
@@ -2210,13 +2210,13 @@
     },
     {
       "name": "Claudette Woodbridge",
+      "purpose": "Portals Trainer",
       "race": [
         "wood elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Portals Trainer",
       "locations": [
         "-75.35,-9.91,-139.08"
       ],
@@ -2226,13 +2226,13 @@
     },
     {
       "name": "Claudia Quarto",
+      "purpose": "Warlock Trainer",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Warlock Trainer",
       "locations": [
         "23.56,-7.0,-123.88"
       ],
@@ -2298,13 +2298,13 @@
     },
     {
       "name": "Cleerie Germinas",
+      "purpose": "Reconstruction Coordinator",
       "race": [
         "ratonga"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Reconstruction Coordinator",
       "locations": [
         "-204.19,-56.07,47.91"
       ],
@@ -2326,13 +2326,13 @@
     },
     {
       "name": "Clodia Laeca",
+      "purpose": "Bowyer",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Bowyer",
       "locations": [
         "-221.49,-56.07,181.38"
       ],
@@ -2417,13 +2417,13 @@
     },
     {
       "name": "Commandant Vatinius",
+      "purpose": "Freeport Militia",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "159.97,-16.79,120.89"
       ]
@@ -2457,13 +2457,13 @@
     },
     {
       "name": "Convert Y`Ral",
+      "purpose": "Dismal Rage Priest",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Dismal Rage Priest",
       "locations": [
         "-99.91,-9.91,-136.85"
       ],
@@ -2474,7 +2474,7 @@
     {
       "name": "Cordius Tuticanus",
       "purpose": "Guard",
-      "level": 66,
+      "levelRange": "66",
       "difficulty": "heroic^3",
       "locations": [
         "8.68,-20.02,-17.52"
@@ -2482,13 +2482,13 @@
     },
     {
       "name": "Corina Farsight",
+      "purpose": "Dismal Rage Scryer",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Dismal Rage Scryer",
       "locations": [
         "-84.42,-7.27,-190.05"
       ]
@@ -2496,7 +2496,7 @@
     {
       "name": "Cornelia Vecchia",
       "purpose": "Guard",
-      "level": 46,
+      "levelRange": "46",
       "difficulty": "heroic^3",
       "locations": [
         "21.72,-19.87,-45.56"
@@ -2519,13 +2519,13 @@
     },
     {
       "name": "Corporal Sergius Mordanticus",
+      "purpose": "Freeport Militia",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "132.12,-19.96,84.67"
       ],
@@ -2535,13 +2535,13 @@
     },
     {
       "name": "Corsair G`kex",
+      "purpose": "Seafury Buccaneer",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Seafury Buccaneer",
       "locations": [
         "-233.42,-48.96,-19.97"
       ],
@@ -2565,7 +2565,7 @@
     {
       "name": "Crispina Carius",
       "purpose": "Guard",
-      "level": 47,
+      "levelRange": "47",
       "locations": [
         "-53.25,-24.37,-41.45",
         "-92.77,-24.37,-52.26"
@@ -2576,13 +2576,13 @@
     },
     {
       "name": "Culdor",
+      "purpose": "Mender",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Mender",
       "locations": [
         "-263.29,-55.71,90.77"
       ]
@@ -2599,13 +2599,13 @@
     },
     {
       "name": "Darkpaw Celebrator Katrynn",
+      "purpose": "Year of Darkpaw Merchant",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Year of Darkpaw Merchant",
       "locations": [
         "-211.11,-56.07,-51.23"
       ],
@@ -2633,13 +2633,13 @@
     },
     {
       "name": "Dawood Haidaar",
+      "purpose": "Illusionary Savant",
       "race": [
         "erudite"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Illusionary Savant",
       "locations": [
         "-25.42,-7.85,-130.39"
       ],
@@ -2703,13 +2703,13 @@
     },
     {
       "name": "Derald Walldons",
+      "purpose": "Human Mentor",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Human Mentor",
       "locations": [
         "-84.75,-7.34,192.41"
       ],
@@ -4019,10 +4019,25 @@
     {
       "name": "D'Ryl",
       "purpose": "Guard",
-      "level": 62,
+      "levelRange": "62",
       "difficulty": "heroic^3",
       "locations": [
         "-14.62,-19.98,48.09"
+      ]
+    },
+    {
+      "name": "d the Sighted",
+      "race": [
+        "troll"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-48.38,-24.44,-50.24"
+      ],
+      "utterances": [
+        "Leave Mizzog be.  The spirits do not speak of this one."
       ]
     },
     {
@@ -4061,13 +4076,13 @@
     },
     {
       "name": "Dyvll Ssavan",
+      "purpose": "Defiler Trainer",
       "race": [
         "iksar"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Defiler Trainer",
       "locations": [
         "-94.77,-9.91,-154.56"
       ],
@@ -4112,13 +4127,13 @@
     },
     {
       "name": "Eamric Icefist",
+      "purpose": "Guardian Trainer",
       "race": [
         "barbarian"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Guardian Trainer",
       "locations": [
         "157.55,-16.79,125.07"
       ],
@@ -4161,13 +4176,13 @@
     },
     {
       "name": "Edesii",
+      "purpose": "Assassin Trainer",
       "race": [
         "ratonga"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Assassin Trainer",
       "locations": [
         "-233.48,-48.96,7.35"
       ],
@@ -4309,13 +4324,13 @@
     },
     {
       "name": "Ellynottin Zookbiddle",
+      "purpose": "Necromancer Trainer",
       "race": [
         "gnome"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Necromancer Trainer",
       "locations": [
         "20.19,-7.0,-124.46"
       ],
@@ -4354,26 +4369,26 @@
     },
     {
       "name": "Elon Gallwin",
+      "purpose": "Arcane Scientist",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Arcane Scientist",
       "locations": [
         "8.06,7.3,-108.19"
       ]
     },
     {
       "name": "Elrinn Darknor",
+      "purpose": "Lucanic Knights",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Lucanic Knights",
       "locations": [
         "-96.02,-8.15,-95.2"
       ],
@@ -4457,7 +4472,7 @@
     {
       "name": "Euphemia Lucilla",
       "purpose": "Guard",
-      "level": 59,
+      "levelRange": "59",
       "difficulty": "heroic^3",
       "locations": [
         "259.46,-3.17,143.25"
@@ -4480,13 +4495,13 @@
     },
     {
       "name": "Everett Splizen",
+      "purpose": "Role Advisor",
       "race": [
         "erudite"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Role Advisor",
       "locations": [
         "-204.17,-56.07,50.24"
       ],
@@ -4496,13 +4511,13 @@
     },
     {
       "name": "Exmarch",
+      "purpose": "Seafury Buccaneer Merchant",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Seafury Buccaneer Merchant",
       "locations": [
         "-235.05,-55.18,-11.99"
       ],
@@ -4721,7 +4736,7 @@
     },
     {
       "name": "a fanged sentinel",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic^3",
       "locations": [
         "-193.33,-57.3,110.9",
@@ -4756,13 +4771,13 @@
     },
     {
       "name": "Fethar Lothki",
+      "purpose": "Dismal Rage Priest",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Dismal Rage Priest",
       "locations": [
         "-92.03,-9.91,-162.56"
       ]
@@ -4775,13 +4790,13 @@
     },
     {
       "name": "Foci Tamara Paust",
+      "purpose": "Academy of Arcane Science",
       "race": [
         "erudite"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Academy of Arcane Science",
       "locations": [
         "18.44,-34.26,-148.16"
       ],
@@ -4791,13 +4806,13 @@
     },
     {
       "name": "Fonda",
+      "purpose": "Reforging",
       "race": [
         "troll"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Reforging",
       "locations": [
         "282.34,-3.52,-100.08"
       ],
@@ -5162,13 +5177,13 @@
     },
     {
       "name": "Fryda Brushwuttle",
+      "purpose": "Housing",
       "race": [
         "gnome"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Housing",
       "locations": [
         "195.13,-3.57,76.18"
       ],
@@ -5222,13 +5237,13 @@
     },
     {
       "name": "Gadko",
+      "purpose": "Vassi's Assistant",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Vassi's Assistant",
       "locations": [
         "-75.69,-11.0,-70.42"
       ],
@@ -5239,7 +5254,7 @@
     {
       "name": "Gaius Macrinius",
       "purpose": "Guard",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic^3",
       "locations": [
         "-113.28,-37.84,29.94"
@@ -5288,9 +5303,6 @@
       ]
     },
     {
-      "name": "Gaser"
-    },
-    {
       "name": "Gerhild Maclennan",
       "race": [
         "barbarian"
@@ -5314,7 +5326,7 @@
     {
       "name": "Ghekk Legbreaker",
       "purpose": "Guard",
-      "level": 66,
+      "levelRange": "66",
       "difficulty": "heroic^3",
       "locations": [
         "226.59,-1.7,-34.28"
@@ -5335,15 +5347,15 @@
     },
     {
       "name": "Gigantok",
+      "purpose": "Guard",
+      "levelRange": "66",
+      "difficulty": "heroic^3",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Guard",
-      "level": 66,
-      "difficulty": "heroic^3",
       "locations": [
         "207.96,-2.47,-134.4"
       ]
@@ -5375,7 +5387,7 @@
     {
       "name": "Gikuthz",
       "purpose": "Guard",
-      "level": 45,
+      "levelRange": "45",
       "locations": [
         "-5.07,7.30,-111.50"
       ]
@@ -5398,13 +5410,13 @@
     },
     {
       "name": "Ginny Boomsprocket",
+      "purpose": "Tinkering Merchant",
       "race": [
         "gnome"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Tinkering Merchant",
       "locations": [
         "-93.27,-23.0,106.15"
       ],
@@ -5415,13 +5427,13 @@
     },
     {
       "name": "Gisuka Voll",
+      "purpose": "Prime Spiritual Advisor",
       "race": [
         "troll"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Prime Spiritual Advisor",
       "locations": [
         "-101.71,-8.98,-126.85"
       ],
@@ -5432,7 +5444,7 @@
     {
       "name": "Glanald",
       "purpose": "Guard",
-      "level": 65,
+      "levelRange": "65",
       "difficulty": "heroic^3",
       "locations": [
         "80.84,-20.73,100.27",
@@ -5444,10 +5456,10 @@
     },
     {
       "name": "Glaria ",
+      "purpose": "Freeblood Mentor",
       "gender": [
         "female"
       ],
-      "purpose": "Freeblood Mentor",
       "locations": [
         "-81.03,-21.43,-82.08"
       ],
@@ -5457,13 +5469,13 @@
     },
     {
       "name": "Glimmadge Pilk",
+      "purpose": "Master Illusionist",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Master Illusionist",
       "locations": [
         "-20.96,-7.9,-133.96"
       ],
@@ -5482,7 +5494,7 @@
     {
       "name": "Golvana",
       "purpose": "Guard",
-      "level": 57,
+      "levelRange": "57",
       "difficulty": "heroic^3",
       "locations": [
         "227.44,-4.25,-74.94"
@@ -5493,13 +5505,13 @@
     },
     {
       "name": "Gorga",
+      "purpose": "Freeport Militia Merchant",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia Merchant",
       "locations": [
         "144.89,-16.79,139.23"
       ],
@@ -5730,13 +5742,13 @@
     },
     {
       "name": "Grand Duke Lazarus Hazran",
+      "purpose": "Freeport Militia",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "140.99,-7.05,125.16"
       ],
@@ -5747,13 +5759,13 @@
     },
     {
       "name": "Grandmaster Kawayzer",
+      "purpose": "Trades Coordinator",
       "race": [
         "barbarian"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Trades Coordinator",
       "locations": [
         "25.93,-12.4,81.14"
       ],
@@ -5764,7 +5776,7 @@
     {
       "name": "Gratus T`Kril",
       "purpose": "Guard",
-      "level": 28,
+      "levelRange": "28",
       "difficulty": "heroic^3",
       "locations": [
         "-185.72,-57.29,125.96"
@@ -5791,13 +5803,13 @@
     },
     {
       "name": "Grum Zoomly",
+      "purpose": "Provisioner",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Provisioner",
       "locations": [
         "210.86,-3.49,71.81"
       ],
@@ -5898,13 +5910,13 @@
     },
     {
       "name": "Gurb the Master Weaponsmith",
+      "purpose": "Weaponsmith",
       "race": [
         "barbarian"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Weaponsmith",
       "locations": [
         "214.35,-3.66,104.61"
       ],
@@ -6051,13 +6063,13 @@
     },
     {
       "name": "Handler Pachomius",
+      "purpose": "Mount Merchant",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Mount Merchant",
       "locations": [
         "130.08,-4.01,-93.36"
       ],
@@ -7121,13 +7133,13 @@
     },
     {
       "name": "Harn Greyrick",
+      "purpose": "Courier for Lucan D'lere",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Courier for Lucan D'lere",
       "locations": [
         "238.54,-3.5,-47.93"
       ],
@@ -7168,7 +7180,7 @@
     {
       "name": "Helvia Herminia",
       "purpose": "Guard",
-      "level": 69,
+      "levelRange": "69",
       "difficulty": "heroic^3",
       "locations": [
         "152.35,-7.52,148.26",
@@ -7180,7 +7192,7 @@
     {
       "name": "Herennia Lupula",
       "purpose": "Guard",
-      "level": 59,
+      "levelRange": "59",
       "difficulty": "heroic^3",
       "locations": [
         "-30.04,-19.98,33.17"
@@ -7252,13 +7264,13 @@
     },
     {
       "name": "Ignacius Fallon",
+      "purpose": "Apothecary",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Apothecary",
       "locations": [
         "-61.86,-37.78,27.96"
       ]
@@ -7277,13 +7289,13 @@
     },
     {
       "name": "Imaryn Yth`Dare",
+      "purpose": "Nebulous Newsie",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Nebulous Newsie",
       "locations": [
         "20.02,-20.05,-301.94"
       ],
@@ -7306,13 +7318,13 @@
     },
     {
       "name": "Innkeeper Blerg Splinterthumb",
+      "purpose": "Housing",
       "race": [
         "troll"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Housing",
       "locations": [
         "-93.87,-21.43,-79.85"
       ],
@@ -7432,13 +7444,13 @@
     },
     {
       "name": "Ironstar",
+      "purpose": "Mender",
       "race": [
         "half elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Mender",
       "locations": [
         "277.3,-3.52,-103.83"
       ]
@@ -7493,13 +7505,13 @@
     },
     {
       "name": "Jabir Maridar",
+      "purpose": "Wizard Trainer",
       "race": [
         "erudite"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Wizard Trainer",
       "locations": [
         "20.82,-7.0,-128.65"
       ],
@@ -7537,13 +7549,13 @@
     },
     {
       "name": "Jan MacGetz",
+      "purpose": "Merchant",
       "race": [
         "barbarian"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Merchant",
       "locations": [
         "267.67,-3.52,-113.31"
       ],
@@ -7670,13 +7682,13 @@
     },
     {
       "name": "Jantus Ezrek",
+      "purpose": "Teleport Trainer",
       "race": [
         "erudite"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Teleport Trainer",
       "locations": [
         "-0.16,-7.0,-129.82"
       ]
@@ -7699,13 +7711,13 @@
     },
     {
       "name": "Jemilar",
+      "purpose": "Reforging",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Reforging",
       "locations": [
         "-260.6,-55.71,88.15"
       ]
@@ -7770,13 +7782,13 @@
     },
     {
       "name": "Jonak Harvester",
+      "purpose": "Tradeskill Career Counsellor",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Tradeskill Career Counsellor",
       "locations": [
         "33.9,-12.4,105.04"
       ],
@@ -7790,10 +7802,10 @@
     },
     {
       "name": "Joren Kalth",
+      "purpose": "New Combine",
       "gender": [
         "male"
       ],
-      "purpose": "New Combine",
       "locations": [
         "-208.32,-56.07,58.0"
       ]
@@ -7807,13 +7819,13 @@
     },
     {
       "name": "Joss Ridgemarr",
+      "purpose": "Ranger Trainer",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Ranger Trainer",
       "locations": [
         "-231.1,-48.96,3.7"
       ],
@@ -7952,13 +7964,13 @@
     },
     {
       "name": "Jules Jumsinger",
+      "purpose": "Banker",
       "race": [
         "halfling"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Banker",
       "locations": [
         "29.32,-18.44,76.04"
       ],
@@ -7971,13 +7983,13 @@
     },
     {
       "name": "Julia Florens",
+      "purpose": "Bartender",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Bartender",
       "locations": [
         "-106.54,-21.43,-84.75"
       ],
@@ -8050,13 +8062,13 @@
     },
     {
       "name": "Juvena",
+      "purpose": "Coalition of Tradesfolke Merchant",
       "race": [
         "kerran"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Coalition of Tradesfolke Merchant",
       "locations": [
         "35.79,-18.43,105.31"
       ],
@@ -8473,13 +8485,13 @@
     },
     {
       "name": "Karila T'zel",
+      "purpose": "Arcane Scientist Merchant",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Arcane Scientist Merchant",
       "locations": [
         "-219.62,-56.52,173.84"
       ],
@@ -8644,13 +8656,13 @@
     },
     {
       "name": "Keetra Morrow",
+      "purpose": "Beastlord Trainer",
       "race": [
         "kerran"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Beastlord Trainer",
       "locations": [
         "-235.12,-55.18,5.9"
       ],
@@ -8697,13 +8709,13 @@
     },
     {
       "name": "Kell Glavitus",
+      "purpose": "Adorning Trainer",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Adorning Trainer",
       "locations": [
         "-58.55,-37.78,32.86"
       ],
@@ -8748,7 +8760,7 @@
     {
       "name": "Klarna",
       "purpose": "Guard",
-      "level": 28,
+      "levelRange": "28",
       "difficulty": "heroic^3",
       "locations": [
         "-195.0,-57.3,109.34"
@@ -8768,13 +8780,13 @@
     },
     {
       "name": "Krishana",
+      "purpose": "Linguist",
       "race": [
         "erudite"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Linguist",
       "locations": [
         "-241.06,-55.44,101.15"
       ],
@@ -8858,13 +8870,13 @@
     },
     {
       "name": "Kroota Gukbutcher",
+      "purpose": "Ogre Mentor",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Ogre Mentor",
       "locations": [
         "221.5,-3.66,102.81"
       ],
@@ -8874,13 +8886,13 @@
     },
     {
       "name": "Krung Ironfist",
+      "purpose": "Bruiser Trainer",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Bruiser Trainer",
       "locations": [
         "274.24,-4.06,92.73"
       ],
@@ -8956,7 +8968,7 @@
     {
       "name": "K'Val",
       "purpose": "Guard",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic^3",
       "locations": [
         "-145.92,-37.38,65.69",
@@ -8969,13 +8981,13 @@
     },
     {
       "name": "Kybosh Clangsworthy",
+      "purpose": "Tinkering Trainer",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Tinkering Trainer",
       "locations": [
         "-96.14,-23.0,106.59"
       ],
@@ -8987,13 +8999,13 @@
     },
     {
       "name": "Lasarian Nasin",
+      "purpose": "Coalition of Tradesfolke",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Coalition of Tradesfolke",
       "locations": [
         "25.18,-18.44,74.41"
       ],
@@ -9043,13 +9055,13 @@
     },
     {
       "name": "Librarian Motius Feldarn",
+      "purpose": "Academy of Arcane Science",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Academy of Arcane Science",
       "locations": [
         "26.81,-7.0,-114.17"
       ],
@@ -9079,7 +9091,7 @@
     {
       "name": "Liege Torn A`Adar",
       "purpose": "Guard",
-      "level": 49,
+      "levelRange": "49",
       "utterances": [
         "Do not challenge my authority, citizen.  In Freeport, the Overlord's word is law!",
         "The Overlord commands me to patrol this area, and so I must."
@@ -9087,13 +9099,13 @@
     },
     {
       "name": "Lieutenant Dalling",
+      "purpose": "Freeport Militia",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "154.24,-7.05,116.82"
       ],
@@ -9103,13 +9115,13 @@
     },
     {
       "name": "Lieutenant Darrius",
+      "purpose": "Freeport Militia",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "136.17,-15.97,114.96"
       ],
@@ -9134,13 +9146,13 @@
     },
     {
       "name": "Lieutenant D'Raka",
+      "purpose": "Seafury Buccaneer",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Seafury Buccaneer",
       "locations": [
         "-234.01,-48.96,-15.91"
       ]
@@ -9194,13 +9206,13 @@
     },
     {
       "name": "Loche V'Lys",
+      "purpose": "Kirsteh's Assistant",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Kirsteh's Assistant",
       "locations": [
         "-136.39,-37.77,53.05"
       ],
@@ -9210,13 +9222,13 @@
     },
     {
       "name": "Lollia Parnesius",
+      "purpose": "General Goods",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "General Goods",
       "locations": [
         "-234.26,-56.15,-3.6"
       ],
@@ -9227,13 +9239,13 @@
     },
     {
       "name": "Londiar Inygad",
+      "purpose": "Adorning and Tinkering Daily Tasks",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Adorning and Tinkering Daily Tasks",
       "locations": [
         "23.63,-12.43,92.94"
       ],
@@ -9279,13 +9291,13 @@
     },
     {
       "name": "Lord Titurius Ocellus",
+      "purpose": "Lucanic Knight",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Lucanic Knight",
       "locations": [
         "73.2,-20.29,-6.98"
       ]
@@ -9313,7 +9325,7 @@
     {
       "name": "Lrak",
       "purpose": "Guard",
-      "level": 49,
+      "levelRange": "49",
       "locations": [
         "-155.91,-53.12,-313.31",
         "-158.19,-53.12,-290.9",
@@ -9346,13 +9358,13 @@
     },
     {
       "name": "L`Tor",
+      "purpose": "Berserker Trainer",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Berserker Trainer",
       "locations": [
         "139.48,-16.79,137.11"
       ],
@@ -9396,7 +9408,7 @@
     {
       "name": "Lucanic Knight Marcus Rusonius",
       "purpose": "The Wraithguard",
-      "level": 100,
+      "levelRange": "100",
       "difficulty": "epic^4",
       "locations": [
         "-32.54,-19.98,48.09",
@@ -9416,13 +9428,13 @@
     },
     {
       "name": "Lucius Wavedancer",
+      "purpose": "Troubador Trainer",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Troubador Trainer",
       "locations": [
         "-238.75,-48.51,-2.09"
       ],
@@ -9451,13 +9463,13 @@
     },
     {
       "name": "Lynda Chemroot",
+      "purpose": "Adorning Merchant",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Adorning Merchant",
       "locations": [
         "-65.95,-37.78,28.67"
       ],
@@ -9508,13 +9520,13 @@
     },
     {
       "name": "Lyricist Te'naj",
+      "purpose": "The Chaos Orchestra",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "The Chaos Orchestra",
       "locations": [
         "-23.25,-23.05,110.79"
       ],
@@ -9554,13 +9566,13 @@
     },
     {
       "name": "Macia Victus",
+      "purpose": "General Goods",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "General Goods",
       "locations": [
         "231.21,-3.49,76.34"
       ],
@@ -9579,13 +9591,13 @@
     },
     {
       "name": "Maldreya Darkheart",
+      "purpose": "Advisor to the Grand Inquisitor",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Advisor to the Grand Inquisitor",
       "locations": [
         "-71.89,-9.91,-157.87",
         "-67.53,-9.91,-172.02",
@@ -9598,13 +9610,13 @@
     },
     {
       "name": "Mallium",
+      "purpose": "Broker",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Broker",
       "locations": [
         "268.31,-3.52,-107.11"
       ],
@@ -9618,13 +9630,13 @@
     },
     {
       "name": "Marauder Kindolus",
+      "purpose": "Seafury Buccaneer",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Seafury Buccaneer",
       "locations": [
         "-235.64,-48.18,13.68"
       ],
@@ -9635,13 +9647,13 @@
     },
     {
       "name": "Marcia Betto",
+      "purpose": "Tailor",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Tailor",
       "locations": [
         "-71.25,-38.83,45.35"
       ],
@@ -9737,10 +9749,10 @@
     },
     {
       "name": "Master Vlox",
+      "purpose": "Swifttail Caste",
       "gender": [
         "male"
       ],
-      "purpose": "Swifttail Caste",
       "locations": [
         "234.77,-4.73,148.33"
       ],
@@ -9761,13 +9773,13 @@
     },
     {
       "name": "Matthias Siegemaker",
+      "purpose": "Acolyte of the Grand Inquisitor",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Acolyte of the Grand Inquisitor",
       "locations": [
         "-82.47,-7.27,-183.61"
       ],
@@ -9777,13 +9789,13 @@
     },
     {
       "name": "Matthias Zoe",
+      "purpose": "Crafting Trainer",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Crafting Trainer",
       "locations": [
         "30.52,-18.44,77.48"
       ],
@@ -9837,13 +9849,13 @@
     },
     {
       "name": "a Menacer Champion",
+      "purpose": "The Dreadnaughts",
       "race": [
         "kerran"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "The Dreadnaughts",
       "locations": [
         "288.36,-3.41,45.86"
       ],
@@ -10009,13 +10021,13 @@
     },
     {
       "name": "Micha Longtail",
+      "purpose": "Academy of Arcane Science",
       "race": [
         "kerran"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Academy of Arcane Science",
       "locations": [
         "23.23,-7.0,-119.38"
       ],
@@ -10144,33 +10156,18 @@
     },
     {
       "name": "Miyran X'Thall",
+      "purpose": "Guild Cloak Designer",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Guild Cloak Designer",
       "locations": [
         "-130.82,-37.77,46.13"
       ],
       "utterances": [
         "I do not have time to speak to you.  My services are only for those who are in powerful guilds who have earned the right to display their colors."
-      ]
-    },
-    {
-      "name": "d the Sighted",
-      "race": [
-        "troll"
-      ],
-      "gender": [
-        "female"
-      ],
-      "locations": [
-        "-48.38,-24.44,-50.24"
-      ],
-      "utterances": [
-        "Leave Mizzog be.  The spirits do not speak of this one."
       ]
     },
     {
@@ -10190,13 +10187,13 @@
     },
     {
       "name": "Mulka the Skinner",
+      "purpose": "Pet Merchant",
       "race": [
         "troll"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Pet Merchant",
       "locations": [
         "120.93,-3.82,-68.89"
       ],
@@ -10362,13 +10359,13 @@
     },
     {
       "name": "Myia Selvin",
+      "purpose": "Channeler Trainer",
       "race": [
         "half elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Channeler Trainer",
       "locations": [
         "-63.54,-7.97,-130.22"
       ],
@@ -10431,13 +10428,13 @@
     },
     {
       "name": "Naltar N'Xaana",
+      "purpose": "Apprentice Illusionist",
       "race": [
         "arasai"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Apprentice Illusionist",
       "locations": [
         "-15.9,-7.93,-128.49"
       ],
@@ -10449,13 +10446,13 @@
     },
     {
       "name": "Navarius Orvalis",
+      "purpose": "Sage",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Sage",
       "locations": [
         "9.94,-7.0,-134.75"
       ],
@@ -11195,13 +11192,13 @@
     },
     {
       "name": "Nelik Ulnya",
+      "purpose": "Troll Mentor",
       "race": [
         "troll"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Troll Mentor",
       "locations": [
         "-234.0,-56.04,197.05"
       ],
@@ -11211,13 +11208,13 @@
     },
     {
       "name": "Neophyte Jhanov",
+      "purpose": "Arcane Scientist",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Arcane Scientist",
       "locations": [
         "-0.15,-5.68,-115.27"
       ],
@@ -11231,13 +11228,13 @@
     },
     {
       "name": "Nethal L'tylex",
+      "purpose": "Grand Inquisitor of the Dismal Rage",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Grand Inquisitor of the Dismal Rage",
       "locations": [
         "-79.66,-7.28,-165.36"
       ],
@@ -11275,13 +11272,13 @@
     },
     {
       "name": "Nipius Malchus",
+      "purpose": "Armorsmith",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Armorsmith",
       "locations": [
         "-216.21,-56.51,184.07"
       ],
@@ -11324,7 +11321,7 @@
     {
       "name": "Norm D`Unnar",
       "purpose": "Guard",
-      "level": 65,
+      "levelRange": "65",
       "difficulty": "heroic^3",
       "locations": [
         "146.32,-9.21,106.74",
@@ -11335,13 +11332,13 @@
     },
     {
       "name": "Occultist Levonicus",
+      "purpose": "Dismal Rage Priest",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Dismal Rage Priest",
       "locations": [
         "-84.18,-10.27,-156.97"
       ],
@@ -11352,26 +11349,26 @@
     },
     {
       "name": "Occultist L'Takk",
+      "purpose": "Dismal Rage Priest",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Dismal Rage Priest",
       "locations": [
         "-85.96,-9.91,-162.61"
       ]
     },
     {
       "name": "Odyssneu",
+      "purpose": "Broker",
       "race": [
         "erudite"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Broker",
       "locations": [
         "-244.46,-55.71,80.09"
       ],
@@ -11382,26 +11379,26 @@
     },
     {
       "name": "Old Michem",
+      "purpose": "Overseer Quartermaster",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Overseer Quartermaster",
       "locations": [
         "-260.3,-56.07,57.92"
       ]
     },
     {
       "name": "Oolieamim",
+      "purpose": "Master Sage",
       "race": [
         "erudite"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Master Sage",
       "locations": [
         "28.71,-12.4,84.59"
       ]
@@ -11409,7 +11406,7 @@
     {
       "name": "Otacilla Opolio",
       "purpose": "Guard",
-      "level": 58,
+      "levelRange": "58",
       "difficulty": "heroic^3",
       "locations": [
         "294.82,-4.22,-82.99"
@@ -11428,7 +11425,7 @@
     {
       "name": "Ozget Bloodspiller",
       "purpose": "Guard",
-      "level": 66,
+      "levelRange": "66",
       "difficulty": "heroic^3",
       "locations": [
         "37.03,-19.92,53.22"
@@ -11475,7 +11472,7 @@
     {
       "name": "Palan D`Om",
       "purpose": "Guard",
-      "level": 62,
+      "levelRange": "62",
       "difficulty": "heroic^3",
       "locations": [
         "-35.69,-19.93,-20.46"
@@ -11483,13 +11480,13 @@
     },
     {
       "name": "Paragon Jalex",
+      "purpose": "Arcane Scientist",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Arcane Scientist",
       "locations": [
         "-1.32,7.3,-110.68"
       ],
@@ -11513,19 +11510,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 438839939 2010864568:Ruby Scrying Stone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 190731514 176168371:battle worn trinket\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
           "chest": false
         },
         {
@@ -11534,6 +11523,14 @@
         },
         {
           "gamelink": "\\aITEM 1823881205 1757221674:a hand cut sapphire\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1591577579 -124321621:an orc skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 438839939 2010864568:Ruby Scrying Stone\\/a",
           "chest": false
         }
       ],
@@ -11595,13 +11592,13 @@
     },
     {
       "name": "Polycethes",
+      "purpose": "City Merchant",
       "race": [
         "erudite"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "City Merchant",
       "locations": [
         "-230.7,-55.48,97.52"
       ],
@@ -11679,13 +11676,13 @@
     },
     {
       "name": "Privateer Twitchwhisker",
+      "purpose": "Seafury Buccaneers",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Seafury Buccaneers",
       "locations": [
         "-234.93,-56.06,155.57"
       ],
@@ -11695,13 +11692,13 @@
     },
     {
       "name": "Profallia",
+      "purpose": "Broker",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Broker",
       "locations": [
         "45.7,-12.07,87.05"
       ],
@@ -11713,13 +11710,13 @@
     },
     {
       "name": "Professor Flimflam",
+      "purpose": "Gnome Mentor",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Gnome Mentor",
       "locations": [
         "-109.65,-22.8,117.57",
         "-115.76,-22.8,118.97"
@@ -11732,13 +11729,13 @@
     },
     {
       "name": "Progenitus",
+      "purpose": "City Merchant",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "City Merchant",
       "locations": [
         "-233.12,-55.47,97.16"
       ],
@@ -11750,13 +11747,13 @@
     },
     {
       "name": "Psellic",
+      "purpose": "Aerakyn Mentor",
       "race": [
         "aerakyn"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Aerakyn Mentor",
       "locations": [
         "170.21,-3.53,20.11"
       ]
@@ -11802,13 +11799,13 @@
     },
     {
       "name": "Quartermaster Redplate",
+      "purpose": "City Quartermaster",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "City Quartermaster",
       "locations": [
         "-135.76,-37.77,38.52"
       ],
@@ -11836,13 +11833,13 @@
     },
     {
       "name": "Rake",
+      "purpose": "The Red Hoods",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "The Red Hoods",
       "locations": [
         "-82.97,-25.0,163.45"
       ],
@@ -11852,13 +11849,13 @@
     },
     {
       "name": "Ranik Calman",
+      "purpose": "Bartender",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Bartender",
       "locations": [
         "-233.21,-55.18,13.22"
       ],
@@ -11889,13 +11886,13 @@
     },
     {
       "name": "Ratscallion Attamilgad",
+      "purpose": "the Unscrupulous Merchant",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "the Unscrupulous Merchant",
       "locations": [
         "-285.63,-56.07,114.86"
       ],
@@ -11966,13 +11963,13 @@
     },
     {
       "name": "Renny Parvat",
+      "purpose": "Collector",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Collector",
       "locations": [
         "-221.09,-55.71,88.96"
       ],
@@ -11984,13 +11981,13 @@
     },
     {
       "name": "Rhahrda Olhymne",
+      "purpose": "Templar Trainer",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Templar Trainer",
       "locations": [
         "-77.56,-9.91,-134.59"
       ],
@@ -12019,13 +12016,13 @@
     },
     {
       "name": "Riss Taskel",
+      "purpose": "Feudal Historian",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Feudal Historian",
       "locations": [
         "-0.97,-7.0,-133.79"
       ],
@@ -12036,7 +12033,7 @@
     {
       "name": "Rolius",
       "purpose": "Guard",
-      "level": 55,
+      "levelRange": "55",
       "difficulty": "heroic^3",
       "locations": [
         "-2.74,-17.86,-45.96"
@@ -12172,13 +12169,13 @@
     },
     {
       "name": "a Roughhouser Champion",
+      "purpose": "The Dreadnaughts",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "The Dreadnaughts",
       "locations": [
         "-269.83,-56.07,200.84"
       ],
@@ -12217,7 +12214,7 @@
     {
       "name": "Rurg Headbuster",
       "purpose": "Guard",
-      "level": 66,
+      "levelRange": "66",
       "difficulty": "heroic^3",
       "locations": [
         "35.38,-20.01,9.02"
@@ -12225,13 +12222,13 @@
     },
     {
       "name": "Sabina Thallis",
+      "purpose": "Jeweler",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Jeweler",
       "locations": [
         "-234.7,-55.71,83.72"
       ]
@@ -12244,13 +12241,13 @@
     },
     {
       "name": "Salonia Siculus",
+      "purpose": "Banker",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Banker",
       "locations": [
         "-231.41,-55.71,86.06"
       ],
@@ -12264,7 +12261,7 @@
     {
       "name": "Salonina Aventina",
       "purpose": "Guard",
-      "level": 36,
+      "levelRange": "36",
       "difficulty": "heroic^3",
       "locations": [
         "-85.86,-7.19,188.22"
@@ -12309,26 +12306,26 @@
     },
     {
       "name": "Savant Ka'im",
+      "purpose": "Arcane Scientist",
       "race": [
         "erudite"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Arcane Scientist",
       "locations": [
         "4.04,7.3,-124.87"
       ]
     },
     {
       "name": "Savant Keza",
+      "purpose": "Academy Spellsplitter",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Academy Spellsplitter",
       "locations": [
         "22.16,-37.95,-124.46"
       ]
@@ -12368,13 +12365,13 @@
     },
     {
       "name": "Scythe",
+      "purpose": "The Red Hoods",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "The Red Hoods",
       "locations": [
         "-81.5,-25.0,163.07"
       ],
@@ -12458,13 +12455,13 @@
     },
     {
       "name": "Selyse Brazenroot",
+      "purpose": "Barbarian Mentor",
       "race": [
         "barbarian"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Barbarian Mentor",
       "locations": [
         "155.72,-16.79,127.68"
       ],
@@ -12498,13 +12495,13 @@
     },
     {
       "name": "Sergeant Nominus",
+      "purpose": "Freeport Militia",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "-91.74,-25.0,194.97"
       ],
@@ -12517,13 +12514,13 @@
     },
     {
       "name": "Sergeant Typhoeus",
+      "purpose": "Freeport Militia",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "-201.19,-56.07,-81.51"
       ],
@@ -12577,13 +12574,13 @@
     },
     {
       "name": "Shirzzt Bonelasher",
+      "purpose": "Shadowknight Trainer",
       "race": [
         "troll"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Shadowknight Trainer",
       "locations": [
         "147.45,-16.79,118.38"
       ],
@@ -12707,13 +12704,13 @@
     },
     {
       "name": "Shivna Crane",
+      "purpose": "Provisioner",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Provisioner",
       "locations": [
         "-210.17,-56.49,158.38"
       ],
@@ -12775,13 +12772,13 @@
     },
     {
       "name": "Shrew",
+      "purpose": "The Red Hoods",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "The Red Hoods",
       "locations": [
         "-84.46,-25.01,174.02"
       ],
@@ -12823,13 +12820,13 @@
     },
     {
       "name": "Sicangu Wi",
+      "purpose": "Dirge Trainer",
       "race": [
         "kerran"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Dirge Trainer",
       "locations": [
         "-239.01,-48.95,12.93"
       ],
@@ -12858,13 +12855,13 @@
     },
     {
       "name": "Sidonius Baro",
+      "purpose": "Alchemist",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Alchemist",
       "locations": [
         "-209.75,-56.47,150.03"
       ],
@@ -12996,13 +12993,13 @@
     },
     {
       "name": "Sneel Valiyn",
+      "purpose": "Ratonga Mentor",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Ratonga Mentor",
       "locations": [
         "-20.81,-8.61,-89.93"
       ],
@@ -13019,13 +13016,13 @@
     },
     {
       "name": "Soleficus Baro",
+      "purpose": "Banker",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Banker",
       "locations": [
         "-212.08,-56.49,160.11"
       ],
@@ -13103,13 +13100,13 @@
     },
     {
       "name": "Squab Kalina",
+      "purpose": "Seafury Buccaneer",
       "race": [
         "half elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Seafury Buccaneer",
       "locations": [
         "-232.33,-48.96,12.84"
       ],
@@ -13142,13 +13139,13 @@
     },
     {
       "name": "Stanley Parnem",
+      "purpose": "Administrator Agent",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Administrator Agent",
       "locations": [
         "-246.83,-56.06,58.48"
       ]
@@ -13696,7 +13693,7 @@
     {
       "name": "Taragg",
       "purpose": "Guard",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic^3",
       "locations": [
         "-166.22,-56.14,-108.26"
@@ -13729,7 +13726,7 @@
     {
       "name": "Thargh Headbuster",
       "purpose": "Guard",
-      "level": 66,
+      "levelRange": "66",
       "difficulty": "heroic^3",
       "locations": [
         "71.27,-20.3,100.91"
@@ -13738,7 +13735,7 @@
     {
       "name": "Thaumaturge Frostheart",
       "purpose": "Guard",
-      "level": 55,
+      "levelRange": "55",
       "locations": [
         "-95.53,-9.00,-121.11"
       ],
@@ -13750,7 +13747,7 @@
     {
       "name": "Thaumaturge G'Lex",
       "purpose": "Guard",
-      "level": 45,
+      "levelRange": "45",
       "utterances": [
         "One day, our lot will improve here.",
         "It's a fine day for evil to flourish!"
@@ -13759,7 +13756,7 @@
     {
       "name": "Thaumaturge K'Thiz",
       "purpose": "Guard",
-      "level": 55,
+      "levelRange": "55",
       "utterances": [
         "The Coalition of Tradesfolke aren't capable of serving anyone other than to serve its own greed.",
         "I find it vile that our great city has entrusted its protection to a group of degenerates such as the Freeport Militia."
@@ -13768,20 +13765,20 @@
     {
       "name": "Thaumaturge Pulo",
       "purpose": "Guard",
-      "level": 55,
+      "levelRange": "55",
       "utterances": [
         "The Seafury Buccaneers are a corrupted bunch that can not be trusted to do anything."
       ]
     },
     {
       "name": "Thaumaturge Ranollious",
+      "purpose": "Arcane Scientist",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Arcane Scientist",
       "locations": [
         "19.3,-42.77,-145.71"
       ],
@@ -13793,7 +13790,7 @@
     {
       "name": "Thaumaturge Sadiiz",
       "purpose": "Guard",
-      "level": 55,
+      "levelRange": "55",
       "utterances": [
         "Oh, drat, I hope not. Oh, sorry, I thought you might have meant the weather.",
         "Yes, yes, hello. I'm busy."
@@ -13802,20 +13799,20 @@
     {
       "name": "Thaumaturge T'bor",
       "purpose": "Guard",
-      "level": 45,
+      "levelRange": "45",
       "utterances": [
         "One day, our lot will improve here."
       ]
     },
     {
       "name": "Thavian Destrus",
+      "purpose": "Half Elf Mentor",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Half Elf Mentor",
       "locations": [
         "-249.19,-56.07,-72.68"
       ],
@@ -13857,7 +13854,7 @@
     {
       "name": "Thuram",
       "purpose": "Guard",
-      "level": 48,
+      "levelRange": "48",
       "difficulty": "heroic^3",
       "locations": [
         "-28.42,-20.05,-305.33"
@@ -13866,7 +13863,7 @@
     {
       "name": "Tiberius Atilius",
       "purpose": "Guard",
-      "level": 59,
+      "levelRange": "59",
       "difficulty": "heroic^3",
       "locations": [
         "238.24,-1.64,-35.18"
@@ -13880,13 +13877,13 @@
     },
     {
       "name": "Timeless Trader",
+      "purpose": "Chronomagic Reward Merchant",
       "race": [
         "erudite"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Chronomagic Reward Merchant",
       "locations": [
         "-276.31,-56.13,86.85"
       ]
@@ -13894,7 +13891,7 @@
     {
       "name": "Tinidela L`Kar",
       "purpose": "Guard",
-      "level": 46,
+      "levelRange": "46",
       "difficulty": "heroic^3",
       "locations": [
         "-83.97,-34.59,-352.13",
@@ -13920,7 +13917,7 @@
     {
       "name": "Titiana Pollio",
       "purpose": "Guard",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic^3",
       "locations": [
         "-180.16,-56.17,-114.79"
@@ -13928,13 +13925,13 @@
     },
     {
       "name": "Tohsa B'hondus",
+      "purpose": "Weaver of Madness",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Weaver of Madness",
       "locations": [
         "5.18,-37.95,-109.89"
       ],
@@ -13961,13 +13958,13 @@
     },
     {
       "name": "Torbett Witlocke",
+      "purpose": "Illusionist Trainer",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Illusionist Trainer",
       "locations": [
         "29.73,-7.0,-126.06"
       ],
@@ -13997,7 +13994,7 @@
     {
       "name": "Torg Bonegrinder",
       "purpose": "Guard",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic^3",
       "locations": [
         "-69.42,-21.03,113.07"
@@ -14005,13 +14002,13 @@
     },
     {
       "name": "Torlig the Alchemist",
+      "purpose": "Alchemist",
       "race": [
         "erudite"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Alchemist",
       "locations": [
         "-55.34,-24.43,-65.97"
       ],
@@ -14052,13 +14049,13 @@
     },
     {
       "name": "T'ral D'zarn",
+      "purpose": "Scribe",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Scribe",
       "locations": [
         "4.41,-7.0,-135.82"
       ],
@@ -14068,26 +14065,26 @@
     },
     {
       "name": "Trannin Steelsea",
+      "purpose": "Antiquities Dealer",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Antiquities Dealer",
       "locations": [
         "-64.75,-37.86,18.08"
       ]
     },
     {
       "name": "Trooper Bonesaw",
+      "purpose": "Freeport Militia Officer",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia Officer",
       "locations": [
         "151.13,-16.79,114.09"
       ],
@@ -14105,13 +14102,13 @@
     },
     {
       "name": "Trtsin",
+      "purpose": "Brigand Trainer",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Brigand Trainer",
       "locations": [
         "-238.94,-48.95,-16.51"
       ],
@@ -14149,13 +14146,13 @@
     },
     {
       "name": "Tullia Sulla",
+      "purpose": "Coercer Trainer",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Coercer Trainer",
       "locations": [
         "14.75,-7.0,-134.98"
       ],
@@ -14198,7 +14195,7 @@
     {
       "name": "Ulaka",
       "purpose": "Guard",
-      "level": 46,
+      "levelRange": "46",
       "difficulty": "heroic^3",
       "locations": [
         "-69.64,-20.05,-273.26",
@@ -14251,13 +14248,13 @@
     },
     {
       "name": "Ulthus Greygore",
+      "purpose": "Valorous Companions",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Valorous Companions",
       "locations": [
         "-74.52,-7.92,189.91"
       ],
@@ -14290,13 +14287,13 @@
     },
     {
       "name": "Valencia Rhein",
+      "purpose": "Mount Merchant",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Mount Merchant",
       "locations": [
         "-216.13,-55.56,106.79"
       ],
@@ -14375,7 +14372,7 @@
     {
       "name": "Velna T`Kril",
       "purpose": "Guard",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic^3",
       "locations": [
         "-271.13,-55.36,77.75"
@@ -14386,13 +14383,13 @@
     },
     {
       "name": "Vhishall",
+      "purpose": "Furniture",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Furniture",
       "locations": [
         "-92.36,-37.86,62.2"
       ],
@@ -14951,13 +14948,13 @@
     },
     {
       "name": "Vibia Valens",
+      "purpose": "General Goods",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "General Goods",
       "locations": [
         "-131.96,-21.43,-72.08"
       ],
@@ -15016,26 +15013,26 @@
     },
     {
       "name": "Viducius Festus",
+      "purpose": "Armor and Weapon Upgrades",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Armor and Weapon Upgrades",
       "locations": [
         "-257.57,-55.71,84.51"
       ]
     },
     {
       "name": "Vimminy Crix",
+      "purpose": "Steward of Lucan D'Lere",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Steward of Lucan D'Lere",
       "locations": [
         "-211.96,-56.07,39.73"
       ]
@@ -15054,13 +15051,13 @@
     },
     {
       "name": "Vissa D`Dbth",
+      "purpose": "Tradeskill Tutorial",
       "race": [
         "barbarian"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Tradeskill Tutorial",
       "locations": [
         "31.77,-18.43,111.28"
       ],
@@ -15093,7 +15090,7 @@
     {
       "name": "Vivian Matho",
       "purpose": "Guard",
-      "level": 68,
+      "levelRange": "68",
       "difficulty": "heroic^3",
       "locations": [
         "149.42,-16.79,129.87",
@@ -15131,13 +15128,13 @@
     },
     {
       "name": "Vulture",
+      "purpose": "The Red Hoods",
       "race": [
         "dark elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "The Red Hoods",
       "locations": [
         "-74.03,-25.01,154.3"
       ],
@@ -15185,13 +15182,13 @@
     },
     {
       "name": "Whisper",
+      "purpose": "The Red Hoods",
       "race": [
         "half elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "The Red Hoods",
       "locations": [
         "-71.37,-25.02,153.01"
       ],
@@ -15203,7 +15200,7 @@
     {
       "name": "William Hille",
       "purpose": "Guard",
-      "level": 65,
+      "levelRange": "65",
       "locations": [
         "-143.89,-50.47,-376.77"
       ],
@@ -15215,7 +15212,7 @@
     {
       "name": "Wimba",
       "purpose": "Guard",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic^3",
       "locations": [
         "-124.47,-37.06,98.75"
@@ -15240,7 +15237,11 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 915367656 636238602:a vial of spectral essence\\/a",
+          "gamelink": "\\aITEM 1337040957 2145296396:Enhanced Spirit Trumpet\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
           "chest": false
         },
         {
@@ -15248,19 +15249,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1581268719 830048932:Mystic's Spirit Board\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -764825542 -1069093341:Mystic's Crystal Orb\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1337040957 2145296396:Enhanced Spirit Trumpet\\/a",
+          "gamelink": "\\aITEM -1581268719 830048932:Mystic's Spirit Board\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "gamelink": "\\aITEM 915367656 636238602:a vial of spectral essence\\/a",
           "chest": false
         }
       ]
@@ -15293,7 +15290,7 @@
     {
       "name": "Worar Headcrusher",
       "purpose": "Guard",
-      "level": 28,
+      "levelRange": "28",
       "difficulty": "heroic^3",
       "locations": [
         "-88.91,-23.8,139.08"
@@ -15302,7 +15299,7 @@
     {
       "name": "Wozur Headsplitter",
       "purpose": "Guard",
-      "level": 66,
+      "levelRange": "66",
       "difficulty": "heroic^3",
       "locations": [
         "270.03,-3.12,134.49"
@@ -15314,7 +15311,7 @@
     {
       "name": "Wug Facemangler",
       "purpose": "Guard",
-      "level": 36,
+      "levelRange": "36",
       "difficulty": "heroic^3",
       "locations": [
         "66.72,-12.1,240.01"
@@ -15322,13 +15319,13 @@
     },
     {
       "name": "Wundil Brakus",
+      "purpose": "Portal Master",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Portal Master",
       "locations": [
         "-119.53,-37.77,37.64"
       ]
@@ -15342,13 +15339,13 @@
     },
     {
       "name": "Xeuxa Foamheart",
+      "purpose": "Fury Trainer",
       "race": [
         "half elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Fury Trainer",
       "locations": [
         "-97.18,-9.91,-145.97"
       ],
@@ -15378,7 +15375,7 @@
     {
       "name": "Yozar Eyegouger",
       "purpose": "Guard",
-      "level": 66,
+      "levelRange": "66",
       "difficulty": "heroic^3",
       "locations": [
         "62.18,-20.31,-4.24"
@@ -15414,13 +15411,13 @@
     },
     {
       "name": "Zargga",
+      "purpose": "Freeport Militia Merchant",
       "race": [
         "ogre"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Freeport Militia Merchant",
       "locations": [
         "-280.64,-56.14,96.07"
       ],
@@ -15459,13 +15456,13 @@
     },
     {
       "name": "Zizwold",
+      "purpose": "Alchemist",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Alchemist",
       "locations": [
         "-107.93,-37.77,44.17"
       ],
@@ -15477,26 +15474,26 @@
     },
     {
       "name": "Zula Tazil",
+      "purpose": "Dismal Rage Merchant",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Dismal Rage Merchant",
       "locations": [
         "-210.39,-56.08,96.39"
       ]
     },
     {
       "name": "Zur",
+      "purpose": "Dismal Rage Merchant",
       "race": [
         "dark elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Dismal Rage Merchant",
       "locations": [
         "-88.5,-9.91,-171.82"
       ],
@@ -15726,7 +15723,7 @@
     {
       "name": "Zurgh Nosemangler",
       "purpose": "Guard",
-      "level": 66,
+      "levelRange": "66",
       "difficulty": "heroic^3",
       "locations": [
         "124.26,-18.67,95.91"
@@ -15841,9 +15838,23 @@
       ]
     },
     {
+      "gamelink": "\\aITEM 1597408866 -122030321:drop of mixed blood\\/a",
+      "locations": [
+        "-219.16,-56.35,232.18",
+        "-211.33,-56.07,-28.42"
+      ]
+    },
+    {
       "gamelink": "\\aITEM 1622156990 -1250978480:Ethernaut Charm Bracelet\\/a",
       "locations": [
         "162.82,-3.53,27.96"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 883795308 1592893874:fine Ro sand\\/a",
+      "locations": [
+        "-129.01,-30.24,241.89",
+        "-116.93,-53.12,-343.06"
       ]
     },
     {
@@ -15936,6 +15947,14 @@
       ]
     },
     {
+      "gamelink": "\\aITEM 154032780 -1918353840:large crocodile tooth\\/a",
+      "locations": [
+        "292.29,-3.93,138.71",
+        "-77.90,-7.88,203.14",
+        "-152.47,-40.83,111.30"
+      ]
+    },
+    {
       "gamelink": "\\aITEM -916763393 908313232:Licorice Candy\\/a",
       "locations": [
         "-178.76,-56.21,-65.03"
@@ -15945,6 +15964,22 @@
       "gamelink": "\\aITEM 1265556846 -146694324:Licorice Rope\\/a",
       "locations": [
         "131.17,-20.71,13.80"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1915575573 -606522529:living root\\/a",
+      "locations": [
+        "162.82,-3.53,27.96",
+        "172.69,-3.53,44.21",
+        "-145.85,-41.22,-143.82",
+        "-50.34,-24.43,-22.64",
+        "-116.93,-53.12,-343.06"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -42682271 -1161873542:lost imperial coin\\/a",
+      "locations": [
+        "212.79,-3.76,120.31"
       ]
     },
     {
@@ -15971,6 +16006,16 @@
       ]
     },
     {
+      "gamelink": "\\aITEM -839935954 -1815450550:piece of cloud\\/a",
+      "locations": [
+        "-211.33,-56.07,-28.42",
+        "-168.65,-56.21,-93.87",
+        "297.19,-3.38,3.06",
+        "-147.27,-47.14,31.63",
+        "-177.95,-58.80,-171.42"
+      ]
+    },
+    {
       "gamelink": "\\aITEM 1466361711 -68860504:Popcorn Ball\\/a",
       "locations": [
         "110.35,-22.95,52.06",
@@ -15978,10 +16023,39 @@
       ]
     },
     {
+      "gamelink": "\\aITEM -271031834 795503246:rancid swamp water\\/a",
+      "locations": [
+        "62.66,-20.77,30.55"
+      ]
+    },
+    {
       "gamelink": "\\aITEM -384436765 -1149116279:Red Licorice\\/a",
       "locations": [
         "151.65,-3.98,-103.16",
         "162.83,-4.08,-95.30"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1424798816 1988801906:scuffed dragon scale\\/a",
+      "locations": [
+        "-127.50,-35.21,207.18"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1332740019 74653259:shed amphibian skin\\/a",
+      "locations": [
+        "-70.24,-34.59,-288.90",
+        "120.42,-22.95,37.76"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1411748553 -161889116:shed fairy wing\\/a",
+      "locations": [
+        "-86.06,-29.65,92.89",
+        "39.37,-18.22,84.23",
+        "253.78,-3.52,-101.14",
+        "-145.85,-41.22,-143.82",
+        "-105.00,-8.13,-165.07"
       ]
     },
     {
@@ -16012,83 +16086,6 @@
       "gamelink": "\\aITEM 1684104963 1853554159:Zephyrswell Charm\\/a",
       "locations": [
         "-168.65,-56.21,-93.87"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1597408866 -122030321:drop of mixed blood\\/a",
-      "locations": [
-        "-219.16,-56.35,232.18",
-        "-211.33,-56.07,-28.42"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 883795308 1592893874:fine Ro sand\\/a",
-      "locations": [
-        "-129.01,-30.24,241.89",
-        "-116.93,-53.12,-343.06"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 154032780 -1918353840:large crocodile tooth\\/a",
-      "locations": [
-        "292.29,-3.93,138.71",
-        "-77.90,-7.88,203.14",
-        "-152.47,-40.83,111.30"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1915575573 -606522529:living root\\/a",
-      "locations": [
-        "162.82,-3.53,27.96",
-        "172.69,-3.53,44.21",
-        "-145.85,-41.22,-143.82",
-        "-50.34,-24.43,-22.64",
-        "-116.93,-53.12,-343.06"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -42682271 -1161873542:lost imperial coin\\/a",
-      "locations": [
-        "212.79,-3.76,120.31"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -839935954 -1815450550:piece of cloud\\/a",
-      "locations": [
-        "-211.33,-56.07,-28.42",
-        "-168.65,-56.21,-93.87",
-        "297.19,-3.38,3.06",
-        "-147.27,-47.14,31.63",
-        "-177.95,-58.80,-171.42"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -271031834 795503246:rancid swamp water\\/a",
-      "locations": [
-        "62.66,-20.77,30.55"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1424798816 1988801906:scuffed dragon scale\\/a",
-      "locations": [
-        "-127.50,-35.21,207.18"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1332740019 74653259:shed amphibian skin\\/a",
-      "locations": [
-        "-70.24,-34.59,-288.90",
-        "120.42,-22.95,37.76"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1411748553 -161889116:shed fairy wing\\/a",
-      "locations": [
-        "-86.06,-29.65,92.89",
-        "39.37,-18.22,84.23",
-        "253.78,-3.52,-101.14",
-        "-145.85,-41.22,-143.82",
-        "-105.00,-8.13,-165.07"
       ]
     }
   ]

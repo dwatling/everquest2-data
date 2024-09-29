@@ -18,14 +18,14 @@
   "npcs": [
     {
       "name": "a Crazed Architect",
+      "levelRange": "23",
+      "difficulty": "heroic^^",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "level": 23,
-      "difficulty": "heroic^^",
       "locations": [
         "17.79,0.34,-6.84"
       ],
@@ -43,6 +43,8 @@
     },
     {
       "name": "a crazed Gnome builder",
+      "levelRange": "23",
+      "difficulty": "heroic^",
       "race": [
         "gnome"
       ],
@@ -50,8 +52,6 @@
         "male",
         "female"
       ],
-      "level": 23,
-      "difficulty": "heroic^",
       "locations": [
         "16.02,-0.01,2.08",
         "13.38,-0.56,-5.56"
@@ -72,14 +72,14 @@
     },
     {
       "name": "a Murkwater Kingpin",
+      "levelRange": "23",
+      "difficulty": "heroic^^",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "level": 23,
-      "difficulty": "heroic^^",
       "locations": [
         "-17.22,0.27,-7.51"
       ],
@@ -97,6 +97,8 @@
     },
     {
       "name": "a Murkwater thief",
+      "levelRange": "23",
+      "difficulty": "heroic^^",
       "race": [
         "ratonga"
       ],
@@ -104,8 +106,6 @@
         "female",
         "male"
       ],
-      "level": 23,
-      "difficulty": "heroic^^",
       "locations": [
         "-12.96,-0.00,-9.22",
         "-14.54,-0.00,-2.84",
@@ -127,7 +127,7 @@
     },
     {
       "name": "Putrid",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic^^^",
       "locations": [
         "15.40,-0.01,0.59",
@@ -136,7 +136,7 @@
     },
     {
       "name": "Putrid's broodling",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic^",
       "locations": [
         "11.68,-0.00,5.77",

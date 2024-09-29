@@ -10,32 +10,32 @@
   ],
   "connections": [
     {
-      "key": "freeport_combined",
-      "location": "-3.86,3.00,-77.18"
-    },
-    {
       "key": "fprt_adv03_sprawl",
       "location": "98.27,-2.00,5.51"
+    },
+    {
+      "key": "fprt_sewer01",
+      "location": "8.86,0.84,-11.77"
     },
     {
       "key": "fprt_tradeskill01_hood01",
       "location": "0.31,0.74,-15.47"
     },
     {
-      "key": "fprt_sewer01",
-      "location": "8.86,0.84,-11.77"
+      "key": "freeport_combined",
+      "location": "-3.86,3.00,-77.18"
     }
   ],
   "npcs": [
     {
       "name": "Arms Dealer Blort",
+      "purpose": "Weaponsmith",
       "race": [
         "troll"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Weaponsmith",
       "locations": [
         "17.47,0.0,2.99"
       ],
@@ -73,13 +73,13 @@
     },
     {
       "name": "Barmaid Poppaea",
+      "purpose": "Provisioner",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Provisioner",
       "locations": [
         "2.43,0.1,16.26"
       ],
@@ -91,7 +91,7 @@
     },
     {
       "name": "a Big Bend rat",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "78.11,-2.00,9.74",
         "90.48,-2.0,11.92",
@@ -156,13 +156,13 @@
     },
     {
       "name": "Darby",
+      "purpose": "Tailor",
       "race": [
         "troll"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Tailor",
       "locations": [
         "-15.41,0.0,-16.54"
       ],
@@ -204,13 +204,13 @@
     },
     {
       "name": "Firda",
+      "purpose": "Shieldsmith",
       "race": [
         "ogre"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Shieldsmith",
       "locations": [
         "17.23,0.0,-2.55"
       ],
@@ -221,26 +221,26 @@
     },
     {
       "name": "Galbran",
+      "purpose": "Mender",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Mender",
       "locations": [
         "22.99,-0.01,6.73"
       ]
     },
     {
       "name": "Galenus Fulvianus",
+      "purpose": "Bartender",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Bartender",
       "locations": [
         "1.69,0.0,20.34"
       ],
@@ -301,13 +301,13 @@
     },
     {
       "name": "Innkeeper Uglar Splinterthumb",
+      "purpose": "Housing",
       "race": [
         "troll"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Housing",
       "locations": [
         "-18.88,0.0,-13.02"
       ],
@@ -355,13 +355,13 @@
     },
     {
       "name": "Kaboomga",
+      "purpose": "Alchemist",
       "race": [
         "troll"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Alchemist",
       "locations": [
         "-40.33,1.5,9.76"
       ],
@@ -391,13 +391,13 @@
     },
     {
       "name": "Klott",
+      "purpose": "Bowyer",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Bowyer",
       "locations": [
         "-24.78,0.0,-8.2"
       ],
@@ -409,13 +409,13 @@
     },
     {
       "name": "Korkoof Crackstone",
+      "purpose": "Crafting Trainer",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Crafting Trainer",
       "locations": [
         "2.98,0.0,-14.12"
       ],
@@ -456,13 +456,13 @@
     },
     {
       "name": "Molg",
+      "purpose": "Armorsmith",
       "race": [
         "ogre"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Armorsmith",
       "locations": [
         "-21.11,-4.17,61.82"
       ],
@@ -486,13 +486,13 @@
     },
     {
       "name": "Papilius Ahala",
+      "purpose": "Linguist",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Linguist",
       "locations": [
         "19.29,3.04,-41.01"
       ],
@@ -520,13 +520,13 @@
     },
     {
       "name": "Quintius Calacicus",
+      "purpose": "Banker",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Banker",
       "locations": [
         "-33.71,1.11,-0.82"
       ]
@@ -579,13 +579,13 @@
     },
     {
       "name": "Skagga",
+      "purpose": "General Goods",
       "race": [
         "troll"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "General Goods",
       "locations": [
         "-19.0,0.0,5.95"
       ],
@@ -650,7 +650,7 @@
     },
     {
       "name": "a thieving froglok",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "-50.35,4.00,-32.28"
       ],
@@ -687,14 +687,14 @@
     },
     {
       "name": "Wompa",
+      "purpose": "Guard",
+      "levelRange": "25",
       "race": [
         "ogre"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Guard",
-      "level": 25,
       "locations": [
         "-33.29,1.12,4.03"
       ]

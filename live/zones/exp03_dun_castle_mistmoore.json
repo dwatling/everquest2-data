@@ -2,25 +2,13 @@
   "name": "Castle Mistmoore",
   "expansion": "exp03",
   "category": "Faydwer",
-  "zonerect": "-173.00,-158.00,100.00,158.00",
   "levels": "70",
-  "maps": [
-    {
-      "name": "Main Floor"
-    },
-    {
-      "name": "Upper Floor"
-    },
-    {
-      "name": "Basement"
-    }
-  ],
   "connections": [
     {
-      "key": "exp03_rgn_loping_plains"
+      "key": "exp03_dun_mistmoore_catacombs"
     },
     {
-      "key": "exp03_dun_mistmoore_catacombs"
+      "key": "exp03_rgn_loping_plains"
     }
   ],
   "npcs": [
@@ -63,87 +51,9 @@
       ]
     },
     {
-      "name": "Axivar H'Hrakin",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Dhvamei T'Dzhopoz",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Dhvami N'Krinek",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Dhvami S'Tremer",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
       "name": "Divar B'Ingker",
       "drop_coin_min": 4329,
       "drop_coin_max": 4329,
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Divar X'Oxakin",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Divka Issis",
       "faction_changes": [
         {
           "name": "Mistmoore",
@@ -163,19 +73,6 @@
           "chest": false
         }
       ],
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Dwimi D'Trekin",
       "faction_changes": [
         {
           "name": "Mistmoore",
@@ -210,92 +107,14 @@
       "name": "a gypsy musician",
       "drops": [
         {
-          "gamelink": "\\aITEM 1133033886 1112751626:Emerald Scrying Stone\\/a",
+          "gamelink": "\\aITEM -1186025986 -1217159832:Beryllium Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1186025986 -1217159832:Beryllium Relic\\/a",
+          "gamelink": "\\aITEM 1133033886 1112751626:Emerald Scrying Stone\\/a",
           "chest": false
         }
       ],
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Hrable J'Veme",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Hramer K'Ingkin",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Hzapoz J'Tyrivzha",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Hzavar K'Krirez",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Ingme Z'Zvimer",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Ingxi R'Avapoz",
       "faction_changes": [
         {
           "name": "Mistmoore",
@@ -315,45 +134,6 @@
           "chest": false
         }
       ],
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Ixala J'Vythime",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Ixavizh N'Kthelhi",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Ixhrez V'Dhirez",
       "faction_changes": [
         {
           "name": "Mistmoore",
@@ -417,66 +197,14 @@
       ]
     },
     {
-      "name": "Jrawer Y'Qhawer",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Jrenek D'Divar",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Jthezsi D'Nhible",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Jylevar X'Xylilhi",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
       "name": "Jylevzha Z'Dwivar",
       "drops": [
         {
-          "gamelink": "\\aITEM 728229990 1181299130:a vampiric incisor\\/a",
+          "gamelink": "\\aITEM 1133033886 1112751626:Emerald Scrying Stone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1133033886 1112751626:Emerald Scrying Stone\\/a",
+          "gamelink": "\\aITEM 728229990 1181299130:a vampiric incisor\\/a",
           "chest": false
         }
       ],
@@ -511,87 +239,9 @@
       ]
     },
     {
-      "name": "Khalhi T'Xylizsi",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Khamer S'Jtheble",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Khrapoz B'Vzhime",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Khraque V'Jraque",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
       "name": "Kreque Z'Qhomer",
       "drop_coin_min": 4931,
       "drop_coin_max": 4931,
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Krila D'Zanek",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Krivar X'Rethimer",
       "faction_changes": [
         {
           "name": "Mistmoore",
@@ -611,84 +261,6 @@
           "chest": false
         }
       ],
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Kthala S'Dwible",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Kthemei H'Orinez",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Kthevar V'Khazsi",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Kvhible V'Zemer",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Kvhirez T'Ktheque",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Kzeme R'Zsimer",
       "faction_changes": [
         {
           "name": "Mistmoore",
@@ -735,32 +307,6 @@
       ]
     },
     {
-      "name": "Kzevzha D'Xyrez",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Kzevzha Z'Xezsi",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
       "name": "a leering gargoyle",
       "drop_coin_min": 5158,
       "drop_coin_max": 8728,
@@ -776,35 +322,9 @@
       ]
     },
     {
-      "name": "a Mistmoore pianist",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
       "name": "Nhivzha K'Nzhexi",
       "drop_coin_min": 6232,
       "drop_coin_max": 6232,
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Nzhepoz J'Zeralhi",
       "faction_changes": [
         {
           "name": "Mistmoore",
@@ -839,32 +359,6 @@
       "name": "Ozimi H'Izhame",
       "drop_coin_min": 8772,
       "drop_coin_max": 8772,
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Qharez Y'Axime",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Qhazsi V'Dhizsi",
       "faction_changes": [
         {
           "name": "Mistmoore",
@@ -955,84 +449,6 @@
       ]
     },
     {
-      "name": "Rhivar V'Orinez",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Rxovar Z'Vynek",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Rzhekin Z'Zekin",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Rzhevar Z'Qhokin",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Setikin X'Hzamer",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Setivzha Y'Kthemi",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
       "name": "a silverfang warrior",
       "drops": [
         {
@@ -1099,61 +515,9 @@
       ]
     },
     {
-      "name": "Tazivar R'Vythizsi",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Tazivar X'Trever",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
       "name": "Tyhamer Z'Vythinek",
       "drop_coin_min": 6108,
       "drop_coin_max": 6108,
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Tyrimer N'Rhipoz",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Vakin K'Vethimei",
       "faction_changes": [
         {
           "name": "Mistmoore",
@@ -1189,32 +553,6 @@
       ]
     },
     {
-      "name": "Vanquisher B'Riareos",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Vela V'Krivizh",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
       "name": "Vethinez V'Zaxi",
       "drops": [
         {
@@ -1234,25 +572,8 @@
       ]
     },
     {
-      "name": "Vezikin K'Tazivzha",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
       "name": "a vigilant Mistmoore guardian",
       "drops": [
-        {
-          "gamelink": "\\aITEM 941781269 543692388:ethereal strand\\/a",
-          "chest": false
-        },
         {
           "gamelink": "\\aITEM -1186025986 -1217159832:Beryllium Relic\\/a",
           "chest": false
@@ -1260,34 +581,12 @@
         {
           "gamelink": "\\aITEM 1133033886 1112751626:Emerald Scrying Stone\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 941781269 543692388:ethereal strand\\/a",
+          "chest": false
         }
       ],
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Vikomt D'Raethe",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Vimer D'Vzhirez",
       "faction_changes": [
         {
           "name": "Mistmoore",
@@ -1334,110 +633,6 @@
       ]
     },
     {
-      "name": "Virez B'Kzenez",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Viver N'Ixawer",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Vizsi T'Ixhmi",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Vuepoz Z'Trexi",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Vuewer Z'Teximer",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Vykin T'Dever",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Vythinez D'Dwila",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Vythiver J'Dfala",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
       "name": "Vzhime D'Drexi",
       "drops": [
         {
@@ -1457,32 +652,6 @@
       ]
     },
     {
-      "name": "Vzhimer D'Krewer",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Vzhinez Z'Kvhible",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
       "name": "a watchful Mistmoore protector",
       "drops": [
         {
@@ -1490,11 +659,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 941781269 543692388:ethereal strand\\/a",
+          "gamelink": "\\aITEM 1133033886 1112751626:Emerald Scrying Stone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1133033886 1112751626:Emerald Scrying Stone\\/a",
+          "gamelink": "\\aITEM 941781269 543692388:ethereal strand\\/a",
           "chest": false
         }
       ],
@@ -1525,32 +694,6 @@
       ]
     },
     {
-      "name": "Xawer Z'Jzivar",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Xaxi H'Vyme",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
       "name": "Xivar V'Vuewer",
       "drops": [
         {
@@ -1560,32 +703,6 @@
       ],
       "drop_coin_min": 65065,
       "drop_coin_max": 65065,
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Xylimei Z'Jtheker",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Xylipoz T'Tyrinek",
       "faction_changes": [
         {
           "name": "Mistmoore",
@@ -1636,45 +753,6 @@
       ]
     },
     {
-      "name": "Zeanez X'Tyhavzha",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Zeavar T'Xylirez",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Zeraker V'Arible",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
       "name": "Zimer Y'Dfazsi",
       "drops": [
         {
@@ -1682,123 +760,6 @@
           "chest": false
         }
       ],
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Zinez V'Ixhvzha",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Zivizh J'Tazivzha",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Zizsi K'Xiver",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Zsinek T'Vanez",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Zsiwer K'Kthable",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Zvila H'Veme",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Zvinek K'Xenez",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Zvivar K'Qhovar",
-      "faction_changes": [
-        {
-          "name": "Mistmoore",
-          "value": -100
-        },
-        {
-          "name": "The Lyrech",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "Zvivar T'Kzemei",
       "faction_changes": [
         {
           "name": "Mistmoore",

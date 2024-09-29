@@ -3,21 +3,12 @@
   "added": "lu64",
   "category": "Cities",
   "subcategory": "Qeynos",
-  "zonerect": "-1284.00,-579.00,-48.00,337.00",
-  "maps": [
-    {
-      "name": "Harbor"
-    },
-    {
-      "name": "Elddar Grove"
-    }
-  ],
   "connections": [
     {
-      "key": "qeynos_combined01"
+      "key": "qey_catacomb01"
     },
     {
-      "key": "qey_catacomb01"
+      "key": "qey_epic11_l10_arbor_wood_elf"
     },
     {
       "key": "qey_village05_clone"
@@ -26,13 +17,13 @@
       "key": "qey_village05_instance"
     },
     {
-      "key": "qey_epic11_l10_arbor_wood_elf"
-    },
-    {
       "key": "qey_village06_clone"
     },
     {
       "key": "qey_village06_instance"
+    },
+    {
+      "key": "qeynos_combined01"
     }
   ],
   "npcs": [
@@ -555,7 +546,7 @@
     {
       "name": "Buresh",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "810.07,-20.95,143.05"
       ],
@@ -565,7 +556,7 @@
     },
     {
       "name": "a canine watcher",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "974.45,-25.52,21.51",
         "835.09,-25.31,-53",
@@ -591,7 +582,7 @@
     {
       "name": "Captain Hanstock",
       "purpose": "Guard",
-      "level": 38,
+      "levelRange": "38",
       "difficulty": "epic^3",
       "locations": [
         "894.52,-25.36,-50.09",
@@ -621,7 +612,7 @@
     {
       "name": "Captain Warland",
       "purpose": "Guard",
-      "level": 38,
+      "levelRange": "38",
       "difficulty": "epic",
       "locations": [
         "709.65,-21.03,-36.01"
@@ -703,7 +694,7 @@
     {
       "name": "Commander Meldraggelien",
       "purpose": "Guard",
-      "level": 95,
+      "levelRange": "95",
       "difficulty": "epic^4",
       "utterances": [
         "Good day to you, citizen. All preserve Queen Antonia.",
@@ -989,7 +980,7 @@
     {
       "name": "Elderstrike",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "675.05,-20.63,-12.99"
       ],
@@ -1107,7 +1098,7 @@
     {
       "name": "Evenwood",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "664.51,-19.38,-122.03"
       ],
@@ -1158,7 +1149,7 @@
     {
       "name": "Fosur",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "702.23,-20.59,-113.16"
       ],
@@ -1351,7 +1342,7 @@
     {
       "name": "Groban",
       "purpose": "Guard",
-      "level": 38,
+      "levelRange": "38",
       "difficulty": "epic",
       "locations": [
         "719.87,-21.38,-45.75"
@@ -1399,7 +1390,7 @@
     {
       "name": "Guard Kaladenth",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "538.84,-20.98,-303.44"
       ],
@@ -1422,7 +1413,7 @@
     {
       "name": "Guard Morlo",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "644.74,-18.67,-253.34"
       ],
@@ -1445,7 +1436,7 @@
     {
       "name": "Guard Stonefist",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "611.98,-35.24,-226.99"
       ],
@@ -1456,7 +1447,7 @@
     {
       "name": "Guard Tolar",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "514.67,-20.86,-291.42"
       ],
@@ -1467,7 +1458,7 @@
     {
       "name": "Guard Valmont",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "779.44,-22.19,-514.17"
       ],
@@ -1594,7 +1585,7 @@
     {
       "name": "Highgold",
       "purpose": "Guard",
-      "level": 38,
+      "levelRange": "38",
       "difficulty": "epic",
       "locations": [
         "709.65,-21.03,-36.01"
@@ -1608,7 +1599,7 @@
     {
       "name": "Hilldon",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "910.85,-25.36,85.12",
         "928.98,-25.46,20.36",
@@ -2049,7 +2040,7 @@
     {
       "name": "Lieutenant Oakheart",
       "purpose": "Guard",
-      "level": 38,
+      "levelRange": "38",
       "difficulty": "epic^2",
       "locations": [
         "684.36,-19.52,-277.75",
@@ -2568,7 +2559,7 @@
     {
       "name": "Patrolman Edward",
       "purpose": "Guard",
-      "level": 38,
+      "levelRange": "38",
       "difficulty": "epic^2",
       "locations": [
         "684.36,-19.52,-277.75",
@@ -2589,7 +2580,7 @@
     {
       "name": "Patrolman Ly'stan",
       "purpose": "Guard",
-      "level": 38,
+      "levelRange": "38",
       "difficulty": "epic^2",
       "locations": [
         "684.59,-19.23,-276.19",
@@ -2651,7 +2642,7 @@
     {
       "name": "Porter",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "utterances": [
         "Duty above all else, citizen, except honor!",
         "Good day to you, citizen. All preserve Queen Antonia."
@@ -2681,9 +2672,6 @@
         "It's good to always have a sharp axe and a full belly.",
         "Ale may be the life's blood, but fighting is the soul of my existence!"
       ]
-    },
-    {
-      "name": "Praxum"
     },
     {
       "name": "Preservationist Reynolds",
@@ -3038,7 +3026,7 @@
     {
       "name": "Rothun",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "794.21,-20.64,-29.62"
       ],
@@ -3182,7 +3170,7 @@
     {
       "name": "Shiningleaf",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "835.09,-25.31,-53"
       ],
@@ -3293,7 +3281,7 @@
     {
       "name": "Taburg",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "675.17,-20.64,-26.3"
       ],
@@ -3595,7 +3583,7 @@
     {
       "name": "Velwich",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "utterances": [
         "Good day to you, citizen. All preserve Queen Antonia."
       ]
@@ -3765,7 +3753,7 @@
     {
       "name": "Yarwick",
       "purpose": "Guard",
-      "level": 35,
+      "levelRange": "35",
       "locations": [
         "802.01,-20.64,-69.31"
       ],
@@ -3881,6 +3869,18 @@
       ]
     },
     {
+      "gamelink": "\\aITEM 1597408866 -122030321:drop of mixed blood\\/a",
+      "locations": [
+        "652.53,10.93,-383.02"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 883795308 1592893874:fine Ro sand\\/a",
+      "locations": [
+        "652.53,10.93,-383.02"
+      ]
+    },
+    {
       "gamelink": "\\aITEM -1941607806 2083974491:Frosted Shortbread\\/a",
       "locations": [
         "909.01,-25.41,-17.77"
@@ -3907,9 +3907,23 @@
       ]
     },
     {
+      "gamelink": "\\aITEM 1915575573 -606522529:living root\\/a",
+      "locations": [
+        "572.85,-18.01,-389.46"
+      ]
+    },
+    {
       "gamelink": "\\aITEM 1241141830 704830130:Lollipop\\/a",
       "locations": [
         "630.55,-15.96,-331.97"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -42682271 -1161873542:lost imperial coin\\/a",
+      "locations": [
+        "659.74,-14.98,-341.64",
+        "620.52,-16.32,-336.45",
+        "603.63,-20.95,-307.16"
       ]
     },
     {
@@ -3922,6 +3936,12 @@
       "gamelink": "\\aITEM 966154019 1295163645:Peanut Brittle\\/a",
       "locations": [
         "653.98,-18.72,-159.95"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -839935954 -1815450550:piece of cloud\\/a",
+      "locations": [
+        "576.15,-20.47,-280.68"
       ]
     },
     {
@@ -3966,50 +3986,6 @@
       ]
     },
     {
-      "gamelink": "\\aITEM 343261263 -1718749056:Straw Goat\\/a",
-      "locations": [
-        "865.33,-25.51,35.51"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1684104963 1853554159:Zephyrswell Charm\\/a",
-      "locations": [
-        "741.78,-19.94,-357.07"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1597408866 -122030321:drop of mixed blood\\/a",
-      "locations": [
-        "652.53,10.93,-383.02"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 883795308 1592893874:fine Ro sand\\/a",
-      "locations": [
-        "652.53,10.93,-383.02"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1915575573 -606522529:living root\\/a",
-      "locations": [
-        "572.85,-18.01,-389.46"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -42682271 -1161873542:lost imperial coin\\/a",
-      "locations": [
-        "659.74,-14.98,-341.64",
-        "620.52,-16.32,-336.45",
-        "603.63,-20.95,-307.16"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -839935954 -1815450550:piece of cloud\\/a",
-      "locations": [
-        "576.15,-20.47,-280.68"
-      ]
-    },
-    {
       "gamelink": "\\aITEM 1424798816 1988801906:scuffed dragon scale\\/a",
       "locations": [
         "620.52,-16.32,-336.45"
@@ -4025,6 +4001,18 @@
       "gamelink": "\\aITEM -1411748553 -161889116:shed fairy wing\\/a",
       "locations": [
         "777.87,-20.64,-27.83"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 343261263 -1718749056:Straw Goat\\/a",
+      "locations": [
+        "865.33,-25.51,35.51"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1684104963 1853554159:Zephyrswell Charm\\/a",
+      "locations": [
+        "741.78,-19.94,-357.07"
       ]
     }
   ]

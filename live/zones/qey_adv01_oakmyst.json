@@ -27,7 +27,7 @@
     },
     {
       "name": "Akeera Sneakshot",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "893.78,2.26,-315.92",
         "872.88,1.26,-304.91",
@@ -47,7 +47,7 @@
     },
     {
       "name": "Ambassador Jalanderra",
-      "level": 11,
+      "levelRange": "11",
       "difficulty": "heroic",
       "locations": [
         "870.59,14.08,-232.42"
@@ -58,7 +58,7 @@
     },
     {
       "name": "Ambassador Kialee",
-      "level": 11,
+      "levelRange": "11",
       "difficulty": "heroic",
       "locations": [
         "867.46,10.20,-248.14"
@@ -78,7 +78,7 @@
     },
     {
       "name": "a badger cub",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "953.18,2.27,-344.01",
         "964.46,2.29,-342.61",
@@ -99,7 +99,7 @@
     },
     {
       "name": "a bear cub",
-      "level": 9,
+      "levelRange": "9",
       "locations": [
         "929.22,4.45,-299.28",
         "930.13,2.37,-290.44",
@@ -144,7 +144,7 @@
     },
     {
       "name": "a clearwater frog",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "978.29,2.51,-200.93",
         "988.30,0.93,-204.13",
@@ -156,18 +156,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1329575188 870687383:a vial of frog blood\\/a",
+          "gamelink": "\\aITEM 1422687184 118862859:a frog tongue\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1422687184 118862859:a frog tongue\\/a",
+          "gamelink": "\\aITEM 1329575188 870687383:a vial of frog blood\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a corrupted dryad",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "897.18,3.17,-200.68",
         "950.82,4.98,-197.57",
@@ -191,11 +191,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -129683591 -2085397801:a vial of dryad blood\\/a",
+          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
+          "gamelink": "\\aITEM -129683591 -2085397801:a vial of dryad blood\\/a",
           "chest": false
         },
         {
@@ -229,7 +229,7 @@
     },
     {
       "name": "Ferith`Anar",
-      "level": 11,
+      "levelRange": "11",
       "difficulty": "heroic",
       "locations": [
         "860.80,12.14,-274.22",
@@ -242,7 +242,7 @@
     },
     {
       "name": "a glowmyst beetle",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "777.16,8.35,-209.79",
         "769.55,9.93,-210.76",
@@ -256,11 +256,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
+          "gamelink": "\\aITEM -1819652885 1717248412:an insect antenna\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1819652885 1717248412:an insect antenna\\/a",
+          "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
           "chest": false
         }
       ]
@@ -272,7 +272,7 @@
     },
     {
       "name": "Grubdigger",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic",
       "locations": [
         "935.33,2.26,-350.98",
@@ -293,11 +293,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1334143121 -690497671:Lightning Strike III (Adept)\\/a",
+          "gamelink": "\\aITEM -69637194 1554026544:Grubdigger's Paw\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -69637194 1554026544:Grubdigger's Paw\\/a",
+          "gamelink": "\\aITEM -1334143121 -690497671:Lightning Strike III (Adept)\\/a",
           "chest": true
         }
       ]
@@ -421,7 +421,7 @@
     {
       "name": "Madeline ",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "utterances": [
         "I hate the night shift!  If the gnolls don't attack now, I may die of boredom.",
@@ -437,7 +437,7 @@
     },
     {
       "name": "a molting spider",
-      "level": 7,
+      "levelRange": "7",
       "locations": [
         "918.16,15.59,-200.02"
       ],
@@ -450,7 +450,7 @@
     },
     {
       "name": "Monteh Furthread",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "804.51,11.36,-271.03",
         "824.67,6.13,-269.94",
@@ -473,7 +473,7 @@
     },
     {
       "name": "a mystail matriarch",
-      "level": 5,
+      "levelRange": "5",
       "locations": [
         "877.03,0.53,-187.42",
         "861.24,8.11,-207.08"
@@ -481,7 +481,7 @@
     },
     {
       "name": "a mystail yearling",
-      "level": 5,
+      "levelRange": "5",
       "locations": [
         "840.79,3.17,-242.21",
         "844.69,8.04,-202.81"
@@ -489,7 +489,7 @@
     },
     {
       "name": "an Oakmyst doe",
-      "level": 7,
+      "levelRange": "7",
       "locations": [
         "848.89,4.12,-320.47",
         "820.27,6.90,-269.63",
@@ -504,7 +504,7 @@
     },
     {
       "name": "an Oakmyst fairy",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "863.40,13.08,-217.82",
         "859.57,12.79,-233.67",
@@ -512,11 +512,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
+          "gamelink": "\\aITEM 1525376366 -1417116168:azure charm\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1525376366 -1417116168:azure charm\\/a",
+          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
           "chest": false
         }
       ],
@@ -525,7 +525,7 @@
     },
     {
       "name": "an Oakmyst fawn",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "843.05,2.89,-238.81",
         "847.66,3.00,-248.87",
@@ -537,7 +537,7 @@
     },
     {
       "name": "an Oakmyst great bear",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "967.34,8.27,-300.11",
         "980.05,2.04,-237.75",
@@ -550,7 +550,7 @@
     },
     {
       "name": "an Oakmyst royal defender",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "1008.04,12.95,-305.13",
         "1013.26,13.21,-306.15",
@@ -559,7 +559,7 @@
     },
     {
       "name": "an Oakmyst spider",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "930.35,2.26,-228.28",
         "929.94,2.26,-233.67",
@@ -580,7 +580,7 @@
     },
     {
       "name": "an Oakmyst spirit",
-      "level": 9,
+      "levelRange": "9",
       "locations": [
         "1017.90,13.71,-307.45",
         "1002.35,15.97,-302.94",
@@ -617,16 +617,12 @@
     },
     {
       "name": "Rotweed Thistle",
-      "level": 13,
+      "levelRange": "13",
       "difficulty": "heroic",
       "locations": [
         "932.00,12.00,-168.00"
       ],
       "drops": [
-        {
-          "gamelink": "\\aITEM 984980240 -1574956445:wooden splinter\\/a",
-          "chest": false
-        },
         {
           "gamelink": "\\aITEM -766477602 -1953057581:Blackroot Club\\/a",
           "chest": true
@@ -634,6 +630,10 @@
         {
           "gamelink": "\\aITEM 1812842445 -1314872285:Tangled Weed Belt\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 984980240 -1574956445:wooden splinter\\/a",
+          "chest": false
         }
       ]
     },
@@ -657,7 +657,7 @@
     },
     {
       "name": "a shady furrier",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "831.57,4.47,-276.32",
         "825.51,5.15,-279.16",
@@ -681,7 +681,7 @@
     {
       "name": "Solas",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "locations": [
         "755.1,11.61,-189.31"
@@ -700,7 +700,7 @@
     {
       "name": "Stormbrace",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "utterances": [
         "I hate working this shift!  If the gnolls don't attack now I may die of boredom."
@@ -708,7 +708,7 @@
     },
     {
       "name": "a sunshimmer sprite",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "874.71,15.54,-281.47",
         "876.83,11.06,-286.86",
@@ -719,11 +719,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1385603239 -898323231:a vial of fairy blood\\/a",
+          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
+          "gamelink": "\\aITEM 1385603239 -898323231:a vial of fairy blood\\/a",
           "chest": false
         }
       ],
@@ -773,7 +773,7 @@
     },
     {
       "name": "a vicious badger",
-      "level": 7,
+      "levelRange": "7",
       "locations": [
         "954.70,2.29,-339.74",
         "923.52,3.37,-355.39",
@@ -782,7 +782,7 @@
     },
     {
       "name": "a young mystail rat",
-      "level": 5,
+      "levelRange": "5",
       "locations": [
         "817.60,5.04,-219.82",
         "886.29,1.79,-201.23",

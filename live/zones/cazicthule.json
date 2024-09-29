@@ -2,23 +2,12 @@
   "name": "The Template of Cazic-Thule",
   "category": "Feerrott",
   "levels": "40-55",
-  "maps": [
-    {
-      "name": "South"
-    },
-    {
-      "name": "North"
-    },
-    {
-      "name": "Inner Temple"
-    }
-  ],
   "connections": [
     {
-      "key": "feerrott"
+      "key": "cazicthule_epic01_sanctum_sanctum_of_fear"
     },
     {
-      "key": "cazicthule_epic01_sanctum_sanctum_of_fear"
+      "key": "feerrott"
     }
   ]
 }

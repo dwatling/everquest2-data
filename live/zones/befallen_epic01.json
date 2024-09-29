@@ -19,7 +19,7 @@
   "npcs": [
     {
       "name": "Lord Chesgard",
-      "level": 30,
+      "levelRange": "30",
       "difficulty": "heroic^^^",
       "locations": [
         "1.52,-45.79,-49.48"
@@ -31,7 +31,7 @@
     },
     {
       "name": "a restless stormlord",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic^^^",
       "locations": [
         "-1.82,-45.79,-50.05",
@@ -45,6 +45,18 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -612798970 943460484:a decomposing zombie organ\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
           "chest": false
         },
@@ -53,7 +65,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
+          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
           "chest": false
         },
         {
@@ -62,18 +74,6 @@
         },
         {
           "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -612798970 943460484:a decomposing zombie organ\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
           "chest": false
         }
       ],

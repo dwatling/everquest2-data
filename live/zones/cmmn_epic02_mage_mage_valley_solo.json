@@ -17,9 +17,6 @@
   ],
   "npcs": [
     {
-      "name": "an aqueous protector"
-    },
-    {
       "name": "Archmagus Naerius D'Lyle",
       "utterances": [
         "Seek death and it finds you.",
@@ -55,7 +52,7 @@
     },
     {
       "name": "Magus Geofry Marus",
-      "level": 19,
+      "levelRange": "19",
       "locations": [
         "842.00,-53.87,579.23"
       ],
@@ -70,9 +67,6 @@
           "chest": true
         }
       ]
-    },
-    {
-      "name": "a perennial abbot"
     },
     {
       "name": "a perennial champion",
@@ -152,12 +146,6 @@
         "You covered your approach well, but it doesn't matter much now.",
         "And so the circle is complete."
       ]
-    },
-    {
-      "name": "a voidcrafted minion"
-    },
-    {
-      "name": "a voidcrafted vassal"
     }
   ]
 }

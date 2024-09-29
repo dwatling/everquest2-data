@@ -1,7 +1,7 @@
 {
   "name": "Antonica",
   "category": "Karan",
-  "description": "Home to the city of Qeynos, the dungeon of Blackburrow and haunted fortress of Stormhold.",
+  "notes": "Home to the city of Qeynos, the dungeon of Blackburrow and haunted fortress of Stormhold.",
   "levels": "10-20",
   "maps": [
     {
@@ -10,16 +10,7 @@
   ],
   "connections": [
     {
-      "key": "qeynos_combined01"
-    },
-    {
-      "key": "qey_adv04_bog"
-    },
-    {
-      "key": "steppes"
-    },
-    {
-      "key": "blackburrow"
+      "key": "antonica_catacomb01"
     },
     {
       "key": "antonica_epic01_vale_invasion_solo"
@@ -28,13 +19,22 @@
       "key": "antonica_epic02_firemyst"
     },
     {
-      "key": "antonica_catacomb01"
-    },
-    {
       "key": "befallen"
     },
     {
       "key": "befallen_epic01_mi_pirate_hideout"
+    },
+    {
+      "key": "blackburrow"
+    },
+    {
+      "key": "qey_adv04_bog"
+    },
+    {
+      "key": "qeynos_combined01"
+    },
+    {
+      "key": "steppes"
     }
   ],
   "objects": [
@@ -58,7 +58,7 @@
                     },
                     {
                       "command": "goto_page",
-                      "page": "1"
+                      "page": 1
                     }
                   ]
                 },
@@ -90,7 +90,6 @@
       "location": "-2110.27,-43.89,432.02",
       "actions": [
         {
-          "labels": "open chest",
           "command": "give_item",
           "gamelink": "\\aITEM -208547450 1663244787:Know Your Gnolls\\/a"
         }
@@ -140,7 +139,7 @@
     },
     {
       "name": "an ancient octopus",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-1483.75,-45.38,-946.99",
         "-2505.77,-45.97,-693.43"
@@ -232,7 +231,7 @@
     },
     {
       "name": "a beaded lizard",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-522.08,-13.29,-444.44",
         "-468.59,-10.57,-389.73",
@@ -261,7 +260,7 @@
     },
     {
       "name": "a bear cub",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-409.99,-2.64,591.75",
         "-386.35,-4.92,534.13",
@@ -390,11 +389,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1241584883 1094293198:Trinket: A Small Metal Figure\\/a",
+          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "gamelink": "\\aITEM 1241584883 1094293198:Trinket: A Small Metal Figure\\/a",
           "chest": false
         }
       ],
@@ -490,28 +489,28 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 966154019 1295163645:Peanut Brittle\\/a",
-          "chest": false
+          "gamelink": "\\aITEM 378721923 1543671770:Advanced Jeweler Volume 28\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 1819718321 -461691665:Alleviation II (Adept)\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -1950696293 2064195645:Curse of Void (Adept)\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "gamelink": "\\aITEM 966154019 1295163645:Peanut Brittle\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 378721923 1543671770:Advanced Jeweler Volume 28\\/a",
-          "chest": true
+          "gamelink": "\\aITEM -706628170 -1709607238:a skeleton leg\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 88,
@@ -519,7 +518,7 @@
     },
     {
       "name": "a Caltorsis cleric",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-1396.75,-22.53,-805.21",
         "-1343.9,-36.1,-831.89",
@@ -539,7 +538,7 @@
     },
     {
       "name": "a Caltorsis knight",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-1518.04,-11.27,-713.64",
         "-1359.74,-18.96,-734.71",
@@ -562,7 +561,7 @@
     },
     {
       "name": "a Caltorsis magi",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-1521.8,-12.3,-651.07",
         "-1511.49,-12.36,-713.75",
@@ -592,7 +591,7 @@
     },
     {
       "name": "a Caltorsis watchman",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-1521.8,-12.3,-651.07",
         "-1530.94,-11.01,-650",
@@ -678,7 +677,7 @@
     },
     {
       "name": "a Cavemaw grub hunter",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-754.23,-9.82,-216.2",
         "-744.17,-5.39,-228.16",
@@ -697,20 +696,20 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1281363586 -1091903142:Searing Shot II (Adept)\\/a",
           "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
         }
       ],
       "drop_coin_min": 17,
@@ -732,7 +731,7 @@
     },
     {
       "name": "a Cavemaw rock melter",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "-822.19,-20.35,-139.39",
         "-843.97,-21.27,-96.38",
@@ -761,7 +760,7 @@
     },
     {
       "name": "a Cavemaw tamer",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "-789.86,-14.11,-168.39",
         "-821.16,-20.41,-137.08",
@@ -780,11 +779,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
@@ -792,7 +791,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
           "chest": false
         }
       ],
@@ -815,7 +814,7 @@
     },
     {
       "name": "a Cavemaw tunneler",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "-814.85,-18.64,-142.33",
         "-832.39,-29.09,-53.59",
@@ -842,11 +841,11 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
@@ -858,15 +857,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1782216618 -1777164146:Harbinger II (Adept)\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM 1782216618 -1777164146:Harbinger II (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -906,7 +905,7 @@
     },
     {
       "name": "a cistern worm",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "-894,-25.38,-157.35",
         "-909.97,-25,-178.82",
@@ -915,7 +914,7 @@
     },
     {
       "name": "a cistern worm pupa",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "-894.19,-23.56,-127.47",
         "-885.73,-23.9,-141.49",
@@ -926,7 +925,7 @@
     },
     {
       "name": "a Coldwind barracuda",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "434.32,-47.03,982.05",
         "429.44,-48.97,969.28",
@@ -993,7 +992,7 @@
     },
     {
       "name": "a Coldwind manta ray",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "240.8,-49.92,933.36",
         "-1592.26,-47.99,-924.51",
@@ -1013,22 +1012,22 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 828347673 526887905:ray meat\\/a",
-          "chest": false
+          "gamelink": "\\aITEM -1051500582 548157122:Far Seas Trading Requisition ANT037\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -920390916 661502238:a poison gland\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1051500582 548157122:Far Seas Trading Requisition ANT037\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 828347673 526887905:ray meat\\/a",
+          "chest": false
         }
       ]
     },
     {
       "name": "a Coldwind octopus",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "366.11,-45.5,912.44",
         "44.33,-44.37,873.32",
@@ -1060,12 +1059,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1715014641 -1581280969:ink sack\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1165459183 1011394565:Far Seas Trading Requisition ANT0229\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1715014641 -1581280969:ink sack\\/a",
+          "chest": false
         }
       ]
     },
@@ -1101,7 +1100,7 @@
     },
     {
       "name": "a coldwind pike",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "427.82,-44.98,977.77",
         "44.49,-44.42,881.81",
@@ -1168,15 +1167,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1061912288 -2039705745:Far Seas Trading Requisition ANT0424\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -1928599602 -991468335:a broken barracuda fang\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1269626589 1655321168:Far Seas Trading Requisition ANT0221\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1061912288 -2039705745:Far Seas Trading Requisition ANT0424\\/a",
           "chest": true
         }
       ]
@@ -1236,7 +1235,7 @@
     },
     {
       "name": "a crimson falcon",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-573.65,-4.96,-413.92",
         "-512,-3.97,-420.03",
@@ -1301,7 +1300,7 @@
     },
     {
       "name": "a dale snake",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-526.83,-13.97,-429.66",
         "-483.91,-8.47,-422.02",
@@ -1336,7 +1335,7 @@
     },
     {
       "name": "a dankfur dock warden",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-49.09,-37.26,1055.62"
       ],
@@ -1348,7 +1347,7 @@
     },
     {
       "name": "a dankfur gnoll",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "199.1,-20.04,862",
         "192.49,-19.66,853.4",
@@ -1403,31 +1402,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 705602020 -966949899:cracked iron stein\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "gamelink": "\\aITEM 1627573543 -1966055113:bride's promise\\/a",
           "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1440351109 846870321:Far Seas Trading Requisition ANT0235\\/a",
-          "chest": true
         },
         {
           "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -1435,7 +1418,51 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 705602020 -966949899:cracked iron stein\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1440351109 846870321:Far Seas Trading Requisition ANT0235\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1838982612 289946543:Far Seas Trading Requisition ANT0244\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -443962824 767118680:Far Seas Trading Requisition ANT0724\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         },
         {
@@ -1445,34 +1472,6 @@
         {
           "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1627573543 -1966055113:bride's promise\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -443962824 767118680:Far Seas Trading Requisition ANT0724\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1838982612 289946543:Far Seas Trading Requisition ANT0244\\/a",
-          "chest": true
         }
       ],
       "drop_coin_min": 16,
@@ -1518,7 +1517,7 @@
     },
     {
       "name": "a Dark Coven conjuror",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "-1519.16,-9.01,-219.88",
         "-1515.57,-10.85,-92.12"
@@ -1530,7 +1529,7 @@
     },
     {
       "name": "a Dark Coven witch",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-1583.13,-12.92,-195.11",
         "-1480.55,-9.83,-311.45",
@@ -1556,7 +1555,7 @@
     },
     {
       "name": "a Darkpaw animator",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-185.68,-16.26,562.64"
       ],
@@ -1604,11 +1603,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -1656,11 +1655,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -1668,23 +1663,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
         },
         {
@@ -1692,7 +1675,23 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
           "chest": false
         }
       ],
@@ -1725,11 +1724,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 277865908 127596559:Pierced Gnoll Earstud\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
         },
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
           "chest": false
         },
         {
@@ -1737,11 +1736,11 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
-          "chest": false
+          "gamelink": "\\aITEM 277865908 127596559:Pierced Gnoll Earstud\\/a",
+          "chest": true
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -1762,7 +1761,7 @@
     },
     {
       "name": "a Darkpaw lookout",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-128.82,-16.41,585.9"
       ],
@@ -1807,14 +1806,6 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1161459075 1625987143:a small bronze key with a strange handle\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
@@ -1824,6 +1815,14 @@
         },
         {
           "gamelink": "\\aITEM 1440351109 846870321:Far Seas Trading Requisition ANT0235\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1161459075 1625987143:a small bronze key with a strange handle\\/a",
           "chest": true
         }
       ],
@@ -1846,7 +1845,7 @@
     },
     {
       "name": "a Darkpaw pack leader",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "203.63,-18.34,644.47",
         "-169.5,-24.68,720.3",
@@ -1890,7 +1889,7 @@
     },
     {
       "name": "a Darkpaw rotstuffer",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-175.09,-16.32,570",
         "-184.62,-16.5,571.97"
@@ -1942,15 +1941,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
         {
@@ -1958,11 +1949,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
@@ -1974,11 +1961,23 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -2001,7 +2000,7 @@
     },
     {
       "name": "a Darkpaw shaman",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-218.41,-15.6,-99.04",
         "-216.06,-15.27,-109.16",
@@ -2045,7 +2044,7 @@
     },
     {
       "name": "a Darkpaw soldier",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-164.41,-15.88,-100.61",
         "-193.75,-14.66,-94.15",
@@ -2070,15 +2069,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1136651119 1578780024:intricately carved acorn\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
           "chest": false
         },
         {
@@ -2086,11 +2077,19 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -895871139 1608126982:Advanced Adornments Volume 2\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 295026780 -1433839586:a gnoll paw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1136651119 1578780024:intricately carved acorn\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -2143,7 +2142,7 @@
     },
     {
       "name": "a Darkpaw war leader",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "-363.4,-0.09,-542.77"
       ],
@@ -2167,7 +2166,7 @@
     },
     {
       "name": "a Darkpaw youth",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "404.27,-23.69,673.98",
         "198.75,-18.33,650.4",
@@ -2214,11 +2213,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1698232697 159043196:Chirannite Threat Totem\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -2226,15 +2221,19 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -1698232697 159043196:Chirannite Threat Totem\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1838982612 289946543:Far Seas Trading Requisition ANT0244\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -2242,8 +2241,8 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1838982612 289946543:Far Seas Trading Requisition ANT0244\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
+          "chest": false
         }
       ],
       "drop_coin_min": 26,
@@ -2318,7 +2317,7 @@
     },
     {
       "name": "a decaying skeleton",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "338.31,-33.11,-798.33",
         "376.76,-31.89,-797.41",
@@ -2346,11 +2345,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1561950944 1317412667:a skeleton arm\\/a",
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
           "chest": false
         }
       ],
@@ -2392,15 +2391,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1627573543 -1966055113:bride's promise\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -2409,7 +2408,7 @@
     },
     {
       "name": "a den mother",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "-2164.27,51.06,936.73"
       ]
@@ -2506,7 +2505,7 @@
     },
     {
       "name": "an earth burrower",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-1718.05,-21.33,-69.92",
         "-1741.34,-22.54,-141.2",
@@ -2552,7 +2551,7 @@
     },
     {
       "name": "an earthcrawler",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "-79.02,-20.84,639.89",
         "-105.58,-21.58,658.41",
@@ -2571,7 +2570,7 @@
     },
     {
       "name": "an earth rumbler",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "-791.78,-29.48,-65.27",
         "-777.76,-28.94,-92.61",
@@ -2609,7 +2608,7 @@
     },
     {
       "name": "an enraged wolf",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-2129.38,-16.08,231.44",
         "-2212.21,-22,153.67",
@@ -2633,11 +2632,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -742202141 1746681072:Lesser Blood of the Wolf\\/a",
+          "gamelink": "\\aITEM 1024480043 347122643:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1024480043 347122643:canine saliva\\/a",
+          "gamelink": "\\aITEM -742202141 1746681072:Lesser Blood of the Wolf\\/a",
           "chest": false
         }
       ]
@@ -2689,7 +2688,7 @@
     },
     {
       "name": "a feral timber wolf",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "-898.68,-29.8,139.02",
         "-1044.74,-17.3,184.2",
@@ -2721,7 +2720,7 @@
     },
     {
       "name": "a field shrike",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "127.4,-16.74,-553.4",
         "93.57,-15.5,-528.69",
@@ -2804,7 +2803,7 @@
     },
     {
       "name": "a giant bat",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-1377.98,-8.32,-427.08",
         "-1362.04,-6.32,-438.67",
@@ -2827,7 +2826,7 @@
     },
     {
       "name": "a giant bear",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "-2214.35,-11.31,77.7",
         "-1767.2,-15.89,-431.47",
@@ -2841,7 +2840,7 @@
     },
     {
       "name": "a giant kodiak",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "-1691.23,-19.04,-582.01",
         "-1539.9,-14.37,-588.89"
@@ -2867,7 +2866,7 @@
     },
     {
       "name": "a glade deer",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "-290.65,-17.97,687.01",
         "-425.1,-22.19,731.85",
@@ -2906,19 +2905,19 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -1698232697 159043196:Chirannite Threat Totem\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ]
@@ -2949,21 +2948,13 @@
     },
     {
       "name": "Graalwen",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-1652.49,7.67,-68.06"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1553813050 1911047336:Trinket: Petrified Bark\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -2971,7 +2962,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1553813050 1911047336:Trinket: Petrified Bark\\/a",
           "chest": false
         }
       ],
@@ -2992,7 +2991,7 @@
     },
     {
       "name": "a granitescale basilisk",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "-1226.86,21.1,-905.32",
         "-1170.65,19.73,-900.53",
@@ -3029,16 +3028,16 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 469903258 -1286815199:Bootstrutter's Field Guide to Antonica\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 1968300802 -935180340:reptile meat\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -140988503 1787831725:a split tongue\\/a",
           "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 469903258 -1286815199:Bootstrutter's Field Guide to Antonica\\/a",
-          "chest": true
         }
       ]
     },
@@ -3149,7 +3148,7 @@
     },
     {
       "name": "a grime covered savage",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "-2031.18,47.54,987.41",
         "-2052.61,47.26,977.38",
@@ -3175,7 +3174,7 @@
     },
     {
       "name": "a grizzled badger",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-1205.38,-2.08,785.22",
         "-1242.81,-14.33,156.48",
@@ -3295,7 +3294,7 @@
     },
     {
       "name": "a haze kodiak",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-2084.00,22.88,784.67",
         "-2074.51,38.78,836.93",
@@ -3322,7 +3321,7 @@
     },
     {
       "name": "a highwayman",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "-1852.37,-23.31,297.66",
         "-1855.10,-22.83,303.08",
@@ -3363,20 +3362,20 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -879262502 97524837:a strange gem\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
           "chest": true
         },
         {
           "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -879262502 97524837:a strange gem\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 16,
@@ -3467,13 +3466,13 @@
     },
     {
       "name": "Jayl'Krik",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-1647.53,14.46,-19.79"
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -731545264 -1794770025:Trinket: A Small Cube\\/a",
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
           "chest": false
         },
         {
@@ -3485,7 +3484,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "gamelink": "\\aITEM -731545264 -1794770025:Trinket: A Small Cube\\/a",
           "chest": false
         }
       ],
@@ -3572,7 +3571,7 @@
     },
     {
       "name": "a kingsnake",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-1097.7,0.46,-439.24",
         "-1024.5,-1.98,-402.1",
@@ -3582,7 +3581,7 @@
     },
     {
       "name": "a klicnik mite",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "77,-16.67,-316.04",
         "57.76,-15.85,-299.67",
@@ -3627,8 +3626,16 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -1084678629 -801963948:Far Seas Trading Requisition ANT0437\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 260830704 1813928113:A Half Eaten Order Slip\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 446684787 -925422917:an insect shell\\/a",
@@ -3637,20 +3644,12 @@
         {
           "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
           "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1084678629 -801963948:Far Seas Trading Requisition ANT0437\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
-          "chest": false
         }
       ]
     },
     {
       "name": "a klicnik prince",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic",
       "locations": [
         "36.54,-20.53,-414.66",
@@ -3666,18 +3665,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
+          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
+          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a klicnik scurrier",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "95.32,-23.76,-608.26",
         "32.19,-18.02,-662.41",
@@ -3702,7 +3701,7 @@
     },
     {
       "name": "a klicnik warrior",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-594.35,-23.44,383.1",
         "40.47,-19.93,-650.48",
@@ -3750,18 +3749,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1619371586 1391256459:woven cordovan shoulder pads\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1619371586 1391256459:woven cordovan shoulder pads\\/a",
+          "chest": true
         }
       ]
     },
     {
       "name": "a klicnik worker",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "80.13,-23.09,-439.18",
         "116.87,-19.18,-476.9",
@@ -3777,11 +3776,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
+          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1445240965 255008047:an insect antenna\\/a",
+          "gamelink": "\\aITEM 1443804415 -1309862967:an insect shell\\/a",
           "chest": false
         }
       ]
@@ -3793,16 +3792,6 @@
       ],
       "utterances": [
         "I am Captain Antillin of the Coldwind Point Garrison. The roads ahead are infested with gnolls. No Antonican is safe. Turn back now."
-      ]
-    },
-    {
-      "name": "Knight-Lieutenant Alesso",
-      "locations": [
-        "183.03,-20.69,-10.88"
-      ],
-      "utterances": [
-        "Hello!  As you journey into the city, keep in mind that you may not enter the citadel within North Qeynos at this time.  You'll find better adventuring elsewhere.",
-        "Outside the gates of Qeynos, Antonica is riddled with vermin. Serve Qeynos by destroying these infectious beasts."
       ]
     },
     {
@@ -3832,6 +3821,16 @@
       ],
       "utterances": [
         "And who might you be?"
+      ]
+    },
+    {
+      "name": "Knight-Lieutenant Alesso",
+      "locations": [
+        "183.03,-20.69,-10.88"
+      ],
+      "utterances": [
+        "Hello!  As you journey into the city, keep in mind that you may not enter the citadel within North Qeynos at this time.  You'll find better adventuring elsewhere.",
+        "Outside the gates of Qeynos, Antonica is riddled with vermin. Serve Qeynos by destroying these infectious beasts."
       ]
     },
     {
@@ -3949,7 +3948,7 @@
     },
     {
       "name": "a large moat rat",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "72.26,-16.86,118.3",
         "-20.39,-14.39,-13.43"
@@ -4074,7 +4073,7 @@
     },
     {
       "name": "Lord Rison",
-      "level": 18,
+      "levelRange": "18",
       "difficulty": "heroic3",
       "locations": [
         "-1412.91,-13.88,-743"
@@ -4098,7 +4097,7 @@
     },
     {
       "name": "a lowland badger",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-383.77,-5.93,523.87",
         "-647.01,-13.69,272.59",
@@ -4144,7 +4143,7 @@
     },
     {
       "name": "a lowland gecko",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-375.02,-4.62,-210.2",
         "-486.8,-10.87,-567.05",
@@ -4167,7 +4166,7 @@
     },
     {
       "name": "a lowland viper",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "362.52,-21.38,608.58",
         "390.32,-19.64,600.39",
@@ -4282,7 +4281,7 @@
     },
     {
       "name": "a mausoleum protector",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "363.44,-19.69,-658.77"
       ],
@@ -4327,7 +4326,7 @@
     },
     {
       "name": "a moat rat",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "391.44,-22.73,663.55",
         "323.52,-25.58,621.5",
@@ -4405,7 +4404,7 @@
     },
     {
       "name": "a mutated rat",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-1505.12,-9.06,-244.1",
         "-1557.36,-10.49,-210.37",
@@ -4431,7 +4430,7 @@
     {
       "name": "Nault",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic3",
       "locations": [
         "-388.62,15.36,267.85"
@@ -4461,11 +4460,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM -959107685 1296290369:a goblin ear\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -959107685 1296290369:a goblin ear\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -4499,11 +4498,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -4531,7 +4530,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM -959107685 1296290369:a goblin ear\\/a",
           "chest": false
         },
         {
@@ -4539,7 +4538,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -959107685 1296290369:a goblin ear\\/a",
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         },
         {
@@ -4569,7 +4568,7 @@
     },
     {
       "name": "a noxious viper",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "2.67,-16.43,162.87",
         "61.05,-17.04,57.54"
@@ -4654,10 +4653,6 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
@@ -4666,7 +4661,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
           "chest": false
         },
         {
@@ -4675,6 +4670,10 @@
         },
         {
           "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -4734,7 +4733,7 @@
     },
     {
       "name": "a pond glider",
-      "level": 9,
+      "levelRange": "9",
       "locations": [
         "177.23,-24.77,445.16",
         "105.01,-24.81,414.85",
@@ -4852,7 +4851,7 @@
     },
     {
       "name": "a red tailed hawk",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-983.69,-2.27,-664.54",
         "-976.71,-1.59,-671.02",
@@ -4869,29 +4868,29 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1146587553 -1892260771:Rear Shot II (Adept)\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -1401906576 341490251:a bird beak\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 397119710 408683460:a bird skull\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1146587553 -1892260771:Rear Shot II (Adept)\\/a",
+          "chest": true
         }
       ]
     },
     {
       "name": "Renux the Undying",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "347.98,-20.59,-636.81"
       ]
     },
     {
       "name": "a restless Caltorsite",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-1297.6,-20.14,-716.94",
         "-1275.36,-18.85,-685.33",
@@ -4914,11 +4913,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
           "chest": false
         }
       ],
@@ -4971,7 +4970,7 @@
     },
     {
       "name": "a risen protector",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "327.12,-35.61,-780.52",
         "373.59,-31.93,-806.47",
@@ -4999,7 +4998,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
@@ -5007,15 +5010,11 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "gamelink": "\\aITEM -1401004400 725674393:a piece of rotted zombie flesh\\/a",
           "chest": false
         }
       ],
@@ -5035,7 +5034,7 @@
     },
     {
       "name": "a rotstuffed scarecrow",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-2010.39,-7.1,534.51",
         "-2016.59,-7.71,533.58",
@@ -5082,7 +5081,7 @@
     },
     {
       "name": "a Sabertooth battler",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "-1703.06,-8.21,834.06",
         "-1380.97,-3.38,239.77",
@@ -5155,23 +5154,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
@@ -5179,7 +5162,23 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
       ],
@@ -5202,7 +5201,7 @@
     },
     {
       "name": "a Sabertooth camp guard",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "-1633.17,9.44,-20.56",
         "-1660.14,10.18,-12.63",
@@ -5232,18 +5231,6 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
@@ -5252,7 +5239,19 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
           "chest": false
         },
         {
@@ -5264,11 +5263,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
           "chest": false
         }
       ],
@@ -5291,7 +5290,7 @@
     },
     {
       "name": "a Sabertooth captor",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "-487.46,0.67,-182.69",
         "-492.82,1.39,-178.87"
@@ -5370,7 +5369,7 @@
     },
     {
       "name": "a Sabertooth elder",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-1394.23,-1.77,243.02",
         "-642.27,-13.23,-329.29",
@@ -5390,7 +5389,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -5398,7 +5397,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
           "chest": false
         },
         {
@@ -5406,11 +5405,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -5442,25 +5441,8 @@
       ]
     },
     {
-      "name": "a Sabertooth mongrel",
-      "faction_changes": [
-        {
-          "name": "The Great Herd",
-          "value": 50
-        },
-        {
-          "name": "The Far Seas Trading Company",
-          "value": 50
-        },
-        {
-          "name": "The Sabertooth Gnolls",
-          "value": -100
-        }
-      ]
-    },
-    {
       "name": "a Sabertooth neophyte",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "185.29,-17.87,642.99",
         "127.25,-10.58,610.71",
@@ -5533,7 +5515,7 @@
     },
     {
       "name": "a Sabertooth rune caster",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "-1371.44,-4.75,255.91",
         "-1384.61,-5.25,264.05",
@@ -5576,19 +5558,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
           "chest": false
         },
         {
@@ -5596,12 +5566,16 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 469903258 -1286815199:Bootstrutter's Field Guide to Antonica\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
@@ -5612,47 +5586,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 469903258 -1286815199:Bootstrutter's Field Guide to Antonica\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1084678629 -801963948:Far Seas Trading Requisition ANT0437\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1061912288 -2039705745:Far Seas Trading Requisition ANT0424\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2096053587 1975965991:intricate metal bowl\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1051500582 548157122:Far Seas Trading Requisition ANT037\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
         },
         {
@@ -5660,20 +5598,64 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "gamelink": "\\aITEM 1165459183 1011394565:Far Seas Trading Requisition ANT0229\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1440351109 846870321:Far Seas Trading Requisition ANT0235\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1051500582 548157122:Far Seas Trading Requisition ANT037\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1061912288 -2039705745:Far Seas Trading Requisition ANT0424\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1084678629 -801963948:Far Seas Trading Requisition ANT0437\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1165459183 1011394565:Far Seas Trading Requisition ANT0229\\/a",
+          "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 295026780 -1433839586:a gnoll paw\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1440351109 846870321:Far Seas Trading Requisition ANT0235\\/a",
-          "chest": true
+          "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2096053587 1975965991:intricate metal bowl\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -886483509 -469108145:old silver coin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
@@ -5699,7 +5681,7 @@
     },
     {
       "name": "a Sabertooth runt",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "200.27,-16.78,610.76",
         "-109.88,-22.19,640.63",
@@ -5724,11 +5706,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
@@ -5736,19 +5718,19 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 295026780 -1433839586:a gnoll paw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -5770,25 +5752,8 @@
       ]
     },
     {
-      "name": "a Sabertooth shaman",
-      "faction_changes": [
-        {
-          "name": "The Great Herd",
-          "value": 50
-        },
-        {
-          "name": "The Far Seas Trading Company",
-          "value": 50
-        },
-        {
-          "name": "The Sabertooth Gnolls",
-          "value": -100
-        }
-      ]
-    },
-    {
       "name": "a Sabertooth spear guard",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "-1641.42,11.89,-7.46",
         "-1637.28,9.22,-40.36",
@@ -5818,18 +5783,6 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1232349070 2064336354:badge of honor\\/a",
           "chest": false
         },
@@ -5842,6 +5795,22 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 705602020 -966949899:cracked iron stein\\/a",
           "chest": false
         },
@@ -5850,19 +5819,15 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1450620039 489325026:carved bone trinket\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -5885,7 +5850,7 @@
     },
     {
       "name": "a Sabertooth tormentor",
-      "level": 20,
+      "levelRange": "20",
       "locations": [
         "-497.9,1.51,-179.46"
       ],
@@ -5910,7 +5875,7 @@
     },
     {
       "name": "a sand lurker",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "30.06,-66.15,-971.98",
         "62.76,-61.9,-982.71",
@@ -5969,7 +5934,7 @@
     },
     {
       "name": "a sea turtle",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "335.3,-51.99,900.87",
         "341.7,-51.51,892.32",
@@ -5996,11 +5961,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -367974197 -1578483498:a turtle shell\\/a",
+          "gamelink": "\\aITEM -543271895 402308311:turtle meat\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -543271895 402308311:turtle meat\\/a",
+          "gamelink": "\\aITEM -367974197 -1578483498:a turtle shell\\/a",
           "chest": false
         }
       ]
@@ -6024,7 +5989,7 @@
     {
       "name": "Sentry Briar",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic3",
       "locations": [
         "-390.07,0.69,120"
@@ -6032,7 +5997,7 @@
     },
     {
       "name": "Sentry Crawln",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic3",
       "locations": [
         "-1513.55,-15.76,-548.74"
@@ -6041,7 +6006,7 @@
     {
       "name": "Sentry Deegan",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic3",
       "locations": [
         "-394.13,4.51,276.05"
@@ -6055,7 +6020,7 @@
     },
     {
       "name": "Sentry Elmsley",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic3",
       "locations": [
         "-1703.45,-14.59,386.10"
@@ -6067,7 +6032,7 @@
     },
     {
       "name": "Sentry Geddis",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic3",
       "locations": [
         "-397.66,15.38,-281.14"
@@ -6076,7 +6041,7 @@
     {
       "name": "Sentry Innis",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic3",
       "locations": [
         "-394.27,0.77,119.74"
@@ -6084,7 +6049,7 @@
     },
     {
       "name": "Sentry Maurice",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic3",
       "locations": [
         "-1489.58,-15.76,-550.4"
@@ -6093,7 +6058,7 @@
     {
       "name": "Sentry Secord",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic3",
       "locations": [
         "-390.79,4.55,277.54"
@@ -6298,7 +6263,7 @@
     },
     {
       "name": "a sparrow-hawk",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "178.42,-7.75,675.53",
         "-105.14,-4.81,-135.53",
@@ -6358,7 +6323,7 @@
     },
     {
       "name": "a stonejaw lizard",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-1428.72,-16.87,-395.6",
         "-1201.38,-22.44,-554.86",
@@ -6381,11 +6346,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 610721675 -1689715601:a split tongue\\/a",
+          "gamelink": "\\aITEM 1574255205 902748530:reptile meat\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1574255205 902748530:reptile meat\\/a",
+          "gamelink": "\\aITEM 610721675 -1689715601:a split tongue\\/a",
           "chest": false
         }
       ]
@@ -6398,11 +6363,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1023812709 154628380:Trinket: A Bone Carving\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
           "chest": false
         },
         {
@@ -6410,7 +6375,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "gamelink": "\\aITEM 1023812709 154628380:Trinket: A Bone Carving\\/a",
           "chest": false
         }
       ],
@@ -6431,7 +6396,7 @@
     },
     {
       "name": "a tainted wolf",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "-1496.08,-8.97,-234.35",
         "-1563.99,-11.16,-197.9",
@@ -6518,7 +6483,7 @@
     },
     {
       "name": "Tark Searfang",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "196.97,-18.17,643.6"
       ],
@@ -6560,7 +6525,7 @@
     },
     {
       "name": "a thicket lizard",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "-534.57,-7.76,-565.64",
         "-943.08,-18.62,-628.94",
@@ -6581,7 +6546,7 @@
     },
     {
       "name": "a thistle viper",
-      "level": 18,
+      "levelRange": "18",
       "locations": [
         "-1164.68,-46.65,-524.68",
         "-1162.02,-35.64,-514.02",
@@ -6602,7 +6567,7 @@
     {
       "name": "Thompson",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic3",
       "locations": [
         "-1025.78,12.94,-616.94"
@@ -6643,18 +6608,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -989003161 1420590974:a fragment of terrain\\/a",
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "gamelink": "\\aITEM -989003161 1420590974:a fragment of terrain\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a timberclaw gnoll",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-567.44,-19.37,468.03",
         "-557.31,-20.24,477.38",
@@ -6682,11 +6647,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
           "chest": false
         },
         {
@@ -6711,7 +6676,7 @@
     },
     {
       "name": "a timber wolf",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-639.44,-14.7,284.24",
         "-638.52,-14.61,278.26",
@@ -6738,16 +6703,16 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -742202141 1746681072:Lesser Blood of the Wolf\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1024480043 347122643:canine saliva\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 260830704 1813928113:A Half Eaten Order Slip\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -742202141 1746681072:Lesser Blood of the Wolf\\/a",
+          "chest": false
         }
       ]
     },
@@ -6764,7 +6729,7 @@
     },
     {
       "name": "a toxin ravaged rodent",
-      "level": 12,
+      "levelRange": "12",
       "difficulty": "heroic",
       "locations": [
         "138.55,-17.64,432.21",
@@ -6774,7 +6739,7 @@
     },
     {
       "name": "a traitorous farmer",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-174.2,-18.28,45.95",
         "-73.27,-17.67,87.77",
@@ -6814,15 +6779,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         }
       ],
@@ -6831,7 +6796,7 @@
     },
     {
       "name": "The Two-toed Rat",
-      "level": 9,
+      "levelRange": "9",
       "locations": [
         "71.24,-16.85,119.96"
       ]
@@ -6883,7 +6848,7 @@
     },
     {
       "name": "a wandering bat",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "0.58,-8.66,363.78",
         "-26.28,-7.29,399.54",
@@ -6923,7 +6888,7 @@
     },
     {
       "name": "Watchman Haggerty",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic3",
       "locations": [
         "-550.12,-14.65,-301.9"
@@ -6931,7 +6896,7 @@
     },
     {
       "name": "Watchman Loxley",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic3",
       "locations": [
         "-557.16,-14.54,-339.6"
@@ -6980,7 +6945,7 @@
     },
     {
       "name": "The Windstalker Rumbler",
-      "level": 21,
+      "levelRange": "21",
       "difficulty": "epic^2",
       "locations": [
         "-803.67,-28.99,-65.44"
@@ -6988,7 +6953,7 @@
     },
     {
       "name": "a witherstraw scarecrow",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-95.25,-16.59,13.78",
         "-62.45,-18.07,53.63",
@@ -7031,7 +6996,7 @@
     },
     {
       "name": "a young brown bear",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-1307.76,-9.53,165.18",
         "-1310.43,-14.31,149.48",
@@ -7057,7 +7022,7 @@
     },
     {
       "name": "a young kodiak",
-      "level": 16,
+      "levelRange": "16",
       "locations": [
         "-1208.94,-11.27,218.37",
         "-1106.23,-15.75,238.5",
@@ -7083,7 +7048,7 @@
     },
     {
       "name": "a young timber wolf",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-390.93,-20.53,725.06",
         "-372.75,-6.46,527.81",
@@ -7118,10 +7083,37 @@
   ],
   "shinies": [
     {
+      "gamelink": "\\aITEM 790136953 1614490007:antonican ficus light brown leaf\\/a",
+      "locations": [
+        "-229.93,-24.00,729.68"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1393712698 100965568:black glass coin of erudin\\/a",
+      "locations": [
+        "-151.50,-14.00,-20.06"
+      ]
+    },
+    {
       "gamelink": "\\aITEM -416322056 1294650281:Bloodskull Mark\\/a",
       "locations": [
         "-866.33,-27.06,202.42",
         "-926.49,-31.24,223.18"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1832140126 2119420903:chipped shard of abjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1424402151 -1053334447:chipped shard of alteration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1331551958 515627370:chipped shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a",
+      "locations": [
+        "-1772.95,-8.00,-614.51"
       ]
     },
     {
@@ -7131,6 +7123,31 @@
         "342.01,-16.78,737.98",
         "373.91,-12.55,801.81",
         "356.38,-13.86,788.15"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 356197014 1645576032:clear glass coin of erudin\\/a",
+      "locations": [
+        "190.12,-22.00,729.68",
+        "-261.98,-14.00,101.30"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM -1571977034 220596429:cracked barbarian bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 861846032 -2042465446:cracked halfling bone fragment\\/a",
+      "locations": [
+        "-169.91,-16.00,182.21"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 1518761661 -1817126979:cracked high elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1743752702 -338028587:cracked wood elf bone fragment\\/a",
+      "locations": [
+        "-2129.96,-44.00,361.39"
       ]
     },
     {
@@ -7168,66 +7185,6 @@
       "gamelink": "\\aITEM -196955907 250027482:Royal Rose Petal\\/a",
       "locations": [
         "-663.93,-16.03,159.94"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 699234980 -855475702:Sunset Chrysanthemum Petal\\/a",
-      "locations": [
-        "-450.03,-18.10,179.37",
-        "-277.77,-10.09,204.67",
-        "392.13,-20.75,344.83"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 790136953 1614490007:antonican ficus light brown leaf\\/a",
-      "locations": [
-        "-229.93,-24.00,729.68"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1393712698 100965568:black glass coin of erudin\\/a",
-      "locations": [
-        "-151.50,-14.00,-20.06"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1832140126 2119420903:chipped shard of abjuration\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1424402151 -1053334447:chipped shard of alteration\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1331551958 515627370:chipped shard of channeling\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a",
-      "locations": [
-        "-1772.95,-8.00,-614.51"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 356197014 1645576032:clear glass coin of erudin\\/a",
-      "locations": [
-        "190.12,-22.00,729.68",
-        "-261.98,-14.00,101.30"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM -1571977034 220596429:cracked barbarian bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 861846032 -2042465446:cracked halfling bone fragment\\/a",
-      "locations": [
-        "-169.91,-16.00,182.21"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 1518761661 -1817126979:cracked high elf bone fragment\\/a"
-    },
-    {
-      "gamelink": "\\aITEM 1743752702 -338028587:cracked wood elf bone fragment\\/a",
-      "locations": [
-        "-2129.96,-44.00,361.39"
       ]
     },
     {
@@ -7270,6 +7227,14 @@
       "gamelink": "\\aITEM -1004669040 447686829:shattered troll bone fragment\\/a",
       "locations": [
         "-1464.31,-12.00,-348.34"
+      ]
+    },
+    {
+      "gamelink": "\\aITEM 699234980 -855475702:Sunset Chrysanthemum Petal\\/a",
+      "locations": [
+        "-450.03,-18.10,179.37",
+        "-277.77,-10.09,204.67",
+        "392.13,-20.75,344.83"
       ]
     }
   ],

@@ -16,7 +16,7 @@
   "npcs": [
     {
       "name": "a bloodstone gargoyle",
-      "level": 37,
+      "levelRange": "37",
       "locations": [
         "61.33,-6.63,-72.25",
         "73.82,-7.39,-77.47",
@@ -27,18 +27,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 13682131 668330589:stone debris\\/a",
+          "gamelink": "\\aITEM -26685399 680889659:Feysteel Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -26685399 680889659:Feysteel Relic\\/a",
+          "gamelink": "\\aITEM 13682131 668330589:stone debris\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a crumbling gargoyle",
-      "level": 36,
+      "levelRange": "36",
       "locations": [
         "10.36,-13.59,-40.75",
         "26.55,-14.50,-43.14",
@@ -57,7 +57,7 @@
     },
     {
       "name": "an ebon adherant",
-      "level": 39,
+      "levelRange": "39",
       "locations": [
         "214.32,-1.23,-91.90",
         "232.34,0.52,-82.77",
@@ -74,7 +74,7 @@
     },
     {
       "name": "an ebon neonate",
-      "level": 38,
+      "levelRange": "38",
       "locations": [
         "159.94,-12.35,-36.93",
         "170.22,-12.02,-35.55",
@@ -88,11 +88,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1317754168 1332130336:Opal Amulet\\/a",
+          "gamelink": "\\aITEM 269172514 -115955947:Advanced Adornments Volume 4\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 269172514 -115955947:Advanced Adornments Volume 4\\/a",
+          "gamelink": "\\aITEM -1317754168 1332130336:Opal Amulet\\/a",
           "chest": false
         }
       ],
@@ -101,7 +101,7 @@
     },
     {
       "name": "an ebon python",
-      "level": 37,
+      "levelRange": "37",
       "locations": [
         "130.64,-14.77,-78.31",
         "120.46,-14.75,-76.65",
@@ -125,7 +125,7 @@
     },
     {
       "name": "an ebon ritualist",
-      "level": 38,
+      "levelRange": "38",
       "locations": [
         "159.19,-12.67,-51.99",
         "197.89,-5.58,-56.96"
@@ -137,7 +137,7 @@
     },
     {
       "name": "a moldering gargoyle",
-      "level": 36,
+      "levelRange": "36",
       "locations": [
         "-12.94,-7.91,-20.74"
       ],
@@ -150,7 +150,7 @@
     },
     {
       "name": "a pit striker",
-      "level": 36,
+      "levelRange": "36",
       "locations": [
         "72.31,-12.85,-121.13",
         "63.44,-12.66,-116.14",

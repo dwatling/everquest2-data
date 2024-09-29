@@ -1,7 +1,7 @@
 {
   "name": "Zek, the Orcish Wastes",
   "category": "Zek",
-  "description": "Named the Orcish Wastes by men, this deforested island is home to the orcs of Deathfist Citadel.",
+  "notes": "Named the Orcish Wastes by men, this deforested island is home to the orcs of Deathfist Citadel.",
   "levels": "30-40",
   "maps": [
     {
@@ -21,32 +21,6 @@
       "name": "Bouncer",
       "utterances": [
         "How can we retake the island when all we have are these pathetic defenders?"
-      ]
-    },
-    {
-      "name": "a Deathfist defender",
-      "faction_changes": [
-        {
-          "name": "The Green Hoods",
-          "value": 50
-        },
-        {
-          "name": "The Deathfist Orcs",
-          "value": -100
-        }
-      ]
-    },
-    {
-      "name": "Vigo Cerebus",
-      "faction_changes": [
-        {
-          "name": "The Green Hoods",
-          "value": 50
-        },
-        {
-          "name": "The Deathfist Orcs",
-          "value": -100
-        }
       ]
     }
   ]

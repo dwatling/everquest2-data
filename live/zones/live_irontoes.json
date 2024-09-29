@@ -1,34 +1,27 @@
 {
   "name": "Bar of Brell",
-  "maps": [
-    {
-      "name": "Basement"
-    },
-    {
-      "name": "Main Floor"
-    }
-  ],
+  "category": "Unknown",
   "connections": [
     {
-      "key": "tutorial_island02_epic02_serellian_bar"
-    },
-    {
       "key": "antonica"
-    },
-    {
-      "key": "halas"
-    },
-    {
-      "key": "exp03_rgn_greater_faydark"
-    },
-    {
-      "key": "exile_city"
     },
     {
       "key": "commonlands"
     },
     {
+      "key": "exile_city"
+    },
+    {
+      "key": "exp03_rgn_greater_faydark"
+    },
+    {
       "key": "exp04_rgn_timorous_deep"
+    },
+    {
+      "key": "halas"
+    },
+    {
+      "key": "tutorial_island02_epic02_serellian_bar"
     }
   ],
   "npcs": [

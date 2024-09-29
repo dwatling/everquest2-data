@@ -1,19 +1,7 @@
 {
   "name": "Edgewater Drains",
   "category": "D'Lere",
-  "zonerect": "-220.00,-165.00,22.00,120.00",
   "levels": "20-25",
-  "maps": [
-    {
-      "name": "Upper"
-    },
-    {
-      "name": "Middle"
-    },
-    {
-      "name": "Lower"
-    }
-  ],
   "connections": [
     {
       "key": "fprt_sewer02"
@@ -55,7 +43,7 @@
     },
     {
       "name": "a bile bladetip",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "159.03,0.50,-30.96",
         "139.20,0.00,87.00",
@@ -64,25 +52,25 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -291510315 -824471318:a fish tooth\\/a",
+          "gamelink": "\\aITEM 832283799 404080288:fish scale\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 832283799 404080288:fish scale\\/a",
+          "gamelink": "\\aITEM -291510315 -824471318:a fish tooth\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a bile toad",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "39.29,16.15,62.10"
       ]
     },
     {
       "name": "a bile toad forager",
-      "level": 22,
+      "levelRange": "22",
       "locations": [
         "115.30,16.00,-96.16",
         "93.80,16.00,-93.28",
@@ -115,25 +103,25 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1948596219 770737570:a vial of frog blood\\/a",
+          "gamelink": "\\aITEM 1681189482 -489210602:a frog tongue\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1681189482 -489210602:a frog tongue\\/a",
+          "gamelink": "\\aITEM 1948596219 770737570:a vial of frog blood\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a bladetip",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "148.50,0.50,68.00"
       ]
     },
     {
       "name": "a brittle remanence",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "104.75,32.50,19.91",
         "48.30,32.98,46.93",
@@ -152,7 +140,7 @@
     },
     {
       "name": "Broken Beak",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "60.73,0.87,114.30",
         "57.82,0.72,104.63"
@@ -169,7 +157,7 @@
     },
     {
       "name": "a contaminated rat",
-      "level": 22,
+      "levelRange": "22",
       "locations": [
         "103.57,16.00,-93.18",
         "113.12,16.27,-93.24",
@@ -199,7 +187,7 @@
     },
     {
       "name": "a deadly sludgewalker",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "163.43,2.30,-29.47",
         "151.92,0.77,-28.97",
@@ -223,7 +211,7 @@
     },
     {
       "name": "a drudge mucus",
-      "level": 22,
+      "levelRange": "22",
       "locations": [
         "23.77,32.50,2.29",
         "39.33,32.50,6.49",
@@ -254,7 +242,7 @@
     },
     {
       "name": "an edgewater rockshell",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "193.09,1.49,9.50",
         "191.69,1.50,15.82",
@@ -280,7 +268,7 @@
     },
     {
       "name": "an enraged bladetip",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "209.25,1.50,-56.07",
         "189.30,0.99,-92.07",
@@ -296,14 +284,14 @@
     },
     {
       "name": "a festering globule",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "89.32,32.78,-54.05"
       ]
     },
     {
       "name": "a fetid grappler",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "96.65,-0.50,93.15",
         "93.65,0.50,84.18",
@@ -318,7 +306,7 @@
     },
     {
       "name": "a foul grappler",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "166.35,0.90,-28.97",
         "177.70,0.90,-104.20",
@@ -335,7 +323,7 @@
     },
     {
       "name": "a frantic globule",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "111.88,25.36,-140.12",
         "102.51,32.5,25.93",
@@ -402,7 +390,7 @@
     },
     {
       "name": "a garbage grinder",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "106.09,31.98,-99.22",
         "106.29,31.98,-89.23"
@@ -421,7 +409,7 @@
     },
     {
       "name": "a gigantic sewer goo",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "114.80,26.16,-137.20",
         "51.00,32.50,91.97"
@@ -429,7 +417,7 @@
     },
     {
       "name": "a juvenile sludgewalker",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "94.84,-0.95,92.50",
         "57.39,18.10,63.03",
@@ -451,7 +439,7 @@
     },
     {
       "name": "a massive needletooth",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "138.70,1.49,-107.74",
         "72.00,0.50,113.31",
@@ -476,7 +464,7 @@
     },
     {
       "name": "a monstrous sewer barracuda",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "190.83,0.50,9.00",
         "214.83,0.15,35.70",
@@ -492,7 +480,7 @@
     },
     {
       "name": "a Murkwater fanatic",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "144.64,31.31,-105.19",
         "93.08,19.97,-143.76",
@@ -510,7 +498,7 @@
     },
     {
       "name": "a Murkwater henchman",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "80.67,34.25,-100.21",
         "107.64,17.09,-116.29",
@@ -543,20 +531,20 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -898368698 -1285985171:strange dark powder\\/a",
+          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1441942621 -1948017648:a trooper signet\\/a",
-          "chest": true
+          "gamelink": "\\aITEM -898368698 -1285985171:strange dark powder\\/a",
+          "chest": false
         },
         {
           "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
-          "chest": false
+          "gamelink": "\\aITEM 1441942621 -1948017648:a trooper signet\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 89,
@@ -564,7 +552,7 @@
     },
     {
       "name": "a Murkwater onlooker",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "151.44,31.31,-138.38",
         "124.87,27.31,-141.79",
@@ -588,11 +576,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
           "chest": false
         }
       ],
@@ -601,7 +589,7 @@
     },
     {
       "name": "a Murkwater veteran",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "137.00,16.24,-117.34",
         "138.81,16.09,-130.07",
@@ -623,15 +611,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -482174513 -1545646809:Steel Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -640,7 +628,7 @@
     },
     {
       "name": "a Murkwater vigilant",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "140.02,16.60,-142.31",
         "106.33,17.09,-113.33",
@@ -669,17 +657,17 @@
     },
     {
       "name": "Pestilence",
+      "levelRange": "25",
       "race": [
         "human"
       ],
-      "level": 25,
       "locations": [
         "112.06,32.55,57.36"
       ]
     },
     {
       "name": "a ravenous piranha",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "219.39,0.01,42.49",
         "191.08,1.50,8.52",
@@ -697,7 +685,7 @@
     },
     {
       "name": "a rotting globule",
-      "level": 22,
+      "levelRange": "22",
       "locations": [
         "28.18,32.50,3.16",
         "44.28,32.50,6.01",
@@ -724,7 +712,7 @@
     },
     {
       "name": "a rotting sewerfin",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "224.23,1.50,38.89",
         "199.52,0.89,-23.04",
@@ -740,7 +728,7 @@
     },
     {
       "name": "a rotting skeleton",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "112.18,32.55,45.11",
         "116.68,33.07,53.54"
@@ -757,7 +745,7 @@
     },
     {
       "name": "a scourge rat",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "110.40,18.24,-14.71",
         "149.23,16.05,45.20",
@@ -797,7 +785,7 @@
     },
     {
       "name": "The Sludge Despoiler",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "111.75,25.37,-139.99",
         "117.36,27.31,-138.64"
@@ -872,7 +860,7 @@
     },
     {
       "name": "a vile toad",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "33.49,16.00,62.71"
       ],
@@ -885,7 +873,7 @@
     },
     {
       "name": "a young sewage viper",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "81.36,9.31,-117.59",
         "68.42,13.31,-135.49",

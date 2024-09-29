@@ -1,34 +1,7 @@
 {
   "name": "Solusek's Eye",
   "category": "Lavastorm",
-  "zonerect": "-155.00,-252.00,351.00,336.00",
   "levels": "45-55",
-  "maps": [
-    {
-      "name": "Level 1"
-    },
-    {
-      "name": "Level 2"
-    },
-    {
-      "name": "Level 3"
-    },
-    {
-      "name": "Level 4"
-    },
-    {
-      "name": "Level 5"
-    },
-    {
-      "name": "Level 6"
-    },
-    {
-      "name": "Level 7"
-    },
-    {
-      "name": "Level 8"
-    }
-  ],
   "connections": [
     {
       "key": "lavastorm"
@@ -47,15 +20,6 @@
     }
   ],
   "npcs": [
-    {
-      "name": "Armorsmith Gravik",
-      "faction_changes": [
-        {
-          "name": "The Guardians of Thyr",
-          "value": -100
-        }
-      ]
-    },
     {
       "name": "a Bastion keeper",
       "drops": [
@@ -87,15 +51,6 @@
       ]
     },
     {
-      "name": "a blacksmith of Thyr",
-      "faction_changes": [
-        {
-          "name": "The Guardians of Thyr",
-          "value": -100
-        }
-      ]
-    },
-    {
       "name": "The Castigator",
       "drop_coin_min": 1480,
       "drop_coin_max": 1480,
@@ -110,15 +65,11 @@
       "name": "a defender of Thyr",
       "drops": [
         {
-          "gamelink": "\\aITEM -405190422 1002205688:giant meat\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1513698845 782894655:large polished bone\\/a",
+          "gamelink": "\\aITEM -1367502138 2106162060:flask of fresh water\\/a",
           "chest": false
         },
         {
@@ -126,25 +77,20 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -405190422 1002205688:giant meat\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 31755782 1098695081:a giant tooth\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1367502138 2106162060:flask of fresh water\\/a",
+          "gamelink": "\\aITEM -1513698845 782894655:large polished bone\\/a",
           "chest": false
         }
       ],
       "drop_coin_min": 1204,
       "drop_coin_max": 2449,
-      "faction_changes": [
-        {
-          "name": "The Guardians of Thyr",
-          "value": -100
-        }
-      ]
-    },
-    {
-      "name": "a diviner of Thyr",
       "faction_changes": [
         {
           "name": "The Guardians of Thyr",
@@ -177,19 +123,6 @@
           "chest": false
         }
       ],
-      "faction_changes": [
-        {
-          "name": "Drednever Expedition",
-          "value": -100
-        },
-        {
-          "name": "Goblins of Fire Peak",
-          "value": 50
-        }
-      ]
-    },
-    {
-      "name": "an expedition guard",
       "faction_changes": [
         {
           "name": "Drednever Expedition",
@@ -344,11 +277,11 @@
       "name": "a magmatic sentry",
       "drops": [
         {
-          "gamelink": "\\aITEM -375081333 -243621650:impure chunk of arcane stone\\/a",
+          "gamelink": "\\aITEM 974512545 1555701326:glimmering stone fragment\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 974512545 1555701326:glimmering stone fragment\\/a",
+          "gamelink": "\\aITEM -375081333 -243621650:impure chunk of arcane stone\\/a",
           "chest": false
         },
         {
@@ -358,23 +291,14 @@
       ]
     },
     {
-      "name": "a magus of Thyr",
-      "faction_changes": [
-        {
-          "name": "The Guardians of Thyr",
-          "value": -100
-        }
-      ]
-    },
-    {
       "name": "a pyreduke of Thyr",
       "drops": [
         {
-          "gamelink": "\\aITEM -1145282108 1009728907:a giants beard\\/a",
+          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -12689105 113244823:Giant Idol\\/a",
+          "gamelink": "\\aITEM -1145282108 1009728907:a giants beard\\/a",
           "chest": false
         }
       ],
@@ -402,15 +326,6 @@
         {
           "gamelink": "\\aITEM 496056793 1014762846:an accumulation of plasma\\/a",
           "chest": false
-        }
-      ]
-    },
-    {
-      "name": "The Speaker of Fates",
-      "faction_changes": [
-        {
-          "name": "The Guardians of Thyr",
-          "value": -100
         }
       ]
     },

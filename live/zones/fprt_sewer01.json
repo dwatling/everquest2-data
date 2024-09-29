@@ -9,24 +9,24 @@
   ],
   "connections": [
     {
-      "key": "fprt_sewer02"
-    },
-    {
-      "key": "fprt_sewer_epic04_quest_darkblade_epic"
-    },
-    {
       "key": "fprt_hood02_clone",
       "location": "0.26,-0.37,0.28"
     },
     {
       "key": "fprt_hood05_clone",
       "location": "-61.78,0.10,-3.81"
+    },
+    {
+      "key": "fprt_sewer02"
+    },
+    {
+      "key": "fprt_sewer_epic04_quest_darkblade_epic"
     }
   ],
   "npcs": [
     {
       "name": "a corruptor",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-30,0,197",
         "-115.49,0.55,189.14",
@@ -50,7 +50,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "gamelink": "\\aITEM 705602020 -966949899:cracked iron stein\\/a",
           "chest": false
         },
         {
@@ -58,7 +58,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 705602020 -966949899:cracked iron stein\\/a",
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
           "chest": false
         }
       ],
@@ -67,13 +67,13 @@
     },
     {
       "name": "a Darkblade bodyguard",
+      "levelRange": "11",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "level": 11,
       "locations": [
         "-103,1,133",
         "-107.63,0.64,156.62"
@@ -98,6 +98,7 @@
     },
     {
       "name": "a Darkblade brigand",
+      "levelRange": "9",
       "race": [
         "human",
         "ratonga",
@@ -106,7 +107,6 @@
       "gender": [
         "male"
       ],
-      "level": 9,
       "locations": [
         "0,1,140",
         "-60.95,1.00,89.05",
@@ -136,6 +136,7 @@
     },
     {
       "name": "a Darkblade fury",
+      "levelRange": "9",
       "race": [
         "ratonga",
         "human",
@@ -144,7 +145,6 @@
       "gender": [
         "male"
       ],
-      "level": 9,
       "locations": [
         "0,1,140",
         "-85.19,1.00,150.60",
@@ -165,7 +165,7 @@
     },
     {
       "name": "a Darkblade maiden",
-      "level": 9,
+      "levelRange": "9",
       "locations": [
         "-83,1,115",
         "-83.90,1.00,54.36",
@@ -184,13 +184,13 @@
     },
     {
       "name": "a Darkblade noble",
+      "levelRange": "9",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "level": 9,
       "locations": [
         "-76,0,106",
         "-92.99,1.00,111.99",
@@ -202,6 +202,7 @@
     },
     {
       "name": "a Darkblade scout",
+      "levelRange": "9",
       "race": [
         "human",
         "ratonga",
@@ -211,7 +212,6 @@
         "female",
         "male"
       ],
-      "level": 9,
       "locations": [
         "-24,1,114",
         "-83.26,1.31,115.48",
@@ -252,13 +252,13 @@
     },
     {
       "name": "a diseased ratonga",
+      "levelRange": "9",
       "race": [
         "ratonga"
       ],
       "gender": [
         "male"
       ],
-      "level": 9,
       "locations": [
         "-152.61,1.34,60.98",
         "-175.13,1.22,61.18",
@@ -300,11 +300,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
+          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
+          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
           "chest": false
         }
       ],
@@ -313,14 +313,14 @@
     },
     {
       "name": "a drowned protector",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-30,0,197"
       ]
     },
     {
       "name": "a fallen crusader",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-30,0,197",
         "-81.11,0.11,193.00",
@@ -331,11 +331,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1114652604 -419132845:a necrotic zombie skin\\/a",
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
       ],
@@ -344,7 +344,7 @@
     },
     {
       "name": "a juvenile mucus",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-119.35,1.00,78.45",
         "-183.02,1.85,52.65",
@@ -370,7 +370,7 @@
     },
     {
       "name": "Krakamen",
-      "level": 9,
+      "levelRange": "9",
       "difficulty": "heroic",
       "locations": [
         "-165,0,178",
@@ -378,24 +378,24 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 284686259 1348802406:Provoke III (Adept)\\/a",
+          "gamelink": "\\aITEM -1557061661 -130709509:Outlaw's Spear\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -1557061661 -130709509:Outlaw's Spear\\/a",
+          "gamelink": "\\aITEM 284686259 1348802406:Provoke III (Adept)\\/a",
           "chest": true
         }
       ]
     },
     {
       "name": "Lady Darkblade",
+      "levelRange": "11",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "level": 11,
       "locations": [
         "-122,1,154"
       ],
@@ -404,6 +404,48 @@
           "gamelink": "\\aITEM -727464254 1888290491:copper hoop\\/a",
           "chest": true
         }
+      ]
+    },
+    {
+      "name": "Marius Darkblade",
+      "levelRange": "12",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-123,1,152"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1638835026 413298385:Flash of Steel III (Adept)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1461102860 1061991594:Splintering Elm Cudgel\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1553018005 -24868568:tin spear\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 229,
+      "drop_coin_max": 229
+    },
+    {
+      "name": "Mikela Osa",
+      "purpose": "Weaponsmith",
+      "race": [
+        "iksar"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-28,1,152"
       ]
     },
     {
@@ -464,48 +506,6 @@
       ]
     },
     {
-      "name": "Marius Darkblade",
-      "race": [
-        "human"
-      ],
-      "gender": [
-        "male"
-      ],
-      "level": 12,
-      "locations": [
-        "-123,1,152"
-      ],
-      "drops": [
-        {
-          "gamelink": "\\aITEM -1638835026 413298385:Flash of Steel III (Adept)\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1553018005 -24868568:tin spear\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1461102860 1061991594:Splintering Elm Cudgel\\/a",
-          "chest": true
-        }
-      ],
-      "drop_coin_min": 229,
-      "drop_coin_max": 229
-    },
-    {
-      "name": "Mikela Osa",
-      "race": [
-        "iksar"
-      ],
-      "gender": [
-        "female"
-      ],
-      "purpose": "Weaponsmith",
-      "locations": [
-        "-28,1,152"
-      ]
-    },
-    {
       "name": "M`Polo Danukh",
       "race": [
         "kerran"
@@ -523,13 +523,13 @@
     },
     {
       "name": "a Murkwater Infiltrator",
+      "levelRange": "11",
       "race": [
         "ratonga"
       ],
       "gender": [
         "female"
       ],
-      "level": 11,
       "locations": [
         "-76,0,160",
         "-128,1,148",
@@ -541,6 +541,7 @@
     },
     {
       "name": "a netherot chanter",
+      "levelRange": "8",
       "race": [
         "human"
       ],
@@ -548,7 +549,6 @@
         "female",
         "male"
       ],
-      "level": 8,
       "locations": [
         "-79,1,112",
         "-101.86,0.02,147.02",
@@ -566,13 +566,13 @@
     },
     {
       "name": "Nikho Tambolo",
+      "purpose": "Provisioner",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Provisioner",
       "locations": [
         "-25,1,155"
       ],
@@ -653,7 +653,7 @@
     },
     {
       "name": "a ravenous cube",
-      "level": 7,
+      "levelRange": "7",
       "aggressive": true,
       "locations": [
         "-34,0,107",
@@ -666,11 +666,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1955109996 138277739:a vial of viscid slime\\/a",
+          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
+          "gamelink": "\\aITEM -1955109996 138277739:a vial of viscid slime\\/a",
           "chest": false
         }
       ],
@@ -679,7 +679,7 @@
     },
     {
       "name": "a refuse roach",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-117,1,78",
         "-124.27,1.00,54.26",
@@ -728,7 +728,7 @@
     },
     {
       "name": "a sewage rat",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-117,1,78",
         "-103.90,1.00,79.43",
@@ -759,14 +759,14 @@
     },
     {
       "name": "a sewer rat",
-      "level": 5,
+      "levelRange": "5",
       "locations": [
         "-117,1,78"
       ]
     },
     {
       "name": "a sewer slime",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-4,0,98",
         "-127.44,0.00,61.72",
@@ -817,7 +817,7 @@
     },
     {
       "name": "Shift Boss Local 858",
-      "level": 8,
+      "levelRange": "8",
       "difficulty": "heroic",
       "locations": [
         "-51,0,-23"
@@ -825,7 +825,7 @@
     },
     {
       "name": "a sludgewalker hatchling",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-25,0,50",
         "-119.32,1.00,74.47",
@@ -860,7 +860,7 @@
     },
     {
       "name": "a trash hopper",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-181,0,177",
         "-7.18,1.34,18.24",
@@ -877,7 +877,7 @@
     },
     {
       "name": "a union member Local 858",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "-115,1,57"
       ],
@@ -888,13 +888,13 @@
     },
     {
       "name": "a union mender Local 858",
+      "levelRange": "8",
       "race": [
         "gnome"
       ],
       "gender": [
         "male"
       ],
-      "level": 8,
       "locations": [
         "-91,1,20",
         "-117.81,0.00,58.08",

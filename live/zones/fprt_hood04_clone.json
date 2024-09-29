@@ -10,16 +10,16 @@
   ],
   "connections": [
     {
-      "key": "freeport_combined",
-      "location": "67.79,-7.08,116.19"
-    },
-    {
       "key": "fprt_sewer01",
       "location": "57.41,-6.16,56.85"
     },
     {
       "key": "fprt_tradeskill01_hood04",
       "location": "24.12,2.00,20.22"
+    },
+    {
+      "key": "freeport_combined",
+      "location": "67.79,-7.08,116.19"
     }
   ],
   "npcs": [
@@ -73,13 +73,13 @@
     },
     {
       "name": "Arms Dealer Silentblade",
+      "purpose": "Weaponsmith",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Weaponsmith",
       "locations": [
         "12.24,9.13,-37.78"
       ],
@@ -91,13 +91,13 @@
     },
     {
       "name": "Banker Voranius",
+      "purpose": "Banker",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Banker",
       "locations": [
         "33.28,13.25,-35.36"
       ]
@@ -119,13 +119,13 @@
     },
     {
       "name": "Barmaid Melia",
+      "purpose": "Provisioner",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Provisioner",
       "locations": [
         "-2.14,5.0,-39.13",
         "-12.09,4.0,-36.71"
@@ -134,13 +134,13 @@
     },
     {
       "name": "Cinre",
+      "purpose": "Bowyer",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Bowyer",
       "locations": [
         "-15.3,-7.0,50.89"
       ],
@@ -148,13 +148,13 @@
     },
     {
       "name": "Cordilia",
+      "purpose": "General Goods",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "General Goods",
       "locations": [
         "-26.55,-7.0,59.0"
       ],
@@ -227,13 +227,13 @@
     },
     {
       "name": "Elduin Proceus",
+      "purpose": "Armorsmith",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Armorsmith",
       "locations": [
         "9.48,-6.0,37.32"
       ],
@@ -336,13 +336,13 @@
     },
     {
       "name": "Innkeeper Melus",
+      "purpose": "Housing",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Housing",
       "locations": [
         "10.43,0.01,77.96"
       ],
@@ -367,13 +367,13 @@
     },
     {
       "name": "Kaseo Volcatius",
+      "purpose": "Freeport Militia",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "77.77,-7.08,107.66"
       ],
@@ -423,13 +423,13 @@
     },
     {
       "name": "Loamshallow",
+      "purpose": "Alchemist",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Alchemist",
       "locations": [
         "3.11,4.75,-47.75"
       ],
@@ -530,13 +530,13 @@
     },
     {
       "name": "Molin Driftwater",
+      "purpose": "General Goods",
       "race": [
         "half elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "General Goods",
       "locations": [
         "-19.95,-7.0,67.87"
       ],
@@ -581,13 +581,13 @@
     },
     {
       "name": "Pebblemark",
+      "purpose": "Shieldsmith",
       "race": [
         "half elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Shieldsmith",
       "locations": [
         "22.89,5.25,-29.72"
       ],
@@ -604,13 +604,13 @@
     },
     {
       "name": "Reana Astia",
+      "purpose": "Provisioner",
       "race": [
         "half elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Provisioner",
       "locations": [
         "-14.9,4.0,-39.17"
       ],
@@ -671,13 +671,13 @@
     },
     {
       "name": "Sandon Breezebender",
+      "purpose": "Crafting Trainer",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Crafting Trainer",
       "locations": [
         "21.52,2.0,21.75"
       ],
@@ -688,13 +688,13 @@
     },
     {
       "name": "Scribe Inkwell",
+      "purpose": "Linguist",
       "race": [
         "half elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Linguist",
       "locations": [
         "29.39,5.25,-18.69"
       ],
@@ -731,13 +731,13 @@
     },
     {
       "name": "Sestius Buccio",
+      "purpose": "Bartender",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Bartender",
       "locations": [
         "2.01,5.0,-38.71"
       ],
@@ -749,7 +749,7 @@
     },
     {
       "name": "a Shady Thug",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "-36.98,-6.92,85.85"
       ],
@@ -824,13 +824,13 @@
     },
     {
       "name": "Thesta",
+      "purpose": "Tailor",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Tailor",
       "locations": [
         "-20.51,2.0,-3.62"
       ],

@@ -2,25 +2,7 @@
   "name": "Nektropos Castle",
   "category": "Dungeons",
   "subcategory": "Group",
-  "zonerect": "-87.00,-99.0,86.00,101.00",
   "levels": "30-40",
-  "maps": [
-    {
-      "name": "Basement"
-    },
-    {
-      "name": "Main Floor"
-    },
-    {
-      "name": "Upper Floor"
-    },
-    {
-      "name": "Rooftop"
-    },
-    {
-      "name": "Towers"
-    }
-  ],
   "connections": [
     {
       "key": "nektulos"
@@ -48,11 +30,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -958357921 -34756581:a vial of spectral essence\\/a",
+          "gamelink": "\\aITEM -2073079286 -33985810:a ghost phantasmal echo\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -2073079286 -33985810:a ghost phantasmal echo\\/a",
+          "gamelink": "\\aITEM -958357921 -34756581:a vial of spectral essence\\/a",
           "chest": false
         }
       ],

@@ -2,7 +2,7 @@
   "name": "Steamfont Mountains",
   "expansion": "exp03",
   "category": "Faydwer",
-  "description": "These ancient hills full of geysers and hotsprings are home to the gnomes and their mechanical creations. The Mines of Meldrath and the city of Klak'Anon lie within these hills.",
+  "notes": "These ancient hills full of geysers and hotsprings are home to the gnomes and their mechanical creations. The Mines of Meldrath and the city of Klak'Anon lie within these hills.",
   "levels": "35-50",
   "maps": [
     {
@@ -11,7 +11,7 @@
   ],
   "connections": [
     {
-      "key": "exp03_rgn_loping_plains"
+      "key": "exp03_dun_klakanon"
     },
     {
       "key": "exp03_rgn_butcherblock"
@@ -20,7 +20,7 @@
       "key": "exp03_rgn_greater_faydark"
     },
     {
-      "key": "exp03_dun_klakanon"
+      "key": "exp03_rgn_loping_plains"
     },
     {
       "key": "exp03_rgn_steamfont_epic01_mines"

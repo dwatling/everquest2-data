@@ -2,12 +2,9 @@
   "name": "The Sinking Sands",
   "expansion": "exp01",
   "category": "Desert of Ro",
-  "description": "Once known as the Desert of Ro, it is home to the city of Maj'dul, as well as many tribes of fierce gnolls and nomads. The ruins of the Silent City, the Living Tombs, and other ancient ruins are buried among the desert sands",
+  "notes": "Once known as the Desert of Ro, it is home to the city of Maj'dul, as well as many tribes of fierce gnolls and nomads. The ruins of the Silent City, the Living Tombs, and other ancient ruins are buried among the desert sands",
   "levels": "50-60",
   "connections": [
-    {
-      "key": "exp01_rgn_pillars_of_flame"
-    },
     {
       "key": "exp01_dun_clefts_of_rujark"
     },
@@ -15,13 +12,16 @@
       "key": "exp01_dun_living_tombs"
     },
     {
-      "key": "exp01_rgn_sinking_sands_epic01_lockjaw_dorns_cache"
-    },
-    {
       "key": "exp01_dun_shimmering_citadel_epic01_bottle"
     },
     {
       "key": "exp01_dun_silent_city"
+    },
+    {
+      "key": "exp01_rgn_pillars_of_flame"
+    },
+    {
+      "key": "exp01_rgn_sinking_sands_epic01_lockjaw_dorns_cache"
     }
   ],
   "npcs": [

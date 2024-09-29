@@ -1,7 +1,7 @@
 {
   "name": "Lavastorm",
   "category": "Lavastorm",
-  "description": "Lavastorm is home to the great volcano of Mount Solusek, and caverns of Solusek's Eye within its shadow. Here too are found the remains of the Temple of Solusek Ro, long fallen from its former glory.",
+  "notes": "Lavastorm is home to the great volcano of Mount Solusek, and caverns of Solusek's Eye within its shadow. Here too are found the remains of the Temple of Solusek Ro, long fallen from its former glory.",
   "levels": "40-55",
   "maps": [
     {
@@ -93,6 +93,18 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -1052843420 -1153096017:Advanced Tailor Volume 45\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1311630067 965320946:a goblin eye\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
           "chest": false
         },
@@ -105,19 +117,7 @@
           "chest": true
         },
         {
-          "gamelink": "\\aITEM -1052843420 -1153096017:Advanced Tailor Volume 45\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -1307956073 -113596300:Beeswax Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -1513698845 782894655:large polished bone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1311630067 965320946:a goblin eye\\/a",
           "chest": false
         }
       ]

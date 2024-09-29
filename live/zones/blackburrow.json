@@ -3,17 +3,6 @@
   "category": "Dungeons",
   "subcategory": "Public",
   "levels": "10-20",
-  "maps": [
-    {
-      "name": "Surface"
-    },
-    {
-      "name": "Gnoll Hideout"
-    },
-    {
-      "name": "Spider Caves"
-    }
-  ],
   "connections": [
     {
       "key": "antonica"
@@ -34,7 +23,7 @@
     },
     {
       "name": "a blightfang broodtender",
-      "level": 19,
+      "levelRange": "19",
       "difficulty": "heroic^3",
       "locations": [
         "15.00,-37.77,-9.53",
@@ -45,7 +34,7 @@
     },
     {
       "name": "a blightfang hatchling",
-      "level": 19,
+      "levelRange": "19",
       "locations": [
         "33.96,-38.02,10.53",
         "31.09,-37.71,18.60",
@@ -62,7 +51,7 @@
     },
     {
       "name": "a blightfang spider",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic^3",
       "locations": [
         "-30.04,-29.61,-57.68",
@@ -73,18 +62,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1597999582 -1680139941:a poison gland\\/a",
+          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 2112874147 958699852:an arachnid leg\\/a",
+          "gamelink": "\\aITEM -1597999582 -1680139941:a poison gland\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a burly Sabertooth",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic^3",
       "locations": [
         "-28.12,-0.22,-10.62",
@@ -110,11 +99,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
@@ -152,7 +141,7 @@
     },
     {
       "name": "a crag rat",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "3.38,1.60,1.38",
         "-92.29,-0.71,-95.82",
@@ -173,7 +162,7 @@
     },
     {
       "name": "a dark lasher",
-      "level": 15,
+      "levelRange": "15",
       "locations": [
         "-29.57,-15.34,17.68",
         "-49.30,-18.11,9.97",
@@ -183,7 +172,7 @@
     },
     {
       "name": "a fierce razorgill",
-      "level": 14,
+      "levelRange": "14",
       "locations": [
         "-88.99,-11.15,-44.42",
         "-58.72,-8.84,-67.22",
@@ -193,7 +182,7 @@
     },
     {
       "name": "Fishfang the Angler",
-      "level": 13,
+      "levelRange": "13",
       "difficulty": "heroic",
       "locations": [
         "-13.51,-1.17,26.46"
@@ -240,7 +229,7 @@
     },
     {
       "name": "a giant lasher",
-      "level": 17,
+      "levelRange": "17",
       "locations": [
         "-45.29,-30.11,-68.66",
         "-9.52,-37.50,-40.71",
@@ -249,7 +238,7 @@
     },
     {
       "name": "a hoard watcher",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic",
       "locations": [
         "-3.05,-15.46,69.11",
@@ -301,13 +290,8 @@
       ]
     },
     {
-      "name": "Overseer Thix",
-      "level": 13,
-      "difficulty": "heroic^3"
-    },
-    {
       "name": "a patrolling Sabertoot",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "34.31,0.04,11.38",
         "-44.21,0.62,-11.03",
@@ -335,7 +319,7 @@
     },
     {
       "name": "a razorgill",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "-61.57,-3.49,-14.06",
         "-49.63,-1.53,1.79",
@@ -360,7 +344,7 @@
     },
     {
       "name": "a ridge rat",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "71.72,-1.15,18.17",
         "56.53,-0.81,8.13",
@@ -369,7 +353,7 @@
     },
     {
       "name": "a Sabertooth angler",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "-22.96,-1.49,21.24",
         "-26.63,-1.65,11.19",
@@ -388,11 +372,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -449689407 1929345100:gnoll hard candy\\/a",
+          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "gamelink": "\\aITEM -449689407 1929345100:gnoll hard candy\\/a",
           "chest": false
         },
         {
@@ -419,7 +403,7 @@
     },
     {
       "name": "a Sabertooth brewery guard",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic",
       "locations": [
         "17.30,-40.43,53.95",
@@ -441,11 +425,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
@@ -453,7 +433,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
         }
       ],
@@ -474,7 +458,7 @@
     },
     {
       "name": "a Sabertooth brewmaster",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic",
       "locations": [
         "21.62,-40.09,63.00",
@@ -542,7 +526,7 @@
     },
     {
       "name": "a Sabertooth chanter",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic",
       "locations": [
         "-17.01,-13.02,16.00",
@@ -593,7 +577,7 @@
     },
     {
       "name": "a Sabertooth commander",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic",
       "locations": [
         "-23.70,-16.24,76.63",
@@ -607,11 +591,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -632,7 +616,7 @@
     },
     {
       "name": "a Sabertooth diviner",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic^2",
       "locations": [
         "-12.61,-10.33,-33.00",
@@ -671,7 +655,7 @@
     },
     {
       "name": "a Sabertooth elite guard",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic^2",
       "locations": [
         "-17.73,-14.16,42.30",
@@ -704,7 +688,7 @@
     },
     {
       "name": "a Sabertooth guard",
-      "level": 14,
+      "levelRange": "14",
       "difficulty": "heroic^2",
       "locations": [
         "-18.85,-12.14,-5.75",
@@ -750,7 +734,7 @@
     },
     {
       "name": "a Sabertooth lookout",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "25.48,3.69,-6.41",
         "-8.32,1.47,-4.92",
@@ -777,27 +761,8 @@
       ]
     },
     {
-      "name": "a Sabertooth miner",
-      "level": 13,
-      "difficulty": "heroic^3",
-      "faction_changes": [
-        {
-          "name": "The Great Herd",
-          "value": 50
-        },
-        {
-          "name": "The Far Seas Trading Company",
-          "value": 50
-        },
-        {
-          "name": "The Sabertooth Gnolls",
-          "value": -100
-        }
-      ]
-    },
-    {
       "name": "a Sabertooth oracle",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic",
       "locations": [
         "-18.38,-15.55,83.69",
@@ -817,20 +782,20 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM -449689407 1929345100:gnoll hard candy\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1339514676 398047436:a spiked strip\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM -449689407 1929345100:gnoll hard candy\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1339514676 398047436:a spiked strip\\/a",
+          "chest": true
         }
       ],
       "faction_changes": [
@@ -850,7 +815,7 @@
     },
     {
       "name": "a Sabertooth pup",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "67.24,-0.64,10.90",
         "37.23,0.75,12.05",
@@ -864,16 +829,16 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
-          "chest": false
+          "gamelink": "\\aITEM -2125031066 -783736694:a badly-polished steel key\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -2125031066 -783736694:a badly-polished steel key\\/a",
-          "chest": true
+          "gamelink": "\\aITEM 599111897 -1109797835:pouch of peat\\/a",
+          "chest": false
         }
       ],
       "faction_changes": [
@@ -893,7 +858,7 @@
     },
     {
       "name": "a Sabertooth sentry",
-      "level": 16,
+      "levelRange": "16",
       "difficulty": "heroic^3",
       "locations": [
         "-45.70,-17.90,22.32",
@@ -916,15 +881,15 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         }
       ],
@@ -945,7 +910,7 @@
     },
     {
       "name": "a Sabertooth spearfisher",
-      "level": 13,
+      "levelRange": "13",
       "difficulty": "heroic^2",
       "locations": [
         "-88.59,-0.74,-83.96",
@@ -978,7 +943,7 @@
     },
     {
       "name": "a Sabertooth tactician",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic",
       "locations": [
         "-22.35,-16.25,82.79",
@@ -1022,7 +987,7 @@
     },
     {
       "name": "a scrawny Sabertooth",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "32.63,0.00,11.80",
         "36.41,1.01,-1.37",
@@ -1049,15 +1014,15 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -449689407 1929345100:gnoll hard candy\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         }
       ],
@@ -1080,7 +1045,7 @@
     },
     {
       "name": "Splitpaw Scout",
-      "level": 21,
+      "levelRange": "21",
       "difficulty": "heroic^3",
       "locations": [
         "50.99,-40.71,-19.57"
@@ -1091,7 +1056,7 @@
     },
     {
       "name": "a stalwart Sabertooth",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic",
       "locations": [
         "-13.75,-12.83,16.73",
@@ -1116,7 +1081,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
           "chest": false
         },
         {
@@ -1125,14 +1098,6 @@
         },
         {
           "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -430410266 -1671082962:Coral Scrying Stone\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1720905930 2100795833:a gnoll tooth\\/a",
           "chest": false
         }
       ],
@@ -1153,7 +1118,7 @@
     },
     {
       "name": "a stockpile protector",
-      "level": 17,
+      "levelRange": "17",
       "difficulty": "heroic",
       "locations": [
         "1.77,-15.58,68.05",
@@ -1189,7 +1154,7 @@
     },
     {
       "name": "a terrapede",
-      "level": 13,
+      "levelRange": "13",
       "locations": [
         "-96.51,-0.42,-115.62",
         "9.00,-10.59,11.35",
@@ -1204,7 +1169,7 @@
     },
     {
       "name": "a training spearfisher",
-      "level": 13,
+      "levelRange": "13",
       "difficulty": "heroic",
       "locations": [
         "-88.41,-0.83,-101.54",
@@ -1222,19 +1187,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1136651119 1578780024:intricately carved acorn\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],

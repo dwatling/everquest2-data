@@ -2,7 +2,7 @@
   "name": "Frostfang Sea",
   "added": "lu56",
   "category": "Erollis",
-  "description": "Within these frigid waters floats the island of Erollis, and the city of New Halas!",
+  "notes": "Within these frigid waters floats the island of Erollis, and the city of New Halas!",
   "levels": "1-20",
   "maps": [
     {
@@ -54,6 +54,9 @@
   ],
   "shinies": [
     {
+      "gamelink": "\\aITEM -2017991885 -327293411:fresh-cut rose\\/a"
+    },
+    {
       "gamelink": "\\aITEM -1498904707 -916017101:Threshed Straw\\/a",
       "locations": [
         "-374.79,28.85,180.38"
@@ -64,9 +67,6 @@
       "locations": [
         "-363.26,29.25,246.46"
       ]
-    },
-    {
-      "gamelink": "\\aITEM -2017991885 -327293411:fresh-cut rose\\/a"
     }
   ]
 }

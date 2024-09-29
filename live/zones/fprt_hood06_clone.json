@@ -10,8 +10,8 @@
   ],
   "connections": [
     {
-      "key": "freeport_combined",
-      "location": "-10.40,-5.00,-10.70"
+      "key": "fprt_adv04_spawl",
+      "location": "101.20,-4.44,20.11"
     },
     {
       "key": "fprt_sewer01",
@@ -22,8 +22,8 @@
       "location": "12.39,-3.75,25.45"
     },
     {
-      "key": "fprt_adv04_spawl",
-      "location": "101.20,-4.44,20.11"
+      "key": "freeport_combined",
+      "location": "-10.40,-5.00,-10.70"
     }
   ],
   "npcs": [
@@ -45,13 +45,13 @@
     },
     {
       "name": "Arms Dealer Shilza",
+      "purpose": "Weaponsmith",
       "race": [
         "iksar"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Weaponsmith",
       "locations": [
         "91.01,-4.37,14.4"
       ],
@@ -64,13 +64,13 @@
     },
     {
       "name": "Banker Izark",
+      "purpose": "Banker",
       "race": [
         "iksar"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Banker",
       "locations": [
         "89.14,-2.87,-33.22"
       ],
@@ -80,13 +80,13 @@
     },
     {
       "name": "Barmaid Frostwind",
+      "purpose": "Provisioner",
       "race": [
         "barbarian"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Provisioner",
       "locations": [
         "59.75,-4.0,-50.36",
         "60.28,-4.0,-59.33"
@@ -99,13 +99,13 @@
     },
     {
       "name": "Bartender Icebrew",
+      "purpose": "Bartender",
       "race": [
         "barbarian"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Bartender",
       "locations": [
         "64.64,-4.0,-60.19"
       ],
@@ -224,13 +224,13 @@
     },
     {
       "name": "Garowin",
+      "purpose": "Mender",
       "race": [
         "iksar"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Mender",
       "locations": [
         "95.8,-4.0,9.9"
       ]
@@ -243,13 +243,13 @@
     },
     {
       "name": "Innkeep Frosthome",
+      "purpose": "Housing",
       "race": [
         "barbarian"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Housing",
       "locations": [
         "24.96,-4.38,34.94"
       ],
@@ -303,7 +303,7 @@
     },
     {
       "name": "Ivashko",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "43.25,-4.35,-11.98",
         "57.2,-4.35,-33.44"
@@ -326,13 +326,13 @@
     },
     {
       "name": "Kakriss",
+      "purpose": "Bowyer",
       "race": [
         "iksar"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Bowyer",
       "locations": [
         "66.2,-4.35,-23.34"
       ],
@@ -345,14 +345,14 @@
     },
     {
       "name": "Lachar",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "26.42,-4.38,26.83"
       ]
     },
     {
       "name": "Lambert",
-      "level": 1,
+      "levelRange": "1",
       "locations": [
         "18.46,-4.38,44.69",
         "47.14,0.0,0.17"
@@ -360,13 +360,13 @@
     },
     {
       "name": "Lorn McHalford",
+      "purpose": "Shieldsmith",
       "race": [
         "barbarian"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Shieldsmith",
       "locations": [
         "73.73,-4.37,2.15"
       ],
@@ -392,13 +392,13 @@
     },
     {
       "name": "Megen O`Keel",
+      "purpose": "Tailor",
       "race": [
         "barbarian"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Tailor",
       "locations": [
         "45.55,-4.35,-8.51"
       ],
@@ -427,13 +427,13 @@
     },
     {
       "name": "Merchant Ziraak",
+      "purpose": "Armorsmith",
       "race": [
         "iksar"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Armorsmith",
       "locations": [
         "82.9,-4.37,4.48"
       ],
@@ -497,13 +497,13 @@
     },
     {
       "name": "Olin Barkstripper",
+      "purpose": "General Goods",
       "race": [
         "barbarian"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "General Goods",
       "locations": [
         "38.67,0.0,6.89"
       ],
@@ -538,14 +538,14 @@
     },
     {
       "name": "a poisonous hood wasp",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "70.89,-4.35,-30.03"
       ]
     },
     {
       "name": "a rat",
-      "level": 2,
+      "levelRange": "2",
       "locations": [
         "15.98,-4.38,9.82",
         "36.12,-2.25,-14.97",
@@ -569,13 +569,13 @@
     },
     {
       "name": "Scribe Coldquill",
+      "purpose": "Linguist",
       "race": [
         "barbarian"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Linguist",
       "locations": [
         "43.4,1.35,53.81"
       ],
@@ -629,7 +629,7 @@
     },
     {
       "name": "Spera",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "29.09,0.0,9.03",
         "48.16,-4.35,-10.66"
@@ -637,13 +637,13 @@
     },
     {
       "name": "Sypp",
+      "purpose": "Alchemist",
       "race": [
         "iksar"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Alchemist",
       "locations": [
         "73.96,0.0,-5.68"
       ],
@@ -656,20 +656,20 @@
     },
     {
       "name": "Tabitha",
-      "level": 2,
+      "levelRange": "2",
       "locations": [
         "21.52,-4.38,36.16"
       ]
     },
     {
       "name": "Tegan Frostfist",
+      "purpose": "Crafting Trainer",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Crafting Trainer",
       "locations": [
         "14.29,-4.38,23.79"
       ],

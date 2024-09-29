@@ -2,7 +2,7 @@
   "name": "Timorous Deep",
   "expansion": "exp04",
   "category": "Kunark",
-  "description": "Once a secret laboratory to develop an army, the city of Gorowyn is now home to the sarnak race. Nestled within the belly of an extinct volcano, the sarnak work to discover the mysterious origins of their creation, and wage war against the aggressive Haoaeran race.",
+  "notes": "Once a secret laboratory to develop an army, the city of Gorowyn is now home to the sarnak race. Nestled within the belly of an extinct volcano, the sarnak work to discover the mysterious origins of their creation, and wage war against the aggressive Haoaeran race.",
   "levels": "1-20",
   "maps": [
     {
@@ -248,11 +248,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
+          "gamelink": "\\aITEM -1655667007 179755908:an aviak talon\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1655667007 179755908:an aviak talon\\/a",
+          "gamelink": "\\aITEM 1993577523 1992022789:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -314,15 +314,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 72996731 493848164:an aviak feather\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 233806672 1027460781:an aviak gizzard\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         }
       ],
@@ -348,15 +348,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1935599597 1082883474:an aviak beak\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -363350441 -1765020079:an aviak tongue\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1935599597 1082883474:an aviak beak\\/a",
           "chest": false
         }
       ]
@@ -543,6 +543,12 @@
       ]
     },
     {
+      "gamelink": "\\aITEM 956491458 -50916358:plain black moth\\/a",
+      "locations": [
+        "1618.33,166.26,-446.80"
+      ]
+    },
+    {
       "gamelink": "\\aITEM -1498904707 -916017101:Threshed Straw\\/a",
       "locations": [
         "2341.87,14.13,1369.32",
@@ -554,12 +560,6 @@
       "locations": [
         "2350.65,6.79,1404.12",
         "2687.63,4.62,1221.89"
-      ]
-    },
-    {
-      "gamelink": "\\aITEM 956491458 -50916358:plain black moth\\/a",
-      "locations": [
-        "1618.33,166.26,-446.80"
       ]
     }
   ],

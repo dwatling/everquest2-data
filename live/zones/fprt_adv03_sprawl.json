@@ -7,15 +7,15 @@
       "key": "commonlands"
     },
     {
-      "key": "fprt_hood06_clone",
-      "location": "-101.72,-7.00,-30.02"
+      "key": "fprt_adv04_ruins"
     },
     {
       "key": "fprt_hood01_clone",
       "location": "-104.92,-4.42,-52.17"
     },
     {
-      "key": "fprt_adv04_ruins"
+      "key": "fprt_hood06_clone",
+      "location": "-101.72,-7.00,-30.02"
     },
     {
       "key": "fprt_sewer02"
@@ -40,7 +40,7 @@
     },
     {
       "name": "a Black Magi anarchist",
-      "level": 11,
+      "levelRange": "11",
       "difficulty": "heroic",
       "locations": [
         "-5.12,-2.67,20.60",
@@ -73,7 +73,7 @@
     },
     {
       "name": "a Black Magi dissident",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "1.31,-2.67,34.29",
         "6.49,-2.67,33.92",
@@ -102,7 +102,7 @@
     },
     {
       "name": "a Black Magi fanatic",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "-14.74,-2.52,31.46",
         "-29.45,-2.67,48.07",
@@ -125,7 +125,7 @@
     },
     {
       "name": "a Black Magi guard",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "64.99,2.13,90.53"
       ],
@@ -138,7 +138,7 @@
     },
     {
       "name": "a Black Magi insurgent",
-      "level": 11,
+      "levelRange": "11",
       "difficulty": "heroic",
       "locations": [
         "-5.92,-2.66,13.32",
@@ -194,21 +194,21 @@
     },
     {
       "name": "a  captured dwarf agitator",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "62.52,2.47,96.21"
       ]
     },
     {
       "name": "a captured halfling upstart",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "64.13,2.47,98.64"
       ]
     },
     {
       "name": "a captured wood elf scout",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "66.91,2.43,98.00"
       ],
@@ -240,7 +240,7 @@
     },
     {
       "name": "a Dervish crook",
-      "level": 9,
+      "levelRange": "9",
       "locations": [
         "-73.43,-4.23,90.98",
         "-67.35,-4.42,84.55",
@@ -268,7 +268,7 @@
     },
     {
       "name": "a Dervish hoodlum",
-      "level": 7,
+      "levelRange": "7",
       "locations": [
         "-63.01,-4.42,90.62",
         "-64.65,-4.42,79.24",
@@ -282,16 +282,16 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1621503125 -1275295656:black stone\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 483754019 -176619963:bloodstained bat fang\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -693205793 -1139182362:guttersnipe great axe\\/a",
           "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1621503125 -1275295656:black stone\\/a",
-          "chest": false
         }
       ],
       "drop_coin_min": 5,
@@ -309,7 +309,7 @@
     },
     {
       "name": "a Dervish hooligan",
-      "level": 5,
+      "levelRange": "5",
       "locations": [
         "-93.87,-4.42,32.95",
         "-75.26,-4.42,31.29",
@@ -325,11 +325,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
+          "gamelink": "\\aITEM 1399953986 1780527766:black spider silk\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1399953986 1780527766:black spider silk\\/a",
+          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
           "chest": false
         }
       ],
@@ -359,7 +359,7 @@
     },
     {
       "name": "a dune scorpion",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "-74.71,-5.31,-32.75",
         "-64.77,-5.17,-32.16",
@@ -374,13 +374,13 @@
     },
     {
       "name": "Enforcer Kurdek",
+      "purpose": "Dreadnaught",
       "race": [
         "ogre"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Dreadnaught",
       "locations": [
         "-83.78,-4.68,-36.07"
       ],
@@ -438,13 +438,13 @@
     },
     {
       "name": "Gatekeeper Malora",
+      "purpose": "Freeport Militia",
       "race": [
         "half elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Freeport Militia",
       "locations": [
         "24.58,-2.67,22.69"
       ],
@@ -466,7 +466,7 @@
     },
     {
       "name": "a Giantslayer thug",
-      "level": 9,
+      "levelRange": "9",
       "locations": [
         "-18.06,-2.67,-22.14",
         "-21.27,-2.32,-17.12",
@@ -502,7 +502,7 @@
     },
     {
       "name": "Gloomstalker",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "-15.81,-2.53,12.49",
         "-9.59,-2.67,-17.95",
@@ -533,7 +533,7 @@
     },
     {
       "name": "a gravel viper",
-      "level": 7,
+      "levelRange": "7",
       "locations": [
         "-63.71,-4.42,77.96",
         "-73.49,-4.42,75.75",
@@ -551,13 +551,13 @@
     },
     {
       "name": "Loria",
+      "purpose": "Provisions",
       "race": [
         "barbarian"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Provisions",
       "locations": [
         "-96.05,-4.3,-62.73"
       ],
@@ -581,7 +581,7 @@
     },
     {
       "name": "Niklaus Kauppen",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "-97.93,-3.95,65.16"
       ],
@@ -745,7 +745,7 @@
     },
     {
       "name": "a shoreside asp",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "-71.67,-5.30,-32.13",
         "-72.68,-5.31,-25.72",
@@ -784,7 +784,7 @@
     },
     {
       "name": "a wild dog",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "1.14,-2.67,18.73",
         "-8.67,-2.67,-5.90",

@@ -24,7 +24,7 @@
   "npcs": [
     {
       "name": "a Bloodsaber watcher",
-      "level": 7,
+      "levelRange": "7",
       "locations": [
         "656.84,-32.84,569.36",
         "608.85,-32.7,542.66",
@@ -44,7 +44,7 @@
     },
     {
       "name": "a bog faerie",
-      "level": 7,
+      "levelRange": "7",
       "locations": [
         "633.83,-32.34,552.97",
         "624.22,-33.84,565.09",
@@ -67,7 +67,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
+          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
           "chest": false
         },
         {
@@ -75,19 +75,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1334963291 -888860409:a fairy eye\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -2067929346 1951232146:a fairy antenna\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -694632991 -1021080484:a fairy wing\\/a",
           "chest": false
         },
         {
@@ -103,15 +91,27 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 1334963291 -888860409:a fairy eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -694632991 -1021080484:a fairy wing\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1775129948 148489377:Far Seas Trading Requisition PBG0295\\/a",
           "chest": true
         },
         {
-          "gamelink": "\\aITEM 1385603239 -898323231:a vial of fairy blood\\/a",
+          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1248460866 -2081525494:Advanced Adornments Volume 1\\/a",
+          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1385603239 -898323231:a vial of fairy blood\\/a",
           "chest": false
         }
       ],
@@ -120,7 +120,7 @@
     },
     {
       "name": "a bog sludge",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "768.26,-33.98,399.1",
         "773.93,-34.08,395.39",
@@ -145,7 +145,7 @@
     },
     {
       "name": "a bog slug",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "705.62,-32.76,452.67",
         "613.46,-33.29,426.91",
@@ -181,7 +181,7 @@
     },
     {
       "name": "a faerie abbot",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "738.21,-32.4,527.5",
         "720.19,-33.15,526.54",
@@ -204,7 +204,7 @@
     },
     {
       "name": "a faerie gatekeeper",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "745.7,-32.68,523.83",
         "751.31,-32.69,526.87"
@@ -216,7 +216,7 @@
     },
     {
       "name": "a faerie guardian",
-      "level": 12,
+      "levelRange": "12",
       "locations": [
         "734.63,-32.71,519.96",
         "725.62,-33.11,535.29",
@@ -234,11 +234,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1486270158 1484298989:a vial of fairy blood\\/a",
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
+          "gamelink": "\\aITEM -1486270158 1484298989:a vial of fairy blood\\/a",
           "chest": false
         }
       ],
@@ -247,7 +247,7 @@
     },
     {
       "name": "a faerie noblesse",
-      "level": 13,
+      "levelRange": "13",
       "difficulty": "heroic",
       "locations": [
         "697.38,-31.27,538.39",
@@ -265,7 +265,7 @@
     },
     {
       "name": "a fay tangleroot",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "679.14,-33.15,522.7",
         "680.08,-33.36,547.1",
@@ -277,12 +277,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 984980240 -1574956445:wooden splinter\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1920229993 1831389544:Far Seas Trading Requisition PBG0162\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 984980240 -1574956445:wooden splinter\\/a",
+          "chest": false
         }
       ]
     },
@@ -301,7 +301,7 @@
     },
     {
       "name": "a fungus crawler",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "803.96,-33.09,560.77",
         "797.84,-32.93,542.39",
@@ -317,7 +317,7 @@
     },
     {
       "name": "a greater bog faerie",
-      "level": 9,
+      "levelRange": "9",
       "locations": [
         "777.05,-32.99,475.13",
         "765.94,-32.93,485.81",
@@ -337,7 +337,7 @@
     {
       "name": "Guard Andrews",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "locations": [
         "571.10,-26.39,405.30"
@@ -350,7 +350,7 @@
     {
       "name": "Guard Black",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "locations": [
         "667.71,-33.36,422.99"
@@ -363,7 +363,7 @@
     {
       "name": "Guard Dierdra",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "locations": [
         "574.56,-26.39,405.5"
@@ -372,7 +372,7 @@
     {
       "name": "Guard Moor",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "utterances": [
         "To arms!"
@@ -381,7 +381,7 @@
     {
       "name": "Guard Nander",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "locations": [
         "772,-26.39,365.05"
@@ -394,7 +394,7 @@
     {
       "name": "Guard Vivian",
       "purpose": "Guard",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "locations": [
         "769.75,-26.39,365.39",
@@ -409,7 +409,7 @@
     },
     {
       "name": "King Itchhide",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "650.87,-35.58,609.26"
       ],
@@ -445,7 +445,7 @@
     },
     {
       "name": "a large scavenger",
-      "level": 7,
+      "levelRange": "7",
       "locations": [
         "648.08,-32.36,494.08",
         "638.13,-35.04,603.64",
@@ -488,7 +488,7 @@
     },
     {
       "name": "Lurkblister",
-      "level": 15,
+      "levelRange": "15",
       "difficulty": "heroic",
       "locations": [
         "684.84,-34.32,445.52",
@@ -502,12 +502,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 342190699 355608387:Muck Stained Spaulders\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -1700581584 -1564337946:an accumulation of plasma\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 342190699 355608387:Muck Stained Spaulders\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -556387069 -2093279945:Stalk (Adept)\\/a",
@@ -517,7 +517,7 @@
     },
     {
       "name": "a marsh hatchling",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "702.89,-34.47,607.70",
         "752.77,-32.55,612.92",
@@ -532,7 +532,7 @@
     },
     {
       "name": "a marsh mauler",
-      "level": 10,
+      "levelRange": "10",
       "locations": [
         "800.9,-32.65,613.01",
         "803.96,-33.09,560.77",
@@ -550,7 +550,7 @@
     },
     {
       "name": "a mist stalker",
-      "level": 11,
+      "levelRange": "11",
       "locations": [
         "785.45,-33.75,476.53",
         "798.97,-33.2,472.56",
@@ -567,7 +567,7 @@
     },
     {
       "name": "a muck toad",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "760.21,-32.75,435.97",
         "782.22,-33.12,450.48",
@@ -587,12 +587,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1329575188 870687383:a vial of frog blood\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1920229993 1831389544:Far Seas Trading Requisition PBG0162\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1329575188 870687383:a vial of frog blood\\/a",
+          "chest": false
         }
       ]
     },
@@ -661,7 +661,7 @@
     },
     {
       "name": "a puny scavenger",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "607.5,-33.07,456.2",
         "773.27,-33.27,405.55",
@@ -676,7 +676,7 @@
     },
     {
       "name": "Queen Ezeldra",
-      "level": 13,
+      "levelRange": "13",
       "difficulty": "heroic",
       "locations": [
         "693.52,-31.28,538.90"
@@ -695,7 +695,7 @@
     },
     {
       "name": "a ravenous bog slug",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "599.18,-32.7,562.37",
         "604.02,-33.35,578.85",
@@ -712,7 +712,7 @@
     },
     {
       "name": "a refuse burrower",
-      "level": 9,
+      "levelRange": "9",
       "locations": [
         "649.41,-35.71,610.73"
       ],
@@ -725,7 +725,7 @@
     },
     {
       "name": "a rot crawler",
-      "level": 9,
+      "levelRange": "9",
       "locations": [
         "794.5,-32.58,607.15",
         "797.53,-33.78,550.87",
@@ -767,7 +767,7 @@
     },
     {
       "name": "a silt sucker",
-      "level": 7,
+      "levelRange": "7",
       "locations": [
         "667.11,-34.26,510.38",
         "671.29,-34.17,498.5",
@@ -786,7 +786,7 @@
     },
     {
       "name": "a sporeal guard",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "765.94,-33.14,436.82",
         "780.47,-34.21,437.89"
@@ -800,7 +800,7 @@
     },
     {
       "name": "a sporeal herbalist",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "779.01,-33.97,446.49",
         "784.09,-34.13,436.32"
@@ -808,7 +808,7 @@
     },
     {
       "name": "a sporeal knight",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "778.65,-34.06,436.84",
         "785.81,-33.81,436.37"
@@ -822,7 +822,7 @@
     },
     {
       "name": "a sporeal seedling",
-      "level": 5,
+      "levelRange": "5",
       "locations": [
         "621.21,-33.09,452.47",
         "718.76,-33.7,464.84",
@@ -837,7 +837,7 @@
     },
     {
       "name": "a swamp seep",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "702.25,-32.44,631.54",
         "711.37,-35.39,602.19",
@@ -917,7 +917,7 @@
     },
     {
       "name": "a toxic bog slug",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "635.51,-33.79,558.36",
         "640.61,-33.89,538.30",
@@ -933,7 +933,7 @@
     },
     {
       "name": "a wetland monitor",
-      "level": 8,
+      "levelRange": "8",
       "locations": [
         "686.31,-33.44,621.97",
         "704,-34,616.93",
@@ -954,11 +954,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -602141270 -322998714:a split tongue\\/a",
+          "gamelink": "\\aITEM 1168732856 733388760:reptile meat\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1168732856 733388760:reptile meat\\/a",
+          "gamelink": "\\aITEM -602141270 -322998714:a split tongue\\/a",
           "chest": false
         }
       ]

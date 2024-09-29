@@ -18,7 +18,7 @@
   "npcs": [
     {
       "name": "a Bloodsaber diver",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-248.45,-26.08,1312.76",
@@ -48,7 +48,7 @@
     },
     {
       "name": "a Bloodsaber elite guard",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic",
       "locations": [
         "-143.97,-21.95,1189.01"
@@ -59,7 +59,7 @@
     },
     {
       "name": "a Bloodsaber emissary",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic",
       "locations": [
         "-155.84,-22.30,1176.69"
@@ -70,7 +70,7 @@
     },
     {
       "name": "a Bloodsaber guard",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic",
       "locations": [
         "-116.97,-11.05,1047.01",
@@ -86,7 +86,7 @@
     },
     {
       "name": "a Bloodsaber laborer",
-      "level": 24,
+      "levelRange": "24",
       "difficulty": "heroic",
       "locations": [
         "-133.86,-21.20,1070.35",
@@ -99,18 +99,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 942338143 -894051179:application for citizenship\\/a",
+          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1862588355 -12447775:Advanced Adornments Volume 3\\/a",
+          "gamelink": "\\aITEM 942338143 -894051179:application for citizenship\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a Bloodsaber medic",
-      "level": 24,
+      "levelRange": "24",
       "difficulty": "heroic",
       "locations": [
         "-180.52,-22.84,1077.55",
@@ -121,7 +121,7 @@
     },
     {
       "name": "a Bloodsaber surveyor",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-202.81,-19.93,1117.93"
@@ -129,7 +129,7 @@
     },
     {
       "name": "a Steelhoof defender",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic",
       "locations": [
         "-235.68,-21.58,1180.60",
@@ -165,7 +165,7 @@
     },
     {
       "name": "a Steelhoof inspector",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-192.39,-22.42,1130.03",
@@ -204,7 +204,7 @@
     },
     {
       "name": "a Steelhoof planner",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "-277.62,-21.91,1178.54"
@@ -229,7 +229,7 @@
     },
     {
       "name": "a Steelhoof taskmaster",
-      "level": 27,
+      "levelRange": "27",
       "difficulty": "heroic",
       "locations": [
         "-203.03,-21.37,1123.82"
@@ -254,7 +254,7 @@
     },
     {
       "name": "a tide octopus",
-      "level": 24,
+      "levelRange": "24",
       "difficulty": "heroic",
       "locations": [
         "-225.78,-39.98,1274.52",

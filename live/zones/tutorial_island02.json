@@ -1,5 +1,6 @@
 {
   "name": "Queen's Colony",
+  "category": "Unknown",
   "levels": "2-8",
   "maps": [
     {
@@ -17,14 +18,14 @@
   "npcs": [
     {
       "name": "an average sparring partner",
+      "levelRange": "2",
+      "difficulty": "herioc",
       "race": [
         "dwarf"
       ],
       "gender": [
         "male"
       ],
-      "level": 2,
-      "difficulty": "herioc",
       "locations": [
         "36.62,-5.66,122.25"
       ],
@@ -34,13 +35,13 @@
     },
     {
       "name": "Banker Bogfoot",
+      "purpose": "Banker",
       "race": [
         "halfling"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Banker",
       "locations": [
         "-10.57,-3.17,111.48"
       ]
@@ -62,13 +63,13 @@
     },
     {
       "name": "Captain Varlos",
+      "purpose": "Passage from Queen's Colony",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Passage from Queen's Colony",
       "locations": [
         "-84.87,-7.85,242.55"
       ],
@@ -85,13 +86,13 @@
     },
     {
       "name": "Captain Warrik",
+      "purpose": "Know Your Place in the World",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Know Your Place in the World",
       "locations": [
         "-10.13,-2.75,157.05"
       ],
@@ -142,7 +143,7 @@
     },
     {
       "name": "a coastal crab",
-      "level": 2,
+      "levelRange": "2",
       "locations": [
         "-75.53,-8.41,93.29",
         "-95.32,-9.32,86.29",
@@ -183,7 +184,7 @@
     },
     {
       "name": "The Dark Puppeteer",
-      "level": 5,
+      "levelRange": "5",
       "locations": [
         "-121.57,4.51,-31.95"
       ]
@@ -205,13 +206,13 @@
     },
     {
       "name": "Defender Bristlebrow",
+      "purpose": "Guard",
       "race": [
         "barbarian"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Guard",
       "locations": [
         "68.32,-4.4,180.11"
       ],
@@ -244,7 +245,7 @@
     },
     {
       "name": "a defiled grove deer",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "155.6,1.32,9.03",
         "173.08,1.16,24.9",
@@ -258,7 +259,7 @@
     },
     {
       "name": "a defiled mage",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "236.53,-1.41,-122.68",
         "200.82,-0.70,-155.90",
@@ -270,7 +271,7 @@
     },
     {
       "name": "a defiled priest",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "202.87,0.78,-126.5",
         "226.83,-0.79,-191.19",
@@ -286,7 +287,7 @@
     },
     {
       "name": "a defiled scout",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "234.41,-5.07,-12.05",
         "-17.63,2.75,-140.63",
@@ -309,7 +310,7 @@
     },
     {
       "name": "a defiled soldier",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "129.86,0.4,-166.82",
         "159.82,3.9,-150.43",
@@ -353,7 +354,7 @@
     },
     {
       "name": "Direspike",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "89.78,5.02,124.29",
         "100.94,1.61,113.37"
@@ -417,7 +418,7 @@
     },
     {
       "name": "a fallen assassin",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-103.15,4.26,-105.89",
         "-55.20,2.11,-152.06",
@@ -432,7 +433,7 @@
     },
     {
       "name": "a fallen brigand",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-107.27,4.48,-121.43",
         "-128.45,4.55,-97.92",
@@ -458,7 +459,7 @@
     },
     {
       "name": "a fallen pirate",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "-139.77,4.73,-89.81",
         "-136.87,4.57,-62.89",
@@ -505,14 +506,14 @@
     },
     {
       "name": "a formidable sparring partner",
+      "levelRange": "2",
+      "difficulty": "herioc",
       "race": [
         "barbarian"
       ],
       "gender": [
         "male"
       ],
-      "level": 2,
-      "difficulty": "herioc",
       "locations": [
         "40.1,-5.59,125.25"
       ],
@@ -522,13 +523,13 @@
     },
     {
       "name": "Galan Crestrider",
+      "purpose": "General Goods",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "General Goods",
       "locations": [
         "-35.35,-6.17,56.69"
       ],
@@ -766,7 +767,7 @@
     },
     {
       "name": "a ghostly sapling",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "149.21,0.15,-10.29",
         "163.66,0.74,-16.04",
@@ -784,11 +785,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 220303815 -2092524802:a vial of spectral essence\\/a",
+          "gamelink": "\\aITEM -86102345 -151067204:a ghost vile plasm \\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -86102345 -151067204:a ghost vile plasm \\/a",
+          "gamelink": "\\aITEM 220303815 -2092524802:a vial of spectral essence\\/a",
           "chest": false
         },
         {
@@ -801,7 +802,7 @@
     },
     {
       "name": "a ghostly treant",
-      "level": 5,
+      "levelRange": "5",
       "locations": [
         "101.97,1.45,-99.77",
         "110.57,1.61,-88.38",
@@ -823,7 +824,7 @@
     },
     {
       "name": "a giant coastal crab",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "19.09,-10.21,-68.61",
         "35.85,-9.35,-58.16",
@@ -882,7 +883,7 @@
     },
     {
       "name": "Grimroot",
-      "level": 6,
+      "levelRange": "6",
       "locations": [
         "58.35,1.81,-110.31"
       ],
@@ -904,7 +905,7 @@
     },
     {
       "name": "a grove deer",
-      "level": 2,
+      "levelRange": "2",
       "locations": [
         "77.77,-4.53,223.08",
         "58.76,-4.46,222.64",
@@ -921,7 +922,7 @@
     },
     {
       "name": "The Guurok",
-      "level": 6,
+      "levelRange": "6",
       "difficulty": "heroic^^^",
       "locations": [
         "-39.85,0.11,-193.64"
@@ -929,13 +930,13 @@
     },
     {
       "name": "Hanna Deeppockets",
+      "purpose": "General Goods",
       "race": [
         "halfling"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "General Goods",
       "locations": [
         "27.45,-6.35,176.68"
       ],
@@ -1453,7 +1454,7 @@
     },
     {
       "name": "a large coastal crab",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "-83.62,-8.47,36.05",
         "-95.91,-10.16,26.6",
@@ -1492,7 +1493,7 @@
     },
     {
       "name": "a lost scout",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "245.74,-5.28,125.67",
         "244.93,-6.95,107.37",
@@ -1546,13 +1547,13 @@
     },
     {
       "name": "Mender Mannus",
+      "purpose": "Mender",
       "race": [
         "barbarian"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Mender",
       "locations": [
         "-28,-4.31,123.72"
       ],
@@ -1578,7 +1579,7 @@
     },
     {
       "name": "a Morak devourer",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "239.39,-5.26,135.17",
         "254.76,-4.29,35.85",
@@ -1639,18 +1640,18 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 641537398 409580744:Weakened Blood of the Wolf\\/a",
+          "gamelink": "\\aITEM 126592549 446323017:rawhide leather pelt\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 126592549 446323017:rawhide leather pelt\\/a",
+          "gamelink": "\\aITEM 641537398 409580744:Weakened Blood of the Wolf\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a Morak mangler",
-      "level": 5,
+      "levelRange": "5",
       "locations": [
         "-5.6,2.06,-195.41",
         "-60.34,2.26,-179.45",
@@ -1677,13 +1678,13 @@
     },
     {
       "name": "Murrar Shar",
+      "purpose": "Emissary of Queen Antonia Bayle",
       "race": [
         "kerran"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Emissary of Queen Antonia Bayle",
       "locations": [
         "-9.38,-4.18,176.6"
       ],
@@ -1735,7 +1736,7 @@
     },
     {
       "name": "a needlefang",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "-78.86,-10.95,12.97",
         "9.43,-10.8,-57.83",
@@ -1753,7 +1754,7 @@
     {
       "name": "Oshar Grahl",
       "purpose": "Guard",
-      "level": 102,
+      "levelRange": "102",
       "locations": [
         "-63.37,-8.89,62.87"
       ],
@@ -1763,13 +1764,13 @@
     },
     {
       "name": "Paula Marx",
+      "purpose": "Collector",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Collector",
       "locations": [
         "-0.44,-5.57,208.31",
         "16.24,-6.86,188.27"
@@ -1804,6 +1805,8 @@
     },
     {
       "name": "a Qeynos Guardsman",
+      "purpose": "Guard",
+      "levelRange": "100",
       "race": [
         "dwarf",
         "kerran",
@@ -1813,8 +1816,6 @@
       "gender": [
         "male"
       ],
-      "purpose": "Guard",
-      "level": 100,
       "locations": [
         "-21.93,-5.09,209.07",
         "-20.95,-5.25,215.63"
@@ -1846,7 +1847,7 @@
     },
     {
       "name": "a razortooth shark",
-      "level": 5,
+      "levelRange": "5",
       "locations": [
         "-93.71,-10.95,3.24",
         "-10.88,-10.83,30.23",
@@ -1871,7 +1872,7 @@
     },
     {
       "name": "a reef turtle",
-      "level": 2,
+      "levelRange": "2",
       "locations": [
         "-121.8,-10.91,57.78",
         "-143.42,-10.92,64.85",
@@ -1967,7 +1968,7 @@
     },
     {
       "name": "a sawtooth shark",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "60.06,-10.9,-65.56",
         "92.83,-10.9,25.5",
@@ -1992,7 +1993,7 @@
     },
     {
       "name": "a seaside falcon",
-      "level": 2,
+      "levelRange": "2",
       "locations": [
         "96.41,-4.07,198.89",
         "94.9,-4.01,185.32",
@@ -2011,13 +2012,13 @@
     },
     {
       "name": "Sergeant Haggus",
+      "purpose": "Qeynos Guard",
       "race": [
         "barbarian"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Qeynos Guard",
       "locations": [
         "62.66,-4.26,168.72"
       ],
@@ -2033,7 +2034,7 @@
     },
     {
       "name": "a shoal glider",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "-131.14,-10.9,54.97",
         "-144.91,-10.9,52.47",
@@ -2066,7 +2067,7 @@
     },
     {
       "name": "a silt sucker",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "3.73,-0.02,-230.49",
         "-2.32,0.01,-224.68",
@@ -2090,7 +2091,7 @@
     },
     {
       "name": "a small coastal crab",
-      "level": 1,
+      "levelRange": "1",
       "locations": [
         "0.28,-7.82,243.39",
         "-19.25,-8.9,256.04",
@@ -2138,7 +2139,7 @@
     },
     {
       "name": "a tainted falcon",
-      "level": 2,
+      "levelRange": "2",
       "locations": [
         "157.59,-3.16,138.86",
         "240.16,-6.97,93.23",
@@ -2164,7 +2165,7 @@
     },
     {
       "name": "a tainted grove deer",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "152.2,-3.58,180.37",
         "187.97,1.13,59.04",
@@ -2175,7 +2176,7 @@
     },
     {
       "name": "a tainted Sapswill ambusher",
-      "level": 5,
+      "levelRange": "5",
       "locations": [
         "-50.69,2.03,-156.70",
         "-52.30,2.03,-161.85",
@@ -2184,7 +2185,7 @@
     },
     {
       "name": "a tainted Sapswill fighter",
-      "level": 4,
+      "levelRange": "4",
       "locations": [
         "232.98,-5.07,-18.4",
         "199.5,-0.71,-121.37",
@@ -2202,7 +2203,7 @@
     },
     {
       "name": "a tainted Sapswill grunt",
-      "level": 2,
+      "levelRange": "2",
       "locations": [
         "192.42,-4.13,185.09",
         "190.86,-2.58,198.22",
@@ -2217,11 +2218,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1581811914 -134846935:half-burned ceremonial candle\\/a",
+          "gamelink": "\\aITEM -612798970 943460484:a decomposing zombie organ\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -612798970 943460484:a decomposing zombie organ\\/a",
+          "gamelink": "\\aITEM -1581811914 -134846935:half-burned ceremonial candle\\/a",
           "chest": false
         }
       ],
@@ -2230,7 +2231,7 @@
     },
     {
       "name": "a tainted Sapswill hunter",
-      "level": 5,
+      "levelRange": "5",
       "locations": [
         "146.76,0.81,-179.59",
         "175.75,1.84,-153.32",
@@ -2255,7 +2256,7 @@
     },
     {
       "name": "a tainted Sapswill invader",
-      "level": 1,
+      "levelRange": "1",
       "locations": [
         "100.22,-4.2,169.37",
         "160.74,-2.45,183.47",
@@ -2287,19 +2288,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM -546866184 -1198631268:blue lotus petal\\/a",
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -1394122634 -257532895:Fiery Carnelian\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 896995114 -1325468405:a flesh covered zombie bone\\/a",
           "chest": false
         }
       ],
@@ -2308,7 +2309,7 @@
     },
     {
       "name": "a tainted Sapswill scout",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "228.68,-4.94,-9.46",
         "190.54,-0.67,-124.45",
@@ -2338,15 +2339,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 1525376366 -1417116168:azure charm\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1271296919 -625223997:a corrupted zombie brain\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1394122634 4898643:Fiery Carnelian\\/a",
           "chest": false
         }
       ],
@@ -2355,7 +2356,7 @@
     },
     {
       "name": "a tainted Sapswill tapper",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "149.2,0.19,-5.01",
         "180.06,1.76,21.37",
@@ -2384,7 +2385,7 @@
     },
     {
       "name": "a tainted Sapswill warrior",
-      "level": 5,
+      "levelRange": "5",
       "locations": [
         "159.13,-0.55,-181.69",
         "172.57,1.92,-156.53",
@@ -2402,11 +2403,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
+          "gamelink": "\\aITEM -612798970 943460484:a decomposing zombie organ\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -612798970 943460484:a decomposing zombie organ\\/a",
+          "gamelink": "\\aITEM 475563480 -96262858:sundered obsidian\\/a",
           "chest": false
         }
       ],
@@ -2430,7 +2431,7 @@
     },
     {
       "name": "a toxic crawler",
-      "level": 3,
+      "levelRange": "3",
       "locations": [
         "121.92,1.38,99.77",
         "120.36,1.54,105.4",
@@ -2470,13 +2471,13 @@
     },
     {
       "name": "Trainer Borda Gemseeker",
+      "purpose": "Matron of the Harvest and Collections",
       "race": [
         "dwarf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Matron of the Harvest and Collections",
       "locations": [
         "16.48,-6.92,214.49"
       ],
@@ -2492,13 +2493,13 @@
     },
     {
       "name": "Trainer Charlene Stoutmuffin",
+      "purpose": "Know Your Inventory and Equipment",
       "race": [
         "halfling"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Know Your Inventory and Equipment",
       "locations": [
         "-3.04,-3.08,108.62"
       ],
@@ -2521,13 +2522,13 @@
     },
     {
       "name": "Trainer Cheye Seawind",
+      "purpose": "Know Your Fate",
       "race": [
         "half elf"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Know Your Fate",
       "locations": [
         "3.27,-3.88,151.56"
       ],
@@ -2547,13 +2548,13 @@
     },
     {
       "name": "Trainer Gregory Collins",
+      "purpose": "Skilled Artisan and Crafter",
       "race": [
         "human"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Skilled Artisan and Crafter",
       "locations": [
         "-20.2,-3.99,156.62"
       ],
@@ -2570,13 +2571,13 @@
     },
     {
       "name": "Trainer Gurga Trueheart",
+      "purpose": "Expert in Physical Attributes",
       "race": [
         "froglok"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Expert in Physical Attributes",
       "locations": [
         "-10.58,-3.78,128.06"
       ],
@@ -2594,13 +2595,13 @@
     },
     {
       "name": "Trainer Hayl McGuinness",
+      "purpose": "Master of Combat Training",
       "race": [
         "barbarian"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Master of Combat Training",
       "locations": [
         "28.31,-5.5,140.8"
       ],
@@ -2635,13 +2636,13 @@
     },
     {
       "name": "Trainer Marla Gilliam",
+      "purpose": "Know Your Enemy",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Know Your Enemy",
       "locations": [
         "25.82,-5.74,126.21"
       ],
@@ -2697,13 +2698,13 @@
     },
     {
       "name": "Trainer Verrin Glimmertide",
+      "purpose": "Recognizing Opportunities",
       "race": [
         "half elf"
       ],
       "gender": [
         "male"
       ],
-      "purpose": "Recognizing Opportunities",
       "locations": [
         "22.05,-5.74,124.63"
       ],
@@ -2728,13 +2729,13 @@
     },
     {
       "name": "Trainer Zidget Sprogrudder",
+      "purpose": "Knowledge of Repairs and Banking",
       "race": [
         "gnome"
       ],
       "gender": [
         "female"
       ],
-      "purpose": "Knowledge of Repairs and Banking",
       "locations": [
         "-17.7,-3.16,108.05"
       ],
@@ -2750,7 +2751,7 @@
     },
     {
       "name": "a triggerfish",
-      "level": 2,
+      "levelRange": "2",
       "locations": [
         "-124.09,-10.93,54.09",
         "-141.63,-10.91,58.69",
@@ -2800,7 +2801,7 @@
     },
     {
       "name": "The Vulth",
-      "level": 5,
+      "levelRange": "5",
       "difficulty": "herioc",
       "locations": [
         "0.78,-14.08,1.12"
@@ -2823,13 +2824,13 @@
     },
     {
       "name": "a weak sparring partner",
+      "levelRange": "2",
       "race": [
         "human"
       ],
       "gender": [
         "female"
       ],
-      "level": 2,
       "locations": [
         "31.63,-5.63,121.79"
       ],

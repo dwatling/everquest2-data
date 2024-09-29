@@ -1,17 +1,26 @@
 {
   "name": "The Thundering Steppes",
   "category": "Karan",
-  "description": "The remains of the Plains of Karana are now the home of Thundermist Village and the Ruins of Varsoon.",
+  "notes": "The remains of the Plains of Karana are now the home of Thundermist Village and the Ruins of Varsoon.",
   "levels": "20-30",
   "connections": [
+    {
+      "key": "adv02_dun_sundered_foreshadow2"
+    },
+    {
+      "key": "adv02_dun_sundered_splitpaw_playground"
+    },
     {
       "key": "antonica"
     },
     {
-      "key": "varsoon"
+      "key": "exile_city"
     },
     {
-      "key": "varsoon_fabled"
+      "key": "exp03_rgn_butcherblock"
+    },
+    {
+      "key": "obelisk_of_lostsouls"
     },
     {
       "key": "steppes_epic01_cove"
@@ -23,15 +32,6 @@
       "key": "steppes_epic01_cove_raid"
     },
     {
-      "key": "steppes_mini01_solo"
-    },
-    {
-      "key": "steppes_mini01_undead_solo"
-    },
-    {
-      "key": "steppes_mini01_undead"
-    },
-    {
       "key": "steppes_mini01"
     },
     {
@@ -41,19 +41,19 @@
       "key": "steppes_mini01_pirate_solo"
     },
     {
-      "key": "adv02_dun_sundered_foreshadow2"
+      "key": "steppes_mini01_solo"
     },
     {
-      "key": "adv02_dun_sundered_splitpaw_playground"
+      "key": "steppes_mini01_undead"
     },
     {
-      "key": "obelisk_of_lostsouls"
+      "key": "steppes_mini01_undead_solo"
     },
     {
-      "key": "exile_city"
+      "key": "varsoon"
     },
     {
-      "key": "exp03_rgn_butcherblock"
+      "key": "varsoon_fabled"
     }
   ],
   "npcs": [
@@ -66,7 +66,7 @@
     },
     {
       "name": "Alliam Brohne",
-      "level": 30,
+      "levelRange": "30",
       "difficulty": "heroic^2",
       "locations": [
         "-445.57,-18.14,-425.72"
@@ -98,19 +98,19 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1460933134 -1511590904:a strand of golden hair\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 976091221 -2091197462:Fabric Patch\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -151171484 1525557672:a vocal nerve\\/a",
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "gamelink": "\\aITEM -1460933134 -1511590904:a strand of golden hair\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -151171484 1525557672:a vocal nerve\\/a",
           "chest": false
         }
       ],
@@ -119,7 +119,7 @@
     },
     {
       "name": "an Amazon archer",
-      "level": 26,
+      "levelRange": "26",
       "locations": [
         "656.68,16.43,391.79",
         "572.78,9.20,457.37",
@@ -273,7 +273,7 @@
     },
     {
       "name": "an Amazon sharpshooter",
-      "level": 28,
+      "levelRange": "28",
       "locations": [
         "38.70,0.01,1299.75",
         "123.51,0.20,1367.34",
@@ -381,7 +381,7 @@
     },
     {
       "name": "an arisen inducer",
-      "level": 26,
+      "levelRange": "26",
       "locations": [
         "-490.53,1.58,638.00",
         "-370.80,-1.02,450.79",
@@ -632,7 +632,7 @@
     },
     {
       "name": "Coy Baomar",
-      "level": 30,
+      "levelRange": "30",
       "difficulty": "heroic^3",
       "locations": [
         "-534.86,-21.03,-407.1"
@@ -677,7 +677,7 @@
     },
     {
       "name": "a creeping dead",
-      "level": 22,
+      "levelRange": "22",
       "difficulty": "heroic",
       "locations": [
         "1337.99,-3.49,-79.06",
@@ -809,7 +809,7 @@
     },
     {
       "name": "a drowned captain",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "-94.27,-13.44,882.32",
         "549.43,-22.41,194.23"
@@ -840,7 +840,7 @@
     },
     {
       "name": "a drowned trooper",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "-99.21,-10.29,883.41",
         "726.50,-20.78,1000.02",
@@ -854,7 +854,7 @@
     },
     {
       "name": "a drowned veteran",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "-95.59,-12.55,875.39",
         "740.85,-20.60,995.58",
@@ -878,12 +878,12 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -289215874 -2114663629:The Treaty for Treasure\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -289215874 -2114663629:The Treaty for Treasure\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 81,
@@ -906,11 +906,11 @@
       "name": "a Dustpaw guard",
       "drops": [
         {
-          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
         },
         {
@@ -1131,19 +1131,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -953055295 -1080640652:a giants beard\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -289215874 -2114663629:The Treaty for Treasure\\/a",
-          "chest": true
-        },
-        {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM -1729241156 -2110506842:a giant finger\\/a",
           "chest": false
         },
         {
@@ -1151,7 +1139,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
+          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -953055295 -1080640652:a giants beard\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 31755782 1098695081:a giant tooth\\/a",
           "chest": false
         },
         {
@@ -1163,12 +1159,16 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1729241156 -2110506842:a giant finger\\/a",
+          "gamelink": "\\aITEM -738042821 -2121031158:small bag of ammonium sulfate\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 31755782 1098695081:a giant tooth\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -289215874 -2114663629:The Treaty for Treasure\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 86,
@@ -1195,7 +1195,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
+          "gamelink": "\\aITEM -430136575 -2121467061:a giant ear\\/a",
           "chest": false
         },
         {
@@ -1203,11 +1203,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -430136575 -2121467061:a giant ear\\/a",
+          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
+          "gamelink": "\\aITEM 2103838242 141867734:Jasper Amulet\\/a",
           "chest": false
         }
       ],
@@ -1273,11 +1273,7 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
           "chest": false
         },
         {
@@ -1285,7 +1281,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "gamelink": "\\aITEM 1493145355 -1871422932:giant meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -1294,7 +1294,7 @@
     },
     {
       "name": "a fledgling antelope",
-      "level": 22,
+      "levelRange": "22",
       "locations": [
         "1266.93,-2.99,-283.10",
         "1252.47,-2.72,-290.46",
@@ -1354,7 +1354,7 @@
     },
     {
       "name": "a gleam goblin",
-      "level": 30,
+      "levelRange": "30",
       "difficulty": "heroic",
       "locations": [
         "-486.70,1.18,1028.72",
@@ -1367,7 +1367,7 @@
     },
     {
       "name": "a glimmer goblin",
-      "level": 29,
+      "levelRange": "29",
       "difficulty": "heroic",
       "locations": [
         "-502.92,3.03,1041.09",
@@ -1463,7 +1463,7 @@
     },
     {
       "name": "a griffawn",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "1270.20,3.63,-18.02",
         "1244.92,9.40,-170.20",
@@ -1528,7 +1528,7 @@
     },
     {
       "name": "a highland huntress",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "1280.85,-2.34,-102.63",
         "1028.67,-2.53,80.67",
@@ -1537,7 +1537,7 @@
     },
     {
       "name": "a highland lion cub",
-      "level": 21,
+      "levelRange": "21",
       "locations": [
         "1233.37,-1.94,-271.50",
         "1034.57,-0.97,-254.24",
@@ -1549,7 +1549,7 @@
     },
     {
       "name": "a highland matriarch",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "1280.99,-2.39,-103.01",
@@ -1558,14 +1558,14 @@
     },
     {
       "name": "a highland patriarch",
-      "level": 26,
+      "levelRange": "26",
       "locations": [
         "1273.02,-0.75,-101.36"
       ]
     },
     {
       "name": "a highland stalker",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "1107.05,-0.84,-77.63",
@@ -1585,7 +1585,7 @@
     },
     {
       "name": "a hovering deathclaw",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "1135.16,9.63,-109.31",
         "1153.56,8.00,-108.37",
@@ -1615,7 +1615,7 @@
     },
     {
       "name": "an immature weald wolf",
-      "level": 22,
+      "levelRange": "22",
       "locations": [
         "515.96,1.59,433.65",
         "-225.89,-0.93,833.45"
@@ -1671,7 +1671,7 @@
     },
     {
       "name": "a juvenile hawk",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "-122.37,9.41,42.98",
         "1138.59,5.33,260.73",
@@ -1701,7 +1701,7 @@
     },
     {
       "name": "Koreg Baelstrom",
-      "level": 30,
+      "levelRange": "30",
       "difficulty": "heroic^3",
       "locations": [
         "-428.65,-21.03,-406"
@@ -1712,7 +1712,7 @@
     },
     {
       "name": "a large shore crab",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "1415.87,-4.07,-25.55",
         "764.84,-18.35,1231.81",
@@ -1793,7 +1793,7 @@
     },
     {
       "name": "a mature antelope",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "982.95,-0.92,-357.13",
         "991.35,-1.00,-356.55",
@@ -1805,7 +1805,7 @@
     },
     {
       "name": "a mature hawk",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "-122.72,9.42,42.99",
         "84.34,-0.53,1234.72",
@@ -1818,11 +1818,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1849005594 -1995514244:a bird skull\\/a",
+          "gamelink": "\\aITEM 509310624 -1924355139:a bird beak\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 509310624 -1924355139:a bird beak\\/a",
+          "gamelink": "\\aITEM -1849005594 -1995514244:a bird skull\\/a",
           "chest": false
         }
       ]
@@ -1882,7 +1882,7 @@
     },
     {
       "name": "a mighty griffin",
-      "level": 26,
+      "levelRange": "26",
       "locations": [
         "1304.82,8.32,-42.75",
         "999.63,10.97,484.08"
@@ -1901,15 +1901,7 @@
       "name": "a Mudpaw lookout",
       "drops": [
         {
-          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 295026780 -1433839586:a gnoll paw\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
           "chest": false
         },
         {
@@ -1917,7 +1909,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1106708918 -681901675:Blackened Iron Relic\\/a",
+          "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 295026780 -1433839586:a gnoll paw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 188913261:Paraffin Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -1936,7 +1936,7 @@
     {
       "name": "Outland Sentry Adrick",
       "purpose": "Guard",
-      "level": 30,
+      "levelRange": "30",
       "locations": [
         "-139.43,4.27,822.84"
       ]
@@ -2104,7 +2104,7 @@
     },
     {
       "name": "a roaming dead",
-      "level": 22,
+      "levelRange": "22",
       "difficulty": "heroic",
       "locations": [
         "1345.67,-2.81,-78.06",
@@ -2284,15 +2284,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
           "chest": false
         }
       ],
@@ -2327,11 +2327,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 865860518 -545825231:flask of stale water\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -2373,15 +2373,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -658420854 385425044:ancient copper coin\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -6577808 -1093265408:a gnoll tail\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM -658420854 385425044:ancient copper coin\\/a",
           "chest": false
         },
         {
@@ -2435,15 +2435,15 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
           "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 941662339 689392159:large decaying bone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -2563,7 +2563,7 @@
     },
     {
       "name": "a Sabertooth tracker",
-      "level": 20,
+      "levelRange": "20",
       "difficulty": "heroic",
       "locations": [
         "1206.63,0.17,-256.66"
@@ -2724,7 +2724,7 @@
     },
     {
       "name": "a shore crab",
-      "level": 23,
+      "levelRange": "23",
       "locations": [
         "-304.17,-22.52,-393.62",
         "-321.96,-24.09,-416.34",
@@ -2743,18 +2743,18 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 512790155 320744539:crab meat\\/a",
+          "gamelink": "\\aITEM -2136398151 1163100270:a crab claw\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -2136398151 1163100270:a crab claw\\/a",
+          "gamelink": "\\aITEM 512790155 320744539:crab meat\\/a",
           "chest": false
         }
       ]
     },
     {
       "name": "a skeletal captain",
-      "level": 28,
+      "levelRange": "28",
       "difficulty": "heroic",
       "locations": [
         "-634.90,-2.67,822.81",
@@ -2781,7 +2781,7 @@
     },
     {
       "name": "a skeletal commander",
-      "level": 28,
+      "levelRange": "28",
       "difficulty": "heroic",
       "locations": [
         "-473.59,-18.34,703.82"
@@ -2792,7 +2792,7 @@
     },
     {
       "name": "a skeletal footsoldier",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "-636.58,-6.36,562.05",
         "-622.17,-1.58,413.53",
@@ -2832,7 +2832,7 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
+          "gamelink": "\\aITEM 1019381428 -593234954:bag of bone dust\\/a",
           "chest": false
         },
         {
@@ -2840,15 +2840,15 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
-          "chest": false
-        },
-        {
-          "gamelink": "\\aITEM 1019381428 -593234954:bag of bone dust\\/a",
+          "gamelink": "\\aITEM 1290331148 -1832084997:a skeleton reanimation rune\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -2857,7 +2857,7 @@
     },
     {
       "name": "a skeletal lieutenant",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "locations": [
         "-532.34,-0.13,667.02",
@@ -2893,7 +2893,7 @@
     },
     {
       "name": "a skeletal trooper",
-      "level": 27,
+      "levelRange": "27",
       "locations": [
         "-593.53,-3.47,636.00",
         "-600.52,-3.59,633.19",
@@ -2960,7 +2960,7 @@
     },
     {
       "name": "a skeletal veteran",
-      "level": 28,
+      "levelRange": "28",
       "difficulty": "heroic",
       "locations": [
         "-439.04,-22.94,691.48",
@@ -3089,11 +3089,11 @@
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 391423118 -936986606:canine saliva\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -3205,7 +3205,7 @@
     },
     {
       "name": "Soril Isaran",
-      "level": 30,
+      "levelRange": "30",
       "difficulty": "heroic^3",
       "locations": [
         "-532.16,-21.03,-405.35"
@@ -3216,7 +3216,7 @@
     },
     {
       "name": "a spirited orb",
-      "level": 26,
+      "levelRange": "26",
       "locations": [
         "-608.63,-2.00,685.55",
         "-438.19,-0.81,461.01",
@@ -3310,7 +3310,7 @@
     },
     {
       "name": "a Steelhoof marauder",
-      "level": 27,
+      "levelRange": "27",
       "locations": [
         "91.55,-5.38,1239.85",
         "61.28,0.59,1389.04",
@@ -3324,11 +3324,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -380209937 1983585223:small disk of metal\\/a",
+          "gamelink": "\\aITEM -1223917500 -959190015:a centaur mane\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -1223917500 -959190015:a centaur mane\\/a",
+          "gamelink": "\\aITEM -380209937 1983585223:small disk of metal\\/a",
           "chest": false
         },
         {
@@ -3408,11 +3408,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
+          "gamelink": "\\aITEM 1354018115 2012604226:a centaur hand\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1354018115 2012604226:a centaur hand\\/a",
+          "gamelink": "\\aITEM 1107529021 1572370342:Tallow Sealed Document\\/a",
           "chest": false
         }
       ],
@@ -3433,7 +3433,7 @@
     },
     {
       "name": "a Steelhoof prophet",
-      "level": 31,
+      "levelRange": "31",
       "difficulty": "heroic",
       "locations": [
         "61.33,0.00,1324.61",
@@ -3539,7 +3539,7 @@
     },
     {
       "name": "a steppe beetle",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "1240.58,-4.88,-41.18",
         "1265.99,-2.80,-197.39",
@@ -3551,7 +3551,7 @@
     },
     {
       "name": "Stiletto",
-      "level": 25,
+      "levelRange": "25",
       "difficulty": "heroic",
       "locations": [
         "580.05,-12.92,987.56",
@@ -3575,7 +3575,7 @@
     },
     {
       "name": "a swarm beetle",
-      "level": 24,
+      "levelRange": "24",
       "difficulty": "heroic",
       "locations": [
         "1179.70,1.22,347.64",
@@ -3632,7 +3632,7 @@
     },
     {
       "name": "a Tesch Mal abductor",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "1273.56,-3.19,-163.97"
@@ -3643,7 +3643,7 @@
     },
     {
       "name": "a Tesch Mal scrapper",
-      "level": 20,
+      "levelRange": "20",
       "difficulty": "heroic",
       "locations": [
         "1023.27,-1.01,-258.48",
@@ -3652,7 +3652,7 @@
     },
     {
       "name": "a Tesch Mas brute",
-      "level": 26,
+      "levelRange": "26",
       "difficulty": "heroic",
       "locations": [
         "1019.80,-1.02,-250.67",
@@ -3703,7 +3703,7 @@
     },
     {
       "name": "Uma Drandamir",
-      "level": 30,
+      "levelRange": "30",
       "difficulty": "heroic^3",
       "locations": [
         "-469.97,-18.38,-445.73"
@@ -3714,7 +3714,7 @@
     },
     {
       "name": "an unbound familiar",
-      "level": 27,
+      "levelRange": "27",
       "locations": [
         "-618.38,-2.17,741.28",
         "-663.69,-4.35,815.93",
@@ -3802,7 +3802,7 @@
     },
     {
       "name": "a Varsoon apprentice",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "-600.30,-6.44,672.94",
         "-591.48,-4.75,683.49",
@@ -3821,11 +3821,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
+          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM 1005573274 -983849465:a skeleton objurgatory hunger\\/a",
+          "gamelink": "\\aITEM -1420769013 2053134739:a skeleton sorrow core\\/a",
           "chest": false
         }
       ],
@@ -3834,7 +3834,7 @@
     },
     {
       "name": "a wandering dead",
-      "level": 22,
+      "levelRange": "22",
       "difficulty": "heroic",
       "locations": [
         "1352.75,-1.45,-91.06"
@@ -3860,11 +3860,11 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
+          "gamelink": "\\aITEM -486559289 -1607777479:a flickering lightstone\\/a",
           "chest": false
         },
         {
-          "gamelink": "\\aITEM -486559289 -1607777479:a flickering lightstone\\/a",
+          "gamelink": "\\aITEM -1290909139 -1370977760:Jasper Scrying Stone\\/a",
           "chest": false
         }
       ]
@@ -3893,7 +3893,7 @@
     },
     {
       "name": "a weald wolf",
-      "level": 24,
+      "levelRange": "24",
       "locations": [
         "-228.32,-0.89,834.32",
         "-222.15,-0.96,833.40",
@@ -3923,7 +3923,7 @@
     },
     {
       "name": "Windfeather",
-      "level": 28,
+      "levelRange": "28",
       "difficulty": "heroic",
       "locations": [
         "1373.25,4.00,-97.00",
@@ -3974,7 +3974,7 @@
     },
     {
       "name": "a young woodland kodiak",
-      "level": 25,
+      "levelRange": "25",
       "locations": [
         "366.42,10.91,-504.48",
         "360.41,10.09,-504.27",

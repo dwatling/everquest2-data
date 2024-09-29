@@ -1,7 +1,7 @@
 {
   "name": "Everfrost",
   "category": "Everfrost",
-  "description": "Since the destruction of the barbarian city of Halas, these arctic wastes have become a desolate, barren wasteland where destructive storms and strange creatures wander freely. It is said the mighty mage Miragul hides his research laboratories here.",
+  "notes": "Since the destruction of the barbarian city of Halas, these arctic wastes have become a desolate, barren wasteland where destructive storms and strange creatures wander freely. It is said the mighty mage Miragul hides his research laboratories here.",
   "levels": "40-50",
   "maps": [
     {
@@ -76,12 +76,12 @@
       ],
       "drops": [
         {
-          "gamelink": "\\aITEM -1851717538 432093406:a thin blue band\\/a",
-          "chest": true
-        },
-        {
           "gamelink": "\\aITEM -666230690 1307520790:an arachnid leg\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1851717538 432093406:a thin blue band\\/a",
+          "chest": true
         }
       ]
     },

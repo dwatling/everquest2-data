@@ -2,7 +2,7 @@
   "name": "Loping Plains",
   "expansion": "exp03",
   "category": "Faydwer",
-  "description": "During the day within the Loping Plains is often a dangerous affair on its own. Wolves, bandits, and giant spiders scour the countryside, and will hunt the unwary at all hours of the day. At night a curse falls upon the plains, and undead creatures emerge to feed upon the living. Up in the cliffs sits the mighty Mistmoore Castle, the dark and foreboding home to Mayong Mistmoore himself.",
+  "notes": "During the day within the Loping Plains is often a dangerous affair on its own. Wolves, bandits, and giant spiders scour the countryside, and will hunt the unwary at all hours of the day. At night a curse falls upon the plains, and undead creatures emerge to feed upon the living. Up in the cliffs sits the mighty Mistmoore Castle, the dark and foreboding home to Mayong Mistmoore himself.",
   "levels": "60-70",
   "maps": [
     {
@@ -11,16 +11,10 @@
   ],
   "connections": [
     {
-      "key": "exp03_rgn_lesser_faydark"
-    },
-    {
-      "key": "exp03_dun_mistmoore_catacombs"
-    },
-    {
       "key": "exp03_dun_castle_mistmoore"
     },
     {
-      "key": "exp05_dun_mistmoore_manor"
+      "key": "exp03_dun_mistmoore_catacombs"
     },
     {
       "key": "exp03_dun_mistmoore_catacombs_epic01_freethinker"
@@ -29,10 +23,16 @@
       "key": "exp03_dun_mistmoore_catacombs_epic02_oldcatacombs"
     },
     {
+      "key": "exp03_rgn_greater_faydark"
+    },
+    {
+      "key": "exp03_rgn_lesser_faydark"
+    },
+    {
       "key": "exp03_rgn_steamfont"
     },
     {
-      "key": "exp03_rgn_greater_faydark"
+      "key": "exp05_dun_mistmoore_manor"
     }
   ]
 }

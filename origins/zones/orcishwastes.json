@@ -15,5 +15,19 @@
     {
       "key": "orcishwastes_mini01_1"
     }
+  ],
+  "npcs": [
+    {
+      "name": "Vigo Cerebus",
+      "locations": [
+        "45.81,-39.79,-599.88"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Green Hoods",
+          "value": 50
+        }
+      ]
+    }
   ]
 }

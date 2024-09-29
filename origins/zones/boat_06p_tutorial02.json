@@ -94,7 +94,9 @@
           "gamelink": "\\aITEM 520180126 891162975:Goblin Territory Marker\\/a",
           "chest": false
         }
-      ]
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4
     },
     {
       "name": "Helmsman Nyles",
@@ -103,6 +105,9 @@
       ],
       "locations": [
         "3.94,1.19,-12.77"
+      ],
+      "utterances": [
+        "Uh... the captain does all the talking."
       ]
     },
     {
@@ -122,7 +127,8 @@
         "I am fine, just... after the last pickup I have been working extra hard, since Vim said she would give me the piece of Luclin she found.",
         "Yes, yes, Vim. The merchant over there. She found a small piece of the moon and is having me work for it. Maybe you can go buy it from her for me?",
         "Maybe you have something she will buy. Why don't you go talk to her.",
-        "Ah! You got the shard. Great! Now I can stop doing this work and enjoy the rest of this trip. Here is some coin for your help."
+        "Ah! You got the shard. Great! Now I can stop doing this work and enjoy the rest of this trip. Here is some coin for your help.",
+        "Yo ho ho and a bottle of rum!"
       ]
     },
     {
@@ -171,7 +177,8 @@
       ],
       "utterances": [
         "Looking for something sturdy to wear?",
-        "I love traveling the seas... Oh! Did you need something?"
+        "I love traveling the seas... Oh! Did you need something?",
+        "The Far Journey is a beautiful ship, ain't she?"
       ],
       "store": [
         {

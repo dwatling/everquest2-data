@@ -264,7 +264,7 @@
     },
     {
       "name": "a bear cub",
-      "levelRange": "12",
+      "levelRange": "12-13",
       "locations": [
         "-409.99,-2.64,591.75",
         "-386.35,-4.92,534.13",
@@ -275,7 +275,29 @@
         "-318.22,-13.97,91.3",
         "-480.44,-18.69,237.96",
         "-361.93,-12.09,17.24",
-        "-227.86,-15.80,42.47"
+        "-227.86,-15.80,42.47",
+        "-337.44,-10.06,622.06",
+        "-357.28,-5.34,578.77",
+        "-412.55,-3.01,530.25",
+        "-402.87,-1.78,553.63"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -636291851 -1767706065:Advanced Scholar Volume 12\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1269626589 -374616090:Far Seas Trading Requisition ANT0221\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1220921376 -1898565537:iron scourge\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1941570614 -1184561711:tanned leather pelt\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -1105,6 +1127,12 @@
     },
     {
       "name": "Corporal Peckett",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "337.44,-17.17,736.48"
       ],
@@ -1244,7 +1272,10 @@
         "172.85,-19.65,866.86",
         "164.26,-20.12,858.91",
         "136.09,-24.48,853.38",
-        "140.31,-24.48,878.94"
+        "140.31,-24.48,878.94",
+        "152.79,-24.48,884.53",
+        "127.72,-24.48,886.09",
+        "238.75,-17.95,876.37"
       ],
       "utterances": [
         "Spin, weave, dodge, attack!!!",
@@ -1261,6 +1292,10 @@
         "I must fight for Sabertooth pride."
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
+          "chest": false
+        },
         {
           "gamelink": "\\aITEM 1627573543 -1966055113:bride's promise\\/a",
           "chest": false
@@ -1322,7 +1357,7 @@
           "chest": false
         }
       ],
-      "drop_coin_min": 16,
+      "drop_coin_min": 9,
       "drop_coin_max": 186,
       "faction_changes": [
         {
@@ -1602,13 +1637,15 @@
         "-166.69,-25.09,727.98",
         "4.94,-13.36,557.81",
         "2.98,-8.47,581.04",
-        "-176.64,-6.78,347.3"
+        "-176.64,-6.78,347.3",
+        "-152.30,-27.47,621.32"
       ],
       "utterances": [
         "Attack!",
         "Go with Fippy, fallen one!",
         "More Qeynos food!",
-        "Uhhhh... I think I go now!"
+        "Uhhhh... I think I go now!",
+        "Awoooooo!"
       ],
       "drops": [
         {
@@ -1980,7 +2017,8 @@
         "-192.21,-17.84,370.29",
         "-172.73,-15.89,379.82",
         "-204.44,-19.98,383.04",
-        "-646.18,9.65,52.98"
+        "-646.18,9.65,52.98",
+        "-150.98,-27.44,622.64"
       ],
       "utterances": [
         "Attack!",
@@ -2016,7 +2054,7 @@
           "chest": false
         }
       ],
-      "drop_coin_min": 26,
+      "drop_coin_min": 10,
       "drop_coin_max": 267,
       "faction_changes": [
         {
@@ -2288,7 +2326,8 @@
         "-6.6,-13.5,498.07",
         "-2.49,-10.98,492.21",
         "-24.16,-20.44,483.65",
-        "-12.84,-20.98,387.62"
+        "-12.84,-20.98,387.62",
+        "-108.93,-23.02,705.65"
       ],
       "drops": [
         {
@@ -2364,6 +2403,29 @@
           "gamelink": "\\aITEM 1024480043 347122643:canine saliva\\/a",
           "chest": false
         }
+      ]
+    },
+    {
+      "name": "Ethurien",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "317.52,-16.07,757.07"
+      ],
+      "utterances": [
+        "There are many journeys in life.  Somehow, the one that always seems the longest is the one that leads you home.",
+        "At the end of the day, do you find yourself weary and wishing you could simply return home?  My friend, I can offer you a chance to do just that.",
+        "All life is connected through various means, some visible and some not.  We Erudites have studied the multitude of relationships between the physical and magical.  You will need to take a vessel with you when you go.",
+        "You will go many places.  First, seek that which time cannot erase.  All the physical matter around us is shaped and formed through its influence.  Clear or dark, weak or strong, it is most essential to all living beings.",
+        "Of course not!  If it were that easy, any idiot would have figured this out ages ago! What do they teach you youngsters in school these days anyway?",
+        "My apologies!  Your second step is to examine that which surrounds us all.  The more there is, the less there seems to be.  Hold this vessel aloft and revel in its nothingness.",
+        "Do not fear the third step, for only those without the power to reason will be alarmed.  Take the vessel to a place you have seen many times before and yet not experienced.  Rise above all else and strike when the iron is hot!",
+        "Tread carefully, for someday you will become one with that with which the vessel must be filled.  This must be done by sunset of the third day or you shall fail.",
+        "Fine, fine.  Take your time.  More information I am writing into your journal so that you will not forget these things.  Do not be afraid of the journey, my friend, for it shall lead you home."
       ]
     },
     {
@@ -2515,6 +2577,12 @@
     },
     {
       "name": "Ghil Ventur",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "317.17,-16.07,754.28"
       ],
@@ -2579,7 +2647,7 @@
     },
     {
       "name": "a glade deer",
-      "levelRange": "13",
+      "levelRange": "11-14",
       "locations": [
         "-290.65,-17.97,687.01",
         "-425.1,-22.19,731.85",
@@ -2596,11 +2664,21 @@
         "-467.1,-10.92,147.18",
         "-503,-14.35,225.99",
         "-467.19,-13.87,59.01",
-        "-477.59,-13.3,126.7"
+        "-477.59,-13.3,126.7",
+        "-352.00,-9.03,649.88",
+        "-345.60,-9.32,618.43",
+        "-338.80,-9.55,595.24",
+        "-396.70,-5.00,524.57",
+        "-402.20,-6.70,638.51",
+        "-303.64,-22.40,751.31"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 65482658 1996876520:antler\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 902728381 1139008145:a damaged average quality deer hide\\/a",
           "chest": false
         }
       ]
@@ -3118,7 +3196,8 @@
         "That's why I'm praying. Perhaps my prayers have been answered.  Are you here to help me?",
         "Excellent. Are you ready to start?",
         "I need those darned dispatches brought back to me! You'd think that folks who get to run around looking for danger would realize how important it is to send word back to ... well, me.  Since they haven't, I need someone to knock them upside their heads and get the information, then bring it back to me.",
-        "That is a shame. Please leave me to my prayers."
+        "That is a shame. Please leave me to my prayers.",
+        "Got all three reports for me, eh?"
       ]
     },
     {
@@ -3747,7 +3826,7 @@
     },
     {
       "name": "a lowland badger",
-      "levelRange": "11",
+      "levelRange": "11-13",
       "locations": [
         "-383.77,-5.93,523.87",
         "-647.01,-13.69,272.59",
@@ -3783,12 +3862,46 @@
         "-452.75,-12.29,29.64",
         "-478.01,-15.07,117.81",
         "-453.08,-13.33,137.52",
-        "-406.71,-20.17,435.19"
+        "-406.71,-20.17,435.19",
+        "-416.67,-10.98,475.92",
+        "-355.68,-6.18,551.29",
+        "-471.57,-4.67,614.36",
+        "-505.70,-4.90,581.36",
+        "-475.52,-5.27,628.90",
+        "-466.77,-1.10,581.10",
+        "-350.51,-8.22,618.60",
+        "-382.65,-6.77,633.72",
+        "-398.43,-6.19,622.92",
+        "-513.98,-4.84,532.00",
+        "-514.31,-5.64,524.77",
+        "-399.31,-3.18,537.30",
+        "-453.28,-3.92,617.63",
+        "-465.29,-2.17,587.26"
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -1391082397 -509230407:Advanced Scholar Volume 13\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM -201838473 2128147948:Far Seas Trading Requisition ANT0243\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1084678629 492709664:Far Seas Trading Requisition ANT0437\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1430006896 914670400:Qeynos embroidered shawl\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -973155856 -1516775463:Regrowth (Master I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1595673009 -1184561711:tanned leather pelt\\/a",
+          "chest": false
         }
       ]
     },
@@ -4183,6 +4296,12 @@
     },
     {
       "name": "Novak",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "356.18,-14.83,780.82"
       ],
@@ -4429,7 +4548,22 @@
       ]
     },
     {
+      "name": "Qalento",
+      "locations": [
+        "-796.20,-13.93,893.19"
+      ]
+    },
+    {
       "name": "Quallium",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "229.32,-21.22,764.61"
+      ],
       "utterances": [
         "Oh look at the mess I am in! My thoughts of wonderment have been stolen from me.",
         "They have my scrolls ... my poems! I was just sitting upon the isles, like I always do, searching for inspiration, when all of the sudden they appeared! I ran and now have lost my scrolls to the howling beasts.",
@@ -4998,13 +5132,28 @@
       "locations": [
         "185.29,-17.87,642.99",
         "127.25,-10.58,610.71",
-        "-68.19,-14.06,590.47"
+        "-68.19,-14.06,590.47",
+        "76.36,-20.94,691.58",
+        "14.99,-22.53,787.79",
+        "-3.66,-23.05,778.84"
       ],
       "utterances": [
         "You gonna pay for that.",
-        "That one died."
+        "That one died.",
+        "Kill it!  Kill it!",
+        "To arms!"
       ],
-      "drop_coin_min": 20,
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1698232697 -1628225413:Chirannite Threat Totem\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1563963010 956001534:embalmed leather leggings\\/a",
+          "chest": true
+        }
+      ],
+      "drop_coin_min": 9,
       "drop_coin_max": 20,
       "faction_changes": [
         {
@@ -5227,18 +5376,46 @@
         "-69.14,-29.62,744.92",
         "-61.52,-25.12,731.93",
         "-80.53,-20.81,654.48",
-        "-80.06,-20.78,637.58"
+        "-80.06,-20.78,637.58",
+        "75.36,-22.11,712.53",
+        "57.96,-18.48,699.50",
+        "52.50,-20.79,769.85",
+        "31.51,-21.81,780.14",
+        "18.94,-22.17,784.78",
+        "30.39,-21.69,764.26",
+        "-33.95,-25.69,789.36",
+        "-38.33,-25.11,770.91",
+        "-75.31,-31.66,753.87"
       ],
       "utterances": [
         "Kill it!  Kill it!",
         "That one died.",
         "You're stronger than me.",
-        "You gonna pay for that."
+        "You gonna pay for that.",
+        "You gonna die so fast!",
+        "I must fight for Sabertooth pride.",
+        "To arms!"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -623216568 124337759:embalmed leather gloves\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1563963010 956001534:embalmed leather leggings\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1627877768 79967224:embalmed leather skullcap\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1165459183 -412071980:Far Seas Trading Requisition ANT0229\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 86968877 -1564183137:Far Seas Trading Requisition ANT0351\\/a",
@@ -5257,7 +5434,7 @@
           "chest": false
         }
       ],
-      "drop_coin_min": 20,
+      "drop_coin_min": 8,
       "drop_coin_max": 37,
       "faction_changes": [
         {
@@ -5629,6 +5806,22 @@
       ]
     },
     {
+      "name": "Sir Jeager",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-805.66,-13.71,892.13"
+      ],
+      "utterances": [
+        "Greetings! Can I help you with something?",
+        "Well, be careful, or the Sabertooth clan will have you for dinner."
+      ]
+    },
+    {
       "name": "Sleepwalk Ashier",
       "utterances": [
         "This scenario was a breeze to pen! It practically wrote itself!"
@@ -5775,6 +5968,26 @@
           "gamelink": "\\aITEM 397119710 408683460:a bird skull\\/a",
           "chest": false
         }
+      ]
+    },
+    {
+      "name": "Squire Kivan",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-800.14,-13.91,889.30"
+      ],
+      "utterances": [
+        "Are you hungry? I'm making soup.",
+        "I'm Kivan, Sir Jeager's squire and faithful servant. We're here to fight the insidious Sabertooth clan.",
+        "Sir Jeager is the most honorable of all the Royal Antonican Guards. He alone was assigned to fight off the Sabertooth clan.  He's a leader among leaders and a brave soldier.",
+        "They're a clan of vicious gnolls. They infest the hills around here, and at night they prey on the children of Qeynos. We must stop them!",
+        "It seems that politics and honesty do not mix. One of the Queen's advisors did not like something Sir Jeager said. So, here we are.",
+        "Yes. You can help us. The Sabertooth clan is getting ore from somewhere in the hills and I need you to find out where. Bring me some mining picks to prove that you found the mine."
       ]
     },
     {
@@ -5961,6 +6174,12 @@
     },
     {
       "name": "Taskmaster Lynette",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "344.4,2.23,817.73"
       ],
@@ -6489,19 +6708,42 @@
         "-518.96,-13.37,170.27",
         "-464.61,-18.78,229.82",
         "-603.98,-10.74,95.67",
-        "-621.89,-10.09,89.7"
+        "-621.89,-10.09,89.7",
+        "-372.99,-3.88,567.62",
+        "-400.43,-6.18,624.42",
+        "-435.97,0.86,550.94",
+        "-475.91,0.01,551.16",
+        "-503.46,-1.66,554.65"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 1024480043 347122643:canine saliva\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -201838473 1375668556:Far Seas Trading Requisition ANT0243\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 260830704 -2081037464:A Half Eaten Order Slip\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1199963348 1596740813:Qeynos guard blade\\/a",
+          "chest": true
         }
       ]
     }
   ],
   "shinies": [
     {
+      "gamelink": "\\aITEM 1331551958 -1699344718:chipped shard of channeling\\/a"
+    },
+    {
       "gamelink": "\\aITEM 164202245 -601729183:chipped shard of divination\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1365145544 -1627601815:red glass coin of erudin\\/a"
     }
   ],
   "resourceNodes": [
@@ -6509,10 +6751,16 @@
       "name": "the callous ore"
     },
     {
+      "name": "the plains roots"
+    },
+    {
       "name": "the plains shrubbery"
     },
     {
       "name": "the sandwashed rock"
+    },
+    {
+      "name": "the wind felled tree"
     }
   ]
 }

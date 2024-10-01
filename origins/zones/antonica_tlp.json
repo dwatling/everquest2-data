@@ -125,6 +125,24 @@
       ]
     },
     {
+      "name": "Addison",
+      "purpose": "Armorsmith",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-723.49,-15.90,245.30"
+      ],
+      "utterances": [
+        "Have I got a deal for you!",
+        "Good day, adventurer. Care to take a look at my merchandise?"
+      ],
+      "store_template": "armorsmith"
+    },
+    {
       "name": "Addson",
       "purpose": "Armorsmith",
       "locations": [
@@ -202,13 +220,54 @@
       ]
     },
     {
+      "name": "an Antonican forester",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male",
+        "female"
+      ],
+      "locations": [
+        "-777.45,-2.83,601.08",
+        "-760.68,-2.24,610.16",
+        "-754.58,-2.51,567.82",
+        "-745.48,-2.47,569.95"
+      ]
+    },
+    {
+      "name": "an Antonican stag",
+      "levelRange": "13",
+      "difficulty": "heroic^^^",
+      "locations": [
+        "-715.97,-2.73,589.62",
+        "-750.39,-3.37,652.64",
+        "-633.13,-8.36,665.44",
+        "-615.67,-8.66,664.12",
+        "-601.48,-9.81,659.96",
+        "-888.01,-10.16,609.62",
+        "-854.51,-4.89,651.99"
+      ]
+    },
+    {
       "name": "Aroof Wolfchaser",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-729.90,-15.90,227.94"
+      ],
       "utterances": [
         "Hail!",
         "Thanks!",
         "What?!",
         "Yeah!",
-        "Hail to you too!"
+        "Hail to you too!",
+        "What? Where?",
+        "Urrp, ello there, why are there two of you..."
       ]
     },
     {
@@ -1218,7 +1277,12 @@
       "utterances": [
         "You must be an adventurer who's new to these parts. Who else would brave the wilds so far from the watchful eye of the Qeynos Guard?",
         "Adventurer ... explorer ... how would you like to be a courier too?",
-        "I prefer the term frontierslady, but who am I to argue with a legendary adventurer. Please take this note to Sighard Sayer, proprietor of Sayer's Outfitters, the frontier trading post just to the north of here."
+        "I prefer the term frontierslady, but who am I to argue with a legendary adventurer. Please take this note to Sighard Sayer, proprietor of Sayer's Outfitters, the frontier trading post just to the north of here.",
+        "Now, can you take that arrow and apply it to a training dummy in Archer Woods? Search for the dummy with the symbol of a golden tree and green arrow.",
+        "The arrow is a special marker for some friends of mine.",
+        "Thank you, courier. I trust you have done as I requested. If not, Trusaris will tell me. He sees all in Archer Woods, including your every step.",
+        "Trusaris is the great oak of Archer Woods. He has lived in these hills for many ages. He has seen much grief in his lifetime. Now gnolls are taking over what is left of his home.",
+        "You think you can clear all of Archer Woods? I doubt that, but I would be glad to see you try, as would Trusaris."
       ]
     },
     {
@@ -2018,7 +2082,9 @@
         "-172.73,-15.89,379.82",
         "-204.44,-19.98,383.04",
         "-646.18,9.65,52.98",
-        "-150.98,-27.44,622.64"
+        "-150.98,-27.44,622.64",
+        "-156.96,-24.56,773.45",
+        "-146.58,-26.87,607.47"
       ],
       "utterances": [
         "Attack!",
@@ -2257,8 +2323,19 @@
     },
     {
       "name": "Dury Buntan",
+      "purpose": "Mender",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-711.52,-16.25,238.77"
+      ],
+      "utterances": [
+        "Welcome! Is there anything I can help you with or are you looking to find an apprenticeship?",
+        "Hello there, my fine adventurer.  Just give me that armor right quick and I'll hammer it up good as new!"
       ]
     },
     {
@@ -2327,7 +2404,8 @@
         "-2.49,-10.98,492.21",
         "-24.16,-20.44,483.65",
         "-12.84,-20.98,387.62",
-        "-108.93,-23.02,705.65"
+        "-108.93,-23.02,705.65",
+        "-102.21,-22.51,699.36"
       ],
       "drops": [
         {
@@ -2358,11 +2436,22 @@
     },
     {
       "name": "Edwards",
+      "purpose": "Weaponsmith",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-724.40,-11.01,243.28"
+      ],
       "utterances": [
         "If I know you adventuring types, you'll need one of these.",
         "Good day, adventurer. Care to take a look at my merchandise?",
         "Hello, friend. Welcome to my shop."
-      ]
+      ],
+      "store_template": "weaponsmith"
     },
     {
       "name": "Eenekie Blazdine",
@@ -2544,6 +2633,46 @@
       ]
     },
     {
+      "name": "a forest warden",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male",
+        "female"
+      ],
+      "locations": [
+        "-749.75,-2.70,611.07",
+        "-782.14,-2.99,590.55",
+        "-733.26,-1.37,560.70",
+        "-717.53,-2.58,579.32",
+        "-688.76,-4.33,609.26",
+        "-672.37,-5.41,610.11",
+        "-640.13,-7.59,655.46",
+        "-644.37,-7.84,663.89",
+        "-657.98,-8.50,670.87",
+        "-700.07,-4.92,653.29",
+        "-740.15,-3.79,666.19",
+        "-744.93,-5.63,682.23",
+        "-783.82,-6.10,671.44",
+        "-814.89,-6.65,681.84",
+        "-811.15,-7.44,729.93",
+        "-830.95,-8.16,737.21",
+        "-863.38,-9.95,724.42",
+        "-686.27,-5.95,724.16",
+        "-627.42,-5.41,724.37",
+        "-604.09,-4.70,732.44",
+        "-642.97,-8.42,684.61",
+        "-594.74,-11.11,667.13",
+        "-741.90,-6.59,455.67",
+        "-840.77,-3.92,528.98",
+        "-839.11,-2.98,548.12",
+        "-830.95,-3.36,568.93",
+        "-868.73,-6.47,600.25",
+        "-824.23,-5.40,661.50"
+      ]
+    },
+    {
       "name": "Franco",
       "locations": [
         "-1191.31,27.26,-959.96"
@@ -2670,7 +2799,13 @@
         "-338.80,-9.55,595.24",
         "-396.70,-5.00,524.57",
         "-402.20,-6.70,638.51",
-        "-303.64,-22.40,751.31"
+        "-303.64,-22.40,751.31",
+        "-392.38,-6.84,635.96",
+        "-379.55,-9.29,497.66",
+        "-283.00,-16.05,348.66",
+        "-311.58,-12.16,348.59",
+        "-319.42,-16.78,304.09",
+        "-305.98,-18.24,290.23"
       ],
       "drops": [
         {
@@ -2972,7 +3107,8 @@
         "-1049.61,-16.94,198.7",
         "-1524.35,-11.61,219.36",
         "-1544.29,-10.37,259.49",
-        "-1625.74,-13.36,324.37"
+        "-1625.74,-13.36,324.37",
+        "-485.87,-22.10,250.39"
       ]
     },
     {
@@ -3013,6 +3149,12 @@
     },
     {
       "name": "Haddek Vimki",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-728.41,-15.9,231.8"
       ],
@@ -3030,7 +3172,11 @@
         "Right, right. You see, I have this, let's call him, \"friend.\"  This \"friend\" has been giving me and Aroof here a hard time. I got something in mind for him, and I need your help.",
         "You see, Blarton put something in our drinks, and whatever it is has got big, tough Aroof over here in quite a mess. We need to get back at Blarton! I got this idea for a wine... something that will really knock his socks off.",
         "Good, good! I need to get some goo from the risen protectors. Go pick me up some of that stuff an' I'll make it worth your while.",
-        "Bring it straight back to me."
+        "Bring it straight back to me.",
+        "Ha! Great! Why don't you take this? It doesn't look like old Aroof will be needing it. Hmph!",
+        "Shhhh! Do you have to be so loud? Look, here's what I need from you. I think that Aroof over here has a bit of a hangover. Ha! Think you can help him out a bit? I would do it, but I've got to stay around and help the poor guy out.",
+        "Why don't you be a pal and grab my friend here what I, er... he needs to get rid of this horrendous, terrible, splitting headache. But, bring it to me. I need to give it a taste first before he tries it. I'm a good friend, ya know. I've got to make sure he'll like it.",
+        "Great! An' hurry on up, I can't be waiting all day. I mean, it pains me to see Aroof in such a mess. Go on now! "
       ]
     },
     {
@@ -3162,6 +3308,25 @@
       ]
     },
     {
+      "name": "Hucklethin Gorsefoot",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-734.04,-7.60,432.22",
+        "-706.89,-13.05,385.04",
+        "-739.36,-7.03,441.70",
+        "-761.41,-7.83,439.84",
+        "-780.80,-7.96,445.64"
+      ],
+      "utterances": [
+        "By leaf and lake, it's another fine day in Antonica!"
+      ]
+    },
+    {
       "name": "Hwal Rucksif",
       "locations": [
         "-559.95,-12.85,-315.72"
@@ -3289,6 +3454,12 @@
     },
     {
       "name": "Kinamer Galemaul",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-707.43,-16.25,240.76"
       ],
@@ -3636,6 +3807,12 @@
     },
     {
       "name": "Landwyn Velamir",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-717.77,-15.9,240.38"
       ],
@@ -3643,7 +3820,8 @@
         "Do you know love, my friend?",
         "How lucky I am. I have been holding this gift for my love for quite some time, but, alas, my duties keep me here. How sad it is that this flower shall wilt in the wait. Still, I am lucky, for her beauty shall never wane.",
         "How does one compare the beauty of a goddess using the words of mere mortals? Her hair is the color of the rising sun, containing the most glorious hues of the dawn. Her skin is akin to porcelain, flawless and immaculate. Her eyes are the green of a springtime meadow, with small bursts like the yellow of daisies in their center. Her lithe body is soft and curved like the waves of the sea. I only wish my eyes could witness her beauty once again.",
-        "That would be splendid! Last I saw, there were some beneath a shaded tree north of here."
+        "That would be splendid! Last I saw, there were some beneath a shaded tree north of here.",
+        "Please hurry!"
       ]
     },
     {
@@ -4022,6 +4200,12 @@
     },
     {
       "name": "Matsy Rollingpin",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-727.77,-11.01,239.01"
       ],
@@ -4137,7 +4321,8 @@
         "285.40,-19.69,488.44",
         "238.56,-17.41,498.60",
         "232.69,-15.81,512.42",
-        "240.62,-10.75,347.94"
+        "240.62,-10.75,347.94",
+        "264.52,-19.73,612.28"
       ],
       "drops": [
         {
@@ -4367,6 +4552,13 @@
     {
       "name": "an overland miner",
       "levelRange": "12",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
       "locations": [
         "-187.45,-24.97,636.02",
         "-946.06,-26.46,256.56",
@@ -4388,7 +4580,9 @@
         "-1293.49,-12.63,-391.76",
         "-1246.56,-15.56,-523.39",
         "-1612.09,-15.62,-3.27",
-        "-1842.38,-16.11,-274.99"
+        "-1842.38,-16.11,-274.99",
+        "-680.91,-6.20,660.68",
+        "-634.81,-7.91,702.41"
       ],
       "utterances": [
         "There they are! Let's get em!",
@@ -4414,6 +4608,13 @@
     },
     {
       "name": "an overland woodcutter",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
       "locations": [
         "262.41,-16.39,586.08",
         "-1232.65,-13.83,171.9",
@@ -4427,7 +4628,9 @@
         "-1693.63,-18.38,-159.47",
         "-1603.32,-13.88,342.64",
         "-1789.38,-11.85,676.62",
-        "-1602.36,-9.15,550.83"
+        "-1602.36,-9.15,550.83",
+        "-592.27,-10.77,682.79",
+        "-546.39,-16.75,655.87"
       ],
       "utterances": [
         "You angered the spirits of the woods for the last time.",
@@ -4574,9 +4777,21 @@
     },
     {
       "name": "Quigley",
+      "purpose": "Provisioner",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-723.3,-11.01,237.13"
-      ]
+      ],
+      "utterances": [
+        "Hello, friend. Welcome to my shop.",
+        "Good day, adventurer. Care to take a look at my merchandise?"
+      ],
+      "store_template": "provisioner"
     },
     {
       "name": "a rabid bat",
@@ -5135,7 +5350,8 @@
         "-68.19,-14.06,590.47",
         "76.36,-20.94,691.58",
         "14.99,-22.53,787.79",
-        "-3.66,-23.05,778.84"
+        "-3.66,-23.05,778.84",
+        "181.31,-26.03,718.21"
       ],
       "utterances": [
         "You gonna pay for that.",
@@ -5385,7 +5601,8 @@
         "30.39,-21.69,764.26",
         "-33.95,-25.69,789.36",
         "-38.33,-25.11,770.91",
-        "-75.31,-31.66,753.87"
+        "-75.31,-31.66,753.87",
+        "129.33,-21.23,668.74"
       ],
       "utterances": [
         "Kill it!  Kill it!",
@@ -5397,6 +5614,14 @@
         "To arms!"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -995437396 1086350915:canine saliva\\/a",
+          "chest": false
+        },
         {
           "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
           "chest": false
@@ -5422,11 +5647,19 @@
           "chest": true
         },
         {
+          "gamelink": "\\aITEM 1061912288 -1655945253:Far Seas Trading Requisition ANT0424\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 2104020758 1876236984:flask of rancid water\\/a",
           "chest": false
         },
         {
           "gamelink": "\\aITEM 404982903 1527611249:a gnoll ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2003004954 -1004682717:a gnoll eye\\/a",
           "chest": false
         },
         {
@@ -5777,6 +6010,12 @@
     },
     {
       "name": "Sighard Sayer",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-718.62,-11.01,239.46"
       ],
@@ -6129,13 +6368,21 @@
     },
     {
       "name": "Tanen Danos",
+      "purpose": "Bowyer",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-730.37,-11.01,229.51"
       ],
       "utterances": [
         "Hello there, adventurer.  You must be a mite weary from your travels.  Relax and have a drink of my personal brew.  Barbarians brew the hardiest ales you'll ever put to your lips.  You ever hear of ol' Clan McMarrin's \"Blizzard Warmer?\"  That'll keep you going on those cold wintry nights!",
         "Clan McMarrin was a clan of the toughest barbarian warriors to have called dear old Halas home.  They have not been heard of for some time though.  After the Shattering they set out to find a place that barbarians could live as they did in Halas.  Word was they were looking toward the Thundering Steppes last anyone knew.",
-        "You would?  Aye, that is good to hear.  I like Qeynos and all, but us barbarians need a place we can call our own, you know?"
+        "You would?  Aye, that is good to hear.  I like Qeynos and all, but us barbarians need a place we can call our own, you know?",
+        "Hello there, adventurer.  You must be a mite weary from your travels.  Relax and have a drink of my personal brew.  Barbarians brew the hardiest ales you'll ever put to your lips.  You ever hear of ole Clan McMarrin's \"Blizzard Warmer?\"  That'll keep you going on those cold wintry nights!"
       ],
       "store": [
         {
@@ -6146,7 +6393,8 @@
             }
           ]
         }
-      ]
+      ],
+      "store_template": "bowyer"
     },
     {
       "name": "Tark Searfang",
@@ -6510,11 +6758,18 @@
         "-406.21,6.59,-215.15",
         "-432.95,3.5,-227.56",
         "-456.83,-2.49,-232.04",
-        "-470.24,1.61,-212.08"
+        "-470.24,1.61,-212.08",
+        "-597.19,-23.13,285.84",
+        "-555.42,-26.60,304.66",
+        "-537.23,-30.48,313.06"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 1127098598 -837078682:a bat ear\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -674709530 1430268481:a bat eye\\/a",
           "chest": false
         }
       ]
@@ -6615,9 +6870,14 @@
         "-181.92,-16.26,557.85",
         "-175.15,-15.94,558.95",
         "-83.53,-16,3.01",
-        "-102.87,-18.43,61.29"
+        "-102.87,-18.43,61.29",
+        "-161.01,-15.49,564.50"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM -620595596 -931497981:A Foul Wind\\/a",
+          "chest": true
+        },
         {
           "gamelink": "\\aITEM 1743509250 -1094407049:fungus\\/a",
           "chest": false
@@ -6713,12 +6973,24 @@
         "-400.43,-6.18,624.42",
         "-435.97,0.86,550.94",
         "-475.91,0.01,551.16",
-        "-503.46,-1.66,554.65"
+        "-503.46,-1.66,554.65",
+        "-432.68,-2.12,589.08",
+        "-445.14,-3.32,600.75",
+        "-418.91,-5.69,635.90",
+        "-399.00,-6.83,639.38",
+        "-439.55,-22.09,382.98",
+        "-459.35,-29.50,334.10",
+        "-510.23,-14.22,240.29",
+        "-489.57,-4.59,598.94"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 1024480043 347122643:canine saliva\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1627877768 79967224:embalmed leather skullcap\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -201838473 1375668556:Far Seas Trading Requisition ANT0243\\/a",
@@ -6731,11 +7003,24 @@
         {
           "gamelink": "\\aITEM 1199963348 1596740813:Qeynos guard blade\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 37929329 -1184561711:tanned leather pelt\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Concordium",
+          "value": 50
         }
       ]
     }
   ],
   "shinies": [
+    {
+      "gamelink": "\\aITEM 1393712698 100965568:black glass coin of erudin\\/a"
+    },
     {
       "gamelink": "\\aITEM 1331551958 -1699344718:chipped shard of channeling\\/a"
     },
@@ -6743,7 +7028,13 @@
       "gamelink": "\\aITEM 164202245 -601729183:chipped shard of divination\\/a"
     },
     {
+      "gamelink": "\\aITEM 728453195 2001231493:cracked human bone fragment\\/a"
+    },
+    {
       "gamelink": "\\aITEM -1365145544 -1627601815:red glass coin of erudin\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -686869063 2018792859:shattered barbarian bone fragment\\/a"
     }
   ],
   "resourceNodes": [

@@ -72,6 +72,38 @@
 		]
 	},
 	{
+		"id": 2303053438,
+		"name": "A Frontierslady's Task",
+		"giver_npc": {
+			"zone": "antonica_tlp",
+			"name": "Dancer"
+		},
+		"next_quest": {
+			"id": 273457092,
+			"name": "Battle with the Timberclaws"
+		}
+	},
+	{
+		"id": 273457092,
+		"name": "Battle with the Timberclaws",
+		"giver_npc": {
+			"zone": "antonica_tlp",
+			"name": "Dancer"
+		}
+	},
+	{
+		"id": 3374032235,
+		"name": "Lord Grimrot's Scythe",
+		"requires": {
+			"level": 13
+		}
+	},
+	{
+		"id": 2796297208,
+		"name": "Battle with the Timberclaws",
+		"removed": true
+	},
+	{
 		"id": 2535915598,
 		"name": "Blessings of Growth: Commonlands",
 		"removed": true

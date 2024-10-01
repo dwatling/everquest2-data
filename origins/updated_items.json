@@ -100,6 +100,11 @@
     "max_coins": 1
   },
   {
+    "gamelink": "\\aITEM -674709530 1430268481:a bat eye\\/a",
+    "min_coins": 194,
+    "max_coins": 194
+  },
+  {
     "gamelink": "\\aITEM 901547607 285451484 0 0 0:bayberry candle\\/a",
     "description": "Bayberry candles are used in tier 6 recipes.",
     "tier_id": 3,
@@ -212,6 +217,17 @@
     "description": "Brown coal is used in tier 2 recipes.",
     "tier_id": 3,
     "tier": "UNCOMMON"
+  },
+  {
+    "gamelink": "\\aITEM 462189661 1165457727:burlap sash\\/a",
+    "slot": "waist",
+    "knowledgedesc": "",
+    "modifiers": [
+      {
+        "name": "sta",
+        "value": 2.0
+      }
+    ]
   },
   {
     "gamelink": "\\aITEM -1390415545 79179749 0 0 0:candle\\/a",
@@ -370,6 +386,11 @@
     "max_coins": 233
   },
   {
+    "gamelink": "\\aITEM -2003229965 -2041423791:crystal embedded ring\\/a",
+    "min_coins": 83,
+    "max_coins": 83
+  },
+  {
     "gamelink": "\\aITEM -1304448915 884304802 0 0 0:crystalline sandpaper\\/a",
     "description": "Crystalline sandpaper is used in tier 6 recipes.",
     "tier_id": 3,
@@ -479,6 +500,11 @@
     "gamelink": "\\aITEM 1206095393 892813570:elm wand\\/a",
     "min_coins": 49,
     "max_coins": 49
+  },
+  {
+    "gamelink": "\\aITEM -623216568 124337759:embalmed leather gloves\\/a",
+    "min_coins": 238,
+    "max_coins": 238
   },
   {
     "gamelink": "\\aITEM 1914434201 676437330:ember scarred dagger\\/a",
@@ -660,6 +686,11 @@
     "gamelink": "\\aITEM -1704233954 -399835069:guttersnipe rapier\\/a",
     "min_coins": 44,
     "max_coins": 44
+  },
+  {
+    "gamelink": "\\aITEM -2022342231 -581125933:Haddek's dwarven ale\\/a",
+    "min_coins": 11,
+    "max_coins": 11
   },
   {
     "gamelink": "\\aITEM -997096989 1349224818:Halasian Language Primer\\/a",
@@ -1582,16 +1613,5 @@
     "gamelink": "\\aITEM -384384524 -1484006614:Zatzy's Bludgeoner\\/a",
     "min_coins": 264,
     "max_coins": 264
-  },
-  {
-    "gamelink": "\\aITEM 462189661 1165457727:burlap sash\\/a",
-    "slot": "waist",
-    "knowledgedesc": "",
-    "modifiers": [
-      {
-        "name": "sta",
-        "value": 2
-      }
-    ]
   }
 ]

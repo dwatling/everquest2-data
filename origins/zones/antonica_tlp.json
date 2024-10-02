@@ -1705,7 +1705,8 @@
         "-176.64,-6.78,347.3",
         "-152.30,-27.47,621.32",
         "-151.00,-26.42,609.00",
-        "-137.43,-25.76,713.52"
+        "-137.43,-25.76,713.52",
+        "-156.07,-13.66,573.45"
       ],
       "utterances": [
         "Attack!",
@@ -1717,7 +1718,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1698232697 -1628225413:Chirannite Threat Totem\\/a",
           "chest": false
         },
         {
@@ -2137,6 +2146,10 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 1731581597 114184284:Coral Amulet\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 1838982612 289946543:Far Seas Trading Requisition ANT0244\\/a",
           "chest": true
         },
@@ -2157,7 +2170,7 @@
           "chest": false
         }
       ],
-      "drop_coin_min": 10,
+      "drop_coin_min": 8,
       "drop_coin_max": 267,
       "faction_changes": [
         {
@@ -7006,6 +7019,12 @@
         {
           "gamelink": "\\aITEM 1359041271 -1145894628:Radiant Strike (Adept I)\\/a",
           "chest": true
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Tunarian Alliance",
+          "value": 50
         }
       ]
     },

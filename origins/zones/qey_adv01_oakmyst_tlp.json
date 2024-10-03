@@ -29,6 +29,23 @@
       ]
     },
     {
+      "name": "Cailee Bluesheaf",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "890.15,2.37,-336.65"
+      ],
+      "utterances": [
+        "Blessings to you and your kin!",
+        "We train to be the best!",
+        "Truth be told, I never miss!"
+      ]
+    },
+    {
       "name": "a clearwater frog",
       "locations": [
         "948.72,2.26,-236.70",
@@ -52,7 +69,10 @@
         "938.42,3.74,-215.11",
         "932.35,5.09,-204.64",
         "902.84,3.21,-202.11",
-        "921.06,12.46,-170.31"
+        "921.06,12.46,-170.31",
+        "918.00,15.59,-198.00",
+        "908.91,15.39,-182.82",
+        "910.50,13.48,-173.34"
       ],
       "utterances": [
         "Our darkness spreads. ",
@@ -65,7 +85,15 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -430410266 307390827:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM 976091221 1459092375:Fabric Patch\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 230350572 2134104254:a vial of dryad blood\\/a",
           "chest": false
         }
       ]
@@ -166,6 +194,21 @@
       "drop_coin_max": 8
     },
     {
+      "name": "Jorn Sorefoot",
+      "race": [
+        "barbarian"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "847.15,8.39,-202.92"
+      ],
+      "utterances": [
+        "Gnomes... who needs 'em?"
+      ]
+    },
+    {
       "name": "Judge Eunomia",
       "locations": [
         "1008.88,13.28,-318.91"
@@ -175,6 +218,23 @@
         "You are the one who aided our sapling. You can help me execute my judgement. Twisted, disloyal imposters live in the woodland. They hide amongst the noble, but they don't fool me or my sisters.",
         "They're corrupted fayfolke--bright with beauty but twisted and corrupted to the core. They're called the sunshimmer sprites.  You must destroy them.",
         "You proved your devotion to the dryads of this forest. The Empress has taken note of your good deeds. She awaits you."
+      ]
+    },
+    {
+      "name": "Karach the Spider Queen",
+      "levelRange": "10",
+      "locations": [
+        "919.66,15.47,-198.70"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 215618664 -49981195:Diversion Blade (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 268592802 -1664455801:Matriarch's Scepter\\/a",
+          "chest": true
+        }
       ]
     },
     {
@@ -240,6 +300,18 @@
       ]
     },
     {
+      "name": "Monteh Furthread",
+      "levelRange": "10",
+      "locations": [
+        "768.48,13.35,-246.84"
+      ],
+      "utterances": [
+        "To arms!"
+      ],
+      "drop_coin_min": 12,
+      "drop_coin_max": 12
+    },
+    {
       "name": "a mystail yearling",
       "locations": [
         "797.95,7.38,-225.61"
@@ -247,9 +319,11 @@
     },
     {
       "name": "an Oakmyst great bear",
+      "levelRange": "10",
       "locations": [
         "1001.76,13.93,-239.30",
-        "968.99,14.62,-261.26"
+        "968.99,14.62,-261.26",
+        "980.05,2.04,-237.75"
       ]
     },
     {
@@ -275,9 +349,18 @@
     },
     {
       "name": "Rotweed Thistle",
+      "levelRange": "11",
       "locations": [
         "917.93,12.36,-169.37",
-        "925.96,12.18,-170.00"
+        "925.96,12.18,-170.00",
+        "912.34,12.63,-169.25",
+        "862.71,1.73,-188.60"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 984980240 177247612:wooden splinter\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -372,6 +455,12 @@
       "gamelink": "\\aITEM 1424402151 -2129824125:chipped shard of alteration\\/a"
     },
     {
+      "gamelink": "\\aITEM 1331551958 -1699344718:chipped shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1868197541 -626008118:chipped shard of conjuration\\/a"
+    },
+    {
       "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a"
     },
     {
@@ -388,6 +477,9 @@
     },
     {
       "gamelink": "\\aITEM 794244308 -1718389780:scuffed shard of conjuration\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1389794325 228147189:shattered dwarf bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM 1306389734 1869011176:shattered froglok bone fragment\\/a"
@@ -411,6 +503,9 @@
       "gamelink": "\\aITEM 736208268 -898305246:shattered iksar bone fragment\\/a"
     },
     {
+      "gamelink": "\\aITEM 792936304 1175841208:spotted blue butterfly\\/a"
+    },
+    {
       "gamelink": "\\aITEM -1810895498 767179960:striped blue butterfly\\/a"
     }
   ],
@@ -429,6 +524,9 @@
     },
     {
       "name": "the moss encased stone"
+    },
+    {
+      "name": "the muddy roots"
     },
     {
       "name": "the natural garden"

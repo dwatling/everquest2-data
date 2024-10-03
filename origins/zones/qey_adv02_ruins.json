@@ -141,7 +141,10 @@
         "1020.65,-25.20,-894.33",
         "997.59,-25.64,-899.15",
         "970.51,-26.26,-882.45",
-        "1007.13,-26.62,-909.72"
+        "1007.13,-26.62,-909.72",
+        "1040.45,-25.38,-898.45",
+        "985.23,-25.83,-891.66",
+        "983.67,-25.46,-885.87"
       ],
       "utterances": [
         "Sees us, did we? Must not let you talk then.",
@@ -156,7 +159,12 @@
         "Is this supposed to hurt?",
         "Feel kinda sleepy. Whacha do to me?",
         "I will have vengeance!",
-        "I hope you put your affairs in order."
+        "I hope you put your affairs in order.",
+        "Prepare to face your doom, meddler.",
+        "All hands retreat!",
+        "Not nice to interrupt dinner.",
+        "Enemies approach. Kill them all!",
+        "Combat withdrawal! Follow me!"
       ],
       "drops": [
         {
@@ -164,6 +172,8 @@
           "chest": true
         }
       ],
+      "drop_coin_min": 7,
+      "drop_coin_max": 15,
       "faction_changes": [
         {
           "name": "The Academy of Arcane Science",
@@ -183,7 +193,9 @@
       "utterances": [
         "I hope you put your affairs in order.",
         "Look what strolled into the spider's web!",
-        "There is no escape for you now!"
+        "There is no escape for you now!",
+        "Summon help!  We have invaders!",
+        "To arms!"
       ],
       "drop_coin_min": 9,
       "drop_coin_max": 9,
@@ -201,7 +213,8 @@
         "1060.50,-23.28,-890.95",
         "1068.93,-25.08,-905.41",
         "940.96,-25.70,-862.72",
-        "1065.26,-9.72,-786.21"
+        "1065.26,-9.72,-786.21",
+        "1009.99,-18.94,-625.25"
       ],
       "utterances": [
         "Not nice to interrupt dinner.",
@@ -225,10 +238,18 @@
       "levelRange": "10",
       "locations": [
         "1023.85,-26.23,-902.87",
-        "1023.96,-24.02,-888.77"
+        "1023.96,-24.02,-888.77",
+        "931.94,-25.06,-861.53"
       ],
       "utterances": [
-        "Fall back and regroup.  The enemy has the upper hand!"
+        "Fall back and regroup.  The enemy has the upper hand!",
+        "You'll pay for that!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -430410266 307390827:Coral Scrying Stone\\/a",
+          "chest": false
+        }
       ],
       "faction_changes": [
         {
@@ -244,7 +265,10 @@
         "1023.58,-25.29,-895.21",
         "1017.50,-25.57,-896.59",
         "1009.13,-18.95,-625.64",
-        "1015.07,-19.00,-637.14"
+        "1015.07,-19.00,-637.14",
+        "1101.63,-21.09,-716.02",
+        "935.62,-24.31,-856.00",
+        "1072.17,-25.35,-909.55"
       ],
       "utterances": [
         "Flee and take care of them later.",
@@ -254,11 +278,17 @@
         "Greetings friend, how would you like to die?",
         "You're not as sneaky as you thought.",
         "Overhear my plansies. Gore you I will!",
-        "Time to leave, yes. Definitely time to leave."
+        "Time to leave, yes. Definitely time to leave.",
+        "Don't hurt us! We're no threat to your mightiness.",
+        "That patch of fur will never grow back, you know."
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1261960677:small decaying bone\\/a",
           "chest": false
         }
       ],
@@ -281,7 +311,8 @@
         "1068.50,-25.23,-906.34",
         "939.58,-25.90,-864.43",
         "1000.93,-25.51,-899.00",
-        "1064.00,-10.25,-790.36"
+        "1064.00,-10.25,-790.36",
+        "933.94,-24.34,-857.12"
       ],
       "utterances": [
         "Sees us, did we? Must not let you talk then.",
@@ -292,7 +323,12 @@
         "Not nice to interrupt dinner.",
         "Is that all you have?",
         "I'm gonna give you a smile like ol' one tooth!",
-        "Neat, that'll leave a pretty scar"
+        "Neat, that'll leave a pretty scar",
+        "Didn't expect to run into me, did you?",
+        "You'll pay for that!",
+        "Prepare to face your doom, meddler.",
+        "I can't hold them forever!",
+        "Enemies approach. Kill them all!"
       ],
       "drops": [
         {
@@ -313,11 +349,16 @@
       "name": "a bound watcher",
       "levelRange": "10",
       "locations": [
-        "1043.03,-24.97,-743.63"
+        "1043.03,-24.97,-743.63",
+        "1076.00,-23.90,-708.00"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 540174769 -1951374594:Agitation (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1166576126 -1541417864:waxed tunic\\/a",
           "chest": true
         }
       ]
@@ -344,6 +385,14 @@
       "utterances": [
         "My progress will not be halted!",
         "You cannot defeat us all!"
+      ]
+    },
+    {
+      "name": "Captain Riplung",
+      "levelRange": "11",
+      "utterances": [
+        "That one will make a nice stew.",
+        "I'm gonna give you a smile like ol' one tooth!"
       ]
     },
     {
@@ -406,9 +455,14 @@
         "1013.86,-19.29,-621.02",
         "1005.26,-22.01,-614.26",
         "995.73,-23.91,-600.00",
-        "1011.08,-18.82,-626.38"
+        "1011.08,-18.82,-626.38",
+        "1020.00,-18.89,-625.90"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM 1925395467 -690823446:charred tinder\\/a",
+          "chest": false
+        },
         {
           "gamelink": "\\aITEM -1918332018 1816120840:waxed pants\\/a",
           "chest": true
@@ -426,6 +480,24 @@
       "locations": [
         "1068.71,-22.70,-854.25"
       ]
+    },
+    {
+      "name": "a Flamepaw loyalist",
+      "levelRange": "11",
+      "locations": [
+        "1105.77,-10.25,-777.07",
+        "1110.99,-10.25,-774.34"
+      ],
+      "utterances": [
+        "You will disturb the master!",
+        "Leave this area now!",
+        "For Flamepaw!",
+        "The work will continue.",
+        "No!  I must see the coming of the Flamepaw!",
+        "I will not fall!"
+      ],
+      "drop_coin_min": 8,
+      "drop_coin_max": 8
     },
     {
       "name": "a forgotten guardian",
@@ -464,6 +536,22 @@
       ],
       "utterances": [
         "There is no failing greater than a child unable to protect a parent."
+      ]
+    },
+    {
+      "name": "Kinloc Flamepaw's Remains",
+      "levelRange": "11",
+      "locations": [
+        "1107.87,-10.25,-773.36"
+      ],
+      "utterances": [
+        "I can see my own blood.  This is not good."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1114811548 467564743:Flame Forged Hauberk\\/a",
+          "chest": true
+        }
       ]
     },
     {
@@ -690,21 +778,71 @@
         "966.00,-29.17,-897.00",
         "928.75,-29.35,-879.24",
         "998.00,-27.66,-912.00",
-        "962.28,-26.89,-882.19"
+        "962.28,-26.89,-882.19",
+        "1030.79,-31.03,-922.58",
+        "1013.23,-31.16,-923.79"
       ],
       "utterances": [
         "Dying didn't feel good the first time.",
         "That pile of bones was my friend!",
         "As I rise from the grave,  you will now take my place!",
         "Seek death and it finds you.",
-        "Your eyes are so pretty."
+        "Your eyes are so pretty.",
+        "You cannot eliminate us!",
+        "I'm shattered and broken.",
+        "Brains! Its what's for dinner.",
+        "I didn't need those bones anyway."
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 1993577523 1261960677:small decaying bone\\/a",
           "chest": false
         }
+      ],
+      "drop_coin_min": 15,
+      "drop_coin_max": 15
+    },
+    {
+      "name": "The Spectral Headmaster",
+      "levelRange": "12",
+      "locations": [
+        "1083.38,-0.92,-776.12"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1608281107 -1110780430:Headmaster's Gavel\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 272710783 -2091617289:Viscerate (Adept I)\\/a",
+          "chest": true
+        }
       ]
+    },
+    {
+      "name": "a spectral instructor",
+      "levelRange": "12",
+      "locations": [
+        "1083.60,-3.03,-777.04"
+      ],
+      "utterances": [
+        "There is no recourse save death!",
+        "Must you aggravate me so!",
+        "Thy transgression will not be forgiven!",
+        "You shall regret waking the dead.",
+        "An impressive blow, can thy survive my reprise?",
+        "For Thull's sake!",
+        "May you sleep restfully, my comrade.",
+        "That attack was insufficient."
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -45192848 1408642818:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ],
+      "drop_coin_min": 10,
+      "drop_coin_max": 11
     },
     {
       "name": "a spectral student",

@@ -419,10 +419,19 @@
       "levelRange": "11",
       "difficulty": "heroic",
       "locations": [
-        "1083.38,-0.92,-776.12"
+        "1083.38,-0.92,-776.12",
+        "1084.07,-3.31,-781.19"
       ],
       "utterances": [
-        "Look what strolled into the spider's web!"
+        "Look what strolled into the spider's web!",
+        "How dare you!",
+        "I will have vengeance!"
+      ],
+      "faction_changes": [
+        {
+          "name": "The Academy of Arcane Science",
+          "value": -100
+        }
       ]
     },
     {
@@ -687,8 +696,10 @@
     },
     {
       "name": "a rotting pathfinder",
+      "levelRange": "11",
       "utterances": [
-        "Your blood calls to me."
+        "Your blood calls to me.",
+        "Seek death and it finds you."
       ]
     },
     {

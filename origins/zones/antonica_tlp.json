@@ -505,6 +505,13 @@
       ]
     },
     {
+      "name": "a brigand leader",
+      "utterances": [
+        "Summon help!  We have invaders!",
+        "You fool, we've already recovered the book you seek! We'll use its secrets to raise our greatest leader."
+      ]
+    },
+    {
       "name": "Bulvar Rakgam",
       "locations": [
         "-2114.37,-39.88,433.62"
@@ -869,6 +876,21 @@
           "name": "The Sabertooth Gnolls",
           "value": -100
         }
+      ]
+    },
+    {
+      "name": "Centurion Grimbold Steadirt",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1230.62,-10.27,706.83"
+      ],
+      "utterances": [
+        "Yes? Can I help you?"
       ]
     },
     {
@@ -1483,18 +1505,29 @@
       "name": "a Darkpaw animator",
       "levelRange": "11",
       "locations": [
-        "-185.68,-16.26,562.64"
+        "-185.68,-16.26,562.64",
+        "-170.00,-15.59,563.80",
+        "-188.55,-16.58,568.68"
       ],
       "utterances": [
         "More Qeynos food!",
-        "Go with Fippy, fallen one!"
+        "Go with Fippy, fallen one!",
+        "Attack!",
+        "Uh oh... That's not good.",
+        "Kill it!"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM -995437396 1086350915:canine saliva\\/a",
+          "chest": false
+        },
         {
           "gamelink": "\\aITEM 443386974 -1056914495:A crude gnoll scrawling\\/a",
           "chest": true
         }
       ],
+      "drop_coin_min": 8,
+      "drop_coin_max": 8,
       "faction_changes": [
         {
           "name": "The Great Herd",
@@ -1668,17 +1701,48 @@
       "name": "a Darkpaw lookout",
       "levelRange": "11",
       "locations": [
-        "-128.82,-16.41,585.9"
+        "-128.82,-16.41,585.9",
+        "-148.72,-15.89,589.12",
+        "-149.82,-16.24,594.50",
+        "-140.00,-17.76,588.00",
+        "-147.33,-15.77,581.03"
       ],
       "utterances": [
-        "Uh oh... That's not good."
+        "Uh oh... That's not good.",
+        "Kill it!",
+        "More Qeynos food!",
+        "Go with Fippy, fallen one!",
+        "Uhhhh... I think I go now!",
+        "Attack!"
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -2040308040 -345113074:advanced craftsman volume 11\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1698232697 -1628225413:Chirannite Threat Totem\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -430410266 307390827:Coral Scrying Stone\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 -1846212575:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -754783456 -192159580:Taunting Blow (Adept I)\\/a",
+          "chest": true
         }
       ],
+      "drop_coin_min": 14,
+      "drop_coin_max": 17,
       "faction_changes": [
         {
           "name": "The Great Herd",
@@ -1706,7 +1770,11 @@
         "-152.30,-27.47,621.32",
         "-151.00,-26.42,609.00",
         "-137.43,-25.76,713.52",
-        "-156.07,-13.66,573.45"
+        "-156.07,-13.66,573.45",
+        "-263.42,-13.42,533.97",
+        "-134.02,-26.27,718.97",
+        "-137.26,-26.98,725.61",
+        "-168.83,-22.22,676.25"
       ],
       "utterances": [
         "Attack!",
@@ -1714,7 +1782,8 @@
         "More Qeynos food!",
         "Uhhhh... I think I go now!",
         "Awoooooo!",
-        "Kill it!"
+        "Kill it!",
+        "Uh oh... That's not good."
       ],
       "drops": [
         {
@@ -1734,11 +1803,31 @@
           "chest": true
         },
         {
+          "gamelink": "\\aITEM 2104020758 835785464:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
           "chest": true
         },
         {
+          "gamelink": "\\aITEM 295026780 -1353561431:a gnoll paw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2054181065 529996136:iron maul\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 254183980 -1846212575:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -1161459075 1625987143:a small bronze key with a strange handle\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1439043884 -940934384:woven cordovan tunic\\/a",
           "chest": true
         }
       ],
@@ -1756,6 +1845,10 @@
         {
           "name": "The Sabertooth Gnolls",
           "value": -100
+        },
+        {
+          "name": "The Celestial Watch",
+          "value": 50
         }
       ]
     },
@@ -1815,14 +1908,37 @@
       "levelRange": "11",
       "locations": [
         "-175.09,-16.32,570",
-        "-184.62,-16.5,571.97"
+        "-184.62,-16.5,571.97",
+        "-164.95,-15.62,564.03"
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1698232697 -1628225413:Chirannite Threat Totem\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -6577808 -1333605123:a gnoll tail\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 254183980 -1846212575:Paraffin Sealed Document\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1993577523 1261960677:small decaying bone\\/a",
           "chest": false
         }
       ],
+      "drop_coin_min": 11,
+      "drop_coin_max": 15,
       "faction_changes": [
         {
           "name": "The Great Herd",
@@ -2034,7 +2150,8 @@
       "levelRange": "13",
       "locations": [
         "-571.64,-18.95,457.66",
-        "-953.89,-16.06,347.14"
+        "-953.89,-16.06,347.14",
+        "-289.09,-15.10,516.51"
       ],
       "utterances": [
         "Another member of the pack down!"
@@ -2126,7 +2243,15 @@
         "-156.96,-24.56,773.45",
         "-146.58,-26.87,607.47",
         "-151.74,-26.67,610.81",
-        "-137.29,-27.30,728.06"
+        "-137.29,-27.30,728.06",
+        "-170.23,-22.22,677.31",
+        "-130.77,-25.03,710.53",
+        "-144.27,-25.22,708.15",
+        "-177.54,-22.33,692.23",
+        "-162.73,-23.80,762.08",
+        "-35.45,-14.65,560.63",
+        "7.67,-12.68,538.07",
+        "-162.76,-22.34,680.22"
       ],
       "utterances": [
         "Attack!",
@@ -2134,9 +2259,18 @@
         "Kill it!",
         "Uhhhh... I think I go now!",
         "Uh oh... That's not good.",
-        "Go with Fippy, fallen one!"
+        "Go with Fippy, fallen one!",
+        "Who's next?"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 469903258 1125884808:Bootstrutter's Field Guide to Antonica\\/a",
+          "chest": true
+        },
         {
           "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
@@ -2150,12 +2284,32 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 1269626589 -374616090:Far Seas Trading Requisition ANT0221\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 1838982612 289946543:Far Seas Trading Requisition ANT0244\\/a",
           "chest": true
         },
         {
+          "gamelink": "\\aITEM 2104020758 835785464:flask of rancid water\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 404982903 -975839299:a gnoll ear\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -2003004954 -1710068162:a gnoll eye\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 295026780 -1353561431:a gnoll paw\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2054181065 529996136:iron maul\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM 254183980 -1846212575:Paraffin Sealed Document\\/a",
@@ -2168,6 +2322,10 @@
         {
           "gamelink": "\\aITEM 1288017611 1507555502:small kerran doll\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -2037855004 -1451502410:woven cordovan bracers\\/a",
+          "chest": true
         }
       ],
       "drop_coin_min": 8,
@@ -2273,7 +2431,8 @@
         "223.47,-31.71,-700",
         "220.91,-32.74,-693.79",
         "241.21,-29.6,-697.82",
-        "333.94,-23.43,-713.36"
+        "333.94,-23.43,-713.36",
+        "329.68,-23.36,-706.42"
       ],
       "utterances": [
         "Sleep.",
@@ -2400,6 +2559,12 @@
     },
     {
       "name": "Dworn Soulforge",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1930.88,-14.37,752.97"
       ],
@@ -2465,7 +2630,10 @@
         "-24.16,-20.44,483.65",
         "-12.84,-20.98,387.62",
         "-108.93,-23.02,705.65",
-        "-102.21,-22.51,699.36"
+        "-102.21,-22.51,699.36",
+        "-75.73,-21.16,582.17",
+        "-50.07,-16.77,314.46",
+        "-78.05,-20.69,655.27"
       ],
       "drops": [
         {
@@ -2871,7 +3039,8 @@
         "-311.58,-12.16,348.59",
         "-319.42,-16.78,304.09",
         "-305.98,-18.24,290.23",
-        "-440.07,-5.08,632.91"
+        "-440.07,-5.08,632.91",
+        "-310.75,-20.53,713.50"
       ],
       "drops": [
         {
@@ -3119,6 +3288,15 @@
     },
     {
       "name": "a griffon tamer",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-2139.63,-28.55,613.18"
+      ],
       "utterances": [
         "Where would you like to go?"
       ]
@@ -3174,7 +3352,30 @@
         "-1524.35,-11.61,219.36",
         "-1544.29,-10.37,259.49",
         "-1625.74,-13.36,324.37",
-        "-485.87,-22.10,250.39"
+        "-485.87,-22.10,250.39",
+        "-441.77,-21.75,336.60",
+        "-537.82,-29.74,319.46",
+        "-531.56,-30.23,318.06",
+        "-621.63,-18.32,290.69",
+        "-665.67,-12.14,259.28",
+        "-668.62,-13.53,335.14",
+        "-693.41,-16.36,333.13",
+        "-673.92,-14.09,435.13",
+        "-638.13,-13.87,119.85",
+        "-584.37,-13.55,121.40",
+        "-539.11,-10.86,40.42"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1595673009 -1184561711:tanned leather pelt\\/a",
+          "chest": false
+        }
+      ],
+      "faction_changes": [
+        {
+          "name": "The Celestial Watch",
+          "value": 50
+        }
       ]
     },
     {
@@ -3429,7 +3630,12 @@
         "Excellent. Are you ready to start?",
         "I need those darned dispatches brought back to me! You'd think that folks who get to run around looking for danger would realize how important it is to send word back to ... well, me.  Since they haven't, I need someone to knock them upside their heads and get the information, then bring it back to me.",
         "That is a shame. Please leave me to my prayers.",
-        "Got all three reports for me, eh?"
+        "Got all three reports for me, eh?",
+        "Anything interesting?  The last reports were hardly worth waiting for, but a good soldier never lets his guard down -- ever!",
+        "What!?  Lord Grimrot? It can't be ... Pestilence -- that's his war scythe, found after all these years?  I never credited the gnolls with having any brains, and this proves it! If they go through with this, it could mean another War of Plagues!",
+        "Ah, yes, Morte.  He's a good lad, if a bit addled.  He really wants to become a blacksmith, but I hate to tell him ... he's already too old for anyone to take him on as an apprentice.  Still, it's good for us to have our dreams, isn't it?  He dreams of fire and tongs, while I dream of returning to battle.",
+        "We must get that scythe at any cost.  A large-scale invasion won't do us any good; they might just try to hurry up whatever it is they're doing.  No, we've got to get a small force to find Pestilence and destroy it. ",
+        "You might want to bring along some trusted companions, for I'm sure the gnolls will have this thing hidden -- from each other, as well as from outsiders like us!  If they're trying to do some fancy spellwork, their rune casters will be involved.  Watch for their guards too."
       ]
     },
     {
@@ -3592,7 +3798,8 @@
         "-126.00,-18.19,146.59",
         "-155.15,-17.18,167.69",
         "-181.70,-15.78,153.53",
-        "-44.69,-17.67,83.69"
+        "-44.69,-17.67,83.69",
+        "-39.38,-16.61,157.54"
       ],
       "drops": [
         {
@@ -3790,7 +3997,9 @@
         "-398.3,15.6,-304.72"
       ],
       "utterances": [
-        "And who might you be?"
+        "And who might you be?",
+        "Ignar?  Oh, I'll bet he's waiting on a report!  Poor fellow, he can't hear with one ear, you know. That's why he's been assigned duty out of harm's way.",
+        "Yes, here it is.  The word is, something peculiar's going on ... apparently, there's a group of gnolls--the little wretches--that are trying to conjure up an undead invasion.  I'm not sure what they're using, but the activity of the undead has increased. I will send word to Ignar without delay should I learn more."
       ]
     },
     {
@@ -3807,6 +4016,12 @@
     },
     {
       "name": "Knight Morte Winghammer",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1736.93,-14.22,348.19"
       ],
@@ -4042,6 +4257,12 @@
     },
     {
       "name": "Lord Quinn Clothspinner",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-557.16,-8.24,-312.69"
       ],
@@ -4126,7 +4347,14 @@
         "-399.31,-3.18,537.30",
         "-453.28,-3.92,617.63",
         "-465.29,-2.17,587.26",
-        "-596.57,-22.31,343.73"
+        "-596.57,-22.31,343.73",
+        "-365.80,-9.12,665.46",
+        "-418.73,-3.61,517.59",
+        "-325.77,-13.93,257.20",
+        "-246.78,-28.49,736.33",
+        "-270.84,-23.31,724.97",
+        "-310.93,-22.36,751.42",
+        "-296.17,-19.95,707.32"
       ],
       "drops": [
         {
@@ -4139,6 +4367,10 @@
         },
         {
           "gamelink": "\\aITEM -1084678629 492709664:Far Seas Trading Requisition ANT0437\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1223053304 -457968468:Pouncing Leopard (Adept I)\\/a",
           "chest": true
         },
         {
@@ -4615,6 +4847,12 @@
     },
     {
       "name": "Oracle Ednar",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1033.95,26.94,-624.13"
       ],
@@ -4626,6 +4864,12 @@
     },
     {
       "name": "Oracle Liandrin",
+      "race": [
+        "high elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-1034.56,14.12,-631.52"
       ],
@@ -4635,6 +4879,12 @@
     },
     {
       "name": "Oracle Ulinara",
+      "race": [
+        "erudite"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-1033.79,14.12,-627.69"
       ],
@@ -4795,6 +5045,12 @@
     },
     {
       "name": "Protector Emerson",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1020.22,12.95,-620.88"
       ],
@@ -4829,33 +5085,56 @@
     },
     {
       "name": "Protector Hawes",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1028.45,13.94,-622.01"
       ],
       "utterances": [
         "I hate working this shift!  If the gnolls don't attack now, I may die of boredom.",
         "Good day to you, citizen. All preserve Queen Antonia.",
-        "Duty above all else, citizen, except honor!"
+        "Duty above all else, citizen, except honor!",
+        "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out."
       ]
     },
     {
       "name": "Protector Swithin",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1034.5,13.95,-620.03"
       ],
       "utterances": [
         "I hate working this shift!  If the gnolls don't attack now, I may die of boredom.",
-        "Good day to you, citizen. All preserve Queen Antonia."
+        "Good day to you, citizen. All preserve Queen Antonia.",
+        "Duty above all else, citizen, except honor!",
+        "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out."
       ]
     },
     {
       "name": "Protector Wickham",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1038.95,12.95,-614.64"
       ],
       "utterances": [
         "Greetings, citizen. I am on guard duty.  Should you get into trouble, seek me out.",
-        "I hate working this shift!  If the gnolls don't attack now, I may die of boredom."
+        "I hate working this shift!  If the gnolls don't attack now, I may die of boredom.",
+        "Duty above all else, citizen, except honor!",
+        "Good day to you, citizen. All preserve Queen Antonia."
       ]
     },
     {
@@ -4945,6 +5224,24 @@
           "gamelink": "\\aITEM 397119710 408683460:a bird skull\\/a",
           "chest": false
         }
+      ]
+    },
+    {
+      "name": "Relana Everglade",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
+      "locations": [
+        "-1203.17,-12.08,717.07"
+      ],
+      "utterances": [
+        "Greetings friend of men and elves.  The Tunarian Alliance is in dire need of assistance this day.  May you lend me an ear so I can tell you of our plight?",
+        "Then please listen well.  Beyond these doors lies an ever growing evil, one that threatens us all if left unchecked.  An ancient necromancer named Udalan has returned to the gully and regained much of his former strength.",
+        "The Arch Lich Udalan has already begun summoning another army, one much greater than the last.  Once he has amassed a large enough army he will unleash it upon his oldest and closest foe... the city of Qeynos.  But the terror and wrath will not stop there, he will raise more dead as he goes, creating an army so vast and powerful that none on Norrath, save the Old Gods, will be able to contend with him. ",
+        "Yes!  Now is the time to strike, as he has not yet regained full strength.  Already he is too strong for the Qeynos Guard and all of the Tunarian Alliance, so it falls to you and your band of powerful adventurers! Gather all that you can, but do not delay!  With each passing day his strength grows and will consume all the land with disease and pestilence! "
       ]
     },
     {
@@ -5056,7 +5353,13 @@
         "365.89,-25.11,-534.08",
         "339.67,-21.21,-651.04",
         "247.39,-29.13,-682.85",
-        "227.21,-31.3,-701.16"
+        "227.21,-31.3,-701.16",
+        "336.00,-22.78,-711.34",
+        "335.70,-21.42,-699.22",
+        "350.39,-20.82,-707.06",
+        "377.02,-20.23,-709.76",
+        "304.63,-23.36,-655.70",
+        "322.50,-21.87,-633.73"
       ],
       "drops": [
         {
@@ -5076,7 +5379,7 @@
           "chest": false
         }
       ],
-      "drop_coin_min": 20,
+      "drop_coin_min": 16,
       "drop_coin_max": 219
     },
     {
@@ -5461,7 +5764,10 @@
         "-3.66,-23.05,778.84",
         "181.31,-26.03,718.21",
         "34.16,-21.40,792.63",
-        "48.22,-20.95,768.22"
+        "48.22,-20.95,768.22",
+        "-29.70,-8.02,650.11",
+        "-99.96,-21.21,658.18",
+        "-80.08,-28.51,739.21"
       ],
       "utterances": [
         "You gonna pay for that.",
@@ -5715,7 +6021,9 @@
         "129.33,-21.23,668.74",
         "-62.51,-30.68,760.00",
         "2.55,-22.65,777.92",
-        "31.45,-20.21,739.87"
+        "31.45,-20.21,739.87",
+        "-77.03,-21.24,582.72",
+        "4.72,-22.55,807.72"
       ],
       "utterances": [
         "Kill it!  Kill it!",
@@ -5737,6 +6045,10 @@
         },
         {
           "gamelink": "\\aITEM 2043523089 -1248574909:carved ivory cameo\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM -1698232697 -1628225413:Chirannite Threat Totem\\/a",
           "chest": false
         },
         {
@@ -6013,6 +6325,12 @@
     },
     {
       "name": "Sentry Acton",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1724.61,-14.29,372.15"
       ],
@@ -6313,7 +6631,8 @@
         "-3.26,-15.13,16.75",
         "-24.09,-14.64,3.23",
         "51.88,-14.35,51.25",
-        "2.05,-17.64,56.18"
+        "2.05,-17.64,56.18",
+        "-89.58,-20.75,634.36"
       ],
       "drops": [
         {
@@ -6517,7 +6836,8 @@
       "name": "Tark Searfang",
       "levelRange": "12",
       "locations": [
-        "196.97,-18.17,643.6"
+        "196.97,-18.17,643.6",
+        "-184.12,-24.16,721.61"
       ],
       "utterances": [
         "Go with Fippy, fallen one!"
@@ -6718,7 +7038,8 @@
         "-920.24,-23.82,297.37",
         "-943.62,-15.61,361.63",
         "-1001.18,-9.47,138.72",
-        "-1636.90,-14.42,345.12"
+        "-1636.90,-14.42,345.12",
+        "-447.75,-25.03,352.38"
       ],
       "drops": [
         {
@@ -6731,6 +7052,10 @@
         },
         {
           "gamelink": "\\aITEM -742202141 1746681072:Lesser Blood of the Wolf\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 37929329 -1184561711:tanned leather pelt\\/a",
           "chest": false
         }
       ]
@@ -7005,6 +7330,14 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -952198356 1514174600:cured leather wraps\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -443962824 -1544735139:Far Seas Requisition Form\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM -620595596 -931497981:A Foul Wind\\/a",
           "chest": true
         },
@@ -7018,6 +7351,10 @@
         },
         {
           "gamelink": "\\aITEM 1359041271 -1145894628:Radiant Strike (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1619371586 1391256459:woven cordovan shoulder pads\\/a",
           "chest": true
         }
       ],
@@ -7058,7 +7395,17 @@
         "-1603.02,-12.85,233.26",
         "-1569.37,-12.67,261.34",
         "-1633.82,-14.34,338.28",
-        "-1564.04,-12.15,344.16"
+        "-1564.04,-12.15,344.16",
+        "-617.18,-19.48,276.28",
+        "-599.46,-10.89,98.74",
+        "-463.72,-18.49,256.39",
+        "-661.20,-11.71,269.95"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1941570614 -1184561711:tanned leather pelt\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -7122,9 +7469,42 @@
         "-459.35,-29.50,334.10",
         "-510.23,-14.22,240.29",
         "-489.57,-4.59,598.94",
-        "-289.96,-14.25,-15.60"
+        "-289.96,-14.25,-15.60",
+        "-250.95,-14.14,280.33",
+        "-481.43,-31.34,304.21",
+        "-462.62,-30.71,326.97",
+        "-471.84,-22.17,458.58",
+        "-503.09,-22.87,434.00",
+        "-551.58,-24.90,379.73",
+        "-490.01,-18.21,374.58",
+        "-557.09,-27.46,304.97",
+        "-573.85,-24.42,293.62",
+        "-355.58,-11.28,503.14",
+        "-292.37,-21.15,305.01",
+        "-492.79,-14.76,134.04",
+        "-700.98,4.91,126.64",
+        "-736.22,0.44,144.16",
+        "-846.02,-13.70,179.13",
+        "-277.25,-12.15,407.40",
+        "-480.84,-22.88,252.85",
+        "-683.65,-4.39,69.74",
+        "-779.53,0.73,218.87",
+        "-666.95,-12.51,228.87",
+        "-361.48,-6.79,534.38",
+        "-308.06,-12.25,348.79",
+        "-342.73,-7.70,335.21",
+        "-451.11,-19.61,299.41",
+        "-504.83,-29.67,308.43",
+        "-571.01,-28.34,332.29",
+        "-579.36,-25.29,305.86",
+        "-520.41,-29.96,315.32",
+        "-492.50,-31.73,308.82"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM 432924310 728792291:Bestowal of Vitae (Adept I)\\/a",
+          "chest": true
+        },
         {
           "gamelink": "\\aITEM 1024480043 347122643:canine saliva\\/a",
           "chest": false
@@ -7134,11 +7514,27 @@
           "chest": true
         },
         {
+          "gamelink": "\\aITEM 1165459183 -412071980:Far Seas Trading Requisition ANT0229\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM -201838473 1375668556:Far Seas Trading Requisition ANT0243\\/a",
           "chest": true
         },
         {
+          "gamelink": "\\aITEM -1051500582 -1592060167:Far Seas Trading Requisition ANT037\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1084678629 492709664:Far Seas Trading Requisition ANT0437\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 260830704 -2081037464:A Half Eaten Order Slip\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1198445072 78291257:priest's walking stick\\/a",
           "chest": true
         },
         {
@@ -7156,9 +7552,24 @@
           "value": 50
         }
       ]
+    },
+    {
+      "name": "Yuri",
+      "race": [
+        "ratonga"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-546.13,-37.73,827.63"
+      ]
     }
   ],
   "shinies": [
+    {
+      "gamelink": "\\aITEM 1392637750 1829858708:antonican ficus purple leaf\\/a"
+    },
     {
       "gamelink": "\\aITEM 1393712698 100965568:black glass coin of erudin\\/a"
     },
@@ -7172,6 +7583,12 @@
       "gamelink": "\\aITEM 164202245 -601729183:chipped shard of divination\\/a"
     },
     {
+      "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1375121630 1171599299:cracked froglok bone fragment\\/a"
+    },
+    {
       "gamelink": "\\aITEM 728453195 2001231493:cracked human bone fragment\\/a"
     },
     {
@@ -7181,10 +7598,19 @@
       "gamelink": "\\aITEM -1365145544 -1627601815:red glass coin of erudin\\/a"
     },
     {
+      "gamelink": "\\aITEM -1341170799 308633262:scuffed shard of abjuration\\/a"
+    },
+    {
       "gamelink": "\\aITEM -686869063 2018792859:shattered barbarian bone fragment\\/a"
     },
     {
+      "gamelink": "\\aITEM -1389794325 228147189:shattered dwarf bone fragment\\/a"
+    },
+    {
       "gamelink": "\\aITEM 1039265482 989022440:shattered half elf bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 457189842 935647064:shattered halfling bone fragment\\/a"
     }
   ],
   "resourceNodes": [

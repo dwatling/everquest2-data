@@ -13,7 +13,91 @@
   ],
   "connections": [
     {
-      "key": "antonica_tlp"
+      "key": "antonica_tlp",
+      "location": "4.45,-45.80,-45.02"
+    }
+  ],
+  "npcs": [
+    {
+      "name": "a Freeport privateer",
+      "levelRange": "10-12",
+      "difficulty": "heroic",
+      "race": [
+        "half elf",
+        "human"
+      ],
+      "gender": [
+        "male",
+        "female"
+      ],
+      "locations": [
+        "2.22,-45.79,-53.65",
+        "-3.97,-45.67,-44.88",
+        "-11.23,-45.79,-53.74",
+        "-20.22,-45.79,-49.57",
+        "-33.55,-45.79,-51.89",
+        "-39.23,-45.79,-53.77"
+      ]
+    },
+    {
+      "name": "a Freeport privateer captain",
+      "levelRange": "12",
+      "difficulty": "heroic^^^",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-46.58,-45.30,-45.67"
+      ]
+    },
+    {
+      "name": "a high seas lyricist",
+      "levelRange": "10",
+      "difficulty": "heroic",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
+      "locations": [
+        "-24.42,-45.79,-49.88",
+        "-30.94,-45.79,-51.83"
+      ]
+    },
+    {
+      "name": "a privateer recruit",
+      "levelRange": "12",
+      "difficulty": "heroic",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-43.57,-45.79,-45.52"
+      ]
+    },
+    {
+      "name": "a wind rider privateer",
+      "levelRange": "10",
+      "difficulty": "heroic",
+      "race": [
+        "half elf"
+      ],
+      "gender": [
+        "female",
+        "male"
+      ],
+      "locations": [
+        "-22.15,-45.79,-47.42",
+        "-30.76,-45.79,-54.34"
+      ]
     }
   ]
 }

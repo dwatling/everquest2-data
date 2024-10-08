@@ -268,7 +268,8 @@
         "Yeah!",
         "Hail to you too!",
         "What? Where?",
-        "Urrp, ello there, why are there two of you..."
+        "Urrp, ello there, why are there two of you...",
+        "Hic..."
       ]
     },
     {
@@ -362,6 +363,12 @@
     },
     {
       "name": "Blarton Blumble",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1830.76,-37.85,-540.43"
       ],
@@ -383,7 +390,15 @@
         "Ahh, so he's still out there lurking. I'll just have to rest up and save my strength so I can get back to the hunt. I will catch him someday! I know it isn't enough for all that you've done for me, but please take this reward. Thank you so much for all your help!",
         "Well, hello again. It's good to see you. I don't suppose that you can offer me a little more assistance?",
         "My cousin had a tin of bait for me, but he left it sitting at an abandoned camp to the south of here while he was out and about. Now I hear some gnolls have moved in. Do you think you can pick up the bait for me?",
-        "Thank you, and good luck."
+        "Thank you, and good luck.",
+        "Really? Why thank you, you shouldn't have.",
+        "Oh? Who is it from?",
+        "Matsy? She's my cousin, she's so nice!",
+        "I'll just have a sip for now...",
+        "...",
+        "Ugh... just breathing is painful.",
+        "It hurt somethin' fierce and I only barely managed to drag myself back here. The next morning I found I could stand on it ok, but not for too long. I thought I'd try to do some fishin' here at this nice pond since I'm stuck until I can heal enough to get back to my favorite fishin' holes. Just as I was getting set up, I realized I'd lost my favorite lure! I must have dropped it somewhere up on the beach north of here near where I fell. With my leg like this, I can't go and look for it myself. I don't suppose you might be able to help find it for me?",
+        "Thank you very much! As I was saying, it should be somewhere near the beach to the north of here. Good luck!"
       ]
     },
     {
@@ -1705,7 +1720,8 @@
         "-148.72,-15.89,589.12",
         "-149.82,-16.24,594.50",
         "-140.00,-17.76,588.00",
-        "-147.33,-15.77,581.03"
+        "-147.33,-15.77,581.03",
+        "-140.69,-17.82,593.02"
       ],
       "utterances": [
         "Uh oh... That's not good.",
@@ -1723,6 +1739,10 @@
         {
           "gamelink": "\\aITEM -995437396 1295509470:canine saliva\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 558490569 1083597568:Chill (Adept I)\\/a",
+          "chest": true
         },
         {
           "gamelink": "\\aITEM -1698232697 -1628225413:Chirannite Threat Totem\\/a",
@@ -1823,6 +1843,10 @@
           "chest": false
         },
         {
+          "gamelink": "\\aITEM 599111897 -672231565:pouch of peat\\/a",
+          "chest": false
+        },
+        {
           "gamelink": "\\aITEM -1161459075 1625987143:a small bronze key with a strange handle\\/a",
           "chest": true
         },
@@ -1831,7 +1855,7 @@
           "chest": true
         }
       ],
-      "drop_coin_min": 32,
+      "drop_coin_min": 17,
       "drop_coin_max": 217,
       "faction_changes": [
         {
@@ -2264,6 +2288,10 @@
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM -555489665 262906773:Advanced Scholar Volume 11\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
           "chest": false
         },
@@ -2326,9 +2354,13 @@
         {
           "gamelink": "\\aITEM -2037855004 -1451502410:woven cordovan bracers\\/a",
           "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -1212410245 855037371:woven cordovan skullcap\\/a",
+          "chest": true
         }
       ],
-      "drop_coin_min": 8,
+      "drop_coin_min": 7,
       "drop_coin_max": 267,
       "faction_changes": [
         {
@@ -2369,6 +2401,12 @@
     },
     {
       "name": "Daryann Stormrider",
+      "race": [
+        "wood elf"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-1853.67,-38.09,-513.72"
       ],
@@ -2378,7 +2416,8 @@
         "I watch over the woodlands and keep nature in balance. Sometimes it's an unpleasant and difficult task, but without hunters, the hunted would overrun our land.",
         "Each village has someone who decides which creatures' numbers need culling and what populations are stable. I'm the representative for Windstalker Village. If you wish to help me, I will gladly assign you some tasks.",
         "Sometimes a population grows rapidly, and we must hunt weak and sickly creatures to ensure others in the population remain healthy. Other times, predators disrupt nature's balance. I need you to hunt sea turtles and darkclaw crabs near our shores and any red tail hawks you come across here in Antonica.  Please return to me when you finish.",
-        "Thanks to your help.  The populations in Antonica are somewhat stabilized.  At least, for now."
+        "Thanks to your help.  The populations in Antonica are somewhat stabilized.  At least, for now.",
+        "Each village has someone who decides which creatures' numbers need culling and what populations are stable. I'm the representative for the Willow Wood. If you wish to help me, I will gladly assign you some tasks."
       ]
     },
     {
@@ -2633,12 +2672,29 @@
         "-102.21,-22.51,699.36",
         "-75.73,-21.16,582.17",
         "-50.07,-16.77,314.46",
-        "-78.05,-20.69,655.27"
+        "-78.05,-20.69,655.27",
+        "-83.50,-19.17,621.86",
+        "-46.50,-19.80,471.27",
+        "-73.44,-23.52,351.74",
+        "-29.24,-20.96,486.82",
+        "-48.08,-23.03,511.74"
       ],
       "drops": [
         {
+          "gamelink": "\\aITEM 1165459183 -412071980:Far Seas Trading Requisition ANT0229\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 86968877 -1490537706:Far Seas Trading Requisition ANT0351\\/a",
+          "chest": true
+        },
+        {
           "gamelink": "\\aITEM 1733310877 1095896343:an insect antenna\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 849824583 1938247638:snake spine necklace\\/a",
+          "chest": true
         }
       ]
     },
@@ -2857,7 +2913,10 @@
       ],
       "utterances": [
         "Step right up! My wares stand up to any found in the city!  Made by the finest Qeynosian crafters, they are!",
-        "I certainly do. I need to deliver supplies to a couple of my merchants out in the far reaches of Antonica.  Business is so good right now that I hate to close up shop. How would you like to deliver their supplies?"
+        "I certainly do. I need to deliver supplies to a couple of my merchants out in the far reaches of Antonica.  Business is so good right now that I hate to close up shop. How would you like to deliver their supplies?",
+        "I'll pay you a cut of my earnings.  You'll take the first crate of supplies to Novak over by the lighthouse. The second must go to Geddard at Gnollslayer Keep. I see you've a little book.  Here, let me write down where you need to go.   Make sure to bring back their delivery pouches when you're through.",
+        "So you are!  Well done.  Let me take a look at those pouches, and I'll see how much I can afford to pay you.",
+        "Splendid! The merchants are doing very well. Here's your share. Now, why don't you use your reward to buy my fine merchandise?"
       ]
     },
     {
@@ -2920,7 +2979,8 @@
         "-2107.52,-44.51,437.37"
       ],
       "utterances": [
-        "Welcome to Gnollslayer Keep!  I'm Geddard, the only merchant for leagues.  If I don't got it, you don't need it!  What'll it be for you today?"
+        "Welcome to Gnollslayer Keep!  I'm Geddard, the only merchant for leagues.  If I don't got it, you don't need it!  What'll it be for you today?",
+        "Why didn't you say so?  Let me see what you've brought...excellent! I'll take that crate you're carrying. And here's the pouch for Flores.  "
       ]
     },
     {
@@ -3443,7 +3503,13 @@
         "Ha! Great! Why don't you take this? It doesn't look like old Aroof will be needing it. Hmph!",
         "Shhhh! Do you have to be so loud? Look, here's what I need from you. I think that Aroof over here has a bit of a hangover. Ha! Think you can help him out a bit? I would do it, but I've got to stay around and help the poor guy out.",
         "Why don't you be a pal and grab my friend here what I, er... he needs to get rid of this horrendous, terrible, splitting headache. But, bring it to me. I need to give it a taste first before he tries it. I'm a good friend, ya know. I've got to make sure he'll like it.",
-        "Great! An' hurry on up, I can't be waiting all day. I mean, it pains me to see Aroof in such a mess. Go on now! "
+        "Great! An' hurry on up, I can't be waiting all day. I mean, it pains me to see Aroof in such a mess. Go on now! ",
+        "Great! This is just what I needed! I hope it wasn't too much trouble for you. Ha! I am sure you did fine. This will do rather nicely... Blarton is in for a treat!",
+        "This is going to be the best bottle of Rise and Shine Wine yet! I've really outdone myself this time. Hey, you think you can help me out one last time? I could really use the help, and Aroof here can barely lift his ale, let alone do what I have in mind. ",
+        "Blarton an' I go way back. I am looking to put a little excitement in his day. Go on over to Windstalker Village and give him this here wine. After he gets some of this stuff in him, he'll be up playing drinking games with me an' Aroof for the next three seasons! Ha!",
+        "Go find Blarton, and give him this drink. Don't just go over there and try to pour it down his throat either. You need to be delicate about it. Don't raise any suspicions. Blarton is not the smartest chap in the world, but if he thinks you're up to no good, it will spoil the whole prank. When you're done, come back here and let me know. Blarton will probably be here before you are if he drinks that stuff!  Ha!",
+        "This is going to be great!",
+        "If only I could have seen the look on that Blarton's face when he took a drink of that wine! Great job! Thanks for your services. Now, unless you're going to grab us another ale, you can get out of here."
       ]
     },
     {
@@ -3464,7 +3530,8 @@
         "I need you to kill some bears for me, of course. You see, I have so many orders to fill, I can't even think of going out and getting them myself. So, from time to time, I look to adventurers such as yourself to help me out a little bit.",
         "There are plenty of bears out around these parts. These parts were protected for so long, it seems like it's instinct for them to come here and gather. Business is booming and there is no end of supply in sight!",
         "You did it! Thank you so much, friend. I must have just been imagining things. To think, I actually thought that somehow old Holly Windstalker sent that creature after me. Can you believe it? I guess sometimes those old myths can get to even the best of us. Now, I can get back to business. I have lots of orders to fill! Haha! ",
-        "Thanks again! I think I'll be safe for the time being."
+        "Thanks again! I think I'll be safe for the time being.",
+        "Yup, Miss Windstalker must be rolling over in her grave! Oh well, more bears for me, right? Ha!"
       ]
     },
     {
@@ -3519,7 +3586,8 @@
         "-1981.91,15.16,-697.44",
         "-1996.51,18.76,-702.08",
         "-1992.23,17.25,-696.87",
-        "-1987.53,17.56,-707.66"
+        "-1987.53,17.56,-707.66",
+        "-1736.01,-14.29,373.50"
       ],
       "utterances": [
         "I see an attacker!  Sound the alarm!",
@@ -3533,9 +3601,19 @@
         "Send for reinforcements!  Their warriors are skilled.",
         "I've been wounded.  I'll need assistance!",
         "Keep up the assault, no matter what the cost in lives!",
-        "Summon help, intruders have arrived!"
+        "Summon help, intruders have arrived!",
+        "Summon help!  We have invaders!",
+        "Here they come!",
+        "Destroy the invader!",
+        "Well, it seems you have some martial arts skills.",
+        "I won't give up that easily.",
+        "Now, that really hurt!"
       ],
       "drops": [
+        {
+          "gamelink": "\\aITEM 1106708918 1102607084:Blackened Iron Relic\\/a",
+          "chest": false
+        },
         {
           "gamelink": "\\aITEM -620595596 1477139875:A Foul Wind\\/a",
           "chest": true
@@ -4104,7 +4182,19 @@
         "How lucky I am. I have been holding this gift for my love for quite some time, but, alas, my duties keep me here. How sad it is that this flower shall wilt in the wait. Still, I am lucky, for her beauty shall never wane.",
         "How does one compare the beauty of a goddess using the words of mere mortals? Her hair is the color of the rising sun, containing the most glorious hues of the dawn. Her skin is akin to porcelain, flawless and immaculate. Her eyes are the green of a springtime meadow, with small bursts like the yellow of daisies in their center. Her lithe body is soft and curved like the waves of the sea. I only wish my eyes could witness her beauty once again.",
         "That would be splendid! Last I saw, there were some beneath a shaded tree north of here.",
-        "Please hurry!"
+        "Please hurry!",
+        "Her beauty will never wilt.",
+        "Splendid! They will look wonderful in her hair.",
+        "Such a powerful emotion love is, don't you think?",
+        "Aye, that I am. Not only is my maiden fair, but she is also resourceful. Many has she taught the art of survival and hunting. Her graceful hands make a dance out of the barbarism of warfare. Her eye is better than the eagle. I have long thought that she deserves a bow as remarkable as her.",
+        "The insects of this area are sometimes seen as grotesque, but in them I see fluidity and strength. Their limbs would serve well as a handle to a bow worthy of her refined tastes. I, of course, am still stuck here. Would you assist me again? I need insect limbs to create a bow.",
+        "Then go, please, and find the best, most polished limbs possible!",
+        "I would wait an eternity to be by love's side.",
+        "To make the best bow!",
+        "Love fills one with the glow of life.",
+        "Quite well my friend! I have thought of the most splendid gift for my lady, but I cannot leave my post here. I fear she will never receive the gifts of my heart.",
+        "I have met an armorer who says he can make a glowing pendant for my love. The pendant shall always light her gorgeous face as she walks along in this dreary world. For, always with her is the light of our love and always should it be displayed for all to see. The armorer says all he requires are the still-glowing shells of a klicknik. Please, will you retrieve them?",
+        "Wonderful! Thank you, friend."
       ]
     },
     {
@@ -4114,7 +4204,8 @@
       ],
       "utterances": [
         "What can I get for you today?",
-        "What's your poison?"
+        "What's your poison?",
+        "Whats your poison?"
       ]
     },
     {
@@ -4163,6 +4254,12 @@
     },
     {
       "name": "Licha",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "female"
+      ],
       "locations": [
         "-1822.57,-37.79,-545.79"
       ],
@@ -4543,7 +4640,8 @@
         "If he doesn't sober up we will be needing more than food to save him!",
         "Well now, there is a lot less ruckus going on down there. Perhaps the stew helped. You look famished... Here, grab a spoon! ",
         "You have been so helpful today! My cousin, Blarton Blumble, has happened on some terrible luck and broke his leg while fishing. He is the sad sack today and in such a terrible mood. If you could deliver these lovely cookies to him for me, there will be plenty for you when you return!",
-        "Bless your heart."
+        "Bless your heart.",
+        "I need that pepper as soon as possible...oh my water is boiling."
       ]
     },
     {
@@ -4560,6 +4658,12 @@
     },
     {
       "name": "Mayor Woodbridge",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1900.98,-30.76,-612.92"
       ],
@@ -4584,6 +4688,12 @@
     },
     {
       "name": "Mister Jumtum",
+      "race": [
+        "halfling"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1454.82,-14.02,13.24"
       ],
@@ -4819,7 +4929,9 @@
         "356.18,-14.83,780.82"
       ],
       "utterances": [
-        "Greetings, perhaps you need to replenish your supplies, or maybe just sell some of what you picked up along the trail?"
+        "Greetings, perhaps you need to replenish your supplies, or maybe just sell some of what you picked up along the trail?",
+        "Oh, here you go! I will put it on her bill.",
+        "Great, I was almost out of supplies as it stands.  I would hate to hike all the way back to Flores.  Here's a pouch for Flores, make sure he get this, ok?"
       ]
     },
     {
@@ -4930,7 +5042,8 @@
         "-680.91,-6.20,660.68",
         "-634.81,-7.91,702.41",
         "-1020.15,-14.08,302.43",
-        "-1104.93,-17.89,261.30"
+        "-1104.93,-17.89,261.30",
+        "-1684.08,-28.21,-449.74"
       ],
       "utterances": [
         "There they are! Let's get em!",
@@ -5297,6 +5410,12 @@
     },
     {
       "name": "Riason Hanagom",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1903.27,-30.76,-614.27"
       ],
@@ -5656,6 +5775,12 @@
       ]
     },
     {
+      "name": "a Sabertooth champion",
+      "locations": [
+        "-1263.64,-4.87,880.44"
+      ]
+    },
+    {
       "name": "a Sabertooth darkstrider",
       "levelRange": "16",
       "locations": [
@@ -5748,6 +5873,9 @@
     },
     {
       "name": "a Sabertooth Hero",
+      "locations": [
+        "-1256.49,-2.28,896.24"
+      ],
       "utterances": [
         "I'll rip your throat open!"
       ]
@@ -7039,7 +7167,18 @@
         "-943.62,-15.61,361.63",
         "-1001.18,-9.47,138.72",
         "-1636.90,-14.42,345.12",
-        "-447.75,-25.03,352.38"
+        "-447.75,-25.03,352.38",
+        "-1201.82,-20.07,267.28",
+        "-1354.27,-14.58,115.24",
+        "-1368.55,-18.02,140.27",
+        "-1321.69,-14.35,156.34",
+        "-1385.75,-10.55,170.32",
+        "-1370.94,-12.95,179.79",
+        "-1276.58,-7.74,205.45",
+        "-1131.30,-16.60,251.47",
+        "-1136.05,2.80,191.88",
+        "-1168.46,-0.45,195.17",
+        "-893.77,-23.98,343.42"
       ],
       "drops": [
         {
@@ -7062,6 +7201,12 @@
     },
     {
       "name": "Timothus Yelrow",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1309.94,37.86,57.17"
       ],
@@ -7194,6 +7339,15 @@
       ]
     },
     {
+      "name": "Vorn Scuttlebrow",
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-2048.75,15.74,-486.91"
+      ]
+    },
+    {
       "name": "a wandering bat",
       "levelRange": "12",
       "locations": [
@@ -7216,7 +7370,8 @@
         "-470.24,1.61,-212.08",
         "-597.19,-23.13,285.84",
         "-555.42,-26.60,304.66",
-        "-537.23,-30.48,313.06"
+        "-537.23,-30.48,313.06",
+        "-533.94,-13.86,225.62"
       ],
       "drops": [
         {
@@ -7367,6 +7522,12 @@
     },
     {
       "name": "Yoru the Old",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
       "locations": [
         "-1814.32,-37.99,-522.66"
       ],
@@ -7375,7 +7536,8 @@
         "Return here when you have enough to last me the winter.  I await your return. I have much to teach you.",
         "Did you bring the firewood I asked you to gather?",
         "Thank you ... thank you.  Just stack it over there.  I believe you are ready now ... yes, I can see it.  But before I teach you these things, would you be so kind as to make me something to eat?  I'm very hungry and my old body grows tired quickly.",
-        "Oh, it has been a very long time since I have had anything but broth and tea.  I miss the taste of cooked meat.  Yes, if you could get me some meat, I would be very grateful."
+        "Oh, it has been a very long time since I have had anything but broth and tea.  I miss the taste of cooked meat.  Yes, if you could get me some meat, I would be very grateful.",
+        "Someday you will be ready, but not now... not now.  You have so much more to learn."
       ]
     },
     {
@@ -7571,6 +7733,9 @@
       "gamelink": "\\aITEM 1392637750 1829858708:antonican ficus purple leaf\\/a"
     },
     {
+      "gamelink": "\\aITEM 1770023247 18011763:antonican ficus yellow leaf\\/a"
+    },
+    {
       "gamelink": "\\aITEM 1393712698 100965568:black glass coin of erudin\\/a"
     },
     {
@@ -7586,7 +7751,16 @@
       "gamelink": "\\aITEM 1321366674 -984353616:chipped shard of evocation\\/a"
     },
     {
+      "gamelink": "\\aITEM 356197014 1645576032:clear glass coin of erudin\\/a"
+    },
+    {
       "gamelink": "\\aITEM 1375121630 1171599299:cracked froglok bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 381703662 1246298828:cracked gnome bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 567980786 -1771765153:cracked half elf bone fragment\\/a"
     },
     {
       "gamelink": "\\aITEM 728453195 2001231493:cracked human bone fragment\\/a"
@@ -7601,6 +7775,12 @@
       "gamelink": "\\aITEM -1341170799 308633262:scuffed shard of abjuration\\/a"
     },
     {
+      "gamelink": "\\aITEM 1838761957 -806141222:scuffed shard of channeling\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 794244308 -1718389780:scuffed shard of conjuration\\/a"
+    },
+    {
       "gamelink": "\\aITEM -686869063 2018792859:shattered barbarian bone fragment\\/a"
     },
     {
@@ -7611,6 +7791,12 @@
     },
     {
       "gamelink": "\\aITEM 457189842 935647064:shattered halfling bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM -1526825307 2113563307:shattered human bone fragment\\/a"
+    },
+    {
+      "gamelink": "\\aITEM 1744325928 1349035949:shattered ogre bone fragment\\/a"
     }
   ],
   "resourceNodes": [

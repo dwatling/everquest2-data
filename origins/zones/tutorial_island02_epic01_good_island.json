@@ -28,12 +28,20 @@
       "utterances": [
         "To the grave with you!",
         "You cannot eliminate us!"
-      ]
+      ],
+      "drop_coin_min": 2,
+      "drop_coin_max": 2
     },
     {
       "name": "a tainted Sapswill hunter",
       "locations": [
         "-8.00,0.00,-2.99"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1271296919 1886379139:a corrupted zombie brain\\/a",
+          "chest": false
+        }
       ]
     },
     {
@@ -54,6 +62,16 @@
         "No, not the totems!  How did you know?",
         "Quite a nuisance you are.  My patience is gone, prepare for my wrath!",
         "Now rot like your friends!"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 2135479023 1338534617:Bullying Defense (Adept I)\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM 1547802530 150923227:Vith's Staff\\/a",
+          "chest": true
+        }
       ]
     }
   ]

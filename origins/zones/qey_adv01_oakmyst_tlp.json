@@ -152,7 +152,9 @@
         "787.00,7.19,-208.79",
         "809.77,5.72,-196.12",
         "766.46,10.21,-211.76",
-        "812.95,6.07,-205.80"
+        "812.95,6.07,-205.80",
+        "805.63,6.35,-203.22",
+        "798.60,7.00,-218.14"
       ],
       "drops": [
         {
@@ -190,7 +192,7 @@
           "chest": false
         }
       ],
-      "drop_coin_min": 8,
+      "drop_coin_min": 7,
       "drop_coin_max": 8
     },
     {
@@ -338,12 +340,18 @@
         "914.09,2.29,-226.25",
         "933.72,2.26,-230.40",
         "932.28,2.26,-237.80",
-        "918.74,15.95,-192.29"
+        "918.74,15.95,-192.29",
+        "945.70,2.34,-233.10",
+        "947.78,3.64,-223.20"
       ],
       "drops": [
         {
           "gamelink": "\\aITEM 830377007 -657580033:an arachnid leg\\/a",
           "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1975866482 -1098886237:machinist's gloves\\/a",
+          "chest": true
         }
       ]
     },
@@ -398,6 +406,24 @@
         "Oh no! Poacher! Poacher! I can tell! I can tell!",
         "Not a poacher, I see. Thank the misty winds! Sorry for thinking otherwise. With all the babble of poachers lurking Oakmyst, I thought for sure your strange face would be the last sight I'd see!",
         "A new defender of Oakmyst? Grand! Tracker Galera seeks proof of the poachers' existence. They say they lurk the shadows at night. Bring her proof, and I'm sure she'll be grateful."
+      ]
+    },
+    {
+      "name": "a sunshimmer sprite",
+      "locations": [
+        "900.09,2.25,-320.96",
+        "875.13,0.91,-312.00",
+        "884.50,1.72,-327.53"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1394122634 -257532895:Fiery Carnelian\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1385603239 -1287925213:a vial of fairy blood\\/a",
+          "chest": false
+        }
       ]
     },
     {

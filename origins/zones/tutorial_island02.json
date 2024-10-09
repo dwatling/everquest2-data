@@ -44,6 +44,44 @@
       ]
     },
     {
+      "name": "a coastal crab",
+      "locations": [
+        "-78.98,-7.66,83.84",
+        "-67.81,-7.28,77.40",
+        "-73.50,-8.05,79.22",
+        "-90.76,-7.76,95.57",
+        "-78.31,-7.77,67.34",
+        "-80.00,-7.43,48.00",
+        "-85.68,-7.41,64.00",
+        "-81.72,-8.68,33.70",
+        "-79.75,-9.16,114.02",
+        "-90.05,-7.54,80.00",
+        "-68.72,-8.14,69.67"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -97902171 -1752183025:crab meat\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 1387150657 376352734:a sandy bone shard\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
+      "name": "The Dark Blademaster",
+      "locations": [
+        "131.26,-0.44,-187.19"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 1595179460 1910093437:Dark Blademaster's Shield\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
       "name": "Defender Bristlebrow",
       "utterances": [
         "Sentries, alarm!",
@@ -60,6 +98,9 @@
     },
     {
       "name": "a defiled scout",
+      "locations": [
+        "65.57,-0.15,-197.38"
+      ],
       "utterances": [
         "Brains! Its what's for dinner.",
         "You cannot eliminate us!"
@@ -122,6 +163,11 @@
     },
     {
       "name": "a fallen assassin",
+      "locations": [
+        "-51.21,2.02,-148.37",
+        "-57.75,2.30,-142.25",
+        "-71.26,4.10,-136.43"
+      ],
       "utterances": [
         "Rest in peace.",
         "Seek death and it finds you.",
@@ -132,6 +178,9 @@
     },
     {
       "name": "a fallen brigand",
+      "locations": [
+        "-96.61,-11.69,-10.54"
+      ],
       "utterances": [
         "Your blood calls to me.",
         "Your eyes are so pretty.",
@@ -166,6 +215,15 @@
     },
     {
       "name": "a ghostly sapling",
+      "locations": [
+        "156.00,1.11,-39.45"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM 220303815 1408642818:a vial of spectral essence\\/a",
+          "chest": false
+        }
+      ],
       "drop_coin_min": 2,
       "drop_coin_max": 2
     },
@@ -192,6 +250,26 @@
       ]
     },
     {
+      "name": "a large coastal crab",
+      "locations": [
+        "-88.89,-7.11,96.29",
+        "-87.66,-8.84,37.00",
+        "-79.13,-7.93,37.41",
+        "-93.98,-9.08,48.89",
+        "-81.11,-8.90,115.02"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -1749799477 -1563320819:Crab Carapace Chestplate\\/a",
+          "chest": true
+        },
+        {
+          "gamelink": "\\aITEM -97902171 -1752183025:crab meat\\/a",
+          "chest": false
+        }
+      ]
+    },
+    {
       "name": "a lost scout",
       "utterances": [
         "Whe... where am I?  I should get back to the colony!",
@@ -211,6 +289,22 @@
         "If your gear is ever damaged in battle, come back to me and I'll repair it.",
         "I can fix up your gear when it gets damaged.",
         "Hello there, <player name>. Menders like me repair your equipment after it is damaged due to death. For more information on repairs, speak to Trainer Zidget Sprogrudder nearby. I'll fix your gear for a small fee, but menders in Qeynos won't be quite so generous!"
+      ]
+    },
+    {
+      "name": "a Morak devourer",
+      "locations": [
+        "91.50,-1.02,-143.44",
+        "200.80,-0.71,-147.27",
+        "206.09,-0.71,-213.63"
+      ]
+    },
+    {
+      "name": "a Morak mangler",
+      "locations": [
+        "-58.49,0.20,-200.61",
+        "-95.76,4.38,-152.00",
+        "-106.10,4.28,-146.70"
       ]
     },
     {
@@ -242,6 +336,12 @@
         "Mara'Vaen can be found at the head of Dead Canyon to the west.  ",
         "The Queen's Colony was established as a training ground for prospective citizens of Qeynos. Our great city needs valiant defenders.",
         "Ahh, your future is as bright as your heart, but there are perils in this world that only the mightiest of adventurers may overcome. Live for Qeynos and Qeynos will live for you!"
+      ]
+    },
+    {
+      "name": "a needlefang",
+      "locations": [
+        "-48.80,-11.94,33.13"
       ]
     },
     {
@@ -289,6 +389,26 @@
       ]
     },
     {
+      "name": "a razortooth shark",
+      "locations": [
+        "67.20,-10.60,-37.51",
+        "62.67,-12.34,-51.98",
+        "-30.03,-11.31,-55.59",
+        "32.00,-13.50,-37.00",
+        "-14.54,-12.52,-35.20"
+      ],
+      "drops": [
+        {
+          "gamelink": "\\aITEM -683869003 480848740:a damaged low quality shark skin\\/a",
+          "chest": false
+        },
+        {
+          "gamelink": "\\aITEM 2087260892 -213927943:Shark Skin Sleeves\\/a",
+          "chest": true
+        }
+      ]
+    },
+    {
       "name": "a Sapswill soothsayer",
       "utterances": [
         "Grexx promises us and his promises is kept!",
@@ -319,6 +439,15 @@
       ]
     },
     {
+      "name": "a sawtooth shark",
+      "locations": [
+        "54.73,-12.49,-46.57",
+        "51.03,-12.12,-53.54",
+        "-7.16,-12.83,-48.32",
+        "85.50,-13.30,-32.78"
+      ]
+    },
+    {
       "name": "Sergeant Haggus",
       "utterances": [
         "Har!  These scampering whelps will never break through!  Oh, hello there.  What's that, Murrar sent you?",
@@ -344,14 +473,50 @@
       ]
     },
     {
+      "name": "a tainted Sapswill ambusher",
+      "locations": [
+        "-48.64,2.19,-154.28",
+        "-48.58,2.02,-160.69",
+        "-48.85,2.22,-148.37",
+        "-29.88,3.49,-167.42"
+      ],
+      "drop_coin_min": 4,
+      "drop_coin_max": 4
+    },
+    {
       "name": "a tainted Sapswill hunter",
+      "locations": [
+        "135.87,1.78,-158.93",
+        "-6.66,2.62,-166.70"
+      ],
       "drop_coin_min": 4,
       "drop_coin_max": 4
     },
     {
       "name": "a tainted Sapswill invader",
+      "locations": [
+        "75.00,-4.36,159.00",
+        "70.92,-4.31,172.71",
+        "72.00,-4.50,180.00",
+        "64.00,-4.09,184.38"
+      ],
       "drop_coin_min": 4,
       "drop_coin_max": 4
+    },
+    {
+      "name": "a tainted Sapswill scout",
+      "locations": [
+        "207.70,-0.72,-211.97",
+        "77.43,-2.02,-157.27"
+      ]
+    },
+    {
+      "name": "a tainted Sapswill warrior",
+      "locations": [
+        "70.69,-0.41,-170.44",
+        "-6.96,2.62,-169.00",
+        "63.32,-0.32,-196.58"
+      ]
     },
     {
       "name": "Trainer Gregory Collins",
@@ -378,6 +543,14 @@
         "Sturdy fighters such as Guardians, Berserkers, Monks, and Paladins stand at the front lines of battle facing the enemy. Crafty scouts such as Swashbucklers, Rangers, Troubadors, and Dirges generally stay close to their foes as well, but prefer to launch attacks from the back or side where they are less likely to be counterattacked.",
         "So, did you defeat the sparring partner like I asked?",
         "Great work! You've proven your worth and are ready for greater challenges. If you want further instruction later, just come see me. But right now you must report back to Murrar so that you can discover what's behind the trouble here at the colony."
+      ]
+    },
+    {
+      "name": "a triggerfish",
+      "locations": [
+        "-42.82,-14.48,31.51",
+        "-51.68,-10.48,34.02",
+        "-37.68,-12.47,17.87"
       ]
     },
     {

@@ -172,8 +172,10 @@
     },
     {
       "name": "a cow elk",
+      "levelRange": "2",
       "locations": [
-        "124.22,-3.70,180.70"
+        "124.22,-3.70,180.70",
+        "166.79,-2.65,184.54"
       ]
     },
     {
@@ -184,11 +186,17 @@
     },
     {
       "name": "an elk calf",
+      "levelRange": "1-2",
       "locations": [
         "79.50,-3.94,204.58",
         "101.57,-3.94,200.20",
         "93.87,-4.18,158.43",
-        "149.04,-3.60,135.84"
+        "149.04,-3.60,135.84",
+        "73.61,-4.13,200.71",
+        "55.27,-4.25,220.21",
+        "84.97,-4.54,195.31",
+        "100.07,-4.00,182.02",
+        "78.42,-3.83,214.21"
       ],
       "drops": [
         {
@@ -259,6 +267,12 @@
         "I can fix things that are damaged in battle.",
         "Hello there, <player name>. Menders like me repair your equipment after it gets damaged due to death. To learn more about repairs, speak to Trainer Vissa Sathliss nearby. I'll fix your gear for a small fee, but menders in Freeport won't be quite so generous!",
         "If your gear gets damaged in battle, return to me and I can repair it."
+      ]
+    },
+    {
+      "name": "Jonas Rollings",
+      "utterances": [
+        "Maybe I shouldn't have drank so much last night."
       ]
     },
     {
@@ -398,6 +412,13 @@
       ],
       "drop_coin_min": 3,
       "drop_coin_max": 3
+    },
+    {
+      "name": "a small sand tortoise",
+      "levelRange": "1-2",
+      "locations": [
+        "-31.19,-9.51,247.83"
+      ]
     },
     {
       "name": "Swift",
@@ -912,10 +933,13 @@
     },
     {
       "name": "a worker bee",
+      "levelRange": "1-2",
       "locations": [
         "68.02,-3.79,208.56",
         "70.04,-4.04,201.35",
-        "79.39,-4.27,199.75"
+        "79.39,-4.27,199.75",
+        "77.92,1.62,198.94",
+        "67.33,-4.10,194.21"
       ],
       "drops": [
         {
@@ -957,6 +981,9 @@
   "resourceNodes": [
     {
       "name": "the coffee bush"
+    },
+    {
+      "name": "the roots"
     },
     {
       "name": "the rugged ore"

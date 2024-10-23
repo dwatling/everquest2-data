@@ -18,18 +18,68 @@
   "npcs": [
     {
       "name": "Brother Bolerg",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1089.64,-23.61,710.31"
+      ],
       "utterances": [
         "By Brell's hammer! Are you trying to get us all killed!?"
       ]
     },
     {
       "name": "Brother Gimeft",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1095.41,-24.09,716.13"
+      ],
       "utterances": [
         "Ahhh... Quit with your incessant poking!"
       ]
     },
     {
+      "name": "Brother Morrim",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1091.35,-23.00,727.97"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1228444894 -1115019111 0 0 0:a used torch\\/a",
+          "prices": [
+            {
+              "coin": 443
+            }
+          ]
+        },
+        {
+          "gamelink": "\\aITEM -2026662392 738179339 0 0 0:an old dwarven shovel\\/a",
+          "prices": [
+            {
+              "coin": 1823
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "a charred acolyte",
+      "levelRange": "15-18",
+      "difficulty": "heroic^^^",
       "utterances": [
         "To the grave with you!",
         "I'm shattered and broken.",
@@ -58,6 +108,8 @@
     },
     {
       "name": "a charred diviner",
+      "levelRange": "15-18",
+      "difficulty": "heroic^^^",
       "utterances": [
         "As I rise from the grave,  you will now take my place!",
         "You cannot eliminate us!",
@@ -68,6 +120,8 @@
     },
     {
       "name": "a charred herald",
+      "levelRange": "15-18",
+      "difficulty": "heroic^^^",
       "utterances": [
         "Seek death and it finds you.",
         "As I rise from the grave,  you will now take my place!",
@@ -85,6 +139,8 @@
     },
     {
       "name": "a charred magus",
+      "levelRange": "15-18",
+      "difficulty": "heroic^^^",
       "utterances": [
         "As I rise from the grave,  you will now take my place!",
         "You cannot eliminate us!",
@@ -108,6 +164,8 @@
     },
     {
       "name": "a charred minion",
+      "levelRange": "15-18",
+      "difficulty": "heroic^^^",
       "utterances": [
         "Your eyes are so pretty.",
         "I didn't need those bones anyway.",
@@ -130,6 +188,8 @@
     },
     {
       "name": "a charred sentry",
+      "levelRange": "15-18",
+      "difficulty": "heroic^^^",
       "utterances": [
         "Your blood calls to me.",
         "Rest in peace.",
@@ -172,7 +232,37 @@
       "drop_coin_max": 143
     },
     {
+      "name": "Kalceta",
+      "race": [
+        "human"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1094.77,-22.91,732.10"
+      ]
+    },
+    {
+      "name": "Lord Nalin Glordar",
+      "purpose": "Mender",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1089.66,-23.05,726.14"
+      ],
+      "utterances": [
+        "Welcome! Is there anything I can help you with or are you looking to find an apprenticeship?"
+      ]
+    },
+    {
       "name": "a scathe bishop",
+      "levelRange": "18",
+      "difficulty": "heroic^^^",
       "drops": [
         {
           "gamelink": "\\aITEM -2129749343 -119286990:advanced craftsman volume 15\\/a",
@@ -196,6 +286,8 @@
     },
     {
       "name": "a scathe harbinger",
+      "levelRange": "18",
+      "difficulty": "heroic^^^",
       "drops": [
         {
           "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
@@ -215,6 +307,8 @@
     },
     {
       "name": "a scathe knight",
+      "levelRange": "18",
+      "difficulty": "heroic^^^",
       "drops": [
         {
           "gamelink": "\\aITEM 1731581597 2018646153:Coral Amulet\\/a",
@@ -233,7 +327,77 @@
       "drop_coin_max": 127
     },
     {
+      "name": "Sentry Bofon",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1111.20,-23.98,738.03"
+      ]
+    },
+    {
+      "name": "Sentry Delain",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1098.65,-21.61,747.21",
+        "-1089.15,-20.15,746.50"
+      ]
+    },
+    {
+      "name": "Sentry Falthur",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1084.83,-21.07,708.51"
+      ]
+    },
+    {
+      "name": "Sentry Thort",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1109.03,-23.81,743.26"
+      ]
+    },
+    {
+      "name": "Sentry Yurur",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1183.96,-15.80,697.62"
+      ]
+    },
+    {
       "name": "Sir Thothur Dorarr",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1102.08,-23.05,736.76"
+      ],
       "utterances": [
         "Hrmm... The unholy power seems to emanate from over there... that's where our brothers were lost... but what are... Oh, what is it?",
         "Well, nice to meet yah! We could really use your help.",
@@ -243,17 +407,75 @@
         "Perhaps a sigil of undeath ... Here, take this ward of undeath. You can destroy any sigils of undeath you come across with this. Simply touch the ward against the sigil.",
         "Good! I appreciate your help!",
         "Did you destroy all of the sigils?",
-        "Good job! I think we can take it from here. Soon we will rebuild this Gully. Thanks again for the help. Please take this."
+        "Good job! I think we can take it from here. Soon we will rebuild this Gully. Thanks again for the help. Please take this.",
+        "Hrmm... The unholy power seems to eminate from over there... that's where our brothers were lost... but what are... Oh, what is it?"
+      ]
+    },
+    {
+      "name": "Sir Whurar Darcal",
+      "purpose": "General Goods",
+      "race": [
+        "dwarf"
+      ],
+      "gender": [
+        "male"
+      ],
+      "locations": [
+        "-1095.06,-23.17,728.37"
+      ],
+      "store": [
+        {
+          "gamelink": "\\aITEM 1659182822 2099621516 0 0 0:a torch\\/a",
+          "prices": [
+              {
+                  "coin": 2
+              }
+          ]
+        },
+        {
+            "gamelink": "\\aITEM -426289183 -435115855 0 0 0:flask of pond water\\/a",
+            "prices": [
+                {
+                    "coin": 29
+                }
+            ]
+        },
+        {
+            "gamelink": "\\aITEM -1347014509 -1543938383 0 0 0:plain bread\\/a",
+            "prices": [
+                {
+                    "coin": 29
+                }
+            ]
+        },
+        {
+            "gamelink": "\\aITEM -1241081646 1636802182 0 0 0:rawhide leather rucksack\\/a",
+            "prices": [
+                {
+                    "coin": 180
+                }
+            ]
+        }
       ]
     },
     {
       "name": "a wraithly stalker",
+      "levelRange": "15-18",
+      "difficulty": "heroic^^^",
       "drops": [
         {
           "gamelink": "\\aITEM 1202278372 1384654712:advanced craftsman volume 10\\/a",
           "chest": true
         }
       ]
+    }
+  ],
+  "resourceNodes": [
+    {
+      "name": "the beast den"
+    },
+    {
+      "name": "the mesquite catch weed"
     }
   ]
 }

@@ -24,6 +24,134 @@
 		}
 	},
 	{
+		"id": 2436558414,
+		"name": "Favors",
+		"giver_npc": {
+			"zone": "qey_adv02_ruins",
+			"name": "Acting Lieutenant Germain"
+		},
+		"next_quest": {
+			"id": 3862814424,
+			"name": "Returning to the Disturbance"
+		}
+	},
+	{
+		"id": 2436558414,
+		"name": "Favors",
+		"giver_npc": {
+			"zone": "qey_adv02_ruins",
+			"name": "Acting Lieutenant Germain"
+		},
+		"next_quest": {
+			"id": 3862814424,
+			"name": "Returning to the Disturbance"
+		}
+	},
+	{
+		"id": 3862814424,
+		"name": "Returning to the Disturbance",
+		"giver_npc": {
+			"zone": "qey_adv02_ruins",
+			"name": "Acting Lieutenant Germain"
+		},
+		"next_quest": {
+			"id": 2019117947,
+			"name": "Uncover the Caches"
+		}
+	},
+	{
+		"id": 2019117947,
+		"name": "Uncover the Caches",
+		"giver_npc": {
+			"zone": "qey_adv02_ruins",
+			"name": "Acting Lieutenant Germain"
+		},
+		"next_quest": {
+			"id": 257850349,
+			"name": "Lure"
+		}
+	},
+	{
+		"id": 257850349,
+		"name": "Lure",
+		"next_quest": {
+			"id": 3652488084,
+			"name": "Reinforcements"
+		}
+	},
+	{
+		"id": 3652488084,
+		"name": "Reinforcements",
+		"giver_npc": {
+			"zone": "qey_adv03_caves",
+			"name": "Consul Bree"
+		},
+		"next_quest": {
+			"id": 1011566133,
+			"name": "A Lack of Information"
+		}
+	},
+	{
+		"id": 1728815024,
+		"name": "Achoo! Antonican Pepper",
+		"giver_npc": {
+			"zone": "antonica_tlp",
+			"name": "Matsy Rollingpin"
+		},
+		"next_quest": {
+			"id": 1728815024,
+			"name": "Blub, Blub - Something Smells Fishy"
+		}
+	},
+	{
+		"id": 1728815024,
+		"name": "Blub, Blub - Something Smells Fishy",
+		"giver_npc": {
+			"zone": "antonica_tlp",
+			"name": "Matsy Rollingpin"
+		},
+		"next_quest": {
+			"id": 269266726,
+			"name": "Killing with Kindness, One Barbarian at a Time"
+		}
+	},
+	{
+		"id": 269266726,
+		"name": "Killing with Kindness, One Barbarian at a Time",
+		"giver_npc": {
+			"zone": "antonica_tlp",
+			"name": "Matsy Rollingpin"
+		},
+		"next_quest": {
+			"id": 2389195397,
+			"name": "Care Package for Blarton"
+		}
+	},
+	{
+		"id": 2389195397,
+		"name": "Care Package for Blarton",
+		"giver_npc": {
+			"zone": "antonica_tlp",
+			"name": "Matsy Rollingpin"
+		},
+		"next_quest": {
+			"id": 4184803859,
+			"name": "Spicy Meat Pie"
+		}
+	},
+	{
+		"id": 4184803859,
+		"name": "Spicy Meat Pie",
+		"giver_npc": {
+			"zone": "antonica_tlp",
+			"name": "Matsy Rollingpin"
+		},
+		"next_quest": {
+			"id": 1617320873,
+			"name": "Mail Delivery for Matsy"
+		}
+	},
+	{
 		"name": "Restocking Bog Faeire Wings",
 		"category": "Nettleville Hovel"
 	},
